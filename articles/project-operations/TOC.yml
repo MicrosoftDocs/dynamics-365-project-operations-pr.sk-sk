@@ -1,0 +1,954 @@
+- name: "Dynamics\_365 Project Operations"
+  href: project-operations-home-page.md
+- name: Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
+  items:
+    - name: Proces predaja
+      items:
+        - name: Prehľad predaja
+          href: sales/sales-overview.md
+        - name: Kľúčové rozdiely
+          href: sales/key-differences.md
+        - name: Nastavenie
+          items:
+            - name: Produkty
+              href: sales/sales-products.md
+            - name: "Jednotky a\_jednotkové skupiny"
+              href: sales/sales-units-unit-groups.md
+            - name: Mena
+              href: sales/sales-currency.md
+        - name: Správa potenciálnych zákazníkov
+          href: sales/managing-leads.md
+        - name: Správa príležitostí
+          items:
+            - name: Hlavička príležitosti
+              href: sales/opportunity-header.md
+            - name: Riadky založené na produkte
+              href: sales/product-based-lines.md
+            - name: Riadky založené na projekte
+              href: sales/project-based-lines.md
+            - name: "Prepojenie na cenové ponuky a\_príležitosti"
+              href: sales/link-quotes-opportunities.md
+            - name: Uzavretie príležitosti
+              href: sales/close-opportunity.md
+        - name: Správa cenových ponúk
+          items:
+            - name: Kľúčové koncepty
+              href: sales/quotes-key-concepts.md
+            - name: "Správa hodnôt, rozpočtov zákazníkov a\_limitov, ktoré sa nesmú prekročiť, v\_cenových ponukách"
+              href: sales/quote-values-budgets-limits.md
+            - name: "Správa viacerých zákazníkov v\_cenovej ponuke"
+              href: sales/manage-multiple-customers-quote.md
+            - name: Riadky cenových ponúk založené na produkte
+              item:
+                - name: "Náklady v\_riadkoch cenových ponúk založených na produkte"
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Správa komplexných jednotiek pre riadky cenových ponúk založené na produkte
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Riadky cenových ponúk založené na projekte
+              items:
+                - name: Správa projektových cenníkov
+                  href: sales/managing-project-price-lists.md
+                - name: "Správa viacerých zákazníkov v\_riadku cenovej ponuky"
+                  href: sales/managing-multiple-customers-quote-line.md
+                - name: "Mapovanie projektov a\_úloh na riadok cenovej ponuky"
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: "Vytvorenie odhadov v\_riadku cenovej ponuky"
+                  href: sales/create-estimate-quote-line.md
+                - name: "Import odhadov z\_projektu do riadka cenovej ponuky"
+                  href: sales/import-estimate-project-quote-line.md
+                - name: "Správa hodnôt, rozpočtov zákazníkov a\_limitov, ktoré sa nesmú prekročiť, v\_cenových ponukách"
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: "Plány faktúr v\_riadku cenovej ponuky"
+                  href: sales/invoice-schedule-quote-line
+            - name: Využitie cenovej ponuky
+              href: sales/win-quote.md
+            - name: Nevyužitie cenovej ponuky
+              href: sales/lose-quote.md
+        - name: Správa zmlúv
+          items:
+            - name: Kľúčové koncepty
+              href: sales/contacts-key-concepts.md
+            - name: "Správa hodnôt, rozpočtov zákazníkov a\_limitov, ktoré sa nesmú prekročiť, v\_zmluvách"
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: "Správa viacerých zákazníkov v\_zmluve"
+              href: sales/manage-multiple-customers-contract.md
+            - name: Riadky zmlúv založené na produkte
+              items:
+                - name: "Náklady v\_riadkoch zmlúv založených na produkte"
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Správa komplexných jednotiek pre riadky zmlúv založené na produkte
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Riadky zmlúv založené na projekte
+              items:
+                - name: Správa projektových cenníkov
+                  href: sales/manage-project-price-lists.md
+                - name: "Správa viacerých zákazníkov v\_riadku zmluvy"
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: "Mapovanie projektov a\_úloh na riadok zmluvy"
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: "Vytvorenie odhadov z\_projektu do riadka zmluvy"
+                  href: sales/create-estimate-project-contract-line.md
+                - name: "Import odhadov z\_projektu do riadka zmluvy"
+                  href: sales/import-estimate-project-contract-line.md
+                - name: "Správa hodnôt zmlúv, rozpočtov zákazníkov a\_limitov, ktoré sa nesmú prekročiť, v\_riadku cenovej ponuky"
+                  href: sales/manage-quoted-values-budgets-limits-quote-line.md
+                - name: "Plány faktúr v\_riadku cenovej ponuky"
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Potvrdenie zmluvy
+              href: sales/confirm-contract.md
+            - name: Uzatvorenie zmluvy pre dokončenú prácu
+              href: sales/close-contract-work-completed.md
+            - name: Uzatvorenie zmluvy pre jej zrušenie
+              href: sales/close-contract-canceled.md
+    - name: "Ceny a\_náklady"
+      items:
+        - name: Cenníky produktov
+          href: pricing-costing/product-price-list.md
+        - name: Projektové cenníky
+          items:
+            - name: Cenník pre náklady
+              items:
+                - name: Nastavenie obstarávacích cenníkov
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Predvolené hodnoty cenníkov
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Prepísanie predvolených hodnôt
+                  href: pricing-costing/cost-override-default.md
+            - name: Nastavenie cenníka pre predaj
+              items:
+                - name: Nastavenie predajného cenníka
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Predvolené hodnoty predajného cenníka
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Prepísanie predvolených hodnôt
+                  href: pricing-costing/sales-override-default.md
+        - name: Cenové dimenzie
+          items:
+            - name: Prehľad cenových dimenzií
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: "Použitie existujúceho poľa v\_aplikácii Project Operations ako cenovej dimenzie"
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Vlastné polia ako cenové dimenzie
+              items:
+                - name: "Vytvorenie vlastných polí a\_entít ako cenových dimenzií"
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: "Pridanie vlastných polí do entít nastavenia cien a\_transakcií"
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Nastavenie vlastných polí ako cenových dimenzií
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Vypnutie cenovej dimenzie
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Projektový manažment
+      items:
+        - name: Prehľad projektového manažmentu
+          href: project-management/project-management-overview.md
+        - name: Etapy projektu
+          href: project-management/project-stages.md
+        - name: "Navigácia v\_používateľskom rozhraní"
+          href: project-management/navigate-ui.md
+        - name: Oboznámenie sa so stavom projektu
+          href: project-management/understand-project-status.md
+        - name: Definovanie kalendárov projektu
+          href: project-management/define-project-calendars.md
+        - name: Vytvorenie projektu
+          items:
+            - name: Vytvorenie počiatočných odhadov
+              href: project-management/create-initial-estimates.md
+            - name: Nastavenie kalendára projektu
+              href: project-management/set-project-calendar.md
+            - name: Nastavenie meny projektu
+              href: project-management/set-project-currency.md
+            - name: Definovanie zákazníka
+              href: project-management/set-customer.md
+            - name: Pridanie skupiny
+              href: project-management/add-group.md
+        - name: Aktualizácia projektu
+          href: project-management/update-project.md
+        - name: Kopírovanie projektu
+          href: project-management/copy-project.md
+        - name: Plánovanie štruktúry rozdelenia práce
+          items:
+            - name: Vytvorenie štruktúry rozdelenia práce
+              items:
+                - name: Vytvorenie úloh
+                  href: project-management/wbs-create-tasks.md
+                - name: "Vystrihnutie, kopírovanie a\_prilepenie úloh"
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: "Zrušenie a\_opätovné vykonanie úloh"
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Hierarchia štruktúry rozdelenia práce
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Hromadné aktualizácie úloh
+                  href: project-management/bulk-task-updates.md
+                - name: Úprava podrobností úlohy
+                  href: project-management/edit-task-details.md
+            - name: Vytvorenie priradení
+              items:
+                - name: Pridanie existujúcich zdrojov
+                  href: project-management/add-existing-resources.md
+                - name: Pridanie všeobecných zdrojov
+                  href: project-management/add-generic-resources.md
+                - name: "Oboznámenie sa s\_vplyvom priradení na úsilie, trvanie a\_dátum ukončenia úlohy"
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Zobrazenie tvarovania priradenia
+                  href: project-management/view-assignment-contours.md
+            - name: "Navigácia v\_prostredí na správu úloh"
+              items:
+                - name: Správa stĺpcov
+                  href: project-management/column-management.md
+                - name: Zobrazenia
+                  href: project-management/task-management-views.md
+                - name: Kontajnery
+                  href: project-management/task management-buckets.md
+        - name: Odhady projektov
+          items:
+            - name: Prehľad odhadov projektov
+              href: project-management/estimating-projects-overview.md
+            - name: Odhady zdrojov
+              items:
+                - name: "Obnovenie odhadov projektov s\_cieľom použiť zmeny v\_pláne projektu"
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: "Obnovenie cien a\_nákladových sadzieb v\_odhadoch projektov"
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: "Predvolené hodnoty obstarávacích cien a\_meny nákladov pre zdroj"
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: "Predvolené hodnoty sadzieb fakturácie a\_meny predaja pre zdroj"
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Vytvorenie odhadov výdavkov
+              items:
+                - name: "Predvolené hodnoty obstarávacích cien a\_meny nákladov pre výdavok"
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: "Predvolené hodnoty sadzieb fakturácie a\_meny predaja pre výdavok"
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: "Zostavenie cenových ponúk a\_zmlúv"
+          items:
+            - name: Import štruktúry rozdelenia práce do cenových ponúk
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Import štruktúry rozdelenia práce do zmlúv
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Sledovanie projektu
+          items:
+            - name: Domovská stránka sledovania projektu
+              href: project-management/project-tracking-overview.md
+            - name: Definície stĺpcov
+              items:
+                - name: Úsilie
+                  href: project-management/effort.md
+                - name: Náklady
+                  href: project-management/cost.md
+                - name: Predaj
+                  href: project-management/sales.md
+            - name: Aktualizácia odhadu pri dokončení
+              href: project-management/update-completed-estimate.md
+        - name: Členovia projektového tímu
+          items:
+            - name: Prehľad členov projektového tímu
+              href: project-management/project-team-members-overview.md
+            - name: Udržiavanie členov tímu
+              items:
+                - name: Pridanie členov tímu
+                  href: project-management/add-team-members.md
+                - name: Aktualizácia členov projektového tímu
+                  href: project-management/update-project-team-members.md
+                - name: Odstránenie členov tímu
+                  href: project-management/delete-team-members.md
+                - name: Údržba rezervácií
+                  href: project-management/maintain-bookings.md
+                - name: Schvaľovatelia projektov
+                  href: project-management/project-approvers.md
+        - name: Predaj
+          items:
+            - name: Prehľad karty predaja
+              href: project-management/sales-tab-overview.md
+        - name: Spolupráca
+          items:
+            - name: Skupiny
+              href: project-management/groups.md
+        - name: Najčastejšie otázky týkajúce sa plánovania projektu
+          href: project-management/project-planning-faq.md
+    - name: Správa zdrojov
+      items:
+        - name: Prehľad správy zdrojov
+          href: resource-management/resource-management-overview.md
+        - name: Kľúčové koncepty
+          href: resource-management/resource-management-key-concepts.md
+        - name: Rezervácie verzus priradenia
+          href: resource-management/booking-vs-assignment.md
+        - name: Režimy správy zdrojov
+          items:
+            - name: Prehľad režimu správy zdrojov
+              href: resource-management/resource-management-mode-overview.md
+            - name: Hybridné
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Centrálne
+              href: resource-management/resource-management-mode-central.md
+        - name: Centralizovaná rezervácia
+          items:
+            - name: Prehľad centralizovaných rezervácií
+              href: resource-management/centralized-booking-overview.md
+            - name: "Pridanie všeobecných členov tímu k\_úlohám"
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Definovanie požiadaviek zdrojov
+              href: resource-management/define-resource-requirements.md
+            - name: Definovanie tvarovania požiadavky
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Aktualizácia požiadaviek zdrojov
+              href: resource-management/update-resource-requirements.md
+            - name: Odoslanie požiadaviek zdrojov
+              href: resource-management/submit-resource-requirements.md
+            - name: "Žiadosti o\_zdroje"
+              items:
+                - name: "Prehľad žiadostí o\_zdroje"
+                  href: resource-management/resource-requests-overview.md
+                - name: "Kontrola polí a\_akcií"
+                  href: resource-management/review-fields-actions.md
+                - name: Vyhľadanie zdrojov
+                  href: resource-management/find-resources.md
+                - name: Kontrola navrhovaných zdrojov
+                  href: resource-management/review-proposed-resources.md
+        - name: Decentralizovaná rezervácia zdroja
+          items:
+            - name: Prehľad decentralizovaných rezervácií zdrojov
+              href: resource-management/centralized-booking-overview.md
+            - name: Možnosti priamej rezervácie
+              href: resource-management/options-book-directly.md
+            - name: Splnenie všeobecných požiadaviek zdrojov
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Spravovanie zdrojov
+          items:
+            - name: Vytvorenie zdrojov
+              href: resource-management/create-resources.md
+            - name: "Definovanie odborností a\_spôsobilostí"
+              href: resource-management/define-skills-proficiencies.md
+            - name: Definovanie rol
+              href: resource-management/define-roles.md
+            - name: Definovanie kalendárov zdrojov
+              href: resource-management/define-resource-calendars.md
+            - name: "Priradenie zdrojov k\_organizačným jednotkám"
+              href: resource-management/associate-resources-organizational-units.md
+            - name: "Priradenie zdrojov k\_spoločnostiam"
+              href: resource-management/associate-resources-companies.md
+        - name: Metódy prideľovania rezervácií
+          href: resource-management/booking-allocation-methods.md
+        - name: Stav rezervácie
+          href: resource-management/booking-status.md
+        - name: "Odbornosti a\_modely spôsobilosti"
+          href: resource-management/skills-proficiency-models.md
+        - name: Odsúhlasenie zdrojov
+          items:
+            - name: Prehľad odsúhlasenia zdrojov
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Kľúčové koncepty
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Navigácia
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Rozšírenie rezervácií
+              href: resource-management/extend-bookings.md
+            - name: Správa viacerých časových pásiem
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Využitie zdroja
+          items:
+            - name: Prehľad využitia zdroja
+              href: resource-management/resource-utilization-overview.md
+            - name: "Vyhľadávanie, nastavenia a\_navigácia"
+              href: resource-management/search-settings-navigation.md
+        - name: Tabuľa plánovania
+          items:
+            - name: "Navigácia a\_kľúčové nastavenia"
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Prispôsobenie
+              href: resource-management/personalization-urs.md
+            - name: Vyhľadávanie
+              href: resource-management/search-urs.md
+            - name: Akcie rezervácií
+              href: resource-management/booking-actions-urs.md
+            - name: Rezervácia
+              items:
+                - name: Rezervovanie projektu
+                  href: resource-management/book-project.md
+                - name: Rezervovanie otvorených požiadaviek
+                  href: resource-management/book-open-requirements.md
+                - name: Nahradenie zdrojov
+                  href: resource-management/substitute-resources.md
+                - name: Úprava existujúcich rezervácií
+                  href: resource-management/edit-existing-bookings.md
+        - name: Najčastejšie otázky týkajúce sa správy zdrojov
+          href: resource-management/resource-management-faq.md
+    - name: Čas
+      items:
+        - name: Prehľad zadaní času
+          href: time/time-entry-overview.md
+        - name: Vytvorenie zadaní času
+          items:
+            - name: "Import rezervácií, priradení a\_položiek v\_kalendári"
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Správanie používateľského rozhrania
+              href: time/ui-behavior.md
+        - name: Odoslanie zadaní času
+          href: time/submit-time-entries.md
+        - name: Odvolanie zadaní času
+          items:
+            - name: Pred schválením
+              href: time/recall-time-entries-before-approval.md
+            - name: Po schválení
+              href: time/recall-time-entries-after-approval.md
+        - name: Schválenie zadaní času
+          href: time/approvals.md
+        - name: Poznámky vývojára
+          items:
+            - name: Rozšírenie zadaní času
+              href: time/extending-time-entries.md
+            - name: Prispôsobenie mriežky týždenných zadaní času
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Otázky zabezpečenia
+              href: time/security-considerations.md
+    - name: Výdavok
+      items:
+        - name: Domovská stránka výdavkov
+          href: expense/expense-overview.md
+        - name: "Záznam o\_čiastočnom výdavku"
+          href: expense/expense-lite-entry.md
+        - name: "Odoslanie a\_odvolanie záznamov o\_výdavkoch"
+          href: expense/submit-recall-expense-entries.md
+        - name: "Schvaľovanie záznamov o\_čiastočných výdavkoch"
+          href: expense/approvals.md
+        - name: Prostredie správy výdavkov pre projekty
+          items:
+            - name: "Konfigurácia a\_nastavenie"
+              items:
+                - name: Nastavenie politík
+                  href: expense/set-up-policies.md
+                - name: Nastavenie pracovných postupov
+                  href: expense/set-up-workflows.md
+                - name: Správa delegovania
+                  href: expense/manage-delegation.md
+                - name: Konfigurácia parametrov správy výdavkov
+                  href: expense/configure-expense-management-parameters.md
+                - name: Nastavenie integrácie kreditnej karty
+                  href: expense/set-up-credit-card-integration.md
+                - name: Nastavenie kategórií výdavkov
+                  href: expense/set-up-expense-categories.md
+            - name: Vytvorenie výkazov výdavkov
+              items:
+                - name: Rozdelenia vo výkaze výdavkov
+                  href: expense/distributions-expense-report.md
+            - name: Schvaľovanie výkazov výdavkov
+              items:
+                - name: "Výkazy výdavkov a\_viacerí schvaľovatelia"
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Zaúčtovanie výkazov výdavkov
+              href: expense/posting-expense-reports.md
+            - name: Cestovná žiadanka
+              href: expense/travel-requisition.md
+            - name: "Platba vopred v\_hotovosti"
+              href: expense/cash-advance.md
+            - name: Za každý deň
+              href: expense/per-diems.md
+            - name: Finančný manažment
+              items:
+                - name: Vymáhanie DPH
+                  href: expense/vat-recovery.md
+            - name: Nové prostredie výdavkov
+              items:
+                - name: Prepracované výkazy výdavkov
+                  href: expense/expense-reports-reimagined.md
+                - name: "Priradenie potvrdenia k\_výdavku pomocou optického rozpoznávania znakov (OCR)"
+                  href: expense/match-receipt-expense-ocr.md
+        - name: Účtovanie výdavkov pomocou mobilného zariadenia
+          href: expense/expense-using-mobile.md
+    - name: Schválenia
+      items:
+        - name: Prehľad
+          href: approvals/approvals-overview.md
+        - name: Schválenie zadaní času
+          href: approvals/approving-time-entries.md
+        - name: "Schválenie záznamov o\_výdavkoch"
+          items:
+            - name: Čiastočný výdavok
+              href: approvals/approve-lite-expense.md
+            - name: Úplný výdavok
+              href: approvals/approve-full-expense.md
+        - name: Zrušenie schválených zadaní času
+          href: approvals/cancelling-approved-time-entries.md
+        - name: "Zrušenie schválených záznamov o\_výdavkoch"
+          items:
+            - name: Čiastočný výdavok
+              href: approvals/cancel-lite-expense.md
+            - name: Úplný výdavok
+              href: approvals/cancel-full-expense.md
+    - name: Skutočné hodnoty
+      items:
+        - name: Prehľad
+          href: actuals/actuals-overview.md
+        - name: Vytvorenie skutočných hodnôt pre interný projekt
+          href: actuals/create-actuals-internal-project.md
+        - name: Vytvorenie skutočných hodnôt pre zúčtovateľnú súčasť projektu
+          items:
+            - name: "Čas a\_materiál"
+              href: actuals/time-material.md
+            - name: Pevná cena
+              href: actuals/fixed-price.md
+        - name: "Správa stavu, ktorý sa nesmie prekročiť, a\_overení"
+          href: actuals/manage-not-exceed-status-validations.md
+        - name: Účtovné denníky projektov
+          items:
+            - name: "Vytvorenie účtovných denníkov projektov na zaznamenávanie poplatkov v\_rámci projektov"
+              href: actuals/create-project-journals-record-fees-projects.md
+            - name: "Vytvorenie účtovných denníkov projektov pre čas a\_výdavky"
+              href: actuals/create-project-journals-time-expense.md
+            - name: "Vytvorenie a\_potvrdenie účtovných denníkov opráv"
+              href: actuals/create-confirm-correction-journals-md
+        - name: Správa backlogu pre fakturáciu
+          href: actuals/manage-billing-backlog.md
+    - name: Fakturácia pro forma
+      items:
+        - name: Vytvorenie plánov faktúr
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Vytvorenie manuálnej faktúry pro forma
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Správa faktúry pro forma
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Potvrdenie faktúry pro forma
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Opravné faktúry
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Konfigurácia automatizovaného vytvárania faktúr
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: "Čiastočné nasadenie – dohoda o\_fakturácii pro forma"
+  items:
+    - name: Relevantné scenáre
+      href: applicable-scenarios.md
+    - name: Čo je nové
+      href: whats-new-mode-2-project-operations.md
+    - name: Nastavenie prostredia
+      href: set-up-environment-mode-2.md
+    - name: Vzorové údaje
+      href: sample-data-mode-2.md
+    - name: Proces predaja
+      items:
+        - name: Prehľad procesu predaja
+          href: sales/sales-overview.md
+        - name: Kľúčové rozdiely
+          href: sales/key-differences.md
+        - name: Nastavenie
+          items:
+            - name: Produkty
+              href: sales/sales-products.md
+            - name: "Jednotky a\_jednotkové skupiny"
+              href: sales/sales-units-unit-groups.md
+            - name: Mena
+              href: sales/sales-currency.md
+        - name: Správa potenciálnych zákazníkov
+          href: sales/managing-leads.md
+        - name: Správa príležitostí
+          items:
+            - name: Hlavička príležitosti
+              href: sales/opportunity-header.md
+            - name: Riadky založené na produkte
+              href: sales/product-based-lines.md
+            - name: Riadky založené na projekte
+              href: sales/project-based-lines.md
+            - name: "Prepojenie na cenové ponuky a\_príležitosti"
+              href: sales/link-quotes-opportunities.md
+            - name: Uzavretie príležitosti
+              href: sales/close-opportunity.md
+        - name: Správa cenových ponúk
+          items:
+            - name: Kľúčové koncepty
+              href: sales/quotes-key-concepts.md
+            - name: "Správa hodnôt, rozpočtov zákazníkov a\_limitov, ktoré sa nesmú prekročiť, v\_cenových ponukách"
+              href: sales/quote-values-budget-limits.md
+            - name: "Správa viacerých zákazníkov v\_cenovej ponuke"
+              href: sales/manage-multiple-customers-quote.md
+            - name: Riadky cenových ponúk založené na produkte
+              items:
+                - name: "Náklady v\_riadkoch cenových ponúk založených na produkte"
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Správa komplexných jednotiek pre riadky cenových ponúk založené na produkte
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Riadky cenových ponúk založené na projekte
+              items:
+                - name: Správa projektových cenníkov
+                  href: sales/manage-project-price-lists.md
+                - name: "Správa viacerých zákazníkov v\_riadku cenovej ponuky"
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: "Mapovanie projektov a\_úloh na riadok cenovej ponuky"
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: "Vytvorenie odhadov v\_riadku cenovej ponuky"
+                  href: sales/create-estimate-quote-line.md
+                - name: "Import odhadov z\_projektu do riadka cenovej ponuky"
+                  href: sales/import-estimate-project-quote-line.md
+                - name: "Správa hodnôt, rozpočtov zákazníkov a\_limitov, ktoré sa nesmú prekročiť, v\_cenových ponukách"
+                  href: sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: "Plány faktúr v\_riadku cenovej ponuky"
+                  href: sales/invoice-schedule-quote-line.md
+            - name: Využitie cenovej ponuky
+              href: sales/win-quote.md
+            - name: Nevyužitie cenovej ponuky
+              href: sales/lose-quote.md
+        - name: Správa zmlúv
+          items:
+            - name: Kľúčové koncepty
+              href: sales/contracts-key-concepts.md
+            - name: "Správa hodnôt, rozpočtov zákazníkov a\_limitov, ktoré sa nesmú prekročiť, v\_zmluvách"
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: "Správa viacerých zákazníkov v\_zmluve"
+              href: sales/manage-multiple-customers-contract.md
+            - name: Riadky zmlúv založené na produkte
+              items:
+                - name: "Náklady v\_riadkoch zmlúv založených na produkte"
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Správa komplexných jednotiek pre riadky zmlúv založené na produkte
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Riadky zmlúv založené na projekte
+              items:
+                - name: Správa projektových cenníkov
+                  href: sales/manage-project-price-lists.md
+                - name: "Správa viacerých zákazníkov v\_riadku zmluvy"
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: "Mapovanie projektov a\_úloh na riadok zmluvy"
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: "Vytvorenie odhadov z\_projektu do riadka zmluvy"
+                  href: sales/create-estimate-project-contract-line.md
+                - name: "Import odhadov z\_projektu do riadka zmluvy"
+                  href: sales/import-estimate-project-contract-line.md
+                - name: "Správa hodnôt zmlúv, rozpočtov zákazníkov a\_limitov, ktoré sa nesmú prekročiť, v\_riadku zmluvy"
+                  href: sales/manage-contract-values-project-based.md
+                - name: "Plány faktúr v\_riadku cenovej ponuky"
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Potvrdenie zmluvy
+              href: sales/confirm-contract.md
+            - name: Uzatvorenie zmluvy pre dokončenú prácu
+              href: sales/close-contract-work-completed.md
+            - name: Uzatvorenie zmluvy pre jej zrušenie
+              href: sales/close-contract-canceled.md
+    - name: "Ceny a\_náklady"
+      items:
+        - name: Cenníky produktov
+          href: pricing-costing/product-price-lists.md
+        - name: Projektové cenníky
+          items:
+            - name: Cenník pre náklady
+              items:
+                - name: Nastavenie obstarávacích cenníkov
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Predvolené hodnoty cenníkov
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Prepísanie predvolených hodnôt
+                  href: pricing-costing/cost-override-default.md
+            - name: Nastavenie cenníka pre predaj
+              items:
+                - name: Nastavenie predajného cenníka
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Predvolené hodnoty predajného cenníka
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Prepísanie predvolených hodnôt
+                  href: pricing-costing/sales-override-default.md
+        - name: Cenové dimenzie
+          items:
+            - name: Prehľad cenových dimenzií
+              href: pricing-costing/pricing-dimension-overview.md
+            - name: "Použitie existujúceho poľa v\_aplikácii Project Operations ako cenovej dimenzie"
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Vlastné polia ako cenová dimenzia
+              items:
+                - name: "Vytvorenie vlastných polí a\_entít ako cenových dimenzií"
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: "Pridanie vlastných polí do entít nastavenia cien a\_transakcií"
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Nastavenie vlastných polí ako cenových dimenzií
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Vypnutie cenovej dimenzie
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Projektový manažment
+      items:
+        - name: Prehľad projektového manažmentu
+          href: project-management/project-management-overview.md
+        - name: Etapy projektu
+          href: project-management/project-stages.md
+        - name: "Navigácia v\_používateľskom rozhraní"
+          href: project-management/navigate-ui.md
+        - name: Oboznámenie sa so stavom projektu
+          href: project-management/understand-project-status.md
+        - name: Definovanie kalendárov projektu
+          href: project-management/define-project-calendars.md
+        - name: Vytvorenie projektu
+          items:
+            - name: Vytvorenie počiatočných odhadov
+              href: project-management/create-initial-estimates.md
+            - name: Nastavenie kalendára projektu
+              href: project-management/set-project-calendar.md
+            - name: Nastavenie meny projektu
+              href: project-management/set-project-currency.md
+            - name: Definovanie zákazníka
+              href: project-management/set-customer.md
+            - name: Pridanie skupiny
+              href: project-management/add-group.md
+        - name: Aktualizácia projektu
+          href: project-management/update-project.md
+        - name: Kopírovanie projektu
+          href: project-management/copy-project.md
+        - name: Plánovanie štruktúry rozdelenia práce
+          items:
+            - name: Vytvorenie štruktúry rozdelenia práce
+              items:
+                - name: Vytvorenie úloh
+                  href: project-management/wbs-create-tasks.md
+                - name: "Vystrihnutie, kopírovanie a\_prilepenie úloh"
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: "Zrušenie a\_opätovné vykonanie úloh"
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Hierarchia štruktúry rozdelenia práce
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Hromadné aktualizácie úloh
+                  href: project-management/bulk-task-updates.md
+                - name: Úprava podrobností úlohy
+                  href: project-management/edit-task-details.md
+            - name: Vytvorenie priradení
+              items:
+                - name: Pridanie existujúcich zdrojov
+                  href: project-management/add-existing-resources.md
+                - name: Pridanie všeobecných zdrojov
+                  href: project-management/add-generic-resources.md
+                - name: "Oboznámenie sa s\_vplyvom priradení na úsilie, trvanie a\_dátum ukončenia úlohy"
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Zobrazenie tvarovania priradenia
+                  href: project-management/view-assignment-contours.md
+            - name: "Navigácia v\_prostredí na správu úloh"
+              items:
+                - name: Správa stĺpcov
+                  href: project-management/column-management.md
+                - name: Zobrazenia
+                  href: project-management/task-management-views.md
+                - name: Kontajnery
+                  href: project-management/task management-buckets.md
+        - name: Odhady projektov
+          items:
+            - name: Prehľad odhadov projektov
+              href: project-management/estimate-projects-overview.md
+            - name: Odhady zdrojov
+              items:
+                - name: "Obnovenie odhadov projektov s\_cieľom použiť zmeny v\_pláne projektu"
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: "Obnovenie cien a\_nákladových sadzieb v\_odhadoch projektov"
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: "Predvolené hodnoty obstarávacích cien a\_meny nákladov pre zdroj"
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: "Predvolené hodnoty sadzieb fakturácie a\_meny predaja pre zdroj"
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Vytvorenie odhadov výdavkov
+              items:
+                - name: "Predvolené hodnoty obstarávacích cien a\_meny nákladov pre výdavok"
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: "Predvolené hodnoty sadzieb fakturácie a\_meny predaja pre výdavok"
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: "Zostavenie cenových ponúk a\_zmlúv"
+          items:
+            - name: Import štruktúry rozdelenia práce do cenových ponúk
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Import štruktúry rozdelenia práce do zmlúv
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Sledovanie projektu
+          items:
+            - name: Domovská stránka sledovania projektu
+              href: project-management/cost-vs-effort-overview.md
+            - name: Definície stĺpcov
+              items:
+                - name: Úsilie
+                  href: project-management/effort.md
+                - name: Náklady
+                  href: project-management/cost.md
+                - name: Predaj
+                  href: project-management/sales.md
+            - name: Aktualizácia odhadu pri dokončení
+              href: project-management/update-completed-estimate.md
+        - name: Členovia projektového tímu
+          items:
+            - name: Prehľad členov projektového tímu
+              href: project-management/project-team-members-overview.md
+            - name: Udržiavanie členov tímu
+              items:
+                - name: Pridanie členov tímu
+                  href: project-management/add-team-members.md
+                - name: Aktualizácia členov projektového tímu
+                  href: project-management/update-project-team-members.md
+                - name: Odstránenie členov tímu
+                  href: project-management/delete-team-members.md
+                - name: Údržba rezervácií
+                  href: project-management/maintain-bookings.md
+                - name: Schvaľovatelia projektov
+                  href: project-management/project-approvers.md
+        - name: Predaj
+          items:
+            - name: Prehľad karty predaja
+              href: project-management/sales-tab-overview.md
+        - name: Spolupráca
+          items:
+            - name: Skupiny
+              href: project-management/groups.md
+        - name: Najčastejšie otázky týkajúce sa plánovania projektu
+          href: project-management/project-planning-faq.md
+    - name: Správa zdrojov
+      items:
+        - name: Prehľad správy zdrojov
+          href: resource-management/resource-management-overview.md
+        - name: Kľúčové koncepty
+          href: resource-management/resource-management-key-concepts.md
+        - name: Rezervácie verzus priradenia
+          href: resource-management/booking-vs-assignment.md
+        - name: Režimy správy zdrojov
+          items:
+            - name: Prehľad režimu správy zdrojov
+              href: resource-management/resource-management-mode-overview.md
+            - name: Hybridné
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Centrálne
+              href: resource-management/resource-management-mode-central.md
+        - name: Centralizovaná rezervácia
+          items:
+            - name: Prehľad centralizovaných rezervácií
+              href: resource-management/centralized-booking-overview.md
+            - name: "Pridanie všeobecných členov tímu k\_úlohám"
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Definovanie požiadaviek zdrojov
+              href: resource-management/define-resource-requirements.md
+            - name: Definovanie tvarovania požiadavky
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Aktualizácia požiadaviek zdrojov
+              href: resource-management/update-resource-requirements.md
+            - name: Odoslanie požiadaviek zdrojov
+              href: resource-management/submit-resource-requirements.md
+            - name: "Žiadosti o\_zdroje"
+              items:
+                - name: "Prehľad žiadostí o\_zdroje"
+                  href: resource-management/resource-requests-overview.md
+                - name: "Kontrola polí a\_akcií"
+                  href: resource-management/review-fields-actions.md
+                - name: Vyhľadanie zdrojov
+                  href: resource-management/find-resources.md
+                - name: Kontrola navrhovaných zdrojov
+                  href: resource-management/review-proposed-resources.md
+        - name: Decentralizovaná rezervácia zdroja
+          items:
+            - name: Prehľad decentralizovaných rezervácií zdrojov
+              href: resource-management/decentralized-resource-booking-overview.md
+            - name: Možnosti priamej rezervácie
+              href: resource-management/options-book-directly.md
+            - name: Splnenie všeobecných požiadaviek zdrojov
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Spravovanie zdrojov
+          items:
+            - name: Vytvorenie zdrojov
+              href: resource-management/create-resources.md
+            - name: "Definovanie odborností a\_spôsobilostí"
+              href: resource-management/define-skills-proficiencies.md
+            - name: Definovanie rol
+              href: resource-management/define-roles.md
+            - name: Definovanie kalendárov zdrojov
+              href: resource-management/define-resource-calendars.md
+            - name: "Priradenie zdrojov k\_organizačným jednotkám"
+              href: resource-management/associate-resources-organizational-units.md
+            - name: "Priradenie zdrojov k\_spoločnostiam"
+              href: resource-management/associate-resources-companies.md
+        - name: Metódy prideľovania rezervácií
+          href: resource-management/booking-allocation-methods.md
+        - name: Stavy rezervácií
+          href: resource-management/booking-status.md
+        - name: "Odbornosti a\_modely spôsobilosti"
+          href: resource-management/skills-proficiency-models.md
+        - name: Odsúhlasenie zdrojov
+          items:
+            - name: Prehľad odsúhlasenia zdrojov
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Kľúčové koncepty
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Navigácia
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Rozšírenie rezervácií
+              href: resource-management/extend-bookings.md
+            - name: Správa viacerých časových pásiem
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Využitie zdroja
+          items:
+            - name: Prehľad využitia zdroja
+              href: resource-management/resource-utilization-overview.md
+            - name: "Vyhľadávanie, nastavenia a\_navigácia"
+              href: resource-management/search-settings-navigation.md
+        - name: Tabuľa plánovania
+          items:
+            - name: "Navigácia a\_kľúčové nastavenia"
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Prispôsobenie
+              href: resource-management/personalization-urs.md
+            - name: Vyhľadávanie
+              href: resource-management/search-urs.md
+            - name: Akcie rezervácií
+              href: resource-management/booking-actions-urs.md
+            - name: Rezervácia
+              items:
+                - name: Rezervovanie projektu
+                  href: resource-management/book-project.md
+                - name: Rezervovanie otvorených požiadaviek
+                  href: resource-management/book-open-requirements.md
+                - name: Nahradenie zdrojov
+                  href: resource-management/substitute-resources.md
+                - name: Úprava existujúcich rezervácií
+                  href: resource-management/edit-existing-bookings.md
+        - name: Najčastejšie otázky týkajúce sa správy zdrojov
+          href: resource-management/resource-management-faq.md
+    - name: Čas
+      items:
+        - name: Prehľad zadaní času
+          href: time/time-entry-overview.md
+        - name: Vytvorenie zadaní času
+          items:
+            - name: "Import rezervácií, priradení a\_položiek v\_kalendári"
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Správanie používateľského rozhrania
+              href: time/ui-behavior.md
+        - name: Odoslanie zadaní času
+          href: time/submit-time-entries.md
+        - name: Odvolanie zadaní času
+          items:
+            - name: Pred schválením
+              href: time/recall-time-entries-before-approval.md
+            - name: Po schválení
+              href: time/recall-time-entries-after-approval.md
+        - name: Schválenie zadaní času
+          href: time/approvals.md
+        - name: Poznámky vývojára
+          items:
+            - name: Rozšírenie zadaní času
+              href: time/extending-time-entries.md
+            - name: Prispôsobenie mriežky týždenných zadaní času
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Otázky zabezpečenia
+              href: time/security-considerations.md
+    - name: Výdavok
+      items:
+        - name: Domovská stránka výdavkov
+          href: expense/expense-overview.md
+        - name: Zadanie výdavku
+          href: expense-entry.md
+    - name: Schválenia
+      items:
+        - name: Prehľad
+          href: approvals/approvals-overview.md
+        - name: Schválenie zadaní času
+          href: approvals/approving-time-entries.md
+        - name: "Schválenie záznamov o\_výdavkoch"
+          href: approve-expense-entries.md
+    - name: Fakturácia pro forma
+      items:
+        - name: Vytvorenie plánov faktúr
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Vytvorenie manuálnej faktúry pro forma
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Správa faktúry pro forma
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Potvrdenie faktúry pro forma
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Opravné faktúry
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Konfigurácia automatizovaného vytvárania faktúr
+          href: proforma-invoicing/configure-automated-invoice-creation.md

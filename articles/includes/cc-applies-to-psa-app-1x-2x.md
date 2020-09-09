@@ -1,0 +1,1 @@
+<span data-ttu-id="abceb-101">Platí pre aplikáciu Project Service, verzie 2.x a 1.x</span><span class="sxs-lookup"><span data-stu-id="abceb-101">Applies to Project Service app versions 2.x and 1.x</span></span>
