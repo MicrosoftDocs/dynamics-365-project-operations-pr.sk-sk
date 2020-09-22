@@ -1,0 +1,85 @@
+---
+title: Naplánujte zdroje pre projekt
+description: Ako naplánovať zdroje pre projekt v Project Service
+author: JohnPBurrows
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: 4935567d-9318-4f7c-9c02-c584a78b7841
+ms.author: jburrows
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: d9767e324b3caec4b5f9723347537dbe97ea34fb
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: sk-SK
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3755659"
+---
+# <a name="schedule-resources-for-a-project-project-service"></a>Plánovanie zdrojov projektu (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+Môžete skontrolovať dostupnosť na získanie celkový prehľad o spôsobe využitia vašich zdrojov, alebo môžete filtrovať zobrazenie podľa zručností, tímu, umiestnenia a ďalších možností.  
+  
+Tabuľa plánovania ukazuje zoznam zdrojov a ich dostupnosti. Vyberte režim zobrazenia zobraziť dostupnosť podľa **hodinami**, **deň**, **týždeň**, alebo **mesiac**.  
+  
+Predtým, ako použijete tabulu plánovania, je dôležité ju nastaviť. Ďalšie informácie si prečítajte v časti [Konfigurácia tabule plánovania (Field Service alebo Project Service Automation)](../field-service/configure-schedule-board.md).
+  
+Ak používate staršiu verziu, pre dostupnosť zdrojov pozrite [Zobraziť dostupnosť zdroja](../project-service/view-resource-availability.md).  
+
+> [!IMPORTANT]
+>  Na použitie funkcie tabule plánovanie, geografického označovania a služieb určovania polohy si budete musieť zapnúť mapy.  
+> 
+> 1. V hlavnej ponuke kliknite na tlačidlo **Plánovanie zdrojov** > **Správa**.  
+> 2. Kliknite na **Parametre plánovania**.  
+> 3. Otvorte záznam a prejdite nadol do sekcie **Resource Scheduling Optimization**.  
+> 4. V poli **Pripojiť k mapám** zvoľte možnosť **Áno**.  
+> 5. Odsúhlaste podmienky a uložte záznam.  
+> 6. V hlavnej ponuke zvoľte možnosť **Project Service** > **Tabuľa plánovania**. Existuje niekoľko spôsobov, ako odtiaľto manuálne naplánovať rezerváciu požiadavky: Vyberte spôsob, ktorý vám vyhovuje.
+  
+## <a name="find-available-resources"></a>Vyhľadanie dostupných zdrojov
+
+1.  V zozname **Požiadavka rezervácie** kliknite pravým tlačidlom myši na neplánovanú rezervácia a vyberte jednu z nasledujúcich možností:  
+  
+- Vybrať **nájsť dostupnosť - súčasné zdroje**nájsť dostupné zdroje v zozname zdrojov na palube plán.  
+- Vybrať **nájsť dostupnosť - všetky zdroje** a nájdite dostupné zdroje spomedzi zdrojov v systéme.  
+   > [!NOTE]
+   >  Ak tak urobíte, pri filtorch sa zobrazia možnosti pre zvolení požiadavky rezervácie.  
+  
+2. Keď vidíte dostupnej zásuvky kliknite pravým tlačidlom myši na časový úsek na palube rozvrh a vyberte **Rezervovať tu**. Alebo drag and drop rezervácia požiadavka dostupného časového úseku.  
+  
+
+## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a>Rezervujte si prostriedok pomocou denného zobrazenia a zistite, kedy je málo rezervovaný
+  
+1.  Na tabule plánovania, kliknite na tlačidlo **Režim zobrazenia** a vyberte **Dni**.  
+  
+    V zobrazení mriežky sa zobrazuje koľko hodín prostriedok je rezervované denne a ktoré dni je voľný.  
+  
+2.  Kliknite na názov prostriedku, ktorý chcete rezervovať, a potom kliknite na **Rezervovať**.  
+  
+3.  V dialógovom okne **Rezervácie zdrojov (vytvorenie)** vyberte projekt, ktorému chcete rezervovať prostriedok spolu s rezervácia metóda a časmi začatia a ukončenia.  
+  
+4.  Po skončení vyberte položku **Rezervovať**.  
+  
+## <a name="view-to-the-schedule-board"></a>Zobrazenie tabule plánovania
+  
+1.  Vyberte si nenaplánovanú požiadavku rezervácie zo zoznamu v spodnej časti.  
+  
+2.  Presuňte požiadavky rezervácie na dostupné zdroje a čas na tabuli plánovania.  
+  
+3.  Po skončení vyberte položku **Rezervovať**.  
+  
+### <a name="additional-resources"></a>Ďalšie zdroje  
+ [Príručka správcu zdrojov](../project-service/resource-manager-guide.md)

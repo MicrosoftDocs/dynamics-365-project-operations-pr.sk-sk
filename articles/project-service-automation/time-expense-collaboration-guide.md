@@ -1,0 +1,75 @@
+---
+title: Čas, výdavok a príručka spolupráce
+description: Sprievodca k času, nákladom a spolupráci pre Project Service
+author: revathiMuthiah
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: c517dd44-af65-4845-bbd2-243417c3743d
+ms.author: revathim
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 3ea0585f65284306171e8bbdd937d165fb282424
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: sk-SK
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3755625"
+---
+# <a name="time-expense-and-collaboration-guide-project-service"></a>Sprievodca časom, nákladmi a spoluprácou (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+Vitajte v aplikácii [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], ktoré pomôžu spoločnostiam pri správe predajov založených na projekte. 
+  
+ Tento sprievodca vás prevedie zadaním vášho času a nákladov pre projekty, na ktorých pracujete. Majte prehľad o čase a nákladoch, aby:  
+  
+- Vaši klienti sú účtovaní správne  
+  
+- Môžu vás za to, čo robíte, oceniť  
+  
+- Správcovia poznajú stav vašich projektov  
+  
+  Môžete tiež spolupracovať s vaše kolegami zdieľaním dokumentov a začatie konverzácií cez [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], ktoré sú prepojené s vašimi projektami.  
+  
+  Môžete zadať čas a náklady prostredníctvom webovej aplikácie (aplikácie v prehliadači), alebo cez aplikáciu [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] pre telefóny a tablety v mobilnom zariadení. Keď ste pripravení pre váš ďalší projekt, môžete použiť mobilnú aplikáciu Project Finder Mobile.  
+  
+Kliknite na odkaz nižšie a dozviete sa viac o tom, čo môžete urobiť so [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:  
+  
+-   [Získajte aplikácie](../project-service/get-apps.md)  
+  
+-   [Prihlásenie](../project-service/sign-in.md)  
+  
+-   [Zobrazenie vášho plánu](../project-service/view-schedule.md)  
+  
+-   [Riadiť projekty a rezervácie v kalendári služieb Office 365](../project-service/manage-project-bookings-office-365-calendar.md)  
+  
+-   [Zadajte čas](../project-service/enter-time.md)  
+  
+-   [Zadajte náklady](../project-service/enter-expenses.md)  
+  
+-   [Povolenie iným osobám zadať čas vstupu alebo náklady](../project-service/allow-someone-else-enter-time-entry-expense.md)  
+  
+-   [Naplánovanie času voľna ](../project-service/schedule-time-off.md)  
+  
+-   [Spolupracujte s členmi svojho projektového tímu s Office 365 skupinami](../project-service/collaborate-project-team-members-office-365-groups.md)  
+  
+-   [Vyhľadajte svoj ďalší projekt cez aplikáciu Project Finder Mobile](../project-service/find-next-project-finder-mobile-app.md)  
+  
+### <a name="see-also"></a>Pozrite si tiež  
+ [Prehľad Project Service](../project-service/overview.md)   
+ [Príručka správcu](../project-service/admin-guide.md)   
+ [Príručka manažéra obchodného vzťahu](../project-service/account-manager-guide.md)   
+ [Príručka projektového manažéra](../project-service/project-manager-guide.md)   
+ [Príručka správcu zdrojov](../project-service/resource-manager-guide.md)   
