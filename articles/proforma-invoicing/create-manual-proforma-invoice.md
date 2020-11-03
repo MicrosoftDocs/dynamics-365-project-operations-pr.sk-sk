@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1ad85262482f782391eca85f46ca0e63a887c89f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896139"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4084594"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Vytvorenie manuálnej zálohovej faktúry
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 Fakturácia poskytuje projektovým manažérom druhú úroveň schválenia pred vytvorením faktúr pre zákazníkov. Prvá úroveň schválenia sa dokončí, keď sú schválené zadania času a výdavkov, ktoré predkladajú členovia projektového tímu.
 
@@ -81,11 +80,11 @@ Ak chcete nakonfigurovať automatické vytváranie faktúr, postupujte podľa t�
 5. Vyberte **ProcessRunCaller** a potom **pridať**.
 6. V ďalšom dialógovom okne kliknite na **OK**. Pracovný postup **spánok** je nasledovaný pracovným postupom **proces**.
 
-    Môžete tiež vybrať **processrunner** v kroku 5. Potom, keď vyberiete **OK**, pracovný postup **proces** je nasledovaný pracovným postupom **spánok**.
+    Môžete tiež vybrať **processrunner** v kroku 5. Potom, keď vyberiete **OK** , pracovný postup **proces** je nasledovaný pracovným postupom **spánok**.
 
 Pracovné postupy **processruncaller** a **processrunner** vytvárajú faktúry. **ProcessRunCaller** volá **processrunner**. **ProcessRunner** je pracovný postup, ktorý skutočne vytvára faktúry. Prechádza všetky riadky zmluvy, pre ktoré musia byť vytvorené faktúry, a vytvára faktúry pre tieto riadky. Ak chcete určiť riadky zmluvy, pre ktoré musia byť vytvorené faktúry, úloha sa pozerá na dátumy spustenia faktúry pre riadky zmluvy. Ak riadky zmluvy patriace do jednej zmluvy majú rovnaký dátum spustenia faktúry, transakcie sa skombinujú do jednej faktúry, ktorá má dva riadky faktúry. Ak neexistujú žiadne transakcie na vytvorenie faktúr, úloha vynechá vytvorenie faktúry.
 
-Po dokončení **procesrunnera**, sa volá **processruncaller**, ktorý poskytuje čas ukončenia a je uzavretý. **ProcessRunCaller** potom spustí časovač, ktorý beží 24 hodín od zadaného času ukončenia. Na konci časovača, je **processruncaller** uzavretý.
+Po dokončení **procesrunnera** , sa volá **processruncaller** , ktorý poskytuje čas ukončenia a je uzavretý. **ProcessRunCaller** potom spustí časovač, ktorý beží 24 hodín od zadaného času ukončenia. Na konci časovača, je **processruncaller** uzavretý.
 
 Dávková úloha pre vytváranie faktúr je opakujúca sa úloha. Ak je táto dávková úloha spustená mnohokrát, sú vytvorené viaceré inštancie úlohy a spôsobujú chyby. Preto by ste mali spustiť dávkový proces len raz, a mali by ste ho reštartovať iba v prípade, že prestane fungovať.
 
@@ -100,7 +99,7 @@ Pri vytváraní návrhu faktúry projektu, všetky nefakturované predajné tran
 - Editujte a upravte množstvo a typ fakturácie.
 - Priamo pridajte čas, náklady a poplatky ako transakcie na faktúre. Túto funkciu môžete použiť, ak je riadok faktúry priradený k riadku zmluvy, ktorý umožňuje tieto triedy transakcií.
 
-Výberom **potvrdiť** potvrďte faktúru. Akcia potvrdiť je jednosmerná akcia. Keď vyberiete možnosť **potvrdiť**, systém urobí faktúru iba na čítanie a vytvorí účtované predajné skutočné hodnoty z každého detailu riadka faktúry pre každý riadok faktúry. Ak podrobnosti riadka faktúry odkazujú na skutočné hodnoty nefakturovaného predaja, systém tiež obnoví skutočné hodntoy nefakturovaného predaja. (Všetky podrobnosti riadka faktúry, ktoré boli vytvorené zo zadania času alebo výdavkov budú odkazovať na skutočné hodnoty nefakturovaného predaja.) Finančné integračné systémy môžu použiť tento zvrat na zvrátenie prebiehajúcej práce projektu (WIP) na účtovné účely.
+Výberom **potvrdiť** potvrďte faktúru. Akcia potvrdiť je jednosmerná akcia. Keď vyberiete možnosť **potvrdiť** , systém urobí faktúru iba na čítanie a vytvorí účtované predajné skutočné hodnoty z každého detailu riadka faktúry pre každý riadok faktúry. Ak podrobnosti riadka faktúry odkazujú na skutočné hodnoty nefakturovaného predaja, systém tiež obnoví skutočné hodntoy nefakturovaného predaja. (Všetky podrobnosti riadka faktúry, ktoré boli vytvorené zo zadania času alebo výdavkov budú odkazovať na skutočné hodnoty nefakturovaného predaja.) Finančné integračné systémy môžu použiť tento zvrat na zvrátenie prebiehajúcej práce projektu (WIP) na účtovné účely.
 
 ### <a name="correct-a-confirmed-invoice"></a>Oprava potvrdenej faktúry
 

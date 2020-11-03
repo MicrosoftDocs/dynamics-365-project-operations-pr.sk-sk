@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b11c67ebd21fdf423eeae2db8154f26787c2e64f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897965"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084491"
 ---
 # <a name="project-stages"></a>Etapy projektu
 
@@ -46,11 +45,11 @@ Po vytvorení projektu sa fáza projektu nastaví na **Nové**. Ak bol projekt v
 
 ## <a name="quote"></a>Cenová ponuka
 
-Po spojení projektu a cenovej ponuky alebo jeho vytvorení z cenovej ponuky sa etapa projektu nastaví na **cenová ponuka** a odhadované dátumy začatia a ukončenia sú aktualizované. Keď je projekt vo fáze **cenovej ponuky**, podrobnosti cenovej ponuky sa zobrazia na karte **predaje** na stránke **entita projektu**.
+Po spojení projektu a cenovej ponuky alebo jeho vytvorení z cenovej ponuky sa etapa projektu nastaví na **cenová ponuka** a odhadované dátumy začatia a ukončenia sú aktualizované. Keď je projekt vo fáze **cenovej ponuky** , podrobnosti cenovej ponuky sa zobrazia na karte **predaje** na stránke **entita projektu**.
 
 ## <a name="plan"></a>Plánovať
 
-Ak vyhráte cenovú ponuku, ktorá je priradená k projektu a project je posunutý do fázy **zmluvy**, stav projektu sa aktualizuje na **plán**. Keď je projekt vo fáze **plánu**, podrobnosti zmluvy sa zobrazia na stránke **entita projektu**.
+Ak vyhráte cenovú ponuku, ktorá je priradená k projektu a project je posunutý do fázy **zmluvy** , stav projektu sa aktualizuje na **plán**. Keď je projekt vo fáze **plánu** , podrobnosti zmluvy sa zobrazia na stránke **entita projektu**.
 
 ## <a name="deliver"></a>Doručiť
 
@@ -58,7 +57,7 @@ Keď je dokončený plán projektu, a ste pripravení na spustenie projektu, pro
 
 ## <a name="complete"></a>Dokončené 
 
-Keď je dokončená práca pre projekt, projektový manažér môže aktualizovať fázu na **dokončené**. Aktualizáciou fáze projektu na **dokončené**, projektový manažér naznačuje, že práca je 100-percentne dokončená, ale že projekt je stále otvorený tak, že všetky čakajúce časy alebo výdavkové položky môžu byť zaznamenané.
+Keď je dokončená práca pre projekt, projektový manažér môže aktualizovať fázu na **dokončené**. Aktualizáciou fáze projektu na **dokončené** , projektový manažér naznačuje, že práca je 100-percentne dokončená, ale že projekt je stále otvorený tak, že všetky čakajúce časy alebo výdavkové položky môžu byť zaznamenané.
 
 ## <a name="close"></a>Zavrieť
 

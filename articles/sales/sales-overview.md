@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3892224"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084563"
 ---
 # <a name="sales-processes-overview"></a>Prehľad procesov predaja
 
@@ -39,7 +38,7 @@ Hodnota predaja sa môže odhadnúť na základe projektov, ktoré boli predtým
 
 Môžete vytvoriť odhad cenovej ponuky na vysokej úrovni. Nakoniec, tento odhad na vysokej úrovni bude nahradený podrobnejším odhadom, ktorý je založený na pláne projektu, ktorý vytvoríte pomocou štandardizovaných šablón projektu. Tieto šablóny vám pomôžu vytvoriť plán a určiť peňažné hodnoty v cenovej ponuke a jej súčasti (riadky cenovej ponuky). 
 
-Môžete vytvoriť viacero cenových ponúk pre projekt a zoskupiť ich pod jedným záznamom príležitosti. Prípadne je jedna z týchto ponúk označená ako **Uzavretá ako vyhraná**, a vytvorí sa projektová zmluva alebo výkaz prác(SOW). Projektová zmluva obsahuje zmluvnú hodnotu pre každú súčasť (riadok zmluvy), ktorú zákazník akceptuje na doručenie. SOW sa zvyčajne vytvára ako Microsoft Word dokument. Všetky faktúry, ktoré sú odoslané zákazníkovi v priebehu projektu dodania odkaz projektu zmluvy alebo SOW.
+Môžete vytvoriť viacero cenových ponúk pre projekt a zoskupiť ich pod jedným záznamom príležitosti. Prípadne je jedna z týchto ponúk označená ako **Uzavretá ako vyhraná** , a vytvorí sa projektová zmluva alebo výkaz prác(SOW). Projektová zmluva obsahuje zmluvnú hodnotu pre každú súčasť (riadok zmluvy), ktorú zákazník akceptuje na doručenie. SOW sa zvyčajne vytvára ako Microsoft Word dokument. Všetky faktúry, ktoré sú odoslané zákazníkovi v priebehu projektu dodania odkaz projektu zmluvy alebo SOW.
 
 Môžete tiež vytvoriť alternatívne cenové ponuky v rámci jedného záznamu príležitosti alebo nastaviť systém tak, aby sa projektová zmluva vytvorila pri vyhranej cenovej ponuke. V takom prípade môžete priložiť dokument programu Word, ktorý predstavuje SOW do záznamu zmluvy o projekte.
 
@@ -57,12 +56,12 @@ Napríklad vaša spoločnosť môže mať v procese predaja nasledujúcich šes�
  
 Vaša organizácia môže používať rôzne entity na to, aby zastupovala rovnaké riešenie, ako sa vyvíja. Na začiatku predajného procesu je dohoda zastúpená entitou príležitosť. Ako plynie čas a ďalšie podrobnosti sa objavia, môžete použiť odhady na vysokej úrovni na vytvorenie jednej alebo viacerých cenových ponúk. Ak jedna z týchto cenových ponúk je preskúmaná interne a zainteresovanými zákazníckymi stranami, cenová ponuka entity predstavuje riešenie. Po tom, ako zákazník akceptuje cenovú ponuku, zmluva alebo SOW predstavuje dohodu. Na podporu tohto správania, sú BPF štruktúrované tak, že každá fáza procesu je prepojená s inou databázovú tabuľkou.
 
-**Kvalifikovaná** fáza v procese predaja môže byť podporovaná entitou príležitosti. **Odhad** a **interné revízie** etapy môžu byť podporené citovať entity. **Zmluvná**, **dodacia** a **zatváracia** fáza môže byť podporovaná entitou zmluvy o projekte.
+**Kvalifikovaná** fáza v procese predaja môže byť podporovaná entitou príležitosti. **Odhad** a **interné revízie** etapy môžu byť podporené citovať entity. **Zmluvná** , **dodacia** a **zatváracia** fáza môže byť podporovaná entitou zmluvy o projekte.
 
 Počas presúvania ponúk fázami sa zobrazí výzva na vytvorenie príslušného záznamu entity, ktorý vám pomôže a prevedie vás procesom. Etapy môžu byť podmienené. Ak napríklad požadujete interné preskúmanie cenovej ponuky iba v prípade, že cenová ponuka používa vlastný cenník, môžete túto podmienku nakonfigurovať v príslušnom štádiu obchodného procesu. Fáza **interného preskúmania** sa potom zobrazí len pre cenové ponuky, ktoré používajú vlastný cenník. Pre všetky ostatné dohody a cenové ponuky, fáza **odhadu** nasleduje fáza **zmluvy**.
 
 > [!NOTE]
-> Project Operations má konkrétne stránky pre záznamy entít Príležitosť, Cenová ponuka, Objednávka alebo Faktúra. Tieto záznamy musíte vytvoriť pomocou informačných stránok projektu pre tieto entity. V opačnom prípade nebudete môcť otvoriť záznamy zo stránky **Informácie o projekte**. Ak chcete otvoriť záznam zo stránky **Informácie o projekte**, musíte záznam vymazať a znova vytvoriť pomocou stránky **Informácie o projekte**, kde obchodná logika pre každý z týchto typov entít zaisťuje, že pole **Typ** záznamu je správne nastavené a všetky povinné koncepty sú správne inicializované.
+> Project Operations má konkrétne stránky pre záznamy entít Príležitosť, Cenová ponuka, Objednávka alebo Faktúra. Tieto záznamy musíte vytvoriť pomocou informačných stránok projektu pre tieto entity. V opačnom prípade nebudete môcť otvoriť záznamy zo stránky **Informácie o projekte**. Ak chcete otvoriť záznam zo stránky **Informácie o projekte** , musíte záznam vymazať a znova vytvoriť pomocou stránky **Informácie o projekte** , kde obchodná logika pre každý z týchto typov entít zaisťuje, že pole **Typ** záznamu je správne nastavené a všetky povinné koncepty sú správne inicializované.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Sledovanie revízií cenových ponúk a projektových plánov v predajnom cykle
