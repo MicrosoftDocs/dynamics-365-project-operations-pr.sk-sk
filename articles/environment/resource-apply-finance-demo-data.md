@@ -8,73 +8,74 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949075"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096641"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Použitie ukážkových údajov aplikácie Project Operations v prostredí na cloudovom hostiteľskom systéme Finance
+# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a><span data-ttu-id="75e23-103">Použitie ukážkových údajov aplikácie Project Operations v prostredí na cloudovom hostiteľskom systéme Finance</span><span class="sxs-lookup"><span data-stu-id="75e23-103">Apply Project Operations demo data to a Finance Cloud-hosted environment</span></span>
 
-_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
+<span data-ttu-id="75e23-104">_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_</span><span class="sxs-lookup"><span data-stu-id="75e23-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
->[Dôležité] Táto téma sa týka iba systému Microsoft Dynamics 365 Finance verzie 10.0.13 a je možné ju používať iba v prostredí hosťovanom v cloude. Kroky v tejto téme vykonajte **PRED** použitím aktualizácií prostredia týkajúcich sa kvality.
+> [!IMPORTANT]
+> <span data-ttu-id="75e23-105">Táto téma sa týka iba systému Microsoft Dynamics 365 Finance verzie 10.0.13 a je možné ju používať iba v prostredí hosťovanom v cloude.</span><span class="sxs-lookup"><span data-stu-id="75e23-105">This topic is only applicable only Microsoft Dynamics 365 Finance version 10.0.13 and can be performed only on a Cloud-hosted environment.</span></span> <span data-ttu-id="75e23-106">Kroky v tejto téme vykonajte **PRED** použitím aktualizácií prostredia týkajúcich sa kvality.</span><span class="sxs-lookup"><span data-stu-id="75e23-106">Complete the steps in this topic **BEFORE** you apply quality updates to the environment.</span></span>
 
-1. Vo svojom projekte LCS otvorte stránku **Podrobnosti o prostredí**. Pamätajte na to, že obsahuje podrobnosti potrebné na pripojenie k prostrediu pomocou protokolu RDP (Remote Desktop Protocol).
+1. <span data-ttu-id="75e23-107">Vo svojom projekte LCS otvorte stránku **Podrobnosti o prostredí**.</span><span class="sxs-lookup"><span data-stu-id="75e23-107">In your LCS project, open the **Environment details** page.</span></span> <span data-ttu-id="75e23-108">Pamätajte na to, že obsahuje podrobnosti potrebné na pripojenie k prostrediu pomocou protokolu RDP (Remote Desktop Protocol).</span><span class="sxs-lookup"><span data-stu-id="75e23-108">Notice that it includes the details needed to connect to the environment by using Remote Desktop Protocol (RDP).</span></span>
 
 ![Podrobnosti o prostredí](./media/1EnvironmentDetails.png)
 
-Prvou súpravou zvýraznených poverení sú poverenia pre lokálny účet a obsahujú hypertextový odkaz na pripojenie k vzdialenej ploche. Poverenia zahŕňajú používateľské meno a heslo správcu prostredia. Druhá súprava poverení sa používa na prihlásenie na server SQL v tomto prostredí.
+<span data-ttu-id="75e23-110">Prvou súpravou zvýraznených poverení sú poverenia pre lokálny účet a obsahujú hypertextový odkaz na pripojenie k vzdialenej ploche.</span><span class="sxs-lookup"><span data-stu-id="75e23-110">The first set of highlighted credentials are the local account credentials and contain a hyperlink to the remote desktop connection.</span></span> <span data-ttu-id="75e23-111">Poverenia zahŕňajú používateľské meno a heslo správcu prostredia.</span><span class="sxs-lookup"><span data-stu-id="75e23-111">The credentials include the environment admin username and password.</span></span> <span data-ttu-id="75e23-112">Druhá súprava poverení sa používa na prihlásenie na server SQL v tomto prostredí.</span><span class="sxs-lookup"><span data-stu-id="75e23-112">The second set of credentials are used to log in to SQL Server in this environment.</span></span>
 
-2. Pripojte sa k vzdialenej ploche pomocou hypertextového odkazu v časti **Lokálne účty** a použite **Poverenia lokálneho účtu** na overenie.
-3. Prejdite do časti **Internetové informačné služby** > **Fondy aplikácií** > **AOSService** a zastavte službu. V tomto okamihu zastavíte službu, aby ste mohli pokračovať v nahradzovaní databázy SQL.
+2. <span data-ttu-id="75e23-113">Pripojte sa k vzdialenej ploche pomocou hypertextového odkazu v časti **Lokálne účty** a použite **Poverenia lokálneho účtu** na overenie.</span><span class="sxs-lookup"><span data-stu-id="75e23-113">Remote to the environment by the hyperlink in **Local Accounts** , and use the **Local Account credentials** to authenticate.</span></span>
+3. <span data-ttu-id="75e23-114">Prejdite do časti **Internetové informačné služby** > **Fondy aplikácií** > **AOSService** a zastavte službu.</span><span class="sxs-lookup"><span data-stu-id="75e23-114">Go to **Internet Information Services** > **Application Pools** > **AOSService** and stop the service.</span></span> <span data-ttu-id="75e23-115">V tomto okamihu zastavíte službu, aby ste mohli pokračovať v nahradzovaní databázy SQL.</span><span class="sxs-lookup"><span data-stu-id="75e23-115">You are stopping the service at this point so that you can continue to replace the SQL database.</span></span>
 
 ![Zastavenie AOS](./media/2StopAOS.png)
 
-4. Prejdite na **Služby** a zastavte nasledujúce dve položky:
+4. <span data-ttu-id="75e23-117">Prejdite na **Služby** a zastavte nasledujúce dve položky:</span><span class="sxs-lookup"><span data-stu-id="75e23-117">Go to **Services** and stop the following two items:</span></span>
 
-- Microsoft Dynamics 365 Unified Operations: Služba dávkovej správy
-- Microsoft Dynamics 365 Unified Operations: Platforma na import a export údajov
+- <span data-ttu-id="75e23-118">Microsoft Dynamics 365 Unified Operations: Služba dávkovej správy</span><span class="sxs-lookup"><span data-stu-id="75e23-118">Microsoft Dynamics 365 Unified Operations: Batch Management Service</span></span>
+- <span data-ttu-id="75e23-119">Microsoft Dynamics 365 Unified Operations: Platforma na import a export údajov</span><span class="sxs-lookup"><span data-stu-id="75e23-119">Microsoft Dynamics 365 Unified Operations: Data Import Export Framework</span></span>
 
 ![Zastavenie služieb](./media/3StopServices.png)
 
-5. Otvorte Microsoft SQL Server Management Studio. Prihláste sa pomocou poverení servera SQL a použite meno používateľa axdbadmin a heslo zo stránky **Podrobnosti prostredia** LCS.
+5. <span data-ttu-id="75e23-121">Otvorte Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="75e23-121">Open Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="75e23-122">Prihláste sa pomocou poverení servera SQL a použite meno používateľa axdbadmin a heslo zo stránky **Podrobnosti prostredia** LCS.</span><span class="sxs-lookup"><span data-stu-id="75e23-122">Log in with SQL server credentials and use the axdbadmin user and password from the LCS **Environments details** page.</span></span>
 
 ![SQL Server Management Studio](./media/4SSMS.png)
 
-6. V Prieskumníkovi objektov, **Databázy** a nájdite **AXDB**. Databázu nahradíte novou databázou, ktorá sa nachádza v časti [Centrum sťahovania](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
-7. Skopírujte súbor zip do virtuálneho počítača, ku ktorému ste vzdialene pripojení, a rozbaľte obsah súboru zip.
-8. V programe SQL Server Management Studio kliknite pravým tlačidlom myši na **AxDB** a potom vyberte **Úlohy** > **Obnoviť** > **Databáza**.
+6. <span data-ttu-id="75e23-124">V Prieskumníkovi objektov, **Databázy** a nájdite **AXDB**.</span><span class="sxs-lookup"><span data-stu-id="75e23-124">In Object Explorer, **Databases** and locate **AXDB**.</span></span> <span data-ttu-id="75e23-125">Databázu nahradíte novou databázou, ktorá sa nachádza v časti [Centrum sťahovania](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span><span class="sxs-lookup"><span data-stu-id="75e23-125">You will replace database with a new database that is located in the [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span></span> 
+7. <span data-ttu-id="75e23-126">Skopírujte súbor zip do virtuálneho počítača, ku ktorému ste vzdialene pripojení, a rozbaľte obsah súboru zip.</span><span class="sxs-lookup"><span data-stu-id="75e23-126">Copy the zip file to the VM you are remoted into and extract zip contents.</span></span>
+8. <span data-ttu-id="75e23-127">V programe SQL Server Management Studio kliknite pravým tlačidlom myši na **AxDB** a potom vyberte **Úlohy** > **Obnoviť** > **Databáza**.</span><span class="sxs-lookup"><span data-stu-id="75e23-127">In SQL Server Management Studio, right-click **AxDB** , and then select **Tasks** > **Restore** > **Database**.</span></span>
 
 ![Obnovenie databázy](./media/5RestoreDatabase.png)
 
-9. Vyberte **Zdrojové zariadenie** a prejdite na súbor rozbalený zo súboru zip, ktorý ste skopírovali.
+9. <span data-ttu-id="75e23-129">Vyberte **Zdrojové zariadenie** a prejdite na súbor rozbalený zo súboru zip, ktorý ste skopírovali.</span><span class="sxs-lookup"><span data-stu-id="75e23-129">Select **Source Device** and navigate to the file extracted from zip you copied.</span></span>
 
 ![Zdrojové zariadenia](./media/6SourceDevice.png)
 
-10. Vyberte **Možnosti** a potom vyberte **Prepísať existujúcu databázu** a **Zatvoriť existujúce pripojenia k cieľovej databáze**. 
-11. Vyberte položku **OK**.
+10. <span data-ttu-id="75e23-131">Vyberte **Možnosti** a potom vyberte **Prepísať existujúcu databázu** a **Zatvoriť existujúce pripojenia k cieľovej databáze**.</span><span class="sxs-lookup"><span data-stu-id="75e23-131">Select **Options** , and then select **Overwrite the existing database** and **Close existing connections to destination database**.</span></span> 
+11. <span data-ttu-id="75e23-132">Vyberte položku **OK**.</span><span class="sxs-lookup"><span data-stu-id="75e23-132">Select **OK**.</span></span>
 
 ![Obnovenie nastavení](./media/7RestoreSetting.png)
 
-Dostanete potvrdenie, že obnovenie AXDB bolo úspešné. Po prijatí tohto potvrdenia môžete zavrieť SQL Services Management Studio.
+<span data-ttu-id="75e23-134">Dostanete potvrdenie, že obnovenie AXDB bolo úspešné.</span><span class="sxs-lookup"><span data-stu-id="75e23-134">You will receive confirmation that the AXDB restore was successful.</span></span> <span data-ttu-id="75e23-135">Po prijatí tohto potvrdenia môžete zavrieť SQL Services Management Studio.</span><span class="sxs-lookup"><span data-stu-id="75e23-135">After you receive this confirmation, you can close SQL Services Management Studio.</span></span>
 
-12. Prejdite späť do časti **Internetové informačné služby** > **Fondy aplikácií** > **AOSService** a spustite AOSService.
-13. Prejdite do časti **Služby** a spustite dve služby, ktoré ste zastavili predtým.
+12. <span data-ttu-id="75e23-136">Prejdite späť do časti **Internetové informačné služby** > **Fondy aplikácií** > **AOSService** a spustite AOSService.</span><span class="sxs-lookup"><span data-stu-id="75e23-136">Go back to **Internet Information Services** > **Application Pools** > **AOSService** and start the AOSService.</span></span>
+13. <span data-ttu-id="75e23-137">Prejdite do časti **Služby** a spustite dve služby, ktoré ste zastavili predtým.</span><span class="sxs-lookup"><span data-stu-id="75e23-137">Go to **Services** and start the two services you stopped earlier.</span></span>
 
-14. Vyhľadajte nástroj AdminUserProvisioning na tomto virtuálnom počítači. Prejdite na K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.
-15. Spustite súbor .ext pomocou svojej adresy používateľa v poli **E-mailová adresa**. 
-16. Stlačte možnosť **Odoslať**.
+14. <span data-ttu-id="75e23-138">Vyhľadajte nástroj AdminUserProvisioning na tomto virtuálnom počítači.</span><span class="sxs-lookup"><span data-stu-id="75e23-138">Locate the AdminUserProvisioning tool on this VM.</span></span> <span data-ttu-id="75e23-139">Prejdite na K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span><span class="sxs-lookup"><span data-stu-id="75e23-139">Look under, K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span></span>
+15. <span data-ttu-id="75e23-140">Spustite súbor .ext pomocou svojej adresy používateľa v poli **E-mailová adresa**.</span><span class="sxs-lookup"><span data-stu-id="75e23-140">Run the .ext file using your user address in the **Email Address** field.</span></span> 
+16. <span data-ttu-id="75e23-141">Stlačte možnosť **Odoslať**.</span><span class="sxs-lookup"><span data-stu-id="75e23-141">Select **Submit**.</span></span>
 
 ![Poskytovanie používateľa správcu](./media/8AdminUserProvisioning.png)
 
-Dokončenie trvá pár minút. Mali by ste dostať potvrdzujúce hlásenie, že správca bol úspešne aktualizovaný.
+<span data-ttu-id="75e23-143">Dokončenie trvá pár minút.</span><span class="sxs-lookup"><span data-stu-id="75e23-143">This takes a couple of minutes to complete.</span></span> <span data-ttu-id="75e23-144">Mali by ste dostať potvrdzujúce hlásenie, že správca bol úspešne aktualizovaný.</span><span class="sxs-lookup"><span data-stu-id="75e23-144">You should receive a confirmation message that the Admin user was successfully updated.</span></span>
 
-17. Nakoniec spustite príkazový riadok ako správca a vykonajte iisreset
+17. <span data-ttu-id="75e23-145">Nakoniec spustite príkazový riadok ako správca a vykonajte iisreset</span><span class="sxs-lookup"><span data-stu-id="75e23-145">Lastly, run Command Prompt as Administrator and perform iisreset</span></span>
 
 ![Resetovanie IIS](./media/9IISReset.png)
 
-18. Ukončite reláciu vzdialenej plochy a pomocou stránky **Podrobnosti o prostredí** LCS sa prihláste do prostredia a uistite sa, že funguje podľa očakávaní.
+18. <span data-ttu-id="75e23-147">Ukončite reláciu vzdialenej plochy a pomocou stránky **Podrobnosti o prostredí** LCS sa prihláste do prostredia a uistite sa, že funguje podľa očakávaní.</span><span class="sxs-lookup"><span data-stu-id="75e23-147">Close the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.</span></span>
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
