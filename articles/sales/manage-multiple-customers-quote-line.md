@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965885"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084240"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Spravovanie viacerých zákazníkov v riadkoch cenových ponúk založených na projekte
+
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 Riadky cenových ponúk založených na projekte podporujú scenáre, kde každý riadok cenovej ponuky obsahuje zoznam zákazníkov, ktorí zaň platia. Tento zoznam zákazníkov v riadku cenovej ponuky založenej na projekte môže byť rovnaký ako zoznam zákazníkov v cenovej ponuke. Môžete tiež zmeniť zoznam zákazníkov, aby sa líšili. Na vytvorenie prípadnej zmluvy o projekte po získaní cenovej ponuky projektu sa zoznam zákazníkov v riadku cenovej ponuky založenej na projekte skopíruje do zodpovedajúceho riadku zmluvy založenej na projekte. Zákazníci projektovej ponuky založenej na projekte sa skopírujú do projektovej zmluvy.
 
@@ -31,11 +33,11 @@ V nasledujúcej tabuľke sú uvedené polia v zákazníckom zázname riadka ceno
 
 | Pole | Oblasť | Popis a pokyny | Nadväzujúci vplyv |
 | --- | --- | --- | --- |
-| **Obchodný vzťah** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky**, hlavný formulár a formulár na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Zobrazenie zoznamu všetkých aktívnych účtov. Po vytvorení záznamu je toto pole uzamknuté. Ak potrebujete aktualizovať pole, vymažte a znova vytvorte záznam. Ak ste zaznamenali nejaké skutočné hodnoty, záznam nemôžete vymazať. | Keď si vyberiete obchodný vzťah z hlavného zoznamu obchodných vzťahov, ktorý chcete pridať, zákazník riadka cenovej ponuky sa tiež pridá ako zákazník cenovej ponuky. Po získaní cenovej ponuky sa zákazníci riadka cenovej ponuky prekopírujú k zákazníkom riadka zmluvy o projekte. |
-| **Percento rozdelenia fakturácie** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky**, hlavný formulár a formulár na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Predstavuje percento každej nevyfakturovanej predajnej transakcie, ktorá sa pripíše tomuto zákazníkovi riadka cenovej ponuky. | Skopírované k zákazníkom riadka zmluvy projektu. |
-| **Limit, ktorý sa nesmie prekročiť** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky**, hlavný formulár a formulár na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Označuje, či existuje dohodnutý limit alebo strop celkovej sumy, ktorá bude fakturovaná tomuto zákazníkovi za tento riadok cenovej ponuky. | Skopírované do zákazníkov riadka zmluvy projektu po získaní cenovej ponuky. |
-| **Vlastniaca spoločnosť** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky**, hlavný formulár a formulár na rýchle vytvorenie pre riadok zákazníka cenovej ponuky, | Právnická entita, pre ktorú je tento zákazník nastavený v module **Projektové riadenie a účtovníctvo**. Toto pole je iba na čítanie a je nastavené na spoločnosť, ktorá vlastní samotnú cenovú ponuku. Zoznam zákazníkov, ktorých je možné pridať do poľa **Obchodný vzťah** je už filtrované do zoznamu z vlastniacej spoločnosti v module **Projektové riadenie a účtovníctvo** v Project Operations. | Vlastnícka spoločnosť sa rovná pojmu právnická entita. Všetky náklady a výnosy, ktoré vzniknú z tohto projektu, sa účtujú v hlavnej účtovnej knihe vlastniacej spoločnosti. |
-| **Zaokrúhľuje** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky**, hlavný formulár a formulár na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Označuje, či je tento zákazník predvoleným zákazníkom zaokrúhľovania pre tento riadok cenovej ponuky založenej na projekte. | Skopírované do zmluvných zákazníkov projektu po získaní cenovej ponuky. |
+| **Obchodný vzťah** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky** , hlavný formulár a formulár na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Zobrazenie zoznamu všetkých aktívnych účtov. Po vytvorení záznamu je toto pole uzamknuté. Ak potrebujete aktualizovať pole, vymažte a znova vytvorte záznam. Ak ste zaznamenali nejaké skutočné hodnoty, záznam nemôžete vymazať. | Keď si vyberiete obchodný vzťah z hlavného zoznamu obchodných vzťahov, ktorý chcete pridať, zákazník riadka cenovej ponuky sa tiež pridá ako zákazník cenovej ponuky. Po získaní cenovej ponuky sa zákazníci riadka cenovej ponuky prekopírujú k zákazníkom riadka zmluvy o projekte. |
+| **Percento rozdelenia fakturácie** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky** , hlavný formulár a formulár na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Predstavuje percento každej nevyfakturovanej predajnej transakcie, ktorá sa pripíše tomuto zákazníkovi riadka cenovej ponuky. | Skopírované k zákazníkom riadka zmluvy projektu. |
+| **Limit, ktorý sa nesmie prekročiť** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky** , hlavný formulár a formulár na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Označuje, či existuje dohodnutý limit alebo strop celkovej sumy, ktorá bude fakturovaná tomuto zákazníkovi za tento riadok cenovej ponuky. | Skopírované do zákazníkov riadka zmluvy projektu po získaní cenovej ponuky. |
+| **Vlastniaca spoločnosť** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky** , hlavný formulár a formulár na rýchle vytvorenie pre riadok zákazníka cenovej ponuky, | Právnická entita, pre ktorú je tento zákazník nastavený v module **Projektové riadenie a účtovníctvo**. Toto pole je iba na čítanie a je nastavené na spoločnosť, ktorá vlastní samotnú cenovú ponuku. Zoznam zákazníkov, ktorých je možné pridať do poľa **Obchodný vzťah** je už filtrované do zoznamu z vlastniacej spoločnosti v module **Projektové riadenie a účtovníctvo** v Project Operations. | Vlastnícka spoločnosť sa rovná pojmu právnická entita. Všetky náklady a výnosy, ktoré vzniknú z tohto projektu, sa účtujú v hlavnej účtovnej knihe vlastniacej spoločnosti. |
+| **Zaokrúhľuje** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky** , hlavný formulár a formulár na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Označuje, či je tento zákazník predvoleným zákazníkom zaokrúhľovania pre tento riadok cenovej ponuky založenej na projekte. | Skopírované do zmluvných zákazníkov projektu po získaní cenovej ponuky. |
 
 ## <a name="edit-billing-split-percentages"></a>Upraviť percentá rozdelenia fakturácie
 

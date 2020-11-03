@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896300"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084288"
 ---
 # <a name="project-quote-key-concepts"></a>Kľúčové koncepty projektových cenových ponúk
 
@@ -78,7 +78,7 @@ K dohodám s viacerými zákazníkmi dochádza, keď sa má fakturovať viac ako
 
 ## <a name="invoice-schedules"></a>Plány faktúry
 
-Plány faktúr sú špecifické pre každý riadok cenovej ponuky a tiež sú voliteľné. Plány faktúr sa vytvárajú na základe určitých dátumov začatia a ukončenia a frekvencie faktúr. Plány faktúr sa používajú v etape zmluvy, keď je nakonfigurovaný proces automatického vytvárania faktúr. V etape cenovej ponuky sú plány voliteľné. Keď sa vytvárajú plány faktúr v etape **Cenová ponuka**, skopírujú sa do zmluvy projektu, ktorá sa vytvorí po získaní cenovej ponuky projektu.
+Plány faktúr sú špecifické pre každý riadok cenovej ponuky a tiež sú voliteľné. Plány faktúr sa vytvárajú na základe určitých dátumov začatia a ukončenia a frekvencie faktúr. Plány faktúr sa používajú v etape zmluvy, keď je nakonfigurovaný proces automatického vytvárania faktúr. V etape cenovej ponuky sú plány voliteľné. Keď sa vytvárajú plány faktúr v etape **Cenová ponuka** , skopírujú sa do zmluvy projektu, ktorá sa vytvorí po získaní cenovej ponuky projektu.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Zmeny oproti cenovej ponuke Dynamics 365 Sales:
 

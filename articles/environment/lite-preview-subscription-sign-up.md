@@ -3,17 +3,17 @@ title: Registrácia na odber ukážky
 description: Táto téma poskytuje informácie o tom, ako odoberať a nasadiť jednoduché nasadenie Project Operations – dohoda o fakturácii pro forma.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a9c1432e8971eeb7918e23e00be9989294335f49
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949069"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084227"
 ---
 # <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Zaregistrujte sa na odber ukážky jednoduchého nasadenia – dohody o fakturácii pro forma
 
@@ -26,84 +26,42 @@ Táto téma vysvetľuje, ako sa prihlásiť na odber ponuky partnera ukážky a 
 
 - Dostanete e-mail s pozvánkou na účasť v ukážke. O ukážku môžete požiadať na [webovej stránke Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
 - Používateľ, ktorý nasadí ukážku, musí mať práva globálneho správcu nájomníka platformy Azure.
-- Používateľ, ktorý nasadí ukážku, bude potrebovať telefónne číslo a platnú kreditnú kartu. Počas registrácie nebudú za kartu šesť mesiacov účtované žiadne poplatky. Po šiestich mesiacoch musíte odber zrušiť. 
 - Prečítajte si všetky zmluvné podmienky.
 
 ## <a name="subscribe"></a>Prihlásiť sa na odber
 
 Keď dostanete schválenie [žiadosti o ukážku](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) dostanete e-mailom dve ponuky od spoločnosti Microsoft. Tieto ponuky vám umožňujú nasadiť ukážku Project Operations:
 
-- Skúšobná verzia ukážky Dynamics 365 Customer Service – jednorazový kód
-- Dynamics 365 Project Operations – skúšobná verzia ukážky
+- Dynamics 365 Project Operations (CRM) – skúšobná verzia ukážky
+- Office 365 Project Operations – skúšobná verzia ukážky
 
-### <a name="dynamics-365-customer-service-paid-offer"></a>Platobná ponuka Dynamics 365 Customer Service
+> [!IMPORTANT]
+> Túto úlohu musí vykonať iba jedna osoba, správca nájomníka v organizácii. Ak nie ste predplatiteľom tohto vydania, počkajte, kým nebude zaregistrovaná vaša organizácia a kým dostanete svoje prihlasovacie údaje.
 
-1. Pomocou okna prehľadávača InPrivate/Inkognito uplatnite prvý kód ponuky pre Dynamics 365 Customer Service. Na registráciu služby pre zákazníkov budete potrebovať:
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – skúšobná verzia ukážky 
 
-- Telefónne číslo
-- Kreditná karta. Keď sa zaregistrujete nebudú za kartu šesť mesiacov účtované žiadne poplatky. Po šiestich mesiacoch musíte odber zrušiť.
-- Prečítajte si všetky zmluvné podmienky.
+Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovným účtom používateľa v nájomníkovi, kde chcete zobraziť ukážku Project Operations.
 
-2. Uveďte svoje kontaktné informácie.
+1. Uplatnenie prvého kódu ponuky, **Dynamics 365 Project Operations (CRM) – skúšobná verzia ukážky** vložením do adresy URL prehliadača.
 
-![Kontaktné informácie](./media/1ContactInformation.png)
+![Uplatniť ponuku](./media/16RedeemFirstOfferNew.png)
 
-3. Zadajte podrobnosti o novom nájomníkovi.
+2. Potvrďte objednávku.
+![Potvrďte objednávku](./media/17ConfirmOrderNew.png)
 
-![Vytvorte ID používateľa](./media/2CreateUserID.png)
+Uvidíte, že ponuka potvrdenia bola úspešne uplatnená.
 
-4. Overte svoju totožnosť, uložte svoje nové ID používateľa a potom vyberte **Nastaviť**.
+![Potvrdenie](./media/18OrderConfirmationNew.png)
 
-![Uložiť informácie](./media/3SaveInfo.png)
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – skúšobná verzia ukážky
 
-5. Dokončite registráciu kreditnej karty a prečítajte si všetky zmluvné podmienky. 
-
-![Dokončite kreditnú kartu](./media/4CompleteCreditCard.png)
-
-![Rezervácia kreditnej karty](./media/5CreditCardCheckout.png)
-
-![Uložiť objednávku](./media/6SaveOrder.png)
-
-![Potvrdenie kreditnej karty](./media/7Confirmation.png)
-
-## <a name="cancel-the-dynamics-365-customer-service-enterprise-offer"></a>Zrušenie ponuky Dynamics 365 Customer Service Enterprise
-
-Ponuka na Dynamics 365 Customer Service Enterprise je poskytovaná zadarmo po dobu šiestich mesiacov. Ponuka sa obnoví v plnej výške na konci šesťmesačného obdobia. Ak chcete akciu zrušiť pred dátumom obnovenia, postupujte podľa nasledujúcich pokynov. 
-
-> [!NOTE]
-> Po vykonaní týchto krokov už nebudete môcť používať prostredie verejnej ukážky Project Operations.
-
-1. Prejdite na [Portál správcu](https://admin.microsoft.com/) a v časti **Fakturácia** vyberte **Vaše výrobky**.
-
-![Portál správcu, stránka vašich produktov](./media/8AdminPortal.png)
-
-2. Vyberte **Ponuka Dynamics 365 Customer Service Enterprise**.
-
-![Zrušenie odberu](./media/9CancelSubscription.png)
-
-3. Vyberte možnosť **Nastavenia** > **Akcie** > **Zrušiť predplatné**.
-4. Vo formulári **Zrušenie predplatného** zadajte informácie do požadovaných polí.
-5. Vyberte **Zrušiť** > **Predplatné.**
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – skúšobná verzia ukážky
-
-1. Uplatnite druhú ponuku, skúšobnú verziu Dynamics 365 Project Operations s adresou URL uvedenou v uvítacom e-maile.
-
-![Uplatniť ponuku 2](./media/10RedeemOffer2.png)
-
-2. Pomocou prvého kódu ponuky overte, či ste prihlásený ako používateľ patriaci do rovnakej organizácie, ktorá bola prihlásená na odber, a potom pokračujte v uplatnení ponuky. 
-3. Vyberte **Áno, pridať do môjho účtu**.
-
-![Pridať do účtu](./media/11AddToAccount.png)
-
-![Obrazovka Vyskúšať teraz](./media/12TryNow.png)
-
-![Podrobnosti objednávky](./media/13Confirmation.png)
+Zopakujte rovnaké kroky ako pri prvom kóde ponuky. Nezabudnite pridať druhý kód ponuky pomocou rovnakého používateľského účtu, aký bol použitý s prvým kódom ponuky.
 
 ## <a name="assign-licenses"></a>Priradenie licencií
 
 > [!IMPORTANT]
-> Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k Office 365 vo vašej organizácii .
+> Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k portálu Microsoft 365 vo vašej organizácii.
+
 
 1. Prejdite do [Centrum pre správu Microsoft 365](https://portal.office.com/) na pridelenie licencií vašim používateľom.
 
@@ -113,11 +71,22 @@ Ponuka na Dynamics 365 Customer Service Enterprise je poskytovaná zadarmo po do
 
 ![Priradenie licencií](./media/15AssignLicenses.png)
 
-3. Overte, či je vybraná licencia pre **Služby pre zákazníkov Enterprise** a **Project Operations** a vyberte možnosť **Uložiť zmeny**.
+3. Overte, či sú vybrané licencie **Ukážka Dynamics 365 Project Operations (CRM)** a **Office 365 Project Operations – ukážka**. 
+4. Vyberte **Uložiť zmeny**.
 
 ## <a name="create-a-new-cds-environment"></a>Vytvorenie nového prostredia CDS
 
-Poskytnite nové prostredie nasadenia Project Operations CDS podľa pokynov v téme [Model nasadenia CDS](lite-deployment.md).
+1. Poskytnite nové prostredie nasadenia Project Operations CDS podľa pokynov v téme [Model nasadenia CDS](lite-deployment.md). Keď vyberiete typ prostredia, nezabudnite použiť **Skúšobnú verziu (na základe predplatného)**.
+![Nové prostredie](./media/19CreateEnvironment.png)
+
+2. Vyberte nastavenie **Povoliť aplikácie Dynamics 365** a nechajte možnosť **Automaticky nasadiť tieto aplikácie** prázdnu.  
+3. Výberom položky **Uložiť** vytvoríte prostredie.
+
+![Pridať databázu](./media/20CreateEnvironment1.png)
+
+4. Po vytvorení prostredia nainštalujte riešenie **Microsoft Dynamics 365 Project Operations**. 
+
+![Inštalácia riešenia](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Nainštalujte ukážkové údaje konfigurácie a nastavenia CDS
 

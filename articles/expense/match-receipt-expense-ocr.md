@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02c1bafbe907a657689b610ae792f88085320903
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897020"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084329"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Priradenie potvrdenia k výdavku pomocou optického rozpoznávania znakov (OCR)
 
@@ -47,11 +46,11 @@ Ak chcete pri vytváraní výkazu výdavkov automaticky pripojiť účtenky, kto
 ## <a name="create-or-match-receipts-to-an-expense-report"></a>Vytvorenie alebo spárovanie účteniek s výkazom výdavkov
 Ak chcete vytvoriť výdavok alebo spárovať výdavok z účtenky, postupujte takto.
 
-  1. Vo výkaze výdavkov, na karte **Príjmy**, pripojte účtenku výberom možnosti **Pridať účtenky**.
+  1. Vo výkaze výdavkov, na karte **Príjmy** , pripojte účtenku výberom možnosti **Pridať účtenky**.
   2. Pod nahraným obrázkom účtenky si všimnite možnosti **Vytvoriť** a **Spárovať**.
 
       - Vyberte **Vytvoriť** na vytvorenie ručne zadanej výdavkovej transakcie a vyplnenie hodnôt, ktoré sú načítané z účtenky.
-      - Ak vyberiete **Spárovať**, systém sa pokúsi spárovať existujúci výdavok s účtenkou.
+      - Ak vyberiete **Spárovať** , systém sa pokúsi spárovať existujúci výdavok s účtenkou.
 
 ## <a name="installation"></a>Inštalácia
 

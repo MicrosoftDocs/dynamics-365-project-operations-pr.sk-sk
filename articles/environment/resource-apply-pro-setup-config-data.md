@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949070"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084237"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Nastavenie a použitie konfiguračných údajov v službe Common Data Service pre Project Operations
 
@@ -27,7 +27,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 ![Migrácia konfigurácie](./media/1ConfigurationMigration.png)
 
-4. Na strane 2 Sprievodcu CMT vyberte **Office 365** ako **Typ nasadenia**.
+4. Na strane 2 Sprievodcu CMT vyberte **Microsoft 365** ako **Typ nasadenia**.
 5. Vyberte možnosť **Zobraziť zoznam dostupných organizácií** a začiarkavacie políčka **Zobraziť rozšírené**.
 6. Vyberte oblasť svojho nájomníka, zadajte svoje poverenia a vyberte **Prihlásiť sa**.
 
@@ -114,10 +114,10 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
  
 12. Aktualizujte nasledujúce polia:
 
- - **Predvolená spoločnosť**: USPM
- - **Predvolená organizačná jednotka**: Contoso Robotics Global
- - **Frekvencia faktúr**: Siedmy a posledný deň
- - **Šablóna pracovného času**: Zmena na šablónu, ktorú ste vytvorili.
+ - **Predvolená spoločnosť** : USPM
+ - **Predvolená organizačná jednotka** : Contoso Robotics Global
+ - **Frekvencia faktúr** : Siedmy a posledný deň
+ - **Šablóna pracovného času** : Zmena na šablónu, ktorú ste vytvorili.
 
 13. Vyberte položku **Uložiť**. 
 

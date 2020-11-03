@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084239"
 ---
 # <a name="opportunity-headersummary"></a>Hlavička/súhrn príležitostí
 
@@ -28,7 +28,7 @@ Nasledujúca tabuľka obsahuje polia v príležitosti založenej na projekte, kt
 
 | **Pole** | **Miesto** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |
-| Typ | Karta Všeobecné (skrytá) | Toto pole množiny možností má nasledujúce možnosti:</br>- Založené na práci (k dispozícii iba s Project Operations)</br>- Založené na položke (k dispozícii iba vtedy, keď sú nainštalované Project Operations a Sales)</br>- Služba založená na údržbe (k dispozícii, keď je nainštalovaná služba Field Service) | Keď použijete Project Operations, hodnota tohto poľa sa automaticky nastaví na **Založené na práci**, ktorá klasifikuje Príležitosť ako založenú na projekte. Príležitosť by mala byť založená na projekte, aby boli povolené všetky rozšírenia a funkcie na základe projektu v procese následného predaja tejto dohody. |
+| Typ | Karta Všeobecné (skrytá) | Toto pole množiny možností má nasledujúce možnosti:</br>- Založené na práci (k dispozícii iba s Project Operations)</br>- Založené na položke (k dispozícii iba vtedy, keď sú nainštalované Project Operations a Sales)</br>- Služba založená na údržbe (k dispozícii, keď je nainštalovaná služba Field Service) | Keď použijete Project Operations, hodnota tohto poľa sa automaticky nastaví na **Založené na práci** , ktorá klasifikuje Príležitosť ako založenú na projekte. Príležitosť by mala byť založená na projekte, aby boli povolené všetky rozšírenia a funkcie na základe projektu v procese následného predaja tejto dohody. |
 | Vlastniaca spoločnosť | Karta Všeobecné | Toto je spoločnosť alebo právnická entita, ktorá dodá projekt pre zákazníka. | Informácie o tomto poli sa skopírujú do zodpovedajúceho poľa v cenovej ponuke projektu, ktoré sa vytvorí z tejto príležitosti. |
 | Kontakt | Karta Všeobecné | Odkaz na primárny kontakt zákazníka pre túto dohodu. | |
 | Konto | Karta Všeobecné | Odkaz na záznam zákazníka spoločnosti zákazníka alebo obchodného vzťahu. | |

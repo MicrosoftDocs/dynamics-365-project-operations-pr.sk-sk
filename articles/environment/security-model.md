@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084249"
 ---
 # <a name="security-model"></a>Model zabezpečenia
 
@@ -36,10 +36,11 @@ Medzi funkcie klientskeho rozhrania Project Operations patria nasledujúce roly:
 
 
 Microsoft Project for the Web obsahuje nasledujúce roly:
-| Rola                          | Popis                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Používateľ projektu | Spoločný používateľ projektu, ktorý je schopný vytvárať vlastné projekty a prezerať si všetky zdieľané projekty.| Používateľ|
-| Systém projektu | Úloha použitá v kontexte aplikácie. Zákazníci by nemali používať túto rolu systému. | Globálne|
+
+| Rola           | Popis                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Používateľ projektu   | Spoločný používateľ projektu, ktorý je schopný vytvárať vlastné projekty a prezerať si všetky zdieľané projekty. | Používateľ   |
+| Systém projektu | Úloha použitá v kontexte aplikácie. Zákazníci by nemali používať túto rolu systému.                                    | Globálne |
 
 ## <a name="security-enforcement"></a>Presadzovanie bezpečnosti
 Akcie, ktoré sa vykonávajú na úrovni projektu, sa vykonávajú v kontexte prihláseného používateľa. To znamená, že na vytvorenie, otvorenie alebo odstránenie projektu sa vyžaduje, aby mal používateľ k dispozícii prístup do CDS. Prístup do CDS je možné poskytnúť prostredníctvom ktoréhokoľvek z možných mechanizmov zahrnutých do platformy. Napríklad, používateľ s väčším rozsahom môže mať prístup k projektu alebo ak bola vykonaná explicitná akcia zdieľania projektu, ktorá používateľovi umožňuje prístup.
@@ -56,6 +57,8 @@ Skupiny poskytujú povolenia na spoločnú prácu na projekte a podporné artefa
 Project Operations nevytvára skupinu prostredníctvom implicitnej akcie a robí to iba prostredníctvom explicitnej akcie tlačiacich skupín.
 
 Vyhľadávanie členov skupiny v dialógovom okne **Správa skupín** je obmedzené na tých, ktorí sú nastavení ako súčasť skupiny zabezpečenia prostredia. Ďalšie informácie nájdete v sekcii [Riadenie prístupu používateľov k prostrediam: skupiny zabezpečenia a licencie](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Skupinový režim](./media/groupsmode.png)
 
 1. Projekt je vytváraný a vlastnený tvoriacim používateľom.
 2. Vlastník projektu je aktualizovaný v tíme.

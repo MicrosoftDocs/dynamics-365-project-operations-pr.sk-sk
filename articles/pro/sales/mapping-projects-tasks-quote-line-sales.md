@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084256"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapovanie projektov a úloh na riadok cenovej ponuky založenej na projekte
 
@@ -57,7 +57,7 @@ Stránka **Projekt** poskytuje optimálne prostredie na priraďovanie úloh k ri
 Projektové úlohy môžete priradiť k riadkom cenovej ponuky na karte **Fakturovateľné úlohy** na stránke **Riadok cenovej ponuky**.
 
 >[!NOTE]
->Optimálne miesto na priradenie projektových úloh k riadkom cenových ponúk na karte **Fakturácia úloh** na stránke **Projekt**. Ak priraďujete úlohy na karte **Fakturovateľné úlohy** na stránke **Riadok cenovej ponuky**, musíte každý projekt priradiť manuálne.
+>Optimálne miesto na priradenie projektových úloh k riadkom cenových ponúk na karte **Fakturácia úloh** na stránke **Projekt**. Ak priraďujete úlohy na karte **Fakturovateľné úlohy** na stránke **Riadok cenovej ponuky** , musíte každý projekt priradiť manuálne.
 
 1. Na karte **Všeobecné** riadku ponuky založenej na projekte skontrolujte, či je v poli **Projekt** vybraný projekt.
 2. V poli **Zahrnuté úlohy** vyberte **Iba vybrané úlohy**.
@@ -78,7 +78,7 @@ Táto metóda poskytuje najoptimálnejšie prostredie na zrušenie priradenia ú
 4. Na zobrazenej dialógovej stránke vyberte riadok cenovej ponuky.
 5. Začiarknutím políčka označte, či sa má priradenie odstrániť aj z podradených úloh vybratých úloh. Začiarknutím tohto políčka sa zruší aj priradenie podriadených úloh z riadku cenovej ponuky.
 6. Vyberte položku **OK**. Výstražné hlásenie správa informuje, že ak odstránite toto priradenie, všetky skutočné hodnoty predtým zaznamenané v úlohe môžu byť obrátené. 
-7. Vyberte **OK**, ak chcete pokračovať a odstrániť priradenie medzi úlohou a riadkom cenovej ponuky založenej na projekte.
+7. Vyberte **OK** , ak chcete pokračovať a odstrániť priradenie medzi úlohou a riadkom cenovej ponuky založenej na projekte.
 
 ### <a name="from-the-quote-line-page"></a>Na stránke riadka cenovej ponuky
 
@@ -86,7 +86,7 @@ Priradenie projektových úloh môžete zrušiť v riadkoch cenovej ponuky na ka
 
 1. Na karte **Fakturovateľné úlohy** vyberte **Odstrániť úlohu riadka cenovej ponuky**.
 2. Vyberte položku **OK**. Výstražné hlásenie správa informuje, že ak odstránite toto priradenie, všetky skutočné hodnoty predtým zaznamenané v úlohe môžu byť obrátené. 
-3. Vyberte **OK**, ak chcete pokračovať a odstrániť priradenie medzi úlohou a riadkom cenovej ponuky založenej na projekte.
+3. Vyberte **OK** , ak chcete pokračovať a odstrániť priradenie medzi úlohou a riadkom cenovej ponuky založenej na projekte.
 
 >[!NOTE]
 > Tento postup neodstráni úlohu z projektu. Odstráni iba priradenie úlohy z riadku cenovej ponuky založenej na projekte.

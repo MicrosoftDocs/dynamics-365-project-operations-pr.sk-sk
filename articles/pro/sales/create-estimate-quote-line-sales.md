@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966863"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084268"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Odhadovanie riadka cenovej ponuky založenej na projekte
 
@@ -30,7 +30,7 @@ Ak chcete odhadnúť riadok cenovej ponuky založenej na projekte, v riadku ceno
 
 Ak chcete vytvoriť odhad riadka cenovej ponuky založenej na projekte, vyberte kartu **Podrobnosti o riadku cenovej ponuky**. Riadková položka, ktorú vytvoríte na tejto karte, zhrnie hodnotu cenovej ponuky pre tento riadok cenovej ponuky. 
 
-Ak chcete vytvoriť podrobnosti o riadku cenovej ponuky, zvoľte **+ Nové podrobnosti o riadku cenovej ponuky** na vedľajšej mriežke **Podrobnosti o riadku cenovej ponuky**. Otvorí sa posúvač rýchleho vytvorenia. Nasledujúce polia vo formulári **Riadok cenovej ponuky**:
+Ak chcete vytvoriť podrobnosti o riadku cenovej ponuky, zvoľte **+ Nové podrobnosti o riadku cenovej ponuky** na vedľajšej mriežke **Podrobnosti o riadku cenovej ponuky**. Otvorí sa posúvač rýchleho vytvorenia. Nasledujúce polia vo formulári **Riadok cenovej ponuky** :
 
 | **Pole** | **Miesto** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |
@@ -50,7 +50,7 @@ Ak chcete vytvoriť podrobnosti o riadku cenovej ponuky, zvoľte **+ Nové podro
 
 ## <a name="update-prices-on-quote-line-details"></a>Aktualizácia cien v podrobnostiach o riadku cenovej ponuky
 
-Ak ste zmenili ceny v cenníku projektu, ktorý je priložený k cenovej ponuke, alebo v cenníku obstarávacích cien zmluvnej jednotky, môžete vybrať možnosť **Prepočítať** na stránke **Cenová ponuka**, aby ste obnovili ceny v jednotlivých podrobnostiach o riadku cenovej ponuky tak, aby odrážali túto zmenu. Keď vyberiete možnosť **Prepočítať**, zobrazí sa varovanie, ktoré vás informuje, že ceny v podrobnostiach o riadku cenovej ponuky pre všetky riadky cenovej ponuky na tejto cenovej ponuke budú vynulované. Výberom možnosti **Áno** obnovíte ceny pre predaje, ako aj pre podrobnosti o riadkoch cenovej ponuky.
+Ak ste zmenili ceny v cenníku projektu, ktorý je priložený k cenovej ponuke, alebo v cenníku obstarávacích cien zmluvnej jednotky, môžete vybrať možnosť **Prepočítať** na stránke **Cenová ponuka** , aby ste obnovili ceny v jednotlivých podrobnostiach o riadku cenovej ponuky tak, aby odrážali túto zmenu. Keď vyberiete možnosť **Prepočítať** , zobrazí sa varovanie, ktoré vás informuje, že ceny v podrobnostiach o riadku cenovej ponuky pre všetky riadky cenovej ponuky na tejto cenovej ponuke budú vynulované. Výberom možnosti **Áno** obnovíte ceny pre predaje, ako aj pre podrobnosti o riadkoch cenovej ponuky.
 
 ## <a name="access-quote-line-details-for-cost"></a>Prístup k podrobnostiam o riadku cenovej ponuky pre náklady
 

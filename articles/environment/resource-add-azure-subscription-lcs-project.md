@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949071"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084235"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Pridanie predplatného služieb Azure do projektu LCS
 
@@ -61,7 +61,7 @@ Autorizácia je teraz hotová.
 2. Zadajte svoje ID predplatného Azure. Svoje ID predplatného Azure nájdete na [portáli Azure](https://ms.portal.azure.com/) v časti **Nastavenia** v ľavom dolnom rohu obrazovky.
 3. V poli **Nakonfigurovať použitie Azure Resource Manager** vyberte **Áno**.
 4. Uistite sa, že sa predplatné Azure AAD Tenant Domain zhoduje s predplatným Azure s vlastníctvom domény, ktoré používate, a vyberte **Ďalej**.
-5. Na obrazovke **Nastaviť Microsoft Azure** zvoľte**Ďalej** na potvrdenie. Ak sa vám na tejto obrazovke zobrazí chyba, vráťte sa do sekcie [Poskytnúť službe Dynamics Deployment Services prístup k predplatnému Azure](#provide) v tejto téme a uistite sa, že ste dokončili všetky kroky.
+5. Na obrazovke **Nastaviť Microsoft Azure** zvoľte **Ďalej** na potvrdenie. Ak sa vám na tejto obrazovke zobrazí chyba, vráťte sa do sekcie [Poskytnúť službe Dynamics Deployment Services prístup k predplatnému Azure](#provide) v tejto téme a uistite sa, že ste dokončili všetky kroky.
 6. Stiahnite si certifikát Azure Management do lokálneho priečinka vo vašom počítači a potom ho nahrajte na portál Azure Management Portal prechodom do časti **Nastavenia** > **Certifikáty pre správu**. Tento certifikát umožní spoločnosti LCS komunikovať s Azure vo vašom mene. Tento krok môžete preskočiť, ak má váš používateľ prístup k predplatnému.
 7. Vyberte **Ďalej**.
 8. Vyberte oblasť Azure, do ktorého chcete vykonať nasadenie a vyberte údajové centrum, ktoré je blízko miesta, kde plánujete tento systém používať.

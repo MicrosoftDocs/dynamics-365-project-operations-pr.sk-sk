@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961945"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084230"
 ---
 # <a name="maintain-team-members"></a>Udržiavanie členov tímu
 
@@ -28,7 +28,7 @@ Môžete pridať pomenovaný zdroj do projektového tímu jeho rezerváciou pria
 5. Ak chcete, aby bol člen tímu schvaľovateľ projektu, vyberte pole **Schvaľovateľ projektu** a vyberte **Áno**. Člen tímu môže schváliť odoslané časové a výdavkové záznamy pre tento projekt. 
 6. Vyberte položku **Uložiť**.
 
-Teraz môžete priradiť rezervovaný zdroj k úlohám v projekte. Na stránke **Projekt**, na karte **Plán** priraďte úlohy k novému zdroju. Výber zdroja, ktorý sa spúšťa z poľa **Resources** v mriežke úloh, zobrazí členov tímu, ktorých môžete vybrať.
+Teraz môžete priradiť rezervovaný zdroj k úlohám v projekte. Na stránke **Projekt** , na karte **Plán** priraďte úlohy k novému zdroju. Výber zdroja, ktorý sa spúšťa z poľa **Resources** v mriežke úloh, zobrazí členov tímu, ktorých môžete vybrať.
 
 
 V Project Operations nie sú rezervácie zdrojov a priradenia úloh úzko spojené. Keď použijete výber zdrojov v pláne, môžete priradiť úlohy členom tímu na viac hodín ako pokrývajú ich rezervácie projektu.

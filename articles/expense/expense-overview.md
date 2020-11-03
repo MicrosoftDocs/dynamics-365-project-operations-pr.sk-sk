@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967385"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084244"
 ---
 # <a name="expense-home-page"></a>Domovská stránka výdavkov
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations podporuje možnosť spracovávania výdavkov. Sp
 
 V Project Operations existujú dva podporované modely nasadenia pre výdavok: 
 
-- **Plné**: Plné nasadenie je k dispozícii pre **Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch** alebo **Project Operations pre scenáre založené na výrobných zákazkách**.
-- **Základné**: Základné nasadenie je k dispozícii pre **Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch** a **Čiastočné nasadenie – dohoda o fakturácii pro forma**.
+- **Plné** : Plné nasadenie je k dispozícii pre **Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch** alebo **Project Operations pre scenáre založené na výrobných zákazkách**.
+- **Základné** : Základné nasadenie je k dispozícii pre **Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch** a **Čiastočné nasadenie – dohoda o fakturácii pro forma**.
 
 ## <a name="full"></a>Úplný 
 Nasadenie plných výdavkov poskytuje kompletné vynútenie politiky, ktoré zahŕňa schopnosť vytvárať politiky, ako napríklad:

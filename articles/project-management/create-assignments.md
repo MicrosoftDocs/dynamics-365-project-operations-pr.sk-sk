@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906325"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084277"
 ---
 # <a name="create-resource-assignments"></a>Vytvorenie priradení zdrojov
 
@@ -29,7 +29,7 @@ Keď vytvoríte všeobecného člena tímu prostredníctvom priradenia úlohy, v
 
 1. Na mriežke plánu stlačte ikonu zdroja v bunke **Zdroj**.
 2. Zadajte názov, ktorý bude slúžiť ako zástupný znak názvu zdroja. Napríklad, programový manažér
-3. Vybert **vytvoriť** a v poli **rýchle vytvorenie porjektového člena tímu**, nastavte rolu pre všeobecný zdroj.
+3. Vybert **vytvoriť** a v poli **rýchle vytvorenie porjektového člena tímu** , nastavte rolu pre všeobecný zdroj.
 4. Priraďte potrebné úlohu k tomuto zástupnému zdroju výberom zdroja v časti **Výber zdroja** pre úlohy. Zdroje uvedené pod položkou **Členovia tímu**.
 5. Keď skončíte s priraďovaním všeobecného zdroja, na karte **Tím** vyberte všeobecný zdroj a stlačte možnosť **Generovať požiadavku** na vytvorenie požiadavky zdroja pre všeobecný zdroj.
 6. Stlačte možnosť **Rezervovať** pre všeobecný zdroj a potom použite tabuľu plánovania na vyhľadanie a rezerváciu skutočného zdroja. Požiadavku môžete tiež odoslať na vyplnenie manažérovi zdroja.
@@ -37,7 +37,7 @@ Keď vytvoríte všeobecného člena tímu prostredníctvom priradenia úlohy, v
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Priradenie pomenovaného zdroja zo zoznamu všetkých rezervovateľných zdrojov
 
-Pole vyhľadávania možno v časti **Výber zdroja** použiť na vyhľadanie všetkých aktívnych rezervovateľných zdrojov a ich priradenie k úlohe listového uzla. Prostriedky pridelené týmto spôsobom sa pridajú do tímu bez akýchkoľvek rezervácií. To je podobné ako pridanie člena tímu a výber možnosti **Nič** ako spôsob prideľovania. Zdroje sa zobrazia na kartách **Tím**, **Priradenie zdroja** a **Odsúhlasenie** ako zdroje s tým, že im bude chýbať priradenie a rezervácia. Ak chcete využiť ich dostupnosť, zarezervujte ich.
+Pole vyhľadávania možno v časti **Výber zdroja** použiť na vyhľadanie všetkých aktívnych rezervovateľných zdrojov a ich priradenie k úlohe listového uzla. Prostriedky pridelené týmto spôsobom sa pridajú do tímu bez akýchkoľvek rezervácií. To je podobné ako pridanie člena tímu a výber možnosti **Nič** ako spôsob prideľovania. Zdroje sa zobrazia na kartách **Tím** , **Priradenie zdroja** a **Odsúhlasenie** ako zdroje s tým, že im bude chýbať priradenie a rezervácia. Ak chcete využiť ich dostupnosť, zarezervujte ich.
 
 1. Z mriežky úloh, tabule alebo časovej osi prejdite na bunku **Priradené používateľovi**.
 2. Do vyhľadávacieho poľa začnite písať meno. Výsledky vyhľadávania pre názov sú zobrazené vo **výbere zdroja** v časti **iné zdroje**.

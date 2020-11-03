@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084218"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Spravovanie viacerých zákazníkov v projektových cenových ponukách
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Cenové ponuky projektu podporujú scenár, keď návrh zahŕňa viacerých zákazníkov, ktorí budú financovať obchod. Karta **Súhrn** cenovej ponuky obsahuje pole **Potenciálny zákazník**, ktoré identifikuje primárneho zákazníka obchodu. Ďalší zákazníci pre obchod môžu byť nastavení na karte **Zákazníci** cenovej ponuky projektu.
+Cenové ponuky projektu podporujú scenár, keď návrh zahŕňa viacerých zákazníkov, ktorí budú financovať obchod. Karta **Súhrn** cenovej ponuky obsahuje pole **Potenciálny zákazník** , ktoré identifikuje primárneho zákazníka obchodu. Ďalší zákazníci pre obchod môžu byť nastavení na karte **Zákazníci** cenovej ponuky projektu.
 
 Všetky cenové ponuky zákazníkov na karte **Zákazníci** cenovej ponuky projektu budú predvolené ako riadok cenovej ponuky zákazníkov na všetkých **nových** riadkoch cenovej ponuky založenej na projekte vytvorených pre cenovú ponuku. Žiadne existujúce riadky cenových ponúk založené na projekte nebudú dediť nové zákaznícke záznamy cenových ponúk vytvorené po nich.
 
@@ -29,7 +29,7 @@ Zákazníci cenových ponúk a zákazníci riadkov cenových ponúk môžu byť 
 
 Zákazník uvedený na karte **Súhrn** cenovej ponuky projektu ako potenciálny zákazník je primárnym zákazníkom ponuky. Ak sa pokúsite odstrániť primárneho zákazníka zo zoznamu zákazníkov v cenovej ponuke, zobrazí sa chyba, že záznam primárneho zákazníka z cenovej ponuky nemožno vymazať.
 
-Primárny zákazník by nemal byť aktualizovaný zo zoznamu zákazníkov v cenovej ponuke. Primárneho zákazníka však môžete ovplyvniť zmenou potenciálneho zákazníka na karte **Zhrnutie** cenovej ponuky. Keď sa toto pole aktualizuje na **Súhrn cenovej ponuky**, novo vybraný potenciálny zákazník je pridaný ako nový zákazník cenovej ponuky s nastaveným príznakom **Primárny**. Starý potenciálny zákazník bude naďalej zákazníkom uvedeným v cenovej ponuke.
+Primárny zákazník by nemal byť aktualizovaný zo zoznamu zákazníkov v cenovej ponuke. Primárneho zákazníka však môžete ovplyvniť zmenou potenciálneho zákazníka na karte **Zhrnutie** cenovej ponuky. Keď sa toto pole aktualizuje na **Súhrn cenovej ponuky** , novo vybraný potenciálny zákazník je pridaný ako nový zákazník cenovej ponuky s nastaveným príznakom **Primárny**. Starý potenciálny zákazník bude naďalej zákazníkom uvedeným v cenovej ponuke.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Vytvorenie, aktualizovanie alebo odstránenie záznamu zákazníka cenovej ponuky
 

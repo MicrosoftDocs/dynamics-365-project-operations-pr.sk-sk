@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965889"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084265"
 ---
 # <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Správa viacerých zákazníkov v riadkoch cenových ponúk založených na projekte
 
@@ -33,10 +33,10 @@ V nasledujúcej tabuľke sú uvedené polia v zákazníckom zázname riadka ceno
 
 | Pole | Oblasť | Popis a pokyny | Nadväzujúci vplyv |
 | --- | --- | --- | --- |
-| **Obchodný vzťah** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky**, hlavný formulár a formuláre na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Zobrazenie zoznamu všetkých aktívnych účtov. Po vytvorení záznamu je toto pole uzamknuté. Ak potrebujete aktualizovať pole, vymažte a znova vytvorte záznam. Ak ste zaznamenali nejaké skutočné hodnoty, záznam nemôžete vymazať. | Keď si vyberiete obchodný vzťah z hlavného zoznamu obchodných vzťahov, ktorý chcete pridať, zákazník riadka cenovej ponuky sa po uložení tiež pridá ako zákazník cenovej ponuky. Po získaní cenovej ponuky sa zákazníci riadka cenovej ponuky prekopírujú k zákazníkom riadka zmluvy o projekte. |
-| **Percento rozdelenia fakturácie** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky**, hlavný formulár a formuláre na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Predstavuje percento každej nevyfakturovanej predajnej transakcie, ktorá sa pripíše tomuto zákazníkovi riadka cenovej ponuky. | Skopírované k zákazníkom riadka zmluvy projektu. |
-| **Limit, ktorý sa nesmie prekročiť** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky**, hlavný formulár a formuláre na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Označuje, či existuje dohodnutý limit alebo strop celkovej sumy, ktorá bude fakturovaná tomuto zákazníkovi za tento riadok cenovej ponuky. | Skopírované do zákazníkov riadka zmluvy projektu po získaní cenovej ponuky. |
-| **Zaokrúhľuje** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky**, hlavný formulár a formuláre na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Označuje, či je tento zákazník predvoleným zákazníkom zaokrúhľovania pre tento riadok cenovej ponuky založenej na projekte. | Skopírované do zmluvných zákazníkov projektu po získaní cenovej ponuky. |
+| **Obchodný vzťah** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky** , hlavný formulár a formuláre na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Zobrazenie zoznamu všetkých aktívnych účtov. Po vytvorení záznamu je toto pole uzamknuté. Ak potrebujete aktualizovať pole, vymažte a znova vytvorte záznam. Ak ste zaznamenali nejaké skutočné hodnoty, záznam nemôžete vymazať. | Keď si vyberiete obchodný vzťah z hlavného zoznamu obchodných vzťahov, ktorý chcete pridať, zákazník riadka cenovej ponuky sa po uložení tiež pridá ako zákazník cenovej ponuky. Po získaní cenovej ponuky sa zákazníci riadka cenovej ponuky prekopírujú k zákazníkom riadka zmluvy o projekte. |
+| **Percento rozdelenia fakturácie** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky** , hlavný formulár a formuláre na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Predstavuje percento každej nevyfakturovanej predajnej transakcie, ktorá sa pripíše tomuto zákazníkovi riadka cenovej ponuky. | Skopírované k zákazníkom riadka zmluvy projektu. |
+| **Limit, ktorý sa nesmie prekročiť** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky** , hlavný formulár a formuláre na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Označuje, či existuje dohodnutý limit alebo strop celkovej sumy, ktorá bude fakturovaná tomuto zákazníkovi za tento riadok cenovej ponuky. | Skopírované do zákazníkov riadka zmluvy projektu po získaní cenovej ponuky. |
+| **Zaokrúhľuje** | Upraviteľná mriežka na karte **Zákazníci riadka cenovej ponuky** , hlavný formulár a formuláre na rýchle vytvorenie pre riadok zákazníka cenovej ponuky. | Označuje, či je tento zákazník predvoleným zákazníkom zaokrúhľovania pre tento riadok cenovej ponuky založenej na projekte. | Skopírované do zmluvných zákazníkov projektu po získaní cenovej ponuky. |
 
 ## <a name="edit-billing-split-percentages"></a>Upraviť percentá rozdelenia fakturácie
 

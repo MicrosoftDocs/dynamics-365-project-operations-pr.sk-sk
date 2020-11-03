@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961944"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084212"
 ---
 # <a name="define-resource-calendars"></a>Definovanie kalendárov zdrojov
 
@@ -40,6 +40,6 @@ Každý rezervovateľný zdroj pracujúci na projekte musí mať kalendár praco
 ## <a name="applying-a-calendar-template-to-a-resource"></a>Použitie šablóny kalendára na zdroj
 
 1. V ponuke **Zdroje** vyberte možnosť **Zdroje**.
-2. V zobrazení mriežky vyberte až 25 **Rezervovateľných zdrojov**, ktoré sa majú aktualizovať.
+2. V zobrazení mriežky vyberte až 25 **Rezervovateľných zdrojov** , ktoré sa majú aktualizovať.
 3. Vyberte možnosť **Nastaviť kalendár** a zobrazí sa dialógové okno so zoznamom dostupných šablón pracovnej doby.
 4. Vyberte šablónu, ktorú chcete použiť, a potom vyberte **Použiť**.

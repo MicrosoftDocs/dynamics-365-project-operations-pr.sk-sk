@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908582"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084286"
 ---
 # <a name="expense-estimates"></a>Odhady nákladov
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
@@ -33,8 +33,8 @@ Ak chcete zobraziť, pridať alebo odstrániť projektové výdavky, postupujte 
 Pre každú položku riadka výdavku sú definované nasledujúce atribúty:
 
 - **Kategória** :Bežné zoskupenia používané na popis všetkých výdavkov vzniknutých v súvislosti s projektom.
-- **Dátum začiatku**: Dátum, kedy sa predpokladá vznik výdavkov.
-- **Množstvo**: Odhadovaný počet položiek výdavkov pre konkrétnu kategóriu.
-- **Jednotková obstarávacia cena**: Jednotková cena použitá na náklady výdavkov.
-- **Jednotková predajná cena**: Jednotková cena použitá na výpočet predajných cien výdavkov.
+- **Dátum začiatku** : Dátum, kedy sa predpokladá vznik výdavkov.
+- **Množstvo** : Odhadovaný počet položiek výdavkov pre konkrétnu kategóriu.
+- **Jednotková obstarávacia cena** : Jednotková cena použitá na náklady výdavkov.
+- **Jednotková predajná cena** : Jednotková cena použitá na výpočet predajných cien výdavkov.
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084255"
 ---
 # <a name="project-team-members"></a>Členovia projektového tímu
 
@@ -47,16 +47,16 @@ V nasledujúcej tabuľke sú uvedené kľúčové atribúty člena projektového
 
 Z mriežky členov tímu možno vykonať nasledujúce akcie:
 
-- **Rezervovať**: Pre organizácie, ktoré využívajú metodiku hybridných rezervácií, umožní akcia rezervovania používateľom rezervovať pomenovaný zdroj na základe požiadaviek generovaných všeobecným členom tímu
-- **Generovať požiadavku**: Táto akcia generuje požiadavku.
-- **Zadajte vzor**: Umožňuje projektovým manažérom upravovať obrysy požiadaviek na zdroje na podrobnejšej úrovni. Projektoví manažéri sa môžu prispôsobiť konkrétnym potrebám projektu v prípadoch, keď sa nie je vhodné použiť predvolenú distribúciu.
-- **Odoslať žiadosť**: Pre organizácie používajúce metodiku centrálnych rezervácií.
-- **Upraviť**: Atribúty členov tímu možno upravovať, vrátane názvu organizačnej jednotky, roly a pozície.
-- **Zachovať rezervácie**: Keď je potrebné aktualizovať rezervácie zdrojov, zachovanie rezervácie umožňuje projektovému manažérovi upraviť:
+- **Rezervovať** : Pre organizácie, ktoré využívajú metodiku hybridných rezervácií, umožní akcia rezervovania používateľom rezervovať pomenovaný zdroj na základe požiadaviek generovaných všeobecným členom tímu
+- **Generovať požiadavku** : Táto akcia generuje požiadavku.
+- **Zadajte vzor** : Umožňuje projektovým manažérom upravovať obrysy požiadaviek na zdroje na podrobnejšej úrovni. Projektoví manažéri sa môžu prispôsobiť konkrétnym potrebám projektu v prípadoch, keď sa nie je vhodné použiť predvolenú distribúciu.
+- **Odoslať žiadosť** : Pre organizácie používajúce metodiku centrálnych rezervácií.
+- **Upraviť** : Atribúty členov tímu možno upravovať, vrátane názvu organizačnej jednotky, roly a pozície.
+- **Zachovať rezervácie** : Keď je potrebné aktualizovať rezervácie zdrojov, zachovanie rezervácie umožňuje projektovému manažérovi upraviť:
 
     - Podľa začiatku
     - Ukončenie
     - Celkové pridelenie úsilia
 
-- **Nový**: Okrem pridávania zdrojov priamo z plánu môžu projektoví manažéri pridávať nových pomenovaných alebo všeobecných členov tímu z mriežky členov tímu.
-- **Odstrániť**: Výberom jedného alebo viacerých členov tímu môže projektový manažér vymazať zdroje, ktoré sa už na projekte nebudú podieľať. Odstránením člena tímu sa odstránia aj všetky priradené priradenia zdrojov a zrušia sa všetky existujúce rezervácie.
+- **Nový** : Okrem pridávania zdrojov priamo z plánu môžu projektoví manažéri pridávať nových pomenovaných alebo všeobecných členov tímu z mriežky členov tímu.
+- **Odstrániť** : Výberom jedného alebo viacerých členov tímu môže projektový manažér vymazať zdroje, ktoré sa už na projekte nebudú podieľať. Odstránením člena tímu sa odstránia aj všetky priradené priradenia zdrojov a zrušia sa všetky existujúce rezervácie.

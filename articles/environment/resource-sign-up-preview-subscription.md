@@ -3,17 +3,17 @@ title: Registrácia na odber ukážky Project Operations pre scenáre zdrojov/ch
 description: Táto téma poskytuje informácie o tom, ako sa prihlásiť na odber a nasadiť Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949072"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084250"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrácia na odber ukážky Project Operations pre scenáre zdrojov/chýbajúcich zdrojov
 
@@ -29,48 +29,53 @@ Táto téma vysvetľuje, ako sa prihlásiť na odber ukážky/ponuky partnera a 
 
 ## <a name="subscribe"></a>Prihlásiť sa na odber
 
-Keď je vaše schválenie [žiadosti o ukážku](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) schválené, dostanete e-mailom dve ponuky od spoločnosti Microsoft. Tieto ponuky vám umožňujú nasadiť ukážku Project Operations:
+Keď je vaše schválenie [žiadosti o ukážku](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) schválené, dostanete e-mailom tri ponuky od spoločnosti Microsoft. Tieto ponuky vám umožňujú nasadiť ukážku Project Operations:
 
-- Dynamics 365 Project Operations – skúšobná verzia ukážky
-- Skúšobná verzia ukážky Dynamics 365 for Finance and Operations.
+- Dynamics 365 Project Operations (CRM) – skúšobná verzia ukážky
+- Office 365 Project Operations – skúšobná verzia ukážky
+- Dynamics 365 Finance – skúšobná verzia
 
 > [!IMPORTANT]
 > Túto úlohu musí vykonať iba jedna osoba, správca nájomníka v organizácii. Ak nie ste predplatiteľom tohto vydania, počkajte, kým nebude zaregistrovaná vaša organizácia a kým dostanete svoje prihlasovacie údaje.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – skúšobná verzia ukážky
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – skúšobná verzia ukážky 
 
-1. Uplatnite prvú ponuku, **skúšobnú verziu Dynamics 365 Project Operations** s adresou URL uvedenou v uvítacom e-maile.
+Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovným účtom používateľa v nájomníkovi, kde chcete zobraziť ukážku Project Operations.
 
-![Prvá ponuka](./media/1FirstOffer.png)
+1. Uplatnenie prvého kódu ponuky, **Dynamics 365 Project Operations (CRM) – skúšobná verzia ukážky** vložením do adresy URL prehliadača.
 
-2. Skontrolujte, či ste prihlásený ako používateľ, ktorý patrí k organizácii, ktorá si predplatí službu.
-3. Pokračujte v uplatnení ponuky. 
-4. Vyberte **Áno, pridať do môjho účtu**.
+![Uplatniť ponuku](./media/16RedeemFirstOfferNew.png)
 
-![Uplatniť ponuku](./media/2RedeemFirstOffer.png)
+2. Potvrďte objednávku.
 
-![Potvrdiť ponuku](./media/3ConfirmFirstOffer.png)
+![Potvrďte objednávku](./media/17ConfirmOrderNew.png)
 
-![Ponuka uplatnená](./media/4OfferSuccessfulyRedeemed.png)
+Uvidíte, že ponuka potvrdenia bola úspešne uplatnená.
+
+![Potvrdenie](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – skúšobná verzia ukážky
+
+Zopakujte rovnaké kroky ako pri prvom kóde ponuky. Nezabudnite pridať druhý kód ponuky pomocou rovnakého používateľského účtu, aký bol použitý s prvým kódom ponuky.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Skúšobná verzia ukážky Dynamics 365 Finance
 
-Rovnaké kroky zopakujte aj pri druhej ponuke z uvítacieho e-mailu.
+Rovnaké kroky zopakujte aj pri poslednej ponuke z uvítacieho e-mailu.
 
 ## <a name="assign-licenses"></a>Priradenie licencií
 
 > [!IMPORTANT]
-> Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k Office 365 vo vašej organizácii .
+> Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k portálu Microsoft 365 vo vašej organizácii.
 
-1. Prejdite na [Centrum pre správu Microsoft 365](https://portal.office.com/) na pridelenie licencií vašim používateľom.
+1. Prejdite do [Centrum pre správu Microsoft 365](https://portal.office.com/) na pridelenie licencií vašim používateľom.
 
-![Portál na správu služieb Office](./media/5OfficeAdminPortal.png)
+![Stránka správcu centra spravovania](./media/14AdminPortal.png)
 
 2. Na stránke **Aktívni používatelia** vyberte používateľov, ktorým chcete priradiť licenciu.
 
-![Priradenie licencií](./media/6AssignLicenses.png)
+![Priradenie licencií](./media/15AssignLicenses.png)
 
-3. Skontrolujte, či bola vybratá licencia Project Operations, a vyberte **Uložiť zmeny**. 
+3. Overte, či licencia **Ukážka Dynamics 365 Project Operations (CRM)** a **Ukážka Office 365 Project Operations** boli vybraté a stlačte možnosť **Uložiť zmeny**.
 
 > [!NOTE]
 > Ponuku na vyskúšanie služby Finance nie je potrebné priradiť používateľovi.
@@ -85,9 +90,9 @@ Pri dokončení tejto úlohy postupujte podľa pokynov v téme [Pridanie predpla
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Nasadenie ukážky prostredia Finance s Project Operations pre scenáre zdrojov/chýbajúcich zdrojov
 
-Postupujte podľa pokynov v téme [Zriadenie nového prostredia](resource-provision-new-environment.md) na dokončenie nasadenia. Použite typ nasadenia [ukážkové prostredie](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pre ukážku.
+Postupujte podľa pokynov v téme [Zriadenie nového prostredia](resource-provision-new-environment.md) na dokončenie nasadenia. Použite typ nasadenia [ukážkové prostredie](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pre ukážku. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Inštalácia údajov CDS pre nastavenie a konfiguráciu
 
 Nainštalujte údaje pre nastavenie a konfiguráciu CDS podľa popisu v téme [Nastavenie a použitie konfiguračných údajov v Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Tento krok dokončite až po nasadení ukážkového prostredia Finance a pripravení ukážkových údajov v FO.

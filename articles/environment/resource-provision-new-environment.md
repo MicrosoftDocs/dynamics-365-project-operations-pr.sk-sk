@@ -3,17 +3,17 @@ title: Zriadenie nového prostredia
 description: Táto téma poskytuje informácie o tom, ako zriadiť nové prostredie Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084251"
 ---
 # <a name="provision-a-new-environment"></a>Zriadenie nového prostredia
 
@@ -26,14 +26,14 @@ Táto téma poskytuje informácie o tom, ako zriadiť nové prostredie Dynamics 
 Pomocou nasledujúcich krokov povolíte automatizovaný tok poskytovania prostriedkov v Project Operations pre váš projekt LCS.
 
 1. Prejdite do [LCS](https://lcs.dynamics.com/v2) a vyberte dlaždicu **Ukážka správy funkcií**.
-2. V zozname **Funkcia ukážky** vyberte **Project Operations** a vyberte **Povolená funkcia ukážky** na povolenie Project Operations.
+2. V zozname **Funkcia ukážky** vyberte **Funkcia Project Operations** a potom stlačte **Povolená funkcia ukážky** na povolenie Project Operations.
 
 > [!NOTE]
 > Tento krok sa vykoná iba jedenkrát pre projekt LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>Zriadenie prostredia Project Operations
 
-1. Otvorte nové nasadenie Dynamics 365 Finance [ukážkové prostredie](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) alebo [testovacie prostredie/produkčné prostredie](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otvorte nové nasadenie Dynamics 365 Finance [ukážkové prostredie](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) alebo [testovacie prostredie/produkčné prostredie](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Prejdite sprievodcom **Poskytovanie prostriedkov prostredia**. 
 
 > [!IMPORTANT]
@@ -165,18 +165,19 @@ Obnovenie bude trvať približne 20 minút. Po dokončení dostanete upozornenie
 | **Integračná entita pre transakčné vzťahy projektu (msdyn\_transactionconnections)** | No | No | Nie je k dispozícii | No | Nie je k dispozícii |
 | **Medzníky integrácie riadka zmluvy Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | Nie je k dispozícii | No | Nie je k dispozícii |
 | **Entita integrácie Project Operations pre odhady výdavkov (msdyn\_estimateslines)** | No | No | Nie je k dispozícii | No | Nie je k dispozícii |
-| **Entita integrácie Project Operations pre odhady hodín (msdyn\_resourceassignments)** | No | No | Nie je k dispozícii | No | Nie je k dispozícii |
+| **Entita exportu výdavkov projektu integrácie entity exportovania kategórií výdavkov (msdyn\_expensecategories)** | No | No | Nie je k dispozícii | No | Nie je k dispozícii |
 | **Entita exportu výdavkov projektu integrácie Project Operations (msdyn\_expenses)** | Áno | No | Nie je k dispozícii | No | Nie je k dispozícii |
 | **Entita integrácie Project Operations pre odhady hodín (msdyn\_resourceassignments)** | Áno | No | Nie je k dispozícii | No | Nie je k dispozícii |
 
+
 4. Ak chcete obnoviť entitu, vyberte názov mapy a potom vyberte **Obnoviť entity**. 
-5. Po dokončení obnovenia pokračujte v spustení mapy.
+
 
 ![Obnoviť mapu](./media/20RefreshMapping.png)
 
-Pred povolením ďalšej mapy skontrolujte, či je mapa v tabuľke v stave **Spustené**. Spustenie máp s väčším počtom predpokladov môže chvíľu trvať.
+5. Po dokončení obnovenia spustite priraďovanie. Pred povolením ďalšej mapy skontrolujte, či je mapa v tabuľke v stave **Spustené**. Spustenie máp s väčším počtom predpokladov môže chvíľu trvať.
 
-Ak chcete spustiť mapu s predpokladmi, povoľte prepínač **Zobraziť mapy súvisiacich entít**. Ak je v tabuľke pri možnosti **Počiatočná synchronizácia predpokladu** uvedené **Nie**, overte, či je príznak **Počiatočná synchronizácia** nastavený na **Vypnuté** vo všetkých nevyhnutných mapách predtým ako ju spustíte.
+Ak chcete spustiť mapu s predpokladmi, povoľte prepínač **Zobraziť mapy súvisiacich entít**. Ak je v tabuľke pri možnosti **Počiatočná synchronizácia predpokladu** uvedené **Nie** , overte, či je príznak **Počiatočná synchronizácia** nastavený na **Vypnuté** vo všetkých nevyhnutných mapách predtým ako ju spustíte.
 
 ![Spustiť mapu](./media/21RunMap.png)
 

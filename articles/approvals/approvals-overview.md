@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961185"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084224"
 ---
 # <a name="approvals-overview"></a>Prehľad schválení
 
@@ -27,7 +27,7 @@ Keď vytvoríte a odošlete záznam o čase alebo výdavkoch, vytvorí sa zázna
 ## <a name="approve-an-entry"></a>Schválenie záznamu
 Formulár **Schválenia** umožňuje prepínať medzi rôznymi zobrazeniami, aby ste si mohli pozrieť rôzne typy schválení.
   
-1. Prejdite na formulár **Schválenia** a vyberte **Výdavky**, **Čas** alebo **Odvolania**.
+1. Prejdite na formulár **Schválenia** a vyberte **Výdavky** , **Čas** alebo **Odvolania**.
 2. Skontrolujte každé schválenie a vyberte tie, ktoré chcete schváliť.
 3. Vyberte **Schváliť** na schválenie vybraných záznamov.
 Systém tieto záznamy spracuje a vytvorí skutočné hodnoty alebo rezerváciu.
