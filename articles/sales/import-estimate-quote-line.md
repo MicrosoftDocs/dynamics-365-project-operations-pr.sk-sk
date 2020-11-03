@@ -3,67 +3,67 @@ title: Importovanie odhadov projektu do riadka cenovej ponuky na základe projek
 description: Táto téma poskytuje informácie o importe odhadov z projektu do riadka cenovej ponuky.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908579"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084280"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importovanie odhadov projektu do riadka cenovej ponuky na základe projektu
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a><span data-ttu-id="6fa71-103">Importovanie odhadov projektu do riadka cenovej ponuky na základe projektu</span><span class="sxs-lookup"><span data-stu-id="6fa71-103">Import estimates for a project to a project-based quote line</span></span>
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+<span data-ttu-id="6fa71-104">_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_</span><span class="sxs-lookup"><span data-stu-id="6fa71-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 
-Ak je projekt vytvorený počas štádia predpredaja, môžete zvoliť importovanie finančného odhadu z projektu do riadka ponuky cenovej založenej na projekte.
+<span data-ttu-id="6fa71-105">Ak je projekt vytvorený počas štádia predpredaja, môžete zvoliť importovanie finančného odhadu z projektu do riadka ponuky cenovej založenej na projekte.</span><span class="sxs-lookup"><span data-stu-id="6fa71-105">If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.</span></span>
 
-1. Uistite sa, že riadok ponuky založenej na projekte obsahuje informácie o projekte v poli **Projekt**.
-2. Na karte **Podrobnosti o riadku cenovej ponuky** vyberte **Importovať z odhadu projektu**.
-3. Na otvorenej dialógovej stránke vyberte jednu z nasledujúcich možností súhrnu.
+1. <span data-ttu-id="6fa71-106">Uistite sa, že riadok ponuky založenej na projekte obsahuje informácie o projekte v poli **Projekt**.</span><span class="sxs-lookup"><span data-stu-id="6fa71-106">Make sure that the project-based quote line has the project information in the **Project** field.</span></span>
+2. <span data-ttu-id="6fa71-107">Na karte **Podrobnosti o riadku cenovej ponuky** vyberte **Importovať z odhadu projektu**.</span><span class="sxs-lookup"><span data-stu-id="6fa71-107">On the **Quote line details** tab, select **Import from Project Estimation**.</span></span>
+3. <span data-ttu-id="6fa71-108">Na otvorenej dialógovej stránke vyberte jednu z nasledujúcich možností súhrnu:</span><span class="sxs-lookup"><span data-stu-id="6fa71-108">On the dialog page opens, select one of the following summarization options:</span></span>
 
-  - **Trieda transakcie**
-  - **Kategória**
-  - **Rola** 
-  - **Projektová úloha**
+  - <span data-ttu-id="6fa71-109">**Trieda transakcie**</span><span class="sxs-lookup"><span data-stu-id="6fa71-109">**Transaction class**</span></span>
+  - <span data-ttu-id="6fa71-110">**Kategória**</span><span class="sxs-lookup"><span data-stu-id="6fa71-110">**Category**</span></span>
+  - <span data-ttu-id="6fa71-111">**Rola**</span><span class="sxs-lookup"><span data-stu-id="6fa71-111">**Role**</span></span> 
+  - <span data-ttu-id="6fa71-112">**Projektová úloha**</span><span class="sxs-lookup"><span data-stu-id="6fa71-112">**Project task**</span></span>
 
-Na základe vášho výberu sa skopíruje odhad z projektu pre všetky triedy transakcií zahrnutých v tomto riadku cenovej ponuky. Ak chcete skontrolovať, ktoré triedy transakcií sú zahrnuté, vyberte kartu **Všeobecné** na riadku cenovej ponuky založenej na projekte a skontrolujte hodnoty pre položky **Zahrnúť čas**, **Zahrnúť výdavky** a **Zahrnúť poplatky**.
+<span data-ttu-id="6fa71-113">Na základe vášho výberu sa skopíruje odhad z projektu pre všetky triedy transakcií zahrnutých v tomto riadku cenovej ponuky.</span><span class="sxs-lookup"><span data-stu-id="6fa71-113">Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over.</span></span> <span data-ttu-id="6fa71-114">Ak chcete skontrolovať, ktoré triedy transakcií sú zahrnuté, vyberte kartu **Všeobecné** na riadku cenovej ponuky založenej na projekte a skontrolujte hodnoty pre položky **Zahrnúť čas** , **Zahrnúť výdavky** a **Zahrnúť poplatky**.</span><span class="sxs-lookup"><span data-stu-id="6fa71-114">To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time** , **Include Expenses** , and **Include Fees**.</span></span>
 
-Keď importujete odhady, systém predvolene nastaví cenu na základe cenníkov projektu pripojených k cenovej ponuke a typu fakturácie nastaveného v riadku cenovej ponuky založenej na projekte. Ak je rola alebo kategória nastavená na riadku cenovej ponuky založenej na projekte ako nespoplatniteľná, importovaný riadok odhadu sa nastaví ako nespoplatniteľný a nebude sa zvyšovať k uvedenej hodnote riadka cenovej ponuky.
+<span data-ttu-id="6fa71-115">Keď importujete odhady, systém predvolene nastaví cenu na základe cenníkov projektu pripojených k cenovej ponuke a typu fakturácie nastaveného v riadku cenovej ponuky založenej na projekte.</span><span class="sxs-lookup"><span data-stu-id="6fa71-115">When you import estimates, the system will default pricing based on the project price lists attached to the quote and the billing type set up on the project-based quote line.</span></span> <span data-ttu-id="6fa71-116">Ak je rola alebo kategória nastavená na riadku cenovej ponuky založenej na projekte ako nespoplatniteľná, importovaný riadok odhadu sa nastaví ako nespoplatniteľný a nebude sa zvyšovať k uvedenej hodnote riadka cenovej ponuky.</span><span class="sxs-lookup"><span data-stu-id="6fa71-116">If a role or category is set up on the project-based quote line as non-chargeable, the imported estimate line will set as non-chargeable and won't add up to the quoted value of quote line.</span></span>
 
-Ak riadok ponuky obsahuje podrobnosti o riadku, polia **Hodnota cenovej ponuky** a **Odhadovaná daň** v riadku ponuky sa zosumarizujú a nebude možné ich upravovať.
+<span data-ttu-id="6fa71-117">Ak riadok ponuky obsahuje podrobnosti o riadku, polia **Hodnota cenovej ponuky** a **Odhadovaná daň** v riadku ponuky sa zosumarizujú a nebude možné ich upravovať.</span><span class="sxs-lookup"><span data-stu-id="6fa71-117">When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.</span></span>
 
-Keď je vybratých viac možností sumarizácie, funkcia sumarizácie sa pokúsi o sumarizáciu podľa všetkých vybratých možností. To znamená, že výstup importovaných riadkov cenových ponúk bude väčší, ako keby ste vybrali iba jednu možnosť sumarizácie.
+<span data-ttu-id="6fa71-118">Keď je vybratých viac možností sumarizácie, systém sa pokúsi o sumarizáciu podľa všetkých vybratých možností.</span><span class="sxs-lookup"><span data-stu-id="6fa71-118">When multiple summarization options are selected, the system attempts to summarize by all selected options.</span></span> <span data-ttu-id="6fa71-119">Výsledkom je, že výstup importovaných riadkov cenových ponúk bude väčší, ako keby ste vybrali iba jednu možnosť sumarizácie.</span><span class="sxs-lookup"><span data-stu-id="6fa71-119">The result is that the output of imported quote lines will be more than if you selected only one summarization option.</span></span>
 
-Napríklad, ak má projekt nasledujúce odhadované riadky výdavkov.
+<span data-ttu-id="6fa71-120">Napríklad, ak má projekt nasledujúce odhadované riadky výdavkov.</span><span class="sxs-lookup"><span data-stu-id="6fa71-120">For example, if the project has the following estimate lines for expenses.</span></span>
 
-| Úloha | Kategória | Dátum | Počet | Jednotková cena | Množstvo |
+| <span data-ttu-id="6fa71-121">Úloha</span><span class="sxs-lookup"><span data-stu-id="6fa71-121">Task</span></span> | <span data-ttu-id="6fa71-122">Kategória</span><span class="sxs-lookup"><span data-stu-id="6fa71-122">Category</span></span> | <span data-ttu-id="6fa71-123">Dátum</span><span class="sxs-lookup"><span data-stu-id="6fa71-123">Date</span></span> | <span data-ttu-id="6fa71-124">Počet</span><span class="sxs-lookup"><span data-stu-id="6fa71-124">Quantity</span></span> | <span data-ttu-id="6fa71-125">Jednotková cena</span><span class="sxs-lookup"><span data-stu-id="6fa71-125">Unit price</span></span> | <span data-ttu-id="6fa71-126">Množstvo</span><span class="sxs-lookup"><span data-stu-id="6fa71-126">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Úloha A | Letenky | 1. 10. 2020 | 4 | 400 | 1600 |
-| Úloha B | Hotel | 1. 10. 2020 | 4 | 200 | 800 |
-| Úloha C | Hotel | 1. 11. 2020 | 2 | 200 | 400 |
+| <span data-ttu-id="6fa71-127">Úloha A</span><span class="sxs-lookup"><span data-stu-id="6fa71-127">Task A</span></span> | <span data-ttu-id="6fa71-128">Letenky</span><span class="sxs-lookup"><span data-stu-id="6fa71-128">Airfare</span></span> | <span data-ttu-id="6fa71-129">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="6fa71-129">10/1/2020</span></span> | <span data-ttu-id="6fa71-130">4</span><span class="sxs-lookup"><span data-stu-id="6fa71-130">4</span></span> | <span data-ttu-id="6fa71-131">400</span><span class="sxs-lookup"><span data-stu-id="6fa71-131">400</span></span> | <span data-ttu-id="6fa71-132">1600</span><span class="sxs-lookup"><span data-stu-id="6fa71-132">1600</span></span> |
+| <span data-ttu-id="6fa71-133">Úloha B</span><span class="sxs-lookup"><span data-stu-id="6fa71-133">Task B</span></span> | <span data-ttu-id="6fa71-134">Hotel</span><span class="sxs-lookup"><span data-stu-id="6fa71-134">Hotel</span></span> | <span data-ttu-id="6fa71-135">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="6fa71-135">10/1/2020</span></span> | <span data-ttu-id="6fa71-136">4</span><span class="sxs-lookup"><span data-stu-id="6fa71-136">4</span></span> | <span data-ttu-id="6fa71-137">200</span><span class="sxs-lookup"><span data-stu-id="6fa71-137">200</span></span> | <span data-ttu-id="6fa71-138">800</span><span class="sxs-lookup"><span data-stu-id="6fa71-138">800</span></span> |
+| <span data-ttu-id="6fa71-139">Úloha C</span><span class="sxs-lookup"><span data-stu-id="6fa71-139">Task C</span></span> | <span data-ttu-id="6fa71-140">Hotel</span><span class="sxs-lookup"><span data-stu-id="6fa71-140">Hotel</span></span> | <span data-ttu-id="6fa71-141">1. 11. 2020</span><span class="sxs-lookup"><span data-stu-id="6fa71-141">11/1/2020</span></span> | <span data-ttu-id="6fa71-142">2</span><span class="sxs-lookup"><span data-stu-id="6fa71-142">2</span></span> | <span data-ttu-id="6fa71-143">200</span><span class="sxs-lookup"><span data-stu-id="6fa71-143">200</span></span> | <span data-ttu-id="6fa71-144">400</span><span class="sxs-lookup"><span data-stu-id="6fa71-144">400</span></span> |
 
-Keď sa používateľ rozhodne sumarizovať podľa triedy transakcií, importujú sa nasledujúce informácie.
+<span data-ttu-id="6fa71-145">Keď sa používateľ rozhodne sumarizovať podľa triedy transakcií, importujú sa nasledujúce informácie.</span><span class="sxs-lookup"><span data-stu-id="6fa71-145">When the user selects to summarize by Transaction class, the following information will be imported.</span></span>
 
-| Úloha | Kategória | Dátum | Počet | Jednotková cena | Množstvo |
+| <span data-ttu-id="6fa71-146">Úloha</span><span class="sxs-lookup"><span data-stu-id="6fa71-146">Task</span></span> | <span data-ttu-id="6fa71-147">Kategória</span><span class="sxs-lookup"><span data-stu-id="6fa71-147">Category</span></span> | <span data-ttu-id="6fa71-148">Dátum</span><span class="sxs-lookup"><span data-stu-id="6fa71-148">Date</span></span> | <span data-ttu-id="6fa71-149">Počet</span><span class="sxs-lookup"><span data-stu-id="6fa71-149">Quantity</span></span> | <span data-ttu-id="6fa71-150">Jednotková cena</span><span class="sxs-lookup"><span data-stu-id="6fa71-150">Unit price</span></span> | <span data-ttu-id="6fa71-151">Množstvo</span><span class="sxs-lookup"><span data-stu-id="6fa71-151">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| | | 1. 10. 2020 | 3.34 | 840 | 2800 |
+| | | <span data-ttu-id="6fa71-152">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="6fa71-152">10/1/2020</span></span> | <span data-ttu-id="6fa71-153">3.34</span><span class="sxs-lookup"><span data-stu-id="6fa71-153">3.34</span></span> | <span data-ttu-id="6fa71-154">840</span><span class="sxs-lookup"><span data-stu-id="6fa71-154">840</span></span> | <span data-ttu-id="6fa71-155">2800</span><span class="sxs-lookup"><span data-stu-id="6fa71-155">2800</span></span> |
 
-Keď sa používateľ rozhodne sumarizovať podľa triedy transakcií a kategórie, importujú sa nasledujúce informácie.
+<span data-ttu-id="6fa71-156">Keď sa používateľ rozhodne sumarizovať podľa triedy transakcií a kategórie, importujú sa nasledujúce informácie.</span><span class="sxs-lookup"><span data-stu-id="6fa71-156">When the user selects to summarize by Transaction class and Category, the following information will be imported.</span></span>
 
-| Úloha | Kategória | Dátum | Počet | Jednotková cena | Množstvo |
+| <span data-ttu-id="6fa71-157">Úloha</span><span class="sxs-lookup"><span data-stu-id="6fa71-157">Task</span></span> | <span data-ttu-id="6fa71-158">Kategória</span><span class="sxs-lookup"><span data-stu-id="6fa71-158">Category</span></span> | <span data-ttu-id="6fa71-159">Dátum</span><span class="sxs-lookup"><span data-stu-id="6fa71-159">Date</span></span> | <span data-ttu-id="6fa71-160">Počet</span><span class="sxs-lookup"><span data-stu-id="6fa71-160">Quantity</span></span> | <span data-ttu-id="6fa71-161">Jednotková cena</span><span class="sxs-lookup"><span data-stu-id="6fa71-161">Unit price</span></span> | <span data-ttu-id="6fa71-162">Množstvo</span><span class="sxs-lookup"><span data-stu-id="6fa71-162">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Úloha A | Letenky | 1. 10. 2020 | 4 | 400 | 1600 |
-| | Hotel | 1. 10. 2020 | 6 | 200 | 1200 |
+| <span data-ttu-id="6fa71-163">Úloha A</span><span class="sxs-lookup"><span data-stu-id="6fa71-163">Task A</span></span> | <span data-ttu-id="6fa71-164">Letenky</span><span class="sxs-lookup"><span data-stu-id="6fa71-164">Airfare</span></span> | <span data-ttu-id="6fa71-165">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="6fa71-165">10/1/2020</span></span> | <span data-ttu-id="6fa71-166">4</span><span class="sxs-lookup"><span data-stu-id="6fa71-166">4</span></span> | <span data-ttu-id="6fa71-167">400</span><span class="sxs-lookup"><span data-stu-id="6fa71-167">400</span></span> | <span data-ttu-id="6fa71-168">1600</span><span class="sxs-lookup"><span data-stu-id="6fa71-168">1600</span></span> |
+| | <span data-ttu-id="6fa71-169">Hotel</span><span class="sxs-lookup"><span data-stu-id="6fa71-169">Hotel</span></span> | <span data-ttu-id="6fa71-170">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="6fa71-170">10/1/2020</span></span> | <span data-ttu-id="6fa71-171">6</span><span class="sxs-lookup"><span data-stu-id="6fa71-171">6</span></span> | <span data-ttu-id="6fa71-172">200</span><span class="sxs-lookup"><span data-stu-id="6fa71-172">200</span></span> | <span data-ttu-id="6fa71-173">1200</span><span class="sxs-lookup"><span data-stu-id="6fa71-173">1200</span></span> |
 
-Keď sa používateľ rozhodne sumarizovať podľa triedy transakcií, kategórie a úlohy listového uzla, importujú sa nasledujúce informácie. Všimnite si, že tento výsledok je rovnaký ako výsledok projektu.
+<span data-ttu-id="6fa71-174">Keď sa používateľ rozhodne sumarizovať podľa triedy transakcií, kategórie a úlohy listového uzla, importujú sa nasledujúce informácie.</span><span class="sxs-lookup"><span data-stu-id="6fa71-174">When the user selects to summarize by Transaction class, Category, and Leaf Node Task, the following information will be imported.</span></span> <span data-ttu-id="6fa71-175">Všimnite si, že tento výsledok je rovnaký ako výsledok projektu.</span><span class="sxs-lookup"><span data-stu-id="6fa71-175">Notice that this result is the same as what was on the project.</span></span>
 
-| Úloha | Kategória | Dátum | Počet | Jednotková cena | Množstvo |
+| <span data-ttu-id="6fa71-176">Úloha</span><span class="sxs-lookup"><span data-stu-id="6fa71-176">Task</span></span> | <span data-ttu-id="6fa71-177">Kategória</span><span class="sxs-lookup"><span data-stu-id="6fa71-177">Category</span></span> | <span data-ttu-id="6fa71-178">Dátum</span><span class="sxs-lookup"><span data-stu-id="6fa71-178">Date</span></span> | <span data-ttu-id="6fa71-179">Počet</span><span class="sxs-lookup"><span data-stu-id="6fa71-179">Quantity</span></span> | <span data-ttu-id="6fa71-180">Jednotková cena</span><span class="sxs-lookup"><span data-stu-id="6fa71-180">Unit price</span></span> | <span data-ttu-id="6fa71-181">Množstvo</span><span class="sxs-lookup"><span data-stu-id="6fa71-181">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Úloha A | Letenky | 1. 10. 2020 | 4 | 400 | 1600 |
-| Úloha B | Hotel | 1. 10. 2020 | 4 | 200 | 800 |
-| Úloha C | Hotel | 1. 11. 2020 | 2 | 200 | 400 |
+| <span data-ttu-id="6fa71-182">Úloha A</span><span class="sxs-lookup"><span data-stu-id="6fa71-182">Task A</span></span> | <span data-ttu-id="6fa71-183">Letenky</span><span class="sxs-lookup"><span data-stu-id="6fa71-183">Airfare</span></span> | <span data-ttu-id="6fa71-184">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="6fa71-184">10/1/2020</span></span> | <span data-ttu-id="6fa71-185">4</span><span class="sxs-lookup"><span data-stu-id="6fa71-185">4</span></span> | <span data-ttu-id="6fa71-186">400</span><span class="sxs-lookup"><span data-stu-id="6fa71-186">400</span></span> | <span data-ttu-id="6fa71-187">1600</span><span class="sxs-lookup"><span data-stu-id="6fa71-187">1600</span></span> |
+| <span data-ttu-id="6fa71-188">Úloha B</span><span class="sxs-lookup"><span data-stu-id="6fa71-188">Task B</span></span> | <span data-ttu-id="6fa71-189">Hotel</span><span class="sxs-lookup"><span data-stu-id="6fa71-189">Hotel</span></span> | <span data-ttu-id="6fa71-190">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="6fa71-190">10/1/2020</span></span> | <span data-ttu-id="6fa71-191">4</span><span class="sxs-lookup"><span data-stu-id="6fa71-191">4</span></span> | <span data-ttu-id="6fa71-192">200</span><span class="sxs-lookup"><span data-stu-id="6fa71-192">200</span></span> | <span data-ttu-id="6fa71-193">800</span><span class="sxs-lookup"><span data-stu-id="6fa71-193">800</span></span> |
+| <span data-ttu-id="6fa71-194">Úloha C</span><span class="sxs-lookup"><span data-stu-id="6fa71-194">Task C</span></span> | <span data-ttu-id="6fa71-195">Hotel</span><span class="sxs-lookup"><span data-stu-id="6fa71-195">Hotel</span></span> | <span data-ttu-id="6fa71-196">1. 11. 2020</span><span class="sxs-lookup"><span data-stu-id="6fa71-196">11/1/2020</span></span> | <span data-ttu-id="6fa71-197">2</span><span class="sxs-lookup"><span data-stu-id="6fa71-197">2</span></span> | <span data-ttu-id="6fa71-198">200</span><span class="sxs-lookup"><span data-stu-id="6fa71-198">200</span></span> | <span data-ttu-id="6fa71-199">400</span><span class="sxs-lookup"><span data-stu-id="6fa71-199">400</span></span> |

@@ -3,139 +3,144 @@ title: Rozšírenie zadaní času
 description: Táto téma poskytuje informácie o tom, ako môžu vývojári rozšíriť riadenie zadaní času.
 author: stsporen
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 93f411ad7c86beefcc35e7799a03987dacdcd62b
-ms.sourcegitcommit: 5a29adce48133e09f051929e8544d6c2c93c025d
+ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3930899"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084263"
 ---
-# <a name="extending-time-entries"></a>Rozšírenie zadaní času
+# <a name="extending-time-entries"></a><span data-ttu-id="855ea-103">Rozšírenie zadaní času</span><span class="sxs-lookup"><span data-stu-id="855ea-103">Extending time entries</span></span>
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+<span data-ttu-id="855ea-104">_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_</span><span class="sxs-lookup"><span data-stu-id="855ea-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Dynamics 365 Project Operations obsahuje rozšíriteľné vlastné riadenie zadaní času. Toto riadenie obsahuje nasledujúce funkcie:
+<span data-ttu-id="855ea-105">Dynamics 365 Project Operations obsahuje rozšíriteľné vlastné riadenie zadaní času.</span><span class="sxs-lookup"><span data-stu-id="855ea-105">Dynamics 365 Project Operations includes an extendable time entry custom control.</span></span> <span data-ttu-id="855ea-106">Toto riadenie obsahuje nasledujúce funkcie:</span><span class="sxs-lookup"><span data-stu-id="855ea-106">This control includes the following features:</span></span>
 
-- Horizontálne zadávanie času počas týždňa
-- Súčty za deň, riadok alebo týždeň
-- Kopírovanie riadkov alebo týždňov
-- Zadávanie času ako HH:mm alebo HH.hh (automaticky sa prevedie na HH.hh)
-- Importovanie z priradení rezervácií alebo plánovaných činností
+- <span data-ttu-id="855ea-107">Horizontálne zadávanie času počas týždňa</span><span class="sxs-lookup"><span data-stu-id="855ea-107">Enter time horizontally over a week</span></span>
+- <span data-ttu-id="855ea-108">Súčty za deň, riadok alebo týždeň</span><span class="sxs-lookup"><span data-stu-id="855ea-108">Totals by day, row, or week</span></span>
+- <span data-ttu-id="855ea-109">Kopírovanie riadkov alebo týždňov</span><span class="sxs-lookup"><span data-stu-id="855ea-109">Copy rows or weeks</span></span>
+- <span data-ttu-id="855ea-110">Zadávanie času ako HH:mm alebo HH.hh (automaticky sa prevedie na HH.hh)</span><span class="sxs-lookup"><span data-stu-id="855ea-110">Time entry through HH:mm or HH.hh (automatically converts to HH.hh)</span></span>
+- <span data-ttu-id="855ea-111">Importovanie z priradení rezervácií alebo plánovaných činností</span><span class="sxs-lookup"><span data-stu-id="855ea-111">Import from assignments, bookings, or appointments</span></span>
 
-Predĺženie zadaní času je možné v dvoch oblastiach:
-- [Pridávanie vlastných zadaní času na vlastné použitie](#add)
-- [Prispôsobenie riadenia týždenných zadaní času](#customize)
+<span data-ttu-id="855ea-112">Predĺženie zadaní času je možné v dvoch oblastiach:</span><span class="sxs-lookup"><span data-stu-id="855ea-112">Extending time entries is possible in two areas:</span></span>
+- [<span data-ttu-id="855ea-113">Pridávanie vlastných zadaní času na vlastné použitie</span><span class="sxs-lookup"><span data-stu-id="855ea-113">Add custom time entries for your own use</span></span>](#add)
+- [<span data-ttu-id="855ea-114">Prispôsobenie riadenia týždenných zadaní času</span><span class="sxs-lookup"><span data-stu-id="855ea-114">Customize the weekly Time Entry control</span></span>](#customize)
 
-## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Pridávanie vlastných zadaní času na vlastné použitie.
+## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a><span data-ttu-id="855ea-115">Pridávanie vlastných zadaní času na vlastné použitie</span><span class="sxs-lookup"><span data-stu-id="855ea-115">Add custom time entries for your own use</span></span>
 
-Zadania času sú hlavnou entitou, ktorá je navrhnutá na použitie pre rôzne scenáre. V aprílovom pláne Wave 1 2020 bolo predstavené základné riešenie TESA, ktoré poskytuje entitu **Nastavenia** a novú rolu zabezpečenia **Používateľ zadania času**. Boli zahrnuté aj nové polia, **msdyn_start** a **msdyn_end**, ktoré majú priamy vzťah s **msdyn_duration**. Nová entita, rola zabezpečenia a polia umožňujú jednotnejší prístup k času vo viacerých produktoch.
+<span data-ttu-id="855ea-116">Zadania času sú základnou entitou používanou vo viacerých scenároch.</span><span class="sxs-lookup"><span data-stu-id="855ea-116">Time entries are a core entity used in multiple scenarios.</span></span> <span data-ttu-id="855ea-117">V aprílovom pláne Wave 1 2020 bolo predstavené základné riešenie TESA.</span><span class="sxs-lookup"><span data-stu-id="855ea-117">In April Wave 1 2020, the TESA core solution was introduced.</span></span> <span data-ttu-id="855ea-118">TESA poskytuje entitu **Nastavenia** a novú rolu zabezpečenia **Používateľ zadania času**.</span><span class="sxs-lookup"><span data-stu-id="855ea-118">TESA provides a **Settings** entity and a new **Time Entry User** security role.</span></span> <span data-ttu-id="855ea-119">Boli zahrnuté aj nové polia, **msdyn_start** a **msdyn_end** , ktoré majú priamy vzťah s **msdyn_duration**.</span><span class="sxs-lookup"><span data-stu-id="855ea-119">The new fields, **msdyn_start** and **msdyn_end** , which have a direct relation to **msdyn_duration** , were also included.</span></span> <span data-ttu-id="855ea-120">Nová entita, rola zabezpečenia a polia umožňujú jednotnejší prístup k času vo viacerých produktoch.</span><span class="sxs-lookup"><span data-stu-id="855ea-120">The new entity, security role, and fields allow for a more unified approach to time across multiple products.</span></span>
 
 
-### <a name="time-source-entity"></a>Zdrojová entita času
-| Pole | Popis | 
+### <a name="time-source-entity"></a><span data-ttu-id="855ea-121">Zdrojová entita času</span><span class="sxs-lookup"><span data-stu-id="855ea-121">Time source entity</span></span>
+| <span data-ttu-id="855ea-122">Pole</span><span class="sxs-lookup"><span data-stu-id="855ea-122">Field</span></span> | <span data-ttu-id="855ea-123">Popis</span><span class="sxs-lookup"><span data-stu-id="855ea-123">Description</span></span> | 
 |-------|------------|
-| Meno  | Názov zdrojovej entity času použitý ako hodnota výberu počas vytvárania zadania času. |
-| Predvolený zdroj času [Zdroj času: isdefault] | Predvolene môže byť na predvolenom zdroji času označený iba jeden Zdroj času. Táto funkcia umožňuje, aby sa položky predvolene nastavili na zdroj času, ak nie je zadaný. |
-|Typ zdroja času [Zdroj času: sourcetype] | Typ zdroja je voliteľná možnosť (Typ zdroja zadania času), ktorá umožňuje priradenie zdroja času k aplikácii. Po pridaní ďalších aplikácií budú do tejto množiny možností pridané ďalšie aplikácie. Upozorňujeme, že spoločnosť Microsoft si vyhradzuje hodnoty väčšie ako 190 000 000.|
+| <span data-ttu-id="855ea-124">Meno</span><span class="sxs-lookup"><span data-stu-id="855ea-124">Name</span></span>  | <span data-ttu-id="855ea-125">Názov zdrojovej entity času použitý ako hodnota výberu pri vytváraní zadaní času.</span><span class="sxs-lookup"><span data-stu-id="855ea-125">The name of the Time source entry used as the selection value when creating time entries.</span></span> |
+| <span data-ttu-id="855ea-126">Predvolený zdroj času [Zdroj času: isdefault]</span><span class="sxs-lookup"><span data-stu-id="855ea-126">Default Time Source [Time Source: isdefault]</span></span> | <span data-ttu-id="855ea-127">Predvolene môže byť označený iba jeden zdroj času.</span><span class="sxs-lookup"><span data-stu-id="855ea-127">By default, only one Time Source can be marked at the default.</span></span> <span data-ttu-id="855ea-128">To umožňuje, aby sa položky predvolene nastavili na zdroj času, ak nie je zadaný.</span><span class="sxs-lookup"><span data-stu-id="855ea-128">This allows for entries to default to a time source if one isn't specified.</span></span> |
+|<span data-ttu-id="855ea-129">Typ zdroja času [Zdroj času: sourcetype]</span><span class="sxs-lookup"><span data-stu-id="855ea-129">Time Source Type [Time Source: sourcetype]</span></span> | <span data-ttu-id="855ea-130">Typ zdroja je voliteľná možnosť (Typ zdroja zadania času), ktorá umožňuje priradenie zdroja času k aplikácii.</span><span class="sxs-lookup"><span data-stu-id="855ea-130">The source type is an option (Time Entry Source Type) that allows for the association of the time source to an app.</span></span> <span data-ttu-id="855ea-131">Spoločnosť Microsoft si vyhradzuje hodnoty väčšie ako 190 000 000.</span><span class="sxs-lookup"><span data-stu-id="855ea-131">Microsoft reserves values greater than 190,000,000.</span></span>|
 
 
-### <a name="time-entries-and-the-time-source-entity"></a>Zadania času a entita zdroja času
-Každé zadanie času je spojené so záznamom zdroja času. Tento záznam určuje, ako a ktoré aplikácie majú spracovať zadanie času.
+### <a name="time-entries-and-the-time-source-entity"></a><span data-ttu-id="855ea-132">Zadania času a entita zdroja času</span><span class="sxs-lookup"><span data-stu-id="855ea-132">Time entries and the Time source entity</span></span>
+<span data-ttu-id="855ea-133">Každé zadanie času je spojené so záznamom zdroja času.</span><span class="sxs-lookup"><span data-stu-id="855ea-133">Each time entry is associated to a time source record.</span></span> <span data-ttu-id="855ea-134">Tento záznam určuje, ako a ktoré aplikácie majú spracovať zadanie času.</span><span class="sxs-lookup"><span data-stu-id="855ea-134">This record determines how and which applications should process the time entry.</span></span>
 
-Zadania času sú vždy jedným súvislým časovým blokom s prepojeným začiatkom, koncom a časom trvania.
+<span data-ttu-id="855ea-135">Zadania času sú vždy jedným súvislým časovým blokom s prepojeným začiatkom, koncom a časom trvania.</span><span class="sxs-lookup"><span data-stu-id="855ea-135">Time entries are always one contiguous block of time with the start, end, and duration linked.</span></span>
 
-Logika automaticky aktualizuje záznam zadania času v nasledujúcich situáciách:
+<span data-ttu-id="855ea-136">Logika automaticky aktualizuje záznam zadania času v nasledujúcich situáciách:</span><span class="sxs-lookup"><span data-stu-id="855ea-136">The logic will automatically update the time entry record in the following situations:</span></span>
 
-- Ak sú k dispozícii dve z troch nasledujúcich polí, tretie sa počíta automaticky 
+- <span data-ttu-id="855ea-137">Ak sú k dispozícii dve z troch nasledujúcich polí, tretie sa počíta automaticky:</span><span class="sxs-lookup"><span data-stu-id="855ea-137">If two of the three following fields are provided, the third is calculated automatically:</span></span> 
 
-    - **msdyn_start**
-    - **msdyn_end**
-    - **msdyn_duration**
+    - <span data-ttu-id="855ea-138">**msdyn_start**</span><span class="sxs-lookup"><span data-stu-id="855ea-138">**msdyn_start**</span></span>
+    - <span data-ttu-id="855ea-139">**msdyn_end**</span><span class="sxs-lookup"><span data-stu-id="855ea-139">**msdyn_end**</span></span>
+    - <span data-ttu-id="855ea-140">**msdyn_duration**</span><span class="sxs-lookup"><span data-stu-id="855ea-140">**msdyn_duration**</span></span>
 
-- Polia **msdyn_start** a **msdyn_end** zohľadňujú časové pásmo.
-- Zadania času vytvorené iba so špecifikovaním **msdyn_date** a **msdyn_duration** začnú o polnoci a **msdyn_start** a **msdyn_end** budú zodpovedajúcim spôsobom aktualizované.
+- <span data-ttu-id="855ea-141">Polia **msdyn_start** a **msdyn_end** zohľadňujú časové pásmo.</span><span class="sxs-lookup"><span data-stu-id="855ea-141">The fields, **msdyn_start** and **msdyn_end** are timezone aware.</span></span>
+- <span data-ttu-id="855ea-142">Zadania času vytvorené iba s uvedenými **msdyn_date** a **msdyn_duration** začnú o polnoci.</span><span class="sxs-lookup"><span data-stu-id="855ea-142">Time entries created with only **msdyn_date** and **msdyn_duration** specified will start at midnight.</span></span> <span data-ttu-id="855ea-143">Polia **msdyn_start** a **msdyn_end** sa príslušným spôsobom aktualizujú.</span><span class="sxs-lookup"><span data-stu-id="855ea-143">The **msdyn_start** and **msdyn_end** fields will update accordingly.</span></span>
 
-#### <a name="time-entry-types"></a>Typy zadania času
+#### <a name="time-entry-types"></a><span data-ttu-id="855ea-144">Typy zadania času</span><span class="sxs-lookup"><span data-stu-id="855ea-144">Time entry types</span></span>
 
-Záznamy o zadaní času majú pridružený typ, ktorý definuje správanie v toku príspevkov pre priradenú aplikáciu.
+<span data-ttu-id="855ea-145">Záznamy o zadaní času majú pridružený typ, ktorý definuje správanie v toku príspevkov pre priradenú aplikáciu.</span><span class="sxs-lookup"><span data-stu-id="855ea-145">Time entry records have an associated type that defines the behavior in the submission flow for the associated application.</span></span>
 
-|Označenie | Hodnota|
+|<span data-ttu-id="855ea-146">Označenie</span><span class="sxs-lookup"><span data-stu-id="855ea-146">Label</span></span> | <span data-ttu-id="855ea-147">Hodnota</span><span class="sxs-lookup"><span data-stu-id="855ea-147">Value</span></span>|
 |-----|-----|
-|Zastavené   |192,355,000|
-|Cesta | 192,355,001|
-|Nadčas   | 192,354,320|
-|Práca   | 192,350,000|
-|Neprítomnosť    | 192,350,001|
-|Dovolenka   | 192,350,002|
+|<span data-ttu-id="855ea-148">Zastavené</span><span class="sxs-lookup"><span data-stu-id="855ea-148">On break</span></span>   |<span data-ttu-id="855ea-149">192,355,000</span><span class="sxs-lookup"><span data-stu-id="855ea-149">192,355,000</span></span>|
+|<span data-ttu-id="855ea-150">Cesta</span><span class="sxs-lookup"><span data-stu-id="855ea-150">Travel</span></span> | <span data-ttu-id="855ea-151">192,355,001</span><span class="sxs-lookup"><span data-stu-id="855ea-151">192,355,001</span></span>|
+|<span data-ttu-id="855ea-152">Nadčas</span><span class="sxs-lookup"><span data-stu-id="855ea-152">Overtime</span></span>   | <span data-ttu-id="855ea-153">192,354,320</span><span class="sxs-lookup"><span data-stu-id="855ea-153">192,354,320</span></span>|
+|<span data-ttu-id="855ea-154">Práca</span><span class="sxs-lookup"><span data-stu-id="855ea-154">Work</span></span>   | <span data-ttu-id="855ea-155">192,350,000</span><span class="sxs-lookup"><span data-stu-id="855ea-155">192,350,000</span></span>|
+|<span data-ttu-id="855ea-156">Neprítomnosť</span><span class="sxs-lookup"><span data-stu-id="855ea-156">Absence</span></span>    | <span data-ttu-id="855ea-157">192,350,001</span><span class="sxs-lookup"><span data-stu-id="855ea-157">192,350,001</span></span>|
+|<span data-ttu-id="855ea-158">Dovolenka</span><span class="sxs-lookup"><span data-stu-id="855ea-158">Vacation</span></span>   | <span data-ttu-id="855ea-159">192,350,002</span><span class="sxs-lookup"><span data-stu-id="855ea-159">192,350,002</span></span>|
 
 
 
-## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Prispôsobenie riadenia týždenných zadaní času
-Vývojári môžu pridať ďalšie polia a vyhľadávania k ďalším entitám a implementovať vlastné obchodné pravidlá na podporu svojich obchodných scenárov.
+## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a><span data-ttu-id="855ea-160">Prispôsobenie riadenia týždenných zadaní času</span><span class="sxs-lookup"><span data-stu-id="855ea-160">Customize the weekly Time entry control</span></span>
+<span data-ttu-id="855ea-161">Vývojári môžu pridať ďalšie polia a vyhľadávania k ďalším entitám a implementovať vlastné obchodné pravidlá na podporu svojich obchodných scenárov.</span><span class="sxs-lookup"><span data-stu-id="855ea-161">Developers can add additional fields and lookups to other entities, and implement custom business rules to support their business scenarios.</span></span>
 
-### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Pridanie vlastných polí s hľadaním iných entít
-Existujú tri hlavné kroky na pridanie vlastného poľa do mriežky týždenného vstupného času.
+### <a name="add-custom-fields-with-lookups-to-other-entities"></a><span data-ttu-id="855ea-162">Pridanie vlastných polí s hľadaním iných entít</span><span class="sxs-lookup"><span data-stu-id="855ea-162">Add custom fields with lookups to other entities</span></span>
+<span data-ttu-id="855ea-163">Existujú tri hlavné kroky na pridanie vlastného poľa do mriežky týždenného vstupného času.</span><span class="sxs-lookup"><span data-stu-id="855ea-163">There are three main steps to adding a custom field to the weekly time entry grid.</span></span>
 
-- Pridajte vlastné pole do dialógového okna rýchleho vytvorenia.
-- Nakonfigurujte mriežku na zobrazenie vlastného poľa.
-- Pridanie vlastného poľa buď do riadka úpravy toku úloh alebo bunky úpravy toku úloh.
+1. <span data-ttu-id="855ea-164">Pridajte vlastné pole do dialógového okna rýchleho vytvorenia.</span><span class="sxs-lookup"><span data-stu-id="855ea-164">Add the custom field to the quick create dialog box.</span></span>
+2. <span data-ttu-id="855ea-165">Nakonfigurujte mriežku na zobrazenie vlastného poľa.</span><span class="sxs-lookup"><span data-stu-id="855ea-165">Configure the grid to show the custom field.</span></span>
+3. <span data-ttu-id="855ea-166">Pridanie vlastného poľa do riadka úpravy toku úloh alebo bunky úpravy toku úloh.</span><span class="sxs-lookup"><span data-stu-id="855ea-166">Add the custom field to the row edit task flow or the cell edit task flow.</span></span>
 
-Musíte sa tiež uistiť, že nové pole má požadované overenia v riadku alebo bunke úpravy toku úloh. V rámci tohto kroku musíte zamknúť pole na základe stavu zadania času.
+<span data-ttu-id="855ea-167">Uistite sa, že nové pole má požadované overenia v riadku alebo bunke úpravy toku úloh.</span><span class="sxs-lookup"><span data-stu-id="855ea-167">Make sure that the new field has the required validations in the row or cell edit task flow.</span></span> <span data-ttu-id="855ea-168">V rámci tohto kroku zamknite pole na základe stavu zadania času.</span><span class="sxs-lookup"><span data-stu-id="855ea-168">As part of this step, lock the field based on the time entry status.</span></span>
 
-#### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Pridajte vlastné pole do dialógového okna rýchleho vytvorenia
-Vlastné pole musíte pridať do dialógového okna **Rýchle vytvorenie zadania času**. Používatelia potom môžu zadať hodnotu, keď pridajú zadania času výberom možnosti **Nová**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a><span data-ttu-id="855ea-169">Pridajte vlastné pole do dialógového okna rýchleho vytvorenia</span><span class="sxs-lookup"><span data-stu-id="855ea-169">Add the custom field to the quick create dialog box</span></span>
+<span data-ttu-id="855ea-170">Vlastné pole pridajte do dialógového okna **Rýchle vytvorenie zadania času**.</span><span class="sxs-lookup"><span data-stu-id="855ea-170">Add the custom field to the **Create Time Entry Quick Create** dialog box.</span></span> <span data-ttu-id="855ea-171">Potom, keď sa pridajú zadania času, je možné zadať hodnotu výberom možnosti **Nová**.</span><span class="sxs-lookup"><span data-stu-id="855ea-171">Then, when time entries are added, a value can be entered by selecting **New**.</span></span>
 
-#### <a name="configure-the-grid-to-show-the-custom-field"></a>Nakonfigurujte mriežku na zobrazenie vlastného poľa
-Existujú dva spôsoby na pridanie vlastného poľa do mriežky týždenného zadania času:
+### <a name="configure-the-grid-to-show-the-custom-field"></a><span data-ttu-id="855ea-172">Nakonfigurujte mriežku na zobrazenie vlastného poľa</span><span class="sxs-lookup"><span data-stu-id="855ea-172">Configure the grid to show the custom field</span></span>
+<span data-ttu-id="855ea-173">Existujú dva spôsoby na pridanie vlastného poľa do mriežky týždenného zadania času:</span><span class="sxs-lookup"><span data-stu-id="855ea-173">There are two ways add a custom field to the weekly time entry grid:</span></span>
 
-  - Prispôsobenie zobrazenia a pridávanie vlastného poľa
-  - Vytvorenie nového predvoleného vlastného zadania času 
+  - <span data-ttu-id="855ea-174">Prispôsobenie zobrazenia a pridávanie vlastného poľa</span><span class="sxs-lookup"><span data-stu-id="855ea-174">Customize a view and add a custom field</span></span>
+  - <span data-ttu-id="855ea-175">Vytvorenie nového predvoleného vlastného zadania času</span><span class="sxs-lookup"><span data-stu-id="855ea-175">Create a new default custom time entry</span></span> 
 
 
-**Prispôsobenie zobrazenia a pridávanie vlastného poľa**
+#### <a name="customize-a-view-and-add-a-custom-field"></a><span data-ttu-id="855ea-176">Prispôsobenie zobrazenia a pridávanie vlastného poľa</span><span class="sxs-lookup"><span data-stu-id="855ea-176">Customize a view and add a custom field</span></span>
 
-Zobrazenie **Moje týždenné zadania času** môžete prispôsobiť a pridať do neho vlastné pole. Úpravou týchto vlastností v zobrazení môžete vybrať umiestnenie a veľkosť vlastného poľa v mriežke.
+<span data-ttu-id="855ea-177">Prispôsobte zobrazenie **Moje týždenné zadania času** a pridajte do neho vlastné pole.</span><span class="sxs-lookup"><span data-stu-id="855ea-177">Customize the **My Weekly Time Entries** view and add the custom field to it.</span></span> <span data-ttu-id="855ea-178">Úpravou vlastností v zobrazení môžete vybrať umiestnenie a veľkosť vlastného poľa v mriežke.</span><span class="sxs-lookup"><span data-stu-id="855ea-178">You can choose the position and size of the custom field in the grid by editing the properties in the view.</span></span>
 
-**Vytvorenie nového predvoleného vlastného zadania času** 
+#### <a name="create-a-new-default-custom-time-entry"></a><span data-ttu-id="855ea-179">Vytvorenie nového predvoleného vlastného zadania času</span><span class="sxs-lookup"><span data-stu-id="855ea-179">Create a new default custom time entry</span></span>
 
-Toto zobrazenie by malo obsahovať polia **Popis** a **Externé komentáre** okrem stĺpcov, ktoré chcete mať v mriežke. 
+<span data-ttu-id="855ea-180">Toto zobrazenie by malo obsahovať polia **Popis** a **Externé komentáre** okrem stĺpcov, ktoré chcete mať v mriežke.</span><span class="sxs-lookup"><span data-stu-id="855ea-180">This view should contain the **Description** and **External Comments** fields, in addition to the columns that you want to have in the grid.</span></span> 
 
-1. Úpravou týchto vlastností v zobrazení vyberte umiestnenie, veľkosť a predvolené poradie zoradenia vlastného poľa v mriežke. 
-2. Nakonfigurujte vlastný ovládací prvok pre toto zobrazenie, aby bol ovládacím prvkom **Mriežka so zadaniami času**. 
-3. Pridajte tento ovládací prvok do zobrazenia a vyberte ho pre web, telefón a tablet. 
-4. Nakonfigurujte parametre pre týždennú mriežku zadania času. Nastavte pole **Dátum začatia** na **msdyn_date**, nastavte pole **Trvanie** na **msdyn_duration** a nastavte pole **Stav** na **msdyn_entrystatus**. 
-5. Pre predvolené zobrazenie je pole **Zoznam stavov iba na čítanie** nastavené na **192350002,192350003,192350004**, pole **Tok úloh úpravy riadkov** na hodnotu **msdyn_timeentryrowedit** a pole **Tok úloh úpravy buniek** nastavená na **msdyn_timeentryedit**. 
-6. Tieto polia môžete prispôsobiť, ak chcete pridať alebo odstrániť stav iba na čítanie, alebo použiť inú pracovnú skúsenosť (TBX) na úpravu riadkov alebo buniek. Tieto polia by mali byť viazané na statickú hodnotu.
+1. <span data-ttu-id="855ea-181">Úpravou týchto vlastností v zobrazení vyberte umiestnenie, veľkosť a predvolené poradie zoradenia vlastného poľa v mriežke.</span><span class="sxs-lookup"><span data-stu-id="855ea-181">Choose the position, size, and default sort order of the grid by editing those properties in the view.</span></span> 
+2. <span data-ttu-id="855ea-182">Nakonfigurujte vlastný ovládací prvok pre toto zobrazenie, aby bol ovládacím prvkom **Mriežka so zadaniami času**.</span><span class="sxs-lookup"><span data-stu-id="855ea-182">Configure the custom control for this view so that it's a **Time Entry Grid** control.</span></span> 
+3. <span data-ttu-id="855ea-183">Pridajte tento ovládací prvok do zobrazenia a vyberte ho pre web, telefón a tablet.</span><span class="sxs-lookup"><span data-stu-id="855ea-183">Add this control to the view, and select it for web, phone, and tablet.</span></span> 
+4. <span data-ttu-id="855ea-184">Nakonfigurujte parametre pre týždennú mriežku zadania času.</span><span class="sxs-lookup"><span data-stu-id="855ea-184">Configure the parameters for the weekly time entry grid.</span></span> 
+5. <span data-ttu-id="855ea-185">Nastavte pole **Dátum začatia** na **msdyn_date** , nastavte pole **Trvanie** na **msdyn_duration** a nastavte pole **Stav** na **msdyn_entrystatus**.</span><span class="sxs-lookup"><span data-stu-id="855ea-185">Set the **Start Date** field to **msdyn_date** , set the **Duration** field to **msdyn_duration** , and set the **Status** field to **msdyn_entrystatus**.</span></span> 
+6. <span data-ttu-id="855ea-186">Pre predvolené zobrazenie je pole **Zoznam stavov iba na čítanie** nastavené na **192350002,192350003,192350004**.</span><span class="sxs-lookup"><span data-stu-id="855ea-186">For the default view, the **Read-only Status List** field is set to **192350002,192350003,192350004**.</span></span> <span data-ttu-id="855ea-187">Pole **Tok úloh úpravy riadkov** je nastavené na **msdyn_timeentryrowedit**.</span><span class="sxs-lookup"><span data-stu-id="855ea-187">The **Row Edit Task Flow** field is set to **msdyn_timeentryrowedit**.</span></span> <span data-ttu-id="855ea-188">Pole **Tok úloh úpravy buniek** je nastavené na **msdyn_timeentryedit**.</span><span class="sxs-lookup"><span data-stu-id="855ea-188">The **Cell Edit Task Flow** field is set to **msdyn_timeentryedit**.</span></span> 
+7. <span data-ttu-id="855ea-189">Tieto polia môžete prispôsobiť, ak chcete pridať alebo odstrániť stav iba na čítanie, alebo použiť inú pracovnú skúsenosť (TBX) na úpravu riadkov alebo buniek.</span><span class="sxs-lookup"><span data-stu-id="855ea-189">You can customize these fields to add or remove read-only status, or to use a different task-based experience (TBX) for row or cell editing.</span></span> <span data-ttu-id="855ea-190">Tieto polia sú teraz viazané na statickú hodnotu.</span><span class="sxs-lookup"><span data-stu-id="855ea-190">These fields are now bound to a static value.</span></span>
 
 
 > [!NOTE] 
-> Obe možnosti odstránia niektoré predpripravené filtrovanie v entitách **Projekt** a **Projektová úloha**, takže všetky zobrazenia vyhľadávania pre entity budú viditeľné. Predpripravene sú viditeľné iba relevantné zobrazenia vyhľadávania.
-Musíte určiť príslušný tok úloh pre vlastné pole. S najväčšou pravdepodobnosťou, ak ste do mriežky pridali pole, mal by ísť v riadku upraviť tok úloh, ktorý sa používa pre polia, ktoré sa vzťahujú na celý riadok časových položiek. Ak vlastné pole má jedinečnú hodnotu každý deň, napríklad vlastné pole pre **Čas ukončenia**, mal by ísť v bunke upraviť tok úloh.
+> <span data-ttu-id="855ea-191">Obe možnosti odstránia niektoré predpripravené filtrovanie v entitách **Projekt** a **Projektová úloha** , takže všetky zobrazenia vyhľadávania pre entity budú viditeľné.</span><span class="sxs-lookup"><span data-stu-id="855ea-191">Both options will remove some out-of-box filtering on the **Project** and **Project Task** entities so that all lookup views for the entities will be visible.</span></span> <span data-ttu-id="855ea-192">Predpripravene sú viditeľné iba relevantné zobrazenia vyhľadávania.</span><span class="sxs-lookup"><span data-stu-id="855ea-192">Out-of-the-box, only the relevant lookup views are visible.</span></span>
 
-Ak chcete pridať vlastné pole do toku úloh, presuňte prvok **Pole** do príslušnej pozície na strane a potom nastavte vlastnosti poľa. Nastavte vlastnosť **Zdroj** na **Zadanie času** a nastavte vlastnosť poľa **Údajové pole** na vlastné pole. Vlastnosť **Pole** určuje zobrazovaný názov na stránke TBX. Vyberte možnosť **Použiť** na uloženie zmien do poľa a potom vyberte **Aktualizovať** na uloženie zmien na stránku.
+<span data-ttu-id="855ea-193">Určite príslušný tok úloh pre vlastné pole.</span><span class="sxs-lookup"><span data-stu-id="855ea-193">Determine the appropriate task flow for the custom field.</span></span> <span data-ttu-id="855ea-194">Ak ste do mriežky pridali pole, mal by ísť v riadku upraviť tok úloh, ktorý sa používa pre polia, ktoré sa vzťahujú na celý riadok časových položiek.</span><span class="sxs-lookup"><span data-stu-id="855ea-194">If you added the field to the grid, it should go in the row edit task flow that is used for fields that apply to the whole row of time entries.</span></span> <span data-ttu-id="855ea-195">Ak vlastné pole má jedinečnú hodnotu každý deň, napríklad vlastné pole pre **Čas ukončenia** , mal by ísť v bunke upraviť tok úloh.</span><span class="sxs-lookup"><span data-stu-id="855ea-195">If the custom field has a unique value every day, such as a custom field for **End time** , it should go in the cell edit task flow.</span></span>
 
-Ak chcete namiesto toho použiť novú vlastnú stránku TBX, vytvorte nový proces. Nastavte kategóriu na **Tok obchodného procesu**, nastavte entitu na **Zadanie času** a nastavte typ obchodného procesu na **Spustiť proces ako postup úloh**. V časti **Vlastnosti** sa vlastnosť **Názov stránky** musí nastaviť na zobrazovací názov pre stránku. Pridajte všetky príslušné polia na stránku TBX. Uložte a aktivujte proces a potom aktualizujte vlastnosť vlastného ovládacieho prvku pre príslušný tok úloh na hodnotu **Názov** v procese.
+<span data-ttu-id="855ea-196">Ak chcete pridať vlastné pole do toku úloh, presuňte prvok **Pole** do príslušnej pozície na strane a potom nastavte vlastnosti poľa.</span><span class="sxs-lookup"><span data-stu-id="855ea-196">To add the custom field to a task flow, drag a **Field** element into the appropriate position on the page, and then set the field properties.</span></span> <span data-ttu-id="855ea-197">Nastavte vlastnosť **Zdroj** na **Zadanie času** a nastavte vlastnosť poľa **Údajové pole** na vlastné pole.</span><span class="sxs-lookup"><span data-stu-id="855ea-197">Set the **Source** property to **Time Entry** , and set the **Data Field** property to the custom field.</span></span> <span data-ttu-id="855ea-198">Vlastnosť **Pole** určuje zobrazovaný názov na stránke TBX.</span><span class="sxs-lookup"><span data-stu-id="855ea-198">The **Field** property specifies the display name on the TBX page.</span></span> <span data-ttu-id="855ea-199">Vyberte možnosť **Použiť** na uloženie zmien do poľa a potom vyberte **Aktualizovať** na uloženie zmien na stránku.</span><span class="sxs-lookup"><span data-stu-id="855ea-199">Select **Apply** to save your changes to the field, and then select **Update** to save your changes to the page.</span></span>
 
-### <a name="add-new-option-set-values"></a>Pridanie nových hodnôt množiny možností
-Ak chcete pridať hodnoty množiny možností do predpripraveného poľa, otvorte stránku úprav pre pole a potom v často **Typ** vyberte položku **Upraviť** vedľa množiny možností. Potom pridajte novú možnosť, ktorá má vlastný štítok a farbu. Ak chcete pridať nový stav položky času, predpripravené pole má názov **Stav zadania**, nie **Stav**.
+<span data-ttu-id="855ea-200">Ak chcete namiesto toho použiť novú vlastnú stránku TBX, vytvorte nový proces.</span><span class="sxs-lookup"><span data-stu-id="855ea-200">To use a new custom TBX page instead, create a new process.</span></span> <span data-ttu-id="855ea-201">Nastavte kategóriu na **Tok obchodného procesu** , nastavte entitu na **Zadanie času** a nastavte typ obchodného procesu na **Spustiť proces ako postup úloh**.</span><span class="sxs-lookup"><span data-stu-id="855ea-201">Set the category to **Business Process Flow** , set the entity to **Time Entry** , and set the business process type to **Run process as a task flow**.</span></span> <span data-ttu-id="855ea-202">V časti **Vlastnosti** sa vlastnosť **Názov stránky** musí nastaviť na zobrazovací názov pre stránku.</span><span class="sxs-lookup"><span data-stu-id="855ea-202">Under **Properties** , the **Page name** property should be set to the display name for the page.</span></span> <span data-ttu-id="855ea-203">Pridajte všetky príslušné polia na stránku TBX.</span><span class="sxs-lookup"><span data-stu-id="855ea-203">Add all the relevant fields to the TBX page.</span></span> <span data-ttu-id="855ea-204">Uloženie a aktivovanie procesu.</span><span class="sxs-lookup"><span data-stu-id="855ea-204">Save and activate the process.</span></span> <span data-ttu-id="855ea-205">Aktualizujte vlastnosť vlastného ovládacieho prvku pre príslušný tok úloh na hodnotu **Názov** v procese.</span><span class="sxs-lookup"><span data-stu-id="855ea-205">Update the custom control property for the relevant task flow to the value of **Name** on the process.</span></span>
 
-### <a name="designate-a-new-time-entry-status-as-read-only"></a>Označenie nového stavu položky času ako iba na čítanie
-Ak chcete určiť stav nového zadania času iba na čítanie, pridajte novú hodnotu zadania času do vlastnosti **Zoznam stavov iba na čítanie**. Upraviteľná časť mriežky časového vstupu bude zamknutá pre riadky, ktoré majú nový stav.
-V ďalšom kroku pridajte obchodné pravidlá na uzamknutie všetkých polí na stránkach TBX **Úprava riadka so zadaním času** a **Úprava zadania času**. K obchodným pravidlám pre tieto stránky môžete pristupovať otvorením editora toku obchodného procesu pre stránku a následným výberom položky **Obchodné pravidlá**. Nový stav môžete pridať k podmienke v existujúcich obchodných pravidlách, alebo môžete pridať nové obchodné pravidlo pre nový stav.
+### <a name="add-new-option-set-values"></a><span data-ttu-id="855ea-206">Pridanie nových hodnôt množiny možností</span><span class="sxs-lookup"><span data-stu-id="855ea-206">Add new option set values</span></span>
+<span data-ttu-id="855ea-207">Ak chcete pridať hodnoty množiny možností do predpripraveného poľa, otvorte stránku úprav pre pole a v časti **Typ** vyberte položku **Upraviť** vedľa množiny možností.</span><span class="sxs-lookup"><span data-stu-id="855ea-207">To add option set values to an out-of-the-box field, open the editing page for the field, and under **Type** , select **Edit** next to the option set.</span></span> <span data-ttu-id="855ea-208">Pridajte novú možnosť, ktorá má vlastný štítok a farbu.</span><span class="sxs-lookup"><span data-stu-id="855ea-208">Add a new option that has a custom label and color.</span></span> <span data-ttu-id="855ea-209">Ak chcete pridať nový stav položky času, predpripravené pole má názov **Stav zadania** , nie **Stav**.</span><span class="sxs-lookup"><span data-stu-id="855ea-209">If you want to add a new time entry status, the out-of-the-box field is named **Entry Status** , not **Status**.</span></span>
 
-### <a name="add-custom-validation-rules"></a>Pridávanie vlastných overovacích pravidiel
-Existujú dva typy overovacích pravidiel, ktoré môžete pridať pre skúsenosti s týždennou mriežkou zadávania času:
+### <a name="designate-a-new-time-entry-status-as-read-only"></a><span data-ttu-id="855ea-210">Označenie nového stavu položky času ako iba na čítanie</span><span class="sxs-lookup"><span data-stu-id="855ea-210">Designate a new time entry status as read-only</span></span>
+<span data-ttu-id="855ea-211">Ak chcete určiť stav nového zadania času iba na čítanie, pridajte novú hodnotu zadania času do vlastnosti **Zoznam stavov iba na čítanie**.</span><span class="sxs-lookup"><span data-stu-id="855ea-211">To designate a new time entry status as read-only, add the new time entry value to the **Read-only Status List** property.</span></span> <span data-ttu-id="855ea-212">Upraviteľná časť mriežky časového vstupu bude zamknutá pre riadky, ktoré majú nový stav.</span><span class="sxs-lookup"><span data-stu-id="855ea-212">The editable part of the time entry grid will be locked for rows that have the new status.</span></span>
+<span data-ttu-id="855ea-213">V ďalšom kroku pridajte obchodné pravidlá na uzamknutie všetkých polí na stránkach TBX **Úprava riadka so zadaním času** a **Úprava zadania času**.</span><span class="sxs-lookup"><span data-stu-id="855ea-213">Next, add business rules to lock all the fields on the **Time Entry Row Edit** and **Time Entry Edit** TBX pages.</span></span> <span data-ttu-id="855ea-214">K obchodným pravidlám pre tieto stránky môžete pristupovať otvorením editora toku obchodného procesu pre stránku a následným výberom položky **Obchodné pravidlá**.</span><span class="sxs-lookup"><span data-stu-id="855ea-214">You can access the business rules for these pages by opening the business process flow editor for the page and then selecting **Business Rules**.</span></span> <span data-ttu-id="855ea-215">Nový stav môžete pridať k podmienke v existujúcich obchodných pravidlách, alebo môžete pridať nové obchodné pravidlo pre nový stav.</span><span class="sxs-lookup"><span data-stu-id="855ea-215">You can add the new status to the condition in the existing business rules, or you can add a new business rule for the new status.</span></span>
 
-- Obchodné pravidlá na strane klienta, ktoré fungujú v rýchlych dialógových oknách na vytváranie a na stránkach TBX.
-- Overenie doplnku na strane servera, ktoré sa vzťahuje na všetky aktualizácie zadávania času.
+### <a name="add-custom-validation-rules"></a><span data-ttu-id="855ea-216">Pridávanie vlastných overovacích pravidiel</span><span class="sxs-lookup"><span data-stu-id="855ea-216">Add custom validation rules</span></span>
+<span data-ttu-id="855ea-217">Existujú dva typy overovacích pravidiel, ktoré môžete pridať pre skúsenosti s týždennou mriežkou zadávania času:</span><span class="sxs-lookup"><span data-stu-id="855ea-217">There are two types of validation rules that you can add for the weekly time entry grid experience:</span></span>
 
-#### <a name="business-rules"></a>Podnikové pravidlá
-Použite obchodné pravidlá na uzamykanie a odomykanie polí, zadajte predvolené hodnoty do polí a definujte overenia, ktoré vyžadujú informácie len z aktuálneho záznamu o čase. K obchodným pravidlám pre stránku TBX môžete pristupovať otvorením editora toku obchodného procesu pre stránku a následným výberom položky **Obchodné pravidlá**. Potom môžete upraviť existujúce obchodné pravidlá alebo pridať nové obchodné pravidlo. Pre ešte viac prispôsobené overenia, môžete použiť obchodné pravidlo na spustenie JavaScript.
+- <span data-ttu-id="855ea-218">Obchodné pravidlá na strane klienta, ktoré fungujú v rýchlych dialógových oknách na vytváranie a na stránkach TBX.</span><span class="sxs-lookup"><span data-stu-id="855ea-218">Client-side business rules that work in quick create dialog boxes and on TBX pages.</span></span>
+- <span data-ttu-id="855ea-219">Overenie doplnku na strane servera, ktoré sa vzťahuje na všetky aktualizácie zadávania času.</span><span class="sxs-lookup"><span data-stu-id="855ea-219">Server-side plug-in validations that apply to all time entry updates.</span></span>
 
-#### <a name="plug-in-validations"></a>Overovanie doplnkov
-Overenia doplnku by ste mali použiť pre akékoľvek overenia vyžadujúce si viac kontextu než je dostupný v samostatnom zázname zadania času alebo pri akýchkoľvek overeniach, ktoré chcete spúšťať na riadkových aktualizáciách v mriežke. Ak chcete dokončiť overenie, vytvorte vlastný doplnok v entite **Zadanie času**.
+#### <a name="business-rules"></a><span data-ttu-id="855ea-220">Podnikové pravidlá</span><span class="sxs-lookup"><span data-stu-id="855ea-220">Business rules</span></span>
+<span data-ttu-id="855ea-221">Použite obchodné pravidlá na uzamykanie a odomykanie polí, zadajte predvolené hodnoty do polí a definujte overenia, ktoré vyžadujú informácie len z aktuálneho záznamu o čase.</span><span class="sxs-lookup"><span data-stu-id="855ea-221">Use business rules to lock and unlock fields, enter default values in fields, and define validations that require information only from the current time entry record.</span></span> <span data-ttu-id="855ea-222">K obchodným pravidlám pre stránku TBX môžete pristupovať otvorením editora toku obchodného procesu pre stránku a následným výberom položky **Obchodné pravidlá**.</span><span class="sxs-lookup"><span data-stu-id="855ea-222">You can access the business rules for a TBX page by opening the business process flow editor for the page and then selecting **Business Rules**.</span></span> <span data-ttu-id="855ea-223">Potom môžete upraviť existujúce obchodné pravidlá alebo pridať nové obchodné pravidlo.</span><span class="sxs-lookup"><span data-stu-id="855ea-223">You can then edit the existing business rules or add a new business rule.</span></span> <span data-ttu-id="855ea-224">Pre ešte viac prispôsobené overenia, môžete použiť obchodné pravidlo na spustenie JavaScript.</span><span class="sxs-lookup"><span data-stu-id="855ea-224">For even more customized validations, you can use a business rule to run JavaScript.</span></span>
+
+#### <a name="plug-in-validations"></a><span data-ttu-id="855ea-225">Overovanie doplnkov</span><span class="sxs-lookup"><span data-stu-id="855ea-225">Plug-in validations</span></span>
+<span data-ttu-id="855ea-226">Overenia doplnku použite pre akékoľvek overenia vyžadujúce si viac kontextu než je dostupný v samostatnom zázname zadania času alebo pri akýchkoľvek overeniach, ktoré chcete spúšťať na riadkových aktualizáciách v mriežke.</span><span class="sxs-lookup"><span data-stu-id="855ea-226">Use plug-in validations for any validations that require more context than is available in a single time entry record, or for any validations that you want to run on inline updates in the grid.</span></span> <span data-ttu-id="855ea-227">Ak chcete dokončiť overenie, vytvorte vlastný doplnok v entite **Zadanie času**.</span><span class="sxs-lookup"><span data-stu-id="855ea-227">To complete the validation, create a custom plug-in on the **Time Entry** entity.</span></span>
+
+### <a name="copying-time-entries"></a><span data-ttu-id="855ea-228">Kopírovanie zadaní času</span><span class="sxs-lookup"><span data-stu-id="855ea-228">Copying time entries</span></span>
+<span data-ttu-id="855ea-229">Pomocou zobrazenia **Kopírovať stĺpce zadaní času** definujte zoznam polí, ktoré sa majú kopírovať počas zadávania času.</span><span class="sxs-lookup"><span data-stu-id="855ea-229">Use the view **Copy Time Entry Columns** to define the list of fields to copy during time entry.</span></span> <span data-ttu-id="855ea-230">**Dátum** a **Trvanie** sú povinné polia a nemali by byť odstránené zo zobrazenia.</span><span class="sxs-lookup"><span data-stu-id="855ea-230">**Date** and **Duration** are required fields and shouldn't be removed from the view.</span></span>

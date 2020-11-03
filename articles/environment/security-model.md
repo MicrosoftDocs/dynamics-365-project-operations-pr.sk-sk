@@ -8,71 +8,74 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084249"
 ---
-# <a name="security-model"></a>Model zabezpečenia
+# <a name="security-model"></a><span data-ttu-id="0d041-103">Model zabezpečenia</span><span class="sxs-lookup"><span data-stu-id="0d041-103">Security Model</span></span>
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+<span data-ttu-id="0d041-104">_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_</span><span class="sxs-lookup"><span data-stu-id="0d041-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Microsoft Dynamics365 Project Operations obsahuje jedinečný model zabezpečenia, ktorý poskytuje obchodný model zabezpečenia založený na rolách, s ktorým spolupracujú skupiny Microsoft Office. 
+<span data-ttu-id="0d041-105">Microsoft Dynamics365 Project Operations obsahuje jedinečný model zabezpečenia, ktorý poskytuje obchodný model zabezpečenia založený na rolách, s ktorým spolupracujú skupiny Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="0d041-105">Microsoft Dynamics 365 Project Operations contains a unique security model that allows for a role-based business security model that collaborates with Microsoft Office Groups.</span></span> 
 
 
-## <a name="security-roles"></a>Roly zabezpečenia
-Medzi funkcie klientskeho rozhrania Project Operations patria nasledujúce roly:
+## <a name="security-roles"></a><span data-ttu-id="0d041-106">Roly zabezpečenia</span><span class="sxs-lookup"><span data-stu-id="0d041-106">Security roles</span></span>
+<span data-ttu-id="0d041-107">Medzi funkcie klientskeho rozhrania Project Operations patria nasledujúce roly:</span><span class="sxs-lookup"><span data-stu-id="0d041-107">Project Operations front-end capabilities include the following roles:</span></span>
 
-| Rola                          | Popis                                                                                                                                                                 | Scope |
+| <span data-ttu-id="0d041-108">Rola</span><span class="sxs-lookup"><span data-stu-id="0d041-108">Role</span></span>                          | <span data-ttu-id="0d041-109">Popis</span><span class="sxs-lookup"><span data-stu-id="0d041-109">Description</span></span>                                                                                                                                                                 | <span data-ttu-id="0d041-110">Scope</span><span class="sxs-lookup"><span data-stu-id="0d041-110">Scope</span></span> |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| Správca postupov              | Podporuje medziprojektové vykazovanie.                                                                                                            | Organizačná jednotka              |
-| Schvaľovateľ projektu              | Schvaľuje čas a náklady spojené s projektom.                                                                                                                              | Organizačná jednotka |
-| Správca fakturácie projektu | Vytvorí návrh faktúry.                                                                                                                                                 | Organizačná jednotka |
-| Projektový manažér               | Vytvorí plán projektu a požiada o zdroje.                                                                                                                              | Organizačná jednotka |
-| Projektový zdroj              | Členovia tímu, ktorých je možné rezervovať a nahlásiť čas.                                                                                                          | Organizačná jednotka|
-| Správca zdrojov              | Všetky funkcie správy zdrojov, ako napríklad plnenie požiadaviek na zdroje a rezervácie, sú oddelené tak, aby podporovali hybridnú konfiguráciu projektového manažéra + manažéra zdrojov a jednu a centralizovanú rolu správcu zdrojov. | Organizačná jednotka |
+| <span data-ttu-id="0d041-111">Správca postupov</span><span class="sxs-lookup"><span data-stu-id="0d041-111">Practice manager</span></span>              | <span data-ttu-id="0d041-112">Podporuje medziprojektové vykazovanie.</span><span class="sxs-lookup"><span data-stu-id="0d041-112">Supports cross-project reporting.</span></span>                                                                                                            | <span data-ttu-id="0d041-113">Organizačná jednotka</span><span class="sxs-lookup"><span data-stu-id="0d041-113">Business unit</span></span>              |
+| <span data-ttu-id="0d041-114">Schvaľovateľ projektu</span><span class="sxs-lookup"><span data-stu-id="0d041-114">Project approver</span></span>              | <span data-ttu-id="0d041-115">Schvaľuje čas a náklady spojené s projektom.</span><span class="sxs-lookup"><span data-stu-id="0d041-115">Approves time and expenses against a project.</span></span>                                                                                                                              | <span data-ttu-id="0d041-116">Organizačná jednotka</span><span class="sxs-lookup"><span data-stu-id="0d041-116">Business unit</span></span> |
+| <span data-ttu-id="0d041-117">Správca fakturácie projektu</span><span class="sxs-lookup"><span data-stu-id="0d041-117">Project billing administrator</span></span> | <span data-ttu-id="0d041-118">Vytvorí návrh faktúry.</span><span class="sxs-lookup"><span data-stu-id="0d041-118">Creates the invoice proposal.</span></span>                                                                                                                                                 | <span data-ttu-id="0d041-119">Organizačná jednotka</span><span class="sxs-lookup"><span data-stu-id="0d041-119">Business unit</span></span> |
+| <span data-ttu-id="0d041-120">Projektový manažér</span><span class="sxs-lookup"><span data-stu-id="0d041-120">Project manager</span></span>               | <span data-ttu-id="0d041-121">Vytvorí plán projektu a požiada o zdroje.</span><span class="sxs-lookup"><span data-stu-id="0d041-121">Creates the project plan and requests resources.</span></span>                                                                                                                              | <span data-ttu-id="0d041-122">Organizačná jednotka</span><span class="sxs-lookup"><span data-stu-id="0d041-122">Business unit</span></span> |
+| <span data-ttu-id="0d041-123">Projektový zdroj</span><span class="sxs-lookup"><span data-stu-id="0d041-123">Project resource</span></span>              | <span data-ttu-id="0d041-124">Členovia tímu, ktorých je možné rezervovať a nahlásiť čas.</span><span class="sxs-lookup"><span data-stu-id="0d041-124">Team members who can be booked and report time.</span></span>                                                                                                          | <span data-ttu-id="0d041-125">Organizačná jednotka</span><span class="sxs-lookup"><span data-stu-id="0d041-125">Business unit</span></span>|
+| <span data-ttu-id="0d041-126">Správca zdrojov</span><span class="sxs-lookup"><span data-stu-id="0d041-126">Resource manager</span></span>              | <span data-ttu-id="0d041-127">Všetky funkcie správy zdrojov, ako napríklad plnenie požiadaviek na zdroje a rezervácie, sú oddelené tak, aby podporovali hybridnú konfiguráciu projektového manažéra + manažéra zdrojov a jednu a centralizovanú rolu správcu zdrojov.</span><span class="sxs-lookup"><span data-stu-id="0d041-127">All resource management functions, such as fulfill resource requests and bookings, separated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role.</span></span> | <span data-ttu-id="0d041-128">Organizačná jednotka</span><span class="sxs-lookup"><span data-stu-id="0d041-128">Business unit</span></span> |
 
 
-Microsoft Project for the Web obsahuje nasledujúce roly:
-| Rola                          | Popis                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Používateľ projektu | Spoločný používateľ projektu, ktorý je schopný vytvárať vlastné projekty a prezerať si všetky zdieľané projekty.| Používateľ|
-| Systém projektu | Úloha použitá v kontexte aplikácie. Zákazníci by nemali používať túto rolu systému. | Globálne|
+<span data-ttu-id="0d041-129">Microsoft Project for the Web obsahuje nasledujúce roly:</span><span class="sxs-lookup"><span data-stu-id="0d041-129">Microsoft Project for the Web includes the following roles:</span></span>
 
-## <a name="security-enforcement"></a>Presadzovanie bezpečnosti
-Akcie, ktoré sa vykonávajú na úrovni projektu, sa vykonávajú v kontexte prihláseného používateľa. To znamená, že na vytvorenie, otvorenie alebo odstránenie projektu sa vyžaduje, aby mal používateľ k dispozícii prístup do CDS. Prístup do CDS je možné poskytnúť prostredníctvom ktoréhokoľvek z možných mechanizmov zahrnutých do platformy. Napríklad, používateľ s väčším rozsahom môže mať prístup k projektu alebo ak bola vykonaná explicitná akcia zdieľania projektu, ktorá používateľovi umožňuje prístup.
+| <span data-ttu-id="0d041-130">Rola</span><span class="sxs-lookup"><span data-stu-id="0d041-130">Role</span></span>           | <span data-ttu-id="0d041-131">Popis</span><span class="sxs-lookup"><span data-stu-id="0d041-131">Description</span></span>                                                                                                        | <span data-ttu-id="0d041-132">Scope</span><span class="sxs-lookup"><span data-stu-id="0d041-132">Scope</span></span>  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| <span data-ttu-id="0d041-133">Používateľ projektu</span><span class="sxs-lookup"><span data-stu-id="0d041-133">Project user</span></span>   | <span data-ttu-id="0d041-134">Spoločný používateľ projektu, ktorý je schopný vytvárať vlastné projekty a prezerať si všetky zdieľané projekty.</span><span class="sxs-lookup"><span data-stu-id="0d041-134">Collaborative user of Project   who is able to create their own projects and view any projects shared with   them.</span></span> | <span data-ttu-id="0d041-135">Používateľ</span><span class="sxs-lookup"><span data-stu-id="0d041-135">User</span></span>   |
+| <span data-ttu-id="0d041-136">Systém projektu</span><span class="sxs-lookup"><span data-stu-id="0d041-136">Project system</span></span> | <span data-ttu-id="0d041-137">Úloha použitá v kontexte aplikácie.</span><span class="sxs-lookup"><span data-stu-id="0d041-137">Role used for application   context.</span></span> <span data-ttu-id="0d041-138">Zákazníci by nemali používať túto rolu systému.</span><span class="sxs-lookup"><span data-stu-id="0d041-138">Customers should not use this system role.</span></span>                                    | <span data-ttu-id="0d041-139">Globálne</span><span class="sxs-lookup"><span data-stu-id="0d041-139">Global</span></span> |
 
-Je dôležité, aby sa to vzalo do úvahy pri vytváraní projektov v Project Operations.
+## <a name="security-enforcement"></a><span data-ttu-id="0d041-140">Presadzovanie bezpečnosti</span><span class="sxs-lookup"><span data-stu-id="0d041-140">Security enforcement</span></span>
+<span data-ttu-id="0d041-141">Akcie, ktoré sa vykonávajú na úrovni projektu, sa vykonávajú v kontexte prihláseného používateľa.</span><span class="sxs-lookup"><span data-stu-id="0d041-141">Actions that are performed at the project level are performed in the context of the logged in user.</span></span> <span data-ttu-id="0d041-142">To znamená, že na vytvorenie, otvorenie alebo odstránenie projektu sa vyžaduje, aby mal používateľ k dispozícii prístup do CDS.</span><span class="sxs-lookup"><span data-stu-id="0d041-142">This means that in order to create, open, or delete a project, the user is required to have access available in CDS.</span></span> <span data-ttu-id="0d041-143">Prístup do CDS je možné poskytnúť prostredníctvom ktoréhokoľvek z možných mechanizmov zahrnutých do platformy.</span><span class="sxs-lookup"><span data-stu-id="0d041-143">Access in CDS may be granted through any of the possible mechanisms included in the platform.</span></span> <span data-ttu-id="0d041-144">Napríklad, používateľ s väčším rozsahom môže mať prístup k projektu alebo ak bola vykonaná explicitná akcia zdieľania projektu, ktorá používateľovi umožňuje prístup.</span><span class="sxs-lookup"><span data-stu-id="0d041-144">For example, a user with a larger scope may access the project or if an explicit project share action has been performed which grants the user access.</span></span>
 
-## <a name="modern-group-collaboration-with-project-operations"></a>Moderná skupinová spolupráca s Project Operations
-Project for the Web a Project Operations podporujú moderné skupiny pre spoluprácu. Používatelia pridaní do projektu prostredníctvom skupiny môžu upravovať plán projektu.
+<span data-ttu-id="0d041-145">Je dôležité, aby sa to vzalo do úvahy pri vytváraní projektov v Project Operations.</span><span class="sxs-lookup"><span data-stu-id="0d041-145">It's important to consider this when creating projects in Project Operations.</span></span>
 
-Project for Web pridáva používateľov do skupiny automaticky po priradení.
+## <a name="modern-group-collaboration-with-project-operations"></a><span data-ttu-id="0d041-146">Moderná skupinová spolupráca s Project Operations</span><span class="sxs-lookup"><span data-stu-id="0d041-146">Modern group collaboration with Project Operations</span></span>
+<span data-ttu-id="0d041-147">Project for the Web a Project Operations podporujú moderné skupiny pre spoluprácu.</span><span class="sxs-lookup"><span data-stu-id="0d041-147">Project for the Web and Project Operations support modern groups for collaboration.</span></span> <span data-ttu-id="0d041-148">Používatelia pridaní do projektu prostredníctvom skupiny môžu upravovať plán projektu.</span><span class="sxs-lookup"><span data-stu-id="0d041-148">Users added to the project through a group are able to edit the project plan.</span></span>
 
-Skupiny poskytujú povolenia na spoločnú prácu na projekte a podporné artefakty spolupráce. Nasledujúci diagram zobrazuje udalosti a zmeny stavu, ku ktorým dôjde počas procesu skupinového priradenia.
+<span data-ttu-id="0d041-149">Project for Web pridáva používateľov do skupiny automaticky po priradení.</span><span class="sxs-lookup"><span data-stu-id="0d041-149">Project for the Web adds users to the group automatically upon assignment.</span></span>
 
-Project Operations nevytvára skupinu prostredníctvom implicitnej akcie a robí to iba prostredníctvom explicitnej akcie tlačiacich skupín.
+<span data-ttu-id="0d041-150">Skupiny poskytujú povolenia na spoločnú prácu na projekte a podporné artefakty spolupráce.</span><span class="sxs-lookup"><span data-stu-id="0d041-150">Groups allow the permissions of the project and supporting collaboration artifacts to be worked on collaboratively.</span></span> <span data-ttu-id="0d041-151">Nasledujúci diagram zobrazuje udalosti a zmeny stavu, ku ktorým dôjde počas procesu skupinového priradenia.</span><span class="sxs-lookup"><span data-stu-id="0d041-151">The following diagram depicts the events and state changes that happen during the group assignment process.</span></span>
 
-Vyhľadávanie členov skupiny v dialógovom okne **Správa skupín** je obmedzené na tých, ktorí sú nastavení ako súčasť skupiny zabezpečenia prostredia. Ďalšie informácie nájdete v sekcii [Riadenie prístupu používateľov k prostrediam: skupiny zabezpečenia a licencie](https://docs.microsoft.com/power-platform/admin/control-user-access).
+<span data-ttu-id="0d041-152">Project Operations nevytvára skupinu prostredníctvom implicitnej akcie a robí to iba prostredníctvom explicitnej akcie tlačiacich skupín.</span><span class="sxs-lookup"><span data-stu-id="0d041-152">Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.</span></span>
 
-1. Projekt je vytváraný a vlastnený tvoriacim používateľom.
-2. Vlastník projektu je aktualizovaný v tíme.
-3. Tím vlastníka je namapovaný na zadanú alebo vytvorenú skupinu Office.
-4. Pôvodný vlastník projektu je pridaný do skupiny Office.
+<span data-ttu-id="0d041-153">Vyhľadávanie členov skupiny v dialógovom okne **Správa skupín** je obmedzené na tých, ktorí sú nastavení ako súčasť skupiny zabezpečenia prostredia.</span><span class="sxs-lookup"><span data-stu-id="0d041-153">Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group.</span></span> <span data-ttu-id="0d041-154">Ďalšie informácie nájdete v sekcii [Riadenie prístupu používateľov k prostrediam: skupiny zabezpečenia a licencie](https://docs.microsoft.com/power-platform/admin/control-user-access).</span><span class="sxs-lookup"><span data-stu-id="0d041-154">For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).</span></span>
 
-## <a name="deployment-recommendation"></a>Odporúčanie pre nasadenie
-S vývojom modelu skupinovej spolupráce Office bude pridaná funkčnosť, ktorá poskytne podrobnejšiu kontrolu v priebehu času. Zákazníkom, ktorí v súčasnosti nasadia Project Operations, sa odporúča, aby sa zamerali na tradičný model zabezpečenia Microsoft Dynamics 365.
+![Skupinový režim](./media/groupsmode.png)
 
-Ďalšie informácie nájdete v sekcii [Zabezpečenie v Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+1. <span data-ttu-id="0d041-156">Projekt je vytváraný a vlastnený tvoriacim používateľom.</span><span class="sxs-lookup"><span data-stu-id="0d041-156">The Project is created and owned by the creating User.</span></span>
+2. <span data-ttu-id="0d041-157">Vlastník projektu je aktualizovaný v tíme.</span><span class="sxs-lookup"><span data-stu-id="0d041-157">The Project owner is updated to the team.</span></span>
+3. <span data-ttu-id="0d041-158">Tím vlastníka je namapovaný na zadanú alebo vytvorenú skupinu Office.</span><span class="sxs-lookup"><span data-stu-id="0d041-158">The Owner team is mapped to the specified or created Office Group.</span></span>
+4. <span data-ttu-id="0d041-159">Pôvodný vlastník projektu je pridaný do skupiny Office.</span><span class="sxs-lookup"><span data-stu-id="0d041-159">The original owner of the Project is added to the Office Group.</span></span>
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Zabezpečenie Project Operations a Microsoft Dynamics 365 Finance
-Project Operations zahŕňa tieto roly:
+## <a name="deployment-recommendation"></a><span data-ttu-id="0d041-160">Odporúčanie pre nasadenie</span><span class="sxs-lookup"><span data-stu-id="0d041-160">Deployment recommendation</span></span>
+<span data-ttu-id="0d041-161">S vývojom modelu skupinovej spolupráce Office bude pridaná funkčnosť, ktorá poskytne podrobnejšiu kontrolu v priebehu času.</span><span class="sxs-lookup"><span data-stu-id="0d041-161">As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time.</span></span> <span data-ttu-id="0d041-162">Zákazníkom, ktorí v súčasnosti nasadia Project Operations, sa odporúča, aby sa zamerali na tradičný model zabezpečenia Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="0d041-162">Customers that deploy Project Operations today are encouraged to focus on a traditional Microsoft Dynamics 365 security model.</span></span>
 
-- Projektový manažér
-- Projektový účtovník
+<span data-ttu-id="0d041-163">Ďalšie informácie nájdete v sekcii [Zabezpečenie v Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span><span class="sxs-lookup"><span data-stu-id="0d041-163">For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span></span>
 
-Ďalšie informácie o zabezpečení vo Finance nájdete v časti [Zabezpečenie na základe roly](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a><span data-ttu-id="0d041-164">Zabezpečenie Project Operations a Microsoft Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="0d041-164">Project Operations and Microsoft Dynamics 365 Finance security</span></span>
+<span data-ttu-id="0d041-165">Project Operations zahŕňa tieto roly:</span><span class="sxs-lookup"><span data-stu-id="0d041-165">Project Operations includes the following roles:</span></span>
+
+- <span data-ttu-id="0d041-166">Projektový manažér</span><span class="sxs-lookup"><span data-stu-id="0d041-166">Project manager</span></span>
+- <span data-ttu-id="0d041-167">Projektový účtovník</span><span class="sxs-lookup"><span data-stu-id="0d041-167">Project accountant</span></span>
+
+<span data-ttu-id="0d041-168">Ďalšie informácie o zabezpečení vo Finance nájdete v časti [Zabezpečenie na základe roly](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span><span class="sxs-lookup"><span data-stu-id="0d041-168">For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span></span>
 
 

@@ -9,39 +9,39 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965886"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084296"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Správa komplexných jednotiek, napríklad podľa používateľa alebo podľa mesiaca, pre riadky cenových ponúk založených na produkte
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a><span data-ttu-id="74aed-103">Správa komplexných jednotiek, napríklad podľa používateľa alebo podľa mesiaca, pre riadky cenových ponúk založených na produkte</span><span class="sxs-lookup"><span data-stu-id="74aed-103">Managing complex units such as per-user, per-month for product-based quote lines</span></span>
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+<span data-ttu-id="74aed-104">_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_</span><span class="sxs-lookup"><span data-stu-id="74aed-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
 
-Dynamics 365 Project Operations používa množstvo faktorov na podporu predaja produktov založených na predplatnom. V prípade produktov založených na predplatnom sa množstvo v riadku cenovej ponuky alebo projektu vyjadrí ako počet používateľských mesiacov.
+<span data-ttu-id="74aed-105">Dynamics 365 Project Operations používa množstvo faktorov na podporu predaja produktov založených na predplatnom.</span><span class="sxs-lookup"><span data-stu-id="74aed-105">Dynamics 365 Project Operations uses quantity factors to support the sale of subscription-based products.</span></span> <span data-ttu-id="74aed-106">V prípade produktov založených na predplatnom sa množstvo v riadku cenovej ponuky alebo projektu vyjadrí ako počet používateľských mesiacov.</span><span class="sxs-lookup"><span data-stu-id="74aed-106">For subscription-based products, the quantity on the quote or project contract line is expressed as the number of user-months.</span></span>
 
-Zvyčajne je cena predplatného softvéru uložená v katalógu ako cena za používateľa mesačne. Počas predajného procesu je cena v riadku cenovej ponuky zvyčajne cena za používateľa, za mesiac, ktorá bola dohodnutá a zľavnená agentom predaja IT. Každý obchod má iný počet užívateľov a iný počet predplatných mesiacov. Množstvo používané na výpočet riadka cenovej ponuky je násobkom počtu používateľov a počtu mesiacov predplatného.
+<span data-ttu-id="74aed-107">Zvyčajne je cena predplatného softvéru uložená v katalógu ako cena za používateľa mesačne.</span><span class="sxs-lookup"><span data-stu-id="74aed-107">Usually, the price of subscription software is stored in the catalog as the price per user per month.</span></span> <span data-ttu-id="74aed-108">Počas predajného procesu je cena v riadku cenovej ponuky zvyčajne cena za používateľa, za mesiac, ktorá bola dohodnutá a zľavnená agentom predaja IT.</span><span class="sxs-lookup"><span data-stu-id="74aed-108">During the sales process, the price on the quote line is usually the per-user, per-month price that was negotiated and discounted by the IT sales agent.</span></span> <span data-ttu-id="74aed-109">Každý obchod má iný počet užívateľov a iný počet predplatných mesiacov.</span><span class="sxs-lookup"><span data-stu-id="74aed-109">Each deal has a different number of users and a different number of subscription months.</span></span> <span data-ttu-id="74aed-110">Množstvo používané na výpočet riadka cenovej ponuky je násobkom počtu používateľov a počtu mesiacov predplatného.</span><span class="sxs-lookup"><span data-stu-id="74aed-110">The quantity used to compute the quote line is a product of the number of users and the number of subscription months.</span></span>
 
-Na podporu tohto druhu predaja, Project Operations predstavil koncept kvantity faktorov. Množstvo faktorov sa spolieha na atribúty v Dynamics 365. Keď nakonfigurujete špecifické vlastnosti produktu, Project Operations vám umožní označiť podmnožinu alebo všetky vlastnosti ako množstevné faktory.
+<span data-ttu-id="74aed-111">Na podporu tohto druhu predaja, Project Operations predstavil koncept kvantity faktorov.</span><span class="sxs-lookup"><span data-stu-id="74aed-111">To support this type of sale, Project Operations introduced the concept of quantity factors.</span></span> <span data-ttu-id="74aed-112">Množstvo faktorov sa spolieha na atribúty v Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="74aed-112">Quantity factors rely on the product attributes in Dynamics 365.</span></span> <span data-ttu-id="74aed-113">Keď nakonfigurujete špecifické vlastnosti produktu, Project Operations vám umožní označiť podmnožinu alebo všetky vlastnosti ako množstevné faktory.</span><span class="sxs-lookup"><span data-stu-id="74aed-113">When you configure specific properties for a product, Project Operations lets you flag a subset, or all of the properties, as quantity factors.</span></span>
 
-Project Operations overuje, že iba číselné vlastnosti alebo vlastnosti produktu, ktoré majú číselný typ údajov, sú označené ako faktory kvantity. Keď do riadku cenovej ponuky pridáte produkt s faktormi kvantity, pole **Množstvo** bude iba na čítanie. Po zadaní hodnôt pre vlastnosti produktu, ktoré sú faktory kvantity, Project Operations vypočíta množstvo riadka cenovej ponuky.
+<span data-ttu-id="74aed-114">Project Operations overuje, že iba číselné vlastnosti alebo vlastnosti produktu, ktoré majú číselný typ údajov, sú označené ako faktory kvantity.</span><span class="sxs-lookup"><span data-stu-id="74aed-114">Project Operations validates that only numeric properties or product properties that have a numeric data type are flagged as quantity factors.</span></span> <span data-ttu-id="74aed-115">Keď do riadku cenovej ponuky pridáte produkt s faktormi kvantity, pole **Množstvo** bude iba na čítanie.</span><span class="sxs-lookup"><span data-stu-id="74aed-115">When you add a product with quantity factors to a quote line, the **Quantity** field becomes read-only.</span></span> <span data-ttu-id="74aed-116">Po zadaní hodnôt pre vlastnosti produktu, ktoré sú faktory kvantity, Project Operations vypočíta množstvo riadka cenovej ponuky.</span><span class="sxs-lookup"><span data-stu-id="74aed-116">After you enter values for product properties that are quantity factors, Project Operations calculates the quantity of the quote line.</span></span>
 
-Napríklad, Dynamics 365 Sales môže mať nasledujúce vlastnosti:
+<span data-ttu-id="74aed-117">Napríklad, Dynamics 365 Sales môže mať nasledujúce vlastnosti:</span><span class="sxs-lookup"><span data-stu-id="74aed-117">For example, Dynamics 365 Sales might have the following properties:</span></span>
 
-- **Počet používateľov**: Počet používateľov
-- **Počet mesiacov**: Počet mesiacov predplatného
-- **Produkt SKU**
+- <span data-ttu-id="74aed-118">**Počet používateľov** : Počet používateľov</span><span class="sxs-lookup"><span data-stu-id="74aed-118">**No of users** : The number of users</span></span>
+- <span data-ttu-id="74aed-119">**Počet mesiacov** : Počet mesiacov predplatného</span><span class="sxs-lookup"><span data-stu-id="74aed-119">**No of Months** : The number of subscription months</span></span>
+- <span data-ttu-id="74aed-120">**Produkt SKU**</span><span class="sxs-lookup"><span data-stu-id="74aed-120">**Product SKU**</span></span>
 
-Vlastnosti **Počet používateľov** a **Počet mesiacov** môžete označiť príznakom ako faktory kvantity úpravou vlastnosti produktového riadku.
+<span data-ttu-id="74aed-121">Vlastnosti **Počet používateľov** a **Počet mesiacov** môžete označiť príznakom ako faktory kvantity úpravou vlastnosti produktového riadku.</span><span class="sxs-lookup"><span data-stu-id="74aed-121">You can flag the **No of Users** and **No of Months** properties as quantity factors by editing the properties of the product line.</span></span>
 
-Ak chcete vytvoriť faktory kvantity z vlastností produktu, postupujte nasledovne:
+<span data-ttu-id="74aed-122">Ak chcete vytvoriť faktory kvantity z vlastností produktu, postupujte nasledovne:</span><span class="sxs-lookup"><span data-stu-id="74aed-122">To create Quantity factors from Product properties, follow these steps:</span></span>
 
-1. Na ľavej navigačnej table Project Operations prejdite na **Predaj** > **Produkty**.
-2. Otvorte produkt, pre ktorý potrebujete nakonfigurovať faktory kvantity. Skontrolujte, či má produkt už nakonfigurované vlastnosti.
-3. Na stránke **Informácie o projekte** pre produkt vyberte kartu **Faktory kvantity**.
-4. Vo vedľajšej mriežke vyberte **+ Výpočet nového poľa**.
-5. Zadajte názov faktora kvantity a vyberte hodnotu vlastnosti, ktorá sa mapuje na výpočet poľa.
-6. Uloží a zavrie formulár. Zopakujte tieto kroky pre všetky vlastnosti, ktoré sa majú použiť na výpočet množstva pre riadok cenovej ponuky založenej na produkte.
+1. <span data-ttu-id="74aed-123">Na ľavej navigačnej table Project Operations prejdite na **Predaj** > **Produkty**.</span><span class="sxs-lookup"><span data-stu-id="74aed-123">On the Project Operations left navigation pane, go to **Sales** > **Products**.</span></span>
+2. <span data-ttu-id="74aed-124">Otvorte produkt, pre ktorý potrebujete nakonfigurovať faktory kvantity.</span><span class="sxs-lookup"><span data-stu-id="74aed-124">Open the product for which you need to configure quantity factors.</span></span> <span data-ttu-id="74aed-125">Skontrolujte, či má produkt už nakonfigurované vlastnosti.</span><span class="sxs-lookup"><span data-stu-id="74aed-125">Make sure the product has properties already configured.</span></span>
+3. <span data-ttu-id="74aed-126">Na stránke **Informácie o projekte** pre produkt vyberte kartu **Faktory kvantity**.</span><span class="sxs-lookup"><span data-stu-id="74aed-126">On the **Project Information** page for the Product, select the **Quantity Factors** tab.</span></span>
+4. <span data-ttu-id="74aed-127">Vo vedľajšej mriežke vyberte **+ Výpočet nového poľa**.</span><span class="sxs-lookup"><span data-stu-id="74aed-127">In the subgrid, select **+ New field computation**.</span></span>
+5. <span data-ttu-id="74aed-128">Zadajte názov faktora kvantity a vyberte hodnotu vlastnosti, ktorá sa mapuje na výpočet poľa.</span><span class="sxs-lookup"><span data-stu-id="74aed-128">Enter the name of the Quantity factor and select the property value that maps to the field computation.</span></span>
+6. <span data-ttu-id="74aed-129">Uloží a zavrie formulár.</span><span class="sxs-lookup"><span data-stu-id="74aed-129">Save and close the form.</span></span> <span data-ttu-id="74aed-130">Zopakujte tieto kroky pre všetky vlastnosti, ktoré sa majú použiť na výpočet množstva pre riadok cenovej ponuky založenej na produkte.</span><span class="sxs-lookup"><span data-stu-id="74aed-130">Repeat these steps for all properties to use for computing the quantity for the product-based quote line.</span></span>
 
-Keď vytvoríte riadok cenovej ponuky založenej na produkte pre produkt, množstvo riadka cenovej ponuky sa uzamkne. Množstvo sa vypočíta ako súčin hodnôt vlastností, ktoré zadáte pre daný riadok cenovej ponuky.
+<span data-ttu-id="74aed-131">Keď vytvoríte riadok cenovej ponuky založenej na produkte pre produkt, množstvo riadka cenovej ponuky sa uzamkne.</span><span class="sxs-lookup"><span data-stu-id="74aed-131">When you create a product-based quote line for a product, the quantity of the quote line will be locked.</span></span> <span data-ttu-id="74aed-132">Množstvo sa vypočíta ako súčin hodnôt vlastností, ktoré zadáte pre daný riadok cenovej ponuky.</span><span class="sxs-lookup"><span data-stu-id="74aed-132">The quantity will be computed as a product of the property values that you input for that quote line.</span></span>

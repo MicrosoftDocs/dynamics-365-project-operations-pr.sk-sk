@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,76 +17,76 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3a2a3b48df02853e519a45dc1d37052c8ba2529d
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 087950c9639a95868a20d71286dfad4437555108
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896615"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084359"
 ---
-# <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavenie vlastných polí ako cenových dimenzií
+# <a name="set-up-custom-fields-as-pricing-dimensions"></a><span data-ttu-id="d78e6-103">Nastavenie vlastných polí ako cenových dimenzií</span><span class="sxs-lookup"><span data-stu-id="d78e6-103">Set up custom fields as pricing dimensions</span></span>
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+<span data-ttu-id="d78e6-104">_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_</span><span class="sxs-lookup"><span data-stu-id="d78e6-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Pred začatím tejto témy sa predpokladá, že ste dokončili postupy v témach, [Vytvorenie vlastných polí a entít](create-custom-fields-entities-pricing-dimensions.md) a [Pridanie požadovaných vlastných polí do cenového nastavenia a transakčných entít](add-custom-fields-price-setup-transactional-entities.md). Ak ste tieto postupy nedokončili, vráťte sa späť a dokončite ich a potom sa vráťte na túto tému. 
+<span data-ttu-id="d78e6-105">Pred začatím tejto témy sa predpokladá, že ste dokončili postupy v témach, [Vytvorenie vlastných polí a entít](create-custom-fields-entities-pricing-dimensions.md) a [Pridanie požadovaných vlastných polí do cenového nastavenia a transakčných entít](add-custom-fields-price-setup-transactional-entities.md).</span><span class="sxs-lookup"><span data-stu-id="d78e6-105">Before you begin, this topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md) and [Add required custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md).</span></span> <span data-ttu-id="d78e6-106">Ak ste tieto postupy nedokončili, vráťte sa späť a dokončite ich a potom sa vráťte na túto tému.</span><span class="sxs-lookup"><span data-stu-id="d78e6-106">If you haven't completed those procedures, go back and complete them and then return to this topic.</span></span> 
 
-Táto téma poskytuje informácie o nastavení vlastných dimenzií cien. Na stránke **Parametre**, sa na karte **Cenové dimenzie založené na čiastke** zobrazujú záznamy v entitách cenovej dimenzie. V predvolenom nastavení sú na tejto karte v mriežke dva riadky:
+<span data-ttu-id="d78e6-107">Táto téma poskytuje informácie o nastavení vlastných dimenzií cien.</span><span class="sxs-lookup"><span data-stu-id="d78e6-107">This topic provides information about setting up custom pricing dimensions.</span></span> <span data-ttu-id="d78e6-108">Na stránke **Parametre** , sa na karte **Cenové dimenzie založené na čiastke** zobrazujú záznamy v entitách cenovej dimenzie.</span><span class="sxs-lookup"><span data-stu-id="d78e6-108">On the **Parameters** page, the **Amount-Based Pricing Dimensions** tab shows the records in the pricing dimension entities.</span></span> <span data-ttu-id="d78e6-109">V predvolenom nastavení sú na tejto karte v mriežke dva riadky:</span><span class="sxs-lookup"><span data-stu-id="d78e6-109">By default, there are two rows in the grid on this tab:</span></span>
 
-- **msdyn_resourcecategory** (Rola)
-- **msdyn_OrganizationalUnit** (Organizačná jednotka)
-
-> [!IMPORTANT]
-> Tieto riadky neodstraňujte. Ak ich však nepotrebujete, môžete ich spraviť neplatnými v špecifickom kontexte nastavením možností **Vzťahuje sa na náklady**, **Vzťahuje sa na predaj** a **Vzťahuje sa na nákup** na možnosť **Nie**. Nastavenie týchto hodnôt atribútov na **Nie** má rovnaký účinok, ako nemať pole ako cenovú dimenziu.
-
-Aby sa pole stalo cenovou dimenziou, musí byť:
-
-- Vytvorená ako pole v entitách **Cena roly** a **Prirážky k cenám rol**. Pre ďalšie informácie o postupuje [Pridanie vlastných polí do cenového nastavenia a transakčných entít](add-custom-fields-price-setup-transactional-entities.md).
-- Vytvorená ako riadok v tabuľke **Cenová dimenzia**. Pridajte napríklad riadky dimenzie ocenenia, ako je uvedené v nasledujúcom obrázku. 
-
-Pracovné hodiny zdroja (**msdyn_resourceworkhours**) sú pridané ako dimenzie založené na prirážke a boli pridané do mriežky na karte **Cenová dimenzia založená na prirážke**.
+- <span data-ttu-id="d78e6-110">**msdyn_resourcecategory** (Rola)</span><span class="sxs-lookup"><span data-stu-id="d78e6-110">**msdyn_resourcecategory** (Role)</span></span>
+- <span data-ttu-id="d78e6-111">**msdyn_OrganizationalUnit** (Organizačná jednotka)</span><span class="sxs-lookup"><span data-stu-id="d78e6-111">**msdyn_OrganizationalUnit** (Organizational Unit)</span></span>
 
 > [!IMPORTANT]
-> Akákoľvek zmena údajov cenovej dimenzie v tejto tabuľke, existujúcich alebo nových, je prenesená na obchodnú logiku určovania cien po obnovení vyrovnávacej pamäte. Čas obnovenia vyrovnávacej pamäte môže trvať až 10 minút. Nechajte potrebný čas na zobrazenie zmien v predvolenej logike ceny, ktorá musí byť výsledkom zmien v údajoch dimenzie ceny.
+> <span data-ttu-id="d78e6-112">Tieto riadky neodstraňujte.</span><span class="sxs-lookup"><span data-stu-id="d78e6-112">Do not delete these rows.</span></span> <span data-ttu-id="d78e6-113">Ak ich však nepotrebujete, môžete ich spraviť neplatnými v špecifickom kontexte nastavením možností **Vzťahuje sa na náklady** , **Vzťahuje sa na predaj** a **Vzťahuje sa na nákup** na možnosť **Nie**.</span><span class="sxs-lookup"><span data-stu-id="d78e6-113">However, if you do not need them, you can make them not applicable in a specific context by setting **Applicable to Cost** , **Applicable to Sales** , and **Applicable to Purchase** all to **No**.</span></span> <span data-ttu-id="d78e6-114">Nastavenie týchto hodnôt atribútov na **Nie** má rovnaký účinok, ako nemať pole ako cenovú dimenziu.</span><span class="sxs-lookup"><span data-stu-id="d78e6-114">Setting these attribute values to **No** has the same effect of not having the field as a pricing dimension.</span></span>
+
+<span data-ttu-id="d78e6-115">Aby sa pole stalo cenovou dimenziou, musí byť:</span><span class="sxs-lookup"><span data-stu-id="d78e6-115">For a field to become a pricing dimension, it must be:</span></span>
+
+- <span data-ttu-id="d78e6-116">Vytvorená ako pole v entitách **Cena roly** a **Prirážky k cenám rol**.</span><span class="sxs-lookup"><span data-stu-id="d78e6-116">Created as a field in the **Role Price** and **Role Price markup** entities.</span></span> <span data-ttu-id="d78e6-117">Pre ďalšie informácie o postupuje [Pridanie vlastných polí do cenového nastavenia a transakčných entít](add-custom-fields-price-setup-transactional-entities.md).</span><span class="sxs-lookup"><span data-stu-id="d78e6-117">For more information on how to do this, see [Add custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md).</span></span>
+- <span data-ttu-id="d78e6-118">Vytvorená ako riadok v tabuľke **Cenová dimenzia**.</span><span class="sxs-lookup"><span data-stu-id="d78e6-118">Created as a row in the **Pricing Dimension** table.</span></span> <span data-ttu-id="d78e6-119">Pridajte napríklad riadky dimenzie ocenenia, ako je uvedené v nasledujúcom obrázku.</span><span class="sxs-lookup"><span data-stu-id="d78e6-119">For example, add pricing dimension rows as shown in the following graphic.</span></span> 
+
+<span data-ttu-id="d78e6-120">Pracovné hodiny zdroja ( **msdyn_resourceworkhours** ) sú pridané ako dimenzie založené na prirážke a boli pridané do mriežky na karte **Cenová dimenzia založená na prirážke**.</span><span class="sxs-lookup"><span data-stu-id="d78e6-120">Resource Work hours ( **msdyn_resourceworkhours** ) is added as a markup-based dimension and has been added to the grid on the **Markup Based Pricing Dimension** tab.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="d78e6-121">Akákoľvek zmena údajov cenovej dimenzie v tejto tabuľke, existujúcich alebo nových, je prenesená na obchodnú logiku určovania cien po obnovení vyrovnávacej pamäte.</span><span class="sxs-lookup"><span data-stu-id="d78e6-121">Any change to pricing dimension data in this table, existing or new, is propagated to the pricing business logic only after the cache is refreshed.</span></span> <span data-ttu-id="d78e6-122">Čas obnovenia vyrovnávacej pamäte môže trvať až 10 minút.</span><span class="sxs-lookup"><span data-stu-id="d78e6-122">The cache refresh time may take up to 10 minutes.</span></span> <span data-ttu-id="d78e6-123">Nechajte potrebný čas na zobrazenie zmien v predvolenej logike ceny, ktorá musí byť výsledkom zmien v údajoch dimenzie ceny.</span><span class="sxs-lookup"><span data-stu-id="d78e6-123">Allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data.</span></span>
 
 
-## <a name="attributes-of-the-pricing-dimensions-table"></a>Atribúty tabuľky dimenzie cien
-Nasledujúce časti poskytujú informácie o rôznych atribútoch v tabuľke **Cenové dimenzie**.
+## <a name="attributes-of-the-pricing-dimensions-table"></a><span data-ttu-id="d78e6-124">Atribúty tabuľky dimenzie cien</span><span class="sxs-lookup"><span data-stu-id="d78e6-124">Attributes of the Pricing Dimensions table</span></span>
+<span data-ttu-id="d78e6-125">Nasledujúce časti poskytujú informácie o rôznych atribútoch v tabuľke **Cenové dimenzie**.</span><span class="sxs-lookup"><span data-stu-id="d78e6-125">The following sections provide information about the different attributes in the **Pricing Dimensions** table.</span></span>
 
-### <a name="pricing-dimension-name"></a>Názov cenovej dimenzie
-Táto hodnota by mala byť presne rovnaká ako názov schémy poľa, ktoré sa pridá do tabuľky **Cena roly** pre vlastné cenové dimenzie. Ďalšie informácie o pridávaní polí do tabuľky **Cena roly** nájdete v téme [Pridanie vlastných polí do cenového nastavenia a transakčných entít](add-custom-fields-price-setup-transactional-entities.md).
+### <a name="pricing-dimension-name"></a><span data-ttu-id="d78e6-126">Názov cenovej dimenzie</span><span class="sxs-lookup"><span data-stu-id="d78e6-126">Pricing Dimension Name</span></span>
+<span data-ttu-id="d78e6-127">Táto hodnota by mala byť presne rovnaká ako názov schémy poľa, ktoré sa pridá do tabuľky **Cena roly** pre vlastné cenové dimenzie.</span><span class="sxs-lookup"><span data-stu-id="d78e6-127">This value should be the exact same as the schema name of the field that is added to the **Role Price** table for custom pricing dimensions.</span></span> <span data-ttu-id="d78e6-128">Ďalšie informácie o pridávaní polí do tabuľky **Cena roly** nájdete v téme [Pridanie vlastných polí do cenového nastavenia a transakčných entít](add-custom-fields-price-setup-transactional-entities.md).</span><span class="sxs-lookup"><span data-stu-id="d78e6-128">For more information about adding fields to the **Role Price** table, see [Add custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md).</span></span>
 
-### <a name="type-of-dimension"></a>Typ dimenzie
-Existujú dva typy cien dimenzií:
+### <a name="type-of-dimension"></a><span data-ttu-id="d78e6-129">Typ dimenzie</span><span class="sxs-lookup"><span data-stu-id="d78e6-129">Type of dimension</span></span>
+<span data-ttu-id="d78e6-130">Existujú dva typy cien dimenzií:</span><span class="sxs-lookup"><span data-stu-id="d78e6-130">There are two types of pricing dimensions:</span></span>
   
-  - **Dimenzie založené na sume**: : hodnoty dimenzie z kontextu vstupu sa porovnajú s hodnotami dimenzie v riadku **Cena roly** a cena/náklady sa predvolene získavajú priamo z tabuľky **Cena roly**.
-  - **Dimenzie založené na prirážke**: Ide o dimenzie, kde sa používa nasledujúci 3-stupňový proces na získanie ceny/nákladov:
+  - <span data-ttu-id="d78e6-131">**Dimenzie založené na sume** : : hodnoty dimenzie z kontextu vstupu sa porovnajú s hodnotami dimenzie v riadku **Cena roly** a cena/náklady sa predvolene získavajú priamo z tabuľky **Cena roly**.</span><span class="sxs-lookup"><span data-stu-id="d78e6-131">**Amount-based dimensions** : The dimension values from the input context are matched to the dimension values on **Role Price** line and the price/cost is defaulted directly from the **Role Price** table.</span></span>
+  - <span data-ttu-id="d78e6-132">**Dimenzie založené na prirážke** : Ide o dimenzie, kde sa používa nasledujúci 3-stupňový proces na získanie ceny/nákladov:</span><span class="sxs-lookup"><span data-stu-id="d78e6-132">**Markup-based dimensions** : These are dimensions where the following three-step process to get the price/cost is used:</span></span>
  
-    1. Hodnoty dimenzie nezaložené na prirážke z kontextu vstupu sa spárujú s riadkom Cena roly, aby sa získala základná sadzba.
-    2. Hodnoty dimenzie z kontextu vstupu sa spárujú s riadkom **Prirážka k cene roly**, aby sa získala percentuálna hodnota prirážky.
-    3. Percentuálna hodnota prirážky z druhého kroku sa aplikuje na základnú sadzbu získanú z tabuľky **Cena roly** v prvom kroku, aby sa dospelo ku konečnej cene/nákladom.
+    1. <span data-ttu-id="d78e6-133">Hodnoty dimenzie nezaložené na prirážke z kontextu vstupu sa spárujú s riadkom Cena roly, aby sa získala základná sadzba.</span><span class="sxs-lookup"><span data-stu-id="d78e6-133">The non-markup-based dimension values from the input context are matched to the Role Price line to get the base rate.</span></span>
+    2. <span data-ttu-id="d78e6-134">Hodnoty dimenzie z kontextu vstupu sa spárujú s riadkom **Prirážka k cene roly** , aby sa získala percentuálna hodnota prirážky.</span><span class="sxs-lookup"><span data-stu-id="d78e6-134">The dimension values from the input context are matched to the **Role Price Markup** line to get a markup percentage.</span></span>
+    3. <span data-ttu-id="d78e6-135">Percentuálna hodnota prirážky z druhého kroku sa aplikuje na základnú sadzbu získanú z tabuľky **Cena roly** v prvom kroku, aby sa dospelo ku konečnej cene/nákladom.</span><span class="sxs-lookup"><span data-stu-id="d78e6-135">The markup percentage from the second step is applied to the base rate obtained from the **Role Price** table in the first step to arrive at final price/cost.</span></span>
    
-   Nasledujúca tabuľka znázorňuje výpočet cenových označení.
+   <span data-ttu-id="d78e6-136">Nasledujúca tabuľka znázorňuje výpočet cenových označení.</span><span class="sxs-lookup"><span data-stu-id="d78e6-136">The following table illustrates the calculation of price markups.</span></span>
   
-| Rola        | Organizačná jednotka    |Miesto výkonu práce      |Štandardný názov      |Pracovná doba zdroja      |  Označenie|
+| <span data-ttu-id="d78e6-137">Rola</span><span class="sxs-lookup"><span data-stu-id="d78e6-137">Role</span></span>        | <span data-ttu-id="d78e6-138">Organizačná jednotka</span><span class="sxs-lookup"><span data-stu-id="d78e6-138">Org Unit</span></span>    |<span data-ttu-id="d78e6-139">Miesto výkonu práce</span><span class="sxs-lookup"><span data-stu-id="d78e6-139">Work Location</span></span>      |<span data-ttu-id="d78e6-140">Štandardný názov</span><span class="sxs-lookup"><span data-stu-id="d78e6-140">Standard Title</span></span>      |<span data-ttu-id="d78e6-141">Pracovná doba zdroja</span><span class="sxs-lookup"><span data-stu-id="d78e6-141">Resource Work Hours</span></span>      |  <span data-ttu-id="d78e6-142">Označenie</span><span class="sxs-lookup"><span data-stu-id="d78e6-142">Mark Up</span></span>|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|U zákazníka            |                    |Nadčas                 |15     |
-|             | Contoso India|Lokálny             |                    |Nadčas                 |10     |
-|             | Contoso US   |Lokálny             |                    |Nadčas                 |20     |
+|             | <span data-ttu-id="d78e6-143">Contoso India</span><span class="sxs-lookup"><span data-stu-id="d78e6-143">Contoso India</span></span>|<span data-ttu-id="d78e6-144">U zákazníka</span><span class="sxs-lookup"><span data-stu-id="d78e6-144">Onsite</span></span>            |                    |<span data-ttu-id="d78e6-145">Nadčas</span><span class="sxs-lookup"><span data-stu-id="d78e6-145">Overtime</span></span>                 |<span data-ttu-id="d78e6-146">15</span><span class="sxs-lookup"><span data-stu-id="d78e6-146">15</span></span>     |
+|             | <span data-ttu-id="d78e6-147">Contoso India</span><span class="sxs-lookup"><span data-stu-id="d78e6-147">Contoso India</span></span>|<span data-ttu-id="d78e6-148">Lokálny</span><span class="sxs-lookup"><span data-stu-id="d78e6-148">Local</span></span>             |                    |<span data-ttu-id="d78e6-149">Nadčas</span><span class="sxs-lookup"><span data-stu-id="d78e6-149">Overtime</span></span>                 |<span data-ttu-id="d78e6-150">10</span><span class="sxs-lookup"><span data-stu-id="d78e6-150">10</span></span>     |
+|             | <span data-ttu-id="d78e6-151">Contoso US</span><span class="sxs-lookup"><span data-stu-id="d78e6-151">Contoso US</span></span>   |<span data-ttu-id="d78e6-152">Lokálny</span><span class="sxs-lookup"><span data-stu-id="d78e6-152">Local</span></span>             |                    |<span data-ttu-id="d78e6-153">Nadčas</span><span class="sxs-lookup"><span data-stu-id="d78e6-153">Overtime</span></span>                 |<span data-ttu-id="d78e6-154">20</span><span class="sxs-lookup"><span data-stu-id="d78e6-154">20</span></span>     |
 
 
-Ak zdroj z Contoso India, ktorého základná sadzba je 100 USD, pracuje u zákazníka a vykáže 8 hodín bežnej pracovnej doby a 2 hodiny nadčasov v zadaní času, systém cenotvorby využije základnú sadzbu 100 pre nasledujúcich 8 hodín, čím sa dosiahne 800 USD. Pre 2 hodiny nadčas, bude prirážka 15 % použitá na základnú sadzbu 100 na získanie jednotkovej ceny 115 USD a zaznamená celkové náklady na 230 USD.
+<span data-ttu-id="d78e6-155">Ak zdroj z Contoso India, ktorého základná sadzba je 100 USD, pracuje u zákazníka a vykáže 8 hodín bežnej pracovnej doby a 2 hodiny nadčasov v zadaní času, systém cenotvorby využije základnú sadzbu 100 pre nasledujúcich 8 hodín, čím sa dosiahne 800 USD.</span><span class="sxs-lookup"><span data-stu-id="d78e6-155">If a resource from Contoso India whose base rate is 100 USD is working onsite, and they log 8 hours of Regular time and 2 hours of overtime on the time entry, the pricing engine will use the base rate of 100 for the 8 hours to record 800 USD.</span></span> <span data-ttu-id="d78e6-156">Pre 2 hodiny nadčas, bude prirážka 15 % použitá na základnú sadzbu 100 na získanie jednotkovej ceny 115 USD a zaznamená celkové náklady na 230 USD.</span><span class="sxs-lookup"><span data-stu-id="d78e6-156">For the 2 hours overtime, a markup of 15% will be applied to the base rate of 100 to get a unit price of 115 USD and will record a total cost of 230 USD.</span></span>
 
-### <a name="applicable-to-cost"></a>Vzťahuje sa na náklady 
-Ak je nastavená na hodnotu **Áno**, znamená to, že hodnota dimenzie z kontextu vstupu by sa mala použiť na zhodu s poľami **Cena roly** a **Prirážka k cene roly** pri načítavaní sadzieb nákladov a prirážky.
+### <a name="applicable-to-cost"></a><span data-ttu-id="d78e6-157">Vzťahuje sa na náklady</span><span class="sxs-lookup"><span data-stu-id="d78e6-157">Applicable to Cost</span></span> 
+<span data-ttu-id="d78e6-158">Ak je nastavená na hodnotu **Áno** , znamená to, že hodnota dimenzie z kontextu vstupu by sa mala použiť na zhodu s poľami **Cena roly** a **Prirážka k cene roly** pri načítavaní sadzieb nákladov a prirážky.</span><span class="sxs-lookup"><span data-stu-id="d78e6-158">If this is set to **Yes** , it indicates that the dimension value from the input context should be used to match to the **Role Price** and **Role Price Markup** when retrieving the cost and markup rates.</span></span>
 
-### <a name="applicable-to-sales"></a>Vzťahuje sa na predaj
-Ak je nastavená na hodnotu **Áno**, znamená to, že hodnota dimenzie z kontextu vstupu by sa mala použiť na zhodu s poľami **Cena roly** a **Prirážka k cene roly** pri načítavaní sadzieb fakturácie a prirážky.
+### <a name="applicable-to-sales"></a><span data-ttu-id="d78e6-159">Vzťahuje sa na predaj</span><span class="sxs-lookup"><span data-stu-id="d78e6-159">Applicable to Sales</span></span>
+<span data-ttu-id="d78e6-160">Ak je nastavená na hodnotu **Áno** , znamená to, že hodnota dimenzie z kontextu vstupu by sa mala použiť na zhodu s poľami **Cena roly** a **Prirážka k cene roly** pri načítavaní sadzieb fakturácie a prirážky.</span><span class="sxs-lookup"><span data-stu-id="d78e6-160">If this is set to **Yes** , it indicates that the dimension value from the input context should be used to match to the **Role Price** and **Role Price Markup** when retrieving the bill and markup rates.</span></span>
 
-### <a name="applicable-to-purchase"></a>Vzťahuje sa na nákup
-Ak je nastavená na hodnotu **Áno**, znamená to, že hodnota dimenzie z kontextu vstupu by sa mala použiť na zhodu s poľami **Cena roly** a **Prirážka k cene roly** pri načítavaní sadzieb nákupnej ceny. Scenáre subdodávok nie sú podporované, takže toto pole sa nepoužíva. 
+### <a name="applicable-to-purchase"></a><span data-ttu-id="d78e6-161">Vzťahuje sa na nákup</span><span class="sxs-lookup"><span data-stu-id="d78e6-161">Applicable to Purchase</span></span>
+<span data-ttu-id="d78e6-162">Ak je nastavená na hodnotu **Áno** , znamená to, že hodnota dimenzie z kontextu vstupu by sa mala použiť na zhodu s poľami **Cena roly** a **Prirážka k cene roly** pri načítavaní sadzieb nákupnej ceny.</span><span class="sxs-lookup"><span data-stu-id="d78e6-162">If this is set to **Yes** , it indicates that the dimension value from the input context should be used to match to the **Role Price** and **Role Price Markup** when retrieving the purchase price.</span></span> <span data-ttu-id="d78e6-163">Scenáre subdodávok nie sú podporované, takže toto pole sa nepoužíva.</span><span class="sxs-lookup"><span data-stu-id="d78e6-163">Subcontracting scenarios are not supported, so this field is not used.</span></span> 
 
-### <a name="priority"></a>Priorita
-Nastavenie priority dimenzie pomáha pri stanovení ceny, aj keď nedokáže nájsť presnú zhodu medzi hodnotami vstupnej dimenzie a hodnotami z tabuliek **Cena roly** alebo **Prirážka k cene roly**. V tomto scenári, sa budú používať nulové hodnoty pre nepriradené hodnoty dimenzie vážením dimenzií v poradí ich priority.
+### <a name="priority"></a><span data-ttu-id="d78e6-164">Priorita</span><span class="sxs-lookup"><span data-stu-id="d78e6-164">Priority</span></span>
+<span data-ttu-id="d78e6-165">Nastavenie priority dimenzie pomáha pri stanovení ceny, aj keď nedokáže nájsť presnú zhodu medzi hodnotami vstupnej dimenzie a hodnotami z tabuliek **Cena roly** alebo **Prirážka k cene roly**.</span><span class="sxs-lookup"><span data-stu-id="d78e6-165">Setting the dimension priority helps pricing produce a price even when it can't find an exact match between the input dimension values and the values from the **Role Price** or **Role Price Markup** tables.</span></span> <span data-ttu-id="d78e6-166">V tomto scenári, sa budú používať nulové hodnoty pre nepriradené hodnoty dimenzie vážením dimenzií v poradí ich priority.</span><span class="sxs-lookup"><span data-stu-id="d78e6-166">In this scenario, null values are used for unmatched dimension values by weighing the dimensions in order of their priority.</span></span>
 
-- **Priorita nákladov**: Hodnota dimenzie nákladov na dimenziu bude znamenať hmotnosť tohto rozmeru pri párovaní s nastavením cien nákladov. Hodnota **Priorita nákladov** musí byť jedinečná naprieč dimenziami, ktoré sa **vzťahujú na náklady**.
-- **Priorita predaja**: Hodnota dimenzie predaja na dimenziu bude znamenať hmotnosť tohto rozmeru pri párovaní s nastavením cien predajov alebo sadzieb fakturácie. Hodnota **Priorita predaja** musí byť jedinečná naprieč dimenziami, ktoré sa **Vzťahuje sa na predaj**.
+- <span data-ttu-id="d78e6-167">**Priorita nákladov** : Hodnota dimenzie nákladov na dimenziu bude znamenať hmotnosť tohto rozmeru pri párovaní s nastavením cien nákladov.</span><span class="sxs-lookup"><span data-stu-id="d78e6-167">**Cost Priority** : The value of a dimension's cost priority will indicate the weight of that dimension when matching against the setup of cost prices.</span></span> <span data-ttu-id="d78e6-168">Hodnota **Priorita nákladov** musí byť jedinečná naprieč dimenziami, ktoré sa **vzťahujú na náklady**.</span><span class="sxs-lookup"><span data-stu-id="d78e6-168">The value of **Cost Priority** must be unique across dimensions that are **Applicable to Cost**.</span></span>
+- <span data-ttu-id="d78e6-169">**Priorita predaja** : Hodnota dimenzie predaja na dimenziu bude znamenať hmotnosť tohto rozmeru pri párovaní s nastavením cien predajov alebo sadzieb fakturácie.</span><span class="sxs-lookup"><span data-stu-id="d78e6-169">**Sales Priority** : The value of dimension's sales priority will indicate the weight of that dimension when matching against the setup of sales prices or bill rates.</span></span> <span data-ttu-id="d78e6-170">Hodnota **Priorita predaja** musí byť jedinečná naprieč dimenziami, ktoré sa **Vzťahuje sa na predaj**.</span><span class="sxs-lookup"><span data-stu-id="d78e6-170">The value of **Sales Priority** must be unique across dimensions that are **Applicable to Sales**.</span></span>
