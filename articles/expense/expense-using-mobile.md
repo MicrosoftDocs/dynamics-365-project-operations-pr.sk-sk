@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,224 +15,224 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897065"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084366"
 ---
-# <a name="expense-using-mobile"></a>Výdavky pri používaní mobilného zariadenia
+# <a name="expense-using-mobile"></a><span data-ttu-id="70ea0-103">Výdavky pri používaní mobilného zariadenia</span><span class="sxs-lookup"><span data-stu-id="70ea0-103">Expense using mobile</span></span>
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+<span data-ttu-id="70ea0-104">_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_</span><span class="sxs-lookup"><span data-stu-id="70ea0-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Táto téma poskytuje informácie o mobilnom pracovnom priestore **Spravovanie výdavkov**. Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov. Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov. Schvaľovatelia môžu navyše používať mobilný pracovný priestor **Správa výdavkov** na prezeranie výkazy výdavkov, ktoré sú im priradené, a tieto výkazy výdavkov buď schváliť, alebo odmietnuť.
+<span data-ttu-id="70ea0-105">Táto téma poskytuje informácie o mobilnom pracovnom priestore **Spravovanie výdavkov**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-105">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="70ea0-106">Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-106">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="70ea0-107">Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-107">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="70ea0-108">Schvaľovatelia môžu navyše používať mobilný pracovný priestor **Správa výdavkov** na prezeranie výkazy výdavkov, ktoré sú im priradené, a tieto výkazy výdavkov buď schváliť, alebo odmietnuť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-108">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
-Tento mobilný pracovný priestor je určený na použitie s mobilnou aplikáciou Dynamics 365 Unified Ops.
+<span data-ttu-id="70ea0-109">Tento mobilný pracovný priestor je určený na použitie s mobilnou aplikáciou Dynamics 365 Unified Ops.</span><span class="sxs-lookup"><span data-stu-id="70ea0-109">This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app.</span></span>
 
-Mnoho organizácií vyžaduje, aby bola k výkazu o cestovných alebo obchodných výdavkoch, ktorý zamestnanec predloží na preplatenie, priložená kópia účtenky. Mobilný pracovný priestor **Správa výdavkov** umožňuje používateľom rýchlo vytvoriť riadky s novými výdavkami na mobilnom zariadení podľa vlastného výberu pomocou priloženej fotografie účtenky. Používatelia môžu tiež nasnímať fotografiu účtenky a neskôr ju priložiť k výkazu výdavkov. Zamestnanci môžu tiež vytvárať a spravovať svoje výkazy výdavkov a potom ich pomocou mobilného zariadenia odosielať na schválenie a úhradu.
+<span data-ttu-id="70ea0-110">Mnoho organizácií vyžaduje, aby bola k výkazu o cestovných alebo obchodných výdavkoch, ktorý zamestnanec predloží na preplatenie, priložená kópia účtenky.</span><span class="sxs-lookup"><span data-stu-id="70ea0-110">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="70ea0-111">Mobilný pracovný priestor **Správa výdavkov** umožňuje používateľom rýchlo vytvoriť riadky s novými výdavkami na mobilnom zariadení podľa vlastného výberu pomocou priloženej fotografie účtenky.</span><span class="sxs-lookup"><span data-stu-id="70ea0-111">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="70ea0-112">Používatelia môžu tiež nasnímať fotografiu účtenky a neskôr ju priložiť k výkazu výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-112">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="70ea0-113">Zamestnanci môžu tiež vytvárať a spravovať svoje výkazy výdavkov a potom ich pomocou mobilného zariadenia odosielať na schválenie a úhradu.</span><span class="sxs-lookup"><span data-stu-id="70ea0-113">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
-Mobilný pracovný priestor **Správa výdavkov** konkrétne umožňuje používateľom vykonávať tieto úlohy:
+<span data-ttu-id="70ea0-114">Mobilný pracovný priestor **Správa výdavkov** konkrétne umožňuje používateľom vykonávať tieto úlohy:</span><span class="sxs-lookup"><span data-stu-id="70ea0-114">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Vytvoriť fotografiu účtenky. Nahrajte fotografiu účtenky a pripojiť ju neskôr k výkazu výdavkov.
-- Nahrajte súbor ako zaznamenanú účtenku. Tento súbor potom môžete neskôr priložiť k výkazu výdavkov.
-- Vytvoriť nový riadok výdavkom pomocou priloženej účtenky. Potom môžete riadkovú položku pridať do výkazu výdavkov neskôr a odoslať ju na schválenie a na preplatenie.
+- <span data-ttu-id="70ea0-115">Vytvoriť fotografiu účtenky.</span><span class="sxs-lookup"><span data-stu-id="70ea0-115">Take a photo of a receipt.</span></span> <span data-ttu-id="70ea0-116">Nahrajte fotografiu účtenky a pripojiť ju neskôr k výkazu výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-116">Upload the receipt photo and attach it to an expense report later.</span></span>
+- <span data-ttu-id="70ea0-117">Nahrajte súbor ako zaznamenanú účtenku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-117">Upload a file as a captured receipt.</span></span> <span data-ttu-id="70ea0-118">Tento súbor potom môžete neskôr priložiť k výkazu výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-118">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="70ea0-119">Vytvoriť nový riadok výdavkom pomocou priloženej účtenky.</span><span class="sxs-lookup"><span data-stu-id="70ea0-119">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="70ea0-120">Potom môžete riadkovú položku pridať do výkazu výdavkov neskôr a odoslať ju na schválenie a na preplatenie.</span><span class="sxs-lookup"><span data-stu-id="70ea0-120">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Môžete používať aj tieto funkcie:
+<span data-ttu-id="70ea0-121">Môžete používať aj tieto funkcie:</span><span class="sxs-lookup"><span data-stu-id="70ea0-121">You can also use these features:</span></span>
 
-- Vytvoriť nový výkaz výdavkov.
-- Pripojiť transakcie kreditnou kartou a ďalšie predtým vytvorené výdavky k výkazu výdavkov.
-- Vytvoriť nové výdavky pre výkaz výdavkov.
-- K výkazu výdavkov pripojiť účtenku o výdavku, a to buď odfotením účtenky alebo nahraním súboru ako nasnímanej účtenky.
-- V závislosti od politiky výdavkov spoločnosti môžete k výdavku pridať zoznam hostí.
-- V závislosti od politiky výdavkov spoločnosti môžete výdavky rozpísať.
-- Predložiť výkaz výdavkov na schválenie a úhradu.
-- Schváliť alebo odmietnuť výkazy výdavkov, pre ktoré ste prideleným schvaľovateľom.
+- <span data-ttu-id="70ea0-122">Vytvoriť nový výkaz výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-122">Create a new expense report.</span></span>
+- <span data-ttu-id="70ea0-123">Pripojiť transakcie kreditnou kartou a ďalšie predtým vytvorené výdavky k výkazu výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-123">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="70ea0-124">Vytvoriť nové výdavky pre výkaz výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-124">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="70ea0-125">K výkazu výdavkov pripojiť účtenku o výdavku, a to buď odfotením účtenky alebo nahraním súboru ako nasnímanej účtenky.</span><span class="sxs-lookup"><span data-stu-id="70ea0-125">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="70ea0-126">V závislosti od politiky výdavkov spoločnosti môžete k výdavku pridať zoznam hostí.</span><span class="sxs-lookup"><span data-stu-id="70ea0-126">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="70ea0-127">V závislosti od politiky výdavkov spoločnosti môžete výdavky rozpísať.</span><span class="sxs-lookup"><span data-stu-id="70ea0-127">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="70ea0-128">Predložiť výkaz výdavkov na schválenie a úhradu.</span><span class="sxs-lookup"><span data-stu-id="70ea0-128">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="70ea0-129">Schváliť alebo odmietnuť výkazy výdavkov, pre ktoré ste prideleným schvaľovateľom.</span><span class="sxs-lookup"><span data-stu-id="70ea0-129">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Predpoklady
-Požiadavky sa môžu líšiť v závislosti od verzie, ktorá bola nasadená vo vašej organizácii.
+## <a name="prerequisites"></a><span data-ttu-id="70ea0-130">Predpoklady</span><span class="sxs-lookup"><span data-stu-id="70ea0-130">Prerequisites</span></span>
+<span data-ttu-id="70ea0-131">Požiadavky sa môžu líšiť v závislosti od verzie, ktorá bola nasadená vo vašej organizácii.</span><span class="sxs-lookup"><span data-stu-id="70ea0-131">The prerequisites vary, based on the version that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpoklady, ak používate Dynamics 365 Finance 
-Ak bola pre vašu organizáciu nasadená služba Finance, správca systému musí zverejniť mobilný pracovný priestor **Správa výdavkov**. 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a><span data-ttu-id="70ea0-132">Predpoklady, ak používate Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="70ea0-132">Prerequisites if you use Dynamics 365 Finance</span></span> 
+<span data-ttu-id="70ea0-133">Ak bola pre vašu organizáciu nasadená služba Finance, správca systému musí zverejniť mobilný pracovný priestor **Správa výdavkov**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-133">If Finance has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> 
 
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Nevyhnutné predpoklady, ak používate verziu 1611 s aktualizáciou platformy 3 alebo novšou
-Ak bola pre vašu organizáciu nasadená verzia 1611 s aktualizáciou platformy 3 alebo novšou, musí správca systému splniť nasledujúce nevyhnutné predpoklady. 
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="70ea0-134">Nevyhnutné predpoklady, ak používate verziu 1611 s aktualizáciou platformy 3 alebo novšou</span><span class="sxs-lookup"><span data-stu-id="70ea0-134">Prerequisites if you use version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="70ea0-135">Ak bola pre vašu organizáciu nasadená verzia 1611 s aktualizáciou platformy 3 alebo novšou, musí správca systému splniť nasledujúce nevyhnutné predpoklady.</span><span class="sxs-lookup"><span data-stu-id="70ea0-135">If version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Predpoklady</th>
-<th>Rola</th>
-<th>Popis</th>
+<th><span data-ttu-id="70ea0-136">Predpoklady</span><span class="sxs-lookup"><span data-stu-id="70ea0-136">Prerequisite</span></span></th>
+<th><span data-ttu-id="70ea0-137">Rola</span><span class="sxs-lookup"><span data-stu-id="70ea0-137">Role</span></span></th>
+<th><span data-ttu-id="70ea0-138">Popis</span><span class="sxs-lookup"><span data-stu-id="70ea0-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Implementácia KB 4019015.</td>
-<td>Správca systému</td>
-<td>KB 4019015 je aktualizácia X++ alebo oprava metaúdajov, ktorá obsahuje mobilný pracovný priestor <strong>Správa výdavkov</strong>. Ak chcete implementovať KB 4019015, musí váš správca systému postupovať podľa týchto krokov.
+<td><span data-ttu-id="70ea0-139">Implementácia KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="70ea0-139">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="70ea0-140">Správca systému</span><span class="sxs-lookup"><span data-stu-id="70ea0-140">System administrator</span></span></td>
+<td><span data-ttu-id="70ea0-141">KB 4019015 je aktualizácia X++ alebo oprava metaúdajov, ktorá obsahuje mobilný pracovný priestor <strong>Správa výdavkov</strong>.</span><span class="sxs-lookup"><span data-stu-id="70ea0-141">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="70ea0-142">Ak chcete implementovať KB 4019015, musí váš správca systému postupovať podľa týchto krokov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-142">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Stiahnite si aktualizácie zo služieb Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Nainštalovať rýchlu opravu metadát</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Vytvorte balík s možnosťou nasadenia,</a> ktorý obsahuje modely <strong>ApplicationSuite</strong> a <strong>ExpenseMobile</strong>, a potom nahrajte balík s možnosťou nasadenia do LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Použiť nasaditeľný balík</a>.</li>
+<li><span data-ttu-id="70ea0-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Stiahnite si aktualizácie zo služieb Lifecycle Services</a>.</span><span class="sxs-lookup"><span data-stu-id="70ea0-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download updates from Lifecycle Services</a>.</span></span></li>
+<li><span data-ttu-id="70ea0-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Nainštalovať rýchlu opravu metadát</a>.</span><span class="sxs-lookup"><span data-stu-id="70ea0-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="70ea0-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Vytvorte balík s možnosťou nasadenia,</a> ktorý obsahuje modely <strong>ApplicationSuite</strong> a <strong>ExpenseMobile</strong>, a potom nahrajte balík s možnosťou nasadenia do LCS.</span><span class="sxs-lookup"><span data-stu-id="70ea0-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="70ea0-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Použiť nasaditeľný balík</a>.</span><span class="sxs-lookup"><span data-stu-id="70ea0-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Zverejnite mobilný pracovný priestor <strong>Správa výdavkov </strong>.</td>
-<td>Správca systému</td>
-<td>Pozrite si <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Zverejnenie mobilného pracovného priestoru</a>.</td>
+<td><span data-ttu-id="70ea0-147">Zverejnite mobilný pracovný priestor <strong>Správa výdavkov </strong>.</span><span class="sxs-lookup"><span data-stu-id="70ea0-147">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="70ea0-148">Správca systému</span><span class="sxs-lookup"><span data-stu-id="70ea0-148">System administrator</span></span></td>
+<td><span data-ttu-id="70ea0-149">Pozrite si <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Zverejnenie mobilného pracovného priestoru</a>.</span><span class="sxs-lookup"><span data-stu-id="70ea0-149">See <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops
-Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
+## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a><span data-ttu-id="70ea0-150">Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops</span><span class="sxs-lookup"><span data-stu-id="70ea0-150">Download and install the Dynamics 365 Unified Ops mobile app</span></span>
+<span data-ttu-id="70ea0-151">Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:</span><span class="sxs-lookup"><span data-stu-id="70ea0-151">Download and install the Dynamics 365 Unified Ops mobile app:</span></span>
 
-- [Pre telefóny Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Pre telefóny iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="70ea0-152">Pre telefóny Android</span><span class="sxs-lookup"><span data-stu-id="70ea0-152">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="70ea0-153">Pre telefóny iPhone</span><span class="sxs-lookup"><span data-stu-id="70ea0-153">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Prihlásenie sa do mobilnej aplikácie
-1. Spustite aplikáciu na mobilnom zariadení.
-2. Zadajte svoju adresu URL pre Dynamics 365.
-4. Pri prvom prihlásení sa zobrazí výzva na zadanie používateľského mena a hesla. Zadajte svoje prihlasovacie údaje.
-5. Po prihlásení sa zobrazia dostupné pracovné priestory pre vašu spoločnosť. Ak váš správca systém zverejní nový pracovný priestor neskôr, budete musieť obnoviť zoznam mobilných pracovných priestorov.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="70ea0-154">Prihlásenie sa do mobilnej aplikácie</span><span class="sxs-lookup"><span data-stu-id="70ea0-154">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="70ea0-155">Spustite aplikáciu na mobilnom zariadení.</span><span class="sxs-lookup"><span data-stu-id="70ea0-155">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="70ea0-156">Zadajte svoju adresu URL pre Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="70ea0-156">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="70ea0-157">Pri prvom prihlásení sa zobrazí výzva na zadanie používateľského mena a hesla.</span><span class="sxs-lookup"><span data-stu-id="70ea0-157">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="70ea0-158">Zadajte svoje prihlasovacie údaje.</span><span class="sxs-lookup"><span data-stu-id="70ea0-158">Enter your credentials.</span></span>
+5. <span data-ttu-id="70ea0-159">Po prihlásení sa zobrazia dostupné pracovné priestory pre vašu spoločnosť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-159">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="70ea0-160">Ak váš správca systém zverejní nový pracovný priestor neskôr, budete musieť obnoviť zoznam mobilných pracovných priestorov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-160">If your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Zaznamenajte účtenku pomocou mobilného pracovného priestoru Správa výdavkov
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="70ea0-161">Zaznamenajte účtenku pomocou mobilného pracovného priestoru Správa výdavkov</span><span class="sxs-lookup"><span data-stu-id="70ea0-161">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.
-2. Vyberte **Zaznamenať účtenku**.
-3. Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.
-4. Vykonajte jeden z týchto krokov:
+1. <span data-ttu-id="70ea0-162">Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-162">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="70ea0-163">Vyberte **Zaznamenať účtenku**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-163">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="70ea0-164">Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-164">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="70ea0-165">Vykonajte jeden z týchto krokov:</span><span class="sxs-lookup"><span data-stu-id="70ea0-165">Follow one of these steps:</span></span>
 
-   - Ak ste vybrali **Vyfotografovať**, nasledujte tieto kroky:
+   - <span data-ttu-id="70ea0-166">Ak ste vybrali **Vyfotografovať** , nasledujte tieto kroky:</span><span class="sxs-lookup"><span data-stu-id="70ea0-166">If you selected **Take photo** , follow these steps:</span></span>
 
-      1. Dostali ste sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. 
-      2. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
-      3. Voliteľné: Zadajte názov fotografie a poznámky.
+      1. <span data-ttu-id="70ea0-167">Dostali ste sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-167">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> 
+      2. <span data-ttu-id="70ea0-168">Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.</span><span class="sxs-lookup"><span data-stu-id="70ea0-168">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+      3. <span data-ttu-id="70ea0-169">Voliteľné: Zadajte názov fotografie a poznámky.</span><span class="sxs-lookup"><span data-stu-id="70ea0-169">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Ak ste vybrali **Vybrať obrázok**, nasledujte tieto kroky:
+    - <span data-ttu-id="70ea0-170">Ak ste vybrali **Vybrať obrázok** , nasledujte tieto kroky:</span><span class="sxs-lookup"><span data-stu-id="70ea0-170">If you selected **Choose image** , follow these steps:</span></span>
 
-        1. Vyberte obrázok zo zoznamu.
-        2. Voliteľné: Zadajte názov obrázku a poznámky.
+        1. <span data-ttu-id="70ea0-171">Vyberte obrázok zo zoznamu.</span><span class="sxs-lookup"><span data-stu-id="70ea0-171">Select an image in the list.</span></span>
+        2. <span data-ttu-id="70ea0-172">Voliteľné: Zadajte názov obrázku a poznámky.</span><span class="sxs-lookup"><span data-stu-id="70ea0-172">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Vyberte **Hotovo**.
+5. <span data-ttu-id="70ea0-173">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-173">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Rýchlo zadajte výdavky pomocou mobilného pracovného priestoru Správa výdavkov
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="70ea0-174">Rýchlo zadajte výdavky pomocou mobilného pracovného priestoru Správa výdavkov</span><span class="sxs-lookup"><span data-stu-id="70ea0-174">Quickly enter expenses by using the Expense management mobile workspace</span></span>
 
-1. Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.
-2. Vyberte **Rýchle zadanie výdavku**.
-3. Vyberte kategóriu výdavku. Zobrazí sa zoznam kategórií výdavkov, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša kategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa kategórie výdavkov alebo prepnite na vyhľadávanie podľa typu výdavkov.
-4. Zadajte dátum transakcie výdavku.
-5. Voliteľné: Zadajte obchodníka výdavku.
-6. Zadajte sumu výdavku.
-7. Vyberte menu výdavku. Zobrazí sa zoznam kódov mien, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 400 mien, vývojár však môže tento počet zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša mena nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa meny alebo prepnite na vyhľadávanie podľa názvu.
-8. Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.
-9. Vykonajte jeden z týchto krokov:
+1. <span data-ttu-id="70ea0-175">Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-175">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="70ea0-176">Vyberte **Rýchle zadanie výdavku**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-176">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="70ea0-177">Vyberte kategóriu výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-177">Select the expense category.</span></span> <span data-ttu-id="70ea0-178">Zobrazí sa zoznam kategórií výdavkov, ktorú sú načítané vo vašej aplikácii na použitie v režime offline.</span><span class="sxs-lookup"><span data-stu-id="70ea0-178">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="70ea0-179">Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-179">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="70ea0-180">Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="70ea0-180">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="70ea0-181">Ak vaša kategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online.</span><span class="sxs-lookup"><span data-stu-id="70ea0-181">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="70ea0-182">Vyhľadávajte podľa kategórie výdavkov alebo prepnite na vyhľadávanie podľa typu výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-182">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="70ea0-183">Zadajte dátum transakcie výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-183">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="70ea0-184">Voliteľné: Zadajte obchodníka výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-184">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="70ea0-185">Zadajte sumu výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-185">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="70ea0-186">Vyberte menu výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-186">Select the currency of the expense.</span></span> <span data-ttu-id="70ea0-187">Zobrazí sa zoznam kódov mien, ktorú sú načítané vo vašej aplikácii na použitie v režime offline.</span><span class="sxs-lookup"><span data-stu-id="70ea0-187">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="70ea0-188">Predvolene sa načíta 400 mien, vývojár však môže tento počet zmeniť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-188">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="70ea0-189">Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="70ea0-189">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="70ea0-190">Ak vaša mena nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online.</span><span class="sxs-lookup"><span data-stu-id="70ea0-190">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="70ea0-191">Vyhľadávajte podľa meny alebo prepnite na vyhľadávanie podľa názvu.</span><span class="sxs-lookup"><span data-stu-id="70ea0-191">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="70ea0-192">Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-192">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="70ea0-193">Vykonajte jeden z týchto krokov:</span><span class="sxs-lookup"><span data-stu-id="70ea0-193">Follow one of these steps:</span></span>
 
-    - Ak ste vybrali možnosť **Vyfotografovať**, dostanete sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
-    - Ak ste vybrali **Vybrať obrázok**, vyberte obrázok zo zoznamu.
+    - <span data-ttu-id="70ea0-194">Ak ste vybrali možnosť **Vyfotografovať** , dostanete sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-194">If you selected **Take photo** , you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="70ea0-195">Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.</span><span class="sxs-lookup"><span data-stu-id="70ea0-195">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="70ea0-196">Ak ste vybrali **Vybrať obrázok** , vyberte obrázok zo zoznamu.</span><span class="sxs-lookup"><span data-stu-id="70ea0-196">If you selected **Choose image** , select an image in the list.</span></span>
 
-10. Vyberte **Hotovo**.
+10. <span data-ttu-id="70ea0-197">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-197">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Schválenie výkazu výdavkov pomocou mobilného pracovného priestoru Správa výdavkov (ak používate aktualizáciu z júla 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="70ea0-198">Schválenie výkazu výdavkov pomocou mobilného pracovného priestoru Správa výdavkov (ak používate aktualizáciu z júla 2017)</span><span class="sxs-lookup"><span data-stu-id="70ea0-198">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.
-2. **Schvaľovanie výdavkov** zobrazuje počet výkazov výdavkov, ktoré sú vám pridelené na schválenie. Tento počet sa aktualizuje každých približne 30 minút. Vyberte **Schvaľovanie výdavkov**.
+1. <span data-ttu-id="70ea0-199">Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-199">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="70ea0-200">**Schvaľovanie výdavkov** zobrazuje počet výkazov výdavkov, ktoré sú vám pridelené na schválenie.</span><span class="sxs-lookup"><span data-stu-id="70ea0-200">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="70ea0-201">Tento počet sa aktualizuje každých približne 30 minút.</span><span class="sxs-lookup"><span data-stu-id="70ea0-201">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="70ea0-202">Vyberte **Schvaľovanie výdavkov**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-202">Select **Expense approvals**.</span></span>
 
-    Zobrazí sa zoznam výkazov výdavkov, ktoré sú vám pridelené na schválenie.
+    <span data-ttu-id="70ea0-203">Zobrazí sa zoznam výkazov výdavkov, ktoré sú vám pridelené na schválenie.</span><span class="sxs-lookup"><span data-stu-id="70ea0-203">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Vyberte výkaz výdavkov, aby ste zobrazili podrobnosti o výdavku.
-4. Vyberte výdavok, aby ste zobrazili podrobnosti o výdavku. Informácie, ktoré sa zobrazujú pri výdavku, zahŕňajú všetky podrobnosti o účtenke, hosťovi a položkách.
-5. Späť na stránke **Výkaz výdavkov** vyberte, či chcete schváliť alebo odmietnuť výkaz výdavkov.
-6. Zadajte akékoľvek komentáre k schvaľovacej akcii.
-7. Vyberte **Hotovo**.
+3. <span data-ttu-id="70ea0-204">Vyberte výkaz výdavkov, aby ste zobrazili podrobnosti o výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-204">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="70ea0-205">Vyberte výdavok, aby ste zobrazili podrobnosti o výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-205">Select an expense to view the details for it.</span></span> <span data-ttu-id="70ea0-206">Informácie, ktoré sa zobrazujú pri výdavku, zahŕňajú všetky podrobnosti o účtenke, hosťovi a položkách.</span><span class="sxs-lookup"><span data-stu-id="70ea0-206">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="70ea0-207">Späť na stránke **Výkaz výdavkov** vyberte, či chcete schváliť alebo odmietnuť výkaz výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-207">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="70ea0-208">Zadajte akékoľvek komentáre k schvaľovacej akcii.</span><span class="sxs-lookup"><span data-stu-id="70ea0-208">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="70ea0-209">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-209">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Vytvorenie nového výkazu výdavkov a jeho odoslanie na schválenie pomocou mobilného pracovného priestoru Správa výdavkov (ak používate aktualizáciu z júla 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="70ea0-210">Vytvorenie nového výkazu výdavkov a jeho odoslanie na schválenie pomocou mobilného pracovného priestoru Správa výdavkov (ak používate aktualizáciu z júla 2017)</span><span class="sxs-lookup"><span data-stu-id="70ea0-210">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.
-2. Vyberte **Zadanie výdavku**.
-3. Vyberte **Nový výkaz** alebo vyberte existujúci výkaz výdavkov v zozname.
-4. Pre nové výkazy výdavkov zadajte účel a všetky ďalšie dostupné informácie. Tieto informácie sa líšia v závislosti od toho, ako je pre vašu spoločnosť nakonfigurované spravovanie výdavkov.
-5. Vyberte **Hotovo**.
-6. Ak chcete pridať existujúce výdavky, napríklad transakcie kreditnou kartou, do výkazu výdavkov, vyberte **Pripojiť**.
-7. V zozname vyberte jeden alebo viac výdavkov.
-8. Vyberte **Hotovo**.
-9. Ak chcete do výkazu výdavkov pridať nový výdavok, vyberte **Nový výdavok**.
-10. Vyberte kategóriu výdavku. Zobrazí sa zoznam kategórií výdavkov, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša kategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa kategórie výdavkov alebo prepnite na vyhľadávanie podľa typu výdavkov.
-11. Voliteľné: Zadajte obchodníka výdavku.
-12. Zadajte dátum transakcie výdavku.
-13. Zadajte sumu výdavku.
-14. Vyberte menu výdavku. Zobrazí sa zoznam kódov mien, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 400 mien, vývojár však môže tento počet zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša mena nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa meny alebo prepnite na vyhľadávanie podľa názvu.
-15. Vyberte **Hotovo**.
-16. Ak chcete k výdavku pridať ďalšie podrobnosti, vyberte **Pridať ďalšie podrobnosti**. Polia, ktoré sú k dispozícii, závisia od konfigurácie správy výdavkov pre vašu spoločnosť.
-17. Ak politika spoločnosti vyžaduje účtenku pre výdavok, vyberte **Účtenky** a potom postupujte podľa týchto krokov:
+1. <span data-ttu-id="70ea0-211">Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-211">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="70ea0-212">Vyberte **Zadanie výdavku**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-212">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="70ea0-213">Vyberte **Nový výkaz** alebo vyberte existujúci výkaz výdavkov v zozname.</span><span class="sxs-lookup"><span data-stu-id="70ea0-213">Select **New report** , or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="70ea0-214">Pre nové výkazy výdavkov zadajte účel a všetky ďalšie dostupné informácie.</span><span class="sxs-lookup"><span data-stu-id="70ea0-214">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="70ea0-215">Tieto informácie sa líšia v závislosti od toho, ako je pre vašu spoločnosť nakonfigurované spravovanie výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-215">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="70ea0-216">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-216">Select **Done**.</span></span>
+6. <span data-ttu-id="70ea0-217">Ak chcete pridať existujúce výdavky, napríklad transakcie kreditnou kartou, do výkazu výdavkov, vyberte **Pripojiť**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-217">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="70ea0-218">V zozname vyberte jeden alebo viac výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-218">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="70ea0-219">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-219">Select **Done**.</span></span>
+9. <span data-ttu-id="70ea0-220">Ak chcete do výkazu výdavkov pridať nový výdavok, vyberte **Nový výdavok**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-220">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="70ea0-221">Vyberte kategóriu výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-221">Select the category for the expense.</span></span> <span data-ttu-id="70ea0-222">Zobrazí sa zoznam kategórií výdavkov, ktorú sú načítané vo vašej aplikácii na použitie v režime offline.</span><span class="sxs-lookup"><span data-stu-id="70ea0-222">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="70ea0-223">Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-223">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="70ea0-224">Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="70ea0-224">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="70ea0-225">Ak vaša kategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online.</span><span class="sxs-lookup"><span data-stu-id="70ea0-225">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="70ea0-226">Vyhľadávajte podľa kategórie výdavkov alebo prepnite na vyhľadávanie podľa typu výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-226">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="70ea0-227">Voliteľné: Zadajte obchodníka výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-227">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="70ea0-228">Zadajte dátum transakcie výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-228">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="70ea0-229">Zadajte sumu výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-229">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="70ea0-230">Vyberte menu výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-230">Select the currency of the expense.</span></span> <span data-ttu-id="70ea0-231">Zobrazí sa zoznam kódov mien, ktorú sú načítané vo vašej aplikácii na použitie v režime offline.</span><span class="sxs-lookup"><span data-stu-id="70ea0-231">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="70ea0-232">Predvolene sa načíta 400 mien, vývojár však môže tento počet zmeniť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-232">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="70ea0-233">Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="70ea0-233">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="70ea0-234">Ak vaša mena nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online.</span><span class="sxs-lookup"><span data-stu-id="70ea0-234">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="70ea0-235">Vyhľadávajte podľa meny alebo prepnite na vyhľadávanie podľa názvu.</span><span class="sxs-lookup"><span data-stu-id="70ea0-235">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="70ea0-236">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-236">Select **Done**.</span></span>
+16. <span data-ttu-id="70ea0-237">Ak chcete k výdavku pridať ďalšie podrobnosti, vyberte **Pridať ďalšie podrobnosti**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-237">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="70ea0-238">Polia, ktoré sú k dispozícii, závisia od konfigurácie správy výdavkov pre vašu spoločnosť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-238">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="70ea0-239">Ak politika spoločnosti vyžaduje účtenku pre výdavok, vyberte **Účtenky** a potom postupujte podľa týchto krokov:</span><span class="sxs-lookup"><span data-stu-id="70ea0-239">If company policy requires a receipt for the expense, select **Receipts** , and then follow these steps:</span></span>
 
-    1. Vyberte **Zaznamenať účtenku** alebo **Priložiť účtenku**.
-    2. Vykonajte jeden z týchto krokov:
+    1. <span data-ttu-id="70ea0-240">Vyberte **Zaznamenať účtenku** alebo **Priložiť účtenku**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-240">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="70ea0-241">Vykonajte jeden z týchto krokov:</span><span class="sxs-lookup"><span data-stu-id="70ea0-241">Follow one of these steps:</span></span>
 
-        - Ak ste vybrali **Zaznamenať účtenku**, nasledujte tieto kroky:
+        - <span data-ttu-id="70ea0-242">Ak ste vybrali **Zaznamenať účtenku** , nasledujte tieto kroky:</span><span class="sxs-lookup"><span data-stu-id="70ea0-242">If you selected **Capture receipt** , follow these steps:</span></span>
 
-            1. Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.
-            2. Vykonajte jeden z týchto krokov:
+            1. <span data-ttu-id="70ea0-243">Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-243">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="70ea0-244">Vykonajte jeden z týchto krokov:</span><span class="sxs-lookup"><span data-stu-id="70ea0-244">Follow one of these steps:</span></span>
 
-                - Ak ste vybrali **Vyfotografovať**, nasledujte tieto kroky:
+                - <span data-ttu-id="70ea0-245">Ak ste vybrali **Vyfotografovať** , nasledujte tieto kroky:</span><span class="sxs-lookup"><span data-stu-id="70ea0-245">If you selected **Take photo** , follow these steps:</span></span>
 
-                    1. Dostali ste sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
-                    2. Voliteľné: Zadajte názov fotografie a poznámky.
+                    1. <span data-ttu-id="70ea0-246">Dostali ste sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-246">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="70ea0-247">Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.</span><span class="sxs-lookup"><span data-stu-id="70ea0-247">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="70ea0-248">Voliteľné: Zadajte názov fotografie a poznámky.</span><span class="sxs-lookup"><span data-stu-id="70ea0-248">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Ak ste vybrali **Vybrať obrázok**, nasledujte tieto kroky:
+                - <span data-ttu-id="70ea0-249">Ak ste vybrali **Vybrať obrázok** , nasledujte tieto kroky:</span><span class="sxs-lookup"><span data-stu-id="70ea0-249">If you selected **Choose image** , follow these steps:</span></span>
 
-                    1. Vyberte obrázok zo zoznamu.
-                    2. Voliteľné: Zadajte názov obrázku a poznámky.
+                    1. <span data-ttu-id="70ea0-250">Vyberte obrázok zo zoznamu.</span><span class="sxs-lookup"><span data-stu-id="70ea0-250">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="70ea0-251">Voliteľné: Zadajte názov obrázku a poznámky.</span><span class="sxs-lookup"><span data-stu-id="70ea0-251">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Vyberte **Hotovo**.
+            3.  <span data-ttu-id="70ea0-252">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-252">Select **Done**.</span></span>
 
-        - Ak ste vybrali **Pripojiť účtenku**, nasledujte tieto kroky:
+        - <span data-ttu-id="70ea0-253">Ak ste vybrali **Pripojiť účtenku** , nasledujte tieto kroky:</span><span class="sxs-lookup"><span data-stu-id="70ea0-253">If you selected **Attach receipt** , follow these steps:</span></span>
 
-            1.  V zozname vyberte jeden alebo viac obrázkov.
-            2.  Vyberte **Hotovo**.
+            1.  <span data-ttu-id="70ea0-254">V zozname vyberte jeden alebo viac obrázkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-254">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="70ea0-255">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-255">Select **Done**.</span></span>
 
-    3. Vyberte tlačidlo **Späť** pre návrat k podrobnostiam o výdavku.
+    3. <span data-ttu-id="70ea0-256">Vyberte tlačidlo **Späť** pre návrat k podrobnostiam o výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-256">Select the **Back** button to return to the expense details.</span></span>
 
-18. Ak politika spoločnosti vyžaduje hostí pre výdavok, vyberte **Hostia** a potom postupujte podľa týchto krokov:
+18. <span data-ttu-id="70ea0-257">Ak politika spoločnosti vyžaduje hostí pre výdavok, vyberte **Hostia** a potom postupujte podľa týchto krokov:</span><span class="sxs-lookup"><span data-stu-id="70ea0-257">If company policy requires guests for the expense, select **Guests** , and then follow these steps:</span></span>
 
-    1. Vyberte **Hosť**, **Predošlí hostia** alebo **Spolupracovníci**.
-    2. Vykonajte jeden z týchto krokov:
+    1. <span data-ttu-id="70ea0-258">Vyberte **Hosť** , **Predošlí hostia** alebo **Spolupracovníci**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-258">Select **Guest** , **Previous guests** , or **Coworkers**.</span></span>
+    2. <span data-ttu-id="70ea0-259">Vykonajte jeden z týchto krokov:</span><span class="sxs-lookup"><span data-stu-id="70ea0-259">Follow one of these steps:</span></span>
 
-        - Ak ste vybrali **Hosť**, nasledujte tieto kroky:
+        - <span data-ttu-id="70ea0-260">Ak ste vybrali **Hosť** , nasledujte tieto kroky:</span><span class="sxs-lookup"><span data-stu-id="70ea0-260">If you selected **Guest** , follow these steps:</span></span>
 
-            1. Zadajte meno hosťa.
-            2. Voliteľné: Zadajte organizáciu alebo krajinu hosťa.
-            3. Voliteľné: Zadajte titul hosťa.
-            4. Vyberte **Hotovo**.
+            1. <span data-ttu-id="70ea0-261">Zadajte meno hosťa.</span><span class="sxs-lookup"><span data-stu-id="70ea0-261">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="70ea0-262">Voliteľné: Zadajte organizáciu alebo krajinu hosťa.</span><span class="sxs-lookup"><span data-stu-id="70ea0-262">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="70ea0-263">Voliteľné: Zadajte titul hosťa.</span><span class="sxs-lookup"><span data-stu-id="70ea0-263">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="70ea0-264">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-264">Select **Done**.</span></span>
 
-        - Ak ste vybrali **Predchádzajúci hostia**, nasledujte tieto kroky:
+        - <span data-ttu-id="70ea0-265">Ak ste vybrali **Predchádzajúci hostia** , nasledujte tieto kroky:</span><span class="sxs-lookup"><span data-stu-id="70ea0-265">If you selected **Previous guests** , follow these steps:</span></span>
 
-            1. V zozname vyberte jedného alebo viacerých predchádzajúcich hostí. Zobrazí sa zoznam predchádzajúcich hostí, ktorých ste pridali do predchádzajúcich výkazov výdavkov, ktoré sú načítané vo vašej aplikácii na offline použitie. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak váš predchádzajúci hosť nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ho online. Vyhľadávajte podľa mena alebo prepnite na vyhľadávanie podľa organizácie, krajiny alebo titulu.
-            2. Vyberte **Hotovo**.
+            1. <span data-ttu-id="70ea0-266">V zozname vyberte jedného alebo viacerých predchádzajúcich hostí.</span><span class="sxs-lookup"><span data-stu-id="70ea0-266">Select one or more previous guests in the list.</span></span> <span data-ttu-id="70ea0-267">Zobrazí sa zoznam predchádzajúcich hostí, ktorých ste pridali do predchádzajúcich výkazov výdavkov, ktoré sú načítané vo vašej aplikácii na offline použitie.</span><span class="sxs-lookup"><span data-stu-id="70ea0-267">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="70ea0-268">Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-268">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="70ea0-269">Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="70ea0-269">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="70ea0-270">Ak váš predchádzajúci hosť nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ho online.</span><span class="sxs-lookup"><span data-stu-id="70ea0-270">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="70ea0-271">Vyhľadávajte podľa mena alebo prepnite na vyhľadávanie podľa organizácie, krajiny alebo titulu.</span><span class="sxs-lookup"><span data-stu-id="70ea0-271">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="70ea0-272">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-272">Select **Done**.</span></span>
 
-        - Ak ste vybrali **Spolupracovníci**, nasledujte tieto kroky:
+        - <span data-ttu-id="70ea0-273">Ak ste vybrali **Spolupracovníci** , nasledujte tieto kroky:</span><span class="sxs-lookup"><span data-stu-id="70ea0-273">If you selected **Coworkers** , follow these steps:</span></span>
 
-            1. V zozname vyberte jedného alebo viacerých spolupracovníkov. Zobrazí sa zoznam spolupracovníkov, ktorí sú načítaní vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak váš spolupracovník nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ho online. Vyhľadávajte podľa mena alebo prepnite na vyhľadávanie podľa spoločnosti alebo titulu.
-            2. Vyberte **Hotovo**.
+            1. <span data-ttu-id="70ea0-274">V zozname vyberte jedného alebo viacerých spolupracovníkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-274">Select one or more coworkers in the list.</span></span> <span data-ttu-id="70ea0-275">Zobrazí sa zoznam spolupracovníkov, ktorí sú načítaní vo vašej aplikácii na použitie v režime offline.</span><span class="sxs-lookup"><span data-stu-id="70ea0-275">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="70ea0-276">Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-276">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="70ea0-277">Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="70ea0-277">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="70ea0-278">Ak váš spolupracovník nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ho online.</span><span class="sxs-lookup"><span data-stu-id="70ea0-278">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="70ea0-279">Vyhľadávajte podľa mena alebo prepnite na vyhľadávanie podľa spoločnosti alebo titulu.</span><span class="sxs-lookup"><span data-stu-id="70ea0-279">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="70ea0-280">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-280">Select **Done**.</span></span>
 
-    3. Vyberte tlačidlo **Späť** pre návrat k podrobnostiam o výdavku.
+    3. <span data-ttu-id="70ea0-281">Vyberte tlačidlo **Späť** pre návrat k podrobnostiam o výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-281">Select the **Back** button to return to the expense details.</span></span>
 
-19. Ak politika spoločnosti vyžaduje rozpis výdavkov, vyberte **Rozpísať** a potom postupujte podľa týchto krokov:
+19. <span data-ttu-id="70ea0-282">Ak politika spoločnosti vyžaduje rozpis výdavkov, vyberte **Rozpísať** a potom postupujte podľa týchto krokov:</span><span class="sxs-lookup"><span data-stu-id="70ea0-282">If company policy requires that the expense be itemized, select **Itemize** , and then follow these steps:</span></span>
 
-    1. Vyberte prvý dátum, ktorý chcete rozpísať.
-    2. Vyberte položku **Pridať rozpis**.
-    3. Vyberte podkategóriu pre rozpis výdavku. Zobrazí sa zoznam podkategórií výdavkov, ktoré sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša podkategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Hľadajte podľa názvu podkategórie výdavkov.
-    4. Zadajte čiastku transakcie pre rozpis.
-    5. Ak je to potrebné, upravte dátum transakcie.
-    6. Vyberte **Hotovo**.
-    7. Opakujte predchádzajúce kroky, kým nedokončíte pridávanie kompletného rozpisu pre vybraný dátum.
-    8. Pre ďalšie dni môžete zvoliť **Kopírovať na ďalší deň** a skopírovať položky do nasledujúceho dňa. Prípadne môžete zvoliť dátum na rozpis a potom pridať rozpis ako pri prvom dátume.
-    9. Po dokončení rozpisu výdavkov vyberte tlačidlo **Späť** pre návrat k podrobnostiam o výdavku.
+    1. <span data-ttu-id="70ea0-283">Vyberte prvý dátum, ktorý chcete rozpísať.</span><span class="sxs-lookup"><span data-stu-id="70ea0-283">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="70ea0-284">Vyberte položku **Pridať rozpis**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-284">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="70ea0-285">Vyberte podkategóriu pre rozpis výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-285">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="70ea0-286">Zobrazí sa zoznam podkategórií výdavkov, ktoré sú načítané vo vašej aplikácii na použitie v režime offline.</span><span class="sxs-lookup"><span data-stu-id="70ea0-286">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="70ea0-287">Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť.</span><span class="sxs-lookup"><span data-stu-id="70ea0-287">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="70ea0-288">Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="70ea0-288">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="70ea0-289">Ak vaša podkategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online.</span><span class="sxs-lookup"><span data-stu-id="70ea0-289">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="70ea0-290">Hľadajte podľa názvu podkategórie výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-290">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="70ea0-291">Zadajte čiastku transakcie pre rozpis.</span><span class="sxs-lookup"><span data-stu-id="70ea0-291">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="70ea0-292">Ak je to potrebné, upravte dátum transakcie.</span><span class="sxs-lookup"><span data-stu-id="70ea0-292">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="70ea0-293">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-293">Select **Done**.</span></span>
+    7. <span data-ttu-id="70ea0-294">Opakujte predchádzajúce kroky, kým nedokončíte pridávanie kompletného rozpisu pre vybraný dátum.</span><span class="sxs-lookup"><span data-stu-id="70ea0-294">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="70ea0-295">Pre ďalšie dni môžete zvoliť **Kopírovať na ďalší deň** a skopírovať položky do nasledujúceho dňa.</span><span class="sxs-lookup"><span data-stu-id="70ea0-295">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="70ea0-296">Prípadne môžete zvoliť dátum na rozpis a potom pridať rozpis ako pri prvom dátume.</span><span class="sxs-lookup"><span data-stu-id="70ea0-296">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="70ea0-297">Po dokončení rozpisu výdavkov vyberte tlačidlo **Späť** pre návrat k podrobnostiam o výdavku.</span><span class="sxs-lookup"><span data-stu-id="70ea0-297">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Vyberte tlačidlo **Späť** pre návrat na stránku **Výkaz výdavkov**.
-21. Predchádzajúce kroky opakujte, kým nedokončíte pridávanie všetkých výdavkov.
-22. Stlačte možnosť **Odoslať**.
-23. Zadajte akékoľvek komentáre pre schvaľovateľa.
-24. Vyberte **Hotovo**.
+20. <span data-ttu-id="70ea0-298">Vyberte tlačidlo **Späť** pre návrat na stránku **Výkaz výdavkov**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-298">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="70ea0-299">Predchádzajúce kroky opakujte, kým nedokončíte pridávanie všetkých výdavkov.</span><span class="sxs-lookup"><span data-stu-id="70ea0-299">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="70ea0-300">Stlačte možnosť **Odoslať**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-300">Select **Submit**.</span></span>
+23. <span data-ttu-id="70ea0-301">Zadajte akékoľvek komentáre pre schvaľovateľa.</span><span class="sxs-lookup"><span data-stu-id="70ea0-301">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="70ea0-302">Vyberte **Hotovo**.</span><span class="sxs-lookup"><span data-stu-id="70ea0-302">Select **Done**.</span></span>

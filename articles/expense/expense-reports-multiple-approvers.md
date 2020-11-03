@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,29 +15,29 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 818092dd631d07cc0a7d63c9eec51eeff4f67ffe
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 548673541cee5ce598721f94415c0444995c8325
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897110"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084367"
 ---
-# <a name="expense-reports-and-multiple-approvers"></a>Výkazy výdavkov a viacerí schvaľovatelia
+# <a name="expense-reports-and-multiple-approvers"></a><span data-ttu-id="0f600-103">Výkazy výdavkov a viacerí schvaľovatelia</span><span class="sxs-lookup"><span data-stu-id="0f600-103">Expense reports and multiple approvers</span></span>
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+<span data-ttu-id="0f600-104">_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_</span><span class="sxs-lookup"><span data-stu-id="0f600-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-V závislosti od politík schvaľovania výdavkov vašej organizácie môže byť potrebné, aby odovzdaný výkaz výdavkov schválila viac ako jedna osoba. Keď nastavujete proces pracovného postupu na schválenie výkazu výdavkov, môžete pridať prvky pracovného postupu, ktoré zahŕňajú úlohy alebo kroky pre jedného alebo viacerých schvaľovateľov výkazov výdavkov. Môžete napríklad požadovať, aby všetky výkazy výdavkov schvaľovali dve samostatné osoby, manažér zamestnanca, ktorý správu predložil, a koordinátor záväzkov.
+<span data-ttu-id="0f600-105">V závislosti od politík schvaľovania výdavkov vašej organizácie môže byť potrebné, aby odovzdaný výkaz výdavkov schválila viac ako jedna osoba.</span><span class="sxs-lookup"><span data-stu-id="0f600-105">Depending on your organization's expense approval policies, more than one person might have to approve a submitted expense report.</span></span> <span data-ttu-id="0f600-106">Keď nastavujete proces pracovného postupu na schválenie výkazu výdavkov, môžete pridať prvky pracovného postupu, ktoré zahŕňajú úlohy alebo kroky pre jedného alebo viacerých schvaľovateľov výkazov výdavkov.</span><span class="sxs-lookup"><span data-stu-id="0f600-106">When you set up the workflow process for expense report approval, you can add workflow elements that include tasks or steps for one or more expense report approvers.</span></span> <span data-ttu-id="0f600-107">Môžete napríklad požadovať, aby všetky výkazy výdavkov schvaľovali dve samostatné osoby, manažér zamestnanca, ktorý správu predložil, a koordinátor záväzkov.</span><span class="sxs-lookup"><span data-stu-id="0f600-107">For example, you might require that all expense reports be approved by two separate people, the manager of the employee who submitted the report and the Accounts payable coordinator.</span></span>
 
-Ak sa rozhodnete vyžadovať viacerých schvaľovateľov výkazov výdavkov, môžete prvky pracovného postupu pridať niektorým z nasledujúcich spôsobov:
+<span data-ttu-id="0f600-108">Ak sa rozhodnete vyžadovať viacerých schvaľovateľov výkazov výdavkov, môžete prvky pracovného postupu pridať niektorým z nasledujúcich spôsobov:</span><span class="sxs-lookup"><span data-stu-id="0f600-108">If you decide to require multiple expense report approvers, you can add the workflow elements in any of the following ways:</span></span>
 
-- Pridajte jeden schvaľovací prvok, ktorý má jeden krok. Krok môže napríklad vyžadovať, aby bol výkaz výdavkov priradený k skupine používateľov a aby bol schválený 50 percentami členov skupiny používateľov.
-- Pridajte jeden schvaľovací prvok, ktorý má viac krokov. Schvaľovací prvok môže mať napríklad nasledujúce kroky:
+- <span data-ttu-id="0f600-109">Pridajte jeden schvaľovací prvok, ktorý má jeden krok.</span><span class="sxs-lookup"><span data-stu-id="0f600-109">Add one approval element that has one step.</span></span> <span data-ttu-id="0f600-110">Krok môže napríklad vyžadovať, aby bol výkaz výdavkov priradený k skupine používateľov a aby bol schválený 50 percentami členov skupiny používateľov.</span><span class="sxs-lookup"><span data-stu-id="0f600-110">For example, the step might require that an expense report be assigned to a user group, and that it be approved by 50 percent of the user group's members.</span></span>
+- <span data-ttu-id="0f600-111">Pridajte jeden schvaľovací prvok, ktorý má viac krokov.</span><span class="sxs-lookup"><span data-stu-id="0f600-111">Add one approval element that has multiple steps.</span></span> <span data-ttu-id="0f600-112">Schvaľovací prvok môže mať napríklad nasledujúce kroky:</span><span class="sxs-lookup"><span data-stu-id="0f600-112">For example, the approval element might have the following steps:</span></span>
 
-    1. Vedúci zamestnanca, ktorý predložil výkaz výdavkov, ho schvaľuje.
-    2. Referent pre záväzky overuje účtenky a položky výkazu výdavkov.
-    3. Vlastník rozpočtu schvaľuje výkaz výdavkov.
+    1. <span data-ttu-id="0f600-113">Vedúci zamestnanca, ktorý predložil výkaz výdavkov, ho schvaľuje.</span><span class="sxs-lookup"><span data-stu-id="0f600-113">The manager of the employee who submitted the expense report approves it.</span></span>
+    2. <span data-ttu-id="0f600-114">Referent pre záväzky overuje účtenky a položky výkazu výdavkov.</span><span class="sxs-lookup"><span data-stu-id="0f600-114">The Accounts payable clerk verifies the receipts and the expense report items.</span></span>
+    3. <span data-ttu-id="0f600-115">Vlastník rozpočtu schvaľuje výkaz výdavkov.</span><span class="sxs-lookup"><span data-stu-id="0f600-115">The budget owner approves the expense report.</span></span>
 
-- Pridajte viac schvaľovacích prvkov, z ktorých každý má jeden krok. Môžete napríklad pridať samostatný schvaľovací prvok pre každý z nasledujúcich krokov:
+- <span data-ttu-id="0f600-116">Pridajte viac schvaľovacích prvkov, z ktorých každý má jeden krok.</span><span class="sxs-lookup"><span data-stu-id="0f600-116">Add multiple approval elements, each of which has one step.</span></span> <span data-ttu-id="0f600-117">Môžete napríklad pridať samostatný schvaľovací prvok pre každý z nasledujúcich krokov:</span><span class="sxs-lookup"><span data-stu-id="0f600-117">For example, you might add a separate approval element for each of the following steps:</span></span>
 
-    1. Vedúci zamestnanca schvaľuje výkaz výdavkov.
-    2. Vlastník rozpočtu schvaľuje výkaz výdavkov.
+    1. <span data-ttu-id="0f600-118">Vedúci zamestnanca schvaľuje výkaz výdavkov.</span><span class="sxs-lookup"><span data-stu-id="0f600-118">The employee's manager approves the expense report.</span></span>
+    2. <span data-ttu-id="0f600-119">Vlastník rozpočtu schvaľuje výkaz výdavkov.</span><span class="sxs-lookup"><span data-stu-id="0f600-119">The budget owner approves the expense report.</span></span>
