@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949075"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096641"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Použitie ukážkových údajov aplikácie Project Operations v prostredí na cloudovom hostiteľskom systéme Finance
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
->[Dôležité] Táto téma sa týka iba systému Microsoft Dynamics 365 Finance verzie 10.0.13 a je možné ju používať iba v prostredí hosťovanom v cloude. Kroky v tejto téme vykonajte **PRED** použitím aktualizácií prostredia týkajúcich sa kvality.
+> [!IMPORTANT]
+> Táto téma sa týka iba systému Microsoft Dynamics 365 Finance verzie 10.0.13 a je možné ju používať iba v prostredí hosťovanom v cloude. Kroky v tejto téme vykonajte **PRED** použitím aktualizácií prostredia týkajúcich sa kvality.
 
 1. Vo svojom projekte LCS otvorte stránku **Podrobnosti o prostredí**. Pamätajte na to, že obsahuje podrobnosti potrebné na pripojenie k prostrediu pomocou protokolu RDP (Remote Desktop Protocol).
 
