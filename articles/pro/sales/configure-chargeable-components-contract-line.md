@@ -34,7 +34,7 @@ Podskupinu zahrnutých zložiek možno označiť ako účtovateľnú pomocou po�
 
 Účtovateľné zložky možno definovať pre úlohy, roly a kategórie transakcií.
 
-Účtovateľnosť je definovaná na úlohách pre riadok zmluvy projektu a vzťahuje sa na všetky triedy transakcií zahrnuté v riadku. Ak je pole **Zahrnúť úlohy** v riadku zmluvy prázdne alebo nastavené na * *Celý projekt* , karta **Účtovateľné úlohy** nebude k dispozícii.
+Účtovateľnosť je definovaná na úlohách pre riadok zmluvy projektu a vzťahuje sa na všetky triedy transakcií zahrnuté v riadku. Ak je pole **Zahrnúť úlohy** v riadku zmluvy prázdne alebo nastavené na * *Celý projekt* *, karta **Účtovateľné úlohy** nebude k dispozícii.
 
 Účtovateľnosť definovaná pre roly pre riadok zmluvy projektu sa vzťahuje iba na triedu transakcie **Čas**. Ak je pole **Zahrnúť čas** v riadku zmluvy nastavené na **Nie** , karta **Účtovateľné roly** nebude k dispozícii.
 
