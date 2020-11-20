@@ -3,7 +3,7 @@ title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, v
 description: Táto téma obsahuje zoznam funkcií a opráv dostupných v aktualizácii Project Service Automation, vydanie 20, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084313"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126772"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Aktualizácia pre Project Service Automation, vydanie 20, V3
 
@@ -58,5 +58,5 @@ Vyriešili sa tieto problémy:
 - Trvanie časovej fázy na **Grafe analýzy ziskovosti** sa nezhoduje s trvaním nákladov v podrobnostiach o riadku cenovej ponuky s pevnou cenou.
 - Jednotka a jednotková skupina nemajú správnu predvolenú hodnotu pre kategórie výdavkov vo formulároch **Podrobnosti o riadku zmluvy** a **Podrobnosti o riadku cenovej ponuky**.
 - Zoznamy **Obstarávacej ceny organizačnej jednotky** umožňujú prekrývanie účinnosti podľa dátumu.
-- Používatelia nemajú povolené meniť hodnotu **OrgUnit** , keď typ objednávky nie je pracovný, pretože to bude mať za následok chybu nulovej referenčnej výnimky.
+- Používatelia nemajú povolené meniť hodnotu **OrgUnit**, keď typ objednávky nie je pracovný, pretože to bude mať za následok chybu nulovej referenčnej výnimky.
 - Pri pokuse o navigáciu z formulára **Podrobnosti o riadku cenovej ponuky** späť do formulára **Cenová ponuka** sa formulár obnoví a zobrazí sa karta **Zhrnutie**.

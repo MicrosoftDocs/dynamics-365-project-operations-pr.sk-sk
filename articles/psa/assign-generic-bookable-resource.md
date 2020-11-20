@@ -3,7 +3,7 @@ title: Priradenie všeobecných rezervovateľných zdrojov k úlohe a projektov�
 description: Táto téma poskytuje informácie o rezervovaní všeobecných zdrojoch pre úlohy a projektové tímy.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084379"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127087"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Priradenie všeobecných rezervovateľných zdrojov k úlohe a generovanie zdrojových požiadaviek 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4084379"
 
 Okrem rezervácie a priraďovania pomenovaných alebo skutočných zdrojov do vášho projektu môžete priradiť všeobecné zdroje k úlohám projektu. Tieto zdroje môžu slúžiť ako zástupné symboly pre pomenované zdroje, kým nie ste pripravení na zamestnanie vášho projektu s pomenovaním zdrojov. 
 
-1. V Project Service Automation (PSA), otvorte stránku **Project** a na karte **Schedule** , zadajte názov pozície všeobecného prostriedku v bunke plánu **Resource**. Alebo kliknite na ikonu **Resource** v bunke k otvoreniu výberu zdrojov a potom zadajte názov všeobecného prostriedku, ktorý chcete vytvoriť.
+1. V Project Service Automation (PSA), otvorte stránku **Project** a na karte **Schedule**, zadajte názov pozície všeobecného prostriedku v bunke plánu **Resource**. Alebo kliknite na ikonu **Resource** v bunke k otvoreniu výberu zdrojov a potom zadajte názov všeobecného prostriedku, ktorý chcete vytvoriť.
 
 ![Vytvorenie a priradenie všeobecného člena tímu](media/RM-how-to-9.png)
 

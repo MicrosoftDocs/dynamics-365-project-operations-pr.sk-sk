@@ -3,7 +3,7 @@ title: Konfigurujte doplňujúce parametre nastavenia
 description: Ako na konfiguráciu dodatočných nastavení parametrov v Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084364"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129382"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfigurácia dodatočných nastavení parametrov (Project Service)
 
@@ -56,7 +56,7 @@ Nastavenie projektových parametrov:
   
 3. V oblasti **Všeobecné** nastavte všetky možnosti parametrov projektu.  
   
-4. V oblasti **Cenník** kliknite na **+** , čím pridáte cenník. V rozbaľovacom zozname **Cenník parametrov projektu** si vyberte cenník a kliknite na možnosť **Uložiť**.  
+4. V oblasti **Cenník** kliknite na **+**, čím pridáte cenník. V rozbaľovacom zozname **Cenník parametrov projektu** si vyberte cenník a kliknite na možnosť **Uložiť**.  
   
 5. Kliknite na tlačidlo **Uložiť** v pravom dolnom rohu obrazovky.  
 

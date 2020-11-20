@@ -3,7 +3,7 @@ title: Konfigurácia rolí zdroja
 description: Spôsob konfigurácie rolí zdroja v Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084362"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129157"
 ---
 # <a name="configure-resource-roles-project-service"></a>Konfigurácia rolí zdroja (Project Service)
 
@@ -47,7 +47,7 @@ Role hrajú dôležitú úlohu v projektovanie, pri určovaní požiadaviek na z
   
 5.  Ak chcete pridať zručnosť, kliknite v oblasti **Zručnosti** na symbol **+**.  
   
-6.  Na table **požiadaviek kompetencie roly** kliknite na pole **Zručnosť** , kliknite na tlačidlo **Vyhľadať** a potom si zvoľte zručnosť.  
+6.  Na table **požiadaviek kompetencie roly** kliknite na pole **Zručnosť**, kliknite na tlačidlo **Vyhľadať** a potom si zvoľte zručnosť.  
   
 7.  Vyberte spôsobilosti pre túto zručnosť, a potom kliknite na **Uložiť**.  
   

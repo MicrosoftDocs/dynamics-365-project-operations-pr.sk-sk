@@ -3,7 +3,7 @@ title: Správa žiadostí na zdroje
 description: Ako na správu žiadostí na zdroje v Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084363"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129022"
 ---
 # <a name="manage-resource-requests-project-service"></a>Správa žiadostí na zdroje (Project Service)
 
@@ -37,15 +37,15 @@ Správcovia obchodného vzťahu a projektoví manažéri pravidelne požadujú z
   
     Vykonajte niektorý z týchto krokov na optimalizáciu vyhľadávania:  
   
-   -   Vyberte zobrazenia alebo zoradenia poradia v hornej časti obrazovky. Môžete si tiež vybrať, či chcete zobraziť dostupnosť pre **deň** , **týždeň** , alebo **mesiac** , a pomocou šípok pozrite predchádzajúce alebo nasledujúce časové obdobie. Použite vyhľadávacie pole na nájdenie konkrétneho zdroja.  
+   -   Vyberte zobrazenia alebo zoradenia poradia v hornej časti obrazovky. Môžete si tiež vybrať, či chcete zobraziť dostupnosť pre **deň**, **týždeň**, alebo **mesiac**, a pomocou šípok pozrite predchádzajúce alebo nasledujúce časové obdobie. Použite vyhľadávacie pole na nájdenie konkrétneho zdroja.  
   
    -   Kliknite na tlačidlo **možnosti** a zmeňte čo je zobrazené. Napríklad, môžete zobraziť legendu, ktorá ukazuje farebnú schému pre rôzne typy rezervácie, alebo môžete zobraziť iba určitý typ rezervácie (pre napríklad pevné alebo jemné rezervácie).  
   
-   -   Kliknite na tlačidlo **Filter** na zobrazenie tably **Filter** , ktorá vám umožňuje filtrovanie výsledkov organizačnej jednotky, úloha, zručnosť alebo iné atribúty.  
+   -   Kliknite na tlačidlo **Filter** na zobrazenie tably **Filter**, ktorá vám umožňuje filtrovanie výsledkov organizačnej jednotky, úloha, zručnosť alebo iné atribúty.  
   
        ![Obrazovka žiadosti zdroja pre Project Service](../psa/media/project-service-resource-request-screen.png "Obrazovka žiadosti zdroja pre Project Service")  
   
-3. V kalendári prostriedku, ktorý chcete rezervovať, nastavte čas rezervácie prostriedku a potom kliknite na **Rezervovať** , čím zdroj zarezervujete, alebo **Navrhnúť rezerváciu** , čím rezerváciu navrhnete a žiadateľ ju bude musieť schváliť. Zdroj si môžete rezervovať predbežne alebo pevne.  
+3. V kalendári prostriedku, ktorý chcete rezervovať, nastavte čas rezervácie prostriedku a potom kliknite na **Rezervovať**, čím zdroj zarezervujete, alebo **Navrhnúť rezerváciu**, čím rezerváciu navrhnete a žiadateľ ju bude musieť schváliť. Zdroj si môžete rezervovať predbežne alebo pevne.  
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)

@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084484"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128303"
 ---
 # <a name="confirm-a-project-contract"></a>Potvrdenie projektovej zmluvy
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Projektová zmluva v systéme Dynamics 365 Project Operations môže byť aktívna s dôvodom **Potvrdená** , alebo uzavretá s dôvodom **Nevyužitá**. Po potvrdení projektovej zmluvy sa stav aktualizuje z **Koncept** na **Aktívna** a dôvod stavu je **Potvrdená**. Aktívnu alebo uzavretú zmluvu nie je možné upraviť ani znova otvoriť. 
+Projektová zmluva v systéme Dynamics 365 Project Operations môže byť aktívna s dôvodom **Potvrdená**, alebo uzavretá s dôvodom **Nevyužitá**. Po potvrdení projektovej zmluvy sa stav aktualizuje z **Koncept** na **Aktívna** a dôvod stavu je **Potvrdená**. Aktívnu alebo uzavretú zmluvu nie je možné upraviť ani znova otvoriť. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Finančný dopad potvrdenia projektovej zmluvy
 

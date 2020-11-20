@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084299"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124522"
 ---
 # <a name="time-entry-ui-behavior"></a>Správanie používateľského rozhrania pri zadávaní času
 
@@ -40,7 +40,7 @@ V časti trvanie sa zobrazujú dni v týždni ako hlavičky stĺpcov. Táto čas
 
 1. V mriežke na zadanie času vyberte **Nový**. 
 2. V dialógovom okne **Rýchle vytvorenie zadania času** vyberte dátum zadania času.
-3. Zadajte údaje pre dimenzie **Projekt** , **Projektová úloha** , **Rola** a **Trvanie**. Tieto informácie by mali byť pridané v minútach, hodinách alebo dňoch zadaním **h** , **m** alebo **d** spolu s číslom. 
+3. Zadajte údaje pre dimenzie **Projekt**, **Projektová úloha**, **Rola** a **Trvanie**. Tieto informácie by mali byť pridané v minútach, hodinách alebo dňoch zadaním **h**, **m** alebo **d** spolu s číslom. 
 4. Zadajte popis zadania a všetky komentáre, ktoré sa dajú externe zdieľať, pokiaľ ide o zadanie času. 
 
 Po uložení záznamu sa zadané hodnoty zobrazia v sekcii **Dimenzie**. Informácie zadané v poli **Trvanie** sa zobrazia v dátume, pre ktorý bol vytvorený záznam času.
@@ -48,7 +48,7 @@ Po uložení záznamu sa zadané hodnoty zobrazia v sekcii **Dimenzie**. Inform�
 Vyhľadávacie polia sú podporované systémovými zobrazeniami. Ak napríklad používateľ prejde do projektu, pole **Projektová úloha** sa predvolene nastaví na zobrazenie **Kopírovať**. Ak chcete vytvoriť časové položky pre úlohy, ktoré nie sú priradené používateľovi, kliknite v dialógovom okne na možnosť **Zmeniť zobrazenie** na vyhľadávanie a stlačte možnosť **Všetky aktívne projektové úlohy**.
 
 ## <a name="edit-a-time-entry"></a>Úprava zadania času 
-Podrobnosti z niektorých polí na stránke časovej položky, ako napríklad **Popis** a **Externé poznámky** sa nezobrazujú v mriežke týždenného vstupu. Namiesto toho sa v bunkách **Trvanie** , ktoré majú tieto ďalšie podrobnosti, objaví malý trojuholníkový indikátor. 
+Podrobnosti z niektorých polí na stránke časovej položky, ako napríklad **Popis** a **Externé poznámky** sa nezobrazujú v mriežke týždenného vstupu. Namiesto toho sa v bunkách **Trvanie**, ktoré majú tieto ďalšie podrobnosti, objaví malý trojuholníkový indikátor. 
 
 1. Ak chcete upraviť časový záznam, vyberte v časovom zázname bunku, ktorú chcete aktualizovať.
 2. Vyberte možnosť **Upraviť podrobnosti** na aktualizovanie údajov v table **Hlavný formulár zadaní času**. 
@@ -67,10 +67,10 @@ Môžete si pripomenúť položky, ktoré ste odoslali. Môžete si pripomenúť
 
 ## <a name="time-entry-status"></a>Stav zadania času
 
-- **Koncept** : Nové položky času sa automaticky priradia k stavu **Koncept**. Odstránia sa len časové položky, ktoré majú stav **Koncept**.
-- **Odoslané** : Keď je odoslaná časová položka, stav sa aktualizuje na **Odoslané**. 
-- **Schválené** : Keď je odoslaná časová položka schválená, stav sa aktualizuje na **Schválené**. 
-- **Vrátené** : Ak je položka času zamietnutá, stav sa aktualizuje na **Vrátené** a položka bude k dispozícii na opravu a opätovné odoslanie. 
+- **Koncept**: Nové položky času sa automaticky priradia k stavu **Koncept**. Odstránia sa len časové položky, ktoré majú stav **Koncept**.
+- **Odoslané**: Keď je odoslaná časová položka, stav sa aktualizuje na **Odoslané**. 
+- **Schválené**: Keď je odoslaná časová položka schválená, stav sa aktualizuje na **Schválené**. 
+- **Vrátené**: Ak je položka času zamietnutá, stav sa aktualizuje na **Vrátené** a položka bude k dispozícii na opravu a opätovné odoslanie. 
 
 ## <a name="view-rejection-comments"></a>Zobraziť komentáre k zamietnutiu
 Ak schvaľovateľ zamietne časovú položku, môže pridať poznámky, ktoré pomôžu prostriedku pochopiť dôvod zamietnutia. Ak chcete zobraziť komentáre odmietnutia pre časovú položku, vyberte položku **Otvoriť položku**. Pripomienky k zamietnutiu sa zobrazia na časovej osi. Používateľ môže odpovedať na komentáre o odmietnutí skôr, ako znova odošle položku.

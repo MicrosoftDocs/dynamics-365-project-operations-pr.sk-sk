@@ -3,7 +3,7 @@ title: Vytvorenie organizačných jednotiek
 description: Ako vytvoriť organizačné jednotky v Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084413"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125107"
 ---
 # <a name="create-organizational-units-project-service"></a>Vytváranie organizačných jednotiek (Project Service)
 
@@ -42,7 +42,7 @@ Vaša spoločnosť pravdepodobne organizuje jej poradenskej činnosti podľa geo
   
 4.  Kliknite na tlačidlo **Uložiť** a vytvorte záznam, aby ste mohli pokračovať v jeho úprave.  
   
-5.  Pod **Cenníky obstarávacej ceny** kliknite na tlačidlo **+** , čím pridáte cenník. Môžete tu pridať iba cenníky s kontextom **Cena** .  
+5.  Pod **Cenníky obstarávacej ceny** kliknite na tlačidlo **+**, čím pridáte cenník. Môžete tu pridať iba cenníky s kontextom **Cena** .  
   
 6.  V poli **Názov** kliknite na tlačidlo **Search** a vyberte cenník, ktorý chcete sprístupniť pre túto organizačnú jednotku. Pokračujte v pridávaní cenníkov podľa potreby.  
   

@@ -3,7 +3,7 @@ title: Použite doplnok Project Service na plánovanie práce v Microsoft Projec
 description: Táto téma poskytuje informácie o tom ako pridávať, konfigurovať a používať doplnok Microsoft Project add-in pre službu Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084494"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129697"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Použite doplnok Project Service Automation na plánovanie práce v Microsoft Project
 
@@ -44,7 +44,7 @@ ms.locfileid: "4084494"
 
 2.  Kliknite na odkaz na stiahnutie.  
 
-3.  Po dokončení sťahovania kliknite na možnosť **Áno** , čím doplnok nainštalujete.  
+3.  Po dokončení sťahovania kliknite na možnosť **Áno**, čím doplnok nainštalujete.  
 
 ## <a name="configure-the-add-in"></a>Nakonfigurujte prídavok  
 
@@ -141,9 +141,9 @@ Projekt sa naimportuje do [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 
 3. V dialógovom okne **Povoliť otvorenie v programe [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** zvoľte možnosť **Áno** alebo **Nie**.  
 
-   - Keď kliknete na **Áno** , budete môcť vybrať tlačidlo **Otvoriť v [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v Project Service Automation, spustiť [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a načítať súbor projektu zo SharePoint knižnice dokumentov.  
+   - Keď kliknete na **Áno**, budete môcť vybrať tlačidlo **Otvoriť v [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v Project Service Automation, spustiť [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a načítať súbor projektu zo SharePoint knižnice dokumentov.  
 
-   - Keď kliknete na **Nie** , prepojenie na tlačidlo **Otvoriť v programe [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nebude fungovať.  
+   - Keď kliknete na **Nie**, prepojenie na tlačidlo **Otvoriť v programe [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nebude fungovať.  
 
 4. Súbor programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] nájdete v [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pod položkou **Dokumenty** pre konkrétny projekt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -155,9 +155,9 @@ Projekt sa naimportuje do [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 
 3. V dialógovom okne **Povoliť otvorenie v programe [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** zvoľte možnosť **Áno** alebo **Nie**.  
 
-   - Keď kliknete na **Áno** , budete môcť vybrať tlačidlo **Otvoriť v [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v Project Service Automation, spustiť [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a načítať súbor projektu z knižnice dokumentov SharePoint.  
+   - Keď kliknete na **Áno**, budete môcť vybrať tlačidlo **Otvoriť v [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v Project Service Automation, spustiť [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a načítať súbor projektu z knižnice dokumentov SharePoint.  
 
-   - Keď kliknete na **Nie** , prepojenie na tlačidlo **Otvoriť v programe [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nebude fungovať.  
+   - Keď kliknete na **Nie**, prepojenie na tlačidlo **Otvoriť v programe [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nebude fungovať.  
 
 4. Súbor programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] nájdete v [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pod položkou **Dokumenty** pre konkrétny projekt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 

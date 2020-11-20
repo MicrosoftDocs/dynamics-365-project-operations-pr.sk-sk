@@ -3,7 +3,7 @@ title: Ako môžem priradiť rezervovateľný zdroj k úlohe vo webovej aplikác
 description: Prehľad spôsobov, ako môžete priradiť rezervovateľné zdroje.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084552"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125197"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Ako priradiť prostriedok rezervovateľné úlohy vo webovej aplikácii (aplikácia Project Service v2.x)?
 
@@ -51,7 +51,7 @@ S touto metódou pridať prostriedok do projektového tímu a potom priradiť ú
     - **Podľa rovnomerne rozmiestnených hodín** zarezervuje prostriedok pre stanovený počet hodín, ktoré rovnomerne rozdelí na dni v rámci stanovených dátumov od a do.
     - **Podľa hodín počiatočného vyťaženia** zarezervuje prostriedok pre stanovený počet hodín, v rámci počiatočného vyťaženia denných hodín v rámci stanovených dátumov od a do.
 
-    Nestláčajte možnosť **Žiadne** , pretože sa tým zdroj pridá k tímu, no nevytvorí žiadne rezervácie, ktoré by využili kapacity zdroja.
+    Nestláčajte možnosť **Žiadne**, pretože sa tým zdroj pridá k tímu, no nevytvorí žiadne rezervácie, ktoré by využili kapacity zdroja.
 5.  Vyberte **Uložiť**.
 
     Upozorňujeme, že hodiny rezervácie musia byť dostatočné na pokrytie hodín úsilia a rozsahov dátumov úlohy, ku ktorej tento zdroj priraďujete. Ak nie sú zosúladené, nemôžete priradiť zdroj k úlohe.

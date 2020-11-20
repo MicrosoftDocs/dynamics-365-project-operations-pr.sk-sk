@@ -3,7 +3,7 @@ title: Naplánovať projekt so štruktúrou rozdelenia práce
 description: Ako naplánovať projekt so štruktúrou rozdelenia práce v Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084546"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127897"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Naplánovať projekt so štruktúrou rozdelenia práce (Project Service)
 
@@ -86,14 +86,14 @@ Pri vytváraní vašej štruktúry rozdelenia práce budete používať tieto dr
   
 ### <a name="schedule-attributes"></a>Naplánovať atribúty
 
- - Priraďte hodnoty do **hodín úsilie** , **počet zdrojov** , **dátum začatia** , **dátum skončenia** a **trvanie** na stanovenie plánu úlohy. 
+ - Priraďte hodnoty do **hodín úsilie**, **počet zdrojov**, **dátum začatia**, **dátum skončenia** a **trvanie** na stanovenie plánu úlohy. 
  - **Úsilie** je odhad hodín, ktoré sú potrebné na dokončenie úlohy.
  - **Počet zdrojov** je odhad, ktorý projektový manažér použije v úlohe na čo najlepší plán. 
  - **Trvanie** (v dňoch) udáva počet pracovných dní, koľko bude trvať dokončenie úlohy.  
   
 ### <a name="staffing-attributes"></a>Personálne atribúty
 
- - **Úloha** , **Organizačná jednotka zdroja** , **Počet zdrojov** a **Zdroje** popisujú personálne požiadavky úlohy. 
+ - **Úloha**, **Organizačná jednotka zdroja**, **Počet zdrojov** a **Zdroje** popisujú personálne požiadavky úlohy. 
  - **Úloha** popisuje typ zdroja, ktorý je potrebný na vykonanie úlohy. 
  - **Organizačná jednotka zdroj** označuje organizačnú jednotku, z ktorej by mal byť personálom obsadený zdroj úlohy. Ovplyvňuje to tiež odhad nákladov a predajov úlohy, pretože sa na to odkazuje pri odhadovaní jednotkovej predajnej ceny zdroja. 
  - **Zdroje** má všeobecný prostriedok alebo prostriedok s názvom keď sa nájde.  
@@ -138,7 +138,7 @@ Pri vytváraní vašej štruktúry rozdelenia práce budete používať tieto dr
   
     -   Vyberte úlohu a kliknite na tlačidlo **Zarážka** ju presuniete pod inú úlohu, alebo kliknite na zmenšenie odsadenia ju presuniete mimo úrovne.  
   
-    -   Vyberte úlohu a kliknite na tlačidlo **Posunúť nahor** alebo **Posunúť nadol** , čím ju presuniete v zozname nadol alebo nahor.  
+    -   Vyberte úlohu a kliknite na tlačidlo **Posunúť nahor** alebo **Posunúť nadol**, čím ju presuniete v zozname nadol alebo nahor.  
   
     -   Kliknite na tlačidlo **Skryť ganttov graf** skryjete ganttov graf. Kliknutím na **Zobraziť ganttov graf** ho znova zobrazíte.  
   

@@ -3,7 +3,7 @@ title: Rezervácie zdrojov a ako súvisia s priradením úloh
 description: Táto téma poskytuje informácie o tom, ako spravovať pomenované zdroje, rezervácie zdrojov a priradenia úloh a ako navzájom súvisia.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 03285d324e855ecf933b155559e5a4826420ab25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084551"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125028"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Rezervácie zdrojov a ako súvisia s priradením úloh
 
@@ -62,7 +62,7 @@ V prípade, že organizácia udelila úlohu plánovania projektu manažérovi pr
 
 Pretože rezervácie a priradenia nie sú úzko prepojené, existuje možnosť zarezervovať prvky tak, aby boli rôzne od prvkov úlohy alebo zmeniť priradenia tak, aby výsledkom toho boli okolnosti, kde budú rezervácie a priradenia nezosúladené.
 
-**Zobrazenie odsúhlasenia** , umožňuje projektovému manažérovi vidieť rezervácie a priradenia pre každého člena projektového tímu. Zobrazenie využíva farby a odtiene na zobrazenie toho, keď sa objaví nesúlad medzi rezerváciami a pridelením člena tímu. Na základe tejto informácie, projektový manažér môže trvať nápravné opatrenia buď rozšíriť zdroj rezervácie pre prípady, ak nie sú úlohy a rezervácie alebo zrušiť rezerváciu, kde zdroje sú rezervované, ale mať žiadne úlohy.
+**Zobrazenie odsúhlasenia**, umožňuje projektovému manažérovi vidieť rezervácie a priradenia pre každého člena projektového tímu. Zobrazenie využíva farby a odtiene na zobrazenie toho, keď sa objaví nesúlad medzi rezerváciami a pridelením člena tímu. Na základe tejto informácie, projektový manažér môže trvať nápravné opatrenia buď rozšíriť zdroj rezervácie pre prípady, ak nie sú úlohy a rezervácie alebo zrušiť rezerváciu, kde zdroje sú rezervované, ale mať žiadne úlohy.
 
 > [!NOTE]
 > Ak presuniete úlohu, ktorú ste tvarovali sami, nie sú zachované tieto kontúry. Obrysy sú regenerované podľa kalendár projektu, aby sa zohľadnili zmeny v pracovných hodín a sviatky. Ide o zámerný prvok, pretože systém nepozná úmysel pôvodného tvaru a nedokáže rozhodnúť, či má zmysel zachovávať daný prvok v novom časovom období. Pretože rezervácie a úlohy sú odpojené, rezervácie si udržiavajú pôvodné prvky rezervácie. V tomto prípade budete musieť pristúpiť k zrušeniu a opätovnej rezervácie na nový prvok priradenia.

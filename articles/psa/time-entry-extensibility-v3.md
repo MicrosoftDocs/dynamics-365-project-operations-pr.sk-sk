@@ -3,7 +3,7 @@ title: Prispôsobenie týždenného vstupného času
 description: Táto téma poskytuje informácie o tom, ako implementovať vlastné obchodné pravidlá, ktoré podporujú postupy organizácie.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084451"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127942"
 ---
 # <a name="customize-weekly-time-entry"></a>Prispôsobenie týždenného vstupného času 
 
@@ -51,12 +51,12 @@ Sekcia **Dimenzia** neumožňuje riadkové úpravy. Táto časť je podporovaná
 V časti trvanie sa zobrazujú dni v týždni ako hlavičky stĺpcov. Táto časť umožňuje úpravy v riadku. Po vytvorení riadka časového vstupu, ktorý má príslušné dimenzie, môžu používatelia rýchlo zadávať, v riadku, množstvo času, ktoré strávili v týchto dimenziách.
 
 ## <a name="create-a-new-time-entry"></a>Vytvorenie nového časového záznamu
-Ak chcete vytvoriť novú časovú položku v mriežke časového vstupu, vyberte položku **Nové**. Zobrazí sa dialógové okno **Rýchle vytvorenie zadania času**. V tomto dialógovom okne môžu používatelia vybrať dátum vstupu a potom zadať údaje pre dimenzie **Projekt** , **Projektová úloha** , **Rola** a **Trvanie** v minútach, hodinách alebo dňoch zadaním **h** , **m** alebo **d** spolu s číslom. Používatelia môžu tiež zadať popis a komentáre, ktoré môžu byť zdieľané externe pre čas vstupu. Keď používatelia uložia zmeny, hodnoty, ktoré zadali proti dimenziám, zobrazia sa v časti **Dimenzie**. Informácie o trvaní, ktoré zadali v **Trvanie** , sa zobrazia v dátum, pre ktorý bol vytvorený záznam času.
+Ak chcete vytvoriť novú časovú položku v mriežke časového vstupu, vyberte položku **Nové**. Zobrazí sa dialógové okno **Rýchle vytvorenie zadania času**. V tomto dialógovom okne môžu používatelia vybrať dátum vstupu a potom zadať údaje pre dimenzie **Projekt**, **Projektová úloha**, **Rola** a **Trvanie** v minútach, hodinách alebo dňoch zadaním **h**, **m** alebo **d** spolu s číslom. Používatelia môžu tiež zadať popis a komentáre, ktoré môžu byť zdieľané externe pre čas vstupu. Keď používatelia uložia zmeny, hodnoty, ktoré zadali proti dimenziám, zobrazia sa v časti **Dimenzie**. Informácie o trvaní, ktoré zadali v **Trvanie**, sa zobrazia v dátum, pre ktorý bol vytvorený záznam času.
 
 Vyhľadávacie polia sú podporované systémovými zobrazeniami. Ak napríklad používateľ prejde do projektu, pole **Projektová úloha** sa predvolene nastaví na zobrazenie **Kopírovať**. Ak chcete vytvoriť časové položky pre úlohy, ktoré nie sú priradené používateľovi, kliknite v dialógovom okne na možnosť **Zmeniť zobrazenie** na vyhľadávanie a stlačte možnosť **Všetky aktívne projektové úlohy**.
 
 ## <a name="edit-a-time-entry"></a>Úprava zadania času
-Podrobnosti z niektorých polí na stránke časovej položky, ako napríklad **Popis** a **Externé poznámky** sa nezobrazujú v mriežke týždenného vstupu. Namiesto toho malý trojuholníkový indikátor sa objaví v bunkách trvania, ktoré majú tieto ďalšie podrobnosti. Vyberte bunku a potom stlačte možnosť **Upraviť podrobnosti** , ak chcete zobraziť údaje na table **Rýchle úpravy**. Ak chcú upraviť alebo aktualizovať Podrobnosti pre konkrétnu časovú položku, ktorá nie je súčasťou mriežky týždenných časových položiek, používatelia musia otvoriť tablu **Rýchle úpravy**.
+Podrobnosti z niektorých polí na stránke časovej položky, ako napríklad **Popis** a **Externé poznámky** sa nezobrazujú v mriežke týždenného vstupu. Namiesto toho malý trojuholníkový indikátor sa objaví v bunkách trvania, ktoré majú tieto ďalšie podrobnosti. Vyberte bunku a potom stlačte možnosť **Upraviť podrobnosti**, ak chcete zobraziť údaje na table **Rýchle úpravy**. Ak chcú upraviť alebo aktualizovať Podrobnosti pre konkrétnu časovú položku, ktorá nie je súčasťou mriežky týždenných časových položiek, používatelia musia otvoriť tablu **Rýchle úpravy**.
 
 ## <a name="copy-a-time-entry-row"></a>Kopírovanie riadku zadania času
 Po vytvorení prvého riadka vstupu môžu používatelia zvoliť možnosť **Kopírovať riadok** a skopírovať celý riadok do nového riadka. Po skopírovaní riadka týmto spôsobom sa skopírujú aj dimenzie a trvania. Používatelia môžu tiež vybrať možnosť **Upraviť riadok** a aktualizovať hodnoty dimenzie a trvania v riadku v sekcii **Trvanie**.
@@ -98,22 +98,22 @@ Vlastné pole musíte pridať do dialógového Rýchle vytvorenie zadania času.
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Nakonfigurujte mriežku na zobrazenie vlastného poľa
 Existujú dva spôsoby na pridanie vlastné pole do mriežky týždenný čas vstupu. Prvou možnosťou je prispôsobiť zobrazenie **Moje týždenné zadania času** a pridať do neho vlastné pole. Úpravou týchto vlastností v zobrazení môžete vybrať umiestnenie a veľkosť vlastného poľa v mriežke.
 
-Druhou možnosťou je vytvoriť nové vlastné zobrazenie časového vstupu a nastaviť ho ako predvolené zobrazenie. Toto zobrazenie by malo obsahovať polia **Popis** a **Externé komentáre** okrem stĺpcov, ktoré chcete mať v mriežke. Úpravou týchto vlastností v zobrazení môžete vybrať umiestnenie, veľkosť a predvolené poradie zoradenia vlastného poľa v mriežke. Potom nakonfigurujte vlastný ovládací prvok pre toto zobrazenie, aby bol išlo o ovládací prvok **Mriežka so zadaniami času**. Pridajte tento ovládací prvok do zobrazenia a vyberte ho pre web, telefón a tablet. Potom nakonfigurujte parametre pre týždennú mriežku časového vstupu. Nastavte pole **Dátum začatia** na **msdyn_date** , nastavte pole **Trvanie** na **msdyn_duration** a nastavte pole **Stav** na **msdyn_entrystatus**. Pre predvolené zobrazenie je pole **Zoznam stavov iba na čítanie** nastavené na **192350002,192350003,192350004** , pole **Tok úloh úpravy riadkov** na hodnotu **msdyn_timeentryrowedit** a pole **Tok úloh úpravy buniek** nastavená na **msdyn_timeentryedit**. Tieto polia môžete prispôsobiť, ak chcete pridať alebo odstrániť stav iba na čítanie, alebo použiť inú pracovnú skúsenosť (TBX) na úpravu riadkov alebo buniek. Tieto polia by mali byť viazané na statickú hodnotu.
+Druhou možnosťou je vytvoriť nové vlastné zobrazenie časového vstupu a nastaviť ho ako predvolené zobrazenie. Toto zobrazenie by malo obsahovať polia **Popis** a **Externé komentáre** okrem stĺpcov, ktoré chcete mať v mriežke. Úpravou týchto vlastností v zobrazení môžete vybrať umiestnenie, veľkosť a predvolené poradie zoradenia vlastného poľa v mriežke. Potom nakonfigurujte vlastný ovládací prvok pre toto zobrazenie, aby bol išlo o ovládací prvok **Mriežka so zadaniami času**. Pridajte tento ovládací prvok do zobrazenia a vyberte ho pre web, telefón a tablet. Potom nakonfigurujte parametre pre týždennú mriežku časového vstupu. Nastavte pole **Dátum začatia** na **msdyn_date**, nastavte pole **Trvanie** na **msdyn_duration** a nastavte pole **Stav** na **msdyn_entrystatus**. Pre predvolené zobrazenie je pole **Zoznam stavov iba na čítanie** nastavené na **192350002,192350003,192350004**, pole **Tok úloh úpravy riadkov** na hodnotu **msdyn_timeentryrowedit** a pole **Tok úloh úpravy buniek** nastavená na **msdyn_timeentryedit**. Tieto polia môžete prispôsobiť, ak chcete pridať alebo odstrániť stav iba na čítanie, alebo použiť inú pracovnú skúsenosť (TBX) na úpravu riadkov alebo buniek. Tieto polia by mali byť viazané na statickú hodnotu.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Pridanie vlastného poľa do príslušnej úpravy toku úloh
 Stránky TBX, ktoré sa používajú na úpravu, nájdete v časti **Procesy**. Predvolenými stránkami sú **Project Service – úprava riadka so zadaním času** a **Project Service – úprava zadania času**. Môžete buď upraviť tieto predvolené stránky, alebo vytvoriť nové vlastné stránky TBX.
 
 > [!NOTE] 
-> Obe možnosti odstránia niektoré predpripravené filtrovanie v entitách **Projekt** a **Projektová úloha** , takže všetky zobrazenia vyhľadávania pre entity budú viditeľné. Predpripravene sú viditeľné iba relevantné zobrazenia vyhľadávania.
+> Obe možnosti odstránia niektoré predpripravené filtrovanie v entitách **Projekt** a **Projektová úloha**, takže všetky zobrazenia vyhľadávania pre entity budú viditeľné. Predpripravene sú viditeľné iba relevantné zobrazenia vyhľadávania.
 
-Musíte určiť príslušný tok úloh pre vlastné pole. S najväčšou pravdepodobnosťou, ak ste do mriežky pridali pole, mal by ísť v riadku upraviť tok úloh, ktorý sa používa pre polia, ktoré sa vzťahujú na celý riadok časových položiek. Ak vlastné pole má jedinečnú hodnotu každý deň, napríklad vlastné pole pre **Čas ukončenia** , mal by ísť v bunke upraviť tok úloh.
+Musíte určiť príslušný tok úloh pre vlastné pole. S najväčšou pravdepodobnosťou, ak ste do mriežky pridali pole, mal by ísť v riadku upraviť tok úloh, ktorý sa používa pre polia, ktoré sa vzťahujú na celý riadok časových položiek. Ak vlastné pole má jedinečnú hodnotu každý deň, napríklad vlastné pole pre **Čas ukončenia**, mal by ísť v bunke upraviť tok úloh.
 
 Ak chcete pridať vlastné pole do toku úloh, presuňte prvok **Pole** do príslušnej pozície na strane a potom nastavte jeho vlastnosti. Nastavte vlastnosť **Zdroj** na **Zadanie času** a nastavte vlastnosť poľa **Údajové pole** na vlastné pole. Vlastnosť **Pole** určuje zobrazovaný názov na stránke TBX. Stlačením možnosti **Použiť** uložte svoje zmeny do poľa. Potom stlačte možnosť **Aktualizovať** a uložte svoje zmeny stránky.
 
-Ak chcete namiesto toho použiť novú vlastnú stránku TBX, vytvorte nový proces. Nastavte kategóriu na **Tok obchodného procesu** , nastavte entitu na **Zadanie času** a nastavte typ obchodného procesu na **Spustiť proces ako postup úloh**. V časti **Vlastnosti** sa vlastnosť **Názov stránky** musí nastaviť na zobrazovací názov pre stránku. Pridajte všetky príslušné polia na stránku TBX. Uložte a aktivujte proces a potom aktualizujte vlastnosť vlastného ovládacieho prvku pre príslušný tok úloh na hodnotu **Názov** v procese.
+Ak chcete namiesto toho použiť novú vlastnú stránku TBX, vytvorte nový proces. Nastavte kategóriu na **Tok obchodného procesu**, nastavte entitu na **Zadanie času** a nastavte typ obchodného procesu na **Spustiť proces ako postup úloh**. V časti **Vlastnosti** sa vlastnosť **Názov stránky** musí nastaviť na zobrazovací názov pre stránku. Pridajte všetky príslušné polia na stránku TBX. Uložte a aktivujte proces a potom aktualizujte vlastnosť vlastného ovládacieho prvku pre príslušný tok úloh na hodnotu **Názov** v procese.
 
 ### <a name="add-new-option-set-values"></a>Pridanie nových hodnôt množiny možností
-Ak chcete pridať hodnoty množiny možností do predpripraveného poľa, otvorte stránku úprav pre pole a potom v často **Typ** vyberte položku **Upraviť** vedľa množiny možností. Potom pridajte novú možnosť, ktorá má vlastný štítok a farbu. Ak chcete pridať nový stav položky času, predpripravené pole má názov **Stav zadania** , nie **Stav**.
+Ak chcete pridať hodnoty množiny možností do predpripraveného poľa, otvorte stránku úprav pre pole a potom v často **Typ** vyberte položku **Upraviť** vedľa množiny možností. Potom pridajte novú možnosť, ktorá má vlastný štítok a farbu. Ak chcete pridať nový stav položky času, predpripravené pole má názov **Stav zadania**, nie **Stav**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Označenie nového stavu položky času ako iba na čítanie
 Ak chcete určiť stav nového časového vstupu iba na čítanie, pridajte novú hodnotu časového vstupu (číslo, nie štítok) do vlastnosti **Zoznam stavov iba na čítanie**. Upraviteľná časť mriežky časového vstupu bude zamknutá pre riadky, ktoré majú nový stav.

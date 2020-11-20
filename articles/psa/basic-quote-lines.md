@@ -3,7 +3,7 @@ title: Cenove ponuky a riadky cenovej ponuky
 description: Táto téma poskytuje informácie o jednotkových skupinách a jednotkách.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084479"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129472"
 ---
 # <a name="quotes-and-quote-lines"></a>Cenove ponuky a riadky cenovej ponuky
 
@@ -35,7 +35,7 @@ V Dynamics 365 Project Service Automation, existujú dva typy cenových ponúk: 
 - Predajná cenová ponuka podporuje aktiváciu a revízie. Projektová cenová ponuka nepodporuje tieto procesy.
 - K predajnej cenovej ponuke môžete priložiť viacero objednávok. K projektovej cenovej ponuke môžete priložiť iba jednu zmluvu projektu.
 - Môžete vyhrať predajnú cenovú ponuku a ponechať súvisiacu príležitosť otvorenú. Po víťaznej projektovej cenovej ponuke sa uzavrie súvisiaca príležitosť.
-- Predajná cenová ponuka nezahŕňa niektoré polia a koncepty, ktoré sú súčasťou projektovej cenovej ponuky. Polia zahŕňajú **zmluvnú jednotku** , **Account Manager** a **faktúra na kontaktné meno**.  
+- Predajná cenová ponuka nezahŕňa niektoré polia a koncepty, ktoré sú súčasťou projektovej cenovej ponuky. Polia zahŕňajú **zmluvnú jednotku**, **Account Manager** a **faktúra na kontaktné meno**.  
 - Predajné cenové ponuky a projektové cenové ponuky sú tiež identifikované ako pole založené na množine možností, ktoré je pomenovaná **typ**. Pre predajnú ponuku má toto pole hodnotu **Založené na položke**. Pre projektovú cenovú ponuku, má hodnotu **založené na práci**.
 
 Táto téma sa zameria na detaily projektových ponúk.
@@ -76,7 +76,7 @@ PSA podporuje všetky tri typy fakturačných rozvrhov pre riadky s pevnou cenou
 Profesionálne servisné organizácie zvyčajne oceňujú a fakturujú svojich zákazníkov podľa klasifikácie nákladov. V PSA sú náklady reprezentované nasledujúcimi klasifikáciami transakcií:
 
 - **Čas** – Táto klasifikácia predstavuje náklady na prácu alebo ľudské zdroje ' čas na projekte.
-- **Výdavok** : – Táto klasifikácia predstavuje všetky ostatné druhy výdavkov na projekt. Pretože výdavky môžu byť široko klasifikované, väčšina organizácií vytvára podkategórie, ako je cestovanie, požičovňa áut, hotel, alebo kancelárske potreby.
+- **Výdavok**: – Táto klasifikácia predstavuje všetky ostatné druhy výdavkov na projekt. Pretože výdavky môžu byť široko klasifikované, väčšina organizácií vytvára podkategórie, ako je cestovanie, požičovňa áut, hotel, alebo kancelárske potreby.
 - **Poplatok** – Táto klasifikácia predstavuje rôzne režijné náklady, penále a iné položky, ktoré sú účtované zákazníkovi. 
 - **Daň** – Táto klasifikácia predstavuje čiastky dane, ktoré používatelia pridajú pri zadávaní výdavkov.
 - **Materiálová transakcia** – Táto klasifikácia predstavuje skutočné hodnoty z produktových radov na potvrdenej faktúre projektu.
@@ -91,7 +91,7 @@ Cenová ponuka môže napríklad obsahovať nasledujúce dva riadky cenovej ponu
 - Súvisiace cestovné výdavky, ktoré používajú metódu účtovania pevnej ceny. Napríklad, všetky cestovné výdavky na **Dynamics AX implementáciu** príkladný projekt sú fakturované pevnou peňažnou hodnotou.
 
 > [!NOTE]
-> Kombinácia projektu a klasifikácie transakcií **času** , **nákladov** a **poplatkov** , ktoré súvisia s riadkom cenovej ponuky alebo riadkom zmluvy, musia byť jedinečná. Ak je rovnaká kombinácia projektovej a transakčnej triedy priradená k viac ako jednému riadku zmluvy alebo riadku cenovej ponuky, PSA nebude pracovať správne.
+> Kombinácia projektu a klasifikácie transakcií **času**, **nákladov** a **poplatkov**, ktoré súvisia s riadkom cenovej ponuky alebo riadkom zmluvy, musia byť jedinečná. Ak je rovnaká kombinácia projektovej a transakčnej triedy priradená k viac ako jednému riadku zmluvy alebo riadku cenovej ponuky, PSA nebude pracovať správne.
 
 ## <a name="billing-types"></a>Typy fakturácie
 

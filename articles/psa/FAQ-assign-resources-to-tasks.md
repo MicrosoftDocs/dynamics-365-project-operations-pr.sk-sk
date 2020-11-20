@@ -3,7 +3,7 @@ title: Priraďte zdroj k úlohe
 description: Táto téma poskytuje informácie o tom, ako priradiť zdroje k úlohám.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084553"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125152"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Priraďte zdroj k úlohe
 
@@ -35,7 +35,7 @@ Môžete zdroj priradiť k tímovému projektu a následne ho priradiť k úloh�
 
 1. V karte **člen tímu** pridajte nového člena tímu stlačením možnosti **nový**. 
 
-2. Otvorí sa panel **rýchleho vytvorenia člena tímu** , kde si môžete zvoliť názov rezervovateľného zdroja a nastaviť mu rolu. 
+2. Otvorí sa panel **rýchleho vytvorenia člena tímu**, kde si môžete zvoliť názov rezervovateľného zdroja a nastaviť mu rolu. 
 
     Vyberte jednu z nasledujúcich metód prideľovania pre rezerváciu zdroja:
 
@@ -58,7 +58,7 @@ Keď vytvoríte všeobecného člena tímu prostredníctvom priradenia úlohy, v
 
 2. Zadajte názov, ktorý bude slúžiť ako zástupný znak názvu zdroja. Napríklad, programový manažér
 
-3. Vybert **vytvoriť** a v poli **rýchle vytvorenie porjektového člena tímu** , nastavte rolu pre všeobecný zdroj.
+3. Vybert **vytvoriť** a v poli **rýchle vytvorenie porjektového člena tímu**, nastavte rolu pre všeobecný zdroj.
 
 4. Môžete pokračovať na priradenie úloh k tomuto zástupnému zdroju výberom zdroja v časti **výber zdroja** pre úlohy. Sú uvedené pod **členmi tímu**.
 

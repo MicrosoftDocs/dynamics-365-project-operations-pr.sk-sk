@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084361"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127791"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Vytvorenie a potvrdenie účtovných denníkov opráv
 
@@ -53,7 +53,7 @@ Ak chcete opraviť jednorazové alebo viacnásobné zadania projektu, vykonajte 
 
 7. Ak sa opravy zobrazia podľa očakávania, vyberte položku **Potvrdiť**. V dialógovom okne stlačte možnosť **OK**.
 
-8. Vráťte sa do oblasti **Sales** , zvoľte možnosť **Projekty** a potom otvorte projekt, pre ktoré ste práve aktualizovali časové záznamy. 
+8. Vráťte sa do oblasti **Sales**, zvoľte možnosť **Projekty** a potom otvorte projekt, pre ktoré ste práve aktualizovali časové záznamy. 
 
 9. Na stránke **Projekty** na karte **Skutočné údaje** si zobrazte vykonané zmeny. 
 
@@ -73,13 +73,13 @@ Ak chcete opraviť jednu alebo viac položiek výdavkov, vykonajte nasledujúce 
 
 2. V zozname **Schválené výdavky** zvoľte projekt, ktorý chcete opraviť, a potom stlačte možnosť **Opraviť záznamy**. Automaticky sa vytvorí nový denník korekcií s priradeným typom **Oprava výdavku**. 
 
-3. Na stránke **Nový denník** zadajte **Opis** opravy a na karte **Oprava výdavku** v sekcii **Nové hodnoty pre výdavky** zvoľte dátové polia, ktoré chcete pri vybratých riadkoch nákladov opraviť. Napríklad môžete priradiť náklady inému **Projektu** alebo opraviť **Kategória výdavku** , **Dátum výdavku** alebo **Rezervovateľný zdroj**.
+3. Na stránke **Nový denník** zadajte **Opis** opravy a na karte **Oprava výdavku** v sekcii **Nové hodnoty pre výdavky** zvoľte dátové polia, ktoré chcete pri vybratých riadkoch nákladov opraviť. Napríklad môžete priradiť náklady inému **Projektu** alebo opraviť **Kategória výdavku**, **Dátum výdavku** alebo **Rezervovateľný zdroj**.
 
 4. Stlačte možnosť **Ukážka**. V dialógovom okne stlačte možnosť **OK**. 
 
 5. Skontrolujte opravy na karte **Záznamy v účtovnom denníku**. Môžete si zobraziť zoznam pôvodných skutočností, ktoré súvisia s vybratými výdavkovými položkami, ktoré boli zmenené, a opravené zodpovedajúce riadky, ktoré boli vytvorené.
 
-6. Ak sú opravené hodnoty podľa očakávania, vyberte položku **Potvrdiť**. V dialógovom okne stlačte možnosť **OK**. Ak sa hodnoty nezobrazujú podľa očakávania, vyberte položku **Zrušiť** , čím sa vrátite do zoznamu **Schválené výdavky**. Opakujte kroky 2 až 5. 
+6. Ak sú opravené hodnoty podľa očakávania, vyberte položku **Potvrdiť**. V dialógovom okne stlačte možnosť **OK**. Ak sa hodnoty nezobrazujú podľa očakávania, vyberte položku **Zrušiť**, čím sa vrátite do zoznamu **Schválené výdavky**. Opakujte kroky 2 až 5. 
 
 > [!NOTE]
 > Opravené skutočné hodnoty budú mať rovnaké hodnoty, aké ste vybrali v sekcii **Nové hodnoty pre výdavky**.

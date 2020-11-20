@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084301"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128719"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurácia účtovateľných zložiek riadka zmluvy na základe projektu
 
@@ -35,13 +35,13 @@ Pre riadok zmluvy projektu sa účtovateľnosť definovaná pre roly vzťahuje i
 
 Rola môže byť účtovateľná alebo neúčtovateľná na konkrétnom riadku zmluvy založenej na projekte.
 
-Na karte **Účtovateľné roly** pre riadok zmluvy založenej na projekte, na vedľajšej mriežke **Účtovateľné kategórie** v poli **Typ fakturácie** , aktualizujte typ fakturácie pre rolu.
+Na karte **Fakturovateľné roly** riadka zmluvy založenej na projekte, na vedľajšej mriežke **Fakturovateľné kategórie** v poli **Typ fakturácie** aktualizujte typ fakturácie pre rolu.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Aktualizácia kategórie transakcie, ktorá má byť účtovateľná alebo neúčtovateľná
 
 Kategória transakcie môže byť účtovateľná alebo neúčtovateľná na konkrétnom riadku zmluvy založenej na projekte.
 
-Na karte **Účtovateľné kategórie** pre riadok zmluvy založenej na projekte, na vedľajšej mriežke **Účtovateľné kategórie** v poli **Typ fakturácie** , aktualizujte typ fakturácie pre transakciu.
+Na karte **Fakturovateľné kategórie** riadka zmluvy založenej na projekte, na vedľajšej mriežke **Fakturovateľné kategórie** v poli **Typ fakturácie** aktualizujte typ fakturácie pre transakciu.
 
 ### <a name="resolve-chargeability"></a>Vyriešenie účtovateľnosti
 

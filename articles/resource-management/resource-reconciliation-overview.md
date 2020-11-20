@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 574afac3bf5d1f6e5e13d8c61aa1ace6188f4008
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084306"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125737"
 ---
 # <a name="resource-reconciliation-overview"></a>Prehľad odsúhlasenia zdrojov
 
@@ -46,7 +46,7 @@ V niektorých prípadoch, keď zobrazíte čas na vyššej úrovni ako na úrovn
 Keď zobrazíte čas na vyšších úrovniach, bunky na karte **odsúhlasenie** majú indikátor, ktorý vám oznámi, že existujú rozdiely na nižších úrovniach. Dvojitým kliknutím na bunku môžete zväčšiť zobrazenie rozdielu. Potom môžete kliknutím pravým tlačidlom myši na vzdialiť. Výberom prostriedku a následným použitím ovládacieho prvku **ďalší rozdiel** na paneli s nástrojmi mriežky môžete prejsť na ďalší rozdiel medzi rezerváciami a priradeniami pre daný zdroj. Potom môžete použiť na vrátenie kontrolu **predchádzajúci rozdiel**. V časti **nastavenia** môžete tiež vypnúť ukazovateľ rozdielu a správanie navigácie.
 
 
-Ak máte priradenia úloh pre zdroj, ale žiadne rezervácie, na stránke **projekty** na karte **odsúhlasenie** vyberte nedostatok rezervácie a potom vyberte položku **rozšíriť rezerváciu.** Zobrazí sa dialógové okno **rozšíriť rezerváciu** a zobrazí sa rezervácia, ktorá je potrebná na vyriešenie nedostatku zdroja. Zobrazuje aj existujúce rezervácie zdrojov vo všetkých projektoch alebo iných plánovateľných entitách. Ak vyberiete **OK** , ak chcete vytvoriť rezerváciu zdroja bez ohľadu na dostupnosť tohto prostriedku, môžete spôsobiť prekročenie rezervácie.
+Ak máte priradenia úloh pre zdroj, ale žiadne rezervácie, na stránke **projekty** na karte **odsúhlasenie** vyberte nedostatok rezervácie a potom vyberte položku **rozšíriť rezerváciu.** Zobrazí sa dialógové okno **rozšíriť rezerváciu** a zobrazí sa rezervácia, ktorá je potrebná na vyriešenie nedostatku zdroja. Zobrazuje aj existujúce rezervácie zdrojov vo všetkých projektoch alebo iných plánovateľných entitách. Ak vyberiete **OK**, ak chcete vytvoriť rezerváciu zdroja bez ohľadu na dostupnosť tohto prostriedku, môžete spôsobiť prekročenie rezervácie.
 
 Projektový manažér alebo správca zdrojov potom môže pomocou tabule plánovania spravovať všetky situácie, v ktorých je zdroj prerezervovaný nad rámec jeho kapacity.
 

@@ -3,7 +3,7 @@ title: Prehľad skutočných hodnôt
 description: Táto téma poskytuje informácie o skutočných údajoch projektu.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084562"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129787"
 ---
 # <a name="actuals-overview"></a>Prehľad skutočných hodnôt
 
@@ -39,7 +39,7 @@ V PSA, keď je predložená časová položka pre projekt, ktorý je priradený 
 
 Logika pre zadávanie predvolených cien býva ako záznam v účtovnom denníku. Všetky hodnoty polí z časového záznamu sa skopírujú do účtovného denníka. Tieto polia zahŕňajú dátum transakcie, riadok zmluvy, ku ktorému je projekt priradený, a výsledok meny v príslušnom cenníku. 
 
-Polia, ktoré ovplyvňujú predvolené ceny, ako je **Rola** a **Organizačná Jednotka** , spôsobujú, že v zázname účtovného denníka sa predvolene zadá primeraná cena. Ak do časového záznamu pridáte vlastné pole a chcete, aby sa hodnota poľa šírila na skutočné údaje, vytvorte pole v entite Skutočná entita a použite priradenia polí na skopírovanie poľa z časového záznamu do skutočných údajov.
+Polia, ktoré ovplyvňujú predvolené ceny, ako je **Rola** a **Organizačná Jednotka**, spôsobujú, že v zázname účtovného denníka sa predvolene zadá primeraná cena. Ak do časového záznamu pridáte vlastné pole a chcete, aby sa hodnota poľa šírila na skutočné údaje, vytvorte pole v entite Skutočná entita a použite priradenia polí na skopírovanie poľa z časového záznamu do skutočných údajov.
 
 ## <a name="submitting-an-expense-entry"></a>Odoslanie výdavkového záznamu
 

@@ -3,7 +3,7 @@ title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, v
 description: Táto téma obsahuje zoznam funkcií a opráv dostupných v aktualizácii Project Service Automation, vydanie 22, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084312"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126637"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Aktualizácia pre Project Service Automation, vydanie 22, V3
 
@@ -69,4 +69,4 @@ Vyriešili sa tieto problémy:
 - Chybové hlásenie o overení sa nezobrazí, keď je vo vyhľadávaní v cenníku vo formulári/entite „Nový projektový cenník pre cenovú ponuku“ vybratý Cenník obstarávacích cien.
 - Uzatvorenie cenovej ponuky ako získanej nemá za následok presun na vytvorenú zmluvu, ak je BPF pripojená k cenovej ponuke v záverečnej etape.
 - Vrátenie položky **Nefakturovaný predaj** je spojené s pôvodnými nákladmi, keď je odvolané zadanie času.
-- Po výbere tlačidla **Potvrdiť** sa stav faktúry nezmení na **Potvrdená** , pokiaľ sa faktúra neobnoví.
+- Po výbere tlačidla **Potvrdiť** sa stav faktúry nezmení na **Potvrdená**, pokiaľ sa faktúra neobnoví.

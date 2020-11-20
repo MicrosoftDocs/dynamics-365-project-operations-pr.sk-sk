@@ -2,7 +2,7 @@
 title: Ako prispôsobiť projektové fázy toku obchodného procesu?
 description: Prehľad ako môžte prispôsobiť tok obchodného procesu v rámci etáp projektu?
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084550"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125062"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Ako prispôsobiť projektové fázy toku obchodného procesu?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Je známe obmedzenia v starších verziách aplikácie Project Service že mená etapy projektu fázach pracovného procesu sa musia presne s očakávanými anglickými názvami ( **Quote** , **Plan** , **Close** ). V opačnom prípade nebude obchodná logika, ktorá sa spolieha na názvy fáz v angličtine, pracovať podľa očakávaní. To je dôvod, prečo nevidíte známe akcie, akými sú **Prepnúť proces** alebo **Upraviť proces** na formulári projektu a nie je podporovaná ani možnosť prispôsobenia toku obchodného procesu. 
+Je známe obmedzenia v starších verziách aplikácie Project Service že mená etapy projektu fázach pracovného procesu sa musia presne s očakávanými anglickými názvami (**Quote**, **Plan**, **Close**). V opačnom prípade nebude obchodná logika, ktorá sa spolieha na názvy fáz v angličtine, pracovať podľa očakávaní. To je dôvod, prečo nevidíte známe akcie, akými sú **Prepnúť proces** alebo **Upraviť proces** na formulári projektu a nie je podporovaná ani možnosť prispôsobenia toku obchodného procesu. 
 
 Toto obmedzenie bolo vyriešené vo verzii 2.4.5.48 a novšej. Tento článok poskytuje navrhované riešenia pre staršie verzie, ak potrebujete prispôsobenie predvoleného toku obchodného procesu pre staršie verzie.  
 
@@ -38,7 +38,7 @@ Toto obmedzenie bolo vyriešené vo verzii 2.4.5.48 a novšej. Tento článok po
 Projektové fázy toku obchodných procesov zahŕňajú obchodnú logiku, ktorá poháňa nasledujúce správania v aplikácii:
 - Keď sa projekt priradí k cenovej ponuke, kód nastaví tok obchodného procesu na fázu **Quote**.
 - Keď sa projekt priradí ku zmluve, kód nastaví tok obchodného procesu na fázu **Plan**.
-- Keď tok obchodného procesu prejde do fázy **Close** , záznam projektu sa deaktivuje. Ak je deaktivovaný projektu, projektový formulár a prácu štruktúru činností (WBS) sú nastavené iba na čítanie, pomenovaných zdrojov rezervácie sú uvoľnené a akékoľvek priradené Cenníky sú deaktivované.
+- Keď tok obchodného procesu prejde do fázy **Close**, záznam projektu sa deaktivuje. Ak je deaktivovaný projektu, projektový formulár a prácu štruktúru činností (WBS) sú nastavené iba na čítanie, pomenovaných zdrojov rezervácie sú uvoľnené a akékoľvek priradené Cenníky sú deaktivované.
 
 Tento biznis logika sa opiera o anglické názvy pre fázy projektu. Táto závislosti na anglických názvoch fáz predstavuje hlavný dôvod, prečo sa neodporúča upravovať fázy projektu toku obchodného procesu. Rovnako pre to tiež nevidíte spoločné akcie toku obchodných procesov, akými je **Prepnúť proces** alebo **Upraviť proces** v entite projektu.
 
@@ -48,7 +48,7 @@ V aplikácii Project Service verzie 1.x na platforme 8.2, keď sa názov etapy v
 
 V aplikácii Project Service verzie 2.4.4.30 alebo novšej na platforme 9.0 došlo k výraznej architektonickej zmene toku obchodných procesov, ktorá si vyžadovala prepísanie obchodnej logiky toku obchodného procesu. Výsledkom je, že v prípade, ak sa názvy etapy procesu nezhodujú s očakávanými anglickými názvami, zobrazí sa vám chybové hlásenie. 
 
-Preto ak chcete prispôsobiť projektové fázy pracovného procesu pre projekt entitu, môžete len pridať zbrusu novej etapy do predvoleného pracovného procesu pre projekt subjektu, pričom ponecháte etapy **Cenová ponuka** , **Plán** a **Zavrieť** tak, ako sú. Toto obmedzenie zaisťuje, že sa vám nebudú zobrazovať chyby z obchodnej logiky, ktorá očakáva v toku obchodných procesov anglické názvy etáp.
+Preto ak chcete prispôsobiť projektové fázy pracovného procesu pre projekt entitu, môžete len pridať zbrusu novej etapy do predvoleného pracovného procesu pre projekt subjektu, pričom ponecháte etapy **Cenová ponuka**, **Plán** a **Zavrieť** tak, ako sú. Toto obmedzenie zaisťuje, že sa vám nebudú zobrazovať chyby z obchodnej logiky, ktorá očakáva v toku obchodných procesov anglické názvy etáp.
 
 Vo verzii 2.4.5.48 alebo novšej bola obchodná logika popísaná v tomto článku odstránená z predvoleného toku obchodného procesu pre entitu projektu. Inováciou na danú alebo novšiu verziu budete môcť upravovať alebo nahrádzať predvolený tok obchodného procesu tým vlastným. 
 
@@ -56,12 +56,12 @@ Vo verzii 2.4.5.48 alebo novšej bola obchodná logika popísaná v tomto člán
 
 Ak inovácia nie je možnosť, môžete prispôsobiť projektové fázy toku obchodného procesu pre projektovú entitu jedným z týchto dvoch spôsobov:
 
-1. Pridať ďalšie etapy s predvolenou konfiguráciou, pri zachovaní anglicky fáze mená pre **Cenová ponuka** , **Plán** , a **Zavrieť**.
+1. Pridať ďalšie etapy s predvolenou konfiguráciou, pri zachovaní anglicky fáze mená pre **Cenová ponuka**, **Plán**, a **Zavrieť**.
 
 
 ![Snímka obrazovky pridávania etáp k predvolenej konfigurácii](media/FAQ-Customize-BPF-1.png)
  
-2. Vytvorte si vlastný tok obchodných procesov a nastavte ho ako hlavný tok obchodných procesov pre entitu projektu, čo vám umožní mať ľubovoľné názvy etáp. Ak však chcete používať rovnaké štandardné projektové etapy **Cenová ponuka** , **Plán** a **Zatvoriť** , budete musieť vykonať niekoľko prispôsobení, ktoré sú odvodené od vlastných názvov etáp. Komplexnejšia logika sa využíva pri zatváraní projektu, čo možno aj naďalej spustiť obyčajnou deaktiváciou záznamu projektu.
+2. Vytvorte si vlastný tok obchodných procesov a nastavte ho ako hlavný tok obchodných procesov pre entitu projektu, čo vám umožní mať ľubovoľné názvy etáp. Ak však chcete používať rovnaké štandardné projektové etapy **Cenová ponuka**, **Plán** a **Zatvoriť**, budete musieť vykonať niekoľko prispôsobení, ktoré sú odvodené od vlastných názvov etáp. Komplexnejšia logika sa využíva pri zatváraní projektu, čo možno aj naďalej spustiť obyčajnou deaktiváciou záznamu projektu.
 
 ![Prispôsobenie BPF](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Na vytvorenie vlastného toku obchodného procesu pre entitu projektu postupujte
 
   ![Vytvoriť proces](media/FAQ-Customize-BPF-3.png)
 
-2. Návrhár procesov použite na vytvorenie požadovaných názvov etapy. Ak chcete rovnaké funkcie ako predvolené etapy pre **Cenová ponuka** , **Plán** a **Zavrieť** , budete to musieť vytvoriť na základe vlastných názvov fáz toku obchodného procesu.
+2. Návrhár procesov použite na vytvorenie požadovaných názvov etapy. Ak chcete rovnaké funkcie ako predvolené etapy pre **Cenová ponuka**, **Plán** a **Zavrieť**, budete to musieť vytvoriť na základe vlastných názvov fáz toku obchodného procesu.
 
    ![Snímka obrazovky návrhára procesov použitého pri prispôsobovaní BPF](media/FAQ-Customize-BPF-4.png) 
 
