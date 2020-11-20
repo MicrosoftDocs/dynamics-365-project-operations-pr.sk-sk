@@ -3,7 +3,7 @@ title: Čas, výdavok a príručka spolupráce
 description: Sprievodca k času, nákladom a spolupráci pre Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3404642bf20ee23000202b3447f3167aeb4dee27
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4f975a248c6224bdea72ca1ecdb8a299f0f9254c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084453"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120067"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Sprievodca časom, nákladmi a spoluprácou (Project Service)
 
@@ -59,7 +59,7 @@ Kliknite na odkaz nižšie a dozviete sa viac o tom, čo môžete urobiť so [!I
   
 -   [Povolenie iným osobám zadať čas vstupu alebo náklady](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [Naplánovanie času voľna ](../psa/schedule-time-off.md)  
+-   [Naplánovanie času voľna](../psa/schedule-time-off.md)  
   
 -   [Spolupracujte s členmi svojho projektového tímu s Office 365 skupinami](../psa/collaborate-project-team-members-office-365-groups.md)  
   

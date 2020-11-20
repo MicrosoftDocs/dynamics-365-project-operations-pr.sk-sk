@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084461"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121282"
 ---
 # <a name="products"></a>Produkty
 
@@ -38,22 +38,22 @@ Výrobky sú základom vášho podnikania. Katalóg produktov v Dynamics 365 Sal
 
     -  **Názov**
     -  **Kód Product ID**
-    -  **Nadradený** : Zvoľte si nadradený rad pre produkt. Ak vytvárate podradený produkt v rade produktov, názov nadradeného radu produktov sa vyplní sem. Túto možnosť nemožno zmeniť po uložení záznamu.
-    -  **Platné od**/**Platné do** : Definujte obdobie, počas ktorého bude produkt platný po výbere dátumu **Platné od** a **Platné do**.
-    -  **Jednotková skupina** : vyberte skupinu jednotiek. Jednotková skupina je zbierka rôznych jednotiek, v ktorých sa produkt predáva, a určuje spôsob zoskupovania jednotlivých položiek do väčších množstiev. Ak napríklad pridávate semená ako produkt, môžete vytvoriť skupinu jednotiek s názvom „Semená” a definovať jeho primárnu jednotku ako „balík”.
-    -  **Predvolená jednotka** : Vyberte najbežnejšiu jednotku, v ktorej sa bude produkt predávať. Jednotky predstavujú množstvá alebo hodnoty, v ktorých sa produkty predávajú. Ak napríklad pridávate ako produkt semená, môžete ich predávať po balíčkoch, krabiciach či paletách. Každý z nich sa stáva jednotky produktu. Ak semená sú väčšinou predávajú v balení, vyberte to ako jednotku.
-    -  **Predvolený cenník** : Ak ide o nový produkt, toto pole je len na čítanie. Pred výberom predvoleného cenníka musíte vyplniť všetky povinné polia a potom uložiť záznam. Hoci sa nevyžaduje predvolený cenník, po uložení záznamu produktu je rozumné nastaviť predvolený cenník pre každý produkt. Ak záznam zákazníka neobsahuje cenník, Sales tak bude môcť pomocou predvoleného cenníka vytvárať ponuky, objednávky a faktúry.
-    -  **Počet desatinných miest** : Zadajte celé číslo medzi 0 a 5. Ak produkt nie je možné rozdeliť na čiastkové množstvá, zadajte hodnotu 0. Presnosť poľa **Množstvo** v cenovej ponuke, objednávke alebo zázname produktu faktúry sa overí porovnaním s hodnotou v tomto poli v prípade, že produkt nemá priradený cenník.
-    -  **Subjekt** : Priradí tento produkt môžete k subjektu. Subjekty môžete použiť na kategorizáciu produktov a filtrovanie zostáv.
+    -  **Nadradený**: Zvoľte si nadradený rad pre produkt. Ak vytvárate podradený produkt v rade produktov, názov nadradeného radu produktov sa vyplní sem. Túto možnosť nemožno zmeniť po uložení záznamu.
+    -  **Platné od**/**Platné do**: Definujte obdobie, počas ktorého bude produkt platný po výbere dátumu **Platné od** a **Platné do**.
+    -  **Jednotková skupina**: vyberte skupinu jednotiek. Jednotková skupina je zbierka rôznych jednotiek, v ktorých sa produkt predáva, a určuje spôsob zoskupovania jednotlivých položiek do väčších množstiev. Ak napríklad pridávate semená ako produkt, môžete vytvoriť skupinu jednotiek s názvom „Semená” a definovať jeho primárnu jednotku ako „balík”.
+    -  **Predvolená jednotka**: Vyberte najbežnejšiu jednotku, v ktorej sa bude produkt predávať. Jednotky predstavujú množstvá alebo hodnoty, v ktorých sa produkty predávajú. Ak napríklad pridávate ako produkt semená, môžete ich predávať po balíčkoch, krabiciach či paletách. Každý z nich sa stáva jednotky produktu. Ak semená sú väčšinou predávajú v balení, vyberte to ako jednotku.
+    -  **Predvolený cenník**: Ak ide o nový produkt, toto pole je len na čítanie. Pred výberom predvoleného cenníka musíte vyplniť všetky povinné polia a potom uložiť záznam. Hoci sa nevyžaduje predvolený cenník, po uložení záznamu produktu je rozumné nastaviť predvolený cenník pre každý produkt. Ak záznam zákazníka neobsahuje cenník, Sales tak bude môcť pomocou predvoleného cenníka vytvárať ponuky, objednávky a faktúry.
+    -  **Počet desatinných miest**: Zadajte celé číslo medzi 0 a 5. Ak produkt nie je možné rozdeliť na čiastkové množstvá, zadajte hodnotu 0. Presnosť poľa **Množstvo** v cenovej ponuke, objednávke alebo zázname produktu faktúry sa overí porovnaním s hodnotou v tomto poli v prípade, že produkt nemá priradený cenník.
+    -  **Subjekt**: Priradí tento produkt môžete k subjektu. Subjekty môžete použiť na kategorizáciu produktov a filtrovanie zostáv.
 
 4.  Vyberte položku **Uložiť**.
 5.  Na karte **Ďalšie podrobnosti** v sekcii **Položky cenníka** vyberte položku **Ďalšie príkazy** a potom vyberte **Pridať novú položku cenníka**.
 7.  Na karte **Ďalšie podrobnosti** v časti **Vzťah produktu** vyberte ikonu **Ďalšie príkazy** a potom vyberte **Pridať nový vzťah produktu**.
-8.  Vo formulári **Nový vzťah produktu** zadajte nasledovné podrobnosti a na paneli príkazov stlačte možnosť **Uložiť a zavrieť** :
+8.  Vo formulári **Nový vzťah produktu** zadajte nasledovné podrobnosti a na paneli príkazov stlačte možnosť **Uložiť a zavrieť**:
 
-    -   **Súvisiaci produkt** : Vyberte produkt, ktorý chcete pridať ako súvisiaci produkt do existujúce záznamu produktu, na ktorom pracujete.
-    -   **Typ vzťahu predaja** : Vyberte, či chcete pridať produkt ako up-sell, cross-sell, príslušenstvo, alebo náhradný produkt.
-    -   **Smer** : Vyberte, či vzťah medzi výrobkami bude jednosmerný alebo obojsmerný. Keď vyberiete jednosmerný, produkt, ktorý ste vybrali v **Súvisiacom produkte** sa zobrazí ako odporúčanie pre existujúci produkt, ale nie naopak.
+    -   **Súvisiaci produkt**: Vyberte produkt, ktorý chcete pridať ako súvisiaci produkt do existujúce záznamu produktu, na ktorom pracujete.
+    -   **Typ vzťahu predaja**: Vyberte, či chcete pridať produkt ako up-sell, cross-sell, príslušenstvo, alebo náhradný produkt.
+    -   **Smer**: Vyberte, či vzťah medzi výrobkami bude jednosmerný alebo obojsmerný. Keď vyberiete jednosmerný, produkt, ktorý ste vybrali v **Súvisiacom produkte** sa zobrazí ako odporúčanie pre existujúci produkt, ale nie naopak.
 
 9.  Na formulári Produkt vyberte položku **Uložiť**.
 
@@ -119,8 +119,8 @@ Systém overuje, že iba číselné vlastnosti alebo vlastnosti produktu, ktoré
 
 Napríklad ak existujú nasledujúce vlastnosti: 
 
-- **Počet používateľov** : Počet používateľov 
-- **Počet mesiacov** : Počet mesiacov predplatného
+- **Počet používateľov**: Počet používateľov 
+- **Počet mesiacov**: Počet mesiacov predplatného
 - **Produkt SKU** 
 
 Vlastnosti **Počet používateľov** a **Počet mesiacov** môžu byť označené ako faktory kvantity úpravou vlastnosti produktového riadku. 

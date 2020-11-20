@@ -3,7 +3,7 @@ title: Plány projektov
 description: Táto téma poskytuje informácie o tom, ako vytvoriť plán.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084399"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123261"
 ---
 # <a name="project-schedules"></a>Plány projektov 
 
@@ -83,12 +83,12 @@ Tlačidlá **posunúť nahor** a **posunúť nadol** zmenia pozíciu úlohy v na
 
 Mriežka **plánu** je plne prístupná a môže sa používať s čítačkami obrazovky, ako sú napríklad Narrator, JAWS alebo NVDA. Môžete prechádzať oblasti mriežky pomocou šípok (ako v Microsoft Excel), môžete použiť klávesu Tab na postúp cez interaktívne prvky UI, a môžete použiť šípku nadol, klávesu ENTER, alebo medzerník pre výber a vyvolanie rozbaľovacích ponúk. Hlavičky stĺpcov sú tiež interaktívne. Môžete skryť a zobraziť stĺpce, pomocou klávesy Tab a kláves so šípkami prechádzať hlavičkami stĺpcov a použiť tlačidlá akcie na paneli s nástrojmi. Okrem toho môžete použiť nasledujúce klávesové skratky:
 
-- **Obnoviť** : ALT+SHIFT+F5
-- **Pridať** : ALT+SHIFT+Insert
-- **Odstrániť** : ALT+SHIFT+DELETE
-- **Posunúť nahor/nadol** : ALT+SHIFT+šípky nahor/nadol
-- **Znížiť/Zvýšiť úroveň** : ALT_SHIFT+šípky vľavo/vpravo
-- **Rozbaliť/Zbaliť hierarchie** : ALT+SHIFT+plus/mínus tlačidlá
+- **Obnoviť**: ALT+SHIFT+F5
+- **Pridať**: ALT+SHIFT+Insert
+- **Odstrániť**: ALT+SHIFT+DELETE
+- **Posunúť nahor/nadol**: ALT+SHIFT+šípky nahor/nadol
+- **Znížiť/Zvýšiť úroveň**: ALT_SHIFT+šípky vľavo/vpravo
+- **Rozbaliť/Zbaliť hierarchie**: ALT+SHIFT+plus/mínus tlačidlá
 
 ## <a name="task-attributes"></a>Atribúty úlohy
 
@@ -98,19 +98,19 @@ Názov úlohy popisuje prácu, ktorá sa musí dokončiť. V PSA, atribúty, kto
  
 ### <a name="schedule-attributes"></a>Naplánovať atribúty
 
-Atribúty **Úsilie** , **dátum začiatku** , **dátum konca** a **trvanie** určujú plán úlohy.
+Atribúty **Úsilie**, **dátum začiatku**, **dátum konca** a **trvanie** určujú plán úlohy.
 
 Ďalšie atribúty plánu zahŕňajú:
 
-- **Hodiny úsilia** : zadajte odhad hodín, ktoré sú potrebné na dokončenie úlohy. 
-- **Trvanie** : zadajte počet pracovných dní, ktoré sú potrebné na dokončenie úlohy.
-- **ID plánu** : toto automaticky generované ID sa používa na objednávku úloh v hierarchii. Závislosti medzi úlohami riadia skutočné poradie, v ktorom sú úlohy spracované.
+- **Hodiny úsilia**: zadajte odhad hodín, ktoré sú potrebné na dokončenie úlohy. 
+- **Trvanie**: zadajte počet pracovných dní, ktoré sú potrebné na dokončenie úlohy.
+- **ID plánu**: toto automaticky generované ID sa používa na objednávku úloh v hierarchii. Závislosti medzi úlohami riadia skutočné poradie, v ktorom sú úlohy spracované.
  
 ### <a name="staffing-attributes"></a>Personálne atribúty
 
 Personálne atribúty sú prístupné prostredníctvom poľa **zdroje** v pláne. Môžete vyhľadať existujúci zdroj alebo kliknúť na **vytvoriť** a na paneli **rýchle vytvorenie** pridať člena projektového tímu ako nový zdroj.
 
-Polia **rola** , **zdrojová jednotka** a **názov pozície** sa používajú na popis personálnych požiadaviek na úlohu. Tieto personálne atribúty spolu s plánom úloh sa používajú na vyhľadanie dostupných zdrojov na vykonanie tejto úlohy.
+Polia **rola**, **zdrojová jednotka** a **názov pozície** sa používajú na popis personálnych požiadaviek na úlohu. Tieto personálne atribúty spolu s plánom úloh sa používajú na vyhľadanie dostupných zdrojov na vykonanie tejto úlohy.
 
 **Rola** - zadajte typ zdroja, ktorý je potrebný na vykonanie úlohy.
 
@@ -134,7 +134,7 @@ Režim úlohy určuje plánovanie úloh listového uzla. PSA podporuje dva reži
 
 ### <a name="auto-scheduling"></a>Automatické plánovanie 
  
-Keď nastavíte režim úlohy na **automatické plánovanie** , systém plánovania úloh použije pravidlá plánovania na nasledovné atribúty úloh, čím sa určí plán úlohy.
+Keď nastavíte režim úlohy na **automatické plánovanie**, systém plánovania úloh použije pravidlá plánovania na nasledovné atribúty úloh, čím sa určí plán úlohy.
 
 #### <a name="scheduling-rules"></a>Pravidlá plánovania
 

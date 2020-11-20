@@ -2,7 +2,7 @@
 title: Čo je nové alebo zmenené v Project Service Automation verzia 3
 description: Táto téma poskytuje informácie o tom, čo je nové a zmenené v Project Service Automation verzia 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084326"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120022"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Čo je nové alebo zmenené v Project Service Automation verzia 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Odhady boli rozdelené na dve karty **Priradenie zdroja** a **Odhady**. Karta **
 
 ![Karta Priradenie zdroja zobrazuje odhady intenzity a priradenia zdrojov pre úlohy](media/resource-assignments-tab-02.png)
 
-Na karte **Odhady** sa zobrazujú čiastky nákladov a predaja pre priradenia prostriedkov. Čiastky sú iba na čítanie. Náklady a predajné ceny sú teraz riadené od členov tímu úlohy v rozvrhu. To znamená, že ak máte úlohu bez priradenia, úloha sa zobrazí pod nepriradený kontajner. To tiež znamená, že bez **roly** , čo je predvolený cenový rozmer, tam nebudú žiadne odhadované náklady alebo predaje, ak máte zákazníka alebo zmluvu/cenovú ponuku spojenú s projektom. 
+Na karte **Odhady** sa zobrazujú čiastky nákladov a predaja pre priradenia prostriedkov. Čiastky sú iba na čítanie. Náklady a predajné ceny sú teraz riadené od členov tímu úlohy v rozvrhu. To znamená, že ak máte úlohu bez priradenia, úloha sa zobrazí pod nepriradený kontajner. To tiež znamená, že bez **roly**, čo je predvolený cenový rozmer, tam nebudú žiadne odhadované náklady alebo predaje, ak máte zákazníka alebo zmluvu/cenovú ponuku spojenú s projektom. 
 
 ![Karta Odhady zobrazujúca čiastky nákladov a predaja](media/estimates-tab-03.png)
   
@@ -146,7 +146,7 @@ Ak máte priradenia úloh pre prostriedok bez rezervácií (nedostatok rezervác
 Táto časť obsahuje informácie o zmenách času, výdavkov a schvaľovania vo verzii 3 Project Service Automation. Ako súčasť Dynamics 365 Project Service Automation riešenia sa obnovila funkcia **Zadanie času** na využívanie rámci zjednoteného rozhrania. To umožňuje doručenie konzistentného, jednotného používateľského rozhrania, ktoré nasleduje responzívny dizajn pre optimálne prezeranie na ľubovoľnej veľkosti obrazovky alebo zariadení. 
 
 ### <a name="landing-page"></a>Vstupná stránka
-Nerozšíriteľné vlastné časy boli vo verzii 3 zastarané. Namiesto toho je teraz rozšíriteľná a prístupná natívna mriežka skúsenosti. Môžete pristupovať k funkcii časového vstupu pomocou mapy lokality na ľavej strane. S touto zmenou už nebudete môcť zadávať čas na jeden týždeň súčasne. Namiesto toho budete musieť vytvoriť časový záznam pre každý deň v mriežke. Po niekoľkých vytvorených časových položkách, používatelia môžu hromadne vytvárať časové položky s funkciou **Kopírovanie** , ktorá je vysvetlená ďalej v tejto téme. 
+Nerozšíriteľné vlastné časy boli vo verzii 3 zastarané. Namiesto toho je teraz rozšíriteľná a prístupná natívna mriežka skúsenosti. Môžete pristupovať k funkcii časového vstupu pomocou mapy lokality na ľavej strane. S touto zmenou už nebudete môcť zadávať čas na jeden týždeň súčasne. Namiesto toho budete musieť vytvoriť časový záznam pre každý deň v mriežke. Po niekoľkých vytvorených časových položkách, používatelia môžu hromadne vytvárať časové položky s funkciou **Kopírovanie**, ktorá je vysvetlená ďalej v tejto téme. 
 
 ![Vstupná stránka zadávania času](media/time-entry-landing-page-07.png)
  
@@ -192,19 +192,19 @@ Platforma Common Data Service nepodporuje jedného používateľa napodobňujúc
 Prispôsobenia umožňujú pridať **Rezervovateľný zdroj** na vytvorenie a úpravu skúseností úpravy, ktoré používateľovi umožňujú konať ako delegát zmenou poľa **Rezervovateľný zdroj** inému používateľovi, ktorého záznamy času a výdavkov je potrebné zaznamenať. Nasledujúce kroky pokrývajú delegáciu zadania času. Rovnaké informácie sa vzťahujú na delegovanie vstupných výdavkov. 
  
 1.  Zabezpečiť, aby delegovaný používateľ mal globálny bezpečnostný prístup k projektom a projektovým úlohám. 
-1.  Keďže **Rezervovateľný zdroj** , ktorý je poľom v entite **Zadanie času** , nie je vystavený na stránke **Rýchle vytvorenie** , musíte ho pridať.
+1.  Keďže **Rezervovateľný zdroj**, ktorý je poľom v entite **Zadanie času**, nie je vystavený na stránke **Rýchle vytvorenie**, musíte ho pridať.
 
     -alebo-
 
-    Vytvorenie vlastného zobrazenia, ktoré obsahuje stĺpec **Rezervovateľný zdroj** , na zobrazenie iba položiek času vytvorených pre zdroj. Publikujte prispôsobenia v návrhárovi aplikácie modulu pre toto zobrazenie na zobrazenie v časti **Výber zobrazenia** na stránke **Zadania času**. Existujú dva doplnky, ktoré spracúvajú nastavenie pre manažéra neprojektových časových položiek:
+    Vytvorenie vlastného zobrazenia, ktoré obsahuje stĺpec **Rezervovateľný zdroj**, na zobrazenie iba položiek času vytvorených pre zdroj. Publikujte prispôsobenia v návrhárovi aplikácie modulu pre toto zobrazenie na zobrazenie v časti **Výber zobrazenia** na stránke **Zadania času**. Existujú dva doplnky, ktoré spracúvajú nastavenie pre manažéra neprojektových časových položiek:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
  
-1. Vytvorte nový doplnok na prepísanie poľa **Manažér** manažéra používateľa priradeného v poli **Rezervovateľný zdroj**. Použite rovnakú **Etapu vykonávania** ako je out-of-band (OOB) doplnok (predbežné overenie) a použite **Príkaz na vykonanie** , ktorý je vyššie než doplnky OOB (väčšie ako 1). Tým sa zabezpečí, že vlastný doplnok sa vykoná až po doplnkoch OOB.  
+1. Vytvorte nový doplnok na prepísanie poľa **Manažér** manažéra používateľa priradeného v poli **Rezervovateľný zdroj**. Použite rovnakú **Etapu vykonávania** ako je out-of-band (OOB) doplnok (predbežné overenie) a použite **Príkaz na vykonanie**, ktorý je vyššie než doplnky OOB (väčšie ako 1). Tým sa zabezpečí, že vlastný doplnok sa vykoná až po doplnkoch OOB.  
  
 ### <a name="end-user-experience"></a>Skúsenosť koncového používateľa
-1.  Keď vytvoríte časovú položku na stránke rýchleho vytvorenia, zadajte podrobnosti projektu a projektu a potom vyberte používateľa v poli **Rezervovateľné zdroje** , pre ktoré je potrebné zaznamenať časové údaje. 
+1.  Keď vytvoríte časovú položku na stránke rýchleho vytvorenia, zadajte podrobnosti projektu a projektu a potom vyberte používateľa v poli **Rezervovateľné zdroje**, pre ktoré je potrebné zaznamenať časové údaje. 
 2.  V predvolenom nastavení toto pole predvolené prihláseného používateľa, avšak vzhľadom na to, že používateľ prepísal toto poľa, čas položka je teraz vytvorená pre vybraný **Rezervovateľný zdroj**.
 3.  Keď odošlete položky času, ktoré ste vytvorili pre tieto záznamy, položky budú zaradené do frontu pre schvaľovateľa projektu podľa očakávania. 
 4.  Keď si spomínate časové položky vytvorené pre iného používateľa, položky času sa vrátia do stavu **Koncept** s poľom **Rezervovateľný zdroj** nastaveným inému používateľovi. 
@@ -229,7 +229,7 @@ Pre zákazníkov Project Service Automation, ktorí chcú naďalej používať t
 Vo verzii 3 Project Service Automation sa zmenili aspekty nastavenia a riadenia cenových ponúk a zmlúv. Nasledujúce časti poskytujú podrobnejšie informácie.
 
 ### <a name="set-up-chargeability-options"></a>Nastavenie možností účtovateľnosti
-Vo verziách 1 a 2 sa nastavenie vznik daňovej povinnosti pre roly a kategórie pre konkrétne cenové ponuky a zmluvy vykonalo pomocou zobrazenia **Účtovateľnosť** , ktorá bola v hornej navigácii riadka cenovej ponuky alebo riadka zmluvy. To bolo tiež, kde by ste mohli nastaviť ceny pre tieto kategórie rol a výdavkov.
+Vo verziách 1 a 2 sa nastavenie vznik daňovej povinnosti pre roly a kategórie pre konkrétne cenové ponuky a zmluvy vykonalo pomocou zobrazenia **Účtovateľnosť**, ktorá bola v hornej navigácii riadka cenovej ponuky alebo riadka zmluvy. To bolo tiež, kde by ste mohli nastaviť ceny pre tieto kategórie rol a výdavkov.
 
 Verzia 3, nastavenie možnosti vznik daňovej povinnosti podľa rolí a výdavkov kategórie sa vykoná na úrovni cenovej ponuky alebo zmluvy. Nastavenie cien je oddelené od nastavenia účtovateľnosti. Možnosti **Účtovateľné roly** a **Fakturovateľné kategórie** ako karty nájdete na stránkach **Riadok cenovej ponuky** a **Riadok zmluvy** bez nutnosti používať navigačné prvky v hornej časti.
 
@@ -251,4 +251,4 @@ Nasledujúce grafika zobrazuje stav po vytvorení vlastných cenníkov.
 ![Po vlastných cenníkoch](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
-> Krátke oneskorenie môže nastať medzi po kliknutí na tlačidlo **Vytvorenie vlastných cien** , keď je vytvorený vlastný cenník. Odporúčame obnoviť mriežku namiesto kliknutia niekoľkokrát. Vlastný cenník bol vytvorený, ak priradený názov cenníka má názov cenovej ponuky alebo názov zmluvy o projekte, ktorý je k nemu priložený.
+> Krátke oneskorenie môže nastať medzi po kliknutí na tlačidlo **Vytvorenie vlastných cien**, keď je vytvorený vlastný cenník. Odporúčame obnoviť mriežku namiesto kliknutia niekoľkokrát. Vlastný cenník bol vytvorený, ak priradený názov cenníka má názov cenovej ponuky alebo názov zmluvy o projekte, ktorý je k nemu priložený.

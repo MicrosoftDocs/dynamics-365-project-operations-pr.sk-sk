@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084447"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121867"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Aktualizácia atribútov doplnkov na zahrnutie nových dimenzií cien
 
@@ -50,7 +50,7 @@ Nasledujúce kroky vám vysvetlia proces registrácie doplnkov.
 
  ![Snímka obrazovky doplnku určeného na aktualizáciu](media/PRT-2.png)
  
-5. V okne aktualizácia kliknite na tri bodky ( **...** ) v atribútoch filtrovania.
+5. V okne aktualizácia kliknite na tri bodky (**...**) v atribútoch filtrovania.
 
  ![Snímka obrazovka z aktualizácie existujúceho kroku informácií konfigurácie](media/PRT-3.png)
  

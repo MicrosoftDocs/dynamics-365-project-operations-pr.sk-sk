@@ -3,7 +3,7 @@ title: Zobrazuje riadky cenovej ponuky založené na produkte.
 description: Táto téma poskytuje informácie o riadkoch cenovej ponuky založenej na produkte.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084544"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123232"
 ---
 # <a name="product-based-quote-lines"></a>Zobrazuje riadky cenovej ponuky založené na produkte.
 
@@ -41,7 +41,7 @@ Spoločnosť napríklad predáva licencie na predplatné pre celý rad softvéru
 - Počet používateľov 
 - Trvanie predplatného (v mesiacoch)
 
-Dobrým spôsobom, ako zachovať tento typ katalógu, je vytvorenie produktovej rodiny, ktorá je pomenovaná **predplatným softvérom** , a ktorá má **počet používateľov** a **trvanie predplatného** ako atribúty. Potom môžete pridať jednotlivé produkty, ako je napríklad **Dynamics 365 Sales** alebo **Dynamics 365 Field Service** do **predplatenej softvérovej** rodiny produktov.
+Dobrým spôsobom, ako zachovať tento typ katalógu, je vytvorenie produktovej rodiny, ktorá je pomenovaná **predplatným softvérom**, a ktorá má **počet používateľov** a **trvanie predplatného** ako atribúty. Potom môžete pridať jednotlivé produkty, ako je napríklad **Dynamics 365 Sales** alebo **Dynamics 365 Field Service** do **predplatenej softvérovej** rodiny produktov.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Pridanie položiek katalógu produktov do projektovej ponuky
 
@@ -54,9 +54,9 @@ Ak je riadok cenovej ponuky založený na katalógu produktov, predajnú cenu m�
 - Prepíšte cenu  
 - Použite predvolenú hodnotu
 
-Ak nastavíte toto pole na **prepísať ceny** , Dynamics 365 nenastaví predvolenú cenu. Musíte zadať cenu produktu v riadku cenovej ponuky. Ak nastavíte toto pole na **používať predvolené nastavenia** , Dynamics 365 použije predvolenú predajnú cenu a uzamkne pole, aby sa zabránilo úpravám.
+Ak nastavíte toto pole na **prepísať ceny**, Dynamics 365 nenastaví predvolenú cenu. Musíte zadať cenu produktu v riadku cenovej ponuky. Ak nastavíte toto pole na **používať predvolené nastavenia**, Dynamics 365 použije predvolenú predajnú cenu a uzamkne pole, aby sa zabránilo úpravám.
 
-Po nainštalovaní PSA sa predvolené predajné ceny zapisujú do riadkov na základe produktov v cenovej ponuke. Pole **ceny** sa potom nastaví na **prepísanie cien** , aby ste mohli upraviť predvolenú cenu v riadkoch cenovej ponuky.
+Po nainštalovaní PSA sa predvolené predajné ceny zapisujú do riadkov na základe produktov v cenovej ponuke. Pole **ceny** sa potom nastaví na **prepísanie cien**, aby ste mohli upraviť predvolenú cenu v riadkoch cenovej ponuky.
 
 > ![Nastavte prepisovanie cien](media/basic-guide-10.png)
  

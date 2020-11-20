@@ -3,7 +3,7 @@ title: Projektové nastavenia
 description: Táto téma poskytuje informácie o nastaveniach projektového manažmentu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084527"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123127"
 ---
 # <a name="project-settings"></a>Projektové nastavenia
 
@@ -36,7 +36,7 @@ Na prístup k funkciám plánovania projektu použite nasledujúce nastavenia.
 Na vytvorenie projektového plánu, musíte vytvoriť šablónu projektového kalendára, ktorá určuje počet pracovných hodín za deň a počas zatváracej doby. Ak chcete vytvoriť šablónu kalendára projektu, priradíte pracovnú šablónu s poľom **šablóna kalendára** projektu. Ak chcete vytvoriť pracovnú šablónu, postupujte podľa týchto krokov.
 
 1. V PSA na ľavom navigačnom paneli, kliknite na **zdroje**. 
-2. Na stránke zoznamu **zdroje** , otvrote užívateľské záznamy a vyberte **zobraziť pracovný čas**.
+2. Na stránke zoznamu **zdroje**, otvrote užívateľské záznamy a vyberte **zobraziť pracovný čas**.
 
   > [!NOTE]
   > Uistite sa, že povolíte kontextové okná na stránke prehľadávača. To vám umožní zobraziť pracovný čas nastavený pre zdroj.
@@ -65,4 +65,4 @@ Každá organizácia musí tieto roly nastaviť na stránke **kategórie aktívn
 
 ## <a name="price-lists"></a>Cenníky
 
-Cenníky vám umožňujú vidieť náklady a predajné ceny zdrojov rolí, výdavkových kategórií, produktov a iných prvkov v organizácii. Pred tým ako nastavíte finančné odhady pre prácu, ktorá musí byť dodaná do projektu, mali by ste vytvoriť sprievodný cenník nákladov a predajných cien. V časti parametre by ste tiež mali nastaviť predvolené náklady a predajný cenník, ktorý sa vzťahuje na všetky projekty vytvorené v organizácii. Na stránke **aktívne parametre projektu** , sa uistite, že nastavíte predvolené náklady a predajné cenníky.
+Cenníky vám umožňujú vidieť náklady a predajné ceny zdrojov rolí, výdavkových kategórií, produktov a iných prvkov v organizácii. Pred tým ako nastavíte finančné odhady pre prácu, ktorá musí byť dodaná do projektu, mali by ste vytvoriť sprievodný cenník nákladov a predajných cien. V časti parametre by ste tiež mali nastaviť predvolené náklady a predajný cenník, ktorý sa vzťahuje na všetky projekty vytvorené v organizácii. Na stránke **aktívne parametre projektu**, sa uistite, že nastavíte predvolené náklady a predajné cenníky.

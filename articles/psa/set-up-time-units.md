@@ -3,7 +3,7 @@ title: Nastavenie časových jednotiek
 description: Ako na nastavenie časových jednotiek v Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d071549e6493258aeea187d70ee35054d2e8ea60
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c007f59f542618860af21125313abd066e17cf45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084459"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120112"
 ---
 # <a name="set-up-time-units-project-service"></a>Nastavenie časových jednotiek (Project Service)
 
@@ -37,7 +37,7 @@ Nastaviť merné jednotky doby v katalógu produktov, ktorý použijete ako zák
   
 3. Kliknite na jednotkovú skupinu **Čas** (vytvorené počas inštalácie [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]).  
   
-4. Na karte **jednotky** kartu, kliknite na tlačidlo **pridať novú jednotku** , a potom zmeňte hodnoty podľa potreby. Pridajte toľko jednotiek, koľko potrebujete. Napríklad, budete chcieť vytvoriť nasledujúce jednotky:  
+4. Na karte **jednotky** kartu, kliknite na tlačidlo **pridať novú jednotku**, a potom zmeňte hodnoty podľa potreby. Pridajte toľko jednotiek, koľko potrebujete. Napríklad, budete chcieť vytvoriť nasledujúce jednotky:  
   
    - **Deň** so **základnou jednotkou** = **Hodina** a **Množstvo** = 8  
   

@@ -3,7 +3,7 @@ title: Projektové šablóny
 description: Táto téma poskytuje informácie o používaní šablón projektov na rýchle nastavenie projektu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bb82a312114e9814f5ce65a1698455582fd252e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4fd618e15524c5cef5b6da9b282f449e3dfb7973
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084526"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123052"
 ---
 # <a name="project-templates"></a>Projektové šablóny 
 
@@ -49,7 +49,7 @@ Existuje niekoľko spôsobov, ako vytvoriť projekt zo šablóny projektu:
 
 > ![Zobrazí sa dialógové okno rýchle vytvorenie: projektu](media/project-11.png)
 
-- Keď vytvoríte projekt výbraním **nový projekt** , stránka **projekt** sa zobrazí pred tým ako sa záznam uloží. V poli **vybrať šablónu** vyberte jednu z preddefinovaných šablón projektu v organizácii.
+- Keď vytvoríte projekt výbraním **nový projekt**, stránka **projekt** sa zobrazí pred tým ako sa záznam uloží. V poli **vybrať šablónu** vyberte jednu z preddefinovaných šablón projektu v organizácii.
 - Použite **vytvoriť projekt zo šablóny** na stránke **entity šablóny**.
 
 ## <a name="copying-components-of-template-to-project"></a>Kopírovanie komponentov šablóny do projektu

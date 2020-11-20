@@ -3,7 +3,7 @@ title: Skontrolujte fakturačné oneskorenie projektov a projektových zmlúv
 description: Táto téma poskytuje informácie o tom, ako skontrolovať čas, výdavky a backlogy produktu a ako ich označiť ako pripravené na fakturáciu.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084573"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123982"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Skontrolujte fakturačné oneskorenie projektov a projektových zmlúv
 
@@ -44,7 +44,7 @@ Ak chcete skontrolovať fakturačné oneskorenie pre čas a materiály, prejdite
 
 ## <a name="review-the-product-billing-backlog"></a>Backlog pre fakturáciu produktov
 
-V prípade, že projektová zmluva má riadky zmluvy založené na produkte, tieto riadky sa považujú za fakturáciu pri každom vytvorení faktúry pre zmluvu o projekte. Každý produkt, ktorý má riadky zmluvy, ktoré sú označené ako **Pripravené na faktúru** , sa skopíruje do faktúry projektu ako riadky projektových faktúr.
+V prípade, že projektová zmluva má riadky zmluvy založené na produkte, tieto riadky sa považujú za fakturáciu pri každom vytvorení faktúry pre zmluvu o projekte. Každý produkt, ktorý má riadky zmluvy, ktoré sú označené ako **Pripravené na faktúru**, sa skopíruje do faktúry projektu ako riadky projektových faktúr.
 
 Ak chcete skontrolovať backlog fakturácie pre produkty, prejdite na **Predaj** \> **Fakturácia** \> **Backlog pre fakturáciu produktov**. Zvoľte všetky riadky zmluvy produktovej faktúry, ktoré sú pripravené na fakturáciu a potom stlačte možnosť **Pripravené na faktúru**. Stav fakturácie týchto riadkov sa zmení na možnosť **Pripravené na faktúru**.
 

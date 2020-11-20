@@ -3,7 +3,7 @@ title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, v
 description: Táto téma obsahuje zoznam funkcií a opráv dostupných v aktualizácii Project Service Automation, vydanie 16, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f277d23e3fb0517f072e51f6f80f855479ab8189
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2c93d34b61001b7755d426539ac384641a7bc9da
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084323"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121597"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Aktualizácia pre Project Service Automation, vydanie 16, V3
 
@@ -56,7 +56,7 @@ Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené p
 
     -   Oprava: Keď sa odstráni projekt mapovaný na riadok zmluvy a mapuje sa nový projekt, skutočné záznamy o novom projekte neboli prehodnocované na základe pravidiel fakturácie a stanovovania cien definovaných v riadku zmluvy. Toto bolo v tomto vydaní opravené. Ceny a skutočné záznamy o novo mapovanom projekte sa zvrátia a znovu sa vytvoria správne na základe cenových a fakturačných pravidiel riadka zmluvy. Skutočné záznamy nemapovaného projektu sa následne v dôsledku toho prehodnotia a znovu vytvoria.
 
-    -   Oprava: K riadku odhadu bola pridaná ďalšia validácia poľa **Čiastka** , aby sa zabezpečilo, že nulové hodnoty nebudú pretrvávať.
+    -   Oprava: K riadku odhadu bola pridaná ďalšia validácia poľa **Čiastka**, aby sa zabezpečilo, že nulové hodnoty nebudú pretrvávať.
 
     -   Oprava: Po aktualizácii skutočností v projekte bolo do hlavného formulára projektu pridané tlačidlo obnovenia, ktoré používateľom umožňuje opätovnú synchronizáciu skutočností.
 

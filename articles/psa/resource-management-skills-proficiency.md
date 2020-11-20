@@ -3,7 +3,7 @@ title: Modely zručností a odbornosti
 description: Táto téma poskytuje informácie o používaní zručností a modulov spôsobilosti.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084584"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124207"
 ---
 # <a name="skills-and-proficiency-models"></a>Modely zručností a odbornosti
 
@@ -41,8 +41,8 @@ Zručnosti pre zdroje sú hodnotené podľa modelov odbornosti. Jednotlivé hodn
 
 1. Ak chcete vytvoriť model odbornosti, prejdite na **Zdroje** \> **Modely spôsobilosti** a potom stlačte možnosť **Nový**.
 2. V novom modeli hodnotenia zadajte minimálnu hodnotu hodnotenia, maximálnu hodnotu hodnotenia a entitu, ktorá je hodnotená.
-3. V podmriežke **Hodnoty hodnotenia** môžete definovať rôzne hodnoty hodnotenia od minimálnej po maximum.
+3. Vo vedľajšej mriežke **Hodnoty hodnotenia** môžete definovať rôzne hodnoty hodnotenia od minimálnej po maximum.
 
 > ![Minimálne a maximálne definované hodnotenia](media/Resource-Management-image85.png)
 
-Tieto hodnoty hodnotenia sa zobrazujú vo filtroch **Požiadavky na zdroje** , **Tabuľa plánovania** a **Asistent plánovania**.
+Tieto hodnoty hodnotenia sa zobrazujú vo filtroch **Požiadavky na zdroje**, **Tabuľa plánovania** a **Asistent plánovania**.

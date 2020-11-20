@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088101"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122362"
 ---
 # <a name="manage-the-billing-backlog"></a>Správa backlogu pre fakturáciu
 
@@ -23,9 +23,9 @@ Dynamics 365 Project Operations má dva vyhradené zobrazenia, ktoré vám pomô
 
 ## <a name="fixed-price-milestones"></a>Medzníky pevných cien
 
-Toto zobrazenie zobrazuje všetky medzníky pevných cien vo všetkých riadkoch projektových zmlúv v systéme. V tomto zobrazení možno označiť jeden alebo viac medzníkov ako **Pripravené na fakturáciu** alebo **Nepripravené na fakturáciu**. Keď označíte medzník ako **Pripravené na fakturáciu** , medzník bude k dispozícii pre koncept faktúry.
+Toto zobrazenie zobrazuje všetky medzníky pevných cien vo všetkých riadkoch projektových zmlúv v systéme. V tomto zobrazení možno označiť jeden alebo viac medzníkov ako **Pripravené na fakturáciu** alebo **Nepripravené na fakturáciu**. Keď označíte medzník ako **Pripravené na fakturáciu**, medzník bude k dispozícii pre koncept faktúry.
 
-Keď majú riadky zmluvy pre viacerých zákazníkov metódu fakturácie s pevnou cenou, vytvorí sa pre každého zákazníka v riadku zmluvy jeden medzník. Používateľ vytvorí medzník a tento medzník sa interne rozdelí na záznamy o zákazníkoch = špecifické medzníky podľa rozdelenia fakturačného percenta definovaného pre každého zákazníka v riadku zmluvy. V zobrazení **Medzníky s pevnou cenou** môžete vidieť jednotlivé medzníkové záznamy špecifické pre zákazníka. Každý z týchto medzníkových záznamov možno označiť ako **Pripravené na fakturáciu** osobitne od tohto zobrazenia. Keď je jeden alebo viac súvisiacich rozdelených medzníkov označených ako **Pripravené na fakturáciu** , stav v hlavičke sa zmení na **Prebieha** z **Nezačaté**. Po vyfakturovaní všetkých rozdelení medzníkov, stav v hlavičke medzníka sa zmení na **Dokončené**.
+Keď majú riadky zmluvy pre viacerých zákazníkov metódu fakturácie s pevnou cenou, vytvorí sa pre každého zákazníka v riadku zmluvy jeden medzník. Používateľ vytvorí medzník a tento medzník sa interne rozdelí na záznamy o zákazníkoch = špecifické medzníky podľa rozdelenia fakturačného percenta definovaného pre každého zákazníka v riadku zmluvy. V zobrazení **Medzníky s pevnou cenou** môžete vidieť jednotlivé medzníkové záznamy špecifické pre zákazníka. Každý z týchto medzníkových záznamov možno označiť ako **Pripravené na fakturáciu** osobitne od tohto zobrazenia. Keď je jeden alebo viac súvisiacich rozdelených medzníkov označených ako **Pripravené na fakturáciu**, stav v hlavičke sa zmení na **Prebieha** z **Nezačaté**. Po vyfakturovaní všetkých rozdelení medzníkov, stav v hlavičke medzníka sa zmení na **Dokončené**.
 
 Medzník v koncepte faktúry sa zobrazuje v tomto zobrazení so stavom fakturácie **Bola vytvorená faktúra pre zákazníka**. Po potvrdení konceptu faktúry sa stav fakturácie v tomto zázname aktualizuje na **Bola uverejnená faktúra**. Aktualizácia tejto hodnoty stavu pomocou vlastného kódu sa neodporúča. Ak sa tieto hodnoty stavu aktualizujú pomocou vlastného kódu, aplikácia Project Operations nebude fungovať správne.
 

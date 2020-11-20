@@ -3,17 +3,17 @@ title: Zriadenie nového prostredia
 description: Táto téma poskytuje informácie o tom, ako zriadiť nové prostredie Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084251"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121192"
 ---
 # <a name="provision-a-new-environment"></a>Zriadenie nového prostredia
 
@@ -177,7 +177,7 @@ Obnovenie bude trvať približne 20 minút. Po dokončení dostanete upozornenie
 
 5. Po dokončení obnovenia spustite priraďovanie. Pred povolením ďalšej mapy skontrolujte, či je mapa v tabuľke v stave **Spustené**. Spustenie máp s väčším počtom predpokladov môže chvíľu trvať.
 
-Ak chcete spustiť mapu s predpokladmi, povoľte prepínač **Zobraziť mapy súvisiacich entít**. Ak je v tabuľke pri možnosti **Počiatočná synchronizácia predpokladu** uvedené **Nie** , overte, či je príznak **Počiatočná synchronizácia** nastavený na **Vypnuté** vo všetkých nevyhnutných mapách predtým ako ju spustíte.
+Ak chcete spustiť mapu s predpokladmi, povoľte prepínač **Zobraziť mapy súvisiacich entít**. Ak je v tabuľke pri možnosti **Počiatočná synchronizácia predpokladu** uvedené **Nie**, overte, či je príznak **Počiatočná synchronizácia** nastavený na **Vypnuté** vo všetkých nevyhnutných mapách predtým ako ju spustíte.
 
 ![Spustiť mapu](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Ak chcete spustiť mapu s predpokladmi, povoľte prepínač **Zobraziť mapy sú
 
 ![Všetky mapy sú spustené](./media/22AllMapsRunning.png)
 
-Vaše prostredie Project Operations je teraz zriadené a nakonfigurované.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Použitie konfiguračných údajov v službe CDS pre Project Operations (voliteľné)
+
+Ak ste použili demo údaje pre prostredie Financie, pozrite si [Nastavenie a použite konfiguračných údajov v Common Data Service pre Project Operations](resource-apply-pro-setup-config-data.md), kde je uvedené, ako aplikovať demo údaje do prostredia CDS.
+
+
+Vaše prostredie Project Operations je teraz zriadené a nakonfigurované. 

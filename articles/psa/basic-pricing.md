@@ -3,7 +3,7 @@ title: Projektová tvorba cien
 description: Táto téma poskytuje informácie o tom ako pracuje oceňovanie v Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084561"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120787"
 ---
 # <a name="project-pricing"></a>Projektová tvorba cien 
 
@@ -56,7 +56,7 @@ Termín *zdrojová rola* odkazuje na množinu zručností, kompetencií a certif
 
 Čas ľudských zdrojov je zvyčajne citovaný na základe role, že zdroj vyplní konkrétny projekt. Pre čas ľudských zdrojov, PSA podporuje rozpočty a fakturácie, ktoré sú založené na zdrojovej role. Čas môže byť ocenený v ktorejkoľvek jednotke v **Časovej** skupine jednotiek.
 
-Skupina **Časových** jednotiek je vytvorená pri inštalácii PSA. Má predvolenú jednotku **hodina**. Nie je možné vymazať, premenovať alebo upraviť atribúty **časovej** skupiny jednotiek alebo jednotku **hodina**. Do skupiny **časových** jednotiek však môžete pridať ďalšie jednotky. Ak sa pokúsite odstrániť **časovú** skupinu jednotiek alebo jednotku **hodina** , môže dôjsť k zlyhaniu v obchodnej logike PSA.
+Skupina **Časových** jednotiek je vytvorená pri inštalácii PSA. Má predvolenú jednotku **hodina**. Nie je možné vymazať, premenovať alebo upraviť atribúty **časovej** skupiny jednotiek alebo jednotku **hodina**. Do skupiny **časových** jednotiek však môžete pridať ďalšie jednotky. Ak sa pokúsite odstrániť **časovú** skupinu jednotiek alebo jednotku **hodina**, môže dôjsť k zlyhaniu v obchodnej logike PSA.
 
 > ![Konfigurácia cien podľa roly](media/basic-guide-13.png)
  

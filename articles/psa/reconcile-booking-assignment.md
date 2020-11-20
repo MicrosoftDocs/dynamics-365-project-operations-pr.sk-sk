@@ -3,7 +3,7 @@ title: Zmierenie zdrojov a priradenia
 description: Táto téma poskytuje informácie o skutočných údajoch.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084410"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120472"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Zmierenie zdrojov a priradenia
 
@@ -35,7 +35,7 @@ Z dôvodu voľného spojenia projektových rezervácií a priradenia úloh je na
 
 Pre každého menovaného člena tímu karta **Vyrovnanie** zobrazuje rezervácie a priradenia k samostatnému priradeniu úlohy. To zobrazuje hodiny v bunkách, ktoré môžu reprezentovať časové periódy od mesiacov ku dňom.
 
-V poli **Časový rozsah** môžete vybrať položku **Mesiac** , **Týždeň** alebo **Deň**. Predvolene je vybratá možnosť **Týždeň**. Predvolenú hodnotu však môžete zmeniť výberom tlačidla **Nastavenia**. Keď je karta **Vyrovnanie** otvorená, zobrazuje aktuálny dátum, ale môžete použiť ovládací prvok kalendára na posun dopredu alebo dozadu v čase. Ak má projekt počiatočný dátum, ktorý je v budúcnosti, na karte sa zobrazí dátum otvorenia. Ovládací prvok kalendára má tiež možnosti, ktoré umožňujú presunúť do dátumu začatia a ukončenia projektu.
+V poli **Časový rozsah** môžete vybrať položku **Mesiac**, **Týždeň** alebo **Deň**. Predvolene je vybratá možnosť **Týždeň**. Predvolenú hodnotu však môžete zmeniť výberom tlačidla **Nastavenia**. Keď je karta **Vyrovnanie** otvorená, zobrazuje aktuálny dátum, ale môžete použiť ovládací prvok kalendára na posun dopredu alebo dozadu v čase. Ak má projekt počiatočný dátum, ktorý je v budúcnosti, na karte sa zobrazí dátum otvorenia. Ovládací prvok kalendára má tiež možnosti, ktoré umožňujú presunúť do dátumu začatia a ukončenia projektu.
 
 Na zobrazenie podrobností o rezerváciách tohto prostriedku môžete použiť ovládacie prvky rozbalenia na každom prostriedku. Môžete tiež rozbaliť priradenia každého prostriedku na úroveň jednotlivých úloh.
 
@@ -47,9 +47,9 @@ Spodná časť karty **Vyrovnanie** zobrazuje celkový čistý súčet projektu 
 > [!NOTE]
 > Legenda pre tieto podmienky môže byť skrytá, aby uvoľnila viac miesta mriežke. V tomto prípade môžete zobraziť legendu tak, že vyberiete tlačidlo **Nastavenia**.
 
-V niektorých prípadoch, keď je pole **Časový rozsah** nastavený na úroveň, ktorá je vyššia ako **Deň** , rozdiely sa môžu vypočítať ako 0 (nula). Napríklad na úrovni **Mesiac** môže byť čistý rozdiel zdroja 0 (nula) na označenie, že rezervácie sa rovná priradeniu. Avšak, ak si prezriete čas na úrovni **týždňa** , môžete vidieť, že existujú úlohy nula hodín a rezervácie 40 hodín v prvom týždni mesiaca, ale úlohy 40 hodín a rezervácie nula hodín v druhom týždni mesiaca. Hoci celkové rezervácie a úlohy za mesiac sú rovnaké, líšia sa podľa týždňa.
+V niektorých prípadoch, keď je pole **Časový rozsah** nastavený na úroveň, ktorá je vyššia ako **Deň**, rozdiely sa môžu vypočítať ako 0 (nula). Napríklad na úrovni **Mesiac** môže byť čistý rozdiel zdroja 0 (nula) na označenie, že rezervácie sa rovná priradeniu. Avšak, ak si prezriete čas na úrovni **týždňa**, môžete vidieť, že existujú úlohy nula hodín a rezervácie 40 hodín v prvom týždni mesiaca, ale úlohy 40 hodín a rezervácie nula hodín v druhom týždni mesiaca. Hoci celkové rezervácie a úlohy za mesiac sú rovnaké, líšia sa podľa týždňa.
 
-Keď zobrazíte čas na vyšších časových úrovniach, bunky na karte **Vyrovnanie** majú indikátor bunky, ktorý vám oznámi, že existujú rozdiely na nižších časových úrovniach. Napríklad na nasledujúcom obrázku sa v bunke zobrazí indikátor bunky pre mesiac október 2018 pre prostriedok s názvom Dana Mrázová. Preto môžete vidieť, že aj keď zdroj rezervácie a priradenia sú rovnaké, keď sú agregované na úrovni **mesiaca** , nezhodujú sa na nižších úrovniach.
+Keď zobrazíte čas na vyšších časových úrovniach, bunky na karte **Vyrovnanie** majú indikátor bunky, ktorý vám oznámi, že existujú rozdiely na nižších časových úrovniach. Napríklad na nasledujúcom obrázku sa v bunke zobrazí indikátor bunky pre mesiac október 2018 pre prostriedok s názvom Dana Mrázová. Preto môžete vidieť, že aj keď zdroj rezervácie a priradenia sú rovnaké, keď sú agregované na úrovni **mesiaca**, nezhodujú sa na nižších úrovniach.
 
 ![Nesúlad rezervácií a úloh na mesačnej úrovni](media/reconcile-assignments-01.JPG)
 

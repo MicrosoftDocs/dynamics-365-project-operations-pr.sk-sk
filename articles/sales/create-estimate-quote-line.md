@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084392"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122947"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Vytvorenie odhadov v riadku cenovej ponuky
 
@@ -83,7 +83,7 @@ Ak ste do podrobností riadka cenovej ponuky pridali vlastné pole a chcete, aby
 2. Vyberte položku **Hľadať** a vyhľadajte doplnok, ktorý chcete aktualizovať.
 3. Vyberte doplnok a potom na hlavnej stránke vyberte položku **vybrať**.
 4. Vyberte krok doplnku, ktorý chcete aktualizovať, kliknite pravým tlačidlom myši a potom vyberte položku **aktualizovať.**
-5. V dialógovom okne **aktualizovať existujúci krok** v poli **filtrovanie atribútov** vyberte elipsové tlačidlo ( **...** ):
+5. V dialógovom okne **aktualizovať existujúci krok** v poli **filtrovanie atribútov** vyberte elipsové tlačidlo (**...**):
 6. V dialógovom okne **Výber atribútov** vyberte začiarkavacie políčka pre vlastné atribúty.
 7. Kliknite na tlačidlo **OK** pre zatvorenie dialógového okna a potom vyberte **aktualizovať krok.**
 8. Opakujte kroky 1 až 7 pre druhý doplnok.

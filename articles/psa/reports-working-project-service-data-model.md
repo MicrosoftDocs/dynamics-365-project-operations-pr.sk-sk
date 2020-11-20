@@ -3,7 +3,7 @@ title: Práca s dátovým modelom Project Service Automation
 description: Táto téma poskytuje informácie o tom, ako pracovať s dátovým modelom.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084549"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120292"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Práca s dátovým modelom Project Service Automation
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation rozširuje ostatné entity aplikácií a
 
 ## <a name="reporting-on-opportunities"></a>Vytváranie zostáv o príležitostiach
 
-Project Service Automation rozširuje entitu **Príležitosti** Dynamics 365 Sales pridaním polí, ktoré umožňujú scenáre založené na projekte. Tieto polia sú identifikované názvom schémy, ktorá je predurčená s **msdyn\_**. Jedno nové pole, ktoré je dôležité pre podávanie správ o možnostiach PSA je **Typ objednávky**. Hodnota **Založené na práci** tohto poľa naznačuje, že príležitosť je príležitosťou PSA. Medzi ďalšie polia, ktoré boli pridané do entity, patria **Zmluvná organizácia** , ktorá zachytáva organizáciu, ktorá drží príležitosť, a **Manažér obchodného vzťahu** , ktorý zachytáva názov správcu účtu, ktorý je zodpovedný za túto príležitosť.
+Project Service Automation rozširuje entitu **Príležitosti** Dynamics 365 Sales pridaním polí, ktoré umožňujú scenáre založené na projekte. Tieto polia sú identifikované názvom schémy, ktorá je predurčená s **msdyn\_**. Jedno nové pole, ktoré je dôležité pre podávanie správ o možnostiach PSA je **Typ objednávky**. Hodnota **Založené na práci** tohto poľa naznačuje, že príležitosť je príležitosťou PSA. Medzi ďalšie polia, ktoré boli pridané do entity, patria **Zmluvná organizácia**, ktorá zachytáva organizáciu, ktorá drží príležitosť, a **Manažér obchodného vzťahu**, ktorý zachytáva názov správcu účtu, ktorý je zodpovedný za túto príležitosť.
 
 Entita **Riadok príležitosti** obsahuje aj polia, ktoré súvisia s Project Service. **Spôsob fakturácie** udáva, či sa má riadok príležitosti účtovať na základe času a materiálov alebo na základe pevnej ceny, pričom **Projekt** zachytáva názov projektu, ktorý túto príležitosť podporuje. Ostatné polia, ktoré môžete využívať na vykazovanie zachytávajú sumy nákladov a rozpočtov zákazníkov pre položku riadka.
 
 ## <a name="reporting-on-quotes"></a>Vykazovanie o cenových ponukách
 
-PSA rozširuje entitu **Cenová ponuka** Sales pridaním polí súvisiacich s projektom. **Typ objednávky** rozlišuje cenové ponuky PSA od cenových ponúk mimo PSA. Hodnota **Založené na práci** tohto poľa naznačuje, že cenová ponuka je cenovou ponukou PSA. Ďalšie polia, ktoré môžu byť relevantné pre vykazovanie cenových ponúk PSA, zahŕňajú polia čiastky, akú sú **Fakturovateľné náklady** , **Nefakturovateľné náklady** , **Hrubá marža** , **Odhady** a **Rozpočet**. Ďalšie užitočné polia označujú, či je cenová ponuka zisková, či už bude dokončená podľa plánu, a či spĺňa očakávania rozpočtu zákazníka.
+PSA rozširuje entitu **Cenová ponuka** Sales pridaním polí súvisiacich s projektom. **Typ objednávky** rozlišuje cenové ponuky PSA od cenových ponúk mimo PSA. Hodnota **Založené na práci** tohto poľa naznačuje, že cenová ponuka je cenovou ponukou PSA. Ďalšie polia, ktoré môžu byť relevantné pre vykazovanie cenových ponúk PSA, zahŕňajú polia čiastky, akú sú **Fakturovateľné náklady**, **Nefakturovateľné náklady**, **Hrubá marža**, **Odhady** a **Rozpočet**. Ďalšie užitočné polia označujú, či je cenová ponuka zisková, či už bude dokončená podľa plánu, a či spĺňa očakávania rozpočtu zákazníka.
 
-PSA tiež rozširuje entitu **Riadka cenovej ponuky** Sales. Jedno pole, ktoré PSA pridáva, je **Spôsob fakturácie** , ktoré udáva, ako sa bude účtovať riadok cenovej ponuky (čas a materiály alebo pevná cena). Ostatné polia, ktoré boli pridané do entity zachytávajúcej súvisiaci projekt, ktorý je podporený riadkom cenovej ponuky, fakturácia, náklady a rozpočet.
+PSA tiež rozširuje entitu **Riadka cenovej ponuky** Sales. Jedno pole, ktoré PSA pridáva, je **Spôsob fakturácie**, ktoré udáva, ako sa bude účtovať riadok cenovej ponuky (čas a materiály alebo pevná cena). Ostatné polia, ktoré boli pridané do entity zachytávajúcej súvisiaci projekt, ktorý je podporený riadkom cenovej ponuky, fakturácia, náklady a rozpočet.
 
 PSA tiež pridáva nové entity súvisiace s cenovou ponukou k dátovému modelu Dynamics 365. Tu sú niektoré príklady:
 
@@ -50,13 +50,13 @@ PSA tiež pridáva nové entity súvisiace s cenovou ponukou k dátovému modelu
 - **Medzník v riadku cenovej ponuky** – Táto entita obsahuje fakturačné míľniky pre riadky cenovej ponuky s pevnou cenou.
 - **Rozdelenie analytických údajov riadka cenovej ponuky** – Táto entita obsahuje finančné podrobnosti riadka cenovej ponuky. Tieto podrobnosti môžu byť užitočné pre vykazovanie predajnej sumy s cenovou ponuku a sumy odhadovaných nákladov podľa rôznych dimenzií.
 
-Ostatné entity, ktoré PSA pridáva k cenovým ponukám, sú **Projektový cenník riadka cenovej ponuky** , **Kategória zdroja v riadku cenovej ponuky** a **Kategória transakcie v riadku cenovej ponuky**.
+Ostatné entity, ktoré PSA pridáva k cenovým ponukám, sú **Projektový cenník riadka cenovej ponuky**, **Kategória zdroja v riadku cenovej ponuky** a **Kategória transakcie v riadku cenovej ponuky**.
 
 ![Schéma znázorňujúca cenovú ponuku, riadok cenovej ponuky a vzťahy projektu](media/PS-Reporting-image2.png "Schéma znázorňujúca cenovú ponuku, riadok cenovej ponuky a vzťahy projektu")
 
 ## <a name="reporting-on-project-contracts"></a>Podávanie správ o projektových zmluvách
 
-PSA rozširuje entitu predajnej **objednávky** , ktorá sa používa na zaznamenávané zmluvy projektu. Pridá dôležité nové pole **Typ objednávky** , ktoré identifikuje zmluvu ako projektovú zmluvu PSA namiesto predajnej objednávky. Hodnota **Založené na práci** tohto poľa naznačuje, že objednávka je zmluvou projektu PSA. Ďalšie nové polia, ktoré sa pridajú do entity **Objednávka** , zachytávajú podrobnosti o nákladoch, stave zmluvy PSA a organizácii, ktorá vlastní zmluvu.
+PSA rozširuje entitu predajnej **objednávky**, ktorá sa používa na zaznamenávané zmluvy projektu. Pridá dôležité nové pole **Typ objednávky**, ktoré identifikuje zmluvu ako projektovú zmluvu PSA namiesto predajnej objednávky. Hodnota **Založené na práci** tohto poľa naznačuje, že objednávka je zmluvou projektu PSA. Ďalšie nové polia, ktoré sa pridajú do entity **Objednávka**, zachytávajú podrobnosti o nákladoch, stave zmluvy PSA a organizácii, ktorá vlastní zmluvu.
 
 PSA tiež rozširuje entitu **Riadky predajných objednávok**. Medzi polia, ktoré pridáva, patria polia, ktoré zachytávajú metódu fakturácie (čas a materiály alebo pevnú cenu), čiastky rozpočtu zákazníka a základný projekt.
 
@@ -66,7 +66,7 @@ PSA tiež pridáva nové entity, ktoré sú určené pre projektové zmluvy. Tu 
 - **Plán faktúr v riadkoch zmluvy** – Táto entita obsahuje plán fakturácie, ktorý vzniká na základe frekvencie faktúry priradenej k riadku zmluvy.
 - **Medzník zmluvy** – Táto entita obsahuje fakturačné míľniky pre riadky zmluvy, ktoré majú fakturačný výraz s pevnou cenou.
 
-Ostatné entity, ktoré PSA pridáva k zmluvám, sú **Projektový cenník riadka zmluvy** , **Kategória zdroja v riadku projektovej zmluvy** a **Kategória transakcie v riadku projektovej zmluvy**.
+Ostatné entity, ktoré PSA pridáva k zmluvám, sú **Projektový cenník riadka zmluvy**, **Kategória zdroja v riadku projektovej zmluvy** a **Kategória transakcie v riadku projektovej zmluvy**.
 
 ![Schéma znázorňujúca objednávku, riadok objednávky a vzťahy projektu](media/PS-Reporting-image3.png "Schéma znázorňujúca objednávku, riadok objednávky a vzťahy projektu")
 
@@ -97,7 +97,7 @@ Projektové prostriedky používajú entity **rezervovateľných zdrojov** od Un
 
 Keď schválime výkaz alebo náklad, alebo faktúru zmluvu v PSA, obchodná transakcia je zachytená v entite **Skutočné hodnoty**. Táto entita môže slúžiť ako základ pre takmer všetky správy týkajúce sa financií v PSA. Entita **Skutočná hodnota** zachytáva náklady a predajné transakcie pre obchodnú udalosť. Zachytáva tiež mnoho relevantných atribútov.
 
-Keď pracujete s entitou **Skutočná hodnota** , je dôležité, aby ste pochopili, aké transakcie alebo transakcie sa zaznamenávajú v entite, a kedy sa transakcie zaznamenávajú. Tu je typický postup pri práci s časmi (tok pre položky výdavkov je podobný):
+Keď pracujete s entitou **Skutočná hodnota**, je dôležité, aby ste pochopili, aké transakcie alebo transakcie sa zaznamenávajú v entite, a kedy sa transakcie zaznamenávajú. Tu je typický postup pri práci s časmi (tok pre položky výdavkov je podobný):
 
 1. Keď je položka času uložená, v entite **Skutočná hodnota** sa nevytvoria žiadne záznamy.
 2. Keď je položka času odoslaná, v entite **Skutočná hodnota** sa nevytvoria žiadne záznamy.

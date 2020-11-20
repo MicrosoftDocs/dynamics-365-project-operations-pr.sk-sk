@@ -3,7 +3,7 @@ title: Časté otázky pre správu zdrojov
 description: Táto téma obsahuje odpovede na často kladené otázky týkajúce sa správy zdrojov.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084575"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120157"
 ---
 # <a name="resource-management-faq"></a>Časté otázky pre správu zdrojov
 
@@ -43,11 +43,11 @@ Predbežné rezervácie možno uskutočniť pri rezervácii požiadavky o zdroj.
 
 ## <a name="how-do-i-change-the-required-hours-and-the-start-and-end-dates-for-a-resource-generic-or-named-that-i-booked"></a>Ako zmením požadované hodiny a počiatočný a koncový dátum pre zdroj (všeobecný alebo pomenovaný), ktorý som rezervoval?
 
-Po rezerváciách zdrojov vyberte položku **Spravovanie rezervácií** , aby ste mohli vykonať požadované zmeny.
+Po rezerváciách zdrojov vyberte položku **Spravovanie rezervácií**, aby ste mohli vykonať požadované zmeny.
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Aké typy prostriedkov podporuje Project Service Automation?
 
-**Používateľ** a **Kontakt** sú jedinými typmi prostriedkov, ktoré sú podporované v Dynamics 365 Project Service Automation. Aj keď môžete vytvoriť iné typy zdrojov (napríklad **Zariadenie** a **Skupina** ), nie je pre nich podporovaný žiadny prípad použitia end-to-end.
+**Používateľ** a **Kontakt** sú jedinými typmi prostriedkov, ktoré sú podporované v Dynamics 365 Project Service Automation. Aj keď môžete vytvoriť iné typy zdrojov (napríklad **Zariadenie** a **Skupina**), nie je pre nich podporovaný žiadny prípad použitia end-to-end.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Aký je rozdiel medzi priradením a rezerváciou?
 

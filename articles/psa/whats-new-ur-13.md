@@ -3,7 +3,7 @@ title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, v
 description: Táto téma poskytuje informácie o tom, čo je nové v aktualizácii Project Service Automation, vydanie 13, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 435b70255dd0053a496362c9ced9e742cfcca843
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084324"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121642"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Aktualizácia pre Project Service Automation, vydanie 13, V3
 S potešením vám oznamujeme najnovšiu aktualizáciu pre aplikáciu Dynamics 365 Project Service Automation (PSA). Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte centrum spravovania pre Dynamics 365 online, prejdite na stránku riešení a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -53,6 +53,6 @@ Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené p
 - Sales
 
      - Oprava: Duplicitné záznamy typu transakcie vracajú chybu pri vytváraní záznamov o cenách rolí.
-     - Oprava: Extra tlačidlá pre **Nová príležitosť** , **Cenová ponuka** , **Riadok objednávky** a **Pridať produkt** sú viditeľné v príkazoch pre príležitosti, cenové ponuky, objednávkové produkty a vedľajšiu mriežku riadkov založených na projekte.
+     - Opravené: Extra tlačidlá pre **Nová príležitosť**, **Cenová ponuka**, **Riadok objednávky** a **Pridať produkt** sú viditeľné v príkazoch pre Príležitosti, Cenové ponuky, Produkty objednávky a vedľajšiu mriežku riadkov založených na projektoch.
 
 

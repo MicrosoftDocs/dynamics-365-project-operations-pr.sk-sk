@@ -3,7 +3,7 @@ title: Samostatná rezervácia zdrojov
 description: Táto téma poskytuje informácie o požiadavkách na predbežnú rezerváciu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084574"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124117"
 ---
 # <a name="soft-book-requirements"></a>Požiadavky na predbežnú rezerváciu.
 
@@ -31,7 +31,7 @@ Požiadavku na zdroje možno rezervovať na pevno. Pevná rezervácia vytvára n
 
 ![Stav rezervácie je nastavený na Predbežné](media/Resource-Management-image77.png)
 
-Keď sa karta **Tím** nachádza v zobrazení **Vymenovaní členovia tímu** , tu sa zobrazí zdroj. Predbežne rezervované hodiny sa vykážu v stĺpci **Počet predbežne rezervovaných hodín**.
+Keď sa karta **Tím** nachádza v zobrazení **Vymenovaní členovia tímu**, tu sa zobrazí zdroj. Predbežne rezervované hodiny sa vykážu v stĺpci **Počet predbežne rezervovaných hodín**.
 
 ![Predbežne rezervované hodiny v zobrazení Vymenovaní členovia tímu](media/Resource-Management-image78.png)
 
@@ -54,7 +54,7 @@ Ak chcete predbežnú rezerváciu zmeniť na pevnú, na tabuli plánovania klikn
 
 ![Zmena stavu rezervácie na pevný](media/Resource-Management-image82.png)
 
-Rezervácia sa zmení a stav sa zmení na tabuli plánovania. Keďže stav rezervácie je teraz **Pevný** , zdroj je zobrazený ako rezervovaný a jeho kapacita a dostupnosť sa upravia.
+Rezervácia sa zmení a stav sa zmení na tabuli plánovania. Keďže stav rezervácie je teraz **Pevný**, zdroj je zobrazený ako rezervovaný a jeho kapacita a dostupnosť sa upravia.
 
 Rovnakú metódu môžete použiť na zrušenie pevnej rezervácie alebo predbežnej rezervácie z tabule plánovania.
 

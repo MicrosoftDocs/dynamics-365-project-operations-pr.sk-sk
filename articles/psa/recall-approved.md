@@ -3,7 +3,7 @@ title: Odvolanie schváleného času a položiek výdavkov
 description: Táto téma poskytuje informácie o zrušení predtým schváleného času projektu alebo nákladov transakcie.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084411"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120562"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Odvolanie schváleného času a položiek výdavkov
 
@@ -50,7 +50,7 @@ Tieto kroky použite na vyžiadanie stiahnutia schváleného zadania času alebo
     Pre položky výdavkov vyberte riadok pre položku výdavku na vyvolanie.
 
 3. Vyberte položku **Odvolať**. Zobrazí sa dialógové okno s potvrdením. Ak boli vybraté položky času a výdavkov už schválené, zobrazí sa výzva na zadanie dôvodu stiahnutia.
-4. Zadajte dôvod stiahnutia a potom vyberte **OK** , čím potvrdíte operáciu. Systém odošle osobe, ktorá schválila položky, žiadosť o schválenie odvolania.
+4. Zadajte dôvod stiahnutia a potom vyberte **OK**, čím potvrdíte operáciu. Systém odošle osobe, ktorá schválila položky, žiadosť o schválenie odvolania.
 
 > [!NOTE]
 > Aj keď možno odvolať záznamy schváleného času a výdavkov, po vyfakturovaní schváleného času alebo výdavku zákazníkovi už nemožno požiadavku o stiahnutie vytvoriť. Používateľ, ktorý sa pokúsi vytvoriť žiadosť o stiahnutie dostane správu, ktorá uvádza, že čas alebo výdavky nemožno stiahnuť, pretože už boli fakturované.
@@ -62,11 +62,11 @@ Ak chcete schváliť alebo zamietnuť žiadosť o stiahnutie, postupujte podľa 
 1. Prejdite na **projekty** \> **moja práca** \> **schválenia**.
 2. Na stránke zoznamu **Schválenia** zmeňte zobrazenie na **Žiadosti o odvolanie na schválenie**. Zobrazí sa zoznam predložených žiadostí o stiahnutie.
 3. Vyberte jednu alebo viac položiek a potom vyberte položku **Schváliť** alebo **Odmietnuť**.
-4. Ak ste vybrali možnosť **Schváliť** , zobrazí sa upozorňujúce hlásenie, ktoré vysvetľuje vplyv schválenia. Stlačením možnosti **OK** potvrďte operáciu. Žiadosť o odvolanie bola schválená.
+4. Ak ste vybrali možnosť **Schváliť**, zobrazí sa upozorňujúce hlásenie, ktoré vysvetľuje vplyv schválenia. Stlačením možnosti **OK** potvrďte operáciu. Žiadosť o odvolanie bola schválená.
 
     -alebo-
 
-    Ak ste vybrali **Odmietnuť** , žiadosť o odvolanie sa zamietne.
+    Ak ste vybrali **Odmietnuť**, žiadosť o odvolanie sa zamietne.
 
 > [!NOTE]
 > Ako pri požadovaní stiahnutia skontroluje po schválení stiahnutia systém akúkoľvek aktivitu fakturácie v záznamoch času či výdavkov. Ak bola položka už fakturovaná, alebo ak je v návrhu faktúry, schvaľovateľovi sa zobrazí chybové hlásenie, ktoré uvádza, že čas alebo výdavky nemôžu byť schválené na stiahnutie, pretože to bolo už fakturované.
@@ -90,7 +90,7 @@ Ak dôjde k schváleniu žiadosti o odvolanie, zodpovedajúce skutočné hodnoty
 - Pole **Stav úpravy** sa aktualizuje na **Upravené**.
 - Pole **Stav fakturácie** sa aktualizuje na **Zrušené**.
 
-Ďalšie, storno položky sú vytvorené v tabuľke skutočné údaje. Ak chcete vytvoriť storno položky, systém skopíruje hodnoty polí z pôvodných skutočných hodnôt. Iba hodnoty, ktoré nie sú skopírované, sú hodnoty množstva. Tieto hodnoty sa namiesto toho obrátili. Obrátené skutočné hodnoty sú vytvorené pre skutočné hodnoty **nákladov** , aj pre **nefakturovaných predajov**. Pole **Stav úpravy** na vrátených skutočných hodnotách je nastavené na **Neupraviteľné** a pole **Stav fakturácie** je nastavené na **Zrušené**. V dôsledku týchto zmien sa zaznamenané výdavky a backlog príjmov na projekte nebudú viac vzťahovať na sumy, ktoré tieto skutočné hodnoty predstavujú.
+Ďalšie, storno položky sú vytvorené v tabuľke skutočné údaje. Ak chcete vytvoriť storno položky, systém skopíruje hodnoty polí z pôvodných skutočných hodnôt. Iba hodnoty, ktoré nie sú skopírované, sú hodnoty množstva. Tieto hodnoty sa namiesto toho obrátili. Obrátené skutočné hodnoty sú vytvorené pre skutočné hodnoty **nákladov**, aj pre **nefakturovaných predajov**. Pole **Stav úpravy** na vrátených skutočných hodnotách je nastavené na **Neupraviteľné** a pole **Stav fakturácie** je nastavené na **Zrušené**. V dôsledku týchto zmien sa zaznamenané výdavky a backlog príjmov na projekte nebudú viac vzťahovať na sumy, ktoré tieto skutočné hodnoty predstavujú.
 
 Ak sa žiadosť o odvolanie zamietne, neexistuje žiadny finančný vplyv na projekt.
 

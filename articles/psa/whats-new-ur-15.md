@@ -3,7 +3,7 @@ title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, v
 description: Táto téma poskytuje informácie o tom, čo je nové v aktualizácii Project Service Automation, vydanie 15, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2112e70d7359e7f30725ef3069a18570da651c06
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084321"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119932"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Aktualizácia pre Project Service Automation, vydanie 15, V3
 
@@ -58,6 +58,6 @@ Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené p
 
   - Oprava: Vyhľadávanie kategórie odhadu výdavkov sa môže použiť na filtrovanie duplikátov.
   - Oprava: Kód v **PluginDomain.ExecuteInTryCatchBlock (..)** už neskrýva pôvod výnimky.
-  - Oprava: Už sa nezobrazí chybové hlásenie vo formulári **Vyhľadávanie projektu** v **Riadku ponuky** , ak existuje viac ako 1000 projektov.
+  - Oprava: Už sa nezobrazí chybové hlásenie vo formulári **Vyhľadávanie projektu** v **Riadku ponuky**, ak existuje viac ako 1000 projektov.
   - Oprava: Mriežka **Odhady** pre odhady práce a odhady výdavkov teraz zobrazuje správny symbol meny.
   - Oprava: Keď organizácia aktualizuje PSA z vydania aktualizácie 14 na vydanie aktualizácie 15, karta **Plán** sa už nezobrazuje ako prázdna karta vo formulári **Projekt**.
