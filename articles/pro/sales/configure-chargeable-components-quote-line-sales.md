@@ -1,21 +1,21 @@
 ---
-title: Nakonfigurujte účtovateľné zložky riadka cenovej ponuky
+title: Konfigurácia fakturovateľných súčastí riadka cenovej ponuky – čiastočné
 description: Táto téma poskytuje informácie o nastavení účtovateľných a neúčtovateľných zložiek v riadku cenovej ponuky založenej na projekte.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084485"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177125"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Nakonfigurujte účtovateľné zložky riadka cenovej ponuky
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfigurácia fakturovateľných súčastí riadka cenovej ponuky – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -44,21 +44,21 @@ Podskupinu zahrnutých zložiek možno označiť ako účtovateľnú pomocou po�
 
 Projektová úloha môže byť účtovateľná alebo neúčtovateľná v kontexte špecifického riadku cenovej ponuky na základe projektu, čo umožňuje nasledujúce nastavenie:
 
-Ak riadok cenovej ponuky založený na projekte obsahuje **Čas** a úlohu **T1** , úloha je priradená k riadku cenovej ponuky ako účtovateľná. Ak existuje druhý riadok cenovej ponuky, ktorý obsahuje **Výdavky** , môžete úlohu **T1** v riadku cenovej ponuky priradiť ako neúčtovateľnú. Výsledkom je, že všetok čas zaznamenaný pri úlohe je účtovateľný a všetky výdavky zaznamenané pre úlohu nie sú neúčtovateľné.
+Ak riadok cenovej ponuky založený na projekte obsahuje **Čas** a úlohu **T1**, úloha je priradená k riadku cenovej ponuky ako účtovateľná. Ak existuje druhý riadok cenovej ponuky, ktorý obsahuje **Výdavky**, môžete úlohu **T1** v riadku cenovej ponuky priradiť ako neúčtovateľnú. Výsledkom je, že všetok čas zaznamenaný pri úlohe je účtovateľný a všetky výdavky zaznamenané pre úlohu nie sú neúčtovateľné.
 
-Typ fakturácie úlohy je možné nakonfigurovať na karte **Účtovateľné úlohy** v riadku cenovej ponuky založenej na projekte, aktualizáciou poľa **Typ fakturácie** vo vedľajšej mriežke **Úlohy riadkov cenových ponúk**. Prípadne môžete aktualizovať typ fakturácie pre úlohu projektu v poli **Typ fakturácie** vo vedľajšej mriežke pre úlohu Nastavenie fakturácie projektu, ktoré zobrazuje riadky cenovej ponuky spojené s úlohou.
+Typ fakturácie úlohy je možné nakonfigurovať na karte **Fakturovateľné úlohy** riadku cenovej ponuky založenej na projekte aktualizáciou poľa **Typ fakturácie** na vedľajšej mriežke **Úlohy riadkov cenovej ponuky**. Prípadne môžete aktualizovať typ fakturácie pre projektovú úlohu v poli **Typ fakturácie** vo vedľajšej mriežke v nastavení fakturácie úloh projektu, ktoré zobrazuje riadky cenovej ponuky spojené s úlohou.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Aktualizácia roly, ktorá má byť účtovateľná alebo neúčtovateľná
 
 Rola môže byť účtovateľná alebo neúčtovateľná v kontexte konkrétneho riadka cenovej ponuky založenej na projekte.
 
-Typ fakturácie roly je možné nakonfigurovať na karte **Účtovateľné roly** v riadku cenovej ponuky aktualizáciou poľa **Typ fakturácie** vo vedľajšej mriežke **Účtovateľné roly**.
+Typ fakturácie roly je možné nakonfigurovať na karte **Fakturovateľné roly** riadku cenovej ponuky aktualizáciou poľa **Typ fakturácie** na vedľajšej mriežke **Fakturovateľné roly**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Aktualizácia kategórie transakcie, ktorá má byť účtovateľná alebo neúčtovateľná
 
 Kategória transakcie môže byť účtovateľná alebo neúčtovateľná na konkrétnom riadku cenovej ponuky.
 
-Typ fakturácie transakcie je možné nakonfigurovať na karte **Účtovateľné kategórie** v riadku cenovej ponuky aktualizáciou poľa **Typ fakturácie** vo vedľajšej mriežke **Účtovateľné kategórie**.
+Typ fakturácie transakcie je možné nakonfigurovať na karte **Fakturovateľné kategórie** riadku cenovej ponuky aktualizáciou poľa **Typ fakturácie** na vedľajšej mriežke **Fakturovateľné kategórie**.
 
 ### <a name="resolve-chargeability"></a>Vyriešenie účtovateľnosti
 Odhad alebo skutočná hodnota vytvorená pre čas sa bude považovať za účtovateľnú, iba ak je **Čas** zahrnutý v riadku cenovej ponuky, a ak sú kategórie **Úloha** a **Rola** nakonfigurované ako účtovateľné v riadku cenovej ponuky.

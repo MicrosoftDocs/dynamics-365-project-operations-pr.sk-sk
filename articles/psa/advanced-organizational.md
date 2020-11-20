@@ -3,7 +3,7 @@ title: Organizačné jednotky
 description: Táto téma poskytuje informácie o organizačných jednotkách v Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084476"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130642"
 ---
 # <a name="organizational-units"></a>Organizačné jednotky 
 
@@ -50,7 +50,7 @@ Okrem toho existuje atribút organizačnej jednotky zdrojovej entity. Každý zd
 
 Organizačná jednotka hrá dve roly v PSA:
 
-- **Contracting unit** – Organizačná jednotka, ktorá zastupuje skupinu spoločností alebo divízie, ktorá je primárne zodpovedná za získanie predaja a riadenie poskytovania práce a služieb zákazníkovi. Zmluvná jednotka je definovaná poľom **Contracting Unit** v sekcii hlavičky na stránkach **Opportunity** , **Quote** , **Project Contract** a **Project**.
+- **Contracting unit** – Organizačná jednotka, ktorá zastupuje skupinu spoločností alebo divízie, ktorá je primárne zodpovedná za získanie predaja a riadenie poskytovania práce a služieb zákazníkovi. Zmluvná jednotka je definovaná poľom **Contracting Unit** v sekcii hlavičky na stránkach **Opportunity**, **Quote**, **Project Contract** a **Project**.
 - **Resourcing unit** – Organizačná jednotka, ku ktorej zdroj patrí alebo je priradený. Táto organizačná jednotka môže poskytnúť svoje zdroje pre niektoré roly na výkazy práce (SOWs) a projekty, ktoré sú vo vlastníctve zmluvnej jednotky.
 
 > ![Zmluvné jednotky a zdrojové jednotky](media/advanced-1.png)

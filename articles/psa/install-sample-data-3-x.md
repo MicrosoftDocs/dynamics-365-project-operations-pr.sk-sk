@@ -3,7 +3,7 @@ title: Inštalácia vzorových údajov
 description: Táto téma poskytuje informácie o inštalácii vzorových údajov v Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084429"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132442"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Inštalácia vzorových údajov pre aplikáciu Project Service
 
@@ -49,7 +49,7 @@ Pri inštalácii ktoréhokoľvek z balíkov vzorových údajov inštalačný pro
 
 - Vytvorí alebo nastaví predvolené parametre pre používanie Project Service, Field Service alebo oboch aplikácií (v prípade potreby).
 
-- Importuje vzorové údaje pre aplikácie, ako sú rezervovateľné zdroje, špecifické úlohy pre aplikácie, zoznamy predaja a obstarávacích cien, organizačné jednotky, záznamy spracovania predaja a iné entity na predvedenie rozhodujúcich schopností.  
+- Importuje vzorové údaje pre aplikácie, ako sú rezervovateľné zdroje, špecifické úlohy pre aplikácie, zoznamy predaja a obstarávacích cien, organizačné jednotky, záznamy spracovania predaja a iné entity na predvedenie rozhodujúcich schopností.  
 
 S balíkom **ukážkových údajov** dostanete vyššie uvedené a dodatočné transakčné údaje, ako sú napríklad objednávky prác a projekty.
 
@@ -80,7 +80,7 @@ Inštalačný protokol predpokladá nasledujúce o cieľovej inštancii (organiz
 
 Musíte spustiť inštalátor na počítači s najnovšiu verziou systému Windows (preferovaný Windows 10).
 
-Mali by ste počítať s tým, že počítač musí zostať pripojený k sieti a že inštalácia zaberie až **1 hodinu** pre **konfiguračné/referenčné údaje**. (Zvyčajne inštalácia trvá približne 30 minút pre **FPSMasterData** , ktoré obsahujú vzorové údaje pre obe aplikácie.) Pre **FPSDemoData** bude inštalácia trvať asi **3 hodiny**.
+Mali by ste počítať s tým, že počítač musí zostať pripojený k sieti a že inštalácia zaberie až **1 hodinu** pre **konfiguračné/referenčné údaje**. (Zvyčajne inštalácia trvá približne 30 minút pre **FPSMasterData**, ktoré obsahujú vzorové údaje pre obe aplikácie.) Pre **FPSDemoData** bude inštalácia trvať asi **3 hodiny**.
 
 Počítač by mal mať vypnutú funkciu šetriča obrazovky. Inak by sa poverenia relácie pre inštaláciu mohli stratiť, keď sa aktivuje šetrič obrazovky (pokiaľ nebudete udržovať počas tej doby reláciu v aktívnom stave).
 
@@ -114,13 +114,13 @@ Balík **FPSMasterData** je určený na inštaláciu jedného používateľa s n
 
 Ak chcete vytvoriť alebo konfigurovať používateľov, prejdite na **Nastavenia** > **Zabezpečenie** > **Používatelia** a vykonajte nasledujúce:
 
-1. Nastavte UserFullname = „Spencer Low“ s používateľským menom „spencerl“ ( **malé** ) na roly Projektový správca a Správca postupov.
+1. Nastavte UserFullname = „Spencer Low“ s používateľským menom „spencerl“ (**malé**) na roly Projektový správca a Správca postupov.
 
 2. Vyberte používateľa **Spencer Low** a potom **Spravovať roly**. Vyhľadajte a vyberte rolu **Správcu systému** a potom vyberte **OK** a udeľte úplné práva správcu používateľovi Spencer Low. Tento krok je potrebné zabezpečiť, aby vzorové záznamy boli vytvorené so správnym používateľským vlastníctvom a správne vypĺňali zobrazenia.
 
 3. Zo stiahnutého balíka musíte aktualizovať súbor mapovanie údajov o e-mailové adresy kontextu predvoleného používateľa. Urobíte tak otvorením **PkgFolder** a následným vyhľadaním a otvorením súboru **ImportUserMapFile.xml** v Poznámkovom bloku (alebo Visual Studio alebo v inom editore XML). Nastavte pole **DefaultUserToMapTo=** na e-mailovú adresu používateľa Spencer Low.
 
-4. Ak nepoužívate Spencer Low s používateľským menom **spencerl** , budete musieť aktualizovať ďalší súbor. Otvorte súbor **DemoDataPreImportConfig.xml** a nájdite značku **userstocreateandconfigure**. Aktualizujte značku **\<login\>** používateľským menom používateľa Jakub Mihálik. Ďalšie podrobnosti nájdete v časti [Technické poznámky](#technical-notes).
+4. Ak nepoužívate Spencer Low s používateľským menom **spencerl**, budete musieť aktualizovať ďalší súbor. Otvorte súbor **DemoDataPreImportConfig.xml** a nájdite značku **userstocreateandconfigure**. Aktualizujte značku **\<login\>** používateľským menom používateľa Jakub Mihálik. Ďalšie podrobnosti nájdete v časti [Technické poznámky](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Vytvorenie alebo konfigurovanie používateľov – balík ukážkových údajov
 
@@ -143,9 +143,9 @@ Balík ukážkových údajov vyžaduje šiestich používateľov. Aby sa balík 
    > [!div class="mx-imgBorder"]
    > ![Snímka obrazovky UserMapFile](media/sample-data-7.png)
 
-4. Ak vaše úplné meno používateľa „Spencer Low“ má iné ID používateľa než **„spencerl“** , potom budete musieť aktualizovať ďalší súbor. Otvorte **DemoDataPreImportConfig.xml** a nájdite značku **userstocreateandconfigure**. Aktualizujte značku **\<login\>** s loginId (rozlišuje veľké a malé písmená). 
+4. Ak vaše úplné meno používateľa „Spencer Low“ má iné ID používateľa než **„spencerl“**, potom budete musieť aktualizovať ďalší súbor. Otvorte **DemoDataPreImportConfig.xml** a nájdite značku **userstocreateandconfigure**. Aktualizujte značku **\<login\>** s loginId (rozlišuje veľké a malé písmená). 
 
-5. Kalendár prvého používateľa (v značke **userstocreateandconfigure** ) sa používa na vyplnenie pracovnej doby pre všetky rezervovateľné zdroje pri importe ukážkových údajov. Prejdite na **Nastavenia** > **Zabezpečenie** > **Používatelia** , nájdite svojho používateľa „Spencer Low“ a otvorte možnosť „Pracovná doba“. Upravte existujúcu pracovnú dobu výberom možnosti **Celý opakujúci sa týždenný plán od začiatku do konca**. Zabezpečte **nastavenie pracovnej doby od 8.00 do 17.00 (9 hodín), pondelok až piatok, a časové pásmo nastavené na tichomorský čas (USA & Kanada)**. Je to potrebné na zabezpečenie toho, aby sa tabuľa projektu a plánovania zobrazila podľa očakávania.
+5. Kalendár prvého používateľa (v značke **userstocreateandconfigure**) sa používa na vyplnenie pracovnej doby pre všetky rezervovateľné zdroje pri importe ukážkových údajov. Prejdite na **Nastavenia** > **Zabezpečenie** > **Používatelia**, nájdite svojho používateľa „Spencer Low“ a otvorte možnosť „Pracovná doba“. Upravte existujúcu pracovnú dobu výberom možnosti **Celý opakujúci sa týždenný plán od začiatku do konca**. Zabezpečte **nastavenie pracovnej doby od 8.00 do 17.00 (9 hodín), pondelok až piatok, a časové pásmo nastavené na tichomorský čas (USA & Kanada)**. Je to potrebné na zabezpečenie toho, aby sa tabuľa projektu a plánovania zobrazila podľa očakávania.
 
 **Odporúčanie:** Zvážte teraz vytvorenie zálohy vašej organizácie pre prípad, že by ste sa potrebovali vrátiť na začiatok, ak sa niečo pokazí počas inštalácie vzorových údajov. Ďalšie informácie nájdete v téme [Zálohovanie a obnovenie inštancií](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -175,7 +175,7 @@ Balík ukážkových údajov vyžaduje šiestich používateľov. Aby sa balík 
 
 6. Pred pokračovaním pripomíname, že inštalácia vzorových údajov môže trvať až jednu hodinu (zvyčajne cca 10 minút). Budete musieť zabezpečiť, aby počas inštalácie zostal počítač pripojený do siete, a aby relácia zostala aktívna.   
 
-7. Keď budete pripravení, kliknite na tlačidlo **Ďalej** , čím sa spustí proces inštalácie vzorových údajov. Po načítaní vzorových údajov kliknite na tlačidlo **Dokončiť**.
+7. Keď budete pripravení, kliknite na tlačidlo **Ďalej**, čím sa spustí proces inštalácie vzorových údajov. Po načítaní vzorových údajov kliknite na tlačidlo **Dokončiť**.
 
 ## <a name="verify-the-sample-data-installation"></a>Overenie inštalácie vzorových údajov
 
@@ -203,7 +203,7 @@ Nižšie sú uvedené ďalšie technické podrobnosti o inštalácii týchto úd
 
 Ak potrebujete inštalovať vzorové údaje do existujúcej skúšobnej alebo demo verzie prostredia Project Service alebo Field Service, ktoré už obsahuje údaje, budete musieť pozastaviť bezpečnostné predbežné kontroly, ktoré vykonáva inštalátor.
 
-Ak to chcete urobiť, prejdite do priečinka **PkgFolder** , vyhľadajte a otvorte súbor **DemoDataPreImportConfig.xml** v Poznámkovom bloku (alebo inom editore XML).
+Ak to chcete urobiť, prejdite do priečinka **PkgFolder**, vyhľadajte a otvorte súbor **DemoDataPreImportConfig.xml** v Poznámkovom bloku (alebo inom editore XML).
 
 Nájdite nasledujúcu hodnotu, a potom zmeňte nastavenie z pravdivého na nepravdivé:
 

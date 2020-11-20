@@ -3,7 +3,7 @@ title: Vytvoriť zadanie času
 description: Táto téma poskytuje informácie o tom, ako vytvoriť zadania času.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084455"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131310"
 ---
 # <a name="create-time-entries"></a>Vytvoriť zadanie času
 
@@ -41,7 +41,7 @@ Ak chcete vytvoriť zadanie času, postupujte podľa týchto krokov.
 4. V poli **Projektová úloha** nájdite úlohu pre túto časovú položku.
 
     > [!NOTE]
-    > Ak vytvárate časovú položku pre úlohu, ktorá nie je priradená používateľovi, v poli **Úloha projektu** vyberte tlačidlo **Hľadať** , vyberte položku **Zmeniť zobrazenie** a potom vyberte **Všetky aktívne projektové úlohy** na vypísanie všetkých úloh.
+    > Ak vytvárate časovú položku pre úlohu, ktorá nie je priradená používateľovi, v poli **Úloha projektu** vyberte tlačidlo **Hľadať**, vyberte položku **Zmeniť zobrazenie** a potom vyberte **Všetky aktívne projektové úlohy** na vypísanie všetkých úloh.
 
 5. Zadajte prípadne vyžadovaný popis a potom stlačte možnosť **Uložiť a zavrieť**.
 

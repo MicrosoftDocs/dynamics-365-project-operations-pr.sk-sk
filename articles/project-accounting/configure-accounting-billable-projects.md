@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084278"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131992"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurácia účtovníctva pre fakturovateľné projekty
 
@@ -22,7 +22,7 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 Dynamics 365 Project Operations podporuje rôzne možnosti účtovníctva pre fakturovateľné projekty, ktoré zahŕňajú časové a materiálne transakcie a transakcie s pevnou cenou.
 
 - **Transakcie času a materiálu** : Tieto transakcie sú fakturované podľa postupu práce na základe spotreby hodín, výdavkov, položiek alebo poplatkov za projekt. Tieto transakčné náklady je možné porovnať s výnosmi z každej transakcie a projekt je fakturovaný podľa postupu prác. Výnosy z projektu je možné akumulovať aj v čase, keď dôjde k transakcii. Počas fakturácie sú výnosy vykázané a akumulované výnosy sú prípadne vrátené.
-- **Transakcie s pevnou cenou** : Tieto transakcie sa fakturujú podľa plánu fakturácie, ktorý je založený na zmluve o projekte. Výnosy z transakcií s pevnou cenou je možné vykázať pri fakturácii alebo vypočítať a pravidelne účtovať podľa metódy **Dokončená zmluva** alebo **Dokončené percento**.
+- **Transakcie s pevnou cenou**: Tieto transakcie sa fakturujú podľa plánu fakturácie, ktorý je založený na zmluve o projekte. Výnosy z transakcií s pevnou cenou je možné vykázať pri fakturácii alebo vypočítať a pravidelne účtovať podľa metódy **Dokončená zmluva** alebo **Dokončené percento**.
 
 Projekt sa považuje za zúčtovateľný, ak je spojený s jednou alebo viacerými riadkami zmluvy. Riadok zmluvy projektu sám definuje, ktoré spôsoby účtovania a typy transakcií sú povolené.
 
@@ -45,47 +45,47 @@ Vykonaním nasledujúcich krokov vytvoríte nový profil nákladov a výnosov pr
 3. V poli **Názov** zadajte názov a stručný popis profilu.
 4. V poli **Spôsob fakturácie** vyberte **Čas a materiál** alebo **Pevná cena**.
 5. Rozbaľte rýchlu kartu **Hlavná kniha**. Polia na tejto karte definujú účtovné zásady, ktoré sa používajú, keď sa transakcie projektu zaznamenávajú do účtovného denníka pomocou denníka integrácie Project Operations a potom sa fakturujú prostredníctvom návrhu projektovej faktúry.
-6. Vyberte príslušné informácie v nasledujúcich poliach na rýchlej karte **Hlavná kniha** :
+6. Vyberte príslušné informácie v nasledujúcich poliach na rýchlej karte **Hlavná kniha**:
 
-    - **Náklady na príspevok – hodina** :
+    - **Náklady na príspevok – hodina**:
 
-       - *Žiadna hlavná kniha* : Náklady za časové transakcie sa nebudú účtovať do hlavnej knihy, keď sa zaúčtuje integračný denník Project Operations. Účtovník však môže zaúčtovať náklady na príspevok neskôr pomocou funkcie Náklady na príspevok.
-       - **Zostatok** : Cena za časové transakcie sa zaúčtuje na typ účtu Hlavná kniha, *WIP – hodnota nákladov* a pripísané na *Účet alokácie miezd* v časti Nastavenia zverejňovania v hlavnej knihe. Účtovník bude pomocou funkcie Náklady na príspevok pravidelne prevádzať tieto náklady z účtu zostatku na účet ziskov a strát.
-       - **Zisk a strata** : Pri zverejňovaní integračného denníka Project Operations sa náklady časovej transakcie zaúčtujú na typ účtu *Náklady* hlavnej knihy a pripísané na *Účet alokácie miezd* definovaný na karte **Náklady** na stránke **Nastavenia zverejňovania v hlavnej knihe** ( **Riadenie projektu a účtovníctvo** \> **Nastaviť** \> **Zaúčtovanie** \> **Nastavenia zverejňovania v hlavnej knihe** ). Toto je najbežnejšie nastavenie pre transakcie času a materiálu.
-        - *Nikdy nepoužívať hlavnú knihu* : Náklad za časové transakcie sa nikdy nezaúčtuje do hlavnej knihy.
+       - *Žiadna hlavná kniha*: Náklady za časové transakcie sa nebudú účtovať do hlavnej knihy, keď sa zaúčtuje integračný denník Project Operations. Účtovník však môže zaúčtovať náklady na príspevok neskôr pomocou funkcie Náklady na príspevok.
+       - **Zostatok**: Cena za časové transakcie sa zaúčtuje na typ účtu Hlavná kniha, *WIP – hodnota nákladov* a pripísané na *Účet alokácie miezd* v časti Nastavenia zverejňovania v hlavnej knihe. Účtovník bude pomocou funkcie Náklady na príspevok pravidelne prevádzať tieto náklady z účtu zostatku na účet ziskov a strát.
+       - **Zisk a strata**: Pri zverejňovaní integračného denníka Project Operations sa náklady časovej transakcie zaúčtujú na typ účtu *Náklady* hlavnej knihy a pripísané na *Účet alokácie miezd* definovaný na karte **Náklady** na stránke **Nastavenia zverejňovania v hlavnej knihe** (**Riadenie projektu a účtovníctvo** \> **Nastaviť** \> **Zaúčtovanie** \> **Nastavenia zverejňovania v hlavnej knihe**). Toto je najbežnejšie nastavenie pre transakcie času a materiálu.
+        - *Nikdy nepoužívať hlavnú knihu*: Náklad za časové transakcie sa nikdy nezaúčtuje do hlavnej knihy.
 
-    - **Náklady na príspevok – výdavok** :
+    - **Náklady na príspevok – výdavok**:
 
-         - **Zostatok** : Pri zverejňovaní integračného denníka Project Operations sa náklady nákladovej transakcie zaúčtujú na typ účtu Účtovná kniha *WIP – hodnota nákladov* podľa definície na karte **Náklady** na stránke **Nastavenia zverejňovania v hlavnej knihe** a pripísaná na účet s odchýlkou v zázname v účtovnom denníku. Predvolené účty s odchýlkou pre výdavky sú definované v časti **Projektové riadenie a účtovníctvo** > **Nastaviť** \> **Zaúčtovanie** \> **Predvolený účet s odchýlkami pre výdavky**. Účtovník bude pomocou funkcie **Náklady na príspevok** pravidelne prevádzať tieto náklady z účtu zostatku na účet ziskov a strát.
-        - **Zisk a strata** : Pri zverejňovaní integračného denníka Project Operations sa náklady nákladovej transakcie zaúčtujú na typ účtu Účtovná kniha *Náklady* podľa definície na karte **Náklady** na stránke **Nastavenia zverejňovania v hlavnej knihe** a pripísaná na účet s odchýlkou v zázname v účtovnom denníku. Predvolené účty s odchýlkou pre výdavky sú definované v časti **Projektové riadenie a účtovníctvo** \> **Nastaviť** \> **Zaúčtovanie** \> **Predvolený účet s odchýlkami pre výdavky**.
+         - **Zostatok**: Pri zverejňovaní integračného denníka Project Operations sa náklady nákladovej transakcie zaúčtujú na typ účtu Účtovná kniha *WIP – hodnota nákladov* podľa definície na karte **Náklady** na stránke **Nastavenia zverejňovania v hlavnej knihe** a pripísaná na účet s odchýlkou v zázname v účtovnom denníku. Predvolené účty s odchýlkou pre výdavky sú definované v časti **Projektové riadenie a účtovníctvo** > **Nastaviť** \> **Zaúčtovanie** \> **Predvolený účet s odchýlkami pre výdavky**. Účtovník bude pomocou funkcie **Náklady na príspevok** pravidelne prevádzať tieto náklady z účtu zostatku na účet ziskov a strát.
+        - **Zisk a strata**: Pri zverejňovaní integračného denníka Project Operations sa náklady nákladovej transakcie zaúčtujú na typ účtu Účtovná kniha *Náklady* podľa definície na karte **Náklady** na stránke **Nastavenia zverejňovania v hlavnej knihe** a pripísaná na účet s odchýlkou v zázname v účtovnom denníku. Predvolené účty s odchýlkou pre výdavky sú definované v časti **Projektové riadenie a účtovníctvo** \> **Nastaviť** \> **Zaúčtovanie** \> **Predvolený účet s odchýlkami pre výdavky**.
        
-    - **Fakturácia na účet** :
+    - **Fakturácia na účet**:
 
-        - **Zostatok** : Pri zverejňovaní návrhov projektových faktúr sa transakcia na účet (medzník fakturácie) pripíše na typ účtu Účtovná kniha *WIP fakturované – na účet* podľa definície na karte **Príjmy** na stránke **Nastavenia zverejňovania v hlavnej knihe** a zaúčtovaná na účet zostatku zákazníka.
-         - **Zisk a strata** : Pri zverejňovaní návrhov projektových faktúr sa transakcia na účet (medzník fakturácie) pripíše na typ účtu Účtovná kniha *Fakturované výnosy – na účet* podľa definície na karte **Príjmy** na stránke **Nastavenia zverejňovania v hlavnej knihe** a zaúčtovaná na účet zostatku zákazníka. Účty zostatkov zákazníkov sú definované v časti **Pohľadávky** \> **Nastaviť** \> **Profily zverejňovania zákazníka**.
+        - **Zostatok**: Pri zverejňovaní návrhov projektových faktúr sa transakcia na účet (medzník fakturácie) pripíše na typ účtu Účtovná kniha *WIP fakturované – na účet* podľa definície na karte **Príjmy** na stránke **Nastavenia zverejňovania v hlavnej knihe** a zaúčtovaná na účet zostatku zákazníka.
+         - **Zisk a strata**: Pri zverejňovaní návrhov projektových faktúr sa transakcia na účet (medzník fakturácie) pripíše na typ účtu Účtovná kniha *Fakturované výnosy – na účet* podľa definície na karte **Príjmy** na stránke **Nastavenia zverejňovania v hlavnej knihe** a zaúčtovaná na účet zostatku zákazníka. Účty zostatkov zákazníkov sú definované v časti **Pohľadávky** \> **Nastaviť** \> **Profily zverejňovania zákazníka**.
 
-   Keď definujete profily zverejňovania pre spôsoby fakturácie času a materiálu, máte možnosť nazhromaždiť výnosy podľa typu transakcie (hodiny, výdavok a poplatok). Ak je možnosť **Prírastok** nastavená na **Áno** , nevyfakturované predajné transakcie v integračnom denníku Project Operations sa zaznamenajú do všeobecnej hlavnej knihy. Hodnota predaja sa zaúčtuje na **WIP – účet hodnoty predaja** a pripíšu na účet **Prírastky – hodnota predaja** , ktorý bol nastavený na stránke **Nastavenie zverejňovania v hlavnej knihe** na karte **Výnosy**. 
+   Keď definujete profily zverejňovania pre spôsoby fakturácie času a materiálu, máte možnosť nazhromaždiť výnosy podľa typu transakcie (hodiny, výdavok a poplatok). Ak je možnosť **Prírastok** nastavená na **Áno**, nevyfakturované predajné transakcie v integračnom denníku Project Operations sa zaznamenajú do všeobecnej hlavnej knihy. Hodnota predaja sa zaúčtuje na **WIP – účet hodnoty predaja** a pripíšu na účet **Prírastky – hodnota predaja**, ktorý bol nastavený na stránke **Nastavenie zverejňovania v hlavnej knihe** na karte **Výnosy**. 
   
   > [!NOTE]
   > Možnosť **Prírastok** je k dispozícii iba v prípade, že príslušný typ transakcie **Náklady** sa zaúčtuje na účet ziskov a strát.
     
 7. Rozbaľte rýchlu kartu **Odhadované**. Polia na tejto karte definujú nastavenia výpočtu pre odhady výnosov z pevnej ceny. Polia na tejto karte sa vzťahujú iba na profily nákladov a výnosov projektu s fakturačnou metódou **Pevná cena**.
-8. Vyberte príslušné informácie v nasledujúcich poliach na rýchlej karte **Odhadované** :
+8. Vyberte príslušné informácie v nasledujúcich poliach na rýchlej karte **Odhadované**:
 
-    - **Zásada použitá pri výpočtoch dokončenia projektu** :
+    - **Zásada použitá pri výpočtoch dokončenia projektu**:
 
-        - **Dokončená zmluva** : Zhoda nákladov a vykázanie výnosov nastane až na konci projektu. Náklady sa v zostatku prejavia ako WIP, kým nie je projekt dokončený.
-        - **Dokončené percento** : Časové rozlíšenie výnosov sa počíta a účtuje do hlavnej knihy každé obdobie na základe percenta dokončenia projektu. Existuje niekoľko metód na výpočet percentuálneho podielu dokončenia. Tieto metódy môžu byť automatické na základe konfigurácie alebo manuálne.
-        - **Žiadne WIP** : Toto nastavenie sa používa pre projekty s pevnou cenou s krátkym časovým rozpätím, kde sa faktúra a náklady vyskytujú v rovnakom období. V takom prípade je hodnota poľa **Fakturácia na účet** na rýchlej karte **Hlavná kniha** automaticky nastavená na **Zisk a strata** , aby sa zabezpečilo vykázanie výnosov pri fakturácii. Proces odhadu výnosov sa nepoužije pre profil nákladov a výnosov tohto projektu.
+        - **Dokončená zmluva**: Zhoda nákladov a vykázanie výnosov nastane až na konci projektu. Náklady sa v zostatku prejavia ako WIP, kým nie je projekt dokončený.
+        - **Dokončené percento**: Časové rozlíšenie výnosov sa počíta a účtuje do hlavnej knihy každé obdobie na základe percenta dokončenia projektu. Existuje niekoľko metód na výpočet percentuálneho podielu dokončenia. Tieto metódy môžu byť automatické na základe konfigurácie alebo manuálne.
+        - **Žiadne WIP**: Toto nastavenie sa používa pre projekty s pevnou cenou s krátkym časovým rozpätím, kde sa faktúra a náklady vyskytujú v rovnakom období. V takom prípade je hodnota poľa **Fakturácia na účet** na rýchlej karte **Hlavná kniha** automaticky nastavená na **Zisk a strata**, aby sa zabezpečilo vykázanie výnosov pri fakturácii. Proces odhadu výnosov sa nepoužije pre profil nákladov a výnosov tohto projektu.
 
-    - **Princíp zhody** : Toto pole určuje, ako sa bude vypočítaná hodnota predaja (akumulovaný výnos) účtovať do hlavnej knihy.
+    - **Princíp zhody**: Toto pole určuje, ako sa bude vypočítaná hodnota predaja (akumulovaný výnos) účtovať do hlavnej knihy.
 
         - Pomocou princípu **Hodnota predaja** systém vypočíta hodnotu predaja porovnaním nákladov a výnosov a potom ich zaúčtuje ako jednu sumu.
         - Pomocou princípu **Výroba a zisk** systém rozdelí hodnotu predaja na realizované náklady a vypočítaný zisk. Tieto sa zverejňujú osobitne.
 
-    - **Šablóny nákladov** : Umožňuje zoskupiť transakcie projektu na základe typu transakcie a kategórie projektu a definovať pravidlá výpočtu percentuálneho dokončenia pre tieto skupiny.
-    - **Kódy obdobia** : Definuje frekvenciu, s akou sa počítajú odhady výnosov pre daný profil nákladov a výnosov projektu.
-    - **Kategórie pre odhad** : Používa sa na zverejňovanie predajnej hodnoty (akumulovaného výnosu) do transakcií projektu. Najskôr nakonfigurujte kategóriu vyhradeného projektu pre typ transakcie **Poplatok** a potom nastavte príznak **Odhad** pre túto kategóriu projektu. Ďalej v závislosti od zvoleného princípu zhody vyberte túto kategóriu projektu v hodnote **Predaj** alebo v poli **Zisk** v profile nákladov a výnosov projektu.
+    - **Šablóny nákladov**: Umožňuje zoskupiť transakcie projektu na základe typu transakcie a kategórie projektu a definovať pravidlá výpočtu percentuálneho dokončenia pre tieto skupiny.
+    - **Kódy obdobia**: Definuje frekvenciu, s akou sa počítajú odhady výnosov pre daný profil nákladov a výnosov projektu.
+    - **Kategórie pre odhad**: Používa sa na zverejňovanie predajnej hodnoty (akumulovaného výnosu) do transakcií projektu. Najskôr nakonfigurujte kategóriu vyhradeného projektu pre typ transakcie **Poplatok** a potom nastavte príznak **Odhad** pre túto kategóriu projektu. Ďalej v závislosti od zvoleného princípu zhody vyberte túto kategóriu projektu v hodnote **Predaj** alebo v poli **Zisk** v profile nákladov a výnosov projektu.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Vzorové konfigurácie profilov nákladov a výnosov projektu
 

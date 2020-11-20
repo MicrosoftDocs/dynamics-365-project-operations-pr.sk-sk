@@ -3,7 +3,7 @@ title: Oceňovanie katalógu produktov
 description: Táto téma poskytuje informácie o tom, ako funguje oceňovanie produktov v katalógu Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084395"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132307"
 ---
 # <a name="product-catalog-pricing"></a>Oceňovanie katalógu produktov 
 
@@ -46,11 +46,11 @@ PSA podporuje rôzne možnosti zaokrúhľovania, keď sú ceny nakonfigurované 
 
 > ![Pridávanie produktov z katalógu produktov do rôznych cenníkov.](media/basic-guide-16.png)
 
-Keď vytvoríte nový vlastný cenník pre cenovú ponuku výberom položky **vytvoriť vlastné ceny** na stránke **projektovej ponuky** , PSA vytvorí kópiu cenníka a pole **entita** v hlavičke nového cenníka je nastavené na **predajnú entitu**. Názov nového cenníka sa pripojí k názvu cenovej ponuky a časovej pečiatky. Môžete tiež použiť názov nového cenníka a názov cenovej ponuky vo vlastných pracovných postupoch na spustenie dodatočnej revízie a schválení cenových ponúk, ktoré používajú vlastné ceny.
+Keď vytvoríte nový vlastný cenník pre cenovú ponuku výberom položky **vytvoriť vlastné ceny** na stránke **projektovej ponuky**, PSA vytvorí kópiu cenníka a pole **entita** v hlavičke nového cenníka je nastavené na **predajnú entitu**. Názov nového cenníka sa pripojí k názvu cenovej ponuky a časovej pečiatky. Môžete tiež použiť názov nového cenníka a názov cenovej ponuky vo vlastných pracovných postupoch na spustenie dodatočnej revízie a schválení cenových ponúk, ktoré používajú vlastné ceny.
 
  
 ## <a name="default-product-price-list"></a>Predvolený cenník produktov.
-Každý záznam zákazníka má **predvolené pole cenníka** , kde môžete zadať cenník, ktorý zodpovedá mene zákazníka. V zariadení PSA sa v tomto poli automaticky nezadá predvolená hodnota. Ak existuje vlastná cenová zmluva s konkrétnym zákazníkom, môžete použiť toto pole na priradenie cenníka k danému zákazníkovi.
+Každý záznam zákazníka má **predvolené pole cenníka**, kde môžete zadať cenník, ktorý zodpovedá mene zákazníka. V zariadení PSA sa v tomto poli automaticky nezadá predvolená hodnota. Ak existuje vlastná cenová zmluva s konkrétnym zákazníkom, môžete použiť toto pole na priradenie cenníka k danému zákazníkovi.
 
 Príležitosti, cenová ponuka a pEntityrojektové zmluvy používajú nasledovný príkaz na zadanie predvolených cenníkov produktov. Rovnaká objednávka sa používa pre projektové cenníky.
 

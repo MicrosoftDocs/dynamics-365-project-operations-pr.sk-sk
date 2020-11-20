@@ -3,7 +3,7 @@ title: Kalendár zadávania času
 description: Táto téma poskytuje informácie o používaní kalendára časovej položky.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afc31609c51f48db61ce359c18707b5a92211082
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 413aba735a5011a9b40c1d5b0bf43c6771db0f7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084454"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131226"
 ---
 # <a name="time-entry-calendar"></a>Kalendár zadávania času
 
@@ -35,8 +35,8 @@ Na stránke **Zadania času** si môžete zobraziť časové záznamy na kalend�
 
 Dynamics 365 Project Service Automation ponúka nový a rozšíriteľný čas vstupu skúsenosti. Táto nová skúsenosť nahradí vlastný ovládací prvok kalendára, ktorý bol použitý v starších verziách. Avšak, stále môžete zobraziť časové položky pomocou ovládacieho prvku kalendára iba na čítanie, aby rámec zjednoteného rozhrania poskytoval iba denné, týždenné alebo mesačné zobrazenie.
 
-Kalendár nepodporuje akcie v jednotlivých položkách kalendára a nemôžete vybrať jeden alebo viac položiek kalendára na odoslanie alebo odstránenie. Namiesto toho vyberte položku kalendára na otvorenie stránky entity **Zadanie času** , kde môžete dokončiť požadované akcie.
+Kalendár nepodporuje akcie v jednotlivých položkách kalendára a nemôžete vybrať jeden alebo viac položiek kalendára na odoslanie alebo odstránenie. Namiesto toho vyberte položku kalendára na otvorenie stránky entity **Zadanie času**, kde môžete dokončiť požadované akcie.
 
 ## <a name="extensibility"></a>Rozšíriteľnosť
 
-Na stránke **Zadania času** , ktorá má mriežku časovej položky, môžete pridať vlastné polia, nastaviť vyhľadávacie polia a vytvoriť vlastné zobrazenia. Môžete tiež nastaviť vlastnú obchodnú logiku, ktorá je založená na hodnotách vybratých alebo zadaných vo vlastných poliach.
+Na stránke **Zadania času**, ktorá má mriežku časovej položky, môžete pridať vlastné polia, nastaviť vyhľadávacie polia a vytvoriť vlastné zobrazenia. Môžete tiež nastaviť vlastnú obchodnú logiku, ktorá je založená na hodnotách vybratých alebo zadaných vo vlastných poliach.

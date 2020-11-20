@@ -1,21 +1,21 @@
 ---
-title: Kľúčové koncepty projektových zmlúv
+title: Projektové zmluvy – Kľúčové koncepty – čiastočné
 description: Táto téma poskytuje informácie o kľúčových konceptoch projektových zmlúv.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084270"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177080"
 ---
-# <a name="key-concepts-of-project-contracts"></a>Kľúčové koncepty projektových zmlúv
+# <a name="project-contracts---key-concepts---lite"></a>Projektové zmluvy – Kľúčové koncepty – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 

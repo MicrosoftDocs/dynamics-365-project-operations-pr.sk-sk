@@ -3,7 +3,7 @@ title: Jednotkové skupiny a jednotky
 description: Táto téma poskytuje informácie o jednotkových skupinách a jednotkách.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084380"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130597"
 ---
 # <a name="unit-groups-and-units"></a>Jednotkové skupiny a jednotky
 
@@ -33,16 +33,16 @@ Jednotkové skupiny a jednotky sú základnými entitami v Microsoft Dynamics 36
 
 Tu je niekoľko príkladov jednotiek a jednotkových skupín:
  
-- **Unit group** : Vzdialenosť 
-    - **Units** : Míle, Kilometer, a tak ďalej.
-- **Unit group** : Čas
-    - **Units** : Hodina, deň, týždeň, a tak ďalej. 
+- **Unit group**: Vzdialenosť 
+    - **Units**: Míle, Kilometer, a tak ďalej.
+- **Unit group**: Čas
+    - **Units**: Hodina, deň, týždeň, a tak ďalej. 
 
 Keď nastavíte viacero jednotiek v jednotkovej skupine, musíte nastaviť tiež konverzný faktor medzi nimi určovaním prvej jednotky, ktorú nastavíte ako predvolenú alebo primárnu jednotku pre jednotkovú skupinu. 
 
-Na príklad, ak v jednotkovej skupine **Time** nastavíte **Hour** ako prvú jednotku, systém určí **Hour** ako predvolenú jednotku. Ak je ďalšia jednotka, ktorú nastavíte, **Day** , musíte nastaviť konverzný faktor **Day** na **Hour**. Ak potom pridáte **Week** ako tretiu jednotku, musíte nastaviť konverzný faktor pre **Week** , pokiaľ ide o **Day** alebo **Hour**. 
+Na príklad, ak v jednotkovej skupine **Time** nastavíte **Hour** ako prvú jednotku, systém určí **Hour** ako predvolenú jednotku. Ak je ďalšia jednotka, ktorú nastavíte, **Day**, musíte nastaviť konverzný faktor **Day** na **Hour**. Ak potom pridáte **Week** ako tretiu jednotku, musíte nastaviť konverzný faktor pre **Week**, pokiaľ ide o **Day** alebo **Hour**. 
 
-Nasledujúci obrázok zobrazuje príklad nastavenia pre jednotku **Day** , kde pole **Quantity** zobrazuje počet hodín, ktoré sú v dni a **Week** , kde pole **Quantity** zobrazuje počet dní, ktoré sú v týždni.
+Nasledujúci obrázok zobrazuje príklad nastavenia pre jednotku **Day**, kde pole **Quantity** zobrazuje počet hodín, ktoré sú v dni a **Week**, kde pole **Quantity** zobrazuje počet dní, ktoré sú v týždni.
 
 > ![Jednotková skupina: informačná stránka](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation používa jednotky a jednotkové skupiny
 
 V prípade výdavkov má každá kategória výdavkov predvolenú jednotkovú skupinu a jednotku. Tieto hodnoty sa zadajú ako predvolené hodnoty položiek cenníka pre kategórie výdavkov. 
 
-Napríklad máte kategóriu výdavku ktorá sa nazýva **Mileage**. Má jednotkovú skupinu, ktorá je pomenovaná **Distance** a predvolenú jednotku, ktorá sa nazýva **Mile**. Ak nastavíte **Distance** jednotkovú skupinu tak, aby mala dve jednotky ( **Mile** a **Kilometer** ), môžete nastaviť dve ceny pre kategóriu **Mileage** v jednom cenníku: cena za míľu a cena za kilometer.
+Napríklad máte kategóriu výdavku ktorá sa nazýva **Mileage**. Má jednotkovú skupinu, ktorá je pomenovaná **Distance** a predvolenú jednotku, ktorá sa nazýva **Mile**. Ak nastavíte **Distance** jednotkovú skupinu tak, aby mala dve jednotky (**Mile** a **Kilometer**), môžete nastaviť dve ceny pre kategóriu **Mileage** v jednom cenníku: cena za míľu a cena za kilometer.
 
 | Kategória výdavku  | Jednotková skupina  | Jednotka      | Spôsob oceňovania  | Cena za jednotku  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Odhadované riadky pre pole **Time on Quote** možno vyjadriť v ktorejkoľvek �
 Nasledujúci príklad ukazuje, ako PSA používa jednotkové skupiny, jednotky a konverzné faktory.
 - Jednotky
 
-   - **Unit group** : Čas 
-   - **Units** : Hodina 
+   - **Unit group**: Čas 
+   - **Units**: Hodina 
     
     - **Day** - Konverzný faktor: 8 hodín       
     - **Week** - Konverzný faktor: 40 hodín  
         
 - Nastavenie cenníka v Projekte A:
 
-    - **Name** : UK predajné ceny 2016 
-    - **Default time unit** : Deň 
-    - **Mena** : GBP
+    - **Name**: UK predajné ceny 2016 
+    - **Default time unit**: Deň 
+    - **Mena**: GBP
 
 | Rola      | Jednotková skupina | Jednotka | Organizačná jednotka | Cena   |
 |-----------|------------|------|---------------------|---------|

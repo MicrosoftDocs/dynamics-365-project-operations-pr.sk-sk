@@ -3,7 +3,7 @@ title: Povolenie iným osobám zadať čas vstupu alebo náklady
 description: Ako povoliť iným osobám zadanie času vstupu alebo náklady v Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084337"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130406"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Umožnite niekomu inému zadávať váš čas vstupu alebo náklady (Project Service)
 
@@ -37,13 +37,13 @@ Nastaviť delegáta nechať niekoho iného urobiť čas alebo náklady položky 
   
 2.  Na paneli príkazov kliknite na možnosť **Nový**.  
   
-3. **Názov** : zadajte názov záznamu.  
+3. **Názov**: zadajte názov záznamu.  
   
-4. **Typ** : vyberte, či delegát môžete zadať čas alebo náklady položky vo vašom mene.  
+4. **Typ**: vyberte, či delegát môžete zadať čas alebo náklady položky vo vašom mene.  
   
-5. **Delegovať** : vyberte meno osoby, ktorú chcete byť delegát.  
+5. **Delegovať**: vyberte meno osoby, ktorú chcete byť delegát.  
   
-6. **Počiatočného a koncového dátumu** : vybrať dátumy kedy delegácia začína a končí.  
+6. **Počiatočného a koncového dátumu**: vybrať dátumy kedy delegácia začína a končí.  
   
 7.  Po skončení kliknite na položku **Uložiť a zavrieť**.  
   

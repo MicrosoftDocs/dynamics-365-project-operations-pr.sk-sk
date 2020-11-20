@@ -3,7 +3,7 @@ title: Nastavenie frekvencie fakturácie
 description: Ako nastaviť frekvencie fakturácie (Project Service)
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084580"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132068"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Nastavenie frekvencie fakturácie (Project Service)
 
@@ -37,9 +37,9 @@ Frekvencia fakturácie [!INCLUDE[pn_project_service_auto](../includes/pn-project
   
 3.  V oblasti **Všeobecné** zadajte názov frekvencie faktúry do poľa **Názov**.  
   
-4.  V časti **Obdobie** vyberte **Mesačne** , **Dvojtýždenne** alebo **Týždenne**.  
+4.  V časti **Obdobie** vyberte **Mesačne**, **Dvojtýždenne** alebo **Týždenne**.  
   
-5.  Ak ste určili dobu mesačne alebo raz za dva týždne, v **Dní spustenia** , vyberte **Deň obdobia** na fakturáciu v určený deň obdobia (či pracovný deň alebo víkend), alebo vyberte **Všedný deň obdobia** na fakturáciu v určený pracovný deň lehoty.  
+5.  Ak ste určili dobu mesačne alebo raz za dva týždne, v **Dní spustenia**, vyberte **Deň obdobia** na fakturáciu v určený deň obdobia (či pracovný deň alebo víkend), alebo vyberte **Všedný deň obdobia** na fakturáciu v určený pracovný deň lehoty.  
   
 6.  ste určili dobu mesačne v možnosti **Spustení za mesiac** vyberte počet ráz, koľko sa má fakturácia vykonať.  
   

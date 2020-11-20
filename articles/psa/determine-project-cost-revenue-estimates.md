@@ -3,7 +3,7 @@ title: URčiť náklady na projekt a odhady výnosov
 description: Ako na určenie nákladov na projekt a odhady príjmov v Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1652b39b6c8a703bf198a990eb9047eff9dc9f4c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084372"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133027"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>URčiť náklady na projekt a odhady výnosov 
 
@@ -35,7 +35,7 @@ Odhady projektu poskytujú finančné náhľady pre odhadovanú prácu a plánov
 Cenníky [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] stanovujú cenu a sadzby fakturácie pre použité roly projektu. Na základe úlohy priradenej k úlohe v štruktúre rozdelenia práce v projekte môžete určiť vplyv nákladov a príjmov príslušnej práce.  
   
 ## <a name="cost-price-defaulting"></a>Predvolená suma obstarávacej ceny  
-Každý projekt patrí k organizácii (určenej v poli projektu **vlastniaca jednotka** ). Cenník prepojený s vlastniacou organizačnou jednotkou určuje obstarávaciu cenu jednotky. Možnosti [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] určujú obstarávacie ceny pre roly vyhľadávaním kombinácie roly, jednotky a organizačnej jednotky v cenníku obstarávacej ceny, čím sa zistí správna obstarávacia cena k efektívnemu dátumu na požadovaných riadkoch.  
+Každý projekt patrí k organizácii (určenej v poli projektu **vlastniaca jednotka**). Cenník prepojený s vlastniacou organizačnou jednotkou určuje obstarávaciu cenu jednotky. Možnosti [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] určujú obstarávacie ceny pre roly vyhľadávaním kombinácie roly, jednotky a organizačnej jednotky v cenníku obstarávacej ceny, čím sa zistí správna obstarávacia cena k efektívnemu dátumu na požadovaných riadkoch.  
   
 Ak je kombinácia roly a jednotky. a organizačná jednotka nemá za následok obstarávaciu cenu z cenníka vlastniacej jednotky, jednotka sa neberie do úvahy v prospech kombinácie roly a organizačnej jednotky. Ak tu je obstarávacia cena, táto cena sa prevedie na jednotku, ktorú ste si vybrali v riadku odhadu.  
   

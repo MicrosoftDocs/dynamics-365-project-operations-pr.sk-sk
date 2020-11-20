@@ -1,21 +1,21 @@
 ---
-title: Kľúčové koncepty – projektové zmluvy
+title: Projektové zmluvy – Kľúčové koncepty
 description: Táto téma poskytuje informácie o kľúčových konceptoch projektových zmlúv v aplikácii Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084300"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175550"
 ---
-# <a name="key-concepts---project-contracts"></a>Kľúčové koncepty – projektové zmluvy
+# <a name="project-contracts---key-concepts"></a>Projektové zmluvy – Kľúčové koncepty
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 

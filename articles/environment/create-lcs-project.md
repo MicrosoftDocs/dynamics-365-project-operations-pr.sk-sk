@@ -1,21 +1,21 @@
 ---
-title: Začatie nového projektu v LCS
+title: Začatie nového projektu LCS
 description: Táto téma poskytuje informácie o vytvorení nového projektu v LCS pre vaše prostredie Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084221"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175640"
 ---
-# <a name="start-a-new-project-in-lcs"></a>Začatie nového projektu v LCS
+# <a name="start-a-new-lcs-project"></a>Začatie nového projektu LCS
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 

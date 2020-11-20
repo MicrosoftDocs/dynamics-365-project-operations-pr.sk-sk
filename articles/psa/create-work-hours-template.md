@@ -3,7 +3,7 @@ title: Vytvorí šablónu pracovných hodín
 description: Ako na vytvorenie šablóny pracovných hodín v Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084374"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133072"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Vytvorenie šablóny pracovných hodín (Project Service)
 
@@ -45,7 +45,7 @@ Pred vytvorením projektové plány, musíte vytvoriť kalendár, ktorý určuje
   
 2.  Vyberte zdroj, na základe ktorého chcete vytvoriť pracovné hodiny.  
   
-3.  Kliknite na tlačidlo **Uložiť kalendár ako** , zadajte názov pre šablónu pracovných hodín, a potom kliknite na tlačidlo **Uložiť**.  
+3.  Kliknite na tlačidlo **Uložiť kalendár ako**, zadajte názov pre šablónu pracovných hodín, a potom kliknite na tlačidlo **Uložiť**.  
   
 4.  Keď dokončíte vykonávanie zmien, kliknite na položku **Uložiť a zavrieť**.  
   

@@ -1,21 +1,21 @@
 ---
-title: Kredity a opravené faktúry
+title: Opravené faktúry – čiastočné
 description: Táto téma poskytuje informácie o opravených faktúrach v Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084475"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176450"
 ---
-# <a name="credits-and-corrected-invoices"></a>Kredity a opravené faktúry
+# <a name="corrected-invoices---lite"></a>Opravené faktúry – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -35,7 +35,7 @@ Z potvrdenej faktúry sa vytvorí nový koncept faktúry. Všetky podrobnosti o 
 - Odsúhlasenia preddavkov a záloh je možné opraviť, ak bola použitá nesprávna suma na odsúhlasenie oproti nákladom na predtým potvrdenej faktúre.
 
 > [!IMPORTANT]
-> Podrobnosti o riadku faktúry, ktoré sú opravami ďalších už fakturovaných nákladov, majú pole **Oprava** nastavené na **Áno**. Faktúry, ktoré majú opravené podrobnosti o riadku faktúry, majú pole s názvom **Obsahuje opravy** , ktoré je tiež nastavené na **Áno**.
+> Podrobnosti o riadku faktúry, ktoré sú opravami ďalších už fakturovaných nákladov, majú pole **Oprava** nastavené na **Áno**. Faktúry, ktoré majú opravené podrobnosti o riadku faktúry, majú pole s názvom **Obsahuje opravy**, ktoré je tiež nastavené na **Áno**.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Skutočnosti vytvorené po potvrdení opravnej faktúry:
 

@@ -3,7 +3,7 @@ title: Metódy prideľovania rezervácií v aplikácii Project Service Automatio
 description: Táto téma poskytuje informácie o rôznych spôsoboch, akými môžete prideliť rezerváciu .
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 295da428ce15e7775450dfa94e96047f200bdede
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084358"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131394"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metódy prideľovania rezervácií v aplikácii Project Service Automation
 
@@ -59,7 +59,7 @@ Metóda počiatočného vyťaženia zohľadňuje existujúce rezervácie a dostu
 Pretože sa zohľadňuje dostupná kapacita, môže sa vám zobraziť chybové hlásenie v prípade, že zdroj už nemá zostávajúcu kapacitu, ktorú možno spotrebovať rezerváciou. Použitím tejto metódy nie je možná nadmerná rezervácia.
 
 ## <a name="none"></a>Žiadne
-Nulová metóda je dostupná len v prípade rezervácie z karty **tímu** v rámci projektu. Táto metóda pridá zdroj ako člena tímu v projekte, no nevytvorí žiadne rezervácie, ktoré využívajú kapacitu zdroja. Táto metóda sa používa, keď predvolený člen tímu projektového manažéra sa pridá pri vytváraní projektu. Používateľ manažéra projektu, ktorý vytvoriť projekt, sa predvolene pridá k projektu, vďaka čomu má záznam entity projektu vlastníka a projekt bude mať jedného schvaľovateľa. Pretože tento používateľ nemá žiadne rezervácie, ak si chcete rezervovať prostriedok môžete buď odstrániť a znova pridať metódu rozdielneho pridelenia, alebo pridať prostriedok k úlohám a potom použiť **rozšírená rezervácia** , na karte **odsúhlasenie** na vytvorenie rezervácie úlohy.
+Nulová metóda je dostupná len v prípade rezervácie z karty **tímu** v rámci projektu. Táto metóda pridá zdroj ako člena tímu v projekte, no nevytvorí žiadne rezervácie, ktoré využívajú kapacitu zdroja. Táto metóda sa používa, keď predvolený člen tímu projektového manažéra sa pridá pri vytváraní projektu. Používateľ manažéra projektu, ktorý vytvoriť projekt, sa predvolene pridá k projektu, vďaka čomu má záznam entity projektu vlastníka a projekt bude mať jedného schvaľovateľa. Pretože tento používateľ nemá žiadne rezervácie, ak si chcete rezervovať prostriedok môžete buď odstrániť a znova pridať metódu rozdielneho pridelenia, alebo pridať prostriedok k úlohám a potom použiť **rozšírená rezervácia**, na karte **odsúhlasenie** na vytvorenie rezervácie úlohy.
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>Rozdelenie metód, ktoré vedú k nadmernej rezervácii
 Aby sme to zhrnuli, nasledujúce metódy prideľovania vedú k nadmernej rezervácii v prípade, že zdroj už je pridelený iným projektom (alebo na iné objednávky prác alebo plánovateľné entity):

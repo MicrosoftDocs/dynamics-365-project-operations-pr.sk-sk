@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084253"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131587"
 ---
 # <a name="estimate-projects-overview"></a>Prehľad odhadov projektov
 
@@ -74,7 +74,7 @@ Ak ste do podrobností riadka cenovej ponuky pridali vlastné pole a chcete, aby
 2. Vyberte položku **Hľadať** a vyhľadajte doplnok, ktorý chcete aktualizovať.
 3. Vyberte doplnok a potom na hlavnej stránke kliknite na možnosť **Vybrať**.
 4. Vyberte krok doplnku, ktorý chcete aktualizovať, kliknite pravým tlačidlom myši a potom vyberte položku **aktualizovať.**
-5. V dialógovom okne **aktualizovať existujúci krok** v poli **filtrovanie atribútov** vyberte elipsové tlačidlo ( **...** ):
+5. V dialógovom okne **aktualizovať existujúci krok** v poli **filtrovanie atribútov** vyberte elipsové tlačidlo (**...**):
 6. V dialógovom okne **Výber atribútov** vyberte začiarkavacie políčka pre vlastné atribúty.
 7. Kliknite na tlačidlo **OK** pre zatvorenie dialógového okna a potom vyberte **aktualizovať krok.**
 8. Opakujte kroky 1 až 7 pre druhý doplnok.

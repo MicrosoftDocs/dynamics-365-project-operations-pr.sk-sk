@@ -1,26 +1,26 @@
 ---
-title: Náklady v riadkoch zmlúv založených na produkte
+title: Náklady v riadkoch zmlúv založených na produkte – čiastočné
 description: Táto téma poskytuje informácie o vytváraní
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4084595"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177260"
 ---
-# <a name="costing-product-based-contract-lines"></a>Náklady v riadkoch zmlúv založených na produkte
+# <a name="cost-product-based-contract-lines---lite"></a>Náklady v riadkoch zmlúv založených na produkte – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 
-Riadky zmlúv založené na produkte v Dynamics 365 Project Operations obsahujú pole **Obstarávacia cena** , v ktorom je uložená obstarávacia cena produktu pre následné výpočty ziskovosti.
+Riadky zmlúv založené na produkte v Dynamics 365 Project Operations obsahujú pole **Obstarávacia cena**, v ktorom je uložená obstarávacia cena produktu pre následné výpočty ziskovosti.
 
 Keď sa pre katalógový produkt vytvorí riadok zmluvy založenej na produkte, náklad v riadku zmluvy založenej na produkte sa predvolene nastaví podľa poľa **Štandardné náklady** v katalógu produktov. Pole **Štandardné náklady** v katalógu produktov je nastavené v základnej mene organizácie. Keď sú jednotkové náklady predvolené pre riadok zmluvy, prevedú sa na menu predaja v zmluve.
 

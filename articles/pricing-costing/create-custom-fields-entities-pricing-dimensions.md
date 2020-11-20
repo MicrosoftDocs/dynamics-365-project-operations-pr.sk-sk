@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084402"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130912"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Vytvorenie vlastných polí a entít ako cenových dimenzií
 
@@ -35,8 +35,8 @@ Vykonajte nasledujúce kroky kedykoľvek, kedy chcete vytvoriť vlastnú množin
 
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Vytvorenie vlastného riešenia pre dimenzie cien
-1. Prejdite do ponuky **Nastavenia** > **Riešenia** a potom vyberte **Nové** , ak chcete vytvoriť nové riešenie. 
-2. Pomenujte riešenie, **dimenzie cien \<your organization name>** , zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
+1. Prejdite do ponuky **Nastavenia** > **Riešenia** a potom vyberte **Nové**, ak chcete vytvoriť nové riešenie. 
+2. Pomenujte riešenie, **dimenzie cien \<your organization name>**, zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Vytvorte vlastné polia a množiny možností v riešení dimenzie ceny
 
@@ -46,7 +46,7 @@ Cenový rozmer môže byť množina možností alebo entita. Obidva musia byť v
 
 1. Prejdite do ponuky **Nastavenia** > **Riešenia** a potom dvakrát kliknite na **Dimenzie cien \<your organization name>**.
 2. V prehľadávači riešení, na ľavom navigačnom paneli vyberte **entity**.
-3. Vyberte **Nové** , ak chcete vytvoriť novú entitu s názvom **Štandardný nadpis**. 
+3. Vyberte **Nové**, ak chcete vytvoriť novú entitu s názvom **Štandardný nadpis**. 
 4. Zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
 
 
@@ -56,14 +56,14 @@ Môžete vytvoriť dve dimenzie založené na množine možností. Použite **mi
 
 1. Prejdite do ponuky **Nastavenia** > **Riešenia** a dvakrát kliknite na **Dimenzie cien \<your organization name>**. 
 2. V prehľadávači riešení, na ľavom navigačnom paneli vyberte **Množina možností**. 
-3. Vyberte **Nové** , ak chcete vytvoriť novú množinu možností, zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
+3. Vyberte **Nové**, ak chcete vytvoriť novú množinu možností, zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Vytvorenie údajov pre dimenzie založené na entite
 
 Údaje pre dimenzie založené na entite môžete vytvoriť manuálne alebo pomocou Microsoft Excel importu alebo služobných hovorov. Použite kroky v tomto postupe na vytvorenie dvoch štandardných titulov, **systémový inžinier** a **starší systémový inžinier** z dimenzie založenej na entite, **štandardný nadpis**. Ak sú údaje, ktoré chcete vytvoriť, malé, ako je to v nasledovnom príklade, môžete použiť štandardný formulár.
 
-1. Vyberte **Rozšírené vyhľadávanie** , vyberte entitu **Štandardný názov** a potom vyberte **Výsledky**. Zobrazia sa všetky riadky v entite **štandardnej** nadpisu.
-2. Vyberte **Nový** , v poli **Názov** zadajte „Systémový inžinier“ a potom vyberte **Uložiť**.
+1. Vyberte **Rozšírené vyhľadávanie**, vyberte entitu **Štandardný názov** a potom vyberte **Výsledky**. Zobrazia sa všetky riadky v entite **štandardnej** nadpisu.
+2. Vyberte **Nový**, v poli **Názov** zadajte „Systémový inžinier“ a potom vyberte **Uložiť**.
 3. Zatvorí formulár. 
 4. Opakujte kroky 1 - 3 na vytvorenie ďalšieho štandardného názvu pre "Starší Systémový inžinier".
 
