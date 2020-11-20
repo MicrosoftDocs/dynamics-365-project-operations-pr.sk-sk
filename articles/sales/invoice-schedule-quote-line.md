@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084297"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180841"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Plány faktúr v riadkoch cenovej ponuky založenej na projekte
 
@@ -32,7 +32,7 @@ Keď je metóda fakturácie pre riadok cenovej ponuky založenej na projekte Ča
 3. Otvorte riadok cenovej ponuky pre čas a materiál, ktorý potrebujete na vytvorenie harmonogramu faktúr založeného na dátume. 
 4. Na karte **Plán faktúr** vyberte hodnoty polí **Začiatok fakturácie** a **Frekvencia faktúr**. 
 5. Na vedľajšej mriežke vyberte **Generovať plán faktúr**.
-6. Aplikácia vygeneruje plán faktúr s poľami **Dátum spustenia faktúry** , **Dátum uzávierky transakcie** a **Stav spustenia** nastavené nasledujúcim spôsobom:
+6. Aplikácia vygeneruje plán faktúr s poľami **Dátum spustenia faktúry**, **Dátum uzávierky transakcie** a **Stav spustenia** nastavené nasledujúcim spôsobom:
 
     - **Dátum spustenia faktúry** je nastavený na dátum, ktorý je určený na základe frekvencie faktúr.
     - **Dátum uzávierky transakcie** je nastavený deň pred **Dátumom spustenia faktúry**.
@@ -40,7 +40,7 @@ Keď je metóda fakturácie pre riadok cenovej ponuky založenej na projekte Ča
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Vytvorenie plánu faktúr s pevnou cenou pre cenovú ponuku založenú na projekte
 
-Keď má riadok cenovej ponuky založenej na projekte spôsob fakturácie **Opravené** , systém vytvorí plán fakturácie na základe medzníka. Vykonajte nasledujúce kroky a automaticky vygenerujte tento plán pre pevne nastavenú skupinu medzníkov, ktoré sú rovnomerne rozložené pre kalendárne obdobie.
+Keď má riadok cenovej ponuky založenej na projekte spôsob fakturácie **Opravené**, systém vytvorí plán fakturácie na základe medzníka. Vykonajte nasledujúce kroky a automaticky vygenerujte tento plán pre pevne nastavenú skupinu medzníkov, ktoré sú rovnomerne rozložené pre kalendárne obdobie.
 
 1. Prejdite do časti **Nastavenia** > **frekvencie faktúr** a nastavte frekvenciu fakturácie.
 2. Na stránke **Cenové ponuky** otvorte cenovú ponuku projektu a na karte **Súhrn** nastavte požadovaný dátum dodania.
@@ -58,9 +58,9 @@ Keď má riadok cenovej ponuky založenej na projekte spôsob fakturácie **Opra
 
 Medzníky s pevnou cenou je možné generovať aj manuálne, ak nie sú pravidelne rozdelené. Manuálne vytvorenie medzníka:
 
-Otvorte riadok cenovej ponuky s pevnou cenou, v ktorom chcete vytvoriť medzník. Na vedľajšej mriežke **Plán faktúry** vyberte **+ Vytvoriť nový medzník riadka cenovej ponuky** a zadajte požadované informácie na základe nasledujúcej tabuľky.
+Otvorte riadok cenovej ponuky s pevnou cenou, v ktorom chcete vytvoriť medzník. Na karte **Plán faktúr** na vedľajšej mriežke **+ Vytvoriť nový medzník riadku cenovej ponuky** a zadajte požadované informácie na základe nasledujúcej tabuľky.
 
-| **Pole** | **Miesto** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
+| **Pole** | **Miesto** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |
 | Názov medzníka | Rýchle vytvorenie | Názov medzníka. | Prenesie sa na medzník riadka zmluvy projektu a na faktúru |
 | Projektová úloha | Rýchle vytvorenie | Ak je medzník naviazaný na úlohu projektu, môžete pomocou tohto odkazu pridať vlastnú logickú súpravu stavu medzníka na základe stavu úlohy. | Aplikácia nemá žiadny následný dopad tohto odkazu na úlohu. |

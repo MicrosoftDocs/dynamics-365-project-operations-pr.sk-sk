@@ -1,23 +1,33 @@
 ---
-title: Nastavenie a použitie konfiguračných údajov v službe Common Data Service pre Project Operations
+title: Nastavenie a použitie konfiguračných údajov v Common Data Service
 description: Táto téma poskytuje informácie o nastavení a použití konfiguračných údajov v Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084237"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401147"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Nastavenie a použitie konfiguračných údajov v službe Common Data Service pre Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavenie a použitie konfiguračných údajov v Common Data Service 
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
+
+## <a name="prerequisites"></a>Predpoklady
+
+Skôr ako začnete konfigurovať údaje v Common Data Service (CDS), musia byť splnené nasledujúce predpoklady:
+
+1.  Nasadenie prostredia CDS a prostredia Dynamics 365 Finance pre Project Operations.
+2.  Informácie o právnickej osobe z Dynamics 365 Finance sa zdieľajú s prostredím CDS. To znamená, že entita **Spoločnosť** v CDS má tieto firemné záznamy:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Inštalácia údajov pre nastavenie a konfiguráciu
 
@@ -114,10 +124,10 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
  
 12. Aktualizujte nasledujúce polia:
 
- - **Predvolená spoločnosť** : USPM
- - **Predvolená organizačná jednotka** : Contoso Robotics Global
- - **Frekvencia faktúr** : Siedmy a posledný deň
- - **Šablóna pracovného času** : Zmena na šablónu, ktorú ste vytvorili.
+ - **Predvolená spoločnosť**: USPM
+ - **Predvolená organizačná jednotka**: Contoso Robotics Global
+ - **Frekvencia faktúr**: Siedmy a posledný deň
+ - **Šablóna pracovného času**: Zmena na šablónu, ktorú ste vytvorili.
 
 13. Vyberte položku **Uložiť**. 
 

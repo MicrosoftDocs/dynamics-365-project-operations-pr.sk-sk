@@ -1,21 +1,21 @@
 ---
-title: Fakturácia preddavku alebo zálohy
+title: Fakturácia preddavkovej alebo zálohovej platby – čiastočné
 description: Táto téma poskytuje informácie o tom, ako fakturovať preddavky a zálohy v Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088099"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180571"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Fakturácia preddavku alebo zálohy
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturácia preddavkovej alebo zálohovej platby – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -43,7 +43,7 @@ Na každej faktúre, ktorá sa vygeneruje pre projektovú zmluvu, v ktorej sa fa
 
 Môžete si ich prezrieť na mriežke **Použité preddavky a zálohy** na stránke **Faktúra**. Nasledujúca tabuľka poskytuje informácie o poliach v mriežke **Použité preddavky a zálohy** na stránke **Projektová faktúra**.
 
-| Pole | Miesto | Relevantnosť, účel a pokyny | Nadväzujúci vplyv |
+| Pole | Miesto | Popis | Nadväzujúci vplyv |
 | --- | --- | --- | --- |
 | Popis | Mriežka **Použité zálohy a preddavky** na stránke **Projektová faktúra** |Toto pole iba na čítanie poskytuje popis preddavku alebo zálohy použitej na tejto faktúre. Túto hodnotu nie je možné zmeniť na faktúre. Túto hodnotu je možné aktualizovať vo vedľajšej mriežke na stránke **Projektová zmluva**. | Toto pole sa môže zákazníkovi zobraziť na vytlačenej faktúre, aby sa určilo, ktorá záloha alebo preddavok sa na faktúre použije. |
 | Dátum doručenia | Mriežka **Použité zálohy a preddavky** na stránke **Projektová faktúra**  | Toto pole iba na čítanie poskytuje dátum fakturácie preddavku alebo zálohy použitej na tejto faktúre. Túto hodnotu nie je možné zmeniť na faktúre. Túto hodnotu je možné aktualizovať vo vedľajšej mriežke na stránke **Projektová zmluva**. | Toto pole sa môže zákazníkovi zobraziť na vytlačenej faktúre na označenie dátumu, kedy bola záloha alebo preddavok prvýkrát fakturovaná zákazníkovi. |

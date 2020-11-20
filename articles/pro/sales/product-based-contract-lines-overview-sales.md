@@ -1,21 +1,21 @@
 ---
-title: Prehľad riadkov zmlúv založených na produkte
+title: Prehľad riadkov zmlúv založených na produkte – čiastočné
 description: Táto téma poskytuje informácie o riadkoch zmluvy založenej na produkte.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084291"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177890"
 ---
-# <a name="product-based-contract-lines-overview"></a>Prehľad riadkov zmlúv založených na produkte
+# <a name="product-based-contract-lines-overview---lite"></a>Prehľad riadkov zmlúv založených na produkte – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -43,6 +43,6 @@ Ak je riadok zmluvy založený na katalógu produktov, predajnú cenu môžete p
 - **Prepíšte cenu**
 - **Použiť predvolenú hodnotu**
 
-Ak nastavíte toto pole **Tvorba ceny** na **Prepísať cenu** , predvolená cena sa nenastaví. Do riadka zmluvy zadajte cenu produktu. Ak nastavíte pole na **Použiť predvolené** , použije sa predvolená predajná cena a pole nebude možné upraviť.
+Ak nastavíte toto pole **Tvorba ceny** na **Prepísať cenu**, predvolená cena sa nenastaví. Do riadka zmluvy zadajte cenu produktu. Ak nastavíte pole na **Použiť predvolené**, použije sa predvolená predajná cena a pole nebude možné upraviť.
 
-Po nainštalovaní Project Operations sa predvolené predajné ceny zapisujú do riadkov na základe zmluvy. Pole **Ceny** sa potom nastaví na **Prepíšte cenu** , aby ste mohli upraviť predvolenú cenu v riadkoch zmluvy. Toto je špecifické prepísanie v rámci Project Operations na produktoch v aplikácii Dynamics 365 Sales.
+Po nainštalovaní Project Operations sa predvolené predajné ceny zapisujú do riadkov na základe zmluvy. Pole **Ceny** sa potom nastaví na **Prepíšte cenu**, aby ste mohli upraviť predvolenú cenu v riadkoch zmluvy. Toto je špecifické prepísanie v rámci Project Operations na produktoch v aplikácii Dynamics 365 Sales.

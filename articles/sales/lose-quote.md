@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084241"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181831"
 ---
 # <a name="copy-project-based-quotes"></a>Kopírovanie cenových ponúk založených na projekte
 
@@ -25,7 +25,7 @@ Novú cenovú ponuku projektu môžete ľahko vytvoriť skopírovaním existujú
 
 Otvorí sa dialógové okno, na ktorom môžete zadať parametre kópie. V nasledujúcej tabuľke je uvedený zoznam polí, ktoré sú obsiahnuté na dialógovej stránke. V závislosti od zvolených hodnôt sa môže proces kopírovania zmeniť.
 
-| **Pole** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
+| **Pole** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- |
 | Predmet | Zadajte príslušnú tému alebo názov cieľovej cenovej ponuky. Keď sa otvorí dialógové okno, systém ho nastaví na tému zdrojovej ponuky s doplnkom **-kópia**. | |
 | Potenciálny zákazník | Odkaz na záznam zákazníka spoločnosti zákazníka alebo obchodného vzťahu. Po otvorení dialógového okna ho systém nastaví na účet uvedený v zdrojovej cenovej ponuke. | Toto pole je primárnym zákazníkom v cenovej ponuke. |
@@ -33,7 +33,7 @@ Otvorí sa dialógové okno, na ktorom môžete zadať parametre kópie. V nasle
 Po otvorení dialógového okna ho systém nastaví na zmluvnú jednotku cenovej ponuky. | Zmluvnou jednotkou je divízia spoločnosti, ktorá bude po uzatvorení obchodu realizovať projekty. Každá zmluvná jednotka má menu. Mena sa používa na vykazovanie odhadovaných a skutočných nákladov vzniknutých počas realizácie projektu. |
 | Mena | Je to mena, v ktorej sa obchoduje transakcia. Po otvorení dialógového okna ho systém nastaví na menu cenovej ponuky. Môže sa upravovať a ak ide o zmenu, pole **Kopírovať ceny** je vždy nastavené na **Nie**. Je to tak preto, lebo cenníky pri zdrojovej ponuke už nie sú relevantné. | Mena sa používa na predvolenie cenníka, na zostavenie finančného odhadu cenovej ponuky a prípadne na fakturáciu zákazníkovi, keď dôjde k získaniu obchodu. |
 | Požadovaný dátum doručenia | Toto je dátum doručenia požadovaný zákazníkom. | Používa sa ako konečný dátum pri vytváraní fakturačných dátumov podľa konkrétnej frekvencie. |
-| Kopírovať cenu | Hodnota Áno/Nie označuje, či sa má cena v cenovej ponuke kopírovať zo zdrojovej cenovej ponuky. | Ak je vybraná možnosť **Áno** , cenník projektu a referencie cenníka produktu sa skopírujú zo zdrojovej cenovej ponuky do cieľovej cenovej ponuky. Ak je vybraná možnosť **Nie** , cenníky sa predvolene nastavujú na základe najnovších cenníkov, ktoré boli nastavené v parametroch účtu alebo projektu. |
+| Kopírovať cenu | Hodnota Áno/Nie označuje, či sa má cena v cenovej ponuke kopírovať zo zdrojovej cenovej ponuky. | Ak je vybraná možnosť **Áno**, cenník projektu a referencie cenníka produktu sa skopírujú zo zdrojovej cenovej ponuky do cieľovej cenovej ponuky. Ak je vybraná možnosť **Nie**, cenníky sa predvolene nastavujú na základe najnovších cenníkov, ktoré boli nastavené v parametroch účtu alebo projektu. |
 
 Keď vyberiete **OK** na dialógovej stránke, systém vytvorí kópiu ponuky projektu na základe parametrov vybratých v dialógovom okne. Otvorí sa nová ponuka projektu. 
 

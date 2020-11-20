@@ -1,21 +1,21 @@
 ---
-title: Riadky cenových ponúk založené na projekte
+title: Prehľad riadkov cenových ponúk založených na projekte
 description: Táto téma poskytuje informácie o používaní riadkov cenových ponúk založených na projekte pre projektovú úlohu.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084231"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181876"
 ---
-# <a name="project-based-quote-lines"></a>Riadky cenových ponúk založené na projekte
+# <a name="project-based-quote-lines-overview"></a>Prehľad riadkov cenových ponúk založených na projekte
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
@@ -31,7 +31,7 @@ Riadky cenových ponúk založených na projekte sú navrhnuté tak, aby pomohli
 
 Nasledujúca tabuľka poskytuje informácie o poliach na karte **Všeobecné** v riadku cenovej ponuky na základe projektu. Tieto polia pomáhajú vytvoriť základ pre podrobný a prízemných odhad projektovej úlohy.
 
-| **Pole** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
+| **Pole** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- |
 | Meno | Názov riadka cenovej ponuky, ktorý by vám mal pomôcť identifikovať diskrétnu zložku cenovej ponuky, ktorá sa odhaduje. | Skopírované do riadku zmluvy o projekte, ktorý je vytvorený z tohto riadku cenovej ponuky po získaní ponuky. |
 | Spôsob fakturácie | Pri cenovej ponuke vytvorenej z príležitosti sa táto hodnota skopíruje z príslušného poľa na riadka príležitosti. Toto pole obsahuje dva hlavné zmluvné modely, ktoré podporuje Dynamics 365 Project Operations:</br>- Pevná cena</br>- Čas a materiál.| Hodnota z tohto poľa sa skopíruje do riadka zmluvy o projekte, ktorý je vytvorený z tohto riadka cenovej ponuky po získaní cenovej ponuky. |
@@ -47,11 +47,11 @@ Nasledujúca tabuľka poskytuje informácie o poliach na karte **Všeobecné** v
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravidlá overenia pre polia na karte Všeobecné v riadkoch cenových ponúk založených na projekte
 
-**Pravidlo 1** : Určitú triedu transakcií vo vybratom projekte je možné zahrnúť iba do jedného riadka cenovej ponuky založenej na projekte cenovej ponuky.
+**Pravidlo 1**: Určitú triedu transakcií vo vybratom projekte je možné zahrnúť iba do jedného riadka cenovej ponuky založenej na projekte cenovej ponuky.
 
-**Pravidlo 2** : Ak má príležitosť viacero cenových ponúk, môžu existovať riadky cenových ponúk z rôznych cenových ponúk, ktoré všetky odkazujú na ten istý projekt a zahŕňajú rovnakú triedu transakcií.
+**Pravidlo 2**: Ak má príležitosť viacero cenových ponúk, môžu existovať riadky cenových ponúk z rôznych cenových ponúk, ktoré všetky odkazujú na ten istý projekt a zahŕňajú rovnakú triedu transakcií.
 
-**Pravidlo 3** : Ak cenové ponuky nepatria do rovnakej príležitosti, nemôžu obsahovať rovnakú triedu projektu a transakcie.
+**Pravidlo 3**: Ak cenové ponuky nepatria do rovnakej príležitosti, nemôžu obsahovať rovnakú triedu projektu a transakcie.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

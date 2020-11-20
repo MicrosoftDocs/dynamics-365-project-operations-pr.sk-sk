@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084268"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180391"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Odhadovanie riadka cenovej ponuky založenej na projekte
 
@@ -30,9 +30,9 @@ Ak chcete odhadnúť riadok cenovej ponuky založenej na projekte, v riadku ceno
 
 Ak chcete vytvoriť odhad riadka cenovej ponuky založenej na projekte, vyberte kartu **Podrobnosti o riadku cenovej ponuky**. Riadková položka, ktorú vytvoríte na tejto karte, zhrnie hodnotu cenovej ponuky pre tento riadok cenovej ponuky. 
 
-Ak chcete vytvoriť podrobnosti o riadku cenovej ponuky, zvoľte **+ Nové podrobnosti o riadku cenovej ponuky** na vedľajšej mriežke **Podrobnosti o riadku cenovej ponuky**. Otvorí sa posúvač rýchleho vytvorenia. Nasledujúce polia vo formulári **Riadok cenovej ponuky** :
+Ak chcete vytvoriť podrobnosti riadka cenovej ponuky, zvoľte **+ Nová podrobnosť riadka cenovej ponuky** na vedľajšej mriežke **Podrobnosti riadka cenovej ponuky**. Otvorí sa posúvač rýchleho vytvorenia. Nasledujúce polia vo formulári **Riadok cenovej ponuky**:
 
-| **Pole** | **Miesto** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
+| **Pole** | **Miesto** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |
 | Popis | Rýchle vytvorenie | Popis konkrétneho odhadu. | Toto pole predvolene obsahuje podrobnosti príslušného riadka cenovej ponuky pre náklady, ktoré sa vytvárajú automaticky. |
 | Trieda transakcie | Rýchle vytvorenie | Tento rozbaľovací zoznam obsahuje triedy transakcií, ktoré sú zahrnuté na karte **Všeobecné** v riadku cenovej ponuky na základe projektu.  | Toto pole predvolene obsahuje podrobnosti príslušného riadka cenovej ponuky pre náklady, ktoré sa vytvárajú automaticky. |
@@ -50,11 +50,11 @@ Ak chcete vytvoriť podrobnosti o riadku cenovej ponuky, zvoľte **+ Nové podro
 
 ## <a name="update-prices-on-quote-line-details"></a>Aktualizácia cien v podrobnostiach o riadku cenovej ponuky
 
-Ak ste zmenili ceny v cenníku projektu, ktorý je priložený k cenovej ponuke, alebo v cenníku obstarávacích cien zmluvnej jednotky, môžete vybrať možnosť **Prepočítať** na stránke **Cenová ponuka** , aby ste obnovili ceny v jednotlivých podrobnostiach o riadku cenovej ponuky tak, aby odrážali túto zmenu. Keď vyberiete možnosť **Prepočítať** , zobrazí sa varovanie, ktoré vás informuje, že ceny v podrobnostiach o riadku cenovej ponuky pre všetky riadky cenovej ponuky na tejto cenovej ponuke budú vynulované. Výberom možnosti **Áno** obnovíte ceny pre predaje, ako aj pre podrobnosti o riadkoch cenovej ponuky.
+Ak ste zmenili ceny v cenníku projektu, ktorý je priložený k cenovej ponuke, alebo v cenníku obstarávacích cien zmluvnej jednotky, môžete vybrať možnosť **Prepočítať** na stránke **Cenová ponuka**, aby ste obnovili ceny v jednotlivých podrobnostiach o riadku cenovej ponuky tak, aby odrážali túto zmenu. Keď vyberiete možnosť **Prepočítať**, zobrazí sa varovanie, ktoré vás informuje, že ceny v podrobnostiach o riadku cenovej ponuky pre všetky riadky cenovej ponuky na tejto cenovej ponuke budú vynulované. Výberom možnosti **Áno** obnovíte ceny pre predaje, ako aj pre podrobnosti o riadkoch cenovej ponuky.
 
 ## <a name="access-quote-line-details-for-cost"></a>Prístup k podrobnostiam o riadku cenovej ponuky pre náklady
 
-Na karte **Podrobnosti o riadku cenovej ponuky** vyberte riadok v mriežke, aby ste povolili niektoré akcie na paneli nástrojov vedľajšej mriežky. Prvá akcia na paneli nástrojov vedľajšej mriežky, keď sú vybrané podrobnosti o riadku cenovej ponuky , je **Otvoriť podrobnosti o nákladoch**. Vyberte **Otvoriť podrobnosti o nákladoch** na zobrazenie súvisiacej nákladovej sadzby a čiastky pre tento riadok cenovej ponuky.
+Na karte **Podrobnosti riadka cenovej ponuky** vyberte riadok v mriežke, aby sa povolili niektoré akcie na paneli nástrojov vedľajšej mriežky. Prvá akcia na paneli s nástrojmi vedľajšej mriežky, keď je vybratá podrobnosť riadka cenovej ponuky **Otvoriť podrobnosti nákladov**. Vyberte **Otvoriť podrobnosti o nákladoch** na zobrazenie súvisiacej nákladovej sadzby a čiastky pre tento riadok cenovej ponuky.
 
 > [!NOTE]
 > Zmena hodnoty zdrojovej jednotky, množstva, dátumov, rolí alebo kategórií v podrobnostiach o riadku cenovej ponuky pre náklady zmení príslušné hodnoty v podrobnostiach o riadku cenovej ponuky pre predaj.

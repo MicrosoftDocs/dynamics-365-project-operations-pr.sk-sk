@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088103"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181158"
 ---
 # <a name="project-contract-settings"></a>Nastavenia projektovej zmluvy
 
@@ -23,7 +23,7 @@ Táto téma poskytuje informácie o poliach, ktoré sa vzťahujú na celú zmluv
 
 V nasledujúcej tabuľke sú uvedené polia zmluvy o projekte, ktoré sú jedinečné pre Dynamics 365 Project Operations alebo majú niektoré dôležité zmeny v porovnaní s predajnými objednávkami v Dynamics 365 Sales.
 
-| Pole | Miesto | Relevantnosť, účel a pokyny | Nadväzujúci vplyv |
+| Pole | Miesto | Popis | Nadväzujúci vplyv |
 | --- | --- | --- | --- |
 | Zadať | Karta **Súhrn** (skrytá) | Ide o pole množiny možností s nasledovnými možnosťami:</br>- **Založené na práci** (k dispozícii iba vtedy, keď je nainštalovaný Project Operations)</br>- **Založené na položke** (k dispozícii iba vtedy, keď sú nainštalované Project Operations a Sales)</br>- **Služba založená na údržbe** (k dispozícii, keď je nainštalovaná služba Dynamics 365 Field Service) | V časti Project Operations je hodnota tohto poľa predvolená na **Založené na práci** a klasifikuje zmluvu ako zmluvu na základe projektu. Zmluva by mala byť založená na projekte, aby umožnila všetky rozšírenia a funkcie špecifické pre projekt. |
 | Vlastniaca spoločnosť | Karta **Súhrn** | Právnická osoba, ktorá bude zodpovedať za náklady a výnosy, ktoré vzniknú z tohto projektu alebo z projektov súvisiacich s touto projektovou zmluvou. Po vytvorení zmluvy z cenovej ponuky sa toto pole skopíruje z príslušného poľa v zázname cenovej ponuky. | Vlastnená spoločnosť je rovnaká ako koncept právnickej osoby v module **Projektové riadenie a účtovníctvo** v Project Operations. Všetky náklady a výnosy z tohto projektu sa zaúčtujú v hlavnej účtovnej knihe vlastniacej spoločnosti. |
@@ -37,7 +37,7 @@ V nasledujúcej tabuľke sú uvedené polia zmluvy o projekte, ktoré sú jedine
 
 Nasledujúce KPI sú k dispozícii na karte **Plnenie zmluvy** projektovej zmluvy.
 
-| Pole | Miesto | Relevantnosť, účel a pokyny |
+| Pole | Miesto | Popis |
 | --- | --- | --- |
 | Hodnota zmluvy | Celková zmluva | Celková hodnota projektovej zmluvy. |
 | Fakturovaná suma | Celková zmluva | Súčet súm na všetkých faktúrach oproti tejto zmluve. |

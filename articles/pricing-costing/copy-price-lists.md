@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084403"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181516"
 ---
 # <a name="copy-price-lists"></a>Kopírovanie cenníkov
 
@@ -26,7 +26,7 @@ Ak chcete vytvoriť kópiu cenníka, postupujte nasledovne.
 1. Otvorte cenník, z ktorého chcete vytvoriť kópiu, a vyberte možnosť **Kopírovať**.
 2. Zadajte potrebné informácie na kopírovanie cenníka. V nasledujúcej tabuľke sú uvedené úvahy, na ktoré treba pamätať pri zadávaní informácií.
 
-| Pole | Relevantnosť, účel a pokyny | Nadväzujúci vplyv |
+| Pole | Popis | Nadväzujúci vplyv |
 | --- | --- | --- |
 | Meno | Názov zdrojového cenníka s doplneným **-kópia**. | Cenník obsahuje túto hodnotu na všetkých stránkach so zoznamami a v rozbaľovacích možnostiach. |
 | Kontext | Zadajte požadovaný kontext pre cieľový cenník. | Cenník s kontextom nastaveným na **Náklady** sa používa na vyhľadanie ceny odhadov nákladov a skutočných nákladov. Cenník s kontextom nastaveným na **Predaje** sa používa na vyhľadanie ceny odhadov predajov a skutočných predajov. Iba cenníky, ktoré majú nastavený kontext na **Predaj** môžu byť pripojené k cenníku projektu pre zákazníka, cenovej ponuke alebo zmluve. |
@@ -40,6 +40,6 @@ Ak chcete vytvoriť kópiu cenníka, postupujte nasledovne.
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Aktualizujte cenník použitím prirážky na všetky ceny
 
-1. Na kartách **Rola** , **Kategória** a **Položka v cenníku** v cenníku môžete vybrať možnosť **Aktualizovať ceny** na použitie prirážky na všetky ceny vo vedľajšej mriežke. 
+1. Na kartách **Rola**, **Kategória** a **Položka cenníka** cenníka môžete si vybrať **Aktualizovať ceny** a použiť prirážku pre všetky ceny vo vedľajšej mriežke. 
 2. Na dialógovej stránke, ktorá sa otvorí, zadajte prirážku. Môžete zadať aj percento zápornej prirážky a znížiť ceny o určité percento. 
-3. Na dialógovej stránke vyberte **OK** a potom overte, či ceny vo vedľajšej mriežke odrážajú vykonané zmeny.
+3. Vyberte **OK** na dialógovej stránke a potom overte, či ceny vo vedľajšej mriežke odrážajú vykonané zmeny.

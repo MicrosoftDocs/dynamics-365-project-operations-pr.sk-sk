@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084388"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180731"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Nastavenie sadzieb fakturácie pre fakturáciu sadzieb práce 
+# <a name="set-up-labor-bill-rates"></a>Nastavenie sadzieb fakturácie za prácu
 
 **Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -27,7 +27,7 @@ Každý cenník obsahuje množinu pracovných cien alebo sadzieb za prácu, ktor
 
    V nasledujúcej tabuľke sú uvedené polia na karte **Všeobecné** a na table **Rýchle vytvorenie** cenového riadku roly, na ktorú musíte pamätať pri vytváraní cien role v predajnom cenníku:
 
-    | Pole | Miesto | Relevantnosť, účel a pokyny | Nadväzujúci vplyv |
+    | Pole | Miesto | Popis | Nadväzujúci vplyv |
     | --- | --- | --- | --- |
     | Rola | Karta **Všeobecné** a tabla **Rýchle vytvorenie** | Vyberte rolu, pre ktorú nastavujete fakturačnú sadzbu. | Rola pri prichádzajúcom odhade alebo skutočná hodnota bude porovnaná s týmto riadkom, aby sa štandardne nastavila sadzba fakturácie. |
     | Spoločnosť zaisťujúca zdroje | Karta **Všeobecné** a tabla **Rýchle vytvorenie** | Zvoľte si spoločnosť alebo právnickú osobu, odkiaľ rola pochádza. Napríklad vývojár z Fabrikam India alebo vývojár z Fabrikam USA. | Zdrojová spoločnosť pri prichádzajúcom odhade alebo skutočná bude porovnaná s týmto riadkom, aby sa štandardne nastavili fakturačnú sadzbu. |

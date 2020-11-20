@@ -3,17 +3,17 @@ title: Určenie typu nasadenia
 description: Táto téma poskytuje informácie, ktoré vám pomôžu určiť správny typ nasadenia Project operations pre vašu spoločnosť.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084368"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401237"
 ---
 # <a name="determine-your-deployment-type"></a>Určenie typu nasadenia
 
@@ -25,11 +25,11 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Existujúci zákazníci systému Dynamics používajú Dynamics 365 Project Service Automation
-Project Operations obsahuje funkcie dodávané s Project Service Automation. Pre týchto zákazníkov bude v budúcnosti vydaná aktualizácia.
+Project Operations obsahuje funkcie dodávané s Project Service Automation. Pre týchto zákazníkov bude vydaný aktualizačný postup v 1. vlne vydaní na rok 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Existujúci zákazníci Dynamics 365 Finance používajúci Projektové riadenie a účtovníctvo 
 
-Existujúci zákazníci možnosti Financie, ktorí používajú funkciu projektového riadenia a účtovníctva, ju môžu naďalej používať tak, ako je. Pozrite si [Project Operations pre scenáre využívajúce skladované materiály/výrobné objednávky](#pma).
+Existujúci zákazníci aplikácie Financie, ktorí používajú funkciu Projektový manažment a účtovníctvo, ju môžu naďalej používať tak, ako je. Pozrite si [Project Operations pre scenáre využívajúce skladované materiály/výrobné objednávky](#pma).
 
 
 ## <a name="deployment-types"></a>Typy nasadenia
@@ -47,12 +47,13 @@ Project Operations podporuje scenáre využívajúce skladované materiály/výr
 
 Jednoduché nasadenie zahŕňa nasledujúce možnosti:
 
+- Proces predaja pre projekty, ktoré rozširujú možnosti aplikácie Dynamics 365 Sales
 - Plánovanie projektu pomocou programu Microsoft Project for the Web
 - Viacrozmerné ceny
 - Jednotná správa zdrojov
 - Sledovanie času
 - Základné výdavky
-- Návrh faktúry
+- Fakturácia pro forma a fakturácia orientovaná na zákazníka 
 
 #### <a name="deployment-steps"></a>Postup nasadenia
 Určte najlepší model nasadenia Project Operations pomocou [Dotazníka o nasadení](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ Toto nasadenie je popísané v časti [Registrácia na odber ukážky](lite-prev
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations pre scenáre riešenia zdrojov/neskladovaných položiek
 Project Operations pre scenáre riešenia zdrojov/neskladovaných položiek zahŕňa nasledujúce možnosti:
-  
+ 
+- Proces predaja pre projekty, ktoré rozširujú aplikáciu Dynamics 365 Sales
 - Plánovanie projektu pomocou programu Microsoft Project for the Web
 - Viacrozmerné ceny
 - Jednotná správa zdrojov
@@ -70,8 +72,8 @@ Project Operations pre scenáre riešenia zdrojov/neskladovaných položiek zah�
 - Základné výdavky
 - Úplný výdavok
 - Potvrdenie autorizácie vrátenia tovaru
-- Úplné účtovanie
-- Priznanie výnosov
+- Fakturácia pro forma a fakturácia orientovaná na zákazníka 
+- Priznanie výnosov pre projekty
 
 #### <a name="deployment-steps"></a>Postup nasadenia
 Určte najlepší model nasadenia Project Operations pomocou [Dotazníka o nasadení](https://aka.ms/provisionprojectoperations).

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084222"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181786"
 ---
 # <a name="manage-leads"></a>Správa potenciálnych zákazníkov
 
@@ -38,7 +38,7 @@ Ak chcete, aby kvalifikovaný potenciálny zákazník automaticky vytvoril príl
 
 Nasledujúca tabuľka obsahuje dôležité informácie o poli pre potenciálneho zákazníka a následné dôsledky týchto polí.
  
-| **Pole** | **Miesto** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
+| **Pole** | **Miesto** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |
 | Predmet | Karta Všeobecné | Toto textové pole by malo obsahovať krátky popis dohody. | Téma potenciálneho zákazníka bude predvolene nastavená ako téma príležitosti a názov cenovej ponuky a zmluva o projekte. |
 | Typ | Karta Všeobecné | Toto pole množiny možností má nasledujúce možnosti:</br>- Založené na práci (k dispozícii iba vtedy, keď je nainštalovaný Project Operations)</br>- Založené na položke (k dispozícii iba vtedy, keď sú nainštalované Project Operations a Sales)</br>- Služba založená na údržbe (k dispozícii, keď je nainštalovaná služba Field Service) | Keď je hodnota tohto poľa nastavená na **Založené na práci** pre potenciálneho zákazníka, potenciálny zákazník je kvalifikovaný na vytvorenie príležitosti na základe projektu. Na povolenie všetkých rozšírení a funkcií na základe projektu v procese následného predaja tejto dohody je potrebná príležitosť založená na projekte. |
@@ -53,7 +53,7 @@ Potenciálni záujemcovia, ktorí majú hodnotu **Typ** nastavenú na **Založen
 
 - Obchodný vzťah, ktorý používa pole **Spoločnosť** potenciálneho zákazníka.
 - Záznam kontaktu priradený k účtu na základe hodnôt v poliach **Krstné meno** a **Priezvisko** pre potenciálneho zákazníka.
-- Príležitosť založená na projekte, ktorá má pole **Typ** nastavené na &quot;**Založené na práci**.
+- Príležitosť založená na projekte, ktorá má pole **Typ** nastavené na **Založené na práci**.
 
 Podrobnejšie informácie o kvalifikovaných potenciálnych zákazníkoch nájdete v časti[Kvalifikovanie alebo konvertovanie potenciálnych zákazníkov](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

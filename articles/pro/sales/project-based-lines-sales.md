@@ -1,21 +1,21 @@
 ---
-title: Riadky príležitostí založených na projekte (Pro)
+title: Riadky príležitostí založených na projekte – čiastočné
 description: Táto téma poskytuje informácie o riadkoch príležitostí založených na projekte. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084289"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181037"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Riadky príležitostí založených na projekte (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Riadky príležitostí založených na projekte – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -25,9 +25,9 @@ Riadky príležitostí založené na projekte sú riadkové položky, ktoré sa 
 
 Nižšie sú uvedené polia na riadku príležitostí založených na projekte:
 
-| **Pole** | **Miesto** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
+| **Pole** | **Miesto** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |
-| Typ produktu | Karta Všeobecné (skrytá) | Môžete vybrať jednu z nasledujúcich možností:</br>- Služba založená na projekte (k dispozícii iba pri nainštalovanom Dynamics 365 Project Operations)</br>- Produkt (k dispozícii iba vtedy, keď sú nainštalované Project Operations a Dynamics 365 Sales) | Hodnota tohto poľa sa nastaví na **Služba založená na projekte** , keď vytvoríte riadok príležitosti založenej na projekte z mriežky riadkov na základe projektu v príležitosti. <br> Ak túto hodnotu zmeníte alebo prepíšete, vo vašich riadkových položkách založených na projekte nebude povolená funkčnosť projektu. |
+| Typ produktu | Karta Všeobecné (skrytá) | Môžete vybrať jednu z nasledujúcich možností:</br>- Služba založená na projekte (k dispozícii iba pri nainštalovanom Dynamics 365 Project Operations)</br>- Produkt (k dispozícii iba vtedy, keď sú nainštalované Project Operations a Dynamics 365 Sales) | Hodnota tohto poľa sa nastaví na **Služba založená na projekte**, keď vytvoríte riadok príležitosti založenej na projekte z mriežky riadkov na základe projektu v príležitosti. <br> Ak túto hodnotu zmeníte alebo prepíšete, vo vašich riadkových položkách založených na projekte nebude povolená funkčnosť projektu. |
 | Príležitosť | Karta Všeobecné | Toto pole je iba na čítanie a odkazuje na nadradený záznam príležitosti, ku ktorému patrí táto riadková položka. | Toto pole nemá žiadny následný dopad. |
 | Meno | Karta Všeobecné | Toto upraviteľné textové pole možno použiť na zabezpečenie krátkej identity tejto riadkovej položky. | Táto hodnota sa prenesie do riadka cenovej ponuky, keď vytvoríte cenovú ponuku z tejto príležitosti. |
 | Rozpočet zákazníka | Karta Všeobecné | Toto editovateľné pole meny možno použiť na sledovanie sumy, ktorú je zákazník ochotný zaplatiť za túto riadkovú položku. | Táto hodnota sa prenesie do príslušného poľa pre riadok cenovej ponuky, keď vytvoríte cenovú ponuku z tejto príležitosti. |

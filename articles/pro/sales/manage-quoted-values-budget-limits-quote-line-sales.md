@@ -1,21 +1,21 @@
 ---
-title: Riadky cenových ponúk založených na projekte (Pro)
+title: Prehľad riadkov cenových ponúk založených na projekte – čiastočné
 description: Táto téma poskytuje informácie o používaní riadkov cenových ponúk založených na projekte pre projektovú úlohu. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084294"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181111"
 ---
-# <a name="project-based-quote-lines-pro"></a>Riadky cenových ponúk založených na projekte (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Prehľad riadkov cenových ponúk založených na projekte – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -31,12 +31,12 @@ Riadky cenových ponúk založených na projekte sú navrhnuté tak, aby pomohli
 
 Nasledujúca tabuľka poskytuje informácie o poliach na karte **Všeobecné** v riadku cenovej ponuky na základe projektu. Tieto polia pomáhajú vytvoriť základ pre podrobný a prízemných odhad projektovej úlohy.
 
-| **Pole** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
+| **Pole** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- |
 | Meno | Názov riadka cenovej ponuky, ktorý by vám mal pomôcť identifikovať diskrétnu zložku cenovej ponuky, ktorá sa odhaduje. | Skopírované do riadku zmluvy o projekte, ktorý je vytvorený z tohto riadku cenovej ponuky po získaní ponuky. |
 | Spôsob fakturácie | Pri cenovej ponuke vytvorenej z príležitosti sa táto hodnota skopíruje z príslušného poľa na riadka príležitosti. Toto pole obsahuje dva hlavné zmluvné modely, ktoré podporuje Dynamics 365 Project Operations:</br>- Pevná cena</br>- Čas a materiál.| Hodnota z tohto poľa sa skopíruje do riadka zmluvy o projekte, ktorý je vytvorený z tohto riadka cenovej ponuky po získaní cenovej ponuky. |
 | Project | Toto voliteľné pole použite na identifikáciu projektu, ktorý sa použije na vykonanie práce na tejto zákazke. Keď je projekt mapovaný na riadok cenovej ponuky, pomáha to pri nastavovaní účtovateľných úloh a tiež pri uvádzaní odhadu založeného na projekte k riadku cenovej ponuky ako podrobnosti o riadku cenovej ponuky. Ak projekt nie je mapovaný na riadok cenovej ponuky založenej na projekte, odhad by sa mal vytvoriť manuálne vytvorením podrobností o každom riadku cenovej ponuky. | Hodnota z tohto poľa sa skopíruje do riadka zmluvy o projekte, ktorý je vytvorený z tohto riadka cenovej ponuky po získaní cenovej ponuky.|
-| Zahrnuté úlohy | Označuje, či sa tento riadok cenovej ponuky používa pre všetky alebo niektoré projektové úlohy vybratého projektu. Toto pole má nasledujúce možné hodnoty:</br>- Všetky projektové úlohy</br>- Iba vybraté projektové úlohy</br>Prázdna hodnota v tomto poli je ekvivalentná s možnosťou **Všetky projektové úlohy**. | Ak je na stránke projektu vybraná možnosť **Iba vybrané projektové úlohy** , tak vám karta **Nastavenie fakturácie úloh** umožňuje vybrať konkrétne úlohy a priradiť ich k tomuto riadku cenovej ponuky. Hodnota z tohto poľa sa skopíruje do riadka zmluvy o projekte, ktorý je vytvorený z tohto riadka cenovej ponuky po získaní cenovej ponuky. |
+| Zahrnuté úlohy | Označuje, či sa tento riadok cenovej ponuky používa pre všetky alebo niektoré projektové úlohy vybratého projektu. Toto pole má nasledujúce možné hodnoty:</br>- Všetky projektové úlohy</br>- Iba vybraté projektové úlohy</br>Prázdna hodnota v tomto poli je ekvivalentná s možnosťou **Všetky projektové úlohy**. | Ak je na stránke projektu vybraná možnosť **Iba vybrané projektové úlohy**, tak vám karta **Nastavenie fakturácie úloh** umožňuje vybrať konkrétne úlohy a priradiť ich k tomuto riadku cenovej ponuky. Hodnota z tohto poľa sa skopíruje do riadka zmluvy o projekte, ktorý je vytvorený z tohto riadka cenovej ponuky po získaní cenovej ponuky. |
 | Zahrnúť čas | Príznak **Áno**/**Nie** označuje, či budú časové transakcie alebo náklady na prácu na vybranom projekte zahrnuté do odhadu v tomto riadku cenovej ponuky. Hodnota **Nie** označuje, že časové transakcie alebo náklady na prácu nebudú zahrnuté do odhadu v tomto riadku cenovej ponuky. Hodnota **Áno** označuje, že časové transakcie alebo náklady na prácu budú zahrnuté do odhadu v tomto riadku cenovej ponuky. | Hodnota z tohto poľa sa skopíruje do riadka zmluvy o projekte, ktorý je vytvorený z tohto riadka cenovej ponuky po získaní cenovej ponuky. |
 | Zahrnúť výdavok | Príznak **Áno**/**Nie** označuje, či budú výdavkové náklady vybraného projektu zahrnuté do odhadu v tomto riadku cenovej ponuky. Hodnota **Nie** označuje, že výdavkové náklady nebudú zahrnuté do odhadu v tomto riadku cenovej ponuky. Hodnota **Áno** označuje, že výdavkové náklady budú zahrnuté do odhadu v tomto riadku cenovej ponuky. | Hodnota z tohto poľa sa prekopíruje do riadka zmluvy o projekte, ktorý je vytvorený z tohto riadka cenovej ponuky po získaní cenovej ponuky. |
 | Zahrnúť poplatok | Príznak **Áno**/**Nie** označuje, či budú poplatky vybraného projektu zahrnuté do odhadu v tomto riadku cenovej ponuky. Hodnota **Nie** označuje, že poplatky nebudú zahrnuté do odhadu v tomto riadku cenovej ponuky. Hodnota **Áno** označuje, že poplatky budú zahrnuté do odhadu v tomto riadku cenovej ponuky. | Hodnota z tohto poľa sa skopíruje do riadka zmluvy o projekte, ktorý je vytvorený z tohto riadka cenovej ponuky po získaní cenovej ponuky. |
@@ -49,15 +49,15 @@ Nasledujúca tabuľka poskytuje informácie o poliach na karte **Všeobecné** v
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravidlá overenia pre polia na karte Všeobecné v riadkoch cenových ponúk založených na projekte
 
-**Pravidlo 1** : Ak je pole **Zahrnuté úlohy** prázdne alebo ak je nastavené na **Všetky projektové úlohy** , projekt je zahrnutý v riadku cenovej ponuky.
+**Pravidlo 1**: Ak je pole **Zahrnuté úlohy** prázdne alebo ak je nastavené na **Všetky projektové úlohy**, projekt je zahrnutý v riadku cenovej ponuky.
 
-**Pravidlo 2** : Ak je pole **Zahrnuté úlohy** prázdne alebo ak je nastavené na **Všetky projektové úlohy** , projekt a určitú triedu transakcií je možné zahrnúť iba do jedného riadka cenovej ponuky založenej na projekte cenovej ponuky.
+**Pravidlo 2**: Ak je pole **Zahrnuté úlohy** prázdne alebo ak je nastavené na **Všetky projektové úlohy**, projekt a určitú triedu transakcií je možné zahrnúť iba do jedného riadka cenovej ponuky založenej na projekte cenovej ponuky.
 
-**Pravidlo 3** : Ak je pole **Zahrnuté úlohy** nastavené na **Iba vybrané projektové úlohy** , projekt a určitú triedu transakcií je možné zahrnúť do viacerých riadkov cenovej ponuky založenej na projekte cenovej ponuky.
+**Pravidlo 3**: Ak je pole **Zahrnuté úlohy** nastavené na **Iba vybrané projektové úlohy**, projekt a určitú triedu transakcií je možné zahrnúť do viacerých riadkov cenovej ponuky založenej na projekte cenovej ponuky.
 
-**Pravidlo 4** : Ak má príležitosť viacero cenových ponúk, môžu existovať riadky cenových ponúk z rôznych cenových ponúk, ktoré všetky odkazujú na ten istý projekt a zahŕňajú rovnakú triedu transakcií.
+**Pravidlo 4**: Ak má príležitosť viacero cenových ponúk, môžu existovať riadky cenových ponúk z rôznych cenových ponúk, ktoré všetky odkazujú na ten istý projekt a zahŕňajú rovnakú triedu transakcií.
 
-**Pravidlo 5** : Ak cenové ponuky nepatria do rovnakej príležitosti, nemôžu obsahovať rovnakú triedu projektu a transakcie.
+**Pravidlo 5**: Ak cenové ponuky nepatria do rovnakej príležitosti, nemôžu obsahovať rovnakú triedu projektu a transakcie.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

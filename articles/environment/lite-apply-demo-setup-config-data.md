@@ -1,23 +1,30 @@
 ---
-title: Použitie ukážkových údajov nastavenia a konfigurácie
+title: Použitie ukážkových údajov nastavenia a konfigurácie – čiastočné
 description: Táto téma poskytuje informácie o tom, ako použiť ukážkové údaje nastavenia a konfigurácie pre Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084229"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401282"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Použitie ukážkových údajov nastavenia a konfigurácie pre jednoduché nasadenie Project Operations – dohoda o fakturácii pro forma
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Použitie ukážkových údajov nastavenia a konfigurácie pre Project Operations – čiastočné 
 
 _**Jednoduché nasadenie – dohoda o fakturácii pro forma_
+
+## <a name="prerequisites"></a>Predpoklady
+
+Pred začatím konfigurácie musíte mať zriadené prostredie Common Data Service (CDS) pre Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Pokyny
 
 1. Stiahnite si [Balík hlavných údajov](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Prejdite do priečinka *ProjOpsDemoDataSetupAndMaster – integrovaný CMT* a spustite spustiteľný súbor, *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Jednoduché nasadenie – dohoda o fakturácii pro forma_
 10. Import bude trvať približne dve až desať minút v závislosti od rýchlosti vašej siete. Po dokončení ukončite sprievodcu CMT. 
 11. Skontrolujte údaje svojej organizácie v nasledujúcich 20 entitách:
 
-- Mena
-- Organizačná jednotka
-- Kontakt
-- Daňová skupina
-- Skupina zákazníkov
-- Jednotka
-- Skupina jednotiek
-- Cenník
-- Cenník parametrov projektu
-- Frekvencia faktúr
-- Podrobnosti o frekvencii faktúr
-- Kategória rezervovateľného zdroja
-- Kategória transakcie
-- Kategória výdavku
-- Cena roly
-- Cena kategórie transakcie
-- Charakteristika
-- Rezervovateľný zdroj
-- Priradenie kategórie rezervovateľného zdroja
-- Charakteristika rezervovateľného zdroja
+-   Mena
+-   Konto
+-   Organizačná jednotka
+-   Kontakt
+-   Daňová skupina
+-   Skupina zákazníkov
+-   Jednotka
+-   Skupina jednotiek
+-   Cenník
+-   Cenník parametrov projektu 
+-   Frekvencia faktúr
+-   Kategória rezervovateľného zdroja
+-   Kategória transakcie
+-   Kategória výdavku
+-   Cena roly
+-   Cena kategórie transakcie
+-   Charakteristika
+-   Rezervovateľný zdroj
+-   Priradenie kategórie rezervovateľného zdroja
+-   Charakteristika rezervovateľného zdroja
 
 ![Dokončenie importu](./media/6CompleteImport.png)

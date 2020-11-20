@@ -1,33 +1,33 @@
 ---
-title: Nastavovanie nákladových sadzieb za prácu
+title: Nastavenie nákladových sadzieb za prácu – čiastočné
 description: Táto téma poskytuje informácie o tom, ako nastaviť sadzby nákladov pre prácu v Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084275"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180750"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Nastavovanie nákladových sadzieb za prácu 
+# <a name="set-up-labor-cost-rates---lite"></a>Nastavenie nákladových sadzieb za prácu – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Každý cenník obsahuje množinu pracovných cien (rolové ceny), ktoré zodpovedajú obsahu a dátumu účinnosti cenníka.
 
-1. Vytvorte cenník a na karte **Cena roly** , vo vedľajšej mriežky stlačte možnosť **Nová rola**.
+1. Vytvorte cenník a na karte **Cena roly** vo vedľajšej mriežke vyberte **Nová rola**.
 2. Na stránke **Rýchle vytvorenie** vyberte rolovú a organizačnú jednotku.
 3. Do povinných polí zadajte všetky ďalšie informácie.
 
 Nasledujúca tabuľka obsahuje niektoré z polí, ktoré sú dôležité pri vytváraní sadzieb ceny za prácu v cenníku nákladov.
 
-| Pole | Miesto | Relevantnosť, účel a pokyny | Nadväzujúci vplyv |
+| Pole | Miesto | Popis | Nadväzujúci vplyv |
 | --- | --- | --- | --- |
 | Rola | Karta **Všeobecné** a stránky **Rýchle vytvorenie** | Vyberte si rolu, na ktorú sa sadzba za prácu vzťahuje. | Rola pri prichádzajúcom odhade alebo skutočná bude porovnaná s týmto riadkom, aby sa štandardne nastavili náklady na rolu. |
 | Zdrojová jednotka | Karta **Všeobecné** a stránky **Rýchle vytvorenie** | Vyberte organizačnú jednotku alebo divíziu spoločnosti, z ktorej sa bude táto rola využívať. Napríklad vývojár z divízie Robotics spoločnosti Fabrikam India alebo vývojár z divízie Software spoločnosti Fabrikam USA. | Zdrojová jednotka pri prichádzajúcom odhade alebo skutočná bude porovnaná s týmto riadkom, aby sa štandardne nastavili náklady na rolu. |
@@ -46,7 +46,7 @@ Vývojár zo spoločnosti Fabrikam India-Robotic účtuje poplatky za $ 100, ke�
 
 ### <a name="set-up-costs-for-outside-resources"></a>Nastavte náklady na externé zdroje
 
-1. Vytvorte cenník nákladov s názvom, *Sadzby nákladov spoločnosti Fabrikam US-Robotics* a nastavte rozsah účinných dátumov.
+1. Vytvorte cenník nákladov s názvom,*Sadzby nákladov spoločnosti Fabrikam US-Robotics* a nastavte rozsah účinných dátumov.
 2. V cenníku nákladov nastavte sadzby pomocou informácií z nasledujúcej tabuľky. 
 
 | Rola | Spoločnosť zaisťujúca zdroje | Zdrojová jednotka | Nákladová sadzba |

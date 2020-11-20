@@ -1,21 +1,21 @@
 ---
-title: Zálohy a zmluvy založené na preddavkoch
+title: Zálohy a zmluvy založené na preddavkoch – čiastočné
 description: Táto téma poskytuje informácie o preddavkových zmluvných modeloch a zálohách v Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088096"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180886"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Zálohy a zmluvy založené na preddavkoch 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Zálohy a zmluvy založené na preddavkoch – čiastočné
 
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
@@ -33,7 +33,7 @@ Okrem pravidelného harmonogramu založeného na preddavkovom mechanizme môže 
 
 Preddavok v Project Operations nie je k dispozícii na použitie, kým nebude fakturovaný zákazníkovi. Toto je označené nasledujúcimi poľami v podskupine záloh a preddavkov.
 
-| Pole | Relevantnosť, účel a pokyny | Nadväzujúci vplyv |
+| Pole | Popis | Nadväzujúci vplyv |
 | --- | --- | --- |
 | Dostupná suma | Suma, ktorá je k dispozícii na použitie v zázname preddavku či zálohy. | Kým nebude fakturovaná záloha alebo preddavok, nebude možné ju použiť, čo znamená, že dostupná suma bude nulová. |
 | Využitá suma | Suma, ktorá už je k dispozícii na použitie v preddavku či zálohe. | Zálohu alebo preddavok je možné čiastočne vyrovnať na faktúre so skutočnými nákladmi, ktoré budú mať časť označenú ako už použitú alebo spotrebovanú. Zvyšok zálohy alebo preddavku je k dispozícii na vyrovnanie na budúcej faktúre so skutočnými nákladmi. |

@@ -1,21 +1,21 @@
 ---
-title: Stanovenie sadzieb fakturácie práce
+title: Nastavenie sadzieb fakturácie za prácu – čiastočné
 description: Táto téma poskytuje informácie o nastavení a sadzieb fakturácie práce v Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084426"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181201"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Nastavenie sadzieb fakturácie pre fakturáciu sadzieb práce 
+# <a name="set-up-labor-bill-rates---lite"></a>Nastavenie sadzieb fakturácie za prácu – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -27,7 +27,7 @@ Každý cenník obsahuje množinu pracovných cien alebo sadzieb za prácu, ktor
 
   V nasledujúcej tabuľke sú uvedené polia na karte **Všeobecné** a na table **Rýchle vytvorenie** cenového riadku roly, na ktorú musíte pamätať pri vytváraní cien role v predajnom cenníku:
 
-  | Pole | Miesto | Relevantnosť, účel a pokyny | Nadväzujúci vplyv |
+  | Pole | Miesto | Popis | Nadväzujúci vplyv |
   | --- | --- | --- | --- |
   | Rola | Karta **Všeobecné** a tabla **Rýchle vytvorenie** | Vyberte rolu, pre ktorú nastavujete fakturačnú sadzbu. | Rola pri prichádzajúcom odhade alebo skutočná hodnota bude porovnaná s týmto riadkom, aby sa štandardne nastavila sadzba fakturácie. |
   | Zdrojová jednotka | Karta **Všeobecné** a tabla **Rýchle vytvorenie** | Vyberte organizačnú jednotku alebo divíziu spoločnosti, z ktorej rola pochádza. Napríklad vývojár z divízie Robotics spoločnosti Fabrikam India alebo vývojár z divízie Software spoločnosti Fabrikam USA. | Zdrojová jednotka pri prichádzajúcom odhade alebo skutočná bude porovnaná s týmto riadkom, aby sa štandardne nastavili fakturačnú sadzbu. |
