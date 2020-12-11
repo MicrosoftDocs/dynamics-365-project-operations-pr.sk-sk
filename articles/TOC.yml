@@ -1,4 +1,4 @@
-- name: "Dynamics\_365 Project Operations"
+- name: Dynamics 365 Project Operations
   href: index.md
 - name: Začíname
   items:
@@ -38,7 +38,9 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Čo je nové
       items:
-        - name: November 2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
+        - name: "December\_2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-dec-2020-resource-based.md
+        - name: "November\_2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: "Proces predaja v\_rámci projektu"
       items:
@@ -87,7 +89,7 @@
                 - name: "Správa viacerých zákazníkov v\_riadkoch cenových ponúk založených na projekte"
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Konfigurácia fakturovateľných súčastí riadka projektovej cenovej ponuky
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: "Vytvorenie odhadov v\_riadku cenovej ponuky"
                   href: sales/create-estimate-quote-line.md
                 - name: "Import odhadov z\_projektu do riadka cenovej ponuky založenej na projekte"
@@ -109,7 +111,7 @@
             - name: "Správa projektových cenníkov v\_projektových zmluvách"
               href: sales/contracts-manage-project-price-lists.md
             - name: "Správa viacerých zákazníkov v\_projektových zmluvách"
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Riadky zmlúv založených na projekte
               items:
                 - name: Prehľad riadkov zmlúv založených na projekte
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Kopírovanie projektovej zmluvy
               href: pro/sales/copy-project-contracts-sales.md
+            - name: "Zálohy a\_preddavky"
+              items:
+                - name: "Zálohy a\_zmluvy založené na preddavkoch – čiastočné"
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Nastavenie plánu preddavkov – čiastočné
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: "Vytvorenie zálohy ad hoc v\_zmluve – čiastočné"
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: "Ceny a\_náklady"
       items:
         - name: Nastavenie cenníka
@@ -158,10 +168,18 @@
           items:
             - name: Prehľad cenových dimenzií
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Vytvorenie riešenia pre vlastné cenové dimenzie
+              href: sales/create-solution-custompd.md
             - name: Použitie existujúcich polí ako cenových dimenzií
               items:
                 - name: Polia aplikácie Project Operations ako cenové dimenzie
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Použitie rezervovateľného zdroja ako cenovej dimenzie
+                  href: sales/use-br-as-pd.md
+                - name: Použitie kategórie transakcie ako cenovej dimenzie
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: "Rezervovateľný zdroj s\_rôznymi rolami v\_projekte"
+                  href: sales/br-playing-multiple-roles.md
             - name: Vlastné polia ako cenové dimenzie
               items:
                 - name: "Vytvorenie vlastných polí a\_entít ako cenových dimenzií"
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Nastavenie vlastných polí ako cenových dimenzií
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Aktualizácia atribútov doplnkov na zahrnutie nových cenových dimenzií
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Vypnutie cenovej dimenzie
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektový manažment
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Spravovanie zdrojov
           items:
+            - name: Vytvorenie zdrojov
+              href: resource-management/create-resources.md
             - name: "Definovanie odborností a\_spôsobilostí"
               href: resource-management/define-skills-proficiencies.md
+            - name: Definovanie rol
+              href: resource-management/define-roles.md
             - name: Definovanie kalendárov zdrojov
               href: resource-management/define-resource-calendars.md
         - name: Metódy prideľovania rezervácií
           href: resource-management/booking-allocation-methods.md
+        - name: Stavy rezervácií
+          href: resource-management/booking-status.md
         - name: "Odbornosti a\_modely spôsobilosti"
           href: resource-management/skills-proficiency-models.md
         - name: Odsúhlasenie zdrojov
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Správa projektovej faktúry pro forma
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Fakturácia preddavkovej alebo zálohovej platby
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Potvrdenie projektovej faktúry pro forma
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Konfigurácia automatizácie projektovej faktúry
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: "Denník integrácie v\_aplikácii Project Operations"
           href: project-accounting/project-operations-integration-journal.md
+        - name: Medzipodniková fakturácia
+          items:
+            - name: Prehľad medzipodnikovej fakturácie
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurácia medzipodnikovej fakturácie
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: "Vytvorenie medzipodnikových faktúr zákazníkov a\_dodávateľov"
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Vytvorenie medzipodnikových transakcií
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Priznanie výnosov
+      items:
+        - name: Prehľad priznania výnosov
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Nastavenie priznania výnosov
+          items:
+            - name: Nastavenie typov období
+              href: project-accounting/period-types.md
+            - name: Nastavenie šablón nákladov
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Správa odhadov výnosov
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: "Projekty odhadov výnosov s\_pevnou cenou"
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Náklady na dokončenie metód
+          href: revenue-recognition/cost-complete-methods.md
 - name: "Čiastočné nasadenie – dohoda o\_fakturácii pro forma"
   items:
     - name: Začíname
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Čo je nové
       items:
+        - name: "Čo je nové v\_decembri\_2020 – čiastočné nasadenie – dohoda o\_fakturácii pro forma"
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: "Čo je nové v\_novembri\_2020 – čiastočné nasadenie – dohoda o\_fakturácii pro forma"
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: "Proces predaja v\_rámci projektu"
@@ -538,10 +594,18 @@
           items:
             - name: Prehľad cenových dimenzií
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Vytvorenie riešenia pre vlastné cenové dimenzie
+              href: sales/create-solution-custompd.md
             - name: Použitie existujúcich polí ako cenových dimenzií
               items:
-                - name: Použitie existujúceho poľa ako cenovej dimenzie
+                - name: Polia aplikácie Project Operations ako cenové dimenzie
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Použitie rezervovateľného zdroja ako cenovej dimenzie
+                  href: sales/use-br-as-pd.md
+                - name: Použitie kategórie transakcie ako cenovej dimenzie
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: "Rezervovateľný zdroj s\_rôznymi rolami v\_projekte"
+                  href: sales/br-playing-multiple-roles.md
             - name: Vlastné polia ako cenové dimenzie
               items:
                 - name: "Vytvorenie vlastných polí a\_entít ako cenových dimenzií"
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Nastavenie vlastných polí ako cenových dimenzií
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Aktualizácia atribútov doplnkov na zahrnutie nových cenových dimenzií
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Vypnutie cenovej dimenzie
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektový manažment
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Spravovanie zdrojov
           items:
+            - name: Vytvorenie zdrojov
+              href: resource-management/create-resources.md
             - name: "Definovanie odborností a\_spôsobilostí"
               href: resource-management/define-skills-proficiencies.md
+            - name: Definovanie rol
+              href: resource-management/define-roles.md
             - name: Definovanie kalendárov zdrojov
               href: resource-management/define-resource-calendars.md
         - name: "Metódy prideľovania v\_rámci rezervovania"
           href: resource-management/booking-allocation-methods.md
+        - name: Stavy rezervácií
+          href: resource-management/booking-status.md
         - name: "Odbornosti a\_modely spôsobilosti"
           href: resource-management/skills-proficiency-models.md
         - name: Odsúhlasenie zdrojov
@@ -834,6 +906,8 @@
       items:
         - name: Plán vydania aktualizácie pre Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 24, V3'
