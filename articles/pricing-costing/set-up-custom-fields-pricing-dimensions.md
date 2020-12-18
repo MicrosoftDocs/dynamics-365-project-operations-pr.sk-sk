@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119437"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650247"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavenie vlastných polí ako cenových dimenzií
 
@@ -41,9 +41,15 @@ Táto téma poskytuje informácie o nastavení vlastných dimenzií cien. Na str
 Aby sa pole stalo cenovou dimenziou, musí byť:
 
 - Vytvorená ako pole v entitách **Cena roly** a **Prirážky k cenám rol**. Pre ďalšie informácie o postupuje [Pridanie vlastných polí do cenového nastavenia a transakčných entít](add-custom-fields-price-setup-transactional-entities.md).
+
 - Vytvorená ako riadok v tabuľke **Cenová dimenzia**. Pridajte napríklad riadky dimenzie ocenenia, ako je uvedené v nasledujúcom obrázku. 
 
+![Riadky čiastkovo založenej dimenzie oceňovania](media/Amt-based-PD.png)
+
 Pracovné hodiny zdroja (**msdyn_resourceworkhours**) sú pridané ako dimenzie založené na prirážke a boli pridané do mriežky na karte **Cenová dimenzia založená na prirážke**.
+
+![Riadky dimenzie ceny na základe zrážky](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Akákoľvek zmena údajov cenovej dimenzie v tejto tabuľke, existujúcich alebo nových, je prenesená na obchodnú logiku určovania cien po obnovení vyrovnávacej pamäte. Čas obnovenia vyrovnávacej pamäte môže trvať až 10 minút. Nechajte potrebný čas na zobrazenie zmien v predvolenej logike ceny, ktorá musí byť výsledkom zmien v údajoch dimenzie ceny.

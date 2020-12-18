@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129697"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642787"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Použite doplnok Project Service Automation na plánovanie práce v Microsoft Project
 
@@ -85,7 +85,7 @@ ms.locfileid: "4129697"
 ## <a name="publish-your-project"></a>Zverejnite svoj projekt  
 Pri plánovaní projektu je ďalším krokom importovanie a zverejnenie projektu v [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-Projekt sa naimportuje do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Použije sa projekt oceňovania a vytvárania tímov. Otvorte projekt v [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] a zistite, že tím, projektové odhady a štruktúra rozdelenia práce boli vytvorené, Nasledujúca tabuľka ukazuje, kde nájsť výsledky:
+Projekt sa naimportuje do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Použije sa projekt oceňovania a vytvárania tímov. Otvorte projekt v [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] a zistite, že tím, projektové odhady a štruktúra rozdelenia práce boli vytvorené. Nasledujúca tabuľka ukazuje, kde nájsť výsledky:
 
 
 |                                                                                          |                                                                                                                                   |
@@ -174,5 +174,58 @@ Projekt sa naimportuje do [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 
 Prepojenie súboru projektu na [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] robí projekt súboru kapitána a nastaví štruktúry rozdelenia práce v šablóne[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] iba na čítanie.  S cieľom vykonať zmeny plánu projektu, budete ich musieť urobiť v programe [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a zverejniť ich ako aktualizácie [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
-### <a name="see-also"></a>Pozrite si tiež:  
+## <a name="read-a-resource-loaded-schedule"></a>Prečítajte si plán načítaný zdrojom
+
+Pri čítaní projektu z Project Service Automation sa kalendár zdroja nesynchronizuje s počítačovým klientom. Ak existujú rozdiely v trvaní úlohy, jej úsilí alebo konci, je to pravdepodobne preto, lebo zdroje a klient pre počítač nemajú pre projekt rovnaký kalendár šablón pracovnej doby.
+
+
+## <a name="data-synchronization"></a>Synchronizácia údajov
+
+V nasledujúcej tabuľke je uvedené, ako sa synchronizujú údaje medzi Project Service Automation a doplnkom Microsoft Project pre počítač.
+
+| **Entita** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Projektová úloha | Termín | ● | - |
+| Projektová úloha | Odhadované úsilie | ● | - |
+| Projektová úloha | ID klienta MS Project | ● | - |
+| Projektová úloha | Nadradená úloha | ● | - |
+| Projektová úloha | Project | ● | - |
+| Projektová úloha | Projektová úloha | ● | - |
+| Projektová úloha | Názov projektovej úlohy | ● | - |
+| Projektová úloha | Zdrojová jednotka (zastarané vo verzii 3.0) | ● | - |
+| Projektová úloha | Plánované trvanie | ● | - |
+| Projektová úloha | Počiatočný dátum | ● | - |
+| Projektová úloha | ID štruktúry WBS | ● | - |
+
+| **Entita** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Člen tímu | ID klienta MS Project | ● | - |
+| Člen tímu | Názov pozície | ● | - |
+| Člen tímu | projekt | ● | ● |
+| Člen tímu | Projektový tím | ● | ● |
+| Člen tímu | Zdrojová jednotka | - | ● |
+| Člen tímu | Rola | - | ● |
+| Člen tímu | Pracovná doba | Nesynchronizované | Nesynchronizované |
+
+| **Entita** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Priradenie zdroja | Dátum Od | ● | - |
+| Priradenie zdroja | Hod. | ● | - |
+| Priradenie zdroja | ID klienta MS Project | ● | - |
+| Priradenie zdroja | Plánovaná práca | ● | - |
+| Priradenie zdroja | Project | ● | - |
+| Priradenie zdroja | Projektový tím | ● | - |
+| Priradenie zdroja | Priradenie zdroja | ● | - |
+| Priradenie zdroja | Úloha | ● | - |
+| Priradenie zdroja | Dátum Do | ● | - |
+
+| **Entita** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Závislosti projektovej úlohy | Závislosť projektovej úlohy | ● | - |
+| Závislosti projektovej úlohy | Typ prepojenia | ● | - |
+| Závislosti projektovej úlohy | Úloha predchodcu | ● | - |
+| Závislosti projektovej úlohy | Project | ● | - |
+| Závislosti projektovej úlohy | Úloha následníka | ● | - |
+
+### <a name="see-also"></a>Pozrite si tiež  
  [Príručka projektového manažéra](../psa/project-manager-guide.md)

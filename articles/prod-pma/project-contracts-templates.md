@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084498"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642652"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizácia projektových zmlúv a projektov priamo z Project Service Automation do Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Táto téma popisuje šablónu a základnú úlohy, ktoré sa používajú na synchronizáciu projektových zmlúv a projektov priamo z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ Nasledujúca ilustrácia ukazuje, ako sa synchronizujú údaje medzi Project Ser
 
 ## <a name="templates-and-tasks"></a>Šablóny a úlohy
 
-Dostupné šablóny nájdete v zozname centrum správcu Microsoft Power Apps, zvoľte možnosť **Projekty** a potom v pravom hornom rohu vyberte možnosť **Nový projekt** , kde si vyberiete verejné šablóny.
+Dostupné šablóny nájdete v zozname centrum správcu Microsoft Power Apps, zvoľte možnosť **Projekty** a potom v pravom hornom rohu vyberte možnosť **Nový projekt**, kde si vyberiete verejné šablóny.
 
 Nasledujúca šablóny a základné úlohy sa používajú na synchronizáciu projektový zmlúv a projektov z Project Service Automation do Finance:
 
@@ -133,9 +135,9 @@ Ak musíte použiť Power Query, postupujte podľa týchto pokynov:
 ## <a name="template-mapping-in-data-integration"></a>Mapovanie šablón v integrácii údajov
 
 > [!NOTE] 
-> Polia **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** a **AddressZipCode** nie sú súčasťou predvoleného mapovania pre projektové zmluvy. Ak chcete, aby sa tieto údaje synchronizovali pre zmluvy o projekte, môžete pridať priradenia.
+> Polia **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** a **AddressZipCode** nie sú súčasťou predvoleného mapovania pre projektové zmluvy. Ak chcete, aby sa tieto údaje synchronizovali pre zmluvy o projekte, môžete pridať priradenia.
 >
-> Polia **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** a **ProjectType** nie sú zahrnuté v predvolenom mapovaní pre projekty. Ak chcete, aby sa tieto údaje synchronizovali pre zmluvy o projekte, môžete synchronizovať pre projekty.
+> Polia **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** a **ProjectType** nie sú zahrnuté v predvolenom mapovaní pre projekty. Ak chcete, aby sa tieto údaje synchronizovali pre zmluvy o projekte, môžete synchronizovať pre projekty.
 
 Nasledujúca ilustrácia ukazuje príklady mapovania úlohy šablóny v Integrácii údajov. Mapovanie zobrazuje informácie o poli, ktoré sa budú synchronizovať z Project Service Automation do Finance.
 

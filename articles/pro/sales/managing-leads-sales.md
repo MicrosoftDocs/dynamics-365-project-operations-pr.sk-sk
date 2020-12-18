@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180526"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513808"
 ---
 # <a name="manage-leads---lite"></a>Správa potenciálnych zákazníkov – čiastočné
 
@@ -23,7 +23,7 @@ Potenciálni zákazníci na základe projektu môžu byť spravovaní a kvalifik
 
 ## <a name="list-of-project-sales-leads"></a>Zoznam potenciálnych zákazníkov projektu
 
-V časti **Predaj** na ľavej navigačnej table otvorte stránku so zoznamom **Potenciálni zákazníci** na zobrazenie zoznamu všetkých záznamov potenciálnych zákazníkov v systéme. Zoznam uvedených potenciálnych zákazníkov je založený na práci a iných typoch potenciálnych zákazníkov, ktorých je možné vytvoriť, ak máte aj aplikácie Dynamics 365 Sales alebo Dynamics 365 Field Service.
+V časti **Predaj** na ľavej navigačnej table otvorte stránku so zoznamom **Potenciálni zákazníci** na zobrazenie zoznamu všetkých záznamov potenciálnych zákazníkov v systéme. Potenciálni zákazníci v zozname sú založení na práci a iné typy potenciálnych zákazníkov, ktoré je možné vytvoriť, ak máte tiež aplikácie Dynamics 365 Sales alebo Dynamics 365 Field Service.
 
 Môžete vytvoriť filtrované zobrazenie na zobrazenie iba potenciálnych zákazníkov na základe projektu vytvorením filtra pre hodnotu **Typ**. Môžete napríklad vybrať, aby sa zobrazovali iba potenciálni zákazníci na základe práce.
 
@@ -55,7 +55,7 @@ Potenciálni záujemcovia, ktorí majú hodnotu **Typ** nastavenú na **Založen
 - Záznam kontaktu priradený k účtu na základe hodnôt v poliach **Krstné meno** a **Priezvisko** pre potenciálneho zákazníka.
 - Príležitosť založená na projekte, ktorá má pole **Typ** nastavené na **Založené na práci**.
 
-Podrobnejšie informácie o kvalifikovaných potenciálnych zákazníkoch nájdete v časti[Kvalifikovanie alebo konvertovanie potenciálnych zákazníkov](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Podrobnejšie informácie o kvalifikovaných potenciálnych zákazníkoch nájdete v časti [Kvalifikovanie alebo konvertovanie potenciálnych zákazníkov](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Tok obchodného procesu pre obchody založené na projekte
 

@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121192"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643009"
 ---
 # <a name="provision-a-new-environment"></a>Zriadenie nového prostredia
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Táto téma poskytuje informácie o tom, ako zriadiť nové prostredie Dynamics 365 Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Táto téma poskytuje informácie o tom, ako nasadiť nové prostredie Dynamics 365 Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Povolenie automatického poskytovania prostriedkov v projekte LCS
 
@@ -120,7 +122,7 @@ Servis prostredia bude nejaký čas trvať. Po dokončení sa prostredie vráti 
 
 ![Použiť riešenia](./media/13ApplySolutions.png)
 
-5. Vyberte obe riešenia **Mapa entít Dynamics 365 Finance and Operations s dvojitým zápisom** a **Mapy entít Dynamics 365 Project Operations s dvojitým zápisom** a potom vyberte **Použiť**.
+5. Vyberte obe riešenia, **Mapa entity s duálnym zápisom Dynamics 365 Finance and Operations** a **Mapy entít s duálnym zápisom Dynamics 365 Project Operations** a potom vyberte **Použiť**.
 
 ![Potvrďte riešenia](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Obnovenie bude trvať približne 20 minút. Po dokončení dostanete upozornenie
 | --- | --- | --- | --- | --- | --- |
 | **Roly projektových zdrojov pre všetky spoločnosti (bookableresourcecategories)** | No | Áno | Common Data Service | No | Nie je k dispozícii |
 | **Právnické entity (cdm\_spoločnosti)** | No | Áno | Aplikácie Finance and Operations | No | Nie je k dispozícii |
+| **Účtovná kniha (msdyn_ledgers)** | No | Áno | Aplikácie Finance and Operations | Áno | Áno, aplikácie Finance and Operations |
 | **Skutočné hodnoty integrácie Project Operations (msdyn\_skutočné hodnoty)** | No | No | Nie je k dispozícii | Áno | No |
 | **Riadky zmlúv projektu (salesorderdetails)** | No | No | Nie je k dispozícii | No | No |
 | **Integračná entita pre transakčné vzťahy projektu (msdyn\_transactionconnections)** | No | No | Nie je k dispozícii | No | Nie je k dispozícii |

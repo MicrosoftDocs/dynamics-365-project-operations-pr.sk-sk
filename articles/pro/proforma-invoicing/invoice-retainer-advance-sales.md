@@ -1,5 +1,5 @@
 ---
-title: Fakturácia preddavkovej alebo zálohovej platby – čiastočné
+title: Fakturácia preddavku alebo zálohy
 description: Táto téma poskytuje informácie o tom, ako fakturovať preddavky a zálohy v Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180571"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596211"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturácia preddavkovej alebo zálohovej platby – čiastočné
+# <a name="invoice-a-retainer-or-an-advance"></a>Fakturácia preddavkovej alebo zálohovej platby
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Dynamics 365 Project Operations podporuje zmluvy založené na preddavkoch a jednorazové zálohy. V projektovej zmluve môžete zaznamenať plán preddavkov alebo jednorazových záloh. Zaznamenávanie na úrovni projektovej zmluvy však neznamená okamžité získanie preddavku alebo zálohy na použitie. Ak chcete použiť zálohu alebo preddavok na faktúre, ktorá sa zákazníkovi skutočne účtuje, je potrebné najskôr fakturovať preddavok alebo zálohu.
 

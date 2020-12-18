@@ -1,5 +1,5 @@
 ---
-title: Nastavenie plánu preddavkov – čiastočné
+title: 'Nastavenie plánu preddavkov '
 description: Táto téma poskytuje informácie o tom, ako nastaviť plán preddavkov v Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181291"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596391"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Nastavenie plánu preddavkov – čiastočné
+# <a name="set-up-a-retainer-schedule"></a>Nastavenie plánu preddavkov 
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Plány preddavkov sú nastavené na stránke **Projektové zmluva** v Dynamics 365 Project Operations.
 

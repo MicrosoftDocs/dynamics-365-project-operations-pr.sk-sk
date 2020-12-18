@@ -1,5 +1,5 @@
 ---
-title: Vytvorenie zálohy ad hoc v zmluve – čiastočné
+title: Vytvorenie zálohy ad hoc v zmluve
 description: Táto téma poskytuje informácie o vytvorení zálohy v zmluve podľa potreby.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181381"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596030"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Vytvorenie zálohy ad hoc v zmluve – čiastočné
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Vytvorenie zálohy ad hoc v zmluve
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Microsoft Dynamics 365 Project Operations podporuje fakturačné scenáre, ktoré zahŕňajú preddavky a zálohy. Proces používania **Záloh** v **Project Operations** je podobný zmluvám založeným na **Preddavkoch**. 
 

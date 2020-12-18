@@ -1,5 +1,5 @@
 ---
-title: Zálohy a zmluvy založené na preddavkoch – čiastočné
+title: Zálohy a zmluvy založené na preddavkoch
 description: Táto téma poskytuje informácie o preddavkových zmluvných modeloch a zálohách v Project Operations.
 author: rumant
 manager: Annbe
@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180886"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596121"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Zálohy a zmluvy založené na preddavkoch – čiastočné
+# <a name="advances-and-retainer-based-contracts"></a>Zálohy a zmluvy založené na preddavkoch
 
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Dynamics 365 Project Operations podporuje zmluvy založené na preddavkoch. Zmluva na základe preddavku je dohodnutá množina rovnako rozdelených platieb, za ktoré bude zákazníkovi fakturovaná počas celého trvania projektu. Tento typ zmluvy sa zvyčajne používa pre fakturačné modely založené na čase a materiáli alebo spotrebe, kde je potrebné poskytnúť zákazníkovi predvídateľnú faktúru a časový plán platieb. Skutočné výnosy nahromadené v každom období sa porovnajú s platbami prijatými od zákazníka na začiatku obdobia. V súlade s koncepciou modelu fakturácie za čas a materiál sa hodnoty výnosov nahromadené v každom období môžu líšiť v závislosti od vzniknutých nákladov. Ak nazhromaždený príjem presahuje sumu prijatú na začiatku obdobia, spoločnosť poskytujúca projekt by mohla:
 

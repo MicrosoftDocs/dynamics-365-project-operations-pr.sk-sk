@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130867"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672250"
 ---
 # <a name="override-project-sales-price-lists"></a>Prepísanie projektových predajných cenníkov
 
@@ -27,7 +28,7 @@ Ak chcete nastaviť projektový cenník pre konkrétneho zákazníka, prejdite d
 
 1. Otvorte stránku so zoznamom **Obchodné vzťahy**.
 2. Vyhľadajte a dvakrát kliknite na záznam zákazníka, čím otvoríte stránku s podrobnosťami **Obchodného vzťahu**.
-3. Na karte **Projektové cenníky** vyberte **+ Nový projektový cenník^^.
+3. Na karte **Projektové cenníky** vyberte **+ Nový projektový cenník**.
 4. Na stránke **Nový projektový cenník** vyberte z rozbaľovacej ponuky cenník. Zahrnuté budú iba cenníky, ktoré majú nastavený kontext na **Predaj** a ktorých mena sa zhoduje s menou obchodného vzťahu.
 5. Pomenujte priradenie a potom vyberte položku **Uložiť**. Vytvorí sa projektový cenník pre konkrétneho zákazníka. Tento cenník sa použije na predvolené projektové ceny v projektových cenových ponukách alebo zmluvách vytvorených pre tohto zákazníka, pričom dátum vytvorenia cenovej ponuky alebo projektovej zmluvy spadá do dátumu účinnosti cenníka.
 

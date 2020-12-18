@@ -3,17 +3,17 @@ title: Záznam o výdavku (čiastočný)
 description: Táto téma poskytuje informácie o tom, ako pracovať so záznamom o výdavku pri čiastočnom nasadení.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121102"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590965"
 ---
 # <a name="expense-entry-lite"></a>Záznam o výdavku (čiastočný)
 
@@ -21,7 +21,7 @@ _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Základné alebo čiastočné riadenie výdavkov je schopnosť zaznamenávať jednoduché výdavky. Môžete zaúčtovať výdavky oproti projektu a potom ich schvaľovateľ projektu skontroluje a schváli.
 
-Ďalšie informácie o možnostiach výdavkov v Dynamics 365 Project Operations nájdete na stránke [Prehľad výdavkov](expense-overview.md).
+Ďalšie informácie o možnostiach výdavkov v systéme Dynamics 365 Project Operations nájdete v časti [Prehľad výdavkov](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Zachytenie základných výdavkov
 
@@ -36,6 +36,10 @@ Keď skončíte so zachytávaním všetkých svojich výdavkov a budete priprave
 
 1. Prejdite do **Výdavky** a vyberte výdavok. Alebo vyberte všetky výdavky pomocou začiarkavacieho políčka v hlavičke.
 2. Stlačte možnosť **Odoslať**. Systém spracuje vybrané položky a potom vytvorí žiadosti o schválenie výdavkov.
+
+## <a name="add-an-attachment"></a>Pridať prílohu
+
+Možno budete musieť poskytnúť schvaľovateľovi ďalšiu dokumentáciu o svojich výdavkovch. Na časovú os záznamu výdavkov môžete pripojiť potvrdenie. Vyberte **Upraviť** a v sekcii **Časová os** potom ťuknutím na ikonu kancelárskej sponky priložte potvrdenie.
 
 ## <a name="recall-a-basic-expense"></a>Odvolanie základných výdavkov
 

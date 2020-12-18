@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401282"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642112"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Použitie ukážkových údajov nastavenia a konfigurácie pre Project Operations – čiastočné 
 
 _**Jednoduché nasadenie – dohoda o fakturácii pro forma_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="prerequisites"></a>Predpoklady
 

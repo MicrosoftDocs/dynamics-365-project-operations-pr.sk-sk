@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175550"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642157"
 ---
 # <a name="project-contracts---key-concepts"></a>Projektové zmluvy – Kľúčové koncepty
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-V tejto téme sú popísané kľúčové koncepty, ktoré by ste si mali uvedomiť predtým, ako začnete používať projektové zmluvy v Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Táto téma poskytuje kľúčové koncepty, ktoré si musíte uvedomiť predtým, ako začnete používať projektové zmluvy v Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Vlastniaca spoločnosť
 

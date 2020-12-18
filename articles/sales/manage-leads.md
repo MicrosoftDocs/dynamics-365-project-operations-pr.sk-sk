@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181786"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513853"
 ---
 # <a name="manage-leads"></a>Správa potenciálnych zákazníkov
 
@@ -55,7 +55,7 @@ Potenciálni záujemcovia, ktorí majú hodnotu **Typ** nastavenú na **Založen
 - Záznam kontaktu priradený k účtu na základe hodnôt v poliach **Krstné meno** a **Priezvisko** pre potenciálneho zákazníka.
 - Príležitosť založená na projekte, ktorá má pole **Typ** nastavené na **Založené na práci**.
 
-Podrobnejšie informácie o kvalifikovaných potenciálnych zákazníkoch nájdete v časti[Kvalifikovanie alebo konvertovanie potenciálnych zákazníkov](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Podrobnejšie informácie o kvalifikovaných potenciálnych zákazníkoch nájdete v časti [Kvalifikovanie alebo konvertovanie potenciálnych zákazníkov](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Kvalifikácia potenciálneho zákazníka a informácie o právnickej entite 
 

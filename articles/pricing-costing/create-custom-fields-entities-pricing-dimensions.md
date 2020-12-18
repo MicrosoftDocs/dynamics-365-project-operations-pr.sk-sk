@@ -3,7 +3,7 @@ title: Vytvorenie vlastných polí a entít ako cenových dimenzií
 description: Táto téma poskytuje informácie o tom, ako vytvoriť vlastné množiny možností alebo entity.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,78 +17,63 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130912"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642832"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Vytvorenie vlastných polí a entít ako cenových dimenzií
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Vykonajte nasledujúce kroky kedykoľvek, kedy chcete vytvoriť vlastnú množinu možností alebo entitu.
+Vykonajte nasledujúce kroky vždy, keď chcete vytvoriť vlastnú množinu možností alebo entitu, ktorú budete používať ako cenovú dimenziu. Ďalšie informácie sa dozviete v článku [Prehľad cenových dimenzií](pricing-dimensions-overview.md).  
 
 > [!IMPORTANT]
-> Odporúčame, aby ste robili všetky zmeny cenových dimenzií v samostatnom riešení. Táto dôležitá najlepšia prax poskytuje flexibilitu v budúcnosti na aktualizáciu alebo odstránenie zmien podľa potreby, pomôže pri opätovnom použití vašej práce a uľahčuje port týchto zmien na inú inštanciu. Potom, čo ste vykonali všetky požadované zmeny, exportujte toto riešenie ako **spravované riešenie** a importujte ho do iných inštancií na opätovné použitie nastavení cien.
+> Odporúčame, aby ste robili všetky zmeny cenových dimenzií v samostatnom riešení. Tento dôležitý najlepší postup poskytuje v budúcnosti flexibilitu pri aktualizácii alebo odstraňovaní zmien podľa potreby. To tiež pomôže pri opätovnom použití vašej práce a uľahčí prenos týchto zmien do inej inštancie. Po vykonaní všetkých požadovaných zmien exportujte toto riešenie ako **spravované riešenie** a importujte ho do iných inštancií, aby ste mohli znova použiť nastavenie cien.
 
-
-## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Vytvorenie vlastného riešenia pre dimenzie cien
-1. Prejdite do ponuky **Nastavenia** > **Riešenia** a potom vyberte **Nové**, ak chcete vytvoriť nové riešenie. 
-2. Pomenujte riešenie, **dimenzie cien \<your organization name>**, zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Vytvorte vlastné polia a množiny možností v riešení dimenzie ceny
 
 Cenový rozmer môže byť množina možností alebo entita. Obidva musia byť vytvorené vo vašom cenovom riešení. Postup v tomto procese vysvetľuje, ako vytvoriť dimenzie založené na entite a dimenzie založené na množine možností.
 
 ### <a name="entity-based-dimensions"></a>Dimenzie založené na entite
+Ak chcete vytvoriť dimenzie založené na entitách, postupujte takto:
 
 1. Prejdite do ponuky **Nastavenia** > **Riešenia** a potom dvakrát kliknite na **Dimenzie cien \<your organization name>**.
-2. V prehľadávači riešení, na ľavom navigačnom paneli vyberte **entity**.
+2. V prehľadávači riešení, na ľavom navigačnom paneli, vyberte **Entity**.
 3. Vyberte **Nové**, ak chcete vytvoriť novú entitu s názvom **Štandardný nadpis**. 
 4. Zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
 
+> ![Definícia entity so Štandardným nadpisom](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimenzie založené na množine možností 
-Môžete vytvoriť dve dimenzie založené na množine možností. Použite **miesto pracovného prostriedku** na sledovanie ceny na **domácom** mieste práce a **na mieste** práce a používania **zdrojových pracovných hodín** s hodnotami **pravidelný** a **nadčasy** ak chcete použiť značku pri dokončení práce.
+Môžete vytvoriť dve dimenzie založené na množine možností. 
 
+- Použite **Miesto pracovného zdroja** na sledovanie ceny miesta práce **Doma** a práce **Na mieste**. 
+- Použite **Pracovná doba zdrojov** s hodnotami **Pravidelná** a **Nadčasy** na aplikovanie prirážky, keď je práca dokončená.
+
+Nasledujúca grafika poskytuje pohľad na dimenziu **Miesto pracovného zdroja**. 
+
+> ![Množina možností na základe cenovej dimenzie nazvanej pracovná poloha zdroja](media/Option-set-PD-called-Resource-Work-Location.png)
+
+Nasledujúca grafika poskytuje pohľad na dimenziu **Pracovná doba zdroja**. 
+
+> ![Množina možností na základe cenovej dimenzie nazvanej hodinová poloha zdroja](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Prejdite do ponuky **Nastavenia** > **Riešenia** a dvakrát kliknite na **Dimenzie cien \<your organization name>**. 
-2. V prehľadávači riešení, na ľavom navigačnom paneli vyberte **Množina možností**. 
+2. V prehľadávači riešení, na ľavom navigačnom paneli, vyberte **Množinu možností**. 
 3. Vyberte **Nové**, ak chcete vytvoriť novú množinu možností, zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Vytvorenie údajov pre dimenzie založené na entite
 
 Údaje pre dimenzie založené na entite môžete vytvoriť manuálne alebo pomocou Microsoft Excel importu alebo služobných hovorov. Použite kroky v tomto postupe na vytvorenie dvoch štandardných titulov, **systémový inžinier** a **starší systémový inžinier** z dimenzie založenej na entite, **štandardný nadpis**. Ak sú údaje, ktoré chcete vytvoriť, malé, ako je to v nasledovnom príklade, môžete použiť štandardný formulár.
 
-1. Vyberte **Rozšírené vyhľadávanie**, vyberte entitu **Štandardný názov** a potom vyberte **Výsledky**. Zobrazia sa všetky riadky v entite **štandardnej** nadpisu.
-2. Vyberte **Nový**, v poli **Názov** zadajte „Systémový inžinier“ a potom vyberte **Uložiť**.
-3. Zatvorí formulár. 
-4. Opakujte kroky 1 - 3 na vytvorenie ďalšieho štandardného názvu pre "Starší Systémový inžinier".
+1. Vyberte **Rozšírené vyhľadávanie**.
+2. Vyberte entitu **Štandardný nadpis** a potom vyberte **Výsledky**. Zobrazia sa všetky riadky v entite **štandardnej** nadpisu.
+3. Vyberte **Nový**, v poli **Názov** zadajte „Systémový inžinier“ a potom vyberte **Uložiť**.
+4. Zatvorí stránku. 
+5. Opakujte kroky 1 - 3 na vytvorenie ďalšieho štandardného názvu pre "Starší Systémový inžinier".
 
-## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Pridajte všetky požadované entity a súvisiace súčasti do riešenia Dimenzia ceny
-Budete musieť pridať nasledujúce entity do vášho cenového riešenia. Postupujte podľa krokov v tomto postupe, tak aby sa niektoré dôležité zmeny schémy v cenovom riešení tak, že entity sa dozvedia o nových cenových dimenziách.
-
-1. Vyberte **Nastavenia** > **Riešenia** a dvakrát kliknite na **Dimenzie cien \<your organization name>**. 
-2. V prehľadávači riešení, na ľavom navigačnom paneli vyberte **Pridať existujúce** > **Entity**.
-3. V dialógovom okne **súčasti riešenia** vyberte nasledujúce entity:
-
-  - Skutočná hodnota
-  - Rezervovateľný zdroj
-  - Riadok odhadu
-  - Podrobnosti o riadku faktúry
-  - Záznam v účtovnom denníku
-  - Podrobnosti o riadku projektovej zmluvy
-  - Člen projektového tímu
-  - Podrobnosti o riadku cenovej ponuky
-  - Prirážka k cene roly
-  - Cena roly 
-  - Zadanie času 
-
-
-> [!NOTE]
-> Nezabudnite zahrnúť všetky formuláre a zobrazenia pre každú vybranú entitu.
-
-4. Keď sa zobrazí výzva na zahrnutie všetkých závislých entít pre entity vybraté vyššie, vyberte **Nie**.
-
+> ![Vzorové údaje pre entitu Štandardný nadpis](media/ST-data.png)
