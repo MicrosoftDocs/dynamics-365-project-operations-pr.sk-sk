@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084558"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144612"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Pridanie nových vlastných formulárov entít (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Typ poľa 
 
-Dynamics 365 Project Service Automation spolieha na pole **Typ** ( **msdyn\_ordertype** ) príležitosti, ponuky, objednávky a faktúry entity na rozlišovanie **založené na práci** verzie týchto entít z **založené na položke** a **založené na službách** verzie. Verzie založené na práci týchto entít spracúva PSA. Veľa obchodnej logiky na strane klienta a na strane servera riešenia závisí od **Typ** poľa. Preto je dôležité, aby sa pole inicializoval správnou hodnotou pri vytvorení entít. Nesprávna hodnota môže spôsobiť nesprávne správanie a určitá obchodná logika nemusí fungovať správne.
+Dynamics 365 Project Service Automation spolieha na pole **Typ** (**msdyn\_ordertype**) príležitosti, ponuky, objednávky a faktúry entity na rozlišovanie **založené na práci** verzie týchto entít z **založené na položke** a **založené na službách** verzie. Verzie založené na práci týchto entít spracúva PSA. Veľa obchodnej logiky na strane klienta a na strane servera riešenia závisí od **Typ** poľa. Preto je dôležité, aby sa pole inicializoval správnou hodnotou pri vytvorení entít. Nesprávna hodnota môže spôsobiť nesprávne správanie a určitá obchodná logika nemusí fungovať správne.
 
 ## <a name="automatic-form-switching"></a>Automatické prepínanie formulárov
 
@@ -37,9 +39,9 @@ Logika automatického prepínania formulára spolieha na mapovanie medzi **formI
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Pridanie vlastných formulárov a zapnutie logiky prepínania formulárov
 
-Nasledujúci príklad ukazuje, ako pridať vlastný formulár, **Moje projektové informácie** , takže pracuje s príležitosťami založenými na práci. Rovnaký proces sa používa na pridávanie vlastných formulárov tak, aby pracovali s ponukami, objednávkami a faktúrami.
+Nasledujúci príklad ukazuje, ako pridať vlastný formulár, **Moje projektové informácie**, takže pracuje s príležitosťami založenými na práci. Rovnaký proces sa používa na pridávanie vlastných formulárov tak, aby pracovali s ponukami, objednávkami a faktúrami.
 
-Ak chcete vytvoriť vlastnú verziu informačného formulára **Projektové Informácie** , postupujte podľa týchto krokov.
+Ak chcete vytvoriť vlastnú verziu informačného formulára **Projektové Informácie**, postupujte podľa týchto krokov.
 
 1. V entite príležitosť otvorte formulár **Projektové informácie** a uložte kópiu pod názvom **Moje projektové informácie**.
 2. Otvorte nový formulár a potom vo vlastnostiach, sa uistite, že formulár inicializačné skripty z formulára **Projektové Informácie** sú prítomné. 
@@ -47,7 +49,7 @@ Ak chcete vytvoriť vlastnú verziu informačného formulára **Projektové Info
     > [!IMPORTANT]
     > Neodstraňujte skripty. V opačnom prípade niektoré údaje môžu byť inicializované nesprávne.
 
-3. Skontrolujte, či pole **Typ** ( **msdyn\_OrderType** ) je prítomný vo formulári. 
+3. Skontrolujte, či pole **Typ** (**msdyn\_OrderType**) je prítomný vo formulári. 
 
     > [!IMPORTANT]
     > Neodstraňujte toto pole. V opačnom prípade inicializácia skriptov zlyhá.

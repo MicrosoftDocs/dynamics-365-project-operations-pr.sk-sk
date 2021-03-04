@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084433"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144882"
 ---
 # <a name="create-custom-fields-and-entities"></a>Vytvorte vlastné polia a entity 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Dokončite nasledujúce kroky kedykoľvek, kedy chcete vytvoriť vlastnú množinu možností alebo entitu na Power Apps platforme.  
 Postupy v tejto téme by mali byť dokončené pomocou webového rozhrania Project Service Automation (PSA).
@@ -41,7 +43,7 @@ Cenový rozmer môže byť množina možností alebo entita. Obidva musia byť v
 
 1. V PSA kliknite na položku **Nastavenia** > **Riešenia** a potom dvakrát kliknite na **Dimenzie cien \<your organization name>**.
 2. V prehľadávači riešení, na ľavom navigačnom paneli vyberte **entity**.
-3. Kliknite na **nové** , ak chcete vytvoriť novú entitu s názvom **štandardný nadpis**. Zadajte zostávajúce požadované informácie a kliknite na **Uložiť**.
+3. Kliknite na **nové**, ak chcete vytvoriť novú entitu s názvom **štandardný nadpis**. Zadajte zostávajúce požadované informácie a kliknite na **Uložiť**.
 
 > ![Definícia entity so Štandardným nadpisom](media/Standard-Title-entity-definition.png)
 
@@ -52,7 +54,7 @@ Môžete vytvoriť dve dimenzie založené na množine možností. Použite **mi
 
 1. V PSA kliknite na položku **Nastavenia** > **Riešenia** a potom dvakrát kliknite na **Dimenzie cien \<your organization name>**. 
 2. V prehľadávači riešení, na ľavom navigačnom paneli vyberte **Množina možností**. 
-3. Kliknite na **nové** , ak chcete vytvoriť novú množinu možností, zadajte zostávajúce požadované informácie a potom kliknite na **uložiť**.
+3. Kliknite na **nové**, ak chcete vytvoriť novú množinu možností, zadajte zostávajúce požadované informácie a potom kliknite na **uložiť**.
 
 > ![Množina možností na základe cenovej dimenzie nazvanej pracovná poloha zdroja ](media/Option-set-PD-called-Resource-Work-Location.png)
 

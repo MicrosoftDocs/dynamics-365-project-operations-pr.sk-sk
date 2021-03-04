@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084373"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144658"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Vytváranie vlastných riešení pre cenové dimenzie
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Všetky zmeny vlastných cenových dimenzií by mali byť v samostatnom riešení. Táto dôležitá najlepšia prax poskytuje flexibilitu v budúcnosti na aktualizáciu alebo odstránenie zmien podľa potreby, pomôže pri opätovnom použití vašej práce a uľahčuje port týchto zmien na inú inštanciu. Potom, čo vykonáte všetky požadované zmeny, exportujte toto riešenie ako **spravované riešenie** a importujte ho do iných inštancií na opätovné použitie nastavení cien.
 
 1. Vyberte položku **Nastavenia** > **Riešenia** a potom vyberte položku **Nové**. 
-2. Pomenujte riešenie, **dimenzie cien \<your organization name>** , zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
+2. Pomenujte riešenie, **dimenzie cien \<your organization name>**, zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
 
 > ![Vytvorenie vlastného riešenia pre dimenzie cien](media/Creation-of-custom-pricing-dimension-solution.PNG)
   

@@ -24,20 +24,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8e9a29b05e07bb59ade00c8f4acdf0275538d5bd
-ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
+ms.openlocfilehash: 5e8ec1b5f7760b21ca3f0a85952820bdf6d0a5da
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689474"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144297"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Aktualizácia plánu vydania pre Project Service 3.x
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 ## <a name="latest-version-availability"></a>Dostupnosť najnovšej verzie
 
 | Riešenie  | Najnovšia verzia |
 |-------|----|
-| Project Service Automation    | 3.10.44.59 |
+| Project Service Automation    | 3.10.46.87 |
 | Doplnok Project Service Automation pre stolné zariadenia                | 3.15          |
 
 Informácie o aktualizáciách pre Project Service nájdete v [plánoch vydania služby Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -45,27 +47,28 @@ Informácie o aktualizáciách pre Project Service nájdete v [plánoch vydania 
 | Stanica  | Oblasť | Aktuálna verzia | Ďalšia verzia |  Plánovaný dátum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stanica 1</strong> | |  |  | |
-| | <i>Prvé vydanie</i> | [3.10.44.59](whats-new-ur-26.md) | Spracuje sa | 8. január 2021
+| | <i>Prvé vydanie</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 19. február 2021
 |<strong>Stanica 2</strong> | |  |  | |
-| | <i>Južná Amerika</i> | [3.10.44.59](whats-new-ur-26.md) | Spracuje sa | 15. január 2021
-| | <i>Kanada</i> | [3.10.44.59](whats-new-ur-26.md) | Spracuje sa | 15. január 2021
-| | <i>India</i> | [3.10.44.59](whats-new-ur-26.md) | Spracuje sa | 15. január 2021
-| | <i>Francúzsko</i> | [3.10.44.59](whats-new-ur-26.md) | Spracuje sa | 15. január 2021
-| | <i>Spojené Arabské Emiráty</i> | [3.10.44.59](whats-new-ur-26.md) | Spracuje sa | 15. január 2021
-| | <i>Južná Afrika</i> | [3.10.44.59](whats-new-ur-26.md) | Spracuje sa | 15. január 2021
-| | <i>Nemecko</i> | [3.10.44.59](whats-new-ur-26.md) | Spracuje sa | 15. január 2021
+| | <i>Južná Amerika</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 26. február 2021
+| | <i>Kanada</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 26. február 2021
+| | <i>India</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 26. február 2021
+| | <i>Francúzsko</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 26. február 2021
+| | <i>Spojené Arabské Emiráty</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 26. február 2021
+| | <i>Južná Afrika</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 26. február 2021
+| | <i>Nemecko</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 26. február 2021
+| | <i>Švajčiarsko</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 26. február 2021
 |<strong>Stanica 3</strong> | |  |  | |
-| | <i>Japonsko</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11. december 2020
-| | <i>Ázia a Tichomorie</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11. december 2020
-| | <i>Veľká Británia</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11. december 2020
-| | <i>Oceánia</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11. december 2020
+| | <i>Japonsko</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 05. marca 2021
+| | <i>Ázia a Tichomorie</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 05. marca 2021
+| | <i>Veľká Británia</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 05. marca 2021
+| | <i>Oceánia</i> | [3.10.46.87](whats-new-ur-28-5.md) | Spracuje sa | 05. marca 2021
 |<strong>Stanica 4</strong> | |  |  | |
-| | <i>Európa</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 18. december 2020
+| | <i>Európa</i> | [3.10.45.119](whats-new-ur-27-5.md) | [3.10.46.87](whats-new-ur-28-5.md) | 19. február 2021
 |<strong>Stanica 5</strong> | |  |  | |
-| | <i>Severná Amerika</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8. január 2021
+| | <i>Severná Amerika</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 12. február 2021
 |<strong>Stanica 6</strong> | |  |  | |
-| | <i>Cloud vládneho spoločenstva</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8. január 2021
-| | <i>Skupiny s vyhradeným rozsahom</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 15. január 2021
+| | <i>Cloud vládneho spoločenstva</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 12. február 2021
+| | <i>Skupiny s vyhradeným rozsahom</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 19. február 2021
 
 >[!Note]
 > - Dátumy vo všetkých regiónoch okrem cloudu vládneho spoločenstva (GCC) označujú načasovanie ďalšej automatickej aktualizácie. Dátumy v GCC označujú dostupnosť verzie; v súčasnosti pre tieto regióny neexistuje automatická aktualizácia.

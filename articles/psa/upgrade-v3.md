@@ -2,6 +2,7 @@
 title: Informácie o inovácii – Microsoft Dynamics 365 Project Service Automation verzie 2.x alebo 1.x na verziu 3
 description: Táto téma poskytuje informácie o úvahách, ktoré musíte vykonať pri inovácii zo systému Project Service Automation verzie 2. x alebo 1. x na verziu 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121732"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144199"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Informácie o inovácii – PSA verzie 2.x alebo 1.x na verziu 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation a Field Service
-Dynamics 365 Project Service Automation a Dynamics 365 Field Service používajú riešenie Universal Resourcing Scheduling (URS) na plánovanie zdrojov. Ak máte vo vašej inštancii Project Service Automation aj Field Service, mali by ste naplánovať inováciu oboch riešení na najnovšiu verziu (verzia 3.x pre Project Service Automation, verzia 8.x pre Field Service). Inovácia Project Service Automation alebo Field Service nainštaluje najnovšiu verziu URS, čo znamená, že nekonzistentné správanie je možné, ak obe riešenia Project Service Automation a Field Service v rovnakej inštancii nie sú inovované na najnovšiu verziu.
+Dynamics 365 Project Service Automation a Dynamics 365 Field Service používajú riešenie Universal Resourcing Scheduling (URS) na plánovanie zdrojov. Ak máte vo svojej inštancii Project Service Automation a Field Service, inovujte obe riešenia na najnovšiu verziu. Pre Project Service Automation je to verzia 3.x. Pre službu Field Service je to verzia 8.x. Aktualizáciou Project Service Automation alebo Field Service sa nainštaluje najnovšia verzia URS. Ak riešenia Project Service Automation a Field Service v rovnakej inštancii nie sú inovované na najnovšiu verziu, môže dôjsť k nekonzistentnému správaniu.
 
 ## <a name="resource-assignments"></a>Priradenia zdrojov
 V Project Service Automation verzia 2 a verzia 1, priradenia úloh boli uložené ako podradené úlohy (nazývané aj riadkové úlohy) **entita Úloha** a nepriamo súvisí s entitou **Priradenie zdroja**. Riadkové úlohy boli viditeľné v okne nasadenia na štruktúre rozdelenia práce (WBS).
@@ -40,9 +44,9 @@ Vo verzii 3 Project Service Automation sa zmenila základná schéma priraďovan
 Tieto zmeny majú vplyv na inováciu všetkých existujúcich projektov, ktoré majú priradenia prostriedkov pre pomenované rezervovateľné zdroje a všeobecné zdroje v projektovom tíme. Táto téma poskytuje úvahy, ktoré budete musieť vziať do úvahy pre vaše projekty pri inovácii na verziu 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Úlohy priradené k pomenovaným zdrojom
-Pomocou podkladovej entity úloh úlohy vo verzii 2 a verzii 1 umožnili členom tímu vykresliť inú rolu, než je predvolená definovaná rola. Napríklad Lucia Kováčová, ktorá je predvolene priradená k roli manažér programu, môže byť priradená k úlohe s rolou Vývojár. Vo verzii 3, úloha pomenovaného člena tímu je vždy predvolená, takže všetky úlohy, ku ktorým je Lucia Kováčová priradená používa jej predvolenú rolu manažéra programu.
+Pomocou podkladovej entity úloh úlohy vo verzii 2 a verzii 1 umožnili členom tímu vykresliť inú rolu, než je predvolená definovaná rola. Napríklad Lucia Kováčová, ktorá je predvolene priradená k roli manažér programu, môže byť priradená k úlohe s rolou Vývojár. Vo verzii 3 je vždy predvolená úloha pomenovaného člena tímu, takže všetky úlohy, ku ktorým je Lucia Kováčová priradená používa Luciinu predvolenú rolu manažéra programu.
 
-Ak ste priradili prostriedok k úlohe mimo ich predvolenú rolu vo verzii 2 a verzia 1, pri inovácii, pomenovaný prostriedok bude priradený k predvolenej role pre všetky priradenia úloh, bez ohľadu na priradenie rolí vo verzii 2. Výsledkom budú rozdiely vo vypočítaných odhadoch z verzie 2 alebo verzie 1 na verziu 3, pretože odhady sa vypočítajú na základe roly prostriedku a nie priradenia úlohy riadka. Napríklad vo verzii 2 boli priradené dve úlohy pre Jarmila Gajdošová. Úloha v riadku úloha pre úlohu 1 je Vývojár a pre úlohu 2 manažér programu. Jarmila Gajdošová má predvolenú úlohu manažéra programu.
+Ak ste priradili prostriedok k úlohe mimo ich predvolenú rolu vo verzii 2 a verzia 1, pri inovácii, pomenovaný prostriedok bude priradený k predvolenej role pre všetky priradenia úloh, bez ohľadu na priradenie rolí vo verzii 2. Výsledkom tohto pridelenia budú rozdiely vo vypočítaných odhadoch z verzie 2 alebo verzie 1 na verziu 3, pretože odhady sa vypočítajú na základe roly prostriedku a nie priradenia úlohy riadka. Napríklad vo verzii 2 boli priradené dve úlohy pre Jarmila Gajdošová. Úloha v riadku úloha pre úlohu 1 je Vývojár a pre úlohu 2 manažér programu. Jarmila Gajdošová má predvolenú úlohu manažéra programu.
 
 ![Viacero rolí priradených jednému prostriedku](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Pri inovácii na verziu 3, riadkové úlohy nahrádzajú priradenia prostriedkov
 
 ![Priradenia zdrojov](media/resource-assignment-v2-05.png)
 
-Keďže odhady vychádzajú z predvolenej roly prostriedku, odhady predaja a nákladov sa môžu zmeniť. Všimnite si, že v nasledujúcom obrázku, už nevidíte rolu **Vývojár** , pretože rola sa teraz vzala z predvolenej roly rezervovateľného zdroja.
+Keďže odhady vychádzajú z predvolenej roly prostriedku, odhady predaja a nákladov sa môžu zmeniť. V nasledujúcom obrázku už nevidíte rolu **Vývojár**, pretože rola sa teraz vzala z predvolenej roly rezervovateľného zdroja.
 
 ![Odhady nákladov pre predvolené roly](media/resource-assignment-cost-estimate-06.png)
 ![Odhad predaja pre predvolené roly](media/resource-assignment-sales-estimate-07.png)
 
-Po dokončení inovácie môžete upraviť rolu člena tímu tak, aby bola iná ako priradená predvolená hodnota. Ak však zmeníte rolu členov tímu, zmení sa na všetky pridelené úlohy, pretože členovia tímu už nemôžu prideliť viaceré roly vo verzii 3.
+Po dokončení inovácie môžete upraviť rolu člena tímu tak, aby bola iná ako priradená predvolená hodnota. Ak však zmeníte rolu členov tímu, zmení sa na všetky pridelené úlohy, pretože členovia tímu nemôžu prideliť viaceré roly vo verzii 3.
 
 ![Aktualizácia roly prostriedku](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Organizačnú jednotku môžete zobraziť v zobrazení odhadov.
  
 Po dokončení inovácie sa k všeobecnému členovi tímu pridá organizačná jednotka, ktorá zodpovedá všeobecnému členovi tímu a odstráni sa riadok úlohy. Z tohto dôvodu odporúčame pred inováciou generovať alebo znova generovať tím na každý projekt, ktorý obsahuje všeobecné prostriedky.
 
-Pre úlohy, ktoré sú priradené k úlohe s jednotkou organizácie, ktorá sa odlišuje od organizačnej jednotky zmluvného projektu a tím nebol vygenerovaný, inovácia vytvorí generický člen tímu pre rolu, ale použije zmluvnú jednotku projektu pre člena tímu organizačnej jednotky. S odvolaním sa na príklad s projektom Z to znamená, že zmluvná jednotka organizácie Contoso a úlohy testovania projektových plánov v rámci fázy implementácie boli priradené k úlohe technického poradcu s organizačnou jednotkou Contoso India. Testovacia úloha integrácie dokončená po fáze implementácie bola priradená roly Technický konzultant. Jednotka organizácie je Contoso US a tím nebol vygenerovaný. Inovácia vytvorí jedného všeobecného člena tímu, technického poradcu, ktorý má pridelené hodiny všetkých troch úloh a organizačnej jednotky Contoso US, zmluvnej organizačnej jednotky projektu.   
+Pre úlohy, ktoré sú priradené k úlohe s jednotkou organizácie, ktorá sa odlišuje od organizačnej jednotky zmluvného projektu a tím nebol vygenerovaný, inovácia vytvorí generický člen tímu pre rolu, ale použije zmluvnú jednotku projektu pre člena tímu organizačnej jednotky. S odvolaním sa na príklad s projektom Z, zmluvná jednotka organizácie Contoso a úlohy testovania projektových plánov v rámci fázy implementácie boli priradené k úlohe technického poradcu s organizačnou jednotkou Contoso India. Testovacia úloha integrácie dokončená po fáze implementácie bola priradená roly Technický konzultant. Jednotka organizácie je Contoso US a tím nebol vygenerovaný. Inovácia vytvorí jedného všeobecného člena tímu, technického poradcu, ktorý má pridelené hodiny všetkých troch úloh a organizačnej jednotky Contoso US, zmluvnej organizačnej jednotky projektu.   
  
 Zmena predvolené rôznych zdrojov organizačnej jednotky na negenerovaných členov tímu je dôvod, prečo odporúčame generovať alebo opätovne generovať tím na každý projekt, ktorý obsahuje všeobecné prostriedky pred inováciou tak, aby nedošlo k strateniu priradení organizačných jednotiek.
 

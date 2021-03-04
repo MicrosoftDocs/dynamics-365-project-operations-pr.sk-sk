@@ -1,6 +1,6 @@
 ---
-title: Odhad tržieb a nákladov projektu v prípade, keď rezervovateľný zdroj v projekte zastáva rôzne roly
-description: Táto téma obsahuje informácie o tom, ako je možné použiť cenové dimenzie na podporu určovania cien a kalkulácie nákladov pre zdroj, ktorý v projekte zastáva rôzne roly.
+title: Odhadnite tržby a náklady projektu, keď rezervovateľný zdroj plní pre projekt viac rolí
+description: Táto téma poskytuje informácie o spôsobe používania dimenzie cien na podporu cien a nákladov pre zdroj, ktorý v projekte plní viac rolí.
 author: rumant
 manager: kfend
 ms.custom:
@@ -17,16 +17,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8ddc827a4170c5576c0a4350b51e6a119094ac50
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084416"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145062"
 ---
-# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-mulitple-roles-on-a-project"></a>Odhad tržieb a nákladov projektu v prípade, keď rezervovateľný zdroj v projekte zastáva rôzne roly 
+# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Odhadnite tržby a náklady projektu, keď rezervovateľný zdroj plní pre projekt viac rolí 
 
-Spoločnosti s dôrazom na projekty často potrebujú jeden zdroj, ktorý by v projekte zastával rôzne roly. Cena a náklady každej z týchto rolí by mohli byť odlišné, čo znamená, že čas, ktorý bude mať rovnaký zdroj v rámci projektu, by mohol nadobudnúť odlišný finančný odhad v závislosti od vyúčtovania a sadzieb nákladov pre každú z rolí. Project Service Automation umožňuje nastavenie hodnôt v zázname člena tímu pre pomenovaný zdroj a umožňuje rozličné prepisovanie jednotlivých úloh, ku ktorým je člen tímu priradený.
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Projektové spoločnosti často potrebujú jeden zdroj, ktorý by v projekte vykonával viac rolí. Cena a náklady každej z týchto rolí by mohli byť odlišné, čo znamená, že čas, ktorý bude mať rovnaký zdroj v rámci projektu, by mohol nadobudnúť odlišný finančný odhad v závislosti od vyúčtovania a sadzieb nákladov pre každú z rolí. Project Service Automation umožňuje nastavenie hodnôt v zázname člena tímu pre pomenovaný zdroj a umožňuje rozličné prepisovanie jednotlivých úloh, ku ktorým je člen tímu priradený.
 
 Nasledujúci príklad vysvetľuje, ako jednoduché prepísanie tejto hodnoty umožňuje, aby mal zdroj viac rolí v projekte s rôznymi nákladmi a fakturačnými sadzbami.
 
@@ -45,22 +47,22 @@ Zopakujte tieto kroky pre úlohu B a uistite sa, že rola a organizačná jednot
 ## <a name="set-up-role-and-organization-unit-for-a-project-task"></a>Nastavte rolu a organizačnú jednotku projektovej úlohy
 
 1. Po vytvorení úlohy A vyberte úlohu a potom vyberte položku **Upraviť úlohu**.
-2. Na stránke **Podrobnosti úlohy** stránku nájdite polia **Rola** a **Organizačná jednotka** , pridajte hodnoty, ktoré sa požadujú od zdroja, ktorý by vykonal túto úlohu. 
+2. Na stránke **Podrobnosti úlohy** stránku nájdite polia **Rola** a **Organizačná jednotka**, pridajte hodnoty, ktoré sa požadujú od zdroja, ktorý by vykonal túto úlohu. 
 
   > [!NOTE]
   > Ak dokončujete tieto scenáre pomocou ukážkových údajov z Project Service Automation, vyberte rolu **Vedúci konzultant** pre rolu a organizačnú jednotku **Fabrikam US**.
 
 3. Vyberte úlohu B a potom vyberte **Upraviť úlohu**.
-4. Na stránke **Podrobnosti úlohy** stránku nájdite polia **Rola** a **Organizačná jednotka** , pridajte hodnoty, ktoré sa požadujú od zdroja, ktorý by vykonal túto úlohu. Uistite sa, že hodnoty v poliach **Rola** a **Organizačná jednotka** sú pre úlohu B iné ako pre úlohu A. 
+4. Na stránke **Podrobnosti úlohy** stránku nájdite polia **Rola** a **Organizačná jednotka**, pridajte hodnoty, ktoré sa požadujú od zdroja, ktorý by vykonal túto úlohu. Uistite sa, že hodnoty v poliach **Rola** a **Organizačná jednotka** sa líšia pre úlohu B od hodnôt pre úlohu A. 
 
   > [!NOTE]
   > Ak dokončujete tieto scenáre pomocou ukážkových údajov z Project Service Automation, vyberte rolu **Sieťový technik** pre rolu a organizačnú jednotku **Fabrikam US**.
 
 5. Uložte a zatvorte stránku **Podrobnosti úlohy**. 
 
-## <a name="team-member-and-estimates-behaviour"></a>Správanie členov tímu a odhadov 
+## <a name="team-member-and-estimates-behavior"></a>Člen tímu a správanie odhadov 
 
-1. Na stránke **Podrobnosti úlohy** v časti **Člen tímu** vyberte dvoch všeobecných členov tímu a potom vyberte položku **Generovať požiadavky**. Tým sa vygenerujú požiadavky zdrojov. 
+1. Na stránke **Podrobnosti úlohy** v časti **Člen tímu** vyberte dvoch všeobecných členov tímu a potom vyberte položku **Generovať požiadavky**. 
 2. Vyberte riadok člena tímu pre položku **Vedúci konzultant** a potom vyberte položku **Rezervovať**. Otvorí sa tabuľa s rozvrhom a rezervuje sa zdroj na základe tejto požiadavky.
 3. Vyberte riadok člena tímu pre položku **Sieťový technik** a potom vyberte položku **Rezervovať**. Otvorí sa tabuľa s rozvrhom a rezervuje sa rovnaký zdroj na základe tejto požiadavky.
 
@@ -69,10 +71,6 @@ Na mriežke **Člen tímu** si všimnite, že dva všeobecné záznamy členov t
 Keď rozbalíte riadok záznamu daného člena tímu, uvidíte v zázname člena tímu odlišné priradenia pre obe tieto úlohy. Každý riadok priradenia má hodnoty špecifické pre položky **Rola** a **Organizačná jednotka**. 
 
 ### <a name="estimates-grid"></a>Mriežka Odhady 
-Keď prejdete na mriežku **Odhady** , všimnete si, že obidve priradenia toho istého zdroja majú rozdielnu cenu.
+Keď prejdete na mriežku **Odhady**, všimnete si, že obidve priradenia toho istého zdroja majú rozdielnu cenu.
 Cena za priradenie zdroja v úlohe A sa stanoví pomocou hodnoty atribútu **Rola** položky **Vedúci konzultant**. Cena za priradenie rovnakého zdroja v úlohe B sa stanoví pomocou hodnoty atribútu **Rola** položky **Sieťový technik**.
-
-
-
-
 
