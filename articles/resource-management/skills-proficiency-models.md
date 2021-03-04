@@ -43,3 +43,5 @@ Pridanie charakteristík k požiadavkám zdroja vám umožní zdokumentovať ved
 3. Vo vedľajšej mriežke **Zručnosti** vyberte **+ Pridať novú charakteristiku požiadavky.**
 4. Na table rýchleho vytvorenia vyhľadajte a vyberte požadované charakteristiky a pridajte **hodnotu hodnotenia**.
 5. Vyberte položku **Uložiť a zavrieť**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

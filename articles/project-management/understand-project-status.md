@@ -29,3 +29,6 @@ V časti **Stav** na stránke **Entita projektu** sa zobrazuje súhrn stavu proj
 - Pole **Poznámky** umožňuje správcovi projektu zadať konkrétne poznámky o stave. 
 - Pole **Stav aktualizovaný dňa** sa nedá upraviť. Hodnota v tomto poli je časová pečiatka, ktorá označuje, kedy bol stav naposledy aktualizovaný.
 - Polia **Výkonnosť plánu** a **Výkonnosť nákladov** sa nastavujú na mriežke sledovania. Keď plán a odchýlka nákladov pre koreňový uzol v zobrazení **Sledovanie úsilia** budú pozitívne, tieto polia sa aktualizujú na možnosť **Popredu**. Keď časový rozvrh a odchýlka nákladov pre koreňový uzol sú záporné, tieto polia sa nastavia na možnosť **Pozadu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Keď sa používateľ rozhodne sumarizovať podľa položiek **Trieda transakci�
 | Úloha A | Letenky | 1. 10. 2020 | 4 | 400 | 1600 |
 | Úloha B | Hotel | 1. 10. 2020 | 4 | 200 | 800 |
 | Úloha C | Hotel | 1. 11. 2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Zadajte vaše náklady aspoň raz týždenne – alebo frekvenciou, ktorá poža
  [Prehľad Project Service](../psa/overview.md)   
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

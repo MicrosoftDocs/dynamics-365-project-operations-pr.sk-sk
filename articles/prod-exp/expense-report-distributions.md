@@ -37,3 +37,6 @@ Pretože Nancy počas pobytu vo Frankfurte pracovala na dvoch samostatných proj
 |Hotel         |725 EUR              |557 EUR                        |168 EUR                          |
 |Jedlá         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

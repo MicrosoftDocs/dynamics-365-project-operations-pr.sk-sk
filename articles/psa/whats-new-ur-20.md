@@ -62,3 +62,6 @@ Vyriešili sa tieto problémy:
 - Zoznamy **Obstarávacej ceny organizačnej jednotky** umožňujú prekrývanie účinnosti podľa dátumu.
 - Používatelia nemajú povolené meniť hodnotu **OrgUnit**, keď typ objednávky nie je pracovný, pretože to bude mať za následok chybu nulovej referenčnej výnimky.
 - Pri pokuse o navigáciu z formulára **Podrobnosti o riadku cenovej ponuky** späť do formulára **Cenová ponuka** sa formulár obnoví a zobrazí sa karta **Zhrnutie**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

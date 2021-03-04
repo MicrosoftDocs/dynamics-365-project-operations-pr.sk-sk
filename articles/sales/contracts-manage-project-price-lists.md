@@ -72,3 +72,6 @@ Ak ste so zákazníkmi dohodli rámcovú cenovú dohodu, môžete vytvoriť aj p
 ## <a name="custom-pricing-on-a-project-contract"></a>Vlastné ceny v projektovej zmluve
 
 Keď budete mať predvolené projektové cenníky pre organizácie a zákazníkov, vaše projektové zmluvy sa automaticky vytvoria s týmito asociáciami projektových cenníkov. Projektové cenníky v projektovej zmluve sa však vždy kopírujú s dátumom a názvom zmluvy, ktorý je k nim pripojený. Manažéri obchodných vzťahov a projektoví manažéri potom môžu upravovať ceny v týchto kópiách. Tieto zmenené ceny sa budú vzťahovať iba na túto projektovú zmluvu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

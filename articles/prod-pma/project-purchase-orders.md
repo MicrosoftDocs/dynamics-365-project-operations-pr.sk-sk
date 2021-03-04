@@ -76,3 +76,6 @@ Môžete použiť jednu z nasledujúcich metód na vytvorenie nákupnej objedná
 
 Viac informácií sa dozviete v časti [Príjem položiek z nákupnej objednávky z požiadaviek na položku](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

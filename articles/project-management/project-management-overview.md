@@ -26,3 +26,6 @@ Nástroje na správu projektov v zariadení Dynamics 365 Project Operations vám
 - Použite odhady projektu počas predajného procesu.
 - Predpovedzte zdrojové požiadavky pri projektoch, ktoré sú v kanáli
 - Úspešne dodajte projekty sledovaním pokroku a spotreby nákladov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

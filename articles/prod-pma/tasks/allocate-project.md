@@ -44,3 +44,6 @@ Po pridelení rozpočtu alebo revízie rozpočtu môžete skontrolovať sumy pri
 10. Ak je pridelenie požadované, kliknite na tlačidlo Odoslať na stránke Rozpočet projektu a odošlete rozpočet alebo revízie rozpočtu do pracovného postupu schválenia.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

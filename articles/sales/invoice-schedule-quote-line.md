@@ -68,3 +68,6 @@ Otvorte riadok cenovej ponuky s pevnou cenou, v ktorom chcete vytvoriť medzník
 | Stav faktúry | Rýchle vytvorenie | Keď sa vytvorí medzník, tento stav sa vždy nastaví na **Nepripravené na fakturáciu**. | Prenesie sa na medzník riadka zmluvy projektu a na faktúru. |
 | Suma riadka | Rýchle vytvorenie | Suma alebo hodnota medzníka, ktorá bude fakturovaná zákazníkovi. | Prenesie sa na medzník riadka zmluvy projektu a na faktúru. |
 | Daň | Rýchle vytvorenie | Výška dane, ktorá sa použije na dosiahnutie medzníka. | Prenesie sa na medzník riadka zmluvy projektu a na faktúru. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

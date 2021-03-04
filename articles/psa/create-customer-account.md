@@ -47,3 +47,6 @@ Vytvorte si účet pre každého klienta, s ktorým pracujete, či už citujete 
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka manažéra obchodného vzťahu](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

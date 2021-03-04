@@ -116,3 +116,6 @@ Režim úlohy nemá žiadny vplyv na aktualizácie, ktoré sú vykonané na poč
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Klávesové skratky a zjednodušenie ovládania
 
 Mriežka **plánu** je plne prístupná a môže sa používať s čítačkami obrazovky, ako sú napríklad Narrator, JAWS alebo NVDA. Môžete prechádzať oblasti mriežky pomocou šípok (ako v Microsoft Excel), môžete použiť klávesu Tab na postúp cez interaktívne prvky používateľského rozhrania, a môžete použiť šípku nadol, klávesu Enter, alebo medzerník pre výber a otvorenie rozbaľovacích ponúk.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

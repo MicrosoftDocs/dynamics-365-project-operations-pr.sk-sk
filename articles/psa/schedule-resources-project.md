@@ -83,3 +83,6 @@ Ak používate staršiu verziu, pre dostupnosť zdrojov pozrite [Zobraziť dostu
   
 ### <a name="additional-resources"></a>Ďalšie zdroje  
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

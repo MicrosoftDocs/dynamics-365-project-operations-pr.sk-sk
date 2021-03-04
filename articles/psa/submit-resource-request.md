@@ -41,3 +41,6 @@ Požiadavku vygenerovaného prostriedku môžete odoslať ako požiadavku na zdr
 Žiadosť stav generického člena tímu sa zmení na **Odoslané**.
 
 Po splnení požiadavky správcom prostriedkov sa všeobecný prostriedok nahradí názvom prostriedku, ak správca prostriedkov splní požiadavku s rezerváciou pomenovaného prostriedku. V opačnom prípade všeobecný prostriedok zostane v tíme a stav požiadavky sa zmení na **Vyžaduje kontrolu**, ak správca prostriedkov navrhol pomenovaný prostriedok.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Vyriešili sa tieto problémy:
 Vyriešili sa tieto problémy:
 
 - Dvojité kliknutie na položku **Načítať všetky kategórie transakcií** vytvorí viac riadkov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

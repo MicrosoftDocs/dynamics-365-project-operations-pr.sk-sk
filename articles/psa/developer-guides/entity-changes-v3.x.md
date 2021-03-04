@@ -84,3 +84,6 @@ Nasledujúce webové prostriedky boli zastarané:
 > Úplný zoznam zastaraných zdrojov, pozri [zastarané webové prostriedky v Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Po vytvorení niekoľkých časových záznamov môžu používatelia vytvoriť 
 
 ## <a name="import"></a>Import
 Rovnaký základný proces sa používa na import z rezervácií, úloh a výmen. Môžete určiť rozsah dátumov, z ktorého sa importujú rezervácie, a potom explicitne vybrať rezervácie, ktoré sa majú skopírovať do konceptu zadaní času. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

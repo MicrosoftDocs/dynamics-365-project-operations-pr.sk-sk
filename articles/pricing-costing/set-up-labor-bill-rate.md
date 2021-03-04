@@ -55,3 +55,6 @@ Napríklad vývojárovi z divízie Robotics spoločnosti Fabrikam India pracujú
     | Vývojár | Fabrikam US | Fabrikam US – Robotics | $ 150 |
 
 3. Pripojte predajný cenník, **Sadzby fakturácie Fabrikam US** do cenníka projektu projektovej zmluvy alebo na určitý účet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

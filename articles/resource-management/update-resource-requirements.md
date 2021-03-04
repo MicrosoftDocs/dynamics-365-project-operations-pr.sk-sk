@@ -37,3 +37,5 @@ Ako projektový manažér vykonajte nasledujúce kroky a upravte požiadavku na 
 ## <a name="edit-resource-assignment-contours"></a>Upravte kontúry priradenia zdrojov
 
 Okrem úpravy detailov požiadaviek zdrojov môže projektový manažér aktualizovať jednotlivé obrysy požiadavky zdrojov pomocou funkcie **Zadajte vzor**. Po výbere možnosti **Zadajte vzor** sa otvorí stránka a môžete si pozrieť obrysy v dennej, týždennej alebo mesačnej časovej škále. Pre každý obrys je možné upraviť začiatočný čas, konečný čas a celkové úsilie v danom období.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

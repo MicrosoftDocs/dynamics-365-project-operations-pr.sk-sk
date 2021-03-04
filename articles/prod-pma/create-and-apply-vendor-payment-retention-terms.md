@@ -65,3 +65,6 @@ Po vytvorení podmienok uchovania pre dodávateľa môžete použiť tieto podmi
 6. Ak má projekt pre dodávateľa nastavené aj podmienky typu „zaplatiť po zaplatení“ (PWP), zadajte limitnú hodnotu pre projekt do poľa **Percentuálna hodnota prahovej hodnoty PWP**.
 
 Podmienky uchovania dodávateľa sa zobrazia aj na objednávkach, ktoré vytvoríte pre dodávateľa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

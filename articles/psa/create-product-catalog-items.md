@@ -37,3 +37,6 @@ Ak chcete zahrnúť produkty, ako napríklad softvérové licencie k vašim ceno
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Konfigurácia Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Počas pridávania roly zdrojov, ste k nim už pravdepodobne priradili nejaké z
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Nastavenie prostriedkov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

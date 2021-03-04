@@ -52,3 +52,6 @@ Zmluvného zákazníka je možné vytvoriť, aktualizovať alebo vymazať z kart
 Percento rozdelenia fakturácie je možné upravovať pomocou priameho editovania mriežky. Ak percentá rozdelenia fakturácie nedosiahnu 100 percent, zobrazí sa chyba. Po úprave percenta rozdelenia fakturácie chybu odstránite obnovením stránky.
 
 Môžete tiež vybrať **Rovnomerne distribuovať** na podradenej mriežke **Zmluvní zákazníci** a rovnomerne rozdeliť fakturáciu medzi všetkých zmluvných zákazníkov. Ak existuje faktor zaokrúhľovania, pridá sa k zákazníkovi zaokrúhľovania. Jeden zo zmluvných zákazníkov je vždy označený ako zákazník **zaokrúhľovania**, čo znamená, že záznam zmluvného zákazníka bude mať príznak zaokrúhľovania vždy nastavený na **Áno**. Spravidla ide o primárneho zmluvného zákazníka, ale je možné ho tiež zmeniť.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

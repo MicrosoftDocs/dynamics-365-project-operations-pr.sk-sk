@@ -51,3 +51,6 @@ Správcovia obchodného vzťahu a projektoví manažéri pravidelne požadujú z
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

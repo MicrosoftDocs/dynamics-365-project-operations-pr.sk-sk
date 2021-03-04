@@ -62,3 +62,6 @@ Projekt je tiež ovplyvnený finančne, ak je schválenie zrušené. Po prvé, z
 Ďalšie, storno položky sú vytvorené v tabuľke skutočné údaje. Ak chcete vytvoriť storno položky, systém skopíruje hodnoty polí z pôvodných skutočných hodnôt. Iba hodnoty, ktoré nie sú skopírované, sú hodnoty množstva. Tieto hodnoty sa namiesto toho obrátili. Obrátené skutočné hodnoty sú vytvorené pre skutočné hodnoty **nákladov**, aj pre **nefakturovaných predajov**. Pole **Stav nastavenia** v obrátenom stave je nastavené na **nenastaviteľné** a stav fakturácie je nastavený na **zrušené**.
 
 Po týchto zmenách, množstvo, ktoré je zaznamenané ako vynaložené na projekt a nevybavené príjmy projektu predĺžia obchodný vzťah pre hodnoty, ktoré tieto skutočné údaje predstavujú.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

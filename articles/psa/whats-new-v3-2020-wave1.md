@@ -43,3 +43,6 @@ Ak máte okrem toho ešte vlastné moduly aplikácií, ktoré zahŕňajú všetk
 
 ### <a name="currently-extended-time-entry-changes"></a>Aktuálne rozšírené zmeny zadávania času
 Aby sa minimalizoval vplyv zadávania času na súčasných používateľov, je táto zmena roly jedinou základnou požiadavkou potrebnou na pokračovanie vo využívaní zadávania času. Ak ste vytvorili vlastné zobrazenia alebo oddelené rozhrania so zadávaním času, musíte nastaviť polia **Nastavenie zadania času** na správnu hodnotu PSA.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

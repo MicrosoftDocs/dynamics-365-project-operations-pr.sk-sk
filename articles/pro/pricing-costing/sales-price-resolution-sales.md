@@ -54,3 +54,6 @@ Po vyriešení cenníka predaja systém dokončí nasledujúce kroky a predvolí
     | &nbsp; | Prirážka nad rámec nákladov | Uplatnením prirážky definovanej v riadku ceny kategórie na sadzbu jednotkových nákladov súvisiacej skutočnej ceny |
 
 4. Ak systém nedokáže priradiť hodnoty polí **Kategória** a **Jednotka**, sadzba predaja je predvolene nastavená na nulu (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

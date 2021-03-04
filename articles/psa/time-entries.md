@@ -70,3 +70,6 @@ Môžete importovať údaje z projektových rezervácií a priradení. Keď impo
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Možnosti zoskupovania, zoraďovania, vyhľadávania a filtrovania
 
 Položky času môžete zoskupiť a filtrovať podľa dimenzií, ktoré sú zadané v stĺpcoch. V poli **Zoskupiť podľa** vyberte dimenziu, ktorá sa má použiť na filtrovanie časových položiek. Záznamy časových položiek môžete zoradiť vo vzostupnom alebo zostupnom poradí pomocou šípky zoradiť v záhlaví stĺpcov. Okrem toho môžete zobraziť alebo skryť položky výberom tlačidla **Filter** na hlavičke stĺpcov a potom do **vyhľadávacieho** poľa zadajte text, ktorý by sa mal použiť na vyhľadávanie časových položiek podľa názvu projektu, úlohy projektu, času položka alebo zdroj.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

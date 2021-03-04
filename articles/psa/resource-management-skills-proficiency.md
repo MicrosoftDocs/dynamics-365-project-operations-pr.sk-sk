@@ -48,3 +48,6 @@ Zručnosti pre zdroje sú hodnotené podľa modelov odbornosti. Jednotlivé hodn
 > ![Minimálne a maximálne definované hodnotenia](media/Resource-Management-image85.png)
 
 Tieto hodnoty hodnotenia sa zobrazujú vo filtroch **Požiadavky na zdroje**, **Tabuľa plánovania** a **Asistent plánovania**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

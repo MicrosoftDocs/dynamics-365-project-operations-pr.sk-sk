@@ -45,3 +45,6 @@ Akonáhle ste vytvorili šablónu pracovných hodín, musíte ju priradiť k zdr
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Nastavenie prostriedkov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

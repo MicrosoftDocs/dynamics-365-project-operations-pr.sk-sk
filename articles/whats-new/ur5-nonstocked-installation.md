@@ -125,3 +125,6 @@ Nasledujúce aktualizácie bezpečnostných oprávnení pre entity sú vyžadova
  
  ![Synchronizácia máp účtovnej knihy](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

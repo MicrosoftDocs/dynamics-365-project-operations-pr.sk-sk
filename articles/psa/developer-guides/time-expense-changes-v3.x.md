@@ -32,3 +32,6 @@ Vo Dynamics 365 Project Service Automation verzii 3.0 boli zobrazenia času a v�
 Predtým, kalendár a mriežky zobrazenia času a nákladov boli implementované ako ovládacie prvky DHTMLX. Artefakty, ktoré súvisia s vykonaním kalendára a mriežky zobrazenia sú teraz zastarané (zastarané).
 
 Úplný zoznam zastaraných zdrojov, pozri [Zastarané webové prostriedky v Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

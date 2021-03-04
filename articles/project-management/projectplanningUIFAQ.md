@@ -106,3 +106,6 @@ Keď sa vykoná jedna alebo viac aktualizácií štruktúry rozdelenia práce, z
   - Systém riešenia Project Operations
   - Systém projektu
   - Systém dvojitého zápisu Project Operations (táto rola je vyžadovaná, ak v Project Operations nasadzujete scenár založený na zdrojoch/chýbajúcich zdrojoch.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Z mriežky členov tímu možno vykonať nasledujúce akcie:
 
 - **Nový**: Okrem pridávania zdrojov priamo z plánu môžu projektoví manažéri pridávať nových pomenovaných alebo všeobecných členov tímu z mriežky členov tímu.
 - **Odstrániť**: Výberom jedného alebo viacerých členov tímu môže projektový manažér vymazať zdroje, ktoré sa už na projekte nebudú podieľať. Odstránením člena tímu sa odstránia aj všetky priradené priradenia zdrojov a zrušia sa všetky existujúce rezervácie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

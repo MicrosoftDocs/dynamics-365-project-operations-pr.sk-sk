@@ -93,3 +93,6 @@ Nastaviť delegáta nechať niekoho iného urobiť čas alebo náklady položky 
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

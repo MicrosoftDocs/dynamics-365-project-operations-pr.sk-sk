@@ -116,3 +116,6 @@ Stlačte možnosť **Rezervovať** pre všeobecný zdroj a potom môžete použi
 Pri plnení všeobecného zdroja pomenovaným zdrojom sa všeobecný zdroj odstráni z tímu a priradenia úlohy pre všeobecný zdroj sa priradia k pomenovanému zdroju, ktorý vyplnil požiadavku na zdroj všeobecného zdroja.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

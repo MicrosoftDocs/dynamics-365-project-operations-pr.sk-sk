@@ -48,3 +48,6 @@ Nasledujúca tabuľka definuje kľúčové koncepty, ktoré sa používajú v ap
 | Kontúry                    | Úloha, požiadavka alebo doba priradenia, pretože sú rozdelené do dennej distribúcie. Napríklad, päťdňová, 40-hodinový úloha môže byť kontúrovaná do ôsmich hodín denne počas piatich dní. |
 | Zobrazenie Vyrovnanie        | Zobrazenie zobrazuje rezervácie a všetky priradenia pre každého člena projektového tímu. Toto zobrazenie umožňuje projektovým manažérom nájsť nesúlad medzi rezerváciami a priradeniami a prijať nápravné opatrenia, ak nastane akýkoľvek nesúlad. |
 | Pracovná doba                 | Entita, ktorá sa používa na identifikáciu kapacity zdroja a pracovných a nepracovných hodín. Táto entita sa označuje aj ako kalendár zdrojov. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

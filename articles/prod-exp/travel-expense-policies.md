@@ -51,3 +51,6 @@ Tu je niekoľko návrhov, ktoré vám môžu pomôcť pri vytváraní nových po
 ## <a name="when-to-evaluate-policies"></a>Kedy vyhodnocovať politiky
 
 V parametroch riadenia výdavkov existuje možnosť buď zvoliť vyhodnotenie politík riadenia výdavkov pri uložení riadku, alebo pri odoslaní výkazu výdavkov. Ak sa rozhodnete vyhodnocovať pri ukladaní riadka, zaistí to, že používatelia budú mať skôr prehľad o tom, čo musia urobiť, aby mohli vyplniť výkaz výdavkov naraz. V opačnom prípade môžete oddialiť vyhodnotenie politiky a ušetriť čas, ak k overeniu dôjde na konci, počas odosielania do pracovného postupu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

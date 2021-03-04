@@ -43,3 +43,6 @@ Toto nasadenie by sa malo zvoliť tak, že sa očakáva, že pri Project Operati
 - Vyžaduje bohatú podniková daň z obratu a mechanizmus výmenných kurzov na generovanie faktúr za projekty pre zákazníkov.
 - Systém projektového účtovníctva a vykazovania výnosov v súlade s Medzinárodnými štandardmi finančného výkazníctva (IFRS).
 - Aplikácie pre Supply Chain Management a integrácia projektových transakcií.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Keď budete pripravený na zmenu predbežne rezervovaného zdroja člena tímu n
 2. Kliknite pravým tlačidlom myši na rezerváciu V časti **Zmena stavu** si zvoľte možnosť **Pevná rezervácia** \> **Pevná**. Stav rezervácie bude **Pevná**.
 3. Po zatvorení tabule plánovania a prechode späť na projekt a otvorení karty **tím** uvidíte, že hodiny pre zdroj sa presunuli zo stĺpca **počet predbežne rezervovaných hodín** do stĺpca **počet pevne rezervovaných hodín** na mriežke karty **tím**. Uvidíte to pri zobrazení **pomenovaných členov tímu**. Ak bol zdroj pridelený úlohám, nebude sa viac zobrazovať ako deficit rezervácie na karte **odsúhlasenie**, pretože rezervácia je odteraz považovaná za pevnú.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

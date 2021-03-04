@@ -62,3 +62,6 @@ Android bude po sprístupnený kompatibilný s aktualizáciou 16 platformy.
 13. Voliteľné: Zadajte ďalšie riadky časového rozvrhu.
 
 14. Po dokončení zadávania riadkov časového rozvrhu stlačte možnosť **Pracovný postup** \> **Odoslať** na odoslanie časového rozvrhu do procesu schválenia pracovného postupu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Pred začatím konfigurácie musíte mať zriadené prostredie Common Data Servi
     -   Charakteristika rezervovateľného zdroja
 
     ![Dokončenie importu](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

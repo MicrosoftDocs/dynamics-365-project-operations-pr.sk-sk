@@ -101,3 +101,6 @@ Po vykonaní funkcie rozšírenia rezervácie na každom zdroji sa rezervácie �
 
 Bližší pohľad na podrobnosti rezervácií však ukazuje rozdiely v počiatočnom čase rezervácií. Rezervácie sa nezačnú skôr, ako je čas začiatku obrysu priradenia, a nie skôr, ako je čas začiatku, ktorý je k dispozícii pre zdroj.
  ![Nové rezervácie zdrojov na tabuli plánovania](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

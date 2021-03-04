@@ -209,3 +209,6 @@ Ak ste použili demo údaje pre prostredie Financie, pozrite si [Nastavenie a po
 
 
 Vaše prostredie Project Operations je teraz zriadené a nakonfigurované. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

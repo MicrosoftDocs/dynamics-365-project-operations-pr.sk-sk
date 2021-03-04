@@ -42,3 +42,6 @@ Kalendár nepodporuje akcie v jednotlivých položkách kalendára a nemôžete 
 ## <a name="extensibility"></a>Rozšíriteľnosť
 
 Na stránke **Zadania času**, ktorá má mriežku časovej položky, môžete pridať vlastné polia, nastaviť vyhľadávacie polia a vytvoriť vlastné zobrazenia. Môžete tiež nastaviť vlastnú obchodnú logiku, ktorá je založená na hodnotách vybratých alebo zadaných vo vlastných poliach.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

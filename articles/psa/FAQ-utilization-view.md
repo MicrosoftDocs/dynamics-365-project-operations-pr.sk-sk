@@ -101,3 +101,6 @@ Ak nevidíte účtovateľné využitie, tu sú niektoré veci môžete skontrolo
   - Úloha na riadku zmluvy projektu podporu projektu bol nastavený non-zdaniteľné.
   - Projekt nemá priradený riadok zmluvy.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -120,3 +120,6 @@ Rovnako ako fakturačné sadzby, ceny za ľudské zdroje sú tiež nastavené po
     1. Cenník, ktorý je pripojený k organizačnej jednotke.
     2. Cenník, ktorý je pripojený k parametrom Project Operations. Vzhľadom na to, že obstarávacie cenníky v mnohých rôznych menách môžu byť pripojené k parametrom, PSA prebehne spárovanie menu medzi menou zmluvnej organizačnej jednotky projektu, zmluvy alebo cenovej ponuky a menou obstarávacieho cenníka.
     3. V prípade výdavkov sa metódy oceňovania nákladov a prirážky za cenu nevzťahujú na zoznamy cenových cien. Aj v prípade, že sa tieto metódy oceňovania používajú v riadkoch cenníka nákladových cien na nastavenie nákladovej kategórie, systém ich ignoruje a nezadá sa žiadna predvolená cena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

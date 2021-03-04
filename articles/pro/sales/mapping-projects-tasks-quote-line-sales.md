@@ -90,3 +90,6 @@ Priradenie projektových úloh môžete zrušiť v riadkoch cenovej ponuky na ka
 
 >[!NOTE]
 > Tento postup neodstráni úlohu z projektu. Odstráni iba priradenie úlohy z riadku cenovej ponuky založenej na projekte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

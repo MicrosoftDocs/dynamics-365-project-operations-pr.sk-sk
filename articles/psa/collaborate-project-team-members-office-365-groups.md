@@ -43,3 +43,6 @@ S [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] môžete spoluprac
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

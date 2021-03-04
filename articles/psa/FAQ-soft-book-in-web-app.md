@@ -87,3 +87,6 @@ Keď budete pripravený na zmenu predbežne rezervovaného zdroja člena tímu n
 2. Po otvorení tabule plánovania si rozbaľte zdroj, čím si zobrazíte jeho rezervácie. Zobrazí sa vám rezervácia označená ako Predbežná.
 3. Kliknite pravým tlačidlom myši na rezerváciu. V časti Zmena stavu si zvoľte možnosť Pevná rezervácia a potom Pevná. Stav rezervácie bude Pevná.
 4. Po zatvorení tabule plánu uvidíte, že hodiny zdroja sa zmenili z Predbežné na Pevné na mriežke člena tímu. Odteraz možno priraďovať zdroj k úlohám (za predpokladu, že je rovnováha medzi pevne zarezervovanými hodinami a hodinami úsilia pre priradenie). Upozorňujeme, že v prípade dodržania krokov vypĺňania všeobecného zdroja v položke 3, pri zmene stavu predbežne rezervovaného rezervovateľného zdroja na pevný, sa z tímu odstráni všeobecný člen tímu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

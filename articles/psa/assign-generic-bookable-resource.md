@@ -59,3 +59,6 @@ Môžete tiež kliknúť na **Resource requirement** odkaz v tímovej mriežke n
 
 ![Požiadavka na zdroj](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

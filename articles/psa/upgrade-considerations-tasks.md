@@ -96,3 +96,6 @@ Ak chcete zabezpečiť úspešnú inováciu, musia byť správne udržiavané na
 
 - Všetky závislosti projektových úloh musia súvisieť s rovnakým projektom.
 - Úloha nemôže mať rovnakú závislosť odkazovanú viackrát.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

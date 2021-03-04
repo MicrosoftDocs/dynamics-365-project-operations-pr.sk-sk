@@ -32,3 +32,6 @@ Vaša organizácia môže vyžadovať predloženie cestovných žiadaniek predt�
 Cestovné žiadanky a politiky možno použiť na pomoc s reguláciou rozpočtu. Napríklad, ak vaša organizácia pracuje na projekte s pevnou cenou, ktorý vyžaduje cestovanie, cestovné náklady členov projektového tímu musia zodpovedať rozpočtu projektu. Požadovaním schválenia cestovných výdavkov pred ich vznikom môže organizácia pomôcť zabezpečiť, aby projekt zostal v rámci rozpočtu.
 
 Pravidlá pre cestovné požiadavky môžete nastaviť na stránke **Cestovná požiadavka**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

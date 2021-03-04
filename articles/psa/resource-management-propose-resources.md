@@ -113,3 +113,6 @@ Pretože Dynamics 365 Project Service Automation používa systém Universal Res
 Ak chcete zobraziť ďalšie podrobnosti o jednotlivých prostriedkoch, kliknite naň pravým tlačidlom a otvorte kartu zdroja.
 
 ![Karta zdroja](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

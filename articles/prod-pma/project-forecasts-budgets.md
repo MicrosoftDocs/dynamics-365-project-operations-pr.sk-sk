@@ -81,3 +81,6 @@ Ak používate prognózy projektov, môžete identifikovať modely ako podmodely
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

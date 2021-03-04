@@ -28,3 +28,6 @@ ms.locfileid: "4960041"
 *Diéta* je príspevok, ktorý sa vypláca pracovníkovi, ktorý cestuje za prácou. V správe výdavkov môžete vytvoriť pravidlá diét pre rôzne cestovné situácie. Sadzby za diéty môžu byť založené na ročnom období, mieste cesty alebo oboch. Keď vytvoríte pravidlo týkajúce sa diéty, môžete určiť, že bude zadržané percento z diéty, ak pracovník dostane bezplatné stravovanie alebo služby. Môžete tiež nastaviť minimálny a maximálny počet hodín, pre ktoré môže platiť diéta pre cestu pracovníka.
 
 Výpočet celkovej sumy za diéty je založený na dátumoch začatia a ukončenia, ktoré môžete nastaviť na stránke **Diéty**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

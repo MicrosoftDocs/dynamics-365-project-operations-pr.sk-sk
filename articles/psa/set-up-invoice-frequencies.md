@@ -51,3 +51,6 @@ Frekvencia fakturácie [!INCLUDE[pn_project_service_auto](../includes/pn-project
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Konfigurácia Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Project Operations podporuje viac modelov nasadenia. Najlepší model nasadenia 
 2. Nainštalujte **Microsoft Dynamics 365 Project Operations** zo zoznamu nasadenia aplikácií Dynamics 365. Ďalšie informácie nájdete v časti [Správa aplikácií Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

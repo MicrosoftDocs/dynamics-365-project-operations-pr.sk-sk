@@ -39,3 +39,6 @@ Ak je povolený kľúč na správu funkcií **Povoliť stránku so zoznamom dele
 Delegát môže rýchlo filtrovať a vyhľadávať existujúce výkazy výdavkov, ktoré im boli delegované. Delegát môže tiež rýchlo vytvoriť nový výkaz výdavkov pre ostatných používateľov výberom **Nový výkaz výdavkov**.
 
 Delegáti môžu prejsť na stránku, kde môžu vytvárať a spravovať výkazy výdavkov pre ostatných zamestnancov prechodom do časti **Správa výdavkov** > **Moje výdavky** > **Výkazy výdavkov** a výberom možnosti **Otvoriť výdavky ostatných používateľov**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

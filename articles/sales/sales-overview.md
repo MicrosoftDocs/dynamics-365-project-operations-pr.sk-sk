@@ -63,3 +63,6 @@ V Project Operations nie je možné sledovať revízie vykonané v cenovej ponuk
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Sledovanie komentárov a schválení cenových ponúk a projektových zmlúv
 Môžete spravovať preskúmanie a schvaľovanie cenových ponúk a projektových zmlúv pomocou záznamu múru a príspevkov. Vaša organizácia môže vytvoriť vlastné pracovné postupy a doplnky na priraďovanie, presmerovanie, eskaláciu a spravovanie upozornení o kontrole a schvaľovaní pracovných položiek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

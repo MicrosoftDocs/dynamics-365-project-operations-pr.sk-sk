@@ -68,3 +68,6 @@ Každá organizácia musí tieto roly nastaviť na stránke **kategórie aktívn
 ## <a name="price-lists"></a>Cenníky
 
 Cenníky vám umožňujú vidieť náklady a predajné ceny zdrojov rolí, výdavkových kategórií, produktov a iných prvkov v organizácii. Pred tým ako nastavíte finančné odhady pre prácu, ktorá musí byť dodaná do projektu, mali by ste vytvoriť sprievodný cenník nákladov a predajných cien. V časti parametre by ste tiež mali nastaviť predvolené náklady a predajný cenník, ktorý sa vzťahuje na všetky projekty vytvorené v organizácii. Na stránke **aktívne parametre projektu**, sa uistite, že nastavíte predvolené náklady a predajné cenníky.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

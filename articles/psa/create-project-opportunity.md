@@ -55,3 +55,6 @@ Príležitosti predstavujú horúce príležitosti od zákazníkov, ktorí by si
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka manažéra obchodného vzťahu](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

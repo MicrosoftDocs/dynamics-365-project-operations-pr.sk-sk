@@ -61,3 +61,6 @@ Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené p
     - Oprava: Duplicitné ID objektov nájdené vo formulári **Hlavná zmluva**.
     - Oprava: Logika bola aktualizovaná, aby vytvorila viditeľnú kartu **Analýza ponuky**, aby zobrazovala nastavenie metadát karty.
     - Oprava: Účtovný dátum v skutočnom zázname teraz prichádza od dátumu vloženia času/výdavkov a nie od dátumu schválenia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

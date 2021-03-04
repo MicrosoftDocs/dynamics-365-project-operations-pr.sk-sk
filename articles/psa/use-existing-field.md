@@ -31,3 +31,6 @@ ms.locfileid: "5144196"
 Project Service Automation (PSA) má veľa polí v entite **Skutočné hodnoty**, ktoré môžu byť použité ako cenové dimenzie pre ceny založení na zdroji v projektových organizáciách. Jedným z bežných polí je **Rezervovateľný zdroj**. Menšie spoločnosti, ktoré majú menej ako 20-30 fakturovateľných zdrojov môže zistiť, že fakturovanie a sadzby nákladov špecifické pre každý zdroj je jednoduchší prístup. Avšak, ako fakturovateľná pracovná sila rastie, môže by nerealistické udržať špecifické sadzby ako náklady na zdroje a sadzby fakturácie sa začnú líšiť pri povyšovaní zdrojov, získavaní viacerých skúseností alebo získavaní rôznych súborov zručností. Keďže tento prístup stále funguje pre spoločnosti určitej veľkosti, pozrite si [Použiť rezervovateľný zdroj ako cenovú dimenziu](bookable-resource-pricing-dimension.md), aby ste pochopili, ako je možné použiť existujúcu oblasť Project Service ako cenovú dimenziu.
 
 Ďalším príkladom je transakcie kategórie. Zákazníci a realizátori použili kategóriu transakcií v PSA na klasifikáciu práce a využitie poľa na cenu a náklady na základe kategórie práce. Ďalšie informácie nájdete v téme [Použiť kategóriu transakcií ako dimenziu cien](transaction-category-pricing-dimension.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

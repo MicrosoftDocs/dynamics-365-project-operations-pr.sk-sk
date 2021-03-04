@@ -42,3 +42,6 @@ Vyriešili sa tieto problémy:
 
 - Naplánujte degradáciu výkonu hľadania pomoci
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

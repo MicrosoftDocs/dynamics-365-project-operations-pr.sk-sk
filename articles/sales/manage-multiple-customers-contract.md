@@ -47,3 +47,6 @@ Zmluvného zákazníka môžete vytvoriť, aktualizovať alebo vymazať z karty 
 Môžete upraviť percentá rozdelenia fakturácie úpravou mriežky. Ak percentá rozdelenia fakturácie nedosiahnu 100 percent, nastane chyba. Po úprave percenta rozdelenia fakturácie chybu odstránite obnovením stránky **Projektová zmluva**.
 
 Môžete tiež vybrať **Rovnomerne distribuovať** na vedľajšej mriežke zákazníkov projektovej zmluvy. Rozdelenia fakturácie sú alokované rovnomerne medzi všetkých zákazníkov v riadku projektovej zmluvy. Ak existuje akýkoľvek faktor zaokrúhľovania, faktor pridá sa k zákazníkovi zaokrúhľovania. Jeden zo zmluvných zákazníkov má vždy príznak **Zaokrúhľovanie** nastavený na **Áno**. Tento zákazník je zákazníkom zaokrúhľovania. Zákazník zaokrúhľovania je zvyčajne tiež primárnym zákazníkom zmluvy, ale nie je to potrebné.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

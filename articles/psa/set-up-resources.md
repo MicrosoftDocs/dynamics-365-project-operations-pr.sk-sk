@@ -55,3 +55,6 @@ Pred žiadaním alebo priradením zdrojov v službe na spustenie projektu [!INCL
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Konfigurácia Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

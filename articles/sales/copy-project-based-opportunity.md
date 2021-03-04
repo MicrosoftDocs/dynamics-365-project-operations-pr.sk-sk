@@ -34,3 +34,6 @@ Projektové príležitosti možno ľahko kopírovať a vytvoriť tak nové príl
     | Kopírovať cenu | Hodnota Áno/Nie, ktorá označuje, či sa má cena z príležitosti kopírovať zo zdrojovej príležitosti. | Ak je vybraná možnosť **Áno**, cenníky sa skopírujú zo zdroja do cieľovej príležitosti. Ak je vybraná možnosť **Nie**, cenníky sa znova predvolene nastavujú na základe najnovších cenníkov, ktoré boli nastavené. |
 
 3. Vyberte položku **OK**. Systém vytvorí kópiu projektovej príležitosti na základe zvolených parametrov a otvorí sa nová projektová príležitosť.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

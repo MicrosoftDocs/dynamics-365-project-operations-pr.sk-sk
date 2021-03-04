@@ -48,3 +48,6 @@ Priama rezervácia zdroja pre projekt:
 Rezervácia zdroja z požiadaviek zdrojov:
 - [Priradenie všeobecných rezervovateľných zdrojov k úlohe a generovanie požiadaviek zdrojov](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Rezervácia pomenovaných zdrojov z požiadaviek zdrojov](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

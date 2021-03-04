@@ -39,3 +39,6 @@ ms.locfileid: "4084341"
 10. Kliknite na tlačidlo OK. 
 
 Po tomto kroku bude dobropis k dispozícii pre návrh faktúry.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

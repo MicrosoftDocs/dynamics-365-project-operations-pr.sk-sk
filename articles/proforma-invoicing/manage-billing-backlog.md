@@ -38,3 +38,6 @@ Nevyfakturované predajné skutočné hodnoty, ktoré majú stav **Nesmie sa pre
 V prípade riadkov zmluvy pre viacerých zákazníkov, ktoré majú metódu fakturácie času a materiálu, sa po schválení času a výdavkov vytvorí nevyfakturovaná predajná skutočná hodnota pre každého zákazníka v riadku zmluvy podľa percentuálneho rozdelenia fakturácie definovaného pre každého zákazníka v riadku zmluvy. V zobrazení **Backlog pre fakturáciu času a materiálu** uvidíte tieto jednotlivé nevyfakturované predajné skutočné hodnoty špecifické pre zákazníka. Každý z týchto záznamov nevyfakturovaných predajných skutočných hodnôt možno označiť ako **Pripravené na fakturáciu** osobitne od tohto zobrazenia.
 
 Nevyfakturovaná predajná skutočná hodnota v koncepte faktúry sa zobrazuje v tomto zobrazení so **stavom fakturácie** **Bola vytvorená faktúra pre zákazníka**. Po potvrdení konceptu faktúry sa stav fakturácie v tomto zázname aktualizuje na **Bola uverejnená faktúra pre zákazníka**. Aktualizácia tejto hodnoty stavu, keď je v tomto stave, pomocou vlastného kódu sa neodporúča. Ak sa tieto hodnoty stavu aktualizujú pomocou vlastného kódu, aplikácia Project Operations nebude fungovať správne.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Vaša spoločnosť pravdepodobne organizuje jej poradenskej činnosti podľa geo
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Konfigurácia Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

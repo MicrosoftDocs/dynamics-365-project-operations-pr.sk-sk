@@ -52,3 +52,6 @@ Spoločnosť Microsoft Power BI a Dynamics 365 spolu poskytujú účinný spôso
 - [Práca s dátovým modelom Project Service](reports-working-project-service-data-model.md)
 - [Tabule](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

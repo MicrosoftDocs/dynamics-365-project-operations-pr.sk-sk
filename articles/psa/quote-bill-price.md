@@ -44,3 +44,6 @@ Nasledujúce témy poskytujú viac informácií o funkciách cenovej ponuky, oce
 - [Jednotkové skupiny a jednotky](advanced-units.md)
 - [Mena viacerých jednotiek](advanced-currency.md)
 - [Nahrávanie skutočných údajov](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

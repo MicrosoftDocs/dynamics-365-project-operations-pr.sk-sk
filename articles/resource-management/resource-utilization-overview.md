@@ -45,3 +45,6 @@ Okrem toho musí byť priradená predvolená rola pre každý rezervovateľný p
 Na karte **Project Service** môžete tiež nastaviť individuálne cieľové využitie prostriedku. Výpočet využitia potom použije cieľové využitie na vyhodnotenie cieľového prostriedku namiesto cieľa predvolenej roly prostriedku.
 
 Využitie sa zobrazuje pre zdroj len vtedy, ak tento zdroj schválil účtovateľný čas počas obdobia, ktoré je zobrazené v mriežke.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

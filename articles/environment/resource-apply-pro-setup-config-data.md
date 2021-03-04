@@ -134,3 +134,6 @@ Skôr ako začnete konfigurovať údaje v Common Data Service (CDS), musia byť 
 13. Vyberte položku **Uložiť**. 
 
 ![Aktualizované parametre projektu](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

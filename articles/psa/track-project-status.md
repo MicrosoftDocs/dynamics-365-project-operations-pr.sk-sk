@@ -58,3 +58,6 @@ Počas procesu sa fázy projektu aktualizujú vzhľadom na priebeh:
 
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka projektového manažéra](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

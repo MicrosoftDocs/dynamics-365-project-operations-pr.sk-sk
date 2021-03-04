@@ -31,3 +31,6 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 Entita **Skutočné hodnoty** má veľa polí, ktoré možno použiť ako cenové dimenzie pre naceňovanie založené na zdrojoch. Jedným z bežných polí je **Rezervovateľný zdroj**. Menšie spoločnosti, ktoré majú menej ako 20-30 fakturovateľných zdrojov môže zistiť, že fakturovanie a sadzby nákladov špecifické pre každý zdroj je jednoduchší prístup. S rastom zúčtovateľnej pracovnej sily by sa však udržiavanie sadzieb závislé od zdrojov mohlo stať nereálnou. Náklady na zdroje a fakturačné sadzby sa začnú líšiť v závislosti od propagácie zdrojov, získania ďalších skúseností alebo získania iného súboru zručností. 
 
 Ďalším príkladom je transakcie kategórie. Zákazníci a realizátori použili kategóriu transakcií na klasifikáciu práce a využitie poľa na cenu a náklady na základe kategórie práce.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

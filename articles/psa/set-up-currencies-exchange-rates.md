@@ -43,3 +43,6 @@ Na vytváranie ponúk a fakturácie zákazníkov v službe [!INCLUDE[pn_project_
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Konfigurácia Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

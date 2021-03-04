@@ -69,3 +69,6 @@ Ak chcete povoliť vylepšenie výkonu plánovania prostriedkov, vykonajte nasle
 
 > [!NOTE]
 > Toto bude distribuovať všeobecné údaje do tabuľky **ResRollup** naprieč všetkými spoločnosťami vo vašom prostredí, takže dávkovú prácu je potrebné spustiť iba v jednej právnickej osobe. Táto hromadná úloha je potrebná pre všetky zobrazenia **Dostupnosť zdrojov**. Ak táto dávková úloha nie je spustená, údaje **ResRollup** sa budú generovať za chodu, čo môže chvíľu trvať.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

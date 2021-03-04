@@ -34,3 +34,6 @@ Nasledujúca tabuľka obsahuje polia v príležitosti založenej na projekte, kt
 | Zmluvná jednotka | Karta Všeobecné | Organizačná jednotka, ktorá je zodpovedná za realizáciu projektu alebo projektov spojených s týmto obchodom. | Zmluvnou jednotkou je divízia spoločnosti, ktorá po uzatvorení obchodu dokončí projekt(-y). Každá zmluvná jednotka má menu, ktorá sa používa na vykazovanie odhadovaných a skutočných nákladov vzniknutých počas projektu. |
 
 Pre všetky ostatné polia a oddiely na karte **Súhrn** príležitosti si pozrite [Vytváranie alebo úprava príležitostí (Predaj a Centrum predaja)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

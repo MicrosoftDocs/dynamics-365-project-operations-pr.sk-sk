@@ -35,3 +35,6 @@ Zdroje sú najdôležitejším prínosom organizácie založenej na službe. Sch
 
 
 Zamestnancom vášho projektu môžete poskytnúť všeobecný tím alebo vymenované zdroje v Project Operations. Môžete použiť rôzne metódy na pridávanie a priraďovanie členov tímu a spravovanie ich rezervácií a priradení. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

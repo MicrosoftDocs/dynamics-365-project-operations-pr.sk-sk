@@ -71,3 +71,6 @@ Aby sme to zhrnuli, nasledujúce metódy prideľovania vedú k nadmernej rezerv�
 - Rovnomerne distribuovať hodiny
 
 Keď používate jednu z týchto troch metód rozdelenia, nedostanete upozornenie na nadmernú rezerváciu zdroja. Na nápravu nadmerného počtu rezervácií, budete musieť použiť tabuľu plánovania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

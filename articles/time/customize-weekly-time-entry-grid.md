@@ -144,3 +144,6 @@ Overenia doplnku použite pre akékoľvek overenia vyžadujúce si viac kontextu
 
 ### <a name="copying-time-entries"></a>Kopírovanie zadaní času
 Pomocou zobrazenia **Kopírovať stĺpce zadaní času** definujte zoznam polí, ktoré sa majú kopírovať počas zadávania času. **Dátum** a **Trvanie** sú povinné polia a nemali by byť odstránené zo zobrazenia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

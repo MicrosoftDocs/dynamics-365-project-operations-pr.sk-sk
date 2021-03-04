@@ -344,3 +344,6 @@ Ak máte priradenia úloh pre zdroj, ale žiadne rezervácie, na stránke **proj
 ![Dialógové okno rozšírenie rezervácie](media/Resource-Management-image58.png)
 
 Projektový manažér alebo správca zdrojov potom môže pomocou tabule plánovania spravovať všetky situácie, v ktorých je zdroj prerezervovaný nad rámec jeho kapacity.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

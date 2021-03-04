@@ -68,3 +68,6 @@ Nasledujúce kroky vám vysvetlia proces registrácie doplnkov.
 
 9. Zatvorte registračný nástroj doplnku.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

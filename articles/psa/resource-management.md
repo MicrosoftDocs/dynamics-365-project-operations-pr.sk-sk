@@ -53,3 +53,6 @@ Zamestnancom vášho projektu môžete poskytnúť všeobecný tím alebo vymeno
 - [Rezervujte pomenované zdroje zo zdrojových požiadaviek.](book-named-resource.md)
 - [Odošle žiadosť o zdroj](submit-resource-request.md)
 - [Prijatie alebo odmietnutie navrhovaného prostriedku projektu zo žiadosti o prostriedok](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

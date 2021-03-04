@@ -43,3 +43,6 @@ Každý rezervovateľný zdroj pracujúci na projekte musí mať kalendár praco
 2. V zobrazení mriežky vyberte až 25 **Rezervovateľných zdrojov**, ktoré sa majú aktualizovať.
 3. Vyberte možnosť **Nastaviť kalendár** a zobrazí sa dialógové okno so zoznamom dostupných šablón pracovnej doby.
 4. Vyberte šablónu, ktorú chcete použiť, a potom vyberte **Použiť**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

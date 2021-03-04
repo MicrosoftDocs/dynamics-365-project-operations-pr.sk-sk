@@ -33,3 +33,6 @@ Existujú dva spôsoby riešenia osobných výdavkov pracovníka:
 - **Zaplatené spoločnosťou** – Vaša organizácia zaplatí celý účet za firemnú kreditnú kartu a potom z účtu zamestnanca strhne osobné náklady.
 
 Metódu využívanú vašou spoločnosťou môžete zmeniť na stránke **Parametre správy výdavkov**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

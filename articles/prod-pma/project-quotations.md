@@ -41,3 +41,6 @@ Ak zákazník schváli cenovú ponuku projektu, môžete informácie z cenovej p
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ Nasledujúca tabuľka zobrazuje záznamy v pripojení transakčnej entity pre pr
 | Koncept opravy faktúry       | Riadok faktúry Transaction GUID | Nahradenie          | msdyn_invoicelinetransaction | Fakturovaný predaj GUID            | Pôvodné           | msdyn_actual       |
 | Potvrdená oprava faktúry     | Storno fakturovaného predaja GUID    | Storno          | msdyn_actual                 | Fakturovaný predaj GUID            | Pôvodné           | msdyn_actual       |
 | Nové nefakturované skutočné predaje GUID | Nahradenie                     | msdyn_actual       | Fakturovaný predaj GUID            | Pôvodné                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

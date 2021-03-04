@@ -106,3 +106,6 @@ Keď rozbalíte riadok pre tento záznam člena tímu, uvidíte v zázname člen
 ### <a name="estimates-grid"></a>Mriežka Odhady 
 
 Na mriežke **Odhady** sú obidve priradenia toho istého zdroja ocenené rozdielne. Cena za priradenie zdroja v **úlohe A** sa stanoví pomocou hodnoty atribútu **Rola** položky **Vedúci konzultant**. Cena za priradenie rovnakého zdroja v **úlohe B** sa stanoví pomocou hodnoty atribútu **Rola** položky **Sieťový technik**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

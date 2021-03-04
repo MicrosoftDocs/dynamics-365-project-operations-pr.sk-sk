@@ -56,3 +56,6 @@ Existujúca cenová ponuka môže byť prepojená s príležitosťou. Ak chcete 
    Keď presuniete príležitosť do tejto fázy, môžete si vybrať túto cenovú ponuku zo zoznamu cenových ponúk spojených s touto príležitosťou. Výber tejto cenovej ponuky znamená, že sa s ňou posúvate vpred.
 
    Všetky ostatné cenové ponuky spojené s príležitosťou budú stále k dispozícii a aktívne, kým sa jedna z nich nevyužije. Proces predaja môžete presunúť späť do predchádzajúcej fázy **Kvalifikovať**, a vybrať ďalšiu ponuku, s ktorou budete pokračovať ďalej.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

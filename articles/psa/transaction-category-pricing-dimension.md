@@ -53,3 +53,6 @@ Nasledujúca tabuľka je komplexný zoznam predpripravených formulárov a zobra
 2. Na stránke **Parameter**, na kartu **Cenové dimenzie založené na čiastke**, si všimnite, že mriežka na karte zobrazuje záznamy v **Cenové dimenzie** entity.
 3. Pridajte **Kategória transakcie** do tohto zoznamu a nastavte polia **Vzťahuje sa na náklady** a **Vzťahuje sa na predaj** na **Áno**.
 4. V poli **Typ dimenzie** zvoľte možnosť **Na základe sumy** a potom zvoľte prioritu pre **Kategóriu transakcie** súvisiacu s nákladmi a predajom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

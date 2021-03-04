@@ -124,3 +124,6 @@ Napríklad ak existujú nasledujúce vlastnosti:
 - **Produkt SKU** 
 
 Vlastnosti **Počet používateľov** a **Počet mesiacov** môžu byť označené ako faktory kvantity úpravou vlastnosti produktového riadku. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

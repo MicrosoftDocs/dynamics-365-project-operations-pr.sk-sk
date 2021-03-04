@@ -153,3 +153,6 @@ Nasledujúca ilustrácia ukazuje príklady mapovania úlohy šablóny v Integrá
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapovanie medzníkov linky kontraktov v projektoch a kontraktoch (PSA 3.x až Dynamics) - šablóna v2:
 
 [![Mapovanie míľnika riadka zmluvy projektu so šablónou verzie dva](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

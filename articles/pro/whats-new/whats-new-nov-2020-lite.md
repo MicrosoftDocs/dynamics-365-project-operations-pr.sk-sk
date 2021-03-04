@@ -37,3 +37,6 @@ V nasledujúcej tabuľke je uvedený zoznam aktualizácií Project Operations v 
 | Položka času a rýchleho výdavku | 2047499          | Tlačidlo **Nový** na stránke Časový vstup otvorí stránku **Nový e-mailový podpis**.                                                                                               |
 | Položka času a rýchleho výdavku | 2059859          | Pri vytváraní položky výdavkov sa otvorí neočakávané vyskakovacie okno.                                                                                                                         |
 | Ostatné                        | 2044181          | [Odinštalovanie nákupnej objednávky] Pri pokuse o odinštalovanie základných riešení aplikácie Project Service **msdyn_ProjectServiceCore_Patch** a msdyn sa vyskytne chyba „Záznam nie je k dispozícii“.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

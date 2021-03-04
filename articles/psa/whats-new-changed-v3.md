@@ -257,3 +257,6 @@ Nasledujúce grafika zobrazuje stav po vytvorení vlastných cenníkov.
 
 > [!NOTE]
 > Krátke oneskorenie môže nastať medzi po kliknutí na tlačidlo **Vytvorenie vlastných cien**, keď je vytvorený vlastný cenník. Odporúčame obnoviť mriežku namiesto kliknutia niekoľkokrát. Vlastný cenník bol vytvorený, ak priradený názov cenníka má názov cenovej ponuky alebo názov zmluvy o projekte, ktorý je k nemu priložený.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

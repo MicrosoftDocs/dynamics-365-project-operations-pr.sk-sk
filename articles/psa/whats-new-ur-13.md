@@ -59,3 +59,6 @@ Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené p
      - Opravené: Extra tlačidlá pre **Nová príležitosť**, **Cenová ponuka**, **Riadok objednávky** a **Pridať produkt** sú viditeľné v príkazoch pre Príležitosti, Cenové ponuky, Produkty objednávky a vedľajšiu mriežku riadkov založených na projektoch.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

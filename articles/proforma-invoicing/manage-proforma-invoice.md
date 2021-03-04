@@ -135,3 +135,6 @@ Ak máte skutočné údaje, ktoré prišli po vytvorení faktúry, môžete ich 
 2. Otvorte draft faktúry pro forma a na páse s nástrojmi **Akcie** kliknite na **Obnoviť transakcie v riadku faktúry**.
 
   Takto sa vytvoria podrobnosti riadka faktúry pre všetky skutočné hodnoty, ktorých dátum je v minulosti a sú označené ako **Pripravené na fakturáciu**, ale ktoré nie sú zahrnuté vo faktúre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

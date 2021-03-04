@@ -37,3 +37,6 @@ Preddavok v Project Operations nie je k dispozícii na použitie, kým nebude fa
 | --- | --- | --- |
 | Dostupná suma | Suma, ktorá je k dispozícii na použitie v zázname preddavku či zálohy. | Kým nebude fakturovaná záloha alebo preddavok, nebude možné ju použiť, čo znamená, že dostupná suma bude nulová. |
 | Využitá suma | Suma, ktorá už je k dispozícii na použitie v preddavku či zálohe. | Zálohu alebo preddavok je možné čiastočne vyrovnať na faktúre so skutočnými nákladmi, ktoré budú mať časť označenú ako už použitú alebo spotrebovanú. Zvyšok zálohy alebo preddavku je k dispozícii na vyrovnanie na budúcej faktúre so skutočnými nákladmi. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

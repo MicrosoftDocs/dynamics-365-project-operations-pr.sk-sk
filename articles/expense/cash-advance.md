@@ -63,3 +63,6 @@ Keď vytvoríte a odošlete výkaz výdavkov pre hotovostnú zálohu, ktorú ste
 ### <a name="example"></a>Príklad
 Plánujete cestu zo Seattlu do New Yorku na konferenciu. Požiadavku na hotovostnú zálohu na 3000,00 USD vytvoríte na základe odhadovaných nákladov na konferenčný lístok, letenky, hotel, stravu a taxík. Platba vám nebude vyplatená, pokiaľ váš nadriadený neschváli túto žiadosť. Po schválení manažérom sa požadovaná platba vopred v hotovosti vyplatí na váš bankový účet v sume 3000,00 USD. Potom sa zúčastníte konferencie. Po dokončení cesty zistíte, že celkové výdavky boli iba 2790,00 USD. Vyberte **Hotovosť** v poli **Spôsob platby** a uveďte svoje výdavky v hodnote 2790,00 USD. Vaša predložená suma výdavkov sa automaticky upraví oproti platbe vopred v hotovosti 3000,00 USD, ktorá vám bola požičaná. Teraz dlžíte zostatok 210,00 USD (3000,00 - 2790,00), ktorý môžete spoločnosti vrátiť pomocou kategórie výdavkov **Vrátiť hotovosť**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

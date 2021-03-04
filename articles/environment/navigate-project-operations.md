@@ -38,3 +38,6 @@ Vyberte **Prihlásiť sa** > **Prihláste sa do prostredia** a prejdite do modul
 
 > [!NOTE]
 > K aplikácii Project Operations v Common Data Service a k modulu **Projektový manažment a účtovníctvo** môžete pristupovať priamo pomocou príslušných adries URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

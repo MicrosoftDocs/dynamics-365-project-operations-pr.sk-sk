@@ -104,3 +104,6 @@ Dotazník o Časový plán výdavkov na vyšetrovanie federálnych ocenení zah�
 - Katalóg klastra federálnej domácej pomoci
 - Potvrdenia
 - Výdavky
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

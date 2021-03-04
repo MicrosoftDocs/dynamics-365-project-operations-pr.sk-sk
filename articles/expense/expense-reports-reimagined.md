@@ -78,3 +78,6 @@ Nasledujúce funkcie sa nachádzajú na existujúcej stránke, zatiaľ sa však 
 - Pracovný postup na úrovni riadkov
 - Dočasná podpora schvaľovateľa
 - Rozšírené rozpisy
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

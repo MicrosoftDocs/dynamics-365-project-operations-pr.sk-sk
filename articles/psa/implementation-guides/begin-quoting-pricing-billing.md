@@ -52,3 +52,6 @@ Odkaz PDF, ktorý bol predtým v tejto téme odstránený a obsah bol presunutý
 
 > [!NOTE]
 > Táto téma sa odstráni v budúcej aktualizácii dokumentácie. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Tieto biele knihy sú navrhnuté tak, aby podrobné informovali o [!INCLUDE[pn_c
 
 ### <a name="see-also"></a>Pozrite si tiež
  [Prehľad Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

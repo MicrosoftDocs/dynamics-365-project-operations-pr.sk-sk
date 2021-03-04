@@ -54,3 +54,6 @@ Pracovné úsilie a odhady plánu môžete definovať pomocou polí na karte **p
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Import odhadov z projektu do cenovej ponuky
 
 Po definovaní odhadov projektu ich môžete importovať do riadka cenovej ponuky. Na stránke **Podrobnosti riadka cenovej** vyberte položku **importovať z odhadov** na páse s nástrojmi a zhrňte odhady projektov podľa typu transakcie, roly alebo úlohy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ V nasledujúcej tabuľke sú uvedené polia v zákazníckom zázname riadka ceno
 Percentuálne rozdelenie fakturácie môžete upraviť priamo. Ak percentá rozdelenia fakturácie nedosiahnu 100 %, dôjde k chybe. Po úprave percentuálnych podielov rozdelenia fakturácie chybu obnovte obnovením stránky riadka cenovej ponuky.
 
 Pomocou akcie rovnomerného rozloženia vo vedľajšej mriežke zákazníkov riadka cenovej ponuky prideľte rozdelenie fakturácie všetkým zákazníkom riadka cenovej ponuky. Ak existuje faktor zaokrúhľovania, pridá sa k zákazníkovi zaokrúhľovania. Jeden zo zákazníkov riadka cenovej ponuky je vždy označený ako zákazník zaokrúhľovania, čo znamená, že v zázname zákazníka riadka cenovej ponuky je príznak zaokrúhľovania nastavený na **Áno**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

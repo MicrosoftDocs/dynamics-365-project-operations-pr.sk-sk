@@ -68,3 +68,6 @@ Môžete použiť **Reconciliation** na zväčšenie tabuľkovej rezervačnej sc
 ![Rozšírenie rezervácií pre člena tímu na karte odsúhlasenie zdroja](media/RM-how-to-7.png)
 
 Po tom, ako sa člen tímu rezervuje na váš projekt, môžete použiť spravovanie rezervácií alebo nástenku plánovania priamo na spravovanie ich rezervácií.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

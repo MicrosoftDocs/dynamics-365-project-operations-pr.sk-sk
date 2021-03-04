@@ -94,3 +94,6 @@ Nastavenie priority dimenzie pomáha Project Service pri stanovení ceny, aj ke�
 
 - **Priorita nákladov**: Hodnota dimenzie nákladov na dimenziu bude znamenať hmotnosť tohto rozmeru pri párovaní s nastavením cien nákladov. Hodnota **Priorita nákladov** musí byť jedinečná naprieč dimenziami, ktoré sa **vzťahujú na náklady**.
 - **Priorita predaja**: Hodnota dimenzie predaja na dimenziu bude znamenať hmotnosť tohto rozmeru pri párovaní s nastavením cien predajov alebo sadzieb fakturácie. Hodnota **Priorita predaja** musí byť jedinečná naprieč dimenziami, ktoré sa **Vzťahuje sa na predaj**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

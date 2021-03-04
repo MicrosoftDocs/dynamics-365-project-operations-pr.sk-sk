@@ -67,3 +67,6 @@ Keď budete mať predvolené organizačné cenníky projektu a cenníky projektu
 
 1. V časti **Cenová ponuka projektu** na karte **Cenník projektu** vo vedľajšej mriežke overte, či nie je vybraný žiadny špecifický záznam cenníka.
 2. Vyberte možnosť **Vytvorenie vlastných cien**. Takto sa vytvoria kópie všetkých štandardných cenníkov, ktoré sú v súčasnosti spojené s cenovou ponukou, a tieto kópie sa priradia k cenovej ponuke. Existujúce priradenia k štandardným cenníkom budú odstránené. Predajca potom môže začať s úpravami cien na týchto kópiách. Tieto zmenené ceny sa budú vzťahovať iba na túto cenovú ponuku projektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

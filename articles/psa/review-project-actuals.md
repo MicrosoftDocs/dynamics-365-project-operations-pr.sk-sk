@@ -35,3 +35,6 @@ Prejdite na skutočné hodnoty projektu a uistite sa, že náklady a nevyúčtov
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Príručka projektového manažéra](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

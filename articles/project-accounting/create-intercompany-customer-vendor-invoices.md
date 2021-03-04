@@ -61,3 +61,6 @@ Môžete vytvoriť viac medzipodnikových faktúr súčasne pre všetky požiči
 ## <a name="post-the-intercompany-vendor-invoice"></a>Zaúčtovanie medzipodnikovej faktúry dodávateľa
 
 Účtovník projektu v požičiavajúcej si právnickej osobe môže pri zaúčtovaní príslušnej medzipodnikovej faktúry zákazníka skontrolovať nevybavené medzipodnikové faktúry dodávateľa. Vo aplikácii Finance prejdite v požičiavajúcej si právnickej osobe na **Záväzky** > **Faktúry** > **Čakajúca faktúra dodávateľa**. Čakajúce číslo faktúry sa bude zhodovať s číslom faktúry medzipodnikového zákazníka. Overte správnosť faktúry a potom faktúru zaúčtujte. Zaúčtovaním medzipodnikovej faktúry dodávateľa sa vytvorí vedľajšia účtovná kniha projektu a transakcia v hlavnej účtovnej knihe, ktorá odráža transakčné náklady v požičiavajúcej si právnickej osobe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

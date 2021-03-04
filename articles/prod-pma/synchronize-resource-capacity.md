@@ -49,3 +49,6 @@ Odporúčame používať dávku. Možnosti sú k dispozícii počas synchronizá
     | Dátum skončenia    | Zadajte dátum ukončenia procesu synchronizácie pre súhrn kapacity zdrojov. |
 
 [![Proces synchronizácie](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

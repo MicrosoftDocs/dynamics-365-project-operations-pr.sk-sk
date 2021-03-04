@@ -43,3 +43,6 @@ Poskytnite priestor, tam kde členovia tímu projektu môžu spolupracovať na p
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Príručka projektového manažéra](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

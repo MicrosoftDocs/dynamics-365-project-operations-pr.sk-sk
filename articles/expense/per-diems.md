@@ -31,3 +31,6 @@ Diéta je príspevok, ktorý sa vypláca pracovníkovi, ktorý cestuje za práco
     
 ## <a name="submit-expenses-using-per-diem"></a>Predloženie výdavkov pri použití diét
 Na predloženie výdavkov s použitím diét pri vytváraní výkazu výdavkov použite kategóriu výdavkov **Diéty**. Prejdite do **Diéty od dátumu**, **Diéta k dátumu** a **Miesto diét**. Suma sa vypočíta na základe sadzieb diét pre vybrané miesto a zníženie jedál sa vypočíta na základe úrovní denných diét.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

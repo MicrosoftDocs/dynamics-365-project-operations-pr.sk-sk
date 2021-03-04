@@ -91,3 +91,6 @@ Zobraziť osobné stretnutia, priradenia práce na projekte rezervácie a objedn
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

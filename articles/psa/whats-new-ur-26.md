@@ -74,3 +74,6 @@ Vyriešili sa tieto problémy:
 - Pri výbere projektovej riadka v cenovej ponuke alebo zmluve by malo byť tlačidlo **Návrh** viditeľné iba pri výbere produktového riadka priradeného k existujúcemu produktu.
 - Rozdeľte oprávnenie **Vytvoriť_Produkt** z oprávnenia **Vytvoriť_ProjektováZmluva**.
 - Vymazanie riadka faktúry spôsobí, že dôjde k zlyhaniu odkazu na hodnotu null v **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

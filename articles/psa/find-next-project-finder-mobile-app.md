@@ -49,3 +49,6 @@ S aplikáciou Project Finder Mobile na telefóne [!INCLUDE[tn_iphone](../include
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

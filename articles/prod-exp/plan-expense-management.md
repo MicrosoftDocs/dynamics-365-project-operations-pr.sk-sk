@@ -160,3 +160,6 @@ Vytvorením politík výkazov výdavkov môžete pomôcť svojej organizácii u�
 - Kedy vyprší platnosť politiky?
 - Aké je pravidlo politiky?
 - Aký je výsledok pravidla politiky?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

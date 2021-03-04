@@ -45,3 +45,6 @@ Keď vyberiete **OK** na dialógovej stránke, systém vytvorí kópiu ponuky pr
 > - Odkaz na projekt v riadkoch založených na cenovej ponuke založených na projekte – Informácie o rozpočte zákazníka
 >
 >Pretože sú tieto informácie veľmi špecifické pre každú cenovú ponuku, tieto polia a záznamy sa nekopírujú. Skopírujú sa riadky cenovej ponuky pre projekty a produkty, odhady podrobností ponuky a hodnoty neprekročenia na úrovni ponuky. Predvolené ceny a sadzby nákladov závisia od možnosti **Kopírovať ceny** vybranej na dialógovej stránke **Kopírovať parametre**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

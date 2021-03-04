@@ -82,3 +82,6 @@ V cenníku nákladov pre spoločnosť Fabrikam UK-Robotics možno sadzby náklad
 | Vývojár | Fabrikam UK | 115 GBP |
 
 Cenník nákladov môže poskytovať sadzby práce vo viacerých menách. Pri generovaní odhadu nákladov na projekt Project Operations prevedie tieto sadzby nákladov na menu projektu a zobrazí ich používateľovi. Keď je časový záznam schválený a je vytvorená skutočná cena, skutočná cena sa nacení v mene zodpovedajúceho cenového riadku role v cenníku nákladov. Skutočné náklady za čas na jednom projekte je možné zaznamenať vo viacerých menách. Pri zhrnutí alebo zosumarizovaní skutočných nákladov práce na úrovni projektu, Project Operations prevedie všetky sumy nákladov práce do meny projektu, ktorú môže používateľ zobraziť.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

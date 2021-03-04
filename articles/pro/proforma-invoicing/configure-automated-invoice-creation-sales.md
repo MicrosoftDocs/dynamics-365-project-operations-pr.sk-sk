@@ -91,3 +91,6 @@ Dávková úloha pre vytváranie faktúr je opakujúca sa úloha. Ak je táto d�
 
 > [!NOTE]
 > Hromadná fakturácia v aplikácii Project Operations sa spustí iba pre riadky zmlúv projektu, ktoré sú konfigurované podľa plánov faktúr. Riadok zmluvy s metódou fakturácie podľa fixnej ceny musí mať nakonfigurované medzníky. V riadku zmluvy projektu s metódou fakturácie podľa času a materiálu bude potrebné zostaviť plán fakturácie založený na dátume.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

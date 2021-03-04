@@ -35,3 +35,6 @@ Po vyriešení cenníka obstarávacích cien systém používa polia **Rola**, *
 Riadky s odhadmi pre náklad sa týkajú riadkov s podrobnosťami o cenovej ponuke a zmluve pre náklady a riadky odhadov výdavkov pre projekt.
 
 Po vyriešení cenníka nákladov systém použije kombináciu polí **Kategória** a **Jednotka** pre riadok odhadu nákladov, ktorý sa zhoduje s riadkami **Cena kategórie** vo vyriešenom cenníku. Ak systém nájde riadok s cenou kategórie, ktorá má nákladovú sadzbu pre kombináciu polí **Kategória** a **Jednotka**, nákladová sadzba bude predvolená. Ak systém nedokáže zosúladiť hodnoty **Kategória** a **Jednotka**, alebo ak je schopný nájsť zodpovedajúci riadok s cenou kategórie, ale metóda oceňovania nie je **Cena za jednotku**, nákladová sadzba je predvolene nastavená na nulu (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

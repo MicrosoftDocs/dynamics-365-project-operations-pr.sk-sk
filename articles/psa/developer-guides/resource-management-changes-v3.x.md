@@ -170,3 +170,6 @@ Tieto polia plánované, skutočné a zostávajúce náklady a predaja sa nezmen
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

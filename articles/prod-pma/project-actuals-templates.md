@@ -140,3 +140,6 @@ Nasledujúca ilustrácia ukazuje príklady mapovania úlohy šablóny v Integrá
 [![Mapovanie šablón - aktualizácia skutočností](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mapovanie šablón - aktualizácia transakcie](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

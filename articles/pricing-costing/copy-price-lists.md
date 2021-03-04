@@ -43,3 +43,6 @@ Ak chcete vytvoriť kópiu cenníka, postupujte nasledovne.
 1. Na kartách **Rola**, **Kategória** a **Položka cenníka** cenníka môžete si vybrať **Aktualizovať ceny** a použiť prirážku pre všetky ceny vo vedľajšej mriežke. 
 2. Na dialógovej stránke, ktorá sa otvorí, zadajte prirážku. Môžete zadať aj percento zápornej prirážky a znížiť ceny o určité percento. 
 3. Vyberte **OK** na dialógovej stránke a potom overte, či ceny vo vedľajšej mriežke odrážajú vykonané zmeny.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Potenciálny zákazník pre proces predaja príležitostí podporuje nasledujúc
 | Vyvinúť | Príležitosť | Vytvorenie príležitosti na pridanie ďalších informácií pre vykonanú prácu, kľúčových účastníkov projektu a konkurenciu. |
 | Navrhnúť | Príležitosť | Vytvorenie návrhu a získanie súhlasu od interného hodnotiaceho tímu. |
 | Zatvoriť | Príležitosť | Získanie príležitosti na uzavretie obchodu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

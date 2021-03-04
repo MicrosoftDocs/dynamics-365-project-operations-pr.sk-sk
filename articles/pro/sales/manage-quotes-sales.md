@@ -33,3 +33,6 @@ Zoznam všetkých projektových cenových ponúk je uvedený na stránke so zozn
 2. Použite **Prepínač zobrazení** na výber ďalších filtrovaných zobrazení cenových ponúk. Pomocou vlastných kritérií filtra môžete nakonfigurovať svoje vlastné zobrazenia a možnosti navigácie.
 
 Cenové ponuky je možné vytvárať alebo mazať z tejto stránky so zoznamom alebo zo stránok s podrobnosťami.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

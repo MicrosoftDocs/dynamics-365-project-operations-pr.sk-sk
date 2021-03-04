@@ -36,3 +36,6 @@ Ak chcete zadať čas a náklady na mobilnom zariadení, [získajte a nainštalu
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

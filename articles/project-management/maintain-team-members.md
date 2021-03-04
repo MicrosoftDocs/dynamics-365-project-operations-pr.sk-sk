@@ -42,3 +42,6 @@ Keď urobíte výber, zdroj sa pridá do projektového tímu a priradí k úlohe
 Môžete použiť **Reconciliation** na zväčšenie tabuľkovej rezervačnej schopnosti alebo **Schedule Board** na rezerváciu zdrojovej kapacity pre projekt.
 
 Po tom, ako sa člen tímu rezervuje na váš projekt, môžete použiť **Spravovanie rezervácií** alebo **Tabuľu plánovania** priamo na spravovanie ich rezervácií.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

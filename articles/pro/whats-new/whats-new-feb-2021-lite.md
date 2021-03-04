@@ -38,3 +38,6 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 | **Plánovanie a sledovanie projektu** | 2164035 | Opravené problémy s funkciou **Kopírovať projekt**. |
 | **Zadanie času** | 2129161 | Uplatňujú sa prísnejšie obmedzenia, aby sa zabezpečilo, že používatelia nebudú môcť meniť a aktualizovať zadaný alebo schválený časový údaj. |
 | **Zadanie času** | 2103572 | Schválenie času pre časové zadania mimo projektu nesmie hľadať rolu schvaľovateľa projektu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

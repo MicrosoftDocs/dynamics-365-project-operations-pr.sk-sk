@@ -55,3 +55,6 @@ V záznamoch účtovného denníka integrácie Project Operations je možné akt
 Integračné záznamy v účtovnom denníku je možné odstrániť, avšak všetky nezverejnené riadky sa do denníka vložia znova po opätovnom spustení periodického procesu **Import z pracovnej verzie**.
 
 Keď aktualizuje denník integrácie, vytvoria sa transakcie vedľajšej účtovnej knihy a hlavnej účtovnej knihy projektu. Používajú sa pri následnej fakturácii zákazníka, rozpoznávaní výnosov a finančnom vykazovaní.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

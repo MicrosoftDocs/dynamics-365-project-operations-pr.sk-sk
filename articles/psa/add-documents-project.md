@@ -45,3 +45,6 @@ Majte projektové dokumenty organizované formou ich pridania do vášho projekt
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka projektového manažéra](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 ## <a name="regulatory-updates"></a>Regulačné aktualizácie
 
 Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations sú uvedené v časti [Regulačné aktualizácie](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Ak je v cenovej ponuke projektu, ktorá je uzavretá ako Nezískaná, uvedený p
 
 > [!NOTE]
 > V rámci Project Operations uzavretie ponuky ako Získaná or Nevyužitá nebude mať vplyv na tento stav príležitosti, ktorá zostane otvorená, kým sa manuálne neuzavrie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

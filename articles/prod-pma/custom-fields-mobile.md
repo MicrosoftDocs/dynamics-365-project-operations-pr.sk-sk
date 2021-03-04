@@ -429,3 +429,6 @@ Zadanie predvolenej kategórie projektu do položiek časového rozvrhu sa vysky
 1. Aplikácia sa pokúsi vložiť predvolenú kategóriu z prostriedku projektu. Táto predvolená kategória je nastavená v metóde **getCurrentUserResource** a **getDelegatedResourcesForCurrentUser** v triede **TSTimesheetSettingsService**.
 2. Ak predvolená kategória nie je poskytnutá na úrovni prostriedkov projektu, aplikácia sa ju pokúsi stiahnuť z aktivity projektu. Táto predvolená kategória je nastavená v metóde **getActivitiesForProject** v triede **TSTimesheetProjectService**.
 3. Ak predvolená kategória nie je poskytnutá na úrovni aktivity, predvolená kategória sa vezme z parametrov projektu. Táto predvolená kategória je nastavená v metóde **getProjectDetailsbyRule** v triede **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

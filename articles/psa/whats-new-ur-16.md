@@ -64,3 +64,6 @@ Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené p
 
     -   Oprava: Keď používatelia vykonajú inováciu z 2.X na 3.X, budú povolené projekty s hodnotou NULL pre názov projektu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

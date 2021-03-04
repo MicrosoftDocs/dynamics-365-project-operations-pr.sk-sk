@@ -83,3 +83,6 @@ Táto téma popisuje parametre riadiace všeobecné správanie v správe výdavk
 | Zobraziť protikorupčné osvedčenie   | Vyberte túto možnosť, ak chcete zobraziť protikorupčný text pri vytváraní výkazu výdavkov. Potom je možné povoliť konkrétne kategórie výdavkov, ktoré budú vyžadovať výber protikorupčného osvedčenia vo výkaze výdavkov. Napríklad kategória darčekov, ktorá sa týka výdavkov vládnej organizácie, môže vyžadovať, aby zamestnanec potvrdil, že výdavky zodpovedajú politike spoločnosti, ktorá sa týka úradníkov vládnej organizácie. |
 | Protikorupčná správa pre zadávateľa | Zadajte text, ktorý by sa mal zobraziť zamestnancovi, ktorý vytvára výkaz výdavkov. Ak chcete zadať text, ktorý sa zobrazí v konkrétnom jazyku, na základe jazyka používateľa, zvoľte **Preklady**. |
 | Protikorupčná správa pre schvaľovateľa  | Zadajte text, ktorý by sa mal zobraziť schvaľovateľovi pri vytvorení výkazu výdavkov. Ak chcete zadať text, ktorý sa zobrazí v konkrétnom jazyku, na základe jazyka používateľa, zvoľte **Preklady**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

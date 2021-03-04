@@ -20,3 +20,6 @@ ms.locfileid: "4514585"
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Môžete použiť funkciu v Universal Resource Scheduling pre Dynamics 365 Field Service na nastavenie stavov rezervácií pre vašu organizáciu. Informácie o dokončení tohto nastavenia nájdete v časti [Nastavenie stavov rezervácie](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

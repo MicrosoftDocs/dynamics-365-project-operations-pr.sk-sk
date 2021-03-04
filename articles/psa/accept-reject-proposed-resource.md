@@ -45,3 +45,6 @@ Ak chcete návrh zamietnuť, kliknite na **Reject Resource**.
 ![Prijatie návrhu zdroja](media/RM-how-to-20.png) 
 
 Podobne ako pri priamom splnení všeobecnej požiadavky na zdroje s pomenovaným zdrojom sa všeobecný prostriedok nahradí a priradené úlohy sa aktualizujú s názvom člena tímu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

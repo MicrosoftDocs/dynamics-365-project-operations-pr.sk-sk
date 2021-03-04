@@ -49,3 +49,6 @@ Na vytvorenie projektového plánu, musíte vytvoriť šablónu projektového ka
 8. V dialógovom okne **pracovná šablóna** zadajte názov pracovnej šablóny a potom vyberte **použiť**. 
 
 Šablónu práce teraz môžete priradiť k šablóne kalendára projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

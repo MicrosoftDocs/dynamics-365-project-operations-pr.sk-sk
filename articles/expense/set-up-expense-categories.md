@@ -61,3 +61,6 @@ Predtým, ako začnete s procesom nastavenia, musíte urobiť nasledujúce rozho
 
     - Je niektorá z podkategórií vylúčená z vrátenia dane?
     - Čo je skupina dane z predaja položky v podkategóriách?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

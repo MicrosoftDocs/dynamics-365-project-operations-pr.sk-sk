@@ -200,3 +200,6 @@ Keď zobrazíte čas na vyšších úrovniach, bunky na karte **odsúhlasenie** 
 Ak máte priradenia úloh pre zdroj, ale žiadne rezervácie, vo formulári **projekty** na karte **odsúhlasenie** vyberte nedostatok rezervácie a potom vyberte položku **rozšíriť rezerváciu**. Zobrazí sa dialógové okno **rozšíriť rezerváciu** a zobrazí sa rezervácia, ktorá je potrebná na vyriešenie nedostatku zdroja. Dialógové okno zobrazuje aj existujúce rezervácie zdrojov vo všetkých projektoch alebo iných plánovateľných entitách. Ak vyberiete **OK**, ak chcete vytvoriť rezerváciu zdroja bez ohľadu na dostupnosť tohto prostriedku, môžete spôsobiť prekročenie rezervácie.
 
 Projektový manažér alebo správca zdrojov potom môže pomocou tabule plánovania spravovať všetky situácie, v ktorých je zdroj prerezervovaný nad rámec jeho kapacity.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

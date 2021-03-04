@@ -40,3 +40,6 @@ Projektový manažér môže naplánovať požadované roly zdrojov pre projekt.
 7. Vyberte pracovníka a potom vyberte položku **Priradiť**.
 8. Overte, či riadok pre **Softvérový vývojár 1** bol odstránený pre **Projekt inovácie XYZ, fáza 2**.
 9. Na karte **Projektový tím a plánovanie** pre projekt **Fáza 2 inovácie XYZ** overte, či bol pracovník, ktorého ste vybrali v predchádzajúcom kroku, pridaný ako **Vývojár softvéru**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

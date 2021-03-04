@@ -82,3 +82,6 @@ Vlastnosti **No of Users** a **No of Months** môžu byť označené ako množst
 
 > ![OznačovanieNo of Users a No of Months ako kvalitatívne faktory](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ Riadky založené na produktoch môžu byť katalógové položky alebo produkty
 
 Keď je metóda príjmu v súhrne príležitostí **Vypočítané systémom**, sú zhrnuté hodnoty rozpočtu zákazníka naprieč príležitosťami, aby sa vypočítali odhadované výnosy. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

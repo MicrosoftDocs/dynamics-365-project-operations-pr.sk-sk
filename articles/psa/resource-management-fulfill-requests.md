@@ -46,3 +46,6 @@ Zobrazí sa Asistent plánovania a filtruje sa podľa požiadaviek. Vyberte zdro
 > ![Zdroj vybratý](media/Resource-Management-image61.png)
 
 Všeobecný člen tímu je nahradený pevne rezervovaným vymenovaným zdrojom v projektovom tíme a priradeniu úlohy v pláne projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

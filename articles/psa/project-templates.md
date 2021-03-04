@@ -69,3 +69,6 @@ Pri kopírovaní naprieč riadkami odhadu projektu, sú cenníky aktualizované.
 ### <a name="copying-a-project-team"></a>Kopírovanie projektového tímu
 
 Keď je projektový tím kopírovaný z projektovej šablóny, sú skopírované všeobecné zdroje spolu so zručnosťami a schopnosťami, ktoré sú definované v šablóne. Priradenie všeobecných zdrojov sa zachová rovnaké ako bolo pri šablóne projektu. Pomenované zdroje nie sú podporované v šablónach projektov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

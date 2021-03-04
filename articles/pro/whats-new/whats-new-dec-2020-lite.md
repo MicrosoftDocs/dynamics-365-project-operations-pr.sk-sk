@@ -57,3 +57,6 @@ V nasledujúcej tabuľke je uvedený zoznam aktualizácií Project Operations v 
 | Čas a výdavky | 2034882 | Tlačidlo **Nový** sa zobrazí dvakrát na paneli príkazov pre zadanie času, keď je nainštalované Dynamics 365 Field Service. |
 | Čas a výdavky | 2056028 | Aktualizácia stránky **Úpravy času**, aby zahŕňala časový riadok. |
 | Čas a výdavky | 1983747 | Graf zadávania času zobrazuje ďalšie údaje. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

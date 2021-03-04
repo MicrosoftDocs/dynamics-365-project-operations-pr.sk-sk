@@ -58,3 +58,6 @@ Názory, správy a ďalšie informácie nájdete na [blogu Microsoft Dynamics 36
 ### <a name="videos"></a>Videá
 
 Pozrite si videá s postupmi, ktoré sú teraz k dispozícii na [kanáli Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

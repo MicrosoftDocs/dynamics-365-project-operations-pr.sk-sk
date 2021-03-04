@@ -330,3 +330,6 @@ PSA zaznamenáva finančné transakcie, ktoré nastanú počas projektu. Tieto t
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

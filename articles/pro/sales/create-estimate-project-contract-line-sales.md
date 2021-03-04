@@ -68,3 +68,6 @@ Výpočty ziskovosti prevádzajú sumy pre podrobnosti riadka zmluvy pre **Nákl
 
 > [!NOTE]
 > Mohli by sa vyskytnúť chyby zaokrúhľovania mien a zmenené marže z dôvodu chýbajúcich výmenných kurzov platných k dátumu. Tieto výpočty na projektových zmluvách používajte iba ako aproximácie a nie ako skutočné zákonné alebo iné správy, ktoré si pri výmenných kurzoch vyžadujú vyššiu presnosť zaokrúhľovania a zohľadnenia účinnosti podľa dátumu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

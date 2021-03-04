@@ -30,3 +30,6 @@ Projektový manažér môže skontrolovať nevyfakturované predajné transakcie
 Môžete [ručne vytvoriť pro forma faktúru](../proforma-invoicing/create-manual-proforma-invoice.md) alebo použiť [pravidelný proces](../proforma-invoicing/configure-automated-invoice-creation.md). Projektový manažér môže podľa potreby [upraviť návrh pro forma faktúry](../proforma-invoicing/manage-proforma-invoice.md) a potom ho potvrdiť.
 
 Potvrdená pro forma faktúra sa odošle do modulu **Projektové riadenie a účtovníctvo** v aplikácii Finance. Účtovník projektu naformátuje a aktualizuje návrh projektovej faktúry a potom zaúčtuje a vytlačí dokument. Zaúčtované faktúry projektu sa zaznamenávajú v hlavnej knihe, ako aj vo vedľajších účtovných knihách Zákazník a Projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

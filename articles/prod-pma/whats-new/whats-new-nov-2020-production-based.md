@@ -26,3 +26,6 @@ Informácie o opravách zahrnutých v tejto aktualizácii nájdete po prihlásen
 ## <a name="regulatory-updates"></a>Regulačné aktualizácie
 
 Informácie o regulačných aktualizáciách pre aplikácie Dynamics 365 Finance and Operations sú uvedené v časti [Regulačné aktualizácie](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

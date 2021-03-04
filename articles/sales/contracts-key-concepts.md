@@ -88,3 +88,6 @@ Plány faktúr sú špecifické pre každý riadok zmluvy a sú potrebné na fun
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Zmeny oproti objednávkam Dynamics 365 Sales
 
 Zmluvy v Project Operations sú postavené na objednávkach v Dynamics 365 Sales. Existujú však dôležité odchýlky a rozdiely vo funkčnosti. Zmluvy majú svoj vlastný formulár a prvky používateľského rozhrania, obchodné pravidlá, obchodnú logiku v doplnkoch a skripty na strane klienta, vďaka ktorým sú oproti objednávkam jedinečné. Z týchto dôvodov nepoužívajte vymeniteľne predajnú objednávku a zmluvu Project Operations.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

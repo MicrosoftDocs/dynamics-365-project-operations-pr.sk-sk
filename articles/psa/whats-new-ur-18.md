@@ -63,3 +63,6 @@ Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené p
 **Sales**
 
 - Opravené: Pri opätovnom schválení zadaní času (**Schváliť > Zrušiť >** Opätovne schváliť) sa vytvorí duplikát skutočnej neúčtovanej sumy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

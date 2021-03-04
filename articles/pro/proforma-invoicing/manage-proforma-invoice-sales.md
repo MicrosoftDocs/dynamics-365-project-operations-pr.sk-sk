@@ -144,3 +144,6 @@ Ak máte skutočné údaje, ktoré prišli po vytvorení faktúry, môžete ich 
 V Project Operations môžete vytvoriť riadky faktúry pre produkty, ktoré sa nevzťahujú na žiadny projekt, alebo pre všetky projekty spolu s riadkami faktúr založenými na projektoch. Tieto riadky faktúry sa vytvárajú ako riadky zmlúv založené na produktoch a po označení ako pripravené na fakturáciu sa pridávajú ako riadky faktúr na založené na produktoch.
 
 Po pridaní riadkov faktúr založených na produktoch ich nie je možné zmeniť. Môžu byť však vymazané z konceptu faktúry pro forma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

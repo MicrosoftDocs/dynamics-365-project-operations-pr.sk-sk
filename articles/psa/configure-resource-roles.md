@@ -59,3 +59,6 @@ Role hrajú dôležitú úlohu v projektovanie, pri určovaní požiadaviek na z
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Nastavenie prostriedkov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

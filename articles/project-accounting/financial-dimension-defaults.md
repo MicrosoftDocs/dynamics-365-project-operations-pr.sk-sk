@@ -62,3 +62,6 @@ Projekty sa vytvárajú a udržiavajú v CDS. Účtovné atribúty pre projekty 
 4. Nastavte predvolené hodnoty finančnej dimenzie. Všimnite si, že finančné dimenzie sa predvolene získavajú z obchodného vzťahu zákazníka. Ak je projekt spojený s riadkom zmluvy s viacerými zmluvnými zákazníkmi projektu, primárny zákazník sa použije na predvolené finančné dimenzie.
 
 Predvolené finančné dimenzie projektu sa používajú na nastavenie predvolených hodnôt záznamov v účtovnom denníku pre časové, nákladové a poplatkové transakcie v **Denníku integrácie Project Operations** a na súvisiacich riadkoch projektových faktúr.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

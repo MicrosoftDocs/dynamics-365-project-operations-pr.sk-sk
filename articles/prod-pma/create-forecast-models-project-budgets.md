@@ -57,3 +57,6 @@ Táto téma popisuje, ako vytvoriť model prognózy pre zostávajúce rozpočty.
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

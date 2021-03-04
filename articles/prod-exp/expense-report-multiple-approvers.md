@@ -40,3 +40,6 @@ Ak sa rozhodnete vyžadovať viacerých schvaľovateľov výkazov výdavkov, mô
 
     1. Vedúci zamestnanca schvaľuje výkaz výdavkov.
     2. Vlastník rozpočtu schvaľuje výkaz výdavkov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

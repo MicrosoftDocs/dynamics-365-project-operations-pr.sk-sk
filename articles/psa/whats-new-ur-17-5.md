@@ -44,3 +44,6 @@ Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené p
 - Oprava: Riešené 24-hodinové šablóny pracovnej doby, ktoré nepresne pridávajú k úlohám ďalší deň.
 - Opravené: Adresované +13 GMT šablóny pracovnej doby nepresne plánujú zmeny úloh o jeden deň dopredu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

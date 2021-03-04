@@ -77,3 +77,6 @@ Nasledujúca grafika poskytuje pohľad na dimenziu **Pracovná doba zdroja**.
 5. Opakujte kroky 1 - 3 na vytvorenie ďalšieho štandardného názvu pre "Starší Systémový inžinier".
 
 > ![Vzorové údaje pre entitu Štandardný nadpis](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Táto téma vysvetľuje, ako nastaviť štandardné náklady na prácu a náklad
 22. V poli **Ceny** zadajte číslo. Skutočná predajná cena, ktorá sa použije, keď pracovník zadá transakciu do denníka výdavkov, je predajná cena s najvyššou úrovňou podrobností. Napríklad, ak je nastavená všeobecná aj predajná cena špecifická pre pracovníka, použije sa predajná cena špecifická pre pracovníka.  
 23. Vyberte položku **Uložiť**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

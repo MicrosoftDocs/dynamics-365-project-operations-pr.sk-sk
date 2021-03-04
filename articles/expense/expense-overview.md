@@ -44,3 +44,6 @@ Scenár nasadenia základných výdavkov vám umožňuje zaznamenať iba základ
 
 ## <a name="determine-your-expense-deployment"></a>Určenie nasadenia výdavkov
 Ak chcete zistiť, či používate nasadenie správy základných výdavkov, skontrolujte, či sa adresa URL končí **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

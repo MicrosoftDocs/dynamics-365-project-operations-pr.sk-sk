@@ -93,3 +93,6 @@ V PSA nie je možné sledovať revízie vykonané v cenovej ponuke. Namiesto toh
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Sledovanie komentárov a schválení cenových ponúk a projektových zmlúv
 Môžete spravovať preskúmanie a schvaľovanie cenových ponúk a projektových zmlúv pomocou záznamu múru a príspevkov. Vaša organizácia môže vytvoriť vlastné pracovné postupy a doplnky na priraďovanie, presmerovanie, eskaláciu a spravovanie upozornení na položkách kontroly a schvaľovania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

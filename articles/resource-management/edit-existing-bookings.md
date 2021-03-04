@@ -33,3 +33,6 @@ V mriežke **Člen tímu** môže projektový manažér zvýrazniť konkrétny z
 ## <a name="schedule-board"></a>Tabuľa plánovania
 
 V časti **Tabuľa plánovania** má manažér zdrojov portfólio zobrazenia všetkých rezervácií v celej organizácii. V tomto zobrazení môže správca zdrojov rozširovať, skracovať alebo presúvať existujúce rezervácie podobne ako možnosti ponúkané v časti **Udržiavať rezervácie**. Správca zdrojov tiež môže nahradiť existujúce zdroje pridelené konkrétnej rezervácii kliknutím pravým tlačidlom myši na rezerváciu a výberom možnosti **Náhradný zdroj**. Správcovia zdrojov tiež môžu upravovať obrysy existujúcich rezervácií kliknutím pravým tlačidlom myši na rezerváciu a výberom možnosti **Upraviť**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

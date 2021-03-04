@@ -26,3 +26,6 @@ Na rozdiel od rezervácií sú priradenia sú priraďovaním zdrojov k projektov
 Súčet rezervácií zdroja sa zvyčajne bude rovnať súčtu priradení zdroja k jednej alebo viacerým úlohám. Project Operations však nepresadzuje túto zmluvu. V zobrazení **Vyrovnanie** zobrazuje Projektový manažér miesta, kde nesúhlasia rezervácie a priradenia.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

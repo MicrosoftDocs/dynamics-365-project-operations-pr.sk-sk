@@ -53,3 +53,6 @@ Skôr než budete môcť rezervovať z tabule plánovania, musíte vytvoriť ale
 Požiadavka je splnená pomocou vybratého prostriedku. V table **Požiadavky na rezervácie** si všimnite, že požiadavka bola aktualizovaná a zdroj je zobrazený ako rezervované na projekte.
 
 ![Zdroj rezervovaný na projekte](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

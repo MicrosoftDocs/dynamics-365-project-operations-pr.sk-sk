@@ -48,3 +48,6 @@ V nasledujúcej tabuľke sú uvedené typy pracovných postupov, ktoré môžete
 |       <strong>Cestovná žiadanka</strong>       |          Vytvorenie pracovných postupov schvaľovania pre cestovné požiadavky.           |
 |      <strong>Požiadavka o platbu vopred</strong>      |         Vytvorte pracovné postupy schvaľovania pre žiadosti o hotovostné zálohy.          |
 |        <strong>Vrátenie dane z pridanej hodnoty</strong>        | Vytvorte schvaľovacie pracovné postupy pre vrátenie dane z pridanej hodnoty (DPH).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

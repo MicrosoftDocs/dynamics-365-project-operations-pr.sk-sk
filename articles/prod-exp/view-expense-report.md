@@ -32,3 +32,6 @@ Pre výkazy výdavkov môžete prejsť z transakcie na pôvodný výkaz, ktorý 
 Ak chcete prejsť na pôvodný výkaz výdavkov, v ktorom sa transakcia objavila, vyberte transakciu a potom stlačte **Originálny dokument**.
 
 Pri prezeraní jednotlivých transakcií si môžete zobraziť aj všetky ďalšie údaje, ktoré sú pripojené k transakcii. Napríklad pre podrobný výdaj hotela môžete zobraziť podrobný zoznam výdavkov, ako je prístup na internet, telefónne hovory a izbová služba.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Skupiny v Office vám umožňujú zdieľať projekt s ostatnými členmi tímu v
 > [!NOTE] 
 > Používatelia sa do skupiny pridajú, iba ak stlačíte **Skupiny** a pridáte ich. Toto správanie je odlišné ako v prípade projektu pre web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

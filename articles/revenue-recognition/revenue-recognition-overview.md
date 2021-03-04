@@ -60,3 +60,6 @@ V Dynamics 365 Project Operations sa princípy priznania výnosov líšia v záv
 [Správa odhadov výnosov](rev-rec-completed-contract-method.md)
 
 [Náklady na dokončenie metód](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

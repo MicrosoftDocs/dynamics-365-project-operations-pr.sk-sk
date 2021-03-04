@@ -52,3 +52,6 @@ Môžete použiť každý z týchto cenníkov a aktualizovať ceny práce (cena 
 V projektovej zmluve je projektová cena vždy predvolená ako vlastný cenník s názvom zmluvy a časovou pečiatkou vytvorenia pripojenou k názvu. To platí bez ohľadu na to, či bola zmluva vytvorená pri získaní cenovej ponuky, alebo či bola zmluva vytvorená úplne od začiatku. V prípade potreby môžete toto priradenie k vlastnému cenníku odstrániť a namiesto toho priradiť štandardný cenník k projektovej zmluve.
 
 Ak priraďujete štandardný cenník k projektovým cenníkom v cenovej ponuke alebo zmluve, akékoľvek zmeny cien v cenníku ovplyvnia všetky cenové ponuky a zmluvy, ktoré používajú cenník.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

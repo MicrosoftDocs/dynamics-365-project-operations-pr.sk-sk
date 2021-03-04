@@ -67,3 +67,6 @@ Mena v podrobnostiach o riadku cenovej ponuky pre predvolené náklady z cenník
 Výpočty ziskovosti prevádzajú čiastku v podrobnostiach o riadku cenovej ponuky na náklady a predaj do základnej meny prostredia na vykazovanie celkovej odhadovanej marže v cenovej ponuke.
 
 Môže to mať za následok chyby pri zaokrúhľovaní mien a zmeny marží z dôvodu chýbajúcich výmenných kurzov platných k príslušnému dátumu. Tieto výpočty v cenových ponukách projektu používajte iba ako aproximácie a nie ako skutočné zákonné alebo iné výkazy, ktoré si vyžadujú vyššiu presnosť zaokrúhľovania a uvedomenie si dátumu platnosti výmenných kurzov.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

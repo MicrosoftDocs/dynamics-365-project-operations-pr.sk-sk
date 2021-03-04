@@ -89,3 +89,6 @@ Cenové ponuky Project Operations sú postavené na cenových ponukách Dynamics
 - Cenové ponuky v Project Operations majú svoj vlastný formulár a prvky používateľského rozhrania, obchodné pravidlá, obchodnú logiku v doplnkoch a skripty na strane klienta, vďaka ktorým sú oproti cenovým ponukám v Sales jedinečné.
 
 Z týchto dôvodov sa neodporúča používať striedavo cenové ponuky v Sales a cenové ponuky v Project Operations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

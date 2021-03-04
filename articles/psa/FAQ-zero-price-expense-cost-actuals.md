@@ -38,3 +38,6 @@ Tieto najčastejšie otázky sa vzťahuje na skutočné výdavky, kde je trieda 
 Prejdite na súvisiace záznam výdavku a presvedčte sa, že v zadávacom poli výdavku je uvedená suma. Ak záznam pôvodného výdavku nemá vyplnené pole sumy, izolovali ste problém.
  
 Ak chcete vyriešiť tento problém, znova vytvorte záznam výdavku s platnou sumou a odsúhlaste ho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Predajné ceny sa uplatňujú raz pre každú dohodu. Hierarchia predvolených p
 1. Organizácia
 2. Zákazník
 3. Cenová ponuka/zmluva
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

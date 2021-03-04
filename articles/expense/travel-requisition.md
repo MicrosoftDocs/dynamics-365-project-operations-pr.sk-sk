@@ -56,3 +56,6 @@ Vyberte cestovnú žiadanku, ktorú chcete schváliť, a potom vyberte **Pracovn
 
 > [!NOTE]
 > Keď mapujete výkaz výdavkov na schválenú cestovnú žiadanku, suma transakcie nemôže byť vyššia ako schválená suma. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

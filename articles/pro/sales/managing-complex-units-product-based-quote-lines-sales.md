@@ -45,3 +45,6 @@ Ak chcete vytvoriť faktory kvantity z vlastností produktu, postupujte nasledov
 6. Uloží a zavrie formulár. Zopakujte tieto kroky pre všetky vlastnosti, ktoré sa majú použiť na výpočet množstva pre riadok cenovej ponuky založenej na produkte.
 
 Keď vytvoríte riadok cenovej ponuky založenej na produkte pre produkt, množstvo riadka cenovej ponuky sa uzamkne. Množstvo sa vypočíta ako súčin hodnôt vlastností, ktoré zadáte pre daný riadok cenovej ponuky.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

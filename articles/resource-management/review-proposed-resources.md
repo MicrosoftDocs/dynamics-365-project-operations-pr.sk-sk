@@ -62,3 +62,6 @@ Pretože Dynamics 365 Project Operations používa systém Universal Resource Sc
 
 Ak chcete zobraziť ďalšie podrobnosti o jednotlivých prostriedkoch, kliknite naň pravým tlačidlom a otvorte kartu zdroja.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 | **Správa príležitostí** | 2040713 | Opravená chyba skriptu, ktorá sa vyskytla pri vytváraní faktúry zo zmluvy a je nainštalovaná služba Field Service. |
 | **Plánovanie a sledovanie projektu** | 2090202 | Označené obchodné pravidlá, ktoré sa už nepoužívajú ako **Zastarané**. |
 | **Čas a výdavky** | 2091249 | Sprísnené ovládacie prvky, aby používatelia nemohli zmeniť úlohu pri zadanom alebo schválenom zadaní času. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

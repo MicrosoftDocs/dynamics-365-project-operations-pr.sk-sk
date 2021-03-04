@@ -72,3 +72,6 @@ Ak cena nastavená pre kategóriu výdavkov nie je platná, izolovali ste probl�
 Ak stále nevidíte platnú cenu na váš skutočný predajný výdavok po týchto troch kontrolách vyššie, prihláste sa na žiadosť o podporu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

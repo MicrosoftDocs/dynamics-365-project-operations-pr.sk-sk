@@ -68,3 +68,6 @@ Po použití funkcie rozšíreného rezervovania pre každý zdroj sa rezerváci
 Upozorňujeme, že bližší pohľad na podrobnosti rezervácií ukazuje rozdiely v začiatočnom čase rezervácií. Rezervácie sa začnú najskôr ako začiatočný čas obrysu priradenia a najskôr ako dostupný začiatočný čas zdroja.
 
 ![Nové rezervácie zdrojov na tabuli plánovania](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

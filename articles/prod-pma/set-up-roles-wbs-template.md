@@ -107,3 +107,6 @@ Do štruktúry WBS boli pridané ďalšie možnosti, aby sa lepšie využila fun
     > Nedostanete varovanie, že zadaný zdroj je teraz 2, pretože počet zdrojov zostáva 1.
 
 14. Na stránke **Štruktúra rozdelenia práce** overte priradenie zdrojov v štruktúre WBS a potom vyberte **Uložiť**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

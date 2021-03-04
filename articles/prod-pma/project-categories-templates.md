@@ -124,3 +124,6 @@ Nasledujúca ilustrácia ukazuje príklad mapovania úlohy šablóny v Integrác
 > Mapovanie zobrazuje informácie o poli, ktoré sa budú synchronizovať z Project Service Automation do Finance.
 
 [![Priradenie šablóny Project Service Automation to Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

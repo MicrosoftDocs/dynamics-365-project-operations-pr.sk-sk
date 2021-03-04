@@ -143,3 +143,6 @@ Ak chcete zobraziť faktúru pred zaúčtovaním, zrušte začiarknutie políčk
 Okrem stránky **Návrh faktúry** je možné zaslať návrhy faktúr spustením pravidelnej úlohy **Zaúčtovať návrhy faktúr**. Ak chcete nájsť túto úlohu, prejdite na **Projektové riadenie a účtovníctvo** > **Pravidelné** > **Faktúry projektu** > **Zaúčtovať návrhy faktúr**.
 
 Táto stránka zobrazuje všetky návrhy faktúr, ktoré sú pripravené na zaúčtovanie. Výberom možnosti **Dávka** môžete naplánovať účtovanie návrhov faktúr. Nastavte **Parameter dávkového spracovania** na **Áno** a nastavte opakovanie dávkového spracovania výberom **Opakovanie**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

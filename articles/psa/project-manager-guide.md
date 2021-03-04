@@ -95,3 +95,6 @@ Táto príručka poskytuje informácie, ktoré potrebujete na vytváranie a spr�
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)   
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

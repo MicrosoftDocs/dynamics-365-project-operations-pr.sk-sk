@@ -102,3 +102,6 @@ Sledovanie poskytuje stručný prehľad typických ovládacích prvkov, ktoré s
 **Pridať stĺpec**: Umožňuje používateľovi definovať viditeľné stĺpce v mriežke. K mriežkam je možné pridať iba stĺpce dostupné po zakúpení vo formulári **Plánovanie projektu**.
 
 ![Tlačidlo Pridať stĺpec](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

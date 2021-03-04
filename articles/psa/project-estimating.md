@@ -97,3 +97,6 @@ V zobrazení mriežky, aj v časovo delenom zobrazení môžete vybrať, ktoré 
 ## <a name="expense-estimates"></a>Odhady nákladov
 
 Tlačidlo **pridať nový odhad výdavkov** v zobrazení mriežky umožňuje zaznamenať všetky výdavky, ktoré vznikli v projekte, ale ktoré priamo nesúvisia s prácou. Môžete zaznamenať odhady výdavkov pre konkrétnu úlohu alebo pre celý projekt. Vyberte kategórie výdavkov a predbežný dátum, kedy očakávate, že vzniknú náklady. Ak majú súvisiace cenníky nákladov a predajné cenníky predvolené ceny, (alebo sú definované percentá pre kategórie výdavkov), sú automaticky zadané do riadka odhadu keď sa vyskytne priradenie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

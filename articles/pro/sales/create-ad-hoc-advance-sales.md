@@ -39,3 +39,6 @@ Podľa nasledujúcich pokynov môžete zákazníkovi fakturovať zálohu.
     | **Stav faktúry** | Toto je nastavenie možnosti, ktoré označuje, či je tento preddavok pridaný do konceptu faktúry pre tohto zákazníka. Možné hodnoty sú:</br>- **Nepripravené na fakturáciu**</br>- **Pripravené na faktúru** | Keď sú záloha alebo preddavok označené ako **Pripravené na fakturáciu**, sú pridané ako čas riadku na koncepte faktúry. Na vyrovnanie s nákladmi na projekt na ďalšie fakturačné obdobie je možné použiť iba plne fakturovaný preddavok. |
 
 4. Vyberte **Uložiť a zavrieť** v dialógovom okne rýchleho vytvorenia na zaznamenanie zálohy alebo preddavku.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Tabule a zostavy vám dajú možnosť porozumieť tomu, kde sa vášmu podniku n
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka projektového manažéra](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

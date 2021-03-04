@@ -55,3 +55,6 @@ Každej kategórie výdavkov môžu mať svoje vlastné jednotkové skupiny a je
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Konfigurácia Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

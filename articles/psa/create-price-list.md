@@ -71,3 +71,6 @@ Cenníky sa spoliehajú na úlohy a kategórie výdavkov, takže pred vytvorení
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Konfigurácia Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

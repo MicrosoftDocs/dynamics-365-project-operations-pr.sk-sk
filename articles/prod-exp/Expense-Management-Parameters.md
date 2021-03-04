@@ -89,3 +89,6 @@ Parametre riadia všeobecné správanie v správe výdavkov.
 | <strong>Protikorupčná správa pre zadávateľa</strong> |                                                                                             Zadajte text, ktorý sa zamestnancovi zobrazí pri vytváraní nového výkazu výdavkov. Kliknutím na tlačidlo <strong>Preklady</strong> zadajte text, ktorý sa zobrazí v konkrétnom jazyku, na základe jazyka používateľa.                                                                                             |
 | <strong>Protikorupčná správa pre schvaľovateľa</strong>  |                                                                                             Zadajte text, ktorý sa schvaľovateľovi zobrazí pri vytváraní nového výkazu výdavkov. Kliknutím na tlačidlo <strong>Preklady</strong> zadajte text, ktorý sa zobrazí v konkrétnom jazyku, na základe jazyka používateľa.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

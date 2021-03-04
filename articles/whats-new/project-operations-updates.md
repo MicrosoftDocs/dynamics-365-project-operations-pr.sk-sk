@@ -77,3 +77,6 @@ Plánované dátumy vydania sa môžu meniť. Ďalšie informácie nájdete v [D
 | --- | --- |
 | 10.0.17 | 19. marca 2021 |
 | 10.0.18 | 16. apríla 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

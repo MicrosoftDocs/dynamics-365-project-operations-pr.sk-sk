@@ -74,3 +74,6 @@ Medzníky s pevnou cenou môžete vygenerovať aj manuálne, ak nie sú pravidel
 | Daň | Rýchle vytvorenie | Suma dane použitá pre medzník. | Prenesie sa na medzník riadka zmluvy projektu a na faktúru. |
 
 3. Vyberte položku **Uložiť a zavrieť**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

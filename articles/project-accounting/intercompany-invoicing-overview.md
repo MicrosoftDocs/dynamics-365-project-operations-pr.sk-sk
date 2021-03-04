@@ -43,3 +43,6 @@ Nasledujúci diagram ilustruje medzipodnikovú fakturáciu, pretože sa týka ú
 - [Konfigurácia medzipodnikovej fakturácie](configure-intercompany-invoicing.md)
 - [Záznam medzipodnikových transakcií](create-intercompany-transactions.md)
 - [Vytvorenie medzipodnikových faktúr zákazníkov a dodávateľov](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

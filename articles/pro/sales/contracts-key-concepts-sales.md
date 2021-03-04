@@ -93,3 +93,6 @@ Zmluvy v Project Operations sú postavené na zmluvách v Dynamics 365 Sales. Ma
 - Zmluvy v Project Operations majú svoj vlastný formulár a prvky používateľského rozhrania, obchodné pravidlá, obchodnú logiku v doplnkoch a skripty na strane klienta, vďaka ktorým sú oproti zmluvám v Sales jedinečné.
 
 Z týchto dôvodov by ste nemali používať vymeniteľne predajnú zmluvu a projektovú zmluvu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

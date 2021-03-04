@@ -146,3 +146,6 @@ Nasledujúca tabuľka je komplexný zoznam out-of-box formulárov a zobrazení, 
 |  Skutočná hodnota|• Informácia<br>• Aktívne skutočné hodnoty|• Priradené zobrazenie skutočných hodnôt|
 
 Vlastné polia môže byť tiež potrebné pridať do obchodných pravidiel v závislosti na tom, čo ste definovali. Jeden out-of-box príklad je pre obchodné pravidlo **Editability časového záznamu na základe stavu.** Toto pravidlo definuje, ktoré polia je potrebné uzamknúť, keď je časový záznam v stave, ktorý nie je možné upravovať, ako je napríklad **schválený**. Pridajte polia do tohto obchodného pravidla tak, aby boli polia zamknuté pre úpravy, keď je časový záznam v stave inom ako **koncept** alebo **vrátený.**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -344,3 +344,6 @@ Počas prvého mesiaca konzultanti projektu zaznamenali spolu 800 hodín. Nákla
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

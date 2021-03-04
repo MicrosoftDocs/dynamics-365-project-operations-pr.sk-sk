@@ -78,3 +78,6 @@ Záznam cenovej dimenzie pre **msydn_bookableresource** musí byť oboznámený 
 5. Pridajte **msdyn_bookableresourceid** do poľa **Názov poľa**.
 
  ![Názov formulára Nová cenová dimenzia](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

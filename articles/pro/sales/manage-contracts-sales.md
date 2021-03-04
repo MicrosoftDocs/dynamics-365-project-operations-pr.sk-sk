@@ -33,3 +33,6 @@ Zoznam všetkých projektových zmlúv je uvedený na stránke so zoznamom **Zml
 2. Vyberte ikonu **Prepínač zobrazení** (šípka rozbaľovacej ponuky vedľa názvu zobrazenia) a vyberte ďalšie filtrované zobrazenia. Môžete si vytvoriť svoje vlastné zobrazenia pomocou vlastných kritérií filtra.
 
 Zmluvy je možné vytvárať alebo mazať z tejto stránky so zoznamom alebo zo stránok s podrobnosťami.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Pretože rezervácie a priradenia nie sú úzko prepojené, existuje možnosť z
 > [!NOTE]
 > Ak presuniete úlohu, ktorú ste tvarovali sami, nie sú zachované tieto kontúry. Obrysy sú regenerované podľa kalendár projektu, aby sa zohľadnili zmeny v pracovných hodín a sviatky. Ide o zámerný prvok, pretože systém nepozná úmysel pôvodného tvaru a nedokáže rozhodnúť, či má zmysel zachovávať daný prvok v novom časovom období. Pretože rezervácie a úlohy sú odpojené, rezervácie si udržiavajú pôvodné prvky rezervácie. V tomto prípade budete musieť pristúpiť k zrušeniu a opätovnej rezervácie na nový prvok priradenia.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -167,3 +167,6 @@ Ak vaša spoločnosť pracuje ako jedna jednotka, ktorá má jeden cenník nákl
 Keď je projekt vytvorený samostatne, predvolená zmluvná jednotka projektu je založená na používateľovi, ktorý ho vytvorí. Tento používateľ je tiež predvoleným projektovým manažérom. Ak je projekt priradený k predajnej entite, ako je napríklad cenová ponuka alebo projektová zmluva, zmluvná jednotka projektu je založená na predajnej entite. V tomto prípade môžu byť prepočítané odhady projektu, pretože cenník nákladov sa používa na výpočet odhadu nákladov zmeny, ak sa zmení zmluvná jednotka. Predajný cenník sa používa na výpočet odhadov predaja, ktoré sa zmenia tak, aby boli synchronizované s cenníkom projektu v cenovej ponuke.
 
 Polia **Contracting Unit** a **Currency** v projekte sú zamknuté pre úpravy, pretože musia byť synchronizované s hodnotami na predajnej entite (cenová ponuka alebo projektová zmluva), ku ktorej je projekt priradený.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Ak chcete vytvoriť šablóny nákladov, postupujte podľa týchto krokov:
 7. Na karte **Kategórie** vyberte kategórie projektu, ktoré sa majú zahrnúť do riadku šablón nákladov.
 8. Na karte **Všeobecné** vyberte, či bude tento riadok zahrnutý do percenta výpočtu dokončenia.
 9. Vyberte metódu nákladov na dokončenie, ktorá sa má použiť pri výpočte percenta dokončenia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Ak chcete vykonať kroky v tejto téme, uistite sa, že máte priradenú rolu Sp
 3. Do poľa **Množstvo** zadajte množstvo, ktoré bude jednotka obsahovať. Ak napríklad krabica obsahuje dva kusy, zadajte hodnotu „2”. 
 4. V poli **Základná jednotka** vyberte základnú jednotku, aby ste určili najnižšiu jednotku merania pre jednotku. Môžete napríklad zvoliť „Kus“.
 5. Vyberte položku **Uložiť**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

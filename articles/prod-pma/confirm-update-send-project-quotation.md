@@ -57,3 +57,6 @@ Ak chcete upraviť existujúcu cenovú ponuku projektu, musí byť stav cenovej 
 
 > [!NOTE]
 > Po zmene stavu na **Odoslaná** nemožno upraviť cenovú ponuku projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

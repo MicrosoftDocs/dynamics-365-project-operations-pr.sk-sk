@@ -73,3 +73,6 @@ Kliknite na odkaz nižšie a dozviete sa viac o tom, čo môžete urobiť so [!I
  [Príručka manažéra obchodného vzťahu](../psa/account-manager-guide.md)   
  [Príručka projektového manažéra](../psa/project-manager-guide.md)   
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

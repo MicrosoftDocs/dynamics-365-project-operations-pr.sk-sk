@@ -72,3 +72,6 @@ Keď je Arnie pripravený odoslať údaje z výkazu výdavkov dodávateľovi tre
 Arnie musí overiť, či sú transakcie výkazu výdavkov oprávnené na vrátenie DPH a či sú k výkazom pripojené digitálne potvrdenky. Aby mohol Arnie začať spracúvať oprávnené výdavky na tuzemské vrátenie, otvorí stránku **Vrátenie dane z výdavkov** a vyberie výkaz výdavkov, ktorý sa má overiť. Skontroluje, či sú potvrdenky uvedené v mene spoločnosti a nie zamestnanca. Na účely vrátenia DPH musia byť príjmové doklady uvedené v mene spoločnosti. Arnie potom potvrdzuje, že boli použité správne kódy skupiny DPH a položky DPH.
 
 Keď Arnie dostane papierové potvrdenky, zmení stav výkazu výdavkov na **Pripravené na vrátenie**. Potom môže podať žiadosť o vrátenie na príslušnom daňovom úrade. V tomto prípade je príslušným daňovým úradom v USA Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Ako projektový manažér možno budete musieť rezervovať zdroj v projekte, ak
 
 > [!NOTE]
 > Táto metóda nevytvára pre zdroj žiadne rezervácie. Namiesto toho pridá zdroj do tímu. Po pridaní člena tímu do projektu môže projektový manažér pomocou údržby rezervácií alebo rozšírenia rezervácií pridať požadované rezervácie do zdroja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

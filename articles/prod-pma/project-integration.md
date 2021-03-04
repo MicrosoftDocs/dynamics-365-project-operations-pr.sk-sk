@@ -127,3 +127,6 @@ Ak chcete vytvoriť novú štruktúru rozdelenia práce pomocou Microsoft Projec
 8.  Vyberte **Kalendár** , ktorý sa má použiť na zabezpečenie zdrojov.
 
 11. Kliknite na tlačidlo **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

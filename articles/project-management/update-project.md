@@ -48,3 +48,6 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 - **Celkový stav projektu**: Celkový stav projektu poskytnutý projektovým manažérom.
 - **Komentáre**: Popis týkajúci sa aktuálneho stavu projektu poskytnutý projektovým manažérom.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

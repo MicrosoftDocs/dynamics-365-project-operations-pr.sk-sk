@@ -62,3 +62,6 @@ Nasledujúci postup vysvetľuje, ako vytvoriť projektový tím.
 ## <a name="monitor-project-teams"></a>Monitorovanie projektových tímov
 1. Na stránke **Všetky projekty** vyberte prepojenie **ID projektu** pre projekt **Fáza 2 inovácie XYZ**.
 2. Na rýchlej karte **Projektový tím a plánovanie** skontrolujte správnosť zdrojov projektu, ktoré sú uvedené.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

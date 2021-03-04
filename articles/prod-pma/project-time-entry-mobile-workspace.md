@@ -113,3 +113,6 @@ Stiahnite a nainštalujte mobilnú aplikáciu Finance and Operations:
 11. Vyberte vlastnosť riadka.
 12. Voliteľne: Zadajte akékoľvek externé a interné komentáre.
 13. Vyberte **Hotovo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

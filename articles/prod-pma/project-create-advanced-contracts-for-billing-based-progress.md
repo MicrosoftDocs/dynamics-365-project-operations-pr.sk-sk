@@ -103,3 +103,6 @@ Kategórie rozpočtu sa používajú na automatický výpočet čiastky faktúry
 8. Voliteľné: Priraďte pravidlo fakturácie ďalším projektom. Na karte FastTab **Projekt** v časti **Dostupné projekty** vyberte projekt a potom kliknutím na tlačidlo so šípkou doprava pridajte projekt do časti **Vybrané projekty**.
 9. Voliteľné: Vypočítajte percentuálnu čiastku, ktorú zákazník zadržuje z platieb na faktúre. Na karte FastTab **Podmienky uchovania platby** vyberte zdroj financovania a potom do poľa **Percento zadržania** zadajte percento zadržania.
 10. Opakovaním týchto krokov vytvoríte ďalšie pravidlá fakturácie pre projektovú zmluvu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

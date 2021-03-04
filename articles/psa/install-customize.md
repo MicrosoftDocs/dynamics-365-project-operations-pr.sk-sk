@@ -55,3 +55,6 @@ Možnosti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto
  [Príručka projektového manažéra](../psa/project-manager-guide.md)   
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)   
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

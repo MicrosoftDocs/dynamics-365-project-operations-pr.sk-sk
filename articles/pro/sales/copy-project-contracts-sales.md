@@ -45,3 +45,6 @@ Nasledujúce informácie sa nekopírujú zo **zdrojovej** do **cieľovej zmluvy*
   - Informácie o rozpočte zákazníka
 
 Pretože sú tieto informácie veľmi špecifické pre každú zmluvy, tieto polia a záznamy sa nekopírujú. Skopírujú sa riadky zmluvy pre projekty a produkty, odhady podrobností v riadku zmluvy a hodnoty na úrovni zmluvy, ktoré sa nemajú prekročiť. Predvolené ceny a sadzby nákladov závisia od výberu v poli **Kopírovať ceny** na stránke dialógového okna **Kopírovať parametre**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

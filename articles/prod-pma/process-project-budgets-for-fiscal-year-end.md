@@ -98,3 +98,6 @@ Keď spracujete zostávajúce sumy rozpočtu, môžete v hlavnej knihe vytvoriť
 5. Pre každý projekt, ktorý chcete spracovať, vyberte možnosť na začiatku riadku pre projekt. 
 6. Vyberte možnosť **Spracovať** a preneste zostávajúce sumy rozpočtu pre vybrané projekty do vybratého fiškálneho roka.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

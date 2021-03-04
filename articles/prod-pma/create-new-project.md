@@ -104,3 +104,6 @@ Počas rezervácie zdrojov môžu projektoví manažéri filtrovať zdroje rolí
 
 3. Vyberte **Uložiť** a potom zatvorte stránku.
 4. Na karte **Kompetencie** pridajte zručnosť **ProjectMgmt** a certifikát **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

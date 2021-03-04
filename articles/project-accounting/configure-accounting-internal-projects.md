@@ -32,3 +32,6 @@ S akýmkoľvek projektom, ktorý nie je spojený so zmluvou v Dynamics 365 Proje
 Po pridaní transakcií do projektu, ak je projekt spojený so zmluvou o projekte, systém vráti všetky akumulované transakcie a vytvorí nové fakturovateľné transakcie. Fakturovateľné transakcie sa riadia účtovnými pravidlami definovanými v príslušnom profile nákladov a výnosov projektu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

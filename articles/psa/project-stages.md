@@ -65,3 +65,6 @@ Keď je dokončená práca pre projekt, projektový manažér môže aktualizova
 ## <a name="close"></a>Zavrieť
 
 Keď sú všetky transakcie zaznamenané pre projekt, projektový manažér môže aktualizovať fázu na **zatvorené**. V tomto momente nie je možné zaznamenať žiadne transakcie a projekt je nastavený iba na čítanie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

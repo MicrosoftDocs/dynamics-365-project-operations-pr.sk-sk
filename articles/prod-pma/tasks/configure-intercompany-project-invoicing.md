@@ -64,3 +64,6 @@ Táto téma ukazuje, ako nastaviť fakturáciu projektu medzi dvoma spoločnosť
 32. V poli **Ceny** zadajte číslo.
 33. Vyberte položku **Uložiť**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Pred vytvorením projektové plány, musíte vytvoriť kalendár, ktorý určuje
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Nastavenie prostriedkov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

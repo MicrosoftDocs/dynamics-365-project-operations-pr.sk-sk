@@ -34,3 +34,6 @@ ms.locfileid: "5145737"
 Všetky finančné transakcie, ktoré nastanú počas projektu sú zaznamenané. Tieto transakcie sa zaznamenávajú ako **skutočné údaje**. Nasledujúca tabuľka zobrazuje rôzne typy skutočných údajov, ktoré sú vytvorené, v závislosti od toho, či je projekt, čas a materiál alebo projekt s pevnou cenou, alebo interný projekt, alebo či je v štádiu predpredaja.
 
 > ![Tabuľka ukazujúca, ako sa zaznamenávajú skutočné údaje](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

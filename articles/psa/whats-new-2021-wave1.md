@@ -43,3 +43,6 @@ Vyriešili sa tieto problémy:
 
 - Dátumy ukončenia sa automaticky vyplnia, keď sa vytvorí časový údaj, ak je čas trvania nulový.
 - Používatelia môžu zmeniť úlohu pri zadaní času, ktorý bol schválený alebo odoslaný.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

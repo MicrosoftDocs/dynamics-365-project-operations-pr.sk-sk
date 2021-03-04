@@ -170,3 +170,6 @@ Nasledujúca ilustrácia ukazuje príklady mapovania úlohy šablóny v Integrá
 [![Mapovanie šablón transakcií s odhadom výdavkov](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mapovanie šablón odhadov výdavkov](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

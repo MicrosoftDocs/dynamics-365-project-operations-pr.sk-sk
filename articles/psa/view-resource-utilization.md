@@ -43,3 +43,6 @@ Môžete skontrolovať využitie prostriedkov a stanovenie hladiny využitia pre
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

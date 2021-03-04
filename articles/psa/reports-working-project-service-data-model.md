@@ -123,3 +123,6 @@ Keď pracujete s entitou **Skutočná hodnota**, je dôležité, aby ste pochopi
 Entita **Pôvod transakcie** zaznamenáva pôvod záznamu **Skutočná hodnota** a entita **Kontaktná osoba pre transakciu** zaznamenáva súvisiace záznamy pre záznam **Skutočná hodnota**. Okrem toho záznam **Skutočná hodnota** obsahuje odkazy projektu, projektovú zmluvy (objednávka), rezervovateľný zdroj a zákazníka.
 
 ![Schéma znázorňujúca transakčné spojenie, pôvod a skutočné vzťahy](media/PS-Reporting-image6.png "Schéma znázorňujúca transakčné spojenie, pôvod a skutočné vzťahy")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Všetky vytvorené faktúry pre projekt sú k dispozícii na stránke **Faktúra
 Proforma faktúra môže byť vytvorená aj na stránke s podrobnosťami **Zmluva o projekte**. Systém overuje, ktoré z projektových zmlúv majú nevybavené termíny **Pripravené na faktúru** datované pred dnešným dátumom. Z týchto zmlúv systém vytvára koncepty zálohových faktúr na základe počtu zákazníkov v každom riadku zmluvy.
 
 Po vytvorení samostatnej zálohovej faktúry sa otvorí stránka **Faktúra**. Ak sa pre túto projektovú zmluvu vytvorí viac faktúr, otvorí sa stránka so zoznamom **Faktúry**, kde sa zobrazia všetky vytvorené faktúry.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

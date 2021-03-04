@@ -24,3 +24,6 @@ Príležitosti projektu je možné uzavrieť ako využité alebo nevyužité. Di
 Príležitosť nebudete môcť uzavrieť, ak sú s ňou spojené nejaké aktívne ponuky. Môžete naraz zatvoriť všetky aktívne ponuky a koncepty ponúk spojené s príležitosťou. Potom budete mať možnosť túto príležitosť uzavrieť.
 
 Pre viac všeobecných informácií o uzavretí príležitostí nájdete v časti [Uzavretie príležitosti ako využitej alebo nevyužitej](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

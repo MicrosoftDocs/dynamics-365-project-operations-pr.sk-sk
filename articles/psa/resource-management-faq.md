@@ -54,3 +54,6 @@ Po rezerváciách zdrojov vyberte položku **Spravovanie rezervácií**, aby ste
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Aký je rozdiel medzi priradením a rezerváciou?
 
 Priradenia sú priraďovanie zdrojov k projektovým úlohám v pláne projektu. Zdroje môžu byť buď skutočnými, alebo všeobecnými zdrojmi. Rezervácie sú pevné alebo predbežné alokácie zdrojov k projektu. Pevné rezervácie spotrebúvajú kapacitu zdroja. V ideálnom prípade sa pri reálnych zdrojoch musia rezervácie a priradenia zhodnúť, pretože sa nelíšia. Avšak, PSA nepresadzuje túto zmluvu. V zobrazení Vyrovnanie sa zobrazuje projektový manažér, v ktorom nesúhlasia rezervácie a priradenia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

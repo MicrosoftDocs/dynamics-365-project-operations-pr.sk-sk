@@ -57,3 +57,6 @@ Pravidlo: Projekt a určitá trieda transakcií môžu byť v zmluve zahrnuté i
 | C1       | CL2           | P1      | No           | Áno             | No          | Platné           | Čas a poplatky za projekt P1 sú zahrnuté v CL1. Výdavky na projekt P1 sú zahrnuté v CL2. </br>   Čo sa týka každého riadku zmluvy, nedochádza k žiadnemu prekrývaniu, a preto je to platné.  |
 | C1       | CL1           | P1      | Áno          | Áno             | Áno         | Neplatný       | Porušuje pravidlo. Čas, výdavky a poplatky za projekt P1 sú zahrnuté v riadkoch dvoch zmlúv.                                                                                               |
 | CL2      | CL2           | P1      | Áno          | Áno             | Áno         | Neplatný       | Porušuje pravidlo. Čas, výdavky a poplatky za projekt P1 sú zahrnuté v riadkoch dvoch zmlúv.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

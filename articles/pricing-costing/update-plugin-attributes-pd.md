@@ -52,3 +52,6 @@ Vykonaním nasledujúcich krokov aktualizujete a znova zaregistrujete doplnky.
 7. Výberom tlačidla **OK** zatvoríte stránku a potom vyberte **Aktualizovať krok**.
 8. Opakujte kroky 2 až 7 pre druhý doplnok **PreOperationQuoteLineDetail**. Pre tento doplnok budete musieť aktualizovať krok **Aktualizácia msdyn_quotelinetransaction**.
 9. Zatvorte nástroj **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

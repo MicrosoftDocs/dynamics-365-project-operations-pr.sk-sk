@@ -132,3 +132,6 @@ Overenia doplnku by ste mali použiť pre akékoľvek overenia vyžadujúce si v
 
 > [!IMPORTANT] 
 > V súčasnosti známy problém na stránkach TBX zabraňuje používateľom opraviť informácie a opätovné voľby vykonať, keď zlyhá overovanie doplnku. Ako riešenie nastavte overovanie obchodného pravidla na čo najväčšie zabránenie tejto situácii.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

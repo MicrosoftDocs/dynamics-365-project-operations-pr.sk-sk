@@ -23,3 +23,6 @@ Dynamics 365 Project Operations obsahuje logiku overovania, ktorá zaisťuje spr
 
   - Všetky podporné riadky sa vytvárajú v súvisiacich tabuľkách, ako sú napríklad denníky a skutočné údaje.
   - Schvaľovateľ je označený ako **Schvaľovateľ projektu** pred pokračovaním v projekte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

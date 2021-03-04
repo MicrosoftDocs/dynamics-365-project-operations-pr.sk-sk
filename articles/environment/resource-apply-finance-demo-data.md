@@ -79,3 +79,6 @@ Dokončenie trvá pár minút. Mali by ste dostať potvrdzujúce hlásenie, že 
 18. Ukončite reláciu vzdialenej plochy a pomocou stránky **Podrobnosti o prostredí** LCS sa prihláste do prostredia a uistite sa, že funguje podľa očakávaní.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

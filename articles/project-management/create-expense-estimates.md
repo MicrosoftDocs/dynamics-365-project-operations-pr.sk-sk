@@ -38,3 +38,6 @@ Pre každú položku riadka výdavku sú definované nasledujúce atribúty:
 - **Jednotková obstarávacia cena**: Jednotková cena použitá na náklady výdavkov.
 - **Jednotková predajná cena**: Jednotková cena použitá na výpočet predajných cien výdavkov.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

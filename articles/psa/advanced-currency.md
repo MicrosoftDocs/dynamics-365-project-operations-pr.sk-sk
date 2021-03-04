@@ -105,3 +105,6 @@ Dynamics 365 automaticky spracováva súhrn čiastok v rôznych menách. Tu je p
 | Výdavok           | Nefakturovaný predaj   | 17. Jún | Erik  | Požičovňa áut           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 Na výpočet celkovej hodnoty nefakturovaného predaja v projekte, môžete vytvoriť súhrnné pole pre **Amount** pole na všetky súvisiace skutočné hodnoty nefakturovaný predajov. skutočné hodnoty. Pole súhrnu je konštrukcia pre Dynamics 365, ktorý umožňuje rýchle vzorce na súvisiace záznamy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

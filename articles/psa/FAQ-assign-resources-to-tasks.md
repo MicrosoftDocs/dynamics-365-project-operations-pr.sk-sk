@@ -82,3 +82,6 @@ Prostriedky pridelené týmto spôsobom sa pridajú do tímu bez akýchkoľvek r
 
 3. V zozname vyberte zdroj, ktorý chcete priradiť k úlohe.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

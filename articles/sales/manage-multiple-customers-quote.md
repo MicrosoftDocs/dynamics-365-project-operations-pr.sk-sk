@@ -51,3 +51,6 @@ Zákazník cenovej ponuky môže byť vytvorený, aktualizovaný alebo vymazaný
 Percentuálne podiely rozdelenia fakturácie môžete upraviť pomocou prostredia na úpravy v mriežke. Ak percentá rozdelenia fakturácie nedosiahnu 100 %, dôjde k chybe. Po aktualizácii percentuálnych podielov rozdelenia fakturácie chybu obnovte obnovením stránky.
 
 Môžete tiež skúsiť vybrať **Rovnomerne distribuovať** na vedľajšej mriežke zákazníkov cenovej ponuky. Táto akcia prideľuje rozdelenie fakturácie všetkým zákazníkom cenových ponúk. Ak existuje nejaký faktor zaokrúhľovania, pridá sa k zákazníkovi zaokrúhľovania. Jeden zo zákazníkov cenovej ponuky je vždy označený ako zákazník zaokrúhľovania. to znamená, že záznam zákazníka cenovej ponuky má nastavený príznak **Zaokrúhľovanie** na **Áno**. Spravidla ide o primárneho zákazníka cenovej ponuky, ale túto voľbu je možné zmeniť.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

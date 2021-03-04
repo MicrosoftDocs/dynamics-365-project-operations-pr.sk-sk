@@ -440,3 +440,6 @@ Po výpočte výpisu si môžete na rôznych kartách na serveri pozrieť nasled
 -   **Spotreba** – Informácie o spotrebe hodín, položiek, výdavkov a mzdových transakciách.
 -   **Faktúra** – Informácie o faktúrach a fakturácii na účet.
 -   **Hodinová sadzba** – Hodinové sadzby za hodiny, ktoré sa účtujú na účtoch výnosov a nákladov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

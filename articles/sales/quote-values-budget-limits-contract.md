@@ -43,3 +43,6 @@ V nasledujúcej tabuľke sú uvedené polia súhrnných informácií pre cenovú
 | Analýza ziskovosti | Karta na cenovej ponuke | Karta zobrazuje nasledujúce metriky:</br>- Celkové účtovateľné náklady</br></br>- Celkové neúčtovateľné náklady</br>- Celkové výnosy</br>- Celkové výnosy (základné)</br>- Hrubý zisk</br>- Upravený hrubý zisk|
 | Porovnanie s očakávaniami zákazníka | Karta na cenovej ponuke | Táto karta zobrazuje nasledujúce metriky:</br>- Odhadované dokončenie</br>- Požadované dokončenie</br>- Rozpočet zákazníka</br>- Hodnota ponuky |
 | Analýza cenovej ponuky | Karta na cenovej ponuke | Táto karta sumarizuje nasledujúce najlepšie kľúčové ukazovatele výkonu týkajúce sa cenovej ponuky projektu</br>- Porovnanie s očakávaniami zákazníka, pokiaľ ide o rozpočet a plán</br>- Hrubý zisk</br>- Upravený hrubý zisk |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

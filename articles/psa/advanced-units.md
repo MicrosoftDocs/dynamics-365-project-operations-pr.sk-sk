@@ -112,3 +112,6 @@ Nie. Odhad plánu je momentálne obmedzený na hodiny a nedá sa zmeniť.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Môžu byť jednotky a jednotkové skupiny upravené, vymazané a pridané?
 Áno. S výnimkou **Time** jednotkových skupín a **Hour** jednotky je možné všetky jednotky odstrániť alebo upraviť a pridať nové jednotky. V PSA nie je možné **Time** jednotkovú skupinu a **Hour** jednotku odstrániť. Avšak môžu byť aktualizované s preloženým textom pre pole **Name**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

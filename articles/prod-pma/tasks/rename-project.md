@@ -35,3 +35,6 @@ Etapy projektu môžu slúžiť ako sprievodca životným cyklom projektu. Etapy
 4. V zozname vyberte vopred zadefinovanú alebo používateľsky definovanú etapu, ktorú chcete upraviť. 
 5. Do poľa Etapa projektu zadajte nový názov.
 6. Kliknite na tlačidlo Uložiť.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

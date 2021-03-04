@@ -73,3 +73,6 @@ Informácie o aktualizáciách pre Project Service nájdete v [plánoch vydania 
 >[!Note]
 > - Dátumy vo všetkých regiónoch okrem cloudu vládneho spoločenstva (GCC) označujú načasovanie ďalšej automatickej aktualizácie. Dátumy v GCC označujú dostupnosť verzie; v súčasnosti pre tieto regióny neexistuje automatická aktualizácia.
 > - Vo všetkých ostatných regiónoch by väčšina aktualizácií mala byť dokončená v naplánovanú noc, ale aktualizácie vyžadujúce viac času môžu byť dokončené počas nevyužívaných hodín cez víkend uvedený v stĺpci **Plánovaný dátum**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

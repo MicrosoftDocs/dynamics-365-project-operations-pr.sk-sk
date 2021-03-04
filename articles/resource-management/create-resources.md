@@ -20,3 +20,6 @@ ms.locfileid: "4514584"
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Môžete využiť Dynamics 365 Field Service na vytvorenie rezervovateľných zdrojov na použitie vo vašom prostredí Dynamics 365 Project Operations. Ak chcete vytvoriť tieto zdroje, pozrite si stránku [Nastavenie rezervovateľných zdrojov](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

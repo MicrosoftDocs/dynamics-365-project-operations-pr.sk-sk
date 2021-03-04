@@ -231,3 +231,6 @@ V nasledujúcej tabuľke je uvedené, ako sa synchronizujú údaje medzi Project
 
 ### <a name="see-also"></a>Pozrite si tiež  
  [Príručka projektového manažéra](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

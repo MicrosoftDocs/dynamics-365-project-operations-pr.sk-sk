@@ -49,3 +49,6 @@ Moje časové rozvrhy (Optimalizované pre mobilné zariadenia) a Časové výka
 - [Zadanie času projektu]( project-time-entry-mobile-workspace.md)
 - [Premietajte časové rozvrhy na mobilnom zariadení](Mobile-timesheets.md)
 - [Implementujte vlastné polia pre mobilnú aplikáciu Microsoft Dynamics 365 Project Timesheet pre iOS a Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

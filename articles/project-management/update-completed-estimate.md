@@ -36,3 +36,6 @@ Existujú dva spôsoby, ktoré projektový manažér môže znovu predpokladať 
 - Prepísať predvolené percento priebehu s novým odhadom skutočného priebehu úlohy.
 
 Každý z týchto prístupov spôsobuje prepočítanie ETC úlohy, odhadu na dokončenie (EAC) a percenta pokroku a odchýlku predpokladaného úsilia úlohy. EAC, ETC a percento pokroku na súhrnných úlohách sú tiež prepočítané a vytvárajú nový návrh odchýlky úsilia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

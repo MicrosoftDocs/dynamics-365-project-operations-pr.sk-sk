@@ -75,3 +75,6 @@ Po dokončení predchádzajúcich úloh môžete podľa potreby dokončiť nasle
 - Splniť požiadavky na zdroje.
 - Vyžiadajte si personálny zdroj zo štruktúry WBS.
 - Zarezervujte si zdroje pre projekt bez toho, aby ste museli vyžadovať personálny zdroj.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

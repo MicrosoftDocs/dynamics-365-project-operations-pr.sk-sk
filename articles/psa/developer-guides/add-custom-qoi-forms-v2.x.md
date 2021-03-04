@@ -96,3 +96,6 @@ Ak chcete vytvoriť vlastnú verziu informačného formulára **Projektové Info
     ```
 
 6. Uložte a potom zverejnite prispôsobenia.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

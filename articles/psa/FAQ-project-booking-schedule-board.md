@@ -91,3 +91,6 @@ Ak chcete rezervovať z novej požiadavky zdroja, postupujte podľa nasledujúci
 
 4. Teraz keď je zdroj zarezervovaný, musíte manuálne priradiť úlohy.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

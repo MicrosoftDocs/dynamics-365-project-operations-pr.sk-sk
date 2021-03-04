@@ -73,3 +73,6 @@ Môžete vytvoriť dve dimenzie založené na množine možností. Použite **mi
 > ![Vzorové údaje pre štandardný nadpis entity. ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

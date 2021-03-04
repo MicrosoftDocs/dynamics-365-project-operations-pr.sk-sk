@@ -58,3 +58,6 @@ Odhad alebo skutočná hodnota vytvorená pre výdavok sa považuje za účtovat
 | No | Áno | Nie je možné nastaviť | Neúčtovateľné | Fakturácia skutočnej hodnoty času: Nedostupné </br>Typ fakturácie skutočnej hodnoty výdavku: Neúčtovateľné |
 | Áno | No | Účtovateľné | Nie je možné nastaviť | Fakturácia skutočnej hodnoty času: Účtovateľné </br>Typ fakturácie skutočnej hodnoty výdavku: Nedostupné |
 | Áno | No | Neúčtovateľné | Nie je možné nastaviť | Fakturácia skutočnej hodnoty času: Neúčtovateľné </br> Typ fakturácie skutočnej hodnoty výdavku: Nedostupné |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

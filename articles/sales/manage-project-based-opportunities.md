@@ -65,3 +65,6 @@ Proces predaja príležitosti v Project Operations je rozšírením obchodného 
 > Ak sa začala dohoda na základe projektu s príležitosťou, prednosť má proces predaja príležitosti.
 
 Môžete upraviť tok obchodného procesu produktu alebo vytvoriť vlastné toky obchodných procesov, aby ste mohli podľa potreby sledovať svoj proces predaja. Ďalšie informácie o toku obchodných procesov si prečítajte v časti [Prehľad tokov obchodných procesov](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

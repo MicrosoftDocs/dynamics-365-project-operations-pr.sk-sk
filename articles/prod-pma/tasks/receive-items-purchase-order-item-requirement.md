@@ -56,3 +56,6 @@ Táto úloha používa množinu údajov USSI.
 21. V poli **Príjem produktu** zadajte hodnotu.
 22. Vyberte položku **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

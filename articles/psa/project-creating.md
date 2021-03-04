@@ -149,3 +149,6 @@ Ak nemá úloha listového uzla predchodcov, jej dátum začiatku je prednastave
 ### <a name="manual-scheduling"></a>Ručné plánovanie
 
 Ak pravidlá automatického plánovania nespĺňajú vaše požiadavky, môžete nastaviť režim úloh pre úlohu na **manuálne naplánované.** Tým plánovací systém prestane vypočítavať hodnoty ostatných atribútov plánovania. Bez ohľadu na režim úloh, ak nastavíte predchodcov úloh, vždy ovplyvníte dátum začatia závislej úlohy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

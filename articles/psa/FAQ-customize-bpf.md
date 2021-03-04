@@ -107,3 +107,6 @@ Na vytvorenie vlastného toku obchodného procesu pre entitu projektu postupujte
 
    ![Snímka obrazovky úpravy zobrazení projektovej entity](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

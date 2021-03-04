@@ -60,3 +60,6 @@ Ak zadáte hodnoty pre nasledujúce polia, môžete analyzovať cenové ponuky a
 Analýza očakávaní zákazníkov o harmonograme sa vykonáva porovnaním posledného koncového dátumu riadka cenovej ponuky s požadovaným dátumom doručenia vo všetkých riadkoch cenovej ponuky v cenovej ponuke.
 
 Analýza očakávaní zákazníkov o rozpočte sa vykonáva porovnaním súčtu celkového rozpočtu zákazníka s ponúkanou sumou vo všetkých riadkoch cenových ponúk.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

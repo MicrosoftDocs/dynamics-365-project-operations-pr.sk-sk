@@ -46,3 +46,6 @@ Ak chcete z vlastností produktu vytvoriť faktory množstva, vykonajte nasleduj
 7. Opakujte kroky 2 až 6 pre všetky vlastnosti, ktoré spolu tvoria kvantitu riadok zmluvy založenej na produkte.
 
 Keď sú nastavené faktory kvantity, keď používateľ vytvorí pre tento produkt riadok zmluvy, kvantita riadka zmluvy sa uzamkne. Kvantita sa potom vypočíta ako súčin hodnôt vlastností pre daný riadok zmluvy.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

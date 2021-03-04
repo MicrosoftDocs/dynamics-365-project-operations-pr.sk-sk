@@ -80,3 +80,6 @@ Keď dodávateľ dokončí svoju prácu na projekte a pošle vám faktúru, mus�
 2. Na stránke **Faktúra dodávateľa s platbou, keď je zaplatená** do vyhľadávacieho poľa zadajte hodnoty, aby ste našli faktúru dodávateľa, ktorú chcete skontrolovať, a potom stlačte **Vyhľadať**.
 3. Na karte FastTab **Riadky faktúr dodávateľa** vyberte riadky, ktoré chcete zmeniť.
 4. Ak sú splnené podmienky **Zaplatiť po zaplatení** pre riadok faktúry, stlačte možnosť **Uvoľnite platbu dodávateľa**. Možnosť **Zaplatiť po zaplatení** sa zruší a hodnota poľa **Pripravené na platbu** sa zmení na **Áno**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

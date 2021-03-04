@@ -68,3 +68,6 @@ Budete musieť pridať nasledujúce entity služby Project Service na vaše ceno
 > ![Nezahrnúť súvisiace súčasti](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

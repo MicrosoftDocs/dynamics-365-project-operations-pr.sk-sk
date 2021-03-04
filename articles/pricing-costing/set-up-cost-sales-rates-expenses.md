@@ -55,3 +55,6 @@ Ak je táto cenová metóda vybraná v cenovom riadku kategórie, ktorý je prep
 
 ### <a name="markup-over-cost"></a>Prirážka nad rámec nákladov
 Ak je táto cenová metóda vybraná v cenovom riadku kategórie, ktorý je prepojený s cenníkom predajnej ceny, predvolená cena pre kombináciu kategórie a jednotky je výlučne aj v skutočnej hodnote. Napríklad nevyfakturované skutočné predaje pre triedu nákladových transakcií. Táto jednotková cena je nastavená na skutočný nevyfakturovaný predaj na vypočítanú hodnotu z jednotkovej ceny na skutočnom náklade pre daný výdavok po uplatnení definovaného percenta prirážky. Predvolené nastavenie ceny na základe nákladov sa nevykonáva na základe odhadov výdavkov projektu alebo podrobností riadka ponuky a riadka zmluvy na strane výdavkov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

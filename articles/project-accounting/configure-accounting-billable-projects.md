@@ -125,3 +125,6 @@ Pevná cena – dokončenie v percentách
 Pravidlá profilu nákladov a výnosov projektu určujú profil nákladov a výnosov projektu, ktoré sa musia použiť pri spracovaní akýchkoľvek fakturovateľných transakcií projektu. Pravidlá definujte tak, že prejdete na **Riadenie projektu a účtovníctvo** \> **Nastaviť** \> **Zaúčtovanie** \> **Pravidlá profilu nákladov a výnosov projektu**.
 
 Pravidlá môžu byť definované zmluvou o projekte, projektovou skupinou alebo konkrétnym projektom. Systém vždy najskôr vyberie pravidlo najvyššej podrobnosti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

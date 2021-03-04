@@ -32,3 +32,6 @@ Ak sú náklady na správu o výdavkoch účtované inej spoločnosti ako spolo�
 Ak chcete zaúčtovať výkaz výdavkov, na stránke **Schválené výkazy výdavkov** vyberte výkaz výdavkov a potom na table akcií vyberte **Príspevok**.
 
 Môžete tiež zaúčtovať všetky výkazy výdavkov v zozname súčasne. Vyberte všetky výkazy výdavkov a potom vyberte **Príspevok**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

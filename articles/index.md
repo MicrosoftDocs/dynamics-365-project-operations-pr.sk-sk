@@ -42,3 +42,6 @@ Project Operations je sám o sebe výkonný, ale môžu ho rozšíriť naši zá
 - [Prehľad Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Prehľad Dynamics 365 Project Operations 2020, vydanie wave 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

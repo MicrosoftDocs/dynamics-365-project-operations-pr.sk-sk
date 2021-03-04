@@ -91,3 +91,6 @@ Zopakujte rovnaké kroky ako pri prvom kóde ponuky. Nezabudnite pridať druhý 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Nainštalujte ukážkové údaje konfigurácie a nastavenia CDS
 
 Nainštalujte ukážkové údaje konfigurácie a nastavenia CDS podľa pokynov v téme [Použiť ukážkové údaje nastavenia a konfigurácie](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

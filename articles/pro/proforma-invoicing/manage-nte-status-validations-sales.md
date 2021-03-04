@@ -73,3 +73,6 @@ Môžete vykonať hromadné prehodnotenie stavu, ktorý sa nesmie prekročiť. P
 Ak chcete prehodnotiť stav, ktorý sa nesmie prekročiť, vyberte jednu alebo viac skutočných hodnôt zo zobrazenia **Backlog pre fakturáciu času a materiálu** alebo **Skutočné hodnoty** a potom vyberte **Prehodnotiť stav, ktorý sa nesmie prekročiť**.
 
 Všetky príslušné vybrané skutočné hodnoty s limitom, ktorý sa nesmie prekročiť, sa vyhodnotia oproti nastaveniu limitu, ktorý sa nesmie prekročiť. Skutočné hodnoty, ktoré sú relevantné pre opätovné prehodnotenie stavu, ktorý sa nesmie prekročiť, sú nefakturované skutočné predaje, ktoré nie sú vyfakturované, nie na koncepte faktúry, a sú označené ako účtovateľné. Akékoľvek ďalšie príslušné vybraté skutočné hodnoty.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

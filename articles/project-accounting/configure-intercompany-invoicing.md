@@ -101,3 +101,6 @@ V nasledujúcom príklade je požičiavajúcou si právnickou osobou spoločnos�
           - **Spoločnosť zaisťujúca zdroje** = **Contoso Robotics UK**
           - **Sadzba fakturácie** = **200 USD**
       9. Prejdite na **Predaj** > **Zmluvy o projekte** a pripojte cenník **Fakturačné sadzby spoločnosti Adventure Works** do cenníka projektu spoločnosti Adventure Works projektovej zmluvy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

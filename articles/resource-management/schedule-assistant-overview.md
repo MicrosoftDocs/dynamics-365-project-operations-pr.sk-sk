@@ -57,3 +57,6 @@ Na table filtra sú zobrazené možnosti súvisiace s prácou, vrátane:
 -   Spoločnosť zaisťujúca zdroje
 -   Typy zdrojov
 -   Preferované zdroje
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

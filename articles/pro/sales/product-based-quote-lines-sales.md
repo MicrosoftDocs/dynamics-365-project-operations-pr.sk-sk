@@ -46,3 +46,6 @@ Ak je riadok cenovej ponuky založený na katalógu produktov, predajnú cenu m�
 Ak vyberiete **Prepísať ceny**, predvolená cena nie je nastavená. Namiesto toho musíte zadať cenu produktu v riadku cenovej ponuky. Ak vyberiete **Použiť predvolené**, použije sa predvolená predajná cena a pole je pre úpravy uzamknuté.
 
 Predvolené predajné ceny sa zapisujú do riadkov na základe produktov v cenovej ponuke. Pole **Ceny** sa potom nastaví na **Prepísanie cien**, aby ste mohli upraviť predvolenú cenu v riadkoch cenovej ponuky. Toto je prepísanie riadkov založených na produktoch špecifické pre aplikáciu Project Operations v Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

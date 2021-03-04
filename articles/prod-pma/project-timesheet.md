@@ -96,3 +96,6 @@ Kliknutím na **Odoslať** odošlete časový rozvrh do pracovného postupu schv
 ## <a name="review-timesheets"></a>Kontrola časových rozvrhov
 
 Zoznam časových výkazov, ktoré je potrebné skontrolovať, je k dispozícii v ponuke. Táto možnosť je k dispozícii, iba ak ste boli označený za schvaľovateľa pracovného postupu. Podporované je schválenie hlavičky aj riadku. Schválenie na úrovni riadkov ponúka možnosť označiť jeden alebo viac riadkov na schválenie. Po skontrolovaní informácií časového rozvrhu kliknite na **Schváliť** , **Delegovať** alebo **Vrátiť** a pokračujte v pracovnom postupe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Ak chcete otvoriť stránku **Integračné parametre Project Service Automation*
 | Predvolené hodnoty typu fakturácie  | Typ fakturácie         | Kliknutím na položku **Nový** pridáte riadok, kde môžete vybrať typ fakturácie a pre ktorý môžete nastaviť predvolenú vlastnosť riadka. Konkrétny typ fakturácie je možné v konfigurácii zvoliť iba raz. |
 |                        | Vlastnosť riadka        | Vyberte predvolenú vlastnosť riadka pre vybratý typ fakturácie. Pri synchronizácii nových odhadov hodín, nových odhadov výdavkov alebo nových skutočných hodnôt z Project Service Automation sa pole **Vlastnosť riadka** nastaví na predvolenú hodnotu pre typ fakturácie. |
 | Blokovanie funkcií  | Nevzťahuje sa       | Vyberte funkciu, ktorá pochádza z Project Service Automation a ktorú chcete zakázať v službe Finance pre projekty a zmluvy. Môžete napríklad vypnúť schopnosť upravovať zmluvy a projekty, vytvárať štruktúry rozdelenia práce a zadávať časové rozvrhy v službe Finance. Polia súvisiace s účtovníctvom budú naďalej povolené, aj keď ich nastavenie parametrov nesprístupní. V predvolenom nastavení sú povolené všetky funkcie. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

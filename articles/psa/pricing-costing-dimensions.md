@@ -77,3 +77,6 @@ Nasledujúci príklad zobrazuje fakturačné sadzby, ktoré sú nastavené na z�
 | ----------------|-------------|----------|----------:|----------|
 | Moje company_Band1 | Contoso US  |Hour | 145|USD     |
 | Moje company_Band2 | Blaho India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

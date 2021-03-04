@@ -26,3 +26,5 @@ Požiadavky zdrojov definuje projektový manažér s cieľom ustanoviť zdroje p
 3.  Na karte **Člen tímu** vyberte člena tímu a potom vyberte **Generovať požiadavku**.
 
 Informácie o tom, ako upraviť požiadavky zdrojov, nájdete v časti [Aktualizovanie podrobností o požiadaviek zdrojov](define-resource-requirements.md) na úpravu požiadaviek zdrojov.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Zdroje sú najdôležitejším prínosom organizácie založenej na službe. Sch
 - [Požiadavky na predbežnú rezerváciu.](resource-management-softbook-requirements.md)
 - [Modely zručností a odbornosti](resource-management-skills-proficiency.md)
 - [Časté otázky pre správu zdrojov](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Toto otvára stránku **Názov poľa novej cenovej dimenzie** pre **msdyn_bookab
 5. Pridajte **msdyn_projectteam** do poľa **logický názov entity** a **msdyn_bookableresourceid** do poľa **Názov poľa**. Uložte záznam.
 
  ![Názov formulára Nová cenová dimenzia](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

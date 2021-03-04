@@ -42,3 +42,6 @@ Zručnosti pre zdroje sú hodnotené podľa modelov odbornosti. Jednotlivé hodn
 
 
 Tieto hodnoty hodnotenia sa zobrazujú vo filtroch **Požiadavky na zdroje**, **Tabuľa plánovania** a **Asistent plánovania**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

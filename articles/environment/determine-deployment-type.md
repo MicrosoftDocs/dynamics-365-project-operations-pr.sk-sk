@@ -98,3 +98,6 @@ Určte najlepší model nasadenia Project Operations pomocou [Dotazníka o nasad
 
 Toto nasadenie je popísané v časti [Registrácia na odber ukážky](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) a [Zriadenie nového prostredia](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

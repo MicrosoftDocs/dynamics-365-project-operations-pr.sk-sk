@@ -37,3 +37,6 @@ Tento typ nasadenia použite, ak očakávate, že pri Project Operations sa bude
 - Integrovaný systém, ktorý spravuje interné a fakturovateľné projekty pre plány a financie od predaja projektu po fakturáciu.
 - Plánovanie podnikových zdrojov tretej strany (systém ERP/finančného účtovania, ktorý je možné integrovať do Project Operations).
 - Systém tretej strany pre prácu s daňami z predaja, výmennými kurzami, refundáciami výdavkov a mimoprojektovými výdavkami.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

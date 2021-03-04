@@ -57,3 +57,6 @@ Ak neexistuje žiadny riadok v role cenníka pre dimenzie oceňovania v skutočn
 
 Ak stále nevidíte platnú cenu na váš skutočný čas predaja po týchto troch kontroly vyššie, prihláste sa prosím na podporu lístok. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

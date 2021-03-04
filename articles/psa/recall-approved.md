@@ -107,3 +107,6 @@ Nasledujúci obrázok zobrazuje zmeny, ktoré sa vyskytnú pri schválených ča
 Nasledujúci obrázok zobrazuje zmeny, ktoré sa vyskytnú pri schválených výdavkových položkách, keď sú stiahnuté.
 
 ![Prechody stavu zadania výdavkov](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

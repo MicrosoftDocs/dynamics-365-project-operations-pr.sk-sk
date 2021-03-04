@@ -48,3 +48,6 @@ Ak máte priradenia úloh pre zdroj, ale žiadne rezervácie, na karte **Odsúhl
 Rezervácie, ktoré sa vytvárajú prostredníctvom servera **Rozšíriť rezerváciu**, sú spojené s požiadavkou primárneho projektu. Pri iniciovaní rozšírenia nie je možné určiť konkrétnu požiadavku, ktorú je potrebné predĺžiť, pretože zdroj môže byť spojený s viac ako jednou požiadavkou pre projekt.
 
 Projektový manažér alebo správca zdrojov potom môže pomocou tabule plánovania spravovať všetky situácie, v ktorých je zdroj prerezervovaný nad rámec jeho kapacity.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

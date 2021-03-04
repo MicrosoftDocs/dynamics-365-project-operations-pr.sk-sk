@@ -55,3 +55,6 @@ Výdavky, ktoré ešte neboli odoslané, je možné odstrániť. Ak chcete odstr
 ## <a name="see-also"></a>Pozrite si tiež:
 
 - [Prehľad schválení](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

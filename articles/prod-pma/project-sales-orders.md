@@ -41,3 +41,6 @@ Projektové predajné objednávky môžete vytvoriť dvoma spôsobmi:
 - Prejdite do samotného projektu. Na table Akcia vyberte možnosť **Spravovať > Úlohy položiek > Predajná objednávka**. Informácie o projekte budú predvolene nastavené na predajnú objednávku z projektu. Ak má projektová zmluva viac ako jeden zdroj financovania, budete musieť zvoliť zdroj financovania, aby ste zákazníka nastavili na predajnú objednávku. Ak je pre projekt k dispozícii iba jeden zdroj financovania, zákazník sa nastaví automaticky.
 - Prejdite na stránku so zoznamom **Všetky predajné objednávky** a vytvorte novú predajnú objednávku. Budete musieť vybrať projekt pre predajnú objednávku. Po výbere projektu sa zákazník nastaví zo zdroja financovania alebo budete musieť zvoliť zdroj financovania, ak má projektová zmluva viac zdrojov financovania.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Nasledujúce KPI sú k dispozícii na karte **Plnenie zmluvy** projektovej zmluv
 | Vynaložené náklady | Riadky založené na produkte | Súčet všetkých skutočných nákladov zaznamenaných v riadku zmluvy na základe produktu. |
 | Hrubá marža | Riadky založené na projekte | Fakturovaná suma - náklady vzniknuté do dátumu/fakturovaná suma |
 | Očakávaná marža | Riadky založené na produkte | (Hodnota riadku zmluvy - Odhadované náklady na riadok zmluvy)/Hodnota riadku zmluvy |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

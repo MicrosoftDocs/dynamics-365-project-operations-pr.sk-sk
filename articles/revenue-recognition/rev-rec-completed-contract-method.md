@@ -90,3 +90,6 @@ Odhad zmení stav na **Odstránené**.
 Táto stránka sa používa na otočenie všetkých odstránení so stanoveným dátumom odhadu a so stavom odhadu **Odstránené**. Stav transakcie sa zmení po výbere príslušných polí.
 
 Týmto sa tiež automaticky zmení stav projektu na **Prebiehajúce**, ak je fáza projektu nastavená na dokončenú. Stav odhadu obdobia projektu sa mení späť na **Zaúčtované**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

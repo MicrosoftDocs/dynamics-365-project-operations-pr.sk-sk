@@ -72,3 +72,6 @@ Vyriešili sa tieto problémy:
 - Uzatvorenie cenovej ponuky ako získanej nemá za následok presun na vytvorenú zmluvu, ak je BPF pripojená k cenovej ponuke v záverečnej etape.
 - Vrátenie položky **Nefakturovaný predaj** je spojené s pôvodnými nákladmi, keď je odvolané zadanie času.
 - Po výbere tlačidla **Potvrdiť** sa stav faktúry nezmení na **Potvrdená**, pokiaľ sa faktúra neobnoví.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

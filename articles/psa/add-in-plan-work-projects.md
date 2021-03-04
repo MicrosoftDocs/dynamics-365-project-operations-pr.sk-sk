@@ -242,3 +242,6 @@ V nasledujúcej tabuľke je uvedené, ako sa synchronizujú údaje entity závis
 
 ### <a name="additional-resources"></a>Ďalšie zdroje
  [Príručka projektového manažéra](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

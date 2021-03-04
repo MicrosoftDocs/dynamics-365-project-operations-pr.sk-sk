@@ -47,3 +47,6 @@ Nastaviť merné jednotky doby v katalógu produktov, ktorý použijete ako zák
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Konfigurácia Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

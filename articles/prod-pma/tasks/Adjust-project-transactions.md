@@ -44,3 +44,6 @@ Tento sprievodca úlohami vám ukáže, ako upraviť transakciu v projekte. Tran
 13. V zozname označte vybratý riadok. 
 14. V poli Obstarávacia cena zadajte číslo. 
 15. Kliknite na možnosť Zverejniť. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Nasledujúci príklad ukazuje, ako vyvolať vlastnú akciu **CopyProject** pomoc
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

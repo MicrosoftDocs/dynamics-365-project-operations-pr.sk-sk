@@ -198,3 +198,6 @@ Vyfakturovaná skutočná hodnota predaja pre sumu medzníka pre pôvodný medzn
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

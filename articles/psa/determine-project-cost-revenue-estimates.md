@@ -81,3 +81,6 @@ Akékoľvek náklady, ktoré vzniknú v rámci projektu, ktoré sa priamo netýk
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka projektového manažéra](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

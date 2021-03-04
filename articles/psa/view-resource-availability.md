@@ -48,3 +48,6 @@ Môžete skontrolovať dostupnosť na získanie celkový prehľad o spôsobe vyu
 
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

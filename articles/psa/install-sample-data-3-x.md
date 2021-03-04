@@ -297,3 +297,6 @@ Vyberte používateľa (napríklad Spencer Low) a zmeňte pracovné hodiny Spenc
 
 > [!div class="mx-imgBorder"]
 > ![Snímka obrazovky aktívnych rezervovateľných zdrojov](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

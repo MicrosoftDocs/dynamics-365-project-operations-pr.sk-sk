@@ -55,3 +55,6 @@ Nasledujúce témy poskytujú informácie o úlohách, ktoré je potrebné splni
 - [Výkon plánovania projektového zdroja](project-scheduling-performance.md)
 - [Nastavenie rol v šablónach štruktúry rozdelenia práce](set-up-roles-wbs-template.md)
 - [Plnenie zdrojov pre plánované zdroje](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

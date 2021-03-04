@@ -40,3 +40,6 @@ Tabuľa **Správca postupov** poskytuje správcom postupov grafické tabule pre 
 ## <a name="resource-manager"></a>Správca zdrojov 
 
 Tabuľa **Správca zdrojov** poskytuje správcom zdrojov grafický informačný panel na sledovanie žiadostí o zdroje a dopytu a využitia zdrojov. Správcom zdrojov to tiež umožňuje rozdeliť monitorované informácie podľa rôznych dimenzií.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

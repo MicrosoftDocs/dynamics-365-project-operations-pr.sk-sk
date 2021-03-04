@@ -98,3 +98,6 @@ Sledovanie údajov v zobrazení **Sledovanie úsilia** a **Sledovania nákladov*
 Pole **Celkový stav projektu** je editovateľné pole, ktoré zobrazuje celkový stav projektu. Používa farebné kódovanie, ako je zelená, žltá a červená, na označenie rastúceho rizika. Pole **Poznámky** umožňuje správcovi projektu zadať konkrétne poznámky o stave. Pole **Stav aktualizovaný dňa** nie je možné upravovať a hodnota je časová pečiatka, ktorá indikuje, kedy bol stav naposledy aktualizovaný.
 
 Polia **Výkonnosť plánu** a **Výkonnosť nákladov** sa nastavujú od dátumu sledovania. Keď plán a odchýlka nákladov pre koreňový uzol v zobrazení **Sledovanie úsilia** budú pozitívne, môžete nastaviť tieto polia na možnosť **Popredu**. Keď časový rozvrh a odchýlka nákladov pre koreňový uzol sú záporné, môžete ich nastaviť na možnosť **Pozadu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

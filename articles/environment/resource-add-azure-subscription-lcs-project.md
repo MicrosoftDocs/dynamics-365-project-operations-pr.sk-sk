@@ -70,3 +70,6 @@ Autorizácia je teraz hotová.
 Úspešne ste pripojili svoje predplatné služieb Azure. Teraz môžete nasadiť prostredia Dynamics 365 Finance hosťované na cloude.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

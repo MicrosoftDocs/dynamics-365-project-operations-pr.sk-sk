@@ -110,3 +110,6 @@ Pre úlohy, ktoré sú priradené k úlohe s jednotkou organizácie, ktorá sa o
  
 Zmena predvolené rôznych zdrojov organizačnej jednotky na negenerovaných členov tímu je dôvod, prečo odporúčame generovať alebo opätovne generovať tím na každý projekt, ktorý obsahuje všeobecné prostriedky pred inováciou tak, aby nedošlo k strateniu priradení organizačných jednotiek.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

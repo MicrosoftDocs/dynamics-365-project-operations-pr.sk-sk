@@ -45,3 +45,6 @@ S možnosťami [!INCLUDE[pn_project_service_auto](../includes/pn-project-service
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka projektového manažéra](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

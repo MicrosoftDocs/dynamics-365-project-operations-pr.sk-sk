@@ -36,3 +36,6 @@ Pomocou služby Lifecycle Services (LCS) môžete riadiť prostredia Dynamics 36
 
 Tento projekt LCS použite na nasadenie vášho prostredia Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

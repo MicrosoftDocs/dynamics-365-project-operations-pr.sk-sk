@@ -79,3 +79,6 @@ Grant môžete vytvoriť zadaním všetkých podrobností do nového záznamu al
 2. Vyberte grant, ktorý chcete upraviť.
 3. Na table Akcia na karte **Grant** v skupine **Údržba** stlačte možnosť **Upraviť**.
 4. Skontrolujte podrobnosti o grante a vykonajte požadované zmeny.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

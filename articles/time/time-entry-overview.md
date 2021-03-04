@@ -27,3 +27,6 @@ Pri zaznamenávaní času v Project Operations môžu používatelia sledovať v
 
 Informácie o tom, ako vytvoriť, odoslať alebo odvolať záznam, a ďalšie nástroje, ktoré vám pomôžu dokončiť vytváranie výkazov, nájdete na stránke [Správanie používateľa pri zadávaní času](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

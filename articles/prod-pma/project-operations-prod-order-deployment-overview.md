@@ -43,3 +43,6 @@ Vyberte tento typ nasadenia, ak chcete používať Dynamics 365 Project Operatio
 - Podniková daň z obratu a mechanizmus výmenných kurzov na generovanie faktúr za projekty pre zákazníkov.
 - Systém projektového účtovníctva a vykazovania výnosov v súlade s Medzinárodnými štandardmi finančného výkazníctva (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Ak chcete opraviť jednu alebo viac položiek výdavkov, vykonajte nasledujúce 
 8. Na stránke projektu na karte **Skutočné hodnoty** skontrolujte **Priradené zobrazenie skutočných hodnôt**. Uvádzajú sa pôvodné záznamy a opravené položky. Nasledujúca grafika zobrazuje pôvodné sumy vstupných nákladov a zodpovedajúce opravené položky vstupných nákladov. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

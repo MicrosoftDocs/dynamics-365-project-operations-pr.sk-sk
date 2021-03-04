@@ -74,3 +74,6 @@ Keď rozbalíte riadok záznamu daného člena tímu, uvidíte v zázname člena
 Keď prejdete na mriežku **Odhady**, všimnete si, že obidve priradenia toho istého zdroja majú rozdielnu cenu.
 Cena za priradenie zdroja v úlohe A sa stanoví pomocou hodnoty atribútu **Rola** položky **Vedúci konzultant**. Cena za priradenie rovnakého zdroja v úlohe B sa stanoví pomocou hodnoty atribútu **Rola** položky **Sieťový technik**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

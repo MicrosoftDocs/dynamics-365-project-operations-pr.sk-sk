@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4124612"
 ---
 # <a name="sample-data-home-page"></a>Domovská stránka so vzorovými údajmi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Vyriešili sa tieto problémy:
 - Pri vytváraní projektu môžu zákazníci zaznamenať zhoršený výkon, pretože **GetBookableResourceIdFromUser** načíta všetky stĺpce rezervovateľných zdrojov namiesto výhradne primárneho ID.
 - Entita **TransactionType** nemá doplnok aktualizácie pred overením, ktorý zabraňuje vstupu používateľov do **Jednotiek** a **Jednotkových skupín**, ktoré nie sú platné pre typy transakcií.
 - Krok **Odstrániť** nefunguje pri importe zadania času.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

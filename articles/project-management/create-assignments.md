@@ -42,3 +42,6 @@ Pole vyhľadávania možno v časti **Výber zdroja** použiť na vyhľadanie v�
 1. Z mriežky úloh, tabule alebo časovej osi prejdite na bunku **Priradené používateľovi**.
 2. Do vyhľadávacieho poľa začnite písať meno. Výsledky vyhľadávania pre názov sú zobrazené vo **výbere zdroja** v časti **iné zdroje**.
 3. Vyberte zdroj, ktorý chcete priradiť k úlohe, alebo vyberte názov zdroja v časti **Ďalšie tímové zdroje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

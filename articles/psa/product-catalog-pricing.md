@@ -64,3 +64,6 @@ Príležitosti, cenová ponuka a pEntityrojektové zmluvy používajú nasledovn
 V predvolenom nastavení obsahuje pole **produkt** v riadku cenovej ponuky všetky aktívne produkty v cenníkoch produktov cenovej ponuky. Ak bol produkt inaktivovaný, alebo ak ide o koncept produktu, nie je uvedený v zozname, a to ani v prípade, že je v cenníku. 
 
 Riadky katalógu produktov sa pridajú ako riadky faktúry na prvej faktúre vytvorenej pre projektovú zmluvu. V návrhu faktúry možno tieto riadky faktúry odstrániť. V takom prípade sa riadky zobrazia na nasledujúcej faktúre, až kým nebudú fakturované, alebo kým sa faktúra neodošle zákazníkovi. V PSA nie je možné fakturovať čiastočné množstvo riadka faktúry produktu. Po fakturácii riadkov produktov z projektovej zmluvy sa vytvoria skutočné hodnoty. Tieto skutočné hodnoty však nie sú prepojené s entitou súvisiaceho projektu. Inými slovami, riadky projektových zmlúv na základe produktu sú nezávislé od akýchkoľvek projektových použití. PSA nesleduje spotrebu materiálu na projektoch.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

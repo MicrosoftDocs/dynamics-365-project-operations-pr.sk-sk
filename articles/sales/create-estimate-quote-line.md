@@ -88,3 +88,6 @@ Ak ste do podrobností riadka cenovej ponuky pridali vlastné pole a chcete, aby
 7. Kliknite na tlačidlo **OK** pre zatvorenie dialógového okna a potom vyberte **aktualizovať krok.**
 8. Opakujte kroky 1 až 7 pre druhý doplnok.
 9. Zatvorte nástroj PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

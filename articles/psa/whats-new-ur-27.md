@@ -81,3 +81,6 @@ Vyriešili sa tieto problémy:
 - Keď sú nainštalované Dynamics 365 Field Service a Project Service Automation, možnosti **Zablokovať ceny** a **Použiť aktuálne ceny** sa nezobrazujú súčasne na stránke **Faktúra**.
 - Pre japonský jazyk existuje nekonzistentný preklad s inými stránkami založenými na kalendári.
 - Možnosti **Aktivovať** a **Deaktivovať** boli odstránené z entít **Priradenie cenníka** v Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

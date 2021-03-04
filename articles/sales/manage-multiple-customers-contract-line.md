@@ -44,3 +44,6 @@ Nižšie sú polia v zázname zákazníka v riadku Zmluvy založenej na projekte
 Percento rozdelenia fakturácie je možné upravovať v mriežke. Ak percentá rozdelenia fakturácie nedosiahnu 100 percent, nastane chyba. Po úprave percenta rozdelenia fakturácie chybu odstránite obnovením stránky.
 
 Môžete tiež skúsiť vybrať **Rovnomerne distribuovať** na vedľajšej mriežke zákazníka v riadku zmluvy. Táto akcia rovnomerne prideľuje fakturačné rozdelenie všetkým zákazníkom v riadkoch zmluvy. Ak existuje akýkoľvek faktor zaokrúhľovania, pridá sa k zákazníkovi zaokrúhľovania. Jeden zákazník v riadku zmluvy je vždy označený ako zákazník **Zaokrúhľovania** s príznakom **Zaokrúhľovanie** nastaveným na **Áno**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

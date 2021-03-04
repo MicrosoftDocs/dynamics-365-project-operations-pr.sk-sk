@@ -55,3 +55,6 @@ Nasledujúci proces je príkladom pracovného toku správy výdavkov pre výkaz 
 Po overení týchto požiadaviek sa zverejní výkaz výdavkov.
 
 Po zverejnení výkazu výdavkov sa platba za výkaz výdavkov autorizuje a zamestnancovi preplatená suma.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

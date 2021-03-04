@@ -95,3 +95,6 @@ Momentálne sú podporované USA.
 Služba Finance kontaktuje Cognitive Services s cieľom získať údaje polí. Cognitive Services si počas spracovania ponechajú kópiu vašej účtenky až 24 hodín. Po dokončení spracovania Cognitive Services účtenku odstránia. Účtenky sú stále uložené v službe Finance.
 
 Viac informácií nájdete v časti [Umožnite porozumieť účtenkám s novou funkciou rozpoznávania formulárov](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Keď sa prihlásite do aplikácií Dynamics 365, potrebujete od správcu systém
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

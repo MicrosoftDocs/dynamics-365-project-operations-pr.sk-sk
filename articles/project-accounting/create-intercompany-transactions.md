@@ -113,3 +113,6 @@ Molly Clarková, vývojárka zamestnaná v GBPM, zaznamenáva 10 hodín práce n
     - Kredit: Projekt – Získané príjmy 120 USD
 
     Systém je teraz pripravený na vytvorenie medzipodnikovej faktúry pre zákazníka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Rovnakú metódu môžete použiť na zrušenie pevnej rezervácie alebo predbe�
 Ak chcete konvertovať predbežne rezervovaný prostriedok na pevne rezervovaný prostriedok, na projektovej karte **Tím** vyberte zdroj, a potom stlačte **Potvrdiť**.
 
 ![Príkaz potvrdenia](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ Požiadavku vygenerovaného prostriedku môžete odoslať ako požiadavku na zdr
 Žiadosť stav generického člena tímu sa zmení na **Odoslané**.
 
 Po splnení požiadavky sa všeobecný zdroj nahradí názvom zdroja, ak správca zdrojov splní požiadavku s rezerváciou pomenovaného zdroja. V opačnom prípade, ak správca zdrojov navrhne pomenovaný zdroj, všeobecný zdroj zostane v tíme a stav žiadosti sa zmení na **Vyžaduje kontrolu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

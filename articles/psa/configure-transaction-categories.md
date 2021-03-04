@@ -43,3 +43,6 @@ Nastavte kategórie transakcií a zadefinujte si nadmnožinu kategórií výdavk
   
 ### <a name="see-also"></a>Pozrite si tiež  
  [Konfigurácia Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

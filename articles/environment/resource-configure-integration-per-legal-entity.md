@@ -51,3 +51,6 @@ Každá právnická osoba využívajúca Project Operations v Dynamics 365 Custo
   - **Predvolené typy fakturácie**: Project Operations používa pevnú množinu predvolených typov fakturácie, ktorú je potrebné namapovať na vlastnosti riadkov Finance. Vytvorte záznam pre každý typ fakturácie: **Nešpecifikované**, **Spoplatnené**, **Nedá sa spoplatniť**, **Bezplatné** a **Nie je k dispozícií**.
   - **Predvolené hodnoty kategórie projektu**: Vyberte predvolené kategórie projektu, ktoré sa majú použiť pre každý typ transakcie. Tieto predvolené hodnoty sa použijú v **Denníku integrácie Project Operations** a v odhadoch, kde nie je špecifikovaná žiadna kategória transakcií pre skutočný projekt.
   - **Prognózy**: Vyberte predpovedný model, ktorý sa použije pre odhady času a výdavkov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

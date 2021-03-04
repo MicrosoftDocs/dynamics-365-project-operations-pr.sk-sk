@@ -35,3 +35,6 @@ Ak projektová zmluva, ktorá je uzavretá ako nevyužitá, odkazuje na projekt 
 
 > [!NOTE]
 > V systéme Dynamics 365 Project Operations nebude mať uzavretie projektovej zmluvy ako nevyužitej žiadny vplyv na tento stav súvisiacej príležitosti. Príležitosť zostane otvorená a musí byť uzavretá manuálne.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Po potvrdení opravnej faktúry, sú stornované pôvodné fakturované skutočn
 
 - Skutočná hodnota fakturovaného predaja je šesť hodín.
 - Skutočná hodnota nefakturovaného predaja sú dve hodiny. Táto transakcia môže byť fakturovaná neskôr alebo označená ako nefakturovateľná v závislosti od rokovaní so zákazníkom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

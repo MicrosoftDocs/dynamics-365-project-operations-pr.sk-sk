@@ -57,3 +57,6 @@ Obstarávacie cenníky nie sú predvolene nastavené na žiadnu entitu v rámci 
 5. Potom systém prehľadá účinnosť cenníkov podľa dátumu, ktoré sa zhodujú s dátumom prichádzajúceho riadku s odhadom alebo skutočnou hodnotou. 
 6. Ak existuje viac cenníkov s účinnosťou k dátumu pri prichádzajúcom odhade alebo skutočnej hodnote, vyberie sa naposledy vytvorený cenník.
 7. Ak k parametrom projektu nie sú pripojené žiadne obstarávacie cenníky, ktoré sa zhodujú s menou a dátumom účinnosti, systém predvolene nastaví nákladovú sadzbu na nulu (0) v prichádzajúcom riadku s odhadom alebo skutočnom hodnotou.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

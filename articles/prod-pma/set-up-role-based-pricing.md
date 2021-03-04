@@ -34,3 +34,6 @@ Pre roly je možné nastaviť všetky ceny týkajúce sa nákladov, predajov a p
 1. Na stránke **Predajná cena (hodina)** vyberte **Nový** a zadajte dátum účinnosti.
 2. V stĺpci **Rola** vyberte rolu.
 3. V stĺpci **Určenie ceny** zadajte cenu pre vybratú rolu zdroja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

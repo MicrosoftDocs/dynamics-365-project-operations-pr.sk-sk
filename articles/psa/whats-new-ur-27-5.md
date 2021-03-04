@@ -42,3 +42,6 @@ Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené p
 Vyriešili sa tieto problémy:
 
 - Naplánujte degradáciu výkonu hľadania pomoci
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Vyriešili sa tieto problémy:
 - Nulová referenčná výnimka sa vygeneruje, keď je vyvolaný doplnok **GetEstimatesForProject**.
 - **Značka je pripravená na fakturáciu** v mriežke medzníkov aktualizuje atribúty iba čiastočne, s výnimkou atribútu **InvoiceStatus**, ktorý sa aktualizuje.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Pred začatím tohto postupu skontrolujte, či vaša rola zabezpečenia obsahuje
 
 > [!IMPORTANT]
 >  Nemôžete vymazať meny, ktoré využívajú iné záznamy. Možno ich len deaktivovať. Deaktiváciou záznamov meny sa neodstránia informácie o mene uložené v existujúcich záznamoch, ako sú napríklad príležitosti alebo objednávky. Avšak, nebudete môcť vybrať deaktivovanú menu pre nové transakcie.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

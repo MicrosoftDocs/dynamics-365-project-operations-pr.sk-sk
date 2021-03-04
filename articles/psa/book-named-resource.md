@@ -68,3 +68,6 @@ Toto je príklad, kedy sú potrebné viaceré pomenované zdroje na splnenie vš
 Hlavný rozdiel v tomto scenári je, že všeobecný zdroj zostáva priradený k tímovej úlohe a rezervované pomenované zdroje členov tímu nie sú priradené ako súčasť pozície. Projektový manažér môže priradiť prácu podľa zodpovedajúcich pomenovaných prostriedkov. Zobrazenie **odsúhlasenia** môže pomôcť projektovému manažérovi pri rozbití rezervácií naprieč viacerými zdrojmi na priradenie úlohy. To sa nerobí automaticky, pretože v každom scenári zložitejšie ako jednoduchý príklad vyššie, ako keď máte zväzok úloh, ktoré tvoria požiadavku, zámer, ako chce projektový manažér priradiť, je potrebné systémovo predpokladať. Vzhľadom k tomu, že systém nemôže pochopiť zámer, je pravdepodobné, že predpoklady budú iné, než je určené, a stane sa nesprávny alebo nepredvídateľný výsledok. Predvídateľný výsledok je, že všeobecný zdroj zostáva priradený, kým projektový manažér zámerne vytvorí úlohy, s pomocou zobrazenia **odsúhlasenia**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

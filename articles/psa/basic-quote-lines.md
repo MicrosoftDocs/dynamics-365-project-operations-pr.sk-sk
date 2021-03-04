@@ -131,3 +131,6 @@ Pre riadok cenovej ponuky s pevnou cenou môžete použiť mriežku **plánu fak
 - Ak chcete vytvoriť rovnako rozdelené fakturačné míľniky, vyberte frekvenciu fakturácie, zadajte dátum začiatku fakturácie v riadku cenovej ponuky a vyberte **požadovaný dátum dokončenia** cenovej ponuky v sekcii **súhrn** v hlavičke cenovej ponuky. Potom vyberte **generovať periodické míľniky** na vytvorenie rovnomerne rozdelených míľnikov na základe vybranej frekvencie faktúr. 
 - Ak chcete vytvoriť míľnik fakturácie paušálnej čiastky, vytvorte míľnik a potom zadajte hodnotu riadka cenovej ponuky ako čiastku míľnika.
 - Ak chcete vytvoriť fakturačné míľniky, ktoré sú založené na konkrétnych úlohách v pláne projektu, vytvorte míľnik a mapujte ho na prvok plánu projektu v používateľskom rozhraní fakturačného míľnika.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

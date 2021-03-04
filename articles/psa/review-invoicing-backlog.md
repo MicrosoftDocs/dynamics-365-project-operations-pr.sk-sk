@@ -59,3 +59,6 @@ Každý riadok projektovej zmluvy, ktorý má fakturačnú metódu s pevnou ceno
 Ak chcete skontrolovať fakturačné míľniky, prejdite na ponuku **Predaj** \> **Faktúra** \> **Medzníky pevných cien**. Zvoľte si medzníky, ktoré sú pripravené na fakturáciu a následne stlačte možnosť **Pripravené na faktúru**. Stav fakturácie týchto medzných hodnôt sa zmení na možnosť **Pripravené na faktúru**.
 
 ![Medzníky pevných cien](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

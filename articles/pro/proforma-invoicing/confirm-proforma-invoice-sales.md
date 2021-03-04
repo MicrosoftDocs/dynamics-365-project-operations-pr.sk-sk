@@ -273,3 +273,6 @@ Skutočná hodnota fakturovaného predaja pre riadok produktu s množstvom a sum
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

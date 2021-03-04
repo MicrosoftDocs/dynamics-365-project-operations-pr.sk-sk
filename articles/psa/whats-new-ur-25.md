@@ -70,3 +70,6 @@ Vyriešili sa tieto problémy:
 - Vylepšené spracovanie chýb pri riešení výnimiek Null Reference vygenerovaných z **Kopírovať projekt: Odhady správy HelperResource**.
 - **Nepripravené na fakturáciu** a **Backlog pre fakturáciu času a materiálu** nevymaže stav fakturácie.
 - Opravené nesprávne označené tlačidlá **Ceny** na karte **Cena roly** a **Katalógové položky**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

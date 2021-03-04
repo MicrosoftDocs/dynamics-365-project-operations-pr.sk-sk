@@ -35,3 +35,6 @@ Ak chcete skontrolovať projekty odhadov výnosov s pevnou cenou, postupujte tak
 
   Náklady na projekt, profil výnosov, šablónu nákladov a kód obdobia je možné nastaviť ručne. Ak nie sú nastavené ručne, hodnoty sa nastavia predvolene počas prvého výpočtu odhadu pre projekt pomocou pravidiel nakonfigurovaných pre profily nákladov a výnosov projektu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

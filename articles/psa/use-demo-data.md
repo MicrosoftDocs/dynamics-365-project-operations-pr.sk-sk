@@ -55,3 +55,6 @@ Viac informácií nájdete v tomto [blogu](https://blogs.msdn.microsoft.com/crm/
  [Príručka projektového manažéra](../psa/project-manager-guide.md)   
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)   
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

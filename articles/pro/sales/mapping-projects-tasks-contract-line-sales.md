@@ -82,3 +82,6 @@ Toto je vhodnejší postup na zrušenie priradenia projektových úloh od riadko
 4. Na otvorenej dialógovej stránke vyberte z rozbaľovacej ponuky riadok zmluvy.
 5. Začiarknutím políčka označte, či by sa priradenie malo odstrániť aj od všetkých podradených úloh vybratých úloh. Začiarknutím tohto políčka dôjde k zrušeniu priradenia podradených úloh vybraných od riadka zmluvy.
 6. Vyberte položku **OK**. Varovná správa naznačuje, že odstránenie tohto priradenia by mohlo mať za následok vrátenie akýchkoľvek skutočných hodnôt, ktoré boli zaznamenané v úlohe predtým. Výberom **OK** v dialógovom okne s varovaním odstránite asociácie medzi úlohou a riadkom zmluvy založenej na projekte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

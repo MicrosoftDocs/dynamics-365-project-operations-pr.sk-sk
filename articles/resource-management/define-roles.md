@@ -20,3 +20,6 @@ ms.locfileid: "4514586"
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Môžete použiť funkciu v Dynamics 365 Field Service na definovanie rol vo vašom prostredí Dynamics 365 Project Operations. Dokončenie tohto nastavenia nájdete v článku [Nastavenie kategórií rezervovateľných zdrojov](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

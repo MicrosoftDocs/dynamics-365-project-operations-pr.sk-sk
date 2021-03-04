@@ -28,3 +28,6 @@ Existujú dve metódy, ktoré môžete použiť na prácu s osobnými výdavkami
   - **Zaplatené spoločnosťou**: Vaša organizácia zaplatí celý účet za podnikovú kreditnú kartu a potom z účtu zamestnanca strhne osobné náklady.
 
 Metódu využívanú vašou spoločnosťou môžete zmeniť na stránke **Parametre správy výdavkov**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

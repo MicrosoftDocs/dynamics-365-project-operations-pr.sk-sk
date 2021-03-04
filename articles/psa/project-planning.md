@@ -52,3 +52,6 @@ Nasledujúce témy poskytujú informácie, ktoré pomôžu projektovým manažé
 - [Projektové šablóny](project-templates.md)
 - [Etapy projektu](project-stages.md)
 - [Projektové nastavenia](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
