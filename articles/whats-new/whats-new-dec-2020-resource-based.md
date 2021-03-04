@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700699"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727899"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v decembri 2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -24,6 +24,8 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 
 - Project Operations v prostredí Dataverse verzie 4.5.0.134
 - Projektový manažment a účtovanie v prostredí Dynamics 365 Finance verzie 10.0.15
+
+Informácie o aktualizácii na toto vydanie nájdete v časti [Aktualizácia aplikácie Project Operations vo vašom prostredí Finance](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 V tomto vydaní sú zahrnuté nasledujúce funkcie:

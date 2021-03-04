@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084522"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960311"
 ---
 # <a name="expense-receipt-processing"></a>Spracovanie potvrdenia výdavkov
-
-[!include [banner](../includes/banner.md)]
 
 Zadávanie výdavkov bolo vylepšený zavedením spracovaním účteniek optickým rozpoznávaním znakov (OCR). Táto funkcia je navrhnutá tak, aby zlepšila používateľskú skúsenosť pri vytváraní výkazov výdavkov.
 
@@ -45,15 +43,15 @@ Ak chcete pri vytváraní výkazu výdavkov automaticky pripojiť účtenky, kto
 
 Ak chcete vytvoriť výdavok alebo spárovať výdavok z účtenky, postupujte nasledovne:
 
-  1. Vo výkaze výdavkov, na karte **Príjmy** , pripojte účtenku výberom možnosti **Pridať účtenky**.
+  1. Vo výkaze výdavkov, na karte **Príjmy**, pripojte účtenku výberom možnosti **Pridať účtenky**.
   2. Pod nahraným obrázkom účtenky si všimnite možnosti **Vytvoriť** a **Spárovať**.
 
       - Vyberte **Vytvoriť** na vytvorenie ručne zadanej výdavkovej transakcie a vyplnenie hodnôt, ktoré sú načítané z účtenky.
-      - Ak vyberiete **Spárovať** , systém sa pokúsi spárovať existujúci výdavok s účtenkou.
+      - Ak vyberiete **Spárovať**, systém sa pokúsi spárovať existujúci výdavok s účtenkou.
 
 ## <a name="installation"></a>Inštalácia
 
-Táto funkcia funguje v kombinácii s funkciou **Prepracované výkazy výdavkov** , ktorá pomáha zjednodušiť skúsenosti s výdavkami. Táto funkcia je k dispozícii iba pre prostredia Tier 2+, ktorými sú Sandbox a Production.
+Táto funkcia funguje v kombinácii s funkciou **Prepracované výkazy výdavkov**, ktorá pomáha zjednodušiť skúsenosti s výdavkami. Táto funkcia je k dispozícii iba pre prostredia Tier 2+, ktorými sú Sandbox a Production.
 
 Ak chcete používať tieto pokročilé možnosti výdavkov, nainštalujte si doplnok Služba riadenia výdavkov pre Microsoft Dynamics 365 Finance a zapnite funkcie vo vašej inštancii. V Microsoft Dynamics Lifecycle Services (LCS) môžete pristupovať k doplnku z vášho projektu.
 

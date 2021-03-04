@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084523"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960491"
 ---
 # <a name="expense-management-mobile-workspace"></a>Správa výdavkov pomocou mobilného pracovného priestoru
-
-[!include [banner](../includes/banner.md)]
 
 Táto téma poskytuje informácie o mobilnom pracovnom priestore **Spravovanie výdavkov**. Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov. Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov. Schvaľovatelia môžu navyše používať mobilný pracovný priestor **Správa výdavkov** na prezeranie výkazy výdavkov, ktoré sú im priradené, a tieto výkazy výdavkov buď schváliť, alebo odmietnuť.
 
@@ -115,12 +113,12 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 3. Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.
 4. Vykonajte jeden z týchto krokov:
 
-    - Ak ste vybrali **Vyfotografovať** , nasledujte tieto kroky:
+    - Ak ste vybrali **Vyfotografovať**, nasledujte tieto kroky:
 
         1. Dostali ste sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
         2. Voliteľné: Zadajte názov fotografie a poznámky.
 
-    - Ak ste vybrali **Vybrať obrázok** , nasledujte tieto kroky:
+    - Ak ste vybrali **Vybrať obrázok**, nasledujte tieto kroky:
 
         1. Vyberte obrázok zo zoznamu.
         2. Voliteľné: Zadajte názov obrázku a poznámky.
@@ -138,8 +136,8 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 8. Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.
 9. Vykonajte jeden z týchto krokov:
 
-    - Ak ste vybrali možnosť **Vyfotografovať** , dostanete sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
-    - Ak ste vybrali **Vybrať obrázok** , vyberte obrázok zo zoznamu.
+    - Ak ste vybrali možnosť **Vyfotografovať**, dostanete sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
+    - Ak ste vybrali **Vybrať obrázok**, vyberte obrázok zo zoznamu.
 
 10. Vyberte **Hotovo**.
 
@@ -177,24 +175,24 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
     1. Vyberte **Zaznamenať účtenku** alebo **Priložiť účtenku**.
     2. Vykonajte jeden z týchto krokov:
 
-        - Ak ste vybrali **Zaznamenať účtenku** , nasledujte tieto kroky:
+        - Ak ste vybrali **Zaznamenať účtenku**, nasledujte tieto kroky:
 
             1. Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.
             2. Vykonajte jeden z týchto krokov:
 
-                - Ak ste vybrali **Vyfotografovať** , nasledujte tieto kroky:
+                - Ak ste vybrali **Vyfotografovať**, nasledujte tieto kroky:
 
                     1. Dostali ste sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
                     2. Voliteľné: Zadajte názov fotografie a poznámky.
 
-                - Ak ste vybrali **Vybrať obrázok** , nasledujte tieto kroky:
+                - Ak ste vybrali **Vybrať obrázok**, nasledujte tieto kroky:
 
                     1. Vyberte obrázok zo zoznamu.
                     2. Voliteľné: Zadajte názov obrázku a poznámky.
 
             3.  Vyberte **Hotovo**.
 
-        - Ak ste vybrali **Pripojiť účtenku** , nasledujte tieto kroky:
+        - Ak ste vybrali **Pripojiť účtenku**, nasledujte tieto kroky:
 
             1.  V zozname vyberte jeden alebo viac obrázkov.
             2.  Vyberte **Hotovo**.
@@ -203,22 +201,22 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 
 18. Ak politika spoločnosti vyžaduje hostí pre výdavok, vyberte **Hostia** a potom postupujte podľa týchto krokov:
 
-    1. Vyberte **Hosť** , **Predošlí hostia** alebo **Spolupracovníci**.
+    1. Vyberte **Hosť**, **Predošlí hostia** alebo **Spolupracovníci**.
     2. Vykonajte jeden z týchto krokov:
 
-        - Ak ste vybrali **Hosť** , nasledujte tieto kroky:
+        - Ak ste vybrali **Hosť**, nasledujte tieto kroky:
 
             1. Zadajte meno hosťa.
             2. Voliteľné: Zadajte organizáciu alebo krajinu hosťa.
             3. Voliteľné: Zadajte titul hosťa.
             4. Vyberte **Hotovo**.
 
-        - Ak ste vybrali **Predchádzajúci hostia** , nasledujte tieto kroky:
+        - Ak ste vybrali **Predchádzajúci hostia**, nasledujte tieto kroky:
 
             1. V zozname vyberte jedného alebo viacerých predchádzajúcich hostí. Zobrazí sa zoznam predchádzajúcich hostí, ktorých ste pridali do predchádzajúcich výkazov výdavkov, ktoré sú načítané vo vašej aplikácii na offline použitie. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ak váš predchádzajúci hosť nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ho online. Vyhľadávajte podľa mena alebo prepnite na vyhľadávanie podľa organizácie, krajiny alebo titulu.
             2. Vyberte **Hotovo**.
 
-        - Ak ste vybrali **Spolupracovníci** , nasledujte tieto kroky:
+        - Ak ste vybrali **Spolupracovníci**, nasledujte tieto kroky:
 
             1. V zozname vyberte jedného alebo viacerých spolupracovníkov. Zobrazí sa zoznam spolupracovníkov, ktorí sú načítaní vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ak váš spolupracovník nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ho online. Vyhľadávajte podľa mena alebo prepnite na vyhľadávanie podľa spoločnosti alebo titulu.
             2. Vyberte **Hotovo**.

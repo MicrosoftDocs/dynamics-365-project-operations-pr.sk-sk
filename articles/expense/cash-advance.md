@@ -3,19 +3,19 @@ title: Platba vopred v hotovosti
 description: Táto téma poskytuje informácie o platbách vopred v hotovosti.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122768"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098903"
 ---
 # <a name="cash-advance"></a>Platba vopred v hotovosti
 
@@ -24,8 +24,9 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 Platba vopred v hotovosti umožňuje zamestnancom požičať si od svojej spoločnosti peniaze skôr, ako im vzniknú akékoľvek výdavky. Keď je požadovaná platba vopred v hotovosti schválená a vyplatená, zamestnanec môže peniaze použiť na výdavky na podnikanie, ktoré mu pravdepodobne vzniknú. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Vytvorenie a predloženie žiadosti o platbu vopred v hotovosti
+Ak chcete vytvoriť novú hotovostnú zálohu a odoslať žiadosť o hotovostnú zálohu, postupujte takto: 
 
-1. V časti **Moje výdavky**, vyberte **Platby vopred v hotovosti** > **Nová** na vytvorenie novej platby vopred v hotovosti. 
+1. V časti **Moje výdavky** vyberte **Hotovostné zálohy** > **Nová**. 
 2. Na stránke **Nová žiadosť o platbu vopred v hotovosti** zadajte účel výdavkov a vyberte miesto, kde vzniknú náklady.
 3. Zadajte požadovanú sumu a menu a potom vyberte **Uložiť**. 
 4. Keď ste pripravení podať žiadosť o platbu vopred v hotovosti, na stránke **Žiadosť o platbu vopred v hotovosti** vyberte **Pracovný postup** > **Predložiť**.
@@ -34,7 +35,7 @@ Platba vopred v hotovosti umožňuje zamestnancom požičať si od svojej spolo
 
 Ak žiadosť o platbu vopred v hotovosti nebola predložená na schválenie, môžete ju upraviť.
 
-1. V časti **Moje výdavky: platby vopred v hotovosti** vyhľadajte a vyberte platbu vopred v hotovosti, ktorú chcete upraviť.
+1. V časti **Moje výdavky: hotovostné zálohy** vyhľadajte a vyberte hotovostnú zálohu, ktorú chcete upraviť.
 2. Vyberte **Upraviť** a vykonajte potrebné zmeny v žiadosti o platbu vopred v hotovosti. 
 3. Vyberte položku **Uložiť a zavrieť**.
 
@@ -57,7 +58,8 @@ Nasledujúci postup zvyčajne vykonáva účtovník alebo používateľ s účto
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Predložte výkaz výdavkov oproti zaplatenej platbe vopred v hotovosti 
 
-Keď vytvoríte a odošlete výkaz výdavkov pre platbu vopred v hotovosti, ktorý ste už dostali, výdavky sa automaticky upravia oproti uvedenému preddavku. Ak je vaša platba vopred v hotovosti vyššia ako suma výdavkov, musíte zostatok vrátiť spoločnosti pomocou kategórie výdavkov **Vrátiť hotovosť**. Ak je platba vopred v hotovosti zaplatená spoločnosťou nižšia ako suma, ktorú ste zaplatili, spoločnosť vám musí zostatok uhradiť. 
+Keď vytvoríte a odošlete výkaz výdavkov pre hotovostnú zálohu, ktorú ste už dostali, výdavky sa automaticky upravia oproti danej zálohe. Ak je vaša platba vopred v hotovosti vyššia ako suma výdavkov, musíte zostatok vrátiť spoločnosti pomocou kategórie výdavkov **Vrátiť hotovosť**. Ak je hotovostná záloha zaplatená spoločnosťou nižšia ako suma, ktorú ste vynaložili, spoločnosť vám musí zostatok uhradiť. 
 
 ### <a name="example"></a>Príklad
-Plánujete vycestovať na konferenciu zo Seattlu do New Yorku. Vytvoríte žiadosť o platbu vopred v hotovosti na 3000,00 USD, pretože odhadované náklady na konferenčný lístok, letenky, hotel, stravu a taxík sú približne v tejto výške. Platba vám nebude vyplatená, pokiaľ váš nadriadený túto žiadosť neschváli. Po schválení manažérom sa požadovaná platba vopred v hotovosti vyplatí na váš bankový účet v sume 3000,00 USD. Potom sa zúčastníte konferencie. Po dokončení cesty zistíte, že celkové výdavky boli iba 2790,00 USD. Vyberte **Hotovosť** v poli **Spôsob platby** a predložte svoje výdavky na 2790,00 USD. Vaša predložená suma výdavkov sa automaticky upraví oproti platbe vopred v hotovosti 3000,00 USD, ktorá vám bola požičaná. Teraz dlžíte spoločnosti zostatok 210,00 USD (3000,00 - 2790,00), ktorý môžete spoločnosti vrátiť pomocou kategórie výdavkov **Vrátiť hotovosť**. 
+Plánujete cestu zo Seattlu do New Yorku na konferenciu. Požiadavku na hotovostnú zálohu na 3000,00 USD vytvoríte na základe odhadovaných nákladov na konferenčný lístok, letenky, hotel, stravu a taxík. Platba vám nebude vyplatená, pokiaľ váš nadriadený neschváli túto žiadosť. Po schválení manažérom sa požadovaná platba vopred v hotovosti vyplatí na váš bankový účet v sume 3000,00 USD. Potom sa zúčastníte konferencie. Po dokončení cesty zistíte, že celkové výdavky boli iba 2790,00 USD. Vyberte **Hotovosť** v poli **Spôsob platby** a uveďte svoje výdavky v hodnote 2790,00 USD. Vaša predložená suma výdavkov sa automaticky upraví oproti platbe vopred v hotovosti 3000,00 USD, ktorá vám bola požičaná. Teraz dlžíte zostatok 210,00 USD (3000,00 - 2790,00), ktorý môžete spoločnosti vrátiť pomocou kategórie výdavkov **Vrátiť hotovosť**.
+

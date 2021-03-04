@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b075b926585e27b8811f999e41dcb271277d360e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35a76cad8c6ddaa84038746ace6a7e1e5623388f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084509"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960086"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Prezrite si správu o výdavkoch z hlavnej knihy alebo obstarávania a získavania zdrojov
-
-[!include [banner](../includes/banner.md)]
 
 Pri spustení dotazu na zobrazenie transakcií v hlavnej knihe alebo v Obstarávanie a získavanie zdrojov môže dotaz vrátiť príliš veľa informácií. Preto možno budete chcieť zúžiť svoje vyhľadávanie. Ak chcete získať požadované informácie, môžete vykonať hĺbkovú analýzu transakcie a zobraziť výkaz výdavkov, na ktorom sa zobrazila.
 

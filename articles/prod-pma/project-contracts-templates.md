@@ -1,9 +1,9 @@
 ---
-title: Synchronizácia projektových zmlúv a projektov priamo z Project Service Automation do Finance and Operations
+title: Synchronizácia projektových zmlúv a projektov priamo z Project Service Automation do Finance
 description: Táto téma popisuje šablónu a základnú úlohy, ktoré sa používajú na synchronizáciu projektových zmlúv a projektov priamo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642652"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764838"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizácia projektových zmlúv a projektov priamo z Project Service Automation do Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronizácia projektových zmlúv a projektov priamo z Project Service Automation do Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Dostupné šablóny nájdete v zozname centrum správcu Microsoft Power Apps, zv
 Nasledujúca šablóny a základné úlohy sa používajú na synchronizáciu projektový zmlúv a projektov z Project Service Automation do Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integrácia s Dynamics 365 Project Service Automation v2.x
-- **Názov šablóny v časti Integrácia údajov:** Projekty a zmluvy (PSA do Fin a Ops)
+- **Názov šablóny v integrácii údajov:** Projekty a zmluvy (Project Service Automation do Finance)
 - **Názov úloh v projekte:**
 
-    - Projektové zmluvy PSA s Fin a Ops
-    - Projektové PSA s Fin a Ops
-    - Projektové riadky zmluvy PSA s Fin a Ops
-    - Míľniky projektových riadkov zmluvy PSA s Fin a Ops
+    - Projektové zmluvy Project Service Automation do Finance
+    - Projekty Project Service Automation do Finance
+    - Riadky projektových zmlúv Project Service Automation do Finance
+    - Riadky medzníkov projektových zmlúv Project Service Automation do Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integrácia s Dynamics 365 Project Service Automation v3.x
 V Project Service Automation nastala zmena schémy, ktorá ovplyvní šablónu medzníka riadku zmluvy s projektom a na integráciu Project Service Automation v3.x s Dynamics 365 je potrebné použitie verzie šablóny v2.
 
-- **Názov šablóny v časti Integrácia údajov:** Projekty a Zmluvy (PSA 3.x do Fin a Ops) – v2
+- **Názov šablóny v integrácii údajov:** Projekty a zmluvy (Project Service Automation 3.x do Finance) – v2
 - **Názov úloh v projekte:**
 
-    - Projektové zmluvy PSA s Fin a Ops
-    - Projektové PSA s Fin a Ops
-    - Projektové riadky zmluvy PSA s Fin a Ops
-    - Míľniky projektových riadkov zmluvy PSA s Fin a Ops
+    - Projektové zmluvy Project Service Automation do Finance
+    - Projekty Project Service Automation do Finance
+    - Riadky projektových zmlúv Project Service Automation do Finance
+    - Riadky medzníkov projektových zmlúv Project Service Automation do Finance
 
 Predtým, ako môže dôjsť k synchronizácii zmlúv a projektov, musíte synchronizovať účty.
 
@@ -87,7 +87,8 @@ Predtým, ako môže dôjsť k synchronizácii zmlúv a projektov, musíte synch
 
 Projektové zmluvy sa spravujú v Project Service Automation a synchronizujú s Finance ako projektové zmluvy. Ako súčasť šablóny integrácie môžete nastaviť zdroj integrácie v časti Finance pre zmluvu o projekte.
 
-Čas a materiál projektu a pevná cena projektov sa spravuje v Project Service Automation a synchronizuje sa s Finance ako projekty. Ako súčasť šablóny integrácie môžete nastaviť zdroj integrácie v časti Finance pre projekt.
+Časové a materiálne projekty a projekty s pevnou cenou sa spravujú v Project Service Automation a synchronizujú sa s Finance ako projekty. V rámci integrácie šablón môžete nastaviť zdroj integrácie pre projekt v aplikácii Finance. V súčasnosti sú podporované iba časové a vecné projekty a projekty s pevnou cenou.
+
 
 Projektové riadky zmlúv sa spravujú v Project Service Automation a synchronizujú s Finance ako projektové zmluvné pravidlá fakturácie. Ak sa spôsob fakturácie líši od predvoleného typu projektu, synchronizácia aktualizuje typ projektu pre riadok zmluvy projektu a projektovú skupinu.
 
@@ -122,7 +123,7 @@ Keď sa použije integračné riešenie Project Service Automation to Finance, i
 
 ## <a name="power-query"></a>Power Query
 
-Ak je táto podmienka splnená, na filtrovanie údajov musia byť splnené nasledujúce podmienky:
+Na filtrovanie údajov použite program Microsoft Power Query for Excel, ak sú splnené nasledujúce podmienky:
 
 - Predajné objednávky nájdete v Dynamics 365 Sales.
 - V službe Project Service Automation máte viac organizačných jednotiek a tieto organizačné jednotky budú namapované na viaceré právnické osoby v službe Finance.
@@ -130,7 +131,7 @@ Ak je táto podmienka splnená, na filtrovanie údajov musia byť splnené nasle
 Ak musíte použiť Power Query, postupujte podľa týchto pokynov:
 
 - Šablóna Projekty a zmluvy (PSA pre Fin a Ops) má predvolený filter, ktorý obsahuje iba predajné objednávky **Pracovná položka typu (msdyn\_ordertype = 192350001)**. Tento filter pomáha zaručiť, že sa pre zákazky odberateľa v službe Finance nevytvoria projektové zmluvy. Ak vytvárate vlastnú šablónu, musíte pridať tento filter.
-- Musíte vytvoriť filter Power Query, ktorý obsahuje iba zmluvné organizácie, ktoré by sa mali synchronizovať s právnickou osobou sady integračných pripojení. Napríklad projektové zmluvy, ktoré máte so zmluvnou organizačnou jednotkou spoločnosti Contoso USA, by sa mali synchronizovať s právnickou osobou USSI, ale projektové zmluvy, ktoré máte so zmluvnou organizačnou jednotkou spoločnosti Contoso Global, by sa mali synchronizovať s právnickou osobou USMF. Ak tento filter nepridáte do svojho mapovania úloh, všetky kontrakty projektu sa synchronizujú s právnickou osobou, ktorá je definovaná pre množinu pripojení, bez ohľadu na organizačnú jednotku kontraktu.
+- Vytvorte filter Power Query, ktorý obsahuje iba zmluvné organizácie, ktoré by sa mali synchronizovať s právnickou osobou súpravy integračného pripojenia. Napríklad projektové zmluvy, ktoré máte so zmluvnou organizačnou jednotkou spoločnosti Contoso USA, by sa mali synchronizovať s právnickou osobou USSI, ale projektové zmluvy, ktoré máte so zmluvnou organizačnou jednotkou spoločnosti Contoso Global, by sa mali synchronizovať s právnickou osobou USMF. Ak tento filter nepridáte do svojho mapovania úloh, všetky kontrakty projektu sa synchronizujú s právnickou osobou, ktorá je definovaná pre množinu pripojení, bez ohľadu na organizačnú jednotku kontraktu.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapovanie šablón v integrácii údajov
 

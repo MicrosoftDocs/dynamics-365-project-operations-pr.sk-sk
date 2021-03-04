@@ -1,6 +1,6 @@
 ---
 title: Medzipodnikové výdavky
-description: Pracovník, ktorý je zamestnaný v jednej právnickej entite v organizácii, môže vykonávať prácu pre inú právnickú entitu v tej istej organizácii. V tejto situácii môžete pomocou funkcie medzipodnikových výdavkov priradiť výdavky pracovníka právnickej entite, pre ktorú bola práca vykonaná.
+description: Táto téma poskytuje informácie o spôsobe použitia medzipodnikových výdavkov na priradenie výdavkov pracovníka k právnickej osobe, pre ktorú bola práca vykonaná.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/20/2020
@@ -16,24 +16,22 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0967f23e4e1f8e0431c55d4d54554e7e90e2451c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 553ddbe622210169db8de4aa506dcf1ea1e9d5ef
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084515"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960851"
 ---
 # <a name="intercompany-expenses"></a>Medzipodnikové výdavky
 
-[!include [banner](../includes/banner.md)]
+Pracovník, ktorý je zamestnaný v jednej právnickej entite v organizácii, môže vykonávať prácu pre inú právnickú entitu v tej istej organizácii. Môžete použiť medzipodnikové výdavky na priradenie výdavkov pracovníka k právnickej osobe, pre ktorú bola práca vykonaná. Právnická entita, ktorá zamestnáva pracovníka, sa nazýva požičiavajúca právnická entita. Právnická entita, za ktorú pracovník znáša výdavky, sa nazýva požičiavajúca si právnická entita. 
 
-Pracovník, ktorý je zamestnaný v jednej právnickej entite v organizácii, môže vykonávať prácu pre inú právnickú entitu v tej istej organizácii. V tejto situácii môžete pomocou funkcie medzipodnikových výdavkov priradiť výdavky pracovníka právnickej entite, pre ktorú bola práca vykonaná. Právnická entita, ktorá zamestnáva pracovníka, sa nazýva požičiavajúca právnická entita. Právnická entita, za ktorú pracovník znáša výdavky, sa nazýva požičiavajúca si právnická entita. 
-
-Predtým, ako pracovník môže vytvoriť a odoslať výdavky na prácu, ktorá sa vykonáva pre inú právnickú entitu, v požičiavajúcej právnickej osobe, na stránke **Parametre správy výdavkov** vyberte možnosť **Povoliť medzipodnikové riadky výdavkov**. 
+Predtým, ako pracovník bude môcť vytvárať a odosielať medzipodnikové výdavky, musíte povoliť riadky medzipodnikových výdavkov. V prenajímajúcej právnickej osobe na stránke **Parametre riadenia výdavkov** vyberte možnosť **Povoliť riadky medzipodnikových výdavkov**. 
 
 ## <a name="tax-posting-for-intercompany-expenses"></a>Zaúčtovanie dane pre medzipodnikové náklady
 
 [!include [banner](../includes/banner.md)]
 
-Ak chcete vo výkaze výdavkov použiť daňové skupiny, ktoré sú spojené s požičiavajúcou (zdrojovou) právnickou entitou, namiesto požičiavajúcej si (cieľovej) právnickej entity, budete to musieť nakonfigurovať v nastavení dane z predaja v hlavnej knihe. Keď je parameter hlavnej knihy **Právnická entita pre účtovanie daní medzi spoločnosťami** nastavená na **Zdroj** a **Použiť pravidlá zdaňovania dane z predaja** je nastavená na **Nie** , použije sa daňová kombinácia pre požičiavajúcu právnickú entitu. Keď je rovnaký parameter nastavený na **Cieľ** , použije sa daňová kombinácia pre požičiavajúcu si právnickú entitu. Pre právnické entity v Spojených štátoch, keď je parameter nastavený na **Zdroj** , musí byť pole **Pohľadávka z obratu** nakonfigurované aj na novej stránke **Skupiny účtovania v hlavnej knihe**. Účtovný nástroj použije informácie z tohto poľa pre účtovný záznam súvisiaci s daňou.   
+Predtým, ako budete môcť vo svojom výkaze výdavkov použiť daňové skupiny spojené s požičiavajúcou (zdrojovou) právnickou osobou namiesto požičiavajúcej (cieľovej) právnickej osoby, musíte povoliť funkciu v nastavení dane z obratu hlavnej knihy. Keď je parameter **Právnická osoba pre účtovanie medzipodnikových daní** nastavený na **Zdroj** a možnosť **Použiť pravidlá zdaňovania dane z obratu** je nastavená na **Nie**, použije sa daňová kombinácia pre požičiavajúcu právnickú osobu. Keď je rovnaký parameter nastavený na **Cieľ**, použije sa daňová kombinácia pre požičiavajúcu si právnickú entitu. Pre právnické entity v Spojených štátoch, keď je parameter nastavený na **Zdroj**, musí byť pole **Pohľadávka z obratu** nakonfigurované aj na novej stránke **Skupiny účtovania v hlavnej knihe**. Účtovný nástroj použije informácie z tohto poľa pre účtovný záznam súvisiaci s daňou.   
 Správanie je konzistentné pre riadky výdavkov zaúčtované s projektom alebo bez neho.  

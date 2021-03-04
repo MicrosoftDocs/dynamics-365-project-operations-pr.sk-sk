@@ -3,17 +3,18 @@ title: Zriadenie nového prostredia
 description: Táto téma poskytuje informácie o tom, ako zriadiť nové prostredie Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643009"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727809"
 ---
 # <a name="provision-a-new-environment"></a>Zriadenie nového prostredia
 
@@ -60,17 +61,15 @@ Pomocou nasledujúcich krokov povolíte automatizovaný tok poskytovania prostri
 
 ![Súhlas s nasadením](./media/2DeploymentConsent.png)
 
-7. Vyplňte zvyšné povinné polia v sprievodcovi a potvrďte nasadenie. Čas poskytovania prostriedkov prostredia sa líši v závislosti od typu prostredia. Poskytovanie prostriedkov môže trvať až šesť hodín.
+7. Voliteľné – použitie ukážkových údajov pre prostredie. Prejdite na položku **Pokročilé nastavenia**, vyberte **Prispôsobiť konfiguráciu databázy SQL** a nastavte **Zadať množinu údajov pre databázu aplikácií** na možnosť **Ukážka**.
+
+8. Vyplňte zvyšné povinné polia v sprievodcovi a potvrďte nasadenie. Čas na zabezpečenie prostredia sa líši podľa typu prostredia. Poskytovanie prostriedkov môže trvať až šesť hodín.
 
   Po úspešnom dokončení nasadenia sa prostredie zobrazí ako **Nasadené**.
 
-8. Ak chcete skontrolovať, či sa prostredie úspešne nasadilo, vyberte **Prihlásiť sa** a potvrďte prihlásením sa do prostredia.
+9. Ak chcete potvrdiť, že sa prostredie úspešne nasadilo, vyberte **Prihlásiť sa** a potvrďte prihlásením sa do prostredia.
 
 ![Podrobnosti o prostredí ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Použitie ukážkových údajov Project Operations Finance (voliteľný krok)
-
-Použite ukážkové údaje Project Operations Finance na vydanie služby 10.0.13 prostredia na cloudovom hostiteľskom systéme podľa popisu v [tomto článku](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplikovanie aktualizácií na prostredie Finance
 
@@ -151,6 +150,21 @@ Po použití entít sa v prostredí zobrazia všetky dostupné mapovania.
 Obnovenie bude trvať približne 20 minút. Po dokončení dostanete upozornenie.
 
 ![Obnovenie potvrdenia](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Aktualizácia nastavení zabezpečenia v aplikácii Project Operations prostredia Dataverse
+
+1. Prejdite do aplikácie Project Operations v prostredí Dataverse. 
+2. Kliknite na položku **Nastavenie** > **Zabezpečenie** > **Roly zabezpečenia**. 
+3. Na stránke **Roly zabezpečenia** v zozname rolí vyberte **používateľ aplikácie s duálnym zápisom** a vyberte kartu **Vlastné entity**.  
+4. Overte, či má rola povolenia **Čítať** a **Pripojiť k** pre:
+      
+      - **Typ výmenného kurzu meny**
+      - **Účtovná osnova**
+      - **Rozpočtový kalendár**
+      - **Hlavná kniha**
+
+5. Po aktualizácii roly zabezpečenia prejdite na položku **Nastavenia** > **Bezpečnosť** > **Tímy** a vyberte predvolený tím v zobrazení tímu **Vlastník miestneho podniku**.
+6. Vyberte možnosť **Spravovať roly** a overte, či je tomuto tímu pridelené bezpečnostné oprávnenie **používateľ aplikácie s duálnym zápisom**.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Spustite mapy duálneho zápisu Project Operations
 

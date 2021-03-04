@@ -1,6 +1,6 @@
 ---
 title: Správa delegovania výdavkov
-description: Používateľ ako delegát výdavkov môže vytvárať a spravovať výkazy výdavkov v mene iného zamestnanca v organizácii.
+description: Používateľ, ktorý je delegátom výdavkov môže vytvárať a spravovať výkazy výdavkov pre iného zamestnanca v organizácii.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084516"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960806"
 ---
-# <a name="manage-expense-delegation"></a>Správa delegovania výdavkov
+# <a name="manage-expense-delegation"></a>Delegovanie správy výdavkov
 
-[!include [banner](../includes/banner.md)]
+Delegát výdavkov môže vytvárať a spravovať výkazy výdavkov pre iného zamestnanca.
 
-Používateľ ako delegát výdavkov môže vytvárať a spravovať výkazy výdavkov v mene iného zamestnanca v organizácii.
+## <a name="configure-expense-delegation"></a>Konfigurácia správy výdavkov
 
-## <a name="configuring-expense-delegation"></a>Konfigurácia delegovania výdavkov
+1. Ak chcete nastaviť používateľa ako delegáta výdavkov, prejdite na položku **Správa výdavkov > Nastavenie > Všeobecné > Delegáti**.
+2. Na stránke **Delegáti** stlačte možnosť **Nová**.
+3. Vyberte zamestnanca, ktorý bude mať definovaného delegáta. 
+4. Zadajte alias používateľa delegáta a dátum začatia a ukončenia obdobia delegovania.
 
-Ak chcete nastaviť používateľa ako delegáta výdavkov, prejdite na **Správa výdavkov > Nastavenie > Všeobecné > Delegáti** a otvorte stránku **Delegáti**. Vyberte **Nový** a potom vyberte zamestnanca, ktorý bude mať definovaného delegáta. Zadajte alias používateľa delegáta a dátum začatia a ukončenia obdobia delegovania.
+## <a name="manage-expense-delegation-for-another-employee"></a>Správa delegovania výdavkov pre iného zamestnanca
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Správa delegácie výdavkov v mene iného zamestnanca
+Keď je povolený kľúč na správu funkcií **Povoliť stránku so zoznamom delegátov výdavkov**, bude k dispozícii stránka so zoznamom **Výdavky delegované na mňa**. Prejdite na **Správa výdavkov** > **Moje výdavky** > **Výdavky delegované na mňa**.
 
-Ak je povolený kľúč na správu funkcií **Povoliť stránku so zoznamom delegátov výdavkov** , stránka so zoznamom **Výdavky delegované na mňa** bude k dispozícii po prechode na **Správa výdavkov > Moje výdavky > Náklady delegované na mňa**.
+Delegovaný používateľ môže rýchlo filtrovať a vyhľadávať existujúce výkazy výdavkov, ktoré mu boli delegované. Môžu tiež vytvoriť nový výkaz výdavkov pre ostatných používateľov výberom možnosti **Nový výkaz výdavkov**.
 
-Používateľ ako delegát môže rýchlo filtrovať a vyhľadávať existujúce výkazy výdavkov, ktoré boli delegované na používateľa. Používateľ môže tiež rýchlo vytvoriť nový výkaz výdavkov v mene ostatných používateľov kliknutím na **Nový výkaz výdavkov**.
-
-Používatelia ako delegáti tiež môžu prejsť na stránku, kde môžu vytvárať a spravovať výkazy výdavkov v mene iných zamestnancov prechodom do časti **Správa výdavkov > Moje výdavky > Výkazy výdavkov** a kliknutím na tlačidlo **Otvoriť výdavky ostatných používateľov**.
+Delegovaní používatelia môžu tiež vytvárať a spravovať výkazy výdavkov pre ostatných zamestnancov tak, že prejdú na stránku položku **Správa výdavkov** > **Moje výdavky** > **Výkazy výdavkov** a vyberte **Otvoriť výdavky ostatných používateľov**.
