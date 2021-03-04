@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121822"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149562"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Informácie o inovácii o štruktúre rozdelenia práce
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Táto téma poskytuje informácie o inovácii štruktúry rozdelenia práce z programu Project Service Automation 2.x na 3.x. Táto téma definuje dobrý stav projektu v Project Service Automation (PSA), ktorý je potrebný pre úspešnú inováciu. Je tam tiež informácia o bežných podmienkach blokovania, ktoré budú po inovácii neúspešné. Ďalšie informácie o definovaní projektových úloh a ich funkcií v rámci plánu projektu nájdete v časti [Projektové plány](project-creating.md).
 
 ## <a name="key-entities"></a>Kľúčové entity

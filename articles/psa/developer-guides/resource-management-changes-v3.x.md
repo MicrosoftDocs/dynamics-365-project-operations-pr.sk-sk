@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084555"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148662"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Zmeny správy zdrojov (Project Service Automation 3. x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Časti tejto témy poskytujú informácie o zmenách, ktoré boli vykonané v oblasti správy zdrojov Dynamics 365 Project Service Automation verzie 3. x.
 
 ## <a name="project-estimates"></a>Odhady projektu
 
-Namiesto toho, aby bol založený na entite **msdyn\_projecttask** ( **Projektová úloha** ), odhady projektu sú založené na entite **msdyn\_resourceassignment** ( **Priradenie zdroja** ). Priradenia prostriedkov sa stali "zdrojom pravdy" pre plánovanie úloh a určovanie cien.
+Namiesto toho, aby bol založený na entite **msdyn\_projecttask** (**Projektová úloha**), odhady projektu sú založené na entite **msdyn\_resourceassignment** (**Priradenie zdroja**). Priradenia prostriedkov sa stali "zdrojom pravdy" pre plánovanie úloh a určovanie cien.
 
 ## <a name="line-tasks"></a>Riadkové úlohy
 
@@ -65,7 +67,7 @@ V PSA 3.x, nepriradené nasadenie je priradenie, ktoré je priradené členov t�
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Plánovanie polí v entite Projektová úloha
 
-Polia v entite **msdyn\_projecttask** boli zastarané alebo presunuté do entity **msdyn\_resourceassignment** , alebo sa na ne dnes odkazuje z entity **msdyn\_projectteam** ( **Člen projektového tímu** ).
+Polia v entite **msdyn\_projecttask** boli zastarané alebo presunuté do entity **msdyn\_resourceassignment**, alebo sa na ne dnes odkazuje z entity **msdyn\_projectteam** (**Člen projektového tímu**).
 
 | Zastarané pole v msdyn\_projecttask (Projektová úloha) | Nové pole na msdyn\_resourceassignment (priradenie prostriedkov) | Komentár |
 |---|---|---|
@@ -77,7 +79,7 @@ Polia v entite **msdyn\_projecttask** boli zastarané alebo presunuté do entity
 
 ## <a name="schedule-contour"></a>Naplánovať obrys
 
-Obrys plánu sa ukladá do poľa **Plánovaná práca** ( **msdyn\_plannedwork** ) každej entity **Priradenie zdroja** ( **msdyn\_resourceassignment** ).
+Obrys plánu sa ukladá do poľa **Plánovaná práca** (**msdyn\_plannedwork**) každej entity **Priradenie zdroja** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Štruktúra
 
@@ -139,7 +141,7 @@ V tomto príklade je úloha priradená k dvom prostriedkom a je automaticky napl
 
 ## <a name="pricing-dimensions"></a>Cenové dimenzie
 
-V PSA 3.x, dimenzie týkajúce sa zdroja (napríklad **Rola** a **Organizačná jednotka** ) boli odstránené z entity **msdyn\_projecttask**. Tieto polia je teraz možné načítať z príslušného člena projektového tímu **(msdyn\_projectteam** ) priradenia prostriedkov ( **msdyn\_resourceassignment** ) pri vygenerovaný projektových odhadov. Nové pole **msdyn\_organizationalunit** bolo pridané do entity **msdyn\_projectteam**.
+V PSA 3.x, dimenzie týkajúce sa zdroja (napríklad **Rola** a **Organizačná jednotka**) boli odstránené z entity **msdyn\_projecttask**. Tieto polia je teraz možné načítať z príslušného člena projektového tímu **(msdyn\_projectteam**) priradenia prostriedkov (**msdyn\_resourceassignment**) pri vygenerovaný projektových odhadov. Nové pole **msdyn\_organizationalunit** bolo pridané do entity **msdyn\_projectteam**.
 
 | Zastarané pole v msdyn\_projecttask (Projektová úloha) | Pole z msdyn\_projectteam (člen projektového tímu), ktoré sa používa namiesto |
 |---|---|
@@ -155,12 +157,12 @@ Ceny a odhad obrysy polia boli zastarané v entite **msdyn\_projecttask**. Boli 
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Nasledovné polia boli pridané do entity **msdyn\_resourceassignment** :
+Nasledovné polia boli pridané do entity **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Tieto polia plánované, skutočné a zostávajúce náklady a predaja sa nezmenia na entitu **msdyn\_projecttask** :
+Tieto polia plánované, skutočné a zostávajúce náklady a predaja sa nezmenia na entitu **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
