@@ -17,53 +17,56 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87f89828aeff22d9b473539e294d5cf04d46a203
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 379379ff643baa10417333b4be5e56d56eb5bc26
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150057"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280552"
 ---
-# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="f89ae-103">Aktualizácia pre Project Service Automation, vydanie 23, V3</span><span class="sxs-lookup"><span data-stu-id="f89ae-103">Project Service Automation Update Release 23, V3</span></span>
+# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="e5139-103">Aktualizácia pre Project Service Automation, vydanie 23, V3</span><span class="sxs-lookup"><span data-stu-id="e5139-103">Project Service Automation Update Release 23, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="f89ae-104">S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="f89ae-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="f89ae-105">Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti.</span><span class="sxs-lookup"><span data-stu-id="f89ae-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="f89ae-106">Toto vydanie je kompatibilné s Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="f89ae-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="f89ae-107">Ak chcete aktualizovať toto vydanie, navštívte stránku online riešení v centre spravovania služby Dynamics 365 a nainštalujte aktualizáciu.</span><span class="sxs-lookup"><span data-stu-id="f89ae-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="f89ae-108">Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="f89ae-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="e5139-104">S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="e5139-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="e5139-105">Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti.</span><span class="sxs-lookup"><span data-stu-id="e5139-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="e5139-106">Toto vydanie je kompatibilné s Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="e5139-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="e5139-107">Ak chcete aktualizovať toto vydanie, navštívte stránku online riešení v centre spravovania služby Dynamics 365 a nainštalujte aktualizáciu.</span><span class="sxs-lookup"><span data-stu-id="e5139-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="e5139-108">Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="e5139-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="f89ae-109">Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation V3, vydanie 23.</span><span class="sxs-lookup"><span data-stu-id="f89ae-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="f89ae-110">Táto verzia má číslo V 3.10.34.30 a vo všeobecnosti je k dispozícii prostredníctvom samostatnej aktualizácie z augusta 2020.</span><span class="sxs-lookup"><span data-stu-id="f89ae-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
+<span data-ttu-id="e5139-109">Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation V3, vydanie 23.</span><span class="sxs-lookup"><span data-stu-id="e5139-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="e5139-110">Táto verzia má číslo V 3.10.34.30 a vo všeobecnosti je k dispozícii prostredníctvom samostatnej aktualizácie z augusta 2020.</span><span class="sxs-lookup"><span data-stu-id="e5139-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
 
-## <a name="update-release-23"></a><span data-ttu-id="f89ae-111">Aktualizácia vydania 23</span><span class="sxs-lookup"><span data-stu-id="f89ae-111">Update Release 23</span></span>
+## <a name="update-release-23"></a><span data-ttu-id="e5139-111">Aktualizácia vydania 23</span><span class="sxs-lookup"><span data-stu-id="e5139-111">Update Release 23</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="f89ae-112">Opravy chýb</span><span class="sxs-lookup"><span data-stu-id="f89ae-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="e5139-112">Opravy chýb</span><span class="sxs-lookup"><span data-stu-id="e5139-112">Bug fixes</span></span>
 
-<span data-ttu-id="f89ae-113">**Čas a výdavky**</span><span class="sxs-lookup"><span data-stu-id="f89ae-113">**Time and Expense**</span></span>
+<span data-ttu-id="e5139-113">**Čas a výdavky**</span><span class="sxs-lookup"><span data-stu-id="e5139-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="f89ae-114">Vyriešili sa tieto problémy:</span><span class="sxs-lookup"><span data-stu-id="f89ae-114">The following issues have been fixed:</span></span>
-- <span data-ttu-id="f89ae-115">Spracúvajte hraničné prípady v časti **Odstránenie člena projektového tímu** na poskytnutie zmysluplnej výnimky.</span><span class="sxs-lookup"><span data-stu-id="f89ae-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
-- <span data-ttu-id="f89ae-116">Výsledkom importu priradenia je prázdna obrazovka odstránenia.</span><span class="sxs-lookup"><span data-stu-id="f89ae-116">Assignment import results in a blank remove screen.</span></span>
+<span data-ttu-id="e5139-114">Vyriešili sa tieto problémy:</span><span class="sxs-lookup"><span data-stu-id="e5139-114">The following issues have been fixed:</span></span>
+- <span data-ttu-id="e5139-115">Spracúvajte hraničné prípady v časti **Odstránenie člena projektového tímu** na poskytnutie zmysluplnej výnimky.</span><span class="sxs-lookup"><span data-stu-id="e5139-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
+- <span data-ttu-id="e5139-116">Výsledkom importu priradenia je prázdna obrazovka odstránenia.</span><span class="sxs-lookup"><span data-stu-id="e5139-116">Assignment import results in a blank remove screen.</span></span>
 
-<span data-ttu-id="f89ae-117">**Správa zdrojov**</span><span class="sxs-lookup"><span data-stu-id="f89ae-117">**Resource Management**</span></span>
+<span data-ttu-id="e5139-117">**Správa zdrojov**</span><span class="sxs-lookup"><span data-stu-id="e5139-117">**Resource Management**</span></span>
 
-<span data-ttu-id="f89ae-118">Vyriešili sa tieto problémy:</span><span class="sxs-lookup"><span data-stu-id="f89ae-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="e5139-118">Vyriešili sa tieto problémy:</span><span class="sxs-lookup"><span data-stu-id="e5139-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="f89ae-119">**Karta zdrojov mriežky využitia zdrojov** ukazuje nesprávne údaje, ak je časová škála dlhšia ako päť dní.</span><span class="sxs-lookup"><span data-stu-id="f89ae-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
-- <span data-ttu-id="f89ae-120">Keď zákazníci vytvoria rezervovateľný zdroj, doplnok občas zlyhá pri automatickom pridávaní zdroja do skupiny Microsoft Office 365.</span><span class="sxs-lookup"><span data-stu-id="f89ae-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
-- <span data-ttu-id="f89ae-121">Zobrazenie **Vyrovnanie** ukazuje nesprávne manuálne kontúry v zobrazení **Týždeň** alebo **Mesiac**.</span><span class="sxs-lookup"><span data-stu-id="f89ae-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
+- <span data-ttu-id="e5139-119">**Karta zdrojov mriežky využitia zdrojov** ukazuje nesprávne údaje, ak je časová škála dlhšia ako päť dní.</span><span class="sxs-lookup"><span data-stu-id="e5139-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
+- <span data-ttu-id="e5139-120">Keď zákazníci vytvoria rezervovateľný zdroj, doplnok občas zlyhá pri automatickom pridávaní zdroja do skupiny Microsoft Office 365.</span><span class="sxs-lookup"><span data-stu-id="e5139-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
+- <span data-ttu-id="e5139-121">Zobrazenie **Vyrovnanie** ukazuje nesprávne manuálne kontúry v zobrazení **Týždeň** alebo **Mesiac**.</span><span class="sxs-lookup"><span data-stu-id="e5139-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
 
-<span data-ttu-id="f89ae-122">**Riadenie projektov**</span><span class="sxs-lookup"><span data-stu-id="f89ae-122">**Project Management**</span></span>
+<span data-ttu-id="e5139-122">**Riadenie projektov**</span><span class="sxs-lookup"><span data-stu-id="e5139-122">**Project Management**</span></span>
 
-<span data-ttu-id="f89ae-123">Vyriešili sa tieto problémy:</span><span class="sxs-lookup"><span data-stu-id="f89ae-123">The following issues have been fixed:</span></span>
+<span data-ttu-id="e5139-123">Vyriešili sa tieto problémy:</span><span class="sxs-lookup"><span data-stu-id="e5139-123">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="f89ae-124">Nadmerný počet entít **RetrieveMultiple for usersettings** spôsobuje zhoršenú výkonnosť pri schvaľovaní projektov a iných operáciách.</span><span class="sxs-lookup"><span data-stu-id="f89ae-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
-- <span data-ttu-id="f89ae-125">Vyhľadávanie zdrojov na mriežke **Plánovanie úloh** je obmedzené na zobrazenie iba piatich členov tímu z projektového tímu.</span><span class="sxs-lookup"><span data-stu-id="f89ae-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
-- <span data-ttu-id="f89ae-126">Vyhľadávanie zdrojov na mriežke **Plánovanie úloh** nefiltruje neaktívne zdroje.</span><span class="sxs-lookup"><span data-stu-id="f89ae-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
-- <span data-ttu-id="f89ae-127">Manuálny režim nefunguje podľa očakávania v štruktúre rozdelenia práce pri plánovaní projektu.</span><span class="sxs-lookup"><span data-stu-id="f89ae-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
-- <span data-ttu-id="f89ae-128">Mriežka **Plánovanie úloh** ukazuje **Kategórie neaktívnych transakcií**.</span><span class="sxs-lookup"><span data-stu-id="f89ae-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
-- <span data-ttu-id="f89ae-129">Mriežka **Priradenie zdrojov** sa zaokrúhľuje nesprávne, keď má úloha viac priradení.</span><span class="sxs-lookup"><span data-stu-id="f89ae-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
-- <span data-ttu-id="f89ae-130">Hodnoty zaokrúhľovania sa líšia medzi plánovanými a skutočnými nákladmi na jednu úlohu.</span><span class="sxs-lookup"><span data-stu-id="f89ae-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
+- <span data-ttu-id="e5139-124">Nadmerný počet entít **RetrieveMultiple for usersettings** spôsobuje zhoršenú výkonnosť pri schvaľovaní projektov a iných operáciách.</span><span class="sxs-lookup"><span data-stu-id="e5139-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
+- <span data-ttu-id="e5139-125">Vyhľadávanie zdrojov na mriežke **Plánovanie úloh** je obmedzené na zobrazenie iba piatich členov tímu z projektového tímu.</span><span class="sxs-lookup"><span data-stu-id="e5139-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
+- <span data-ttu-id="e5139-126">Vyhľadávanie zdrojov na mriežke **Plánovanie úloh** nefiltruje neaktívne zdroje.</span><span class="sxs-lookup"><span data-stu-id="e5139-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
+- <span data-ttu-id="e5139-127">Manuálny režim nefunguje podľa očakávania v štruktúre rozdelenia práce pri plánovaní projektu.</span><span class="sxs-lookup"><span data-stu-id="e5139-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
+- <span data-ttu-id="e5139-128">Mriežka **Plánovanie úloh** ukazuje **Kategórie neaktívnych transakcií**.</span><span class="sxs-lookup"><span data-stu-id="e5139-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
+- <span data-ttu-id="e5139-129">Mriežka **Priradenie zdrojov** sa zaokrúhľuje nesprávne, keď má úloha viac priradení.</span><span class="sxs-lookup"><span data-stu-id="e5139-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
+- <span data-ttu-id="e5139-130">Hodnoty zaokrúhľovania sa líšia medzi plánovanými a skutočnými nákladmi na jednu úlohu.</span><span class="sxs-lookup"><span data-stu-id="e5139-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
 
-<span data-ttu-id="f89ae-131">**Sales**</span><span class="sxs-lookup"><span data-stu-id="f89ae-131">**Sales**</span></span>
+<span data-ttu-id="e5139-131">**Sales**</span><span class="sxs-lookup"><span data-stu-id="e5139-131">**Sales**</span></span>
 
-<span data-ttu-id="f89ae-132">Vyriešili sa tieto problémy:</span><span class="sxs-lookup"><span data-stu-id="f89ae-132">The following issues have been fixed:</span></span>
+<span data-ttu-id="e5139-132">Vyriešili sa tieto problémy:</span><span class="sxs-lookup"><span data-stu-id="e5139-132">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="f89ae-133">Dvojité kliknutie na položku **Načítať všetky kategórie transakcií** vytvorí viac riadkov.</span><span class="sxs-lookup"><span data-stu-id="f89ae-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
+- <span data-ttu-id="e5139-133">Dvojité kliknutie na položku **Načítať všetky kategórie transakcií** vytvorí viac riadkov.</span><span class="sxs-lookup"><span data-stu-id="e5139-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
