@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131722"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287077"
 ---
 # <a name="expense-estimates"></a>Odhady nákladov
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Spolu s definovaním odhadov založených na zdrojoch umožňuje Dynamics 365 Project Operations projektovým manažérom definovať výdavky na základe projektu pre každý projekt. Každú položku výdavkov je možné priradiť ku konkrétnej projektovej úlohe alebo kategórii výdavkov. Kategórie výdavkov sú zvyčajne definované na úrovni organizácie. Cena pre každú kategóriu výdavkov je zvyčajne definovaná v nasledujúcej hierarchii:
+Spolu s definovaním odhadov založených na zdrojoch umožňuje Dynamics 365 Project Operations projektovým manažérom definovať projektové výdavky pre každý projekt. Každú položku výdavkov je možné priradiť ku konkrétnej projektovej úlohe alebo kategórii výdavkov. Kategórie výdavkov sú zvyčajne definované na úrovni organizácie. Cena pre každú kategóriu výdavkov je zvyčajne definovaná v nasledujúcej hierarchii:
 
 - Organizácia
 - Zákazník

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133441"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287257"
 ---
 # <a name="integration-journal-in-project-operations"></a>Denník integrácie v aplikácii Project Operations
 
@@ -28,9 +28,9 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 Záznamy v denníku Integrácia Project Operations sa vytvárajú pomocou periodického procesu **Import z pracovnej verzie tabuľky**. Tento proces môžete spustiť v ponuke **Dynamics 365 Finance** > **Projektový manažment a účtovníctvo** > **Periodické** > **Integrácia Project Operations** > **Import z pracovnej verzie tabuľky**. Proces môžete spustiť interaktívne alebo ho podľa potreby nakonfigurovať tak, aby bežal na pozadí.
 
 Po periodickom spúšťaní procesu sa nájdu všetky skutočné hodnoty, ktoré ešte nie sú pridané do denníka Integrácia Project Operations. Pre každú skutočnú transakciu sa vytvorí záznam v účtovnom denníku.
-Systém zoskupuje záznamy v účtovnom denníku do samostatných denníkov na základe hodnoty vybranej v poli **Jednotka periódy v denníku Integrácia Project Operations** lúka (**Financie** > **Projektový manažment a účtovníctvo** > **Nastavenie** > **Parametre projektového manažmentu a účtovníctva**, karta **Project Operations v Dynamics 365 Customer Engagement**). Možné hodnoty pre toto pole sú:
+Systém zoskupuje záznamy v účtovnom denníku do samostatných denníkov na základe hodnoty vybranej v poli **Jednotka periódy v denníku Integrácia Project Operations** (**Financie** > **Projektový manažment a účtovníctvo** > **Nastavenie** > **Parametre projektového manažmentu a účtovníctva**, karta **Project Operations v Dynamics 365 Customer Engagement**). Možné hodnoty pre toto pole sú:
 
-  - _*Dni**: Skutočné hodnoty sú zoskupené podľa dátumu transakcie. Pre každý deň sa vytvára samostatný denník.
+  - **Dni**: Skutočné hodnoty sú zoskupené podľa dátumu transakcie. Pre každý deň sa vytvára samostatný denník.
   - **Mesiace**: Skutočné hodnoty sú zoskupené podľa kalendárnych mesiacov. Pre každý mesiac sa vytvára samostatný denník.
   - **Roky**: Skutočné hodnoty sú zoskupené podľa kalendárnych rokov. Pre každý rok sa vytvára samostatný denník.
   - **Všetky**: Všetky skutočné transakcie sú zahrnuté v rovnakom denníku integrácie. Ak denník nie je k dispozícii pri spustení periodického procesu, napríklad ak je denník v procese aktualizácie transakcií, vytvorí sa nový denník.
