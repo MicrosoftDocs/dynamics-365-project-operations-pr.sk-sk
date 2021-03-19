@@ -1,6 +1,6 @@
 ---
 title: Prepracované výkazy výdavkov
-description: Táto téma poskytuje informácie o prebudovanom a prepracovanom prostredí pre zadávanie výkazov výdavkov v aplikácii Microsoft Dynamics 365 Finance. Nové možnosti zjednodušujú proces dokončovania výkazov výdavkov a skracujú potrebný čas.
+description: Táto téma poskytuje informácie o prebudovanom a prepracovanom prostredí pre zadávanie výkazov výdavkov.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960266"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272002"
 ---
 # <a name="redesigned-expense-reports"></a>Prepracované výkazy výdavkov
 
@@ -40,12 +40,6 @@ Nové prostredie zapnete pomocou pracovného priestoru **Správa funkcií** na z
 - Pridá sa nové položka ponuky pre viditeľnosť poľa výdavkov.
 - Nebudú odstránené žiadne existujúce položky ponuky pre výkazy výdavkov (existujúca stránka) alebo polia výkazu výdavkov.
 - Pracovné postupy a akékoľvek schválenia vás stále dovedú na stránku s existujúcimi výkazmi výdavkov.
-
-## <a name="getting-started-video-for-new-users"></a>Úvodné video pre nových používateľov
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Video [Prostredie výdavkov v Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (zobrazené vyššie) je súčasťou [zoznamu na prehrávanie Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), ktorý je k dispozícii na YouTube.
 
 ## <a name="new-features"></a>Nové funkcie
 

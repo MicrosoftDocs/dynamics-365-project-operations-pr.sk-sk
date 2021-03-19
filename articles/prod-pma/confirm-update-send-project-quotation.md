@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084502"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270832"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Potvrdenie, aktualizácia a odosielanie kótovanej ceny projektu
 
@@ -39,7 +39,7 @@ Existujúcu cenovú ponuku projektu môžete poslať na potvrdenie prostredníct
 2. Na stránke **Cenová ponuka projektu** vyberte ponuku, ktorú chcete poslať na potvrdenie. 
 3. Na karte **Následný** v skupine **Generovať** vyberte **Potvrdiť**. 
 4. Na stránke **Potvrdiť cenovú ponuku** nastavte požadované parametre. Napríklad na vytlačenie potvrdenia v možnostiach **Tlač** zapnite položku **Tlačiť potvrdenie** a potom vyberte **OK**.
-5. Na stránke **Poslať cenovú ponuku** vyberte **Možnosti** a na stránke **Tlačiť nastavenia cieľa** vyberte, či chcete odoslať ponuku na **Obrazovka** , **E-mail** , **Súbor** , **Vytlačiť archív** alebo **Tlačiareň** , a potom vykonajte požadované úpravy v oblasti **Špecifikácia** na smerovanie ponuky.
+5. Na stránke **Poslať cenovú ponuku** vyberte **Možnosti** a na stránke **Tlačiť nastavenia cieľa** vyberte, či chcete odoslať ponuku na **Obrazovka**, **E-mail**, **Súbor**, **Vytlačiť archív** alebo **Tlačiareň**, a potom vykonajte požadované úpravy v oblasti **Špecifikácia** na smerovanie ponuky.
 6. Na stránke **Tlačiť nastavenia cieľa** vyberte **OK**.  
 
 ## <a name="update-a-project-quotation"></a>Aktualizácia cenovej ponuky projektu

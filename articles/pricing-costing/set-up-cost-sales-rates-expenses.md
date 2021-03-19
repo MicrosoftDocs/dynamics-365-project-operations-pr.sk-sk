@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180301"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274927"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Nastavenie nákladových a predajných sadzieb pre výdavky
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-V Dynamics 365 Project Operations môžete nastaviť náklady a predajné ceny pre kategórie transakcií. Pretože náklady a predajné ceny sú určené pre výdavky, musí byť každá kategória transakcií, ktorá ich zahŕňa, tiež nastavená ako kategória výdavkov. Toto nastavenie zaisťuje presnosť následných funkcií. Cena a predajné ceny pre transakčné kategórie môžu byť uvedené iba v jednej mene, ktorou musí byť mena v hlavičke cenníka.
+V kategórii môžete nastaviť nákladové a predajné ceny pre kategórie transakcií v rámci Dynamics 365 Project Operations. Pretože náklady a predajné ceny sú určené pre výdavky, musí byť každá kategória transakcií, ktorá ich zahŕňa, tiež nastavená ako kategória výdavkov. Toto nastavenie zaisťuje presnosť následných funkcií. Cena a predajné ceny pre transakčné kategórie môžu byť uvedené iba v jednej mene, ktorou musí byť mena v hlavičke cenníka.
 
 Ak chcete nastaviť ceny a sadzby predaja pre kategórie transakcií, postupujte takto. 
 

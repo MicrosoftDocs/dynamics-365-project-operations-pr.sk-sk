@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084504"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270922"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parametre integrácie Project Service Automation
 
@@ -30,7 +30,7 @@ ms.locfileid: "4084504"
 
 Na stránke **Integračné parametre Project Service Automation** môžete nakonfigurovať, ako sa pri integrácii Dynamics 365 Project Service Automation s Dynamics 365 Finance zadávajú predvolené údaje. Pre úspešnú synchronizáciu projektov z Project Service Automation do Finance je potrebné nastaviť nasledujúce polia.
 
-Ak chcete otvoriť stránku **Integračné parametre Project Service Automation** , prejdite do časti **Projektové riadenie a účtovníctvo**\> **Konfigurácia**\> **Parametre integrácie Dynamics 365 for Project Service Automation**. 
+Ak chcete otvoriť stránku **Integračné parametre Project Service Automation**, prejdite do časti **Projektové riadenie a účtovníctvo**\> **Konfigurácia**\> **Parametre integrácie Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - Integrácia projektovej úlohy, kategórie výdavkov na transakciu, odhady hodín, odhady výdavkov a blokovanie funkcií sú k dispozícii vo verzii 8.0.

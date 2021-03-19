@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084390"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270787"
 ---
 # <a name="intercompany-invoicing"></a>Medzipodniková fakturácia
 
@@ -95,7 +95,7 @@ USSI, právnická osoba poskytujúca pôžičky, musí vytvoriť a zaúčtovať 
 | Krok | Vstupný bod                                                                                             | Popis                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Projektové riadenie a účtovníctvo** &gt; **Faktúry projektu** &gt; **Faktúra pre medzipodnikových zákazníkov**  | Kliknutím na možnosť **Nový** otvorte stránku **Vytvoriť medzipodnikovú faktúru**.                                                                                  |
-| B    | **Riadenie projektu a účtovníctvo** &gt; **Faktúry projektu** &gt; **Faktúry pre medzipodnikových zákazníkov** | Na stránke **Vytvorte medzipodnikovú faktúru** , zadajte právnickú osobu, zadajte transakciu, ktorá by mala byť zahrnutá, a potom kliknite na tlačidlo **Hľadať**. |
+| B    | **Riadenie projektu a účtovníctvo** &gt; **Faktúry projektu** &gt; **Faktúry pre medzipodnikových zákazníkov** | Na stránke **Vytvorte medzipodnikovú faktúru**, zadajte právnickú osobu, zadajte transakciu, ktorá by mala byť zahrnutá, a potom kliknite na tlačidlo **Hľadať**. |
 | C    | **Riadenie projektu a účtovníctvo** &gt; **Faktúry projektu** &gt; **Faktúry pre medzipodnikových zákazníkov** | Vyberte transakcie, ktoré chcete fakturovať, alebo kliknite na ikonu **Vybrať všetko** a fakturujte všetky transakcie v zozname a potom kliknite na tlačidlo **OK**.                  |
 | D    | Stránka **Medzipodniková faktúra**                                                                       | Zobrazí sa návrh medzipodnikovej faktúry pre zákazníka.                                                                                             |
 | E    | Stránka **Medzipodniková faktúra**                                                                       | Kliknite na možnosť **Zverejniť**.                                                                                                                                  |
@@ -107,7 +107,7 @@ Keď požičiavajúca právnická osoba, USSI, zaúčtuje medzipodnikovú faktú
 |------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | A    | **Záväzky** &gt; **Faktúry** &gt; **Čakajúce faktúry dodávateľa**                            | Skontrolujte faktúru, aby ste overili, či sú zahrnuté hodnoty časového rozvrhu, a potom odošlite faktúru dodávateľa.                  |
 | B    | **Riadenie projektu a účtovníctvo** &gt; **Faktúry projektu** &gt; **Návrhy projektovej faktúry** | Vytvorte novú projektovú faktúru pre projekt a overte, či sa zobrazia hodinové transakcie, ktoré boli zaúčtované.            |
-| C    | Stránka **Projektová faktúra**                                                                       | Vyberte projektovú faktúru a potom kliknite na tlačidlo **Zobraziť podrobnosti** , kde skontrolujte náklady a výšku predaja. Potom zverejnite faktúru. |
+| C    | Stránka **Projektová faktúra**                                                                       | Vyberte projektovú faktúru a potom kliknite na tlačidlo **Zobraziť podrobnosti**, kde skontrolujte náklady a výšku predaja. Potom zverejnite faktúru. |
 
 
 Viac informácií nájdete na [Konfigurácia fakturácie medzipodnikových projektov](tasks/configure-intercompany-project-invoicing.md).

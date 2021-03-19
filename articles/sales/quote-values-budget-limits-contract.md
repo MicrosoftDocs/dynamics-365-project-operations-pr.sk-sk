@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180256"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277582"
 ---
 # <a name="project-quote-settings"></a>Nastavenia projektovej cenovej ponuky
 
@@ -22,7 +22,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 Tento článok vysvetľuje informácie, ktoré sa týkajú cenovej ponuky projektu. Patria sem nastavenia, ktoré majú vplyv na všetky riadky cenovej ponuky, a informácie o ponuke, ktoré sú zhrnuté vo všetkých riadkových položkách a slúžia na zvýšenie kľúčových ukazovateľov výkonu cenovej ponuky projektu.
 
-V nasledujúcej tabuľke sú uvedené polia súhrnných informácií pre cenovú ponuku projektu, ktoré sú jedinečné pre Dynamics 365 Project Operations alebo majú niektoré dôležité zmeny v správaní cenových ponúk v Dynamics 365 Sales.
+V nasledujúcej tabuľke je uvedený zoznam polí so súhrnnými informáciami v cenovej ponuke projektu, ktoré sú jedinečné pre Dynamics 365 Project Operations alebo majú niektoré dôležité zmeny správania v porovnaní s cenovými ponukami z Dynamics 365 Sales.
 
 | **Pole** | **Miesto** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |

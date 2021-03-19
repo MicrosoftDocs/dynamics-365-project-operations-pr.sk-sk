@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177620"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277402"
 ---
 # <a name="sales-process-overview"></a>Prehľad procesu predaja
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Predajné procesy, ktoré sa používajú v organizácii založenej na projekte, sa odlišujú od predajných procesov, ktoré sa používajú v organizácii založenej na produktoch. Tento sa vyskytuje, pretože predajné cykly pre organizácie založené na projekte sú dlhšie a vyžadujú prispôsobené metódy odhadu na analýzu a vytváranie cenových ponúk pre každú dohodu. Dynamics 365 Project Operations používa niektoré z nasledujúcich funkcií, ktoré sa používajú v procese predaja:
+Predajné procesy, ktoré sa používajú v organizácii založenej na projekte, sa odlišujú od predajných procesov, ktoré sa používajú v organizácii založenej na produktoch. Tento sa vyskytuje, pretože predajné cykly pre organizácie založené na projekte sú dlhšie a vyžadujú prispôsobené metódy odhadu na analýzu a vytváranie cenových ponúk pre každú dohodu. Dynamics 365 Project Operations využíva niektoré z nasledujúcich funkcií, ktoré sa používajú pri predajnom procese:
 
 - Záznam potenciálneho zákazníka sa používa na sledovanie procesu predaja.
 - Kvalifikačný potenciálni zákazníci sa sledujú ako príležitosti.

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084418"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271012"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementujte vlastné polia pre mobilnú aplikáciu Microsoft Dynamics 365 Project Timesheet pre iOS a Android
 
@@ -49,14 +49,14 @@ Trieda **TSTimesheetCustomField** je trieda kontraktu údajov X++, ktorá predst
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (typy)
 
-Vlastnosť **FieldBaseType** na objekt **TsTimesheetCustom** určuje typ poľa, ktoré sa zobrazí v aplikácii. Nasledujúce hodnoty **typov** , ktoré sú podporované.
+Vlastnosť **FieldBaseType** na objekt **TsTimesheetCustom** určuje typ poľa, ktoré sa zobrazí v aplikácii. Nasledujúce hodnoty **typov**, ktoré sú podporované.
 
 | Typ hodnoty | Typ              | Poznámky |
 |-------------|-------------------|-------|
 | 0           | Reťazec (a Enum) | Pole sa zobrazuje ako textové pole. |
 | 1           | Integer           | Hodnota sa zobrazuje ako číslo bez desatinných miest. |
 | 2           | Reálne číslo              | Hodnota sa zobrazuje ako číslo s desatinnými miestami.<p>Skutočnú hodnotu meny v aplikácii zobrazíte pomocou vlastnosti **fieldExtenededType**. Môžete použiť vlastnosť **numberOfDecimals** a nastaviť počet desatinných miest, ktoré sa zobrazia.</p> |
-| 3           | Dátum              | Formáty dátumu sú určené používateľom nastavením **Formát dátumu, času a čísla** , ktoré je uvedené v **Preferencie jazyka a krajiny/regiónu** v časti **Možnosti používateľa**. |
+| 3           | Dátum              | Formáty dátumu sú určené používateľom nastavením **Formát dátumu, času a čísla**, ktoré je uvedené v **Preferencie jazyka a krajiny/regiónu** v časti **Možnosti používateľa**. |
 | 4           | Boolean           | |
 | 15          | GUID              | |
 | 16          | Int64             | |
@@ -65,7 +65,7 @@ Vlastnosť **FieldBaseType** na objekt **TsTimesheetCustom** určuje typ poľa, 
 
     Vlastnosť **stringLength** sa dá použiť na nastavenie maximálnej dĺžky reťazca, ktorú môžu používatelia zadať.
 
-- Ak vlastnosť **stringOptions** sa poskytuje v objekte **TSTimesheetCustomField** , tieto prvky zoznamu sú jediné hodnoty, ktoré môžu používatelia vybrať pomocou prepínačov (prepínačov).
+- Ak vlastnosť **stringOptions** sa poskytuje v objekte **TSTimesheetCustomField**, tieto prvky zoznamu sú jediné hodnoty, ktoré môžu používatelia vybrať pomocou prepínačov (prepínačov).
 
     V takom prípade môže pole reťazca slúžiť ako hodnota vymenovania na účely zadania používateľom. Ak chcete uložiť hodnotu do databázy ako vymenovanie, ručne namapujte hodnotu reťazca späť na hodnotu vymenovania pred uložením do databázy pomocou reťazca príkazov (pozrite si časť „Použiť reťazec príkazov v triede TSTimesheetEntryService na uloženie záznamu časového výkazu z aplikácie späť do databázy“ ďalej v tejto téme).
 
@@ -97,11 +97,11 @@ Táto vlastnosť identifikuje pole, keď sa hodnoty, ktoré poskytuje aplikácia
 
 ### <a name="iseditable-noyes"></a>isEditable (NoYes)
 
-Nastaviť túto vlastnosť na **Áno** , čím stanovíte, že pole v časti zadania časového rozvrhu by mali používatelia upravovať. Nastavte vlastnosť na **Nie** , aby bolo pole iba na čítanie.
+Nastaviť túto vlastnosť na **Áno**, čím stanovíte, že pole v časti zadania časového rozvrhu by mali používatelia upravovať. Nastavte vlastnosť na **Nie**, aby bolo pole iba na čítanie.
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NoYes)
 
-Nastavte túto vlastnosť na **Áno** , čím stanovíte, že pole v časti zadania časového rozvrhu musí byť povinné.
+Nastavte túto vlastnosť na **Áno**, čím stanovíte, že pole v časti zadania časového rozvrhu musí byť povinné.
 
 ### <a name="label-str"></a>označenie (str)
 
@@ -125,31 +125,31 @@ Táto vlastnosť riadi poradie, v ktorom sa vlastné polia zobrazia v aplikácii
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Pre polia typu **Booleovské** , táto vlastnosť odovzdá boolovskú hodnotu poľa medzi serverom a aplikáciou.
+Pre polia typu **Booleovské**, táto vlastnosť odovzdá boolovskú hodnotu poľa medzi serverom a aplikáciou.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Pre polia typu **GUID** , táto vlastnosť odovzdá hodnotu GUID poľa medzi serverom a aplikáciou.
+Pre polia typu **GUID**, táto vlastnosť odovzdá hodnotu GUID poľa medzi serverom a aplikáciou.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Pre polia typu **Int64** , táto vlastnosť odovzdá Int64 hodnotu poľa medzi serverom a aplikáciou.
+Pre polia typu **Int64**, táto vlastnosť odovzdá Int64 hodnotu poľa medzi serverom a aplikáciou.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Pre polia typu **Int** , táto vlastnosť odovzdá Int hodnotu poľa medzi serverom a aplikáciou.
+Pre polia typu **Int**, táto vlastnosť odovzdá Int hodnotu poľa medzi serverom a aplikáciou.
 
 ### <a name="realvalue-real"></a>realValue (real)
 
-Pre polia typu **Real** , táto vlastnosť odovzdá real hodnotu poľa medzi serverom a aplikáciou.
+Pre polia typu **Real**, táto vlastnosť odovzdá real hodnotu poľa medzi serverom a aplikáciou.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Pre polia typu **Reťazec** , táto vlastnosť odovzdá hodnotu reťazca poľa medzi serverom a aplikáciou. Používa sa tiež na polia typu **Real** , ktoré sú naformátované ako mena. V prípade týchto polí sa vlastnosť používa na odovzdanie kódu meny do aplikácie.
+Pre polia typu **Reťazec**, táto vlastnosť odovzdá hodnotu reťazca poľa medzi serverom a aplikáciou. Používa sa tiež na polia typu **Real**, ktoré sú naformátované ako mena. V prípade týchto polí sa vlastnosť používa na odovzdanie kódu meny do aplikácie.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
-Pre polia typu **Dátum** , táto vlastnosť odovzdá hodnotu dátumu poľa medzi serverom a aplikáciou.
+Pre polia typu **Dátum**, táto vlastnosť odovzdá hodnotu dátumu poľa medzi serverom a aplikáciou.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Zobraziť a uložiť vlastné pole v časti zadania časového rozvrhu
 
@@ -179,9 +179,9 @@ Nižšie je snímka obrazovky z Visual Studio stromu aplikačných objektov. Zob
 
 Tento kód riadi nastavenia zobrazenia poľa v aplikácii. Napríklad ovláda typ poľa, štítok, či je pole povinné a v ktorej časti sa pole zobrazuje.
 
-Nasledujúci príklad ukazuje pole reťazca pre časové údaje. Toto pole má dve možnosti, **Prvá možnosť** a **Druhá možnosť** , ktoré sú k dispozícii prostredníctvom prepínačov. Pole v aplikácii je spojené s poľom **TestLineString** , ktoré sa pridá do tabuľky TSTimesheetLine.
+Nasledujúci príklad ukazuje pole reťazca pre časové údaje. Toto pole má dve možnosti, **Prvá možnosť** a **Druhá možnosť**, ktoré sú k dispozícii prostredníctvom prepínačov. Pole v aplikácii je spojené s poľom **TestLineString**, ktoré sa pridá do tabuľky TSTimesheetLine.
 
-Všimnite si použitie metódy **TSTimesheetCustomField::newFromMetatdata()** na zjednodušenie inicializácie vlastností vlastného poľa: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** a **numberOfDecimals**. Tieto parametre môžete podľa potreby nastaviť aj manuálne.
+Všimnite si použitie metódy **TSTimesheetCustomField::newFromMetatdata()** na zjednodušenie inicializácie vlastností vlastného poľa: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** a **numberOfDecimals**. Tieto parametre môžete podľa potreby nastaviť aj manuálne.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Ak chcete uložiť vlastné pole späť do databázy pri bežnom používaní, m
 - Metóda **populateTimesheetWeekFromEntry** môže byť tiež rozšírená, ak vlastné pole, ktoré je namapované na objekt **TSTimesheetEntry** sa musí zapísať späť do databázovej tabuľky TSTimesheetLineweek.
 
 > [!NOTE]
-> Nasledujúci príklad uloží hodnotu **firstOption** alebo **secondOption** , ktorú si používateľ vyberie, do databázy ako nespracovanú hodnotu reťazca. Ak je databázové pole poľom typu **enum** , tieto hodnoty je možné manuálne namapovať na hodnotu enum a potom uložiť do poľa enum v databázovej tabuľke.
+> Nasledujúci príklad uloží hodnotu **firstOption** alebo **secondOption**, ktorú si používateľ vyberie, do databázy ako nespracovanú hodnotu reťazca. Ak je databázové pole poľom typu **enum**, tieto hodnoty je možné manuálne namapovať na hodnotu enum a potom uložiť do poľa enum v databázovej tabuľke.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Existujúca logika pre funkčnosť časového rozvrhu na úrovni databázy bude 
 
 - Ak **validateWrite** v tabuľke TSTimesheetLine vráti hodnotu **false** počas operácie uloženia riadku časového rozvrhu sa v mobilnej aplikácii zobrazí chybové hlásenie.
 - Ak **validateSubmit** v tabuľke TSTimesheetTable vráti hodnotu **false** počas operácie odoslania časového rozvrhu sa v aplikácii používateľovi zobrazí chybové hlásenie.
-- Logika, ktorá vypĺňa polia (napríklad **Vlastnosť riadku** ) počas metódy **vložiť** v tabuľke TSTimesheetLine bude stále bežať.
+- Logika, ktorá vypĺňa polia (napríklad **Vlastnosť riadku**) počas metódy **vložiť** v tabuľke TSTimesheetLine bude stále bežať.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Skrytie a označenie vopred pripravených polí ako konfigurácie iba na čítanie
 

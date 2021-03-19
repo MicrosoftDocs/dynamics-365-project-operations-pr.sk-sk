@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176765"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274522"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Riešenie predajných cien pre odhady a skutočné hodnoty – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Keď sa predajné ceny na základe odhadov a skutočností vyriešia v rámci Dynamics 365 Project Operations, systém najskôr použije dátum a menu príslušnej ponuky alebo kontraktu na vyriešenie cenníka predajných cien. Po vyriešení predajného cenníka systém vyrieši predajnú alebo fakturačnú sadzbu.
+Keď sa predajné ceny na základe odhadov a skutočností vyriešia v rámci Dynamics 365 Project Operations, systém najskôr použije dátum a menu príslušnej ponuky alebo zmluvy na vyriešenie cenníka predaja. Po vyriešení predajného cenníka systém vyrieši predajnú alebo fakturačnú sadzbu.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Riešenie predajných sadzieb v riadkoch so skutočnými hodnotami a odhadmi pre čas
 

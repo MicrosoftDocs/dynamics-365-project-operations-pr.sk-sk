@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181158"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277627"
 ---
 # <a name="project-contract-settings"></a>Nastavenia projektovej zmluvy
 
@@ -21,7 +21,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 Táto téma poskytuje informácie o poliach, ktoré sa vzťahujú na celú zmluvu o projekte vrátane nastavení, ktoré majú vplyv na všetky riadky zmluvy. Zahrnuté sú aj informácie o zmluve, ktoré sú zhrnuté vo všetkých riadkových položkách a slúžia na zvýšenie KPI projektovej zmluvy.
 
-V nasledujúcej tabuľke sú uvedené polia zmluvy o projekte, ktoré sú jedinečné pre Dynamics 365 Project Operations alebo majú niektoré dôležité zmeny v porovnaní s predajnými objednávkami v Dynamics 365 Sales.
+V nasledujúcej tabuľke je uvedený zoznam polí v zmluve projektu, ktoré sú jedinečné pre Dynamics 365 Project Operations alebo majú niektoré dôležité zmeny správania v porovnaní s predajnými objednávkami z Dynamics 365 Sales.
 
 | Pole | Miesto | Popis | Nadväzujúci vplyv |
 | --- | --- | --- | --- |
@@ -30,7 +30,7 @@ V nasledujúcej tabuľke sú uvedené polia zmluvy o projekte, ktoré sú jedine
 | Zákazník | Karta **Súhrn** | Referencia na záznam zákazníka spoločnosti zákazníka alebo obchodného vzťahu. Po vytvorení zmluvy z cenovej ponuky sa toto pole skopíruje z príslušného poľa v zázname cenovej ponuky. | Mena v cenovej zmluve projektu je predvolene založená na mene zákazníka. Menu je možné pred uložením zmluvy zmeniť. |
 | Manažér obchodného vzťahu | Karta **Súhrn** | Meno manažéra obchodného vzťahu pre túto dohodu. Po vytvorení zmluvy z cenovej ponuky sa toto pole skopíruje z príslušného poľa v zázname cenovej ponuky. | Manažér obchodného vzťahu je zodpovedný za riadenie vzťahov so zákazníkom po dokončení tohto projektu. Na základe rezervovateľného záznamu zdroja naviazaného na manažéra obchodného vzťahu je v zmluvnej jednotke predvolená zmluva projektu. |
 | Zmluvná jednotka | Karta **Súhrn** | Organizačná jednotka zodpovedná za realizáciu projektov spojených s touto zmluvou. Po vytvorení zmluvy z cenovej ponuky sa toto pole skopíruje z príslušného poľa v zázname cenovej ponuky. | Zmluvnou jednotkou je divízia spoločnosti, ktorá realizuje projekty. Každá zmluvná jednotka má menu, ktorá sa používa na vykazovanie odhadovaných a skutočných nákladov vzniknutých počas projektu. |
-| Cenník produktov | Karta **Súhrn** | Toto je cenník, ktorý sa používa na predvolené ceny v riadkoch zmluvy. Rozbaľovací zoznam možností pre toto pole zobrazuje zoznam cenníkov, kde sa mena cenníka zhoduje s menou v zmluve. Po vytvorení zmluvy z cenovej ponuky sa toto pole skopíruje z príslušného poľa v zázname cenovej ponuky. Na projektovej  zmluve je toto pole predvolené zo záznamu obchodného vzťahu, ale je možné ho zmeniť. | Pre toto pole neexistuje žiadna následná relevancia. |
+| Cenník produktov | Karta **Súhrn** | Toto je cenník, ktorý sa používa na predvolené ceny v riadkoch zmluvy. Rozbaľovací zoznam možností pre toto pole zobrazuje zoznam cenníkov, kde sa mena cenníka zhoduje s menou v zmluve. Po vytvorení zmluvy z cenovej ponuky sa toto pole skopíruje z príslušného poľa v zázname cenovej ponuky. Na projektovej zmluve je toto pole predvolené zo záznamu obchodného vzťahu, ale je možné ho zmeniť. | Pre toto pole neexistuje žiadna následná relevancia. |
 | Mena | Karta **Súhrn** | Mena použitá na hlásenie hodnoty tejto dohody a mena, v ktorej bude zákazníkovi fakturovaná. Po vytvorení zmluvy z cenovej ponuky sa toto pole skopíruje z príslušného poľa v zázname cenovej ponuky. Na projektovej zmluve je toto pole predvolené zo záznamu obchodného vzťahu, ale je možné ho zmeniť. | Po uložení zmluvy už toto pole nie je možné upravovať. Toto pole sa používa na predvolenie cenníkov produktov a projektov v zmluve. Mena v zmluve sa používa na zhodu s menou v cenníku. |
 | Limit, ktorý sa nesmie prekročiť | Karta **Súhrn** | Toto pole naznačuje vyjednaný horný limit konečnej hodnoty, s ktorou zákazník v prípade tejto dohody súhlasí. | Horný limit sa hodnotí počas vykonávania a je použiteľný vo všetkých riadkových položkách a projektoch spojených s touto dohodou. |
 | Požadovaný dátum doručenia | Karta **Súhrn** | Po vytvorení zmluvy z cenovej ponuky projektu sa toto pole skopíruje z príslušného poľa v zázname cenovej ponuky projektu. | Tento dátum sa používa ako konečný dátum na generovanie plánov faktúr. |

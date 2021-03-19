@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124657"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277177"
 ---
 # <a name="extending-time-entries"></a>Rozšírenie zadaní času
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Dynamics 365 Project Operations obsahuje rozšíriteľné vlastné riadenie zadaní času. Toto riadenie obsahuje nasledujúce funkcie:
+Dynamics 365 Project Operations obsahuje rozšíriteľný vlastný prvok na zadávanie času. Toto riadenie obsahuje nasledujúce funkcie:
 
 - Horizontálne zadávanie času počas týždňa
 - Súčty za deň, riadok alebo týždeň

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176000"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273037"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Správa projektových cenníkov v projektových cenových ponukách – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Cenové ponuky projektu sú navrhnuté tak, aby podporovali cenníky s účinnosťou viacerých dátumov predaja. V Dynamics 365 Project Operations bola pridaná nová pridružená entita **Cenníky projektu**. Táto entita má vzťah 1 k mnohým pre cenovú ponuku projektu.
+Cenové ponuky projektu sú navrhnuté tak, aby podporovali cenníky s účinnosťou viacerých dátumov predaja. S aplikáciou Dynamics 365 Project Operations sa pridá nová pridružená entita s názvom **Projektové cenníky**. Táto entita má vzťah 1 k mnohým pre cenovú ponuku projektu.
 
 Cenníky projektu sa používajú na ocenenie časových a výdavkových transakcií projektu. Ak má cenová ponuka jeden alebo viac cenníkov projektu, tieto cenníky sa používajú na odhad ceny a času a výdavkov a skutočných hodnôt o projektoch, ktoré sú spojené s cenovou ponukou prostredníctvom riadka cenovej ponuky.
 

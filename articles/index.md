@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Project Operations
+title: Dynamics 365 Project Operations
 description: Táto téma poskytuje informácie o Dynamics 365 Project Operations.
 author: stsporen
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120832"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275917"
 ---
-# <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
+# <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations spája predajné, zdrojové, projektové riadiace a finančné tímy v jednej aplikácii, na získanie viacerých obchodov, urýchlenie dodania projektu a maximalizovanie ziskovosti.
+Microsoft Dynamics 365 Project Operations spája tímy pre predaj, zdroje, správu projektov a financie do jednej aplikácie s cieľom získať viac ponúk, urýchliť dodanie projektov a maximalizovať ziskovosť.
 
 -   **Lídri získavajú obchodné poznatky** na zvýšenie viditeľnosti vo všetkých tímoch, dátach a procesoch, plus možnosti umelej inteligencie pre lepšie a rýchlejšie obchodné rozhodnutia.
 -   **Predaj je povolený** na získanie viacerých obchodov a urýchlenie predajného cyklu pomocou rýchlych a presných cenových ponúk, flexibilných cien a plynulých prechodov od odhadu k vykonaniu.
@@ -40,7 +40,7 @@ Project Operations je sám o sebe výkonný, ale môžu ho rozšíriť naši zá
 Ďalšie informácie:
 
 - [Prehľad Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Prehľad Dynamics 365 Project Operations 2020, vydanie wave 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Prehľad 1. vlny vydávania Dynamics 365 Project Operations v roku 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

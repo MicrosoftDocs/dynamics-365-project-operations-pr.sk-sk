@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181561"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274072"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>Správa faktúry pro forma – čiastočné
 
@@ -94,7 +94,7 @@ Nasledujúce polia sú k dispozícii v podrobnosti riadka faktúry, za ktorým s
 | **Jednotka** | Nastavené predvolene zo skutočných údajov zdroja. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. | Toto pole je možné upraviť v podrobnostiach nového riadka faktúry, ktorý nie je podložený skutočnými údajmi zdroja. |
 | **Cena** | Nastavené predvolene zo skutočných údajov zdroja. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. | Toto pole je možné upraviť v detaile nového riadka faktúry, ktorý nie je podložený skutočnými údajmi zdroja. Ak nie je zadaná žiadna hodnota, je predvolene nastavené po **Uložení**. |
 | **Mena** | Nastavené predvolene zo skutočných údajov zdroja. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. | Nastavené ako predvolené v hlavičke faktúry pri vytváraní nového fakturačného detailu bez skutočného podloženia.  Pole iba na čítanie, ktoré je uzamknuté pred úpravami. |
-| **Suma** | Nastavené predvolene zo skutočných údajov zdroja. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. | Vypočítané ako **Množstvo\*Cena** pri vytváraní nového fakturačného detailu bez podloženia skutočnými hodnotami. Vypočíta sa po **Uložení**. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. |
+| **Suma** | Nastavené predvolene zo skutočných údajov zdroja. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. | Vypočítané ako **Množstvo \* Cena** pri vytváraní nového fakturačného detailu bez podloženia skutočnými hodnotami. Vypočíta sa po **Uložení**. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. |
 | **Daň** | Nastavené predvolene zo skutočných údajov zdroja. Pole môže používateľ upravovať | Toto pole môže používateľ upravovať pri vytváraní podrobností nového riadka faktúry bez podloženia skutočnými hodnotami. |
 | **Celková suma** | Vypočítavané pole, vypočítané ako **Suma + daň**. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. | &nbsp; |
 | **Typ fakturácie** | Nastavené predvolene zo skutočných údajov zdroja. Pole môže používateľ upravovať. | Výberom možnosti **Účtovateľné** sa pridá riadok k celkovej sume riadkov faktúry. **Bezplatné** a **Neúčtovateľné** sa vylúči z celkovej sumy riadkov faktúry. |

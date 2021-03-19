@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 870a583a4f7c9ed461207f65f267b529580cf02b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180942"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272497"
 ---
 # <a name="project-contract-settings---lite"></a>Nastavenia projektovej zmluvy – čiastočné
 
@@ -21,7 +21,7 @@ _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Táto téma poskytuje informácie o poliach, ktoré sa vzťahujú na celú zmluvu o projekte vrátane nastavení, ktoré majú vplyv na všetky riadky zmluvy. Zahrnuté sú aj informácie o zmluve, ktoré sú zhrnuté vo všetkých riadkových položkách a slúžia na zvýšenie KPI projektovej zmluvy.
 
-V nasledujúcej tabuľke sú uvedené polia zmluvy o projekte, ktoré sú jedinečné pre Dynamics 365 Project Operations alebo majú niektoré dôležité zmeny v porovnaní s predajnými objednávkami v Dynamics 365 Sales.
+V nasledujúcej tabuľke je uvedený zoznam polí v zmluve projektu, ktoré sú jedinečné pre Dynamics 365 Project Operations alebo majú niektoré dôležité zmeny správania v porovnaní s predajnými objednávkami z Dynamics 365 Sales.
 
 | Pole | Miesto | Popis | Nadväzujúci vplyv |
 | --- | --- | --- | --- |

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274342"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Konfigurácia automatického vytvárania faktúr – čiastočné
  
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-V aplikácii Dynamics 365 Project Operations môžete nakonfigurovať automatické vytváranie faktúr. Systém vytvorí koncept zálohovej faktúry na základe plánu faktúr pre každú projektovú zmluvu a riadok zmluvy. Plány faktúr sa konfigurujú na úrovni riadka zmluvy. Každý riadok zmluvy môže mať samostatný plán faktúr alebo môže byť v každom riadku zmluvy uvedený rovnaký plán faktúr.
+V rámci Dynamics 365 Project Operations môžete konfigurovať automatické vytváranie faktúr. Systém vytvorí koncept zálohovej faktúry na základe plánu faktúr pre každú projektovú zmluvu a riadok zmluvy. Plány faktúr sa konfigurujú na úrovni riadka zmluvy. Každý riadok zmluvy môže mať samostatný plán faktúr alebo môže byť v každom riadku zmluvy uvedený rovnaký plán faktúr.
 
 Pri vytváraní faktúry systém vždy vytvorí minimálne jednu faktúru pre každú projektovú zmluvu. V niektorých prípadoch môže byť vytvorených viac faktúr.
 

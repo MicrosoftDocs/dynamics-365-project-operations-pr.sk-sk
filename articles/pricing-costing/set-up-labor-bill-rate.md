@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180731"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274837"
 ---
 # <a name="set-up-labor-bill-rates"></a>Nastavenie sadzieb fakturácie za prácu
 
 **Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
-Každý cenník obsahuje množinu pracovných cien alebo sadzieb za prácu, ktoré sú platné pre kontext a dátum platnosti uvedený v hlavičke cenníka. Fakturačné sadzby za čas v Dynamics 365 Project Operations je možné nastaviť iba v jednej mene, ktorou je mena v hlavičke cenníka.
+Každý cenník obsahuje množinu pracovných cien alebo sadzieb za prácu, ktoré sú platné pre kontext a dátum platnosti uvedený v hlavičke cenníka. Fakturačné sadzby za čas v rámci Dynamics 365 Project Operations je možné nastaviť iba v jednej mene, ktorou je mena v hlavičke Cenník.
 
 1. Ak chcete nastaviť sadzby fakturácie práce pre predajný cenník, vytvorte cenník na základe hlavičky cenníka. 
 2. Na karte **Ceny rol** vo vedľajšej mriežke stlačte možnosť **+ Pridať cenu roly**. 

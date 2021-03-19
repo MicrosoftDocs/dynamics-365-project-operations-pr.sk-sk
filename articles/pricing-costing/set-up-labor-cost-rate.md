@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180616"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274792"
 ---
 # <a name="set-up-labor-cost-rates"></a>Nastavenie nákladových sadzieb za prácu
 
@@ -40,7 +40,7 @@ Nasledujúca tabuľka obsahuje niektoré z polí, ktoré sú dôležité pri vyt
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transferové ceny a náklady na zdroje mimo vašej divízie alebo právnickej osoby
 
-Projektové spoločnosti bežne využívajú na prácu na projektoch zamestnancov z rôznych divízií spoločnosti alebo právnických osôb. Projekt môže vykonávať jedna právnická osoba, ale zamestnanci alebo konzultanti, ktorí na projekte pracujú, môžu pochádzať od rovnakej právnickej osoby alebo od inej entity, prípadne môže ísť o kombináciu oboch. V rámci Dynamics 365 Project Operations je právnickou osobou, ktorá vlastní dodávku projektu, **Vlastniaca spoločnosť** a divízia, ktorá vlastní dodávku, je **Zmluvná jednotka**. Ďalšími právnickými osobami, ktoré poskytujú zdroje, sú **Spoločnosti zabezpečujúce zdroje** a divízie, ktoré poskytujú zdroje, sú **Zdrojové jednotky**. Vo väčšine krajín sa od spoločností vyžaduje, aby zabezpečili, že právnická osoba alebo divízia, ktorá financuje zdroje, účtuje od vlastniacej spoločnosti a zmluvnej jednotky za použitie zdrojov.
+Projektové spoločnosti bežne využívajú na prácu na projektoch zamestnancov z rôznych divízií spoločnosti alebo právnických osôb. Projekt môže vykonávať jedna právnická osoba, ale zamestnanci alebo konzultanti, ktorí na projekte pracujú, môžu pochádzať od rovnakej právnickej osoby alebo od inej entity, prípadne môže ísť o kombináciu oboch. V rámci Dynamics 365 Project Operations je právnickou osobou, ktorá je vlastníkom dodávky projektu, **Vlastniaca spoločnosť** a divíziou, ktorá vlastní dodávku, je **Zmluvná jednotka**. Ďalšími právnickými osobami, ktoré poskytujú zdroje, sú **Spoločnosti zabezpečujúce zdroje** a divízie, ktoré poskytujú zdroje, sú **Zdrojové jednotky**. Vo väčšine krajín sa od spoločností vyžaduje, aby zabezpečili, že právnická osoba alebo divízia, ktorá financuje zdroje, účtuje od vlastniacej spoločnosti a zmluvnej jednotky za použitie zdrojov.
 
 Napríklad spoločnosť Fabrikam musí zabezpečiť, aby spoločnosť Fabrikam India-Robotics mala dohodnutý cenník so spoločnosťami Fabrikam US-Robotics alebo Fabrikam UK-Robotics.
 

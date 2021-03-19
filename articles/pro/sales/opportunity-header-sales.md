@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181065"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272722"
 ---
 # <a name="opportunity-header---lite"></a>Hlavička príležitosti – čiastočné
 
@@ -21,7 +21,7 @@ _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Hlavička príležitosti zachytáva celkové informácie o dohode založenej na projekte, ktorá sa vzťahuje na všetky riadky príležitosti založenej na projekte.
 
-Príležitosti založené na projekte v Dynamics 365 Project Operations sú rozšírením príležitostí v Dynamics 365 Sales. Tieto rozšírenia poskytujú ďalšiu funkcionalitu, ktorá je špecifická a vyžaduje sa pre príležitosti založené na projekte. Tieto rozšírenia môžu obsahovať nové polia a akcie na páse s nástrojmi dostupné v príležitostiach založených na projektoch. Možno nájdete niektoré polia, funkčnosť a predvolenú logiku, ktorá je k dispozícii v službe Sales, ale nie je k dispozícii v Project Operations.
+Príležitosti založené na projekte v Dynamics 365 Project Operations sú rozšírenia príležitostí v Dynamics 365 Sales. Tieto rozšírenia poskytujú ďalšiu funkcionalitu, ktorá je špecifická a vyžaduje sa pre príležitosti založené na projekte. Tieto rozšírenia môžu obsahovať nové polia a akcie na páse s nástrojmi dostupné v príležitostiach založených na projektoch. Možno nájdete niektoré polia, funkčnosť a predvolenú logiku, ktorá je k dispozícii v službe Sales, ale nie je k dispozícii v Project Operations.
 
 Nasledujúca tabuľka obsahuje polia v príležitosti založenej na projekte, ktoré sú buď jedinečné pre operácie projektu, alebo majú niektoré dôležité zmeny v správaní z ponuky Príležitosti v predaji.
 

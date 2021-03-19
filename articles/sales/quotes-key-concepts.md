@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121327"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277537"
 ---
 # <a name="quotes---key-concepts"></a>Cenové ponuky – Kľúčové koncepty
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-V Dynamics 365 Project Operations existujú dva typy cenových ponúk: projektové a predajné. Tieto dva typy cenových ponúk sa líšia nasledujúcimi spôsobmi:
+V Dynamics 365 Project Operations existujú dva typy cenových ponúk, projektové a predajné. Tieto dva typy cenových ponúk sa líšia nasledujúcimi spôsobmi:
 
 - **Mriežky pre riadkové položky**: V predajnej cenovej ponuke existuje len jedna mriežka pre položky v riadku. Projektová cenová ponuka má dve mriežky pre riadkové položky. Jedna mriežka je pre projektové riadky a druhá pre produktové riadky.
 - **Aktivácia a revízie**: Predajné cenové ponuky podporujú aktiváciu a revízie. Tieto procesy nie sú v prípade projektovej cenovej ponuky podporované.

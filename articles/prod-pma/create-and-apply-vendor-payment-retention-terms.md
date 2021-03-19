@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084501"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270967"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Vytvorenie a aplikovanie podmienok uchovania platieb dodávateľa
 
@@ -42,7 +42,7 @@ Pomocou nasledujúcich krokov môžete nastaviť a udržiavať podmienky uchovan
 3. Zadajte stručný popis do poľa **Popis** a na rýchlej karte **Podmienky** vyberte možnosť **Pridať riadok** na zadanie hodnoty podmienok pre nasledujúce položky:
 
    - **Percento dodaných jednotiek** : Zadajte percento dokončenia pre podmienku. Čiastky sa automaticky uchovávajú na faktúrach dodávateľov, kým sa fáza dokončenia projektu nebude rovnať stanovenému percentu. Napríklad, ak zadáte 50,00, sumy sa uchovajú, kým nebude projekt dokončený na 50 percent.
-   - **Percento na uchovanie** : Zadajte percento z čiastky faktúry dodávateľa, ktoré sa má uchovať. Napríklad, ak zadáte 10,00, tak sa 10 percent zo sumy na faktúre dodávateľa ponechá, kým projekt nedosiahne percentuálny podiel dokončenia stanovený v poli **Percento dodaných jednotiek**.
+   - **Percento na uchovanie**: Zadajte percento z čiastky faktúry dodávateľa, ktoré sa má uchovať. Napríklad, ak zadáte 10,00, tak sa 10 percent zo sumy na faktúre dodávateľa ponechá, kým projekt nedosiahne percentuálny podiel dokončenia stanovený v poli **Percento dodaných jednotiek**.
    - **Percento na uvoľnenie** : Vyberte **Pridať riadok** na zadanie percenta zo všetkých predtým uchovaných súm, ktoré sa majú uvoľniť pre zvolenú úroveň dokončenia projektu.
 
 > [!NOTE]
@@ -56,9 +56,9 @@ Po vytvorení podmienok uchovania pre dodávateľa môžete použiť tieto podmi
 2. Na karte FastTab **Zmluvy s predajcom** stlačte možnosť **Pridať riadok**.
 3. V poli **Kód účtu** vyberte jednu z nasledujúcich možností: 
 
-   - **Tabuľka** : Podmienky uchovania dodávateľa sa vzťahujú na jedného dodávateľa.
-   - **Skupina** : Podmienky uchovania dodávateľa sa vzťahujú na všetkých dodávateľov v skupine dodávateľov.
-   - **Všetky** : Podmienky uchovania dodávateľa sa vzťahujú na všetkých dodávateľov.
+   - **Tabuľka**: Podmienky uchovania dodávateľa sa vzťahujú na jedného dodávateľa.
+   - **Skupina**: Podmienky uchovania dodávateľa sa vzťahujú na všetkých dodávateľov v skupine dodávateľov.
+   - **Všetky**: Podmienky uchovania dodávateľa sa vzťahujú na všetkých dodávateľov.
 
 4. V poli **Dodávateľ/skupina dodávateľov** vyberte dodávateľa alebo skupinu dodávateľov, na ktorých sa vzťahujú podmienky uchovania dodávateľa. Ak ste vybrali **Všetky** v predchádzajúcom kroku nie je toto pole k dispozícii.
 5. V poli **Podmienky uchovania dodávateľa** vyberte retenčné podmienky, ktoré ste vytvorili v predchádzajúcom postupe.
