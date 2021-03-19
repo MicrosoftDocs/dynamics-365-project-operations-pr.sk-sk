@@ -18,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149652"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282082"
 ---
-# <a name="customize-weekly-time-entry"></a>Prispôsobenie týždenného vstupného času 
+# <a name="customize-weekly-time-entry"></a>Prispôsobenie týždenných zadaní času 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-V Microsoft Dynamics 365 Project Service Automation verzia 3.3 Microsoft predstavil moderné mriežky, ktoré umožňujú projektovým prostriedkom rýchlo zadávať čas súčasne až do jedného týždňa. Nová mriežka týždenného časového vstupu môže zobraziť súčty pre položky podľa dátumu, riadka alebo týždňa. Zdroje môžu robiť kópie časových zápisov v rámci týždňa a tiež hromadne kopírovať z predchádzajúcich týždňov. Prispôsobovače systému môžu prispôsobiť zobrazenie pridaním polí, pridaním vyhľadávania do iných entít a implementáciou vlastných obchodných pravidiel na podporu postupov ich organizácie.
+V doplnku Microsoft Dynamics 365 Project Service Automation, verzia 3.3, Microsoft predstavil moderné mriežky, ktoré umožňujú projektovým prostriedkom rýchlo zadávať čas súčasne až do jedného týždňa. Nová mriežka týždenného časového vstupu môže zobraziť súčty pre položky podľa dátumu, riadka alebo týždňa. Zdroje môžu robiť kópie časových zápisov v rámci týždňa a tiež hromadne kopírovať z predchádzajúcich týždňov. Prispôsobovače systému môžu prispôsobiť zobrazenie pridaním polí, pridaním vyhľadávania do iných entít a implementáciou vlastných obchodných pravidiel na podporu postupov ich organizácie.
 
 Čas vstupu a nové týždenné časovej mriežky sú prístupné prostredníctvom mapy lokality. Nerozšíriteľný zážitok z vlastného času vstupu, ktorý bol súčasťou predchádzajúcich verzií PSA, bol nahradený mriežkou rozšíriteľnej týždennej časovej položky a tiež alternatívnym zážitkom v mriežke a kalendári iba na čítanie. Z dôvodu tejto zmeny môžu používatelia zadávať čas v týždenných čiastkach.
 
