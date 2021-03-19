@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182011"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277897"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Správa viacerých zákazníkov v projektovej cenovej ponuke
 
@@ -23,7 +23,7 @@ Cenové ponuky projektu podporujú scenár, keď návrh zahŕňa viacerých zák
 
 Všetky cenové ponuky zákazníkov na karte **Zákazníci** cenovej ponuky projektu budú predvolené ako riadok cenovej ponuky zákazníkov na všetkých **nových** riadkoch cenovej ponuky založenej na projekte vytvorených pre cenovú ponuku. Žiadne existujúce riadky cenových ponúk založené na projekte nebudú dediť nové zákaznícke záznamy cenových ponúk vytvorené po nich.
 
-Zákazníci cenových ponúk a zákazníci riadkov cenových ponúk môžu byť pridaní, aktualizovaní alebo vymazaní kedykoľvek pred získaním cenovej ponuky. Platný zákazník v cenovej ponuke musí byť nastavený ako zákazník vo vlastniacej spoločnosti alebo právnickej entite na stránke **Zákazníci**. Právnické entity sú zriadené v module **Projektové riadenie a účtovníctvo** v Dynamics 365 Project Operations a sú sprístupnené ako spoločnosti v moduloch **Predaj a dodanie projektu** v Project Operations.
+Zákazníci cenových ponúk a zákazníci riadkov cenových ponúk môžu byť pridaní, aktualizovaní alebo vymazaní kedykoľvek pred získaním cenovej ponuky. Platný zákazník v cenovej ponuke musí byť nastavený ako zákazník vo vlastniacej spoločnosti alebo právnickej entite na stránke **Zákazníci**. Právnické osoby sú zriadené v module **Projektové riadenie a účtovníctvo** aplikácie Dynamics 365 Project Operations a sú sprístupnené ako poločnosti v moduloch **Projektový predaj a dodanie** aplikácie Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Koncept primárneho zákazníka
 

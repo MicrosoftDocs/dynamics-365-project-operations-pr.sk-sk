@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121552"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280102"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Pridávanie členov tímu z mriežky Člen tímu
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Dynamics 365 Project Operations obsahuje tabuľu správcu zdrojov, ktorá poskytuje vizuálny prehľad dopytu a využitia zdrojov v celej organizácii. Grafy na tejto tabuli môžete použiť na vizualizáciu nasledujúcich informácií:
+Dynamics 365 Project Operations obsahuje tabuľu Správca zdrojov, ktorá poskytuje vizuálny prehľad dopytu a využitia zdrojov v celej organizácii. Grafy na tejto tabuli môžete použiť na vizualizáciu nasledujúcich informácií:
 
 - **Dopyt po zdrojoch**: graf **požiadavky na aktívny zdroj** zobrazuje zdroje, ktoré boli odoslané. Zdroje sú agregované buď rolou alebo projektom.
 - **Dopyt na nepredložený zdroj**: graf **dopytu na nepriradené zdroje** zobrazuje všetky požiadavky na zdroje, ktoré neboli predložené. Tento graf pomáha správcom zdrojov zobraziť dopyt, ktorý nie je pevný a môže byť predložený prostredníctvom žiadosti o prostriedky.

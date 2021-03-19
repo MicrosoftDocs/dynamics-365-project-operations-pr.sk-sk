@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123892"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279517"
 ---
 # <a name="resource-management-key-concepts"></a>Kľúčové koncepty riadenia zdrojov
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Zdroje sú najdôležitejším prínosom organizácie založenej na službe. Schopnosť nájsť správne zdroje v pravý čas, rezervovať tieto zdroje na projektoch, a udržať zdroje využité pomáha organizácii splniť ciele príjmov a spokojnosť zákazníkov. Môžete použiť funkciu zdroja projektu v Dynamics 365 Project Operations a vykonať nasledovné úlohy:
+Zdroje sú najdôležitejším prínosom organizácie založenej na službe. Schopnosť nájsť správne zdroje v pravý čas, rezervovať tieto zdroje na projektoch, a udržať zdroje využité pomáha organizácii splniť ciele príjmov a spokojnosť zákazníkov. Môžete použiť funkciu zdroja projektu v rámci Dynamics 365 Project Operations a vykonať nasledovné úlohy:
 
 - Vytvárať projektové tímy podľa dostupnej rezervácie a kvalifikovaných zdrojov.
 - Vytvárať záznamy všeobecných členov tímu a definovať ich roly a zdrojovú organizačnú jednotku.

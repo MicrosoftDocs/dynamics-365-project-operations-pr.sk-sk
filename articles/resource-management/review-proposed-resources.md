@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401192"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279292"
 ---
 # <a name="review-proposed-resources"></a>Kontrola navrhovaných zdrojov
 
@@ -58,7 +58,7 @@ Tabule plánovania používajú farby a tieňovanie na zobrazovanie rezervácií
 
 Ak sa vedľa individuálneho rezervovateľného prostriedku na tabuli plánovania zobrazí šípka ukazujúca vpravo, zdroj možno rozbaliť a zobraziť podrobnosti o práci, na ktorej je zdroj rezervovaný.
 
-Pretože Dynamics 365 Project Operations používa systém Universal Resource Scheduling, ak ste nainštalovali aj Dynamics 365 Field Service, môžete zobraziť podrobnosti o rezerváciách zdrojov pre projekty, objednávky prác a všetky ostatné entity, na ktoré ste rozšírili plánovanie.
+Pretože Dynamics 365 Project Operations používa systém Universal Resource Scheduling, ak ste tiež Dynamics 365 Field Service nainštalovali, môžete zobraziť podrobnosti o rezerváciách zdrojov pre projekty, pracovné objednávky a všetky ostatné entity, na ktoré ste rozšírili plánovanie.
 
 Ak chcete zobraziť ďalšie podrobnosti o jednotlivých prostriedkoch, kliknite naň pravým tlačidlom a otvorte kartu zdroja.
 

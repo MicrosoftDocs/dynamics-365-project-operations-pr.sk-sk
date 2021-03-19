@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147132"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280687"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Aktualizácia pre Project Service Automation, vydanie 20, V3
 
@@ -42,7 +42,7 @@ Vyriešili sa tieto problémy:
 
 - Import členov projektového tímu s metódou pridelenia, ktorý si vyžaduje hodiny, vedie k nejasnému chybovému hláseniu, keď je uvedených nula hodín.
 - Používatelia uvidia nesprávnu chybu po zadaní maximálneho počtu znakov do poľa **Opis** pri projektovej úlohe.
-- Stránka **Stiahnutie doplnku Microsoft Dynamics 365 Project Service Automation** presmeruje na stránku sťahovania v angličtine, ak má používateľ nastavenia jazyka nastavené na japončinu.
+- Stránka **Stiahnutie doplnku Microsoft Dynamics 365 Project Service Automation** je presmerovaná na stránku sťahovania v angličtine, keď je jazyk používateľa nastavený na japončinu.
 - Ak sa vyskytne chyba servera, niekedy sa zachová označenie synchronizácie na karte **Plán** vo formulári **Projekty**.
 - Po zmene úlohy sa na server odosielajú redundantné aktualizácie úloh.
 

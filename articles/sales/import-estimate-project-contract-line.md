@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126412"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278392"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Import odhadu do riadka zmluvy na základe projektu
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-V Dynamics 365 Project Operations môžete importovať odhady z projektu do riadka zmluvy založenej na projekte.
+V Dynamics 365 Project Operations si môžete importovať odhady z projektu do riadka zmluvy založenej na projekte.
 
 1. Overte si, či je vyplnené pole **Projekt** v riadku zmluvy založenej na projekte.
 2. Na karte **Podrobnosti o riadku zmluvy** vo vedľajšej mriežke vyberte kartu **Importovať z odhadu projektu**. Otvorí sa dialógové okno s možnosťami sumarizácie. Dostupné možnosti súhrnu sú **Trieda transakcie**, **Kategória**, **Rola** a **Projektová úloha**. Na základe výberov pre sumarizáciu sa prekopíruje odhad z projektu pre všetky triedy transakcií zahrnutých v tomto riadku zmluvy. 
