@@ -1,9 +1,9 @@
 ---
 title: Prepracované výkazy výdavkov
-description: Táto téma poskytuje informácie o prebudovanom a prepracovanom prostredí pre zadávanie výkazov výdavkov.
+description: Táto téma vysvetľuje prepracované a zmenené prostredie na zadávanie výkazov výdavkov.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122822"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499735"
 ---
 # <a name="expense-reports-reimagined"></a>Prepracované výkazy výdavkov
 
@@ -59,25 +59,22 @@ Video [Prostredie výdavkov v Dynamics 365 for Finance and Operations](https://y
 | Zníženie počtu správ na paneli správ| Počet správ Infolog sa znížil a bolo vyvinuté úsilie, aby sa v mnohých prípadoch zabránilo zobrazovaniu duplicitných správ. |
 | Zoskupené bežné akcie | Rozhranie bolo sprehľadnené pridaním nového tlačidla akcií pre väčšinu bežných akcií na úrovni riadkov a pridaním tlačidla elipsy (...) pre hlavičku a ďalšie menej časté akcie. |
 | Nový pracovný priestor na zlepšenie viditeľnosti | Nový pracovný priestor zjednocuje funkcie a odkazy, ktoré umožňujú používateľom presun do rôznych oblastí. |
-| Pridávanie existujúcich výdavkov a príjmov pri vytváraní výdavkov | Pri vytváraní výkazov výdavkov môžete pridať všetky alebo vybrané výdavky a príjmy. |
+| Pridávanie existujúcich výdavkov a príjmov pri vytváraní výdavkov | Pri vytváraní výkazov výdavkov môžete pridať všetky výdavky alebo vybrať nepripojené výdavky. Nepripojené výdavky sú výdavky, ktoré boli importované z informačného kanála podnikovej kreditnej karty, alebo výdavky, ktoré boli vytvorené manuálne používateľom, ale neboli priložené k výkazu výdavkov.|
 | Kalkulačka výmenných kurzov | Bola pridaná kalkulačka výmenných kurzov, ktorá umožňuje vypočítať výmenný kurz pre hotovostné transakcie s viacerými menami. |
 | Ukladanie a pridávanie nových riadkov výdavkov | Tlačidlá **Uložiť** a **Nový** sú k dispozícii pri zadávaní nových výdavkov, aby vám pomohli rýchlo zadať riadky výdavkov. |
 | Lepšia viditeľnosť rozdelených a rozpísaných riadkov | Rozpísané položky a rozdelené riadky sa pridávajú priamo do zoznamu výdavkov, aby sa zvýšila viditeľnosť a aby ste mohli ľahko určiť, či nedošlo k chybám. |
 | Zobrazenie potvrdení počas rozpisu | Počas rozpisu je možné zobraziť potvrdenia. |
+| Výber zálohy v hotovosti | Vyberte jednu alebo viac záloh v hotovosti na uskutočnenie transakcie s jedným výdavkom. |
+| Zostatok zálohy v hotovosti | Skontrolujte zostatok zálohy v hotovosti v reálnom čase, keď vytvoríte záznam výdavkov v porovnaní so schválenými a vyplatenými zálohami v hotovosti. |
 
 Počiatočné vydanie je zamerané na scenáre zadávania výdavkov. Akýkoľvek scenár kontroly alebo schválenia výkazu výdavkov bude naďalej používať existujúcu stránku zadávania výdavkov.
 
-Nasledujúce funkcie sa nachádzajú na existujúcej stránke, zatiaľ sa však nenachádzajú na novej stránke. Tieto funkcie budú znovu zavedené v priebehu niekoľkých nasledujúcich vydaní:
+V prepracovanom pracovnom priestore pre výdavky nie sú podporované nasledujúce funkcie:
 
-- Schválenia
-- Schválenie záväzkov a možnosť úpravy účtovníctva
-- Viaceré body zadávania
 - Integrácia cestovnej žiadanky
-- Dátová entita pre viditeľnosť poľa výdavkov
-- Zadanie výdavkov na diéty
-- Pracovný postup na úrovni riadkov
+- Zadávanie výdavkov na diéty
 - Dočasná podpora schvaľovateľa
-- Rozšírené rozpisy
+- Zobrazovanie histórie pracovných postupov
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

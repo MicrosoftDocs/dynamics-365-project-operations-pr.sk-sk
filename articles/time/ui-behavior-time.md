@@ -3,17 +3,17 @@ title: Správanie používateľského rozhrania pri zadávaní času
 description: Táto téma poskytuje informácie o správaní používateľského rozhrania pri zadávaní času.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124522"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499633"
 ---
 # <a name="time-entry-ui-behavior"></a>Správanie používateľského rozhrania pri zadávaní času
 
@@ -21,6 +21,19 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 
 
 Mriežka **Zadanie týždenného času** je vlastný ovládací prvok, ktorý má dve časti, **Dimenzie** a **Trvanie**.
+
+## <a name="keyboard-shortcuts"></a>Klávesové skratky
+| Činnosť        | Odkaz                  |
+|------------   |------------------------   |
+| Nový           | Alt + Shift + n           |
+| Kopírovať riadok      | Alt + Shift + c           |
+| Upraviť zadanie    | Alt + Shift + e           |
+| Upraviť riadok      | Alt + Shift + Ctrl + e    |
+| Otvoriť zadanie    | Alt + Shift + o           |
+| Odoslať        | Alt + Shift + s           |
+| Odvolať        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Kopírovať týždeň     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimenzie
 Časti **Dimenzie** zobrazujú dimenzie, proti ktorým možno zadávať čas. Nasledujúce dimenzie sú predpripravené:
