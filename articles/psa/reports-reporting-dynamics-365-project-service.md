@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147717"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283297"
 ---
 # <a name="reporting-home-page"></a>Domovská stránka vykazovania
 
@@ -43,7 +43,7 @@ Ak vaša firma vyžaduje konkrétnu zostavu, ktorú nie je možné vytvoriť pom
 
 ## <a name="power-bi-insights-apps"></a>Aplikácie Power BI Insights
 
-Spoločnosť Microsoft Power BI a Dynamics 365 spolu poskytujú účinný spôsob práce s vašimi údajmi vo forme aplikácií Insights. Informácie o dostupnosti aplikácií Insights nájdete na [Stránke aplikácií Power BI Insights](https://powerbi.microsoft.com/power-bi-insights-apps/).
+Microsoft Power BI a Dynamics 365 spolu poskytujú účinný spôsob práce s vašimi údajmi vo forme aplikácií Insights. Informácie o dostupnosti aplikácií Insights nájdete na [Stránke aplikácií Power BI Insights](https://powerbi.microsoft.com/power-bi-insights-apps/).
 
 
 ## <a name="additional-resources"></a>Ďalšie zdroje
