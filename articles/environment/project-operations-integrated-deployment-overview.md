@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 770947835af41bd06c02ca08b6ed8e810b9bdcf8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365615"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289973"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Prehľad nasadenia aplikácie Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Typ nasadenia, Dynamics 365 Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch má pre projektové spoločnosti nasledujúce schopnosti:
+Typ nasadenia, Dynamics 365 Project Operations scenáre založené na zdrojoch/chýbajúcich zdrojoch má pre projektové spoločnosti nasledujúce schopnosti:
 
 - Plánovanie projektu pomocou programu Microsoft Project for the Web
 - Multidimenzionálne ceny a náklady na pracovné zdroje
