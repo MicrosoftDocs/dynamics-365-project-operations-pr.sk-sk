@@ -16,19 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 433cd05746423d5e654a999b80aee594c1fd1455
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5829e915778b2c4ff337c9a1866b2dba33666249
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284692"
 ---
-# <a name="time-and-expense-changes-project-service-automation-3x"></a><span data-ttu-id="4d4fd-103">Zmeny času a výdavku (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="4d4fd-103">Time and Expense changes (Project Service Automation 3.x)</span></span>
+# <a name="time-and-expense-changes-project-service-automation-3x"></a><span data-ttu-id="43250-103">Zmeny času a výdavku (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="43250-103">Time and Expense changes (Project Service Automation 3.x)</span></span>
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="4d4fd-104">Vo Dynamics 365 Project Service Automation verzii 3.0 boli zobrazenia času a výdavkov aktualizované tak, aby využívali nový rámec platformy na svoje ovládacie prvky.</span><span class="sxs-lookup"><span data-stu-id="4d4fd-104">In Dynamics 365 Project Service Automation version 3.0, the Time and Expense views have been updated so that they take advantage of the new platform framework for custom controls.</span></span>
+<span data-ttu-id="43250-104">Vo Dynamics 365 Project Service Automation verzii 3.0 boli zobrazenia času a výdavkov aktualizované tak, aby využívali nový rámec platformy na svoje ovládacie prvky.</span><span class="sxs-lookup"><span data-stu-id="43250-104">In Dynamics 365 Project Service Automation version 3.0, the Time and Expense views have been updated so that they take advantage of the new platform framework for custom controls.</span></span>
 
-<span data-ttu-id="4d4fd-105">Predtým, kalendár a mriežky zobrazenia času a nákladov boli implementované ako ovládacie prvky DHTMLX.</span><span class="sxs-lookup"><span data-stu-id="4d4fd-105">Previously, the calendar and grid views for Time and Expense were implemented as DHTMLX controls.</span></span> <span data-ttu-id="4d4fd-106">Artefakty, ktoré súvisia s vykonaním kalendára a mriežky zobrazenia sú teraz zastarané (zastarané).</span><span class="sxs-lookup"><span data-stu-id="4d4fd-106">The artifacts that are related to that implementation of the calendar and grid views are now obsolete (deprecated).</span></span>
+<span data-ttu-id="43250-105">Predtým, kalendár a mriežky zobrazenia času a nákladov boli implementované ako ovládacie prvky DHTMLX.</span><span class="sxs-lookup"><span data-stu-id="43250-105">Previously, the calendar and grid views for Time and Expense were implemented as DHTMLX controls.</span></span> <span data-ttu-id="43250-106">Artefakty, ktoré súvisia s vykonaním kalendára a mriežky zobrazenia sú teraz zastarané (zastarané).</span><span class="sxs-lookup"><span data-stu-id="43250-106">The artifacts that are related to that implementation of the calendar and grid views are now obsolete (deprecated).</span></span>
 
-<span data-ttu-id="4d4fd-107">Úplný zoznam zastaraných zdrojov, pozri [Zastarané webové prostriedky v Project Service Automation 3.x](web-resources-deprecated-v3.x.md).</span><span class="sxs-lookup"><span data-stu-id="4d4fd-107">For the full list of deprecated resources, see [Deprecated web resources in Project Service Automation 3.x](web-resources-deprecated-v3.x.md).</span></span>
+<span data-ttu-id="43250-107">Úplný zoznam zastaraných zdrojov, pozri [Zastarané webové prostriedky v Project Service Automation 3.x](web-resources-deprecated-v3.x.md).</span><span class="sxs-lookup"><span data-stu-id="43250-107">For the full list of deprecated resources, see [Deprecated web resources in Project Service Automation 3.x](web-resources-deprecated-v3.x.md).</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
