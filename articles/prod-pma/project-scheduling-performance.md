@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084347"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289028"
 ---
 # <a name="project-resource-scheduling-performance"></a>Výkon plánovania projektového zdroja
 
@@ -54,7 +54,7 @@ Ak chcete povoliť vylepšenie výkonu plánovania prostriedkov, vykonajte nasle
  > [!NOTE]
  > Toto bude distribuovať všeobecné údaje do tabuľky **ResCalendarCapacity** naprieč všetkými spoločnosťami vo vašom prostredí, takže dávkovú prácu je potrebné spustiť iba v jednej právnickej osobe. Údaje v tejto dávkovej úlohe sú potrebné na výpočet kapacity prostriedkov prostredníctvom súvisiaceho kalendára.
 
-8. Prejdite do **Projektové riadenie a účtovníctvo** > **Periodické** > **Zdroje projektu** > **Naplňte zdroje projektu vo všetkých spoločnostiach** a potom vyberte **OK**. Toto je skript na aktualizáciu údajov pre všeobecné údaje v tabuľkách **ResProjectResource** , **ResCalendarDateTimeRange** a **ResEffectiveDateTimeRange**. Hodnoty pre pole **PSAPRojSchedRole.RootActivity** sa tiež aktualizujú. Ak to nie je spustené, dostanete varovanie, keď sa pokúsite vykonať operácie plánovania prostriedkov.
+8. Prejdite do **Projektové riadenie a účtovníctvo** > **Periodické** > **Zdroje projektu** > **Naplňte zdroje projektu vo všetkých spoločnostiach** a potom vyberte **OK**. Toto je skript na aktualizáciu údajov pre všeobecné údaje v tabuľkách **ResProjectResource**, **ResCalendarDateTimeRange** a **ResEffectiveDateTimeRange**. Hodnoty pre pole **PSAPRojSchedRole.RootActivity** sa tiež aktualizujú. Ak to nie je spustené, dostanete varovanie, keď sa pokúsite vykonať operácie plánovania prostriedkov.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Vypnutie vylepšenia výkonu plánovania zdrojov
 

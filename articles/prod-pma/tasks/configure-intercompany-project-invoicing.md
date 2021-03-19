@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9df15cb3712356a164de3507f5dbc17a9ff9a652
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084423"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288398"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfigurácia fakturácie medzipodnikových projektov
 
@@ -34,14 +34,14 @@ Táto téma ukazuje, ako nastaviť fakturáciu projektu medzi dvoma spoločnosť
 2. V zozname **Všetci dodávatelia** vyhľadajte a vyberte požadovaný záznam.
 3. Na table Akcia vyberte možnosť **Všeobecné**.
 4. Stlačte možnosť **Medzipodnikové**.
-5. Nastavte **Aktívne** na **Áno** , čím aktivujete medzipodnikové obchodovanie.
+5. Nastavte **Aktívne** na **Áno**, čím aktivujete medzipodnikové obchodovanie.
 6. Do poľa **Spoločnosť zákazníka** zadajte alebo vyberte hodnotu.
 7. V poli **Môj účet** zadajte alebo vyberte hodnotu.
 8. Vyberte položku **Uložiť**.
 9. Zatvorením stránok sa vrátite na domovskú stránku.
 10. Na navigačnej table prejdite do **Moduly > Riadenie projektu a účtovníctvo > Nastavenie > Parametre projektového riadenia a účtovníctva**.
 11. Stlačte kartu **Medzipodnikové**.
-12. Posuňte posúvač na **Áno** , čím aktivujete medzipodnikové plánovanie zdrojov a časové rozvrhy.
+12. Posuňte posúvač na **Áno**, čím aktivujete medzipodnikové plánovanie zdrojov a časové rozvrhy.
 13. V zozname označte vybratý riadok.
 14. Vyberte **Nové**.
 15. V poli **Právnická osoba, ktorá si prenajíma** zadajte alebo vyberte hodnotu.

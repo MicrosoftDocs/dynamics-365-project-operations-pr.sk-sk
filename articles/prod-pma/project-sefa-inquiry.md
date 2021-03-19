@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084348"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288983"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Časový plán výdavkov na vyšetrovanie federálnych ocenení
 
@@ -62,7 +62,7 @@ Klastre CFDA, ktoré môžu byť priradené ku grantom a môžu byť zaradené v
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Nastaviť granty pre správu pre Schedule of Expenditures of Federal Awards
 
 1. Prejdite do **Projektové riadenie a účtovníctvo \> Granty \> Granty** a zvoľte si existujúci grant.
-2. Na FastTab **Nastavenia** v poli **Katalóg Federal Domestic Assistance** priraďte číslo CFDA. Číslo CFDA na grante určuje klaster CFDA na vykazovanie.
+2. Na rýchlej karte **Nastavenia** v poli **Katalóg Federal Domestic Assistance** priraďte číslo CFDA. Číslo CFDA na grante určuje klaster CFDA na vykazovanie.
 3. Na FastTab **Kontaktné informácie** zadajte informácie o poskytovateľovi vykonaním týchto krokov:
 
     1. V poli **Zákazník grantu** do poľa zadajte zákazníka, ktorý je zodpovedný za grant. V prípade existujúceho grantu môžu byť tieto informácie už zadané.
@@ -79,13 +79,13 @@ Federálna vláda financovala štátny projekt infraštruktúry. Federálna vlá
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Vylúčiť granty z vykazovania SEFA na základe typu grantu
 
-1. Prejdite do ponuky **Projektové riadenie a účtovníctvo \> Nastavenie \> Granty \> Typy grantov**.
-2. Na karte FastTab **Predvolené informácie** označte políčko **Vylúčte z rozvrhu výdavkov federálnych ocenení**.
+1. Prejdite do ponuky **Projektové riadenie a účtovníctvo \> Nastavenie \> Granty \> Typy grantov**.
+2. Na karte rýchlej karte **Predvolené informácie** označte políčko **Vylúčte z rozvrhu výdavkov federálnych ocenení**.
 3. Zmeny vykonajte výberom položky **Uložiť**.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Spustite Časový plán výdavkov na vyšetrovanie federálnych ocenení
 
-1. Prejdite do ponuky **Projektové riadenie a účtovníctvo \> Dotazy a otázky \> Dotaz na udelenie grantu\> Časový plán výdavkov federálnych ocenení**.
+1. Prejdite do ponuky **Projektové riadenie a účtovníctvo \> Dotazy a otázky \> Dotaz na udelenie grantu \> Časový plán výdavkov federálnych ocenení**.
 2. V časti **Parametre** dodržiavajte nasledovné kroky:
 
     1. V poli **Interval dátumu** zvoľte kód pre interval dátumov. Prípadne v poliach **Dátum Od** a **Dátum Do** definujte časový interval.

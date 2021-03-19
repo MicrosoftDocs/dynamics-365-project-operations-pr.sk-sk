@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084339"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287977"
 ---
 # <a name="work-breakdown-structures-overview"></a>Prehľad štruktúry rozdelenia práce
 
@@ -98,11 +98,11 @@ V súčasnosti nemôžete číslovanie štruktúry WBS prispôsobiť.
 
 **Zvýšiť úroveň úlohy** Keď zvýšite úroveň úlohy, prestane byť čiastkovou úlohou jej nadradenej úlohy. Číslo štruktúry WBS tejto úlohy sa automaticky prepočíta tak, aby odrážalo novú úroveň úlohy v hierarchii. Úsilie, náklady a dátumy predchádzajúcej nadradenej úlohy tejto úlohy sa prepočítajú tak, aby vylúčili túto úlohu. 
 
-**Posunúť nahor a posunúť nadol** Keď kliknete na **Posunúť nahor** a **Posunúť nadol** , zmeníte pozíciu úlohy v hierarchii nadradených úloh. Pozícia úlohy neovplyvní úsilie, náklady, dátumy ani trvanie úlohy. Číslo štruktúry WBS tejto úlohy sa však automaticky prepočíta tak, aby odrážalo novú pozíciu úlohy.
+**Posunúť nahor a posunúť nadol** Keď kliknete na **Posunúť nahor** a **Posunúť nadol**, zmeníte pozíciu úlohy v hierarchii nadradených úloh. Pozícia úlohy neovplyvní úsilie, náklady, dátumy ani trvanie úlohy. Číslo štruktúry WBS tejto úlohy sa však automaticky prepočíta tak, aby odrážalo novú pozíciu úlohy.
 
 ### <a name="schedule-estimation"></a>Odhad plánu
 
-Odhad plánu je zvyčajne druhým krokom pri vytváraní štruktúry WBS. Ako najlepší postup by ste mali po vytvorení úloh dokončiť odhad plánu. Stránka **Štruktúra rozdelenia práce** v službe Finance má dve sekcie. Horná tabla je určená na odhad plánu a dolná tabla obsahuje kartu **Odhadované náklady a výnosy** , ktorú môžete použiť na odhad nákladov. 
+Odhad plánu je zvyčajne druhým krokom pri vytváraní štruktúry WBS. Ako najlepší postup by ste mali po vytvorení úloh dokončiť odhad plánu. Stránka **Štruktúra rozdelenia práce** v službe Finance má dve sekcie. Horná tabla je určená na odhad plánu a dolná tabla obsahuje kartu **Odhadované náklady a výnosy**, ktorú môžete použiť na odhad nákladov. 
 **Závislosti úloh** V štruktúre WBS môžete vytvoriť vzťah predchodcu medzi úlohami. Keď úlohe priradíte úlohy predchodcu, táto úloha môže začať iba vtedy, ak sa dokončili všetky jej predchádzajúce úlohy. Plánovaný dátum začatia úlohy sa automaticky nastaví na najaktuálnejší dátum všetkých jej predchodcov. 
 
 **Plánovanie úloh** Nasledujúce faktory určujú plánovanie úloh listového uzla:

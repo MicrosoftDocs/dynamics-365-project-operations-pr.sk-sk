@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084492"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289478"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizácia projektových odhadov priamo z Project Service Automation do Finance and Operations
 
@@ -46,7 +46,7 @@ Nasledujúca ilustrácia ukazuje, ako sa synchronizujú údaje medzi Project Ser
 
 ### <a name="template-and-tasks"></a>Šablóna a úlohy
 
-Dostupné šablóny nájdete v zozname centrum správcu Microsoft Power Apps, zvoľte možnosť **Projekty** a potom v pravom hornom rohu vyberte možnosť **Nový projekt** , kde si vyberiete verejné šablóny.
+Dostupné šablóny nájdete v zozname centrum správcu Microsoft Power Apps, zvoľte možnosť **Projekty** a potom v pravom hornom rohu vyberte možnosť **Nový projekt**, kde si vyberiete verejné šablóny.
 
 Nasledujúca šablóna a základné úlohy sa používajú na synchronizáciu odhadov hodín z Project Service Automation do Finance:
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122362"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287752"
 ---
 # <a name="manage-the-billing-backlog"></a>Správa backlogu pre fakturáciu
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Dynamics 365 Project Operations má dva vyhradené zobrazenia, ktoré vám pomôžu pracovať s backlogom pre fakturáciu a jeho správou. K dispozícii sú možnosti **Medzníky pevnej ceny** a **Backlog pre fakturáciu podľa času a materiálu**. Ak chcete zvoliť zobrazenie, v oblasti **Predaj** aplikácie Project Operations, na ľavej navigačnej stránke, zvoľte **Fakturácia**. Sú tu uložené odkazy na backlogy pre fakturáciu.
+Dynamics 365 Project Operations má dve vyhradené zobrazenia, ktoré pomáhajú využívať a spravovať backlog pre fakturáciu. K dispozícii sú možnosti **Medzníky pevnej ceny** a **Backlog pre fakturáciu podľa času a materiálu**. Ak chcete zvoliť zobrazenie, v oblasti **Predaj** aplikácie Project Operations, na ľavej navigačnej stránke, zvoľte **Fakturácia**. Sú tu uložené odkazy na backlogy pre fakturáciu.
 
 ## <a name="fixed-price-milestones"></a>Medzníky pevných cien
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288622"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Nastavenie a použitie platieb typu „zaplatiť po zaplatení“ pre dodávateľov
 
@@ -56,7 +56,7 @@ Keď nastavujete podmienky PWP pre projekt, musíte percentuálne určiť minim�
     - **Skupina** – Podmienky PWP sa vzťahujú na všetkých dodávateľov v skupine dodávateľov.
     - **Všetky** – Podmienky PWP sa vzťahujú na všetkých dodávateľov.
 
-4. Ak ste stlačili možnosť **Tabuľka** alebo **Skupina** v predchádzajúcom kroku, v poli **Dodávateľ/skupina dodávateľov** vyberte dodávateľa alebo skupinu dodávateľov, na ktorých sa vzťahujú podmienky PWP. Ak ste v predošlom kroku zvolil možnosť **Všetky** , pole **Dodávateľ/skupina dodávateľov** nemožno upravovať.
+4. Ak ste stlačili možnosť **Tabuľka** alebo **Skupina** v predchádzajúcom kroku, v poli **Dodávateľ/skupina dodávateľov** vyberte dodávateľa alebo skupinu dodávateľov, na ktorých sa vzťahujú podmienky PWP. Ak ste v predošlom kroku zvolil možnosť **Všetky**, pole **Dodávateľ/skupina dodávateľov** nemožno upravovať.
 5. Ak sú pre dodávateľa v projekte stanovené podmienky uchovania dodávateľa, v poli **Podmienky uchovania dodávateľa** vyberte ID pravidla pre podmienky uchovania.
 6. V poli **Percentuálna hodnota PWP** zadajte percentuálne prahové hodnoty pre projekt. Percento, ktoré zadáte pre projekt, určuje minimálnu sumu, ktorú vám musí zákazník zaplatiť, skôr ako zaplatíte dodávateľovi.
 
@@ -69,7 +69,7 @@ Keď účtujete faktúru od dodávateľa a ak sa na dodávateľa vzťahujú podm
 
     Prípadne otvorte existujúcu objednávku na stránke zoznamu **Všetky nákupné objednávky**.
 
-4. Na stránke **Nákupná objednávka** na karte **Riadky nákupných objednávok** , skontrolujte podrobnosti o riadku objednávky pre dodávateľa. Možnosť **Zaplatiť po zaplatení** sa automaticky vyberie a hodnota v poli **Percentuálna hodnota PWP** sa automaticky skopíruje z poľa **Percentuálna hodnota PWP** na stránke **Projekty**.
+4. Na stránke **Nákupná objednávka** na karte **Riadky nákupných objednávok**, skontrolujte podrobnosti o riadku objednávky pre dodávateľa. Možnosť **Zaplatiť po zaplatení** sa automaticky vyberie a hodnota v poli **Percentuálna hodnota PWP** sa automaticky skopíruje z poľa **Percentuálna hodnota PWP** na stránke **Projekty**.
 6. Ak nechcete uplatniť podmienky PWP na dodávateľa pre linku objednávky, zrušte začiarknutie možnosti **Zaplatiť po zaplatení**. V takom prípade pole **Percentuálna hodnota PWP** pre riadok PO sa nastaví na 0 (nula).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Aktualizujte platbu zákazníkom a zaplaťte dodávateľovi

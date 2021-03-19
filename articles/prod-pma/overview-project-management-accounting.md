@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084507"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289793"
 ---
 # <a name="project-management-and-accounting-overview"></a>Prehľad riadenia projektu a účtovníctva
 
@@ -97,19 +97,19 @@ V aplikácii Finance môžete vytvoriť šesť typov projektov. Každý typ proj
   </tr>
   <tr>
     <td>Investície</td>
-    <td>Investičné projekty sú projekty, ktoré neprinášajú okamžité príjmy. Spravidla sa používajú na dlhodobé interné projekty, kde musia byť náklady kapitalizované. Pre investičný projekt je možné zaznamenať iba náklady na položky, hodiny a výdavky. Náklady v investičnom projekte sa sledujú a kontrolujú pomocou funkcie odhadu. Investičné projekty je možné zostaviť s voliteľnou maximálnou kapitalizáciou. Ako investičný projekt postupuje, zaznamenávate jeho náklady na účty WIP, kde sa náklady uchovávajú, kým sa projekt nedokončí. Po vylúčení projektu prevediete hodnotu WIP na fixné aktívum, účet hlavnej knihy alebo nový projekt. <br></br> <strong>POZNÁMKA:</strong>Transakcie s investičnými projektmi nie sú zobrazené na stránke <strong>Náklady na príspevok<strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
+    <td>Investičné projekty sú projekty, ktoré neprinášajú okamžité príjmy. Spravidla sa používajú na dlhodobé interné projekty, kde musia byť náklady kapitalizované. Pre investičný projekt je možné zaznamenať iba náklady na položky, hodiny a výdavky. Náklady v investičnom projekte sa sledujú a kontrolujú pomocou funkcie odhadu. Investičné projekty je možné zostaviť s voliteľnou maximálnou kapitalizáciou. Ako investičný projekt postupuje, zaznamenávate jeho náklady na účty WIP, kde sa náklady uchovávajú, kým sa projekt nedokončí. Po vylúčení projektu prevediete hodnotu WIP na fixné aktívum, účet hlavnej knihy alebo nový projekt. <br></br> <strong>POZNÁMKA:</strong> Transakcie s investičnými projektmi nie sú zobrazené na stránke <strong>Náklady na príspevok<strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
   </tr>
   <tr>
     <td>Nákladový projekt</td>
-    <td>Rovnako ako investičné projekty, aj nákladové projekty sa zvyčajne používajú na sledovanie interných projektov a je možné za ne zaznamenávať iba hodiny, výdavky a položky. Náklady na projekty sú však zvyčajne kratšie ako investičné projekty. Na rozdiel od investičných projektov navyše nemožno nákladové projekty kapitalizovať do súvahových účtov. Namiesto toho sa ich projektové transakcie účtujú iba na účty ziskov a strát. <br></br> <strong>POZNÁMKA:</strong>Transakcie s projektové náklady nie sú zobrazené na stránke <strong>Náklady na príspevok</strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>. Pretože nákladové projekty sa zvyčajne používajú na sledovanie interných projektov, zvyčajne sa nemusia spájať so zákazníckym účtom. Ak však vaše nastavenie vyžaduje, aby sa pre objednávky vytvorili požiadavky na položky, musíte projekt nákladov spojiť so zákazníkom. Toto priradenie je povinné, pretože požiadavky na položky sa spravujú ako riadky zákazky odberateľa a systém vyžaduje, aby bol uvedený zákazník. Toto nastavenie však nespôsobí automatické vytváranie požiadaviek na položky z objednávky. Pri nákladových projektoch je nastavenie <strong>Vytvorte požiadavku na položku</strong> ignorované. Ak potrebujete požiadavku na položku v projekte nákladov, môžete ju vytvoriť manuálne za predpokladu, že k projektu je priradený zákazník.</td>
+    <td>Rovnako ako investičné projekty, aj nákladové projekty sa zvyčajne používajú na sledovanie interných projektov a je možné za ne zaznamenávať iba hodiny, výdavky a položky. Náklady na projekty sú však zvyčajne kratšie ako investičné projekty. Na rozdiel od investičných projektov navyše nemožno nákladové projekty kapitalizovať do súvahových účtov. Namiesto toho sa ich projektové transakcie účtujú iba na účty ziskov a strát. <br></br> <strong>POZNÁMKA:</strong> Transakcie s projektové náklady nie sú zobrazené na stránke <strong>Náklady na príspevok</strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>. Pretože nákladové projekty sa zvyčajne používajú na sledovanie interných projektov, zvyčajne sa nemusia spájať so zákazníckym účtom. Ak však vaše nastavenie vyžaduje, aby sa pre objednávky vytvorili požiadavky na položky, musíte projekt nákladov spojiť so zákazníkom. Toto priradenie je povinné, pretože požiadavky na položky sa spravujú ako riadky zákazky odberateľa a systém vyžaduje, aby bol uvedený zákazník. Toto nastavenie však nespôsobí automatické vytváranie požiadaviek na položky z objednávky. Pri nákladových projektoch je nastavenie <strong>Vytvorte požiadavku na položku</strong> ignorované. Ak potrebujete požiadavku na položku v projekte nákladov, môžete ju vytvoriť manuálne za predpokladu, že k projektu je priradený zákazník.</td>
   </tr>
   <tr>
     <td>Interná</td>
-    <td>Interné projekty sa používajú na sledovanie nákladov na projekt, ktorý je interný vo vašej organizácii. Interné projekty môžu poskytnúť plánovací nástroj na riadenie spotreby zdrojov. <br></br><strong>POZNÁMKA:<strong>Transakcie na interných projektoch nie sú zobrazené na stránke <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
+    <td>Interné projekty sa používajú na sledovanie nákladov na projekt, ktorý je interný vo vašej organizácii. Interné projekty môžu poskytnúť plánovací nástroj na riadenie spotreby zdrojov. <br></br><strong>POZNÁMKA:<strong> Transakcie na interných projektoch nie sú zobrazené na stránke <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
   </tr>
   <tr>
     <td>Time</td>
-    <td>Časové projekty sa používajú na sledovanie času, ktorý súvisí s bezplatnými a neproduktívnymi činnosťami, ako je napríklad projekt na sledovanie práceneschopnosti pracovníkov. Projekty transakcií v čase sa neúčtujú do hlavnej knihy. Namiesto toho sú zahrnuté v správach o využití pracovníkov. V časových projektoch je možné zaznamenať iba hodinové transakcie. Na registráciu týchto hodín do projektu použijete hodinový denník alebo časový rozvrh. Po zaregistrovaní hodín sa zobrazia ako projektové transakcie, ale neobsahujú zodpovedajúce transakcie s poukážkami. <br></br><strong>POZNÁMKA:</strong>Transakcie projektového času nie sú zobrazené na stránke <strong>Náklady na príspevok</strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
+    <td>Časové projekty sa používajú na sledovanie času, ktorý súvisí s bezplatnými a neproduktívnymi činnosťami, ako je napríklad projekt na sledovanie práceneschopnosti pracovníkov. Projekty transakcií v čase sa neúčtujú do hlavnej knihy. Namiesto toho sú zahrnuté v správach o využití pracovníkov. V časových projektoch je možné zaznamenať iba hodinové transakcie. Na registráciu týchto hodín do projektu použijete hodinový denník alebo časový rozvrh. Po zaregistrovaní hodín sa zobrazia ako projektové transakcie, ale neobsahujú zodpovedajúce transakcie s poukážkami. <br></br><strong>POZNÁMKA:</strong> Transakcie projektového času nie sú zobrazené na stránke <strong>Náklady na príspevok</strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
   </tr>
 </table>
 
@@ -205,7 +205,7 @@ Môžete si objednať položky z inventára spoločnosti na spotrebu v projekte.
 
 Spôsob objednávania položiek závisí od toho, odkiaľ ich objednávate:
 
--   Ak chcete objednať položky z inventára spoločnosti, musíte objednávku zadať ako požiadavku na položku. Ak používate stránku **Požiadavky na položku** , môžete nastaviť požiadavku tak, aby ste dostávali položky ako čiastočné dodávky. Preto môžete odložiť spotrebu určitého množstva položiek, kým sa položky nevyžadujú.
+-   Ak chcete objednať položky z inventára spoločnosti, musíte objednávku zadať ako požiadavku na položku. Ak používate stránku **Požiadavky na položku**, môžete nastaviť požiadavku tak, aby ste dostávali položky ako čiastočné dodávky. Preto môžete odložiť spotrebu určitého množstva položiek, kým sa položky nevyžadujú.
 -   Ak chcete objednať položky od externého dodávateľa, musíte vytvoriť objednávku ako nákupnú objednávku na stránke **Nákupná objednávka**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Pred vytvorením zákazníckej faktúry pre projekt môžete vytvoriť predbežn
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Vypočítajte náklady na dokončenie projektu
 
-Pri vytváraní odhadu si môžete zvoliť metódu, ktorá sa použije na výpočet nákladov na dokončenie projektu. Vyberiete metódu v poli **Náklady na dokončenie metódy** na strane **Vytvoriť odhad**. Metóda, ktorú vyberiete, sa v odhade nákladov použije osobitne na každý riadok nákladov. Zatiaľ čo linka má stav **Vytvorená** , môžete zmeniť metódu, ktorá sa na ňu použije na stránke **Odhad nákladov**. 
+Pri vytváraní odhadu si môžete zvoliť metódu, ktorá sa použije na výpočet nákladov na dokončenie projektu. Vyberiete metódu v poli **Náklady na dokončenie metódy** na strane **Vytvoriť odhad**. Metóda, ktorú vyberiete, sa v odhade nákladov použije osobitne na každý riadok nákladov. Zatiaľ čo linka má stav **Vytvorená**, môžete zmeniť metódu, ktorá sa na ňu použije na stránke **Odhad nákladov**. 
 
 Nasledujúca tabuľka popisuje spôsoby výpočtu nákladov na dokončenie projektu.
 
@@ -300,7 +300,7 @@ Na základe vášho nastavenia môžete predpovedať príjmy peňazí pre vybran
 -   **Dátum projektu:** 5. marca 2012.
 -   **Dátum vystavenia faktúry:** 31.03. 2012. Tento dátum sa určuje na základe frekvencie faktúr. V tomto príklade nastavíte frekvenciu fakturácie na aktuálny mesiac. Preto sú všetky transakcie, ktoré sú zaúčtované v mesiaci marec, fakturované v posledný deň mesiaca.
 -   **Dátum splatnosti:** 14. apríla 2012. Tento dátum je určený na základe platobných podmienok, ktoré boli stanovené pre projekt. V tomto príklade ste vybrali platobné podmienky 14 dní. Preto sa k dátumu faktúry pripočítava 14 dní, aby sa dosiahol dátum splatnosti 14. apríla 2012.
--   **Očakávaný dátum platby predaja:** 27.04.2012. Tento dátum sa počíta pripočítaním počtu dní v poli **Všeobecné nárazníkové dni** na stránke **Parametre projektového riadenia a účtovníctva**  na počet dní v poli **Jednotlivé dni nárazníka** na stránke **Zmluvy o projekte** a potom pripočítaním celkového počtu k počtu dní v poli **Dátum splatnosti**. Pre tento príklad ste zadali **3** v poli **Všeobecné nárazníkové dni** a **10** v poli **Jednotlivé dni nárazníka**. Preto sa k splatnosti pripočítava 13 dní, aby sa dosiahol očakávaný dátum platby pri predaji k 27. 4. 2012.
+-   **Očakávaný dátum platby predaja:** 27.04.2012. Tento dátum sa počíta pripočítaním počtu dní v poli **Všeobecné nárazníkové dni** na stránke **Parametre projektového riadenia a účtovníctva** na počet dní v poli **Jednotlivé dni nárazníka** na stránke **Zmluvy o projekte** a potom pripočítaním celkového počtu k počtu dní v poli **Dátum splatnosti**. Pre tento príklad ste zadali **3** v poli **Všeobecné nárazníkové dni** a **10** v poli **Jednotlivé dni nárazníka**. Preto sa k splatnosti pripočítava 13 dní, aby sa dosiahol očakávaný dátum platby pri predaji k 27. 4. 2012.
 
 Všeobecné dni rezervy môžu buď nahradiť jednotlivé dni rezervy, alebo sa môžu pridať k jednotlivým dňom rezervy:
 
@@ -323,9 +323,9 @@ Na základe definovaných dní sa dátum platby nákladov môže líšiť od dá
 
 Napríklad projektom transakcie je 5. marec 2012 a sú stanovené nasledujúce platobné podmienky:
 
--   **Hodiny:** Aktuálny mesiac ( **M** )
--   **Náklady:** 14 dní ( **D14** )
--   **Položky:** 30 dní ( **D30** )
+-   **Hodiny:** Aktuálny mesiac (**M**)
+-   **Náklady:** 14 dní (**D14**)
+-   **Položky:** 30 dní (**D30**)
 
 Na základe týchto nastavení je tu dátum platby nákladov pre každý typ transakcie:
 
@@ -364,7 +364,7 @@ Môžete sledovať náklady, ktoré vašej organizácii vzniknú počas projektu
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Zobrazenie zostávajúcich rozpočtovaných súm
 
-Ak je zvolená možnosť **Zostávajúci rozpočet** vybraná ako metóda kontroly nákladov na stránke **Parametre projektového riadenia a účtovníctva** , stránka **Kontrola nákladov** počíta náklady, ktoré neboli zaúčtované ako skutočné alebo označené ako potvrdené. Konkrétne sumy na karte **Všeobecné** v dolnej časti stránky **Kontrola nákladov** sa počíta nasledujúcimi spôsobmi:
+Ak je zvolená možnosť **Zostávajúci rozpočet** vybraná ako metóda kontroly nákladov na stránke **Parametre projektového riadenia a účtovníctva**, stránka **Kontrola nákladov** počíta náklady, ktoré neboli zaúčtované ako skutočné alebo označené ako potvrdené. Konkrétne sumy na karte **Všeobecné** v dolnej časti stránky **Kontrola nákladov** sa počíta nasledujúcimi spôsobmi:
 
 -   **Skutočné náklady** – Celková suma, ktorá bola použitá na projekt pre vybranú nákladovú položku. Skutočná výška nákladov sa počíta zo stránky **Aktualizácie hlavnej knihy**.
 -   **Viazané náklady** – Dodatočná suma výdavkov, ktoré sa právnická osoba zaviazala zaplatiť. Konkrétne viazané sumy nákladov sa počítajú zo stránky **Zaviazané náklady**.
@@ -381,7 +381,7 @@ Na stránke **Kontrola nákladov** na karte **Odchýlka** môžete zobraziť por
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Zobrazenie rozpočtovaných súm celkom
 
-Ak **Celkový rozpočet** je vybraný ako metóda kontroly nákladov na stránke **Parametre projektového riadenia a účtovníctva** , stránka **Kontrola ceny** počíta skutočné náklady a celkové náklady na projekt, aby vám pomohla zistiť akýkoľvek rozdiel medzi nimi. Na stránke **Kontrola ceny** sa sumy v stĺpcoch v spodnej table karty **Všeobecné** vypočítavajú nasledovne:
+Ak **Celkový rozpočet** je vybraný ako metóda kontroly nákladov na stránke **Parametre projektového riadenia a účtovníctva**, stránka **Kontrola ceny** počíta skutočné náklady a celkové náklady na projekt, aby vám pomohla zistiť akýkoľvek rozdiel medzi nimi. Na stránke **Kontrola ceny** sa sumy v stĺpcoch v spodnej table karty **Všeobecné** vypočítavajú nasledovne:
 
 -   **Celkové rozpočtované náklady** – Celková rozpočtovaná suma pre vybratú nákladovú položku.
 -   **Skutočné náklady** – Celková suma nákladov na projekt k dátumu pre vybraté nákladové riadky.
@@ -432,7 +432,7 @@ Môžete vytvoriť vyhlásenie o projekte, aby ste videli rýchly prehľad prieb
 -   Dátum projektu/dátum hlavnej knihy
 -   Údaje
 
-Po výpočte výpisu si môžete na rôznych kartách na serveri pozrieť nasledujúce informácie na stránke **Vyhlásenia o projekte** :
+Po výpočte výpisu si môžete na rôznych kartách na serveri pozrieť nasledujúce informácie na stránke **Vyhlásenia o projekte**:
 
 -   **Všeobecné** – Všeobecné informácie o základnej štruktúre ziskov a strát projektu.
 -   **Zisk a strata** – Informácie o časovo rozlíšených príjmoch.

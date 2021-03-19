@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084497"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289748"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Prenos rozpočtov projektu na konci fiškálneho roka
 
@@ -41,7 +41,7 @@ Vykonajte nasledujúce kroky, aby ste skontrolovali koncoročné rozpočtové su
 4. V poli **Otvárací fiškálny rok** projektu vyberte fiškálny rok, pre ktorý chcete zobraziť zostávajúcu sumu rozpočtu. 
 5. V poli **Model z predpovede** stlačte možnosť **Zostávajúci rozpočet**. 
 6. Ak chcete zahrnúť projekty, ktoré vyhovujú vybraným kritériám a nemajú zostávajúci rozpočet, vyberte **Zobraziť nulový zostatok**.  
-7. Na karte **Vybrať rozpočty** , stlačte možnosť **Načítať všetky rozpočty** na načítanie všetkých rozpočtov, ktoré zodpovedajú vybraným kritériám, a potom vyberte možnosť **Spracovať**. 
+7. Na karte **Vybrať rozpočty**, stlačte možnosť **Načítať všetky rozpočty** na načítanie všetkých rozpočtov, ktoré zodpovedajú vybraným kritériám, a potom vyberte možnosť **Spracovať**. 
 8. Ak chcete navrhnúť databázový dotaz, ktorý načíta konkrétnu skupinu rozpočtov do panela, vyberte možnosť **Načítať vybrané rozpočty**.
 
 Ak chcete získať ďalšie informácie o konkrétnom riadku na table, vyberte riadok a potom stlačte **Zobraziť podrobnosti rozpočtu** alebo **Zobraziť účty**.
@@ -56,18 +56,18 @@ Keď spracujete zostávajúce sumy rozpočtu, môžete v hlavnej knihe vytvoriť
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Preneste sumy rozpočtu a vytvárajte transakcie hlavnej knihy
 
 1.  Prejdite do **Projektové riadenie a účtovníctvo** > **Periodické** > **Rozpočty** > **Prenos rozpočtov**. 
-2. Na stránke **Proces prenosu rozpočtu projektu** stlačte možnosť **Koniec roka** , a potom povoľte **Preniesť zostávajúce sumy rozpočtu projektu** a **Vytvorte položky registra rozpočtu v hlavnej knihe**. 
+2. Na stránke **Proces prenosu rozpočtu projektu** stlačte možnosť **Koniec roka**, a potom povoľte **Preniesť zostávajúce sumy rozpočtu projektu** a **Vytvorte položky registra rozpočtu v hlavnej knihe**. 
 3. Na karte **Parametre** v skupine poľa **Parametre projektu** vyberte nasledovné:
 
-   - **Projektový rozpočtový rok** : Zvoľte začiatok fiškálneho roka, pre ktorý chcete zobraziť zostávajúcu sumu rozpočtu. 
-   - **Zisk a strata** : Vytvorte transakcie ziskov a strát v hlavnej knihe. 
-   -  **WIP** : Vytvorenie transakcií Work in Progress (WIP) v hlavnej knihe.
-   -  **Mzda** : Vytvorte transakcie alokácie miezd v hlavnej knihe. 
+   - **Projektový rozpočtový rok**: Zvoľte začiatok fiškálneho roka, pre ktorý chcete zobraziť zostávajúcu sumu rozpočtu. 
+   - **Zisk a strata**: Vytvorte transakcie ziskov a strát v hlavnej knihe. 
+   -  **WIP**: Vytvorenie transakcií Work in Progress (WIP) v hlavnej knihe.
+   -  **Mzda**: Vytvorte transakcie alokácie miezd v hlavnej knihe. 
 
 5. V skupine poľa **Hlavná účtovná kniha** uveďte nasledujúce informácie: 
 
    - V poli **Otvárací fiškálny rok** vyberte fiškálny rok, pre ktorý chcete zobraziť prenosnú sumu rozpočtu pre projekty. Predvolená hodnota je jeden rok po hodnote v poli **Rozpočtový rok projektu**.
-   -  V poli **Prenosové obdobie** , vyberte obdobie, pre ktoré chcete vytvoriť podrobnosti registra rozpočtu v hlavnej knihe. Toto je zvyčajne prvé obdobie v úvodnom fiškálnom roku.
+   -  V poli **Prenosové obdobie**, vyberte obdobie, pre ktoré chcete vytvoriť podrobnosti registra rozpočtu v hlavnej knihe. Toto je zvyčajne prvé obdobie v úvodnom fiškálnom roku.
 
 6. V skupine poľa **Skopírovať od/do** uveďte nasledujúce informácie:
 
@@ -76,7 +76,7 @@ Keď spracujete zostávajúce sumy rozpočtu, môžete v hlavnej knihe vytvoriť
    -  Stlačte možnosť **Mena prevodu predaja** a použite ponuku predaja projektu na transakcie hlavnej knihy, ktoré sa vytvoria pri prenose súm rozpočtu pre projekty. Ak táto možnosť nie je vybratá, transakcie používajú účtovnú menu. 
    -  Stlačte možnosť **Zobraziť nulový zostatok** na zahrnutie projektov, ktoré nemajú zostávajúce sumy rozpočtu, ale spĺňajú ďalšie kritériá, ktoré vyberiete v projektoch zobrazených v dolnom paneli.
 
-7. Na karte **Vybrať rozpočty** , stlačte možnosť **Načítať všetky rozpočty** na načítanie všetkých rozpočtov, ktoré zodpovedajú vybraným kritériám. Ak chcete navrhnúť databázový dotaz, ktorý načíta konkrétnu skupinu projektových rozpočtov do panela, vyberte možnosť **Načítať vybrané rozpočty**.
+7. Na karte **Vybrať rozpočty**, stlačte možnosť **Načítať všetky rozpočty** na načítanie všetkých rozpočtov, ktoré zodpovedajú vybraným kritériám. Ak chcete navrhnúť databázový dotaz, ktorý načíta konkrétnu skupinu projektových rozpočtov do panela, vyberte možnosť **Načítať vybrané rozpočty**.
 8. Pre každý projekt, ktorý chcete spracovať, vyberte možnosť na začiatku riadku pre projekt.
 
     > [!TIP]
@@ -93,7 +93,7 @@ Keď spracujete zostávajúce sumy rozpočtu, môžete v hlavnej knihe vytvoriť
 
    - V poli **Z predpovedného modelu** vyberte model prognózy rozpočtu projektu spojený so zostávajúcimi čiastkami rozpočtu, ktoré chcete previesť na projekty. 
    - Ak chcete zahrnúť projekty, ktoré vyhovujú vybraným kritériám a nemajú zostávajúci rozpočet, vyberte **Zobraziť nulový zostatok**.
-   - V skupine **Vybrať rozpočty** , stlačte možnosť **Načítať všetky rozpočty** na načítanie všetkých rozpočtov, ktoré zodpovedajú vybraným kritériám. Ak chcete navrhnúť databázový dotaz, ktorý načíta konkrétnu skupinu projektových rozpočtov do panela, vyberte možnosť **Načítať vybrané rozpočty**.
+   - V skupine **Vybrať rozpočty**, stlačte možnosť **Načítať všetky rozpočty** na načítanie všetkých rozpočtov, ktoré zodpovedajú vybraným kritériám. Ak chcete navrhnúť databázový dotaz, ktorý načíta konkrétnu skupinu projektových rozpočtov do panela, vyberte možnosť **Načítať vybrané rozpočty**.
 
 5. Pre každý projekt, ktorý chcete spracovať, vyberte možnosť na začiatku riadku pre projekt. 
 6. Vyberte možnosť **Spracovať** a preneste zostávajúce sumy rozpočtu pre vybrané projekty do vybratého fiškálneho roka.

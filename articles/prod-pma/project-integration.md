@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084425"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289343"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrácia služby Microsoft Project Client
 
@@ -42,10 +42,10 @@ Pre umožnenie integrácie s Microsoft Project Client musí byť nainštalovaný
 •   Kliknite na **Otvoriť** a po výzve na **Spustiť**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Otvorte a upravte existujúci koncept štruktúry rozdelenia práce Microsoft Project Client
-Ak má projekt v Dynamics 365 Finance už má vytvorenú štruktúru rozdelenia práce, štruktúru rozdelenia práce je možné otvoriť v aplikácii Microsoft Project Client, ak je štruktúra rozdelenia práce v stave konceptu. Ak ju chcete otvoriť zo stránky **Projekt** , kliknite na odkaz **Otvoriť v Microsoft Project** na karte **Plán**. Túto stránku je tiež možné otvoriť v rámci aplikácie Microsoft Project Client kliknutím na **Otvoriť** v **Microsoft Dynamics 365**. Zo zoznamu vyberte **Právnická osoba** a **Projekt**.
+Ak má projekt v Dynamics 365 Finance už má vytvorenú štruktúru rozdelenia práce, štruktúru rozdelenia práce je možné otvoriť v aplikácii Microsoft Project Client, ak je štruktúra rozdelenia práce v stave konceptu. Ak ju chcete otvoriť zo stránky **Projekt**, kliknite na odkaz **Otvoriť v Microsoft Project** na karte **Plán**. Túto stránku je tiež možné otvoriť v rámci aplikácie Microsoft Project Client kliknutím na **Otvoriť** v **Microsoft Dynamics 365**. Zo zoznamu vyberte **Právnická osoba** a **Projekt**.
 
 > [!NOTE]
-> Ak používate ako prehliadač Internet Explorer, budete musieť kliknúť na **Uložiť** a manuálne otvoriť z umiestnenia, do ktorého sa súbor stiahne. Alebo kliknite na **Uložiť a otvoriť** , čím sa súbor otvorí v Microsoft Project Client. Pri ukladaní nepremenujte názov súboru.
+> Ak používate ako prehliadač Internet Explorer, budete musieť kliknúť na **Uložiť** a manuálne otvoriť z umiestnenia, do ktorého sa súbor stiahne. Alebo kliknite na **Uložiť a otvoriť**, čím sa súbor otvorí v Microsoft Project Client. Pri ukladaní nepremenujte názov súboru.
 
 Pred vykonaním akýchkoľvek úprav súboru pomocou programu Microsoft Project Client je potrebné vykonať kontrolu. Kliknite na kartu **Odhlásiť** na karte **Microsoft Dynamics 365**. Toto zabráni ostatným používateľom súčasne upravovať štruktúru rozdelenia práce v rámci aplikácie Finance. Ak chcete zverejniť štruktúru rozdelenia práce po dokončení akýchkoľvek úprav, kliknite na **Prihlásiť** na karte **Microsoft Dynamics 365**.
 
@@ -122,9 +122,9 @@ Ak chcete vytvoriť novú štruktúru rozdelenia práce pomocou Microsoft Projec
 
 6.  Zadajte **Názov produktu**.
 
-7.  Vyberte **Typ projektu** , **Projektová skupina** a **ID projektovej zmluvy**. Prípadne môžete vytvoriť novú projektovú zmluvu kliknutím na **Nová**.
+7.  Vyberte **Typ projektu**, **Projektová skupina** a **ID projektovej zmluvy**. Prípadne môžete vytvoriť novú projektovú zmluvu kliknutím na **Nová**.
 
-8.  Vyberte **Kalendár** , ktorý sa má použiť na zabezpečenie zdrojov.
+8.  Vyberte **Kalendár**, ktorý sa má použiť na zabezpečenie zdrojov.
 
 11. Kliknite na tlačidlo **OK**.
 

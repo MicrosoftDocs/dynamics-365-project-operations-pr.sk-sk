@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084503"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289658"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronizujte kategórie výdavkov projektu medzi Finance and Operations a Project Service Automation
 
@@ -64,7 +64,7 @@ Nasledujúca ilustrácia ukazuje, ako sa synchronizujú údaje medzi Project Ser
 
 ### <a name="template-and-task"></a>Šablóna a úloha
 
-Šablónu nájdete v zozname centrum správcu Microsoft Power Apps, zvoľte možnosť **Projekty** a potom v pravom hornom rohu vyberte možnosť **Nový projekt** , kde si vyberiete verejné šablóny.
+Šablónu nájdete v zozname centrum správcu Microsoft Power Apps, zvoľte možnosť **Projekty** a potom v pravom hornom rohu vyberte možnosť **Nový projekt**, kde si vyberiete verejné šablóny.
 
 Nasledujúca šablóna a základná úloha sa používajú na synchronizáciu kategórií výdavkov z Finance do Project Service Automation:
 
@@ -86,7 +86,7 @@ Kategórie projektových výdavkov sa spravujú vo Finance a synchronizujú sa s
 Pri synchronizácii s Project Service Automation musíte na nastavenie typu fakturácie v kategórii transakcií použiť Microsoft Power Query for Excel. Šablóna Kategórie výdavkov projektu (Fin and Ops to PSA) poskytuje predvolený stĺpec a mapovanie. Ak vytvárate vlastnú šablónu, musíte pridať podmienený stĺpec v Power Query. Postupujte nasledovne.
 
 1. Kliknutím na šípku otvoríte mapovanie úlohy kategórií výdavkov projektu v šablóne Kategórie transakcií výdavkov projektu (Fin a Ops do PSA).
-2. Kliknite na prepojenie **Pokročilý dotaz a filtrovanie** , čím otvoríte Power Query.
+2. Kliknite na prepojenie **Pokročilý dotaz a filtrovanie**, čím otvoríte Power Query.
 2. Stlačte možnosť **Pridať podmienený stĺpec**.
 3. Zadajte názov nového stĺpca, napríklad **BillingType**.
 4. Zadajte nasledujúcu podmienku: **ak CATEGORYID sa nerovná null, potom 19235001, inak null**.
