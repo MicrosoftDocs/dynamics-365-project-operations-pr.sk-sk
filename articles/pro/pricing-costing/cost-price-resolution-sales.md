@@ -1,22 +1,22 @@
 ---
-title: Riešenie obstarávacích cien v odhadoch a skutočných hodnotách – čiastočné
-description: Táto téma poskytuje informácie o tom, ako vyriešiť obstarávacie ceny pre odhady a skutočné hodnoty.
+title: Riešenie obstarávacích cien v odhadoch a skutočných hodnotách projektov
+description: Táto téma poskytuje informácie o tom, ako sa riešia obstarávacie ceny pri odhadoch a skutočných hodnotách projektu.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274568"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877284"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Riešenie obstarávacích cien v odhadoch a skutočných hodnotách – čiastočné
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Riešenie obstarávacích cien v odhadoch a skutočných hodnotách projektov 
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -36,6 +36,12 @@ Po vyriešení cenníka obstarávacích cien sa polia **Rola** a **Zdrojová jed
 Riadky s odhadmi pre náklad sa týkajú riadkov s podrobnosťami o cenovej ponuke a zmluve pre náklady a riadky odhadov výdavkov pre projekt.
 
 Po vyriešení cenníka obstarávacích cien systém použije kombináciu polí **Kategória** a **Jednotka** v riadku odhadu výdavkov, aby sa zhodovali s riadkami **Cena kategórie** na vyriešenom cenníku. Ak systém nájde riadok s cenou kategórie, ktorá má nákladovú sadzbu pre kombináciu polí **Kategória** a **Jednotka**, nákladová sadzba bude predvolená. Ak systém nedokáže zosúladiť hodnoty **Kategória** a **Jednotka**, alebo ak dokáže nájsť cenovú linku zodpovedajúcej kategórie, ale metóda určovania cien nie je **Cena za jednotku**, sadzba nákladov je predvolene nastavená na nulu (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Riešenie nákladových sadzieb v riadkoch skutočných a odhadovaných hodnôt pre materiál
+
+Odhadované riadky pre materiál sa týkajú detailov cenovej ponuky a riadka zmluvy pre materiály a odhadované riadky materiálu v projekte.
+
+Po vyriešení cenníka nákladových cien systém použije kombináciu polí **Produkt** a **Jednotka** na riadku odhadu pre odhad materiálu, na spárovanie odhadu materiálu s riadkami **Položky v cenníku** vo vyriešenom cenníku. Ak systém nájde riadok ceny produktu, ktorý má nákladovú sadzbu pre kombináciu polí **Produkt** a **Jednotka**, nákladová sadzba sa nastaví na predvolenú hodnotu. Ak sa systém nedokáže spárovať hodnoty **Produkt** a **Jednotka**, alebo ak dokáže nájsť zodpovedajúci riadok položky v cenníku, ale metóda určovania cien je založená na štandardných cenách alebo aktuálnych cenách a ani jedna z nich nie je na produkte definovaná, jednotkové náklady sa predvolene nastavia na nulu.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

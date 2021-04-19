@@ -3,17 +3,17 @@ title: Určenie typu nasadenia
 description: Táto téma poskytuje informácie, ktoré vám pomôžu určiť správny typ nasadenia Project operations pre vašu spoločnosť.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479583"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663613"
 ---
 # <a name="determine-your-deployment-type"></a>Určenie typu nasadenia
 
@@ -44,9 +44,9 @@ Náš [Dotazník o nasadení](https://aka.ms/provisionprojectoperations) vám po
 - [Project Operations pre scenáre riešenia zdrojov/neskladovaných položiek](#integrated)
 - [Project Operations pre scenáre využívajúce skladované materiály/výrobné objednávky](#pma)
 
-Project Operations podporuje scenáre využívajúce skladované materiály/výrobné objednávky a neskladové scenáre/scenáre založené na zdrojoch v rovnakom prostredí prostredníctvom konfigurácií na úrovni právnických osôb. Spoločnosť Contoso môže napríklad využiť možnosti skladovaných materiálov/výrobných objednávok vo svojom výrobnom závode v USA (právnická entita = Contoso Manufacturing United States). Spoločnosť Contoso môže využívať možnosti neskladovaných položiek/zdrojov vo svojom servisnom stredisku Contoso Robotics Arms vo Veľkej Británii (právnická entita = Contoso Robotics United Kingdom).
+Project Operations podporuje scenáre využívajúce skladované materiály/výrobné objednávky a neskladové scenáre/scenáre založené na zdrojoch v rovnakom prostredí prostredníctvom konfigurácií na úrovni právnických osôb. Napríklad Contoso môže využívať možnosti skladovaných materiálov/výrobných objednávok vo svojom výrobnom závode v USA (právnická osoba = Contoso USA). Contoso môže vo vo svojom servisnom stredisku Contoso Robotics Arms vo Veľkej Británii (právnická osoba = Contoso Robotics Spojené kráľovstvo) využívať možnosti neskladované/založené na zdrojoch.
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Jednoduché nasadenie – dohoda o fakturácii pro forma
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Čiastočné nasadenie – dohoda o fakturácii pro forma
 
 Jednoduché nasadenie zahŕňa nasledujúce možnosti:
 
@@ -56,7 +56,7 @@ Jednoduché nasadenie zahŕňa nasledujúce možnosti:
 - Jednotná správa zdrojov
 - Sledovanie času
 - Základné výdavky
-- Fakturácia pro forma a fakturácia orientovaná na zákazníka 
+- Fakturácia pro forma pre kontrolu a úpravy projektového manažéra 
 
 #### <a name="deployment-steps"></a>Postup nasadenia
 Určte najlepší model nasadenia Project Operations pomocou [Dotazníka o nasadení](https://aka.ms/provisionprojectoperations).
@@ -94,7 +94,7 @@ Toto nasadenie je popísané v časti [Registrácia na odber ukážky](resource-
 - Úplné účtovanie
 - Priznanie výnosov
 - Výrobné zákazky
-- Podpora materiálov
+- Podpora skladovaných materiálov s inventárom
 
 #### <a name="deployment-steps"></a>Postup nasadenia
 Určte najlepší model nasadenia Project Operations pomocou [Dotazníka o nasadení](https://aka.ms/provisionprojectoperations).

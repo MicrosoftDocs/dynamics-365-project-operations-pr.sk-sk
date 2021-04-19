@@ -1,5 +1,5 @@
 ---
-title: Konfigurácia účtovateľných zložiek riadka zmluvy na základe projektu
+title: Konfigurácia fakturovateľných súčastí v riadku projektovej zmluvy
 description: Táto téma poskytuje informácie o zahrnutých, účtovateľných a neúčtovateľných zložkách v riadkoch zmluvy.
 author: rumant
 manager: Annbe
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2266d8e0fe998e7161ede4cb4eaf7d3c70c54f71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278713"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858357"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurácia účtovateľných zložiek riadka zmluvy na základe projektu
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Konfigurácia fakturovateľných súčastí v riadku projektovej zmluvy
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 

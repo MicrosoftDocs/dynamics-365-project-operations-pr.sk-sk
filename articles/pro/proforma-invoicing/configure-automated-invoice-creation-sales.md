@@ -1,29 +1,27 @@
 ---
-title: Konfigurácia automatického vytvárania faktúr – čiastočné
-description: Táto téma poskytuje informácie o konfigurácii automatického vytvárania zálohových faktúr.
+title: Nastavenie automatického vytvárania faktúr
+description: Táto téma poskytuje informácie o nastavení a konfigurácii automatického vytvárania faktúr pro forma.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274342"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866836"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurácia automatického vytvárania faktúr – čiastočné
+# <a name="set-up-automatic-invoice-creation"></a>Nastavenie automatického vytvárania faktúr 
  
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Vzťahuje sa na:** Čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 V rámci Dynamics 365 Project Operations môžete konfigurovať automatické vytváranie faktúr. Systém vytvorí koncept zálohovej faktúry na základe plánu faktúr pre každú projektovú zmluvu a riadok zmluvy. Plány faktúr sa konfigurujú na úrovni riadka zmluvy. Každý riadok zmluvy môže mať samostatný plán faktúr alebo môže byť v každom riadku zmluvy uvedený rovnaký plán faktúr.
 
-Pri vytváraní faktúry systém vždy vytvorí minimálne jednu faktúru pre každú projektovú zmluvu. V niektorých prípadoch môže byť vytvorených viac faktúr.
-
-Napríklad, ak má zmluva viac zákazníkov, vytvorí sa rovnaký počet faktúr ako počet zákazníkov, ktorí majú fakturovateľné transakcie, ktoré sa majú fakturovať na základe tejto projektovej zmluvy.
+Pri vytváraní faktúry systém vždy vytvorí minimálne jednu faktúru pre každú projektovú zmluvu. V niektorých prípadoch môže byť vytvorených viac faktúr. Napríklad, ak má zmluva viac zákazníkov, vytvorí sa rovnaký počet faktúr ako počet zákazníkov, ktorí majú fakturovateľné transakcie, ktoré sa majú fakturovať na základe tejto projektovej zmluvy.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Pochopte, ako sú transakcie zahrnuté vo faktúre 
 

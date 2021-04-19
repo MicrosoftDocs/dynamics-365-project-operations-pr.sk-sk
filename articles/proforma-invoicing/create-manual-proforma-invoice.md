@@ -1,42 +1,27 @@
 ---
-title: Vytvorenie manuálnej zálohovej faktúry
-description: Táto téma poskytuje informácie o vytváraní zálohovej faktúry.
+title: Faktúry pro forma
+description: Táto téma poskytuje informácie o faktúrach pro forma v Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287797"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866880"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Vytvorenie manuálnej zálohovej faktúry
+# <a name="proforma-invoices"></a>Faktúry pro forma
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Fakturácia poskytuje projektovým manažérom druhú úroveň schválenia pred vytvorením faktúr pre zákazníkov. Prvá úroveň schválenia sa dokončí, keď sú schválené zadania času a výdavkov, ktoré predkladajú členovia projektového tímu.
+Fakturácia pro forma je užitočná, pretože poskytuje projektovým manažérom druhú úroveň schválenia pred vytvorením faktúr pre zákazníkov. Prvá úroveň schválenia sa dokončí, keď sú schválené zadania času, výdavkov a materiálu, ktoré predkladajú členovia projektového tímu. Potvrdené faktúry pro forma sú k dispozícii v module Projektové účtovníctvo v Project Operations. Účtovníci projektu môžu vykonávať ďalšie aktualizácie, ako je napríklad daň z obratu, účtovníctvo a rozloženie faktúr.
 
-Dynamics 365 Project Operations nie je navrhnutý tak, aby generoval faktúry orientované na zákazníka z nasledujúcich dôvodov:
-
-- Neobsahuje daňové informácie.
-- Nie je možné konvertovať iné meny do fakturačnej meny pomocou správne nakonfigurovaných výmenných kurzov.
-- Nie je možné správne formátovať faktúry tak, aby mohli byť vytlačené.
-
-Namiesto toho môžete použiť finančný alebo účtovný systém na vytváranie faktúr orientovaných na zákazníkov, ktoré používajú informácie z návrhov generovaných faktúr.
 
 ## <a name="creating-project-invoices"></a>Vytváranie projektových faktúr
 
@@ -50,7 +35,7 @@ Ak chcete vytvoriť faktúru pre konkrétnu projektovú zmluvu, postupujte podľ
 
 - Na stránke zoznam **projektových zmlúv** otvorte zmluvu o projekte a potom vyberte položku **vytvoriť faktúru**.
 
-    Faktúra sa generuje pre všetky transakcie vybratej projektovej zmluvy, ktoré majú stav **pripravené na fakturáciu**. Tieto transakcie zahŕňajú čas, výdavky, míľniky a riadky zmluvy založené na produkte.
+    Faktúra sa generuje pre všetky transakcie vybratej projektovej zmluvy, ktoré majú stav **pripravené na fakturáciu**. Tieto transakcie zahŕňajú čas, výdavky, materiál, medzníky a ďalšie nevyfakturované riadky denníka predaja.
 
 Ak chcete hromadne vytvárať faktúry, postupujte podľa týchto krokov.
 
@@ -60,7 +45,7 @@ Ak chcete hromadne vytvárať faktúry, postupujte podľa týchto krokov.
 
 2. Stlačením **OK** zatvorte dialógové okno.
 
-    Faktúra sa generuje pre všetky transakcie v riadku projektovej zmluvy, ktoré majú stav **pripravené na fakturáciu**. Tieto transakcie zahŕňajú čas, výdavky, míľniky a riadky zmluvy založené na produkte.
+    Faktúra sa generuje pre všetky transakcie v riadku projektovej zmluvy, ktoré majú stav **pripravené na fakturáciu**. Tieto transakcie zahŕňajú čas, výdavky, materiál, medzníky a ďalšie nevyfakturované riadky denníka predaja.
 
 3. Ak chcete zobraziť faktúry, ktoré sú generované, prejdite na **Predaj** \> **fakturácia** \> **faktúry**. Pre každú zmluvu o projekte uvidíte jednu faktúru.
 
@@ -93,11 +78,10 @@ Dávková úloha pre vytváranie faktúr je opakujúca sa úloha. Ak je táto d�
  
 ### <a name="edit-a-draft-invoice"></a>Úprava konceptu faktúry
 
-Pri vytváraní návrhu faktúry projektu, všetky nefakturované predajné transakcie, ktoré boli vytvorené, keď boli schválené zadania času a výdavkov sú stiahnuté na faktúru. Ak je faktúra stále v štádiu návrhu, môžete vykonať nasledujúce úpravy:
+Pri vytváraní návrhu faktúry projektu, všetky nefakturované predajné transakcie, ktoré boli vytvorené, keď boli schválené zadania času, výdavkov a použitia materiálu, sú stiahnuté na faktúru. Ak je faktúra stále v štádiu návrhu, môžete vykonať nasledujúce úpravy:
 
 - Odstráňte alebo upravte podrobnosti riadka faktúry.
 - Editujte a upravte množstvo a typ fakturácie.
-- Priamo pridajte čas, náklady a poplatky ako transakcie na faktúre. Túto funkciu môžete použiť, ak je riadok faktúry priradený k riadku zmluvy, ktorý umožňuje tieto triedy transakcií.
 
 Výberom **potvrdiť** potvrďte faktúru. Akcia potvrdiť je jednosmerná akcia. Keď vyberiete možnosť **potvrdiť**, systém urobí faktúru iba na čítanie a vytvorí účtované predajné skutočné hodnoty z každého detailu riadka faktúry pre každý riadok faktúry. Ak podrobnosti riadka faktúry odkazujú na skutočné hodnoty nefakturovaného predaja, systém tiež obnoví skutočné hodntoy nefakturovaného predaja. (Všetky podrobnosti riadka faktúry, ktoré boli vytvorené zo zadania času alebo výdavkov budú odkazovať na skutočné hodnoty nefakturovaného predaja.) Finančné integračné systémy môžu použiť tento zvrat na zvrátenie prebiehajúcej práce projektu (WIP) na účtovné účely.
 

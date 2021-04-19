@@ -1,27 +1,27 @@
 ---
-title: Správa projektových cenníkov v projektových cenových ponukách – čiastočné
-description: Táto téma poskytuje informácie o práci s cenníkmi projektov v cenových ponukách. (Sales)
+title: Správa projektových cenníkov v projektových cenových ponukách
+description: Táto téma poskytuje informácie o práci s cenníkmi projektov v cenových ponukách.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273037"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858627"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Správa projektových cenníkov v projektových cenových ponukách – čiastočné
+# <a name="manage-project-price-lists-on-project-quotes"></a>Správa projektových cenníkov v projektových cenových ponukách 
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Cenové ponuky projektu sú navrhnuté tak, aby podporovali cenníky s účinnosťou viacerých dátumov predaja. S aplikáciou Dynamics 365 Project Operations sa pridá nová pridružená entita s názvom **Projektové cenníky**. Táto entita má vzťah 1 k mnohým pre cenovú ponuku projektu.
 
-Cenníky projektu sa používajú na ocenenie časových a výdavkových transakcií projektu. Ak má cenová ponuka jeden alebo viac cenníkov projektu, tieto cenníky sa používajú na odhad ceny a času a výdavkov a skutočných hodnôt o projektoch, ktoré sú spojené s cenovou ponukou prostredníctvom riadka cenovej ponuky.
+Cenníky projektu sa používajú na ocenenie časových, materiálových a výdavkových transakcií projektu. Ak má cenová ponuka jeden alebo viac projektových cenníkov, tieto cenníky sa používajú na stanovenie ceny za čas, materiál, odhady výdavkov a skutočné hodnoty v projektoch, ktoré sú spojené s cenovou ponukou prostredníctvom riadku cenovej ponuky.
 
 Ak v cenovej ponuke projektu nie sú uvedené žiadne cenníky projektu, zobrazí sa varovné hlásenie. V hlásení sa uvádza, že keďže neexistujú žiadne cenníky projektu, vaše odhadované a skutočné práce a náklady na projekt nebudú ocenené. Namiesto toho budú mať nulovú (0) cenu za predajné hodnoty.
 

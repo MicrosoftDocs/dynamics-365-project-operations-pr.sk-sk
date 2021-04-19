@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 870a583a4f7c9ed461207f65f267b529580cf02b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1eedd912bedc43b1d5e847c574b5f1d5233cd038
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272497"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663928"
 ---
-# <a name="project-contract-settings---lite"></a>Nastavenia projektovej zmluvy – čiastočné
+# <a name="header-details-for-project-contracts"></a>Podrobnosti hlavičky pre projektové zmluvy
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 

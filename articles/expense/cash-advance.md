@@ -3,19 +3,19 @@ title: Platba vopred v hotovosti
 description: Táto téma poskytuje informácie o platbách vopred v hotovosti.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276727"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715579"
 ---
 # <a name="cash-advance"></a>Platba vopred v hotovosti
 
@@ -60,7 +60,22 @@ Nasledujúci postup zvyčajne vykonáva účtovník alebo používateľ s účto
 
 Keď vytvoríte a odošlete výkaz výdavkov pre hotovostnú zálohu, ktorú ste už dostali, výdavky sa automaticky upravia oproti danej zálohe. Ak je vaša platba vopred v hotovosti vyššia ako suma výdavkov, musíte zostatok vrátiť spoločnosti pomocou kategórie výdavkov **Vrátiť hotovosť**. Ak je hotovostná záloha zaplatená spoločnosťou nižšia ako suma, ktorú ste vynaložili, spoločnosť vám musí zostatok uhradiť. 
 
-### <a name="example"></a>Príklad
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Výber preddavkov v hotovosti, ktoré sa vzťahujú na vaše výdavky
+Pred odoslaním výkazu výdavkov môžete vybrať hotovostnú zálohu, ktorá sa zhoduje s transakciami výdavkov v zostave. Ak chcete používať tieto funkcie, v pracovnom priestore **Správa funkcií** musia byť povolené nasledujúce dve funkcie:
+
+  - Prepracované výkazy výdavkov
+  - Schopnosť mapovať hotovostné zálohy do riadkov výdavkov
+ 
+ Keď sú povolené tieto funkcie:
+ 
+  - Pre každý riadok výdavkov môžete pridať jeden alebo viac hotovostných záloh.
+  - Disponibilný zostatok peňažnej zálohy je viditeľný v reálnom čase po uložení výkazu výdavkov. To vám umožňuje súčasne spracovávať výdavkové transakcie a vracať hotovostné transakcie.
+  - Pre jednu transakciu výdavkov môžete vybrať viac hotovostných záloh.
+  - Údaje o vyrovnaní hotovostných záloh sú k dispozícii pomocou dotazu. 
+ 
+Ak tieto funkcie nepoužívate, funkčnosť zostane rovnaká a existujúce hotovostné zálohy sa automaticky znížia po odoslaní výdavkov.
+
+### <a name="example"></a>Príklad 
 Plánujete cestu zo Seattlu do New Yorku na konferenciu. Požiadavku na hotovostnú zálohu na 3000,00 USD vytvoríte na základe odhadovaných nákladov na konferenčný lístok, letenky, hotel, stravu a taxík. Platba vám nebude vyplatená, pokiaľ váš nadriadený neschváli túto žiadosť. Po schválení manažérom sa požadovaná platba vopred v hotovosti vyplatí na váš bankový účet v sume 3000,00 USD. Potom sa zúčastníte konferencie. Po dokončení cesty zistíte, že celkové výdavky boli iba 2790,00 USD. Vyberte **Hotovosť** v poli **Spôsob platby** a uveďte svoje výdavky v hodnote 2790,00 USD. Vaša predložená suma výdavkov sa automaticky upraví oproti platbe vopred v hotovosti 3000,00 USD, ktorá vám bola požičaná. Teraz dlžíte zostatok 210,00 USD (3000,00 - 2790,00), ktorý môžete spoločnosti vrátiť pomocou kategórie výdavkov **Vrátiť hotovosť**.
 
 

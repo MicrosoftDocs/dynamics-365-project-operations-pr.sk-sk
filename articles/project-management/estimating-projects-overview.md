@@ -1,31 +1,41 @@
 ---
-title: Prehľad odhadov projektov
-description: Táto téma poskytuje informácie o odhadoch v Dynamics 365 Project Operations.
-author: ruhercul
+title: Koncepty finančného odhadu
+description: Táto téma poskytuje informácie o finančných odhadoch projektov v Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286897"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701755"
 ---
-# <a name="estimate-projects-overview"></a>Prehľad odhadov projektov
+# <a name="financial-estimation-concepts"></a>Koncepty finančného odhadu
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
+V Dynamics 365 Project Operations môžete svoje projekty finančne odhadnúť v dvoch etapách: 
+1. Počas predpredajnej etapy pred získaním obchodu. 
+2. Počas fázy realizácie po vytvorení projektovej zmluvy. 
+
+Finančný odhad pre projektovú prácu môžete vytvoriť na ktorejkoľvek z nasledujúcich 3 stránok:
+- Stránka **Riadok cenovej ponuky** pomocou podrobností riadkov cenovej ponuky.  
+- Stránka **Riadok projektovej zmluvy** pomocou podrobností riadkov zmluvy. 
+- Stránka **Projekt** pomocou stránok s kartami **Úlohy** alebo **Odhady výdavkov**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Použitie projektovej cenovej ponuky na vytvorenie odhadu
 Na cenovej ponuke založenej na projekte, môžete použiť entitu **Podrobnosti o riadku cenovej ponuky** na odhad práce potrebnej na doručenie projektu. Potom môžete tento odhad zdieľať so zákazníkom.
 
 Riadky cenovej ponuky založenej na projekte môžu mať nula alebo ľubovoľný počet podrobností o riadku cenovej ponuky. Podrobnosti riadka cenovej ponuky sa používajú na odhad času, výdavkov alebo poplatkov. Microsoft Dynamics 365 Project Operations neumožňuje odhady materiálu v detailoch riadku cenovej ponuky. Tieto sa nazývajú triedy transakcií. Odhadované čiastky dane možno zadať aj v triede transakcie.
 
 Okrem tried transakcií majú podrobnosti o riadku cenovej ponuky typ transakcie. Pre podrobnosti riadka cenovej ponuky sú podporované dva typy transakcií: **Cena** a **Projektová zmluva**.
 
-## <a name="estimate-by-using-a-contract"></a>Odhad pomocou zmluvy
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Použitie projektovej zmluvy na vytvorenie odhadu
 
 Ak ste použili cenovú ponuku, keď ste vytvorili zmluvu založenú na projekte, odhad, ktorý ste urobili pre každý riadok cenovej ponuky v ponuke, sa skopíruje do zmluvy o projekte. Štruktúra projektovej zmluvy je ako štruktúra projektovej cenovej ponuky, ktorá má riadky, podrobnosti riadka a fakturačné plány.
 
@@ -35,23 +45,17 @@ Podrobnosti riadka projektovej zmluvy sa môžu používať na odhad času, výd
 
 Odhady materiálu nie sú povolené v podrobnostiach riadku zmluvy.
 
-Procesy, ktoré sú podporované na projektovej zmluve, sú vytvorenie a potvrdenie faktúry. Vytváranie faktúr vytvorí koncept faktúry založenej na projekte, ktorá zahŕňa všetky nefakturované skutočné hodnoty predaja až do aktuálneho dátumu.
+## <a name="use-a-project-to-create-an-estimate"></a>Použitie projektu na vytvorenie odhadu 
 
-Potvrdenie robí zmluvu iba na čítanie a zmení jej stav od **konceptu** k **potvrdeniu**. Po tejto akcii ju nemôžete vrátiť späť. Keďže táto akcia je trvalá, najlepšia skúška je uchovávať zmluvu v stave **konceptu**.
-
-Jediné rozdiely medzi navrhnutými zmluvami a potvrdenými zmluvami sú ich postavenie a skutočnosť, že návrh zmluvy možno upraviť, zatiaľ čo potvrdené zmluvy nemôžno. Vytváranie faktúr a sledovanie skutočných hodnôt možno vykonať na návrhoch zmlúv a potvrdených zmluvách.
-
-Project Operations nepodporuje príkazy na zmenu zmlúv alebo projektov.
-
-## <a name="estimating-projects"></a>Odhadovanie projektov
-
-Môžete odhadnúť čas a náklady na projekty. Project Operations neumožňuje \odhady materiálov alebo poplatkov na projektoch.
+Môžete odhadnúť čas a náklady na projekty. Project Operations nepodporuje odhady materiálov alebo poplatkov za projekty.
 
 Odhady času sa generujú pri vytváraní úlohy a identifikujú atribúty všeobecného zdroja, ktorý je potrebný na vykonanie úlohy. Odhady sa generujú z úloh plánovania. Odhady času sa nevytvoria, ak vytvoríte všeobecných členov tímu mimo kontextu plánu.
 
-Odhady výdavkov sú zadané v mriežke na stránke **odhady**.
+Odhady výdavkov sú zadané v mriežke na stránke **Odhady výdavkov**.
 
-## <a name="understanding-estimation"></a>Porozumenie odhadu
+Vytvorenie odhadu pre projekt sa považuje za najlepší postup, pretože v pláne projektu môžete pre každú úlohu vytvoriť podrobné odhady práce alebo času a výdavkov zdola nahor. Tento podrobný odhad potom môžete použiť na vytvorenie odhadov pre každý riadok cenovej ponuky a vytvoriť tak ešte dôveryhodnejšiu cenovú ponuku pre zákazníka. Keď importujete alebo vytvoríte podrobný odhad na riadku cenovej ponuky pomocou plánu projektu, Project Operations importuje hodnoty predaja a hodnoty nákladov z týchto odhadov. Po importe si môžete pozrieť ziskovosť, marže a metriky uskutočniteľnosti v ponuke projektu.
+
+## <a name="understanding-estimates"></a>Porozumenie odhadom
 
 Použite nasledujúcu tabuľku ako príručku na pochopenie obchodnej logiky vo fáze odhadu.
 

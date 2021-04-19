@@ -3,17 +3,17 @@ title: Nastavenie nákladových a predajných sadzieb pre výdavky
 description: Táto téma poskytuje informácie o tom, ako nastaviť cenu a sadzby predaja pre kategórie transakcie a výdavkov.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274927"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877239"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Nastavenie nákladových a predajných sadzieb pre výdavky
 
@@ -23,9 +23,10 @@ V kategórii môžete nastaviť nákladové a predajné ceny pre kategórie tran
 
 Ak chcete nastaviť ceny a sadzby predaja pre kategórie transakcií, postupujte takto. 
 
-1. Vytvorte cenník na základe hlavičky cenníka. 
-2. V položke **Ceny kategórií**, v ponuke vedľajšej mriežky, vyberte **+ Cena novej kategórie**. 
-3. Na stránke **Rýchle vytvorenie** zadajte kategóriu transakcie a jednotku, pre ktorú vytvárate novú cenu.
+1. Prejdite do ponuky **Predaj** > **Zákazníci** > **Cenníky**.
+2. Ak chcete vytvoriť nový cenník, zvoľte položku **Nový**. 
+3. V položke **Ceny kategórií**, v ponuke vedľajšej mriežky, vyberte **Cena novej kategórie**. 
+4. Na stránke **Rýchle vytvorenie** zadajte kategóriu transakcie a jednotku, pre ktorú vytvárate novú cenu.
 
 V nasledujúcej tabuľke sú uvedené polia na karte **Všeobecné** a na stránke **Rýchle vytvorenie** cenového riadku kategórie, na ktorú by ste mali pamätať pri vytváraní cien kategórie v predajnom alebo nákladovom cenníku.
 

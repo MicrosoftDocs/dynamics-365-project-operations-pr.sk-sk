@@ -3,17 +3,17 @@ title: Správa projektových cenníkov v projektových zmluvách
 description: Táto téma poskytuje informácie o správe projektových cenníkov v projektových zmluvách.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278617"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858582"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Správa projektových cenníkov v projektových zmluvách
 
@@ -21,13 +21,13 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 
 Projektové zmluvy v rámci Dynamics 365 Project Operations sú navrhnuté tak, aby podporovali viacdenné efektívne predajné cenníky v rámci zmluvy. V aplikácii Project Operations existuje nová pridružená entita s názvom **Projektové cenníky**. Táto entita má vzťah typu jeden k mnohým k projektovej zmluve.
 
-Cenníky projektu sa používajú na ocenenie časových a výdavkových transakcií projektu. Ak má zmluva jeden alebo viac projektových cenníkov, tieto cenníky sa používajú na odhad ceny a času a výdavkov a skutočných údajov o projektoch, ktoré sú spojené so zákazkou prostredníctvom riadka zmluvy.
+Cenníky projektu sa používajú na ocenenie časových, materiálových a výdavkových transakcií projektu. Ak má zmluva jeden alebo viac projektových cenníkov, tieto cenníky sa používajú na stanovenie ceny za čas, materiál, odhady výdavkov a skutočné hodnoty v projektoch, ktoré sú spojené so zmluvou prostredníctvom riadku zmluvy.
 
-Ak v projektovej zmluve nie sú uvedené žiadne projektové cenníky, zobrazí sa varovná správa, že neexistujú žiadne projektové cenníky a vaše odhady, skutočná práca na projekte a náklady nebudú oceňované. Za predajné hodnoty sa nebude platiť žiadna cena.
+Ak na projektovej zmluve nie sú uvedené žiadne projektové cenníky, zobrazí sa varovná správa, že neexistujú žiadne projektové cenníky a vaše odhady, skutočná práca na projekte, materiál a zaznamenané náklady nebudú ocenené. Za predajné hodnoty sa nebude platiť žiadna cena.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Priradenie alebo zrušenie priradenia projektového cenníka k projektovej zmluve
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Vytvorenie alebo priradenie konkrétneho cenníka pre odhad projektovej práce a výdavkov
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Vytvorenie alebo priradenie konkrétneho cenníka pre odhad projektovej práce, materiálu a výdavkov
 
 1. Na projektovej zmluve vyberte kartu **Projektové cenníky**.
 2. Vo vedľajšej mriežke vyberte **+ Pridať nový projektový cenník**.
@@ -52,7 +52,7 @@ Ak v projektovej zmluve nie sú uvedené žiadne projektové cenníky, zobrazí 
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Nastavenie automatického predvolenia projektových cenníkov v zmluve
 
-Projektový cenník je možné nastaviť ako predvolený zoznam v projektovej zmluve. Toto nastavenie môže pomôcť zabezpečiť, aby všetky zmluvy vo vašej organizácii vždy začínali štandardným cenníkom pre dané cenové obdobie.
+Projektový cenník je možné nastaviť ako predvolený projektový cenník. Toto nastavenie zaisťuje, že všetky zmluvy vo vašej organizácii vždy začínajú štandardným projektovým cenníkom pre dané cenové obdobie.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Nastavenie predvolenej hodnoty organizácie pre projektové cenníky
 

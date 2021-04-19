@@ -3,17 +3,17 @@ title: Riešenie obstarávacích cien pre odhady a skutočné hodnoty
 description: Táto téma poskytuje informácie o tom, ako vyriešiť obstarávacie ceny pre odhady a skutočné hodnoty.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c2fe2a15d38ab5a1f2a93c6db4ed6b7eb9bbd33d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 13903acc22e765ddc5bc1b87428ef3565f2b0a44
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275692"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877331"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Riešenie obstarávacích cien pre odhady a skutočné hodnoty
 
@@ -25,10 +25,10 @@ Na riešenie obstarávacích cien a cenníka obstarávacích cien pre odhady a s
 
 Riadky s odhadmi pre čas sa týkajú riadkov s podrobnosťami o cenovej ponuke a zmluve pre pridelenie času a zdroja pre projekt.
 
-Po vyriešení cenníka obstarávacích cien systém používa polia **Rola**, **Spoločnosť zaisťujúca zdroje** a **Zdrojová jednotka** na riadku odhadu času, aby sa zhodovali s riadkami cenníka roly v cenníku. Táto zhoda predpokladá, že používate cenové dimenzie dostupné pri zakúpení pre náklady na prácu. Ak ste nakonfigurovali systém tak, aby zodpovedal poliam namiesto, alebo okrem položiek **Rola**, **Spoločnosť zaisťujúca zdroje** a **Zdrojová jednotka**, tak sa na získanie zodpovedajúceho riadka s cenou roly použije iná kombinácia. Ak aplikácia nájde riadok s cenou roly s nákladovou sadzbou pre kombináciu **Rola**, **Spoločnosť zaisťujúca zdroje** a **Zdrojová jednotka**, bude to predvolená nákladová sadzba. Ak sa aplikácia nemôže zhodovať s hodnotami **Rola**, **Spoločnosť zaisťujúca zdroje** a **Zdrojová jednotka**, tak načíta riadky s cenami rolí so zodpovedajúcou rolou, ale s nulovými hodnotami parametra **Zdrojová jednotka**. Keď obsahuje zodpovedajúci záznam o cene roly, bude predvolená nákladová sadzba z tohto záznamu. 
+Po vyriešení cenníka obstarávacích cien systém používa polia **Rola**, **Spoločnosť zaisťujúca zdroje** a **Zdrojová jednotka** na riadku odhadu času, aby sa zhodovali s riadkami cenníka roly v cenníku. Táto zhoda predpokladá, že používate cenové dimenzie dostupné pri zakúpení pre náklady na prácu. Ak ste nakonfigurovali systém tak, aby zodpovedal poliam namiesto, alebo okrem položiek **Rola**, **Spoločnosť zaisťujúca zdroje** a **Zdrojová jednotka**, tak sa na získanie zodpovedajúceho riadka s cenou roly použije iná kombinácia. Ak aplikácia nájde riadok s cenou roly s nákladovou sadzbou pre kombináciu **Rola**, **Spoločnosť zaisťujúca zdroje** a **Zdrojová jednotka**, bude to predvolená nákladová sadzba. Ak sa aplikácia nemôže presne zosúladiť kombináciu hodnôt **Rola**, **Spoločnosť zaisťujúca zdroje** a **Zdrojová jednotka**, načíta riadky cien rolí so zodpovedajúcou hodnotou roly, ale bude mať nulové hodnoty pre položky **Zdrojová jednotka** a **Spoločnosť zaisťujúca zdroje**. Po nájdení cenového záznamu zodpovedajúcej roly s hodnotou ceny zodpovedajúcej roly sa sadzba nákladov predvolene nastaví z tohto záznamu. 
 
 > [!NOTE]
-> Ak nakonfigurujete inú prioritu pre položky **Rola**, **Spoločnosť zaisťujúca zdroje** a **Zdrojová jednotka**, alebo ak máte iné dimenzie, ktoré majú vyššiu prioritu, toto správanie sa zodpovedajúcim spôsobom zmení. Systém načítava záznamy cien rolí s hodnotami, ktoré sa zhodujú s každou z hodnôt dimenzií ceny, v poradí podľa priority s riadkami, ktoré majú nulové hodnoty pre tieto dimenzie prichádzajúce ako posledné.
+> Ak nakonfigurujete inú prioritu pre položky **Rola**, **Spoločnosť zaisťujúca zdroje** a **Zdrojová jednotka**, alebo ak máte iné dimenzie, ktoré majú vyššiu prioritu, toto správanie sa zodpovedajúcim spôsobom zmení. Systém načítava záznamy cien rolí s hodnotami, ktoré sa zhodujú s každou z hodnôt cenových dimenzií v poradí podľa priority, s riadkami, ktoré majú nulové hodnoty pre tie dimenzie, ktoré prichádzajú ako posledné v poradí priority.
 
 ## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Riešenie nákladových sadzieb v riadkoch so skutočnými hodnotami a odhadmi pre náklad
 
@@ -36,5 +36,10 @@ Riadky s odhadmi pre náklad sa týkajú riadkov s podrobnosťami o cenovej ponu
 
 Po vyriešení cenníka nákladov systém použije kombináciu polí **Kategória** a **Jednotka** pre riadok odhadu nákladov, ktorý sa zhoduje s riadkami **Cena kategórie** vo vyriešenom cenníku. Ak systém nájde riadok s cenou kategórie, ktorá má nákladovú sadzbu pre kombináciu polí **Kategória** a **Jednotka**, nákladová sadzba bude predvolená. Ak systém nedokáže zosúladiť hodnoty **Kategória** a **Jednotka**, alebo ak je schopný nájsť zodpovedajúci riadok s cenou kategórie, ale metóda oceňovania nie je **Cena za jednotku**, nákladová sadzba je predvolene nastavená na nulu (0).
 
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Riešenie nákladových sadzieb v riadkoch skutočných a odhadovaných hodnôt pre materiál
+
+Odhadované riadky pre materiál sa týkajú detailov cenovej ponuky a riadka zmluvy pre materiály a odhadované riadky materiálu v projekte.
+
+Po vyriešení cenníka nákladových cien systém použije kombináciu polí **Produkt** a **Jednotka** na riadku odhadu pre odhad materiálu, na spárovanie odhadu materiálu s riadkami **Položky v cenníku** vo vyriešenom cenníku. Ak systém nájde riadok ceny produktu, ktorý má nákladovú sadzbu pre kombináciu polí **Produkt** a **Jednotka**, nákladová sadzba sa nastaví na predvolenú hodnotu. Ak sa systém nedokáže zosúladiť hodnoty **Produkt** a **Jednotka**, jednotkové náklady sa predvolene nastavia na nulu. Toto predvolené nastavenie nastane aj v prípade, že existuje zodpovedajúci riadok položky v cenníku, ale metóda určovania cien je založená na štandardných nákladoch alebo aktuálnych nákladoch, ktoré nie sú definované v produkte.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

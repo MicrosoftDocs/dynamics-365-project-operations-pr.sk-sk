@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273442"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858267"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Import odhadov pre projekt do riadka cenovej ponuky založenej na projekte – čiastočné
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Import odhadov pre projekt do riadka cenovej ponuky založenej na projekte 
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Vzťahuje sa na:** Čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 Ak je projekt vytvorený počas štádia predpredaja, môžete zvoliť importovanie finančného odhadu z projektu do riadka ponuky cenovej založenej na projekte.
 
@@ -30,7 +30,7 @@ Ak je projekt vytvorený počas štádia predpredaja, môžete zvoliť importova
   - **Rola** 
   - **Projektová úloha**
 
-Na základe vášho výberu sa skopíruje odhad z projektu pre všetky triedy transakcií zahrnutých v tomto riadku cenovej ponuky. Ak chcete skontrolovať, ktoré triedy transakcií sú zahrnuté, vyberte kartu **Všeobecné** na riadku cenovej ponuky založenej na projekte a skontrolujte hodnoty pre položky **Zahrnúť čas**, **Zahrnúť výdavky** a **Zahrnúť poplatky**.  Ak chcete skontrolovať, ktoré úlohy sú zahrnuté, vyberte kartu **Fakturovateľné úlohy** v riadku cenovej ponuky.
+Na základe vášho výberu sa skopíruje odhad z projektu pre všetky triedy transakcií zahrnutých v tomto riadku cenovej ponuky. Ak chcete skontrolovať, ktoré triedy transakcií sú zahrnuté, vyberte kartu **Všeobecné** na riadku cenovej ponuky založenej na projekte a skontrolujte hodnoty pre **Zahrnúť čas**, **Zahrnúť výdavky**, **Zahrnúť materiály** a **Zahrnúť poplatky**.  Ak chcete skontrolovať, ktoré úlohy sú zahrnuté, vyberte kartu **Fakturovateľné úlohy** v riadku cenovej ponuky.
 
 V závislosti od priradených úloh a zahrnutých tried transakcií sa odhady pre tieto kombinácie úloh a tried transakcií importujú do riadka cenovej ponuky.
 

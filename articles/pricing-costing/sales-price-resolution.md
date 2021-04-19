@@ -3,17 +3,17 @@ title: Riešenie predajných cien pre odhady a skutočné hodnoty
 description: Táto téma poskytuje informácie o tom, ako vyriešiť predajné sadzby pre odhady a skutočnosti.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274972"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877464"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Riešenie predajných cien pre odhady a skutočné hodnoty
 
@@ -54,6 +54,17 @@ Po vyriešení cenníka predaja systém dokončí nasledujúce kroky a predvolí
     | &nbsp; | Prirážka nad rámec nákladov | Uplatnením prirážky definovanej v riadku ceny kategórie na sadzbu jednotkových nákladov súvisiacej skutočnej ceny |
 
 4. Ak systém nedokáže priradiť hodnoty polí **Kategória** a **Jednotka**, sadzba predaja je predvolene nastavená na nulu (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Riešenie predajných sadzieb v riadkoch skutočných a odhadovaných hodnôt pre materiál
+
+V Project Operations sa odhadované riadky pre materiál používajú na zaznamenanie detailov riadka cenovej ponuky a riadka zmluvy pre materiály a odhadované riadky materiálu v projekte.
+
+Po vyriešení cenníka predaja systém dokončí nasledujúce kroky a predvolí fakturačnú predajnú jednotkovú sadzbu.
+
+1. Systém používa kombináciu polí **Produkt** a **Jednotka** na riadku odhadu pre materiál na spárovanie s riadkami položiek v cenníku v cenníku, ktorý boli vyriešený.
+2. Ak systém nájde riadok položky v cenníku, ktorý má predajnú sadzbu pre kombináciu polí **Produkt** a **Jednotka** a metóda určovania cien je **Čiastka v mene**, použije sa predajná cena uvedená v riadku cenníka.
+3. Ak hodnoty polí **Produkt** a **Jednotka** nesúhlasia, predajná sadzba sa predvolene nastaví na nulu.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

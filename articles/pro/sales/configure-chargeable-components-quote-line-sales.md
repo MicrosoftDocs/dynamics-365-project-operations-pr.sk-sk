@@ -1,23 +1,23 @@
 ---
-title: Konfigurácia fakturovateľných súčastí riadka cenovej ponuky – čiastočné
+title: Nakonfigurujte účtovateľné zložky riadka cenovej ponuky
 description: Táto téma poskytuje informácie o nastavení účtovateľných a neúčtovateľných zložiek v riadku cenovej ponuky založenej na projekte.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273892"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858312"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfigurácia fakturovateľných súčastí riadka cenovej ponuky – čiastočné
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfigurácia fakturovateľných súčastí riadka cenovej ponuky 
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Vzťahuje sa na:** Čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 Riadok cenovej ponuky na základe projektu má koncept *zahrnutej* zložky a *účtovateľnej* zložky.
 
@@ -42,7 +42,7 @@ Podskupinu zahrnutých zložiek možno označiť ako účtovateľnú pomocou po�
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Aktualizácia úlohy projektu, ktorá má byť účtovateľná alebo neúčtovateľná
 
-Projektová úloha môže byť účtovateľná alebo neúčtovateľná v kontexte špecifického riadku cenovej ponuky na základe projektu, čo umožňuje nasledujúce nastavenie:
+Projektová úloha môže byť účtovateľná alebo neúčtovateľná v kontexte špecifického riadku cenovej ponuky na základe projektu, čo umožňuje nasledujúce nastavenie.
 
 Ak riadok cenovej ponuky založený na projekte obsahuje **Čas** a úlohu **T1**, úloha je priradená k riadku cenovej ponuky ako účtovateľná. Ak existuje druhý riadok cenovej ponuky, ktorý obsahuje **Výdavky**, môžete úlohu **T1** v riadku cenovej ponuky priradiť ako neúčtovateľnú. Výsledkom je, že všetok čas zaznamenaný pri úlohe je účtovateľný a všetky výdavky zaznamenané pre úlohu nie sú neúčtovateľné.
 
@@ -61,22 +61,575 @@ Kategória transakcie môže byť účtovateľná alebo neúčtovateľná na kon
 Typ fakturácie transakcie je možné nakonfigurovať na karte **Fakturovateľné kategórie** riadku cenovej ponuky aktualizáciou poľa **Typ fakturácie** na vedľajšej mriežke **Fakturovateľné kategórie**.
 
 ### <a name="resolve-chargeability"></a>Vyriešenie účtovateľnosti
-Odhad alebo skutočná hodnota vytvorená pre čas sa bude považovať za účtovateľnú, iba ak je **Čas** zahrnutý v riadku cenovej ponuky, a ak sú kategórie **Úloha** a **Rola** nakonfigurované ako účtovateľné v riadku cenovej ponuky.
+Odhad alebo skutočná hodnota vytvorené pre čas sa budú považovať za účtovateľné iba v nasledujúcich prípadoch:
 
-Odhad alebo skutočná hodnota vytvorená pre výdavok sa bude považovať za účtovateľnú, iba ak je **Výdavok** zahrnutý v riadku cenovej ponuky, a ak sú kategórie **Úloha** a **Transakcia** nakonfigurované ako účtovateľné v riadku cenovej ponuky.
+   - **Čas** je uvedený na riadku cenovej ponuky.
+   - **Rola** je nakonfigurovaná ako účtovateľná na riadku cenovej ponuky.
+   - **Zahrnuté úlohy** sú nastavené na možnosť **Vybrané úlohy** na riadku cenovej ponuky. 
 
-| Zahrnie čas | Zahrnie výdavok | Zahrnuté úlohy | Rola | Kategória | Úloha | Fakturácia |
-| --- | --- | --- | --- | --- | --- | --- |
-| Áno | Áno | Celý projekt | Účtovateľné | Účtovateľné | Nie je možné nastaviť | Fakturácia skutočnej hodnoty času: Účtovateľné </br>Typ fakturácie skutočnej hodnoty výdavku: Účtovateľné |
-| Áno | Áno | Iba vybraté úlohy | Účtovateľné | Účtovateľné | Účtovateľné | Fakturácia skutočnej hodnoty času: Účtovateľné</br>Typ fakturácie skutočnej hodnoty výdavku: Účtovateľné |
-| Áno | Áno | Iba vybraté úlohy | Neúčtovateľné | Účtovateľné | Účtovateľné | Fakturácia skutočnej hodnoty času: Neúčtovateľné</br>Typ fakturácie skutočnej hodnoty výdavku: Účtovateľné |
-| Áno | Áno | Iba vybraté úlohy | Účtovateľné | Účtovateľné | Neúčtovateľné | Fakturácia skutočnej hodnoty času: Neúčtovateľné</br> Typ fakturácie skutočnej hodnoty výdavku: Neúčtovateľné |
-| Áno | Áno | Iba vybraté úlohy | Neúčtovateľné | Účtovateľné | Neúčtovateľné | Fakturácia skutočnej hodnoty času: Neúčtovateľné</br> Typ fakturácie skutočnej hodnoty výdavku: Neúčtovateľné |
-| Áno | Áno | Iba vybraté úlohy | Neúčtovateľné | Neúčtovateľné | Účtovateľné | Fakturácia skutočnej hodnoty času: Neúčtovateľné</br> Typ fakturácie skutočnej hodnoty výdavku: Neúčtovateľné |
-| No | Áno | Celý projekt | Nie je možné nastaviť | Účtovateľné | Nie je možné nastaviť | Fakturácia skutočnej hodnoty času: Nedostupné </br>Typ fakturácie skutočnej hodnoty výdavku: Účtovateľné |
-| No | Áno | Celý projekt | Nie je možné nastaviť | Neúčtovateľné | Nie je možné nastaviť | Fakturácia skutočnej hodnoty času: Nedostupné </br>Typ fakturácie skutočnej hodnoty výdavku: Neúčtovateľné |
-| Áno | No | Celý projekt | Účtovateľné | Nie je možné nastaviť | Nie je možné nastaviť | Fakturácia skutočnej hodnoty času: Účtovateľné</br>Typ fakturácie skutočnej hodnoty výdavku: Nedostupné |
-| Áno | No | Celý projekt | Neúčtovateľné | Nie je možné nastaviť | Nie je možné nastaviť | Fakturácia skutočnej hodnoty času: Neúčtovateľné </br>Typ fakturácie skutočnej hodnoty výdavku: Nedostupné |
+Ak sú tieto tri veci pravdivé, **Úloha** je tiež nakonfigurovaná ako účtovateľná. 
+
+Odhad alebo skutočná hodnota vytvorené pre výdavky sa považujú za účtovateľné iba v nasledujúcich prípadoch: 
+
+   - **Výdavok** je uvedený na riadku cenovej ponuky.
+   - **Kategória transakcie** je nakonfigurovaná ako účtovateľná na riadku cenovej ponuky.
+   - **Zahrnuté úlohy** sú nastavené na možnosť **Vybrané úlohy** na riadku cenovej ponuky.
+
+Ak sú tieto tri veci pravdivé, **Úloha** je tiež nakonfigurovaná ako účtovateľná. 
+
+Odhad alebo skutočná hodnota vytvorené pre materiál sa budú považovať za účtovateľné iba v nasledujúcich prípadoch:
+
+   - **Materiál** je uvedený na riadku cenovej ponuky.
+   - **Zahrnuté úlohy** sú nastavené na možnosť **Vybrané úlohy** na riadku cenovej ponuky.
+
+Ak sú tieto dve veci pravdivé, **Úloha** by mala byť tiež nakonfigurovaná ako účtovateľná. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Zahrnie čas</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Zahrnie výdavok</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Zahŕňa materiály</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Zahrnuté úlohy</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Rola</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategória</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Úloha</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Dopad účtovateľnosti</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celý projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: Účtovateľné </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku: Účtovateľné </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: Účtovateľné </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Iba vybraté úlohy </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: Účtovateľné </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku: Účtovateľné </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: Účtovateľné </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Iba vybraté úlohy </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku: Účtovateľné </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: Účtovateľné </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Iba vybraté úlohy </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Iba vybraté úlohy </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Iba vybraté úlohy </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: Účtovateľné </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celý projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Účtovateľné</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: <strong>Nedostupné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku: Účtovateľné </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: Účtovateľné </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celý projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: <strong>Nedostupné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: Účtovateľné </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celý projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: Účtovateľné </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku:<strong> Nedostupné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: Účtovateľné </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celý projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku:<strong> Nedostupné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: Účtovateľné </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celý projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Účtovateľné </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: Účtovateľné </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku: Účtovateľné </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: <strong>Nedostupné</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Áno </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celý projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Neúčtovateľné</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nedá sa nastaviť </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturácia skutočnej hodnoty času: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty výdavku: <strong>Neúčtovateľné</strong>
+                </p>
+                <p>
+Typ fakturácie skutočnej hodnoty materiálu: <strong>Nedostupné</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: Konfigurácia účtovníctva pre fakturovateľné projekty
 description: Táto téma poskytuje informácie o možnostiach účtovníctva pre fakturovateľné projekty.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287662"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858672"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurácia účtovníctva pre fakturovateľné projekty
 
@@ -58,13 +58,25 @@ Vykonaním nasledujúcich krokov vytvoríte nový profil nákladov a výnosov pr
 
          - **Zostatok**: Pri zverejňovaní integračného denníka Project Operations sa náklady nákladovej transakcie zaúčtujú na typ účtu Účtovná kniha *WIP – hodnota nákladov* podľa definície na karte **Náklady** na stránke **Nastavenia zverejňovania v hlavnej knihe** a pripísaná na účet s odchýlkou v zázname v účtovnom denníku. Predvolené účty s odchýlkou pre výdavky sú definované v časti **Projektové riadenie a účtovníctvo** > **Nastaviť** \> **Zaúčtovanie** \> **Predvolený účet s odchýlkami pre výdavky**. Účtovník bude pomocou funkcie **Náklady na príspevok** pravidelne prevádzať tieto náklady z účtu zostatku na účet ziskov a strát.
         - **Zisk a strata**: Pri zverejňovaní integračného denníka Project Operations sa náklady nákladovej transakcie zaúčtujú na typ účtu Účtovná kniha *Náklady* podľa definície na karte **Náklady** na stránke **Nastavenia zverejňovania v hlavnej knihe** a pripísaná na účet s odchýlkou v zázname v účtovnom denníku. Predvolené účty s odchýlkou pre výdavky sú definované v časti **Projektové riadenie a účtovníctvo** \> **Nastaviť** \> **Zaúčtovanie** \> **Predvolený účet s odchýlkami pre výdavky**.
+      
+    - **Zaúčtovať náklady – položka**:
+
+         - **Zostatok**: Pri zaúčtovaní denníka integrácie Project Operations sa náklady na transakciu položky zaúčtujú na ťarchu účtu účtovnej knihy typu *WIP – nákladová hodnota – položka* ako je definované na karte **Náklady** na stránke **Nastavenie účtovania v účtovnej knihe** a pripíšu sa nasledovným spôsobom:
+    
+              - Pre použitie typu dokumentu: účet **Náklady – položka** v **Nastavenie účtovania v účtovnej knihe**.  
+              - Pre nákup typu dokumentu: **Účet integrácie obstarávania** v **Parametre projektového riadenia a účtovníctva**.
+           Účtovník bude pomocou funkcie **Náklady na príspevok** pravidelne prevádzať tieto náklady z účtu zostatku na účet ziskov a strát.
+        - **Zisky a straty**: Pri zaúčtovaní denníka integrácie Project Operations sa náklady na transakciu položky zaúčtujú na ťarchu účtu účtovnej knihy typu *Náklady*, ako je definované na karte **Náklady** na stránke **Nastavenie účtovania v účtovnej knihe** a pripíšu sa nasledovným spôsobom:
+         
+             - Pre použitie typu dokumentu: účet **Náklady – položka** v **Nastavenie účtovania v účtovnej knihe**.  
+             - Pre nákup typu dokumentu: **Účet integrácie obstarávania** v **Parametre projektového riadenia a účtovníctva**.
        
     - **Fakturácia na účet**:
 
         - **Zostatok**: Pri zverejňovaní návrhov projektových faktúr sa transakcia na účet (medzník fakturácie) pripíše na typ účtu Účtovná kniha *WIP fakturované – na účet* podľa definície na karte **Príjmy** na stránke **Nastavenia zverejňovania v hlavnej knihe** a zaúčtovaná na účet zostatku zákazníka.
          - **Zisk a strata**: Pri zverejňovaní návrhov projektových faktúr sa transakcia na účet (medzník fakturácie) pripíše na typ účtu Účtovná kniha *Fakturované výnosy – na účet* podľa definície na karte **Príjmy** na stránke **Nastavenia zverejňovania v hlavnej knihe** a zaúčtovaná na účet zostatku zákazníka. Účty zostatkov zákazníkov sú definované v časti **Pohľadávky** \> **Nastaviť** \> **Profily zverejňovania zákazníka**.
 
-   Keď definujete profily zverejňovania pre spôsoby fakturácie času a materiálu, máte možnosť nazhromaždiť výnosy podľa typu transakcie (hodiny, výdavok a poplatok). Ak je možnosť **Prírastok** nastavená na **Áno**, nevyfakturované predajné transakcie v integračnom denníku Project Operations sa zaznamenajú do všeobecnej hlavnej knihy. Hodnota predaja sa zaúčtuje na **WIP – účet hodnoty predaja** a pripíšu na účet **Prírastky – hodnota predaja**, ktorý bol nastavený na stránke **Nastavenie zverejňovania v hlavnej knihe** na karte **Výnosy**. 
+   Keď definujete profily účtovania pre spôsoby fakturácie času a materiálu, máte možnosť nazhromaždiť výnosy podľa typu transakcie (hodiny, výdavky, položka a poplatok). Ak je možnosť **Prírastok** nastavená na **Áno**, nevyfakturované predajné transakcie v integračnom denníku Project Operations sa zaznamenajú do všeobecnej hlavnej knihy. Hodnota predaja sa zaúčtuje na **WIP – účet hodnoty predaja** a pripíše na účet **Prírastky – hodnota predaja**, ktorý bol nastavený na stránke **Nastavenie zverejňovania v hlavnej knihe** na karte **Výnosy**. 
   
   > [!NOTE]
   > Možnosť **Prírastok** je k dispozícii iba v prípade, že príslušný typ transakcie **Náklady** sa zaúčtuje na účet ziskov a strát.

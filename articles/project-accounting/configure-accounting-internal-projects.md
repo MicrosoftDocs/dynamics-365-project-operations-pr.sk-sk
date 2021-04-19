@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 65d05e3a6321dc32aee55c28b3eaa4bd0bae2f86
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287617"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857997"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Konfigurácia účtovníctva pre interné projekty
 
@@ -28,6 +28,7 @@ Akýkoľvek projekt, ktorý nie je spojený so zmluvou v rámci Dynamics 365 Pro
 
 - Časové transakcie sa zverejňujú zaúčtovaním účtu **Náklady** a pripísaním na účet **Alokácia miezd**.
 - Výdavkové transakcie sa zverejňujú zaúčtovaním účtu **Náklady** a pripísaním na **Účet s odchýlkami pre výdavky**.
+- Transakcie položiek sa účtujú na ťarchu účtu **Náklady** a pripisujú na účet **Náklady – položka**.
 
 Po pridaní transakcií do projektu, ak je projekt spojený so zmluvou o projekte, systém vráti všetky akumulované transakcie a vytvorí nové fakturovateľné transakcie. Fakturovateľné transakcie sa riadia účtovnými pravidlami definovanými v príslušnom profile nákladov a výnosov projektu.
 

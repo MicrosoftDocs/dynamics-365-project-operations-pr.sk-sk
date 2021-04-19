@@ -1,6 +1,6 @@
 ---
-title: Opravné projektové faktúry
-description: Táto téma poskytuje informácie o tom, ako vytvárať a potvrdzovať opravné projektové faktúry v Project Operations.
+title: Vytvorenie opravných projektových faktúr
+description: Táto téma poskytuje informácie o opravných faktúrach v Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 03/29/2021
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867060"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788896"
 ---
-# <a name="corrective-project-based-invoices"></a>Opravné projektové faktúry
+# <a name="create-corrective-project-based-invoices"></a>Vytvorenie opravných projektových faktúr 
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
@@ -24,18 +24,19 @@ Potvrdenú projektovú faktúru je možné podľa dohody so zákazníkom a proje
 Ak chcete vykonať úpravy potvrdenej faktúry, otvorte potvrdenú faktúru a vyberte **Opraviť túto faktúru**. 
 
 > [!NOTE]
-> Tento výber nie je k dispozícii, pokiaľ nie je potvrdená projektová faktúra alebo pokiaľ projektové faktúry neobsahujú zálohy alebo zadržané prostriedky alebo porovnanie záloh alebo zadržaných prostriedkov.
+> Tento výber nie je k dispozícii, pokiaľ nie je potvrdená projektová faktúra.
 
-Z potvrdenej faktúry sa vytvorí nový koncept faktúry. Všetky podrobnosti o riadku faktúry z predtým potvrdenej faktúry sa skopírujú do nového konceptu. Ďalej sú uvedené niektoré kľúčové body pre podrobnosti o riadkoch v novej opravenej faktúre, ktorým je potrebné porozumieť:
+Z potvrdenej faktúry sa vytvorí nový koncept faktúry. Všetky podrobnosti o riadku faktúry z predtým potvrdenej faktúry sa skopírujú do nového konceptu. Nasleduje niekoľko kľúčových bodov, ktoré vám pomôžu lepšie porozumieť podrobnostiam riadkov v novej opravenej faktúre:
 
-- Všetky množstvá sa aktualizujú na nulu. Dynamics 365 Project Operations predpokladá, že všetky fakturované položky sú úplne pripísané. V prípade potreby môžete tieto množstvá manuálne aktualizovať, aby odrážali množstvo, ktoré sa fakturuje, a nie množstvo, ktoré sa pripisuje. Na základe zadaného množstva aplikácia vypočíta pripísané množstvo. Táto suma sa odráža v skutočnostiach, ktoré sa vytvárajú pri potvrdení opravenej faktúry. Ak robíte zmeny v sume dane, musíte zadať správnu sumu dane, a nie sumu dane, ktorá sa pripisuje.
+- Všetky množstvá sa aktualizujú na nulu. Toto predpokladá, že všetky fakturované položky sú úplne pripísané. V prípade potreby môžete tieto množstvá manuálne aktualizovať, aby odrážali množstvo, ktoré sa fakturuje, a nie množstvo, ktoré sa pripisuje. Na základe zadaného množstva aplikácia vypočíta pripísané množstvo. Táto suma sa odráža v skutočnostiach, ktoré sa vytvárajú pri potvrdení opravenej faktúry. Ak robíte zmeny v sume dane, musíte zadať správnu sumu dane, a nie sumu dane, ktorá sa pripisuje.
 - Opravy medzníkov sa vždy spracúvajú ako úplné kredity.
-
+- Ak bola zákazníkovi fakturovaná nesprávna suma, sumy preddavku alebo zálohy je možné opraviť.
+- Odsúhlasenia preddavkov a záloh je možné opraviť, ak bola použitá nesprávna suma na odsúhlasenie oproti nákladom na predtým potvrdenej faktúre.
 
 > [!IMPORTANT]
-> Pre podrobnosti riadka faktúry, ktoré sú opravami ďalších už fakturovaných poplatkov, je pole **Oprava** nastavené na **Áno**. Pre faktúry, ktoré majú opravené podrobnosti riadka faktúry, je pole **Obsahuje opravy** nastavené na **Áno**.
+> Detaily riadka faktúry, ktoré sú opravami ďalších už fakturovaných poplatkov, majú pole **Oprava** nastavené na **Áno**. Faktúry, ktoré majú opravené podrobnosti o riadku faktúry, majú pole s názvom **Obsahuje opravy**, ktoré je tiež nastavené na **Áno**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Skutočné hodnoty vytvorené po potvrdení opravnej faktúry
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Skutočné hodnoty vytvorené po potvrdení opravnej faktúry
 
 V nasledujúcej tabuľke sú uvedené skutočné hodnoty, ktoré sa vytvoria pri potvrdení opravnej faktúry.
 
@@ -50,6 +51,72 @@ V nasledujúcej tabuľke sú uvedené skutočné hodnoty, ktoré sa vytvoria pri
             <td width="808" valign="top">
                 <p>
                     <strong>Skutočné hodnoty vytvorené po potvrdení</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Potvrdenie opravy fakturovaného preddavku alebo zálohy.<strong></strong>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nevyfakturovaný obrat predaja preddavku alebo zálohy, ktorý bol vytvorený na odsúhlasenie. Táto suma je kladná, pretože má zrušiť zápornú hodnotu, ktorá sa vytvorila pri fakturácii preddavku alebo zálohy.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Storno skutočnej hodnoty fakturovaného predaja sa vytvorí pre sumu preddavku alebo zálohy na stornovanie pôvodného fakturovaného predaja.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nový opravený fakturovaný predaj sa vytvorí pre opravenú sumu v riadku opravenej faktúry založenej na preddavku alebo zálohe.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Skutočná hodnota nevyfakturovaného predaja so zápornou sumou v opravenom riadku faktúry založenej na preddavku alebo zálohe, ktorý sa má použiť na odsúhlasenie.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Potvrdenie o oprave predtým odsúhlaseného preddavku alebo zálohy.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nevyfakturovaný obrat predaja preddavku alebo zálohy, ktorý bol vytvorený na odsúhlasenie. Táto suma je kladná a má zrušiť zápornú hodnotu, ktorá sa vytvorila pri predchádzajúcom odsúhlasení.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Skutočná hodnota stornovaného fakturovaného predaja pre sumu na predchádzajúcej faktúre.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nový opravený fakturovaný predaj pre opravenú sumu preddavku, ktorý sa použije v opravenej faktúre.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Skutočná hodnota nevyfakturovaného predaja so zápornou sumou v opravenom zostávajúcom preddavku alebo zálohe, ktorý sa má použiť na odsúhlasenie v ďalších faktúrach.
                 </p>
             </td>
         </tr>
@@ -143,51 +210,6 @@ Nová skutočná hodnota nefakturovaného predaja, ktorá je účtovateľná pre
                 </p>
             </td>
         </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturácia celého kreditu predtým fakturovanej transakcie materiálu.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Fakturované storno predaja pre množstvo a sumu na pôvodnom riadku faktúry s podrobnosťami za materiál.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nová skutočná hodnota nefakturovaného predaja pre množstvo a sumu na pôvodnom riadku faktúry s podrobnosťami za materiál.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturácia čiastočného kreditu pri transakcii materiálu.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Fakturované storno predaja pre množstvo a sumu fakturovanú na pôvodnom riadku faktúry s podrobnosťami za materiál.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nová skutočná hodnota nefakturovaného predaja, ktorá je účtovateľná za množstvo a sumu na upravenom detaile riadku faktúry, jej storno a ekvivalentná skutočná hodnota fakturovaného predaja.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nová skutočná hodnota nefakturovaného predaja, ktorá je účtovateľná pre zostávajúce množstvo a sumu po odpočítaní opravených hodnôt v podrobnostiach o riadku faktúry.
-                </p>
-            </td>
-        </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
@@ -237,7 +259,7 @@ Fakturácia plného kreditu z predtým fakturovaného medzníka.
 Storno vyfakturovaného predaja pre sumu v riadku s podrobnosťami pôvodnej faktúry pre medzník.
                 </p>
                 <p>
-Stav faktúry medzníka sa aktualizuje z <b>Bola uverejnená faktúra pre zákazníka</b> na <b>Pripravené na fakturáciu</b>.
+Stav faktúry medzníka sa aktualizuje z <b>Faktúra pre zákazníka bola zaúčtovaná</b> na <b>Pripravené na fakturáciu</b>.
                 </p>
             </td>
         </tr>
@@ -249,10 +271,9 @@ Fakturácia čiastočného kreditu z predtým fakturovaného medzníka.
             </td>
             <td width="408" valign="top">
                 <p>
-Tento scenár nie je podporovaný.
-                </p>
+Nepodporované </p>
             </td>
-        </tr>       
+        </tr>        
     </tbody>
 </table>
 

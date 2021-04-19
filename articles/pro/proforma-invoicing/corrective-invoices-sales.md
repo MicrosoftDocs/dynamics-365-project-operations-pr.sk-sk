@@ -1,21 +1,21 @@
 ---
-title: Opravené faktúry – čiastočné
-description: Táto téma poskytuje informácie o opravených faktúrach v Project Operations
+title: Opravné projektové faktúry
+description: Táto téma poskytuje informácie o tom, ako vytvárať a potvrdzovať opravné faktúry v Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274252"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866610"
 ---
-# <a name="corrected-invoices---lite"></a>Opravené faktúry – čiastočné
+# <a name="corrective-project-invoices"></a>Opravné projektové faktúry
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -37,9 +37,9 @@ Z potvrdenej faktúry sa vytvorí nový koncept faktúry. Všetky podrobnosti o 
 > [!IMPORTANT]
 > Podrobnosti o riadku faktúry, ktoré sú opravami ďalších už fakturovaných nákladov, majú pole **Oprava** nastavené na **Áno**. Faktúry, ktoré majú opravené podrobnosti o riadku faktúry, majú pole s názvom **Obsahuje opravy**, ktoré je tiež nastavené na **Áno**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Skutočnosti vytvorené po potvrdení opravnej faktúry:
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Skutočné hodnoty vytvorené po potvrdení opravnej faktúry
 
-Ďalej sú uvedené skutočné hodnoty vytvorené aplikáciou pri potvrdení opravy na základe operácií vykonaných v koncepte opravnej faktúry pred potvrdením.
+V nasledujúcej tabuľke sú uvedené skutočné hodnoty, ktoré sa vytvoria pri potvrdení opravnej faktúry.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ Nová skutočná hodnota nefakturovaného predaja, ktorá je účtovateľná pre
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Fakturácia celého kreditu predtým fakturovanej transakcie materiálu.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Fakturované storno predaja pre množstvo a sumu na pôvodnom riadku faktúry s podrobnosťami za materiál.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nová skutočná hodnota nefakturovaného predaja pre množstvo a sumu na pôvodnom riadku faktúry s podrobnosťami za materiál.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturácia čiastočného kreditu pri transakcii materiálu.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Fakturované storno predaja pre množstvo a sumu fakturovanú na pôvodnom riadku faktúry s podrobnosťami za materiál.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nová skutočná hodnota nefakturovaného predaja, ktorá je účtovateľná za množstvo a sumu na upravenom detaile riadku faktúry, jej storno a ekvivalentná skutočná hodnota fakturovaného predaja.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nová skutočná hodnota nefakturovaného predaja, ktorá je účtovateľná pre zostávajúce množstvo a sumu po odpočítaní opravených hodnôt v podrobnostiach o riadku faktúry.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Fakturácia plného kreditu z predtým fakturovanej poplatkovej transakcie.
                 </p>
             </td>
@@ -260,7 +305,7 @@ Fakturácia plného kreditu z predtým fakturovaného medzníka.
 Storno vyfakturovaného predaja pre sumu v riadku s podrobnosťami pôvodnej faktúry pre medzník.
                 </p>
                 <p>
-Medzníková faktúra alebo stav fakturácie v riadku projektovej zmluvy sa aktualizuje na **Pripravené na fakturáciu**.
+Stav faktúry medzníka sa aktualizuje z <b>Bola uverejnená faktúra pre zákazníka</b> na <b>Pripravené na fakturáciu</b>.
                 </p>
             </td>
         </tr>
