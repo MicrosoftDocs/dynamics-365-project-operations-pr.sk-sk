@@ -1,0 +1,30 @@
+---
+title: Integrácia projektovej faktúry
+description: Táto téma poskytuje informácie o integrácii duálneho zápisu Project Operations pre fakturáciu zákazníkom.
+author: sigitac
+ms.date: 04/26/2021
+ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 102a7cdba467a2071119c5b32d2e75e48170c783
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.translationtype: HT
+ms.contentlocale: sk-SK
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955831"
+---
+# <a name="project-invoice-integration"></a><span data-ttu-id="9cf51-103">Integrácia projektovej faktúry</span><span class="sxs-lookup"><span data-stu-id="9cf51-103">Project invoice integration</span></span>
+
+<span data-ttu-id="9cf51-104">Táto téma poskytuje informácie o integrácii duálneho zápisu Project Operations pre fakturáciu zákazníkom.</span><span class="sxs-lookup"><span data-stu-id="9cf51-104">This topic provides information about Project Operations dual-write integration for customer invoicing.</span></span>
+
+<span data-ttu-id="9cf51-105">V rámci Project Operations manažér projektu spravuje nevybavené fakturácie projektu a vytvára proforma faktúru pre zákazníka v Microsoft Dataverse.</span><span class="sxs-lookup"><span data-stu-id="9cf51-105">In Project Operations, the Project manager manages the project billing backlog and creates a proforma invoice for the customer in Microsoft Dataverse.</span></span> <span data-ttu-id="9cf51-106">Na základe tejto proforma faktúry účtovník pohľadávky alebo účtovník projektu vytvorí faktúru obrátenú na zákazníka.</span><span class="sxs-lookup"><span data-stu-id="9cf51-106">Based on this proforma invoice, the Accounts receivable clerk or Project accountant creates a customer-facing invoice.</span></span> <span data-ttu-id="9cf51-107">Integrácia duálneho zápisu zaručuje, že sa synchronizujú podrobnosti proforma faktúry s aplikáciami Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9cf51-107">Dual-write integration ensures that the proforma invoice details are synchronized to Finance and Operations apps.</span></span> <span data-ttu-id="9cf51-108">Po zaúčtovaní faktúry orientovanej na zákazníka systém aktualizuje príslušné skutočnosti projektu v Dataverse s účtovnými podrobnosťami.</span><span class="sxs-lookup"><span data-stu-id="9cf51-108">After the customer-facing invoice is posted, the system updates the relevant project actuals in Dataverse with the accounting detail.</span></span> <span data-ttu-id="9cf51-109">Nasledujúca grafika poskytuje koncepčný prehľad na vysokej úrovni o tejto integrácii.</span><span class="sxs-lookup"><span data-stu-id="9cf51-109">The following graphic provides a high-level conceptual overview of this integration.</span></span>
+
+   ![Integrácia projektovej faktúry](./media/DW5Invoicing.png)
+
+<span data-ttu-id="9cf51-111">Potom, čo projektový manažér potvrdí proforma faktúru v Dataverse, informácie v hlavičke proforma faktúry sa synchronizujú s aplikáciami Finance and Operations využívajúce mapu tabuľky dvojitého zápisu, **Návrh faktúry projektu V2 (faktúry)**.</span><span class="sxs-lookup"><span data-stu-id="9cf51-111">After the Project manager confirms the proforma invoice in Dataverse, the proforma invoice header information synchronizes to Finance and Operations apps using the dual-write table map, **Project invoice proposal V2 (invoices)**.</span></span> <span data-ttu-id="9cf51-112">Toto je jednosmerná integrácia z Dataverse do aplikácií Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9cf51-112">This is a one-way integration from Dataverse to Finance and Operations apps.</span></span> <span data-ttu-id="9cf51-113">Vytváranie alebo mazanie návrhov faktúr projektu priamo v aplikáciách Finance and Operations nie sú podporované.</span><span class="sxs-lookup"><span data-stu-id="9cf51-113">Creating or deleting Project invoice proposals directly in Finance and Operations apps isn't supported.</span></span>
+
+<span data-ttu-id="9cf51-114">Potvrdenie faktúry v Dataverse tiež spúšťa obchodnú logiku na vytváranie záznamov týkajúcich sa fakturácie v entite **Skutočné hodnoty**.</span><span class="sxs-lookup"><span data-stu-id="9cf51-114">Invoice confirmation in Dataverse also triggers the business logic to create billing-related records in the **Actuals** entity.</span></span> <span data-ttu-id="9cf51-115">Tieto záznamy sa synchronizujú s Finance and Operations pomocou mapy tabuľky s dvojitým zápisom, **Skutočné hodnoty integrácie Project Operations (msdyn\_actuals).**</span><span class="sxs-lookup"><span data-stu-id="9cf51-115">These records are synchronized to Finance and Operations using the dual-write table map, **Project Operations integration actuals (msdyn\_actuals).**</span></span> <span data-ttu-id="9cf51-116">Ďalšie informácie nájdete v časti [Odhady a skutočné hodnoty projektu](resource-dual-write-estimates-actuals.md).</span><span class="sxs-lookup"><span data-stu-id="9cf51-116">For more information, see [Project estimates and actuals](resource-dual-write-estimates-actuals.md).</span></span> 
+
+<span data-ttu-id="9cf51-117">Riadky návrhov faktúr za projekt sú vytvárané periodickým procesom **Postupné importovanie formulára**.</span><span class="sxs-lookup"><span data-stu-id="9cf51-117">Project invoice proposal lines are created by the periodic process, **Import form staging**.</span></span> <span data-ttu-id="9cf51-118">Tento proces je založený na podrobných údajoch o fakturovaných predajoch v tabuľke **Skutočné štádiá**.</span><span class="sxs-lookup"><span data-stu-id="9cf51-118">This process is based on the billed sales actuals details in the **Actuals staging** table.</span></span> <span data-ttu-id="9cf51-119">Viac informácií nájdete v časti [Správa návrhov faktúr projektu](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals).</span><span class="sxs-lookup"><span data-stu-id="9cf51-119">For more information, see [Manage project invoice proposals](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals).</span></span> 
