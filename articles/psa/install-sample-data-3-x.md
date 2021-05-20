@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275107"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950598"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Inštalácia vzorových údajov pre aplikáciu Project Service
 
@@ -149,7 +149,7 @@ Balík ukážkových údajov vyžaduje šiestich používateľov. Aby sa balík 
 
 5. Kalendár prvého používateľa (v značke **userstocreateandconfigure**) sa používa na vyplnenie pracovnej doby pre všetky rezervovateľné zdroje pri importe ukážkových údajov. Prejdite na **Nastavenia** > **Zabezpečenie** > **Používatelia**, nájdite svojho používateľa „Spencer Low“ a otvorte možnosť „Pracovná doba“. Upravte existujúcu pracovnú dobu výberom možnosti **Celý opakujúci sa týždenný plán od začiatku do konca**. Zabezpečte **nastavenie pracovnej doby od 8.00 do 17.00 (9 hodín), pondelok až piatok, a časové pásmo nastavené na tichomorský čas (USA & Kanada)**. Je to potrebné na zabezpečenie toho, aby sa tabuľa projektu a plánovania zobrazila podľa očakávania.
 
-**Odporúčanie:** Zvážte teraz vytvorenie zálohy vašej organizácie pre prípad, že by ste sa potrebovali vrátiť na začiatok, ak sa niečo pokazí počas inštalácie vzorových údajov. Ďalšie informácie nájdete v téme [Zálohovanie a obnovenie inštancií](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Odporúčanie:** Zvážte teraz vytvorenie zálohy vašej organizácie pre prípad, že by ste sa potrebovali vrátiť na začiatok, ak sa niečo pokazí počas inštalácie vzorových údajov. Ďalšie informácie nájdete v téme [Zálohovanie a obnovenie inštancií](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Spusťte Package Deployer
 

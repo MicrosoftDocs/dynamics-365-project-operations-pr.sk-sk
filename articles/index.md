@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 108fc9b25b112e7af69147a151929fb2c2d887a6
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275917"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950689"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -30,17 +30,17 @@ Microsoft Dynamics 365 Project Operations spája tímy pre predaj, zdroje, sprá
 
 -   **Lídri získavajú obchodné poznatky** na zvýšenie viditeľnosti vo všetkých tímoch, dátach a procesoch, plus možnosti umelej inteligencie pre lepšie a rýchlejšie obchodné rozhodnutia.
 -   **Predaj je povolený** na získanie viacerých obchodov a urýchlenie predajného cyklu pomocou rýchlych a presných cenových ponúk, flexibilných cien a plynulých prechodov od odhadu k vykonaniu.
--   **Zdroje sú nastavené na optimalizáciu** používania zdrojov zosúladením správnych ľudí so správnymi zručnosťami so správnymi projektmi. Tým sa zvyšuje kvalita a pomáha sa udržať si najlepších pracovníkov.
+-   **Zdroje sú nastavené na optimalizáciu** používania zdrojov zosúladením správnych ľudí so správnymi zručnosťami so správnymi projektmi. Toto zosúladenie zlepšuje kvalitu a pomáha udržiavať subjekty s najlepšou výkonnosťou.
 -   **Projektoví manažéri môžu akcelerovať** dodávka projektu s najmodernejším zabudovaným riadením projektu, ktoré využíva známe a ľahko použiteľné možnosti programu Microsoft Project.
 -   **Členovia tímu môžu zvýšiť produktivitu**, spoluprácu a viditeľnosť s integráciou do Microsoft Teams a odoslať odkiaľkoľvek čas a výdavky.
 -   **Financie môžu zjednodušiť projektové účtovníctvo** s riadením sledovania času a výdavkov, projektovými nákladmi, rozpočtovaním, fakturáciou, uznávaním výnosov, dodržiavaním predpisov a viditeľnosťou v kľúčových metrikách zdravia podniku.
 
-Project Operations je sám o sebe výkonný, ale môžu ho rozšíriť naši zákazníci, ktorí od Dynamics 365 požadujú ďalšie možnosti. Patria sem marketing, ľudské zdroje, služby pre zákazníkov a ďalšie. Či už chcete ďalšie funkcie inej aplikácie Dynamics 365, alebo chcete pridať vlastnú aplikáciu vytvorenú pomocou Power Apps, všetko funguje spoločne a funguje tak, ako očakávate, pretože zdieľajú spoločný základ bezpečného, súkromného a kompatibilného cloudového riešenia.
+Project Operations je sám o sebe výkonný nástroj, ale môžu ho rozšíriť naši zákazníci, ktorí od Dynamics 365 požadujú viac funkcií. Medzi tieto funkcie patrí Marketing, Human Resources, Customer Service a ďalšie. Či už chcete pridanú funkcionalitu inej aplikácie Dynamics 365, alebo chcete pridať vlastnú aplikáciu zabudovanú do Power Apps, všetko funguje spoločne a funguje tak, ako očakávate, pretože zdieľajú spoločný základ bezpečného, súkromného a kompatibilného cloudového riešenia.
 
 Ďalšie informácie:
 
 - [Prehľad Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Prehľad 1. vlny vydávania Dynamics 365 Project Operations v roku 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Prehľad 1. vlny vydávania Dynamics 365 Project Operations v roku 2020](/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

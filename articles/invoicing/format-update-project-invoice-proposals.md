@@ -3,17 +3,17 @@ title: Správa návrhov projektových faktúr
 description: Táto téma poskytuje podrobnosti o spracovaní faktúr orientovaných na zákazníka v Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275872"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950733"
 ---
 # <a name="manage-project-invoice-proposals"></a>Správa návrhov projektových faktúr
 
@@ -80,7 +80,8 @@ Hodnoty **Skupina dane z predaja** a **Skupina dane z predaja položky** sú pre
     - **Zákazník** vždy nastaví predvolenú skupinu fakturácie dane z predaja zo zákazníka.
     - **Vyhľadávanie** bude prehľadávať všetky entity z tohto zoznamu a vyberie prvú dostupnú hodnotu. Hľadanie sa začína entitou **Projekt**, potom entitou **Projektová zmluva** a potom entitou **Zákazník**.
 
-- **Skupina s daňou z obratu položky s pevnou cenou** sa používa na predvolenú hodnotu pre pole **Skupina dane z predaja položky**.
+- **Skupina s daňou z obratu položky s pevnou cenou** sa používa ako predvolená hodnota v poli **Skupina dane z obratu tovaru** pre míľnik fakturácie. Účtovník môže túto hodnotu skontrolovať a upraviť na stránke **Transakcie na účte**. Systém používa hodnotu z transakcie na účte pri vytváraní riadku návrhu faktúry projektu.
+ 
 
 ### <a name="financial-dimensions"></a>Finančné dimenzie
 
@@ -132,7 +133,7 @@ Stránka **Naformátovať návrhy faktúr** umožňuje zobrazenie vlastných zos
 
 Správa tlače používa na tlač rôzne súbory správ, špecifikáciu cieľov a prispôsobenie textu päty pre faktúru. Správu tlače je možné nastaviť na úrovni modulu, tieto nastavenia však možno prepísať pre konkrétneho zákazníka, zmluvu alebo návrh faktúry. Pre prístup k tejto funkcii na stránke **Návrh projektovej faktúry** vyberte možnosť **Tlačiť** > **Správa tlače**.
 
-Nastavenie správy tlače sa zobrazuje ako stromové zobrazenie, kde každá úroveň uzla zobrazuje dostupné dokumenty, ktoré je potrebné upraviť. Môžete priradiť vlastné výtlačky na úrovni modulu, zákazníka, zmluvy alebo návrhu faktúry. Ak chcete upraviť výtlačok pôvodného dokumentu, rozbaľte požadovaný uzol a vyberte **Pôvodná položka**. V poli **Formát zostavy** vyberte formát zostavy, ktorý sa má použiť na tlač. Môžete použiť vlastné formáty zostáv pomocou možnosti [Rámec riadenia obchodných dokumentov](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Nastavenie správy tlače sa zobrazuje ako stromové zobrazenie, kde každá úroveň uzla zobrazuje dostupné dokumenty, ktoré je potrebné upraviť. Môžete priradiť vlastné výtlačky na úrovni modulu, zákazníka, zmluvy alebo návrhu faktúry. Ak chcete upraviť výtlačok pôvodného dokumentu, rozbaľte požadovaný uzol a vyberte **Pôvodná položka**. V poli **Formát zostavy** vyberte formát zostavy, ktorý sa má použiť na tlač. Môžete použiť vlastné formáty zostáv pomocou možnosti [Rámec riadenia obchodných dokumentov](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Zaúčtovanie návrhov faktúr
 

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f7dfabd068e180c7122ede0f79aaebfe220250a1
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272632"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949563"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>Riadky príležitostí založených na produkte – čiastočné
 
@@ -22,7 +22,7 @@ _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Riadky príležitostí založených na projekte sú riadkové položky v časti Príležitosť. Tieto odlišné riadkové položky sú uvedené na prípadnej faktúre, ktorá je poskytnutá zákazníkovi. Faktúra neobsahuje žiadne ďalšie služby. Súvisiace výdavky a spotreba sa nesledujú pri úlohách žiadnych súvisiacich projektov.
 
-Riadky založené na produktoch môžu byť katalógové položky alebo produkty určené na zápis. Väčšina funkcií riadkov založených na produkte príležitosti sleduje funkcie poskytované aplikáciou Dynamics 365 Sales. Ďalšie informácie o riadkoch príležitostí založených na projekte nájdete v časti [Pridávanie produktov k príležitosti](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).
+Riadky založené na produktoch môžu byť katalógové položky alebo produkty určené na zápis. Väčšina funkcií riadkov založených na produkte príležitosti sleduje funkcie poskytované aplikáciou Dynamics 365 Sales. Ďalšie informácie o riadkoch príležitostí založených na projekte nájdete v časti [Pridávanie produktov k príležitosti](/dynamics365/sales-enterprise/add-products-opportunity).
 
 **Rozpočet zákazníka** je koncept, ktorý je špecifický pre riadky príležitostí založené na projektoch. Pole **Rozpočet zákazníka** sleduje sumu, ktorú je zákazník ochotný za položku zaplatiť.
 

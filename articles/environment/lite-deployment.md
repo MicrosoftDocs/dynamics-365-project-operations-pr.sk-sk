@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290108"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950283"
 ---
 # <a name="deploy-project-operations---lite"></a>Nasadenie aplikácie Project Operations – čiastočné
 
@@ -34,14 +34,14 @@ Project Operations podporuje viac modelov nasadenia. Najlepší model nasadenia 
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Inštalácia Project Operations do nového prostredia CDS
 
-1. Ako [Globálny správca alebo správca Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) s licenciou na Project Operations vytvorte nové prostredie CDS v [Centrum spravovania PowerPlatform](https://admin.powerplatform.com). Uistite sa, že sú povolené **Databáza CDS** a **Aplikácie Dynamics 365** . Ďalšie informácie nájdete v časti [Vytváranie a správa prostredí v centre spravovania Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Ako [Globálny správca alebo správca Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) s licenciou na Project Operations vytvorte nové prostredie CDS v [Centrum spravovania PowerPlatform](https://admin.powerplatform.com). Uistite sa, že sú povolené **Databáza CDS** a **Aplikácie Dynamics 365** . Ďalšie informácie nájdete v časti [Vytváranie a správa prostredí v centre spravovania Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Vyberte **Microsoft Dynamics 365 Project Operations** zo zoznamu nasadenia aplikácií Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Inštalácia Project Operations do existujúceho prostredia CDS
 
-1. Ako [Globálny správca alebo správca Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) s licenciou Project Operations vyhľadajte prostredie v [Centre spravovania PowerPlatform](https://admin.powerplatform.com), kde chcete nainštalovať Project Operations.
-2. Nainštalujte **Microsoft Dynamics 365 Project Operations** zo zoznamu nasadenia aplikácií Dynamics 365. Ďalšie informácie nájdete v časti [Správa aplikácií Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Ako [Globálny správca alebo správca Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) s licenciou Project Operations vyhľadajte prostredie v [Centre spravovania PowerPlatform](https://admin.powerplatform.com), kde chcete nainštalovať Project Operations.
+2. Nainštalujte **Microsoft Dynamics 365 Project Operations** zo zoznamu nasadenia aplikácií Dynamics 365. Ďalšie informácie nájdete v časti [Správa aplikácií Dynamics 365](/power-platform/admin/manage-apps).
 
 
 

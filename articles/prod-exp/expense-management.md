@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27eede55e01dd1437dfc480741922ed9d617bff
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2db1c2cd34a2b99ac8e0cc88c34bac804bbafdb6
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271867"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949788"
 ---
 # <a name="expense-management-overview"></a>Prehľad správy výdavkov
 
@@ -37,7 +37,7 @@ Správu výdavkov môžete použiť na vytvorenie integrovaného pracovného tok
 
 ### <a name="whats-new-and-in-development"></a>Čo je nové a vo vývoji
 
-Plánované nové funkcie nájdete v časti [Plány pre vydanie Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158).
+Plánované nové funkcie nájdete v časti [Plány pre vydanie Microsoft Dynamics 365](/dynamics365/release-plans/).
 
 #### <a name="expense-report-entry"></a>Zadanie výkazu výdavkov
 

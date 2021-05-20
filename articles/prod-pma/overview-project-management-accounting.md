@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289793"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950508"
 ---
 # <a name="project-management-and-accounting-overview"></a>Prehľad riadenia projektu a účtovníctva
 
@@ -227,7 +227,7 @@ Typ projektu určuje, ktorý fakturačný postup by sa mal použiť. Fakturovať
 Pred vytvorením zákazníckej faktúry pre projekt môžete vytvoriť predbežnú faktúru alebo návrh faktúry. V návrhu faktúry môžete vybrať transakcie projektu, ktoré sa majú zahrnúť do faktúry projektu. Potom môžete skontrolovať fakturačné údaje predtým, ako zaúčtujete projektovú faktúru a pošlete ju zákazníkovi alebo inému zdroju financovania. 
 
 
-Ďalšie informácie o spracovaní projektových faktúr nájdete v časti [Fakturácia projektu](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Ďalšie informácie o spracovaní projektových faktúr nájdete v časti [Fakturácia projektu](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Vypočítajte náklady na dokončenie projektu
