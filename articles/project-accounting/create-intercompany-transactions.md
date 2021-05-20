@@ -3,17 +3,17 @@ title: Vytvorenie medzipodnikových transakcií
 description: Táto téma poskytuje informácie o tom, ako vytvárať medzipodnikové transakcie.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287437"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880467"
 ---
 # <a name="create-intercompany-transactions"></a>Vytvorenie medzipodnikových transakcií
 
@@ -62,7 +62,7 @@ Molly Clarková, vývojárka zamestnaná v GBPM, zaznamenáva 10 hodín práce n
     4. Nastavte menu na **USD**.
     5. Uložte záznam.
 3. Prejdite na **Predaj** > **Projektové zmluvy** a vytvorte novú projektovú zmluvu pre Adventure Works.
-    1. Nastavte vlastniacu spoločnosť na **USPM** a zmluvnú jednotka ma **Contoso Robotics US**.
+    1. Nastavte vlastniacu spoločnosť na **USPM** a zmluvnú jednotku na **Contoso Robotics US**.
     2. Vyberte Adventure Works ako zákazníka.
     3. Vyberte cenník produktu a uložte záznam.
     4. Na karte **Riadky zmluvy** vytvorte nový riadok zmluvy. Nastavte ľubovoľný názov a vyberte **Čas a materiály** ako spôsob účtovania.
@@ -94,7 +94,7 @@ Molly Clarková, vývojárka zamestnaná v GBPM, zaznamenáva 10 hodín práce n
     Tento nevyfakturovaný predaj je teraz pripravený na fakturáciu. Faktúru pre zákazníka Adventure Works možno v prípade potreby finančne zaúčtovať.
 
 10. Prihláste sa ako účtovník **GBPM**. Otvorte inštanciu Finance aplikácie Project Operations a otvorte spoločnosť **GBPM**. 
-11. Prejdite na **Projektové riadenie a účtovníctvo** > **Periodické** > **Project Operations v Customer Engagement** > **Import z pracovnej verzie** a spustite pravidelný proces na vyplnenie denníku integrácie v Project Operations.
+11. Prejdite na **Projektový manažment a účtovníctvo** > **Pravidelné** > **Integrácia Project Operations** > **Import z pracovnej tabuľky** a spustite periodický proces na vyplnenie denníka integrácie Project Operations.
 12. Prejdite do **Projektové riadenie a účtovníctvo** > **Denníky** > **Integračný denník Project Operations** a skontrolujte riadky. Systém vytvorí nasledujúce riadky.
 
     | **Typ transakcie** | **Cena** | **Mena transakcie** | **Suma** |

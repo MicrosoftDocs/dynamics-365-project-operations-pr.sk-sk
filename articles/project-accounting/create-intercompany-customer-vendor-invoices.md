@@ -3,17 +3,17 @@ title: Vytváranie medzipodnikových faktúr zákazníkov a dodávateľov
 description: Táto téma poskytuje informácie o tom, ako vytvárať medzipodnikové faktúry zákazníkov a dodávateľov.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287482"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948414"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Vytváranie medzipodnikových faktúr zákazníkov a dodávateľov
 
@@ -25,7 +25,9 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Ručné vytvorenie medzipodnikovej faktúry zákazníka za projektové transakcie 
 
-Tento postup použite na ručné vytvorenie medzipodnikovej faktúry zákazníka za projektové transakcie. Vyhľadajte hodiny, ktoré uviedli pracovníci na projektoch v požičiavajúcich si právnických osobách, a náklady, ktoré vznikli vašej právnickej osobe v mene požičiavajúcich si právnických osôb. Môžete vyhľadávať podľa názvu právnickej osoby, čísla zmluvy o projekte, čísla projektu, rozsahu dátumov alebo akejkoľvek kombinácie týchto možností. Vo výsledkoch vyhľadávania vyberte transakcie, ktoré sa majú pridať k medzipodnikovej faktúre.
+Tento postup použite na ručné vytvorenie medzipodnikovej faktúry zákazníka za projektové transakcie. Vyhľadajte hodiny, ktoré uviedli pracovníci na projektoch v požičiavajúcich si právnických osobách, a náklady, ktoré vznikli vašej právnickej osobe v mene požičiavajúcich si právnických osôb. Môžete vyhľadávať podľa názvu právnickej osoby, čísla zmluvy o projekte, čísla projektu, rozsahu dátumov alebo akejkoľvek kombinácie týchto možností. Vo výsledkoch vyhľadávania vyberte transakcie, ktoré sa majú pridať k medzipodnikovej faktúre. 
+
+Nasledujúce kroky musia byť vykonané v požičiavajúcej právnickej osobe. 
 
 1. V Dynamics 365 Finance prejdite do **Projektový manažment a účtovníctvo** > **Faktúry projektu** > **Medzipodnikové faktúry zákazníka**. Na stránke so zoznamom **Medzipodnikové faktúry zákazníka** na table akcií vyberte **Nový**.
 2. Na stránke **Vytvoriť medzipodnikovú faktúru** v poli **Právnická osoba** si vyberte požičiavajúcu si právnickú osobu.
@@ -35,9 +37,9 @@ Tento postup použite na ručné vytvorenie medzipodnikovej faktúry zákazníka
 6. Vo výsledkoch vyhľadávania vyberte transakcie, ktoré chcete zahrnúť do návrhu medzipodnikovej faktúry, a potom vyberte **OK**.
 7. Na stránke **Medzipodniková faktúra zákazníka** sa zobrazia transakcie medzipodnikového projektu, ktoré ste vybrali z výsledkov vyhľadávania. Ak chcete upraviť transakcie pred odoslaním faktúry požičiavajúcej si právnickej osobe, postupujte takto:
   
-    1. Otvorte stránku **Vytvoriť návrh faktúry**. Vyberte ďalšie medzipodnikové transakcie pre aktuálnu faktúru a potom vyberte **Pridať riadok**.
+    1. Na stránke **Faktúra pre medzipodnikových zákazníkov** otvorte podrobnosti faktúry a potom stlačte možnosť **Pridať riadok**.
     2. Na odstránenie riadka ho vyberte a potom kliknite na položku **Odstrániť**.
-    3. Prezerajte komentáre, dôvody, finančné dimenzie a ďalšie informácie o vybranom riadku na rýchlej karte **Riadky faktúr**.
+    3. Zobrazte komentáre, dôvody, finančné dimenzie a ďalšie informácie o vybranom riadku v podrobnostiach riadku faktúry.
     
 8. Ak chcete zaúčtovať medzipodnikovú faktúru zákazníka, na table akcií vyberte **Zaúčtovať**.
 
@@ -52,7 +54,7 @@ Môžete vytvoriť viac medzipodnikových faktúr súčasne pre všetky požiči
 2. Na stránke **Vytvoriť medzipodnikové faktúry zákazníkov** v poli **Spoločnosť** si vyberte právnickú osobu, ktorá bude fakturovať. Ak nevyberiete spoločnosť, všetky transakcie, ktoré vyhovujú kritériám vyhľadávania, sa zobrazia pre všetky požičiavajúce si právnické osoby.
 3. V poli **Vytvoriť jednu faktúru za** vyberte, či chcete vytvoriť faktúru za medzipodnikové transakcie na základe projektu alebo na základe požičiavajúcej si právnickej osoby.
 4. Voliteľné: Ak chcete vybrať konkrétny projekt a projektovú zmluvu, pre ktorú chcete vytvoriť medzipodnikové faktúry, kliknite na **Vybrať**. Na stránke **Dopyt** v poli **Kritérium** vyberte projektovú zmluvu, číslo projektu alebo obidve a potom vyberte **OK**.
-5. Na karte **Dávka** nastavte dávkový proces na opakované vytváranie medzipodnikových faktúr. Viac informácií nájdete v článku [Odoslať úlohu hromadného spracovania z formulára](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Na karte **Dávka** nastavte dávkový proces na opakované vytváranie medzipodnikových faktúr. Viac informácií nájdete v článku [Odoslať úlohu hromadného spracovania z formulára](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Ak chcete zaúčtovať medzipodnikové faktúry, na table akcií vyberte **Zaúčtovať**.
 
 > [!NOTE]

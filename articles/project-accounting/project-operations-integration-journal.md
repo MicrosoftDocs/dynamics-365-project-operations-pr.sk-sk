@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287257"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948349"
 ---
 # <a name="integration-journal-in-project-operations"></a>Denník integrácie v aplikácii Project Operations
 
@@ -38,7 +38,7 @@ Systém zoskupuje záznamy v účtovnom denníku do samostatných denníkov na z
 Riadky denníka sa vytvárajú na základe skutočných hodnôt projektu. Nasledujúci zoznam obsahuje niektoré z najvýznamnejších predvolených a transformačných pravidiel:
 
   - Každá skutočná transakcia projektu má riadok v denníku Integrácia Project Operations. Transakcie nákladov a nefakturovaných predajov pre typ fakturácie podľa času a materiálu sú zobrazené na samostatných riadkoch.
-  - Pole **Dátum** predstavuje dátum transakcie. Pole **Dátum účtovnej uzávierky** predstavuje dátum, kedy je transakcia zaznamenaná do účtovnej knihy. Ak je dátum účtovania v [uzavretom finančnom období](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) a je nastavený parameter **Automaticky nastaviť dátum účtovania na otvorenie obdobia účtovnej knihy** na karte **Financie** na stránke **Parametre projektového manažmentu a účtovníctva**, systém upraví účtovný dátum transakcie na prvý dátum v nasledujúcom otvorenom období účtovnej knihy.
+  - Pole **Dátum** predstavuje dátum transakcie. Pole **Dátum účtovnej uzávierky** predstavuje dátum, kedy je transakcia zaznamenaná do účtovnej knihy. Ak je dátum účtovania v [uzavretom finančnom období](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) a je nastavený parameter **Automaticky nastaviť dátum účtovania na otvorenie obdobia účtovnej knihy** na karte **Financie** na stránke **Parametre projektového manažmentu a účtovníctva**, systém upraví účtovný dátum transakcie na prvý dátum v nasledujúcom otvorenom období účtovnej knihy.
   - Pole **Kupón** zobrazuje číslo kupónu pre každú skutočnú transakciu. Poradie čísel kupónov je definované na karte **Číselné sekvencie** na stránke **Parametre projektového manažmentu a účtovníctva**. Každému riadku je priradené nové číslo. Po zapísaní kupónu môžete zobraziť, ako súvisia transakcie nákladov a nefakturovaných predajov výberom možnosti **Súvisiace kupóny** na strane **Transakcia kupónu**.
   - Pole **Kategória** predstavuje transakciu projektu a predvolené hodnoty založené na kategórii transakcií pre skutočnú hodnotu súvisiaceho projektu.
     - Ak je **Kategória transakcie** nastavená v skutočnej hodnote projektu a súvisiaca **Kategória projektu** existuje v danom právnom subjekte, kategória je predvolene nastavená na túto kategóriu projektu.

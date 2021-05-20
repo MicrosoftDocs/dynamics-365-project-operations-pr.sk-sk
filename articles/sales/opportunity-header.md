@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7357e9a8c8c6294c0a395a80287bb7eeb5c47d85
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664108"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948303"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Podrobnosti hlavičky pre príležitosti založené na projektoch
 
@@ -35,7 +35,7 @@ Nasledujúca tabuľka obsahuje polia v príležitosti založenej na projekte, kt
 | Manažér obchodného vzťahu | Karta Všeobecné | Meno správcu obchodného vzťahu pre túto príležitosť založenú na projekte. | Manažér obchodného vzťahu je zodpovedný za riadenie vzťahov so zákazníkom po dokončení tohto projektu. Na základe rezervovateľného záznamu zdroja viazaného na správcu obchodného vzťahu je predvolená zmluvná jednotka. |
 | Zmluvná jednotka | Karta Všeobecné | Organizačná jednotka, ktorá je zodpovedná za realizáciu projektu alebo projektov spojených s týmto obchodom. | Zmluvnou jednotkou je divízia spoločnosti, ktorá po uzatvorení obchodu dokončí projekt(-y). Každá zmluvná jednotka má menu, ktorá sa používa na vykazovanie odhadovaných a skutočných nákladov vzniknutých počas projektu. |
 
-Pre všetky ostatné polia a oddiely na karte **Súhrn** príležitosti si pozrite [Vytváranie alebo úprava príležitostí (Predaj a Centrum predaja)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+Pre všetky ostatné polia a oddiely na karte **Súhrn** príležitosti si pozrite [Vytváranie alebo úprava príležitostí (Predaj a Centrum predaja)](/dynamics365/sales-enterprise/create-edit-opportunity-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

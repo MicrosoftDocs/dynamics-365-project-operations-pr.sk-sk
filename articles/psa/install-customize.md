@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284332"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947943"
 ---
 # <a name="install-and-customize-project-service"></a>Inštalácia a prispôsobenie (Project Service)
 
@@ -34,20 +34,20 @@ Možnosti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Inštalácia Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] je preferované riešenie. Existuje niekoľko spôsobov, ako nakúpiť riešenie. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Zaraďte svoju organizáciu a používateľov](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] je preferované riešenie. Existuje niekoľko spôsobov, ako nakúpiť riešenie. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Zaraďte svoju organizáciu a používateľov](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Prispôsobte si formuláre a zostavy [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
  Ak chcete prispôsobiť formuláre portálu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], tabule alebo správy, môžete si ďalšie informácie o prispôsobení vyhľadať na týchto odkazoch:  
   
-- [Začnite s vytváraním a prispôsobením aplikácie](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Začnite s vytváraním a prispôsobením aplikácie](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Vytvorenie a návrh formulárov](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Vytvorenie a návrh formulárov](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Vytváranie a úprava tabúľ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Vytváranie a úprava tabúľ](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Vytváranie a úprava procesov](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Vytváranie a úprava procesov](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Úvod do reporting a analýzy](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Úvod do reporting a analýzy](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka správcu](../psa/admin-guide.md)   

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877554"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948258"
 ---
 # <a name="project-operations-updates"></a>Aktualizácie aplikácie Project Operations
 
@@ -49,23 +49,23 @@ Aktualizácie aplikácie Project Operations v prostredí Dataverse sú k dispoz�
 | Stanica   | Oblasť        | Aktuálna verzia | Ďalšia verzia | Bežne k dispozícii |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Stanica 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Prvé vydanie |  4.9.0.221       | Spracuje sa     | 23-Apr-21           |
+|   &nbsp;  | Prvé vydanie |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
 | Stanica 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Južná Amerika |  4.9.0.221       | Spracuje sa     | 23-Apr-21           |
-|    &nbsp; | Kanada        |  4.9.0.221       | Spracuje sa     | 23-Apr-21           |
-|   &nbsp;  | India         |  4.9.0.221       | Spracuje sa     | 23-Apr-21           |
-|   &nbsp;  | Francúzsko         |  4.9.0.221       | Spracuje sa     | 23-Apr-21           |
-|   &nbsp;  | Spojené Arabské Emiráty         |  4.9.0.221       | Spracuje sa     | 23-Apr-21           |
-|   &nbsp;  | Južná Afrika         |  4.9.0.221       | Spracuje sa     | 23-Apr-21           |
+|   &nbsp;  | Južná Amerika |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
+|    &nbsp; | Kanada        |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
+|   &nbsp;  | India         |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
+|   &nbsp;  | Francúzsko         |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
+|   &nbsp;  | Spojené Arabské Emiráty         |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
+|   &nbsp;  | Južná Afrika         |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
 | Stanica 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japonsko         |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
-|   &nbsp;  | Ázia a Tichomorie  |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
-|   &nbsp;  | Veľká Británia |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
-|   &nbsp;  | Oceánia       |  4.9.0.221       | Spracuje sa     | 30-Apr-21           |
+|   &nbsp;  | Japonsko         |  4.9.0.221       | Spracuje sa     | 07-mája-21           |
+|   &nbsp;  | Ázia a Tichomorie  |  4.9.0.221       | Spracuje sa     | 07-mája-21           |
+|   &nbsp;  | Veľká Británia |  4.9.0.221       | Spracuje sa     | 07-mája-21           |
+|   &nbsp;  | Oceánia       |  4.9.0.221       | Spracuje sa     | 07-mája-21           |
 | Stanica 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Európa        |  4.8.0.92       | 4.9.0.221     | 16-Apr-21           |
+|   &nbsp;  | Európa        |  4.9.0.221       | Spracuje sa     | 14-mája-21           |
 | Stanica 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Severná Amerika |  4.8.0.92       | 4.9.0.221     | 23-Apr-21           |
+|   &nbsp;  | Severná Amerika |  4.9.0.221       | Spracuje sa     | 21-mája-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Časový plán vydania pre Manažment projektov a účtovníctvo v prostrední aplikácií Finance and Operations
 
@@ -73,15 +73,15 @@ Aktualizácie pre Projektový manažment a účtovníctvo sú vydávané osemkr�
 
 | Podporované vydanie | Všeobecne dostupné (automatická aktualizácia) |
 | --- | --- |
+| 10.0.18 | 16. apríla 2021 |
 | 10.0.17 | 19. marca 2021 |
 | 10.0.16 | 22. január 2021 |
 
 
-Plánované dátumy vydania sa môžu meniť. Ďalšie informácie nájdete v [Dostupnosť servisnej aktualizácie](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Plánované dátumy vydania sa môžu meniť. Ďalšie informácie nájdete v [Dostupnosť servisnej aktualizácie](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Plánovaný dátum vydania | Všeobecne dostupné (automatická aktualizácia) |
 | --- | --- |
-| 10.0.18 | 16. apríla 2021 |
 | 10.0.19 | 18. júna 2021 |
 | 10.0.20 | 16. júl 2021 |
 

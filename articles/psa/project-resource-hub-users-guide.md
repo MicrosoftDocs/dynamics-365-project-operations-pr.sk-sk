@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283792"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948167"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Používateľská príručka pre Centrum projektových zdrojov
 
@@ -48,7 +48,7 @@ Existujú dve varianty [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn
 ## <a name="install-the-mobile-app"></a>Nainštalujte mobilnú aplikáciu 
 Predtým, než môžete začať používať aplikáciu Centrum projektových zdrojov, musíte nainštalovať vo svojom zariadení mobilnú aplikáciu. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Inštalácia Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Inštalácia Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Základná navigácia
 1.  Keď sa prihlásite do mobilnej aplikácie, uvidíte stránku MyApps so zoznamom aplikácií, ku ktorým máte prístup. 
@@ -99,7 +99,7 @@ Zadajte vaše náklady aspoň raz týždenne – alebo frekvenciou, ktorá poža
 5. Pokračujte v zadávaní výdavkov pre týždeň. Keď ste hotoví a všetko vyzerá v poriadku, ťuknite na tlačidlo **Odoslať**. Správca preskúma a schváli vaše náklady.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Všeobecné informácie o používaní mobilnej aplikácie 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Základy mobilného prístupu](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Základy mobilného prístupu](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
 
 ### <a name="see-also"></a>Pozrite si tiež  
  [Prehľad Project Service](../psa/overview.md)   

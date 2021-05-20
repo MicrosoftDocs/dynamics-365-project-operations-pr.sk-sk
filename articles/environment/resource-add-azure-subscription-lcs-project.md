@@ -3,17 +3,17 @@ title: Pridanie predplatného služieb Azure do projektu LCS
 description: Táto téma poskytuje informácie o tom, ako pripojiť vaše predplatné služieb Azure k projektu LCS.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289928"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880557"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Pridanie predplatného služieb Azure do projektu LCS
 
@@ -62,7 +62,7 @@ Autorizácia je teraz hotová.
 3. V poli **Nakonfigurovať použitie Azure Resource Manager** vyberte **Áno**.
 4. Uistite sa, že sa predplatné Azure AAD Tenant Domain zhoduje s predplatným Azure s vlastníctvom domény, ktoré používate, a vyberte **Ďalej**.
 5. Na obrazovke **Nastaviť Microsoft Azure** zvoľte **Ďalej** na potvrdenie. Ak sa vám na tejto obrazovke zobrazí chyba, vráťte sa do sekcie [Poskytnúť službe Dynamics Deployment Services prístup k predplatnému Azure](#provide) v tejto téme a uistite sa, že ste dokončili všetky kroky.
-6. Stiahnite si certifikát Azure Management do lokálneho priečinka vo vašom počítači a potom ho nahrajte na portál Azure Management Portal prechodom do časti **Nastavenia** > **Certifikáty pre správu**. Tento certifikát umožní spoločnosti LCS komunikovať s Azure vo vašom mene. Tento krok môžete preskočiť, ak má váš používateľ prístup k predplatnému.
+6. Stiahnite si certifikát Azure Management do lokálneho priečinka v počítači. Požiadajte svojho správcu predplatného Azure o nahranie certifikátu na portál Azure Management Portal výberom predplatného a prechodom na stránku **Nastavenie** > **Certifikáty riadenia**. Tento certifikát umožňuje spoločnosti LCS komunikovať s Azure vo vašom mene. Tento krok môžete preskočiť, ak má váš používateľ prístup k predplatnému.
 7. Vyberte **Ďalej**.
 8. Vyberte oblasť Azure, do ktorého chcete vykonať nasadenie a vyberte údajové centrum, ktoré je blízko miesta, kde plánujete tento systém používať.
 9.  Vyberte možnosť **Pripojiť**.

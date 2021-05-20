@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277852"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948439"
 ---
 # <a name="manage-project-based-opportunities"></a>Správa príležitostí založených na projekte
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Spoločnosti založené na projekte majú svoje operácie doručovania zvyčajne rozmiestnené vo viacerých krajinách a geografických oblastiach. Náklady na realizáciu a dodávku projektu sa môžu líšiť v závislosti od toho, ktorá geografická oblasť alebo divízia spravuje dodávku. To môže mať naopak vplyv na marže dohody. Na poskytovanie služieb založených na projekte sa zvyčajne vyžaduje veľké množstvo času na ľudské zdroje, značné cestovné náklady, náklady na materiál a ďalšie výdavky.
 
@@ -64,7 +64,7 @@ Proces predaja príležitosti v Project Operations je rozšírením obchodného 
 >
 > Ak sa začala dohoda na základe projektu s príležitosťou, prednosť má proces predaja príležitosti.
 
-Môžete upraviť tok obchodného procesu produktu alebo vytvoriť vlastné toky obchodných procesov, aby ste mohli podľa potreby sledovať svoj proces predaja. Ďalšie informácie o toku obchodných procesov si prečítajte v časti [Prehľad tokov obchodných procesov](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Môžete upraviť tok obchodného procesu produktu alebo vytvoriť vlastné toky obchodných procesov, aby ste mohli podľa potreby sledovať svoj proces predaja. Ďalšie informácie o toku obchodných procesov si prečítajte v časti [Prehľad tokov obchodných procesov](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
