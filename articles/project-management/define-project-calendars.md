@@ -1,9 +1,9 @@
 ---
 title: Definovanie kalendárov projektu
-description: Táto téma poskytuje informácie o používaní kalendára projektu na sledovanie harmonogramu projektu.
+description: Táto téma poskytuje informácie o tom, ako použiť šablónu kalendára na projekt na sledovanie harmonogramu projektu.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286987"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981319"
 ---
 # <a name="define-project-calendars"></a>Definovanie kalendárov projektu
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Na vytvorenie projektového plánu, musíte vytvoriť šablónu projektového kalendára, ktorá určuje počet pracovných hodín za deň a počas zatváracej doby. Ak chcete vytvoriť šablónu kalendára projektu, priradíte pracovnú šablónu s poľom **šablóna kalendára** projektu. Ak chcete vytvoriť pracovnú šablónu, postupujte podľa týchto krokov.
+Ak chcete vytvoriť a spravovať projekt, musíte na projekt použiť šablónu kalendára. Šablóna kalendára definuje nasledujúce atribúty projektu:
 
-1. Na ľavej navigačnej table vyberte **Zdroje**. 
-2. Na stránke zoznamu **zdroje**, otvrote užívateľské záznamy a vyberte **zobraziť pracovný čas**.
+- Pracovná doba vrátane času začiatku a konca
+- Pracovné dni
+- Výnimky z kalendára, napríklad dni pracovného pokoja
 
-  > [!NOTE]
-  > Uistite sa, že povolíte kontextové okná na stránke prehľadávača. To vám umožní zobraziť pracovný čas nastavený pre zdroj.
-  
-3. Na karte **Mesačné zobrazenie** vyberte **Nastaviť**. Zobrazí sa zoznam troch možností: 
+Šablóna kalendára, ktorá sa použije na projekt, je kópiou šablóny kalendára definovanej v nastaveniach vašej organizácie.
 
-  - Nový týždenný plán
-  - Pracovný plán na jeden deň
-  - Voľno
+> [!NOTE]
+> Ak zmeníte šablónu kalendára, tieto zmeny sa neprenesú na pracovnú dobu projektu. Pre zmenu pracovnej doby projektu je potrebné použiť novú šablónu.
 
-4. Vyberte položku **nový týždenný plán** a potom nastavte možnosti pre tento plán prostriedkov. Môžete nastaviť opakujúci sa týždenný plán, parametre pre denné hodiny, zatváraciu dobu, a ďalšie.
-5. Nastavte rozsah dátumov, vyberte **Uložiť** a potom vyberte **Zavrieť**. 
-6. Vráťte sa na ziznam **zdrojov** a vyberte zdroj, pre ktorý nastavíte pracovnú dobu. 
-7. Ak chcete nastaviť pracovnú šablónu, vyberte položku **nastaviť kalendár ako**. 
-8. V dialógovom okne **pracovná šablóna** zadajte názov pracovnej šablóny a potom vyberte **použiť**. 
+Na vytvorenie šablóny kalendára pre vašu organizáciu existujú dve kľúčové požiadavky:
+
+- Definujte požadovaný pracovný čas šablóny pomocou nového alebo existujúceho rezervovateľného zdroja.
+- Vytvorte novú šablónu kalendára a priraďte ju k rezervovateľnému prostriedku.
+
+**Definovať pracovný čas šablóny**
+
+1. Prejdite do **Zdroje** \> **Zdroje**.
+2. Vytvorte nový zdroj, ktorý bude odkazovať v šablóne kalendára, alebo vyberte existujúci zdroj.
+3. Stlačte kartu **Pracovný čas** na karte zdroja a vykonajte pokyny v priečinku v časti [Nastavenie pracovnej doby zdroja](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) a nakonfigurujte pravidlá kalendára.
+
+**Vytvorí novú šablónu kalendára**
+
+1. Prejdite do ponuky **Nastavenia** \> **Šablóna kalendára**.
+2. Stlačte možnosť **Nový** a zadajte názov, popis a prostriedok šablóny.
+
+> [!NOTE]
+> Keď sa na prostriedok odkazuje v šablóne kalendára, kópia kalendára prostriedku je spojená so šablónou kalendára. Ak dôjde k zmene pracovného času skopírovanej šablóny, tieto zmeny sa nezanesú do šablóny kalendára.
 
 Šablónu práce teraz môžete priradiť k šablóne kalendára projektu.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
