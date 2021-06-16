@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Čo je nové
       items:
+        - name: "Máj\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: "Apríl\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: "Marec\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Nastavenie kategórií výdavkov
               href: expense/set-up-expense-categories.md
+            - name: Nastavenie počtu najazdených kilometrov pomocou tarifných sadzieb pre počet najazdených kilometrov
+              href: expense/set-up-mileage.md
         - name: Osobné výdavky
           href: expense/personal-expenses-expense-report.md
         - name: Medzipodnikové výdavky
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Čo je nové
       items:
+        - name: "Čo je nové v\_máji\_2021 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "Čo je nové v\_apríli\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: "Čo je nové v\_marci\_2021 – čiastočné nasadenie"
@@ -1028,6 +1034,8 @@
       items:
         - name: "Plán vydania aktualizácie pre Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Prispôsobenie týždenných zadaní času
               href: psa/time-entry-extensibility-v3.md
+            - name: Množiny schválení
+              href: psa/approval-set.md
     - name: "Najčastejšie otázky a\_riešenie problémov (3.x)"
       items:
         - name: "Prečo je cena v\_prípade skutočných výdavkových nákladov predvolene nulová?"
