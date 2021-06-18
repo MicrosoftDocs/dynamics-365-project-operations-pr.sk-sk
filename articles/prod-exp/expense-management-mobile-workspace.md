@@ -2,12 +2,8 @@
 title: Správa výdavkov pomocou mobilného pracovného priestoru
 description: Táto téma poskytuje informácie o mobilnom pracovnom priestore na spravovanie výdavkov. Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov. Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov.
 author: suvaidya
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -17,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950498"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993660"
 ---
 # <a name="expense-management-mobile-workspace"></a>Správa výdavkov pomocou mobilného pracovného priestoru
 

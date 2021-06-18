@@ -2,8 +2,6 @@
 title: Rezervácie zdrojov a ako súvisia s priradením úloh
 description: Táto téma poskytuje informácie o tom, ako spravovať pomenované zdroje, rezervácie zdrojov a priradenia úloh a ako navzájom súvisia.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 83b1bf39c71275f2e8e4ec20082f711154696586
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 72c741d8a0644589004ba20afbcd0baff7cfcb06
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286222"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993210"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Rezervácie zdrojov a ako súvisia s priradením úloh
 
