@@ -2,51 +2,49 @@
 title: Aktualizácia projektu
 description: Táto téma poskytuje informácie o aktualizácii projektov Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27444b072bdf7de55d6b38c30c1ea5fe66ed46ac
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286402"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993390"
 ---
-# <a name="update-a-project"></a><span data-ttu-id="d8999-103">Aktualizácia projektu</span><span class="sxs-lookup"><span data-stu-id="d8999-103">Update a project</span></span>
+# <a name="update-a-project"></a><span data-ttu-id="dcf6c-103">Aktualizácia projektu</span><span class="sxs-lookup"><span data-stu-id="dcf6c-103">Update a project</span></span>
 
-<span data-ttu-id="d8999-104">_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_</span><span class="sxs-lookup"><span data-stu-id="d8999-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="dcf6c-104">_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_</span><span class="sxs-lookup"><span data-stu-id="dcf6c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="d8999-105">Ďalej je uvedený súhrn polí, ktoré je možné aktualizovať po vytvorení projektu, a všetkých príslušných dôsledkov aktualizácií.</span><span class="sxs-lookup"><span data-stu-id="d8999-105">Below is a summary of the fields that can be updated on a project after it has been created and any applicable implications of the updates.</span></span>
+<span data-ttu-id="dcf6c-105">Ďalej je uvedený súhrn polí, ktoré je možné aktualizovať po vytvorení projektu, a všetkých príslušných dôsledkov aktualizácií.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-105">Below is a summary of the fields that can be updated on a project after it has been created and any applicable implications of the updates.</span></span>
 
-## <a name="project-detail-fields"></a><span data-ttu-id="d8999-106">Polia podrobností projektu</span><span class="sxs-lookup"><span data-stu-id="d8999-106">Project detail fields</span></span>
+## <a name="project-detail-fields"></a><span data-ttu-id="dcf6c-106">Polia podrobností projektu</span><span class="sxs-lookup"><span data-stu-id="dcf6c-106">Project detail fields</span></span>
 
-- <span data-ttu-id="d8999-107">**Názov**: Názov projektu.</span><span class="sxs-lookup"><span data-stu-id="d8999-107">**Name**: The title of the project.</span></span>
-- <span data-ttu-id="d8999-108">**Popis**: Prehľad projektu.</span><span class="sxs-lookup"><span data-stu-id="d8999-108">**Description**: An overview of the project.</span></span>
-- <span data-ttu-id="d8999-109">**Zákazník**: Spoločnosť, ktorej bude projekt dodaný.</span><span class="sxs-lookup"><span data-stu-id="d8999-109">**Customer**: The company the project will be delivered to.</span></span>
-- <span data-ttu-id="d8999-110">**Šablóna kalendára** : Pracovný čas projektu.</span><span class="sxs-lookup"><span data-stu-id="d8999-110">**Calendar template**: The working hours of the project.</span></span> <span data-ttu-id="d8999-111">Po zmene poľa sa prepočíta celý plán.</span><span class="sxs-lookup"><span data-stu-id="d8999-111">When the field is changed, the entire schedule is recalculated.</span></span>
-- <span data-ttu-id="d8999-112">**Mena**: Mena pre projekt.</span><span class="sxs-lookup"><span data-stu-id="d8999-112">**Currency**: The currency for the project.</span></span> <span data-ttu-id="d8999-113">Toto pole je predvolené na základe meny definovanej v zmluvnej jednotke.</span><span class="sxs-lookup"><span data-stu-id="d8999-113">This field defaults based on the currency defined in the contracting unit.</span></span> <span data-ttu-id="d8999-114">Keď sa aktualizuje zmluvná jednotka, aktualizuje sa aj pole.</span><span class="sxs-lookup"><span data-stu-id="d8999-114">When the contracting unit is updated, the field is also updated.</span></span>
-- <span data-ttu-id="d8999-115">**Zmluvná jednotka**: Organizačná jednotka, ktorá zastupuje skupinu spoločností alebo divízie, ktorá je primárne zodpovedná za získanie predaja a riadenie poskytovania práce a služieb zákazníkovi.</span><span class="sxs-lookup"><span data-stu-id="d8999-115">**Contracting Unit**: The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer.</span></span> 
-- <span data-ttu-id="d8999-116">**Projektový manažér** : Člen projektového tímu, ktorý je oprávnený kontrolovať a schvaľovať časové zadania a výdavky.</span><span class="sxs-lookup"><span data-stu-id="d8999-116">**Project Manager**: The project team member who has the authority to review and approve time entries and expenses.</span></span>
+- <span data-ttu-id="dcf6c-107">**Názov**: Názov projektu.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-107">**Name**: The title of the project.</span></span>
+- <span data-ttu-id="dcf6c-108">**Popis**: Prehľad projektu.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-108">**Description**: An overview of the project.</span></span>
+- <span data-ttu-id="dcf6c-109">**Zákazník**: Spoločnosť, ktorej bude projekt dodaný.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-109">**Customer**: The company the project will be delivered to.</span></span>
+- <span data-ttu-id="dcf6c-110">**Šablóna kalendára** : Pracovný čas projektu.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-110">**Calendar template**: The working hours of the project.</span></span> <span data-ttu-id="dcf6c-111">Po zmene poľa sa prepočíta celý plán.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-111">When the field is changed, the entire schedule is recalculated.</span></span>
+- <span data-ttu-id="dcf6c-112">**Mena**: Mena pre projekt.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-112">**Currency**: The currency for the project.</span></span> <span data-ttu-id="dcf6c-113">Toto pole je predvolené na základe meny definovanej v zmluvnej jednotke.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-113">This field defaults based on the currency defined in the contracting unit.</span></span> <span data-ttu-id="dcf6c-114">Keď sa aktualizuje zmluvná jednotka, aktualizuje sa aj pole.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-114">When the contracting unit is updated, the field is also updated.</span></span>
+- <span data-ttu-id="dcf6c-115">**Zmluvná jednotka**: Organizačná jednotka, ktorá zastupuje skupinu spoločností alebo divízie, ktorá je primárne zodpovedná za získanie predaja a riadenie poskytovania práce a služieb zákazníkovi.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-115">**Contracting Unit**: The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer.</span></span> 
+- <span data-ttu-id="dcf6c-116">**Projektový manažér** : Člen projektového tímu, ktorý je oprávnený kontrolovať a schvaľovať časové zadania a výdavky.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-116">**Project Manager**: The project team member who has the authority to review and approve time entries and expenses.</span></span>
 
-## <a name="estimate-fields"></a><span data-ttu-id="d8999-117">Polia odhadu</span><span class="sxs-lookup"><span data-stu-id="d8999-117">Estimate fields</span></span>
+## <a name="estimate-fields"></a><span data-ttu-id="dcf6c-117">Polia odhadu</span><span class="sxs-lookup"><span data-stu-id="dcf6c-117">Estimate fields</span></span>
 
-- <span data-ttu-id="d8999-118">**Odhadovaný dátum začatia**: Dátum začiatku projektu.</span><span class="sxs-lookup"><span data-stu-id="d8999-118">**Estimated Start Date**: The date that the project will begin.</span></span> <span data-ttu-id="d8999-119">Po aktualizácii tohto poľa sa všetky úlohy v projekte presunú úmerne s novým dátumom začatia.</span><span class="sxs-lookup"><span data-stu-id="d8999-119">When this field is updated, any tasks on the project will move proportionately with the start new start date.</span></span>
-- <span data-ttu-id="d8999-120">**Dátum dokončenia**: Dátum ukončenia projektu.</span><span class="sxs-lookup"><span data-stu-id="d8999-120">**Finish Date**: The date that the project is scheduled to end.</span></span>
-- <span data-ttu-id="d8999-121">**Úsilie**: Odhadované úsilie projektu.</span><span class="sxs-lookup"><span data-stu-id="d8999-121">**Effort**: The estimated effort of the project.</span></span> <span data-ttu-id="d8999-122">Po pridaní úloh do projektu už toto pole nie je možné upravovať.</span><span class="sxs-lookup"><span data-stu-id="d8999-122">When tasks are added to the project, this field is no longer editable.</span></span>
-- <span data-ttu-id="d8999-123">**Odhadované mzdové náklady**: Odhadované mzdové náklady projektu.</span><span class="sxs-lookup"><span data-stu-id="d8999-123">**Estimated Labor Cost**: The estimated labor cost of the project.</span></span> <span data-ttu-id="d8999-124">Po pridaní mzdových nákladov do projektu už toto pole nie je možné upravovať.</span><span class="sxs-lookup"><span data-stu-id="d8999-124">When labor costs are added to the project, this field is no longer editable.</span></span>
-- <span data-ttu-id="d8999-125">**Odhadované výdavky** : Odhadované výdavky na projekt.</span><span class="sxs-lookup"><span data-stu-id="d8999-125">**Estimated Expenses**: The estimated expenses of the project.</span></span> <span data-ttu-id="d8999-126">Po pridaní výdavkov do projektu už toto pole nie je možné upravovať.</span><span class="sxs-lookup"><span data-stu-id="d8999-126">When expenses are added to the project, this field is no longer editable.</span></span>
+- <span data-ttu-id="dcf6c-118">**Odhadovaný dátum začatia**: Dátum začiatku projektu.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-118">**Estimated Start Date**: The date that the project will begin.</span></span> <span data-ttu-id="dcf6c-119">Po aktualizácii tohto poľa sa všetky úlohy v projekte presunú úmerne s novým dátumom začatia.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-119">When this field is updated, any tasks on the project will move proportionately with the start new start date.</span></span>
+- <span data-ttu-id="dcf6c-120">**Dátum dokončenia**: Dátum ukončenia projektu.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-120">**Finish Date**: The date that the project is scheduled to end.</span></span>
+- <span data-ttu-id="dcf6c-121">**Úsilie**: Odhadované úsilie projektu.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-121">**Effort**: The estimated effort of the project.</span></span> <span data-ttu-id="dcf6c-122">Po pridaní úloh do projektu už toto pole nie je možné upravovať.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-122">When tasks are added to the project, this field is no longer editable.</span></span>
+- <span data-ttu-id="dcf6c-123">**Odhadované mzdové náklady**: Odhadované mzdové náklady projektu.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-123">**Estimated Labor Cost**: The estimated labor cost of the project.</span></span> <span data-ttu-id="dcf6c-124">Po pridaní mzdových nákladov do projektu už toto pole nie je možné upravovať.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-124">When labor costs are added to the project, this field is no longer editable.</span></span>
+- <span data-ttu-id="dcf6c-125">**Odhadované výdavky** : Odhadované výdavky na projekt.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-125">**Estimated Expenses**: The estimated expenses of the project.</span></span> <span data-ttu-id="dcf6c-126">Po pridaní výdavkov do projektu už toto pole nie je možné upravovať.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-126">When expenses are added to the project, this field is no longer editable.</span></span>
 
-## <a name="project-actual-fields"></a><span data-ttu-id="d8999-127">Skutočné polia projektu</span><span class="sxs-lookup"><span data-stu-id="d8999-127">Project actual fields</span></span>
-- <span data-ttu-id="d8999-128">**Skutočný začiatok** : Dátum zahájenia projektu.</span><span class="sxs-lookup"><span data-stu-id="d8999-128">**Actual Start**: The date that the project started.</span></span>
-- <span data-ttu-id="d8999-129">**Skutočný koniec**: Bude aktualizované po dokončení projektu.</span><span class="sxs-lookup"><span data-stu-id="d8999-129">**Actual Finish**: To be updated when a project has been completed.</span></span>
+## <a name="project-actual-fields"></a><span data-ttu-id="dcf6c-127">Skutočné polia projektu</span><span class="sxs-lookup"><span data-stu-id="dcf6c-127">Project actual fields</span></span>
+- <span data-ttu-id="dcf6c-128">**Skutočný začiatok** : Dátum zahájenia projektu.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-128">**Actual Start**: The date that the project started.</span></span>
+- <span data-ttu-id="dcf6c-129">**Skutočný koniec**: Bude aktualizované po dokončení projektu.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-129">**Actual Finish**: To be updated when a project has been completed.</span></span>
 
-## <a name="project-status-fields"></a><span data-ttu-id="d8999-130">Polia pre stav projektu</span><span class="sxs-lookup"><span data-stu-id="d8999-130">Project status fields</span></span>
+## <a name="project-status-fields"></a><span data-ttu-id="dcf6c-130">Polia pre stav projektu</span><span class="sxs-lookup"><span data-stu-id="dcf6c-130">Project status fields</span></span>
 
-- <span data-ttu-id="d8999-131">**Celkový stav projektu**: Celkový stav projektu poskytnutý projektovým manažérom.</span><span class="sxs-lookup"><span data-stu-id="d8999-131">**Overall Project Status**: The overall project health provided by the Project manager.</span></span>
-- <span data-ttu-id="d8999-132">**Komentáre**: Popis týkajúci sa aktuálneho stavu projektu poskytnutý projektovým manažérom.</span><span class="sxs-lookup"><span data-stu-id="d8999-132">**Comments**: A narrative regarding the current health of the project provided by the Project manager.</span></span>
+- <span data-ttu-id="dcf6c-131">**Celkový stav projektu**: Celkový stav projektu poskytnutý projektovým manažérom.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-131">**Overall Project Status**: The overall project health provided by the Project manager.</span></span>
+- <span data-ttu-id="dcf6c-132">**Komentáre**: Popis týkajúci sa aktuálneho stavu projektu poskytnutý projektovým manažérom.</span><span class="sxs-lookup"><span data-stu-id="dcf6c-132">**Comments**: A narrative regarding the current health of the project provided by the Project manager.</span></span>
 
 
 
