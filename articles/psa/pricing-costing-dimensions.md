@@ -2,12 +2,10 @@
 title: Domovská stránka dimenzíí ceny a ocenenia
 description: Táto téma poskytuje prehľad dimenzií cien.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284152"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009275"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domovská stránka dimenzíí ceny a ocenenia
 
@@ -51,7 +49,7 @@ Ak potrebujete ceny alebo náklady na svoje zdroje pomocou ďalších atribútov
 
 - [Vytvorte vlastné polia a entity](create-custom-fields-entities.md)
 - [Pridanie vlastných polí do cenového nastavenia a transakčných entít](field-references.md)
-- [Nastavenie vlastných polí ako cenových dimenzií ](set-up-pricing-dimensions.md)
+- [Nastavenie vlastných polí ako cenových dimenzií](set-up-pricing-dimensions.md)
 - [Aktualizácia atribútov doplnkov na zahrnutie nových dimenzií cien](update-plug-in-attributes.md)
 
 ## <a name="pricing-human-resource-time"></a>Ceny ľudských zdrojov času
@@ -65,18 +63,18 @@ Nasledujúci príklad zobrazuje fakturačné sadzby, ktoré sú nastavené na z�
 
 **Vzorka fakturačných sadzieb**
 
-| Rola        | Org jednotka    |Jednotka      |Cena      |Mena  |
+| Rola        | Organizačná jednotka    |Jednotka      |Cena      |Mena  |
 | ------------|-------------|----------|----------:|----------|
-| Vývojár   | Contoso US  |Hour | 200|USD     |
-| Vývojár   | Blaho India |Hour|   112|USD     |
+| Vývojár   | Contoso – USA  |Hodina | 200|USD     |
+| Vývojár   | Contoso India |Hodina|   112|USD     |
 
 
 **Vzorka nákladových sadzieb**
 
-| Platové pásmo     | Org jednotka    |Jednotka      |Cena      |Mena  |
+| Platové pásmo     | Organizačná jednotka    |Jednotka      |Cena      |Mena  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje company_Band1 | Contoso US  |Hour | 145|USD     |
-| Moje company_Band2 | Blaho India |Hour|   67|USD     |
+| Moje company_Band1 | Contoso – USA  |Hodina | 145|USD     |
+| Moje company_Band2 | Contoso India |Hodina|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
