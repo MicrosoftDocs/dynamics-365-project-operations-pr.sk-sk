@@ -2,18 +2,16 @@
 title: Fakturácia preddavku alebo zálohy
 description: Táto téma poskytuje informácie o tom, ako fakturovať preddavky a zálohy v Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c53e39a8c6fb27deff5e7a05d5cca3a4215466
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 238b55e906fb66415cf46d3abc8827d85c174dd7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274162"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004010"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturácia preddavkovej alebo zálohovej platby
 

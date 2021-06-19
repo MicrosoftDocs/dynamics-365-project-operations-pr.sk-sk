@@ -2,18 +2,16 @@
 title: Import odhadu do riadka zmluvy založenej na projekte – čiastočné
 description: Táto téma poskytuje informácie o importovaní finančných odhadov z projektu do riadka zmluvy.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b6b017177e718110969363844d5db4c393949d28
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbd1745f9b6a59a4a03c456cbbc3b7d0b427a2d3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273487"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003359"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Import odhadu do riadka zmluvy založenej na projekte – čiastočné
 

@@ -2,11 +2,9 @@
 title: Nastavenie vlastných polí ako cenových dimenzií
 description: Táto téma poskytuje informácie o tom, ako nastaviť cenové dimenzie pomocou vlastných polí.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274882"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004730"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavenie vlastných polí ako cenových dimenzií
 
@@ -77,10 +75,10 @@ Existujú dva typy cien dimenzií:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|U zákazníka            |                    |Nadčas                 |15     |
 |             | Contoso India|Lokálny             |                    |Nadčas                 |10     |
-|             | Contoso US   |Lokálny             |                    |Nadčas                 |20     |
+|             | Contoso – USA   |Lokálny             |                    |Nadčas                 |20     |
 
 
-Ak zdroj z Contoso India, ktorého základná sadzba je 100 USD, pracuje u zákazníka a vykáže 8 hodín bežnej pracovnej doby a 2 hodiny nadčasov v zadaní času, systém cenotvorby využije základnú sadzbu 100 pre nasledujúcich 8 hodín, čím sa dosiahne 800 USD. Pre 2 hodiny nadčas, bude prirážka 15 % použitá na základnú sadzbu 100 na získanie jednotkovej ceny 115 USD a zaznamená celkové náklady na 230 USD.
+Ak zdroj z Contoso India, ktorého základná sadzba je 100 USD, pracuje u zákazníka a vykáže 8 hodín bežnej pracovnej doby a 2 hodiny nadčasov v zadaní času, systém ceny využije základnú sadzbu 100 pre nasledujúcich 8 hodín, čím sa dosiahne 800 USD. Pre 2 hodiny nadčas, bude prirážka 15 % použitá na základnú sadzbu 100 na získanie jednotkovej ceny 115 USD a zaznamená celkové náklady na 230 USD.
 
 ### <a name="applicable-to-cost"></a>Vzťahuje sa na náklady 
 Ak je nastavená na hodnotu **Áno**, znamená to, že hodnota dimenzie z kontextu vstupu by sa mala použiť na zhodu s poľami **Cena roly** a **Prirážka k cene roly** pri načítavaní sadzieb nákladov a prirážky.
