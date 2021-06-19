@@ -2,8 +2,6 @@
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 15, V3
 description: Táto téma poskytuje informácie o tom, čo je nové v aktualizácii Project Service Automation, vydanie 15, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,52 +15,52 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe1e2b2046faeee4e4c71484a976d70e8722e090
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 86aadca637939120d0ccd839e7c425e9e8d38aec
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949338"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006845"
 ---
-# <a name="project-service-automation-update-release-15-v3"></a><span data-ttu-id="9bc0f-103">Aktualizácia pre Project Service Automation, vydanie 15, V3</span><span class="sxs-lookup"><span data-stu-id="9bc0f-103">Project Service Automation Update Release 15, V3</span></span>
+# <a name="project-service-automation-update-release-15-v3"></a><span data-ttu-id="65adf-103">Aktualizácia pre Project Service Automation, vydanie 15, V3</span><span class="sxs-lookup"><span data-stu-id="65adf-103">Project Service Automation Update Release 15, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="9bc0f-104">S potešením vám oznamujeme najnovšiu aktualizáciu pre aplikáciu Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="9bc0f-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="9bc0f-105">Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="9bc0f-106">Toto vydanie je kompatibilné s Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="9bc0f-107">Ak chcete aktualizovať toto vydanie, navštívte centrum spravovania pre Dynamics 365 online, prejdite na stránku riešení a nainštalujte aktualizáciu.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="9bc0f-108">Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="9bc0f-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="65adf-104">S potešením vám oznamujeme najnovšiu aktualizáciu pre aplikáciu Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="65adf-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="65adf-105">Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti.</span><span class="sxs-lookup"><span data-stu-id="65adf-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="65adf-106">Toto vydanie je kompatibilné s Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="65adf-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="65adf-107">Ak chcete aktualizovať toto vydanie, navštívte centrum spravovania pre Dynamics 365 online, prejdite na stránku riešení a nainštalujte aktualizáciu.</span><span class="sxs-lookup"><span data-stu-id="65adf-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="65adf-108">Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="65adf-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="9bc0f-109">Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu PSA V3, vydanie 15.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 15.</span></span> <span data-ttu-id="9bc0f-110">Táto verzia má číslo zostavy V3.10.5.28 a je všeobecne dostupná prostredníctvom samoaktualizácie v januári 2020.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-110">This version has a build number of V3.10.5.28 and is generally available through a self-update in January 2020.</span></span>
+<span data-ttu-id="65adf-109">Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu PSA V3, vydanie 15.</span><span class="sxs-lookup"><span data-stu-id="65adf-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 15.</span></span> <span data-ttu-id="65adf-110">Táto verzia má číslo zostavy V3.10.5.28 a je všeobecne dostupná prostredníctvom samoaktualizácie v januári 2020.</span><span class="sxs-lookup"><span data-stu-id="65adf-110">This version has a build number of V3.10.5.28 and is generally available through a self-update in January 2020.</span></span>
 
-## <a name="update-release-15"></a><span data-ttu-id="9bc0f-111">Aktualizácia vydania 15</span><span class="sxs-lookup"><span data-stu-id="9bc0f-111">Update Release 15</span></span> 
+## <a name="update-release-15"></a><span data-ttu-id="65adf-111">Aktualizácia vydania 15</span><span class="sxs-lookup"><span data-stu-id="65adf-111">Update Release 15</span></span> 
 
-### <a name="enhancements"></a><span data-ttu-id="9bc0f-112">Vylepšenia</span><span class="sxs-lookup"><span data-stu-id="9bc0f-112">Enhancements</span></span>
+### <a name="enhancements"></a><span data-ttu-id="65adf-112">Vylepšenia</span><span class="sxs-lookup"><span data-stu-id="65adf-112">Enhancements</span></span>
 
-- <span data-ttu-id="9bc0f-113">Riadenie projektov</span><span class="sxs-lookup"><span data-stu-id="9bc0f-113">Project Management</span></span>
+- <span data-ttu-id="65adf-113">Riadenie projektov</span><span class="sxs-lookup"><span data-stu-id="65adf-113">Project Management</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="9bc0f-114">Opravy chýb</span><span class="sxs-lookup"><span data-stu-id="9bc0f-114">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="65adf-114">Opravy chýb</span><span class="sxs-lookup"><span data-stu-id="65adf-114">Bug fixes</span></span>
 
-- <span data-ttu-id="9bc0f-115">Čas a výdavky</span><span class="sxs-lookup"><span data-stu-id="9bc0f-115">Time and Expense</span></span>
+- <span data-ttu-id="65adf-115">Čas a výdavky</span><span class="sxs-lookup"><span data-stu-id="65adf-115">Time and Expense</span></span>
 
-  - <span data-ttu-id="9bc0f-116">Oprava: Pridanie spracovania chýb pri načítaní v zobrazení odsúhlasenia.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-116">Fixed: Add on-load error handling in the reconciliation view.</span></span>
-  - <span data-ttu-id="9bc0f-117">Oprava: Centrum projektových zdrojov: Premenovanie **množstva** na zníženie nejednoznačnosti.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-117">Fixed: Project Resource Hub: Rename **Amount** to reduce ambiguity.</span></span>
-  - <span data-ttu-id="9bc0f-118">Oprava: Úprava zobrazenia **Kopírovať stĺpce zadaní času** na zahrnutie typu.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-118">Fixed: Adjust the view **Copy Time Entry Columns** to include the type.</span></span>
-  - <span data-ttu-id="9bc0f-119">Oprava: Úprava trvania zadania času v zobrazení mriežky pomocou desatinných čísel má za následok neznámu chybu pre niektoré čísla.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-119">Fixed: Editing time entry duration in the grid view using decimal numbers results in unknown error for some numbers.</span></span>
+  - <span data-ttu-id="65adf-116">Oprava: Pridanie spracovania chýb pri načítaní v zobrazení odsúhlasenia.</span><span class="sxs-lookup"><span data-stu-id="65adf-116">Fixed: Add on-load error handling in the reconciliation view.</span></span>
+  - <span data-ttu-id="65adf-117">Oprava: Centrum projektových zdrojov: Premenovanie **množstva** na zníženie nejednoznačnosti.</span><span class="sxs-lookup"><span data-stu-id="65adf-117">Fixed: Project Resource Hub: Rename **Amount** to reduce ambiguity.</span></span>
+  - <span data-ttu-id="65adf-118">Oprava: Úprava zobrazenia **Kopírovať stĺpce zadaní času** na zahrnutie typu.</span><span class="sxs-lookup"><span data-stu-id="65adf-118">Fixed: Adjust the view **Copy Time Entry Columns** to include the type.</span></span>
+  - <span data-ttu-id="65adf-119">Oprava: Úprava trvania zadania času v zobrazení mriežky pomocou desatinných čísel má za následok neznámu chybu pre niektoré čísla.</span><span class="sxs-lookup"><span data-stu-id="65adf-119">Fixed: Editing time entry duration in the grid view using decimal numbers results in unknown error for some numbers.</span></span>
 
-- <span data-ttu-id="9bc0f-120">Riadenie projektov</span><span class="sxs-lookup"><span data-stu-id="9bc0f-120">Project Management</span></span>
+- <span data-ttu-id="65adf-120">Riadenie projektov</span><span class="sxs-lookup"><span data-stu-id="65adf-120">Project Management</span></span>
 
-  - <span data-ttu-id="9bc0f-121">Oprava: Rozbaľovacia ponuka pre **Použiť v zobrazení sledovania** sa teraz rozširuje na základe šírky možností.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-121">Fixed: The drop-down menu for **Use in Tracking View** now expands based on the width of the options.</span></span>
-  - <span data-ttu-id="9bc0f-122">Oprava: Pri riadení projektov v časovom pásme +13 môžu výpočty úloh zobraziť nepresné výsledky.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-122">Fixed: When managing projects in the +13 time zone, tasks calculations can display inaccurate results.</span></span>
-  - <span data-ttu-id="9bc0f-123">Oprava: **Čas ukončenia člena tímu** bol opravený pri použití 24-hodinového kalendára.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-123">Fixed: **Team Member End Time** has been corrected when using a 24-hour calendar.</span></span>
-  - <span data-ttu-id="9bc0f-124">Oprava: Opätovná aktivácia **BPF** v hlavnom formulári **msdyn_project**.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-124">Fixed: Re-activated the **BPF** in **msdyn_project** main form.</span></span>
-  - <span data-ttu-id="9bc0f-125">Oprava: Výpočet priradení už neignoruje jeden deň.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-125">Fixed: Assignments calculation no longer ignores one day.</span></span>
-  - <span data-ttu-id="9bc0f-126">Oprava: Do formulára projektu bol pridaný nový oznamovací pruh, keď sa časové pásmo medzi používateľom a projektom líši.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-126">Fixed: A new notification banner has been added to the project form when the time zone differs between user and project.</span></span>
+  - <span data-ttu-id="65adf-121">Oprava: Rozbaľovacia ponuka pre **Použiť v zobrazení sledovania** sa teraz rozširuje na základe šírky možností.</span><span class="sxs-lookup"><span data-stu-id="65adf-121">Fixed: The drop-down menu for **Use in Tracking View** now expands based on the width of the options.</span></span>
+  - <span data-ttu-id="65adf-122">Oprava: Pri riadení projektov v časovom pásme +13 môžu výpočty úloh zobraziť nepresné výsledky.</span><span class="sxs-lookup"><span data-stu-id="65adf-122">Fixed: When managing projects in the +13 time zone, tasks calculations can display inaccurate results.</span></span>
+  - <span data-ttu-id="65adf-123">Oprava: **Čas ukončenia člena tímu** bol opravený pri použití 24-hodinového kalendára.</span><span class="sxs-lookup"><span data-stu-id="65adf-123">Fixed: **Team Member End Time** has been corrected when using a 24-hour calendar.</span></span>
+  - <span data-ttu-id="65adf-124">Oprava: Opätovná aktivácia **BPF** v hlavnom formulári **msdyn_project**.</span><span class="sxs-lookup"><span data-stu-id="65adf-124">Fixed: Re-activated the **BPF** in **msdyn_project** main form.</span></span>
+  - <span data-ttu-id="65adf-125">Oprava: Výpočet priradení už neignoruje jeden deň.</span><span class="sxs-lookup"><span data-stu-id="65adf-125">Fixed: Assignments calculation no longer ignores one day.</span></span>
+  - <span data-ttu-id="65adf-126">Oprava: Do formulára projektu bol pridaný nový oznamovací pruh, keď sa časové pásmo medzi používateľom a projektom líši.</span><span class="sxs-lookup"><span data-stu-id="65adf-126">Fixed: A new notification banner has been added to the project form when the time zone differs between user and project.</span></span>
 
-- <span data-ttu-id="9bc0f-127">Sales</span><span class="sxs-lookup"><span data-stu-id="9bc0f-127">Sales</span></span>
+- <span data-ttu-id="65adf-127">Sales</span><span class="sxs-lookup"><span data-stu-id="65adf-127">Sales</span></span>
 
-  - <span data-ttu-id="9bc0f-128">Oprava: Vyhľadávanie kategórie odhadu výdavkov sa môže použiť na filtrovanie duplikátov.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-128">Fixed: Expense estimate category lookup can be used to filter duplicates.</span></span>
-  - <span data-ttu-id="9bc0f-129">Oprava: Kód v **PluginDomain.ExecuteInTryCatchBlock (..)** už neskrýva pôvod výnimky.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-129">Fixed: Code in **PluginDomain.ExecuteInTryCatchBlock(..)** no longer hides the origin of the exception.</span></span>
-  - <span data-ttu-id="9bc0f-130">Oprava: Už sa nezobrazí chybové hlásenie vo formulári **Vyhľadávanie projektu** v **Riadku ponuky**, ak existuje viac ako 1000 projektov.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-130">Fixed: No longer get an error message in **Project lookup** in the **Quote Line** form when there are more than 1000 projects.</span></span>
-  - <span data-ttu-id="9bc0f-131">Oprava: Mriežka **Odhady** pre odhady práce a odhady výdavkov teraz zobrazuje správny symbol meny.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-131">Fixed: **Estimates** grid for labor estimates and expense estimates now displays the correct currency symbol.</span></span>
-  - <span data-ttu-id="9bc0f-132">Oprava: Keď organizácia aktualizuje PSA z vydania aktualizácie 14 na vydanie aktualizácie 15, karta **Plán** sa už nezobrazuje ako prázdna karta vo formulári **Projekt**.</span><span class="sxs-lookup"><span data-stu-id="9bc0f-132">Fixed: After an organization updates PSA from Update Release 14 to Update Release 15, the **Schedule** tab no longer appears as blank on the **Project** form.</span></span>
+  - <span data-ttu-id="65adf-128">Oprava: Vyhľadávanie kategórie odhadu výdavkov sa môže použiť na filtrovanie duplikátov.</span><span class="sxs-lookup"><span data-stu-id="65adf-128">Fixed: Expense estimate category lookup can be used to filter duplicates.</span></span>
+  - <span data-ttu-id="65adf-129">Oprava: Kód v **PluginDomain.ExecuteInTryCatchBlock (..)** už neskrýva pôvod výnimky.</span><span class="sxs-lookup"><span data-stu-id="65adf-129">Fixed: Code in **PluginDomain.ExecuteInTryCatchBlock(..)** no longer hides the origin of the exception.</span></span>
+  - <span data-ttu-id="65adf-130">Oprava: Už sa nezobrazí chybové hlásenie vo formulári **Vyhľadávanie projektu** v **Riadku ponuky**, ak existuje viac ako 1000 projektov.</span><span class="sxs-lookup"><span data-stu-id="65adf-130">Fixed: No longer get an error message in **Project lookup** in the **Quote Line** form when there are more than 1000 projects.</span></span>
+  - <span data-ttu-id="65adf-131">Oprava: Mriežka **Odhady** pre odhady práce a odhady výdavkov teraz zobrazuje správny symbol meny.</span><span class="sxs-lookup"><span data-stu-id="65adf-131">Fixed: **Estimates** grid for labor estimates and expense estimates now displays the correct currency symbol.</span></span>
+  - <span data-ttu-id="65adf-132">Oprava: Keď organizácia aktualizuje PSA z vydania aktualizácie 14 na vydanie aktualizácie 15, karta **Plán** sa už nezobrazuje ako prázdna karta vo formulári **Projekt**.</span><span class="sxs-lookup"><span data-stu-id="65adf-132">Fixed: After an organization updates PSA from Update Release 14 to Update Release 15, the **Schedule** tab no longer appears as blank on the **Project** form.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
