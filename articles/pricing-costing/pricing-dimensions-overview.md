@@ -2,19 +2,17 @@
 title: Prehľad cenových dimenzií
 description: Táto téma poskytuje informácie o cenových dimenziách v Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275422"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005000"
 ---
 # <a name="pricing-dimensions-overview"></a>Prehľad cenových dimenzií
 
@@ -43,8 +41,8 @@ Ak potrebujete ceny alebo náklady na svoje zdroje pomocou ďalších atribútov
 
 1. [Vytvorenie riešenia pre vlastné cenové dimenzie](../sales/create-solution-custompd.md)
 2. [Vytvorenie vlastných polí a entít](create-custom-fields-entities-pricing-dimensions.md)
-3. [Pridanie vlastných polí do entít nastavenia cien a transakcií ](add-custom-fields-price-setup-transactional-entities.md)
-4. [Nastavenie vlastných polí ako cenových dimenzií ](set-up-custom-fields-pricing-dimensions.md)
+3. [Pridanie vlastných polí do entít nastavenia cien a transakcií](add-custom-fields-price-setup-transactional-entities.md)
+4. [Nastavenie vlastných polí ako cenových dimenzií](set-up-custom-fields-pricing-dimensions.md)
 5. [Aktualizácia atribútov doplnkov na zahrnutie nových dimenzií cien](update-plugin-attributes-pd.md)
 
 
@@ -59,18 +57,18 @@ Nasledujúci príklad zobrazuje fakturačné sadzby, ktoré sú nastavené na z�
 
 **Vzorka fakturačných sadzieb**
 
-| Rola        | Org jednotka    |Jednotka      |Cena      |Mena  |
+| Rola        | Organizačná jednotka    |Jednotka      |Cena      |Mena  |
 | ------------|-------------|----------|----------:|----------|
-| Vývojár   | Contoso US  |Hour | 200|USD     |
-| Vývojár   | Blaho India |Hour|   112|USD     |
+| Vývojár   | Contoso – USA  |Hodina | 200|USD     |
+| Vývojár   | Contoso India |Hodina|   112|USD     |
 
 
 **Vzorka nákladových sadzieb**
 
-| Platové pásmo     | Org jednotka    |Jednotka      |Cena      |Mena  |
+| Platové pásmo     | Organizačná jednotka    |Jednotka      |Cena      |Mena  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje company_Band1 | Contoso US  |Hour | 145|USD     |
-| Moje company_Band2 | Blaho India |Hour|   67|USD     |
+| Moje company_Band1 | Contoso – USA  |Hodina | 145|USD     |
+| Moje company_Band2 | Contoso India |Hodina|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
