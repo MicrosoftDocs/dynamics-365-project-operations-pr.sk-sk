@@ -2,8 +2,6 @@
 title: Viacmenové scenáre (verzia 3.x)
 description: Táto téma poskytuje informácie o viacmenových scenároch.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291728"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014810"
 ---
 # <a name="multiple-currency-scenarios"></a>Viacmenové scenáre
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 má dva koncepty mien:
 - **Mena transakcie** Mena v ktorej sa transakcia vyskytuje. 
 - **Základná mena** - mena inštancie Dynamics 365. Táto mena je nastavená, keď je poskytnutá inštancia Dynamics 365. Nemôže byť zmenená.
 
-Napríklad, Blaho USA predal 100 tričiek zákazníkovi vo Veľkej Británii za 15 ounds sterling (GBP) každé. Nasledujúca tabuľka zobrazuje spôsob, ako sa transakcia zaznamená v entite Objednávky Produktu.
+Contoso USA napríklad predal 100 tričiek zákazníkovi vo Veľkej Británii, každé za 15 pounds sterling (GBP). Nasledujúca tabuľka zobrazuje spôsob, ako sa transakcia zaznamená v entite Objednávky Produktu.
 
 | Produkt | Množstvo | Cena za jednotku | Mena | Čiastka | Výmenný kurz | Cena za jednotku (Základná)| Množstvo (Základné)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSA rozširuje koncept transakcie meny pre náklady a predaje nasledujúcimi sp�
 
 ## <a name="multiple-currency-scenario"></a>Viacmenový scenár
 
-Táto časť opisuje príklad projektu, v ktorom Blaho UK dodáva zákazníkovi, ktorý sa volá Fabrikam, Japonsko. Tu je, ako bol nastavený scenár:
+Táto časť opisuje príklad projektu, v ktorom Contoso UK dodáva zákazníkovi, ktorý sa volá Fabrikam, Japonsko. Tu je, ako bol nastavený scenár:
 
 1. GBP a Japonský jen (JPY) sú nastavené v časti **Nastavenia** \> **Riadenie Podnikania** \> **Meny**. 
 2. Konto zákazníka s názvom **Fabrikam-Japan** je nastavené a JPY je vybraný ako mena na účte.
-3. Je nastavená organizačná jednotka s názvom **Blaho UK** a v mene sa vyberie GBP.
-4. Vytvorí sa zmluva o projekte, kde je **Blaho UK** špecifikované ako zmluvná jednotka a **Fabrikam – Japonsko** je špecifikované ako zákazník.
+3. Je nastavená organizačná jednotka s názvom **Contoso UK** a ako mena sa vyberie GBP.
+4. Vytvorí sa zmluva o projekte, kde je **Contoso UK** špecifikované ako zmluvná jednotka a **Fabrikam – Japonsko** je špecifikované ako zákazník.
 5. Riadky projektových zmlúv sú vytvorené na základe fakturačných dojednaní pre rôzne triedy transakcií na projekte, ako je napríklad fakturácia za čas verzus fakturácia za výdavky.
-6. Projekt sa vytvorí tam, kde je **Blaho UK** špecifikovaný ako zmluvná jednotka. Tento projekt je vytvorený a priradený k riadkom projektových zmlúv.
+6. Projekt sa vytvorí tam, kde je **Contoso UK** špecifikovaný ako zmluvná jednotka. Tento projekt je vytvorený a priradený k riadkom projektových zmlúv.
 
 
 Počas odhadu, ktorý používa detail riadka cenovej ponuky, podrobnosti riadka zmluvy alebo riadok odhadu plánu, sa v entite vždy vytvoria dva záznamy. Jeden riadok je pre náklad, a druhý riadok je pre predaj.
