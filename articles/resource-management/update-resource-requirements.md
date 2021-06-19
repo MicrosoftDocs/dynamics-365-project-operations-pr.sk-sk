@@ -2,40 +2,38 @@
 title: Upravte požiadavku na zdroj
 description: Táto téma poskytuje informácie o aktualizácii informácií o požiadavkách zdrojov.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 67fb536f91bdf156e9437cd993e93a4eeb2df84f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 12d14167d5dcb9b43dee854981c551c6e5b734ee
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279112"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014000"
 ---
-# <a name="edit-a-resource-requirement"></a><span data-ttu-id="4eac5-103">Upravte požiadavku na zdroj</span><span class="sxs-lookup"><span data-stu-id="4eac5-103">Edit a resource requirement</span></span>
+# <a name="edit-a-resource-requirement"></a><span data-ttu-id="0e208-103">Upravte požiadavku na zdroj</span><span class="sxs-lookup"><span data-stu-id="0e208-103">Edit a resource requirement</span></span>
 
-<span data-ttu-id="4eac5-104">_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_</span><span class="sxs-lookup"><span data-stu-id="4eac5-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="0e208-104">_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_</span><span class="sxs-lookup"><span data-stu-id="0e208-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="4eac5-105">Po definovaní požiadavky zdroja pomocou akcie **Generovať požiadavku** v mriežke členov tímu, môže projektový manažér upraviť požiadavku a pridať ďalšie podrobnosti.</span><span class="sxs-lookup"><span data-stu-id="4eac5-105">After a resource requirement is defined by the **Generate Requirement** action in the team member grid, the Project manager can edit the requirement and add additional details.</span></span>
+<span data-ttu-id="0e208-105">Po definovaní požiadavky zdroja pomocou akcie **Generovať požiadavku** v mriežke členov tímu, môže projektový manažér upraviť požiadavku a pridať ďalšie podrobnosti.</span><span class="sxs-lookup"><span data-stu-id="0e208-105">After a resource requirement is defined by the **Generate Requirement** action in the team member grid, the Project manager can edit the requirement and add additional details.</span></span>
 
-## <a name="edit-resource-requirement-details"></a><span data-ttu-id="4eac5-106">Podrobnosti o úprave požiadavky zdroja</span><span class="sxs-lookup"><span data-stu-id="4eac5-106">Edit resource requirement details</span></span>
+## <a name="edit-resource-requirement-details"></a><span data-ttu-id="0e208-106">Podrobnosti o úprave požiadavky zdroja</span><span class="sxs-lookup"><span data-stu-id="0e208-106">Edit resource requirement details</span></span>
 
-<span data-ttu-id="4eac5-107">Ako projektový manažér vykonajte nasledujúce kroky a upravte požiadavku na zdroj člena tímu.</span><span class="sxs-lookup"><span data-stu-id="4eac5-107">As a Project manager, complete the following steps to edit a team member’s resource requirement.</span></span>
+<span data-ttu-id="0e208-107">Ako projektový manažér vykonajte nasledujúce kroky a upravte požiadavku na zdroj člena tímu.</span><span class="sxs-lookup"><span data-stu-id="0e208-107">As a Project manager, complete the following steps to edit a team member’s resource requirement.</span></span>
 
-1. <span data-ttu-id="4eac5-108">Prejdite do mriežky člena tímu, vyhľadajte člena tímu v zozname a vyberte odkaz na súvisiace požiadavky zdrojov.</span><span class="sxs-lookup"><span data-stu-id="4eac5-108">Go to the team member grid, locate the team member in the list, and select the link to the associated resource requirements.</span></span>
-2. <span data-ttu-id="4eac5-109">Vo formulári **Podrobnosti o požiadavke** podľa potreby aktualizujte nasledujúce atribúty.</span><span class="sxs-lookup"><span data-stu-id="4eac5-109">On the **Requirement details** form, update the following attributes as necessary.</span></span>
+1. <span data-ttu-id="0e208-108">Prejdite do mriežky člena tímu, vyhľadajte člena tímu v zozname a vyberte odkaz na súvisiace požiadavky zdrojov.</span><span class="sxs-lookup"><span data-stu-id="0e208-108">Go to the team member grid, locate the team member in the list, and select the link to the associated resource requirements.</span></span>
+2. <span data-ttu-id="0e208-109">Vo formulári **Podrobnosti o požiadavke** podľa potreby aktualizujte nasledujúce atribúty.</span><span class="sxs-lookup"><span data-stu-id="0e208-109">On the **Requirement details** form, update the following attributes as necessary.</span></span>
 
-- <span data-ttu-id="4eac5-110">Zručnosti</span><span class="sxs-lookup"><span data-stu-id="4eac5-110">Skills</span></span>
-- <span data-ttu-id="4eac5-111">Roly</span><span class="sxs-lookup"><span data-stu-id="4eac5-111">Roles</span></span>
-- <span data-ttu-id="4eac5-112">Predvoľby zdrojov</span><span class="sxs-lookup"><span data-stu-id="4eac5-112">Resource preferences</span></span>
-- <span data-ttu-id="4eac5-113">Preferovaná organizačná jednotka</span><span class="sxs-lookup"><span data-stu-id="4eac5-113">Preferred organization unit</span></span>
-- <span data-ttu-id="4eac5-114">Spoločnosť zaisťujúca zdroje</span><span class="sxs-lookup"><span data-stu-id="4eac5-114">Resourcing company</span></span>
+- <span data-ttu-id="0e208-110">Zručnosti</span><span class="sxs-lookup"><span data-stu-id="0e208-110">Skills</span></span>
+- <span data-ttu-id="0e208-111">Roly</span><span class="sxs-lookup"><span data-stu-id="0e208-111">Roles</span></span>
+- <span data-ttu-id="0e208-112">Predvoľby zdrojov</span><span class="sxs-lookup"><span data-stu-id="0e208-112">Resource preferences</span></span>
+- <span data-ttu-id="0e208-113">Preferovaná organizačná jednotka</span><span class="sxs-lookup"><span data-stu-id="0e208-113">Preferred organization unit</span></span>
+- <span data-ttu-id="0e208-114">Spoločnosť zaisťujúca zdroje</span><span class="sxs-lookup"><span data-stu-id="0e208-114">Resourcing company</span></span>
 
-## <a name="edit-resource-assignment-contours"></a><span data-ttu-id="4eac5-115">Upravte kontúry priradenia zdrojov</span><span class="sxs-lookup"><span data-stu-id="4eac5-115">Edit resource assignment contours</span></span>
+## <a name="edit-resource-assignment-contours"></a><span data-ttu-id="0e208-115">Upravte kontúry priradenia zdrojov</span><span class="sxs-lookup"><span data-stu-id="0e208-115">Edit resource assignment contours</span></span>
 
-<span data-ttu-id="4eac5-116">Okrem úpravy detailov požiadaviek zdrojov môže projektový manažér aktualizovať jednotlivé obrysy požiadavky zdrojov pomocou funkcie **Zadajte vzor**.</span><span class="sxs-lookup"><span data-stu-id="4eac5-116">In addition to editing the details of the resource requirements, a Project manager can update the individual contours of the resource requirement using the **Specify Pattern** functionality.</span></span> <span data-ttu-id="4eac5-117">Po výbere možnosti **Zadajte vzor** sa otvorí stránka a môžete si pozrieť obrysy v dennej, týždennej alebo mesačnej časovej škále.</span><span class="sxs-lookup"><span data-stu-id="4eac5-117">When **Specify Pattern** is selected, a page opens and you can view contours at the day, week, or month time scale.</span></span> <span data-ttu-id="4eac5-118">Pre každý obrys je možné upraviť začiatočný čas, konečný čas a celkové úsilie v danom období.</span><span class="sxs-lookup"><span data-stu-id="4eac5-118">Each contour can be adjusted for start time, end time, and total effort in a given period.</span></span>
+<span data-ttu-id="0e208-116">Okrem úpravy detailov požiadaviek zdrojov môže projektový manažér aktualizovať jednotlivé obrysy požiadavky zdrojov pomocou funkcie **Zadajte vzor**.</span><span class="sxs-lookup"><span data-stu-id="0e208-116">In addition to editing the details of the resource requirements, a Project manager can update the individual contours of the resource requirement using the **Specify Pattern** functionality.</span></span> <span data-ttu-id="0e208-117">Po výbere možnosti **Zadajte vzor** sa otvorí stránka a môžete si pozrieť obrysy v dennej, týždennej alebo mesačnej časovej škále.</span><span class="sxs-lookup"><span data-stu-id="0e208-117">When **Specify Pattern** is selected, a page opens and you can view contours at the day, week, or month time scale.</span></span> <span data-ttu-id="0e208-118">Pre každý obrys je možné upraviť začiatočný čas, konečný čas a celkové úsilie v danom období.</span><span class="sxs-lookup"><span data-stu-id="0e208-118">Each contour can be adjusted for start time, end time, and total effort in a given period.</span></span>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
