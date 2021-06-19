@@ -2,19 +2,17 @@
 title: Riešenie problémov s prácou v mriežke úloh
 description: Táto téma poskytuje informácie o riešení problémov potrebných pri práci v mriežke úloh.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286582"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213419"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Riešenie problémov s prácou v mriežke úloh 
 
@@ -57,7 +55,7 @@ Project Operations vyžaduje, aby parameter projektu odkazoval na koncový bod P
  ![Pole Koncový bod PEX v parametri projektu](media/projectparameter.png)
 
 1. Pridajte pole **Koncový bod PEX** na stránke **Parametre projektu**.
-2. Aktualizujte pole o túto hodnotu: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Aktualizujte pole o túto hodnotu: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Odstráňte pole zo stránky **Parametre projektu**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Oprávnenia pre Project for Web

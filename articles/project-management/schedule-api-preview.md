@@ -2,18 +2,16 @@
 title: Používanie rozhraní API na plánovanie na vykonávanie operácií s entitami plánovania
 description: Táto téma poskytuje informácie a ukážky používania rozhraní API na plánovanie.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950823"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116816"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Používanie rozhraní API na plánovanie na vykonávanie operácií s entitami plánovania
 
@@ -268,7 +266,6 @@ Nasleduje zoznam obmedzení a známych problémov:
 - Každý používateľ môže mať maximálne 10 otvorených množín **OperationSets**.
 - Project Operations v súčasnosti podporuje v projekte celkovo maximálne 500 úloh.
 - Stav zlyhania množiny **OperationSet** a protokoly zlyhaní nie sú momentálne k dispozícii.
-- Rozhrania API pre plánovanie sú vo verejnej verzii Preview. Spoločnosť Microsoft nepodporuje použitie týchto rozhraní API v produkčnom prostredí.
 - [Hranice projektov a úloh](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Spracovanie chýb

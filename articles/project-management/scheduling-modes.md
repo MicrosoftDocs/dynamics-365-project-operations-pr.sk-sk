@@ -2,18 +2,16 @@
 title: Režimy plánovania
 description: Táto téma poskytuje informácie o režimoch plánovania.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981454"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116726"
 ---
 # <a name="scheduling-modes"></a>Režimy plánovania
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations poskytuje organizáciám možnosť definovať, a
 V Project Operations sú k dispozícii tri režimy plánovania:
 
   - Pevné trvanie (toto je predvolený režim)
-  - Pevná práca
+  - Fixné úsilie (*Práca*)
   - Pevné jednotky
 
 Hodnoty ovplyvnené definíciou konkrétneho režimu plánovania sú určené nasledujúcim vzorcom:
 
-  Úsilie (*Práca*) = Trvanie x Jednotky
+  Úsilie = Trvanie x Jednotky
 
 Keď definujete režim plánovania projektu, nastavujete jednu z týchto hodnôt, ktorú potom nemožno zmeniť. Udržiavanie tejto hodnoty ako konštanty dáva tejto hodnote prioritu, ktorá upozorní systém, aby ju nezmenil, keď sa zmenia ďalšie dve hodnoty. Nasledujúca tabuľka poskytuje informácie o vplyvoch výberu konkrétneho režimu.
 
