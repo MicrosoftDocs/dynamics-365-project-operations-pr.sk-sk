@@ -2,8 +2,6 @@
 title: Nastaviť modely odbornosti
 description: Ako nastaviť modely spôsobilosti v Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,41 +16,41 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 779255971ed4f48bc9410fee76d6591ca13383b9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8b5f5c2115f368f3a872bc435c55580b1fbf97f1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282442"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008285"
 ---
-# <a name="set-up-proficiency-models-project-service"></a><span data-ttu-id="a1993-103">Nastavenie modelov spôsobilosti (Project Service)</span><span class="sxs-lookup"><span data-stu-id="a1993-103">Set up proficiency models (Project Service)</span></span>
+# <a name="set-up-proficiency-models-project-service"></a><span data-ttu-id="027e6-103">Nastavenie modelov spôsobilosti (Project Service)</span><span class="sxs-lookup"><span data-stu-id="027e6-103">Set up proficiency models (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="a1993-104">Teraz, že ste pridali zručnosti pre svojich klientov projekty, budete potrebovať spôsob, ako hodnotiť váš schopnosti poradcu, aby ste ich mohli priradiť k požiadavkám projektu.</span><span class="sxs-lookup"><span data-stu-id="a1993-104">Now that you’ve added the skills for your clients’ projects, you need a way to rate your consultants’ skills so you can match them to project requirements.</span></span> <span data-ttu-id="a1993-105">Môžete použiť predvolený model odbornosti, upraviť alebo vytvoriť novú, aby zodpovedali potrebám vašej organizácie.</span><span class="sxs-lookup"><span data-stu-id="a1993-105">You can use the default proficiency model, edit it, or create a new one to match the needs of your organization.</span></span>  
+<span data-ttu-id="027e6-104">Teraz, že ste pridali zručnosti pre svojich klientov projekty, budete potrebovať spôsob, ako hodnotiť váš schopnosti poradcu, aby ste ich mohli priradiť k požiadavkám projektu.</span><span class="sxs-lookup"><span data-stu-id="027e6-104">Now that you’ve added the skills for your clients’ projects, you need a way to rate your consultants’ skills so you can match them to project requirements.</span></span> <span data-ttu-id="027e6-105">Môžete použiť predvolený model odbornosti, upraviť alebo vytvoriť novú, aby zodpovedali potrebám vašej organizácie.</span><span class="sxs-lookup"><span data-stu-id="027e6-105">You can use the default proficiency model, edit it, or create a new one to match the needs of your organization.</span></span>  
   
-1.  <span data-ttu-id="a1993-106">Prejdite na **Project Service > Modely spôsobilosti**.</span><span class="sxs-lookup"><span data-stu-id="a1993-106">Go to **Project Service > Proficiency Models**.</span></span>  
+1.  <span data-ttu-id="027e6-106">Prejdite na **Project Service > Modely spôsobilosti**.</span><span class="sxs-lookup"><span data-stu-id="027e6-106">Go to **Project Service > Proficiency Models**.</span></span>  
   
-2.  <span data-ttu-id="a1993-107">Ak chcete zobraziť alebo upraviť predvolený model odbornosti, kliknite na **Predvolený model hodnotenia** v zozname, alebo na vytvorenie nového modelu odbornosti kliknite na položku **Nové**.</span><span class="sxs-lookup"><span data-stu-id="a1993-107">To view or edit the default proficiency model, click **Default Rating Model** in the list, or to create a new proficiency model, click **New**.</span></span>  
+2.  <span data-ttu-id="027e6-107">Ak chcete zobraziť alebo upraviť predvolený model odbornosti, kliknite na **Predvolený model hodnotenia** v zozname, alebo na vytvorenie nového modelu odbornosti kliknite na položku **Nové**.</span><span class="sxs-lookup"><span data-stu-id="027e6-107">To view or edit the default proficiency model, click **Default Rating Model** in the list, or to create a new proficiency model, click **New**.</span></span>  
   
-3.  <span data-ttu-id="a1993-108">Ak vytvárate nový model odbornosti, vyplňte polia v oblasti **všeobecné** a potom kliknite na **Uložiť**, čím sa vytvorí záznam, takže môžete pokračovať v úpravách.</span><span class="sxs-lookup"><span data-stu-id="a1993-108">If you’re creating a new proficiency model, fill in the fields in the **General** area, and then click **Save** to create the record so you can continue editing it.</span></span> <span data-ttu-id="a1993-109">Keď vytvoríte vlastné spôsobilosti model, nezabúdajte, že vyššie čísla sú lepšie.</span><span class="sxs-lookup"><span data-stu-id="a1993-109">When you create your own proficiency model, keep in mind that higher numbers are better.</span></span>  
+3.  <span data-ttu-id="027e6-108">Ak vytvárate nový model odbornosti, vyplňte polia v oblasti **všeobecné** a potom kliknite na **Uložiť**, čím sa vytvorí záznam, takže môžete pokračovať v úpravách.</span><span class="sxs-lookup"><span data-stu-id="027e6-108">If you’re creating a new proficiency model, fill in the fields in the **General** area, and then click **Save** to create the record so you can continue editing it.</span></span> <span data-ttu-id="027e6-109">Keď vytvoríte vlastné spôsobilosti model, nezabúdajte, že vyššie čísla sú lepšie.</span><span class="sxs-lookup"><span data-stu-id="027e6-109">When you create your own proficiency model, keep in mind that higher numbers are better.</span></span>  
   
-     <span data-ttu-id="a1993-110">Napríklad, ak si prezeráte a upravujete predvolený model hodnotenia, uvidíte nasledujúce úrovne odbornej spôsobilosti v časti **Hodnoty hodnotenia**.</span><span class="sxs-lookup"><span data-stu-id="a1993-110">For example, if you’re viewing or editing the default rating model, you’ll see the following proficiency levels in **Rating Values**.</span></span>  
+     <span data-ttu-id="027e6-110">Napríklad, ak si prezeráte a upravujete predvolený model hodnotenia, uvidíte nasledujúce úrovne odbornej spôsobilosti v časti **Hodnoty hodnotenia**.</span><span class="sxs-lookup"><span data-stu-id="027e6-110">For example, if you’re viewing or editing the default rating model, you’ll see the following proficiency levels in **Rating Values**.</span></span>  
   
-    |<span data-ttu-id="a1993-111">Meno</span><span class="sxs-lookup"><span data-stu-id="a1993-111">Name</span></span>|<span data-ttu-id="a1993-112">Hodnota</span><span class="sxs-lookup"><span data-stu-id="a1993-112">Value</span></span>|  
+    |<span data-ttu-id="027e6-111">Meno</span><span class="sxs-lookup"><span data-stu-id="027e6-111">Name</span></span>|<span data-ttu-id="027e6-112">Hodnota</span><span class="sxs-lookup"><span data-stu-id="027e6-112">Value</span></span>|  
     |----------|-----------|  
-    |<span data-ttu-id="a1993-113">Známe</span><span class="sxs-lookup"><span data-stu-id="a1993-113">Familiar</span></span>|<span data-ttu-id="a1993-114">1</span><span class="sxs-lookup"><span data-stu-id="a1993-114">1</span></span>|  
-    |<span data-ttu-id="a1993-115">Dobré</span><span class="sxs-lookup"><span data-stu-id="a1993-115">Good</span></span>|<span data-ttu-id="a1993-116">2</span><span class="sxs-lookup"><span data-stu-id="a1993-116">2</span></span>|  
-    |<span data-ttu-id="a1993-117">Skúsený</span><span class="sxs-lookup"><span data-stu-id="a1993-117">Proficient</span></span>|<span data-ttu-id="a1993-118">3</span><span class="sxs-lookup"><span data-stu-id="a1993-118">3</span></span>|  
+    |<span data-ttu-id="027e6-113">Známe</span><span class="sxs-lookup"><span data-stu-id="027e6-113">Familiar</span></span>|<span data-ttu-id="027e6-114">1</span><span class="sxs-lookup"><span data-stu-id="027e6-114">1</span></span>|  
+    |<span data-ttu-id="027e6-115">Dobré</span><span class="sxs-lookup"><span data-stu-id="027e6-115">Good</span></span>|<span data-ttu-id="027e6-116">2</span><span class="sxs-lookup"><span data-stu-id="027e6-116">2</span></span>|  
+    |<span data-ttu-id="027e6-117">Skúsený</span><span class="sxs-lookup"><span data-stu-id="027e6-117">Proficient</span></span>|<span data-ttu-id="027e6-118">3</span><span class="sxs-lookup"><span data-stu-id="027e6-118">3</span></span>|  
   
-4.  <span data-ttu-id="a1993-119">Pridať alebo zmeniť úroveň odbornosti, kliknite na tlačidlo tabuľky a vykonať požadované zmeny.</span><span class="sxs-lookup"><span data-stu-id="a1993-119">To add or change a proficiency level, click the table button and make the changes you want.</span></span>  
+4.  <span data-ttu-id="027e6-119">Pridať alebo zmeniť úroveň odbornosti, kliknite na tlačidlo tabuľky a vykonať požadované zmeny.</span><span class="sxs-lookup"><span data-stu-id="027e6-119">To add or change a proficiency level, click the table button and make the changes you want.</span></span>  
   
-5.  <span data-ttu-id="a1993-120">Kliknite na tlačidlo **Uložiť** v pravom dolnom rohu obrazovky.</span><span class="sxs-lookup"><span data-stu-id="a1993-120">Click the **Save** button in the bottom right corner of the screen.</span></span>  
+5.  <span data-ttu-id="027e6-120">Kliknite na tlačidlo **Uložiť** v pravom dolnom rohu obrazovky.</span><span class="sxs-lookup"><span data-stu-id="027e6-120">Click the **Save** button in the bottom right corner of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="a1993-121">Pozrite si tiež:</span><span class="sxs-lookup"><span data-stu-id="a1993-121">See Also</span></span>  
- [<span data-ttu-id="a1993-122">Nastavenie prostriedkov</span><span class="sxs-lookup"><span data-stu-id="a1993-122">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="027e6-121">Pozrite si tiež:</span><span class="sxs-lookup"><span data-stu-id="027e6-121">See Also</span></span>  
+ [<span data-ttu-id="027e6-122">Nastavenie prostriedkov</span><span class="sxs-lookup"><span data-stu-id="027e6-122">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

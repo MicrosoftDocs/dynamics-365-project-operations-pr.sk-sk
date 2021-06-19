@@ -2,8 +2,6 @@
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 27.5, oprava V3
 description: Táto téma obsahuje zoznam funkcií a opráv, ktoré sú dostupné v aktualizácii Project Service Automation, vydanie 27.5, oprava V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
 ms.topic: article
@@ -17,31 +15,31 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a12effe3af1c1c5596710af658a2811ba9496438
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: e8560fe00692767ea6e56594f402c967ef2ec107
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948798"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010670"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-275-v3"></a><span data-ttu-id="aa42c-103">Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 27.5, V3</span><span class="sxs-lookup"><span data-stu-id="aa42c-103">What's new or changed in Project Service Automation Update Release 27.5, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-275-v3"></a><span data-ttu-id="f252a-103">Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 27.5, V3</span><span class="sxs-lookup"><span data-stu-id="f252a-103">What's new or changed in Project Service Automation Update Release 27.5, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="aa42c-104">S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="aa42c-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="aa42c-105">Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti.</span><span class="sxs-lookup"><span data-stu-id="aa42c-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="aa42c-106">Toto vydanie je kompatibilné s Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="aa42c-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="aa42c-107">Ak chcete aktualizovať toto vydanie, navštívte stránku online riešení v centre spravovania služby Dynamics 365 a nainštalujte aktualizáciu.</span><span class="sxs-lookup"><span data-stu-id="aa42c-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="aa42c-108">Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="aa42c-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="f252a-104">S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="f252a-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="f252a-105">Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti.</span><span class="sxs-lookup"><span data-stu-id="f252a-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="f252a-106">Toto vydanie je kompatibilné s Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="f252a-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="f252a-107">Ak chcete aktualizovať toto vydanie, navštívte stránku online riešení v centre spravovania služby Dynamics 365 a nainštalujte aktualizáciu.</span><span class="sxs-lookup"><span data-stu-id="f252a-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="f252a-108">Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="f252a-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="aa42c-109">Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation V3, vydanie 27.5.</span><span class="sxs-lookup"><span data-stu-id="aa42c-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 27.5.</span></span> <span data-ttu-id="aa42c-110">Táto verzia má číslo zostavy V3.10.45.119 a je všeobecne dostupná prostredníctvom samoaktualizácie v januári 2021.</span><span class="sxs-lookup"><span data-stu-id="aa42c-110">This version has a build number of V3.10.45.119 and is generally available through a self-update in January 2021.</span></span>
+<span data-ttu-id="f252a-109">Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation V3, vydanie 27.5.</span><span class="sxs-lookup"><span data-stu-id="f252a-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 27.5.</span></span> <span data-ttu-id="f252a-110">Táto verzia má číslo zostavy V3.10.45.119 a je všeobecne dostupná prostredníctvom samoaktualizácie v januári 2021.</span><span class="sxs-lookup"><span data-stu-id="f252a-110">This version has a build number of V3.10.45.119 and is generally available through a self-update in January 2021.</span></span>
 
-## <a name="update-release-275"></a><span data-ttu-id="aa42c-111">Aktualizácia vydania 27.5</span><span class="sxs-lookup"><span data-stu-id="aa42c-111">Update Release 27.5</span></span>
+## <a name="update-release-275"></a><span data-ttu-id="f252a-111">Aktualizácia vydania 27.5</span><span class="sxs-lookup"><span data-stu-id="f252a-111">Update Release 27.5</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="aa42c-112">Opravy chýb</span><span class="sxs-lookup"><span data-stu-id="aa42c-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="f252a-112">Opravy chýb</span><span class="sxs-lookup"><span data-stu-id="f252a-112">Bug fixes</span></span>
 
 
-<span data-ttu-id="aa42c-113">**Správa zdrojov**</span><span class="sxs-lookup"><span data-stu-id="aa42c-113">**Resource Management**</span></span>
+<span data-ttu-id="f252a-113">**Správa zdrojov**</span><span class="sxs-lookup"><span data-stu-id="f252a-113">**Resource Management**</span></span>
 
-<span data-ttu-id="aa42c-114">Vyriešili sa tieto problémy:</span><span class="sxs-lookup"><span data-stu-id="aa42c-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="f252a-114">Vyriešili sa tieto problémy:</span><span class="sxs-lookup"><span data-stu-id="f252a-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="aa42c-115">Naplánujte degradáciu výkonu hľadania pomoci</span><span class="sxs-lookup"><span data-stu-id="aa42c-115">Schedule assistance search performance degradation</span></span>
+- <span data-ttu-id="f252a-115">Naplánujte degradáciu výkonu hľadania pomoci</span><span class="sxs-lookup"><span data-stu-id="f252a-115">Schedule assistance search performance degradation</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
