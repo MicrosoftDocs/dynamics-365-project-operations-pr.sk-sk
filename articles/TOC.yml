@@ -26,13 +26,15 @@
           items:
             - name: "Použitie konfiguračných údajov v\_službe Common Data Service"
               href: environment/resource-apply-pro-setup-config-data.md
-        - name: Nasadenie prostredí
+        - name: Nasadzovanie prostredí
           items:
+            - name: "Manuálne nasadenie aplikácie Project Operations Dataverse s\_podporou duálneho zápisu"
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Zriadenie nového prostredia
               href: environment/resource-provision-new-environment.md
             - name: Model zabezpečenia
               href: environment/security-model.md
-            - name: Konfigurácia integrácie Project Operations pre každú právnickú osobu
+            - name: Konfigurácia integrácie riešenia Project Operations pre jednotlivé právnické osoby
               href: environment/resource-configure-integration-per-legal-entity.md
         - name: Konfigurácia integrácie duálneho zápisu
           items:
@@ -48,10 +50,14 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Integrácia správy výdavkov
               href: environment/resource-dual-write-expense.md
-            - name: Integrácia faktúry dodávateľa
+            - name: Integrácia faktúr dodávateľov
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: Čo je nové
+    - name: Novinky
       items:
+        - name: "Júl\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: "Jún\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: "Máj\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: "Apríl\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
@@ -278,11 +284,11 @@
           items:
             - name: "Spolupráca pomocou skupín v\_Office"
               href: project-management/collaboration-groups.md
-        - name: Poznámky vývojára
+        - name: Poznámky pre vývojárov
           items:
-            - name: Vývoj šablón projektu pomocou akcie Kopírovať projekt
+            - name: Vývoj šablón projektov pomocou akcie Kopírovať projekt
               href: project-management/dev-copy-project.md
-            - name: Používanie rozhraní API plánovania (verejná verzia Preview)
+            - name: Používanie rozhraní API plánovania projektov (verejná verzia Preview)
               href: project-management/schedule-api-preview.md
     - name: Správa zdrojov
       items:
@@ -348,7 +354,7 @@
           items:
             - name: Používateľské rozhranie zadania času
               href: time/ui-behavior-time.md
-        - name: Poznámky vývojára
+        - name: Poznámky pre vývojárov
           items:
             - name: Prispôsobenie mriežky týždenných zadaní času
               href: time/customize-weekly-time-entry-grid.md
@@ -412,9 +418,9 @@
       items:
         - name: Prehľad schválení
           href: approvals/approvals-overview.md
-        - name: Poznámky vývojára
+        - name: Poznámky pre vývojárov
           items:
-            - name: Poznámky vývojára týkajúce sa schválení
+            - name: Poznámky pre vývojárov týkajúce sa schválení
               href: approvals/dev-notes-approvals.md
     - name: Skutočné hodnoty
       items:
@@ -430,17 +436,15 @@
       items:
         - name: "Konfigurácia neskladovaných materiálov a\_čakajúcich faktúr dodávateľov"
           href: procurement/configure-materials-nonstocked.md
-        - name: Obstarávanie neskladovaných materiálov pre projekty pomocou čakajúcich faktúr dodávateľov
+        - name: Obstarávanie neskladovaných materiálov pre projekty pomocou nevybavených faktúr dodávateľov
           href: procurement/pending-vendor-invoices.md
     - name: Fakturácia
       items:
-        - name: Prehľad spracovania faktúr
+        - name: Prehľad procesu fakturácie
           href: invoicing/post-project-invoices.md
-        - name: Správa návrhov projektových faktúr
-          href: invoicing/format-update-project-invoice-proposals.md
-        - name: Fakturácia pro forma
+        - name: Proforma fakturácia
           items:
-            - name: Správa backlogu pre fakturáciu založenú na projekte
+            - name: Správa backlogu pre fakturáciu založenú na projektoch
               href: proforma-invoicing/manage-billing-backlog.md
             - name: "Správa stavu, ktorý sa nesmie prekročiť, a\_overení"
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
@@ -452,13 +456,27 @@
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
             - name: Potvrdenie faktúry pro forma založenej na projekte
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Vytvorenie opravných faktúr založených na projekte
+            - name: Vytváranie opravných faktúr založených na projektoch
               href: proforma-invoicing/corrective-invoices.md
-            - name: Konfigurácia automatizácie faktúry založenej na projekte
+            - name: Konfigurácia automatizácie faktúr založených na projektoch
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Správa návrhov projektových faktúr
-          href: invoicing/format-update-project-invoice-proposals.md
-    - name: "Účtovníctvo v\_rámci projektu"
+        - name: Fakturácia zákazníkom
+          items:
+            - name: Správa návrhov projektových faktúr
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Správne účtovanie na základe konceptných návrhov projektových faktúr
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Medzipodniková fakturácia
+          items:
+            - name: Prehľad medzipodnikovej fakturácie
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurácia medzipodnikovej fakturácie
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Vytváranie medzipodnikových transakcií
+              href: project-accounting/create-intercompany-transactions.md
+            - name: "Vytváranie medzipodnikových faktúr zákazníkov a\_dodávateľov"
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: Projektové účtovníctvo
       items:
         - name: Predvolené hodnoty finančnej dimenzie
           href: project-accounting/financial-dimension-defaults.md
@@ -468,23 +486,13 @@
           href: project-accounting/configure-accounting-internal-projects.md
         - name: Konfigurácia účtovníctva pre fakturovateľné projekty
           href: project-accounting/configure-accounting-billable-projects.md
-        - name: "Denník integrácie v\_aplikácii Project Operations"
+        - name: "Denník integrácií v\_riešení Project Operations"
           href: project-accounting/project-operations-integration-journal.md
-        - name: Medzipodniková fakturácia
-          items:
-            - name: Prehľad medzipodnikovej fakturácie
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konfigurácia medzipodnikovej fakturácie
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Vytvorenie medzipodnikových transakcií
-              href: project-accounting/create-intercompany-transactions.md
-            - name: "Vytvorenie medzipodnikových faktúr zákazníkov a\_dodávateľov"
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
-    - name: Priznanie výnosov
+    - name: Priznávanie výnosov
       items:
-        - name: Prehľad priznania výnosov
+        - name: Prehľad priznávania výnosov
           href: revenue-recognition/revenue-recognition-overview.md
-        - name: Nastavenie priznania výnosov
+        - name: Nastavenie priznávania výnosov
           items:
             - name: Nastavenie typov období
               href: project-accounting/period-types.md
@@ -510,21 +518,25 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model zabezpečenia
           href: environment/security-model.md
-    - name: Čo je nové
+    - name: Novinky
       items:
-        - name: "Čo je nové v\_máji\_2021 – čiastočné nasadenie"
+        - name: "Novinky v\_júli\_2021 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: "Novinky v\_júni\_2021 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: "Novinky v\_máji\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: "Čo je nové v\_apríli\_2021 – čiastočné nasadenie"
+        - name: "Novinky v\_apríli\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: "Čo je nové v\_marci\_2021 – čiastočné nasadenie"
+        - name: "Novinky v\_marci\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: "Čo je nové vo februári\_2021 – čiastočné nasadenie"
+        - name: "Novinky vo februári\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: "Čo je nové v\_januári\_2021 – čiastočné nasadenie"
+        - name: "Novinky v\_januári\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: "Čo je nové v\_decembri\_2020 – čiastočné nasadenie"
+        - name: "Novinky v\_decembri\_2020 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: "Čo je nové v\_novembri\_2020 – čiastočné nasadenie"
+        - name: "Novinky v\_novembri\_2020 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: "Proces predaja v\_rámci projektu"
       items:
@@ -758,11 +770,11 @@
           items:
             - name: "Spolupráca pomocou skupín v\_Office"
               href: project-management/collaboration-groups.md
-        - name: Poznámky vývojára
+        - name: Poznámky pre vývojárov
           items:
-            - name: Vývoj šablón projektu pomocou akcie Kopírovať projekt
+            - name: Vývoj šablón projektov pomocou akcie Kopírovať projekt
               href: project-management/dev-copy-project.md
-            - name: Používanie rozhraní API plánovania (verejná verzia Preview)
+            - name: Používanie rozhraní API plánovania projektov (verejná verzia Preview)
               href: project-management/schedule-api-preview.md
     - name: Správa zdrojov
       items:
@@ -828,7 +840,7 @@
           items:
             - name: Používateľské rozhranie zadania času
               href: time/ui-behavior-time.md
-        - name: Poznámky vývojára
+        - name: Poznámky pre vývojárov
           items:
             - name: Prispôsobenie mriežky týždenných zadaní času
               href: time/customize-weekly-time-entry-grid.md
@@ -846,9 +858,9 @@
       items:
         - name: Prehľad schválení
           href: approvals/approvals-overview.md
-        - name: Poznámky vývojára
+        - name: Poznámky pre vývojárov
           items:
-            - name: Poznámky vývojára týkajúce sa schválení
+            - name: Poznámky pre vývojárov týkajúce sa schválení
               href: approvals/dev-notes-approvals.md
     - name: Skutočné hodnoty
       items:
@@ -880,17 +892,21 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations pre scenáre založené na zdrojoch/výrobe
   items:
-    - name: Čo je nové
+    - name: Novinky
       items:
-        - name: "Čo je nové v\_apríli\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+        - name: "Novinky v\_júli\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: "Novinky v\_máji\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+        - name: "Novinky v\_apríli\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: "Čo je nové v\_marci\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+        - name: "Novinky v\_marci\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: "Čo je nové v\_januári\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+        - name: "Novinky v\_januári\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: "Čo je nové v\_decembri\_2020 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+        - name: "Novinky v\_decembri\_2020 – Project Operations pre scenáre založené na zdrojoch/výrobe"
           href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: "Čo je nové v\_novembri\_2020 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+        - name: "Novinky v\_novembri\_2020 – Project Operations pre scenáre založené na zdrojoch/výrobe"
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Prehľad nasadenia aplikácie Project Operations pre scenáre založené na zdrojoch/výrobe
       href: prod-pma/project-operations-prod-order-deployment-overview.md
@@ -1030,67 +1046,71 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Čo je nové
+    - name: Novinky
       items:
-        - name: "Plán vydania aktualizácie pre Project Service\_3.x"
+        - name: "Plán vydávania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 32, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 32, V3'
           href: psa/whats-new-ur-32.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 31, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 31, V3'
           href: psa/whats-new-ur-31.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 30, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 30, V3'
           href: psa/whats-new-ur-30.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 29.5, rýchla oprava, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 29.5, rýchla oprava, V3'
           href: psa/whats-new-ur-29-5.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 29, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 29, V3'
           href: psa/whats-new-ur-29.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 28.6, rýchla oprava, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 28.6, rýchla oprava, V3'
           href: psa/whats-new-ur-28-6.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 28.5, rýchla oprava, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 28.5, rýchla oprava, V3'
           href: psa/whats-new-ur-28-5.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 28, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 28, V3'
           href: psa/whats-new-ur-28.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 27.6, rýchla oprava, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 27.6, rýchla oprava, V3'
           href: psa/whats-new-ur-27-6.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 27.5, rýchla oprava, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 27.5, rýchla oprava, V3'
           href: psa/whats-new-ur-27-5.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 27, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 27, V3'
           href: psa/whats-new-ur-27.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 26, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 26, V3'
           href: psa/whats-new-ur-26.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 25, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 25, V3'
           href: psa/whats-new-ur-25.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 24, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 24, V3'
           href: psa/whats-new-ur-24.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 23, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 23, V3'
           href: psa/whats-new-ur-23.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 22, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 22, V3'
           href: psa/whats-new-ur-21.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 20, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 20, V3'
           href: psa/whats-new-ur-20.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 19, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 19, V3'
           href: psa/whats-new-ur-19.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 18, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 18, V3'
           href: psa/whats-new-ur-18.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 17.5, rýchla oprava, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 17.5, rýchla oprava, V3'
           href: psa/whats-new-ur-17-5.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 17, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 17, V3'
           href: psa/whats-new-ur-17.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 16, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 16, V3'
           href: psa/whats-new-ur-16.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 15, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 15, V3'
           href: psa/whats-new-ur-15.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 14, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 14, V3'
           href: psa/whats-new-ur-14.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 13, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 13, V3'
           href: psa/whats-new-ur-13.md
-        - name: 'Čo je nové alebo čo sa zmenilo vo vydaní aktualizácie 12, V3'
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 12, V3'
           href: psa/whats-new-ur-12.md
-        - name: "Čo je nové alebo čo sa zmenilo v\_aplikácii Project Service Automation V3.x, 1.\_vlna vydaní na rok\_2021"
+        - name: "Novinky alebo zmeny v\_aplikácii Project Service Automation V3.x, 1.\_vlna vydaní na rok\_2021"
           href: psa/whats-new-2021-wave1.md
-        - name: "Čo je nové alebo čo sa zmenilo v\_aplikácii Project Service Automation V3.x, 1.\_vlna vydaní na rok\_2020"
+        - name: "Novinky alebo zmeny v\_aplikácii Project Service Automation V3.x, 1.\_vlna vydaní na rok\_2020"
           href: psa/whats-new-v3-2020-wave1.md
-        - name: "Čo je nové alebo čo sa zmenilo v\_aplikácii Project Service Automation V3"
+        - name: "Novinky alebo zmeny v\_aplikácii Project Service Automation V3"
           href: psa/whats-new-changed-v3.md
     - name: Plánovanie implementácie (aplikácia verzie 3.x)
       items:
