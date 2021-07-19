@@ -2,16 +2,16 @@
 title: Registrácia na odber ukážky Project Operations pre scenáre zdrojov/chýbajúcich zdrojov
 description: Táto téma poskytuje informácie o tom, ako sa prihlásiť na odber a nasadiť Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1b8c8982ede83191ce346e76718322d47abf0dd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da93fcf23ee3f255812842e31cb22b5d39daa963
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000455"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334846"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrácia na odber ukážky Project Operations pre scenáre zdrojov/chýbajúcich zdrojov
 
@@ -19,48 +19,30 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Táto téma vysvetľuje, ako sa prihlásiť na odber ukážky/ponuky partnera a nasadiť prostredie Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
+Táto téma vysvetľuje, ako sa prihlásiť na odber skúšobnej ponuky a nasadiť prostredie Project Operations pre scenáre založené na zdrojoch/také, ktoré nie sú na sklade.
 
 ## <a name="prerequisites"></a>Predpoklady
-
-- Dostanete e-mail s pozvánkou na účasť v ukážke. O ukážku môžete požiadať na [webovej stránke Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Používateľ, ktorý nasadí ukážku, musí mať práva globálneho správcu nájomníka platformy Azure.
+- Používateľ, ktorý nasadí ukážku, musí mať práva globálneho správcu nájomníka platformy Azure. Nájomníka si môžete vytvoriť počas prvého uplatnenia ponuky. 
 - Nasadenie finančného prostredia vyžaduje platné predplatné služieb Azure, ktoré sa bude fakturovať za každé prostredie. Na začiatok môžete použiť existujúce predplatné svojich organizácií alebo použiť [skúšobnú verziu Azure](https://azure.microsoft.com/en-us/free/). Prostredie CDS bude počas obmedzeného obdobia 30 dní poskytovaný zadarmo.
-
-## <a name="subscribe"></a>Prihlásiť sa na odber
-
-Keď je vaše schválenie [žiadosti o ukážku](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) schválené, dostanete e-mailom tri ponuky od spoločnosti Microsoft. Tieto ponuky vám umožňujú nasadiť ukážku Project Operations:
-
-- Dynamics 365 Project Operations (CRM) – Skúšobná verzia
-- Office 365 Project Operations – skúšobná verzia ukážky
-- Dynamics 365 Finance – skúšobná verzia
 
 > [!IMPORTANT]
 > Túto úlohu musí vykonať iba jedna osoba, správca nájomníka v organizácii. Ak nie ste predplatiteľom tohto vydania, počkajte, kým nebude zaregistrovaná vaša organizácia a kým dostanete svoje prihlasovacie údaje.
+> 
+> Skúšobné verzie sú u nájomcu jednorazové. Skúšobnú verziu môžete spustiť iba raz. Na účely skúšobného obdobia vám odporúčame vytvoriť nového nájomcu.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Skúšobná verzia 
+
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - skúšobná verzia Preview 
 
 Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovným účtom používateľa v nájomníkovi, kde chcete zobraziť ukážku Project Operations.
 
-1. Uplatnite prvý kód ponuky, **Dynamics 365 Project Operations (CRM) – Skúšobná verzia** vložením riadka s adresou URL prehliadača.
-
-![Uplatniť ponuku](./media/16RedeemFirstOfferNew.png)
-
+1. Uplatnite prvý kód ponuky **Dynamics 365 Project Operations** tu [Skúšobná verzia Project Operations](https://aka.ms/try-po).
 2. Potvrďte objednávku.
 
-![Potvrďte objednávku](./media/17ConfirmOrderNew.png)
-
-Uvidíte, že ponuka potvrdenia bola úspešne uplatnená.
-
-![Potvrdenie](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – skúšobná verzia ukážky
-
-Zopakujte rovnaké kroky ako pri prvom kóde ponuky. Nezabudnite pridať druhý kód ponuky pomocou rovnakého používateľského účtu, aký bol použitý s prvým kódom ponuky.
+  Uvidíte, že ponuka potvrdenia bola úspešne uplatnená.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Skúšobná verzia ukážky Dynamics 365 Finance
 
-Rovnaké kroky zopakujte aj pri poslednej ponuke z uvítacieho e-mailu.
+Prejdite do [Skúšobná verzia Preview Dynamics 365 for Finance](https://aka.ms/trypoche) a zopakujte kroky z predchádzajúcej časti s ponukou, prihláste sa do prostredia hosťovaného v cloude.  
 
 ## <a name="assign-licenses"></a>Priradenie licencií
 
@@ -69,13 +51,9 @@ Rovnaké kroky zopakujte aj pri poslednej ponuke z uvítacieho e-mailu.
 
 1. Prejdite do [Centrum pre správu Microsoft 365](https://portal.office.com/) na pridelenie licencií vašim používateľom.
 
-![Stránka správcu centra spravovania](./media/14AdminPortal.png)
-
 2. Na stránke **Aktívni používatelia** vyberte používateľov, ktorým chcete priradiť licenciu.
 
-![Priradenie licencií](./media/15AssignLicenses.png)
-
-3. Overte, či bola vybraná licencia **Dynamics 365 Project Operations (CRM) Ukážka** a **Office 365 Project Operations – Ukážka** a vyberte **Uložiť zmeny**.
+3. Overte, či bola vybratá licencia **Dynamics 365 Project Operations** a stlačte možnosť **Uložiť zmeny**.
 
 > [!NOTE]
 > Ponuku na vyskúšanie služby Finance nie je potrebné priradiť používateľovi.
@@ -95,7 +73,7 @@ Postupujte podľa pokynov v téme [Zriadenie nového prostredia](resource-provis
 ## <a name="install-cds-setup-and-configuration-data"></a>Inštalácia údajov CDS pre nastavenie a konfiguráciu
 
 Nainštalujte údaje pre nastavenie a konfiguráciu CDS podľa popisu v téme [Nastavenie a použitie konfiguračných údajov v Common Data Service](resource-apply-pro-setup-config-data.md).
-Tento krok dokončite až po nasadení ukážkového prostredia Finance a pripravení ukážkových údajov v FO.
+Tento krok dokončite až po nasadení ukážkového prostredia Finance a pripravení ukážkových údajov.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

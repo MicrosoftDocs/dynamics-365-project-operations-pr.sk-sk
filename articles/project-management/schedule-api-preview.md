@@ -1,19 +1,19 @@
 ---
-title: Používanie rozhraní API na plánovanie na vykonávanie operácií s entitami plánovania
-description: Táto téma poskytuje informácie a ukážky používania rozhraní API na plánovanie.
+title: Na vykonávanie operácií s entitami plánovania použite rozhrania API pre plánovanie projektu
+description: Táto téma poskytuje informácie a ukážky použitia rozhraní API plánovania projektu.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116816"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293246"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Používanie rozhraní API na plánovanie na vykonávanie operácií s entitami plánovania
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Na vykonávanie operácií s entitami plánovania použite rozhrania API pre plánovanie projektu
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -22,9 +22,9 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 ## <a name="scheduling-entities"></a>Entity na plánovanie
 
-Rozhrania API na plánovanie poskytujú možnosť vykonávať operácie vytvárania, aktualizácie a odstraňovania pomocou **Entít plánovania**. Tieto entity sú spravované prostredníctvom modulu Plánovanie v Projekte pre web. Operácie vytvárania, aktualizácie a odstraňovania pomocou **Entít plánovania** boli obmedzené v skorších vydaniach Dynamics 365 Project Operations.
+Rozhrania API pre plánovanie projektu umožňujú vykonávať operácie vytvárania, aktualizácie a mazania pomocou **Entít plánovania**. Tieto entity sú spravované prostredníctvom modulu Plánovanie v Projekte pre web. Operácie vytvárania, aktualizácie a odstraňovania pomocou **Entít plánovania** boli obmedzené v skorších vydaniach Dynamics 365 Project Operations.
 
-Nasledujúca tabuľka poskytuje úplný zoznam **Entít na plánovanie**.
+Nasledujúca tabuľka poskytuje úplný zoznam entít plánovania projektu.
 
 | Názov entity  | Logický názov entity |
 | --- | --- |
@@ -39,19 +39,19 @@ Nasledujúca tabuľka poskytuje úplný zoznam **Entít na plánovanie**.
 
 OperationSet je vzor jednotky práce, ktorý je možné použiť, keď sa v rámci transakcie musí spracovať niekoľko požiadaviek ovplyvňujúcich plán.
 
-## <a name="schedule-apis"></a>Rozhrania API pre plánovanie
+## <a name="project-schedule-apis"></a>API plánovania projektu
 
-Nasleduje zoznam aktuálnych rozhraní API pre plánovanie.
+Nasleduje zoznam aktuálnych rozhraní API plánovania projektu.
 
 - **msdyn_CreateProjectV1**: Toto rozhranie API možno použiť na vytvorenie projektu. Projekt a predvolený kontajner projektu sa vytvorí okamžite.
 - **msdyn_CreateTeamMemberV1**: Toto rozhranie API možno použiť na vytvorenie člena projektového tímu. Záznam o členovi tímu sa vytvorí okamžite.
 - **msdyn_CreateOperationSetV1**: Toto API možno použiť na naplánovanie niekoľkých požiadaviek, ktoré sa musia vykonať v rámci transakcie.
-- **msdyn_PSSCreateV1**: Toto API možno použiť na vytvorenie entity. Entita môže byť ktorákoľvek z entít plánovania, ktoré podporujú operáciu vytvorenia.
-- **msdyn_PSSUpdateV1**: Toto API možno použiť na aktualizáciu entity. Entita môže byť ktorákoľvek z entít plánovania, ktoré podporujú operáciu aktualizácie.
-- **msdyn_PSSDeleteV1**: Toto API možno použiť na odstránenie entity. Entita môže byť ktorákoľvek z entít plánovania, ktoré podporujú operáciu odstránenia.
+- **msdyn_PSSCreateV1**: Toto API možno použiť na vytvorenie entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu vytvorenia.
+- **msdyn_PSSUpdateV1**: Toto API možno použiť na aktualizáciu entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu aktualizácie.
+- **msdyn_PSSDeleteV1**: Toto API možno použiť na odstránenie entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu vymazania.
 - **msdyn_ExecuteOperationSetV1**: Toto API sa používa na vykonávanie všetkých operácií v rámci danej množiny operácií.
 
-## <a name="using-schedule-apis-with-operationset"></a>Používanie rozhraní API plánovania s množinou OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Používanie rozhraní API pre plánovanie projektu s OperationSet
 
 Pretože záznamy s **CreateProjectV1** a **CreateTeamMemberV1** sú vytvorené okamžite, tieto API nemôžu byť použité v **OperationSet** priamo. Môžete však použiť API na vytvorenie potrebných záznamov, vytvorenie **OperationSet** a potom použiť tieto vopred vytvorené záznamy v **OperationSet**.
 
@@ -257,7 +257,7 @@ Nasledujúce tabuľky definujú polia, ktoré sú obmedzené v rámci možností
 ## <a name="limitations-and-known-issues"></a>Obmedzenia a známe problémy
 Nasleduje zoznam obmedzení a známych problémov:
 
-- API pre plánovanie môžu používať iba **Používatelia s licenciou Microsoft Project**. Nemôžu ich používať:
+- Rozhrania API plánovania projektu môžu používať iba **Používatelia s licenciou Microsoft Project.** Nemôžu ich používať:
     - Používatelia aplikácie
     - Systémoví používatelia
     - Používatelia integrácie
@@ -271,7 +271,7 @@ Nasleduje zoznam obmedzení a známych problémov:
 ## <a name="error-handling"></a>Spracovanie chýb
 
    - Ak chcete skontrolovať chyby generované z množín operácií, prejdite na **Nastavenie**\> **Integrácia plánu** \> **Množiny operácií**.
-   - Ak chcete skontrolovať chyby generované službou plánovania projektu, choďte na **Nastavenia** \> **Integrácia plánu** \> **Denníky chýb PSS**.
+   - Ak chcete skontrolovať chyby generované službou plánovania projektu, prejdite na **Nastavenia** \> **Integrácia plánu** \> **Denník chýb PSS**.
 
 ## <a name="sample-scenario"></a>Vzorový scenár
 

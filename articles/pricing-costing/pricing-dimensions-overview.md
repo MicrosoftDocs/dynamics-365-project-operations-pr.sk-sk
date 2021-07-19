@@ -7,12 +7,13 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005000"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368495"
 ---
 # <a name="pricing-dimensions-overview"></a>Prehľad cenových dimenzií
 
@@ -41,8 +42,8 @@ Ak potrebujete ceny alebo náklady na svoje zdroje pomocou ďalších atribútov
 
 1. [Vytvorenie riešenia pre vlastné cenové dimenzie](../sales/create-solution-custompd.md)
 2. [Vytvorenie vlastných polí a entít](create-custom-fields-entities-pricing-dimensions.md)
-3. [Pridanie vlastných polí do entít nastavenia cien a transakcií](add-custom-fields-price-setup-transactional-entities.md)
-4. [Nastavenie vlastných polí ako cenových dimenzií](set-up-custom-fields-pricing-dimensions.md)
+3. [Pridanie vlastných polí do entít nastavenia cien a transakcií ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Nastavenie vlastných polí ako cenových dimenzií ](set-up-custom-fields-pricing-dimensions.md)
 5. [Aktualizácia atribútov doplnkov na zahrnutie nových dimenzií cien](update-plugin-attributes-pd.md)
 
 

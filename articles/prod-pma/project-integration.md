@@ -2,7 +2,7 @@
 title: Integrácia služby Microsoft Project Client
 description: Plánovanie a údržba plánu projektu môžu byť zložité, takže projektoví manažéri musia používať nástroje, ktoré im pomáhajú zvládnuť túto úlohu. Integrácia so službou Microsoft Project Client poskytuje podporu pre otvorenie a správu štruktúry rozdelenia práce na projekte.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999465"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269854"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrácia služby Microsoft Project Client
 
@@ -126,5 +126,12 @@ Ak chcete vytvoriť novú štruktúru rozdelenia práce pomocou Microsoft Projec
 
 11. Kliknite na tlačidlo **OK**.
 
+> [!NOTE]
+> Doplnok Project Client nepodporuje nasledujúce znaky vo formáte ID projektu:
+> 
+>   - Znak podčiarknutia
+>   - Bodka
+>   - Medzera
+>   - Lomítko
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

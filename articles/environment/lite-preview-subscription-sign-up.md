@@ -2,58 +2,40 @@
 title: Registrácia na odber ukážky – čiastočná
 description: Táto téma poskytuje informácie o tom, ako odoberať a nasadiť jednoduché nasadenie Project Operations – dohoda o fakturácii pro forma.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997440"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334801"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrácia na odber ukážky – čiastočná 
 
-Táto téma vysvetľuje, ako sa prihlásiť na odber ponuky verzie Preview partnera a čiastočne nasadiť Dynamics 365 Project Operations – dohoda o fakturácii pro forma.
+Táto téma vysvetľuje, ako sa prihlásiť na odber skúšobnej ponuky a nasadenia Dynamics 365 Project Operations Lite – dohoda o proforma fakturácii.
 
 > [!NOTE]
 > Tento proces sa zmení v nadchádzajúcich vydaniach Project Operations.
 
 ## <a name="prerequisites"></a>Predpoklady
-
-- Dostanete e-mail s pozvánkou na účasť v ukážke. O ukážku môžete požiadať na [webovej stránke Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Používateľ, ktorý nasadí ukážku, musí mať práva globálneho správcu nájomníka platformy Azure.
-- Prečítajte si všetky zmluvné podmienky.
-
-## <a name="subscribe"></a>Prihlásiť sa na odber
-
-Keď dostanete schválenie [žiadosti o ukážku](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) dostanete e-mailom dve ponuky od spoločnosti Microsoft. Tieto ponuky vám umožňujú nasadiť ukážku Project Operations:
-
-- Dynamics 365 Project Operations (CRM) – Skúšobná verzia
-- Office 365 Project Operations – skúšobná verzia ukážky
+- Používateľ, ktorý nasadí ukážku, musí mať práva globálneho správcu nájomníka platformy Azure. Nájomníka si môžete vytvoriť počas prvého uplatnenia ponuky.
 
 > [!IMPORTANT]
 > Túto úlohu musí vykonať iba jedna osoba, správca nájomníka v organizácii. Ak nie ste predplatiteľom tohto vydania, počkajte, kým nebude zaregistrovaná vaša organizácia a kým dostanete svoje prihlasovacie údaje.
+> 
+> Skúšobné verzie sú u nájomcu jednorazové. Skúšobnú verziu môžete spustiť iba raz. Na účely skúšobného obdobia vám odporúčame vytvoriť nového nájomcu.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Skúšobná verzia 
+### <a name="dynamics-365-project-operations-trial"></a>Skúšobná verzia Dynamics 365 Project Operations 
 
 Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovným účtom používateľa v nájomníkovi, kde chcete zobraziť ukážku Project Operations.
 
-1. Uplatnite prvý kód ponuky, **Dynamics 365 Project Operations (CRM) – Skúšobná verzia** vložením riadka s adresou URL prehliadača.
-
-![Uplatniť ponuku](./media/16RedeemFirstOfferNew.png)
-
+1. Prejdite na [Skúšobná verzia Project Operations](https://aka.ms/try-po) a uplatnite si prvý ponukový kód **Dynamics 365 Project Operations**.
 2. Potvrďte objednávku.
-![Potvrďte objednávku](./media/17ConfirmOrderNew.png)
 
-Uvidíte, že ponuka potvrdenia bola úspešne uplatnená.
-
-![Potvrdenie](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – skúšobná verzia ukážky
-
-Zopakujte rovnaké kroky ako pri prvom kóde ponuky. Nezabudnite pridať druhý kód ponuky pomocou rovnakého používateľského účtu, aký bol použitý s prvým kódom ponuky.
+  Uvidíte, potvrdenie, že ponuka bola úspešne uplatnená.
 
 ## <a name="assign-licenses"></a>Priradenie licencií
 
@@ -62,25 +44,20 @@ Zopakujte rovnaké kroky ako pri prvom kóde ponuky. Nezabudnite pridať druhý 
 
 
 1. Prejdite do [Centrum pre správu Microsoft 365](https://portal.office.com/) na pridelenie licencií vašim používateľom.
-
-![Stránka správcu centra spravovania](./media/14AdminPortal.png)
-
 2. Na stránke **Aktívni používatelia** vyberte používateľov, ktorým chcete priradiť licenciu.
-
-![Priradenie licencií](./media/15AssignLicenses.png)
-
-3. Overte si, či sú vybrané licencie **Verzia Preview aplikácie Dynamics 365 Project Operations (CRM)** a **Office 365 Project Operations – verzia Preview**. 
+3. Overte, či je vybratá licencia **Dynamics 365 Project Operations**. 
 4. Vyberte **Uložiť zmeny**.
 
-## <a name="create-a-new-cds-environment"></a>Vytvorenie nového prostredia CDS
+## <a name="create-a-new-dataverse-environment"></a>Vytvorenie nového prostredia Dataverse
 
-1. Poskytnite nové prostredie nasadenia Project Operations CDS podľa pokynov v téme [Model nasadenia CDS](lite-deployment.md). Keď vyberiete typ prostredia, nezabudnite použiť **Skúšobnú verziu (na základe predplatného)**.
-![Nové prostredie](./media/19CreateEnvironment.png)
+1. Poskytnite nové prostredie nasadenia Project Operations Dataverse podľa pokynov v téme [Model nasadenia Dataverse](lite-deployment.md). Keď vyberiete typ prostredia, nezabudnite použiť **Skúšobnú verziu (na základe predplatného)**.
+
+  ![Nové prostredie](./media/19CreateEnvironment.png)
 
 2. Vyberte nastavenie **Povoliť aplikácie Dynamics 365** a nechajte možnosť **Automaticky nasadiť tieto aplikácie** prázdnu.  
 3. Výberom položky **Uložiť** vytvoríte prostredie.
 
-![Pridať databázu](./media/20CreateEnvironment1.png)
+  ![Pridať databázu](./media/20CreateEnvironment1.png)
 
 4. Po vytvorení prostredia nainštalujte riešenie **Microsoft Dynamics 365 Project Operations**. 
 
