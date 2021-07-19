@@ -1,0 +1,42 @@
+---
+title: Správne účtovanie na základe konceptných návrhov projektových faktúr
+description: Táto téma vysvetľuje, ako upraviť informácie týkajúce sa účtovníctva v návrhu koncepcie faktúry.
+author: sigitac
+ms.date: 06/07/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 387dc9a81db9c22f170b664152cbafeddf72d149
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.translationtype: HT
+ms.contentlocale: sk-SK
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251273"
+---
+# <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a><span data-ttu-id="82ae2-103">Správne účtovanie na základe konceptných návrhov projektových faktúr</span><span class="sxs-lookup"><span data-stu-id="82ae2-103">Correct the accounting on draft project invoice proposals</span></span>
+
+<span data-ttu-id="82ae2-104">_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_</span><span class="sxs-lookup"><span data-stu-id="82ae2-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="82ae2-105">*Prevádzkové podrobnosti* pre projektové faktúry vedie projektový manažér na proforma faktúre.</span><span class="sxs-lookup"><span data-stu-id="82ae2-105">*Operational details* for project invoices are maintained by the project manager on a pro forma invoice.</span></span> <span data-ttu-id="82ae2-106">Medzi tieto podrobnosti patrí rozhodnutie o hodinách, výdavkoch, materiáloch alebo míľnikoch, ktoré musia byť fakturované, sadzby a uplatnenie záloh a zadržaných súm.</span><span class="sxs-lookup"><span data-stu-id="82ae2-106">These details include the decision about the hours, expenses, materials, or milestones that must be invoiced, the rates, and the application of advance and retainer amounts.</span></span> <span data-ttu-id="82ae2-107">Po potvrdení pôvodnej proforma faktúry môžete upraviť prevádzkové podrobnosti vytvorením a potvrdením [opravnej proforma faktúry](../proforma-invoicing/corrective-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="82ae2-107">After you confirm the original pro forma invoice, you can adjust the operational details by creating and confirming a [corrective pro forma invoice](../proforma-invoicing/corrective-invoices.md).</span></span>
+
+<span data-ttu-id="82ae2-108">*Účtovné údaje* faktúry za projekt sa uchovávajú v dokumente faktúry orientovanej na zákazníka.</span><span class="sxs-lookup"><span data-stu-id="82ae2-108">*Accounting details* for project invoices are maintained in a customer-facing invoice document.</span></span> <span data-ttu-id="82ae2-109">Tieto podrobnosti zahŕňajú výpočet dane z obratu a finančné dimenzie, ktoré sa vzťahujú na faktúru.</span><span class="sxs-lookup"><span data-stu-id="82ae2-109">These details include the sales tax calculation and the financial dimensions that are applied to the invoice.</span></span> <span data-ttu-id="82ae2-110">Táto téma poskytuje podrobnosti o tom, ako je možné tieto účtovné podrobnosti upraviť v koncepte návrhu faktúry projektu.</span><span class="sxs-lookup"><span data-stu-id="82ae2-110">This topic provides details about how these accounting details can be adjusted on a draft project invoice proposal.</span></span>
+
+## <a name="adjust-sales-tax"></a><span data-ttu-id="82ae2-111">Úprava dane z predaja</span><span class="sxs-lookup"><span data-stu-id="82ae2-111">Adjust sales tax</span></span>
+
+<span data-ttu-id="82ae2-112">Predvolené skupiny fakturácie dane z predaja a skupiny dane z predaja položiek je možné upraviť priamo v dokumente návrhu faktúry.</span><span class="sxs-lookup"><span data-stu-id="82ae2-112">Default billing sales tax groups and item sales tax groups can be adjusted directly on the invoice proposal document.</span></span> <span data-ttu-id="82ae2-113">Ak chcete upraviť tieto skupiny, stlačte možnosť **Upraviť**, a potom na každom riadku návrhu faktúry za projekt zadajte novú hodnotu do poľa **Skupina dane z predaja** alebo do poľa **Skupina dane z predaja položiek**.</span><span class="sxs-lookup"><span data-stu-id="82ae2-113">To adjust these groups, select **Edit**, and then, on each project invoice proposal line, enter a new value in the **Sales tax group** or **Item sales tax group** field.</span></span>
+
+## <a name="adjust-financial-dimensions"></a><span data-ttu-id="82ae2-114">Úprava finančných dimenzií</span><span class="sxs-lookup"><span data-stu-id="82ae2-114">Adjust financial dimensions</span></span>
+
+<span data-ttu-id="82ae2-115">Finančné dimenzie nemožno upravovať priamo na riadku ponuky faktúry za projekt.</span><span class="sxs-lookup"><span data-stu-id="82ae2-115">Financial dimensions can't be edited directly on a project invoice proposal line.</span></span> <span data-ttu-id="82ae2-116">Namiesto toho postupujte podľa týchto krokov a upravte finančné dimenzie v návrhu projektovej faktúry.</span><span class="sxs-lookup"><span data-stu-id="82ae2-116">Instead, follow these steps to adjust financial dimensions on a project invoice proposal.</span></span>
+
+1. <span data-ttu-id="82ae2-117">Na návrhu faktúry projektu stlačte možnosť **Vymazať všetko** a odstráňte riadky konceptu faktúry projektu.</span><span class="sxs-lookup"><span data-stu-id="82ae2-117">On the project invoice proposal, select **Delete all** to remove the project invoice proposal lines.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="82ae2-118">Tlačidlo **Vymazať všetko** je k dispozícii až po povolení možnosti **Vymazať riadky návrhu faktúry pri používaní Project Operations na scenára na základe zdrojov/nenaskladnenia** v pracovnom priestore **Správa funkcií**.</span><span class="sxs-lookup"><span data-stu-id="82ae2-118">The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.</span></span>
+
+2. <span data-ttu-id="82ae2-119">Úprava finančných dimenzií:</span><span class="sxs-lookup"><span data-stu-id="82ae2-119">Adjust the financial dimensions:</span></span>
+
+    - <span data-ttu-id="82ae2-120">**Transakcie na účet (míľniky fakturácie):** Prejdite do **Všetky projekty** \> **Spravovať** \> **Transakcie na účet** a vyberte míľnik, ktorý je potrebné upraviť.</span><span class="sxs-lookup"><span data-stu-id="82ae2-120">**On-account transactions (billing milestones):** Go to **All projects** \> **Manage** \> **On-account transactions**, and select the milestone that requires adjustment.</span></span> <span data-ttu-id="82ae2-121">Potom na karte **Finančné dimenzie** podľa potreby aktualizujte hodnoty.</span><span class="sxs-lookup"><span data-stu-id="82ae2-121">Then, on the **Financial dimensions** tab, update the values as required.</span></span>
+    - <span data-ttu-id="82ae2-122">**Časové, nákladové a materiálne transakcie:** Na stránke **Zaúčtované projektové transakcie** stačte možnosť **Upraviť účtovníctvo** a aktualizujte finančné dimenzie.</span><span class="sxs-lookup"><span data-stu-id="82ae2-122">**Time, expense, and material transactions:** On the **Posted project transactions** page, select **Adjust accounting** to update the financial dimensions.</span></span>
+
+3. <span data-ttu-id="82ae2-123">Po dokončení úprav hodnôt finančnej dimenzie prejdite na **Projektový manažment a účtovníctvo** \> **Periodické** \> **Integrácia Project Operations** a stlačte možnosť **Import z pracovnej tabuľky** , čím sa spustí pravidelný proces.</span><span class="sxs-lookup"><span data-stu-id="82ae2-123">After you've finished adjusting the financial dimension values, go to **Project management and accounting** \> **Periodic** \> **Project Operations integration**, and select **Import from staging table** to run the periodic process.</span></span> <span data-ttu-id="82ae2-124">Tento proces používa aktualizované hodnoty finančných dimenzií na opätovné vytvorenie riadkov návrhu faktúry projektu.</span><span class="sxs-lookup"><span data-stu-id="82ae2-124">That process uses the updated financial dimension values to re-create the project invoice proposal lines.</span></span> <span data-ttu-id="82ae2-125">Aktualizované hodnoty sa potom použijú v sekundárnej knihe projektu a hlavnej knihe pri zaúčtovaní faktúry projektu.</span><span class="sxs-lookup"><span data-stu-id="82ae2-125">The updated values are then used in the project subledger and general ledger when the project invoice is posted.</span></span>
