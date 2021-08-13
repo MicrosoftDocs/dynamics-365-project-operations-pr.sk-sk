@@ -832,6 +832,16 @@
           items:
             - name: Prehľad využitia zdroja
               href: resource-management/resource-utilization-overview.md
+    - name: "Správa subdodávateľských zmlúv v\_aplikácii Project Operations"
+      items:
+        - name: Prehľad spravovania subdodávateľských zmlúv
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: "Kľúčové koncepty v\_subdodávateľských zmluvách"
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: "Spravovanie dodávateľov a\_projektových cenníkov"
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subdodávatelia ako rezervovateľné zdroje
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Čas
       items:
         - name: Prehľad času
@@ -1048,8 +1058,10 @@
       href: psa/overview.md
     - name: Novinky
       items:
-        - name: "Plán vydávania aktualizácií pre Project Service\_3.x"
+        - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 32.5, V3'
