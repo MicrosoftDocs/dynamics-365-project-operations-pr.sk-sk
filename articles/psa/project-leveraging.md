@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998430"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995195"
 ---
 # <a name="sales-estimates-and-projects"></a>Odhady predaja a projekty
 
@@ -35,11 +35,11 @@ Počas procesu predaja môžete vytvoriť odhady predaja prepojením projektu s 
 
 Keď vytvoríte riadok cenovej ponuky založený na projekte, môžete vytvoriť nový projekt alebo priradiť existujúci projekt na stránke **riadok cenovej ponuky**. 
 
-> ![Formulár riadka cenovej ponuky](media/project-8.png)
+> ![Formulár riadka cenovej ponuky.](media/project-8.png)
  
 Keď vytvoríte nový projekt z podrobností riadka cenovej ponuky, môžete využiť šablóny projektu. Šablóny projektu sú modelové projekty, ktoré predstavujú štandardné projektové plány a finančné odhady, ktoré sú typické pre organizáciu. Môžu tiež reprezentovať kópie projektových plánov a odhadov z minulých projektov.
 
-> ![Podrobnosti o riadku cenovej ponuky](media/project-9.png)
+> ![Podrobnosti o riadku cenovej ponuky.](media/project-9.png)
   
 Keď vytvoríte projekt z cenovej ponuky, projekt sa automaticky priradí k riadku cenovej ponuky.
 
