@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998025"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996860"
 ---
 # <a name="fulfilling-resource-requests"></a>Plnenie požiadaviek na zdroje
 
@@ -33,15 +33,15 @@ Požiadavky na zdroje je možné odosielať ako požiadavky na zdroje manažéro
 
 Požiadavky na zdroje sa zobrazujú ako zoznam v zobrazení **Žiadosti o aktívne zdroje**.
 
-> ![Zoznam žiadostí o zdroje](media/Resource-Management-image59.png)
+> ![Zoznam žiadostí o zdroje.](media/Resource-Management-image59.png)
 
 Ak chcete vyhovieť požiadavke, vyberte ju v zozname a potom vyberte položku **Vyhľadať zdroje**. Prípadne dvakrát kliknite na riadok, čím otvoríte žiadosť. Potom môžete vybrať kartu **Požiadavka na zdroj** a zobraziť si požiadavky pre danú požiadavku. Ak chcete začať plniť požiadavku, vyberte položku **Vyhľadať zdroje**.
 
-> ![Podrobnosti požiadavky zdroja](media/Resource-Management-image60.png)
+> ![Podrobnosti požiadavky zdroja.](media/Resource-Management-image60.png)
 
 Zobrazí sa Asistent plánovania a filtruje sa podľa požiadaviek. Vyberte zdroj a potom vyberte možnosť **Rezervovať**.
 
-> ![Zdroj vybratý](media/Resource-Management-image61.png)
+> ![Zdroj vybratý.](media/Resource-Management-image61.png)
 
 Všeobecný člen tímu je nahradený pevne rezervovaným vymenovaným zdrojom v projektovom tíme a priradeniu úlohy v pláne projektu.
 

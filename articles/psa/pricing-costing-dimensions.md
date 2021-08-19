@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368900"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998480"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domovská stránka dimenzíí ceny a ocenenia
 
@@ -41,7 +41,7 @@ Vzhľadom na typický charakter týchto atribútov práce a ľudí potrebných n
 
 PSA lode s predvolenou sadou cenových dimenzií. Tieto môžete zobraziť tak, že prejdete **Project Service** > **parametre**. V zázname parametra, karta **cenové dimenzie založené na čiastke**, overuje, že role, **msdyn_resourcecategory** a zdrojová organizačná jednotka, **msdyn_organizationalunit** majú polia **Vzťahujúce sa na predaj** a **vzťahujúce sa na náklad** nastavené na **Áno**. To vám umožní nastaviť cenu a náklady pre každú rolu a organizačnú jednotku kombinácie.
 
-![Screenshot z parametrov Project Service so zvýrazneným "použiteľné pre predaj"](media/PS-OOB-parameters.png)
+![Snímka obrazovky z parametrov Project Service so zvýrazneným „Vzťahuje sa na predaj“.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Ak ste boli používateľom polí role out-of-box a organizačnej jednotky ako cenové dimenzie pred verziou 3 PSA, nebudú žiadne pozorovateľné zmeny. Môžete naďalej používať Project Service ako zvyčajne. 

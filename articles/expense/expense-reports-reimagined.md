@@ -2,7 +2,7 @@
 title: Prepracované výkazy výdavkov
 description: Táto téma vysvetľuje prepracované a zmenené prostredie na zadávanie výkazov výdavkov.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251023"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997850"
 ---
 # <a name="expense-reports-reimagined"></a>Prepracované výkazy výdavkov
 
@@ -57,12 +57,13 @@ Nové prostredie zapnete pomocou pracovného priestoru **Správa funkcií**, č�
 | Kalkulačka výmenných kurzov | Bola pridaná kalkulačka výmenných kurzov, ktorá umožňuje vypočítať výmenný kurz pre hotovostné transakcie s viacerými menami. |
 | Ukladanie a pridávanie nových riadkov výdavkov | Tlačidlá **Uložiť** a **Nový** sú k dispozícii pri zadávaní nových výdavkov, aby vám pomohli rýchlo zadať riadky výdavkov. |
 | Lepšia viditeľnosť rozdelených a rozpísaných riadkov | Rozpísané položky a rozdelené riadky sa pridávajú priamo do zoznamu výdavkov, aby sa zvýšila viditeľnosť a aby ste mohli ľahko určiť, či nedošlo k chybám. |
-| Zobraziť podrobnosti podkategórie v riadkoch s položkami | Rozdelené riadky nadradeného výdavku zobrazujú štítky podkategórií v prehľade výdavkov, čo vám pomôže na prvý pohľad skontrolovať podrobné informácie.|
+| Zobraziť podrobnosti podkategórie v riadkoch s položkami | Rozpísané riadky nadradeného výdavku zobrazujú štítky podkategórií v správe o výdavkoch. Rozpísanie vám umožní pozrieť si podrobné informácie na prvý pohľad.|
 | Zobrazenie potvrdení počas rozpisu | Počas rozpisu je možné zobraziť potvrdenia. |
 | Výber zálohy v hotovosti | Vyberte jednu alebo viac záloh v hotovosti na uskutočnenie transakcie s jedným výdavkom. |
 | Zostatok zálohy v hotovosti | Skontrolujte zostatok zálohy v hotovosti v reálnom čase, keď vytvoríte záznam výdavkov v porovnaní so schválenými a vyplatenými zálohami v hotovosti. |
 
 Počiatočné vydanie je zamerané na scenáre zadávania výdavkov. Akýkoľvek scenár kontroly alebo schválenia výkazu výdavkov bude naďalej používať existujúcu stránku zadávania výdavkov.
+
 
 Nasledujúce funkcie nie sú podporované v prepracovanom pracovnom priestore zostavy výdavkov, ale sú plánované pre budúce vydania: 
 
