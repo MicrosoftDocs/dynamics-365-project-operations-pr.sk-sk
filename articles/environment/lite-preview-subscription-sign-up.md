@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334801"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991550"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrácia na odber ukážky – čiastočná 
 
@@ -52,16 +52,16 @@ Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovný
 
 1. Poskytnite nové prostredie nasadenia Project Operations Dataverse podľa pokynov v téme [Model nasadenia Dataverse](lite-deployment.md). Keď vyberiete typ prostredia, nezabudnite použiť **Skúšobnú verziu (na základe predplatného)**.
 
-  ![Nové prostredie](./media/19CreateEnvironment.png)
+  ![Nové prostredie.](./media/19CreateEnvironment.png)
 
 2. Vyberte nastavenie **Povoliť aplikácie Dynamics 365** a nechajte možnosť **Automaticky nasadiť tieto aplikácie** prázdnu.  
 3. Výberom položky **Uložiť** vytvoríte prostredie.
 
-  ![Pridať databázu](./media/20CreateEnvironment1.png)
+  ![Pridajte databázu.](./media/20CreateEnvironment1.png)
 
 4. Po vytvorení prostredia nainštalujte riešenie **Microsoft Dynamics 365 Project Operations**. 
 
-![Inštalácia riešenia](./media/21InstallSolution.png)
+![Nainštalujte riešenie.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Nainštalujte ukážkové údaje konfigurácie a nastavenia CDS
 

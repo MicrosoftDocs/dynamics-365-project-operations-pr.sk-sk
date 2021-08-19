@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008690"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990515"
 ---
 # <a name="skills-and-proficiency-models"></a>Modely zručností a odbornosti
 
@@ -33,7 +33,7 @@ Zručnosti sú charakteristiky zdrojov, ktoré sú zdieľané medzi Dynamics 365
 
 Ak chcete zachovať úložisko zručností v Project Service Automation, prejdite do ponuky **Zdroje** \> **Odbornosti zdrojov**. 
 
-> ![Odbornosti zdrojov](media/Resource-Management-image84.png)
+> ![Odbornosti zdroja.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Používanie modelov odbornosti na hodnotenie zdrojov
 
@@ -43,7 +43,7 @@ Zručnosti pre zdroje sú hodnotené podľa modelov odbornosti. Jednotlivé hodn
 2. V novom modeli hodnotenia zadajte minimálnu hodnotu hodnotenia, maximálnu hodnotu hodnotenia a entitu, ktorá je hodnotená.
 3. Vo vedľajšej mriežke **Hodnoty hodnotenia** môžete definovať rôzne hodnoty hodnotenia od minimálnej po maximum.
 
-> ![Minimálne a maximálne definované hodnotenia](media/Resource-Management-image85.png)
+> ![Minimálne a maximálne definované hodnotenia.](media/Resource-Management-image85.png)
 
 Tieto hodnoty hodnotenia sa zobrazujú vo filtroch **Požiadavky na zdroje**, **Tabuľa plánovania** a **Asistent plánovania**.
 

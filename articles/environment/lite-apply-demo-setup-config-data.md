@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997170"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993305"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Použitie ukážkových údajov nastavenia a konfigurácie pre Project Operations – čiastočné 
 
@@ -30,24 +30,24 @@ Pred začatím konfigurácie musíte mať zriadené prostredie Common Data Servi
 2. Prejdite do priečinka *ProjOpsSampleSetupData - iba CMT s CE* a spustite spustiteľný súbor *DataMigrationUtility*.
 3. Na strane 1 Common Data Service Sprievodcu migráciou konfigurácie (CMT) vyberte **Import údajov** a potom vyberte **Pokračovať**.
 
-    ![Migrácia konfigurácie](./media/1ConfigurationMigration.png)
+    ![Migrácia konfigurácie.](./media/1ConfigurationMigration.png)
 
 4. Na strane 2 Sprievodcu CMT vyberte **Microsoft 365** ako **Typ nasadenia**.
 5. Vyberte možnosť **Zobraziť zoznam dostupných organizácií** a začiarkavacie políčka **Zobraziť rozšírené**.
 6. Vyberte oblasť svojho nájomníka, zadajte svoje poverenia a potom vyberte **Prihlásiť sa**.
 
-   ![Prihlásenie do konfigurácie](./media/2ConfigurationSignin.png)
+   ![Prihlásenie do konfigurácie.](./media/2ConfigurationSignin.png)
 
 7. Na strane 3 zo zoznamu Organizácie v časti Nájomník vyberte, do ktorej organizácie chcete importovať ukážkové údaje, a potom vyberte **Prihlásiť sa**.
 8. Na strane 4 vyberte súbor .zip *SampleSetupAndConfigData* z rozbaleného priečinka *ProjOpsSampleSetupData - iba CMT s CE*.
 
-   ![Súbor Zip](./media/3ZipFile.png)
+   ![Súbor Zip.](./media/3ZipFile.png)
 
-   ![Vybrať súbor](./media/4SelectAFile.png)
+   ![Vybrať súbor.](./media/4SelectAFile.png)
 
 9. Po výbere súboru zip vyberte **Import údajov**.
 
-   ![Importovať údaje](./media/5ImportData.png)
+   ![Import údajov.](./media/5ImportData.png)
 
 10. Import bude trvať približne dve až desať minút v závislosti od rýchlosti vašej siete. Po dokončení ukončite sprievodcu CMT. 
 11. Skontrolujte údaje svojej organizácie v nasledujúcich 18 entitách:
@@ -71,7 +71,7 @@ Pred začatím konfigurácie musíte mať zriadené prostredie Common Data Servi
     -   Priradenie kategórie rezervovateľného zdroja
     -   Charakteristika rezervovateľného zdroja
 
-    ![Dokončenie importu](./media/6CompleteImport.png)
+    ![Dokončenie importu.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

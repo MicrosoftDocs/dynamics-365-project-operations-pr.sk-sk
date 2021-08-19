@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007520"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990814"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Vyhľadajte svoj ďalší projekt cez aplikáciu Project Finder Mobile (Project Service)
 
@@ -38,14 +38,14 @@ S aplikáciou Project Finder Mobile na telefóne [!INCLUDE[tn_iphone](../include
   
  Ťuknutím na šípku vpravo od projektu označíte, že máte záujem o zobrazenie ďalších podrobnosti.  
   
- ![Zoznam zručností pre projekt v mobilnej aplikácii Project Finder](../psa/media/project-service-project-finder-list.png "Zoznam zručností pre projekt v mobilnej aplikácii Project Finder")  
+ ![Zoznam zručností pre projekt v aplikácii Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Zoznam zručností pre projekt v mobilnej aplikácii Project Finder")  
   
 ## <a name="update-your-skills"></a>Aktualizujte si zručnosti  
  Ťuknite na tlačidlo profilu v pravom dolnom rohu obrazovky a aktualizujte si svoje zručnosti a úrovne spôsobilosti.  
   
- ![Tlačidlo Profil mobilnej aplikácie Project Finder](../psa/media/project-service-project-finder-profile.png "Tlačidlo Profil mobilnej aplikácie Project Finder")  
+ ![Tlačidlo Profil aplikácie Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Tlačidlo Profil mobilnej aplikácie Project Finder")  
   
-### <a name="see-also"></a>Pozrite si tiež  
+### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
 
 

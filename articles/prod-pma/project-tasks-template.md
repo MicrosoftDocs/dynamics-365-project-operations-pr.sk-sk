@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 16cd38f2f190414d7be9c93e8ab90d55006f47e1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009995"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992810"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizácia projektových úloh priamo z Project Service Automation do Finance and Operations
 
@@ -39,7 +39,7 @@ Integračné riešenie Project Service Automation do služby Finance využíva f
 
 Nasledujúca ilustrácia ukazuje, ako sa synchronizujú údaje medzi Project Service Automation a Finance.
 
-[![Tok údajov pre integráciu Project Service Automation s Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Tok údajov pre integráciu Project Service Automation s Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Šablóna a úloha
 
@@ -80,7 +80,7 @@ Ak musíte použiť Power Query, postupujte podľa tohto pokynu:
 
 Nasledujúca ilustrácia ukazuje príklad mapovania úlohy šablóny v Integrácii údajov. Mapovanie zobrazuje informácie o poli, ktoré sa budú synchronizovať z Project Service Automation do Finance.
 
-[![Mapovanie šablón](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Mapovanie šablón.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

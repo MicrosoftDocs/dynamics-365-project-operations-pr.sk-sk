@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996585"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993260"
 ---
 # <a name="project-invoice-integration"></a>Integrácia projektovej faktúry
 
@@ -20,7 +20,7 @@ Táto téma poskytuje informácie o integrácii duálneho zápisu Project Operat
 
 V rámci Project Operations manažér projektu spravuje nevybavené fakturácie projektu a vytvára proforma faktúru pre zákazníka v Microsoft Dataverse. Na základe tejto proforma faktúry účtovník pohľadávky alebo účtovník projektu vytvorí faktúru obrátenú na zákazníka. Integrácia duálneho zápisu zaručuje, že sa synchronizujú podrobnosti proforma faktúry s aplikáciami Finance and Operations. Po zaúčtovaní faktúry orientovanej na zákazníka systém aktualizuje príslušné skutočnosti projektu v Dataverse s účtovnými podrobnosťami. Nasledujúca grafika poskytuje koncepčný prehľad na vysokej úrovni o tejto integrácii.
 
-   ![Integrácia projektovej faktúry](./media/DW5Invoicing.png)
+   ![Integrácia projektovej faktúry.](./media/DW5Invoicing.png)
 
 Potom, čo projektový manažér potvrdí proforma faktúru v Dataverse, informácie v hlavičke proforma faktúry sa synchronizujú s aplikáciami Finance and Operations využívajúce mapu tabuľky dvojitého zápisu, **Návrh faktúry projektu V2 (faktúry)**. Toto je jednosmerná integrácia z Dataverse do aplikácií Finance and Operations. Vytváranie alebo mazanie návrhov faktúr projektu priamo v aplikáciách Finance and Operations nie sú podporované.
 

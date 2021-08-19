@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007610"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992405"
 ---
 # <a name="estimates"></a>Odhady
 
@@ -83,24 +83,24 @@ Ak ste do podrobností riadka cenovej ponuky pridali vlastné pole a chcete, aby
 1. Otvorte PluginRegistrationTool a pripojte sa k online inštancii.
 2. Vyberte položku **Hľadať** a vyhľadajte doplnok, ktorý chcete aktualizovať.
 
-    ![Prehľadajte stromové dialógové okno](media/basic-guide-19.png)
+    ![Dialógové okno Prehľadávať strom.](media/basic-guide-19.png)
 
 3. Vyberte doplnok a potom na hlavnej stránke vyberte položku **vybrať**.
 4. Vyberte krok doplnku, ktorý chcete aktualizovať, kliknite pravým tlačidlom myši a potom vyberte položku **aktualizovať.**
 
-    ![Výber kroku v doplnku](media/basic-guide-20.png)
+    ![Výber kroku v doplnku.](media/basic-guide-20.png)
 
 5. V dialógovom okne **aktualizovať existujúci krok** v poli **filtrovanie atribútov** vyberte elipsové tlačidlo (**...**):
  
-    ![Aktualizujte dialógové okno existujúci krok](media/basic-guide-21.png)
+    ![Dialógové okno Aktualizovať existujúci krok.](media/basic-guide-21.png)
 
 6. V dialógovom okne **Výber atribútov** vyberte začiarkavacie políčka pre vlastné atribúty.
 
-    ![Vyberte dialógové okno atribúty.](media/basic-guide-22.png)
+    ![Dialógové okno Vyberte atribúty.](media/basic-guide-22.png)
 
 7. Kliknite na tlačidlo **OK** pre zatvorenie dialógového okna a potom vyberte **aktualizovať krok.**
  
-    ![Tlačidlo Aktualizovať](media/basic-guide-23.png)
+    ![Tlačidlo Aktualizovať krok.](media/basic-guide-23.png)
 
 8. Opakujte kroky 1 až 7 pre druhý doplnok.
 9. Zatvorte nástroj PluginRegistrationTool.
