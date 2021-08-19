@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369710"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007525"
 ---
 # <a name="project-management-and-accounting-overview"></a>Prehľad riadenia projektu a účtovníctva
 
@@ -34,14 +34,14 @@ Projekt je skupina aktivít, ktorých cieľom je poskytnúť službu, vyrobiť p
 ## <a name="projects-across-industries"></a>Projekty naprieč priemyselnými odvetviami
 Funkčnosť riadenia projektu a účtovníctva je možné použiť vo viacerých odvetviach, ako je znázornené na nasledujúcom obrázku.
 
-[![Projekty naprieč priemyselnými odvetviami](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekty naprieč priemyselnými odvetviami.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 V call centre možno prípad použiť na opísanie súboru akcií, ktoré sú potrebné na vyriešenie prípadu. Poradenské spoločnosti, ako sú organizácie pre riadenie alebo technické poradenstvo alebo reklamné agentúry, označujú svoje činnosti ako projekty. V marketingu predstavuje kampaň súbor práce, ktorú je potrebné dodať. Pri projektovej výrobe sa objednávka prác týka rôznych prác, ktoré je potrebné vykonať pri výrobe niektorých hotových výrobkov. Nech sa pre ne použije akýkoľvek názov, tieto projekty zahŕňajú zdroje, plány a náklady. Funkcia riadenia a účtovníctva projektu môže pomôcť pri plánovaní, vykonávaní a analýze týchto projektov.
 
 ## <a name="project-phases"></a>Fázy projektu
 Aj keď je nasledujúci procesný proces zameraný na externé projekty alebo projekty, ktoré sú dokončené pre jedného alebo viacerých zákazníkov, funkčnosť sa týka aj interných, iba nákladových projektov. 
 
-![3 etapy projektu](./media/3-stages-of-a-project.png) 
+![3 etapy projektu.](./media/3-stages-of-a-project.png) 
 
 Ako je znázornené na predchádzajúcom obrázku, projektové riadenie a účtovníctvo možno rozdeliť do troch fáz:
 
@@ -50,7 +50,7 @@ Ako je znázornené na predchádzajúcom obrázku, projektové riadenie a účto
 3.  Analyzovať
 
 ## <a name="initiate-the-project"></a>Iniciovať projekt
-Počas iniciácie projektu nastáva niekoľko kľúčových procesov. Pomocou cenovej ponuky projektu môžete zákazníkovi oznámiť odhadovanú prácu, náklady a materiál. Fakturačné podmienky, limity a dohody môžete zaznamenať do projektovej zmluvy. Na plánovanie a odhadovanie práce môžete použiť štruktúru rozdelenia práce (WBS). Môžete nastaviť prognózy a rozpočty na pomoc pri realizácii projektu. Nasledujúca ilustrácia zobrazuje štruktúru projektu. [![štruktúra projektu](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Počas iniciácie projektu nastáva niekoľko kľúčových procesov. Pomocou cenovej ponuky projektu môžete zákazníkovi oznámiť odhadovanú prácu, náklady a materiál. Fakturačné podmienky, limity a dohody môžete zaznamenať do projektovej zmluvy. Na plánovanie a odhadovanie práce môžete použiť štruktúru rozdelenia práce (WBS). Môžete nastaviť prognózy a rozpočty na pomoc pri realizácii projektu. Nasledujúca ilustrácia zobrazuje štruktúru projektu.[![štruktúra projektu.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Vytvorenie projektových cenových ponúk
 

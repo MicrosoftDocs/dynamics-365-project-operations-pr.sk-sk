@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998520"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008605"
 ---
 # <a name="product-based-quote-lines"></a>Zobrazuje riadky cenovej ponuky založené na produkte.
 
@@ -58,7 +58,7 @@ Ak nastavíte toto pole na **prepísať ceny**, Dynamics 365 nenastaví predvole
 
 Po nainštalovaní PSA sa predvolené predajné ceny zapisujú do riadkov na základe produktov v cenovej ponuke. Pole **ceny** sa potom nastaví na **prepísanie cien**, aby ste mohli upraviť predvolenú cenu v riadkoch cenovej ponuky.
 
-> ![Nastavte prepisovanie cien](media/basic-guide-10.png)
+> ![Nastavte prepisovanie cien.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Množstvo faktorov pre výrobky
 
@@ -78,7 +78,7 @@ Napríklad, Dynamics 365 môže mať nasledujúce vlastnosti:
 
 Vlastnosti **No of Users** a **No of Months** môžu byť označené ako množstevné faktory úpravou vlastnosti produktového riadka. 
 
-> ![OznačovanieNo of Users a No of Months ako kvalitatívne faktory](media/basic-guide-11.png)
+> ![Označovanie No of Users a No of Months ako kvalitatívne faktory.](media/basic-guide-11.png)
  
 
 
