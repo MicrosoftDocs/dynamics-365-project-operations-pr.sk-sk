@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995505"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988580"
 ---
 # <a name="provision-a-new-environment"></a>Zriadenie nového prostredia
 
@@ -52,12 +52,12 @@ Pomocou nasledujúcich krokov povolíte automatizovaný tok poskytovania prostri
 
 6. Vyberte typ prostredia pre vaše nasadenie. Skúšobná verzia založená na predplatnom vám umožní nasadiť prostredie CDS na obdobie 30 dní. 
 
-![Nastavenia nasadenia](./media/1DeploymentSettings.png)
+![Nastavenia nasadenia.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Vyberte **Súhlasím** na potvrdenie zmluvných podmienok a potom vyberte **Hotovo** na návrat k nastaveniam nasadenia.
 
-![Súhlas s nasadením](./media/2DeploymentConsent.png)
+![Súhlas s nasadením.](./media/2DeploymentConsent.png)
 
 7. Voliteľné – použitie ukážkových údajov pre prostredie. Prejdite na položku **Pokročilé nastavenia**, vyberte **Prispôsobiť konfiguráciu databázy SQL** a nastavte **Zadať množinu údajov pre databázu aplikácií** na možnosť **Ukážka**.
 
@@ -67,7 +67,7 @@ Pomocou nasledujúcich krokov povolíte automatizovaný tok poskytovania prostri
 
 9. Ak chcete potvrdiť, že sa prostredie úspešne nasadilo, vyberte **Prihlásiť sa** a potvrďte prihlásením sa do prostredia.
 
-![Podrobnosti o prostredí ](./media/3EnvironmentDetails.png)
+![Podrobnosti o prostredí.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplikovanie aktualizácií na prostredie Finance
 
@@ -77,19 +77,19 @@ Možno budete musieť vo svojom prostredí Finance použiť aktualizácie týkaj
 
 1. V LCS, na stránke **Podrobnosti o prostredí** v časti **Dostupné aktualizácie** vyberte **Zobraziť aktualizáciu**.
 
-![Zobraziť aktualizácie](./media/5ViewUpdates.png)
+![Zobraziť aktualizácie.](./media/5ViewUpdates.png)
 
 2. Na stránke **Binárne aktualizácie** vyberte **Uložiť balík.**
 
-![Uložiť balík](./media/6SavePackage.png)
+![Uložiť balík.](./media/6SavePackage.png)
 
 3. Kliknite na **Vybrať všetko** a potom vyberte **Uložiť balík**.
 
-![Preskúmanie a ukladanie aktualizácií](./media/7ReviewAndSaveUpdates.png)
+![Preskúmanie a ukladanie aktualizácií.](./media/7ReviewAndSaveUpdates.png)
 
 4. Zadajte názov a popis balíka a potom vyberte **Uložiť**. V závislosti od internetového pripojenia môže tento proces trvať nejaký čas.
 
-![Nahrajte balík do knižnice aktív](./media/8UploadPackageToAssetsLibrary.png)
+![Nahrajte balík do knižnice aktív.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Po uložení balíka vyberte **Hotovo** a uložte tento balík do knižnice aktív vo vašom projekte LCS.
 
@@ -97,15 +97,15 @@ Uloženie a overenie platnosti balíka môže trvať ~15 minút.
 
 6. Ak chcete použiť aktualizáciu, prejdite na stránku **Podrobnosti o prostredí** v LCS a vyberte **Zachovať** > **Použiť aktualizácie**.
 
-![Udržiavanie prostredí](./media/9MaintainEnvironment.png)
+![Udržiavanie prostredí.](./media/9MaintainEnvironment.png)
 
 7. V zozname aktualizácií vyberte balík, ktorý ste vytvorili, a vyberte **Použiť**.
 
-![Použitie aktualizácií](./media/10ApplyUpdates.png)
+![Použitie aktualizácií.](./media/10ApplyUpdates.png)
 
 Servis prostredia bude nejaký čas trvať. Po dokončení sa prostredie vráti do nasadeného stavu.
 
-![Nasadené prostredie](./media/11EnvironmentDeployed.png)
+![Nasadené prostredie.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Nadviažte spojenie s dvojitým zápisom 
 
@@ -113,41 +113,41 @@ Servis prostredia bude nejaký čas trvať. Po dokončení sa prostredie vráti 
 2. V časti **Informácie o prostredí Common Data Service** vyberte **Odkaz na CDS for Apps**.
 3. Po dokončení prepojenia znova vyberte **Odkaz na CDS for Apps**. Budete presmerovaný na dvojitý zápis vo financiách.
 
-![Prepojenie na CDS](./media/12LinktoCDS.png)
+![Prepojenie na CDS.](./media/12LinktoCDS.png)
 
 4. Vyberte **Použiť riešenie** na prístup k entitám, ktoré budú mapované v integrácii.
 
-![Použiť riešenia](./media/13ApplySolutions.png)
+![Použiť riešenia.](./media/13ApplySolutions.png)
 
 5. Vyberte obe riešenia, **Mapa entity s duálnym zápisom Dynamics 365 Finance and Operations** a **Mapy entít s duálnym zápisom Dynamics 365 Project Operations** a potom vyberte **Použiť**.
 
-![Potvrďte riešenia](./media/14ConfirmSolutions.png)
+![Potvrďte riešenia.](./media/14ConfirmSolutions.png)
 
 Po uplatnení riešení sa entity dvojitého zápisu použijú na prostredie.
 
-![Použitie riešení](./media/15ApplyingSolutions.png)
+![Použitie riešení.](./media/15ApplyingSolutions.png)
 
 Po použití entít sa v prostredí zobrazia všetky dostupné mapovania.
 
-![Mapy s duálnym zápisom](./media/15DWMappings.png)
+![Mapy s duálnym zápisom.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Po aktualizácii obnovte údajové entity
 
 1. V časti Financie prejdite na pracovný priestor **Správa údajov**.
 
-![Pracovný priestor na správu údajov](./media/16DataManagement.png)
+![Pracovný priestor na správu údajov.](./media/16DataManagement.png)
 
 2. Vyberte dlaždicu **Parametre platformy**.
 
-![Parametre platformy](./media/17FrameworkParameters.png)
+![Parametre platformy.](./media/17FrameworkParameters.png)
 
 3. Na stránke **Nastavenia entity** vyberte **Obnoviť zoznam entít**.
 
-![Obnoviť zoznam entít](./media/18RefreshEntityList.png)
+![Obnoviť zoznam entít.](./media/18RefreshEntityList.png)
 
 Obnovenie bude trvať približne 20 minút. Po dokončení dostanete upozornenie.
 
-![Obnovenie potvrdenia](./media/19RefreshConfirmation.png)
+![Obnovenie potvrdenia.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Aktualizácia nastavení zabezpečenia v aplikácii Project Operations prostredia Dataverse
 
@@ -188,17 +188,17 @@ Obnovenie bude trvať približne 20 minút. Po dokončení dostanete upozornenie
 4. Ak chcete obnoviť entitu, vyberte názov mapy a potom vyberte **Obnoviť entity**. 
 
 
-![Obnoviť mapu](./media/20RefreshMapping.png)
+![Obnoviť mapu.](./media/20RefreshMapping.png)
 
 5. Po dokončení obnovenia spustite priraďovanie. Pred povolením ďalšej mapy skontrolujte, či je mapa v tabuľke v stave **Spustené**. Spustenie máp s väčším počtom predpokladov môže chvíľu trvať.
 
 Ak chcete spustiť mapu s predpokladmi, povoľte prepínač **Zobraziť mapy súvisiacich entít**. Ak je v tabuľke pri možnosti **Počiatočná synchronizácia predpokladu** uvedené **Nie**, overte, či je príznak **Počiatočná synchronizácia** nastavený na **Vypnuté** vo všetkých nevyhnutných mapách predtým ako ju spustíte.
 
-![Spustiť mapu](./media/21RunMap.png)
+![Spustiť mapu.](./media/21RunMap.png)
 
 6. Skontrolujte, či sú všetky mapy súvisiace s projektom v spustenom stave.
 
-![Všetky mapy sú spustené](./media/22AllMapsRunning.png)
+![Všetky mapy sú spustené.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Použitie konfiguračných údajov v službe CDS pre Project Operations (voliteľné)

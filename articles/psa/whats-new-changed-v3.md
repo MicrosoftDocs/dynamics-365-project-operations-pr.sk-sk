@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007025"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987095"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Čo je nové alebo zmenené v Project Service Automation verzia 3
 
@@ -36,7 +36,7 @@ Táto téma poskytuje informácie o zmenách používateľského rozhrania (UI),
 ## <a name="project-scheduling"></a>Plánovanie projektov
 Plán projektu, ktorý bol známy ako štruktúra rozdelenia práce (WBS) v predchádzajúcich verziách, bol premenovaný na program a je prístupný kliknutím na kartu **Plán**. 
 
-![Plánovanie projektov](media/psa-schedule-01.png)
+![Plánovanie projektov.](media/psa-schedule-01.png)
 
 Rozvrh má teraz nový rozhranie pre interakciu, ktoré je moderné aj prístupné. Základný plánovací modul Project Service Automation sa však nezmenil. Ovládacie tlačidlá v páse s nástrojmi mriežky plánovania umožňujú interakciu s plánom podobným predchádzajúcej verzii Project Service Automation. Medzi ďalšie zmeny v pláne patria:
 
@@ -95,22 +95,22 @@ Keď presuniete plán existujúceho projektu dopredu, stane sa toto:
 ## <a name="estimates"></a>Odhady
 Odhady boli rozdelené na dve karty **Priradenie zdroja** a **Odhady**. Karta **Priradenie zdroja** obsahuje odhady intenzity a zobrazuje priradenia prostriedkov pre úlohy v zobrazení s časovým rozvrhnutom. Odhady môžete upraviť na základe toho, čo bolo vytvorené plánovacím systémom.
 
-![Karta Priradenie zdroja zobrazuje odhady intenzity a priradenia zdrojov pre úlohy](media/resource-assignments-tab-02.png)
+![Karta Priradenie zdroja zobrazuje odhady intenzity a priradenia zdrojov pre úlohy.](media/resource-assignments-tab-02.png)
 
 Na karte **Odhady** sa zobrazujú čiastky nákladov a predaja pre priradenia prostriedkov. Čiastky sú iba na čítanie. Náklady a predajné ceny sú teraz riadené od členov tímu úlohy v rozvrhu. To znamená, že ak máte úlohu bez priradenia, úloha sa zobrazí pod nepriradený kontajner. To tiež znamená, že bez **roly**, čo je predvolený cenový rozmer, tam nebudú žiadne odhadované náklady alebo predaje, ak máte zákazníka alebo zmluvu/cenovú ponuku spojenú s projektom. 
 
-![Karta Odhady zobrazujúca čiastky nákladov a predaja](media/estimates-tab-03.png)
+![Karta Odhady zobrazujúca čiastky nákladov a predaja.](media/estimates-tab-03.png)
   
 Kategória je podporovaná aj na úlohách v zobrazení plánu. Zoskupenie podľa kategórie na časovo fázovom zobrazení odhadov poskytne lepšie skúsenosti, najmä ak máte v projekte aj odhady výdavkov. Odhady výdavkov sa zadajú pomocou mriežky na samostatnej karte. 
 
 Odhady výdavkov možno zadať v mriežke na karte **Odhady nákladov**. 
 
-![Karta Odhady výdavkov zobrazuje mriežku s odhadmi výdavkov](media/expense-estimates-tab-04.png)
+![Karta Odhady výdavkov zobrazuje mriežku s odhadmi výdavkov.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Správa zdrojov
 V Project Service Automation verzia 3, s novým používateľským rozhraním zjednoteného klienta a zmenami vo vzťahu medzi rezerváciami a priradeniami, sa dramaticky zmenilo personálne obsadenie projektu generickými alebo reálnymi zdrojmi medzi verziou 2 a 1. Avšak, pojmy rezervovateľné zdroje, a to ako **skutočné** a **generické** zostávajú rovnaké, rovnako ako členovia tímu, požiadavky, úlohy a rezervácie.   
 
-![Používanie výber zdroja](media/resource-management-05.png)
+![Používanie výberu zdroja.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Priradenie skutočného rezervovateľného prostriedku 
 V Project Service Automation verzie 3, rezervácie a priradenie úloh nie sú tak úzko prepojené ako v predchádzajúcich verziách Project Service Automation. Môžete použiť mriežku tímu na rezerváciu **skutočného** člena tímu, podobne ako v trhu.
@@ -151,19 +151,19 @@ Táto časť obsahuje informácie o zmenách času, výdavkov a schvaľovania vo
 ### <a name="landing-page"></a>Vstupná stránka
 Nerozšíriteľné vlastné časy boli vo verzii 3 zastarané. Namiesto toho je teraz rozšíriteľná a prístupná natívna mriežka skúsenosti. Môžete pristupovať k funkcii časového vstupu pomocou mapy lokality na ľavej strane. S touto zmenou už nebudete môcť zadávať čas na jeden týždeň súčasne. Namiesto toho budete musieť vytvoriť časový záznam pre každý deň v mriežke. Po niekoľkých vytvorených časových položkách, používatelia môžu hromadne vytvárať časové položky s funkciou **Kopírovanie**, ktorá je vysvetlená ďalej v tejto téme. 
 
-![Vstupná stránka zadávania času](media/time-entry-landing-page-07.png)
+![Vstupná stránka zadávania času.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Vytvorenie nových položiek času 
 Kliknite tlačidlo **Nové** v páse s nástrojmi rýchleho vytvorenia stránky pre čas vstupu, kde zadáte trvanie v minútach, hodinách alebo dňoch. Ak to chcete urobiť, stačí začať písať h, m, alebo d spolu s množstvom.  
 
-![Rýchle vytvorenie zadania času](media/quick-create-time-entry-08.png)
+![Rýchle vytvorenie zadania času.](media/quick-create-time-entry-08.png)
 
 Vyhľadávacie polia sú podporované systémovými zobrazeniami. Ak napríklad zadáte informácie o projekte, pole **Projektová úloha** sa automaticky nastaví na zobrazenie **Moje otvorené projektové úlohy**. Ak chcete vytvoriť časové položky pre úlohy, ktoré nie sú priradené používateľovi, kliknite na možnosť **Zmeniť zobrazenie** na vyhľadávanie a stlačte možnosť **Všetky aktívne projektové úlohy**. Po vytvorení a predstavení času v mriežke môžete upraviť ľubovoľné hodnoty riadkov priamo v mriežke.  
 
 ### <a name="bulk-createcopy"></a>Hromadné vytvorenie/kopírovanie 
 Po vytvorení niekoľkých časových položiek môžete použiť funkciu kopírovania na hromadné vytvorenie dodatočných časových položiek. Kliknutím na možnosť **Skopírovať** otvorte dialógové okno **Kopírovať**. V časti **Obdobie od: Počiatočný dátum** nastavte rozsah dátumov, od ktorých sa musia kopírovať časové obdobia. V časti **Obdobie do: Počiatočný dátum** zadajte dátum, pre ktorý sa musia vytvoriť položky času. Kliknutím položku **Kopírovať** skopírujete položky času do zodpovedajúceho dňa v týždni, ktorý je uvedený v časti **Obdobie do**. Napríklad, pondelkový čas vstup z minulého týždňa bude skopírovaný do pondelka pre týždeň uvedený v **Obdobie Do**. 
 
-![Skopírovať hromadné časové záznamy](media/bulk-copy-time-entry-09.png)
+![Skopírovať hromadné časové záznamy.](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Importovať údaje 
 Úlohy a výmeny sa riadia rovnakým vzorom používateľského rozhrania, ktoré umožňujú používateľovi určiť rozsah dátumov, kedy je potrebné importovať rezervácie. Potom musíte explicitne vybrať rezervácie, ktoré by mali byť skopírované do časových položiek **Koncept**. Vo verzii 3 už viac nemôžete vidieť **Navrhované** časové záznamy na mriežke a v kalendári.  
@@ -179,7 +179,7 @@ Vo verzii 3 sme sa vzdialili od vlastného ovládacieho prvku kalendára a teraz
 
 **Zachytiť údaje o vlastných poliach v čase a výdavky položky a propagovať ho prostredníctvom subjektov podporujúcich odoslania a schvaľovania** – Typické spracovanie časových záznamov sa zobrazuje v nasledovnom diagrame.
 
-![Proces postupu zadania času](media/process-time-entries-10.png)
+![Proces postupu zadania času.](media/process-time-entries-10.png)
 
 Ak obchodné požiadavky stanovujú, že čas a náklady entity musia zachytiť vlastné cenové dimenzie a množiť hodnoty, ktoré sú nastavené čas a vstupný prostriedok vo vlastnej cenovej dimenzie prostredníctvom všetkých entít v predchádzajúcom obrázku, pozri [Nastavenie vlastných polí ako dimenzií cien](set-up-pricing-dimensions.md)
 
@@ -236,7 +236,7 @@ Vo verziách 1 a 2 sa nastavenie vznik daňovej povinnosti pre roly a kategórie
 
 Verzia 3, nastavenie možnosti vznik daňovej povinnosti podľa rolí a výdavkov kategórie sa vykoná na úrovni cenovej ponuky alebo zmluvy. Nastavenie cien je oddelené od nastavenia účtovateľnosti. Možnosti **Účtovateľné roly** a **Fakturovateľné kategórie** ako karty nájdete na stránkach **Riadok cenovej ponuky** a **Riadok zmluvy** bez nutnosti používať navigačné prvky v hornej časti.
 
-![Účtovateľné roly](media/chargeable-12.png)
+![Účtovateľné roly.](media/chargeable-12.png)
  
 Nastavenie účtovateľných rolí a účtovateľných kategórií tiež využíva predpripravený upraviteľný ovládací prvok mriežky. Pre každú rolu a kategóriu, podporované možnosti pre typ fakturácie počas fázy cenovej ponuky a zmluvy zostávajú nezmenené z predchádzajúcej verzie ako **Účtovateľné** a **Neúčtovateľné**. Možnosť **Bezplatný** nie je podporovaný typ počas fázy cenovej ponuky alebo uzatvárania zmluvy. Možnosť **Bezplatný** je podporovaná iba počas schvaľovania času alebo výdavkov.  
  
@@ -247,11 +247,11 @@ Od verzie 3, vytváranie a používanie vlastného projektového cenníka pri ce
   
 Nasledujúce grafika platí pred vytvorením vlastných cenníkov.
 
-![Pred vlastnými cenníkmi](media/before-custom-price-lists-13.png)
+![Pred vlastnými cenníkmi.](media/before-custom-price-lists-13.png)
 
 Nasledujúce grafika zobrazuje stav po vytvorení vlastných cenníkov.
 
-![Po vlastných cenníkoch](media/after-custom-price-lists-14.png)
+![Po vlastných cenníkoch.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Krátke oneskorenie môže nastať medzi po kliknutí na tlačidlo **Vytvorenie vlastných cien**, keď je vytvorený vlastný cenník. Odporúčame obnoviť mriežku namiesto kliknutia niekoľkokrát. Vlastný cenník bol vytvorený, ak priradený názov cenníka má názov cenovej ponuky alebo názov zmluvy o projekte, ktorý je k nemu priložený.

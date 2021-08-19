@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993331"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987725"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Ako priradiť prostriedok rezervovateľné úlohy vo webovej aplikácii (aplikácia Project Service v2.x)?
 
@@ -43,7 +43,7 @@ S touto metódou pridať prostriedok do projektového tímu a potom priradiť ú
 3.  Zvoľte dátumy **Od** a **Do**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Snímka obrazovky pridania člena tímu](media/FAQ-Resources-to-Tasks2-1.png "Snímka obrazovky pridania člena tímu")
+    > ![Snímka obrazovky pridania člena tímu.](media/FAQ-Resources-to-Tasks2-1.png "Snímka obrazovky pridania člena tímu")
  
 4.  Vyberte jednu z nasledujúcich metód prideľovania pre rezerváciu prostriedku:
     - **Plná kapacita** Táto metóda zarezervuje úplnú kapacitu zdroje pre stanovené dátumy od a do.
@@ -63,12 +63,12 @@ S touto metódou pridať prostriedok do projektového tímu a potom priradiť ú
     3. Vyberte položku **OK**. Člen tímu je teraz priradený k úlohe.
 
     > [!div class="mx-imgBorder"] 
-    > ![Snímka obrazovky pridania zdrojov pomocou WBS](media/FAQ-Resources-to-Tasks2-2.png "Snímka obrazovky pridania zdrojov pomocou WBS")
+    > ![Snímka obrazovky pridania zdrojov pomocou WBS.](media/FAQ-Resources-to-Tasks2-2.png "Snímka obrazovky pridania zdrojov pomocou WBS")
  
 Na mriežke člena tímu uvidíte súčet priradených hodín zdroja v časti Priradené hodiny. Hodnota bude menšia alebo rovná rezervovaným hodinám zdroja. 
 
 > [!div class="mx-imgBorder"] 
-> ![Snímka obrazovky priradených hodín pre zdroj](media/FAQ-Resources-to-Tasks2-3.png "Snímka obrazovky priradených hodín pre zdroj")
+> ![Snímka obrazovky priradených hodín pre zdroj.](media/FAQ-Resources-to-Tasks2-3.png "Snímka obrazovky priradených hodín pre zdroj")
  
 V prípade, že úloha, ktorú sa pokúšate priradiť k zdroju začína po koncovom dátume rezervácie zdroja, zdroj sa v rozbaľovacej ponuke nezobrazí.
 
@@ -92,22 +92,22 @@ Týmto spôsobom sa zaručí, že zdroje majú dosť rezervácie pre úlohy. Naj
 4. Vyberte položku **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Snímka obrazovky použitia WBS na pridanie zdroja](media/FAQ-Resources-to-Tasks2-4.png "Snímka obrazovky použitia WBS na pridanie zdroja")
+    > ![Snímka obrazovky použitia WBS na pridanie zdroja.](media/FAQ-Resources-to-Tasks2-4.png "Snímka obrazovky použitia WBS na pridanie zdroja")
  
 Po úspešnom dokončení rol priraďovania k úlohám vo WBS zvoľte možnosť **Generovať projektový tím**. Služba Project Service vytvorí minimálny počet všeobecných členov tímu na základe rol, zdrojových organizačných jednotiek a kalendára projektu sčítaním priradení úlohy.
 
 > [!div class="mx-imgBorder"] 
-> ![Snímka obrazovky generovania projektového tímu](media/FAQ-Resources-to-Tasks2-5.png "Snímka obrazovky generovania projektového tímu")
+> ![Snímka obrazovky generovania projektového tímu.](media/FAQ-Resources-to-Tasks2-5.png "Snímka obrazovky generovania projektového tímu")
  
 Na mriežke členov tímu uvidíte zdroje všeobecného zdroja s rolou a názvom pozície. Ak sú dva zdroje potrebné pre rolu na dokončenie práce, funkcia všeobecného tímu vytvorí dvoch členov tímu a použije názov pozície, aby ich rozdelil.
 
 > [!div class="mx-imgBorder"] 
-> ![Snímka obrazovky pridania dvoch všeobecných zdrojov](media/FAQ-Resources-to-Tasks2-6.png "Snímka obrazovky pridania dvoch všeobecných zdrojov")
+> ![Snímka obrazovky pridania dvoch všeobecných zdrojov.](media/FAQ-Resources-to-Tasks2-6.png "Snímka obrazovky pridania dvoch všeobecných zdrojov")
  
 Môžete si otvoriť záložné požiadavky zdroja pre všeobecného člena tímu stlačením odkazu v časti Požiadavka na zdroj.
 
 > [!div class="mx-imgBorder"] 
-> ![Snímka obrazovky otvorenia záložnej požiadavky na zdroj](media/FAQ-Resources-to-Tasks2-7.png "Snímka obrazovky otvorenia záložnej požiadavky na zdroj")
+> ![Snímka obrazovky otvorenia záložnej požiadavky na zdroj.](media/FAQ-Resources-to-Tasks2-7.png "Snímka obrazovky otvorenia záložnej požiadavky na zdroj")
 
 Stlačte možnosť **Rezervovať** pre všeobecný zdroj a potom môžete použiť tabuľu plánovania na vyhľadanie a rezerváciu skutočného zdroja. Môžete tiež predložiť požiadavku na plnenie správcovi zdrojov stlačením možnosti **Odoslať žiadosť**.
 

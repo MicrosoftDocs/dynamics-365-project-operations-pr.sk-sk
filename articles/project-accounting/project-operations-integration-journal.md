@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304275"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987950"
 ---
 # <a name="integration-journal-in-project-operations"></a>Denník integrácie v aplikácii Project Operations
 
@@ -19,7 +19,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 Časové a výdavkové položky vytvoria transakcie **Skutočná hodnota**, ktoré predstavujú operatívny pohľad na prácu dokončenú na projekte. Dynamics 365 Project Operations poskytuje účtovníkom nástroj na kontrolu transakcií a úpravu účtovných atribútov podľa potreby. Po dokončení kontroly a úprav sa transakcie zapíšu do vedľajšej účtovnej knihy projektu a hlavnej účtovnej knihy. Účtovník môže vykonávať tieto činnosti pomocou denníka **Integrácia Project Operations** (**Dynamics 365 Finance** > **Projektový manažment a účtovníctvo** > **Denníky** > **Integrácia Project Operations**.
 
-![Postup integračného denníka](./media/IntegrationJournal.png)
+![Postup integračného denníka.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Vytvorenie záznamov v denníku Integrácia Project Operations
 

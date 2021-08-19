@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000635"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986690"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Pridanie predplatného služieb Azure do projektu LCS
 
@@ -23,35 +23,35 @@ Prostredia hosťované v cloude musia byť nasadené pomocou existujúceho predp
 
 1. V projekte LCS v časti **Prostredia** vyberte **Nastavenia Microsoft Azure**.
 
-![Nastavenia aplikácie Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Nastavenia služby Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Na stránke **Nastavenia projektu** na karte **Konektory Azure** vyberte **Povoliť**. Potom bude možné nasadiť prostredia do tohto projektu.
 
-![Konektory Azure](./media/2AzureConnectors.png)
+![Konektory Azure.](./media/2AzureConnectors.png)
 
 3. Znova vyberte **Povoliť** na poskytnutie súhlasu správcu.
 
-![Udelenie súhlasu správcu](./media/3GrantAdminConsent.png)
+![Udelenie súhlasu správcu.](./media/3GrantAdminConsent.png)
 
 4. Prijmite žiadosť o povolenie.
 
-![Prijmite žiadosť o povolenie](./media/4AcceptPermissionRequest.png)
+![Prijmite žiadosť o povolenie.](./media/4AcceptPermissionRequest.png)
 
 Autorizácia je teraz hotová. 
 
-![Autorizácia bola úspešná](./media/5AuthorizationComplete.png)
+![Autorizácia bola úspešná.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Poskytnite službe Dynamics Deployment Services prístup k vášmu predplatnému služieb Azure
 
 1. Prejdite do ponuky [Fakturácia Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) a zvoľte svoje predplatné. Aby mohla služba Dynamics Deployment Services nasadiť prostredia, musí mať prístup k tomuto predplatnému.
 
-![Podrobnosti o predplatnom služieb Azure](./media/6AzureSubscription.png)
+![Podrobnosti predplatného služieb Azure.](./media/6AzureSubscription.png)
 
 2. Na navigačnej table vyberte **Kontrola prístupu (IAM)** a potom vyberte **Pridať priradenie roly**.
 3. V posúvači na pravej strane vyberte **Rola prispievateľa** a v uvedenom zozname vyhľadajte a vyberte **Dynamics Deployment Services**. 
 4. Vyberte položku **Uložiť**.
 
-![Prístup k predplatnému](./media/7SubscriptionAccess.png)
+![Prístup k predplatnému.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Pridajte konektor predplatného do projektu LCS
 

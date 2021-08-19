@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015080"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985520"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturácia v Project Service Automation
 
@@ -50,7 +50,7 @@ Ak chcete vytvoriť faktúru pre konkrétnu projektovú zmluvu, postupujte podľ
 
 - Na stránke zoznam **projektových zmlúv** otvorte zmluvu o projekte a potom vyberte položku **vytvoriť faktúru**.
 
-    ![Vytváranie projektových faktúr pre konkrétnu projektovú zmluvu](media/CreateProjectInvoicesOneByOne.png)
+    ![Vytváranie projektových faktúr pre konkrétnu projektovú zmluvu.](media/CreateProjectInvoicesOneByOne.png)
 
     Faktúra sa generuje pre všetky transakcie vybratej projektovej zmluvy, ktoré majú stav **pripravené na fakturáciu**. Tieto transakcie zahŕňajú čas, výdavky, míľniky a riadky zmluvy založené na produkte.
 
@@ -58,7 +58,7 @@ Ak chcete hromadne vytvárať faktúry, postupujte podľa týchto krokov.
 
 1. Na stránke zoznam **projektových zmlúv** vyberte jednu alebo viacero projektových zmlúv, pre ktoré musíte vytvoriť faktúru, a potom vyberte položku **vytvoriť projektové faktúry.**
 
-    ![Hromadné vytváranie projektových faktúr](media/CreateProjectInvoicesBulk.png)
+    ![Hromadné vytváranie projektových faktúr.](media/CreateProjectInvoicesBulk.png)
 
     Upozorňujúce hlásenie vás informuje o tom, že pred tým, ako sa vytvoria faktúry, môže dôjsť k oneskoreniu. Tento proces je tiež zobrazený.
 

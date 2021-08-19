@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009095"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987275"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Používateľská príručka pre Centrum projektových zdrojov
 
@@ -52,28 +52,28 @@ Predtým, než môžete začať používať aplikáciu Centrum projektových zdr
 1.  Keď sa prihlásite do mobilnej aplikácie, uvidíte stránku MyApps so zoznamom aplikácií, ku ktorým máte prístup. 
 2.  Vyberte **Centrum projektových zdrojov**.
 
-![Vybrať aplikáciu](media/chooseApp_1.png "Vybrať aplikáciu")
+![Vyberte aplikáciu.](media/chooseApp_1.png "Vybrať aplikáciu")
 
 **Navigačný panel**
 
-Použite navigačný panel a prejdite do pracovnej oblasti, vytvárajte nový záznam, vyhľadávajte alebo robte ostatné úlohy. Viac príkazov zobrazíte ťuknutím na ![tlačidlo Viac](media/MoreButton.png "Tlačidlo Viac")
+Použite navigačný panel a prejdite do pracovnej oblasti, vytvárajte nový záznam, vyhľadávajte alebo robte ostatné úlohy. Viac príkazov zobrazíte ťuknutím na ![tlačidlo Viac.](media/MoreButton.png "Tlačidlo Viac")
 
-![Navigačný pruh](media/NavBar_2.png "Navigačný pruh")
+![Navigačný pruh.](media/NavBar_2.png "Navigačný pruh")
 
 **Obľúbené položky a naposledy použité záznamy**
 
 Obľúbené položky a naposledy použité sekcie zabezpečujú rýchly prístup k záznamom, zobrazeniam a tabuliam. 
 
-- Aby ste mohli pristupovať k týmto sekciám, ťuknite na tlačidlo **Ponuka** ![tlačidlo Ponuka](media/MenuButton.png "Tlačidlo ponuky") na navigačnom paneli, kde potom ťuknite na tlačidlo **Obľúbené a naposledy použité** ![tlačidlo Obľúbené](media/FavButton.png "Tlačidlo FAV").
+- Do týchto sekcií sa dostanete ťuknutím na tlačidlo **Ponuka** ![tlačidlo Ponuka.](media/MenuButton.png "Tlačidlo ponuky") na navigačnom paneli a následným ťuknutím na tlačidlo **Obľúbené a naposledy použité** ![tlačidlo Obľúbené](media/FavButton.png "Tlačidlo FAV").
 
 - Na pripnutie položky ako obľúbenej v zozname položiek **Naposledy použité** ťuknite na špendlík. Týmto sa položka pripne a presunie do priečinka Obľúbené položky.
 
-  ![Obľúbené a naposledy použité položky](media/Favs_3.png "Obľúbené a naposledy použité položky")
+  ![Obľúbené a naposledy použité položky.](media/Favs_3.png "Obľúbené a naposledy použité položky")
  
 ## <a name="enter-time"></a>Zadajte čas
 Zadajte vaše hodiny aspoň raz týždenne – alebo frekvenciou, ktorá požaduje vaše manažérov – čím svojim klientom zabezpečíte fakturáciu a vám správne pripísanie.
 
-1. Ťuknite na tlačidlo ponuky ![tlačidlo Ponuka](media/MenuButton.png "Tlačidlo ponuky") a potom ťuknite na **Časové záznamy**. Tým sa dostávame do kalendára.
+1. Ťuknite na tlačidlo ponuky ![tlačidlo Ponuka.](media/MenuButton.png "Tlačidlo ponuky") a potom ťuknite na **Časové záznamy**. Tým sa dostávame do kalendára.
 
 2. Ak chcete zobraziť kalendár pre predchádzajúci alebo budúci týždeň, ťuknite na tlačidlo **Predchádzajúce** alebo **Ďalšie**. Ťuknite na **Dnes** a prejdete späť na aktuálny týždeň.
 

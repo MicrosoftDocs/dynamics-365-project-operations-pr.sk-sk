@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015035"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985160"
 ---
 # <a name="manage-resource-requests-project-service"></a>Správa žiadostí na zdroje (Project Service)
 
@@ -43,7 +43,7 @@ Správcovia obchodného vzťahu a projektoví manažéri pravidelne požadujú z
   
    -   Kliknite na tlačidlo **Filter** na zobrazenie tably **Filter**, ktorá vám umožňuje filtrovanie výsledkov organizačnej jednotky, úloha, zručnosť alebo iné atribúty.  
   
-       ![Obrazovka žiadosti zdroja pre Project Service](../psa/media/project-service-resource-request-screen.png "Obrazovka žiadosti zdroja pre Project Service")  
+       ![Obrazovka žiadosti zdroja pre Project Service.](../psa/media/project-service-resource-request-screen.png "Obrazovka žiadosti zdroja pre Project Service")  
   
 3. V kalendári prostriedku, ktorý chcete rezervovať, nastavte čas rezervácie prostriedku a potom kliknite na **Rezervovať**, čím zdroj zarezervujete, alebo **Navrhnúť rezerváciu**, čím rezerváciu navrhnete a žiadateľ ju bude musieť schváliť. Zdroj si môžete rezervovať predbežne alebo pevne.  
   

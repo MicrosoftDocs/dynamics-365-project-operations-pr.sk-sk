@@ -2,17 +2,17 @@
 title: Riešenie problémov s prácou v mriežke úloh
 description: Táto téma poskytuje informácie o riešení problémov potrebných pri práci v mriežke úloh.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213419"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989120"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Riešenie problémov s prácou v mriežke úloh 
 
@@ -24,7 +24,7 @@ Táto téma popisuje, ako opraviť problémy, s ktorými sa môžete stretnúť 
 
 Project Operations vyžaduje, aby boli povolené súbory cookie tretích strán, aby sa zobrazila štruktúra rozdelenia práce. Ak súbory cookie tretích strán nie sú povolené, namiesto zobrazenia úloh sa po výbere karty **Úlohy** na stránke **Projekt** zobrazí prázdna stránka.
 
-![Prázdna karta, keď nie sú povolené súbory cookie tretích strán](media/blankschedule.png)
+![Prázdna karta, keď nie sú povolené súbory cookie tretích strán.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Riešenie
@@ -52,11 +52,22 @@ V prípade prehliadačov Microsoft Edge alebo Google Chrome nasledujúce postupy
 Project Operations vyžaduje, aby parameter projektu odkazoval na koncový bod PEX. Tento koncový bod je potrebný na komunikáciu so službou použitou na vykreslenie štruktúry rozdelenia práce. Ak parameter nie je povolený, zobrazí sa chyba „Parameter projektu nie je platný“. 
 
 ### <a name="workaround"></a>Riešenie
- ![Pole Koncový bod PEX v parametri projektu](media/projectparameter.png)
 
 1. Pridajte pole **Koncový bod PEX** na stránke **Parametre projektu**.
-2. Aktualizujte pole o túto hodnotu: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Odstráňte pole zo stránky **Parametre projektu**.
+2. Identifikujte typ produktu, ktorý používate. Táto hodnota sa používa, keď je nastavený koncový bod PEX. Po načítaní je typ produktu už definovaný v koncovom bode PEX. Ponechajte si túto hodnotu. 
+   
+    ![Pole Koncový bod PEX v parametri projektu.](media/pex-endpoint.png)
+
+3. Aktualizujte pole o túto hodnotu: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Typ produktu                         | Parameter typu |
+   |--------------------------------------|----------------|
+   | Project for the Web v predvolenej organizácii   | type=0         |
+   | Project for the Web v organizácii s názvom CDS | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Odstráňte pole zo stránky **Parametre projektu**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Oprávnenia pre Project for Web
 
@@ -67,7 +78,7 @@ Project Operations sa spolieha na externú plánovaciu službu. Táto služba vy
 
 1. Prejdite na **Nastavenie > Zabezpečenie > Používatelia > Používatelia aplikácie**.  
 
-   ![Čítačka aplikácie](media/applicationuser.jpg)
+   ![Čítačka aplikácie.](media/applicationuser.jpg)
    
 2. Dvakrát kliknite na záznam používateľa aplikácie a overte nasledovné:
 
@@ -76,7 +87,7 @@ Project Operations sa spolieha na externú plánovaciu službu. Táto služba vy
  
 3. Ak tento používateľ neexistuje, môžete vytvoriť nový záznam používateľa. Vyberte **Noví používatelia**. Zmeňte formulár na zadávanie v časti **Používateľ aplikácie** a potom pridajte **ID aplikácie**.
 
-   ![Podrobnosti o používateľovi aplikácie](media/applicationuserdetails.jpg)
+   ![Podrobnosti o používateľovi aplikácie.](media/applicationuserdetails.jpg)
 
 4. Skontrolujte, či používateľovi bola pridelená správna licencia a či je služba povolená v podrobnostiach plánu služieb licencie.
 5. Overte, či môže používateľ otvoriť project.microsoft.com.

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013190"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985025"
 ---
 # <a name="submitting-a-resource-request"></a>Odoslanie žiadosti o zdroj
 
@@ -34,7 +34,7 @@ Požiadavku vygenerovaného prostriedku môžete odoslať ako požiadavku na zdr
 1. V Project Service Automation (PSA) na stránke **Projekty** kliknite na kartu **Tím** a zobrazte zoznam rezervovateľných zdrojov. 
 2. Vyberte všeobecný zdroj, ktorý má zdrojovú požiadavku zo zoznamu a potom kliknite na položku **Odoslať žiadosť**.
 
-![Odoslanie žiadosti o zdroj](media/RM-how-to-18.png)
+![Odoslanie žiadosti o zdroj.](media/RM-how-to-18.png)
 
 Žiadosť stav generického člena tímu sa zmení na **Odoslané**.
 

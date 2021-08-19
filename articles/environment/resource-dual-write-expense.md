@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000005"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986600"
 ---
 # <a name="expense-management-integration"></a>Integrácia správy výdavkov
 
@@ -28,7 +28,7 @@ Pri plnom nasadení výdavkov sa kategórie výdavkov vytvárajú a spravujú v 
 2. V časti Finance choďte na **Správa výdavkov** > **Nastaviť** > **Zdieľané kategórie** a vyberte zdieľanú kategóriu s triedou transakcie **Výdavky**. Nastavte parameter **Môže byť použitý vo výdaji** na **True** a definujte typ výdavkov, ktorý sa má použiť.
 3. Pomocou tohto záznamu zdieľanej kategórie vytvorte novú kategóriu výdavkov prechodom na **Správa výdavkov** > **Nastaviť** > **Kategórie výdavkov** a stlačením možnosti **Nový**. Keď sa záznam uloží, duálny zápis použije mapu tabuľky **Entita exportu kategórií výdavkov integrácie projektu Project Operations (msdyn\_expensecategories)** na synchronizáciu tohto záznamu s Dataverse.
 
-  ![Integrácia kategórií výdavkov](./media/DW6ExpenseCategories.png)
+  ![Integrácia kategórií výdavkov.](./media/DW6ExpenseCategories.png)
 
 Kategórie výdavkov v aplikáciách Finance and Operations sú špecifické pre spoločnosť alebo právnickú osobu. Existujú samostatné, zodpovedajúce záznamy špecifické pre právnické osoby v Dataverse. Keď projektový manažér odhadne výdavky, nemôže si vybrať kategórie výdavkov, ktoré boli vytvorené pre projekt, ktorý vlastní iná spoločnosť ako spoločnosť, ktorá vlastní projekt, na ktorom pracujú. 
 
@@ -40,7 +40,7 @@ Výkazy výdavkov sa vytvárajú a schvaľujú v aplikáciách Finance and Opera
   - Duálny zápis sa synchronizuje s Dataverse použitím mapy tabuľky **Entita exportu výdavkov projektu integrácie Project Operations (msdyn\_expenses)**.
   - Vedľajšia účtovná kniha dane, vedľajšia účtovná kniha dodávateľa a ďalšie finančné účtovania sa zaznamenávajú tak, ako je to využívané v čase zverejnenia výkazu o výdavkoch.
 
-  ![Integrácia výkazov o výdavkoch](./media/DW6ExpenseReports.png)
+  ![Integrácia výkazov o výdavkoch.](./media/DW6ExpenseReports.png)
 
 Keď sa píše záznam do entity **Výdavky** v Dataverse, systém spustí automatizovaný proces schválenia záznamu. V prípade potreby je možné stav automatizovaného schvaľovacieho procesu skontrolovať v Dataverse tým, že pôjdete do **Pokročilé nastavenia** > **Systém** > **Systémové úlohy**. Po dokončení schválenia sa v entite **Skutočné hodnoty** vytvoria záznamy triedy transakcie výdavkov.
 

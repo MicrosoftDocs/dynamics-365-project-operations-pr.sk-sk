@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007295"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985565"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Inštalácia vzorových údajov pre aplikáciu Project Service
 
@@ -86,7 +86,7 @@ Mali by ste počítať s tým, že počítač musí zostať pripojený k sieti a
 Počítač by mal mať vypnutú funkciu šetriča obrazovky. Inak by sa poverenia relácie pre inštaláciu mohli stratiť, keď sa aktivuje šetrič obrazovky (pokiaľ nebudete udržovať počas tej doby reláciu v aktívnom stave).
 
 > [!div class="mx-imgBorder"]
-> ![Snímka obrazovky nastavenia šetriča obrazovky, s vypnutým šetričom obrazovky](media/sample-data-1.png)
+> ![Snímka obrazovky nastavenia šetriča obrazovky, s vypnutým šetričom obrazovky.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Stiahnuť a rozbaliť
 
@@ -142,7 +142,7 @@ Balík ukážkových údajov vyžaduje šiestich používateľov. Aby sa balík 
 3. Otvorte **PkgFolder** a potom vyhľadajte a otvorte **ImportUserMapFile.xml**. Aktualizujte polia **Nové=** na e-mailové adresy zodpovedajúcich používateľov vo vašom systéme.
 
    > [!div class="mx-imgBorder"]
-   > ![Snímka obrazovky UserMapFile](media/sample-data-7.png)
+   > ![Snímka obrazovky UserMapFile.](media/sample-data-7.png)
 
 4. Ak vaše úplné meno používateľa „Spencer Low“ má iné ID používateľa než **„spencerl“**, potom budete musieť aktualizovať ďalší súbor. Otvorte **DemoDataPreImportConfig.xml** a nájdite značku **userstocreateandconfigure**. Aktualizujte značku **\<login\>** s loginId (rozlišuje veľké a malé písmená). 
 
@@ -172,7 +172,7 @@ Balík ukážkových údajov vyžaduje šiestich používateľov. Aby sa balík 
 5. Vyberajte **Ďalej** dovtedy, pokiaľ sa nezobrazí dialógové okno **Nastavenie demo údajov** .
 
    > [!div class="mx-imgBorder"]
-   > ![Sníma obrazovky stavového okna inštalátora demo údajov](media/sample-data-3.png)
+   > ![Snímka obrazovky stavového okna inštalátora demo údajov.](media/sample-data-3.png)
 
 6. Pred pokračovaním pripomíname, že inštalácia vzorových údajov môže trvať až jednu hodinu (zvyčajne cca 10 minút). Budete musieť zabezpečiť, aby počas inštalácie zostal počítač pripojený do siete, a aby relácia zostala aktívna.   
 
@@ -191,10 +191,10 @@ Po úplnom načítaní vzorových údajov sa prihláste ako používateľ Spence
 - Ak je nainštalovaná aplikácia Field Service, prejdite na **Project Service** > **Nastavenia** > **Cenníky**. Skontrolujte, či existujú sadzby fakturácie a sadzby nákladov. Prejdite do **Field Service** > **Nastavenia** > **Cenníky** a skontrolujte, či existujú sadzby fakturácie a sadzby nákladov s primeranou menou pre každú krajinu alebo región v množine údajov.
 
   > [!div class="mx-imgBorder"]
-  > ![Snímka obrazovky aktívnych cenníkov](media/sample-data-4.png)
+  > ![Snímka obrazovky aktívnych cenníkov.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Snímka obrazovky aktívnych organizačných jednotiek](media/sample-data-5.png)
+  > ![Snímka obrazovky aktívnych organizačných jednotiek.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Technické poznámky
 
@@ -295,7 +295,7 @@ Ak potrebujete zmeniť pracovné hodiny pre vzorové rezervovateľné zdroje, pr
 Vyberte používateľa (napríklad Spencer Low) a zmeňte pracovné hodiny Spencera na hodiny, ktoré chcete použiť pre viacerých používateľov. Prejdite na **Universal Resource Scheduling** > **Nastavenie** > **Šablóny pracovných hodín** a upravte záznam **Predvolená šablóna**. V poli **Šablóna zdrojov** vyberte používateľa s pracovnými hodinami, ktoré chcete použiť na iné zdroje. Prejdite na **Universal Resource Scheduling** > **Plánovanie** > **Zdroje** > **Aktívne rezervovateľné zdroje**. Vyberte zdroje, ktoré chcete zmeniť, a potom vyberte **Nastaviť kalendár**. V rozbaľovacom zozname **Šablóna práce** vyberte šablónu **Predvolená pracovná doba** alebo inú šablónu so správnym správne zdrojom na tvorbu šablón. Keď prejdete na tabuľu plánovania, mali by ste vidieť, že zdroje majú teraz aktualizované pracovné hodiny.
 
 > [!div class="mx-imgBorder"]
-> ![Snímka obrazovky aktívnych rezervovateľných zdrojov](media/sample-data-6.png)
+> ![Snímka obrazovky aktívnych rezervovateľných zdrojov.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
