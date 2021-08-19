@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014990"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000595"
 ---
 # <a name="project-pricing"></a>Projektová tvorba cien 
 
@@ -58,7 +58,7 @@ Termín *zdrojová rola* odkazuje na množinu zručností, kompetencií a certif
 
 Skupina **Časových** jednotiek je vytvorená pri inštalácii PSA. Má predvolenú jednotku **hodina**. Nie je možné vymazať, premenovať alebo upraviť atribúty **časovej** skupiny jednotiek alebo jednotku **hodina**. Do skupiny **časových** jednotiek však môžete pridať ďalšie jednotky. Ak sa pokúsite odstrániť **časovú** skupinu jednotiek alebo jednotku **hodina**, môže dôjsť k zlyhaniu v obchodnej logike PSA.
 
-> ![Konfigurácia cien podľa roly](media/basic-guide-13.png)
+> ![Konfigurácia cien podľa roly.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategórie transakcií a kategórie nákladov
 
@@ -68,7 +68,7 @@ Cestovné a iné náklady, ktoré vzniknú projektantom, sú zvyčajne účtovan
 - **Percento** značenia – percento oproti skutočným nákladom sa fakturuje zákazníkovi. 
 - **Cena za jednotku** - fakturačná cena je nastavená pre každú jednotku kategórie nákladov. Čiastka, ktorá je fakturovaná zákazníkovi sa vypočíta na základe počtu jednotiek nákladov, ktoré konzultant hlási. Vzdialenosť používa metódu cenotvorby cena za jednotku. Napríklad, kategória nákladov za vzdialenosť môže byť nakonfigurovaná na 30 amerických dolárov (USD) za deň alebo 2 USD za míľu. Keď konzultant hlási vzdialenosť na projekte, suma na fakturáciu sa vypočíta na základe počtu míľ, ktoré konzultant oznámil.
 
-> ![Konfigurovanie cenotvorby pre kategórie nákladov](media/basic-guide-14.png)
+> ![Konfigurovanie cenotvorby pre kategórie výdavkov.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Predajné ceny projektu a ich prepísanie
 
@@ -114,7 +114,7 @@ V cenovej ponuke však môžete použiť hlavný cenník. Alternatívne môžete
 
 Keď vytvoríte vlastný projektový cenník, skopírujú sa iba súčasti projektu z cenníka. Inými slovami, nový cenník vytvorený ako kópia existujúceho zoznamu projektových cien, ktorý je priložený k cenovej ponuke, a tento nový cenník má iba súvisiace ceny rolí a ceny transakcií kategórie.
 
-> ![Zobrazenie a konfigurácia vlastnej cenotvorby pre projektovú zmluvu](media/basic-guide-15.png)
+> ![Zobrazenie a konfigurácia vlastnej cenotvorby pre projektovú zmluvu.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Sledovanie nákladov
 
