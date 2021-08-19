@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993165"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002980"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Ako prispôsobiť projektové fázy toku obchodného procesu?
 
@@ -60,11 +60,11 @@ Ak inovácia nie je možnosť, môžete prispôsobiť projektové fázy toku obc
 1. Pridať ďalšie etapy s predvolenou konfiguráciou, pri zachovaní anglicky fáze mená pre **Cenová ponuka**, **Plán**, a **Zavrieť**.
 
 
-![Snímka obrazovky pridávania etáp k predvolenej konfigurácii](media/FAQ-Customize-BPF-1.png)
+![Snímka obrazovky pridávania etáp k predvolenej konfigurácii.](media/FAQ-Customize-BPF-1.png)
  
 2. Vytvorte si vlastný tok obchodných procesov a nastavte ho ako hlavný tok obchodných procesov pre entitu projektu, čo vám umožní mať ľubovoľné názvy etáp. Ak však chcete používať rovnaké štandardné projektové etapy **Cenová ponuka**, **Plán** a **Zatvoriť**, budete musieť vykonať niekoľko prispôsobení, ktoré sú odvodené od vlastných názvov etáp. Komplexnejšia logika sa využíva pri zatváraní projektu, čo možno aj naďalej spustiť obyčajnou deaktiváciou záznamu projektu.
 
-![Prispôsobenie BPF](media/FAQ-Customize-BPF-2.png)
+![Prispôsobenie BPF.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Ďalšie pokyny pre aplikáciu Project Service verzie 2.4.4.30 alebo staršej na platforme 9.0
 
@@ -80,11 +80,11 @@ Na vytvorenie vlastného toku obchodného procesu pre entitu projektu postupujte
 
 1. Prejdite do časti **Nastavenia** > **Centrum spracovania**. Nekopírujte projektové fázy toku obchodného procesu, pretože sa tým skopíruje aj obchodná logika Project Service.
 
-  ![Vytvoriť proces](media/FAQ-Customize-BPF-3.png)
+  ![Vytvoriť proces.](media/FAQ-Customize-BPF-3.png)
 
 2. Návrhár procesov použite na vytvorenie požadovaných názvov etapy. Ak chcete rovnaké funkcie ako predvolené etapy pre **Cenová ponuka**, **Plán** a **Zavrieť**, budete to musieť vytvoriť na základe vlastných názvov fáz toku obchodného procesu.
 
-   ![Snímka obrazovky návrhára procesov použitého pri prispôsobovaní BPF](media/FAQ-Customize-BPF-4.png) 
+   ![Snímka obrazovky návrhára procesov použitého pri prispôsobovaní BPF.](media/FAQ-Customize-BPF-4.png) 
 
 3. V návrhárovi procesu kliknite na možnosť **Tok procesu objednávky** a nastavte vlastný tok obchodných procesov ako hlavný tok obchodných procesov pre entitu projektu jeho presunutím nad etapy projektu toku obchodného procesu do hornej časti zoznamu.
 
@@ -95,15 +95,15 @@ Na vytvorenie vlastného toku obchodného procesu pre entitu projektu postupujte
 
 4. Pridajte nové vlastné pole k entite projektu tak, aby zachytilo vlastné etapy vo vlastnom toku obchodných procesov. Budete musieť pridať obchodnú logiku (plugin/workflow) na aktualizáciu tohto poľa po aktualizácii etapy vo vlastnom toku obchodných procesov.
 
-   ![Snímka obrazovky prispôsobenia projektovej entity](media/FAQ-Customize-BPF-6-720.png)
+   ![Snímka obrazovky prispôsobenia projektovej entity.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Upravte graf **Projekt podľa etapy** a použite nové vlastné pole pre etapy.
 
-   ![Snímka obrazovky použitia grafu Projekt podľa etapy](media/FAQ-Customize-BPF-7-720.png)
+   ![Snímka obrazovky použitia grafu Projekt podľa etapy.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Upravte akékoľvek zobrazenia pre entity projektu ,ktoré budú zahŕňať vaše nové vlastné pole pre etapy.
 
-   ![Snímka obrazovky úpravy zobrazení projektovej entity](media/FAQ-Customize-BPF-8-720.png)
+   ![Snímka obrazovky úpravy zobrazení entity Projekt.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

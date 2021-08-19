@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009635"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005095"
 ---
 # <a name="organizational-units"></a>Organizačné jednotky 
 
@@ -53,7 +53,7 @@ Organizačná jednotka hrá dve roly v PSA:
 - **Contracting unit** – Organizačná jednotka, ktorá zastupuje skupinu spoločností alebo divízie, ktorá je primárne zodpovedná za získanie predaja a riadenie poskytovania práce a služieb zákazníkovi. Zmluvná jednotka je definovaná poľom **Contracting Unit** v sekcii hlavičky na stránkach **Opportunity**, **Quote**, **Project Contract** a **Project**.
 - **Resourcing unit** – Organizačná jednotka, ku ktorej zdroj patrí alebo je priradený. Táto organizačná jednotka môže poskytnúť svoje zdroje pre niektoré roly na výkazy práce (SOWs) a projekty, ktoré sú vo vlastníctve zmluvnej jednotky.
 
-> ![Zmluvné jednotky a zdrojové jednotky](media/advanced-1.png)
+> ![Zmluvné jednotky a zdrojové jednotky.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Organizačná jednotka FAQs
 

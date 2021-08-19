@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025793"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003835"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verzie máp duálneho zápisu v aplikácii Project Operations
 
@@ -32,7 +32,7 @@ Nasledujúce mapy sú povinnými predpokladmi pre riešenie Project Operations. 
 
 1. V zozname máp vyberte mapu Účtovná kniha **(msdyn\_ledgers)** so všetkými predpokladmi a začiarknite políčko **Počiatočná synchronizácia**. V poli **Predloha pre počiatočnú synchronizáciu** stlačte možnosť **Aplikácie Finance and Operations** pre mapu hlavnej knihy aj všetky mapy nevyhnutných podmienok. Vyberte položku **Spustiť**.
 
-![Synchronizácia máp účtovnej knihy](media/DW6.png)
+![Synchronizácia máp účtovnej knihy.](media/DW6.png)
 
 2. Rovnakým spôsobom postupujte pre všetky zostávajúce mapové tabuľky uvedené v tabuľke vyššie. Neoznačujte pole **Počiatočná synchronizácia** pri spustení týchto máp.
 
@@ -65,7 +65,7 @@ Uvedené mapy spustíte vykonaním nasledujúcich krokov.
 
 1. Povoľte role prostriedkov projektu pre tabuľkovú mapu **všetky spoločnosti (bookableresourcecategories)**, pretože táto mapa vyžaduje počiatočnú synchronizáciu. V poli **Predloha pre počiatočnú synchronizáciu** stlačte možnosť **Common Data Service**. 
 
- ![Synchronizácia mapy tabuliek rolí zdrojov](media/6ResourceInitialSync.jpg)
+ ![Synchronizácia mapy tabuliek rolí zdrojov.](media/6ResourceInitialSync.jpg)
 
  Počkajte, kým nebude stav mapy **Spustené** a až potom prejdite na ďalší krok.
 

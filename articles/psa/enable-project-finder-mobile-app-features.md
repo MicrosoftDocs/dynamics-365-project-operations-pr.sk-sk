@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f068c32ac957dc5921ccabc989b3b7a347585c19
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007745"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004915"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Zapnutie funkcií aplikácie Project Finder Mobile (Project Service)
 
@@ -47,11 +47,11 @@ V telefóne môžete použiť zdroje Project Finder Mobile s [!INCLUDE[pn_projec
   
 4. Nastavte možnosť **Povoliť aktualizáciu zručností podľa zdroja** na **Áno**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Toto je globálne nastavenie. Projektoví manažéri môžu nastaviť, či bude viditeľný individuálny projekt na stránke **projektového tímu** projektu.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>E-mailové oznámenia  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] posiela e-maily týkajúce sa prostriedkov žiadostí nasledovným príjemcom v nasledujúcich časoch:  

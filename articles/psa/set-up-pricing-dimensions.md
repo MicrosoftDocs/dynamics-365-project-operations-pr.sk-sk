@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008330"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002350"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Nastavenie vlastných polí ako cenových dimenzií 
 
@@ -41,11 +41,11 @@ Aby sa pole stalo cenovou dimenziou, musí byť:
 - Vytvorená ako pole v entitách **Cena roly** a **Prirážky k cenám rol**. Pre ďalšie informácie o postupuje [Pridanie vlastných polí do cenového nastavenia a transakčných entít](field-references.md).
 - Vytvorená ako riadok v tabuľke **Cenová dimenzia**. Pridajte napríklad riadky dimenzie ocenenia, ako je uvedené v nasledujúcom obrázku. 
 
-![Riadky čiastkovo založenej dimenzie oceňovania](media/Amt-based-PD.png)
+![Riadky cenovej dimenzie na základe sumy.](media/Amt-based-PD.png)
 
 Všimnite si, že pracovné hodiny zdroja (**msdyn_resourceworkhours**) sú pridané ako dimenzie založené na značkách a boli pridané do mriežky na karte **Cenová dimenzia založená na prirážke**.
 
-![Riadky dimenzie ceny na základe zrážky](media/Markup-based-PD.png)
+![Riadky cenovej dimenzie na základe prirážky.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Akákoľvek zmena cien dimenzie údajov v tejto tabuľke, existujúce alebo nové, je prenesená na obchodnú logiku ceny Project Service výhradne po obnovení vyrovnávacej pamäte. Čas obnovenia vyrovnávacej pamäte môže trvať až 10 minút. Nechajte potrebný čas na zobrazenie zmien v predvolenej logike ceny, ktorá musí byť výsledkom zmien v údajoch dimenzie ceny.

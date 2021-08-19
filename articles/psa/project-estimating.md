@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002575"
 ---
 # <a name="project-costs-and-revenue"></a>Výnosy a náklady projektu
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009185"
 
 Odhady projektu poskytujú finančné náhľady pre prácu, ktorá sa odhaduje a plánuje v pláne projektu. Na karte **odhady** na stránke **projekty** sa zobrazuje vplyv nákladov a výnosov práce, ktorú plánujete. Poskytuje tiež informácie o mnohých preddefinovaných rozmeroch. 
 
-> ![Karta odhadov](media/project-5.png)
+> ![Karta odhadov.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Náklady a predajná hodnota projektu
 
@@ -66,13 +66,13 @@ Ak systém nenájde cenu pre rolu, potom bude predajná cena nastavená na predv
 
 Karta **odhady** má zobrazenie mriežky, ktoré zobrazuje riadky odhadu. Mriežka obsahuje stĺpce pre jednotku, celkovú obstarávaciu cenu a celkovú predajnú cenu, ako je znázornené na nasledujúcom obrázku. 
 
-> ![Zobrazenie mriežky na karte odhady](media/project-6.png)
+> ![Zobrazenie mriežky na karte Odhady.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Odhady času postupne zobrazenie projektu
 
 Časovo delený pohľad na odhady projektov zobrazuje odhad údajov zo zobrazenia mriežky na časovej osi v časovej mierke, ktorú vyberiete. V predvolenom nastavení sa odhad údajov otáča na rozmer **rola**.
 
-> ![Časovo delený pohľad na odhady projektu](media/project-7.png)
+> ![Časovo delený pohľad na odhady projektu.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Pridelenie odhadu úsilia založené na režime úloh
 
