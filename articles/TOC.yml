@@ -4,6 +4,8 @@
   items:
     - name: Určenie typu nasadenia
       href: environment/determine-deployment-type.md
+    - name: Registrácia do skúšobných verzií aplikácie Project Operations
+      href: environment/admin-trials.md
     - name: Aktualizácie aplikácie Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novinky
       items:
+        - name: "August\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: "Júl\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: "Jún\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
@@ -284,7 +288,7 @@
           items:
             - name: "Spolupráca pomocou skupín v\_Office"
               href: project-management/collaboration-groups.md
-        - name: Poznámky pre vývojárov
+        - name: Poznámky vývojárov
           items:
             - name: Vývoj šablón projektov pomocou akcie Kopírovať projekt
               href: project-management/dev-copy-project.md
@@ -354,7 +358,7 @@
           items:
             - name: Používateľské rozhranie zadania času
               href: time/ui-behavior-time.md
-        - name: Poznámky pre vývojárov
+        - name: Poznámky vývojárov
           items:
             - name: Prispôsobenie mriežky týždenných zadaní času
               href: time/customize-weekly-time-entry-grid.md
@@ -414,13 +418,15 @@
       items:
         - name: "Zaznamenanie použitia materiálu v\_projektoch a\_projektových úlohách"
           href: material/material-usage-log.md
-    - name: Schválenia
+    - name: Approvals
       items:
         - name: Prehľad schválení
           href: approvals/approvals-overview.md
-        - name: Poznámky pre vývojárov
+        - name: Množiny schválení
+          href: approvals/approval-sets.md
+        - name: Poznámky vývojárov
           items:
-            - name: Poznámky pre vývojárov týkajúce sa schválení
+            - name: Poznámky vývojárov týkajúce sa schválení
               href: approvals/dev-notes-approvals.md
     - name: Skutočné hodnoty
       items:
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Novinky
       items:
+        - name: "Novinky v\_rámci skoršieho prístupu k\_2.\_vlne vydaní na rok\_2021 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Novinky v\_auguste\_2021 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "Novinky v\_júli\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: "Novinky v\_júni\_2021 – čiastočné nasadenie"
@@ -770,7 +780,7 @@
           items:
             - name: "Spolupráca pomocou skupín v\_Office"
               href: project-management/collaboration-groups.md
-        - name: Poznámky pre vývojárov
+        - name: Poznámky vývojárov
           items:
             - name: Vývoj šablón projektov pomocou akcie Kopírovať projekt
               href: project-management/dev-copy-project.md
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: "Správa subdodávateľských zmlúv v\_aplikácii Project Operations"
       items:
-        - name: Prehľad spravovania subdodávateľských zmlúv
+        - name: "Správa subdodávateľských zmlúv v\_aplikácii Project Operations"
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: "Subdodávateľské zmluvy v\_rámci skoršieho prístupu v\_októbri\_2021"
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: "Kľúčové koncepty v\_subdodávateľských zmluvách"
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: "Spravovanie dodávateľov a\_projektových cenníkov"
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Subdodávatelia ako rezervovateľné zdroje
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Podrobnosti hlavičky pre subdodávateľské zmluvy
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Riadky subdodávateľskej zmluvy pre čas
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Riadky subdodávateľskej zmluvy pre výdavok
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Riadky subdodávateľskej zmluvy pre produkty
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: "Zdroje v\_riadku subdodávateľskej zmluvy"
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: "Medzníky v\_riadku subdodávateľskej zmluvy"
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Čas
       items:
         - name: Prehľad času
@@ -850,7 +874,7 @@
           items:
             - name: Používateľské rozhranie zadania času
               href: time/ui-behavior-time.md
-        - name: Poznámky pre vývojárov
+        - name: Poznámky vývojárov
           items:
             - name: Prispôsobenie mriežky týždenných zadaní času
               href: time/customize-weekly-time-entry-grid.md
@@ -864,13 +888,15 @@
       items:
         - name: "Zaznamenanie použitia materiálu v\_projektoch a\_projektových úlohách"
           href: material/material-usage-log.md
-    - name: Schválenia
+    - name: Approvals
       items:
         - name: Prehľad schválení
           href: approvals/approvals-overview.md
-        - name: Poznámky pre vývojárov
+        - name: Množiny schválení
+          href: approvals/approval-sets.md
+        - name: Poznámky vývojárov
           items:
-            - name: Poznámky pre vývojárov týkajúce sa schválení
+            - name: Poznámky vývojárov týkajúce sa schválení
               href: approvals/dev-notes-approvals.md
     - name: Skutočné hodnoty
       items:
@@ -1060,6 +1086,8 @@
       items:
         - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Prispôsobenie týždenných zadaní času
               href: psa/time-entry-extensibility-v3.md
-            - name: Množiny schválení
+            - name: "Množiny schválení v\_aplikácii Project Service Automation"
               href: psa/approval-set.md
     - name: "Najčastejšie otázky a\_riešenie problémov (3.x)"
       items:
@@ -1478,7 +1506,7 @@
               href: psa/find-next-project-finder-mobile-app.md
             - name: Príručka pre Centrum projektových zdrojov
               href: psa/project-resource-hub-users-guide.md
-        - name: Poznámky pre vývojárov (aplikácia verzie 2.x)
+        - name: Poznámky vývojárov (aplikácia verzie 2.x)
           items:
             - name: Pridanie vlastných formulárov pre entity
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
