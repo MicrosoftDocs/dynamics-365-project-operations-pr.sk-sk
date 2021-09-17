@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024802"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474524"
 ---
 # <a name="project-operations-updates"></a>Aktualizácie aplikácie Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations sa skladá z dvoch zložiek:
 - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance pokrýva možnosti riadenia výdavkov, účtovníctvo v rámci projektu a priznanie výnosov. Prostredie aplikácie Finance and Operations sa používa v scenároch založených na zdrojoch/chýbajúcich zdrojoch a v aplikácii Project Operations pre scenáre založené na zdrojoch/výrobe.
 
 ## <a name="project-operations-release-notes"></a>Poznámky k vydaniu aplikácie Project Operations
-- Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [Zdroje/chýbajúce zdroje](whats-new-july-2021-resource-based.md).
-- Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [Čiastočné nasadenie](../pro/whats-new/whats-new-july-2021-lite.md).
+- Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [Zdroje/chýbajúce zdroje](whats-new-august-2021-resource-based.md).
+- Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [Čiastočné nasadenie](../pro/whats-new/whats-new-august-2021-lite.md).
 - Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [zdrojoch/výrobe](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Najnovšia verzia Project Operations
 
 | Project Operations v prostredí Dataverse | Projektový manažment a účtovanie v prostredí aplikácií Finance and Operations | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 V prípade scenára Project Operations zdroje/neskladované položky odporúčame použiť verziu Dual Write Orchestration 2.2.2.83 alebo vyššiu.
 
@@ -47,27 +47,24 @@ Aktualizácie aplikácie Project Operations v prostredí Dataverse sú k dispoz�
 | Stanica | Oblasť | Číslo aktuálnej verzie | Automatické aktualizácie pre čiastočné nasadenie | Automatické aktualizácie pre nasadenie so zdrojmi/chýbajúcimi zdrojmi | Číslo ďalšej verzie | Ďalšia verzia je všeobecne dostupná |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stanica 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvé vydanie         |  4.13.0.152     | Dokončené           | 13. august 2021     | Spracuje sa                 | 27. august 2021     |
+|   &nbsp;  | Prvé vydanie         |  4.14.0.99      | Dokončené           | 10. september 2021  | Spracuje sa                 | 01. októbra 2021    |
 | Stanica 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južná Amerika         |  4.13.0.152     | 13. august 2021    | 20. august 2021     | Spracuje sa                 | 27. august 2021     |
-|    &nbsp; | Kanada                |  4.13.0.152     | 13. august 2021    | 20. august 2021     | Spracuje sa                 | 27. august 2021     |
-|   &nbsp;  | India                 |  4.13.0.152     | 13. august 2021    | 20. august 2021     | Spracuje sa                 | 27. august 2021     |
-|   &nbsp;  | Francúzsko                |  4.13.0.152     | 13. august 2021    | 20. august 2021     | Spracuje sa                 | 27. august 2021     |
-|   &nbsp;  | Spojené Arabské Emiráty  |  4.13.0.152     | 13. august 2021    | 20. august 2021     | Spracuje sa                 | 27. august 2021     |
-|   &nbsp;  | Južná Afrika          |  4.13.0.152     | 13. august 2021    | 20. august 2021     | Spracuje sa                 | 27. august 2021     |
+|   &nbsp;  | Južná Amerika         |  4.14.0.152     | 10. september 2021 | 17. september 2021  | Spracuje sa                 | 01. októbra 2021    |
+|    &nbsp; | Kanada                |  4.14.0.152     | 10. september 2021 | 17. september 2021  | Spracuje sa                 | 01. októbra 2021    |
+|   &nbsp;  | India                 |  4.14.0.152     | 10. september 2021 | 17. september 2021  | Spracuje sa                 | 01. októbra 2021    |
+|   &nbsp;  | Francúzsko                |  4.14.0.152     | 10. september 2021 | 17. september 2021  | Spracuje sa                 | 01. októbra 2021    |
+|   &nbsp;  | Spojené Arabské Emiráty  |  4.14.0.152     | 10. september 2021 | 17. september 2021  | Spracuje sa                 | 01. októbra 2021    |
+|   &nbsp;  | Južná Afrika          |  4.14.0.152     | 10. september 2021 | 17. september 2021  | Spracuje sa                 | 01. októbra 2021    |
 | Stanica 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonsko                 |  4.12.0.152     | Dokončené*          | Dokončené            | 4.13.0.152          | 13. august 2021     |
-|   &nbsp;  | Ázia a Tichomorie          |  4.12.0.152     | Dokončené*          | Dokončené            | 4.13.0.152          | 13. august 2021     |
-|   &nbsp;  | Spojené kráľovstvo         |  4.12.0.152     | Dokončené*          | Dokončené            | 4.13.0.152          | 13. august 2021     |
-|   &nbsp;  | Oceánia               |  4.12.0.152     | Dokončené*          | Dokončené            | 4.13.0.152          | 13. august 2021     |
+|   &nbsp;  | Japonsko                 |  4.13.0.152     | Dokončené           | Dokončené            | 4.14.0.152          | 10. september 2021  |
+|   &nbsp;  | Ázia a Tichomorie          |  4.13.0.152     | Dokončené           | Dokončené            | 4.14.0.152          | 10. september 2021  |
+|   &nbsp;  | Spojené kráľovstvo         |  4.13.0.152     | Dokončené           | Dokončené            | 4.14.0.152          | 10. september 2021  |
+|   &nbsp;  | Oceánia               |  4.13.0.152     | Dokončené           | Dokončené            | 4.14.0.152          | 10. september 2021  |
 | Stanica 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.12.0.152     | Dokončené           | Dokončené            | 4.13.0.152          | 20. august 2021     |
+|   &nbsp;  | Európa                |  4.13.0.152     | Dokončené           | 03. september 2021  | 4.14.0.152          | 17. september 2021  |
 | Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severná Amerika         |  4.12.0.152     | 13. august 2021    | 20. august 2021     | 4.13.0.152          | 27. august 2021     |
+|   &nbsp;  | Severná Amerika         |  4.13.0.152     | 03. september 2021 | 10. september 2021  | 4.14.0.152          | 24. september 2021  |
 
-
-> [!NOTE]
-> Automatické nasadenie je dokončené pre verziu 4.12.0.148. Pre aktualizovanú verziu vydania z júla 2021 sa neplánuje žiadne automatické nasadenie.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Časový plán vydania pre Manažment projektov a účtovníctvo v prostrední aplikácií Finance and Operations
 

@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001675"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440796"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Spravovanie viacerých zákazníkov v projektových cenových ponukách – čiastočné
 
@@ -37,7 +37,7 @@ Zákazník cenovej ponuky môže byť vytvorený, aktualizovaný alebo vymazaný
 
 | **Pole** | **Miesto** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |
-| Konto | Upraviteľná mriežka na karte **Zákazníci cenovej ponuky** a vo formulároch **Hlavné** a **Rýchle vytvorenie** pre zákazníka cenovej ponuky. | Zobrazenie zoznamu všetkých aktívnych účtov. Po vytvorení záznamu je toto pole uzamknuté. Ak ho chcete aktualizovať, odstráňte záznam a znova ho vytvorte. Ak ste zaznamenali akékoľvek skutočné hodnoty alebo ak je záznam cenovej ponuky zákazníka primárnym zákazníkom, budete môcť záznam odstrániť. | Zákazníci cenových ponúk sa pri vytváraní riadkov cenových ponúk kopírujú ako zákazníci cenových ponúk. Po získaní cenovej ponuky sa zákazníci cenovej ponuky prekopírujú aj k zákazníkom so zmluvou o projekte. |
+| Konto | Upraviteľná mriežka na karte **Zákazníci cenovej ponuky** a vo formulároch **Hlavné** a **Rýchle vytvorenie** pre zákazníka cenovej ponuky. | Zobrazenie zoznamu všetkých aktívnych účtov. Po vytvorení záznamu je toto pole uzamknuté. Ak ho chcete aktualizovať, odstráňte záznam a znova ho vytvorte. Ak ste zaznamenali nejaké skutočné údaje alebo ak je záznam zákazníka v cenovej ponuky primárnym zákazníkom, nebudete môcť záznam vymazať. | Zákazníci cenových ponúk sa pri vytváraní riadkov cenových ponúk kopírujú ako zákazníci cenových ponúk. Po získaní cenovej ponuky sa zákazníci cenovej ponuky prekopírujú aj k zákazníkom so zmluvou o projekte. |
 | Percento rozdelenia fakturácie | Upraviteľná mriežka na karte **Zákazníci cenovej ponuky** a vo formulároch **Hlavné** a **Rýchle vytvorenie** pre zákazníka cenovej ponuky. | Predstavuje percento každej nevyfakturovanej predajnej transakcie, ktorá sa pripíše tomuto zákazníkovi cenovej ponuky. | Skopírované do nových riadkov cenových ponúk a zmluvných zákazníkov projektu. |
 | Meno kontaktu platiteľa | Upraviteľná mriežka na karte **Zákazníci cenovej ponuky** a vo formulároch **Hlavné** a **Rýchle vytvorenie** pre zákazníka cenovej ponuky. | Toto je textové pole a malo by sa použiť na identifikáciu kontaktnej osoby pre zákazníka. Sú predvolené zo záznamu súvisiaceho obchodného vzťahu | Skopírované do zmluvných zákazníkov projektu po získaní cenovej ponuky a následne do poľa Meno kontaktu platiteľa na faktúre, ktorá je generovaná pre tohto zákazníka. |
 | Fakturačné meno | Upraviteľná mriežka na karte **Zákazníci cenovej ponuky** a vo formulároch **Hlavné** a **Rýchle vytvorenie** pre zákazníka cenovej ponuky. | Toto textové pole by sa malo použiť na identifikáciu kontaktnej osoby faktúry pre zákazníka. | Skopírované do zmluvných zákazníkov projektu po získaní cenovej ponuky a následne do poľa **Meno kontaktu platiteľa** na faktúre, ktorá je generovaná pre tohto zákazníka. |
