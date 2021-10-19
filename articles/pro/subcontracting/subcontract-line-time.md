@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323885"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547263"
 ---
 # <a name="subcontract-lines-for-time"></a>Riadky subdodávateľskej zmluvy pre čas
 
@@ -30,23 +30,22 @@ Ak chcete vytvoriť riadok subdodávateľskej zmluvy pre čas v Project Operatio
 
   Nasledujúca tabuľka poskytuje informácie o poliach na stránke **Riadok subdodávateľskej zmluvy** a stránke **Rýchle vytvorenie**.
 
-| **Pole** | **Opis** |
-| --- | --- |
-| Meno | Názov riadku subdodávateľskej zmluvy. |
-| Popis | Stručný popis služieb, ktoré sa nakupujú na riadku subdodávateľskej zmluvy. | 
-| Typ riadka | Toto pole je predvolená hodnota.  |
-| Spôsob fakturácie | Vyberte typu fakturácie. Na základe metódy fakturácie v uvedenom riadku subdodávateľskej zmluvy je pre metódu fakturácie s pevnou cenou k dispozícii plán fakturácie založený na medzníku. |
-| Trieda transakcie | Toto pole je predvolená hodnota, ktorá označuje, či sa na zaznamenanie nákupu času subdodávateľa používa riadok subdodávateľskej zmluvy. |
-| Rola | Rola zdrojov subdodávateľskej zmluvy, ktorých čas sa nakupuje. Rola priradená zdrojom subdodávateľskej zmluvy určuje náklady na nákup. |
-| Požadovaný štart | Dátum, kedy sú zdroje subdodávateľa povinné začať pracovať. Požadovaný štart sa používa aj na výber cenníka projektu z cenníkov projektov pripojených k subdodávateľskej zmluve. Náklady na rolu na riadku subdodávateľskej zmluvy sa potom predvolene odvíjajú od tohto cenníka. |
-| Požadovaný koniec | Dátum, kedy sa skončí priradenie zdrojov subdodávateľa. Tento dátum sa používa na zobrazenie upozornení, keď projektový manažér čerpá z tejto kapacity pre požiadavky na zdroje, ktoré sa vyskytnú po tomto dátume. |
-| Objednané množstvo | Počet hodín rolí zakúpených u dodávateľa. Táto hodnota sa používa na zobrazenie upozornení, keď projektový manažér nadmerne čerpá z tejto kapacity pre požiadavky na zdroje. |
-| Skupina jednotiek | Táto hodnota poľa je predvolene nastavená na jednotkovú skupinu Čas a nemožno ju zmeniť.  |
-| Jednotka | Toto pole je predvolene nastavené na základnú jednotku hodín z jednotkovej skupiny Čas. Túto hodnotu môžete zmeniť, aby ste si mohli kúpiť akúkoľvek jednotku jednotkovej skupiny Čas, napríklad deň alebo týždeň. Kombinácia Roly a Jednotky sa používa na výpočet jednotkovej ceny na riadku subdodávateľskej zmluvy. |
-| Jednotková cena | Jednotková cena sa predvolene používa z kombinácie Roly a Jednotky z cenníka projektu, ktorý je použiteľný pre požadovaný dátum začiatku riadku subdodávateľskej zmluvy. Keď má príslušný cenník projektu cenu nastavenú v inej jednotke, ako je jednotka v riadku subdodávateľskej zmluvy, systém použije na výpočet jednotkovej ceny prevod jednotiek. |
-| Medzisúčet | Toto je pole iba na čítanie, ktoré sa automaticky počíta ako **Množstvo × Jednotková cena**, ak sú zadané hodnoty množstva aj jednotkovej ceny. Ak buď je niektoré z polí Množstvo alebo Jednotková cena prázdne, môžete do poľa zadať hodnotu. |
-| Daň z predaja |  Zadajte sumu dane z predaja. |
-| Celková čiastka | Celková suma riadka subdodávateľskej zmluvy po zahrnutí daní. |
-
+| **Pole** | **Opis** | **Funkčný vplyv** |
+| --- | --- | --- |
+| Meno | Názov riadka subdodávateľskej zmluvy, ktorý má pomôcť s identifikáciou. | Toto sa zobrazí ako prvý stĺpec vo všetkých vyhľadávaniach na základe riadkov subdodávateľských zmlúv. |
+| Popis | Stručný popis služieb, ktoré sa nakupujú na riadku subdodávateľskej zmluvy. |Nie je |
+| Typ riadka |   Toto pole má predvolenú hodnotu **Založené na množstve**.| Nie je |
+| Spôsob fakturácie | Toto je množina možností, ktorý predstavuje dva hlavné zmluvné modely podporované zo strany Project Operations: **Pevná cena** a **Čas a materiál**. | Na základe zvoleného spôsobu fakturácie je pre riadky subdodávateľov s metódou fakturácie s pevnou cenou k dispozícii míľnik založený na faktúre. |
+| Trieda transakcie | Predvolená hodnota je **Čas**. | To naznačuje, že riadok zmluvy subdodávateľa sa používa na zaznamenanie času nákupu subdodávateľa. |
+| Rola | Vyberte úlohu zdrojov subdodávateľov, ktorých čas sa nakupuje. | Rola vykonávaná zdrojmi subdodávateľov určuje náklady na nákup. |
+| Požadovaný štart | Zadajte dátum, kedy sú zdroje subdodávateľa povinné začať pracovať. | Toto sa používa na výber cenníka projektu z cenníkov projektu pripojených k subdodávke. Náklady na úlohu na riadku subdodávateľskej zmluvy pochádzajú z tohto cenníka. |
+| Požadovaný koniec | Zadajte dátum, kedy sa skončí priradenie zdroja subdodávateľa. | Toto sa použije na zobrazenie upozornení, keď projektový manažér čerpá z kapacity pre požiadavky na zdroje, ktoré sa vyskytnú po tomto dátume. |
+| Objednané množstvo | Zadajte počet hodín roly, ktoré sa nakupujú u dodávateľa. | Toto sa použije na zobrazenie upozornení, keď projektový manažér prečerpá z kapacity pre požiadavky na zdroje. |
+| Skupina jednotiek | Predvolená hodnota je **Skupina časových jednotiek**, ktorú nie je možné zmeniť. | Nie je|
+| Jednotka | Predvolená hodnota pre toto pole je základná jednotka hodín od **Skupina časových jednotiek**. Túto hodnotu môžete zmeniť, aby ste si mohli kúpiť akúkoľvek jednotku **Skupiny časových jednotiek**, napríklad deň alebo týždeň. | Kombinácia **Rola** a **Jednotka** budú použité ako predvolené alebo vypočítané pre jednotkovú cenu pre riadok subdodávateľskej zmluvy. |
+| Jednotková cena | Predvolená jednotková cena používa kombináciu **Rola** a **Jednotka** z cenníka projektu platného pre **Požadovaný dátum začatia** riadka subdodávateľskej zmluvy. | Keď má príslušný cenník projektu cenu nastavenú v inej jednotke, ako je jednotka v riadku subdodávateľskej zmluvy, systém použije na výpočet jednotkovej ceny prevod jednotiek. |
+| Medzisúčet |    Toto je pole iba na čítanie, ktoré sa počíta ako množstvo x jednotková cena, ak sú zadané hodnoty množstva aj jednotkovej ceny. Ak buď je niektoré z polí Množstvo alebo Jednotková cena prázdne, môžete do poľa zadať hodnotu. | Nie je|
+| Daň z predaja |   Zadajte sumu dane z predaja. |Nie je |
+| Celková čiastka | Celková suma riadka subdodávateľskej zmluvy vrátane daní. Toto pole sa počíta ako medzisúčet + daň z predaja.|Nie je |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

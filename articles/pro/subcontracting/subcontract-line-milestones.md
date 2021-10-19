@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323795"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558521"
 ---
 # <a name="subcontract-line-milestones"></a>Medzníky v riadku subdodávateľskej zmluvy
 
@@ -50,15 +50,15 @@ Medzníky s pevnou cenou v riadku subdodávateľskej zmluvy je možné generova�
 3. Na karte **Medzníky v riadku subdodávateľskej zmluvy** vyberte na vedľajšej mriežke **+ Nový medzník riadka subdodávateľskej zmluvy**.
 4. Na stránke **Nový medzník riadka subdodávateľskej zmluvy** zadajte požadované informácie na základe nasledujúcej tabuľky.
 
-    | Pole | Popis |
-    | --- | --- |
-    | Názov medzníka | Názov medzníka. |
-    | Popis | Popis medzníka.  |
-    | Dátum medzníka | Dátum, kedy by mal proces automatického vytvárania faktúry vyhľadávať stav tohto medzníka a zohľadniť ho pri fakturácii. Táto hodnota je zahrnutá v riadku faktúry dodávateľa pri fakturácii tejto subdodávateľskej zmluvy. |
-    | Množstvo | Suma alebo hodnota medzníka, ktorá bude fakturovaná zákazníkovi. Táto hodnota je zahrnutá v riadku faktúry dodávateľa pri fakturácii tejto subdodávateľskej zmluvy. |
-    | Daň | Suma dane použitá pre medzník. Táto hodnota je zahrnutá v riadku faktúry dodávateľa pri fakturácii tejto subdodávateľskej zmluvy. |
-    | Suma po zdanení | Toto je pole iba na čítanie, ktoré sa počíta ako suma + daň. Táto hodnota je zahrnutá v riadku faktúry dodávateľa pri fakturácii tejto subdodávateľskej zmluvy. |
-    | Stav faktúry | Pri vytváraní medzníka je tento stav vždy nastavený na **Nie je pripravené na fakturáciu**.  Keď je stav **Pripravené na fakturáciu**, vytvorenie faktúry dodávateľa obsahuje tento medzník na faktúre dodávateľa. |
+    | Pole | Popis |Funkčný vplyv|
+    | --- | --- |----------------------|
+    | Názov medzníka | Názov medzníka. |Toto sa zobrazí ako prvý stĺpec vo všetkých vyhľadávaniach na základe míľnikov subdodávateľských zmlúv. Riadok faktúry dodávateľa, ktorý je vytvorený na základe tohto míľnika, bude tiež používať názov míľnika riadka subdodávateľskej zmluvy ako predvolený názov riadka faktúry dodávateľa.|
+    | Popis | Popis medzníka. |Riadok faktúry dodávateľa, ktorý je vytvorený na základe tohto míľnika, bude tiež používať opis míľnika riadka subdodávateľskej zmluvy ako predvolený opis riadka faktúry dodávateľa.|
+    | Dátum medzníka | Dátum, kedy by mal proces automatického vytvárania faktúry vyhľadávať stav tohto medzníka a zohľadniť ho pri fakturácii.| Táto hodnota bude použitá ako predvolený dátum riadka faktúry dodávateľa pri fakturácii pre tento riadok subdodávateľskej zmluvy. |
+    | Množstvo | Suma alebo hodnota medzníka, ktorá bude fakturovaná zákazníkovi. |Táto hodnota sa používa ako predvolený suma riadka faktúry dodávateľa pri fakturácii pre tento riadok subdodávateľskej zmluvy. |
+    | Daň | Suma dane použitá pre medzník.| Táto hodnota sa používa ako predvolená sumu dane faktúry dodávateľa pri fakturácii pre tento riadok subdodávateľskej zmluvy. |
+    | Suma po zdanení | Toto pole iba na čítanie sa počíta ako suma + daň.|Táto hodnota sa používa ako predvolená hodnota riadka faktúry dodávateľa pri fakturácii pre tento riadok subdodávateľskej zmluvy. |
+    | Stav faktúry | Pri vytváraní medzníka je tento stav vždy nastavený na **Nie je pripravené na fakturáciu**.|  Keď je stav **Pripravené na fakturáciu**, vytvorenie faktúry dodávateľa obsahuje tento medzník na faktúre dodávateľa. |
 
 5. Vyberte položku **Uložiť a zavrieť**.
 

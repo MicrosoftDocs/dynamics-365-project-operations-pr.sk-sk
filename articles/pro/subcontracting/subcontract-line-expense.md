@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323840"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506118"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Riadky subdodávateľskej zmluvy pre kategórie výdavkov
 
@@ -29,23 +29,23 @@ Ak chcete vytvoriť riadok subdodávateľskej zmluvy pre kategórie výdavkov v 
 
 Nasledujúca tabuľka poskytuje informácie o poliach na stránke s podrobnosťami **Riadok subdodávateľskej zmluvy** a stránke **Rýchle vytvorenie**.
 
-| **Pole** |  **Opis** |
-| ----------| ---------------- |
-| Meno | Názov riadku subdodávateľskej zmluvy. |
-| Popis | Stručný popis kategórií služieb alebo produktov, ktoré sa nakupujú v riadku subdodávateľskej zmluvy. |
-| Typ riadka | Toto pole má predvolenú hodnotu **Založené na množstve**.  |
-| Spôsob fakturácie | Spôsob fakturácie riadka subdodávateľskej zmluvy. Na základe metódy fakturácie v riadku je pre metódu fakturácie s pevnou cenou k dispozícii plán fakturácie založený na medzníkoch.  |
-| Trieda transakcie | Toto pole má predvolenú hodnotu **Čas**. Ak chcete vytvoriť riadky subdodávateľských zmlúv na nákup produktov, nastavte pole **Trieda transakcie** na **Výdavok**. Hodnota tohto poľa naznačuje, že riadok subdodávateľskej zmluvy sa používa na zaznamenanie nákupu kategórie produktov alebo služieb, ktoré sa majú použiť v projektoch. |
-| Kategória transakcie | Vyberte kategóriu transakcie. |
-| Požadovaný štart | Dátum, kedy musia byť kategórie nákupov k dispozícii u predajcu. Požadovaný štart sa používa aj na výber cenníka projektu z cenníkov projektov pripojených k subdodávateľskej zmluve. Náklady na kategóriu na riadku subdodávateľskej zmluvy sa potom predvolene odvíjajú od tohto cenníka. |
-| Požadovaný koniec | Dátum, kedy už kategórie nákupov nie sú potrebné. Tento dátum vyvolá varovanie, keď projektový manažér spojí tento riadok subdodávateľskej zmluvy s konkrétnymi odhadmi výdavkov na projekty, ktoré sú datované po tomto dátume. |
-| Objednané množstvo | Množstvo kategórií, ktoré ste kúpili u predajcu. Ak vedúci projektu prečerpá nakúpené množstvo, zobrazí sa upozornenie.  |
-| Skupina jednotiek | Táto hodnota poľa je predvolene založená na predvolenej jednotkovej skupine, ktorá je nastavená pre vybratú kategóriu. |
-| Jednotka | Táto hodnota poľa je predvolene založená na predvolenej jednotke, ktorá je nastavená pre vybratú kategóriu. Kombinácia kategórie a jednotky sa používa ako predvolená jednotková cena na riadku subdodávateľskej zmluvy. |
-| Jednotková cena | Hodnota poľa jednotkovej ceny sa predvolene používa z kombinácie kategórie a jednotky z cien kategórií súvisiacich s cenníkom projektu, ktorý je použiteľný pre požadovaný začiatok riadku subdodávateľskej zmluvy.  |
-| Medzisúčet | Toto je pole iba na čítanie, ktoré sa automaticky počíta ako množstvo × jednotková cena, ak sú zadané hodnoty množstva aj jednotkovej ceny. Ak je niektoré z polí prázdne, môžete hodnotu tohto poľa zadať ručne.  |
-| Daň z predaja | Zadajte sumu dane z predaja.  |
-| Celková čiastka | Celková suma riadka subdodávateľskej zmluvy vrátane daní. Toto pole sa počíta ako medzisúčet + daň z predaja.  |
+| **Pole** | **Opis** | **Funkčný vplyv** |
+| --- | --- | --- |
+| Meno | Názov riadka subdodávateľskej zmluvy, ktorý má pomôcť s identifikáciou. | Toto sa zobrazí ako prvý stĺpec vo všetkých vyhľadávaniach na základe riadkov subdodávateľských zmlúv. |
+| Popis | Stručný popis kategórií nákladov, ktoré sa nakupujú na riadku subdodávateľských zmlúv. | Nie je |
+|Typ riadka | Toto pole má predvolenú hodnotu **Založené na množstve**. |Nie je |
+| Spôsob fakturácie | Toto je množina možností, ktorý predstavuje dva hlavné zmluvné modely podporované zo strany Project Operations: **Pevná cena** a **Čas a materiál**. | Na základe zvoleného spôsobu fakturácie je pre riadky subdodávateľov s metódou fakturácie s pevnou cenou k dispozícii míľnik založený na faktúre. |
+| Trieda transakcie | Toto pole má predvolenú hodnotu **Čas**. Ak chcete vytvoriť riadky subdodávateľských zmlúv na nákup produktov, nastavte pole **Trieda transakcie** na **Výdavok**.  | To naznačuje, že riadok zmluvy subdodávateľa sa používa na zaznamenávanie nákupu kategórie nákladov, ktoré sa majú použiť na projektoch. |
+| Kategória transakcie | Zobrazuje zoznam aktívnych kategórií transakcií v systéme. |Nie je |
+| Požadovaný štart | Zadajte dátum, kedy musia byť kategórie nákupu k dispozícii u predajcu. | Požadovaný začiatok sa používa na výber cenníka projektu z cenníkov projektu pripojených k subdodávke. Náklady na kategóriu na riadku subdodávateľskej zmluvy pochádzajú z tohto cenníka. |
+| Požadovaný koniec | Zadajte dátum, kedy už kategórie nákupu nebudú potrebné. | Toto sa použije na zobrazenie upozornení, keď projektový manažér priraďuje tento riadok subdodávateľskej zmluvy k odhadom konkrétnych nákladov na projekt, ktoré sú požadované po tomto dátume. |
+| Objednané množstvo | Množstvo kategórie, ktoré sa nakupuje u dodávateľa. | Toto sa použije na zobrazenie upozornení, keď projektový manažér prečerpá z tohto množstva.|
+| Skupina jednotiek | Predvolená hodnota je založená na predvolenej skupine jednotiek, ktorá je nastavená pre vybratú kategóriu. |Nie je |
+| Jednotka | Predvolená hodnota je nastavená pre vybratú kategóriu.  | Kombinácia **Kategória** a **Jednotka** budú použité ako predvolené alebo vypočítané pre jednotkovú cenu pre riadok subdodávateľskej zmluvy.  |
+| Jednotková cena | Predvolená hodnota používa kombináciu **Kategória** a **Jednotka** z kategórie cien súvisiacej s cenníkom projektu, ktorý sa vzťahuje na požadovaný začiatok riadka subdodávateľskej zmluvy. |Nie je |
+| Medzisúčet | Toto je pole iba na čítanie, ktoré sa počíta ako množstvo X jednotková cena, ak sú zadané hodnoty množstva aj jednotkovej ceny. Ak sú jedno alebo obe polia prázdne, môžete do tohto poľa zadať hodnotu. |Nie je |
+| Daň z predaja | Zadajte sumu dane z predaja. |Nie je |
+| Celková čiastka | Celková suma riadka subdodávateľskej zmluvy vrátane daní. Toto pole sa počíta ako medzisúčet + daň z predaja. |Nie je |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

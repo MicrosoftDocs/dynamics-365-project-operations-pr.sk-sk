@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novinky
       items:
+        - name: "Október\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: "September\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: "August\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: "Júl\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
@@ -292,7 +296,7 @@
           items:
             - name: Vývoj šablón projektov pomocou akcie Kopírovať projekt
               href: project-management/dev-copy-project.md
-            - name: Používanie rozhraní API plánovania projektov (verejná verzia Preview)
+            - name: Použitie rozhraní API plánovania projektov
               href: project-management/schedule-api-preview.md
     - name: Správa zdrojov
       items:
@@ -444,11 +448,19 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Obstarávanie neskladovaných materiálov pre projekty pomocou nevybavených faktúr dodávateľov
           href: procurement/pending-vendor-invoices.md
+        - name: Objednávanie neskladovaných materiálov pre projekty pomocou nákupných objednávok projektu
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Udržanie dodávateľov
+          items:
+            - name: Prehľad udržania dodávateľov
+              href: procurement/vendor-retention-overview.md
+            - name: Nastavenie udržania dodávateľov
+              href: procurement/set-up-vendor-retention.md
     - name: Fakturácia
       items:
         - name: Prehľad procesu fakturácie
           href: invoicing/post-project-invoices.md
-        - name: Proforma fakturácia
+        - name: Fakturácia pro forma
           items:
             - name: Správa backlogu pre fakturáciu založenú na projektoch
               href: proforma-invoicing/manage-billing-backlog.md
@@ -528,6 +540,10 @@
       items:
         - name: "Novinky v\_rámci skoršieho prístupu k\_2.\_vlne vydaní na rok\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Novinky v\_októbri\_2021 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: "Novinky v\_septembri\_2021 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: "Novinky v\_auguste\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "Novinky v\_júli\_2021 – čiastočné nasadenie"
@@ -784,7 +800,7 @@
           items:
             - name: Vývoj šablón projektov pomocou akcie Kopírovať projekt
               href: project-management/dev-copy-project.md
-            - name: Používanie rozhraní API plánovania projektov (verejná verzia Preview)
+            - name: Použitie rozhraní API plánovania projektov
               href: project-management/schedule-api-preview.md
     - name: Správa zdrojov
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Riadky subdodávateľskej zmluvy pre čas
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Riadky subdodávateľskej zmluvy pre výdavok
+        - name: Riadky subdodávateľskej zmluvy pre kategórie výdavkov
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Riadky subdodávateľskej zmluvy pre produkty
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 34, V3'

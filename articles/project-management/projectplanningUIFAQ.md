@@ -2,32 +2,38 @@
 title: Riešenie problémov s prácou v mriežke úloh
 description: Táto téma poskytuje informácie o riešení problémov potrebných pri práci v mriežke úloh.
 author: ruhercul
-ms.date: 08/02/2021
+ms.date: 09/22/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989120"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547218"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Riešenie problémov s prácou v mriežke úloh 
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma popisuje, ako opraviť problémy, s ktorými sa môžete stretnúť pri práci so správou nákladov.
+_**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/nenaskladnené, nasadenie Lite – dohoda o proforma fakturácii, Project for the Web_
 
-## <a name="enable-cookies"></a>Povoliť súbory cookie
+Mriežka úloh bola využitá pomocou Dynamics 365 Project Operations je hostiteľským rámcom iframe v rámci Microsoft Dataverse. V dôsledku tohto použitia musia byť splnené konkrétne požiadavky na zaistenie správneho fungovania autentifikácie a autorizácie. Táto téma načrtáva bežné problémy, ktoré môžu mať vplyv na schopnosť vykresľovať mriežku alebo spravovať úlohy v štruktúre rozdelenia práce (WBS).
 
-Project Operations vyžaduje, aby boli povolené súbory cookie tretích strán, aby sa zobrazila štruktúra rozdelenia práce. Ak súbory cookie tretích strán nie sú povolené, namiesto zobrazenia úloh sa po výbere karty **Úlohy** na stránke **Projekt** zobrazí prázdna stránka.
+Bežné problémy zahŕňajú:
 
-![Prázdna karta, keď nie sú povolené súbory cookie tretích strán.](media/blankschedule.png)
+- Karta **Úloha** na mriežke úloh je prázdna.
+- Pri otváraní projektu sa projekt nenačíta a používateľské rozhranie (UI) sa zasekne na číselníku.
+- Správa oprávnení pre **Project for the Web**.
+- Pri vytváraní, aktualizácii alebo odstraňovaní úlohy sa zmeny neuložia.
 
+## <a name="issue-the-task-tab-is-empty"></a>Problém: Karta Úloha je prázdna
 
-### <a name="workaround"></a>Riešenie
+### <a name="mitigation-1-enable-cookies"></a>Zmiernenie 1: Povoliť súbory cookie
+
+Project Operations vyžadujú, aby boli súbory cookie tretích strán povolené na vykreslenie štruktúry rozdelenia práce. Ak súbory cookie tretích strán nie sú povolené, namiesto zobrazenia úloh sa po výbere karty **Úlohy** na stránke **Projekt** zobrazí prázdna stránka.
+
 V prípade prehliadačov Microsoft Edge alebo Google Chrome nasledujúce postupy naznačujú, ako aktualizovať nastavenie prehliadača tak, aby boli povolené súbory cookie tretích strán.
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
@@ -36,6 +42,7 @@ V prípade prehliadačov Microsoft Edge alebo Google Chrome nasledujúce postupy
 2. V pravom hornom rohu vyberte **tri bodky** (...) a následne vyberte položku **Nastavenia**.
 3. V časti **Súbory cookie a povolenia lokality** vyberte **Súbory cookie a údaje o lokalite**.
 4. Vypnite **Blokovať súbory cookie tretích strán**.
+5. Obnovte prehliadač. 
 
 #### <a name="google-chrome"></a>Google Chrome
 
@@ -43,78 +50,101 @@ V prípade prehliadačov Microsoft Edge alebo Google Chrome nasledujúce postupy
 2. V pravom hornom rohu vyberte tri zvislé bodky a potom vyberte položku **Nastavenia**.
 3. V časti **Ochrana osobných údajov a zabezpečenie** vyberte **Súbory cookie a iné údaje o lokalite**.
 4. Vyberte **Povoliť všetky súbory cookie**.
+5. Obnovte prehliadač. 
 
-> [!IMPORTANT]
+> [!NOTE]
 > Ak zablokujete súbory cookie tretích strán, zablokujú sa všetky súbory cookie a údaje lokalít z iných webov, aj keď je tento web povolený vo vašom zozname výnimiek.
 
-## <a name="pex-endpoint"></a>Koncový bod PEX
+### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Zmiernenie 2: Overenie, či bol koncový bod PEX správne nakonfigurovaný
 
-Project Operations vyžaduje, aby parameter projektu odkazoval na koncový bod PEX. Tento koncový bod je potrebný na komunikáciu so službou použitou na vykreslenie štruktúry rozdelenia práce. Ak parameter nie je povolený, zobrazí sa chyba „Parameter projektu nie je platný“. 
-
-### <a name="workaround"></a>Riešenie
+Project Operations vyžaduje, aby parameter projektu odkazoval na koncový bod PEX. Tento koncový bod je potrebný na komunikáciu so službou, ktorá sa používa na vykreslenie štruktúry rozdelenia práce. Ak parameter nie je povolený, zobrazí sa chyba „Parameter projektu nie je platný“. Ak chcete aktualizovať koncový bod PEX, vykonajte nasledujúce kroky.
 
 1. Pridajte pole **Koncový bod PEX** na stránke **Parametre projektu**.
-2. Identifikujte typ produktu, ktorý používate. Táto hodnota sa používa, keď je nastavený koncový bod PEX. Po načítaní je typ produktu už definovaný v koncovom bode PEX. Ponechajte si túto hodnotu. 
-   
-    ![Pole Koncový bod PEX v parametri projektu.](media/pex-endpoint.png)
+2. Identifikujte typ produktu, ktorý používate. Táto hodnota sa používa, keď je nastavený koncový bod PEX. Po načítaní je typ produktu už definovaný v koncovom bode PEX. Ponechajte si túto hodnotu.
+3. Aktualizujte pole o túto hodnotu: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Nasledujúca tabuľka uvádza parameter typu, ktorý by sa mal použiť na základe typu výrobku.
 
-3. Aktualizujte pole o túto hodnotu: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+      | **Typ produktu**                     | **Parameter typu** |
+      |--------------------------------------|--------------------|
+      | Project for the Web v predvolenej organizácii   | type=0             |
+      | Project for the Web v organizácii s názvom CDS | type=1             |
+      | Project Operations                   | type=2             |
 
-   
-   | Typ produktu                         | Parameter typu |
-   |--------------------------------------|----------------|
-   | Project for the Web v predvolenej organizácii   | type=0         |
-   | Project for the Web v organizácii s názvom CDS | type=1         |
-   | Project Operations                   | type=2         |
-   
 4. Odstráňte pole zo stránky **Parametre projektu**.
 
-## <a name="privileges-for-project-for-the-web"></a>Oprávnenia pre Project for Web
+## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problém: Projekt sa nenačíta a používateľské rozhranie je prilepené na číselníku
 
-Project Operations sa spolieha na externú plánovaciu službu. Táto služba vyžaduje, aby mal používateľ priradených niekoľko rol na čítanie a zápis do entít týkajúcich sa štruktúry rozdelenia práce. Medzi tieto entity patria projektové úlohy, priradenia zdrojov a závislosti úloh. Ak používateľ nemôže pri prechode na kartu **Úlohy** vykresliť štruktúru rozdelenia práce, je to pravdepodobne preto, že nebol povolený projekt pre Project Operations. Používateľ môže dostať buď chybu roly zabezpečenia, alebo chybu súvisiacu s odmietnutím prístupu.
+Na účely autentifikácie musia byť pre načítanie mriežky úloh povolené kontextové okná. Ak vyskakovacie okná nie sú povolené, obrazovka sa prilepí na číselník načítania. Nasledujúci obrázok zobrazuje adresu URL so zablokovaným vyskakovacím štítkom v paneli s adresou, čo má za následok uviaznutie číselníka pri pokuse o načítanie stránky. 
 
+   ![Zaseknutý číselník a vyskakovací blok.](media/popupsblocked.png)
 
-## <a name="workaround"></a>Riešenie
+### <a name="mitigation-1-enable-pop-ups"></a>Zmiernenie 1: Povoliť vyskakovacie okná
 
-1. Prejdite na **Nastavenie > Zabezpečenie > Používatelia > Používatelia aplikácie**.  
+Keď sa váš projekt zasekne na číselníku, je možné, že nie sú povolené kontextové okná.
+
+#### <a name="microsoft-edge"></a>Microsoft Edge
+
+Vo vašom prehliadači Edge existujú dva spôsoby, ako povoliť vyskakovacie okná.
+
+1. V prehliadači Edge vyberte upozornenie v pravom hornom rohu prehliadača.
+2. Vyberte **Vždy povoliť kontextové okná a presmerovania z** konkrétneho prostredia Dataverse.
+ 
+     ![Vyskakovacie okná zablokovali okno.](media/enablepopups.png)
+
+Prípadne môžete tiež urobiť jeden z týchto úkonov.
+
+1. Otvorte prehľadávač Edge.
+2. V pravom hornom rohu vyberte ikonu **elipsy** (...), a potom vyberte **Nastavenia** > **Povolenia stránok** > **Vyskakovacie okná a presmerovania**.
+3. Prepnite **Vyskakovacie okná a presmerovania** na blokovanie kontextových okien alebo ich zapnutím povoľte na svojom zariadení kontextové okná.
+4. Po povolení vyskakovacích okien obnovte prehliadač. 
+
+#### <a name="google-chrome"></a>Google Chrome
+1. Otvorte prehľadávač Chrome.
+2. Prejdite na stránku, kde sú blokované kontextové okná.
+3. V paneli s adresou zvoľte **Vyskakovacie okno je zablokované**.
+4. Vyberte odkaz na vyskakovacie okno, ktoré chcete vidieť.
+5. Po povolení vyskakovacích okien obnovte prehliadač. 
+
+> [!NOTE]
+> Ak chcete, aby sa na stránke vždy zobrazovali kontextové okná, vyberte položku **Vždy povoliť kontextové okná a presmerovania z [web]** a potom vyberte **Hotovo**.
+
+## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problém 3: Správa oprávnení pre Project for the Web.
+
+Project Operations sa spolieha na externú plánovaciu službu. Služba vyžaduje, aby mal používateľ priradených niekoľko rolí, ktoré mu umožňujú čítať a zapisovať entity súvisiace s WBS. Medzi tieto entity patria projektové úlohy, priradenia zdrojov a závislosti úloh. Ak používateľ nemôže vykresliť WBS, keď prejde na kartu **Úlohy**, je to pravdepodobne preto, že **Projekt** pre **Project Operations** nebol povolený. Používateľ môže dostať buď chybu roly zabezpečenia, alebo chybu súvisiacu s odmietnutím prístupu.
+
+### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Zmiernenie 1: Overte roly zabezpečenia používateľa aplikácie a koncového používateľa
+
+1. Prejdite na **Nastavenie** > **Zabezpečenie** > **Používatelia** > **Používatelia aplikácie**.  
 
    ![Čítačka aplikácie.](media/applicationuser.jpg)
    
-2. Dvakrát kliknite na záznam používateľa aplikácie a overte nasledovné:
+2. Dvojitým kliknutím na záznam používateľa aplikácie overíte:
 
- - Používateľ má prístup k projektu. Toto overenie sa zvyčajne vykonáva tak, že sa zabezpečí, že používateľ má rolu zabezpečenia **Projektový manažér**.
- - Používateľ aplikácie Microsoft Project existuje a je správne nakonfigurovaný.
+     - Používateľ má prístup k projektu. Môžete to urobiť tak, že overíte, že používateľ má rolu zabezpečenia **Projektový manažér**.
+     - Používateľ aplikácie Microsoft Project existuje a je správne nakonfigurovaný.
  
-3. Ak tento používateľ neexistuje, môžete vytvoriť nový záznam používateľa. Vyberte **Noví používatelia**. Zmeňte formulár na zadávanie v časti **Používateľ aplikácie** a potom pridajte **ID aplikácie**.
+3. Ak tento používateľ neexistuje, vytvorte nový záznam používateľa. 
+4. Vyberte **Noví používatelia**, zmeňte vstupný formulár na **Používateľ aplikácie**, a potom pridajte **ID aplikácie**.
 
    ![Podrobnosti o používateľovi aplikácie.](media/applicationuserdetails.jpg)
 
-4. Skontrolujte, či používateľovi bola pridelená správna licencia a či je služba povolená v podrobnostiach plánu služieb licencie.
-5. Overte, či môže používateľ otvoriť project.microsoft.com.
-6. Prostredníctvom parametrov projektu overte, či systém ukazuje na správny koncový bod projektu.
-7. Overte, či je vytvorený užívateľ projektovej aplikácie.
-8. Aplikujte na používateľa nasledujúce roly zabezpečenia:
 
-  - Používateľ služby Dataverse
-  - Systém riešenia Project Operations
-  - Systém projektu
+## <a name="issue-4-changes-arent-saved-when-you-create-update-or-delete-a-task"></a>Problém 4: Pri vytváraní, aktualizácii alebo odstraňovaní úlohy sa zmeny neuložia
 
-## <a name="error-when-updating-the-work-breakdown-structure"></a>Chyba pri aktualizácii štruktúry rozdelenia práce
+Keď vykonáte jednu alebo viac aktualizácií WBS, zmeny sa nepodaria a neuložia sa. V mriežke plánu sa zobrazí chyba so správou, že „Nedávne zmeny, ktoré ste vykonali, sa nepodarilo uložiť“.
 
-Keď sa vykoná jedna alebo viac aktualizácií štruktúry rozdelenia práce, zmeny nakoniec zlyhajú a neuložia sa. V mriežke rozvrhu sa vyskytla chyba a upozornila, že „Poslednú zmenu, ktorú ste vykonali, sa nepodarilo uložiť.“
+### <a name="mitigation-1-validate-the-license-assignment"></a>Zmiernenie 1: Overte priradenie licencie
 
-### <a name="workaround"></a>Riešenie
-
-1. Skontrolujte, či používateľovi bola pridelená správna licencia a či je služba povolená v podrobnostiach plánu služieb licencie.
-2. Overte, či môže používateľ otvoriť project.microsoft.com.
-3. Overte, či systém ukazuje na správny koncový bod projektu.
-4. Overte, či bol vytvorený užívateľ projektovej aplikácie.
-5. Aplikujte na používateľa nasledujúce roly zabezpečenia:
+1. Skontrolujte, či používateľovi bola pridelená správna licencia a či je služba povolená v podrobnostiach plánu služieb licencie.  
+2. Overte, či môže používateľ otvoriť **project.microsoft.com**.
+    
+### <a name="mitigation-2-validation-configuration-of-the-project-application-user"></a>Zmiernenie 2: Konfigurácia overenia používateľa aplikácie Project
+1. Overte, či bol vytvorený užívateľ aplikácie Project.
+2. Aplikujte na používateľa nasledujúce roly zabezpečenia:
   
   - Používateľ Dataverse alebo základný používateľ
   - Systém riešenia Project Operations
   - Systém projektu
-  - Systém dvojitého zápisu Project Operations (táto rola je vyžadovaná, ak v Project Operations nasadzujete scenár založený na zdrojoch/chýbajúcich zdrojoch.)
+  - Systém duálneho zápisu Project Operations Táto rola je potrebné pre scenáre nasadenia na základe zdroja/nenaskladnenia v rámci Project Operations.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

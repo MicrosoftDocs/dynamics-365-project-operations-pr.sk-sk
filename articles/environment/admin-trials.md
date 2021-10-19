@@ -2,16 +2,16 @@
 title: Registrácia do skúšobných verzií Project Operations
 description: Táto téma poskytuje informácie o tom, ako nasadiť skúšobnú verziu Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418476"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599232"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrácia do skúšobných verzií Project Operations 
 
@@ -85,15 +85,9 @@ Predtým ako začnete, prihláste sa do prehliadača pomocou používateľského
 
    Po spustení poskytovania prostriedkov budete presmerovaní na zoznam prostredí v centre spravovania Power Platform. Počas poskytovania prostriedkov je stav vášho prostredia **PreparingInstance**.
  
-  Po dokončení poskytovania prostriedkov je stav vášho prostredia **Ready**.
+  Keď je zriaďovanie dokončené, stav vášho prostredia je **Pripravený**. Zabezpečenie prostredia zahŕňa nasadenie demo údajov.
  
-4.  Po dokončení poskytovania prostriedkov vyberte príslušnú adresu URL Microsoft Dataverse a adresy URL aplikácií Finance and Operations na overenie nasadenia.
-
-## <a name="demo-data-installation"></a>Inštalácia demo údajov
-
-Nasledujúce odkazy slúžia na prístup k balíkom demo údajov pre neskladované materiály a scenáre čiastočného nasadenia. 
-- [Demo údaje neskladovaných materiálov](resource-apply-pro-setup-config-data.md)
-- [Demo údaje čiastočného nasadenia](lite-apply-demo-setup-config-data.md)
+4.  Vyberte príslušnú adresu URL Microsoft Dataverse a adresy URL aplikácií Finance and Operations na overenie nasadenia.
 
 ## <a name="configuring-dual-write"></a>Konfigurácia duálneho zápisu
 Len pre nasadenia neskladovaných materiálov nakonfigurujte mapovania duálneho zápisu. Ďalšie informácie nájdete v časti [Verzie máp duálneho zápisu v aplikácii Project Operations](resource-dual-write-maps.md).
