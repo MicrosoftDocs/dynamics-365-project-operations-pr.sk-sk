@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623379"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783442"
 ---
 # <a name="project-operations-updates"></a>Aktualizácie aplikácie Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations sa skladá z dvoch zložiek:
 
 | Project Operations v prostredí Dataverse | Projektový manažment a účtovanie v prostredí aplikácií Finance and Operations | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 V prípade scenára Project Operations zdroje/neskladované položky odporúčame použiť verziu Dual Write Orchestration 2.2.2.83 alebo vyššiu.
 
@@ -47,23 +47,23 @@ Aktualizácie aplikácie Project Operations v prostredí Dataverse sú k dispoz�
 | Stanica | Oblasť | Číslo aktuálnej verzie | Automatické aktualizácie pre čiastočné nasadenie | Automatické aktualizácie pre nasadenie so zdrojmi/chýbajúcimi zdrojmi | Číslo ďalšej verzie | Ďalšia verzia je všeobecne dostupná |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stanica 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvé vydanie         |  4.25.0.91      | Dokončené           | Dokončené            | Spracuje sa                 | 29. októbra 2021    |
+|   &nbsp;  | Prvé vydanie         |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
 | Stanica 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južná Amerika         |  4.25.0.91      | Dokončené           | 15. októbra 2021    | Spracuje sa                 | 29. októbra 2021    |
-|   &nbsp;  | Kanada                |  4.25.0.91      | Dokončené           | 15. októbra 2021    | Spracuje sa                 | 29. októbra 2021    |
-|   &nbsp;  | India                 |  4.25.0.91      | Dokončené           | 15. októbra 2021    | Spracuje sa                 | 29. októbra 2021    |
-|   &nbsp;  | Francúzsko                |  4.25.0.91      | Dokončené           | 15. októbra 2021    | Spracuje sa                 | 29. októbra 2021    |
-|   &nbsp;  | Južná Afrika          |  4.25.0.91      | Dokončené           | 15. októbra 2021    | Spracuje sa                 | 29. októbra 2021    |
+|   &nbsp;  | Južná Amerika         |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
+|   &nbsp;  | Kanada                |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
+|   &nbsp;  | India                 |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
+|   &nbsp;  | Francúzsko                |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
+|   &nbsp;  | Južná Afrika          |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
 | Stanica 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonsko                 |  4.25.0.91      | 15. októbra 2021   | 22. októbra 2021    | Spracuje sa                 | 05. novembra, 2021   |
-|   &nbsp;  | Ázia a Tichomorie          |  4.25.0.91      | 15. októbra 2021   | 22. októbra 2021    | Spracuje sa                 | 05. novembra, 2021   |
-|   &nbsp;  | Spojené kráľovstvo         |  4.25.0.91      | 15. októbra 2021   | 22. októbra 2021    | Spracuje sa                 | 05. novembra, 2021   |
-|   &nbsp;  | Oceánia               |  4.25.0.91      | 15. októbra 2021   | 22. októbra 2021    | Spracuje sa                 | 05. novembra, 2021   |
-|   &nbsp;  | Spojené Arabské Emiráty  |  4.25.0.91      | 15. októbra 2021   | 22. októbra 2021    | Spracuje sa                 | 05. novembra, 2021   |
+|   &nbsp;  | Japonsko                 |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 10. december 2021   |
+|   &nbsp;  | Ázia a Tichomorie          |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 10. december 2021   |
+|   &nbsp;  | Spojené kráľovstvo         |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 10. december 2021   |
+|   &nbsp;  | Oceánia               |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 10. december 2021   |
+|   &nbsp;  | Spojené Arabské Emiráty  |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 10. december 2021   |
 | Stanica 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.14.0.99      | Dokončené           | Dokončené            | 4.25.0.91           | 15. októbra 2021    |
+|   &nbsp;  | Európa                |  4.25.0.91      | Dokončené           | Dokončené            | 4.26.0.145          | 12. novembra, 2021   |
 | Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severná Amerika         |  4.14.0.99      | Dokončené           | 08. októbra 2021    | 4.25.0.91           | 22. októbra 2021    |
+|   &nbsp;  | Severná Amerika         |  4.25.0.91      | Dokončené           | Dokončené            | 4.26.0.145          | 19. novembra, 2021   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Časový plán vydania pre Manažment projektov a účtovníctvo v prostrední aplikácií Finance and Operations
@@ -72,14 +72,15 @@ Aktualizácie pre Projektový manažment a účtovníctvo sú vydávané osemkr�
 
 |Podporovaná verzia| Dostupnosť verzie Preview (PEAP) | Všeobecne dostupné (automatická aktualizácia) | Plán automatickej aktualizácie (prostredníctvom nastavení aktualizácie LCS) - dátum začiatku produkcie |   Koniec poskytovania služby   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3. september 2021      |        22. októbra 2021           |                          5. novembra, 2021                            | 14. január 2022   |
 |    10.0.21      |         02. august 2021     |           17. september 2021      |                             1. októbra 2021                          |  10. december 2021 |
-|    10.0.20      |         28. mája 2021        |           16. júl 2021           |                             30. júl 2021                            |  22. októbra 2021  |
+
 
 Plánované dátumy vydania sa môžu meniť. Ďalšie informácie nájdete v [Dostupnosť servisnej aktualizácie](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Cieľová verzia | Dostupnosť verzie Preview (PEAP) | Všeobecne dostupné (automatická aktualizácia) | Plán automatickej aktualizácie (prostredníctvom nastavení aktualizácie LCS) - dátum začiatku produkcie |   Koniec poskytovania služby   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3. september 2021      |          22. októbra 2021         |                           5. novembra, 2021                           |  14. január 2022  |
 |     10.0.23     |      15. októbra 2021       |        10. december 2021          |                          31. december 2021                           | 18. marca 2022     |
+|     10.0.24     |      3. december 2021       |        14. január 2022           |                          4. február 2022                            | 15. apríla 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

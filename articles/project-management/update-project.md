@@ -1,23 +1,23 @@
 ---
-title: Aktualizácia projektu
+title: Vytvorenie a aktualizácia projektu
 description: Táto téma poskytuje informácie o aktualizácii projektov Project Operations.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b0ec03a2c4dd7bc833b22b7a93fed810b4998a2788f4ff40234e3dd163bd9eb6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000910"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678368"
 ---
-# <a name="update-a-project"></a>Aktualizácia projektu
+# <a name="create-and-update-a-project"></a>Vytvorenie a aktualizácia projektu
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Ďalej je uvedený súhrn polí, ktoré je možné aktualizovať po vytvorení projektu, a všetkých príslušných dôsledkov aktualizácií.
+Nasleduje súhrn polí, ktoré je možné aktualizovať v projekte po jeho vytvorení. To zahŕňa aj všetky príslušné dôsledky založené na týchto aktualizáciách.
 
 ## <a name="project-detail-fields"></a>Polia podrobností projektu
 
@@ -25,8 +25,8 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 - **Popis**: Prehľad projektu.
 - **Zákazník**: Spoločnosť, ktorej bude projekt dodaný.
 - **Šablóna kalendára** : Pracovný čas projektu. Po zmene poľa sa prepočíta celý plán.
-- **Mena**: Mena pre projekt. Toto pole je predvolené na základe meny definovanej v zmluvnej jednotke. Keď sa aktualizuje zmluvná jednotka, aktualizuje sa aj pole.
-- **Zmluvná jednotka**: Organizačná jednotka, ktorá zastupuje skupinu spoločností alebo divízie, ktorá je primárne zodpovedná za získanie predaja a riadenie poskytovania práce a služieb zákazníkovi. 
+- **Mena**: Mena pre projekt. Predvolená hodnota pre toto pole je založená na mene, ktorá je definovaná v zmluvnej jednotke. Keď sa aktualizuje zmluvná jednotka, aktualizuje sa aj pole.
+- **Zmluvná jednotka**: Organizačná jednotka, ktorá zastupuje skupinu spoločností alebo divízie, ktorá je primárne zodpovedná za získanie predaja a riadenie poskytovania práce a služieb zákazníkovi.  Ak nie je definovaná organizačná jednotka projektového manažéra, toto pole má predvolenú hodnotu definovanú v parametroch projektu.
 - **Projektový manažér** : Člen projektového tímu, ktorý je oprávnený kontrolovať a schvaľovať časové zadania a výdavky.
 
 ## <a name="estimate-fields"></a>Polia odhadu

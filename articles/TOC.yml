@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integrácia faktúr dodávateľov
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Odinštalovanie aplikácie Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Novinky
       items:
         - name: "Október\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Použitie rozhraní API plánovania projektov
               href: project-management/schedule-api-preview.md
+            - name: Výkon rozhrania API plánovania projektov
+              href: project-management/project-schedule-api-performance.md
     - name: Správa zdrojov
       items:
         - name: Kľúčové koncepty
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Použitie rozhraní API plánovania projektov
               href: project-management/schedule-api-preview.md
+            - name: Výkon rozhrania API plánovania projektov
+              href: project-management/project-schedule-api-performance.md
     - name: Správa zdrojov
       items:
         - name: Kľúčové koncepty
@@ -1102,6 +1108,8 @@
       items:
         - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 35, V3'
