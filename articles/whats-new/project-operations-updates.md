@@ -2,17 +2,17 @@
 title: Aktualizácie aplikácie Project Operations
 description: Táto téma obsahuje informácie o vydaných verziách Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783442"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892221"
 ---
 # <a name="project-operations-updates"></a>Aktualizácie aplikácie Project Operations
 
@@ -22,51 +22,51 @@ _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/ch�
 
 ## <a name="project-operations-components"></a>Komponenty Project Operations
 
-Dynamics 365 Project Operations sa skladá z dvoch zložiek:
+Dynamics 365 Project Operations sa skladá z dvoch komponentov:
 
-- Project Operations v prostredí Dataverse pokrýva možnosti od príležitosti po fakturáciu pro forma. Dataverse sa používa pri čiastočnom nasadení a nasadení scenárov založených na zdrojoch/chýbajúcich zdrojoch položiek v rámci Project Operations.
-- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance pokrýva možnosti riadenia výdavkov, účtovníctvo v rámci projektu a priznanie výnosov. Prostredie aplikácie Finance and Operations sa používa v scenároch založených na zdrojoch/chýbajúcich zdrojoch a v aplikácii Project Operations pre scenáre založené na zdrojoch/výrobe.
+- Projektové operácie v prostredí Dataverse pokrývajú možnosti od príležitosti až po proforma fakturáciu. Dataverse sa používa pri zjednodušenom nasadení a scenároch nasadenia zdrojov/nezásobených operácií projektu.
+- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance pokrýva možnosti riadenia výdavkov, projektové účtovníctvo a vykazovanie výnosov. Prostredie aplikácie Finance and Operations sa používa v Project Operations pre scenáre založené na zdrojoch/nezásobe a Project Operations pre scenáre založené na zásobách/výrobe.
 
 ## <a name="project-operations-release-notes"></a>Poznámky k vydaniu aplikácie Project Operations
-- Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [Zdroje/chýbajúce zdroje](whats-new-oct-2021-resource-based.md).
-- Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [Čiastočné nasadenie](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [zdrojoch/výrobe](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [Zdroje/chýbajúce zdroje](whats-new-nov-2021-resource-based.md).
+- Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [Čiastočné nasadenie](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [zdrojoch/výrobe](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Najnovšia verzia Project Operations
 
-| Project Operations v prostredí Dataverse | Projektový manažment a účtovanie v prostredí aplikácií Finance and Operations | 
+| Operácie projektu v prostredí Dataverse | Projektový manažment a účtovníctvo v prostrediach aplikácií Finance and Operations | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-V prípade scenára Project Operations zdroje/neskladované položky odporúčame použiť verziu Dual Write Orchestration 2.2.2.83 alebo vyššiu.
+Pre scenár prevádzkového zdroja projektu/bez zásob odporúčame použiť verziu Orchestration s duálnym zápisom 2.3.1.15 alebo vyššiu.
 
-## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Časový plán vydania pre Project Operations v prostredí Dataverse
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Plán vydania pre operácie projektu v prostredí Dataverse
 
-Aktualizácie aplikácie Project Operations v prostredí Dataverse sú k dispozícii každý mesiac. 
+Aktualizácie projektových operácií v prostredí Dataverse sú k dispozícii mesačne. 
 
 | Stanica | Oblasť | Číslo aktuálnej verzie | Automatické aktualizácie pre čiastočné nasadenie | Automatické aktualizácie pre nasadenie so zdrojmi/chýbajúcimi zdrojmi | Číslo ďalšej verzie | Ďalšia verzia je všeobecne dostupná |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stanica 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvé vydanie         |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
+|   &nbsp;  | Prvé vydanie         |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 06. december 2021   |
 | Stanica 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južná Amerika         |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
-|   &nbsp;  | Kanada                |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
-|   &nbsp;  | India                 |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
-|   &nbsp;  | Francúzsko                |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
-|   &nbsp;  | Južná Afrika          |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 03. december 2021   |
+|   &nbsp;  | Južná Amerika         |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 06. december 2021   |
+|   &nbsp;  | Kanada                |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 06. december 2021   |
+|   &nbsp;  | India                 |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 06. december 2021   |
+|   &nbsp;  | Francúzsko                |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 06. december 2021   |
+|   &nbsp;  | Južná Afrika          |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 06. december 2021   |
 | Stanica 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonsko                 |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 10. december 2021   |
-|   &nbsp;  | Ázia a Tichomorie          |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 10. december 2021   |
-|   &nbsp;  | Spojené kráľovstvo         |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 10. december 2021   |
-|   &nbsp;  | Oceánia               |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 10. december 2021   |
-|   &nbsp;  | Spojené Arabské Emiráty  |  4.26.0.145     | 12. novembra, 2021  | 19. novembra, 2021   | Spracuje sa                 | 10. december 2021   |
+|   &nbsp;  | Japonsko                 |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 10. december 2021   |
+|   &nbsp;  | Ázia a Tichomorie          |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 10. december 2021   |
+|   &nbsp;  | Spojené kráľovstvo         |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 10. december 2021   |
+|   &nbsp;  | Oceánia               |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 10. december 2021   |
+|   &nbsp;  | Spojené Arabské Emiráty  |  4.26.0.150     | Hotovo           | Hotovo            | Spracuje sa                 | 10. december 2021   |
 | Stanica 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.25.0.91      | Dokončené           | Dokončené            | 4.26.0.145          | 12. novembra, 2021   |
+|   &nbsp;  | Európa                |  4.26.0.150     | Hotovo           | 10. december 2021   | Spracuje sa                 | 17. december 2021   |
 | Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severná Amerika         |  4.25.0.91      | Dokončené           | Dokončené            | 4.26.0.145          | 19. novembra, 2021   |
+|   &nbsp;  | Severná Amerika         |  4.26.0.150     | 10. december 2021  | 17. december 2021   | Spracuje sa                 | 07. január 2022    |
 
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Časový plán vydania pre Manažment projektov a účtovníctvo v prostrední aplikácií Finance and Operations
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Plán vydania pre riadenie projektov a účtovníctvo v prostredí aplikácií Finance and Operations
 
 Aktualizácie pre Projektový manažment a účtovníctvo sú vydávané osemkrát ročne.
 

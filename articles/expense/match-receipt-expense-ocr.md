@@ -2,7 +2,7 @@
 title: Digitalizácia potvrdenia pomocou optického rozpoznávania znakov (OCR)
 description: Táto téma poskytuje informácie o spracovaní účteniek optickým rozpoznávaním znakov (OCR).
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007750"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798059"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Digitalizácia potvrdenia pomocou optického rozpoznávania znakov (OCR)
 
@@ -52,7 +52,7 @@ Ak chcete vytvoriť výdavok alebo spárovať výdavok z účtenky, postupujte t
 
 ## <a name="installation"></a>Inštalácia
 
-Ak chcete používať tieto pokročilé možnosti výdavkov, nainštalujte si doplnok Služba riadenia výdavkov pre Microsoft Dynamics 365 Finance a zapnite funkcie vo vašej inštancii. V Microsoft Dynamics Lifecycle Services (LCS) môžete pristupovať k doplnku z vášho projektu.
+Ak chcete využívať tieto pokročilé možnosti výdavkov, nainštalujte si doplnok Expense Management Service pre Microsoft Dynamics 365 Finance a zapnite funkcie vo svojej inštancii. K doplnku máte prístup z vášho projektu v Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Prihláste sa do LCS a otvorte požadované prostredie.
 2. Prejdite do časti **Všetky podrobnosti**.
@@ -73,7 +73,7 @@ Po zapnutí týchto funkcií prebehnú nasledujúce akcie:
 - Pridá sa nové položka ponuky pre viditeľnosť poľa výdavkov.
 - Stále môžete otvoriť predchádzajúcu stránku **Výkazy výdavkov** tak, že prejdete na **Správa výdavkov> Moje výdavky > Výkazy výdavkov**.
 - Pracovné postupy a akékoľvek schválenia vás stále dovedú na stránku s existujúcimi výkazmi výdavkov.
-- Účtenky budú spracované prostredníctvom Microsoft Azure Cognitive Services a metadáta budú extrahované a pridané.
+- Potvrdenia budú spracované prostredníctvom Microsoft Azure kognitívnych služieb a budú extrahované a pridané metadáta.
 - Je pridaná možnosť, ktorá vám umožní vytvoriť výkaz výdavkov, ktorý obsahuje spárované nepriradené účtenky.
 - Možnosť, ktorá sa pridáva do výkazov výdavkov, vám umožňuje vytvoriť výdavkový riadok z účtenky alebo sa pokúsiť spárovať existujúcu účtenku s existujúcim výdavkovým riadkom.
 
@@ -85,7 +85,18 @@ Nie, spoločnosť Microsoft vytvorila všeobecný model strojového učenia pre 
 
 **Kde je táto funkcia k dispozícii a kde sa spracúva?**
 
-Momentálne sú podporované USA.
+Dostupnosť tejto funkcie v rôznych regiónoch je uvedená v nasledujúcej tabuľke. Ak váš región momentálne nie je podporovaný, odošlite žiadosť o uprednostnenie dostupnosti služby OCR vo vašom regióne. 
+
+| Oblasť | Podporované                         |
+|--------|-----------------------------------|
+| USA    | Áno                               |
+| CAN    | Áno                               |
+| Spojené kráľovstvo     | Áno                               |
+| AUS    | Áno                               |
+| EÚ     | Čiastočne. Účtenky iba v angličtine. |
+| Ázia   | No                                |
+| Japonsko  | No                                |
+| Afriky | No                                |
 
 **Kam smerujú moje účtenky?**
 

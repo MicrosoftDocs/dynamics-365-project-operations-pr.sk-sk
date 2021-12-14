@@ -2,7 +2,7 @@
 title: Mobilná aplikácia výdavkov
 description: Táto téma poskytuje informácie o mobilnom pracovnom priestore na spravovanie výdavkov.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993215"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818202"
 ---
 # <a name="mobile-expense-app"></a>Mobilná aplikácia výdavkov
 
@@ -47,47 +47,14 @@ Môžete používať aj tieto funkcie:
 - Predložiť výkaz výdavkov na schválenie a úhradu.
 - Schváliť alebo odmietnuť výkazy výdavkov, pre ktoré ste prideleným schvaľovateľom.
 
-## <a name="prerequisites"></a>Predpoklady
-Požiadavky sa môžu líšiť v závislosti od verzie, ktorá bola nasadená vo vašej organizácii.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpoklady, ak používate Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpoklady, ak používate Dynamics 365 Finance 
 Ak bola pre vašu organizáciu nasadená služba Finance, správca systému musí zverejniť mobilný pracovný priestor **Správa výdavkov**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Nevyhnutné predpoklady, ak používate verziu 1611 s aktualizáciou platformy 3 alebo novšou
-Ak bola pre vašu organizáciu nasadená verzia 1611 s aktualizáciou platformy 3 alebo novšou, musí správca systému splniť nasledujúce nevyhnutné predpoklady. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Predpoklady</th>
-<th>Rola</th>
-<th>Popis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implementácia KB 4019015.</td>
-<td>Správca systému</td>
-<td>KB 4019015 je aktualizácia X++ alebo oprava metaúdajov, ktorá obsahuje mobilný pracovný priestor <strong>Správa výdavkov</strong>. Ak chcete implementovať KB 4019015, musí váš správca systému postupovať podľa týchto krokov.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Stiahnite si aktualizácie zo služieb Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Nainštalovať rýchlu opravu metadát</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Vytvorte balík s možnosťou nasadenia,</a> ktorý obsahuje modely <strong>ApplicationSuite</strong> a <strong>ExpenseMobile</strong>, a potom nahrajte balík s možnosťou nasadenia do LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Použiť nasaditeľný balík</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Zverejnite mobilný pracovný priestor <strong>Správa výdavkov</strong>.</td>
-<td>Správca systému</td>
-<td>Pozrite si <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Zverejnenie mobilného pracovného priestoru</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops
 Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 
-- [Pre telefóny Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Pre Android telefóny](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pre telefóny iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Prihlásenie sa do mobilnej aplikácie
@@ -103,11 +70,11 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 3. Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.
 4. Vykonajte jeden z týchto krokov:
 
-   - Ak ste vybrali **Vyfotografovať**, nasledujte tieto kroky:
+    - Ak ste vybrali **Vyfotografovať**, nasledujte tieto kroky:
 
-      1. Dostali ste sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. 
-      2. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
-      3. Voliteľné: Zadajte názov fotografie a poznámky.
+        1. Dostali ste sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. 
+        2. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
+        3. Voliteľné: Zadajte názov fotografie a poznámky.
 
     - Ak ste vybrali **Vybrať obrázok**, nasledujte tieto kroky:
 
@@ -133,20 +100,20 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 
 10. Vyberte **Hotovo**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Schválenie výkazu výdavkov pomocou mobilného pracovného priestoru Správa výdavkov (ak používate aktualizáciu z júla 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Schváľte výkaz výdavkov pomocou mobilného pracovného priestoru správy výdavkov
 
 1. Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.
 2. **Schvaľovanie výdavkov** zobrazuje počet výkazov výdavkov, ktoré sú vám pridelené na schválenie. Tento počet sa aktualizuje každých približne 30 minút. Vyberte **Schvaľovanie výdavkov**.
 
     Zobrazí sa zoznam výkazov výdavkov, ktoré sú vám pridelené na schválenie.
-    
+
 3. Vyberte výkaz výdavkov, aby ste zobrazili podrobnosti o výdavku.
 4. Vyberte výdavok, aby ste zobrazili podrobnosti o výdavku. Informácie, ktoré sa zobrazujú pri výdavku, zahŕňajú všetky podrobnosti o účtenke, hosťovi a položkách.
 5. Späť na stránke **Výkaz výdavkov** vyberte, či chcete schváliť alebo odmietnuť výkaz výdavkov.
 6. Zadajte akékoľvek komentáre k schvaľovacej akcii.
 7. Vyberte **Hotovo**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Vytvorenie nového výkazu výdavkov a jeho odoslanie na schválenie pomocou mobilného pracovného priestoru Správa výdavkov (ak používate aktualizáciu z júla 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Vytvorte nový výkaz výdavkov a odošlite ho na schválenie pomocou mobilného pracovného priestoru správy výdavkov
 
 1. Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.
 2. Vyberte **Zadanie výdavku**.
@@ -184,12 +151,12 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
                     1. Vyberte obrázok zo zoznamu.
                     2. Voliteľné: Zadajte názov obrázku a poznámky.
 
-            3.  Vyberte **Hotovo**.
+            3. Vyberte **Hotovo**.
 
         - Ak ste vybrali **Pripojiť účtenku**, nasledujte tieto kroky:
 
-            1.  V zozname vyberte jeden alebo viac obrázkov.
-            2.  Vyberte **Hotovo**.
+            1. V zozname vyberte jeden alebo viac obrázkov.
+            2. Vyberte **Hotovo**.
 
     3. Vyberte tlačidlo **Späť** pre návrat k podrobnostiam o výdavku.
 
@@ -233,7 +200,32 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 21. Predchádzajúce kroky opakujte, kým nedokončíte pridávanie všetkých výdavkov.
 22. Stlačte možnosť **Odoslať**.
 23. Zadajte akékoľvek komentáre pre schvaľovateľa.
-24. Vyberte **Hotovo**.
+24. Vyberte položku **Hotovo**.
 
+## <a name="frequently-asked-questions"></a>Najčastejšie otázky
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Prečo mobilná aplikácia Expense predvolene nezadáva spôsob platby?
+
+Organizácie si môžu prispôsobiť **Predvolený spôsob platby** nastavenie pre každú kategóriu výdavkov tak, ako je vytvorená. Okrem toho, keď nastavujete spôsoby platby, môžete nastaviť **Predvolený spôsob platby** pole do **Iba import**.
+
+Kedy **Iba import** je pre spôsob platby povolený, spôsob platby nie je predvolene zadaný. V kategóriách výdavkov, kde je nastavený tento spôsob platby, bude prázdne. Toto správanie je konzistentné vo webovom aj mobilnom prostredí.
+    
+Kedy **Iba import** nie je povolená pre spôsob platby, nastavená hodnota sa zadáva predvolene pre kategórie výdavkov, kde je tento spôsob platby nastavený. Existuje však známy problém, kedy v mobilnej aplikácii Expense nie je zadaná predvolená hodnota. Ak chcete tento problém obísť, pred uložením výkazu výdavkov manuálne vyberte spôsob platby. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Prečo nemôžem pridať alebo upraviť finančné dimenzie v mobilnej aplikácii Expense?
+
+Zadávanie rozmerov a distribúcií nie je podporované. Ak chcete obísť toto obmedzenie, môžete tieto polia nastaviť predvolene v mobilnej aplikácii nastavením predvolených finančných dimenzií na projekt alebo zamestnanca.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Prečo sa mi niekedy v mobilnej aplikácii Expense zobrazuje chyba synchronizácie?
+
+Ak riadky výdavkov nespĺňajú požiadavky politiky a používateľ odošle správu o výdavkoch bez toho, aby sa zaoberal varovaním o politike, mobilné dáta sa nesynchronizujú so serverom a dôjde k zlyhaniu synchronizácie. Všetky správy o výdavkoch, ktoré sa predložia po zlyhaní synchronizácie, zostanú v zlyhanom stave a spôsobia ďalšie zlyhania synchronizácie. Jediným spôsobom, ako vyriešiť túto situáciu, je manuálne odstrániť upozornenia o synchronizácii. Tento problém bol vyriešený zastavením odosielania správ o výdavkoch, keď neboli vyriešené varovania politiky, aby sa predišlo chybám synchronizácie.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Prečo sa overenie projektu a kategórie správne neodráža v mobilnej aplikácii Expense?
+
+Toto overenie momentálne nie je podporované. Podpora však môže byť pridaná v budúcnosti. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Aké typy dokumentov sú podporované v mobilnej aplikácii Expense?
+
+Mobilná aplikácia Expense podporuje iba obrázky. V súčasnosti nepodporuje súbory PDF ani iné dokumenty.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

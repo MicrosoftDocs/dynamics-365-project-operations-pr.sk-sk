@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Novinky
       items:
+        - name: "November\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "Október\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: "September\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Výkon rozhrania API plánovania projektov
               href: project-management/project-schedule-api-performance.md
+            - name: Denníky plánovania projektov
+              href: project-management/schedule-api-logs.md
     - name: Správa zdrojov
       items:
         - name: Kľúčové koncepty
@@ -544,6 +548,8 @@
       items:
         - name: "Novinky v\_rámci skoršieho prístupu k\_2.\_vlne vydaní na rok\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Novinky v\_novembri\_2021 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: "Novinky v\_októbri\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: "Novinky v\_septembri\_2021 – čiastočné nasadenie"
@@ -952,6 +958,10 @@
   items:
     - name: Novinky
       items:
+        - name: "Novinky v\_októbri\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: "Novinky v\_septembri\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: "Novinky v\_júli\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: "Novinky v\_máji\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
@@ -1108,6 +1118,8 @@
       items:
         - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 36, V3'
