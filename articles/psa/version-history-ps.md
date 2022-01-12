@@ -1,6 +1,6 @@
 ---
 title: Aktualizácia plánu vydania pre Project Service 3.x
-description: Táto téma poskytuje informácie o dostupných a pripravovaných vydaniach Dynamics 365 Project Service Automation.
+description: Táto téma poskytuje informácie o dostupných a pripravovaných vydaniach aplikácie Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 10/04/2021
 ms.reviewer: kfend
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
-ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892216"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940953"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Aktualizácia plánu vydania pre Project Service 3.x
 
@@ -37,36 +37,36 @@ ms.locfileid: "7892216"
 
 | Riešenie  | Najnovšia verzia |
 |-------|----|
-| Project Service Automation    | 3.10.58.130 |
-| Doplnok Project Service Automation pre stolné zariadenia                | 3.15          |
+| Project Service Automation    | 3.10.59.117 |
+| Doplnok Project Service Automation pre stolné zariadenia                | 3.60          |
 
 Informácie o aktualizáciách pre Project Service nájdete v [plánoch vydania služby Dynamics 365](/dynamics365/release-plans/). 
 
 | Stanica  | Oblasť | Aktuálna verzia | Ďalšia verzia |  Plánovaný dátum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stanica 1</strong> | |  |  | |
-| | <i>Prvé vydanie</i> | [3.10.58.120](whats-new-ur-37.md) | Spracuje sa | 03. december 2021
+| | <i>Prvé vydanie</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 14. január 2022
 |<strong>Stanica 2</strong> | |  |  | |
-| | <i>Južná Amerika</i> | [3.10.58.120](whats-new-ur-37.md) | Spracuje sa | 10. december 2021
-| | <i>Kanada</i> | [3.10.58.120](whats-new-ur-37.md) | Spracuje sa | 10. december 2021
-| | <i>India</i> | [3.10.58.120](whats-new-ur-37.md) | Spracuje sa | 10. december 2021
-| | <i>Francúzsko</i> | [3.10.58.120](whats-new-ur-37.md) | Spracuje sa | 10. december 2021
-| | <i>Južná Afrika</i> | [3.10.58.120](whats-new-ur-37.md) | Spracuje sa | 10. december 2021
-| | <i>Nemecko</i> | [3.10.58.120](whats-new-ur-37.md) | Spracuje sa | 10. december 2021
-| | <i>Švajčiarsko</i> | [3.10.58.120](whats-new-ur-37.md) | Spracuje sa | 10. december 2021
+| | <i>Južná Amerika</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 21. január 2022
+| | <i>Kanada</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 21. január 2022
+| | <i>India</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 21. január 2022
+| | <i>Francúzsko</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 21. január 2022
+| | <i>Južná Afrika</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 21. január 2022
+| | <i>Nemecko</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 21. január 2022
+| | <i>Švajčiarsko</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 21. január 2022
 |<strong>Stanica 3</strong> | |  |  | |
-| | <i>Japonsko</i> | [3.10.58.130](whats-new-ur-37-5.md) | Spracuje sa | 17. december 2021
-| | <i>Ázia a Tichomorie</i> | [3.10.58.130](whats-new-ur-37-5.md) | Spracuje sa | 17. december 2021
-| | <i>Spojené kráľovstvo</i> | [3.10.58.130](whats-new-ur-37-5.md) | Spracuje sa | 17. december 2021
-| | <i>Oceánia</i> | [3.10.58.130](whats-new-ur-37-5.md) | Spracuje sa | 17. december 2021
-| | <i>Spojené Arabské Emiráty</i> | [3.10.58.130](whats-new-ur-37-5.md) | Spracuje sa | 17. december 2021
+| | <i>Japonsko</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 28. január 2022
+| | <i>Ázia a Tichomorie</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 28. január 2022
+| | <i>Spojené kráľovstvo</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 28. január 2022
+| | <i>Oceánia</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 28. január 2022
+| | <i>Spojené Arabské Emiráty</i> | [3.10.59.117](whats-new-ur-38.md) | Spracuje sa | 28. január 2022
 |<strong>Stanica 4</strong> | |  |  | |
-| | <i>Európa</i> | [3.10.58.130](whats-new-ur-37-5.md) | Spracuje sa | 07. január 2022
+| | <i>Európa</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 07. január 2022
 |<strong>Stanica 5</strong> | |  |  | |
-| | <i>Severná Amerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | Spracuje sa | 14. január 2022
+| | <i>Severná Amerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14. január 2022
 |<strong>Stanica 6</strong> | |  |  | |
-| | <i>Cloud vládneho spoločenstva</i> | [3.10.58.130](whats-new-ur-37-5.md) | Spracuje sa | 14. január 2022
-| | <i>Skupiny s vyhradeným rozsahom</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10. december 2021
+| | <i>Cloud vládneho spoločenstva</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14. január 2022
+| | <i>Skupiny s vyhradeným rozsahom</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 21. január 2022
 
 
 

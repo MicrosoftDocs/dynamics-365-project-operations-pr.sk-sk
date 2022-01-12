@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Aktualizácie aplikácie Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Odstránené alebo zastarané funkcie
+      items:
+        - name: "Odstránené alebo zastarané funkcie v\_aplikácii Project Operations"
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
   items:
     - name: Začíname
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Novinky
       items:
+        - name: "December\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: "November\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "Október\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Nastavenie počtu najazdených kilometrov pomocou tarifných sadzieb pre počet najazdených kilometrov
               href: expense/set-up-mileage.md
+        - name: Rozpis výdavkov
+          href: prod-exp/expense-itemization.md
         - name: Osobné výdavky
           href: expense/personal-expenses-expense-report.md
         - name: Medzipodnikové výdavky
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Správa odhadov výnosov
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Riešenie problémov
+      items:
+        - name: "Proces predaja v\_rámci projektu"
+          items:
+            - name: 'Chyba nezhody mien pri vytváraní projektu, zmluvy, cenovej ponuky alebo rezervovateľného zdroja'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: "Čiastočné nasadenie – dohoda o\_fakturácii pro forma"
   items:
     - name: Začíname
@@ -548,6 +562,8 @@
       items:
         - name: "Novinky v\_rámci skoršieho prístupu k\_2.\_vlne vydaní na rok\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Novinky v\_decembri\_2021 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: "Novinky v\_novembri\_2021 – čiastočné nasadenie"
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: "Novinky v\_októbri\_2021 – čiastočné nasadenie"
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: "Medzníky v\_riadku subdodávateľskej zmluvy"
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: "Členovia projektového tímu v\_rámci subdodávateľskej zmluvy"
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Možnosti subdodávateľskej zmluvy pre členov projektového tímu
+          href: pro/subcontracting/subcon-options.md
+        - name: "Odhad nákladov v\_prípade priradení zdrojov v\_rámci subdodávateľskej zmluvy"
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: "Konfigurácia tabule plánovania s\_cieľom zobraziť zmluvných pracovníkov a\_kapacitu na základe subdodávateľskej zmluvy"
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: "Personálne zabezpečenie projektu zmluvnými pracovníkmi a\_kapacitou na základe subdodávateľskej zmluvy"
+          href: pro/subcontracting/staffing-cw.md
+        - name: "Evidencia času, výdavkov a\_použitia materiálu pre súčasti v\_rámci subdodávateľskej zmluvy"
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: "Prechody stavov v\_rámci subdodávateľskej zmluvy"
+          href: pro/subcontracting/subcon-states.md
     - name: Čas
       items:
         - name: Prehľad času
@@ -1118,6 +1148,8 @@
       items:
         - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 37, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: "Príručka k\_vykazovaniu"
           href: psa/implementation-guides/reporting-guide.md
+    - name: "Inovácia z\_aplikácie Project Service Automation na Project Operations – čiastočná"
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Inovácia aplikácie Project Service Automation (aplikácia verzie 3.x)
       items:
         - name: Inovácia aplikácie Project Service Automation

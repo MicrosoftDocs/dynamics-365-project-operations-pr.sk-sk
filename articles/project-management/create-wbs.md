@@ -2,16 +2,16 @@
 title: Vytvorenie štruktúry rozdelenia práce
 description: Táto téma vysvetľuje, ako vytvoriť štruktúru rozdelenia práce (WBS) vrátane základných ovládacích prvkov v novom plánovacom rozhraní.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655436"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928634"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Vytvorenie štruktúry rozdelenia práce (WBS)
 
@@ -95,11 +95,11 @@ Ako správca môžete definovať vlastné polia pre entitu úlohy. Polia sa vša
 
 ## <a name="staffing-attributes"></a>Personálne atribúty
 
-Personálne atribúty sú prístupné prostredníctvom poľa **zdroje** v pláne. Môžete vyhľadať existujúci zdroj alebo vybrať **Vytvoriť** a na paneli **Rýchle vytvorenie** pridať člena projektového tímu ako nový zdroj.
+Personálne atribúty sú prístupné prostredníctvom poľa **zdroje** v pláne. Môžete vyhľadať existujúci zdroj alebo vybrať **Vytvoriť** a na paneli **Rýchle vytvorenie** pridať člena projektového tímu ako nový zdroj.  Keď hľadáte zdroj pomocou nástroja na výber zdrojov v mriežke úloh, zobrazení dosky alebo Gantt, vyhľadávanie vráti buď existujúcich členov projektového tímu alebo aktívne rezervovateľné zdroje.
 
 Polia **rola**, **zdrojová jednotka** a **názov pozície** sa používajú na popis personálnych požiadaviek na úlohu. Tieto personálne atribúty spolu s plánom úloh sa používajú na vyhľadanie dostupných zdrojov na vykonanie tejto úlohy.
 
-   - **Rola**: zadajte typ zdroja, ktorý je potrebný na vykonanie úlohy.
+   - **Role** : Zadajte typ zdroja, ktorý je potrebný na vykonanie úlohy.,
    - **Zdrojová jednotka**: zadajte jednotku, z ktorej by mali byť pridelené zdroje pre úlohu. Tento atribút ovplyvňuje odhady nákladov a predaja na úlohy, ak sú náklady a fakturačná sadzba zdroja nastavené na zdrojové jednotky.
    - **Názov pozície**: zadajte popisný názov pre všeobecný zdroj, ktorý slúži ako zástupný symbol pre zdroj, ktorý bude v konečnom dôsledku vykonávať prácu.
 
@@ -127,6 +127,7 @@ Ak používate štruktúru rozpisu práce v Project Operations, mali by ste si b
 | Maximálny celkový počet zdrojov pre projekt              | 150                  |
 | Maximálny celkový počet odkazov (len nasledovník) pre projekt | 600                  |
 | Maximálny celkový počet vlastných polí pre projekt          | 10                   |
+| Maximálny počet položiek kontrolného zoznamu na úlohu                   | 20                   |
 
 **Obmedzenia úloh**
 

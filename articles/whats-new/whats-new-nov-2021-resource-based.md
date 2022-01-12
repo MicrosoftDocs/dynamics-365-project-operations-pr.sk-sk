@@ -7,21 +7,21 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827345"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942904"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v novembri 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
 *Platí pre: Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch*
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoft Dynamics 365 Project Operations:
+Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
 
-- Operácie projektu v prostredí Dataverse verzia 4.26.0.145, 4.26.0.148, alebo 4.26.0.150
-- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.22
+- Projektové operácie v a Dataverse verzia prostredia 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Projektový manažment a účtovníctvo v a Dynamics 365 Finance verzia prostredia 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 
@@ -33,13 +33,13 @@ V tomto vydaní sú zahrnuté nasledujúce funkcie:
 
 V tomto vydaní nie sú k dispozícii žiadne aktualizácie máp duálneho zápisu Project Operations. Aktuálny zoznam a verzie máp duálneho zápisu Project Operations nájdete na v časti [Verzie máp duálneho zápisu v aplikácii Project Operations](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Vždy spúšťajte najnovšiu verziu mapy vo svojom prostredí a povoľte všetky súvisiace tabuľkové mapy, keď aktualizujete svoje riešenie projektu Dataverse a verziu finančného riešenia. Niektoré funkcie a možnosti nemusia fungovať správne, ak nie je aktivovaná najnovšia verzia mapy. Aktívnu verziu mapy môžete vidieť v stĺpci **Verzia** na stránke **Duálny zápis**. Novú verziu mapy aktivujete výberom možnosti **Verzie mapy tabuľky**, zvolením najnovšej verzie a potom uložením vybratej verzie. Ak ste si prispôsobili predpripravenú mapu tabuľky, znova použite zmeny. Ďalšie informácie si prečítajte v časti [Správa životného cyklu aplikácie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vždy spúšťajte najnovšiu verziu mapy vo svojom prostredí a povoľte všetky súvisiace tabuľkové mapy pri aktualizácii operácií projektu Dataverse riešenie a verzia finančného riešenia. Niektoré funkcie a možnosti nemusia fungovať správne, ak nie je aktivovaná najnovšia verzia mapy. Aktívnu verziu mapy môžete vidieť v stĺpci **Verzia** na stránke **Duálny zápis**. Novú verziu mapy aktivujete výberom možnosti **Verzie mapy tabuľky**, zvolením najnovšej verzie a potom uložením vybratej verzie. Ak ste si prispôsobili predpripravenú mapu tabuľky, znova použite zmeny. Ďalšie informácie si prečítajte v časti [Správa životného cyklu aplikácie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ak narazíte na problém pri spustení mapy, postupujte podľa pokynov v časti [Problém s chýbajúcimi stĺpcami tabuľky na mapách](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) časti príručky na riešenie problémov s duálnym zápisom.
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
-### <a name="project-operations-in-dataverse"></a>Operácie projektu v Dataverse
+### <a name="project-operations-in-dataverse"></a>Projektové operácie v Dataverse
 
 | Oblasť funkcií | Číslo odkazu | Aktualizácia kvality |
 | --- | --- | --- |
@@ -73,6 +73,6 @@ Ak narazíte na problém pri spustení mapy, postupujte podľa pokynov v časti 
 | Projektový manažment a účtovníctvo | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Úprava plne fakturovaného medzníka by nemala byť možná. |
 | Cestovanie a výdavky | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Všetky prehľady výdavkov sú viditeľné pri hľadaní kategórie v mobilnej aplikácii Výdavky. |
 | Cestovanie a výdavky | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Nesprávne sumy transakcií predajcu a transakcií dane z obratu sa účtujú z nákladu, ktorý je vytvorený z transakcie kreditnou kartou. |
-| Cestovanie a výdavky | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Irelevantné varovanie sa zobrazí, keď obnovíte súbor **Správa o výdajoch** stránku. |
+| Cestovanie a výdavky | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Keď obnovíte súbor, zobrazí sa irelevantné varovanie **Správa o výdajoch** stránku. |
 | Cestovanie a výdavky | [598656](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598656) | Nesprávny dočasný schvaľovateľ sa použije, keď odstránite dočasného schvaľovateľa a potom znova odošlete výkaz výdavkov prostredníctvom pracovného toku. |
 | Cestovanie a výdavky | [612742](https://fix.lcs.dynamics.com/Issue/Details/?bugId=612742) | Vyskytla sa chyba účtovania, ktorá súvisí s nastavením najazdených kilometrov. |
