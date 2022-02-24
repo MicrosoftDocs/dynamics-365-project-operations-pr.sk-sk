@@ -2,16 +2,18 @@
 title: Správa viacerých zákazníkov v projektových zmluvách – čiastočné
 description: Táto téma poskytuje informácie o správe viacerých zákazníkov v projektových zmluvách.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001765"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181336"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Správa viacerých zákazníkov v projektových zmluvách – čiastočné
 
@@ -50,6 +52,3 @@ Zmluvného zákazníka je možné vytvoriť, aktualizovať alebo vymazať z kart
 Percento rozdelenia fakturácie je možné upravovať pomocou priameho editovania mriežky. Ak percentá rozdelenia fakturácie nedosiahnu 100 percent, zobrazí sa chyba. Po úprave percenta rozdelenia fakturácie chybu odstránite obnovením stránky.
 
 Môžete tiež vybrať **Rovnomerne distribuovať** na podradenej mriežke **Zmluvní zákazníci** a rovnomerne rozdeliť fakturáciu medzi všetkých zmluvných zákazníkov. Ak existuje faktor zaokrúhľovania, pridá sa k zákazníkovi zaokrúhľovania. Jeden zo zmluvných zákazníkov je vždy označený ako zákazník **zaokrúhľovania**, čo znamená, že záznam zmluvného zákazníka bude mať príznak zaokrúhľovania vždy nastavený na **Áno**. Spravidla ide o primárneho zmluvného zákazníka, ale je možné ho tiež zmeniť.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

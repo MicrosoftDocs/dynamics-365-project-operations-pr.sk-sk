@@ -2,6 +2,8 @@
 title: Rezervujte pomenované zdroje zo zdrojových požiadaviek.
 description: Táto téma poskytuje informácie o rezervácii pomenovaných zdrojov pre požiadavku na všeobecné zdroje.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7a6370bde434b74d05e342240abd9bba84d34d8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000505"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145127"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Rezervujte pomenované zdroje zo zdrojových požiadaviek.
 
@@ -35,29 +37,29 @@ Môžete rezervovať pomenovaný zdroj k výmene všeobecného zdroja, ktorý m�
 2. Vyberte všeobecný zdroj, ktorý má zdrojovú požiadavku zo zoznamu a potom kliknite na položku **rezervovať**. Alebo otvorte zdrojovú požiadavku a potom kliknite na položku **rezervovať**.
 
 
-![Rezervácia všeobecného člena tímu.](media/RM-how-to-14.png)
+![Rezervácia všeobecného člena tímu](media/RM-how-to-14.png)
 
 
 3. Na stránke **asistent plánovania** vyberte pomenovaný zdroj, ktorý chcete rezervovať do projektového tímu, a potom kliknite na položku **rezervovať**.
 
-![Rezervácia všeobecného člena tímu pomocou Asistenta plánovania.](media/RM-how-to-15.png)
+![Rezervácia všeobecného člena tímu pomocou Asistenta plánovania](media/RM-how-to-15.png)
 
 Po dokončení rezervácie a splnení pomenovaného zdroja sa všeobecný zdroj nahradí názvom zdroja.
 
-![Pomenovaný člen tímu nahrádza všeobecného člena tímu.](media/RM-how-to-16.png)
+![Pomenovaný člen tímu nahrádza všeobecného člena tímu](media/RM-how-to-16.png)
 
 Priradenia v pláne sú tiež aktualizované s názvom zdroja.
 
-![Pomenovaný člen tímu priradený k úlohám projektu.](media/RM-how-to-17.png)
+![Pomenovaný člen tímu priradený k úlohám projektu](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Naplnenie všeobecného zdroja s viacerými pomenovaniami zdrojov
 Splnenie požiadavky na všeobecný zdroj s viacerými pomenovanými zdrojmi je podobné priradením jediného pomenovaného zdroja. Napríklad, je tam úloha s trvaním päť dní a 120 hodín úsilia. Túto úlohu nie je možné dokončiť jedným zdrojom, ktorý pracuje s typickým osemhodinovým dňom počas päťdňového týždňa. 
 
-![Úloha, ktorá potrebuje 120 hodín úsilia počas piatich dní.](media/RM-how-to-21.png)
+![Úloha, ktorá potrebuje 120 hodín úsilia počas piatich dní](media/RM-how-to-21.png)
 
 Požiadavka je 120 hodín inžinierstva robotiky počas piatich dní, čo je 24 hodín denne.
 
-![Denná požiadavka.](media/RM-how-to-22.png)
+![Denná požiadavka](media/RM-how-to-22.png)
 
 Toto je príklad, kedy sú potrebné viaceré pomenované zdroje na splnenie všeobecnej zdrojovej požiadavky. Budete musieť rezervovať viac zdrojov na splnenie požiadavky.
 
@@ -66,6 +68,3 @@ Toto je príklad, kedy sú potrebné viaceré pomenované zdroje na splnenie vš
 Hlavný rozdiel v tomto scenári je, že všeobecný zdroj zostáva priradený k tímovej úlohe a rezervované pomenované zdroje členov tímu nie sú priradené ako súčasť pozície. Projektový manažér môže priradiť prácu podľa zodpovedajúcich pomenovaných prostriedkov. Zobrazenie **odsúhlasenia** môže pomôcť projektovému manažérovi pri rozbití rezervácií naprieč viacerými zdrojmi na priradenie úlohy. To sa nerobí automaticky, pretože v každom scenári zložitejšie ako jednoduchý príklad vyššie, ako keď máte zväzok úloh, ktoré tvoria požiadavku, zámer, ako chce projektový manažér priradiť, je potrebné systémovo predpokladať. Vzhľadom k tomu, že systém nemôže pochopiť zámer, je pravdepodobné, že predpoklady budú iné, než je určené, a stane sa nesprávny alebo nepredvídateľný výsledok. Predvídateľný výsledok je, že všeobecný zdroj zostáva priradený, kým projektový manažér zámerne vytvorí úlohy, s pomocou zobrazenia **odsúhlasenia**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

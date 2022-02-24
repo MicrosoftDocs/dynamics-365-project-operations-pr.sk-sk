@@ -2,16 +2,18 @@
 title: Predvolené hodnoty finančnej dimenzie
 description: Táto téma poskytuje informácie o tom, ako nastaviť predvolené hodnoty finančnej dimenzie.
 author: sigitac
-ms.date: 12/14/2021
+manager: Annbe
+ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
-ms.translationtype: MT
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922957"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642382"
 ---
 # <a name="financial-dimension-defaults"></a>Predvolené hodnoty finančnej dimenzie
 
@@ -19,7 +21,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations používa rámec [Finančné dimenzie](/dynamics365/finance/general-ledger/financial-dimensions) v Dynamics 365 Finance na poskytnutie ďalších prehľadov o transakciách v hlavnej a vedľajšej účtovnej knihe projektu.
+Dynamics 365 Project Operations používa rámec [Finančné dimenzie](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) v Dynamics 365 Finance na poskytnutie ďalších prehľadov o transakciách v hlavnej a vedľajšej účtovnej knihe projektu.
 
 Predvolené finančné dimenzie je možné nastaviť na zákazníka, zdroj financovania projektu, medzník, riadok projektovej zmluvy alebo projekt.
 
@@ -60,15 +62,3 @@ Projekty sa vytvárajú a udržiavajú v CDS. Účtovné atribúty pre projekty 
 4. Nastavte predvolené hodnoty finančnej dimenzie. Všimnite si, že finančné dimenzie sa predvolene získavajú z obchodného vzťahu zákazníka. Ak je projekt spojený s riadkom zmluvy s viacerými zmluvnými zákazníkmi projektu, primárny zákazník sa použije na predvolené finančné dimenzie.
 
 Predvolené finančné dimenzie projektu sa používajú na nastavenie predvolených hodnôt záznamov v účtovnom denníku pre časové, nákladové a poplatkové transakcie v **Denníku integrácie Project Operations** a na súvisiacich riadkoch projektových faktúr.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Použite finančné dimenzie pre časové záznamy projektu
-Ak chcete použiť finančné dimenzie pre časové položky projektu, všimnite si, že predvolená hodnota dimenzie je založená na nasledujúcom poradí:
-
-1. Prostriedok
-2. Project
-3. Zdroj financovania
-
-Napríklad, ak je predvolená dimenzia špecifikovaná na zdroji, použije sa na predvolenú dimenziu, ktorá je špecifikovaná v projekte. Podobne sa predvolená dimenzia projektu použije nad predvolenou hodnotou, ktorá je špecifikovaná v zdroji financovania.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

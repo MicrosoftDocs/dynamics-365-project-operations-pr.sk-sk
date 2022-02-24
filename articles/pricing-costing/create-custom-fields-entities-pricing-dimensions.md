@@ -2,9 +2,11 @@
 title: Vytvorenie vlastných polí a entít ako cenových dimenzií
 description: Táto téma poskytuje informácie o tom, ako vytvoriť vlastné množiny možností alebo entity.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003655"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642832"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Vytvorenie vlastných polí a entít ako cenových dimenzií
 
@@ -44,7 +46,7 @@ Ak chcete vytvoriť dimenzie založené na entitách, postupujte takto:
 3. Vyberte **Nové**, ak chcete vytvoriť novú entitu s názvom **Štandardný nadpis**. 
 4. Zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
 
-> ![Definícia entity Štandardný názov.](media/Standard-Title-entity-definition.png)
+> ![Definícia entity so Štandardným nadpisom](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimenzie založené na množine možností 
 Môžete vytvoriť dve dimenzie založené na množine možností. 
@@ -54,11 +56,11 @@ Môžete vytvoriť dve dimenzie založené na množine možností.
 
 Nasledujúca grafika poskytuje pohľad na dimenziu **Miesto pracovného zdroja**. 
 
-> ![Množina možností na základe cenovej dimenzie nazvanej Pracovná poloha zdroja.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Množina možností na základe cenovej dimenzie nazvanej pracovná poloha zdroja](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Nasledujúca grafika poskytuje pohľad na dimenziu **Pracovná doba zdroja**. 
 
-> ![Množina možností na základe cenovej dimenzie nazvanej Pracovná doba zdroja.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Množina možností na základe cenovej dimenzie nazvanej hodinová poloha zdroja](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Prejdite do ponuky **Nastavenia** > **Riešenia** a dvakrát kliknite na **Dimenzie cien \<your organization name>**. 
 2. V prehľadávači riešení, na ľavom navigačnom paneli, vyberte **Množinu možností**. 
@@ -74,7 +76,4 @@ Nasledujúca grafika poskytuje pohľad na dimenziu **Pracovná doba zdroja**.
 4. Zatvorí stránku. 
 5. Opakujte kroky 1 - 3 na vytvorenie ďalšieho štandardného názvu pre "Starší Systémový inžinier".
 
-> ![Vzorové údaje pre entitu Štandardný nadpis.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Vzorové údaje pre entitu Štandardný nadpis](media/ST-data.png)

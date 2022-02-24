@@ -2,6 +2,8 @@
 title: Použitie tabule plánovania na zarezervovanie zdrojov projektu
 description: Táto téma poskytuje informácie o požiadavkách na rezerváciu zdrojov.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998255"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144432"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Použitie tabule plánovania na zarezervovanie zdrojov projektu
 
@@ -34,23 +36,20 @@ Skôr než budete môcť rezervovať z tabule plánovania, musíte vytvoriť ale
 1. Ak sa tabla **Požiadavky na rezervácie** v dolnej časti stránky zbalí, rozbaľte ho výberom ovládacieho prvku Expander.
 2. Na table **Požiadavky na rezervácie** na karte **Projekt** vyberte požiadavku na rezerváciu.
 
-    ![Požiadavka vybratá na karte Projekt.](media/Resource-Management-image73.png)
+    ![Požiadavka vybratá na karte Projekt](media/Resource-Management-image73.png)
 
 3. Stlačte možnosť **Vyhľadať dostupnosť** filtrujte rezervovateľné zdroje a zobrazte si dostupné zdroje. 
 4. Vyberte jeden alebo viac zdrojov z tabule plánovania. 
 5. V table **Vytvoriť rezerváciu zdroja** na pravej strane stránky zadajte informácie o rezervácii a potom vyberte položku **Rezervovať a ukončiť**.
 
-    ![Vytvoriť tablu rezervácie zdrojov pre vybratý rezervovateľný zdroj.](media/Resource-Management-image74.png)
+    ![Vytvoriť tablu rezervácie zdrojov pre vybratý rezervovateľný prostriedok](media/Resource-Management-image74.png)
 
 6. Ak je požiadavka vybratá v table **Vytvoriť rezerváciu zdroja**, vyberte jednu alebo viacero buniek zdroja na vytvorenie rezervácie.
 
-    ![Viacero buniek vybratých pre zdroj.](media/Resource-Management-image75.png)
+    ![Viacero buniek vybratých pre zdroj](media/Resource-Management-image75.png)
 
 7. Vyberte položku **Rezervácia**.
 
 Požiadavka je splnená pomocou vybratého prostriedku. V table **Požiadavky na rezervácie** si všimnite, že požiadavka bola aktualizovaná a zdroj je zobrazený ako rezervované na projekte.
 
-![Zdroj rezervovaný na projekte.](media/Resource-Management-image76.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Zdroj rezervovaný na projekte](media/Resource-Management-image76.png)

@@ -2,6 +2,8 @@
 title: Organizačné jednotky
 description: Táto téma poskytuje informácie o organizačných jednotkách v Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005095"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145648"
 ---
 # <a name="organizational-units"></a>Organizačné jednotky 
 
@@ -53,7 +55,7 @@ Organizačná jednotka hrá dve roly v PSA:
 - **Contracting unit** – Organizačná jednotka, ktorá zastupuje skupinu spoločností alebo divízie, ktorá je primárne zodpovedná za získanie predaja a riadenie poskytovania práce a služieb zákazníkovi. Zmluvná jednotka je definovaná poľom **Contracting Unit** v sekcii hlavičky na stránkach **Opportunity**, **Quote**, **Project Contract** a **Project**.
 - **Resourcing unit** – Organizačná jednotka, ku ktorej zdroj patrí alebo je priradený. Táto organizačná jednotka môže poskytnúť svoje zdroje pre niektoré roly na výkazy práce (SOWs) a projekty, ktoré sú vo vlastníctve zmluvnej jednotky.
 
-> ![Zmluvné jednotky a zdrojové jednotky.](media/advanced-1.png)
+> ![Zmluvné jednotky a zdrojové jednotky](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Organizačná jednotka FAQs
 
@@ -77,14 +79,14 @@ Keď implementujete Dynamics 365, optimalizujte povolenia zabezpečenia pre hier
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Príklad organizačných jednotiek a obchodných jednotiek
 
-Contoso, Ltd. má prosperujúce technologické postupy spoločnosti Microsoft. Erik a Viktória sú obaja C\# vývojári, ale Viktória je v Spojených štátoch, zatiaľ čo Erik je v Indii. Väčšina projektových záväzkov si vyžaduje zdroje od spoločnosti Contoso India a Contoso USA a Erik a Viktória si vyžadujú rovnakú úroveň prístupu k zabezpečeniu k projektom v tejto praktickej oblasti. Náklady na vývojárov zo spoločnosti Contoso India sa výrazne líšia od nákladov na vývojárov zo spoločnosti Contoso USA.
+Blaho, Ltd. má prosperujúce technologické postupy spoločnosti Microsoft. Erik a Viktória sú obaja C\# vývojári, ale Viktória je v Spojených štátoch, zatiaľ čo Erik je v Indii. Väčšina projektových záväzkov si vyžaduje zdroje od spoločnosti Blaho India a Blaho USA a Erik a Viktória si vyžadujú rovnakú úroveň prístupu k zabezpečeniu k projektom v tejto praktickej oblasti. Avšak, náklady na vývojárov z Blaho India sa výrazne líšia od nákladov na vývojárov z Blaho USA.
 
 Tu je optimálny spôsob, ako navrhnúť pre tento scenár pomocou Dynamics 365 a PSA.
 
 1. Vytvorte technologickú prax spoločnosti Microsoft ako obchodnú jednotku a priraďte ju spoločnosti Erik a Viktória. Týmto spôsobom môžete pomôcť zaručiť, že obaja zamestnanci majú rovnakú úroveň prístupu k zabezpečeniu k akýmkoľvek projektom v tejto oblasti praxe. Obaja budú môcť kontrolovať priebeh a hlásiť čas, výdavky a aktualizácie úloh. 
 2. Vytvoriť dve organizačné jednotky, aby Hel zaručil, že náklady na projekt sú správne odrazené. 
-3. Pridružiť Viktóriu so spoločnosťou Contoso USA a pridružiť Erika so spoločnosťou Contoso India.
-4. Priraďte príslušné zoznamy nákladových cenníkov obom organizačným jednotkám. Týmto spôsobom, môžete pomôcť zaručiť, že náklady, ktoré sú zaznamenané v rámci projektu pre Erika a Viktóriu, presne odrážajú rozdiel v nákladoch medzi Contoso USA a Contoso India.
+3. Pridružiť Viktória s Blaho USA a pridružiť Erik s Blaho India.
+4. Priraďte príslušné zoznamy nákladových cenníkov obom organizačným jednotkám. TIn týmto spôsobom, môžete pomôcť zaručiť, že náklady, ktoré sú zaznamenané na projekte pre Erik a Viktória presne odrážajú rozdiel v nákladoch medzi Blaho USA a Blaho India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Sú organizačné jednotky súvisiace s predajnými územiami v Dynamics 365?
 
@@ -94,11 +96,11 @@ Organizačná jednotka je interná skupina alebo divízia v spoločnosti, ktorá
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Príklad organizačných jednotiek a oblastí predaja
 
-Contoso, Ltd. má dve vývojové centrá: Contoso USA a Contoso India. Náklady na zdroje sa výrazne líšia medzi týmito dvoma rozvojovými centrami.
+Blaho, Ltd. má dve vývojové centrá: Blaho USA a Blaho India. Náklady na zdroje sa výrazne líšia medzi týmito dvoma rozvojovými centrami.
 
-Contoso predáva svoje IT služby na mnohých medzinárodných trhoch, ako sú Latinská Amerika, Severná Amerika, Ázia-Tichomorie, Západná Európa a Stredný Východ. Fakturačné sadzby pre rovnaké projektové role sa môžu značne líšiť v týchto trhoch.
+Blaho predáva svoje IT služby na mnohých medzinárodných trhoch, ako sú Latinská Amerika, Severná Amerika, Ázia-Tichomorie, Západná Európa a Stredný Východ. Fakturačné sadzby pre rovnaké projektové role sa môžu značne líšiť v týchto trhoch.
 
-Contoso USA a Contoso India by mali byť nastavené ako organizačné jednotky a každá organizačná jednotka by mala mať svoj vlastný cenník nákladov. Ázia-Tichomorie, Latinská Amerika, Severná Amerika, Západná Európa a Stredný Východ by mali byť stanovené ako oblasti predaja a každá oblasť predaja by mala mať svoj vlastný predajný cenník.
+Blaho USA a Blaho India by mali byť nastavené ako organizačné jednotky a každá organizačná jednotka by mala mať svoj vlastný cenník nákladov. Ázia-Tichomorie, Latinská Amerika, Severná Amerika, Západná Európa a Stredný Východ by mali byť stanovené ako oblasti predaja a každá oblasť predaja by mala mať svoj vlastný predajný cenník.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Prečo existuje obmedzenie asociácie cenníkov s organizačnými jednotkami? 
 
@@ -122,7 +124,7 @@ Nie. V súčasnom vydaní PSA, organizačné jednotky nie sú hierarchické. To 
 Ak máte komplexnú hierarchiu nákladových centier, divízií, fakturačných kancelárií atď., nastavte listové uzly hierarchie ako odlišné organizačné jednotky.
 Nasledujúci príklad znázorňuje typickú hierarchiu:
 
-**Contoso India**
+**Blaho India**
 
   - SAP Prax 
 
@@ -134,7 +136,7 @@ Nasledujúci príklad znázorňuje typickú hierarchiu:
     - Technické poradenstvo
     - Funkčné poradenstvo 
     
-**Contoso USA**
+**Contoso US**
 
  - SAP Prax 
 
@@ -147,14 +149,14 @@ Nasledujúci príklad znázorňuje typickú hierarchiu:
     - Funkčné poradenstvo 
  
 Ak je vaša hierarchia podobná, musíte ju nastaviť ako plochý zoznam, ako je to znázornené tu:
-- Contoso India - SAP Practice - Technickí konzultanti 
-- Contoso India - SAP Practice - Konzultanti funkcií       
-- Contoso India - Konzultanti funkcií pre prax spoločnosti Microsoft Technology 
-- Contoso India - Konzultanti funkcií pre prax spoločnosti Microsoft Technology 
-- Contoso USA - SAP Practice - Technickí konzultanti  
-- Contoso USA - SAP Practice - Konzultanti funkcií  
-- Contoso USA - Prax spoločnosti Microsoft Technology - Technickí konzultanti 
-- Contoso USA - Konzultanti funkcií pre prax spoločnosti Microsoft Technology
+- Blaho India - SAP Practice - Technical Consultants 
+- Blaho India - SAP Practice - Functional Consultants       
+- Blaho India - Microsoft Technology Practice Functional Consultants 
+- Blaho India - Microsoft Technology Practice Functional Consultants 
+- Blaho US - SAP Practice - Technical Consultants  
+- Blaho US - SAP Practice - Functional Consultants  
+- Blaho US - Microsoft Technology Practice - Technical Consultants 
+- Blaho US - Microsoft Technology Practice - Functional Consultants
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Sme malá profesionálna spoločnosť so službami, ktorá funguje len ako jedna divízia. Ako môžeme najlepšie využiť koncept organizačnej jednotky v aktuálnej verzii PSA?
 
@@ -165,6 +167,3 @@ Ak vaša spoločnosť pracuje ako jedna jednotka, ktorá má jeden cenník nákl
 Keď je projekt vytvorený samostatne, predvolená zmluvná jednotka projektu je založená na používateľovi, ktorý ho vytvorí. Tento používateľ je tiež predvoleným projektovým manažérom. Ak je projekt priradený k predajnej entite, ako je napríklad cenová ponuka alebo projektová zmluva, zmluvná jednotka projektu je založená na predajnej entite. V tomto prípade môžu byť prepočítané odhady projektu, pretože cenník nákladov sa používa na výpočet odhadu nákladov zmeny, ak sa zmení zmluvná jednotka. Predajný cenník sa používa na výpočet odhadov predaja, ktoré sa zmenia tak, aby boli synchronizované s cenníkom projektu v cenovej ponuke.
 
 Polia **Contracting Unit** a **Currency** v projekte sú zamknuté pre úpravy, pretože musia byť synchronizované s hodnotami na predajnej entite (cenová ponuka alebo projektová zmluva), ku ktorej je projekt priradený.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

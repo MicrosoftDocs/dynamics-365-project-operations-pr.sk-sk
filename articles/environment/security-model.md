@@ -2,16 +2,18 @@
 title: model zabezpečenia,
 description: Táto téma poskytuje informácie o modeli zabezpečenia v Dynamics 365 Project Operations.
 author: stsporen
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991505"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642922"
 ---
 # <a name="security-model"></a>Model zabezpečenia
 
@@ -56,9 +58,9 @@ Skupiny poskytujú povolenia na spoločnú prácu na projekte a podporné artefa
 
 Project Operations nevytvára skupinu prostredníctvom implicitnej akcie a robí to iba prostredníctvom explicitnej akcie tlačiacich skupín.
 
-Vyhľadávanie členov skupiny v dialógovom okne **Správa skupín** je obmedzené na tých, ktorí sú nastavení ako súčasť skupiny zabezpečenia prostredia. Ďalšie informácie nájdete v sekcii [Riadenie prístupu používateľov k prostrediam: skupiny zabezpečenia a licencie](/power-platform/admin/control-user-access).
+Vyhľadávanie členov skupiny v dialógovom okne **Správa skupín** je obmedzené na tých, ktorí sú nastavení ako súčasť skupiny zabezpečenia prostredia. Ďalšie informácie nájdete v sekcii [Riadenie prístupu používateľov k prostrediam: skupiny zabezpečenia a licencie](https://docs.microsoft.com/power-platform/admin/control-user-access).
 
-![Skupinový režim.](./media/groupsmode.png)
+![Skupinový režim](./media/groupsmode.png)
 
 1. Projekt je vytváraný a vlastnený tvoriacim používateľom.
 2. Vlastník projektu je aktualizovaný v tíme.
@@ -68,7 +70,7 @@ Vyhľadávanie členov skupiny v dialógovom okne **Správa skupín** je obmedze
 ## <a name="deployment-recommendation"></a>Odporúčanie pre nasadenie
 S vývojom modelu skupinovej spolupráce Office bude pridaná funkčnosť, ktorá poskytne podrobnejšiu kontrolu v priebehu času. Zákazníkom, ktorí v súčasnosti nasadia Project Operations, sa odporúča, aby sa zamerali na tradičný model zabezpečenia Microsoft Dynamics 365.
 
-Ďalšie informácie nájdete v sekcii [Zabezpečenie v Common Data Service](/power-platform/admin/wp-security).
+Ďalšie informácie nájdete v sekcii [Zabezpečenie v Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Zabezpečenie Project Operations a Microsoft Dynamics 365 Finance
 Project Operations zahŕňa tieto roly:
@@ -76,9 +78,6 @@ Project Operations zahŕňa tieto roly:
 - Projektový manažér
 - Projektový účtovník
 
-Ďalšie informácie o zabezpečení vo Finance nájdete v časti [Zabezpečenie na základe roly](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Ďalšie informácie o zabezpečení vo Finance nájdete v časti [Zabezpečenie na základe roly](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

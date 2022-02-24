@@ -2,6 +2,8 @@
 title: Projektové nastavenia
 description: Táto téma poskytuje informácie o nastaveniach projektového manažmentu.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996950"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148167"
 ---
 # <a name="project-settings"></a>Projektové nastavenia
 
@@ -47,7 +49,7 @@ Na vytvorenie projektového plánu, musíte vytvoriť šablónu projektového ka
   - Pracovný plán na jeden deň
   - Voľno
 
-> ![Možnosti nastavenia.](media/project-13.png)
+> ![Možnosti nastavenia](media/project-13.png)
 
 4. Vyberte položku **nový týždenný plán** a potom nastavte možnosti pre tento plán prostriedkov. Môžete nastaviť opakujúci sa týždenný plán, parametre pre denné hodiny, zatváraciu dobu, a ďalšie.
 5. Nastavte rozsah dátumov, vyberte **uložiť** a potom kliknite na **zavrieť**. 
@@ -66,6 +68,3 @@ Každá organizácia musí tieto roly nastaviť na stránke **kategórie aktívn
 ## <a name="price-lists"></a>Cenníky
 
 Cenníky vám umožňujú vidieť náklady a predajné ceny zdrojov rolí, výdavkových kategórií, produktov a iných prvkov v organizácii. Pred tým ako nastavíte finančné odhady pre prácu, ktorá musí byť dodaná do projektu, mali by ste vytvoriť sprievodný cenník nákladov a predajných cien. V časti parametre by ste tiež mali nastaviť predvolené náklady a predajný cenník, ktorý sa vzťahuje na všetky projekty vytvorené v organizácii. Na stránke **aktívne parametre projektu**, sa uistite, že nastavíte predvolené náklady a predajné cenníky.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

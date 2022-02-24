@@ -2,16 +2,18 @@
 title: Konfigurácia automatického vytvárania faktúr
 description: Táto téma poskytuje informácie o spôsobe konfigurácie systému na automatické generovanie faktúr.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992675"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122452"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Konfigurácia automatického vytvárania faktúr
 
@@ -43,6 +45,3 @@ Dávková úloha pre vytváranie faktúr je opakujúca sa úloha. Ak je táto d�
 
 > [!NOTE]
 > Hromadná fakturácia sa spustí iba pre riadky zmlúv projektu, ktoré sú konfigurované podľa plánov faktúr. Riadok zmluvy s metódou fakturácie podľa fixnej ceny musí mať nakonfigurované medzníky. V riadku zmluvy projektu s metódou fakturácie podľa času a materiálu bude potrebné zostaviť plán fakturácie založený na dátume. To isté platí pre riadok zmluvy založený na projekte.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

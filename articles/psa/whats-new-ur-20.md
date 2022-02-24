@@ -2,6 +2,8 @@
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 20, V3
 description: Táto téma obsahuje zoznam funkcií a opráv dostupných v aktualizácii Project Service Automation, vydanie 20, V3
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9939e2f354b69dcbc304f4f6e2ac41a00f251fed69f37978059f4053335ee651
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993620"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147132"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Aktualizácia pre Project Service Automation, vydanie 20, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365. Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte stránku online riešení v centre spravovania služby Dynamics 365 a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).
+S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365. Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte stránku online riešení v centre spravovania služby Dynamics 365 a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation V3, vydanie 20. Táto verzia má číslo V 3.10.31.37 a v júni 2020 je všeobecne k dispozícii prostredníctvom automatickej aktualizácie.
 
@@ -40,7 +42,7 @@ Vyriešili sa tieto problémy:
 
 - Import členov projektového tímu s metódou pridelenia, ktorý si vyžaduje hodiny, vedie k nejasnému chybovému hláseniu, keď je uvedených nula hodín.
 - Používatelia uvidia nesprávnu chybu po zadaní maximálneho počtu znakov do poľa **Opis** pri projektovej úlohe.
-- Stránka **Stiahnutie doplnku Microsoft Dynamics 365 Project Service Automation** je presmerovaná na stránku sťahovania v angličtine, keď je jazyk používateľa nastavený na japončinu.
+- Stránka **Stiahnutie doplnku Microsoft Dynamics 365 Project Service Automation** presmeruje na stránku sťahovania v angličtine, ak má používateľ nastavenia jazyka nastavené na japončinu.
 - Ak sa vyskytne chyba servera, niekedy sa zachová označenie synchronizácie na karte **Plán** vo formulári **Projekty**.
 - Po zmene úlohy sa na server odosielajú redundantné aktualizácie úloh.
 
@@ -60,6 +62,3 @@ Vyriešili sa tieto problémy:
 - Zoznamy **Obstarávacej ceny organizačnej jednotky** umožňujú prekrývanie účinnosti podľa dátumu.
 - Používatelia nemajú povolené meniť hodnotu **OrgUnit**, keď typ objednávky nie je pracovný, pretože to bude mať za následok chybu nulovej referenčnej výnimky.
 - Pri pokuse o navigáciu z formulára **Podrobnosti o riadku cenovej ponuky** späť do formulára **Cenová ponuka** sa formulár obnoví a zobrazí sa karta **Zhrnutie**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

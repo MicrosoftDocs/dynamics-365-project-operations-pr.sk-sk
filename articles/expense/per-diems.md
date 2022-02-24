@@ -2,16 +2,18 @@
 title: Za každý deň
 description: Táto téma poskytuje informácie o pravidlách diét, ktoré sa používajú v správe výdavkov.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986420"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128527"
 ---
 # <a name="per-diems"></a>Za každý deň
 
@@ -29,6 +31,3 @@ Diéta je príspevok, ktorý sa vypláca pracovníkovi, ktorý cestuje za práco
     
 ## <a name="submit-expenses-using-per-diem"></a>Predloženie výdavkov pri použití diét
 Na predloženie výdavkov s použitím diét pri vytváraní výkazu výdavkov použite kategóriu výdavkov **Diéty**. Prejdite do **Diéty od dátumu**, **Diéta k dátumu** a **Miesto diét**. Suma sa vypočíta na základe sadzieb diét pre vybrané miesto a zníženie jedál sa vypočíta na základe úrovní denných diét.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Mobilná aplikácia Project Timesheet
 description: Táto téma poskytuje informácie o mobilnej aplikácii Microsoft Dynamics 365 Project Timesheet. Mobilná aplikácia Project Timesheet umožňuje používateľom zadávať a schvaľovať časové rozvrhy projektov na svojom mobilnom zariadení.
 author: abruer
+manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997220"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084537"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilná aplikácia Project Timesheet
 
@@ -94,6 +96,3 @@ Kliknutím na **Odoslať** odošlete časový rozvrh do pracovného postupu schv
 ## <a name="review-timesheets"></a>Kontrola časových rozvrhov
 
 Zoznam časových výkazov, ktoré je potrebné skontrolovať, je k dispozícii v ponuke. Táto možnosť je k dispozícii, iba ak ste boli označený za schvaľovateľa pracovného postupu. Podporované je schválenie hlavičky aj riadku. Schválenie na úrovni riadkov ponúka možnosť označiť jeden alebo viac riadkov na schválenie. Po skontrolovaní informácií časového rozvrhu kliknite na **Schváliť**, **Delegovať** alebo **Vrátiť** a pokračujte v pracovnom postupe.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

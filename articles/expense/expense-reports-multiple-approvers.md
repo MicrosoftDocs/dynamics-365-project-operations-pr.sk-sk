@@ -2,9 +2,11 @@
 title: Výkazy výdavkov a viacerí schvaľovatelia
 description: Táto téma poskytuje informácie o výkazoch výdavkov, ktoré si vyžadujú schválenie viac ako jednou osobou.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2acae2d518a02539f01d5498450236999fe609d1e8f26b5f90e18b986b83cab1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cfa8677f38e9468aa3236f587d2e9bd5af839054
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988445"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121012"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>Výkazy výdavkov a viacerí schvaľovatelia
 
@@ -39,6 +41,3 @@ Ak sa rozhodnete vyžadovať viacerých schvaľovateľov výkazov výdavkov, mô
 
     1. Vedúci zamestnanca schvaľuje výkaz výdavkov.
     2. Vlastník rozpočtu schvaľuje výkaz výdavkov.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

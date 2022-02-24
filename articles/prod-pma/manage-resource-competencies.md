@@ -2,9 +2,11 @@
 title: Spravovanie kompetencií v oblasti zdrojov
 description: Táto téma poskytuje informácie o nastavení kompetencií pre zdroje projektu.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007435"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270652"
 ---
 # <a name="manage-resource-competencies"></a>Spravovanie kompetencií v oblasti zdrojov
 
@@ -29,7 +31,7 @@ ms.locfileid: "7007435"
 
 Kompetencie v oblasti zdrojov sú podstatnou súčasťou riadenia zdrojov. Kompetencie môžu byť použité ako základ pre určenie zdrojov, ktoré majú správnu rovnováhu medzi zručnosťami, vzdelaním, certifikáciou a skúsenosťami s projektom. Tieto informácie by ste mali nastaviť pre každý zdroj a pravidelne ich aktualizovať. Týmto spôsobom môžete maximalizovať schopnosti, keď sa priraďujú konkrétne kompetencie zdrojov počas priradenia zdrojov projektu.
 
-[![Príklady zručností, certifikácií, vzdelania a projektových skúseností.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Príklady zručností, certifikácií, vzdelania a projektových skúseností](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Nasledujúce postupy vysvetľujú, ako nastaviť niektoré kompetencie pre zdroj.
 

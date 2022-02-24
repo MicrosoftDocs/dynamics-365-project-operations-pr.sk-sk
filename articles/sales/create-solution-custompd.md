@@ -2,16 +2,18 @@
 title: Vytvorenie riešenia pre vlastné cenové dimenzie
 description: Táto téma poskytuje informácie o vytváraní riešení pre vlastné cenové dimenzie.
 author: Rumant
+manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992225"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514023"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Vytvorenie riešenia pre vlastné cenové dimenzie
 
@@ -26,7 +28,7 @@ ms.locfileid: "6992225"
 2.  Pomenujte riešenie ako *Cenové dimenzie <your organization name>*.
 3. Zadajte zostávajúce požadované informácie a potom vyberte **Uložiť**.
 
-  ![Vytvorenie vlastného riešenia pre cenové dimenzie.](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Vytvorenie vlastného riešenia pre cenové dimenzie](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Pridajte všetky požadované entity a súvisiace súčasti do riešenia Cenové dimenzie
 
@@ -49,19 +51,16 @@ Pridajte do svojho cenového riešenia nasledujúce entity Project Service, aby 
    - **Cena roly**
    - **Zadanie času**
  
-   ![Pridanie existujúcich entít do vlastného riešenia cenovej dimenzie.](./media/Existing-entities-to-PD-solution.png)
+   ![Pridanie existujúcich entít do vlastného riešenia cenovej dimenzie](./media/Existing-entities-to-PD-solution.png)
  
  4. Pre každú entitu skontrolujte pridávané komponenty a konečný zoznam aktív entity pre každú entitu. 
 
    >[!NOTE]
    > Zahrňte všetky formuláre a zobrazenia pre každú vybranú entitu.
 
-  ![Pridané entity.](./media/solution-component-selection.png)
+  ![Pridané entity](./media/solution-component-selection.png)
 
 
 5.  Po zobrazení výzvy na zahrnutie akýchkoľvek závislých entít pre vybrané entity vyberte **Nie, nezahŕňať požadované komponenty.**
 
-    ![Vrátane závislých entít.](./media/Do-not-include-required.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    ![Vrátane závislých entít](./media/Do-not-include-required.png)

@@ -2,10 +2,12 @@
 title: Použiť kategóriu transakcií ako dimenziu cien
 description: Táto téma poskytuje informácie o používaní transakcie kategórie ako dimenzie cien.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988894"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150777"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Použiť kategóriu transakcií ako dimenziu cien
 
@@ -51,6 +53,3 @@ Nasledujúca tabuľka je komplexný zoznam predpripravených formulárov a zobra
 2. Na stránke **Parameter**, na kartu **Cenové dimenzie založené na čiastke**, si všimnite, že mriežka na karte zobrazuje záznamy v **Cenové dimenzie** entity.
 3. Pridajte **Kategória transakcie** do tohto zoznamu a nastavte polia **Vzťahuje sa na náklady** a **Vzťahuje sa na predaj** na **Áno**.
 4. V poli **Typ dimenzie** zvoľte možnosť **Na základe sumy** a potom zvoľte prioritu pre **Kategóriu transakcie** súvisiacu s nákladmi a predajom.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

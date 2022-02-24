@@ -2,9 +2,11 @@
 title: Nastavenie zdrojov pre projekty
 description: Táto téma poskytuje informácie o nastavení alebo požadovaní zdrojov projektu.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8e4373da50999a0cc57f4eab672a98e7cf21edcfa5a5589d87691603a777de
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995735"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084536"
 ---
 # <a name="set-up-project-resources"></a>Nastavenie zdrojov pre projekty
 
@@ -73,6 +75,3 @@ Po dokončení predchádzajúcich úloh môžete podľa potreby dokončiť nasle
 - Splniť požiadavky na zdroje.
 - Vyžiadajte si personálny zdroj zo štruktúry WBS.
 - Zarezervujte si zdroje pre projekt bez toho, aby ste museli vyžadovať personálny zdroj.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

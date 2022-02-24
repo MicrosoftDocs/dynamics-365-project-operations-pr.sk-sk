@@ -2,6 +2,8 @@
 title: Navrhnite projektové zdroje
 description: Táto téma poskytuje informácie o tom, ako navrhovať projektové zdroje.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995060"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147537"
 ---
 # <a name="propose-project-resources"></a>Navrhnite projektové zdroje
 
@@ -32,21 +34,21 @@ Správcovia zdrojov môžu navrhnúť zdroj projektového manažéra pomocou po�
 1. V mriežke požiadavky alebo samotnej žiadosti vyberte položku **Vyhľadať zdroje**.
 2. Na stránke **Asistent plánovania** vyberte zdroj a potom v table stav **Vytvoriť rezerváciu zdroja** v poli **Stav rezervácie** zvoľte možnosť **Rezervovať**.
 
-    ![Vybratý navrhovaný zdroj.](media/Resource-Management-image62.png)
+    ![Vybratý navrhovaný zdroj](media/Resource-Management-image62.png)
 
 Nasledujúce aktualizácie stavu sa vyskytujú:
 
 - Na stránke **Asistent plánovania** sa aktualizujú indikátory stavu, ktoré naznačujú, že rezervácia je navrhnutá a nie je pevne rezervovaná.
 
-    ![Indikátory stavu navrhovanej rezervácie na stránke Asistenta plánovania.](media/Resource-Management-image63.png)
+    ![Indikátory stavu navrhovanej rezervácie na stránke Asistenta plánovania](media/Resource-Management-image63.png)
 
 - Na žiadosť o prostriedok, stav sa zmení na **Vyžaduje kontrolu**.
 
-    ![Stav požiadavky na zdroj sa zmenil na Vyžaduje kontrolu.](media/Resource-Management-image64.png)
+    ![Stav požiadavky na zdroj sa zmenil na Vyžaduje kontrolu](media/Resource-Management-image64.png)
 
 - Na karte **Tím** projektu sa hodnota všeobecných členov tímu **Stav žiadosti** zmenila na **Vyžaduje kontrolu**.
 
-    ![Stav žiadosti všeobecného člena tímu sa zmenila na karte Tím na Vyžaduje kontrolu.](media/Resource-Management-image48.png)
+    ![Stav žiadosti všeobecného člena tímu sa zmenila na karte Tím na Vyžaduje kontrolu](media/Resource-Management-image48.png)
 
 Projektový manažér môže buď prijať, alebo zamietnuť návrh.
 
@@ -70,7 +72,7 @@ Na výpočet využitia sa používajú nasledujúce vzorce:
 
 **Zobrazenie využitia** prostriedkov môžete nájsť na table **Zdroje**.
 
-![Zobrazenie využitia zdroja.](media/Resource-Management-image65.png)
+![Zobrazenie využitia zdrojov](media/Resource-Management-image65.png)
 
 Každá bunka v mriežke predstavuje percento fakturovateľného využitia prostriedku v období, ako je napríklad deň, týždeň alebo mesiac. Na vyfarbenie buniek sa používajú nasledujúce vzorce:
 
@@ -84,7 +86,7 @@ Mriežka si vyžaduje, aby ste stanovili cieľové využitie buď roly, alebo in
 
 Okrem toho musí byť priradená predvolená rola pre každý rezervovateľný prostriedok. Prejdite do **Zdroje** \> **Zdroje**. Na karte **Project Service** skontrolujte, či je definovaná rola prostriedku a že pole **Je predvolená** je nastavené na **Áno**. Môžete pridať ďalšie roly, kde **Je predvolená = nie**. Úloha, kde **Je predvolená = Áno** sa používa na vyhodnotenie využitia prostriedku proti cieľu pre túto rolu.
 
-![Súbor predvolenej roly.](media/Resource-Management-image67.png)
+![Súbor predvolenej roly](media/Resource-Management-image67.png)
 
 Na karte **Project Service** môžete tiež nastaviť individuálne cieľové využitie prostriedku. Výpočet využitia potom použije cieľové využitie na vyhodnotenie cieľového prostriedku namiesto cieľa predvolenej roly prostriedku.
 
@@ -96,21 +98,18 @@ Je dôležité, aby správcovia zdrojov mohli zobraziť dostupnosť zdrojov a ak
 
 Pracovné hodiny prostriedkov sa používajú ako základ pre výpočet dostupnosti prostriedku. Rezervácie zdrojov spotrebúvajú kapacitu zdrojov.
 
-![Tabuľa plánovania.](media/Resource-Management-image68.png)
+![Tabuľa plánovania](media/Resource-Management-image68.png)
 
 Tabule plánovania používajú farby a tieňovanie na zobrazovanie rezervácií, dostupnosti a nadmernej rezervácie, ako aj stav rezervácií. Nastavenie v nastaveniach tabule plánovania vám umožňuje zobraziť legendu.
 
 Ak sa vedľa individuálneho rezervovateľného prostriedku na tabuli plánovania zobrazí šípka ukazujúca vpravo, zdroj možno rozbaliť a zobraziť podrobnosti o práci, na ktorej je zdroj rezervovaný.
 
-![Rezervovateľný zdroj rozbalený na tabuli plánovania.](media/Resource-Management-image69.png)
+![Rezervovateľný zdroj rozbalený na tabuli plánovania](media/Resource-Management-image69.png)
 
 Pretože Dynamics 365 Project Service Automation používa systém Universal Resource Scheduling, ak ste tiež Dynamics 365 Field Service nainštalovali, môžete zobraziť podrobnosti o rezerváciách zdrojov pre projekty, pracovné objednávky a všetky ostatné entity, na ktoré ste rozšírili plánovanie.
 
-![Podrobnosti o rezerváciách zdrojov pre projekty a objednávky prác.](media/Resource-Management-image70.png)
+![Podrobnosti o rezerváciách zdrojov pre projekty a pracovné objednávky](media/Resource-Management-image70.png)
 
 Ak chcete zobraziť ďalšie podrobnosti o jednotlivých prostriedkoch, kliknite naň pravým tlačidlom a otvorte kartu zdroja.
 
-![Karta zdroja.](media/Resource-Management-image71.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Karta zdroja](media/Resource-Management-image71.png)

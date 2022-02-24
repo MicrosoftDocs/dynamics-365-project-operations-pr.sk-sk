@@ -2,6 +2,8 @@
 title: Použiť kalendár na zdroj
 description: Ako použiť kalendár do zdroja v Project Service
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24d300df710850df329c9fbba2b6eeceaa7d29125aae23a42bf3f2a94bed131a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94c646db684525cdc71bd935643a3b7ee2d40ea7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000685"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145512"
 ---
 # <a name="apply-a-calendar-to-a-resource-project-service"></a>Použitie kalendára do zdroja (Project Service)
 
@@ -43,6 +45,3 @@ Akonáhle ste vytvorili šablónu pracovných hodín, musíte ju priradiť k zdr
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Nastavenie prostriedkov](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Vytvorenie štruktúry rozdelenia práce
 description: Táto téma vysvetľuje, ako vytvoriť štruktúru rozdelenia práce (WBS) vrátane základných ovládacích prvkov v novom plánovacom rozhraní.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: MT
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928634"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841400"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Vytvorenie štruktúry rozdelenia práce (WBS)
 
@@ -91,15 +93,13 @@ Nasledujúca tabuľka zobrazuje ďalšie atribúty plánu.
 | Meno | Názov úlohy. |
 | Identifikátor | ID úlohy v štruktúre rozdelenia práce. |
 
-Ako správca môžete definovať vlastné polia pre entitu úlohy. Polia sa však na mriežke rozvrhu nedajú zobraziť. Ak chcete zobraziť svoje vlastné polia, pridajte ich na stránku s podrobnosťami **Projektová úloha**.
-
 ## <a name="staffing-attributes"></a>Personálne atribúty
 
-Personálne atribúty sú prístupné prostredníctvom poľa **zdroje** v pláne. Môžete vyhľadať existujúci zdroj alebo vybrať **Vytvoriť** a na paneli **Rýchle vytvorenie** pridať člena projektového tímu ako nový zdroj.  Keď hľadáte zdroj pomocou nástroja na výber zdrojov v mriežke úloh, zobrazení dosky alebo Gantt, vyhľadávanie vráti buď existujúcich členov projektového tímu alebo aktívne rezervovateľné zdroje.
+Personálne atribúty sú prístupné prostredníctvom poľa **zdroje** v pláne. Môžete vyhľadať existujúci zdroj alebo vybrať **Vytvoriť** a na paneli **Rýchle vytvorenie** pridať člena projektového tímu ako nový zdroj.
 
 Polia **rola**, **zdrojová jednotka** a **názov pozície** sa používajú na popis personálnych požiadaviek na úlohu. Tieto personálne atribúty spolu s plánom úloh sa používajú na vyhľadanie dostupných zdrojov na vykonanie tejto úlohy.
 
-   - **Role** : Zadajte typ zdroja, ktorý je potrebný na vykonanie úlohy.,
+   - **Rola**: zadajte typ zdroja, ktorý je potrebný na vykonanie úlohy.
    - **Zdrojová jednotka**: zadajte jednotku, z ktorej by mali byť pridelené zdroje pre úlohu. Tento atribút ovplyvňuje odhady nákladov a predaja na úlohy, ak sú náklady a fakturačná sadzba zdroja nastavené na zdrojové jednotky.
    - **Názov pozície**: zadajte popisný názov pre všeobecný zdroj, ktorý slúži ako zástupný symbol pre zdroj, ktorý bude v konečnom dôsledku vykonávať prácu.
 
@@ -116,28 +116,3 @@ Režim úlohy nemá žiadny vplyv na aktualizácie, ktoré sú vykonané na poč
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Klávesové skratky a zjednodušenie ovládania
 
 Mriežka **plánu** je plne prístupná a môže sa používať s čítačkami obrazovky, ako sú napríklad Narrator, JAWS alebo NVDA. Môžete prechádzať oblasti mriežky pomocou šípok (ako v Microsoft Excel), môžete použiť klávesu Tab na postúp cez interaktívne prvky používateľského rozhrania, a môžete použiť šípku nadol, klávesu Enter, alebo medzerník pre výber a otvorenie rozbaľovacích ponúk.
-
-## <a name="project-limitations"></a>Projektové obmedzenia 
-Ak používate štruktúru rozpisu práce v Project Operations, mali by ste si byť vedomí nasledujúcich obmedzení. Tieto limity platia pre projekty a úlohy. Ďalšie informácie nájdete v časti [Limity a hranice Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Pole**                                          |  **Limit**           |
-|----------------------------------------------------|----------------------|
-| Maximálny celkový počet úloh pre projekt                  | 500                  |
-| Maximálne celkové trvanie pre projekt               | 3650 dní (10 rokov) |
-| Maximálny celkový počet zdrojov pre projekt              | 150                  |
-| Maximálny celkový počet odkazov (len nasledovník) pre projekt | 600                  |
-| Maximálny celkový počet vlastných polí pre projekt          | 10                   |
-| Maximálny počet položiek kontrolného zoznamu na úlohu                   | 20                   |
-
-**Obmedzenia úloh**
-
-| **Pole**                               |   **Limit**           |
-|-----------------------------------------|-----------------------|
-| Maximálna úroveň hierarchie                 | 10 úrovní             |
-| Maximálny počet odkazov (nástupca + predchodca) | 20                    |
-| Maximálne trvanie listovej úlohy           | 1250 dní             |
-| Maximálne trvanie súhrnnej úlohy      | 3650 dní (10 rokov)  |
-| Maximálny počet zdrojov priradených k úlohe    | 20 zdrojov          |
-| Podporovaný rozsah dátumov pre úlohu         | 1/1/2000 – 12/31/2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

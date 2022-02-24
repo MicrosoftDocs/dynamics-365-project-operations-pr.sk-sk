@@ -2,9 +2,11 @@
 title: Nastavenie rol v šablónach štruktúry rozdelenia práce
 description: Táto téma poskytuje informácie o nastavení informácií o rolách v šablónach štruktúry rozdelenia práce.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008920"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084344"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Nastavenie rol v šablónach štruktúry rozdelenia práce
 
@@ -89,7 +91,7 @@ Do štruktúry WBS boli pridané ďalšie možnosti, aby sa lepšie využila fun
 
 4. Nastavenie dátumov a úsilia (hodiny), ako je znázornené na nasledujúcom obrázku.
 
-    [![Nastavenie dátumov a úsilia.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Nastavenie dátumov a úsilia](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Vyberte riadok úloh **Inicializácia** a potom v poli **Rola** vyberte **Senior projektový manažér**.
 6. Stlačte možnosť **Publikovať**.
@@ -105,6 +107,3 @@ Do štruktúry WBS boli pridané ďalšie možnosti, aby sa lepšie využila fun
     > Nedostanete varovanie, že zadaný zdroj je teraz 2, pretože počet zdrojov zostáva 1.
 
 14. Na stránke **Štruktúra rozdelenia práce** overte priradenie zdrojov v štruktúre WBS a potom vyberte **Uložiť**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

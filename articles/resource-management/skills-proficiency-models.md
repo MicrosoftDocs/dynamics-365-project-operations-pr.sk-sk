@@ -2,16 +2,18 @@
 title: Zručnosti a certifikácie
 description: Táto téma poskytuje informácie o pridávaní zručností a certifikačných charakteristík k zdrojom.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990200"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128887"
 ---
 # <a name="skills-and-certifications"></a>Zručnosti a certifikácie
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
@@ -41,5 +43,3 @@ Pridanie charakteristík k požiadavkám zdroja vám umožní zdokumentovať ved
 3. Vo vedľajšej mriežke **Zručnosti** vyberte **+ Pridať novú charakteristiku požiadavky.**
 4. Na table rýchleho vytvorenia vyhľadajte a vyberte požadované charakteristiky a pridajte **hodnotu hodnotenia**.
 5. Vyberte položku **Uložiť a zavrieť**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,8 @@
 ---
 title: Informácie o inovácii o štruktúre rozdelenia práce
 description: Táto téma poskytuje informácie o inovácii štruktúry rozdelenia práce z programu Project Service Automation 2.x na 3.x.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992360"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149562"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Informácie o inovácii o štruktúre rozdelenia práce
 
@@ -32,20 +34,20 @@ Táto téma poskytuje informácie o inovácii štruktúry rozdelenia práce z pr
 ## <a name="key-entities"></a>Kľúčové entity
 Pre presnú štruktúru rozdelenia práce, ktorá je už načítaná so zdrojmi, sa požadujú nasledujúce entity:
 
-- [Projekt](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projektový tím](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projektová úloha](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Priradenia zdrojov](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Závislosť projektovej úlohy](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Rezervovateľné zdroje](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projekt](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projektový tím](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projektová úloha](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Priradenia zdrojov](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Závislosť projektovej úlohy](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Rezervovateľné zdroje](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Ak chcete definovať prostriedok načítaný štruktúrou rozdelenia práce, musíte vykonať nasledujúce kroky:
 
-1. Vytvorte nový projekt. Ďalšie informácie o vytváraní nového projektu nájdete v časti [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Vytvorte jednu alebo viac úloh. Ďalšie informácie o vytváraní úlohy si prečítajte v časti [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definovanie závislostí úloh. Viac informácií nájdete v časti [Závislosť projektovej úlohy](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Priraďte členom projektového tímu projekt. Ďalšie informácie nájdete v dokumente [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Priraďte členov projektového tímu k úlohám. Ďalšie informácie nájdete v dokumente [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Vytvorte nový projekt. Ďalšie informácie o vytváraní nového projektu nájdete v časti [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Vytvorte jednu alebo viac úloh. Ďalšie informácie o vytváraní úlohy si prečítajte v časti [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definovanie závislostí úloh. Viac informácií nájdete v časti [Závislosť projektovej úlohy](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Priraďte členom projektového tímu projekt. Ďalšie informácie nájdete v dokumente [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Priraďte členov projektového tímu k úlohám. Ďalšie informácie nájdete v dokumente [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Vzťahy projektového tímu
 
@@ -94,6 +96,3 @@ Ak chcete zabezpečiť úspešnú inováciu, musia byť správne udržiavané na
 
 - Všetky závislosti projektových úloh musia súvisieť s rovnakým projektom.
 - Úloha nemôže mať rovnakú závislosť odkazovanú viackrát.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

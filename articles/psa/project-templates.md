@@ -2,6 +2,8 @@
 title: Projektové šablóny
 description: Táto téma poskytuje informácie o používaní šablón projektov na rýchle nastavenie projektu.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002530"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148077"
 ---
 # <a name="project-templates"></a>Projektové šablóny 
 
@@ -47,7 +49,7 @@ Existuje niekoľko spôsobov, ako vytvoriť projekt zo šablóny projektu:
 
 - Pri vytváraní projektu z cenovej ponuky si môžete vybrať šablónu projektu v dialógovom okne **rýchle vytvorenie projektu**.
 
-> ![Dialógové okno Rýchle vytvorenie: Projekt.](media/project-11.png)
+> ![Zobrazí sa dialógové okno rýchle vytvorenie: projektu](media/project-11.png)
 
 - Keď vytvoríte projekt výbraním **nový projekt**, stránka **projekt** sa zobrazí pred tým ako sa záznam uloží. V poli **vybrať šablónu** vyberte jednu z preddefinovaných šablón projektu v organizácii.
 - Použite **vytvoriť projekt zo šablóny** na stránke **entity šablóny**.
@@ -67,6 +69,3 @@ Pri kopírovaní naprieč riadkami odhadu projektu, sú cenníky aktualizované.
 ### <a name="copying-a-project-team"></a>Kopírovanie projektového tímu
 
 Keď je projektový tím kopírovaný z projektovej šablóny, sú skopírované všeobecné zdroje spolu so zručnosťami a schopnosťami, ktoré sú definované v šablóne. Priradenie všeobecných zdrojov sa zachová rovnaké ako bolo pri šablóne projektu. Pomenované zdroje nie sú podporované v šablónach projektov.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

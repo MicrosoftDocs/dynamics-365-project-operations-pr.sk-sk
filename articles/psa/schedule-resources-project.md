@@ -2,6 +2,8 @@
 title: Naplánujte zdroje pre projekt
 description: Ako naplánovať zdroje pre projekt v Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998165"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150462"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Plánovanie zdrojov projektu (Project Service)
 
@@ -33,7 +35,7 @@ Môžete skontrolovať dostupnosť na získanie celkový prehľad o spôsobe vyu
   
 Tabuľa plánovania ukazuje zoznam zdrojov a ich dostupnosti. Vyberte režim zobrazenia zobraziť dostupnosť podľa **hodinami**, **deň**, **týždeň**, alebo **mesiac**.  
   
-Predtým, ako použijete tabulu plánovania, je dôležité ju nastaviť. Ďalšie informácie si prečítajte v časti [Konfigurácia tabule plánovania (Field Service alebo Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
+Predtým, ako použijete tabulu plánovania, je dôležité ju nastaviť. Ďalšie informácie si prečítajte v časti [Konfigurácia tabule plánovania (Field Service alebo Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
 Ak používate staršiu verziu, pre dostupnosť zdrojov pozrite [Zobraziť dostupnosť zdroja](../psa/view-resource-availability.md).  
 
@@ -81,6 +83,3 @@ Ak používate staršiu verziu, pre dostupnosť zdrojov pozrite [Zobraziť dostu
   
 ### <a name="additional-resources"></a>Ďalšie zdroje  
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Výnosy a náklady projektu
 description: Táto téma poskytuje informácie o odhadovaní projektových nákladov a výnosov.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002575"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148347"
 ---
 # <a name="project-costs-and-revenue"></a>Výnosy a náklady projektu
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002575"
 
 Odhady projektu poskytujú finančné náhľady pre prácu, ktorá sa odhaduje a plánuje v pláne projektu. Na karte **odhady** na stránke **projekty** sa zobrazuje vplyv nákladov a výnosov práce, ktorú plánujete. Poskytuje tiež informácie o mnohých preddefinovaných rozmeroch. 
 
-> ![Karta odhadov.](media/project-5.png)
+> ![Karta odhadov](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Náklady a predajná hodnota projektu
 
@@ -66,13 +68,13 @@ Ak systém nenájde cenu pre rolu, potom bude predajná cena nastavená na predv
 
 Karta **odhady** má zobrazenie mriežky, ktoré zobrazuje riadky odhadu. Mriežka obsahuje stĺpce pre jednotku, celkovú obstarávaciu cenu a celkovú predajnú cenu, ako je znázornené na nasledujúcom obrázku. 
 
-> ![Zobrazenie mriežky na karte Odhady.](media/project-6.png)
+> ![Zobrazenie mriežky na karte odhady](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Odhady času postupne zobrazenie projektu
 
 Časovo delený pohľad na odhady projektov zobrazuje odhad údajov zo zobrazenia mriežky na časovej osi v časovej mierke, ktorú vyberiete. V predvolenom nastavení sa odhad údajov otáča na rozmer **rola**.
 
-> ![Časovo delený pohľad na odhady projektu.](media/project-7.png)
+> ![Časovo delený pohľad na odhady projektu](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Pridelenie odhadu úsilia založené na režime úloh
 
@@ -95,6 +97,3 @@ V zobrazení mriežky, aj v časovo delenom zobrazení môžete vybrať, ktoré 
 ## <a name="expense-estimates"></a>Odhady nákladov
 
 Tlačidlo **pridať nový odhad výdavkov** v zobrazení mriežky umožňuje zaznamenať všetky výdavky, ktoré vznikli v projekte, ale ktoré priamo nesúvisia s prácou. Môžete zaznamenať odhady výdavkov pre konkrétnu úlohu alebo pre celý projekt. Vyberte kategórie výdavkov a predbežný dátum, kedy očakávate, že vzniknú náklady. Ak majú súvisiace cenníky nákladov a predajné cenníky predvolené ceny, (alebo sú definované percentá pre kategórie výdavkov), sú automaticky zadané do riadka odhadu keď sa vyskytne priradenie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Použiť rezervovateľný zdroj ako cenovú dimenziu
 description: Táto téma poskytuje informácie o používaní rezervovateľného prostriedku ako dimenzie cien.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988985"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145017"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Použiť rezervovateľný zdroj ako cenovú dimenziu
 
@@ -62,18 +64,15 @@ Pre rezervovateľný zdroj, má entita **Členovia projektového tímu** mierne 
 1. Vykonáte to tak, že dvakrát kliknete na riadok v mriežke **cenový rozmer**, čím otvoríte stránku dimenzie **msdyn_bookableresource**.
 2. Na stránke dimenzia kliknite na kartu **príbuzné** na položku **názvy polí dimenzie ocenenia**.
 
- ![Názvy kariet polí cenových dimenzií.](media/PD-fieldname.png)
+ ![Názvy kariet polí cenových dimenzií](media/PD-fieldname.png)
 
 4. V priradenom zobrazení ktoré sa otvorí, kliknite na **Pridať nový názov poľa dimenzie ceny**.
 
- ![Pridajte názvy polí Nová cenová dimenzia.](media/Add-NewPD-fieldname.png)
+ ![Pridajte Názvy polí cenových dimenzií](media/Add-NewPD-fieldname.png)
 
 
 Toto otvára stránku **Názov poľa novej cenovej dimenzie** pre **msdyn_bookableresource**. 
 
 5. Pridajte **msdyn_projectteam** do poľa **logický názov entity** a **msdyn_bookableresourceid** do poľa **Názov poľa**. Uložte záznam.
 
- ![Názov formulára Nová cenová dimenzia.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Názov formulára Nová cenová dimenzia](media/PD-fieldname-Added.png)

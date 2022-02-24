@@ -2,9 +2,11 @@
 title: Správa delegovania
 description: Táto téma poskytuje informácie o tom, ako môže delegát výdavkov vytvárať a spravovať výkazy výdavkov pre iného zamestnanca.
 author: suvaidya
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997805"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122722"
 ---
 # <a name="manage-delegation"></a>Správa delegovania
 Delegát výdavkov môže vytvárať a spravovať výkazy výdavkov pre iného zamestnanca.
@@ -37,6 +39,3 @@ Ak je povolený kľúč na správu funkcií **Povoliť stránku so zoznamom dele
 Delegát môže rýchlo filtrovať a vyhľadávať existujúce výkazy výdavkov, ktoré im boli delegované. Delegát môže tiež rýchlo vytvoriť nový výkaz výdavkov pre ostatných používateľov výberom **Nový výkaz výdavkov**.
 
 Delegáti môžu prejsť na stránku, kde môžu vytvárať a spravovať výkazy výdavkov pre ostatných zamestnancov prechodom do časti **Správa výdavkov** > **Moje výdavky** > **Výkazy výdavkov** a výberom možnosti **Otvoriť výdavky ostatných používateľov**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

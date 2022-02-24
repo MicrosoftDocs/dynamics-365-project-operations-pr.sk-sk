@@ -2,9 +2,11 @@
 title: Synchronizácia projektových zmlúv a projektov priamo z Project Service Automation do Finance
 description: Táto téma popisuje šablónu a základnú úlohy, ktoré sa používajú na synchronizáciu projektových zmlúv a projektov priamo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001090"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764838"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronizácia projektových zmlúv a projektov priamo z Project Service Automation do Finance 
 
@@ -42,7 +44,7 @@ Integračné riešenie Project Service Automation do služby Finance využíva f
 
 Nasledujúca ilustrácia ukazuje, ako sa synchronizujú údaje medzi Project Service Automation a Finance.
 
-[![Tok údajov pre integráciu Project Service Automation s Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Tok údajov pre integráciu Project Service Automation s Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Šablóny a úlohy
 
@@ -107,8 +109,8 @@ Keď sa použije integračné riešenie Project Service Automation to Finance, i
 ## <a name="prerequisites-and-mapping-setup"></a>Nevyhnutné predpoklady a nastavenie mapovania
 
 - Predtým, ako môže dôjsť k synchronizácii zmlúv a projektov, musíte synchronizovať účty.
-- Do svojej skupiny pripojení pridajte mapovanie poľa integračného kľúča pre **msdyn\_organizationalunits** na **msdyn\_name\[Name\]**. Možno bude najskôr potrebné pridať projekt do súpravy pripojení. Ďalšie informácie nájdete v časti [Integrácia údajov do Common Data Service pre aplikácie](/powerapps/administrator/data-integrator).
-- Do svojej skupiny pripojení pridajte mapovanie poľa integračného kľúča pre **msdyn\_projects** na **msdynce\_projectnumber\[Project Number\]**. Možno bude najskôr potrebné pridať projekt do súpravy pripojení. Ďalšie informácie nájdete v časti [Integrácia údajov do Common Data Service pre aplikácie](/powerapps/administrator/data-integrator).
+- Do svojej skupiny pripojení pridajte mapovanie poľa integračného kľúča pre **msdyn\_organizationalunits** na **msdyn\_name\[Name\]**. Možno bude najskôr potrebné pridať projekt do súpravy pripojení. Ďalšie informácie nájdete v časti [Integrácia údajov do Common Data Service pre aplikácie](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Do svojej skupiny pripojení pridajte mapovanie poľa integračného kľúča pre **msdyn\_projects** na **msdynce\_projectnumber\[Project Number\]**. Možno bude najskôr potrebné pridať projekt do súpravy pripojení. Ďalšie informácie nájdete v časti [Integrácia údajov do Common Data Service pre aplikácie](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** pre projektové zmluvy a projekty je možné aktualizovať na inú hodnotu alebo odstrániť z mapovania. Predvolená hodnota šablóny je **Project Service Automation**.
 - Mapovanie **PaymentTerms** musí byť aktualizované tak, aby odrážalo platné platobné podmienky v službe Finance. Môžete tiež odstrániť mapovanie z projektovej úlohy. Mapa predvolených hodnôt má predvolené hodnoty pre ukážkové údaje. Nasledujúca tabuľka zobrazuje hodnoty v Project Service Automation.
 
@@ -129,7 +131,7 @@ Na filtrovanie údajov použite program Microsoft Power Query for Excel, ak sú 
 Ak musíte použiť Power Query, postupujte podľa týchto pokynov:
 
 - Šablóna Projekty a zmluvy (PSA pre Fin a Ops) má predvolený filter, ktorý obsahuje iba predajné objednávky **Pracovná položka typu (msdyn\_ordertype = 192350001)**. Tento filter pomáha zaručiť, že sa pre zákazky odberateľa v službe Finance nevytvoria projektové zmluvy. Ak vytvárate vlastnú šablónu, musíte pridať tento filter.
-- Vytvorte filter Power Query, ktorý obsahuje iba zmluvné organizácie, ktoré by sa mali synchronizovať s právnickou osobou súpravy integračného pripojenia. Napríklad projektové zmluvy, ktoré máte s organizačnou jednotkou zmluvy Contoso USA by mali byť synchronizované s právnickou osobou USSI, ale projektové zmluvy, ktoré máte s organizačnou jednotkou zmluvy Contoso Global by sa mali synchronizovať s právnickou osobou USMF. Ak tento filter nepridáte do svojho mapovania úloh, všetky kontrakty projektu sa synchronizujú s právnickou osobou, ktorá je definovaná pre množinu pripojení, bez ohľadu na organizačnú jednotku kontraktu.
+- Vytvorte filter Power Query, ktorý obsahuje iba zmluvné organizácie, ktoré by sa mali synchronizovať s právnickou osobou súpravy integračného pripojenia. Napríklad projektové zmluvy, ktoré máte so zmluvnou organizačnou jednotkou spoločnosti Contoso USA, by sa mali synchronizovať s právnickou osobou USSI, ale projektové zmluvy, ktoré máte so zmluvnou organizačnou jednotkou spoločnosti Contoso Global, by sa mali synchronizovať s právnickou osobou USMF. Ak tento filter nepridáte do svojho mapovania úloh, všetky kontrakty projektu sa synchronizujú s právnickou osobou, ktorá je definovaná pre množinu pripojení, bez ohľadu na organizačnú jednotku kontraktu.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapovanie šablón v integrácii údajov
 
@@ -140,17 +142,14 @@ Ak musíte použiť Power Query, postupujte podľa týchto pokynov:
 
 Nasledujúca ilustrácia ukazuje príklady mapovania úlohy šablóny v Integrácii údajov. Mapovanie zobrazuje informácie o poli, ktoré sa budú synchronizovať z Project Service Automation do Finance.
 
-[![Mapovanie šablón projektovej zmluvy.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Mapovanie šablón projektovej zmluvy](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Mapovanie šablón projektu.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Mapovanie šablón projektu](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Mapovanie šablón riadkov zmluvy projektu.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Mapovanie šablón riadkov zmluvy projektu](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Mapovanie šablón medzníka riadku zmluvy projektu.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Mapovanie šablón míľnika riadku zmluvy projektu](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapovanie medzníkov linky kontraktov v projektoch a kontraktoch (PSA 3.x až Dynamics) - šablóna v2:
 
-[![Mapovanie medzníka riadka zmluvy projektu so šablónou verzie dva.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Mapovanie míľnika riadka zmluvy projektu so šablónou verzie dva](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

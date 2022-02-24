@@ -2,6 +2,8 @@
 title: Prispôsobenie týždenného vstupného času
 description: Táto téma poskytuje informácie o tom, ako implementovať vlastné obchodné pravidlá, ktoré podporujú postupy organizácie.
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002305"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149652"
 ---
-# <a name="customize-weekly-time-entry"></a>Prispôsobenie týždenných zadaní času 
+# <a name="customize-weekly-time-entry"></a>Prispôsobenie týždenného vstupného času 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-V doplnku Microsoft Dynamics 365 Project Service Automation, verzia 3.3, Microsoft predstavil moderné mriežky, ktoré umožňujú projektovým prostriedkom rýchlo zadávať čas súčasne až do jedného týždňa. Nová mriežka týždenného časového vstupu môže zobraziť súčty pre položky podľa dátumu, riadka alebo týždňa. Zdroje môžu robiť kópie časových zápisov v rámci týždňa a tiež hromadne kopírovať z predchádzajúcich týždňov. Prispôsobovače systému môžu prispôsobiť zobrazenie pridaním polí, pridaním vyhľadávania do iných entít a implementáciou vlastných obchodných pravidiel na podporu postupov ich organizácie.
+V Microsoft Dynamics 365 Project Service Automation verzia 3.3 Microsoft predstavil moderné mriežky, ktoré umožňujú projektovým prostriedkom rýchlo zadávať čas súčasne až do jedného týždňa. Nová mriežka týždenného časového vstupu môže zobraziť súčty pre položky podľa dátumu, riadka alebo týždňa. Zdroje môžu robiť kópie časových zápisov v rámci týždňa a tiež hromadne kopírovať z predchádzajúcich týždňov. Prispôsobovače systému môžu prispôsobiť zobrazenie pridaním polí, pridaním vyhľadávania do iných entít a implementáciou vlastných obchodných pravidiel na podporu postupov ich organizácie.
 
 Čas vstupu a nové týždenné časovej mriežky sú prístupné prostredníctvom mapy lokality. Nerozšíriteľný zážitok z vlastného času vstupu, ktorý bol súčasťou predchádzajúcich verzií PSA, bol nahradený mriežkou rozšíriteľnej týždennej časovej položky a tiež alternatívnym zážitkom v mriežke a kalendári iba na čítanie. Z dôvodu tejto zmeny môžu používatelia zadávať čas v týždenných čiastkach.
 
@@ -130,6 +132,3 @@ Overenia doplnku by ste mali použiť pre akékoľvek overenia vyžadujúce si v
 
 > [!IMPORTANT] 
 > V súčasnosti známy problém na stránkach TBX zabraňuje používateľom opraviť informácie a opätovné voľby vykonať, keď zlyhá overovanie doplnku. Ako riešenie nastavte overovanie obchodného pravidla na čo najväčšie zabránenie tejto situácii.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

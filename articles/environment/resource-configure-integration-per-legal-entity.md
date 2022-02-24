@@ -2,22 +2,24 @@
 title: Konfigurácia integrácie Project Operations pre každú právnickú osobu
 description: Táto téma poskytuje informácie o nastavení a integrácie podľa právnickej osoby v Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999425"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122902"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurácia integrácie Project Operations pre každú právnickú osobu 
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Táto téma vás prevedie krokmi potrebnými na konfiguráciu aplikácie Dynamics 365 Project Operations pre právnickú osobu.
+Táto téma vás prevedie krokmi potrebnými na konfiguráciu Dynamics 365 Project Operations na právnickú osobu.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Aktivácia funkčných klávesov v Dynamics 365 Finance
 
@@ -49,6 +51,3 @@ Každá právnická osoba využívajúca Project Operations v Dynamics 365 Custo
   - **Predvolené typy fakturácie**: Project Operations používa pevnú množinu predvolených typov fakturácie, ktorú je potrebné namapovať na vlastnosti riadkov Finance. Vytvorte záznam pre každý typ fakturácie: **Nešpecifikované**, **Spoplatnené**, **Nedá sa spoplatniť**, **Bezplatné** a **Nie je k dispozícií**.
   - **Predvolené hodnoty kategórie projektu**: Vyberte predvolené kategórie projektu, ktoré sa majú použiť pre každý typ transakcie. Tieto predvolené hodnoty sa použijú v **Denníku integrácie Project Operations** a v odhadoch, kde nie je špecifikovaná žiadna kategória transakcií pre skutočný projekt.
   - **Prognózy**: Vyberte predpovedný model, ktorý sa použije pre odhady času a výdavkov.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

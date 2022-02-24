@@ -2,16 +2,18 @@
 title: Správa časových pásiem
 description: Po vytvorení projektu je jeho časové pásmo založené na časovom pásme definovanom v použitej šablóne pracovnej doby.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988715"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119842"
 ---
 # <a name="manage-time-zones"></a>Správa časových pásiem
 
@@ -32,13 +34,13 @@ Pre presné a predvídateľné výsledky pri používaní možnosti **Predĺži�
 
 - Používateľ musí nakonfigurovať časové pásmo svojho zariadenia tak, aby zodpovedalo časovému pásmu definovanému v časti **Nastavenia prispôsobení** v systéme.
  
-  ![Nastavenia časového pásma v systéme Windows 10.](media/reconcile-assignments-03.png)
+  ![Nastavenia časového pásma v systéme Windows 10](media/reconcile-assignments-03.png)
 
-  ![Nastavenia časového pásma v nastaveniach prispôsobenia.](media/reconcile-assignments-04.png)
+  ![Nastavenia časového pásma v nastaveniach prispôsobenia](media/reconcile-assignments-04.png)
  
 - Rezervovateľný zdroj musí mať najmenej jednu minútu pracovného času, ktorá sa prekrýva s obrysmi, ktoré sa používajú na definovanie požadovaného rozšírenia. Napríklad, nasledujúce zdroje s pracovnou dobou, ktorá spadá od 9:00 do 19:00. 
 
-  ![Porovnanie obrysov zdrojov.](media/reconcile-assignments-05.png)
+  ![Porovnanie obrysov zdrojov](media/reconcile-assignments-05.png)
 
 Nasledujúca tabuľka zobrazuje:
 
@@ -47,25 +49,22 @@ Nasledujúca tabuľka zobrazuje:
 - Zdroj B: Tento zdroj sa nachádza v inom časovom pásme ako projekt a začína sa o 7:00 v danom časovom pásme. Rezervácie sa však začnú o 9.00, pretože ide o najskorší čas začiatku obrysu priradenia.
 - Zdroje C a D: Zdroje sa nachádzajú v rôznych časových pásmach, ktoré sa navzájom líšia a líšia sa od projektu, a ich rezervácie sa začínajú najskôr v príslušných dostupných začiatočných časoch.
 
-|Entity  |Kalendár  |
+|Entita  |Kalendár  |
 |-|-|
-|Šablóna kalendára projektu   | ![kalendár projektu.](media/reconcile-assignments-06.png) |
-|Zdroj A  | ![Kalendár zdroja A.](media/reconcile-assignments-06.png) |
-|Zdroj B  |  ![Kalendár zdroja B.](media/reconcile-assignments-07.png) |
-|Zdroj C  |  ![Kalendár zdroja C.](media/reconcile-assignments-08.png) |
-|Zdroj D  | ![Kalendár zdroja D.](media/reconcile-assignments-09.png)  |
+|Šablóna kalendára projektu   | ![kalendár projektu](media/reconcile-assignments-06.png) |
+|Zdroj A  | ![Kalendár zdroja A](media/reconcile-assignments-06.png) |
+|Zdroj B  |  ![Kalendár zdroja B](media/reconcile-assignments-07.png) |
+|Zdroj C  |  ![Kalendár zdroja C](media/reconcile-assignments-08.png) |
+|Zdroj D  | ![Kalendár zdroja D](media/reconcile-assignments-09.png)  |
  
 Keď prejdete na zobrazenie **Vyrovnanie** zobrazia sa priradenia zdrojov a súvisiace nedostatky rezervácií.
 
-![Zobrazenie odsúhlasenia pred predĺžením.](media/reconcile-assignments-10.png)
+![Zobrazenie odsúhlasenia pred predĺžením](media/reconcile-assignments-10.png)
 
 Po použití funkcie rozšíreného rezervovania pre každý zdroj sa rezervácie úspešne rozšíria na každý zdroj, pretože pracovná doba každého zdroja sa prekrýva s obrysmi nedostatku.
 
-![Zobrazenie odsúhlasenia po rozšírení rezervácie.](media/reconcile-assignments-11.png) 
+![Zobrazenie odsúhlasenia po rozšírení rezervácie](media/reconcile-assignments-11.png) 
 
 Upozorňujeme, že bližší pohľad na podrobnosti rezervácií ukazuje rozdiely v začiatočnom čase rezervácií. Rezervácie sa začnú najskôr ako začiatočný čas obrysu priradenia a najskôr ako dostupný začiatočný čas zdroja.
 
-![Nové rezervácie zdrojov na tabuli plánovania.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Nové rezervácie zdrojov na tabuli plánovania](media/reconcile-assignments-12.png)

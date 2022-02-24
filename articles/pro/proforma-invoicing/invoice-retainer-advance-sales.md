@@ -2,16 +2,18 @@
 title: Fakturácia preddavku alebo zálohy
 description: Táto téma poskytuje informácie o tom, ako fakturovať preddavky a zálohy v Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997490"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596211"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturácia preddavkovej alebo zálohovej platby
 
@@ -49,6 +51,3 @@ Môžete si ich prezrieť na mriežke **Použité preddavky a zálohy** na strá
 | Využitá suma | Mriežka **Použité zálohy a preddavky** na stránke **Projektová faktúra**  | Toto pole iba na čítanie obsahuje vypočítanú hodnotu, ktorá sumarizuje, aká suma z preddavku alebo zálohy sa použila. | Toto pole sa môže zákazníkovi zobraziť na vytlačenej faktúre na označenie sumy z tejto zálohy alebo preddavku, ktorá sa už použila. |
 | Celková čiastka | Mriežka **Použité zálohy a preddavky** na stránke **Projektová faktúra**  | Toto upraviteľné pole obsahuje sumu preddavku alebo zálohy, ktorá sa používa na tejto projektovej faktúre. Táto suma nemôže byť vyššia ako suma, ktorá je k dispozícii v zálohe. Systém ju automaticky vypočíta ako rozdiel medzi poľami **Množstvo** a **Použité množstvo** v mriežke. Toto množstvo môžete znížiť, aby ste použili menej, ako je k dispozícii, ale nemôžete zvýšiť množstvo, aby ste spotrebovali viac, ako je k dispozícii. | Toto pole sa môže zákazníkovi zobraziť na vytlačenej faktúre na označenie sumy z tejto zálohy alebo preddavku, ktorá sa používa na faktúre. |
 | Suma zostatku preddavku. | Mriežka **Použité zálohy a preddavky** na stránke **Projektová faktúra**  | Toto pole iba na čítanie obsahuje hodnotu sumy preddavku alebo zálohy, ktorá zostane po potvrdení faktúry. | Toto pole sa môže zákazníkovi zobraziť na vytlačenej faktúre na označenie sumy, ktorá zostane z tejto zálohy alebo preddavku po potvrdení a zaplatení faktúry. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

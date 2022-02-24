@@ -2,6 +2,8 @@
 title: Oceňovanie katalógu produktov
 description: Táto téma poskytuje informácie o tom, ako funguje oceňovanie produktov v katalógu Dynamics 365 Project Service Automation (PSA).
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000190"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151227"
 ---
 # <a name="product-catalog-pricing"></a>Oceňovanie katalógu produktov 
 
@@ -62,6 +64,3 @@ Príležitosti, cenová ponuka a pEntityrojektové zmluvy používajú nasledovn
 V predvolenom nastavení obsahuje pole **produkt** v riadku cenovej ponuky všetky aktívne produkty v cenníkoch produktov cenovej ponuky. Ak bol produkt inaktivovaný, alebo ak ide o koncept produktu, nie je uvedený v zozname, a to ani v prípade, že je v cenníku. 
 
 Riadky katalógu produktov sa pridajú ako riadky faktúry na prvej faktúre vytvorenej pre projektovú zmluvu. V návrhu faktúry možno tieto riadky faktúry odstrániť. V takom prípade sa riadky zobrazia na nasledujúcej faktúre, až kým nebudú fakturované, alebo kým sa faktúra neodošle zákazníkovi. V PSA nie je možné fakturovať čiastočné množstvo riadka faktúry produktu. Po fakturácii riadkov produktov z projektovej zmluvy sa vytvoria skutočné hodnoty. Tieto skutočné hodnoty však nie sú prepojené s entitou súvisiaceho projektu. Inými slovami, riadky projektových zmlúv na základe produktu sú nezávislé od akýchkoľvek projektových použití. PSA nesleduje spotrebu materiálu na projektoch.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

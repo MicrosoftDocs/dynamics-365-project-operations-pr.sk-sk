@@ -2,6 +2,8 @@
 title: Jednotkové skupiny a jednotky
 description: Táto téma poskytuje informácie o jednotkových skupinách a jednotkách.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987590"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145602"
 ---
 # <a name="unit-groups-and-units"></a>Jednotkové skupiny a jednotky
 
@@ -44,7 +46,7 @@ Na príklad, ak v jednotkovej skupine **Time** nastavíte **Hour** ako prvú jed
 
 Nasledujúci obrázok zobrazuje príklad nastavenia pre jednotku **Day**, kde pole **Quantity** zobrazuje počet hodín, ktoré sú v dni a **Week**, kde pole **Quantity** zobrazuje počet dní, ktoré sú v týždni.
 
-> ![Jednotková skupina: informačná stránka.](media/advanced-2.png)
+> ![Jednotková skupina: informačná stránka](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Používanie jednotiek a jednotkových skupín
 
@@ -86,7 +88,7 @@ Nasledujúci príklad ukazuje, ako PSA používa jednotkové skupiny, jednotky a
 
 | Rola      | Jednotková skupina | Jednotka | Organizačná jednotka | Cena   |
 |-----------|------------|------|---------------------|---------|
-| Vývojár | Čas       | Deň  | Contoso UK          | 800 GBP |
+| Vývojár | Time       | Day  | Blaho UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Zadanie času
 
@@ -110,6 +112,3 @@ Nie. Odhad plánu je momentálne obmedzený na hodiny a nedá sa zmeniť.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Môžu byť jednotky a jednotkové skupiny upravené, vymazané a pridané?
 Áno. S výnimkou **Time** jednotkových skupín a **Hour** jednotky je možné všetky jednotky odstrániť alebo upraviť a pridať nové jednotky. V PSA nie je možné **Time** jednotkovú skupinu a **Hour** jednotku odstrániť. Avšak môžu byť aktualizované s preloženým textom pre pole **Name**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

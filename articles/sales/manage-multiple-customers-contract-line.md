@@ -2,16 +2,18 @@
 title: Správa viacerých zákazníkov v riadkoch zmlúv založených na projekte
 description: Táto téma poskytuje informácie o práci s riadkami zmlúv a zmluvami, ktoré obsahujú viacerých zákazníkov.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992135"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181921"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Správa viacerých zákazníkov v riadkoch zmlúv založených na projekte
 
@@ -42,6 +44,3 @@ Nižšie sú polia v zázname zákazníka v riadku Zmluvy založenej na projekte
 Percento rozdelenia fakturácie je možné upravovať v mriežke. Ak percentá rozdelenia fakturácie nedosiahnu 100 percent, nastane chyba. Po úprave percenta rozdelenia fakturácie chybu odstránite obnovením stránky.
 
 Môžete tiež skúsiť vybrať **Rovnomerne distribuovať** na vedľajšej mriežke zákazníka v riadku zmluvy. Táto akcia rovnomerne prideľuje fakturačné rozdelenie všetkým zákazníkom v riadkoch zmluvy. Ak existuje akýkoľvek faktor zaokrúhľovania, pridá sa k zákazníkovi zaokrúhľovania. Jeden zákazník v riadku zmluvy je vždy označený ako zákazník **Zaokrúhľovania** s príznakom **Zaokrúhľovanie** nastaveným na **Áno**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

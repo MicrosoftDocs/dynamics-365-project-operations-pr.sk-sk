@@ -2,22 +2,24 @@
 title: Rozšírenie zadaní času
 description: Táto téma poskytuje informácie o tom, ako môžu vývojári rozšíriť riadenie zadaní času.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993350"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124657"
 ---
 # <a name="extending-time-entries"></a>Rozšírenie zadaní času
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Dynamics 365 Project Operations obsahuje rozšíriteľný vlastný prvok na zadávanie času. Toto riadenie obsahuje nasledujúce funkcie:
+Dynamics 365 Project Operations obsahuje rozšíriteľné vlastné riadenie zadaní času. Toto riadenie obsahuje nasledujúce funkcie:
 
 - Horizontálne zadávanie času počas týždňa
 - Súčty za deň, riadok alebo týždeň
@@ -142,6 +144,3 @@ Overenia doplnku použite pre akékoľvek overenia vyžadujúce si viac kontextu
 
 ### <a name="copying-time-entries"></a>Kopírovanie zadaní času
 Pomocou zobrazenia **Kopírovať stĺpce zadaní času** definujte zoznam polí, ktoré sa majú kopírovať počas zadávania času. **Dátum** a **Trvanie** sú povinné polia a nemali by byť odstránené zo zobrazenia.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

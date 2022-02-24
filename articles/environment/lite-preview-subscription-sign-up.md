@@ -2,40 +2,60 @@
 title: Registrácia na odber ukážky – čiastočná
 description: Táto téma poskytuje informácie o tom, ako odoberať a nasadiť jednoduché nasadenie Project Operations – dohoda o fakturácii pro forma.
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991550"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175910"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrácia na odber ukážky – čiastočná 
 
-Táto téma vysvetľuje, ako sa prihlásiť na odber skúšobnej ponuky a nasadenia Dynamics 365 Project Operations Lite – dohoda o proforma fakturácii.
+Táto téma vysvetľuje, ako sa prihlásiť na odber ponuky partnera ukážky a ako nasadiť jednoduché nasadenie Dynamics 365 Project Operations – dohodu o fakturácii pro forma.
 
 > [!NOTE]
 > Tento proces sa zmení v nadchádzajúcich vydaniach Project Operations.
 
 ## <a name="prerequisites"></a>Predpoklady
-- Používateľ, ktorý nasadí ukážku, musí mať práva globálneho správcu nájomníka platformy Azure. Nájomníka si môžete vytvoriť počas prvého uplatnenia ponuky.
+
+- Dostanete e-mail s pozvánkou na účasť v ukážke. O ukážku môžete požiadať na [webovej stránke Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- Používateľ, ktorý nasadí ukážku, musí mať práva globálneho správcu nájomníka platformy Azure.
+- Prečítajte si všetky zmluvné podmienky.
+
+## <a name="subscribe"></a>Prihlásiť sa na odber
+
+Keď dostanete schválenie [žiadosti o ukážku](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) dostanete e-mailom dve ponuky od spoločnosti Microsoft. Tieto ponuky vám umožňujú nasadiť ukážku Project Operations:
+
+- Dynamics 365 Project Operations (CRM) – skúšobná verzia ukážky
+- Office 365 Project Operations – skúšobná verzia ukážky
 
 > [!IMPORTANT]
 > Túto úlohu musí vykonať iba jedna osoba, správca nájomníka v organizácii. Ak nie ste predplatiteľom tohto vydania, počkajte, kým nebude zaregistrovaná vaša organizácia a kým dostanete svoje prihlasovacie údaje.
-> 
-> Skúšobné verzie sú u nájomcu jednorazové. Skúšobnú verziu môžete spustiť iba raz. Na účely skúšobného obdobia vám odporúčame vytvoriť nového nájomcu.
 
-### <a name="dynamics-365-project-operations-trial"></a>Skúšobná verzia Dynamics 365 Project Operations 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – skúšobná verzia ukážky 
 
 Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovným účtom používateľa v nájomníkovi, kde chcete zobraziť ukážku Project Operations.
 
-1. Prejdite na [Skúšobná verzia Project Operations](https://aka.ms/try-po) a uplatnite si prvý ponukový kód **Dynamics 365 Project Operations**.
-2. Potvrďte objednávku.
+1. Uplatnenie prvého kódu ponuky, **Dynamics 365 Project Operations (CRM) – skúšobná verzia ukážky** vložením do adresy URL prehliadača.
 
-  Uvidíte, potvrdenie, že ponuka bola úspešne uplatnená.
+![Uplatniť ponuku](./media/16RedeemFirstOfferNew.png)
+
+2. Potvrďte objednávku.
+![Potvrďte objednávku](./media/17ConfirmOrderNew.png)
+
+Uvidíte, že ponuka potvrdenia bola úspešne uplatnená.
+
+![Potvrdenie](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – skúšobná verzia ukážky
+
+Zopakujte rovnaké kroky ako pri prvom kóde ponuky. Nezabudnite pridať druhý kód ponuky pomocou rovnakého používateľského účtu, aký bol použitý s prvým kódom ponuky.
 
 ## <a name="assign-licenses"></a>Priradenie licencií
 
@@ -44,28 +64,30 @@ Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovný
 
 
 1. Prejdite do [Centrum pre správu Microsoft 365](https://portal.office.com/) na pridelenie licencií vašim používateľom.
+
+![Stránka správcu centra spravovania](./media/14AdminPortal.png)
+
 2. Na stránke **Aktívni používatelia** vyberte používateľov, ktorým chcete priradiť licenciu.
-3. Overte, či je vybratá licencia **Dynamics 365 Project Operations**. 
+
+![Priradenie licencií](./media/15AssignLicenses.png)
+
+3. Overte, či sú vybrané licencie **Ukážka Dynamics 365 Project Operations (CRM)** a **Office 365 Project Operations – ukážka**. 
 4. Vyberte **Uložiť zmeny**.
 
-## <a name="create-a-new-dataverse-environment"></a>Vytvorenie nového prostredia Dataverse
+## <a name="create-a-new-cds-environment"></a>Vytvorenie nového prostredia CDS
 
-1. Poskytnite nové prostredie nasadenia Project Operations Dataverse podľa pokynov v téme [Model nasadenia Dataverse](lite-deployment.md). Keď vyberiete typ prostredia, nezabudnite použiť **Skúšobnú verziu (na základe predplatného)**.
-
-  ![Nové prostredie.](./media/19CreateEnvironment.png)
+1. Poskytnite nové prostredie nasadenia Project Operations CDS podľa pokynov v téme [Model nasadenia CDS](lite-deployment.md). Keď vyberiete typ prostredia, nezabudnite použiť **Skúšobnú verziu (na základe predplatného)**.
+![Nové prostredie](./media/19CreateEnvironment.png)
 
 2. Vyberte nastavenie **Povoliť aplikácie Dynamics 365** a nechajte možnosť **Automaticky nasadiť tieto aplikácie** prázdnu.  
 3. Výberom položky **Uložiť** vytvoríte prostredie.
 
-  ![Pridajte databázu.](./media/20CreateEnvironment1.png)
+![Pridať databázu](./media/20CreateEnvironment1.png)
 
 4. Po vytvorení prostredia nainštalujte riešenie **Microsoft Dynamics 365 Project Operations**. 
 
-![Nainštalujte riešenie.](./media/21InstallSolution.png)
+![Inštalácia riešenia](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Nainštalujte ukážkové údaje konfigurácie a nastavenia CDS
 
 Nainštalujte ukážkové údaje konfigurácie a nastavenia CDS podľa pokynov v téme [Použiť ukážkové údaje nastavenia a konfigurácie](lite-apply-demo-setup-config-data.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

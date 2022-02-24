@@ -2,6 +2,8 @@
 title: konfigurácia kategórií výdavkov
 description: Spôsob konfigurácie kategórií nákladov v Project Service
 author: revathiMuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c363b712fceda93c45e58eea4d5e711ef8405252e252061022590bdc506691c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 802da28a9079ae348aae14e260f280ef17f346f5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008740"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151542"
 ---
 # <a name="configure-expense-categories-project-service"></a>Nastavenie kategórií výdavkov (Project Service)
 
@@ -53,6 +55,3 @@ Každej kategórie výdavkov môžu mať svoje vlastné jednotkové skupiny a je
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Konfigurácia Project Service Automation](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

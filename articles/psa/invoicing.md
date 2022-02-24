@@ -2,10 +2,12 @@
 title: Fakturácia v Project Service Automation
 description: Táto téma poskytuje informácie o fakturácii.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985520"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151407"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturácia v Project Service Automation
 
@@ -50,7 +52,7 @@ Ak chcete vytvoriť faktúru pre konkrétnu projektovú zmluvu, postupujte podľ
 
 - Na stránke zoznam **projektových zmlúv** otvorte zmluvu o projekte a potom vyberte položku **vytvoriť faktúru**.
 
-    ![Vytváranie projektových faktúr pre konkrétnu projektovú zmluvu.](media/CreateProjectInvoicesOneByOne.png)
+    ![Vytváranie projektových faktúr pre konkrétnu projektovú zmluvu](media/CreateProjectInvoicesOneByOne.png)
 
     Faktúra sa generuje pre všetky transakcie vybratej projektovej zmluvy, ktoré majú stav **pripravené na fakturáciu**. Tieto transakcie zahŕňajú čas, výdavky, míľniky a riadky zmluvy založené na produkte.
 
@@ -58,7 +60,7 @@ Ak chcete hromadne vytvárať faktúry, postupujte podľa týchto krokov.
 
 1. Na stránke zoznam **projektových zmlúv** vyberte jednu alebo viacero projektových zmlúv, pre ktoré musíte vytvoriť faktúru, a potom vyberte položku **vytvoriť projektové faktúry.**
 
-    ![Hromadné vytváranie projektových faktúr.](media/CreateProjectInvoicesBulk.png)
+    ![Hromadné vytváranie projektových faktúr](media/CreateProjectInvoicesBulk.png)
 
     Upozorňujúce hlásenie vás informuje o tom, že pred tým, ako sa vytvoria faktúry, môže dôjsť k oneskoreniu. Tento proces je tiež zobrazený.
 
@@ -115,6 +117,3 @@ Po potvrdení opravnej faktúry, sú stornované pôvodné fakturované skutočn
 
 - Skutočná hodnota fakturovaného predaja je šesť hodín.
 - Skutočná hodnota nefakturovaného predaja sú dve hodiny. Táto transakcia môže byť fakturovaná neskôr alebo označená ako nefakturovateľná v závislosti od rokovaní so zákazníkom.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Spravovanie viacerých zákazníkov v riadkoch cenových ponúk založených na projekte
 description: Táto téma poskytuje informácie o tom, ako spravovať viacerých zákazníkov v riadkoch cenovej ponuky založenej na projekte.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992045"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118582"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Spravovanie viacerých zákazníkov v riadkoch cenových ponúk založených na projekte
 
@@ -42,6 +44,3 @@ V nasledujúcej tabuľke sú uvedené polia v zákazníckom zázname riadka ceno
 Percentuálne rozdelenie fakturácie môžete upraviť priamo. Ak percentá rozdelenia fakturácie nedosiahnu 100 %, dôjde k chybe. Po úprave percentuálnych podielov rozdelenia fakturácie chybu obnovte obnovením stránky riadka cenovej ponuky.
 
 Pomocou akcie rovnomerného rozloženia vo vedľajšej mriežke zákazníkov riadka cenovej ponuky prideľte rozdelenie fakturácie všetkým zákazníkom riadka cenovej ponuky. Ak existuje faktor zaokrúhľovania, pridá sa k zákazníkovi zaokrúhľovania. Jeden zo zákazníkov riadka cenovej ponuky je vždy označený ako zákazník zaokrúhľovania, čo znamená, že v zázname zákazníka riadka cenovej ponuky je príznak zaokrúhľovania nastavený na **Áno**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

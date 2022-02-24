@@ -2,16 +2,18 @@
 title: Plány faktúr v riadkoch cenovej ponuky založenej na projekte
 description: Táto téma poskytuje informácie o vytváraní harmonogramov faktúr a medzníkov pre riadky cenových ponúk.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988625"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180841"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Plány faktúr v riadkoch cenovej ponuky založenej na projekte
 
@@ -66,6 +68,3 @@ Otvorte riadok cenovej ponuky s pevnou cenou, v ktorom chcete vytvoriť medzník
 | Stav faktúry | Rýchle vytvorenie | Keď sa vytvorí medzník, tento stav sa vždy nastaví na **Nepripravené na fakturáciu**. | Prenesie sa na medzník riadka zmluvy projektu a na faktúru. |
 | Suma riadka | Rýchle vytvorenie | Suma alebo hodnota medzníka, ktorá bude fakturovaná zákazníkovi. | Prenesie sa na medzník riadka zmluvy projektu a na faktúru. |
 | Daň | Rýchle vytvorenie | Výška dane, ktorá sa použije na dosiahnutie medzníka. | Prenesie sa na medzník riadka zmluvy projektu a na faktúru. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

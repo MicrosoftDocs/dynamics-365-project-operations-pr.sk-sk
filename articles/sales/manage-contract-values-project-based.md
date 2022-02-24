@@ -2,16 +2,18 @@
 title: Práca s riadkami zmluvy založenej na projekte
 description: Táto téma poskytuje informácie o riadkoch zmluvy založenej na projekte.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990065"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181741"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Práca s riadkami zmluvy založenej na projekte
 
@@ -55,6 +57,3 @@ Pravidlo: Projekt a určitá trieda transakcií môžu byť v zmluve zahrnuté i
 | C1       | CL2           | P1      | No           | Áno             | No          | Platné           | Čas a poplatky za projekt P1 sú zahrnuté v CL1. Výdavky na projekt P1 sú zahrnuté v CL2. </br>   Čo sa týka každého riadku zmluvy, nedochádza k žiadnemu prekrývaniu, a preto je to platné.  |
 | C1       | CL1           | P1      | Áno          | Áno             | Áno         | Neplatný       | Porušuje pravidlo. Čas, výdavky a poplatky za projekt P1 sú zahrnuté v riadkoch dvoch zmlúv.                                                                                               |
 | CL2      | CL2           | P1      | Áno          | Áno             | Áno         | Neplatný       | Porušuje pravidlo. Čas, výdavky a poplatky za projekt P1 sú zahrnuté v riadkoch dvoch zmlúv.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

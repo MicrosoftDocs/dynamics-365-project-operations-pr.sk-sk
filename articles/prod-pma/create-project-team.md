@@ -2,9 +2,11 @@
 title: Vytvorenie projektového tímu
 description: Táto téma poskytuje informácie o tom, ako vytvoriť a spravovať projektové tímy.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005815"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270877"
 ---
 # <a name="create-a-project-team"></a>Vytvorenie projektového tímu
 
@@ -33,7 +35,7 @@ Nastavenia zobrazenia je možné tiež prispôsobiť, aby sa získal lepší pre
 
 Projektový manažér môže na stránke zvoliť rolu a potom, ak je k dispozícii zdroj, ktorý vyhovuje požiadavke, vybrať rezerváciu zdroja na vyplnenie roly. Upozorňujeme, že v tomto okamihu fázy plánovania nie je potrebné rezervovať zdroje. Pri vytváraní štruktúry WBS môžete roly nahradiť personálnymi zdrojmi pre projekt. Ak sú roly nahradené personálnymi zdrojmi v štruktúre WBS, nastavenie zdrojov automaticky aktualizuje zoznam a plánovanie projektového tímu.
 
-[![Zoznam projektového tímu, ktorý zahŕňa roly aj skutočné zdroje.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Zoznam projektového tímu, ktorý zahŕňa roly aj skutočné zdroje](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Projektový manažér má rôzne možnosti rezervácie zdroja pre projekt, ako napr. **Zostávajúca kapacita**, **Plná kapacita**, **Percento kapacity** a **Uveďte hodiny**. Tieto možnosti rezervácie je možné kedykoľvek zrušiť, ak sa zmení priradenie zdrojov. Podporované sú dva typy rezervácií:
 

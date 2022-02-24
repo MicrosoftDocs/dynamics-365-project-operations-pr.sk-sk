@@ -2,10 +2,12 @@
 title: Vytvorte vlastné polia a entity
 description: Táto téma vysvetľuje, ako vytvoriť množiny možností a entity vo vlastnom riešení v platforme Power Apps.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992450"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144882"
 ---
 # <a name="create-custom-fields-and-entities"></a>Vytvorte vlastné polia a entity 
 
@@ -43,7 +45,7 @@ Cenový rozmer môže byť množina možností alebo entita. Obidva musia byť v
 2. V prehľadávači riešení, na ľavom navigačnom paneli vyberte **entity**.
 3. Kliknite na **nové**, ak chcete vytvoriť novú entitu s názvom **štandardný nadpis**. Zadajte zostávajúce požadované informácie a kliknite na **Uložiť**.
 
-> ![Definícia entity Štandardný názov.](media/Standard-Title-entity-definition.png)
+> ![Definícia entity so Štandardným nadpisom](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimenzie založené na množine možností 
@@ -54,9 +56,9 @@ Môžete vytvoriť dve dimenzie založené na množine možností. Použite **mi
 2. V prehľadávači riešení, na ľavom navigačnom paneli vyberte **Množina možností**. 
 3. Kliknite na **nové**, ak chcete vytvoriť novú množinu možností, zadajte zostávajúce požadované informácie a potom kliknite na **uložiť**.
 
-> ![Množina možností na základe cenovej dimenzie nazvanej Pracovná poloha zdroja.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Množina možností na základe cenovej dimenzie nazvanej pracovná poloha zdroja ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Množina možností na základe cenovej dimenzie nazvanej Pracovná doba zdroja.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Množina možností na základe cenovej dimenzie nazvanej hodinová poloha zdroja ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Vytvorenie údajov pre dimenzie založené na entite
@@ -68,9 +70,6 @@ Môžete vytvoriť dve dimenzie založené na množine možností. Použite **mi
 3. Zavrite formulár. 
 4. Opakujte kroky 1 - 3 na vytvorenie ďalšieho štandardného názvu pre "Starší Systémový inžinier".
 
-> ![Vzorové údaje pre entitu Štandardný nadpis.](media/ST-data.png)
+> ![Vzorové údaje pre štandardný nadpis entity. ](media/ST-data.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

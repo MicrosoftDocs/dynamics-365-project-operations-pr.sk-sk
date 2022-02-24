@@ -2,6 +2,8 @@
 title: Kľúčové koncepty
 description: Táto téma obsahuje prepojenia na kľúčové koncepty pre riadenie zdrojov v Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995105"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147762"
 ---
 # <a name="key-concepts"></a>Kľúčové koncepty
 
@@ -46,6 +48,3 @@ Nasledujúca tabuľka definuje kľúčové koncepty, ktoré sa používajú v ap
 | Kontúry                    | Úloha, požiadavka alebo doba priradenia, pretože sú rozdelené do dennej distribúcie. Napríklad, päťdňová, 40-hodinový úloha môže byť kontúrovaná do ôsmich hodín denne počas piatich dní. |
 | Zobrazenie Vyrovnanie        | Zobrazenie zobrazuje rezervácie a všetky priradenia pre každého člena projektového tímu. Toto zobrazenie umožňuje projektovým manažérom nájsť nesúlad medzi rezerváciami a priradeniami a prijať nápravné opatrenia, ak nastane akýkoľvek nesúlad. |
 | Pracovná doba                 | Entita, ktorá sa používa na identifikáciu kapacity zdroja a pracovných a nepracovných hodín. Táto entita sa označuje aj ako kalendár zdrojov. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

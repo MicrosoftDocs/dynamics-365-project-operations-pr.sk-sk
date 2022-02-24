@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007165"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992853"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Zobrazte fakturovateľné využívanie zdrojov
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007165"
  
 **Zobrazenie využitia** na stránke **využitie zdrojov Project Service** zobrazuje účtovateľné využitie pre každý rezervovateľný zdroj. Pretože je zobrazenie založené na tabule plánovania, vďaka čomu tu nájdete veľa rovnakých funkcií.
 
-> ![Snímka obrazovky Zobrazenie využitia.](media/FAQ-utilization-1.png)
+> ![Snímka obrazovky zobrazenia využitia](media/FAQ-utilization-1.png)
  
 
 Výpočet spoplatneného využitia funguje nasledovne:
@@ -48,7 +48,7 @@ Cieľové využitie môžete nastaviť na predvolené roly zdroja, alebo samotn�
 2. Kliknite na zdroj na otvorenie záznamu. 
 3. Na karte **Project Service** môžete nastaviť cieľové využitie zdroja.
 
-> ![Snímka obrazovky využitia karty Project Service na nastavenie cieľového využívania.](media/FAQ-utilization-2.png)
+> ![Snímka obrazovky využitia karty Project Service na nastavenie cieľového využívania](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Nastavenie cieľového využitia na rolu
 
@@ -56,7 +56,7 @@ Cieľové využitie môžete nastaviť na predvolené roly zdroja, alebo samotn�
 2. Kliknite na rola a otvorte záznam. 
 3. Nastavte cieľové využitie roly.
 
-> ![Snímka obrazovky používania Rol zdroja na stanovenie cieľového využitia.](media/FAQ-utilization-3.png)
+> ![Snímka obrazovky používania Rol zdroja na stanovenie cieľového využitia](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Výpočet fakturovateľných využití zdrojov
 

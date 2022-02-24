@@ -2,6 +2,8 @@
 title: Odhady predaja a projekty
 description: Táto téma poskytuje informácie o tom, ako využiť plán a odhady v procese predaja.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995195"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148392"
 ---
 # <a name="sales-estimates-and-projects"></a>Odhady predaja a projekty
 
@@ -35,11 +37,11 @@ Počas procesu predaja môžete vytvoriť odhady predaja prepojením projektu s 
 
 Keď vytvoríte riadok cenovej ponuky založený na projekte, môžete vytvoriť nový projekt alebo priradiť existujúci projekt na stránke **riadok cenovej ponuky**. 
 
-> ![Formulár riadka cenovej ponuky.](media/project-8.png)
+> ![Formulár riadka cenovej ponuky](media/project-8.png)
  
 Keď vytvoríte nový projekt z podrobností riadka cenovej ponuky, môžete využiť šablóny projektu. Šablóny projektu sú modelové projekty, ktoré predstavujú štandardné projektové plány a finančné odhady, ktoré sú typické pre organizáciu. Môžu tiež reprezentovať kópie projektových plánov a odhadov z minulých projektov.
 
-> ![Podrobnosti o riadku cenovej ponuky.](media/project-9.png)
+> ![Podrobnosti o riadku cenovej ponuky](media/project-9.png)
   
 Keď vytvoríte projekt z cenovej ponuky, projekt sa automaticky priradí k riadku cenovej ponuky.
 
@@ -52,6 +54,3 @@ Pracovné úsilie a odhady plánu môžete definovať pomocou polí na karte **p
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Import odhadov z projektu do cenovej ponuky
 
 Po definovaní odhadov projektu ich môžete importovať do riadka cenovej ponuky. Na stránke **Podrobnosti riadka cenovej** vyberte položku **importovať z odhadov** na páse s nástrojmi a zhrňte odhady projektov podľa typu transakcie, roly alebo úlohy.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

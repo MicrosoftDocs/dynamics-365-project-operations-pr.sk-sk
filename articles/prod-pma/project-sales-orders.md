@@ -2,9 +2,11 @@
 title: Projektové predajné objednávky pre projekty typu „čas a materiál“
 description: Táto téma vysvetľuje, ako vytvoriť projektové predajné objednávky pre projekty typu „čas a materiál“.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992855"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084349"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projektové predajné objednávky pre projekty typu „čas a materiál“
 
@@ -39,6 +41,3 @@ Projektové predajné objednávky môžete vytvoriť dvoma spôsobmi:
 - Prejdite do samotného projektu. Na table Akcia vyberte možnosť **Spravovať > Úlohy položiek > Predajná objednávka**. Informácie o projekte budú predvolene nastavené na predajnú objednávku z projektu. Ak má projektová zmluva viac ako jeden zdroj financovania, budete musieť zvoliť zdroj financovania, aby ste zákazníka nastavili na predajnú objednávku. Ak je pre projekt k dispozícii iba jeden zdroj financovania, zákazník sa nastaví automaticky.
 - Prejdite na stránku so zoznamom **Všetky predajné objednávky** a vytvorte novú predajnú objednávku. Budete musieť vybrať projekt pre predajnú objednávku. Po výbere projektu sa zákazník nastaví zo zdroja financovania alebo budete musieť zvoliť zdroj financovania, ak má projektová zmluva viac zdrojov financovania.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

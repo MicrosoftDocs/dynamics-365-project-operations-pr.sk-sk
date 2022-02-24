@@ -2,16 +2,18 @@
 title: Použitie ukážkových údajov v prostredí na cloudovom hostiteľskom systéme Finance
 description: Táto téma vysvetľuje, ako aplikovať ukážkové údaje z Project Operations do prostredia na cloudovom hostiteľskom systéme Dynamics 365 Finance.
 author: sigitac
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009685"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365257"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Použitie ukážkových údajov v prostredí na cloudovom hostiteľskom systéme Finance
 
@@ -22,40 +24,40 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 1. Vo svojom projekte LCS otvorte stránku **Podrobnosti o prostredí**. Pamätajte na to, že obsahuje podrobnosti potrebné na pripojenie k prostrediu pomocou protokolu RDP (Remote Desktop Protocol).
 
-![Podrobnosti o prostredí.](./media/1EnvironmentDetails.png)
+![Podrobnosti o prostredí](./media/1EnvironmentDetails.png)
 
 Prvou súpravou zvýraznených poverení sú poverenia pre lokálny účet a obsahujú hypertextový odkaz na pripojenie k vzdialenej ploche. Poverenia zahŕňajú používateľské meno a heslo správcu prostredia. Druhá súprava poverení sa používa na prihlásenie na server SQL v tomto prostredí.
 
 2. Pripojte sa k vzdialenej ploche pomocou hypertextového odkazu v časti **Lokálne účty** a použite **Poverenia lokálneho účtu** na overenie.
 3. Prejdite do časti **Internetové informačné služby** > **Fondy aplikácií** > **AOSService** a zastavte službu. V tomto okamihu zastavíte službu, aby ste mohli pokračovať v nahradzovaní databázy SQL.
 
-![Zastavenie AOS.](./media/2StopAOS.png)
+![Zastavenie AOS](./media/2StopAOS.png)
 
 4. Prejdite na **Služby** a zastavte nasledujúce dve položky:
 
 - Microsoft Dynamics 365 Unified Operations: Služba dávkovej správy
 - Microsoft Dynamics 365 Unified Operations: Platforma na import a export údajov
 
-![Zastavenie služieb.](./media/3StopServices.png)
+![Zastavenie služieb](./media/3StopServices.png)
 
 5. Otvorte Microsoft SQL Server Management Studio. Prihláste sa pomocou poverení servera SQL a použite meno používateľa axdbadmin a heslo zo stránky **Podrobnosti prostredia** LCS.
 
-![SQL Server Management Studio.](./media/4SSMS.png)
+![SQL Server Management Studio](./media/4SSMS.png)
 
 6. V Prieskumníkovi objektov, **Databázy** a nájdite **AXDB**. Databázu nahradíte novou databázou, ktorá sa nachádza v časti [Centrum sťahovania](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Skopírujte súbor zip do virtuálneho počítača, ku ktorému ste vzdialene pripojení, a rozbaľte obsah súboru zip.
 8. V programe SQL Server Management Studio kliknite pravým tlačidlom myši na **AxDB** a potom vyberte **Úlohy** > **Obnoviť** > **Databáza**.
 
-![Obnovenie databázy.](./media/5RestoreDatabase.png)
+![Obnovenie databázy](./media/5RestoreDatabase.png)
 
 9. Vyberte **Zdrojové zariadenie** a prejdite na súbor rozbalený zo súboru zip, ktorý ste skopírovali.
 
-![Zdrojové zariadenia.](./media/6SourceDevice.png)
+![Zdrojové zariadenia](./media/6SourceDevice.png)
 
 10. Vyberte **Možnosti** a potom vyberte **Prepísať existujúcu databázu** a **Zatvoriť existujúce pripojenia k cieľovej databáze**. 
 11. Vyberte položku **OK**.
 
-![Obnovenie nastavení.](./media/7RestoreSetting.png)
+![Obnovenie nastavení](./media/7RestoreSetting.png)
 
 Dostanete potvrdenie, že obnovenie AXDB bolo úspešné. Po prijatí tohto potvrdenia môžete zavrieť SQL Services Management Studio.
 
@@ -66,17 +68,14 @@ Dostanete potvrdenie, že obnovenie AXDB bolo úspešné. Po prijatí tohto potv
 15. Spustite súbor .ext pomocou svojej adresy používateľa v poli **E-mailová adresa**. 
 16. Stlačte možnosť **Odoslať**.
 
-![Poskytovanie používateľa správcu.](./media/8AdminUserProvisioning.png)
+![Poskytovanie používateľa správcu](./media/8AdminUserProvisioning.png)
 
 Dokončenie trvá pár minút. Mali by ste dostať potvrdzujúce hlásenie, že správca bol úspešne aktualizovaný.
 
 17. Nakoniec spustite príkazový riadok ako správca a vykonajte iisreset
 
-![Resetovanie IIS.](./media/9IISReset.png)
+![Resetovanie IIS](./media/9IISReset.png)
 
 18. Ukončite reláciu vzdialenej plochy a pomocou stránky **Podrobnosti o prostredí** LCS sa prihláste do prostredia a uistite sa, že funguje podľa očakávaní.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Finance and Operations](./media/10FinanceAndOperations.png)

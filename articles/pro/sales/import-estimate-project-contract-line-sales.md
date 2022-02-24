@@ -2,22 +2,24 @@
 title: Import odhadu do riadka zmluvy založenej na projekte – čiastočné
 description: Táto téma poskytuje informácie o importovaní finančných odhadov z projektu do riadka zmluvy.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997265"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177485"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Import odhadu do riadka zmluvy založenej na projekte – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-V Dynamics 365 Project Operations si môžete importovať odhady z projektu do riadka zmluvy založenej na projekte.
+V Dynamics 365 Project Operations môžete importovať odhady z projektu do riadka zmluvy založenej na projekte.
 
 1. Overte si, či bolo vyplnené pole **Projekt** v riadku zmluvy založenej na projekte.
 2. Na karte **Podrobnosti o riadku zmluvy** vo vedľajšej mriežke vyberte kartu **Importovať z odhadu projektu**. Otvorí sa dialógové okno s možnosťami sumarizácie. Dostupné možnosti sumarizácie sú **Trieda transakcie**, **Kategória**, **Rola** a **Projektová úloha**.
@@ -58,6 +60,3 @@ Keď sa používateľ rozhodne sumarizovať podľa položiek **Trieda transakci�
 | Úloha A | Letenky | 1. 10. 2020 | 4 | 400 | 1600 |
 | Úloha B | Hotel | 1. 10. 2020 | 4 | 200 | 800 |
 | Úloha C | Hotel | 1. 11. 2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Cestovné žiadanky
 description: Táto téma poskytuje informácie o cestovných žiadankách.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: f00b5ca2142c4ba5cb523773f1f6dd8f0a055f6f6d474bc2b8e5f775ca0fc739
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994565"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123757"
 ---
 # <a name="travel-requisitions"></a>Cestovné žiadanky
 
@@ -54,6 +56,3 @@ Vyberte cestovnú žiadanku, ktorú chcete schváliť, a potom vyberte **Pracovn
 
 > [!NOTE]
 > Keď mapujete výkaz výdavkov na schválenú cestovnú žiadanku, suma transakcie nemôže byť vyššia ako schválená suma. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

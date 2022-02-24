@@ -2,6 +2,8 @@
 title: Riaďte projekty a rezervácie vo vašom Office 365 kalendári
 description: Ako riadiť projekty a rezervácie vo vašom Office 365 kalendári
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985453"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144477"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Spravujte projekty a rezervácie vo svojom kalendári (Project Service)
 
@@ -50,7 +52,7 @@ Zobraziť osobné stretnutia, priradenia práce na projekte rezervácie a objedn
   
 - Musíte mať poverenia globálneho správcu [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] alebo systémového správcu.  
   
-- Váš správca bude musieť nakonfigurovať profil e-mailového servera a každý používateľ bude musieť nakonfigurovať svoju schránku. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Nastavenie spracovania e-mailov pomocou synchronizácie na strane servera](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Váš správca bude musieť nakonfigurovať profil e-mailového servera a každý používateľ bude musieť nakonfigurovať svoju schránku. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Nastavenie spracovania e-mailov pomocou synchronizácie na strane servera](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Zapnutie synchronizácie pre vašu organizáciu (úloha správcu)  
   
@@ -89,6 +91,3 @@ Zobraziť osobné stretnutia, priradenia práce na projekte rezervácie a objedn
   
 ### <a name="see-also"></a>Pozrite si tiež:  
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

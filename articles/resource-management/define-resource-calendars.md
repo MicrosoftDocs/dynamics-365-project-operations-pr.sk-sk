@@ -2,16 +2,18 @@
 title: Definovanie kalendárov zdrojov
 description: Táto téma poskytuje informácie o tom, ako definovať kalendáre pracovnej doby pre zdroje v Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990335"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123937"
 ---
 # <a name="define-resource-calendars"></a>Definovanie kalendárov zdrojov
 
@@ -41,6 +43,3 @@ Každý rezervovateľný zdroj pracujúci na projekte musí mať kalendár praco
 2. V zobrazení mriežky vyberte až 25 **Rezervovateľných zdrojov**, ktoré sa majú aktualizovať.
 3. Vyberte možnosť **Nastaviť kalendár** a zobrazí sa dialógové okno so zoznamom dostupných šablón pracovnej doby.
 4. Vyberte šablónu, ktorú chcete použiť, a potom vyberte **Použiť**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

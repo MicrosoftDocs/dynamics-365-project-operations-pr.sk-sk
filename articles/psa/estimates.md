@@ -2,6 +2,8 @@
 title: Odhady
 description: Táto téma poskytuje informácie o odhadoch v Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992405"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151452"
 ---
 # <a name="estimates"></a>Odhady
 
@@ -83,27 +85,24 @@ Ak ste do podrobností riadka cenovej ponuky pridali vlastné pole a chcete, aby
 1. Otvorte PluginRegistrationTool a pripojte sa k online inštancii.
 2. Vyberte položku **Hľadať** a vyhľadajte doplnok, ktorý chcete aktualizovať.
 
-    ![Dialógové okno Prehľadávať strom.](media/basic-guide-19.png)
+    ![Prehľadajte stromové dialógové okno](media/basic-guide-19.png)
 
 3. Vyberte doplnok a potom na hlavnej stránke vyberte položku **vybrať**.
 4. Vyberte krok doplnku, ktorý chcete aktualizovať, kliknite pravým tlačidlom myši a potom vyberte položku **aktualizovať.**
 
-    ![Výber kroku v doplnku.](media/basic-guide-20.png)
+    ![Výber kroku v doplnku](media/basic-guide-20.png)
 
 5. V dialógovom okne **aktualizovať existujúci krok** v poli **filtrovanie atribútov** vyberte elipsové tlačidlo (**...**):
  
-    ![Dialógové okno Aktualizovať existujúci krok.](media/basic-guide-21.png)
+    ![Aktualizujte dialógové okno existujúci krok](media/basic-guide-21.png)
 
 6. V dialógovom okne **Výber atribútov** vyberte začiarkavacie políčka pre vlastné atribúty.
 
-    ![Dialógové okno Vyberte atribúty.](media/basic-guide-22.png)
+    ![Vyberte dialógové okno atribúty.](media/basic-guide-22.png)
 
 7. Kliknite na tlačidlo **OK** pre zatvorenie dialógového okna a potom vyberte **aktualizovať krok.**
  
-    ![Tlačidlo Aktualizovať krok.](media/basic-guide-23.png)
+    ![Tlačidlo Aktualizovať](media/basic-guide-23.png)
 
 8. Opakujte kroky 1 až 7 pre druhý doplnok.
 9. Zatvorte nástroj PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

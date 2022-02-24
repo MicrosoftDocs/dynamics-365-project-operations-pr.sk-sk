@@ -2,16 +2,18 @@
 title: Udržiavanie členov tímu
 description: Táto téma poskytuje informácie o rezervovaní pomenovaných zdrojov pre projektové tímy a ich priradení k úlohám.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997085"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131542"
 ---
 # <a name="maintain-team-members"></a>Udržiavanie členov tímu
 
@@ -19,7 +21,7 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 
 Môžete pridať pomenovaný zdroj do projektového tímu jeho rezerváciou priamo v tíme.
 
-1. V Dynamics 365 Project Operations prejdite na **Projekty** a vyberte Otvoriť projekt, pre ktorý robíte rezerváciu.
+1. V Dynamics 365 Project Operations prejdite na **Projekty** a vyberte otvorenie projektu, pre ktorý robíte rezerváciu.
 2. Na stránke **Projekt** na karte **Tím** vyberte **Nový**. 
 3. V dialógovom okne **Quick Create Project Team Member** vyberte rezervovateľný zdroj. Pole **Rola** sa vyplní predvolenou úlohou prostriedku, ak má jeden priradený. Rolu môžete zmeniť. 
 4. Vyberte dátumy od a do, kedy bude zdroj potrebný a vyberte spôsob pridelenia kapacity zdroja. 
@@ -40,6 +42,3 @@ Keď urobíte výber, zdroj sa pridá do projektového tímu a priradí k úlohe
 Môžete použiť **Reconciliation** na zväčšenie tabuľkovej rezervačnej schopnosti alebo **Schedule Board** na rezerváciu zdrojovej kapacity pre projekt.
 
 Po tom, ako sa člen tímu rezervuje na váš projekt, môžete použiť **Spravovanie rezervácií** alebo **Tabuľu plánovania** priamo na spravovanie ich rezervácií.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

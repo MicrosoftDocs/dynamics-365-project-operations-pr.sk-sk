@@ -2,11 +2,12 @@
 title: Domovská stránka dimenzíí ceny a ocenenia
 description: Táto téma poskytuje prehľad dimenzií cien.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998480"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151317"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domovská stránka dimenzíí ceny a ocenenia
 
@@ -41,7 +42,7 @@ Vzhľadom na typický charakter týchto atribútov práce a ľudí potrebných n
 
 PSA lode s predvolenou sadou cenových dimenzií. Tieto môžete zobraziť tak, že prejdete **Project Service** > **parametre**. V zázname parametra, karta **cenové dimenzie založené na čiastke**, overuje, že role, **msdyn_resourcecategory** a zdrojová organizačná jednotka, **msdyn_organizationalunit** majú polia **Vzťahujúce sa na predaj** a **vzťahujúce sa na náklad** nastavené na **Áno**. To vám umožní nastaviť cenu a náklady pre každú rolu a organizačnú jednotku kombinácie.
 
-![Snímka obrazovky z parametrov Project Service so zvýrazneným „Vzťahuje sa na predaj“.](media/PS-OOB-parameters.png)
+![Screenshot z parametrov Project Service so zvýrazneným "použiteľné pre predaj"](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Ak ste boli používateľom polí role out-of-box a organizačnej jednotky ako cenové dimenzie pred verziou 3 PSA, nebudú žiadne pozorovateľné zmeny. Môžete naďalej používať Project Service ako zvyčajne. 
@@ -64,18 +65,15 @@ Nasledujúci príklad zobrazuje fakturačné sadzby, ktoré sú nastavené na z�
 
 **Vzorka fakturačných sadzieb**
 
-| Rola        | Organizačná jednotka    |Jednotka      |Cena      |Mena  |
+| Rola        | Org jednotka    |Jednotka      |Cena      |Mena  |
 | ------------|-------------|----------|----------:|----------|
-| Vývojár   | Contoso – USA  |Hodina | 200|USD     |
-| Vývojár   | Contoso India |Hodina|   112|USD     |
+| Vývojár   | Contoso US  |Hour | 200|USD     |
+| Vývojár   | Blaho India |Hour|   112|USD     |
 
 
 **Vzorka nákladových sadzieb**
 
-| Platové pásmo     | Organizačná jednotka    |Jednotka      |Cena      |Mena  |
+| Platové pásmo     | Org jednotka    |Jednotka      |Cena      |Mena  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje company_Band1 | Contoso – USA  |Hodina | 145|USD     |
-| Moje company_Band2 | Contoso India |Hodina|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Moje company_Band1 | Contoso US  |Hour | 145|USD     |
+| Moje company_Band2 | Blaho India |Hour|   67|USD     |

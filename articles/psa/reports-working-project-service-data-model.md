@@ -2,6 +2,8 @@
 title: Práca s dátovým modelom Project Service Automation
 description: Táto téma poskytuje informácie o tom, ako pracovať s dátovým modelom.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002440"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147672"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Práca s dátovým modelom Project Service Automation
 
@@ -53,7 +55,7 @@ PSA tiež pridáva nové entity súvisiace s cenovou ponukou k dátovému modelu
 
 Ostatné entity, ktoré PSA pridáva k cenovým ponukám, sú **Projektový cenník riadka cenovej ponuky**, **Kategória zdroja v riadku cenovej ponuky** a **Kategória transakcie v riadku cenovej ponuky**.
 
-![Schéma znázorňujúca cenovú ponuku, riadok cenovej ponuky a vzťahy projektu.](media/PS-Reporting-image2.png "Schéma znázorňujúca cenovú ponuku, riadok cenovej ponuky a vzťahy projektu")
+![Schéma znázorňujúca cenovú ponuku, riadok cenovej ponuky a vzťahy projektu](media/PS-Reporting-image2.png "Schéma znázorňujúca cenovú ponuku, riadok cenovej ponuky a vzťahy projektu")
 
 ## <a name="reporting-on-project-contracts"></a>Podávanie správ o projektových zmluvách
 
@@ -69,7 +71,7 @@ PSA tiež pridáva nové entity, ktoré sú určené pre projektové zmluvy. Tu 
 
 Ostatné entity, ktoré PSA pridáva k zmluvám, sú **Projektový cenník riadka zmluvy**, **Kategória zdroja v riadku projektovej zmluvy** a **Kategória transakcie v riadku projektovej zmluvy**.
 
-![Schéma znázorňujúca objednávku, riadok objednávky a vzťahy projektu.](media/PS-Reporting-image3.png "Schéma znázorňujúca objednávku, riadok objednávky a vzťahy projektu")
+![Schéma znázorňujúca objednávku, riadok objednávky a vzťahy projektu](media/PS-Reporting-image3.png "Schéma znázorňujúca objednávku, riadok objednávky a vzťahy projektu")
 
 ## <a name="reporting-on-projects"></a>Podávanie správ o projektoch
 
@@ -81,7 +83,7 @@ Entita **Projekty** a súvisiace entity sú exkluzívne pre PSA. **Projekt** je 
 - **Požiadavka na zdroj** – Táto entita obsahuje požiadavky pre všetkých členov tímu všeobecných zdrojov.
 - **Odhad** a **Riadok odhadu** – Tieto entity majú vzťah hlavičky a čiary a obsahujú odhady výdavkov pre projekt. Odhady úloh sú uložené v entite **Odhad zdroja**.
 
-![Schéma znázorňujúca požiadavku zdroja a vzťahy projektu.](media/PS-Reporting-image4.png "Schéma znázorňujúca požiadavku zdroja a vzťahy projektu")
+![Schéma znázorňujúca požiadavku zdroja a vzťahy projektu](media/PS-Reporting-image4.png "Schéma znázorňujúca požiadavku zdroja a vzťahy projektu")
 
 ## <a name="reporting-on-resources"></a>Podávanie správ o zdrojoch
 
@@ -92,7 +94,7 @@ Projektové prostriedky používajú entity **rezervovateľných zdrojov** od Un
 - **Kategória rezervovateľného zdroja** – táto entita predstavuje úlohu rezervovateľného prostriedku.
 - **Rezervácie rezervovateľných zdrojov** – táto entita predstavuje čas, ktorý je rezervovaný na projektoch pre zdroj. Každá rezervácia má hlavičku entity a riadok entity a každý riadok má stav, ktorý predstavuje stav rezervácie.
 
-![Schéma znázorňujúca vlastnosti vzťahov rezervovateľných zdrojov.](media/PS-Reporting-image5.png "Schéma znázorňujúca vlastnosti vzťahov rezervovateľných zdrojov")
+![Schéma znázorňujúca vlastnosti vzťahov rezervovateľných zdrojov](media/PS-Reporting-image5.png "Schéma znázorňujúca vlastnosti vzťahov rezervovateľných zdrojov")
 
 ## <a name="reporting-on-actual-transactions"></a>Podávanie správ o skutočných transakciách
 
@@ -120,7 +122,4 @@ Keď pracujete s entitou **Skutočná hodnota**, je dôležité, aby ste pochopi
 
 Entita **Pôvod transakcie** zaznamenáva pôvod záznamu **Skutočná hodnota** a entita **Kontaktná osoba pre transakciu** zaznamenáva súvisiace záznamy pre záznam **Skutočná hodnota**. Okrem toho záznam **Skutočná hodnota** obsahuje odkazy projektu, projektovú zmluvy (objednávka), rezervovateľný zdroj a zákazníka.
 
-![Schéma znázorňujúca transakčné spojenie, pôvod a skutočné vzťahy.](media/PS-Reporting-image6.png "Schéma znázorňujúca transakčné spojenie, pôvod a skutočné vzťahy")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Schéma znázorňujúca transakčné spojenie, pôvod a skutočné vzťahy](media/PS-Reporting-image6.png "Schéma znázorňujúca transakčné spojenie, pôvod a skutočné vzťahy")

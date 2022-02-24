@@ -2,9 +2,11 @@
 title: Aktualizácia atribútov doplnkov na zahrnutie nových dimenzií cien
 description: Táto téma poskytuje informácie o aktualizácii atribútov doplnkov pre dimenzie cien.
 author: Rumant
+manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988805"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147087"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Aktualizácia atribútov doplnkov na zahrnutie nových dimenzií cien
 
@@ -42,30 +44,27 @@ Nasledujúce kroky vám vysvetlia proces registrácie doplnkov.
 1. Otvorte **PluginRegistrationTool** a pripojte sa k online inštancii.
 2. Vyberte položku **Hľadať** a vyhľadajte doplnok, ktorý chcete aktualizovať.
 
- ![Snímka obrazovky zo stromu vyhľadávania.](media/PRT-1.png)
+ ![Snímka obrazovky zo stromu vyhľadávania](media/PRT-1.png)
 
 3. Po rozpoznaní doplnku ho označte a potom kliknite na možnosť **Vybrať na hlavnom formulári**.
 
 4. Vyberte krok doplnku, ktorý chcete aktualizovať, kliknite pravým tlačidlom myši a potom vyberte položku **aktualizovať.**
 
- ![Snímka obrazovky doplnku určeného na aktualizáciu.](media/PRT-2.png)
+ ![Snímka obrazovky doplnku určeného na aktualizáciu](media/PRT-2.png)
  
 5. V okne aktualizácia kliknite na tri bodky (**...**) v atribútoch filtrovania.
 
- ![Snímka obrazovky informácií o konfigurácii Aktualizovať existujúci krok.](media/PRT-3.png)
+ ![Snímka obrazovka z aktualizácie existujúceho kroku informácií konfigurácie](media/PRT-3.png)
  
 6. Začiarknite políčka atribút ceny.
 
- ![Snímka obrazovka znázorňujúce označenie začiarkavacieho poľa atribútov ceny.](media/PRT-4.png)
+ ![Snímka obrazovka znázorňujúce označenie začiarkávacieho poľa atribútov ceny](media/PRT-4.png)
 
 7. Kliknite na tlačidlo **OK** pre stránky a potom vyberte **Aktualizovať**.
 
- ![Snímka obrazovky zobrazujúca tlačidlo „Aktualizovať”.](media/PRT-5.png)
+ ![Snímka obrazovky zobrazujúca tlačidlo „Aktualizovať”](media/PRT-5.png)
  
 8. Tento postup zopakujte pri druhom doplnku, **PreOperationQuoteLineDetail - Aktualizácia msdyn_quotelinetransaction**.
 
 9. Zatvorte registračný nástroj doplnku.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Definovanie politík výdavkov
 description: Môžete definovať politiky výdavkov, ktoré musia vaši pracovníci dodržiavať pri zadávaní a odosielaní výkazov výdavkov a cestovných požiadaviek.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986375"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128437"
 ---
 # <a name="define-expense-policies"></a>Definovanie politík výdavkov
 
@@ -51,6 +53,3 @@ Tu je niekoľko návrhov, ktoré vám môžu pomôcť pri vytváraní nových po
 ## <a name="when-to-evaluate-policies"></a>Kedy vyhodnocovať politiky
 
 V parametroch riadenia výdavkov môžete zvoliť vyhodnotenie politík riadenia výdavkov pri uložení riadku alebo pri odoslaní výkazu výdavkov. Ak sa rozhodnete vyhodnocovať pri ukladaní riadka, používatelia budú mať skôr prehľad o tom, čo musia urobiť, aby mohli vyplniť výkaz výdavkov naraz. V opačnom prípade môžete oddialiť vyhodnotenie politiky a ušetriť čas overením na konci, počas odosielania do pracovného postupu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

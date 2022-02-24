@@ -2,6 +2,8 @@
 title: Časté otázky pre správu zdrojov
 description: Táto téma obsahuje odpovede na často kladené otázky týkajúce sa správy zdrojov.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002395"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144387"
 ---
 # <a name="resource-management-faq"></a>Časté otázky pre správu zdrojov
 
@@ -52,6 +54,3 @@ Po rezerváciách zdrojov vyberte položku **Spravovanie rezervácií**, aby ste
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Aký je rozdiel medzi priradením a rezerváciou?
 
 Priradenia sú priraďovanie zdrojov k projektovým úlohám v pláne projektu. Zdroje môžu byť buď skutočnými, alebo všeobecnými zdrojmi. Rezervácie sú pevné alebo predbežné alokácie zdrojov k projektu. Pevné rezervácie spotrebúvajú kapacitu zdroja. V ideálnom prípade sa pri reálnych zdrojoch musia rezervácie a priradenia zhodnúť, pretože sa nelíšia. Avšak, PSA nepresadzuje túto zmluvu. V zobrazení Vyrovnanie sa zobrazuje projektový manažér, v ktorom nesúhlasia rezervácie a priradenia.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

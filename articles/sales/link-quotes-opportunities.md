@@ -2,16 +2,18 @@
 title: Vytvorenie projektových cenových ponúk z príležitostí
 description: Táto téma poskytuje informácie o vytváraní cenových ponúk projektu z príležitostí.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999650"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118132"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Vytvorenie projektových cenových ponúk z príležitostí
 
@@ -54,6 +56,3 @@ Existujúca cenová ponuka môže byť prepojená s príležitosťou. Ak chcete 
    Keď presuniete príležitosť do tejto fázy, môžete si vybrať túto cenovú ponuku zo zoznamu cenových ponúk spojených s touto príležitosťou. Výber tejto cenovej ponuky znamená, že sa s ňou posúvate vpred.
 
    Všetky ostatné cenové ponuky spojené s príležitosťou budú stále k dispozícii a aktívne, kým sa jedna z nich nevyužije. Proces predaja môžete presunúť späť do predchádzajúcej fázy **Kvalifikovať**, a vybrať ďalšiu ponuku, s ktorou budete pokračovať ďalej.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

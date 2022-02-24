@@ -2,26 +2,28 @@
 title: Prehľad riadenia projektu a účtovníctva
 description: Funkcionalitu riadenia projektu a účtovníctva je možné použiť vo viacerých odvetviach na poskytovanie služieb, výrobu produktu alebo na dosiahnutie výsledku.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007525"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084507"
 ---
 # <a name="project-management-and-accounting-overview"></a>Prehľad riadenia projektu a účtovníctva
 
@@ -34,14 +36,14 @@ Projekt je skupina aktivít, ktorých cieľom je poskytnúť službu, vyrobiť p
 ## <a name="projects-across-industries"></a>Projekty naprieč priemyselnými odvetviami
 Funkčnosť riadenia projektu a účtovníctva je možné použiť vo viacerých odvetviach, ako je znázornené na nasledujúcom obrázku.
 
-[![Projekty naprieč priemyselnými odvetviami.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekty naprieč priemyselnými odvetviami](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 V call centre možno prípad použiť na opísanie súboru akcií, ktoré sú potrebné na vyriešenie prípadu. Poradenské spoločnosti, ako sú organizácie pre riadenie alebo technické poradenstvo alebo reklamné agentúry, označujú svoje činnosti ako projekty. V marketingu predstavuje kampaň súbor práce, ktorú je potrebné dodať. Pri projektovej výrobe sa objednávka prác týka rôznych prác, ktoré je potrebné vykonať pri výrobe niektorých hotových výrobkov. Nech sa pre ne použije akýkoľvek názov, tieto projekty zahŕňajú zdroje, plány a náklady. Funkcia riadenia a účtovníctva projektu môže pomôcť pri plánovaní, vykonávaní a analýze týchto projektov.
 
 ## <a name="project-phases"></a>Fázy projektu
 Aj keď je nasledujúci procesný proces zameraný na externé projekty alebo projekty, ktoré sú dokončené pre jedného alebo viacerých zákazníkov, funkčnosť sa týka aj interných, iba nákladových projektov. 
 
-![3 etapy projektu.](./media/3-stages-of-a-project.png) 
+![3 etapy projektu](./media/3-stages-of-a-project.png) 
 
 Ako je znázornené na predchádzajúcom obrázku, projektové riadenie a účtovníctvo možno rozdeliť do troch fáz:
 
@@ -50,7 +52,7 @@ Ako je znázornené na predchádzajúcom obrázku, projektové riadenie a účto
 3.  Analyzovať
 
 ## <a name="initiate-the-project"></a>Iniciovať projekt
-Počas iniciácie projektu nastáva niekoľko kľúčových procesov. Pomocou cenovej ponuky projektu môžete zákazníkovi oznámiť odhadovanú prácu, náklady a materiál. Fakturačné podmienky, limity a dohody môžete zaznamenať do projektovej zmluvy. Na plánovanie a odhadovanie práce môžete použiť štruktúru rozdelenia práce (WBS). Môžete nastaviť prognózy a rozpočty na pomoc pri realizácii projektu. Nasledujúca ilustrácia zobrazuje štruktúru projektu.[![štruktúra projektu.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Počas iniciácie projektu nastáva niekoľko kľúčových procesov. Pomocou cenovej ponuky projektu môžete zákazníkovi oznámiť odhadovanú prácu, náklady a materiál. Fakturačné podmienky, limity a dohody môžete zaznamenať do projektovej zmluvy. Na plánovanie a odhadovanie práce môžete použiť štruktúru rozdelenia práce (WBS). Môžete nastaviť prognózy a rozpočty na pomoc pri realizácii projektu. Nasledujúca ilustrácia zobrazuje štruktúru projektu. [![štruktúra projektu](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Vytvorenie projektových cenových ponúk
 
@@ -95,19 +97,19 @@ V aplikácii Finance môžete vytvoriť šesť typov projektov. Každý typ proj
   </tr>
   <tr>
     <td>Investície</td>
-    <td>Investičné projekty sú projekty, ktoré neprinášajú okamžité príjmy. Spravidla sa používajú na dlhodobé interné projekty, kde musia byť náklady kapitalizované. Pre investičný projekt je možné zaznamenať iba náklady na položky, hodiny a výdavky. Náklady v investičnom projekte sa sledujú a kontrolujú pomocou funkcie odhadu. Investičné projekty je možné zostaviť s voliteľnou maximálnou kapitalizáciou. Ako investičný projekt postupuje, zaznamenávate jeho náklady na účty WIP, kde sa náklady uchovávajú, kým sa projekt nedokončí. Po vylúčení projektu prevediete hodnotu WIP na fixné aktívum, účet hlavnej knihy alebo nový projekt. <br></br> <strong>POZNÁMKA:</strong> Transakcie s investičnými projektmi nie sú zobrazené na stránke <strong>Náklady na príspevok<strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
+    <td>Investičné projekty sú projekty, ktoré neprinášajú okamžité príjmy. Spravidla sa používajú na dlhodobé interné projekty, kde musia byť náklady kapitalizované. Pre investičný projekt je možné zaznamenať iba náklady na položky, hodiny a výdavky. Náklady v investičnom projekte sa sledujú a kontrolujú pomocou funkcie odhadu. Investičné projekty je možné zostaviť s voliteľnou maximálnou kapitalizáciou. Ako investičný projekt postupuje, zaznamenávate jeho náklady na účty WIP, kde sa náklady uchovávajú, kým sa projekt nedokončí. Po vylúčení projektu prevediete hodnotu WIP na fixné aktívum, účet hlavnej knihy alebo nový projekt. <br></br> <strong>POZNÁMKA:</strong>Transakcie s investičnými projektmi nie sú zobrazené na stránke <strong>Náklady na príspevok<strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
   </tr>
   <tr>
     <td>Nákladový projekt</td>
-    <td>Rovnako ako investičné projekty, aj nákladové projekty sa zvyčajne používajú na sledovanie interných projektov a je možné za ne zaznamenávať iba hodiny, výdavky a položky. Náklady na projekty sú však zvyčajne kratšie ako investičné projekty. Na rozdiel od investičných projektov navyše nemožno nákladové projekty kapitalizovať do súvahových účtov. Namiesto toho sa ich projektové transakcie účtujú iba na účty ziskov a strát. <br></br> <strong>POZNÁMKA:</strong> Transakcie s projektové náklady nie sú zobrazené na stránke <strong>Náklady na príspevok</strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>. Pretože nákladové projekty sa zvyčajne používajú na sledovanie interných projektov, zvyčajne sa nemusia spájať so zákazníckym účtom. Ak však vaše nastavenie vyžaduje, aby sa pre objednávky vytvorili požiadavky na položky, musíte projekt nákladov spojiť so zákazníkom. Toto priradenie je povinné, pretože požiadavky na položky sa spravujú ako riadky zákazky odberateľa a systém vyžaduje, aby bol uvedený zákazník. Toto nastavenie však nespôsobí automatické vytváranie požiadaviek na položky z objednávky. Pri nákladových projektoch je nastavenie <strong>Vytvorte požiadavku na položku</strong> ignorované. Ak potrebujete požiadavku na položku v projekte nákladov, môžete ju vytvoriť manuálne za predpokladu, že k projektu je priradený zákazník.</td>
+    <td>Rovnako ako investičné projekty, aj nákladové projekty sa zvyčajne používajú na sledovanie interných projektov a je možné za ne zaznamenávať iba hodiny, výdavky a položky. Náklady na projekty sú však zvyčajne kratšie ako investičné projekty. Na rozdiel od investičných projektov navyše nemožno nákladové projekty kapitalizovať do súvahových účtov. Namiesto toho sa ich projektové transakcie účtujú iba na účty ziskov a strát. <br></br> <strong>POZNÁMKA:</strong>Transakcie s projektové náklady nie sú zobrazené na stránke <strong>Náklady na príspevok</strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>. Pretože nákladové projekty sa zvyčajne používajú na sledovanie interných projektov, zvyčajne sa nemusia spájať so zákazníckym účtom. Ak však vaše nastavenie vyžaduje, aby sa pre objednávky vytvorili požiadavky na položky, musíte projekt nákladov spojiť so zákazníkom. Toto priradenie je povinné, pretože požiadavky na položky sa spravujú ako riadky zákazky odberateľa a systém vyžaduje, aby bol uvedený zákazník. Toto nastavenie však nespôsobí automatické vytváranie požiadaviek na položky z objednávky. Pri nákladových projektoch je nastavenie <strong>Vytvorte požiadavku na položku</strong> ignorované. Ak potrebujete požiadavku na položku v projekte nákladov, môžete ju vytvoriť manuálne za predpokladu, že k projektu je priradený zákazník.</td>
   </tr>
   <tr>
     <td>Interná</td>
-    <td>Interné projekty sa používajú na sledovanie nákladov na projekt, ktorý je interný vo vašej organizácii. Interné projekty môžu poskytnúť plánovací nástroj na riadenie spotreby zdrojov. <br></br><strong>POZNÁMKA:<strong> Transakcie na interných projektoch nie sú zobrazené na stránke <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
+    <td>Interné projekty sa používajú na sledovanie nákladov na projekt, ktorý je interný vo vašej organizácii. Interné projekty môžu poskytnúť plánovací nástroj na riadenie spotreby zdrojov. <br></br><strong>POZNÁMKA:<strong>Transakcie na interných projektoch nie sú zobrazené na stránke <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
   </tr>
   <tr>
     <td>Time</td>
-    <td>Časové projekty sa používajú na sledovanie času, ktorý súvisí s bezplatnými a neproduktívnymi činnosťami, ako je napríklad projekt na sledovanie práceneschopnosti pracovníkov. Projekty transakcií v čase sa neúčtujú do hlavnej knihy. Namiesto toho sú zahrnuté v správach o využití pracovníkov. V časových projektoch je možné zaznamenať iba hodinové transakcie. Na registráciu týchto hodín do projektu použijete hodinový denník alebo časový rozvrh. Po zaregistrovaní hodín sa zobrazia ako projektové transakcie, ale neobsahujú zodpovedajúce transakcie s poukážkami. <br></br><strong>POZNÁMKA:</strong> Transakcie projektového času nie sú zobrazené na stránke <strong>Náklady na príspevok</strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
+    <td>Časové projekty sa používajú na sledovanie času, ktorý súvisí s bezplatnými a neproduktívnymi činnosťami, ako je napríklad projekt na sledovanie práceneschopnosti pracovníkov. Projekty transakcií v čase sa neúčtujú do hlavnej knihy. Namiesto toho sú zahrnuté v správach o využití pracovníkov. V časových projektoch je možné zaznamenať iba hodinové transakcie. Na registráciu týchto hodín do projektu použijete hodinový denník alebo časový rozvrh. Po zaregistrovaní hodín sa zobrazia ako projektové transakcie, ale neobsahujú zodpovedajúce transakcie s poukážkami. <br></br><strong>POZNÁMKA:</strong>Transakcie projektového času nie sú zobrazené na stránke <strong>Náklady na príspevok</strong>, <strong>Zvýšený príjem</strong> alebo <strong>Vytvoriť návrhy faktúr</strong>.</td>
   </tr>
 </table>
 
@@ -203,7 +205,7 @@ Môžete si objednať položky z inventára spoločnosti na spotrebu v projekte.
 
 Spôsob objednávania položiek závisí od toho, odkiaľ ich objednávate:
 
--   Ak chcete objednať položky z inventára spoločnosti, musíte objednávku zadať ako požiadavku na položku. Ak používate stránku **Požiadavky na položku**, môžete nastaviť požiadavku tak, aby ste dostávali položky ako čiastočné dodávky. Preto môžete odložiť spotrebu určitého množstva položiek, kým sa položky nevyžadujú.
+-   Ak chcete objednať položky z inventára spoločnosti, musíte objednávku zadať ako požiadavku na položku. Ak používate stránku **Požiadavky na položku**, môžete nastaviť požiadavku tak, aby ste dostávali položky ako čiastočné dodávky. Preto môžete odložiť spotrebu určitého množstva položiek, kým sa položky nevyžadujú.
 -   Ak chcete objednať položky od externého dodávateľa, musíte vytvoriť objednávku ako nákupnú objednávku na stránke **Nákupná objednávka**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ Typ projektu určuje, ktorý fakturačný postup by sa mal použiť. Fakturovať
 Pred vytvorením zákazníckej faktúry pre projekt môžete vytvoriť predbežnú faktúru alebo návrh faktúry. V návrhu faktúry môžete vybrať transakcie projektu, ktoré sa majú zahrnúť do faktúry projektu. Potom môžete skontrolovať fakturačné údaje predtým, ako zaúčtujete projektovú faktúru a pošlete ju zákazníkovi alebo inému zdroju financovania. 
 
 
-Ďalšie informácie o spracovaní projektových faktúr nájdete v časti [Fakturácia projektu](/dynamics365/finance/accounts-payable/project-invoicing).
+Ďalšie informácie o spracovaní projektových faktúr nájdete v časti [Fakturácia projektu](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Vypočítajte náklady na dokončenie projektu
@@ -298,7 +300,7 @@ Na základe vášho nastavenia môžete predpovedať príjmy peňazí pre vybran
 -   **Dátum projektu:** 5. marca 2012.
 -   **Dátum vystavenia faktúry:** 31.03. 2012. Tento dátum sa určuje na základe frekvencie faktúr. V tomto príklade nastavíte frekvenciu fakturácie na aktuálny mesiac. Preto sú všetky transakcie, ktoré sú zaúčtované v mesiaci marec, fakturované v posledný deň mesiaca.
 -   **Dátum splatnosti:** 14. apríla 2012. Tento dátum je určený na základe platobných podmienok, ktoré boli stanovené pre projekt. V tomto príklade ste vybrali platobné podmienky 14 dní. Preto sa k dátumu faktúry pripočítava 14 dní, aby sa dosiahol dátum splatnosti 14. apríla 2012.
--   **Očakávaný dátum platby predaja:** 27.04.2012. Tento dátum sa počíta pripočítaním počtu dní v poli **Všeobecné nárazníkové dni** na stránke **Parametre projektového riadenia a účtovníctva** na počet dní v poli **Jednotlivé dni nárazníka** na stránke **Zmluvy o projekte** a potom pripočítaním celkového počtu k počtu dní v poli **Dátum splatnosti**. Pre tento príklad ste zadali **3** v poli **Všeobecné nárazníkové dni** a **10** v poli **Jednotlivé dni nárazníka**. Preto sa k splatnosti pripočítava 13 dní, aby sa dosiahol očakávaný dátum platby pri predaji k 27. 4. 2012.
+-   **Očakávaný dátum platby predaja:** 27.04.2012. Tento dátum sa počíta pripočítaním počtu dní v poli **Všeobecné nárazníkové dni** na stránke **Parametre projektového riadenia a účtovníctva**  na počet dní v poli **Jednotlivé dni nárazníka** na stránke **Zmluvy o projekte** a potom pripočítaním celkového počtu k počtu dní v poli **Dátum splatnosti**. Pre tento príklad ste zadali **3** v poli **Všeobecné nárazníkové dni** a **10** v poli **Jednotlivé dni nárazníka**. Preto sa k splatnosti pripočítava 13 dní, aby sa dosiahol očakávaný dátum platby pri predaji k 27. 4. 2012.
 
 Všeobecné dni rezervy môžu buď nahradiť jednotlivé dni rezervy, alebo sa môžu pridať k jednotlivým dňom rezervy:
 
@@ -438,6 +440,3 @@ Po výpočte výpisu si môžete na rôznych kartách na serveri pozrieť nasled
 -   **Spotreba** – Informácie o spotrebe hodín, položiek, výdavkov a mzdových transakciách.
 -   **Faktúra** – Informácie o faktúrach a fakturácii na účet.
 -   **Hodinová sadzba** – Hodinové sadzby za hodiny, ktoré sa účtujú na účtoch výnosov a nákladov.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

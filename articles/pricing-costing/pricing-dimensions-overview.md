@@ -2,18 +2,19 @@
 title: Prehľad cenových dimenzií
 description: Táto téma poskytuje informácie o cenových dimenziách v Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001990"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650229"
 ---
 # <a name="pricing-dimensions-overview"></a>Prehľad cenových dimenzií
 
@@ -33,7 +34,7 @@ Z tohto dôvodu existujú dva typy hodnôt cenovej dimenzie:
 
 Dynamics 365 Project Operations sa dodáva s predvolenou množinou cenových dimenzií. Tieto cenové dimenzie môžete zobraziť tak, že prejdete do **Project Operations** > **Parametre**. V zázname parametra, karta **cenové dimenzie založené na čiastke**, overuje, že role, **msdyn_resourcecategory** a zdrojová organizačná jednotka, **msdyn_organizationalunit** majú polia **Vzťahujúce sa na predaj** a **vzťahujúce sa na náklad** nastavené na **Áno**. Po povolení týchto polí môžete nastavovať cenu a náklady pre kombináciu každej roly a organizačnej jednotky.
 
-![Snímka obrazovky z parametrov Project Service so zvýrazneným „Vzťahuje sa na predaj“.](media/PS-OOB-parameters.png)
+![Screenshot z parametrov Project Service so zvýrazneným "použiteľné pre predaj"](media/PS-OOB-parameters.png)
 
 Ak potrebujete ceny alebo náklady na svoje zdroje pomocou ďalších atribútov, môžete vytvoriť prispôsobené polia, entity a dimenzie. Ďalšie informácie nájdete v nasledujúcej téme. 
   
@@ -58,18 +59,15 @@ Nasledujúci príklad zobrazuje fakturačné sadzby, ktoré sú nastavené na z�
 
 **Vzorka fakturačných sadzieb**
 
-| Rola        | Organizačná jednotka    |Jednotka      |Cena      |Mena  |
+| Rola        | Org jednotka    |Jednotka      |Cena      |Mena  |
 | ------------|-------------|----------|----------:|----------|
-| Vývojár   | Contoso – USA  |Hodina | 200|USD     |
-| Vývojár   | Contoso India |Hodina|   112|USD     |
+| Vývojár   | Contoso US  |Hour | 200|USD     |
+| Vývojár   | Blaho India |Hour|   112|USD     |
 
 
 **Vzorka nákladových sadzieb**
 
-| Platové pásmo     | Organizačná jednotka    |Jednotka      |Cena      |Mena  |
+| Platové pásmo     | Org jednotka    |Jednotka      |Cena      |Mena  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje company_Band1 | Contoso – USA  |Hodina | 145|USD     |
-| Moje company_Band2 | Contoso India |Hodina|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Moje company_Band1 | Contoso US  |Hour | 145|USD     |
+| Moje company_Band2 | Blaho India |Hour|   67|USD     |

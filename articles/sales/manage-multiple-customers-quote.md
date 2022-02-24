@@ -2,16 +2,18 @@
 title: Správa viacerých zákazníkov v projektovej cenovej ponuke
 description: Táto téma poskytuje informácie o práci na cenových ponukách, ktoré sa týkajú viacerých zákazníkov, ktorí budú financovať projekt.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992000"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4182011"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Správa viacerých zákazníkov v projektovej cenovej ponuke
 
@@ -21,7 +23,7 @@ Cenové ponuky projektu podporujú scenár, keď návrh zahŕňa viacerých zák
 
 Všetky cenové ponuky zákazníkov na karte **Zákazníci** cenovej ponuky projektu budú predvolené ako riadok cenovej ponuky zákazníkov na všetkých **nových** riadkoch cenovej ponuky založenej na projekte vytvorených pre cenovú ponuku. Žiadne existujúce riadky cenových ponúk založené na projekte nebudú dediť nové zákaznícke záznamy cenových ponúk vytvorené po nich.
 
-Zákazníci cenových ponúk a zákazníci riadkov cenových ponúk môžu byť pridaní, aktualizovaní alebo vymazaní kedykoľvek pred získaním cenovej ponuky. Platný zákazník v cenovej ponuke musí byť nastavený ako zákazník vo vlastniacej spoločnosti alebo právnickej entite na stránke **Zákazníci**. Právnické osoby sú zriadené v module **Projektové riadenie a účtovníctvo** aplikácie Dynamics 365 Project Operations a sú sprístupnené ako poločnosti v moduloch **Projektový predaj a dodanie** aplikácie Project Operations.
+Zákazníci cenových ponúk a zákazníci riadkov cenových ponúk môžu byť pridaní, aktualizovaní alebo vymazaní kedykoľvek pred získaním cenovej ponuky. Platný zákazník v cenovej ponuke musí byť nastavený ako zákazník vo vlastniacej spoločnosti alebo právnickej entite na stránke **Zákazníci**. Právnické entity sú zriadené v module **Projektové riadenie a účtovníctvo** v Dynamics 365 Project Operations a sú sprístupnené ako spoločnosti v moduloch **Predaj a dodanie projektu** v Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Koncept primárneho zákazníka
 
@@ -49,6 +51,3 @@ Zákazník cenovej ponuky môže byť vytvorený, aktualizovaný alebo vymazaný
 Percentuálne podiely rozdelenia fakturácie môžete upraviť pomocou prostredia na úpravy v mriežke. Ak percentá rozdelenia fakturácie nedosiahnu 100 %, dôjde k chybe. Po aktualizácii percentuálnych podielov rozdelenia fakturácie chybu obnovte obnovením stránky.
 
 Môžete tiež skúsiť vybrať **Rovnomerne distribuovať** na vedľajšej mriežke zákazníkov cenovej ponuky. Táto akcia prideľuje rozdelenie fakturácie všetkým zákazníkom cenových ponúk. Ak existuje nejaký faktor zaokrúhľovania, pridá sa k zákazníkovi zaokrúhľovania. Jeden zo zákazníkov cenovej ponuky je vždy označený ako zákazník zaokrúhľovania. to znamená, že záznam zákazníka cenovej ponuky má nastavený príznak **Zaokrúhľovanie** na **Áno**. Spravidla ide o primárneho zákazníka cenovej ponuky, ale túto voľbu je možné zmeniť.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

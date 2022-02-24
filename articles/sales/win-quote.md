@@ -2,22 +2,24 @@
 title: Uzavretie cenovej ponuky
 description: Táto téma poskytuje informácie o uzatváraní cenových ponúk v Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993440"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124702"
 ---
 # <a name="close-a-quote"></a>Uzavretie cenovej ponuky
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Cenovú ponuku projektu je možné uzavrieť ako Získaná alebo Nevyužitá. Keďže funkcie Aktivovať a Upraviť pre cenové ponuky nie sú v aplikácii Microsoft Dynamics 365 Project Operations podporované, môžete koncept cenovej ponuky zatvoriť.
+Cenovú ponuku projektu je možné uzavrieť ako Získaná alebo Nevyužitá. Keďže funkcie Aktivovať a Skontrolovať nie sú v Microsoft Dynamics 365 Project Operations podporované pre cenové ponuky, môžete uzavrieť koncept cenovej ponuky.
 
 ## <a name="close-a-quote-as-won"></a>Uzavretie cenovej ponuky ako Získaná
 
@@ -41,6 +43,3 @@ Ak je v cenovej ponuke projektu, ktorá je uzavretá ako Nezískaná, uvedený p
 
 > [!NOTE]
 > V rámci Project Operations uzavretie ponuky ako Získaná or Nevyužitá nebude mať vplyv na tento stav príležitosti, ktorá zostane otvorená, kým sa manuálne neuzavrie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

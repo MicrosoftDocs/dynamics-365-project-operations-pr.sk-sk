@@ -2,9 +2,11 @@
 title: Nastavenie vlastných polí ako cenových dimenzií
 description: Táto téma poskytuje informácie o tom, ako nastaviť cenové dimenzie pomocou vlastných polí.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003610"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650247"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavenie vlastných polí ako cenových dimenzií
 
@@ -42,11 +44,11 @@ Aby sa pole stalo cenovou dimenziou, musí byť:
 
 - Vytvorená ako riadok v tabuľke **Cenová dimenzia**. Pridajte napríklad riadky dimenzie ocenenia, ako je uvedené v nasledujúcom obrázku. 
 
-![Riadky cenovej dimenzie na základe sumy.](media/Amt-based-PD.png)
+![Riadky čiastkovo založenej dimenzie oceňovania](media/Amt-based-PD.png)
 
 Pracovné hodiny zdroja (**msdyn_resourceworkhours**) sú pridané ako dimenzie založené na prirážke a boli pridané do mriežky na karte **Cenová dimenzia založená na prirážke**.
 
-![Riadky cenovej dimenzie na základe prirážky.](media/Markup-based-PD.png)
+![Riadky dimenzie ceny na základe zrážky](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -75,10 +77,10 @@ Existujú dva typy cien dimenzií:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|U zákazníka            |                    |Nadčas                 |15     |
 |             | Contoso India|Lokálny             |                    |Nadčas                 |10     |
-|             | Contoso – USA   |Lokálny             |                    |Nadčas                 |20     |
+|             | Contoso US   |Lokálny             |                    |Nadčas                 |20     |
 
 
-Ak zdroj z Contoso India, ktorého základná sadzba je 100 USD, pracuje u zákazníka a vykáže 8 hodín bežnej pracovnej doby a 2 hodiny nadčasov v zadaní času, systém ceny využije základnú sadzbu 100 pre nasledujúcich 8 hodín, čím sa dosiahne 800 USD. Pre 2 hodiny nadčas, bude prirážka 15 % použitá na základnú sadzbu 100 na získanie jednotkovej ceny 115 USD a zaznamená celkové náklady na 230 USD.
+Ak zdroj z Contoso India, ktorého základná sadzba je 100 USD, pracuje u zákazníka a vykáže 8 hodín bežnej pracovnej doby a 2 hodiny nadčasov v zadaní času, systém cenotvorby využije základnú sadzbu 100 pre nasledujúcich 8 hodín, čím sa dosiahne 800 USD. Pre 2 hodiny nadčas, bude prirážka 15 % použitá na základnú sadzbu 100 na získanie jednotkovej ceny 115 USD a zaznamená celkové náklady na 230 USD.
 
 ### <a name="applicable-to-cost"></a>Vzťahuje sa na náklady 
 Ak je nastavená na hodnotu **Áno**, znamená to, že hodnota dimenzie z kontextu vstupu by sa mala použiť na zhodu s poľami **Cena roly** a **Prirážka k cene roly** pri načítavaní sadzieb nákladov a prirážky.
@@ -94,6 +96,3 @@ Nastavenie priority dimenzie pomáha pri stanovení ceny, aj keď nedokáže ná
 
 - **Priorita nákladov**: Hodnota dimenzie nákladov na dimenziu bude znamenať hmotnosť tohto rozmeru pri párovaní s nastavením cien nákladov. Hodnota **Priorita nákladov** musí byť jedinečná naprieč dimenziami, ktoré sa **vzťahujú na náklady**.
 - **Priorita predaja**: Hodnota dimenzie predaja na dimenziu bude znamenať hmotnosť tohto rozmeru pri párovaní s nastavením cien predajov alebo sadzieb fakturácie. Hodnota **Priorita predaja** musí byť jedinečná naprieč dimenziami, ktoré sa **Vzťahuje sa na predaj**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

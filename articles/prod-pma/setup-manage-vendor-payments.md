@@ -2,9 +2,11 @@
 title: Nastavenie a použitie platieb typu „zaplatiť po zaplatení“ pre dodávateľov
 description: Táto téma vysvetľuje, ako vytvoriť podmienky PWP (pay-when-paid), aby ste mohli uvoľniť čiastočné platby dodávateľa na základe platieb zákazníka.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008875"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084343"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Nastavenie a použitie platieb typu „zaplatiť po zaplatení“ pre dodávateľov
 
@@ -78,6 +80,3 @@ Keď dodávateľ dokončí svoju prácu na projekte a pošle vám faktúru, mus�
 2. Na stránke **Faktúra dodávateľa s platbou, keď je zaplatená** do vyhľadávacieho poľa zadajte hodnoty, aby ste našli faktúru dodávateľa, ktorú chcete skontrolovať, a potom stlačte **Vyhľadať**.
 3. Na karte FastTab **Riadky faktúr dodávateľa** vyberte riadky, ktoré chcete zmeniť.
 4. Ak sú splnené podmienky **Zaplatiť po zaplatení** pre riadok faktúry, stlačte možnosť **Uvoľnite platbu dodávateľa**. Možnosť **Zaplatiť po zaplatení** sa zruší a hodnota poľa **Pripravené na platbu** sa zmení na **Áno**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Kopírovanie cenových ponúk založených na projekte
 description: Táto téma poskytuje informácie o tom, ako kopírovať cenové ponuky založené na projekte v Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992180"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181831"
 ---
 # <a name="copy-project-based-quotes"></a>Kopírovanie cenových ponúk založených na projekte
 
@@ -43,6 +45,3 @@ Keď vyberiete **OK** na dialógovej stránke, systém vytvorí kópiu ponuky pr
 > - Odkaz na projekt v riadkoch založených na cenovej ponuke založených na projekte – Informácie o rozpočte zákazníka
 >
 >Pretože sú tieto informácie veľmi špecifické pre každú cenovú ponuku, tieto polia a záznamy sa nekopírujú. Skopírujú sa riadky cenovej ponuky pre projekty a produkty, odhady podrobností ponuky a hodnoty neprekročenia na úrovni ponuky. Predvolené ceny a sadzby nákladov závisia od možnosti **Kopírovať ceny** vybranej na dialógovej stránke **Kopírovať parametre**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,19 +1,21 @@
 ---
-title: Správa backlogu pre fakturáciu projektu
-description: Táto téma poskytuje informácie o rôznych zobrazeniach, ktoré je možné použiť pri správe backlogu pre fakturáciu na projektoch.
+title: Správa backlogu pre fakturáciu – čiastočné
+description: Táto téma poskytuje informácie o rôznych zobrazeniach, ktoré je možné použiť pri správe backlogu pre fakturáciu.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988310"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176990"
 ---
-# <a name="manage-project-billing-backlog"></a>Správa backlogu pre fakturáciu projektu 
+# <a name="manage-the-billing-backlog---lite"></a>Správa backlogu pre fakturáciu – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -58,6 +60,3 @@ Nevyfakturované skutočné predaje so stavom **Nesmie sa prekročiť** ako **Ne
 Ak riadky zmluvy pre viacerých zákazníkov majú časovú a materiálovú metódu fakturácie, po schválení času a výdavkov sa vytvorí jeden nefakturovaný skutočný predaj pre každého zákazníka na riadku zmluvy podľa percentuálneho podielu fakturácie definovaného pre každého zo zákazníkov. V zobrazení **Backlog pre fakturáciu času a materiálu** uvidíte tieto jednotlivé nefakturované skutočné predaje špecifické pre zákazníkov. Každý z týchto záznamov nevyfakturovaných predajných skutočných hodnôt možno označiť ako **Pripravené na fakturáciu** osobitne od tohto zobrazenia.
 
 Skutočný nefakturovaný predaj, ktorý je na koncepte faktúry, je v tomto zobrazení zobrazený so stavom fakturácie **Bola vytvorená faktúra pre zákazníka**. Po potvrdení konceptu faktúry sa stav fakturácie v tomto zázname aktualizuje na **Bola uverejnená faktúra pre zákazníka**. Neaktualizujte túto hodnotu stavu pomocou vlastného kódu. Aplikácia Project Operations nefunguje správne, keď sa tieto hodnoty stavu aktualizujú pomocou vlastného kódu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

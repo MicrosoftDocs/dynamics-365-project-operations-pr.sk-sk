@@ -2,61 +2,39 @@
 title: Správa backlogu pre fakturáciu
 description: Táto téma poskytuje informácie o tom, ako zobraziť a pracovať s backlogom pre fakturáciu v Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991100"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122362"
 ---
-# <a name="manage-billing-backlog"></a>Správa backlogu pre fakturáciu
+# <a name="manage-the-billing-backlog"></a>Správa backlogu pre fakturáciu
 
-**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
+_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Dynamics 365 Project Operations má vyhradené zobrazenia, ktoré pomáhajú spravovať backlog pre fakturáciu. Ak chcete spravovať backlog pre fakturáciu, vyberte odkazy v časti **Fakturácia** v rámci oblasti **Predaj**. 
-
-Dostupné sú nasledujúce zobrazenia:
-
-- Preddavky a zálohy
-- Dostupné preddavky a zálohy
-- Medzníky pevných cien
-- Backlog pre fakturáciu času a materiálu
-
-## <a name="retainers-and-advances"></a>Preddavky a zálohy
-
-Zobrazenie **Preddavky a zálohy** obsahuje zoznam preddavkov a záloh vo všetkých zmluvách o projekte. Po zaúčtovaní preddavku alebo zálohy bude suma zálohy k dispozícii na použitie.
-
-## <a name="available-retainers-and-advances"></a>Dostupné preddavky a zálohy
-
-Zobrazenie **Dostupné preddavky a zálohy** obsahuje zoznam všetkých dostupných preddavkov a záloh vo všetkých zmluvách o projekte. Po zaúčtovaní preddavku alebo zálohy bude suma zálohy k dispozícii na použitie a pridá sa do zoznamu. Keď sa množstvo použitých preddavkov alebo záloh úplne vyčerpá, odstráni sa zo zoznamu.
+Dynamics 365 Project Operations má dva vyhradené zobrazenia, ktoré vám pomôžu pracovať s backlogom pre fakturáciu a jeho správou. K dispozícii sú možnosti **Medzníky pevnej ceny** a **Backlog pre fakturáciu podľa času a materiálu**. Ak chcete zvoliť zobrazenie, v oblasti **Predaj** aplikácie Project Operations, na ľavej navigačnej stránke, zvoľte **Fakturácia**. Sú tu uložené odkazy na backlogy pre fakturáciu.
 
 ## <a name="fixed-price-milestones"></a>Medzníky pevných cien
 
-Zobrazenie **Medzníky pevných cien** obsahuje zoznam všetkých medzníkov pevných cien vo všetkých riadkoch zmlúv o projekte. Z tohto zobrazenia je možné označiť jeden alebo viac medzníkov ako **Pripravené na fakturáciu** alebo **Nepripravené na fakturáciu**. Označenie medzníka ako **Pripravené na fakturáciu** ho sprístupní na zaradenie na koncept faktúry.
+Toto zobrazenie zobrazuje všetky medzníky pevných cien vo všetkých riadkoch projektových zmlúv v systéme. V tomto zobrazení možno označiť jeden alebo viac medzníkov ako **Pripravené na fakturáciu** alebo **Nepripravené na fakturáciu**. Keď označíte medzník ako **Pripravené na fakturáciu**, medzník bude k dispozícii pre koncept faktúry.
 
-Keď majú riadky zmluvy pre viacerých zákazníkov metódu fakturácie s pevnou cenou, vytvorí sa medzník pre každého zákazníka na riadku zmluvy. Medzník je možné vytvoriť a potom rozdeliť na jednotlivé záznamy medzníkov špecifické pre zákazníkov. Toto rozdelenie je interné a v súlade s rozdelením fakturačných percentuálnych podielov definovaných pre každého zákazníka na riadku zmluvy. V zobrazení **Medzníky pevných cien** uvidíte jednotlivé záznamy medzníkov špecifické pre zákazníkov. Každý z týchto medzníkových záznamov možno označiť ako **Pripravené na fakturáciu** osobitne od tohto zobrazenia. Keď je jeden alebo viac súvisiacich medzníkov označí ako **Pripravené na faktúru**, stav hlavičky sa aktualizuje na **Prebieha** z **Nezačaté**. Keď sú fakturované všetky medzníky, stav hlavičky medzníka sa aktualizuje na **Dokončené**.
+Keď majú riadky zmluvy pre viacerých zákazníkov metódu fakturácie s pevnou cenou, vytvorí sa pre každého zákazníka v riadku zmluvy jeden medzník. Používateľ vytvorí medzník a tento medzník sa interne rozdelí na záznamy o zákazníkoch = špecifické medzníky podľa rozdelenia fakturačného percenta definovaného pre každého zákazníka v riadku zmluvy. V zobrazení **Medzníky s pevnou cenou** môžete vidieť jednotlivé medzníkové záznamy špecifické pre zákazníka. Každý z týchto medzníkových záznamov možno označiť ako **Pripravené na fakturáciu** osobitne od tohto zobrazenia. Keď je jeden alebo viac súvisiacich rozdelených medzníkov označených ako **Pripravené na fakturáciu**, stav v hlavičke sa zmení na **Prebieha** z **Nezačaté**. Po vyfakturovaní všetkých rozdelení medzníkov, stav v hlavičke medzníka sa zmení na **Dokončené**.
 
-Medzník v koncepte faktúry sa zobrazuje v tomto zobrazení so stavom fakturácie **Bola vytvorená faktúra pre zákazníka**. Po potvrdení konceptu faktúry sa stav fakturácie v zázname aktualizuje na **Bola uverejnená faktúra pre zákazníka**. 
-
-> [!NOTE] 
-> Neaktualizujte túto hodnotu stavu pomocou vlastného kódu. Aplikácia Project Operations nefunguje správne, keď sa tieto hodnoty stavu aktualizujú pomocou vlastného kódu.
+Medzník v koncepte faktúry sa zobrazuje v tomto zobrazení so stavom fakturácie **Bola vytvorená faktúra pre zákazníka**. Po potvrdení konceptu faktúry sa stav fakturácie v tomto zázname aktualizuje na **Bola uverejnená faktúra**. Aktualizácia tejto hodnoty stavu pomocou vlastného kódu sa neodporúča. Ak sa tieto hodnoty stavu aktualizujú pomocou vlastného kódu, aplikácia Project Operations nebude fungovať správne.
 
 ## <a name="time-and-material-billing-backlog"></a>Backlog pre fakturáciu času a materiálu
 
-Zobrazenie **Backlog pre fakturáciu času a materiálu** obsahuje zoznam všetkých nevyfakturovaných skutočných predajov vo všetkých projektových zmluvách v systéme, ktoré neboli fakturované. V tomto zobrazení možno označiť jeden alebo viacero nevyfakturovaných predajných skutočných hodnôt ako **Pripravené na fakturáciu** alebo **Nepripravené na fakturáciu**. Označenie nevyfakturovanej predajnej skutočnej hodnoty ako **Pripravené na fakturáciu** ju sprístupní na vloženie do konceptu faktúry.
+Toto zobrazenie obsahuje zoznam všetkých nevyfakturovaných predajných skutočných hodnôt, ktoré neboli vyfakturované vo všetkých projektových zmluvách v systéme. V tomto zobrazení možno označiť jeden alebo viacero nevyfakturovaných predajných skutočných hodnôt ako **Pripravené na fakturáciu** alebo **Nepripravené na fakturáciu**. Označenie nevyfakturovanej predajnej skutočnej hodnoty ako **Pripravené na fakturáciu** ju sprístupní na vloženie do konceptu faktúry.
 
-Nevyfakturované skutočné predaje so stavom **Nesmie sa prekročiť** ako **Neúspešné** nemožno označiť ako **Pripravené na fakturáciu**. Ak je potrebné skutočné hodnoty označiť ako **Pripravené na fakturáciu**, resetujte stav ďalších skutočných hodnôt na riadku zmluvy, ktoré sú potvrdené, a potom prehodnoťte stav **Nesmie sa prekročiť**.
+Nevyfakturované predajné skutočné hodnoty, ktoré majú stav **Nesmie sa prekročiť** nastavený na **Neúspešné** nemožno označiť ako **Pripravené na fakturáciu**. Ak je potrebné tieto skutočné hodnoty ako také označiť, vynulujte stav ostatných skutočných hodnôt v riadku zmluvy, ktoré sú potvrdené, a potom vyhodnoťte stav **Nesmie sa prekročiť**.
 
-Ak riadky zmluvy pre viacerých zákazníkov majú časovú a materiálovú metódu fakturácie, po schválení času a výdavkov sa vytvorí jeden nefakturovaný skutočný predaj pre každého zákazníka na riadku zmluvy podľa percentuálneho podielu fakturácie definovaného pre každého zo zákazníkov. V zobrazení **Backlog pre fakturáciu času a materiálu** uvidíte tieto jednotlivé nefakturované skutočné predaje špecifické pre zákazníkov. Každý z týchto záznamov nevyfakturovaných predajných skutočných hodnôt možno označiť ako **Pripravené na fakturáciu** osobitne od tohto zobrazenia.
+V prípade riadkov zmluvy pre viacerých zákazníkov, ktoré majú metódu fakturácie času a materiálu, sa po schválení času a výdavkov vytvorí nevyfakturovaná predajná skutočná hodnota pre každého zákazníka v riadku zmluvy podľa percentuálneho rozdelenia fakturácie definovaného pre každého zákazníka v riadku zmluvy. V zobrazení **Backlog pre fakturáciu času a materiálu** uvidíte tieto jednotlivé nevyfakturované predajné skutočné hodnoty špecifické pre zákazníka. Každý z týchto záznamov nevyfakturovaných predajných skutočných hodnôt možno označiť ako **Pripravené na fakturáciu** osobitne od tohto zobrazenia.
 
-Skutočný fakturovaný predaj, ktorý je na koncepte faktúry, sa zobrazuje v tomto zobrazení so stavom fakturácie **Bola vytvorená faktúra pre zákazníka**. Po potvrdení konceptu faktúry sa stav fakturácie v tomto zázname aktualizuje na **Bola uverejnená faktúra pre zákazníka**. 
-
-> [!NOTE] 
-> Neaktualizujte túto hodnotu stavu pomocou vlastného kódu. Aplikácia Project Operations nefunguje správne, keď sa tieto hodnoty stavu aktualizujú pomocou vlastného kódu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Nevyfakturovaná predajná skutočná hodnota v koncepte faktúry sa zobrazuje v tomto zobrazení so **stavom fakturácie** **Bola vytvorená faktúra pre zákazníka**. Po potvrdení konceptu faktúry sa stav fakturácie v tomto zázname aktualizuje na **Bola uverejnená faktúra pre zákazníka**. Aktualizácia tejto hodnoty stavu, keď je v tomto stave, pomocou vlastného kódu sa neodporúča. Ak sa tieto hodnoty stavu aktualizujú pomocou vlastného kódu, aplikácia Project Operations nebude fungovať správne.
