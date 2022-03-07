@@ -2,18 +2,16 @@
 title: Konfigurácia parametrov správy výdavkov
 description: Táto téma popisuje parametre, ktoré riadia všeobecné správanie v správe výdavkov.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121057"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007795"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurácia parametrov správy výdavkov
 
@@ -83,3 +81,6 @@ Táto téma popisuje parametre riadiace všeobecné správanie v správe výdavk
 | Zobraziť protikorupčné osvedčenie   | Vyberte túto možnosť, ak chcete zobraziť protikorupčný text pri vytváraní výkazu výdavkov. Potom je možné povoliť konkrétne kategórie výdavkov, ktoré budú vyžadovať výber protikorupčného osvedčenia vo výkaze výdavkov. Napríklad kategória darčekov, ktorá sa týka výdavkov vládnej organizácie, môže vyžadovať, aby zamestnanec potvrdil, že výdavky zodpovedajú politike spoločnosti, ktorá sa týka úradníkov vládnej organizácie. |
 | Protikorupčná správa pre zadávateľa | Zadajte text, ktorý by sa mal zobraziť zamestnancovi, ktorý vytvára výkaz výdavkov. Ak chcete zadať text, ktorý sa zobrazí v konkrétnom jazyku, na základe jazyka používateľa, zvoľte **Preklady**. |
 | Protikorupčná správa pre schvaľovateľa  | Zadajte text, ktorý by sa mal zobraziť schvaľovateľovi pri vytvorení výkazu výdavkov. Ak chcete zadať text, ktorý sa zobrazí v konkrétnom jazyku, na základe jazyka používateľa, zvoľte **Preklady**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

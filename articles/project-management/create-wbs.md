@@ -2,18 +2,16 @@
 title: Vytvorenie štruktúry rozdelenia práce
 description: Táto téma vysvetľuje, ako vytvoriť štruktúru rozdelenia práce (WBS) vrátane základných ovládacích prvkov v novom plánovacom rozhraní.
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841400"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655436"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Vytvorenie štruktúry rozdelenia práce (WBS)
 
@@ -93,6 +91,8 @@ Nasledujúca tabuľka zobrazuje ďalšie atribúty plánu.
 | Meno | Názov úlohy. |
 | Identifikátor | ID úlohy v štruktúre rozdelenia práce. |
 
+Ako správca môžete definovať vlastné polia pre entitu úlohy. Polia sa však na mriežke rozvrhu nedajú zobraziť. Ak chcete zobraziť svoje vlastné polia, pridajte ich na stránku s podrobnosťami **Projektová úloha**.
+
 ## <a name="staffing-attributes"></a>Personálne atribúty
 
 Personálne atribúty sú prístupné prostredníctvom poľa **zdroje** v pláne. Môžete vyhľadať existujúci zdroj alebo vybrať **Vytvoriť** a na paneli **Rýchle vytvorenie** pridať člena projektového tímu ako nový zdroj.
@@ -116,3 +116,27 @@ Režim úlohy nemá žiadny vplyv na aktualizácie, ktoré sú vykonané na poč
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Klávesové skratky a zjednodušenie ovládania
 
 Mriežka **plánu** je plne prístupná a môže sa používať s čítačkami obrazovky, ako sú napríklad Narrator, JAWS alebo NVDA. Môžete prechádzať oblasti mriežky pomocou šípok (ako v Microsoft Excel), môžete použiť klávesu Tab na postúp cez interaktívne prvky používateľského rozhrania, a môžete použiť šípku nadol, klávesu Enter, alebo medzerník pre výber a otvorenie rozbaľovacích ponúk.
+
+## <a name="project-limitations"></a>Projektové obmedzenia 
+Ak používate štruktúru rozpisu práce v Project Operations, mali by ste si byť vedomí nasledujúcich obmedzení. Tieto limity platia pre projekty a úlohy. Ďalšie informácie nájdete v časti [Limity a hranice Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Pole**                                          |  **Limit**           |
+|----------------------------------------------------|----------------------|
+| Maximálny celkový počet úloh pre projekt                  | 500                  |
+| Maximálne celkové trvanie pre projekt               | 3650 dní (10 rokov) |
+| Maximálny celkový počet zdrojov pre projekt              | 150                  |
+| Maximálny celkový počet odkazov (len nasledovník) pre projekt | 600                  |
+| Maximálny celkový počet vlastných polí pre projekt          | 10                   |
+
+**Obmedzenia úloh**
+
+| **Pole**                               |   **Limit**           |
+|-----------------------------------------|-----------------------|
+| Maximálna úroveň hierarchie                 | 10 úrovní             |
+| Maximálny počet odkazov (nástupca + predchodca) | 20                    |
+| Maximálne trvanie listovej úlohy           | 1250 dní             |
+| Maximálne trvanie súhrnnej úlohy      | 3650 dní (10 rokov)  |
+| Maximálny počet zdrojov priradených k úlohe    | 20 zdrojov          |
+| Podporovaný rozsah dátumov pre úlohu         | 1/1/2000 – 12/31/2149 |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

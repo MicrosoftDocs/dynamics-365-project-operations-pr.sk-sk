@@ -2,11 +2,9 @@
 title: Vytvorenie nového projektu
 description: Táto téma poskytuje informácie o tom, ako vytvoriť nový projekt.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270742"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985970"
 ---
 # <a name="create-a-new-project"></a>Vytvorenie nového projektu
 
@@ -53,9 +51,9 @@ Podľa potreby môžete k zdroju tiež priradiť kategórie. Typ kategórie je b
 
 Projektový manažér môže pomocou funkcie financovania projektu vytvoriť roly, ktoré sú potrebné pre projekt. Roly je možné použiť, ak potvrdené zdroje nie sú pri rezervácii zdrojov stále známe. Roly je možné dočasne rezervovať ako plánované zdroje, aby ste mohli pokračovať v etapách plánovania projektu.
 
-[![Ukážka roly](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Ukážka roly.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenár:** Spoločnosť Contoso bola najatá na dokončenie projektu typu Čas a materiál, ktorý má schválené stanovy projektu. Junior projektový manažér ešte stále dokončuje rozsah projektu. Správca zdrojov v súčasnosti identifikuje konkrétne zdroje, ktoré budú vyhradené na prácu na novom projekte. Z dôvodu kritickej povahy projektu požiadal sponzor projektu jednu z rolí Senior projektového manažéra. Správca zdrojov musí získať nový zdroj a definovať rolu v systéme pre prípad, že junior projektový manažér vyžaduje informácie o zdroji počas plánovania projektu.
+**Scenár:** Contoso bolo poverené dokončím časového a materiálového projektu, ktorý má schválenú osnovu projektu. Junior projektový manažér ešte stále dokončuje rozsah projektu. Správca zdrojov v súčasnosti identifikuje konkrétne zdroje, ktoré budú vyhradené na prácu na novom projekte. Z dôvodu kritickej povahy projektu požiadal sponzor projektu jednu z rolí Senior projektového manažéra. Správca zdrojov musí získať nový zdroj a definovať rolu v systéme pre prípad, že junior projektový manažér vyžaduje informácie o zdroji počas plánovania projektu.
 
 Nasledujúce kroky ukazujú, ako môže správca zdrojov nastaviť rolu Senior projektového manažéra a priradiť k nej vlastnosti zdrojov. Neskôr sa dá rola použiť na vyhľadanie dostupných zdrojov, ktoré zodpovedajú požadovaným kompetenciám v oblasti zdrojov.
 

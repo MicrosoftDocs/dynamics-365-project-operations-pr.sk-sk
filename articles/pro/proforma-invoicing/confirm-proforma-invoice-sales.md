@@ -1,26 +1,24 @@
 ---
-title: Potvrdenie faktúry pro forma – čiastočné
-description: Táto téma poskytuje informácie o potvrdzovaní zálohových faktúr v Project Operations.
+title: Potvrdenie projektovej faktúry pro forma
+description: Táto téma poskytuje informácie o potvrdení projektových faktúr pro forma v Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 0ab40e38f221e57368949b7491578caa8ba88c02
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176540"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004145"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Potvrdenie faktúry pro forma – čiastočné
+# <a name="confirm-a-proforma-project-invoice"></a>Potvrdenie projektovej faktúry pro forma 
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 
-Po potvrdení zálohovej faktúry sa stav projektovej faktúry aktualizuje na **Potvrdená**. Po potvrdení bude faktúra iba na čítanie. Odteraz bude možné faktúru opraviť, iba ak dôjde k opravám alebo kreditom iniciovaným zákazníkom alebo ak bude faktúra označená ako zaplatená.
+Po potvrdení zálohovej faktúry sa stav projektovej faktúry aktualizuje na **Potvrdená**. Po potvrdení bude faktúra iba na čítanie. Odteraz bude možné faktúru opraviť, iba ak dôjde k opravám alebo kreditom iniciovaným zákazníkom.
 
 Nasledujúca tabuľka obsahuje zoznam skutočných hodnôt vytvorených systémom. Tieto skutočné hodnoty sa vytvoria, keď sa vykonajú určité operácie s konceptom faktúry projektu pred jej potvrdením.
 
@@ -231,6 +229,70 @@ Nová skutočná hodnota nefakturovaného predaja, ktorá je účtovateľná na 
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Fakturácia materiálovej transakcie bez akýchkoľvek úprav konceptu faktúry.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nefakturované storno predaja pre množstvo a sumu na pôvodne schválenom použití materiálu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Fakturovaná skutočná hodnota predaja pre množstvo a sumu na pôvodne schválenom použití materiálu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturácia materiálovej transakcie, ktorá bola upravená tak, aby sa znížilo množstvo.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nefakturované storno predaja pre množstvo a sumu na pôvodne schválenom čase.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nová skutočná hodnota nefakturovaného predaja, ktorá je účtovateľná na množstvo a čiastku v podrobnostiach upraveného riadka faktúry, zrušenie skutočnej hodnoty nevyfakturovaného predaja a ekvivalentná skutočná hodnota fakturovaného predaja.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nová skutočná hodnota nefakturovaného predaja, ktorá je neúčtovateľná na zostávajúce množstvo a čiastku po odpočítaní opravených hodnôt v podrobnostiach upraveného riadka faktúry, zrušenie skutočnej hodnoty nevyfakturovaného predaja a ekvivalent skutočnej hodnoty fakturovaného predaja.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturácia materiálovej transakcie, ktorá bola upravená tak, aby sa zvýšilo množstvo.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nefakturované storno predaja pre množstvo a sumu na pôvodne schválenom použití materiálu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nová skutočná hodnota nefakturovaného predaja, ktorá je účtovateľná na množstvo a čiastku v podrobnostiach upraveného riadka faktúry, zrušenie skutočnej hodnoty nevyfakturovaného predaja a ekvivalentná skutočná hodnota fakturovaného predaja.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Fakturácia poplatku.
                 </p>
             </td>
@@ -273,3 +335,6 @@ Skutočná hodnota fakturovaného predaja pre riadok produktu s množstvom a sum
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

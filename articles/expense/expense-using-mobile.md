@@ -2,11 +2,9 @@
 title: Mobilná aplikácia výdavkov
 description: Táto téma poskytuje informácie o mobilnom pracovnom priestore na spravovanie výdavkov.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,16 +13,16 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499915"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818202"
 ---
 # <a name="mobile-expense-app"></a>Mobilná aplikácia výdavkov
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Táto téma poskytuje informácie o mobilnom pracovnom priestore **Spravovanie výdavkov**. Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov. Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov. Schvaľovatelia môžu navyše používať mobilný pracovný priestor **Správa výdavkov** na prezeranie výkazy výdavkov, ktoré sú im priradené, a tieto výkazy výdavkov buď schváliť, alebo odmietnuť.
 
@@ -49,47 +47,14 @@ Môžete používať aj tieto funkcie:
 - Predložiť výkaz výdavkov na schválenie a úhradu.
 - Schváliť alebo odmietnuť výkazy výdavkov, pre ktoré ste prideleným schvaľovateľom.
 
-## <a name="prerequisites"></a>Predpoklady
-Požiadavky sa môžu líšiť v závislosti od verzie, ktorá bola nasadená vo vašej organizácii.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpoklady, ak používate Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpoklady, ak používate Dynamics 365 Finance 
 Ak bola pre vašu organizáciu nasadená služba Finance, správca systému musí zverejniť mobilný pracovný priestor **Správa výdavkov**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Nevyhnutné predpoklady, ak používate verziu 1611 s aktualizáciou platformy 3 alebo novšou
-Ak bola pre vašu organizáciu nasadená verzia 1611 s aktualizáciou platformy 3 alebo novšou, musí správca systému splniť nasledujúce nevyhnutné predpoklady. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Predpoklady</th>
-<th>Rola</th>
-<th>Popis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implementácia KB 4019015.</td>
-<td>Správca systému</td>
-<td>KB 4019015 je aktualizácia X++ alebo oprava metaúdajov, ktorá obsahuje mobilný pracovný priestor <strong>Správa výdavkov</strong>. Ak chcete implementovať KB 4019015, musí váš správca systému postupovať podľa týchto krokov.
-<ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Stiahnite si aktualizácie zo služieb Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Nainštalovať rýchlu opravu metadát</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Vytvorte balík s možnosťou nasadenia,</a> ktorý obsahuje modely <strong>ApplicationSuite</strong> a <strong>ExpenseMobile</strong>, a potom nahrajte balík s možnosťou nasadenia do LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Použiť nasaditeľný balík</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Zverejnite mobilný pracovný priestor <strong>Správa výdavkov</strong>.</td>
-<td>Správca systému</td>
-<td>Pozrite si <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Zverejnenie mobilného pracovného priestoru</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops
 Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 
-- [Pre telefóny Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Pre Android telefóny](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pre telefóny iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Prihlásenie sa do mobilnej aplikácie
@@ -105,11 +70,11 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 3. Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.
 4. Vykonajte jeden z týchto krokov:
 
-   - Ak ste vybrali **Vyfotografovať**, nasledujte tieto kroky:
+    - Ak ste vybrali **Vyfotografovať**, nasledujte tieto kroky:
 
-      1. Dostali ste sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. 
-      2. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
-      3. Voliteľné: Zadajte názov fotografie a poznámky.
+        1. Dostali ste sa k fotoaparátu svojho mobilného zariadenia, aby ste mohli účtenku odfotiť. 
+        2. Po odfotografovaní vyberte možnosť **OK** na prijatie fotografie.
+        3. Voliteľné: Zadajte názov fotografie a poznámky.
 
     - Ak ste vybrali **Vybrať obrázok**, nasledujte tieto kroky:
 
@@ -122,11 +87,11 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 
 1. Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.
 2. Vyberte **Rýchle zadanie výdavku**.
-3. Vyberte kategóriu výdavku. Zobrazí sa zoznam kategórií výdavkov, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša kategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa kategórie výdavkov alebo prepnite na vyhľadávanie podľa typu výdavkov.
+3. Vyberte kategóriu výdavku. Zobrazí sa zoznam kategórií výdavkov, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša kategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa kategórie výdavkov alebo prepnite na vyhľadávanie podľa typu výdavkov.
 4. Zadajte dátum transakcie výdavku.
 5. Voliteľné: Zadajte obchodníka výdavku.
 6. Zadajte sumu výdavku.
-7. Vyberte menu výdavku. Zobrazí sa zoznam kódov mien, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 400 mien, vývojár však môže tento počet zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša mena nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa meny alebo prepnite na vyhľadávanie podľa názvu.
+7. Vyberte menu výdavku. Zobrazí sa zoznam kódov mien, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 400 mien, vývojár však môže tento počet zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša mena nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa meny alebo prepnite na vyhľadávanie podľa názvu.
 8. Vyberte **Vyfotografovať** alebo **Vybrať obrázok**.
 9. Vykonajte jeden z týchto krokov:
 
@@ -135,20 +100,20 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 
 10. Vyberte **Hotovo**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Schválenie výkazu výdavkov pomocou mobilného pracovného priestoru Správa výdavkov (ak používate aktualizáciu z júla 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Schváľte výkaz výdavkov pomocou mobilného pracovného priestoru správy výdavkov
 
 1. Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.
 2. **Schvaľovanie výdavkov** zobrazuje počet výkazov výdavkov, ktoré sú vám pridelené na schválenie. Tento počet sa aktualizuje každých približne 30 minút. Vyberte **Schvaľovanie výdavkov**.
 
     Zobrazí sa zoznam výkazov výdavkov, ktoré sú vám pridelené na schválenie.
-    
+
 3. Vyberte výkaz výdavkov, aby ste zobrazili podrobnosti o výdavku.
 4. Vyberte výdavok, aby ste zobrazili podrobnosti o výdavku. Informácie, ktoré sa zobrazujú pri výdavku, zahŕňajú všetky podrobnosti o účtenke, hosťovi a položkách.
 5. Späť na stránke **Výkaz výdavkov** vyberte, či chcete schváliť alebo odmietnuť výkaz výdavkov.
 6. Zadajte akékoľvek komentáre k schvaľovacej akcii.
 7. Vyberte **Hotovo**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Vytvorenie nového výkazu výdavkov a jeho odoslanie na schválenie pomocou mobilného pracovného priestoru Správa výdavkov (ak používate aktualizáciu z júla 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Vytvorte nový výkaz výdavkov a odošlite ho na schválenie pomocou mobilného pracovného priestoru správy výdavkov
 
 1. Na svojom mobilnom zariadení otvorte pracovný priestor **Správa výdavkov**.
 2. Vyberte **Zadanie výdavku**.
@@ -159,11 +124,11 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 7. V zozname vyberte jeden alebo viac výdavkov.
 8. Vyberte **Hotovo**.
 9. Ak chcete do výkazu výdavkov pridať nový výdavok, vyberte **Nový výdavok**.
-10. Vyberte kategóriu výdavku. Zobrazí sa zoznam kategórií výdavkov, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša kategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa kategórie výdavkov alebo prepnite na vyhľadávanie podľa typu výdavkov.
+10. Vyberte kategóriu výdavku. Zobrazí sa zoznam kategórií výdavkov, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša kategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa kategórie výdavkov alebo prepnite na vyhľadávanie podľa typu výdavkov.
 11. Voliteľné: Zadajte obchodníka výdavku.
 12. Zadajte dátum transakcie výdavku.
 13. Zadajte sumu výdavku.
-14. Vyberte menu výdavku. Zobrazí sa zoznam kódov mien, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 400 mien, vývojár však môže tento počet zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša mena nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa meny alebo prepnite na vyhľadávanie podľa názvu.
+14. Vyberte menu výdavku. Zobrazí sa zoznam kódov mien, ktorú sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 400 mien, vývojár však môže tento počet zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša mena nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Vyhľadávajte podľa meny alebo prepnite na vyhľadávanie podľa názvu.
 15. Vyberte **Hotovo**.
 16. Ak chcete k výdavku pridať ďalšie podrobnosti, vyberte **Pridať ďalšie podrobnosti**. Polia, ktoré sú k dispozícii, závisia od konfigurácie správy výdavkov pre vašu spoločnosť.
 17. Ak politika spoločnosti vyžaduje účtenku pre výdavok, vyberte **Účtenky** a potom postupujte podľa týchto krokov:
@@ -186,12 +151,12 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
                     1. Vyberte obrázok zo zoznamu.
                     2. Voliteľné: Zadajte názov obrázku a poznámky.
 
-            3.  Vyberte **Hotovo**.
+            3. Vyberte **Hotovo**.
 
         - Ak ste vybrali **Pripojiť účtenku**, nasledujte tieto kroky:
 
-            1.  V zozname vyberte jeden alebo viac obrázkov.
-            2.  Vyberte **Hotovo**.
+            1. V zozname vyberte jeden alebo viac obrázkov.
+            2. Vyberte **Hotovo**.
 
     3. Vyberte tlačidlo **Späť** pre návrat k podrobnostiam o výdavku.
 
@@ -209,12 +174,12 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 
         - Ak ste vybrali **Predchádzajúci hostia**, nasledujte tieto kroky:
 
-            1. V zozname vyberte jedného alebo viacerých predchádzajúcich hostí. Zobrazí sa zoznam predchádzajúcich hostí, ktorých ste pridali do predchádzajúcich výkazov výdavkov, ktoré sú načítané vo vašej aplikácii na offline použitie. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak váš predchádzajúci hosť nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ho online. Vyhľadávajte podľa mena alebo prepnite na vyhľadávanie podľa organizácie, krajiny alebo titulu.
+            1. V zozname vyberte jedného alebo viacerých predchádzajúcich hostí. Zobrazí sa zoznam predchádzajúcich hostí, ktorých ste pridali do predchádzajúcich výkazov výdavkov, ktoré sú načítané vo vašej aplikácii na offline použitie. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak váš predchádzajúci hosť nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ho online. Vyhľadávajte podľa mena alebo prepnite na vyhľadávanie podľa organizácie, krajiny alebo titulu.
             2. Vyberte **Hotovo**.
 
         - Ak ste vybrali **Spolupracovníci**, nasledujte tieto kroky:
 
-            1. V zozname vyberte jedného alebo viacerých spolupracovníkov. Zobrazí sa zoznam spolupracovníkov, ktorí sú načítaní vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak váš spolupracovník nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ho online. Vyhľadávajte podľa mena alebo prepnite na vyhľadávanie podľa spoločnosti alebo titulu.
+            1. V zozname vyberte jedného alebo viacerých spolupracovníkov. Zobrazí sa zoznam spolupracovníkov, ktorí sú načítaní vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak váš spolupracovník nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ho online. Vyhľadávajte podľa mena alebo prepnite na vyhľadávanie podľa spoločnosti alebo titulu.
             2. Vyberte **Hotovo**.
 
     3. Vyberte tlačidlo **Späť** pre návrat k podrobnostiam o výdavku.
@@ -223,7 +188,7 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 
     1. Vyberte prvý dátum, ktorý chcete rozpísať.
     2. Vyberte položku **Pridať rozpis**.
-    3. Vyberte podkategóriu pre rozpis výdavku. Zobrazí sa zoznam podkategórií výdavkov, ktoré sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša podkategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Hľadajte podľa názvu podkategórie výdavkov.
+    3. Vyberte podkategóriu pre rozpis výdavku. Zobrazí sa zoznam podkategórií výdavkov, ktoré sú načítané vo vašej aplikácii na použitie v režime offline. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie nájdu vývojári v tíme [Mobilná platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ak vaša podkategória nie je v zozname, vyberte **Vyhľadávanie** a vyhľadajte ju online. Hľadajte podľa názvu podkategórie výdavkov.
     4. Zadajte čiastku transakcie pre rozpis.
     5. Ak je to potrebné, upravte dátum transakcie.
     6. Vyberte **Hotovo**.
@@ -235,7 +200,32 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 21. Predchádzajúce kroky opakujte, kým nedokončíte pridávanie všetkých výdavkov.
 22. Stlačte možnosť **Odoslať**.
 23. Zadajte akékoľvek komentáre pre schvaľovateľa.
-24. Vyberte **Hotovo**.
+24. Vyberte položku **Hotovo**.
 
+## <a name="frequently-asked-questions"></a>Najčastejšie otázky
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Prečo mobilná aplikácia Expense predvolene nezadáva spôsob platby?
+
+Organizácie si môžu prispôsobiť **Predvolený spôsob platby** nastavenie pre každú kategóriu výdavkov tak, ako je vytvorená. Okrem toho, keď nastavujete spôsoby platby, môžete nastaviť **Predvolený spôsob platby** pole do **Iba import**.
+
+Kedy **Iba import** je pre spôsob platby povolený, spôsob platby nie je predvolene zadaný. V kategóriách výdavkov, kde je nastavený tento spôsob platby, bude prázdne. Toto správanie je konzistentné vo webovom aj mobilnom prostredí.
+    
+Kedy **Iba import** nie je povolená pre spôsob platby, nastavená hodnota sa zadáva predvolene pre kategórie výdavkov, kde je tento spôsob platby nastavený. Existuje však známy problém, kedy v mobilnej aplikácii Expense nie je zadaná predvolená hodnota. Ak chcete tento problém obísť, pred uložením výkazu výdavkov manuálne vyberte spôsob platby. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Prečo nemôžem pridať alebo upraviť finančné dimenzie v mobilnej aplikácii Expense?
+
+Zadávanie rozmerov a distribúcií nie je podporované. Ak chcete obísť toto obmedzenie, môžete tieto polia nastaviť predvolene v mobilnej aplikácii nastavením predvolených finančných dimenzií na projekt alebo zamestnanca.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Prečo sa mi niekedy v mobilnej aplikácii Expense zobrazuje chyba synchronizácie?
+
+Ak riadky výdavkov nespĺňajú požiadavky politiky a používateľ odošle správu o výdavkoch bez toho, aby sa zaoberal varovaním o politike, mobilné dáta sa nesynchronizujú so serverom a dôjde k zlyhaniu synchronizácie. Všetky správy o výdavkoch, ktoré sa predložia po zlyhaní synchronizácie, zostanú v zlyhanom stave a spôsobia ďalšie zlyhania synchronizácie. Jediným spôsobom, ako vyriešiť túto situáciu, je manuálne odstrániť upozornenia o synchronizácii. Tento problém bol vyriešený zastavením odosielania správ o výdavkoch, keď neboli vyriešené varovania politiky, aby sa predišlo chybám synchronizácie.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Prečo sa overenie projektu a kategórie správne neodráža v mobilnej aplikácii Expense?
+
+Toto overenie momentálne nie je podporované. Podpora však môže byť pridaná v budúcnosti. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Aké typy dokumentov sú podporované v mobilnej aplikácii Expense?
+
+Mobilná aplikácia Expense podporuje iba obrázky. V súčasnosti nepodporuje súbory PDF ani iné dokumenty.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,17 @@
 title: Prehľad spracovania fakturácie
 description: Táto téma poskytuje prehľad procesov fakturácie v Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.custom: intro-internal
+ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089301"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369035"
 ---
 # <a name="invoicing-process-overview"></a>Prehľad spracovania fakturácie
 
@@ -30,3 +29,6 @@ Projektový manažér môže skontrolovať nevyfakturované predajné transakcie
 Môžete [ručne vytvoriť pro forma faktúru](../proforma-invoicing/create-manual-proforma-invoice.md) alebo použiť [pravidelný proces](../proforma-invoicing/configure-automated-invoice-creation.md). Projektový manažér môže podľa potreby [upraviť návrh pro forma faktúry](../proforma-invoicing/manage-proforma-invoice.md) a potom ho potvrdiť.
 
 Potvrdená pro forma faktúra sa odošle do modulu **Projektové riadenie a účtovníctvo** v aplikácii Finance. Účtovník projektu naformátuje a aktualizuje návrh projektovej faktúry a potom zaúčtuje a vytlačí dokument. Zaúčtované faktúry projektu sa zaznamenávajú v hlavnej knihe, ako aj vo vedľajších účtovných knihách Zákazník a Projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

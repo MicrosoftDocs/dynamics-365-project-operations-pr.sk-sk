@@ -2,18 +2,16 @@
 title: Správa komplexných jednotiek pre riadky zmlúv založených na produkte – čiastočné
 description: Táto téma poskytuje informácie o podpore predaja produktov založených na predplatnom.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177395"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003385"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Správa komplexných jednotiek pre riadky zmlúv založených na produkte – čiastočné
 
@@ -46,3 +44,6 @@ Ak chcete z vlastností produktu vytvoriť faktory množstva, vykonajte nasleduj
 7. Opakujte kroky 2 až 6 pre všetky vlastnosti, ktoré spolu tvoria kvantitu riadok zmluvy založenej na produkte.
 
 Keď sú nastavené faktory kvantity, keď používateľ vytvorí pre tento produkt riadok zmluvy, kvantita riadka zmluvy sa uzamkne. Kvantita sa potom vypočíta ako súčin hodnôt vlastností pre daný riadok zmluvy.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

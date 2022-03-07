@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858123"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272812"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapovanie projektov a úloh na riadok projektovej zmluvy 
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Mapovanie projektov a úloh na riadok zmluvy založenej na projekte – čiastočné
 
-_**Vzťahuje sa na:** Čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
+_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 V riadkoch zmlúv založených na projektoch môžete mapovať konkrétne úlohy v projekte na riadok zmluvy.
 

@@ -2,8 +2,6 @@
 title: Obchodné transakcie
 description: Táto téma poskytuje informácie o obchodných transakciách.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149922"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987545"
 ---
 # <a name="business-transactions"></a>Obchodné transakcie
 
@@ -90,7 +88,7 @@ Počiatok transakcie a kontaktná osoba transakcie vám spolu pomáhajú sledova
 
 Nasledujúci príklad znázorňuje typické spracovanie časových záznamov v životnom cykle projektu PSA.
 
-> ![Čas spracovania sa oprávňuje na životný cyklus Project Service](media/basic-guide-17.png)
+> ![Položky času spracovania v životnom cykle Project Service.](media/basic-guide-17.png)
  
 1. Podanie časovej položky spôsobuje vytvorenie dvoch riadkov v účtovnom denníku: jeden pre náklad a jeden pre nevyfakturované predaje.
 2. Prípadné schválenie časového záznamu spôsobuje vytvorenie dvoch pravdivých údajov: jeden pre náklad a jeden pre nevyfakturované predaje.
@@ -149,3 +147,6 @@ Nasledujúca tabuľka zobrazuje záznamy v pripojení transakčnej entity pre pr
 | Koncept opravy faktúry       | Riadok faktúry Transaction GUID | Nahradenie          | msdyn_invoicelinetransaction | Fakturovaný predaj GUID            | Pôvodné           | msdyn_actual       |
 | Potvrdená oprava faktúry     | Storno fakturovaného predaja GUID    | Storno          | msdyn_actual                 | Fakturovaný predaj GUID            | Pôvodné           | msdyn_actual       |
 | Nové nefakturované skutočné predaje GUID | Nahradenie                     | msdyn_actual       | Fakturovaný predaj GUID            | Pôvodné                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

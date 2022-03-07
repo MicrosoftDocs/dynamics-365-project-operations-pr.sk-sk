@@ -2,18 +2,16 @@
 title: Splnenie všeobecných požiadaviek zdrojov
 description: Táto téma poskytuje informácie o tom, ako rezervovať pomenované zdroje pre požiadavku na všeobecné zdroje.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130327"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008290"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Splnenie všeobecných požiadaviek zdrojov
 
@@ -39,3 +37,6 @@ Toto je príklad, kedy sú potrebné viaceré pomenované zdroje na splnenie vš
 Hlavný rozdiel v tomto scenári je, že všeobecný zdroj zostáva priradený k tímovej úlohe a rezervované pomenované zdroje členov tímu nie sú priradené ako súčasť pozície. Projektový manažér môže priradiť prácu podľa zodpovedajúcich pomenovaných prostriedkov. Zobrazenie **odsúhlasenia** môže pomôcť projektovému manažérovi pri rozbití rezervácií naprieč viacerými zdrojmi na priradenie úlohy. To sa nerobí automaticky, pretože v každom scenári, ktorú je zložitejší ako jednoduchý príklad vyššie, ako napr. keď máte zväzok úloh, ktoré tvoria požiadavku alebo zámer, ako chce projektový manažér vykonať priradenie, je potrebné predpokladať systémovo. Vzhľadom k tomu, že systém nemôže pochopiť zámer, je pravdepodobné, že predpoklady budú iné, než je určené, a stane sa nesprávny alebo nepredvídateľný výsledok. Predvídateľný výsledok je, že všeobecný zdroj zostáva priradený, kým projektový manažér zámerne vytvorí úlohy, s pomocou zobrazenia **odsúhlasenia**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663747"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642157"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>Koncepty jedinečné pre projektové zmluvy
+# <a name="project-contracts---key-concepts"></a>Projektové zmluvy – Kľúčové koncepty
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
@@ -88,6 +88,3 @@ Plány faktúr sú špecifické pre každý riadok zmluvy a sú potrebné na fun
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Zmeny oproti objednávkam Dynamics 365 Sales
 
 Zmluvy v Project Operations sú postavené na objednávkach v Dynamics 365 Sales. Existujú však dôležité odchýlky a rozdiely vo funkčnosti. Zmluvy majú svoj vlastný formulár a prvky používateľského rozhrania, obchodné pravidlá, obchodnú logiku v doplnkoch a skripty na strane klienta, vďaka ktorým sú oproti objednávkam jedinečné. Z týchto dôvodov nepoužívajte vymeniteľne predajnú objednávku a zmluvu Project Operations.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

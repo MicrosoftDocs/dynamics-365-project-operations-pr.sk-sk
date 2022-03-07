@@ -2,8 +2,6 @@
 title: Analýza projektových cenových ponúk
 description: Táto téma poskytuje informácie o analýze projektových cenových ponúk.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145242"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002845"
 ---
 # <a name="analysis-of-project-quotes"></a>Analýza projektových cenových ponúk
 
@@ -60,3 +58,6 @@ Ak zadáte hodnoty pre nasledujúce polia, môžete analyzovať cenové ponuky a
 Analýza očakávaní zákazníkov o harmonograme sa vykonáva porovnaním posledného koncového dátumu riadka cenovej ponuky s požadovaným dátumom doručenia vo všetkých riadkoch cenovej ponuky v cenovej ponuke.
 
 Analýza očakávaní zákazníkov o rozpočte sa vykonáva porovnaním súčtu celkového rozpočtu zákazníka s ponúkanou sumou vo všetkých riadkoch cenových ponúk.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: Aktualizujte Project Operations vo svojom prostredí Finance
 description: Táto téma poskytuje informácie o tom, ako aktualizovať Project Operations vo vašom prostredí Dynamics 365 Finance.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
-ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
-ms.translationtype: HT
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816644"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986780"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualizujte Project Operations vo svojom prostredí Finance
 
@@ -35,7 +33,7 @@ Táto téma poskytuje informácie o tom, ako aktualizovať Dynamics 365 Project 
 4. Skontrolujte, či je prostredie spustené. Ak nie je spustené, spustite prostredie.
 5. V časti **Nové vydanie** pod **Dostupné aktualizácie** vyberte **Zobraziť aktualizáciu** pre 10.0.15.
 
-![Tlačidlo Zobraziť aktualizácie](media/view-update.png)
+![Tlačidlo Zobraziť aktualizácie.](media/view-update.png)
 
 6. Na stránke **Binárne aktualizácie** vyberte **Uložiť balík**.
 7. Na stránke **Skontrolovať a uložiť aktualizácie** vyberte **Uložiť balík**.
@@ -49,11 +47,11 @@ Táto téma poskytuje informácie o tom, ako aktualizovať Dynamics 365 Project 
 2. V zozname vyberte balík, ktorý ste uložili skôr, a potom vyberte **Použiť**.
 3. Vyberte **Áno** na potvrdenie, že chcete nasadiť balík.
 
-![Potvrďte dialógové okno nasadenia balíka](media/confirm-package-deployment.png)
+![Dialógové okno Potvrdiť nasadenie balíka.](media/confirm-package-deployment.png)
 
 4. Vyberte **Áno** na potvrdenie, že chcete aktualizovať aplikáciu.
 
-![Potvrďte dialógové okno aktualizácie aplikácie](media/confirm-application-update.png)
+![Dialógové okno Potvrdiť aktualizácie aplikácie.](media/confirm-application-update.png)
 
 Spustí sa nasadenie a aktualizácia aplikácie. 
 
@@ -86,7 +84,7 @@ Nasledujúce aktualizácie bezpečnostných oprávnení pre entity sú vyžadova
 
 1. V prostredí Dataverse prejdite na **Nastavenia** a v skupine **Systém** vyberte **Zabezpečenie**.
 
-![Nastavenia prostredia Dataverse](media/Picture21.png)
+![Nastavenia prostredia Dataverse.](media/Picture21.png)
 
 2. Vyberte **Roly zabezpečenia**.
 3. V zozname rolí vyberte **používateľ aplikácie s duálnym zápisom** a vyberte kartu **Vlastné entity**. 
@@ -123,5 +121,8 @@ Nasledujúce aktualizácie bezpečnostných oprávnení pre entity sú vyžadova
 6. V zozname máp vyberte mapu **Ledger (msdyn_ledgers)** so všetkými predpokladmi a začiarknite políčko **Počiatočná synchronizácia**. 
 7. V poli **Predloha pre počiatočnú synchronizáciu** vyberte **aplikácie Finance and Operations** a potom vyberte **Spustiť**.
  
- ![Synchronizácia máp účtovnej knihy](media/DW6.png)
+ ![Synchronizácia máp účtovnej knihy.](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

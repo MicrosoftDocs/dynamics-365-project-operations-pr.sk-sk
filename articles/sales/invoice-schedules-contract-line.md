@@ -2,18 +2,16 @@
 title: Vytvorenie plánu faktúr v riadku zmluvy na základe projektu
 description: Táto téma poskytuje informácie o vytváraní harmonogramov faktúr a medzníkov pre riadky zmluvy.
 author: rumant
-manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 3f84d9935eec13666e3eaaa675908e9bc3d2097c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513943"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010130"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Vytvorenie plánu faktúr v riadku zmluvy na základe projektu 
 
@@ -74,3 +72,6 @@ Medzníky s pevnou cenou môžete vygenerovať aj manuálne, ak nie sú pravidel
 | Daň | Rýchle vytvorenie | Suma dane použitá pre medzník. | Prenesie sa na medzník riadka zmluvy projektu a na faktúru. |
 
 3. Vyberte položku **Uložiť a zavrieť**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

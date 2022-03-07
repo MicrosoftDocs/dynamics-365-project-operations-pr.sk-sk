@@ -3,7 +3,7 @@ title: Príručka manažéra obchodného vzťahu
 description: Príručka správcu obchodného vzťahu pre Project Service, ktorá ponúka prehľad procesov predaja a zmlúv pre projektové obchodné vzťahy
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b1908fdf012b470a2954191d4428a58241b33752
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5c6a24247eac912fd076eee8a47787e2f0709dfe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146098"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084534"
 ---
 # <a name="account-manager-guide-project-service"></a>Príručka správy účtov (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

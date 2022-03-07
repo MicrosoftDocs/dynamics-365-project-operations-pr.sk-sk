@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 001b0b54abcdd5fcd1eca7f3271cc78392f68860
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764478"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273712"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Náklady v riadkoch zmlúv založených na produkte – čiastočné
 
@@ -30,3 +30,6 @@ Keď sa pre katalógový produkt vytvorí riadok zmluvy založený na produkte, 
 Jednotkové náklady v riadku zmluvy založenej na produkte umožňujú rôzne produktové náklady pre každý predaj jednotky. Aj keď to nie je vždy potrebné, existujú určité scenáre, pri ktorých môže dodávateľovi zákazníkovi odpočítať náklady na produkt. Posúďte nasledujúci scenár:
 
 Spoločnosť Fabrikam Robotics inštaluje robotické ramená na montážnych linkách spoločnosti Adatum Corporation. Spoločnosť Fabrikam poskytuje inštalačné služby, ale robotické ramená pochádzajú od spoločnosti Trey Research. Ak inštalácia robotických ramien v spoločnosti Adatum Corporation otvorí novú priemyselnú vertikálu pre robotické ramená od spoločnosti Trey Research, môže poskytnúť spoločnosti Fabrikam špeciálnu zľavu za tento obchod. V takom prípade vytvorí spoločnosť Fabrikam pre spoločnosť Robotic Arms riadok zmluvy založený na produkte. Pri tejto zmluve sa zadáva jednotkový náklad. Náklad sa líši od nákladu na robotické ramená od spoločnosti Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

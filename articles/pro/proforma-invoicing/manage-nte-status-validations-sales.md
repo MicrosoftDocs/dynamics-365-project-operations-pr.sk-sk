@@ -2,18 +2,16 @@
 title: Správa stavu, ktorý sa nesmie prekročiť, a overení
 description: Táto téma poskytuje informácie o kontrolách neprekročenia limitu vykonávaných v aplikácii Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 09dea414e91a365f33bd23089c427b5f63f55c8e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130012"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003520"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Správa stavu, ktorý sa nesmie prekročiť, a overení 
 
@@ -21,7 +19,7 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 
 ## <a name="not-to-exceed-on-approvals"></a>Nesmie byť prekročené pri schválení
 
-Po zadaní záznamu o čase alebo výdaji sa vytvorí záznam o schválení. Ak je schválenie fakturovateľné a mapuje sa na časový a materiálny riadok zmluvy, systém vykoná overovaciu kontrolu neprekročenia na nasledujúcich úrovniach:
+Keď sa odošle záznam o čase, výdavkoch alebo použití materiálu, vytvorí sa záznam na schválenie. Ak je schválenie fakturovateľné a mapuje sa na časový a materiálny riadok zmluvy, systém vykoná overovaciu kontrolu neprekročenia na nasledujúcich úrovniach:
 
   - Kontrola proti limitu stanovenému pre zákazníka v riadku projektovej zmluvy
   - Kontrola proti limitu stanovenému v riadku zmluvy
@@ -34,11 +32,11 @@ Ak kontrola prejde, udelí sa schváleniu stav overenia **Úspech**.
 
 Ak kontrola zlyhá, udelí sa schváleniu stav overenia **Neúspešné**. Podrobnosti overenia, ktoré sa nesmie prekročiť, budú informovať používateľa, na ktorej úrovni sa overenie nepodarilo.
 
-Ak sa zadaný záznam o čase alebo výdavku považuje za nefakturovateľný, stav overenia, ktorý sa nesmie prekročiť, sa nastaví na **Nepoužiteľné** s podrobnosťou overenia rovnou **Nevzťahuje sa**.
+Keď sa položka času, výdavkov alebo použitia materiálu považujú za neúčtovateľné, stav overenia „nesmie sa prekročiť“ sa nastaví na **Nepoužiteľné** s podrobnosťou overenia, ktorá sa rovná hodnote **Nevzťahuje sa**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Neprekročiteľné pri nefakturovaných skutočných predajoch
 
-Po schválení zadania času alebo výdaja sa vytvoria záznamy o skutočných nákladoch a nevyfakturovaných skutočných predajoch. Ak je vytváraná skutočná hodnota nefakturovaného predaja fakturovateľná a mapuje sa na časový a materiálny riadok zmluvy, aplikácia vykoná overovaciu kontrolu neprekročenia na nasledujúcich úrovniach:
+Po schválení položky času, nákladu alebo použitia materiálu sa vytvoria záznamy o skutočných hodnotách nákladov a nevyfakturovaných predajov. Ak je vytváraná skutočná hodnota nefakturovaného predaja fakturovateľná a mapuje sa na časový a materiálny riadok zmluvy, aplikácia vykoná overovaciu kontrolu neprekročenia na nasledujúcich úrovniach:
 
   - Kontrola proti limitu stanovenému pre zákazníka riadka projektovej zmluvy
   - Kontrola proti limitu stanovenému v riadku zmluvy
@@ -55,9 +53,9 @@ Keď sa skutočný nevyfakturovaný predaj považuje za nefakturovateľný alebo
 
 ## <a name="reset-the-not-to-exceed-status"></a>Zresetovanie stavu, ktorý sa nesmie prekročiť
 
-Môžete vykonať hromadný reset stavu, ktorý sa nesmie prekročiť. To umožňuje projektovým manažérom upraviť overenie, ktoré sa nesmie prekročiť, aby uprednostnili fakturáciu jedného konkrétneho súboru práce, času alebo výdavkov pred ostatnými, ktoré sú už viazané z dostupnej sumy, ktorá sa nesmie prekročiť.
+Môžete vykonať hromadný reset stavu, ktorý sa nesmie prekročiť. Projektoví manažéri môžu upraviť overenie, ktoré nesmie byť prekročené, aby uprednostnili fakturáciu jedného konkrétneho množstva práce, času, výdavkov alebo použitia materiálu pred ostatnými, ktoré sú už viazané z dostupnej sumy, ktorá nesmie byť prekročená.
 
-Po zresetovaní stavu, ktorý sa nesmie prekročiť, v nefakturovaných skutočných predajoch, sa viazaná suma zníži. Projektový manažér môže vybrať iný súbor práce, času alebo výdavkov, ktoré predtým zlyhali pri overení, ktoré sa nesmie prekročiť, a prehodnotiť ich. So znížením pridelenej sumy tieto skutočné hodnoty teraz prejdú overením. To pomáha projektovému manažérovi uplatňovať väčší vplyv a kontrolu nad fakturovateľnými transakciami za dané obdobie.
+Po zresetovaní stavu, ktorý sa nesmie prekročiť, v nefakturovaných skutočných predajoch, sa viazaná suma zníži. Manažér projektu môže vybrať inú položku práce, času, výdavkov alebo použitia materiálu, ktorá predtým zlyhala pri overovaní „nesmie sa prekročiť“, a prehodnotiť ju. So znížením viazanej sumy tieto skutočné hodnoty teraz prechádzajú overením, čo pomáha projektovému manažérovi uplatňovať väčší vplyv a kontrolu nad fakturovateľnými transakciami za dané obdobie.
 
 Ak chcete resetovať stav, ktorý sa nesmie prekročiť, vyberte jednu alebo viac skutočných hodnôt zo zobrazenia **Backlog pre fakturáciu času a materiálu** alebo **Skutočné hodnoty** a potom vyberte **Resetovať stav, ktorý sa nesmie prekročiť**.
 
@@ -73,3 +71,6 @@ Môžete vykonať hromadné prehodnotenie stavu, ktorý sa nesmie prekročiť. P
 Ak chcete prehodnotiť stav, ktorý sa nesmie prekročiť, vyberte jednu alebo viac skutočných hodnôt zo zobrazenia **Backlog pre fakturáciu času a materiálu** alebo **Skutočné hodnoty** a potom vyberte **Prehodnotiť stav, ktorý sa nesmie prekročiť**.
 
 Všetky príslušné vybrané skutočné hodnoty s limitom, ktorý sa nesmie prekročiť, sa vyhodnotia oproti nastaveniu limitu, ktorý sa nesmie prekročiť. Skutočné hodnoty, ktoré sú relevantné pre opätovné prehodnotenie stavu, ktorý sa nesmie prekročiť, sú nefakturované skutočné predaje, ktoré nie sú vyfakturované, nie na koncepte faktúry, a sú označené ako účtovateľné. Akékoľvek ďalšie príslušné vybraté skutočné hodnoty.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Projektové šablóny
 description: Táto téma poskytuje informácie o používaní šablón projektov na rýchle nastavenie projektu.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148077"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998295"
 ---
 # <a name="project-templates"></a>Projektové šablóny 
 
@@ -69,3 +67,6 @@ Pri kopírovaní naprieč riadkami odhadu projektu, sú cenníky aktualizované.
 ### <a name="copying-a-project-team"></a>Kopírovanie projektového tímu
 
 Keď je projektový tím kopírovaný z projektovej šablóny, sú skopírované všeobecné zdroje spolu so zručnosťami a schopnosťami, ktoré sú definované v šablóne. Priradenie všeobecných zdrojov sa zachová rovnaké ako bolo pri šablóne projektu. Pomenované zdroje nie sú podporované v šablónach projektov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

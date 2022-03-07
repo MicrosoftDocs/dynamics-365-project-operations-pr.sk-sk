@@ -3,10 +3,9 @@ title: Domovská stránka cenovej ponuky, oceňovania a fakturovania
 description: Táto téma poskytuje informácie o cenovej ponuke, oceňovaní a fakturácii.
 author: rumant
 ms.author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 audience: Admin
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 35fa9440a6f58a08092bcc3cc57a9097dce01e33
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 0b3d40158534f039160156087d6edab0d21dd5f3eaf71d5b665eff794793a9b3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147896"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004780"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Domovská stránka cenovej ponuky, oceňovania a fakturovania
 
@@ -44,3 +43,6 @@ Nasledujúce témy poskytujú viac informácií o funkciách cenovej ponuky, oce
 - [Jednotkové skupiny a jednotky](advanced-units.md)
 - [Mena viacerých jednotiek](advanced-currency.md)
 - [Nahrávanie skutočných údajov](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

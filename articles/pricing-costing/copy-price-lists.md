@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181516"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275737"
 ---
 # <a name="copy-price-lists"></a>Kopírovanie cenníkov
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-V aplikácii Dynamics 365 Project Operations môžete vytvárať kópie cenníkov. Môžete napríklad vytvoriť cenníky pre nadchádzajúci rok pomocou cenníka z aktuálneho roka.  Prípadne môžete skopírovať cenník fakturačných sadzieb a predajných cien z cenníkov pre náklady. 
+V rámci Dynamics 365 Project Operations môžete vytvárať kópie cenníkov. Môžete napríklad vytvoriť cenníky pre nadchádzajúci rok pomocou cenníka z aktuálneho roka.  Prípadne môžete skopírovať cenník fakturačných sadzieb a predajných cien z cenníkov pre náklady. 
 
 Ak chcete vytvoriť kópiu cenníka, postupujte nasledovne.
 
@@ -43,3 +43,6 @@ Ak chcete vytvoriť kópiu cenníka, postupujte nasledovne.
 1. Na kartách **Rola**, **Kategória** a **Položka cenníka** cenníka môžete si vybrať **Aktualizovať ceny** a použiť prirážku pre všetky ceny vo vedľajšej mriežke. 
 2. Na dialógovej stránke, ktorá sa otvorí, zadajte prirážku. Môžete zadať aj percento zápornej prirážky a znížiť ceny o určité percento. 
 3. Vyberte **OK** na dialógovej stránke a potom overte, či ceny vo vedľajšej mriežke odrážajú vykonané zmeny.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

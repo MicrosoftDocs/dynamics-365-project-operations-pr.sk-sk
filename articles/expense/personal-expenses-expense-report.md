@@ -2,19 +2,17 @@
 title: Práca s osobnými výdavkami vo výkaze výdavkov
 description: Táto téma poskytuje informácie o tom, ako pracovať s osobnými výdavkami, ktoré vzniknú zamestnancom pri cestovaní na služobné účely.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
-ms.translationtype: HT
+ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4728018"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993170"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Práca s osobnými výdavkami vo výkaze výdavkov
 
@@ -28,3 +26,15 @@ Existujú dve metódy, ktoré môžete použiť na prácu s osobnými výdavkami
   - **Zaplatené spoločnosťou**: Vaša organizácia zaplatí celý účet za podnikovú kreditnú kartu a potom z účtu zamestnanca strhne osobné náklady.
 
 Metódu využívanú vašou spoločnosťou môžete zmeniť na stránke **Parametre správy výdavkov**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Povolenie funkcie rozdelených výdavkov, keď má pole s osobnou sumou definovanú hodnotu
+
+Funkcia **Povoliť funkciu rozdelených výdavkov, keď má pole s osobnou sumou definovanú hodnotu** platí iba pre výkazy o výdavkoch, ktoré sa schvaľujú pomocou pracovného postupu na úrovni riadku. Správy sa schvaľujú tak, že prejdete na **Spracovať výkazy o výdavkoch** > **Výkazy o výdavkoch pridelené mne** > **Otvoriť výkaz o výdavkoch**. 
+
+Ak chcete povoliť túto funkciu, prejdite na časť **Pracovné priestory** > **Správa funkcií**, vyberte možnosť **Povoliť funkciu rozdelených výdavkov, keď má pole s osobnou sumou definovanú hodnotu** a potom vyberte možnosť **Povoliť teraz**. 
+
+Keď je táto funkcia povolená, riadky výdavkov, ktoré využívajú túto funkciu, vygenerujú po odoslaní výkazu dva riadky. Vygenerujú sa dva riadky, aby schvaľovateľ mohol schváliť každý riadok samostatne.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

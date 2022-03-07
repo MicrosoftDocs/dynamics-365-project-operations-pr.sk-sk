@@ -2,18 +2,16 @@
 title: Správa návrhov projektových faktúr
 description: Táto téma poskytuje podrobnosti o spracovaní faktúr orientovaných na zákazníka v Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
-ms.translationtype: HT
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089302"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989930"
 ---
 # <a name="manage-project-invoice-proposals"></a>Správa návrhov projektových faktúr
 
@@ -80,7 +78,8 @@ Hodnoty **Skupina dane z predaja** a **Skupina dane z predaja položky** sú pre
     - **Zákazník** vždy nastaví predvolenú skupinu fakturácie dane z predaja zo zákazníka.
     - **Vyhľadávanie** bude prehľadávať všetky entity z tohto zoznamu a vyberie prvú dostupnú hodnotu. Hľadanie sa začína entitou **Projekt**, potom entitou **Projektová zmluva** a potom entitou **Zákazník**.
 
-- **Skupina s daňou z obratu položky s pevnou cenou** sa používa na predvolenú hodnotu pre pole **Skupina dane z predaja položky**.
+- **Skupina s daňou z obratu položky s pevnou cenou** sa používa ako predvolená hodnota v poli **Skupina dane z obratu tovaru** pre míľnik fakturácie. Účtovník môže túto hodnotu skontrolovať a upraviť na stránke **Transakcie na účte**. Systém používa hodnotu z transakcie na účte pri vytváraní riadku návrhu faktúry projektu.
+ 
 
 ### <a name="financial-dimensions"></a>Finančné dimenzie
 
@@ -132,7 +131,7 @@ Stránka **Naformátovať návrhy faktúr** umožňuje zobrazenie vlastných zos
 
 Správa tlače používa na tlač rôzne súbory správ, špecifikáciu cieľov a prispôsobenie textu päty pre faktúru. Správu tlače je možné nastaviť na úrovni modulu, tieto nastavenia však možno prepísať pre konkrétneho zákazníka, zmluvu alebo návrh faktúry. Pre prístup k tejto funkcii na stránke **Návrh projektovej faktúry** vyberte možnosť **Tlačiť** > **Správa tlače**.
 
-Nastavenie správy tlače sa zobrazuje ako stromové zobrazenie, kde každá úroveň uzla zobrazuje dostupné dokumenty, ktoré je potrebné upraviť. Môžete priradiť vlastné výtlačky na úrovni modulu, zákazníka, zmluvy alebo návrhu faktúry. Ak chcete upraviť výtlačok pôvodného dokumentu, rozbaľte požadovaný uzol a vyberte **Pôvodná položka**. V poli **Formát zostavy** vyberte formát zostavy, ktorý sa má použiť na tlač. Môžete použiť vlastné formáty zostáv pomocou možnosti [Rámec riadenia obchodných dokumentov](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Nastavenie správy tlače sa zobrazuje ako stromové zobrazenie, kde každá úroveň uzla zobrazuje dostupné dokumenty, ktoré je potrebné upraviť. Môžete priradiť vlastné výtlačky na úrovni modulu, zákazníka, zmluvy alebo návrhu faktúry. Ak chcete upraviť výtlačok pôvodného dokumentu, rozbaľte požadovaný uzol a vyberte **Pôvodná položka**. V poli **Formát zostavy** vyberte formát zostavy, ktorý sa má použiť na tlač. Môžete použiť vlastné formáty zostáv pomocou možnosti [Rámec riadenia obchodných dokumentov](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Zaúčtovanie návrhov faktúr
 
@@ -143,3 +142,6 @@ Ak chcete zobraziť faktúru pred zaúčtovaním, zrušte začiarknutie políčk
 Okrem stránky **Návrh faktúry** je možné zaslať návrhy faktúr spustením pravidelnej úlohy **Zaúčtovať návrhy faktúr**. Ak chcete nájsť túto úlohu, prejdite na **Projektové riadenie a účtovníctvo** > **Pravidelné** > **Faktúry projektu** > **Zaúčtovať návrhy faktúr**.
 
 Táto stránka zobrazuje všetky návrhy faktúr, ktoré sú pripravené na zaúčtovanie. Výberom možnosti **Dávka** môžete naplánovať účtovanie návrhov faktúr. Nastavte **Parameter dávkového spracovania** na **Áno** a nastavte opakovanie dávkového spracovania výberom **Opakovanie**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

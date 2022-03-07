@@ -2,11 +2,9 @@
 title: Prenos rozpočtov projektu na konci fiškálneho roka
 description: Tento článok poskytuje informácie o tom, ako previesť zostávajúce sumy rozpočtu do budúcich rokov a ako vytvoriť podrobnosti rozpočtového registra.
 author: Yowelle
-manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: be3dc039b92e88cac6f6b3b7f72bc32ecf587539
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084497"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008060"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Prenos rozpočtov projektu na konci fiškálneho roka
 
@@ -98,3 +96,6 @@ Keď spracujete zostávajúce sumy rozpočtu, môžete v hlavnej knihe vytvoriť
 5. Pre každý projekt, ktorý chcete spracovať, vyberte možnosť na začiatku riadku pre projekt. 
 6. Vyberte možnosť **Spracovať** a preneste zostávajúce sumy rozpočtu pre vybrané projekty do vybratého fiškálneho roka.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

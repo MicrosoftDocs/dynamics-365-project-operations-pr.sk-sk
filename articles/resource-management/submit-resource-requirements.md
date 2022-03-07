@@ -2,18 +2,16 @@
 title: Odoslanie žiadosti o zdroj
 description: Požiadavku vygenerovaného prostriedku môžete odoslať ako požiadavku na zdroj. Žiadosť sa potom odošle správcovi prostriedkov na naplnenie.
 author: ruhercul
-manager: Annbe
 ms.date: 10/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: dedde7778cc726d3f06aefc0243edfe130e6d0b58773e0bb8e87cfcb13f1cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128842"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994745"
 ---
 # <a name="submit-a-resource-request"></a>Odoslanie žiadosti o zdroj
 
@@ -27,3 +25,6 @@ Požiadavku vygenerovaného prostriedku môžete odoslať ako požiadavku na zdr
 Žiadosť stav generického člena tímu sa zmení na **Odoslané**.
 
 Po splnení požiadavky sa všeobecný zdroj nahradí názvom zdroja, ak správca zdrojov splní požiadavku s rezerváciou pomenovaného zdroja. V opačnom prípade, ak správca zdrojov navrhne pomenovaný zdroj, všeobecný zdroj zostane v tíme a stav žiadosti sa zmení na **Vyžaduje kontrolu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

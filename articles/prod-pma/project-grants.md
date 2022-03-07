@@ -2,11 +2,9 @@
 title: Granty v aplikácii Project
 description: Táto téma vysvetľuje, ako vytvoriť alebo upraviť grant.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8e875ec086ee4c5e2ed3b16adcc6048ac8351ea7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084545"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999600"
 ---
 # <a name="project-grants"></a>Granty v aplikácii Project
 
@@ -79,3 +77,6 @@ Grant môžete vytvoriť zadaním všetkých podrobností do nového záznamu al
 2. Vyberte grant, ktorý chcete upraviť.
 3. Na table Akcia na karte **Grant** v skupine **Údržba** stlačte možnosť **Upraviť**.
 4. Skontrolujte podrobnosti o grante a vykonajte požadované zmeny.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

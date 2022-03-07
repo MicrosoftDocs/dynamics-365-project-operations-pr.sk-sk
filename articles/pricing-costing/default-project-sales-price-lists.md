@@ -2,18 +2,16 @@
 title: Predvolené cenníky
 description: Táto téma poskytuje informácie o predvolených predajných a obstarávacích cenníkoch v Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130957"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989885"
 ---
 # <a name="default-price-lists"></a>Predvolené cenníky
 
@@ -21,7 +19,7 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 
 ## <a name="sales-price-lists"></a>Predajné cenníky
 
-Každá projektová cenová ponuka a zmluva v Dynamics 365 Project Operations obsahuje predvolený predajný cenník. 
+Každá cenová ponuka a zmluva projektu v aplikácii Dynamics 365 Project Operations obsahuje predvolený predajný cenník. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Predvolený cenník pre projektové cenové ponuky
 Systém dokončí nasledujúci proces, aby určil, ktorý cenník je predvolený pre cenovú ponuku projektu:
@@ -57,3 +55,6 @@ Obstarávacie cenníky nie sú predvolene nastavené na žiadnu entitu v rámci 
 5. Potom systém prehľadá účinnosť cenníkov podľa dátumu, ktoré sa zhodujú s dátumom prichádzajúceho riadku s odhadom alebo skutočnou hodnotou. 
 6. Ak existuje viac cenníkov s účinnosťou k dátumu pri prichádzajúcom odhade alebo skutočnej hodnote, vyberie sa naposledy vytvorený cenník.
 7. Ak k parametrom projektu nie sú pripojené žiadne obstarávacie cenníky, ktoré sa zhodujú s menou a dátumom účinnosti, systém predvolene nastaví nákladovú sadzbu na nulu (0) v prichádzajúcom riadku s odhadom alebo skutočnom hodnotou.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

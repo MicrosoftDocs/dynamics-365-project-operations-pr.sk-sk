@@ -2,19 +2,17 @@
 title: Čo je nové v decembri 2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní Project Operations z decembra 2020, pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
 author: sigitac
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
-ms.translationtype: HT
+ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727899"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984890"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v decembri 2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -108,4 +106,7 @@ V tomto vydaní sú zahrnuté nasledujúce funkcie:
 | Cestovanie a výdavky                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Pracovný postup automatického zaúčtovania správy výdavkov je dokončený, ale faktúra sa nie je zaúčtovaná                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Regulačné aktualizácie
-Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations sú uvedené v časti [Regulačné aktualizácie](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations sú uvedené v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

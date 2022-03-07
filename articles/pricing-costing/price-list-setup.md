@@ -2,18 +2,16 @@
 title: Nastavenie cenníkov
 description: Táto téma poskytuje informácie o tom, ako nastaviť cenníka nákladu a predaja.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180211"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009505"
 ---
 # <a name="set-up-price-lists"></a>Nastavenie cenníkov
 
@@ -40,3 +38,6 @@ Nasledujúca tabuľka obsahuje polia na karte **Všeobecné**, ktorá je jedine�
 | Mena | Karta **Všeobecné** a formuláre **Rýchle vytvorenie** | Toto pole sa používa na predvolenú menu v každom riadku položky, kategórie alebo cenníka súvisiaceho s týmto cenníkom. | V cenníkoch **Predaj**, roly, kategórie alebo riadky položiek cenníka nemožno vytvoriť v inej mene, ako je táto mena. V cenníkoch **Náklady**, môžete vytvoriť cenový riadok role v akejkoľvek mene. Tu definovaná mena sa používa ako predvolená. Používateľské nastavenie, ktoré súvisí s cenami rolí, môže túto hodnotu prepísať, aby umožnilo nastavenie sadzby nákladov práce v akejkoľvek mene. Sadzby ceny kategórie a náklady položky cenníka je možné nastaviť iba v tu definovanej mene. |
 | Jednotka času | Karta **Všeobecné** a formuláre **Rýchle vytvorenie** | Toto pole sa používa na predvolenie časovej jednotky v každom riadku položky súvisiacej s týmto cenníkom. | Hodnota tohto poľa sa používa iba pri nastavení ceny súvisiacej roly. V cenníkoch **Náklady** a **Predaj**, môžete vytvoriť cenový riadok role v akejkoľvek časovej jednotke. Tu definovaná časová jednotka sa používa ako predvolená. Používateľské nastavenie, ktoré súvisí s cenami rolí, môže túto hodnotu prepísať, aby umožnilo nastavenie sadzby nákladov práce a sadzby fakturácie v akejkoľvek časovej jednotke. |
 | Popis | Karta **Všeobecné** a formuláre **Rýchle vytvorenie** | Toto je textové pole a umožňuje použiť viacriadkový popis cenníka. | Toto pole sa zobrazuje v zobrazeniach **Priradené** pre cenník v rôznych entitách, ktoré majú súvisiace cenníky. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

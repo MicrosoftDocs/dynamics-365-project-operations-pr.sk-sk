@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084537"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288848"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilná aplikácia Project Timesheet
 
@@ -96,3 +96,6 @@ Kliknutím na **Odoslať** odošlete časový rozvrh do pracovného postupu schv
 ## <a name="review-timesheets"></a>Kontrola časových rozvrhov
 
 Zoznam časových výkazov, ktoré je potrebné skontrolovať, je k dispozícii v ponuke. Táto možnosť je k dispozícii, iba ak ste boli označený za schvaľovateľa pracovného postupu. Podporované je schválenie hlavičky aj riadku. Schválenie na úrovni riadkov ponúka možnosť označiť jeden alebo viac riadkov na schválenie. Po skontrolovaní informácií časového rozvrhu kliknite na **Schváliť**, **Delegovať** alebo **Vrátiť** a pokračujte v pracovnom postupe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

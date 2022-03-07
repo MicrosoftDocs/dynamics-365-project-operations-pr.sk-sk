@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 5484c37181bc8a26a6dfe67807093cc83e53e703
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642562"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278752"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Konfigurácia fakturovateľných súčastí riadka projektovej cenovej ponuky
 
@@ -53,3 +53,6 @@ Odhad alebo skutočná hodnota vytvorená pre výdavok sa bude považovať za fa
 | No | Áno | Nie je možné nastaviť | Neúčtovateľné | Fakturácia skutočnej hodnoty času: Nedostupné </br>Typ fakturácie skutočnej hodnoty výdavku: Neúčtovateľné |
 | Áno | No | Účtovateľné | Nie je možné nastaviť | Fakturácia skutočnej hodnoty času: Účtovateľné </br>Typ fakturácie skutočnej hodnoty výdavku: Nedostupné |
 | Áno | No | Neúčtovateľné | Nie je možné nastaviť | Fakturácia skutočnej hodnoty času: Neúčtovateľné </br> Typ fakturácie skutočnej hodnoty výdavku: Nedostupné |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

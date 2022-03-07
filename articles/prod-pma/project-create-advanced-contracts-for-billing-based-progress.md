@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084493"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289523"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Vytvorenie zmlúv založených na zálohách pre fakturácie na základe priebehu
 [!include [banner](../includes/banner.md)]
@@ -103,3 +103,6 @@ Kategórie rozpočtu sa používajú na automatický výpočet čiastky faktúry
 8. Voliteľné: Priraďte pravidlo fakturácie ďalším projektom. Na karte FastTab **Projekt** v časti **Dostupné projekty** vyberte projekt a potom kliknutím na tlačidlo so šípkou doprava pridajte projekt do časti **Vybrané projekty**.
 9. Voliteľné: Vypočítajte percentuálnu čiastku, ktorú zákazník zadržuje z platieb na faktúre. Na karte FastTab **Podmienky uchovania platby** vyberte zdroj financovania a potom do poľa **Percento zadržania** zadajte percento zadržania.
 10. Opakovaním týchto krokov vytvoríte ďalšie pravidlá fakturácie pre projektovú zmluvu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Výnosy a náklady projektu
 description: Táto téma poskytuje informácie o odhadovaní projektových nákladov a výnosov.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148347"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009185"
 ---
 # <a name="project-costs-and-revenue"></a>Výnosy a náklady projektu
 
@@ -97,3 +95,6 @@ V zobrazení mriežky, aj v časovo delenom zobrazení môžete vybrať, ktoré 
 ## <a name="expense-estimates"></a>Odhady nákladov
 
 Tlačidlo **pridať nový odhad výdavkov** v zobrazení mriežky umožňuje zaznamenať všetky výdavky, ktoré vznikli v projekte, ale ktoré priamo nesúvisia s prácou. Môžete zaznamenať odhady výdavkov pre konkrétnu úlohu alebo pre celý projekt. Vyberte kategórie výdavkov a predbežný dátum, kedy očakávate, že vzniknú náklady. Ak majú súvisiace cenníky nákladov a predajné cenníky predvolené ceny, (alebo sú definované percentá pre kategórie výdavkov), sú automaticky zadané do riadka odhadu keď sa vyskytne priradenie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

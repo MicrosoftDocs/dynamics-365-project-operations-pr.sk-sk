@@ -2,8 +2,6 @@
 title: Zmierenie zdrojov a priradenia
 description: Táto téma poskytuje informácie o skutočných údajoch.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147942"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008915"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Zmierenie zdrojov a priradenia
 
@@ -101,3 +99,6 @@ Po vykonaní funkcie rozšírenia rezervácie na každom zdroji sa rezervácie �
 
 Bližší pohľad na podrobnosti rezervácií však ukazuje rozdiely v počiatočnom čase rezervácií. Rezervácie sa nezačnú skôr, ako je čas začiatku obrysu priradenia, a nie skôr, ako je čas začiatku, ktorý je k dispozícii pre zdroj.
  ![Nové rezervácie zdrojov na tabuli plánovania](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

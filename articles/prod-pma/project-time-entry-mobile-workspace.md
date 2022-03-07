@@ -2,11 +2,9 @@
 title: Mobilný pracovný priestor Zadanie času projektu
 description: Táto téma poskytuje informácie o mobilnom pracovnom priestore Zadanie času projektu. Tento pracovný priestor umožňuje používateľom zadať a uložiť čas oproti projektu pomocou mobilného zariadenia.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084345"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989570"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobilný pracovný priestor Zadanie času projektu
 
@@ -48,7 +46,7 @@ Konkrétne v mobilnom pracovnom priestore **Zadanie času projektu** môžu pou�
 Predpoklady sa líšia v závislosti od verzie Microsoft Dynamics 365, ktorý bol nasadený pre vašu organizáciu.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpoklady, ak používate Dynamics 365 Finance
-Ak bola pre vašu organizáciu nasadená služba Finance, správca systému musí zverejniť mobilný pracovný priestor **Zadanie času projektu**. Pokyny nájdete v časti [Zverejnenie mobilného pracovného priestoru](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Ak bola pre vašu organizáciu nasadená služba Finance, správca systému musí zverejniť mobilný pracovný priestor **Zadanie času projektu**. Pokyny nájdete v časti [Zverejnenie mobilného pracovného priestoru](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Nevyhnutné predpoklady, ak používate verziu 1611 s aktualizáciou platformy 3 alebo novšou
 Ak bola pre vašu organizáciu nasadená verzia 1611 s aktualizáciou platformy 3 alebo novšou, musí správca systému splniť nasledujúce nevyhnutné predpoklady. 
@@ -68,17 +66,17 @@ Ak bola pre vašu organizáciu nasadená verzia 1611 s aktualizáciou platformy 
 <td>Správca systému</td>
 <td>KB 4018050 je aktualizácia X ++ alebo rýchla oprava metadát, ktorá obsahuje mobilný pracovný priestor <strong>Zadanie času projektu</strong>. Ak chcete implementovať KB 4018050, musí váš správca systému postupovať podľa týchto krokov.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Prevziať si rýchlu opravu metadát z Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Nainštalovať rýchlu opravu metadát</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Vytvoriť nasaditeľný balík,</a> ktorý obsahuje modely <strong>ApplicationSuite</strong> a <strong>ProjectMobile</strong>, a následne nahrať nasaditeľný balík do LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Použiť nasaditeľný balík</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Prevziať si rýchlu opravu metadát z Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Nainštalovať rýchlu opravu metadát</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Vytvoriť nasaditeľný balík,</a> ktorý obsahuje modely <strong>ApplicationSuite</strong> a <strong>ProjectMobile</strong>, a následne nahrať nasaditeľný balík do LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Použiť nasaditeľný balík</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Zverejnenie mobilného pracovného priestoru <strong>Project time entry</strong>.</td>
 <td>Správca systému</td>
-<td>Pozrite si <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Zverejnenie mobilného pracovného priestoru</a>.</td>
+<td>Pozrite si <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Zverejnenie mobilného pracovného priestoru</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -96,20 +94,23 @@ Stiahnite a nainštalujte mobilnú aplikáciu Finance and Operations:
 3.  Pri prvom prihlásení sa zobrazí výzva na zadanie používateľského mena a hesla. Zadajte svoje prihlasovacie údaje.
 4.  Po prihlásení sa zobrazia dostupné pracovné priestory pre vašu spoločnosť. Upozorňujeme, že ak váš správca systému zverejní nový pracovný priestor neskôr, budete musieť aktualizovať zoznam mobilných pracovných priestorov.
 
-[![Obnovenie potiahnutím](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Obnovenie potiahnutím.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Zadanie času pomocou mobilného pracovného priestoru Zadanie času projektu
 1.  Na svojom mobilnom zariadení vyberte pracovný priestor **Zadanie času projektu**.
 2.  Vyberte **Zadanie času**. Zobrazia sa kalendárne dátumy aktuálneho týždňa.
 3.  Pre vybraný dátum zvoľte **Akcie** &gt; **Nový vstup**.
 4.  Zadajte počet hodín, ktoré chcete zaznamenať.
-5.  Vyberte projekt pre zadanie času. Zoznam zobrazuje projekty, ktoré sa načítajú do vašej aplikácie na offline použitie. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie získate v časti [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Vyberte projekt pre zadanie času. Zoznam zobrazuje projekty, ktoré sa načítajú do vašej aplikácie na offline použitie. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie získate v časti [Mobilná platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Ak váš projekt nie je v zozname, vyberte **Vyhľadávanie**. Vyhľadávajte podľa názvu alebo prepnite na vyhľadávanie podľa názvu projektu alebo zákazníka.
-7.  Vyberte kategóriu. Zoznam zobrazí kategórie, ktoré sa načítajú do vašej aplikácie na offline použitie. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie získate v časti [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Vyberte kategóriu. Zoznam zobrazí kategórie, ktoré sa načítajú do vašej aplikácie na offline použitie. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie získate v časti [Mobilná platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Ak vaša kategória nie je v zozname, vyberte **Vyhľadávanie**. Vyhľadávajte podľa kategórie alebo prepnite na vyhľadávanie podľa názvu kategórie.
-9.  Vyberte aktivitu. Zoznam zobrazí aktivity, ktoré sa načítajú do vašej aplikácie na offline použitie. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie získate v časti [Mobilná platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Vyberte aktivitu. Zoznam zobrazí aktivity, ktoré sa načítajú do vašej aplikácie na offline použitie. Predvolene sa načíta 50 položiek, ale vývojár môže toto číslo zmeniť. Ďalšie informácie získate v časti [Mobilná platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Ak vaša aktivita nie je v zozname, vyberte **Vyhľadávanie**. Vyhľadávajte podľa čísla aktivity alebo prepnite na vyhľadávanie podľa účelu.
 
 11. Vyberte vlastnosť riadka.
 12. Voliteľne: Zadajte akékoľvek externé a interné komentáre.
 13. Vyberte **Hotovo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

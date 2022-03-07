@@ -1,21 +1,21 @@
 ---
-title: Kopírovanie projektových zmlúv – čiastočné
+title: Kopírovanie projektových zmlúv
 description: Táto téma poskytuje informácie o kopírovaní projektových zmlúv v Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 6da8e3ba8e062f3e06dc7f440caebdd93e496c65
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181426"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084269"
 ---
-# <a name="copy-project-contracts---lite"></a>Kopírovanie projektových zmlúv – čiastočné
+# <a name="copying-project-contracts"></a>Kopírovanie projektových zmlúv
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -26,7 +26,7 @@ Nové projektové zmluvy môžete vytvoriť ľahko vytvorením kópií existujú
 
 Otvorí sa dialógové okno, kde môžete zvoliť parametre kopírovanej zmluvy. V dialógovom okne sa nachádzajú nasledujúce polia. V závislosti od hodnôt, ktoré ste vybrali v tomto dialógovom okne sa môže proces kopírovania zmeniť.
 
-| **Pole** | **Opis** | **Nadväzujúci vplyv** |
+| **Pole** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
 | --- | --- | --- |
 | Predmet | Zadajte tému cieľovej zmluvy. Keď sa otvorí stránka dialógového okna, systém nastaví toto pole na názov zdrojovej zmluvy s doplnkom **kópia**. | Toto pole nemá žiadny následný dopad. |
 | Zákazník | Odkaz na záznam zákazníka spoločnosti zákazníka alebo obchodného vzťahu. Po otvorení dialógového okna systém nastaví toto pole na účet uvedený v zdrojovej zmluve. | Toto pole je primárnym zákazníkom v zmluve. |

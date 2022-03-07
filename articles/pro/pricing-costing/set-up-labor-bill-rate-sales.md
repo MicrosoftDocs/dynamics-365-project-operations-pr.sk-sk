@@ -2,24 +2,22 @@
 title: Nastavenie sadzieb fakturácie za prácu – čiastočné
 description: Táto téma poskytuje informácie o nastavení a sadzieb fakturácie práce v Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 26c3743283dd9032e044071b3127a2885ad5ae49
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181201"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004280"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Nastavenie sadzieb fakturácie za prácu – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Každý cenník obsahuje množinu pracovných cien alebo sadzieb za prácu, ktoré sú platné pre kontext a dátum platnosti uvedený v hlavičke cenníka. Fakturačné sadzby za čas v Dynamics 365 Project Operations je možné nastaviť iba v jednej mene, ktorou je mena v hlavičke cenníka.
+Každý cenník obsahuje množinu pracovných cien alebo sadzieb za prácu, ktoré sú platné pre kontext a dátum platnosti uvedený v hlavičke cenníka. Fakturačné sadzby za čas v rámci Dynamics 365 Project Operations je možné nastaviť iba v jednej mene, ktorou je mena v hlavičke Cenník.
 
 1. Ak chcete nastaviť sadzby fakturácie práce pre predajný cenník, vytvorte cenník na základe hlavičky cenníka. 
 2. Na karte **Ceny rol** vo vedľajšej mriežke stlačte možnosť **+ Pridať cenu roly**. 
@@ -55,3 +53,6 @@ Napríklad vývojárovi zo spoločnosti Fabrikam India pracujúcej na projekte v
     | Vývojár | Fabrikam US | $ 150 |
 
 3. Pripojte predajný cenník, **Sadzby fakturácie Fabrikam US** do cenníka projektu projektovej zmluvy alebo na určitý účet.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

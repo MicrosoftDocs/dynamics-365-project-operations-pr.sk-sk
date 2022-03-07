@@ -3,7 +3,7 @@ title: Použitie tabule plánovania na zarezervovanie zdrojov projektu
 description: Táto téma poskytuje informácie o požiadavkách na rezerváciu zdrojov.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144432"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084586"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Použitie tabule plánovania na zarezervovanie zdrojov projektu
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Okrem rezervačných prostriedkov na projekte v rámci projektu môžete z tabule plánovania predbežne aj pevne rezervovať zdroje.
 

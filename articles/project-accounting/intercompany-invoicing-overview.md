@@ -2,18 +2,17 @@
 title: Prehľad medzipodnikovej fakturácie
 description: Táto téma poskytuje informácie a príklady medzipodnikovej fakturácie pre projekty.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.custom: intro-internal
+ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595551"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369395"
 ---
 # <a name="intercompany-invoicing-overview"></a>Prehľad medzipodnikovej fakturácie
 
@@ -21,7 +20,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 Vaša organizácia môže mať viac divízií, dcérskych spoločností a ďalších právnych subjektov, ktoré si navzájom prenášajú produkty a služby na účely projektov. Právnická osoba, ktorá poskytuje službu alebo produkt, sa nazýva *požičiavajúca právnická osoba*. Právnická osoba, ktorá prijíma službu alebo produkt, sa nazýva *požičiavajúca si právnická osoba*.
 
-Nasledujúca ilustrácia ukazuje typický scenár, keď dve právnické osoby, Contoso Robotics USA (požičiavajúca si právnická osoba) a Contoso Robotics UK (požičiavajúca právnická osoba) zdieľajú zdroje na realizáciu projektu pre zákazníka, spoločnosť Adventure Works. Pre tento scenár má spoločnosť Contoso Robotics USA zmluvu na dodanie diela spoločnosti Adventure Works.
+Nasledujúci obrázok znázorňuje typický scenár, keď dva právne subjekty, Contoso Robotics USA (požičiavajúca si právnická osoba) a Contoso Robotics UK (požičiavajúca právnická osoba) zdieľajú zdroje na realizáciu projektu pre zákazníka, spoločnosť Adventure Works. Pre tento scenár je Contoso Robotics USA zmluvne poverená dodaním diela spoločnosti Adventure Works.
 
 ![Medzipodniková fakturácia](./media/IntercompanyScenario.png) 
 
@@ -43,3 +42,6 @@ Nasledujúci diagram ilustruje medzipodnikovú fakturáciu, pretože sa týka ú
 - [Konfigurácia medzipodnikovej fakturácie](configure-intercompany-invoicing.md)
 - [Záznam medzipodnikových transakcií](create-intercompany-transactions.md)
 - [Vytvorenie medzipodnikových faktúr zákazníkov a dodávateľov](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

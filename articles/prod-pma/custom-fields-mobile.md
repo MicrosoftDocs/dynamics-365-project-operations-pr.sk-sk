@@ -2,11 +2,9 @@
 title: Implementujte vlastné polia pre mobilnú aplikáciu Microsoft Dynamics 365 Project Timesheet pre iOS a Android
 description: Táto téma poskytuje bežné vzory používania rozšírení na implementáciu vlastných polí.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271012"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005770"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementujte vlastné polia pre mobilnú aplikáciu Microsoft Dynamics 365 Project Timesheet pre iOS a Android
 
@@ -155,13 +153,13 @@ Pre polia typu **Dátum**, táto vlastnosť odovzdá hodnotu dátumu poľa medzi
 
 Nižšie je snímka obrazovky z mobilnej aplikácie vytvorenia záznamu časového rozvrhu. Zobrazuje vopred pripravené polia a vlastné pole v sekcii „Zadávanie času“ s názvom „Testovací reťazec“ s hodnotou enum už nastavenej „Druhej možnosti”.
 
-![Vyskúšajte vlastné pole reťazca v aplikácii](media/timesheet-entry.jpg)
+![Vlastné pole Testovací reťazec v aplikácii.](media/timesheet-entry.jpg)
 
 
 
 Nižšie je uvedený obrázok obrazovky z mobilnej aplikácie používateľa, ktorý si vybral jednu z možností výčtu dostupných pre vlastné pole „Testovací reťazec“.  Dve možnosti sú „Prvá možnosť“ a „Druhá možnosť“ zobrazené ako prepínače. Druhá možnosť je momentálne vybraná.
 
-![Prepínače pre vlastné pole Testovací reťazec](media/enum-option.jpg)
+![Tlačidlá možností (prepínače) pre vlastné pole Testovací reťazec.](media/enum-option.jpg)
 
 
 
@@ -173,7 +171,7 @@ Upozorňujeme, že vlastné polia nemusia mať žiadne sprievodné záznamy data
 
 Nižšie je snímka obrazovky z Visual Studio stromu aplikačných objektov. Zobrazuje rozšírenie tabuľky TSTimesheetLine s poľom TestLineString pridaným ako vlastné pole.
 
-![Riadkový reťazec](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Riadkový reťazec.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Použite príkazový riadok v metóde buildCustomFieldList triedy TSTimesheetSettings na zobrazenie poľa v časti zadania časového rozvrhu
 
@@ -319,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Nižšie je snímka obrazovky z mobilnej aplikácie používateľa prezerajúceho si časový rozvrh. V pravom hornom rohu bolo vybrané tlačidlo „Viac informácií“, aby sa zobrazila možnosť „Zobraziť ďalšie podrobnosti“.  
 
-![Príkaz zobrazenia ďalších podrobností](media/show-more.png)
+![Príkaz zobrazenia ďalších podrobností.](media/show-more.png)
 
 Nižšie je snímka obrazovky z mobilnej aplikácie zobrazujúca časť „Viac” časového rozvrhu. Do sekcie hlavičky časového výkazu bolo pridané vlastné pole s názvom „Miera využitia tohto časového rozvrhu (vypočítané vlastné pole)“. Vo vlastnom poli je nastavená hodnota iba na čítanie „0,667“.
 
-![Časť Viac](media/more-section.jpg)
+![Časť Viac.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Rozšírte tabuľku TSTimesheetTable tak, aby mala vlastné pole
 
@@ -416,7 +414,7 @@ Existujúca logika pre funkčnosť časového rozvrhu na úrovni databázy bude 
 
 Z parametrov projektu môžete v mobilnej aplikácii urobiť hotové polia iba na čítanie alebo skryté. Nastavte možnosti v časti **Mobilné časové rozvrhy** na karte **Časový rozvrh** stránky **Parametre projektového riadenia a účtovníctva**.
 
-![Parametre projektu](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parametre projektu.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Zmena aktivít, ktoré sú k dispozícii na výber prostredníctvom rozšírení
 

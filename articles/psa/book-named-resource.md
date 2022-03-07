@@ -2,8 +2,6 @@
 title: Rezervujte pomenované zdroje zo zdrojových požiadaviek.
 description: Táto téma poskytuje informácie o rezervácii pomenovaných zdrojov pre požiadavku na všeobecné zdroje.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7a6370bde434b74d05e342240abd9bba84d34d8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145127"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013415"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Rezervujte pomenované zdroje zo zdrojových požiadaviek.
 
@@ -68,3 +66,6 @@ Toto je príklad, kedy sú potrebné viaceré pomenované zdroje na splnenie vš
 Hlavný rozdiel v tomto scenári je, že všeobecný zdroj zostáva priradený k tímovej úlohe a rezervované pomenované zdroje členov tímu nie sú priradené ako súčasť pozície. Projektový manažér môže priradiť prácu podľa zodpovedajúcich pomenovaných prostriedkov. Zobrazenie **odsúhlasenia** môže pomôcť projektovému manažérovi pri rozbití rezervácií naprieč viacerými zdrojmi na priradenie úlohy. To sa nerobí automaticky, pretože v každom scenári zložitejšie ako jednoduchý príklad vyššie, ako keď máte zväzok úloh, ktoré tvoria požiadavku, zámer, ako chce projektový manažér priradiť, je potrebné systémovo predpokladať. Vzhľadom k tomu, že systém nemôže pochopiť zámer, je pravdepodobné, že predpoklady budú iné, než je určené, a stane sa nesprávny alebo nepredvídateľný výsledok. Predvídateľný výsledok je, že všeobecný zdroj zostáva priradený, kým projektový manažér zámerne vytvorí úlohy, s pomocou zobrazenia **odsúhlasenia**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

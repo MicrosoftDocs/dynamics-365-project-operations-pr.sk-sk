@@ -2,11 +2,9 @@
 title: Vytvorenie vlastných polí a entít ako cenových dimenzií
 description: Táto téma poskytuje informácie o tom, ako vytvoriť vlastné množiny možností alebo entity.
 author: rumant
-manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642832"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000545"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Vytvorenie vlastných polí a entít ako cenových dimenzií
 
@@ -77,3 +75,6 @@ Nasledujúca grafika poskytuje pohľad na dimenziu **Pracovná doba zdroja**.
 5. Opakujte kroky 1 - 3 na vytvorenie ďalšieho štandardného názvu pre "Starší Systémový inžinier".
 
 > ![Vzorové údaje pre entitu Štandardný nadpis](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

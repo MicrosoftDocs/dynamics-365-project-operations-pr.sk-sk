@@ -2,24 +2,23 @@
 title: Prehľad procesu predaja
 description: Táto téma poskytuje informácie o základných predajných procesoch.
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: ed9731193e83eebd35e979adffcea529a289b9c5
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177620"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368360"
 ---
 # <a name="sales-process-overview"></a>Prehľad procesu predaja
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Predajné procesy, ktoré sa používajú v organizácii založenej na projekte, sa odlišujú od predajných procesov, ktoré sa používajú v organizácii založenej na produktoch. Tento sa vyskytuje, pretože predajné cykly pre organizácie založené na projekte sú dlhšie a vyžadujú prispôsobené metódy odhadu na analýzu a vytváranie cenových ponúk pre každú dohodu. Dynamics 365 Project Operations používa niektoré z nasledujúcich funkcií, ktoré sa používajú v procese predaja:
+Predajné procesy, ktoré sa používajú v organizácii založenej na projekte, sa odlišujú od predajných procesov, ktoré sa používajú v organizácii založenej na produktoch. Tento sa vyskytuje, pretože predajné cykly pre organizácie založené na projekte sú dlhšie a vyžadujú prispôsobené metódy odhadu na analýzu a vytváranie cenových ponúk pre každú dohodu. Dynamics 365 Project Operations využíva niektoré z nasledujúcich funkcií, ktoré sa používajú pri predajnom procese:
 
 - Záznam potenciálneho zákazníka sa používa na sledovanie procesu predaja.
 - Kvalifikačný potenciálni zákazníci sa sledujú ako príležitosti.
@@ -63,3 +62,6 @@ V Project Operations nie je možné sledovať revízie vykonané v cenovej ponuk
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Sledovanie komentárov a schválení cenových ponúk a projektových zmlúv
 Môžete spravovať preskúmanie a schvaľovanie cenových ponúk a projektových zmlúv pomocou záznamu múru a príspevkov. Vaša organizácia môže vytvoriť vlastné pracovné postupy a doplnky na priraďovanie, presmerovanie, eskaláciu a spravovanie upozornení o kontrole a schvaľovaní pracovných položiek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,13 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ce4f7bf8185e6f3f942df14d30d7b8d0a3e4444a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007930"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998700"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Prehľad integrácie duálneho zápisu Project Operations
 
@@ -23,7 +22,7 @@ Project Operations využíva [možnosti duálneho zápisu](/dynamics365/fin-ops-
 
 Nasledujúca ilustrácia ukazuje, ako sa synchronizujú údaje ako súčasť tejto integrácie medzi Dataverse a Finance.
 
-![Prehľad tokov údajov Project Operations.](./media/ProjectOperationsFlows.jpg)
+![Prehľad tokov údajov Project Operations](./media/ProjectOperationsFlows.jpg)
 
 Project Operations v Dataverse poskytujú moderné používateľské rozhranie (UI) a ľahkú rozšíriteľnosť bez kódu/s nízkym kódom pomocou možností Power Platform. Projektoví manažéri, manažéri zdrojov, členovia projektového tímu a ďalšie osobnosti front-office vykonávajú svoje činnosti v rámci Project Operations v Dataverse.
 

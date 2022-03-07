@@ -2,6 +2,8 @@
 title: Príručka správcu
 description: Podrobné pokyny pre správu Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8954964ee5503d338620221c24867d136dd8f217
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 90b66560e64d0aad32f3c18e71858537263267ef
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992727"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145782"
 ---
 # <a name="administrator-guide-project-service"></a>Príručka správcu (Project Service)
 
@@ -50,6 +52,3 @@ Táto príručka vás prevedie procesom inštalácie a konfigurácie:
  [Príručka manažéra obchodného vzťahu](../psa/account-manager-guide.md) [Príručka projektového manažéra](../psa/project-manager-guide.md)   
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)   
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

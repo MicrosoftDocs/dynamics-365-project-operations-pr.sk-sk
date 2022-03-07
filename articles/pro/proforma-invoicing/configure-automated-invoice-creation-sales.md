@@ -1,29 +1,25 @@
 ---
-title: Konfigurácia automatického vytvárania faktúr – čiastočné
-description: Táto téma poskytuje informácie o konfigurácii automatického vytvárania zálohových faktúr.
+title: Nastavenie automatického vytvárania faktúr
+description: Táto téma poskytuje informácie o nastavení a konfigurácii automatického vytvárania faktúr pro forma.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176585"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997535"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurácia automatického vytvárania faktúr – čiastočné
+# <a name="set-up-automatic-invoice-creation"></a>Nastavenie automatického vytvárania faktúr 
  
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Vzťahuje sa na:** Čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-V aplikácii Dynamics 365 Project Operations môžete nakonfigurovať automatické vytváranie faktúr. Systém vytvorí koncept zálohovej faktúry na základe plánu faktúr pre každú projektovú zmluvu a riadok zmluvy. Plány faktúr sa konfigurujú na úrovni riadka zmluvy. Každý riadok zmluvy môže mať samostatný plán faktúr alebo môže byť v každom riadku zmluvy uvedený rovnaký plán faktúr.
+V rámci Dynamics 365 Project Operations môžete konfigurovať automatické vytváranie faktúr. Systém vytvorí koncept zálohovej faktúry na základe plánu faktúr pre každú projektovú zmluvu a riadok zmluvy. Plány faktúr sa konfigurujú na úrovni riadka zmluvy. Každý riadok zmluvy môže mať samostatný plán faktúr alebo môže byť v každom riadku zmluvy uvedený rovnaký plán faktúr.
 
-Pri vytváraní faktúry systém vždy vytvorí minimálne jednu faktúru pre každú projektovú zmluvu. V niektorých prípadoch môže byť vytvorených viac faktúr.
-
-Napríklad, ak má zmluva viac zákazníkov, vytvorí sa rovnaký počet faktúr ako počet zákazníkov, ktorí majú fakturovateľné transakcie, ktoré sa majú fakturovať na základe tejto projektovej zmluvy.
+Pri vytváraní faktúry systém vždy vytvorí minimálne jednu faktúru pre každú projektovú zmluvu. V niektorých prípadoch môže byť vytvorených viac faktúr. Napríklad, ak má zmluva viac zákazníkov, vytvorí sa rovnaký počet faktúr ako počet zákazníkov, ktorí majú fakturovateľné transakcie, ktoré sa majú fakturovať na základe tejto projektovej zmluvy.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Pochopte, ako sú transakcie zahrnuté vo faktúre 
 
@@ -91,3 +87,6 @@ Dávková úloha pre vytváranie faktúr je opakujúca sa úloha. Ak je táto d�
 
 > [!NOTE]
 > Hromadná fakturácia v aplikácii Project Operations sa spustí iba pre riadky zmlúv projektu, ktoré sú konfigurované podľa plánov faktúr. Riadok zmluvy s metódou fakturácie podľa fixnej ceny musí mať nakonfigurované medzníky. V riadku zmluvy projektu s metódou fakturácie podľa času a materiálu bude potrebné zostaviť plán fakturácie založený na dátume.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

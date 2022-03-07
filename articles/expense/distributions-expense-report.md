@@ -2,18 +2,16 @@
 title: Rozdelenia vo výkaze výdavkov
 description: Keď zadáte výdavky do výkazu výdavkov, môžete ich rozdeliť medzi viaceré projekty, právnické osoby alebo účty vo vašej organizácii.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8c0ee3b9b989c644ab429310d1e7b4ef4b600dc3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e3e5faf6a0a4553ef19ded1e0a8cda386a51061
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120967"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002120"
 ---
 # <a name="distributions-on-an-expense-report"></a>Rozdelenia vo výkaze výdavkov
 
@@ -30,3 +28,6 @@ Pretože Nancy počas pobytu vo Frankfurte pracovala na dvoch samostatných proj
 | Vlakové cestovné   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Hotel        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Jedlá        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

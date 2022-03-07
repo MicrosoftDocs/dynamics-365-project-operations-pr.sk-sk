@@ -2,18 +2,16 @@
 title: Kopírovanie príležitostí založených na projekte
 description: Táto téma poskytuje informácie o tom, ako kopírovať príležitosti založené na projekte v Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181702"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999740"
 ---
 # <a name="copy-project-based-opportunities"></a>Kopírovanie príležitostí založených na projekte
 
@@ -34,3 +32,6 @@ Projektové príležitosti možno ľahko kopírovať a vytvoriť tak nové príl
     | Kopírovať cenu | Hodnota Áno/Nie, ktorá označuje, či sa má cena z príležitosti kopírovať zo zdrojovej príležitosti. | Ak je vybraná možnosť **Áno**, cenníky sa skopírujú zo zdroja do cieľovej príležitosti. Ak je vybraná možnosť **Nie**, cenníky sa znova predvolene nastavujú na základe najnovších cenníkov, ktoré boli nastavené. |
 
 3. Vyberte položku **OK**. Systém vytvorí kópiu projektovej príležitosti na základe zvolených parametrov a otvorí sa nová projektová príležitosť.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

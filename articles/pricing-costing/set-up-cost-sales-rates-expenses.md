@@ -2,18 +2,16 @@
 title: Nastavenie nákladových a predajných sadzieb pre výdavky
 description: Táto téma poskytuje informácie o tom, ako nastaviť cenu a sadzby predaja pre kategórie transakcie a výdavkov.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
-ms.translationtype: HT
+ms.openlocfilehash: 0c5e7b1ab03a170ca95a005985a13aaff7494f95ca15cf1ce726674ae9a14222
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877239"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986240"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Nastavenie nákladových a predajných sadzieb pre výdavky
 

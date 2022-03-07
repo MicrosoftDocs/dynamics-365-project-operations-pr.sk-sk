@@ -2,18 +2,16 @@
 title: Správa projektových zmlúv
 description: Táto téma poskytuje informácie o prezeraní projektových zmlúv.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5e2f182f66bd1f4fe57d19e4bf82525ac8b84c29
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177350"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003110"
 ---
 # <a name="manage-project-contracts"></a>Správa projektových zmlúv
 
@@ -33,3 +31,6 @@ Zoznam všetkých projektových zmlúv je uvedený na stránke so zoznamom **Zml
 2. Vyberte ikonu **Prepínač zobrazení** (šípka rozbaľovacej ponuky vedľa názvu zobrazenia) a vyberte ďalšie filtrované zobrazenia. Môžete si vytvoriť svoje vlastné zobrazenia pomocou vlastných kritérií filtra.
 
 Zmluvy je možné vytvárať alebo mazať z tejto stránky so zoznamom alebo zo stránok s podrobnosťami.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

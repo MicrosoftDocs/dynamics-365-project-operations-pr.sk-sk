@@ -2,11 +2,9 @@
 title: Prideliť rozpočet projektu alebo jeho revíziu na jednotlivé obdobia
 description: Tento postup ukazuje, ako rozdeliť sumy rozpočtu projektu na jednotlivé obdobia.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b332be67ffdab0156997eb223d8a31af6ced3ef
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 33ea8489af5fd77980d6de376327f263a46d99c9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084422"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996495"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Prideliť rozpočet projektu alebo jeho revíziu na jednotlivé obdobia
 
@@ -44,3 +42,6 @@ Po pridelení rozpočtu alebo revízie rozpočtu môžete skontrolovať sumy pri
 10. Ak je pridelenie požadované, kliknite na tlačidlo Odoslať na stránke Rozpočet projektu a odošlete rozpočet alebo revízie rozpočtu do pracovného postupu schválenia.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

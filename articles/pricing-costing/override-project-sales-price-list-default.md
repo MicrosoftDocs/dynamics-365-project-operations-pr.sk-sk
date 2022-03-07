@@ -2,19 +2,17 @@
 title: Prepísanie projektových predajných cenníkov
 description: Táto téma poskytuje informácie o vytváraní prispôsobených predajných cenníkov.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
-ms.translationtype: HT
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672250"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009595"
 ---
 # <a name="override-project-sales-price-lists"></a>Prepísanie projektových predajných cenníkov
 
@@ -52,3 +50,6 @@ Môžete použiť každý z týchto cenníkov a aktualizovať ceny práce (cena 
 V projektovej zmluve je projektová cena vždy predvolená ako vlastný cenník s názvom zmluvy a časovou pečiatkou vytvorenia pripojenou k názvu. To platí bez ohľadu na to, či bola zmluva vytvorená pri získaní cenovej ponuky, alebo či bola zmluva vytvorená úplne od začiatku. V prípade potreby môžete toto priradenie k vlastnému cenníku odstrániť a namiesto toho priradiť štandardný cenník k projektovej zmluve.
 
 Ak priraďujete štandardný cenník k projektovým cenníkom v cenovej ponuke alebo zmluve, akékoľvek zmeny cien v cenníku ovplyvnia všetky cenové ponuky a zmluvy, ktoré používajú cenník.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

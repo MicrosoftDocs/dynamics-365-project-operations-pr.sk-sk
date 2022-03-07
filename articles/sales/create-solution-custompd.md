@@ -2,18 +2,16 @@
 title: Vytvorenie riešenia pre vlastné cenové dimenzie
 description: Táto téma poskytuje informácie o vytváraní riešení pre vlastné cenové dimenzie.
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514023"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010355"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Vytvorenie riešenia pre vlastné cenové dimenzie
 
@@ -64,3 +62,6 @@ Pridajte do svojho cenového riešenia nasledujúce entity Project Service, aby 
 5.  Po zobrazení výzvy na zahrnutie akýchkoľvek závislých entít pre vybrané entity vyberte **Nie, nezahŕňať požadované komponenty.**
 
     ![Vrátane závislých entít](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

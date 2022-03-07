@@ -2,18 +2,16 @@
 title: Denník integrácie v aplikácii Project Operations
 description: Táto téma poskytuje informácie o práci s denníkom integrácie v aplikácii Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948349"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987950"
 ---
 # <a name="integration-journal-in-project-operations"></a>Denník integrácie v aplikácii Project Operations
 
@@ -21,14 +19,14 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 Časové a výdavkové položky vytvoria transakcie **Skutočná hodnota**, ktoré predstavujú operatívny pohľad na prácu dokončenú na projekte. Dynamics 365 Project Operations poskytuje účtovníkom nástroj na kontrolu transakcií a úpravu účtovných atribútov podľa potreby. Po dokončení kontroly a úprav sa transakcie zapíšu do vedľajšej účtovnej knihy projektu a hlavnej účtovnej knihy. Účtovník môže vykonávať tieto činnosti pomocou denníka **Integrácia Project Operations** (**Dynamics 365 Finance** > **Projektový manažment a účtovníctvo** > **Denníky** > **Integrácia Project Operations**.
 
-![Postup integračného denníka](./media/IntegrationJournal.png)
+![Postup integračného denníka.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Vytvorenie záznamov v denníku Integrácia Project Operations
 
 Záznamy v denníku Integrácia Project Operations sa vytvárajú pomocou periodického procesu **Import z pracovnej verzie tabuľky**. Tento proces môžete spustiť v ponuke **Dynamics 365 Finance** > **Projektový manažment a účtovníctvo** > **Periodické** > **Integrácia Project Operations** > **Import z pracovnej verzie tabuľky**. Proces môžete spustiť interaktívne alebo ho podľa potreby nakonfigurovať tak, aby bežal na pozadí.
 
 Po periodickom spúšťaní procesu sa nájdu všetky skutočné hodnoty, ktoré ešte nie sú pridané do denníka Integrácia Project Operations. Pre každú skutočnú transakciu sa vytvorí záznam v účtovnom denníku.
-Systém zoskupuje záznamy v účtovnom denníku do samostatných denníkov na základe hodnoty vybranej v poli **Jednotka periódy v denníku Integrácia Project Operations** (**Financie** > **Projektový manažment a účtovníctvo** > **Nastavenie** > **Parametre projektového manažmentu a účtovníctva**, karta **Project Operations v Dynamics 365 Customer Engagement**). Možné hodnoty pre toto pole sú:
+Systém zoskupuje záznamy v účtovnom denníku do samostatných denníkov na základe hodnoty vybranej v poli **Jednotka periódy v denníku Integrácia Project Operations** (**Finance** > **Projektový manažment a účtovníctvo** > **Nastavenie** > **Parametre projektového manažmentu a účtovníctva**, karta **Project Operations v Dynamics 365 Customer Engagement**). Možné hodnoty pre toto pole sú:
 
   - **Dni**: Skutočné hodnoty sú zoskupené podľa dátumu transakcie. Pre každý deň sa vytvára samostatný denník.
   - **Mesiace**: Skutočné hodnoty sú zoskupené podľa kalendárnych mesiacov. Pre každý mesiac sa vytvára samostatný denník.

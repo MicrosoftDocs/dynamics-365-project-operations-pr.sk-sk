@@ -2,17 +2,17 @@
 title: Zakúpenie neskladovaných materiálov použitím čakajúcej faktúry dodávateľa
 description: Táto téma vysvetľuje, ako zaznamenávať čakajúce faktúry dodávateľa.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993831"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547308"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Zakúpenie neskladovaných materiálov použitím čakajúcej faktúry dodávateľa
 
@@ -20,7 +20,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 Keďže spoločnosť obstaráva pre projekt neskladované materiály, náklady je možné okamžite zaznamenať oproti projektu. 
 
-Napríklad Contoso Robotics US realizuje projekt obnovy zariadenia a potrebuje softvérové licencie. Tieto licencie sú obstarávané od dodávateľa tretej strany.  Použitím Dynamics 365 Finance, referent pre účty zaúčtuje dokument faktúry čakajúceho dodávateľa a pripíše náklady na licenciu priamo oproti projektu obnovy zariadenia. 
+Spoločnosť Contoso Robotics USA napríklad vykonáva projekt obnovy zariadenia a potrebuje softvérové licencie. Tieto licencie sú obstarávané od dodávateľa tretej strany.  Použitím Dynamics 365 Finance, referent pre účty zaúčtuje dokument faktúry čakajúceho dodávateľa a pripíše náklady na licenciu priamo oproti projektu obnovy zariadenia. 
 
 > [!IMPORTANT]
 > Pred použitím funkcií popísaných v tejto téme si prečítajte a vykonajte požadované konfigurácie. Viac informácií nájdete v časti [Povoliť neskladované materiály a čakajúce faktúry dodávateľa](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ Faktúry čakajúcich dodávateľov možno zaznamenať na stránke **Čakajúce 
     - Suma zostatku dodávateľa.
     - Suma dane z predaja.
     - Náklady oproti projektu sa zaznamenajú na účet integrácie obstarávania.
-    - Skutočná transakcia projektu v Dataverse. Táto transakcia sa ďalej spracováva pomocou [denníka integrácie Project Operations](../project-accounting/project-operations-integration-journal.md). Zaúčtovaním tohto denníka sa suma presunie z účtu integrácie obstarávania do účtu nákladov na projekt.
+    - Transakcia skutočných nákladov projektu v Dataverse.  Táto transakcia sa ďalej spracováva pomocou [denníka integrácie Project Operations](../project-accounting/project-operations-integration-journal.md). Zaúčtovaním tohto denníka sa suma presunie z účtu integrácie obstarávania do účtu nákladov na projekt. 
+    - Nákupy, ktoré sú fakturované zákazníkovi projektu pomocou metódy účtovania času a materiálu. Navyše sa vytvoria nevyfakturované predajné transakcie pre nákupy v Dataverse. Cenník produktov v Dataverse sa používa pre predajné ceny a sumy pre nevyfakturované predajné transakcie.

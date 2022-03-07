@@ -2,11 +2,9 @@
 title: Výkon plánovania projektového zdroja
 description: Táto téma poskytuje informácie o tom, ako zlepšiť výkon plánovania prostriedkov pre veľký počet projektov.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084347"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007300"
 ---
 # <a name="project-resource-scheduling-performance"></a>Výkon plánovania projektového zdroja
 
@@ -69,3 +67,6 @@ Ak chcete povoliť vylepšenie výkonu plánovania prostriedkov, vykonajte nasle
 
 > [!NOTE]
 > Toto bude distribuovať všeobecné údaje do tabuľky **ResRollup** naprieč všetkými spoločnosťami vo vašom prostredí, takže dávkovú prácu je potrebné spustiť iba v jednej právnickej osobe. Táto hromadná úloha je potrebná pre všetky zobrazenia **Dostupnosť zdrojov**. Ak táto dávková úloha nie je spustená, údaje **ResRollup** sa budú generovať za chodu, čo môže chvíľu trvať.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

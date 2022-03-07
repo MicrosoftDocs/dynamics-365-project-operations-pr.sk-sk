@@ -3,7 +3,7 @@ title: Priebeh projektu a využitie nákladov
 description: Táto téma poskytuje informácie o tom, ako sledovať priebeh projektu a spotrebu nákladov.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3b60f72b371a76a59216b0b528d8e63513b06e0d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148032"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084525"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Priebeh projektu a využitie nákladov
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

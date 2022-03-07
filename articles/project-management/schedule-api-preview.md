@@ -2,22 +2,23 @@
 title: Na vykonávanie operácií s entitami plánovania použite rozhrania API pre plánovanie projektu
 description: Táto téma poskytuje informácie a ukážky použitia rozhraní API plánovania projektu.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487704"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008785"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Na vykonávanie operácií s entitami plánovania použite rozhrania API pre plánovanie projektu
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-
+> [!IMPORTANT] 
+> Niektoré alebo všetky z funkcií uvádzaných v tejto téme sú k dispozícii ako súčasť vydania verzie Preview. Obsah a funkcie sa môžu zmeniť. 
 
 ## <a name="scheduling-entities"></a>Entity na plánovanie
 

@@ -2,11 +2,9 @@
 title: Vytvorenie odhadov v riadku cenovej ponuky
 description: Táto téma poskytuje informácie o tom, ako vytvoriť odhad riadku cenovej ponuky pre projekt.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122947"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996455"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Vytvorenie odhadov v riadku cenovej ponuky
 
@@ -88,3 +86,6 @@ Ak ste do podrobností riadka cenovej ponuky pridali vlastné pole a chcete, aby
 7. Kliknite na tlačidlo **OK** pre zatvorenie dialógového okna a potom vyberte **aktualizovať krok.**
 8. Opakujte kroky 1 až 7 pre druhý doplnok.
 9. Zatvorte nástroj PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

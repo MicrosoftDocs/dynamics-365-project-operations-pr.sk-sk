@@ -3,17 +3,17 @@ title: Správanie používateľského rozhrania pri zadávaní času
 description: Táto téma poskytuje informácie o správaní používateľského rozhrania pri zadávaní času.
 author: stsporen
 manager: AnnBe
-ms.date: 03/03/2021
+ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499633"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084299"
 ---
 # <a name="time-entry-ui-behavior"></a>Správanie používateľského rozhrania pri zadávaní času
 
@@ -21,19 +21,6 @@ _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýb
 
 
 Mriežka **Zadanie týždenného času** je vlastný ovládací prvok, ktorý má dve časti, **Dimenzie** a **Trvanie**.
-
-## <a name="keyboard-shortcuts"></a>Klávesové skratky
-| Činnosť        | Odkaz                  |
-|------------   |------------------------   |
-| Nový           | Alt + Shift + n           |
-| Kopírovať riadok      | Alt + Shift + c           |
-| Upraviť zadanie    | Alt + Shift + e           |
-| Upraviť riadok      | Alt + Shift + Ctrl + e    |
-| Otvoriť zadanie    | Alt + Shift + o           |
-| Odoslať        | Alt + Shift + s           |
-| Odvolať        | Alt + Shift + r           |
-| Delete        | Alt + Shift + d           |
-| Kopírovať týždeň     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimenzie
 Časti **Dimenzie** zobrazujú dimenzie, proti ktorým možno zadávať čas. Nasledujúce dimenzie sú predpripravené:
@@ -98,6 +85,3 @@ Po vytvorení niekoľkých časových záznamov môžu používatelia vytvoriť 
 
 ## <a name="import"></a>Import
 Rovnaký základný proces sa používa na import z rezervácií, úloh a výmen. Môžete určiť rozsah dátumov, z ktorého sa importujú rezervácie, a potom explicitne vybrať rezervácie, ktoré sa majú skopírovať do konceptu zadaní času. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

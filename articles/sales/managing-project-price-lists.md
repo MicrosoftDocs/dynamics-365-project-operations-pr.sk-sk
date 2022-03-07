@@ -2,11 +2,9 @@
 title: Správa projektových cenníkov v cenovej ponuke
 description: Táto téma poskytuje informácie o entite Projektový cenník.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177215"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003925"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Správa projektových cenníkov v cenovej ponuke
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Dynamics 365 Project Operations rozširuje entitu Cenník v službe Dynamics 365 Sales. 
+Dynamics 365 Project Operations rozširuje cenníkovú entitu v Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Kľúčové entity
 
@@ -120,3 +118,6 @@ Rovnako ako fakturačné sadzby, ceny za ľudské zdroje sú tiež nastavené po
     1. Cenník, ktorý je pripojený k organizačnej jednotke.
     2. Cenník, ktorý je pripojený k parametrom Project Operations. Vzhľadom na to, že obstarávacie cenníky v mnohých rôznych menách môžu byť pripojené k parametrom, PSA prebehne spárovanie menu medzi menou zmluvnej organizačnej jednotky projektu, zmluvy alebo cenovej ponuky a menou obstarávacieho cenníka.
     3. V prípade výdavkov sa metódy oceňovania nákladov a prirážky za cenu nevzťahujú na zoznamy cenových cien. Aj v prípade, že sa tieto metódy oceňovania používajú v riadkoch cenníka nákladových cien na nastavenie nákladovej kategórie, systém ich ignoruje a nezadá sa žiadna predvolená cena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

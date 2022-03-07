@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147403"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124117"
 ---
 # <a name="soft-book-requirements"></a>Požiadavky na predbežnú rezerváciu.
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Požiadavku na zdroje možno rezervovať na pevno. Pevná rezervácia vytvára návrh, ktorý spotrebuje kapacitu prostriedku. Návrh sa potom odošle späť žiadateľovi na schválenie. Predbežná rezervácia predbežne pridá zdroj do projektového tímu a má iný stav na tabuli plánovania, ale nespotrebuje kapacitu prostriedku. Na predbežné rezervovanie zdroja na tabuli plánovania nastavte pole **Stav rezervácie** na **Predbežné**.
 

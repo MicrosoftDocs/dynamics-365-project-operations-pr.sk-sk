@@ -2,12 +2,10 @@
 title: Odhadnite tržby a náklady projektu, keď rezervovateľný zdroj plní pre projekt viac rolí
 description: Táto téma poskytuje informácie o spôsobe používania dimenzie cien na podporu cien a nákladov pre zdroj, ktorý v projekte plní viac rolí.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145062"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987500"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Odhadnite tržby a náklady projektu, keď rezervovateľný zdroj plní pre projekt viac rolí 
 
@@ -74,3 +72,6 @@ Keď rozbalíte riadok záznamu daného člena tímu, uvidíte v zázname člena
 Keď prejdete na mriežku **Odhady**, všimnete si, že obidve priradenia toho istého zdroja majú rozdielnu cenu.
 Cena za priradenie zdroja v úlohe A sa stanoví pomocou hodnoty atribútu **Rola** položky **Vedúci konzultant**. Cena za priradenie rovnakého zdroja v úlohe B sa stanoví pomocou hodnoty atribútu **Rola** položky **Sieťový technik**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

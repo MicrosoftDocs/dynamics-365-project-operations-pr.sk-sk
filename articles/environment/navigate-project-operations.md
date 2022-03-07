@@ -2,18 +2,16 @@
 title: Navigácia v aplikácii Project Operations
 description: Táto téma poskytuje informácie o tom, ako pristupovať k Project Operations z Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642067"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994610"
 ---
 # <a name="navigate-project-operations"></a>Navigácia v aplikácii Project Operations
 
@@ -30,11 +28,14 @@ Po nasadení aplikácie Project Operations, ako je popísané v tejto téme, str
 
 Použite názov prostredia v sekcii **Názov prostredia Common Data Service** na prechod na Project Operations v prostredí CDS. 
 
-  ![Názov prostredia Common Data Service](./media/environment-name.PNG)
+  ![Názov prostredia Common Data Service.](./media/environment-name.PNG)
 
 Vyberte **Prihlásiť sa** > **Prihláste sa do prostredia** a prejdite do modulu **Projektový manažment a účtovníctvo** vo Financie.  
 
-   ![Prihláste sa do Financií](./media/environment-login.PNG)
+   ![Prihláste sa do Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > K aplikácii Project Operations v Common Data Service a k modulu **Projektový manažment a účtovníctvo** môžete pristupovať priamo pomocou príslušných adries URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e417a24d5291fa88dee6583f11439eac0a44a574
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5dd853bfb41c6f2cd20965733a78eafdbbeb794b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145737"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291773"
 ---
 # <a name="recording-actuals"></a>Nahrávanie správnych údajov 
 
@@ -34,3 +34,6 @@ ms.locfileid: "5145737"
 Všetky finančné transakcie, ktoré nastanú počas projektu sú zaznamenané. Tieto transakcie sa zaznamenávajú ako **skutočné údaje**. Nasledujúca tabuľka zobrazuje rôzne typy skutočných údajov, ktoré sú vytvorené, v závislosti od toho, či je projekt, čas a materiál alebo projekt s pevnou cenou, alebo interný projekt, alebo či je v štádiu predpredaja.
 
 > ![Tabuľka ukazujúca, ako sa zaznamenávajú skutočné údaje](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Správa faktúry pro forma – čiastočné
-description: Táto téma poskytuje informácie o práci s faktúrami pro forma.
+title: Správa projektovej faktúry pro forma
+description: Táto téma poskytuje informácie o tom, ako pracovať s projektovými faktúrami pro forma.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181561"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866925"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Správa faktúry pro forma – čiastočné
+# <a name="manage-a-proforma-project-invoice"></a>Správa projektovej faktúry pro forma 
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -69,9 +69,9 @@ V aplikácii Project Operations je vždy jeden riadok faktúry pre každý riado
 
 Každý riadok faktúry vo faktúre projektu obsahuje podrobnosti o riadku faktúry. Tieto podrobnosti o riadku súvisia s nevyfakturovanými skutočnými hodnotami a medzníkmi predaja, ktoré sa týkajú riadku zmluvy, na ktorý odkazuje riadok faktúry. Všetky tieto transakcie sú označené ako **Pripravené na fakturáciu**.
 
-Pre riadok **Faktúra za čas a materiál**, sú podrobnosti o riadku faktúry zoskupené do **Účtovateľné**, **Neúčtovateľné** a **Bezplatné** na stránke **Riadok faktúry**. Podrobnosti **Účtovateľný riadok faktúry** sa pripočítavajú do celkovej sumy riadkov faktúry. **Bezplatné** a **Neúčtovateľné skutočné hodnoty** sa nepripočítavajú do celkovej sumy riadkov faktúry.
+Pre riadok **Faktúra za čas a materiál** sú podrobnosti riadku faktúry sú zoskupené na stránke **Účtovateľné**, **Neúčtovateľné** a **Zadarmo** na stránke **Riadok faktúry**. Podrobnosti **Účtovateľný riadok faktúry** sa pripočítavajú do celkovej sumy riadkov faktúry. **Bezplatné** a **Skutočné neúčtovateľné hodnoty** sa nezapočítavajú do celkovej sumy riadkov faktúry.
 
-Pre riadok **Faktúra s pevnou cenou** sa podrobnosti riadka faktúry vytvárajú z medzníkov, ktoré sú označené ako **Pripravené na fakturáciu** na príslušnom riadku zmluvy. Po vytvorení detailu riadka faktúry z medzníka sa stav fakturácie v medzníku aktualizuje na **Bola vytvorená faktúra pre zákazníka**.
+Pre riadok **Faktúra s pevnou cenou** sa podrobnosti riadka faktúry sa vytvárajú z medzníkov, ktoré sú označené ako **Pripravené na fakturáciu** na príslušnom riadku zmluvy. Po vytvorení detailu riadka faktúry z medzníka sa stav fakturácie v medzníku aktualizuje na **Bola vytvorená faktúra pre zákazníka**.
 
 ### <a name="edit-invoice-line-details"></a>Úprava podrobností riadka faktúry
 
@@ -98,8 +98,12 @@ Nasledujúce polia sú k dispozícii v podrobnosti riadka faktúry, za ktorým s
 | **Daň** | Nastavené predvolene zo skutočných údajov zdroja. Pole môže používateľ upravovať | Toto pole môže používateľ upravovať pri vytváraní podrobností nového riadka faktúry bez podloženia skutočnými hodnotami. |
 | **Celková suma** | Vypočítavané pole, vypočítané ako **Suma + daň**. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. | &nbsp; |
 | **Typ fakturácie** | Nastavené predvolene zo skutočných údajov zdroja. Pole môže používateľ upravovať. | Výberom možnosti **Účtovateľné** sa pridá riadok k celkovej sume riadkov faktúry. **Bezplatné** a **Neúčtovateľné** sa vylúči z celkovej sumy riadkov faktúry. |
+| **Vyberte produkt** | Toto pole je iba na čítanie, a je predvolene nastavené zo zdroja skutočných hodnôt. | Keď vytvoríte nový detail riadku faktúry bez podkladovej skutočnej hodnoty, toto pole je možné upraviť. |
+| **Produkt** | Toto pole je iba na čítanie, a je predvolene nastavené zo zdroja skutočných hodnôt. | Keď vytvoríte nový detail riadku faktúry bez podkladovej skutočnej hodnoty, toto pole je možné upraviť, ak je pole **Vyberte produkt** nastavené na **Existujúci produkt**. |
+| **Názov produktu** | Toto pole je iba na čítanie, a je predvolene nastavené zo zdroja skutočných hodnôt. | V detaile nového riadku faktúry, kde je ID produktu vybraté z katalógu, je toto pole nastavené na názov produktu. V prípade pridávaného produktu je pole nastavené na názov pridávaného produktu. |
+| **Opis pridaného** | Toto pole je iba na čítanie, a je predvolene nastavené zo zdroja skutočných hodnôt. | Keď vytvoríte nový detail riadku faktúry bez podkladovej skutočnej hodnoty, môžete k produktu pridať popis. |
 | **Typ transakcie** | Nastavené predvolene zo skutočných údajov zdroja. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. | Predvolene nastavené na **Fakturovaný predaj** a uzamknuté pri vytváraní novej **Podrobnosti o riadku faktúry** bez podloženia skutočnými hodnotami.  |
-| **Trieda transakcie** | Nastavené predvolene zo skutočných údajov zdroja. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. | Nastavené predvolené na základe toho, či sa používateľ rozhodne vytvoriť podrobnosti riadku faktúry pre **Čas**, **Výdavky** alebo **Poplatok** pri súčasnom vytváraní novej **Podrobnosti o riadku faktúry** bez podloženia skutočnými hodnotami. Uzamknuté pre úpravy. |
+| **Trieda transakcie** | Nastavené predvolene zo skutočných údajov zdroja. Pole iba na čítanie, ktoré je uzamknuté pred úpravami. | Nastavené ako predvolené na základe toho, či sa používateľ rozhodne vytvoriť detail riadka faktúry **Čas**, **Výdavky**, **Materiál** alebo **Poplatok** pri súčasnom vytvorení **Detailu riadku faktúry** bez podkladovej skutočnej hodnoty. Uzamknuté pre úpravy. |
 
 Nasledujúce polia sú k dispozícii v podrobnosti riadka faktúry, ktorý je podložený medzníkom:
 
@@ -144,3 +148,6 @@ Ak máte skutočné údaje, ktoré prišli po vytvorení faktúry, môžete ich 
 V Project Operations môžete vytvoriť riadky faktúry pre produkty, ktoré sa nevzťahujú na žiadny projekt, alebo pre všetky projekty spolu s riadkami faktúr založenými na projektoch. Tieto riadky faktúry sa vytvárajú ako riadky zmlúv založené na produktoch a po označení ako pripravené na fakturáciu sa pridávajú ako riadky faktúr na založené na produktoch.
 
 Po pridaní riadkov faktúr založených na produktoch ich nie je možné zmeniť. Môžu byť však vymazané z konceptu faktúry pro forma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

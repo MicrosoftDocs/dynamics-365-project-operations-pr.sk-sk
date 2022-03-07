@@ -2,6 +2,8 @@
 title: Zobrazte fakturovateľné využívanie zdrojov
 description: Táto téma poskytuje informácie o zobrazení využitia zdrojov.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992853"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084386"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Zobrazte fakturovateľné využívanie zdrojov
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Zobrazenie využitia** na stránke **využitie zdrojov Project Service** zobrazuje účtovateľné využitie pre každý rezervovateľný zdroj. Pretože je zobrazenie založené na tabule plánovania, vďaka čomu tu nájdete veľa rovnakých funkcií.
 
@@ -99,6 +99,3 @@ Ak nevidíte účtovateľné využitie, tu sú niektoré veci môžete skontrolo
   - Úloha na riadku zmluvy projektu podporu projektu bol nastavený non-zdaniteľné.
   - Projekt nemá priradený riadok zmluvy.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

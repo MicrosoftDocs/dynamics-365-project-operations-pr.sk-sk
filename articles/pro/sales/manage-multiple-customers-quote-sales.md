@@ -2,18 +2,16 @@
 title: Spravovanie viacerých zákazníkov v projektových cenových ponukách – čiastočné
 description: Táto téma poskytuje informácie o práci na cenových ponukách s viacerými zákazníkmi, ktorí budú financovať projekt. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181659"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440796"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Spravovanie viacerých zákazníkov v projektových cenových ponukách – čiastočné
 
@@ -39,7 +37,7 @@ Zákazník cenovej ponuky môže byť vytvorený, aktualizovaný alebo vymazaný
 
 | **Pole** | **Miesto** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |
-| Konto | Upraviteľná mriežka na karte **Zákazníci cenovej ponuky** a vo formulároch **Hlavné** a **Rýchle vytvorenie** pre zákazníka cenovej ponuky. | Zobrazenie zoznamu všetkých aktívnych účtov. Po vytvorení záznamu je toto pole uzamknuté. Ak ho chcete aktualizovať, odstráňte záznam a znova ho vytvorte. Ak ste zaznamenali akékoľvek skutočné hodnoty alebo ak je záznam cenovej ponuky zákazníka primárnym zákazníkom, budete môcť záznam odstrániť. | Zákazníci cenových ponúk sa pri vytváraní riadkov cenových ponúk kopírujú ako zákazníci cenových ponúk. Po získaní cenovej ponuky sa zákazníci cenovej ponuky prekopírujú aj k zákazníkom so zmluvou o projekte. |
+| Konto | Upraviteľná mriežka na karte **Zákazníci cenovej ponuky** a vo formulároch **Hlavné** a **Rýchle vytvorenie** pre zákazníka cenovej ponuky. | Zobrazenie zoznamu všetkých aktívnych účtov. Po vytvorení záznamu je toto pole uzamknuté. Ak ho chcete aktualizovať, odstráňte záznam a znova ho vytvorte. Ak ste zaznamenali nejaké skutočné údaje alebo ak je záznam zákazníka v cenovej ponuky primárnym zákazníkom, nebudete môcť záznam vymazať. | Zákazníci cenových ponúk sa pri vytváraní riadkov cenových ponúk kopírujú ako zákazníci cenových ponúk. Po získaní cenovej ponuky sa zákazníci cenovej ponuky prekopírujú aj k zákazníkom so zmluvou o projekte. |
 | Percento rozdelenia fakturácie | Upraviteľná mriežka na karte **Zákazníci cenovej ponuky** a vo formulároch **Hlavné** a **Rýchle vytvorenie** pre zákazníka cenovej ponuky. | Predstavuje percento každej nevyfakturovanej predajnej transakcie, ktorá sa pripíše tomuto zákazníkovi cenovej ponuky. | Skopírované do nových riadkov cenových ponúk a zmluvných zákazníkov projektu. |
 | Meno kontaktu platiteľa | Upraviteľná mriežka na karte **Zákazníci cenovej ponuky** a vo formulároch **Hlavné** a **Rýchle vytvorenie** pre zákazníka cenovej ponuky. | Toto je textové pole a malo by sa použiť na identifikáciu kontaktnej osoby pre zákazníka. Sú predvolené zo záznamu súvisiaceho obchodného vzťahu | Skopírované do zmluvných zákazníkov projektu po získaní cenovej ponuky a následne do poľa Meno kontaktu platiteľa na faktúre, ktorá je generovaná pre tohto zákazníka. |
 | Fakturačné meno | Upraviteľná mriežka na karte **Zákazníci cenovej ponuky** a vo formulároch **Hlavné** a **Rýchle vytvorenie** pre zákazníka cenovej ponuky. | Toto textové pole by sa malo použiť na identifikáciu kontaktnej osoby faktúry pre zákazníka. | Skopírované do zmluvných zákazníkov projektu po získaní cenovej ponuky a následne do poľa **Meno kontaktu platiteľa** na faktúre, ktorá je generovaná pre tohto zákazníka. |
@@ -52,3 +50,6 @@ Zákazník cenovej ponuky môže byť vytvorený, aktualizovaný alebo vymazaný
 Percentuálne podiely rozdelenia fakturácie môžete upraviť pomocou prostredia na úpravy v mriežke. Ak percentá rozdelenia fakturácie nedosiahnu 100 %, dôjde k chybe. Po aktualizácii percentuálnych podielov rozdelenia fakturácie chybu obnovte obnovením stránky.
 
 Môžete tiež skúsiť vybrať **Rovnomerne distribuovať** na vedľajšej mriežke zákazníkov cenovej ponuky. Táto akcia prideľuje rozdelenie fakturácie všetkým zákazníkom cenových ponúk. Ak existuje nejaký faktor zaokrúhľovania, pridá sa k zákazníkovi zaokrúhľovania. Jeden zo zákazníkov cenovej ponuky je vždy označený ako zákazník zaokrúhľovania. to znamená, že záznam zákazníka cenovej ponuky má nastavený príznak **Zaokrúhľovanie** na **Áno**. Spravidla ide o primárneho zákazníka cenovej ponuky, ale túto voľbu je možné zmeniť.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

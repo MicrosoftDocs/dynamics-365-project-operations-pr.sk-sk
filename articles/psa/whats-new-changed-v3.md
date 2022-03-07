@@ -1,8 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v Project Service Automation verzia 3
 description: Táto téma poskytuje informácie o tom, čo je nové a zmenené v Project Service Automation verzia 3.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150687"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007025"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Čo je nové alebo zmenené v Project Service Automation verzia 3
 
@@ -257,3 +255,6 @@ Nasledujúce grafika zobrazuje stav po vytvorení vlastných cenníkov.
 
 > [!NOTE]
 > Krátke oneskorenie môže nastať medzi po kliknutí na tlačidlo **Vytvorenie vlastných cien**, keď je vytvorený vlastný cenník. Odporúčame obnoviť mriežku namiesto kliknutia niekoľkokrát. Vlastný cenník bol vytvorený, ak priradený názov cenníka má názov cenovej ponuky alebo názov zmluvy o projekte, ktorý je k nemu priložený.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

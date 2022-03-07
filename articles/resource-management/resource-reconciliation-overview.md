@@ -2,11 +2,9 @@
 title: Prehľad odsúhlasenia zdrojov
 description: Táto téma poskytuje informácie, ktoré vám pomôžu zaistiť zosúladenie rezervácií a priradení zdrojov k projektom.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: be171063c21318f517a37f3088e3f577fd4b6715
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849643"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000860"
 ---
 # <a name="resource-reconciliation-overview"></a>Prehľad odsúhlasenia zdrojov
 
@@ -48,3 +46,6 @@ Ak máte priradenia úloh pre zdroj, ale žiadne rezervácie, na karte **Odsúhl
 Rezervácie, ktoré sa vytvárajú prostredníctvom servera **Rozšíriť rezerváciu**, sú spojené s požiadavkou primárneho projektu. Pri iniciovaní rozšírenia nie je možné určiť konkrétnu požiadavku, ktorú je potrebné predĺžiť, pretože zdroj môže byť spojený s viac ako jednou požiadavkou pre projekt.
 
 Projektový manažér alebo správca zdrojov potom môže pomocou tabule plánovania spravovať všetky situácie, v ktorých je zdroj prerezervovaný nad rámec jeho kapacity.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

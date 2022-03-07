@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180750"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274387"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Nastavenie nákladových sadzieb za prácu – čiastočné
 
@@ -38,7 +38,7 @@ Nasledujúca tabuľka obsahuje niektoré z polí, ktoré sú dôležité pri vyt
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transferové ceny a náklady na zdroje mimo vašej divízie alebo právnickej osoby
 
-Projektové spoločnosti bežne využívajú na prácu na projektoch zamestnancov z rôznych divízií spoločnosti alebo právnických osôb. Projekt môže vykonávať jedna právnická osoba, ale zamestnanci alebo konzultanti, ktorí na projekte pracujú, môžu pochádzať od rovnakej právnickej osoby alebo od inej entity, prípadne môže ísť o kombináciu oboch. V rámci Dynamics 365 Project Operations je právnickou osobou, ktorá vlastní dodávku projektu, **Vlastniaca spoločnosť** a divízia, ktorá vlastní dodávku, je **Zmluvná jednotka**. Ďalšími právnickými osobami, ktoré poskytujú zdroje, sú **Spoločnosti zabezpečujúce zdroje** a divízie, ktoré poskytujú zdroje, sú **Zdrojové jednotky**. Vo väčšine krajín sa od spoločností vyžaduje, aby zabezpečili, že právnická osoba alebo divízia, ktorá financuje zdroje, účtuje od vlastniacej spoločnosti a zmluvnej jednotky za použitie zdrojov.
+Projektové spoločnosti bežne využívajú na prácu na projektoch zamestnancov z rôznych divízií spoločnosti alebo právnických osôb. Projekt môže vykonávať jedna právnická osoba, ale zamestnanci alebo konzultanti, ktorí na projekte pracujú, môžu pochádzať od rovnakej právnickej osoby alebo od inej entity, prípadne môže ísť o kombináciu oboch. V rámci Dynamics 365 Project Operations je právnickou osobou, ktorá je vlastníkom dodávky projektu, **Vlastniaca spoločnosť** a divíziou, ktorá vlastní dodávku, je **Zmluvná jednotka**. Ďalšími právnickými osobami, ktoré poskytujú zdroje, sú **Spoločnosti zabezpečujúce zdroje** a divízie, ktoré poskytujú zdroje, sú **Zdrojové jednotky**. Vo väčšine krajín sa od spoločností vyžaduje, aby zabezpečili, že právnická osoba alebo divízia, ktorá financuje zdroje, účtuje od vlastniacej spoločnosti a zmluvnej jednotky za použitie zdrojov.
 
 Napríklad spoločnosť Fabrikam musí zabezpečiť, aby spoločnosť Fabrikam India-Robotics mala dohodnutý cenník so spoločnosťami Fabrikam US-Robotics alebo Fabrikam UK-Robotics.
 
@@ -46,7 +46,7 @@ Vývojár zo spoločnosti Fabrikam India-Robotic účtuje poplatky za $ 100, ke�
 
 ### <a name="set-up-costs-for-outside-resources"></a>Nastavte náklady na externé zdroje
 
-1. Vytvorte cenník nákladov s názvom,*Sadzby nákladov spoločnosti Fabrikam US-Robotics* a nastavte rozsah účinných dátumov.
+1. Vytvorte cenník nákladov s názvom *Sadzby nákladov spoločnosti Fabrikam US-Robotics* a nastavte rozsah účinných dátumov.
 2. V cenníku nákladov nastavte sadzby pomocou informácií z nasledujúcej tabuľky. 
 
 | Rola | Spoločnosť zaisťujúca zdroje | Zdrojová jednotka | Nákladová sadzba |
@@ -82,3 +82,6 @@ V cenníku nákladov pre spoločnosť Fabrikam UK-Robotics možno sadzby náklad
 | Vývojár | Fabrikam UK | 115 GBP |
 
 Cenník nákladov môže poskytovať sadzby práce vo viacerých menách. Pri generovaní odhadu nákladov na projekt Project Operations prevedie tieto sadzby nákladov na menu projektu a zobrazí ich používateľovi. Keď je časový záznam schválený a je vytvorená skutočná cena, skutočná cena sa nacení v mene zodpovedajúceho cenového riadku role v cenníku nákladov. Skutočné náklady za čas na jednom projekte je možné zaznamenať vo viacerých menách. Pri zhrnutí alebo zosumarizovaní skutočných nákladov práce na úrovni projektu, Project Operations prevedie všetky sumy nákladov práce do meny projektu, ktorú môže používateľ zobraziť.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
