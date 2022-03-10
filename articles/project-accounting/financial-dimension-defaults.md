@@ -2,16 +2,16 @@
 title: Predvolené hodnoty finančnej dimenzie
 description: Táto téma poskytuje informácie o tom, ako nastaviť predvolené hodnoty finančnej dimenzie.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013325"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922957"
 ---
 # <a name="financial-dimension-defaults"></a>Predvolené hodnoty finančnej dimenzie
 
@@ -60,6 +60,15 @@ Projekty sa vytvárajú a udržiavajú v CDS. Účtovné atribúty pre projekty 
 4. Nastavte predvolené hodnoty finančnej dimenzie. Všimnite si, že finančné dimenzie sa predvolene získavajú z obchodného vzťahu zákazníka. Ak je projekt spojený s riadkom zmluvy s viacerými zmluvnými zákazníkmi projektu, primárny zákazník sa použije na predvolené finančné dimenzie.
 
 Predvolené finančné dimenzie projektu sa používajú na nastavenie predvolených hodnôt záznamov v účtovnom denníku pre časové, nákladové a poplatkové transakcie v **Denníku integrácie Project Operations** a na súvisiacich riadkoch projektových faktúr.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Použite finančné dimenzie pre časové záznamy projektu
+Ak chcete použiť finančné dimenzie pre časové položky projektu, všimnite si, že predvolená hodnota dimenzie je založená na nasledujúcom poradí:
+
+1. Prostriedok
+2. Project
+3. Zdroj financovania
+
+Napríklad, ak je predvolená dimenzia špecifikovaná na zdroji, použije sa na predvolenú dimenziu, ktorá je špecifikovaná v projekte. Podobne sa predvolená dimenzia projektu použije nad predvolenou hodnotou, ktorá je špecifikovaná v zdroji financovania.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

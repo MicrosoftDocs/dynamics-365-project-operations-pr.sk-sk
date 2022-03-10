@@ -2,8 +2,6 @@
 title: Vytvorte projektovú cenovú ponuku
 description: Ako na vytvorenie cenovej ponuky projektu v Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06b84e155a60c574855d5a2509d16d67b8bceea4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 8a7907ee4c85c2993e86abec11fc11d2fe82a3e0ca435b25c7a213bbce931e73
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285187"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000370"
 ---
 # <a name="create-a-project-quote-project-service"></a>Vytvorenie cenovej ponuky projektu (Project Service)
 

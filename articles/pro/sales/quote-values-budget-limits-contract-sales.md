@@ -1,31 +1,29 @@
 ---
-title: Súhrnné informácie o projektovej cenovej ponuke (predaj)
+title: Súhrnné informácie o projektovej cenovej ponuke – čiastočné
 description: Táto téma poskytuje popis informácií a nastavení, ktoré sa vzťahujú cenové ponuky projektu, a ktoré ich ovplyvňujú. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: ddc85d8c475dc7cdbe910fad31b5a6d8b617512c8a19cbae9543cb7a3e1d409e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084295"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989660"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Súhrnné informácie o projektovej cenovej ponuke (predaj)
+# <a name="header-details-for-project-quotes"></a>Podrobnosti hlavičky pre projektové cenové ponuky
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Tento článok vysvetľuje informácie, ktoré sa týkajú cenovej ponuky projektu. Patria sem nastavenia, ktoré majú vplyv na všetky riadky cenovej ponuky, a informácie o ponuke, ktoré sú zhrnuté vo všetkých riadkových položkách a slúžia na zvýšenie kľúčových ukazovateľov výkonu cenovej ponuky projektu.
 
-V nasledujúcej tabuľke sú uvedené polia súhrnných informácií pre cenovú ponuku projektu, ktoré sú jedinečné pre Dynamics 365 Project Operations alebo majú niektoré dôležité zmeny v správaní cenových ponúk v Dynamics 365 Sales.
+V nasledujúcej tabuľke je uvedený zoznam polí so súhrnnými informáciami v cenovej ponuke projektu, ktoré sú jedinečné pre Dynamics 365 Project Operations alebo majú niektoré dôležité zmeny správania v porovnaní s cenovými ponukami z Dynamics 365 Sales.
 
-| **Pole** | **Miesto** | **Relevantnosť, účel a pokyny** | **Nadväzujúci vplyv** |
+| **Pole** | **Miesto** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |
-| Typ | Karta Súhrn (skrytá) | Toto pole množiny možností má nasledujúce možnosti:</br>- Založené na práci (k dispozícii iba vtedy, keď je nainštalovaný Project Operations)</br>- Založené na položke (k dispozícii iba vtedy, keď sú nainštalované Project Operations a Sales)</br>- Služba založená na údržbe (k dispozícii, keď je nainštalovaná služba Dynamics 365 Field Service) | Keď použijete aplikáciu Project Operations, hodnota tohto poľa sa automaticky nastaví na **Založené na práci**. Klasifikuje príležitosť ako založenú na projekte. Cenová ponuka by mala byť založená na projekte, aby umožnila všetky rozšírenia a funkcie špecifické pre projekt. |
+| Zadať | Karta Súhrn (skrytá) | Toto pole množiny možností má nasledujúce možnosti:</br>- Založené na práci (k dispozícii iba vtedy, keď je nainštalovaný Project Operations)</br>- Založené na položke (k dispozícii iba vtedy, keď sú nainštalované Project Operations a Sales)</br>- Služba založená na údržbe (k dispozícii, keď je nainštalovaná služba Dynamics 365 Field Service) | Keď použijete aplikáciu Project Operations, hodnota tohto poľa sa automaticky nastaví na **Založené na práci**. Klasifikuje príležitosť ako založenú na projekte. Cenová ponuka by mala byť založená na projekte, aby umožnila všetky rozšírenia a funkcie špecifické pre projekt. |
 | Potenciálny zákazník | Karta súhrnu | Odkaz na záznam zákazníka spoločnosti zákazníka alebo obchodného vzťahu. Po vytvorení cenovej ponuky z príležitosti sa toto pole skopíruje z príslušného poľa v príležitosti. | Mena v cenovej ponuke projektu je predvolene založená na mene zákazníka. Túto možnosť však možno zmeniť pred uložením cenovej ponuky. |
 | Manažér obchodného vzťahu | Karta súhrnu | Meno manažéra obchodného vzťahu pre túto dohodu. Po vytvorení cenovej ponuky z príležitosti sa toto pole skopíruje z príslušného poľa v príležitosti. | Manažér obchodného vzťahu je zodpovedný za riadenie vzťahov so zákazníkom po dokončení tohto projektu. Na základe rezervovateľného záznamu zdroja naviazaného na manažéra obchodného vzťahu je v zmluvnej jednotke predvolená cenová ponuka projektu. |
 | Zmluvná jednotka | Karta súhrnu | Organizačná jednotka, ktorá je zodpovedná za realizáciu projektu alebo projektov spojených s touto cenovou ponukou. Po vytvorení cenovej ponuky z príležitosti sa toto pole skopíruje z príslušného poľa v príležitosti. | Zmluvnou jednotkou je divízia spoločnosti, ktorá bude po uzatvorení obchodu realizovať projekty. Každá zmluvná jednotka má menu, ktorá sa používa na vykazovanie odhadovaných a skutočných nákladov vzniknutých počas realizácie projektu. |
@@ -36,8 +34,11 @@ V nasledujúcej tabuľke sú uvedené polia súhrnných informácií pre cenovú
 
 Ďalej sú uvedené karty a kľúčové ukazovatele výkonu, ktoré sú k dispozícii v ponuke projektu a sú jedinečné pre Project Operations alebo majú niektoré dôležité zmeny v správaní cenových ponúk predaja:
 
-| **Pole** | **Miesto** | **Relevantnosť, účel a pokyny** |
+| **Pole** | **Miesto** | **Opis** |
 | --- | --- | --- |
 | Analýza ziskovosti | Karta na cenovej ponuke | Karta zobrazuje nasledujúce metriky:</br>- Celkové účtovateľné náklady</br></br>- Celkové neúčtovateľné náklady</br>- Celkové výnosy</br>- Celkové výnosy (základné)</br>- Hrubý zisk</br>- Upravený hrubý zisk|
 | Porovnanie s očakávaniami zákazníka | Karta na cenovej ponuke | Táto karta zobrazuje nasledujúce metriky:</br>- Odhadované dokončenie</br>- Požadované dokončenie</br>- Rozpočet zákazníka</br>- Hodnota ponuky |
 | Analýza cenovej ponuky | Karta na cenovej ponuke | Táto karta sumarizuje nasledujúce najlepšie kľúčové ukazovatele výkonu týkajúce sa cenovej ponuky projektu</br>- Porovnanie s očakávaniami zákazníka, pokiaľ ide o rozpočet a plán</br>- Hrubý zisk</br>- Upravený hrubý zisk |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

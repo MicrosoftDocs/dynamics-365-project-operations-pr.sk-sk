@@ -2,18 +2,16 @@
 title: Správa viacerých zákazníkov v riadkoch zmlúv založených na projekte – čiastočné
 description: Táto téma poskytuje informácie o správe viacerých zákazníkov v riadkoch zmlúv založených na projekte.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9dfaa766f3d6064bb84dcd1b032e0e279b1b9cdf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273262"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001810"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Správa viacerých zákazníkov v riadkoch zmlúv založených na projekte – čiastočné
 

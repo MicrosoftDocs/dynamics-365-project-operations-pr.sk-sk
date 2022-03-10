@@ -2,18 +2,16 @@
 title: Čo je nové v novembri 2020 – čiastočné nasadenie Project Operations – dohoda o fakturácii pro forma
 description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii v čiastočnom nasadení Project Operations – dohoda o fakturácii pro forma z novembra 2020.
 author: sigitac
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eb7c15fa937d508fa30ed2c04a6aa9cb117ef011
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 4a65ab00c7f729b72cc32b4786055feba4aaee452ac4cf413047f81651c92290
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272092"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003295"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Čo je nové v novembri 2020 – čiastočné nasadenie Project Operations – dohoda o fakturácii pro forma
 

@@ -2,8 +2,6 @@
 title: Procesy predaja
 description: Táto téma poskytuje informácie o základných predajných procesoch.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129337"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000550"
 ---
 # <a name="sales-processes"></a>Procesy predaja
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -39,7 +39,7 @@ Predajné procesy, ktoré sa používajú v organizácii založenej na projekte,
 
 Nasledujúci obrázok znázorňuje typický proces predaja v organizácii založenej na projekte.
 
-> ![Proces predaja v organizácii založenej na projekte](media/basic-guide-1.png)
+> ![Proces predaja v organizácii založenej na projekte.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Odhad predaja
 Hodnota predaja sa môže odhadnúť na základe projektov, ktoré boli predtým dodané, a zložitosti projektov. V prípade projektov, ktoré zahŕňajú rozšírenia na predchádzajúce projekty alebo projekty, v ktorých sú odborné znalosti dodávateľa vysoké a dobre známe pracovné šablóny, môžete použiť jednoduchší proces odhadu. Zložitejšie projekty majú zvyčajne dlhší proces nákupu. Preto existuje viac etáp v procese odhadu predaja. Na začiatku procesu používa predajný tím vstup manažérov účtov a odborníkov na predmet (MSP), aby začali vytvárať odhad na vysokej úrovni pre každú odlišnú zložku práce, ktorá je ponúkaná. Tieto súčasti práce sú reprezentované riadkami cenových ponúk. 
@@ -50,7 +50,7 @@ Môžete vytvoriť viacero cenových ponúk pre projekt a zoskupiť ich pod typo
 
 Môžete tiež vytvoriť alternatívne cenové ponuky v rámci jedného typu entity príležitosti alebo nastaviť systém tak, aby sa projektová zmluva vytvorila pri vyhranej cenovej ponuke. V takom prípade môžete priložiť dokument programu Word, ktorý predstavuje SOW do záznamu zmluvy o projekte.
 
-![Uzavretie cenovej ponuky na vytvorenie zmluvy o projekte](media/basic-guide-2.png)
+![Uzavretie cenovej ponuky na vytvorenie zmluvy o projekte.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Konfigurácia procesu predaja
 Môžete použiť Business Process toky (BPFs) v Microsoft Dynamics 365 a nakonfigurovať proces predaja. BPF dajú svojim predajným pracovníkom riadené vizuálne rozhranie, ktoré môžu použiť na presun ponuky vpred cez etapy, ktoré sú typické pre vašu firmu.
@@ -66,7 +66,7 @@ Napríklad vaša spoločnosť môže mať v procese predaja nasledujúcich šes�
 
 Týchto šesť etáp je zastúpených šípkami (\>), ktoré vyberiete rozbalením v každej príležitosti typu entity, ktoré vytvoríte.
 
-![Nastavenie obchodného procesu v Dynamics 365](media/basic-guide-3.png)
+![Nastavenie obchodného procesu v Dynamics 365.](media/basic-guide-3.png)
  
 Vaša organizácia môže používať rôzne entity na to, aby zastupovala rovnaké riešenie, ako sa vyvíja. Na začiatku predajného procesu je dohoda zastúpená entitou príležitosť. Ako plynie čas a ďalšie podrobnosti sa objavia, môžete použiť odhady na vysokej úrovni na vytvorenie jednej alebo viacerých cenových ponúk. Ak jedna z týchto cenových ponúk je preskúmaná interne a zainteresovanými zákazníckymi stranami, cenová ponuka entity predstavuje riešenie. Po tom, ako zákazník akceptuje cenovú ponuku, zmluva alebo SOW predstavuje dohodu. Na podporu tohto správania, sú BPF štruktúrované tak, že každá fáza procesu je prepojená s inou databázovú tabuľkou.
 
@@ -77,7 +77,7 @@ Počas presúvania ponúk fázami sa zobrazí výzva na vytvorenie príslušnéh
 > [!NOTE]
 > PSA má špecifické stránky pre entity príležitosti, ponuky, objednávky a faktúry. Pomocou stránok s informáciami o projekte pre tieto entity musíte vytvoriť príležitosti, cenové ponuky, objednávky a faktúry služby Project Service. Ak na vytvorenie záznamu použijete inú stránku, záznam sa nebude môcť otvoriť na stránke s **informáciami o projekte**. Ak chcete otvoriť záznam na stránke **projektové informácie**, musíte odstrániť záznam a znova ho použiť na stránke s **informáciami** o projekte. Na stránke **Projektové informácie** obchodná logika pre každý z týchto typov entít zaručuje, že pole **typ** záznamu je správne nastavené a všetky povinné koncepty sú správne inicializované.
 
-> ![Informácie o projekte pre novú objednávku](media/basic-guide-4.png)
+> ![Informácie o projekte pre novú objednávku.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Rozdiely medzi Project Service Automation a predajom
 Hoci proces predaja v PSA používa základné možnosti predajného procesu v predaji, to robí niektoré kľúčové rozdiely, kvôli rozdielom v obchodných praktikách založené organizácií založených na projektoch. Tu sú niektoré príklady:
@@ -91,3 +91,6 @@ V PSA nie je možné sledovať revízie vykonané v cenovej ponuke. Namiesto toh
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Sledovanie komentárov a schválení cenových ponúk a projektových zmlúv
 Môžete spravovať preskúmanie a schvaľovanie cenových ponúk a projektových zmlúv pomocou záznamu múru a príspevkov. Vaša organizácia môže vytvoriť vlastné pracovné postupy a doplnky na priraďovanie, presmerovanie, eskaláciu a spravovanie upozornení na položkách kontroly a schvaľovania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Čas, výdavok a príručka spolupráce
 description: Sprievodca k času, nákladom a spolupráci pre Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 53bd787af65f4179d62ca6756bc6e8b4599730fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 0333445594cd8c02e14ba93e0ff3e9d8da50afd85ab90810762c415b53018ccb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282037"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004735"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Sprievodca časom, nákladmi a spoluprácou (Project Service)
 

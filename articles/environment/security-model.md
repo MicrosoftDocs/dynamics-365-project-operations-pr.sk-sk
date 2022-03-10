@@ -2,18 +2,16 @@
 title: model zabezpečenia,
 description: Táto téma poskytuje informácie o modeli zabezpečenia v Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951228"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991505"
 ---
 # <a name="security-model"></a>Model zabezpečenia
 
@@ -60,7 +58,7 @@ Project Operations nevytvára skupinu prostredníctvom implicitnej akcie a robí
 
 Vyhľadávanie členov skupiny v dialógovom okne **Správa skupín** je obmedzené na tých, ktorí sú nastavení ako súčasť skupiny zabezpečenia prostredia. Ďalšie informácie nájdete v sekcii [Riadenie prístupu používateľov k prostrediam: skupiny zabezpečenia a licencie](/power-platform/admin/control-user-access).
 
-![Skupinový režim](./media/groupsmode.png)
+![Skupinový režim.](./media/groupsmode.png)
 
 1. Projekt je vytváraný a vlastnený tvoriacim používateľom.
 2. Vlastník projektu je aktualizovaný v tíme.

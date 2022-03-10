@@ -1,25 +1,25 @@
 ---
-title: Kľúčové koncepty projektových zmlúv
+title: Projektové zmluvy – Kľúčové koncepty – čiastočné
 description: Táto téma poskytuje informácie o kľúčových konceptoch projektových zmlúv.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084270"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991460"
 ---
-# <a name="key-concepts-of-project-contracts"></a>Kľúčové koncepty projektových zmlúv
+# <a name="concepts-unique-to-project-contracts"></a>Koncepty jedinečné pre projektové zmluvy
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-V tejto téme sú popísané kľúčové koncepty, ktoré by ste si mali uvedomiť predtým, ako začnete používať projektové zmluvy v Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Táto téma poskytuje kľúčové koncepty, ktoré si musíte uvedomiť predtým, ako začnete používať projektové zmluvy v Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Zmluvná jednotka
 
@@ -91,3 +91,6 @@ Zmluvy v Project Operations sú postavené na zmluvách v Dynamics 365 Sales. Ma
 - Zmluvy v Project Operations majú svoj vlastný formulár a prvky používateľského rozhrania, obchodné pravidlá, obchodnú logiku v doplnkoch a skripty na strane klienta, vďaka ktorým sú oproti zmluvám v Sales jedinečné.
 
 Z týchto dôvodov by ste nemali používať vymeniteľne predajnú zmluvu a projektovú zmluvu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

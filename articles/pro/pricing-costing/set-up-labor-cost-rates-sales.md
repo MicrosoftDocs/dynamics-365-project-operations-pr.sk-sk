@@ -2,18 +2,16 @@
 title: Nastavenie nákladových sadzieb za prácu – čiastočné
 description: Táto téma poskytuje informácie o tom, ako nastaviť sadzby nákladov pre prácu v Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274387"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006130"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Nastavenie nákladových sadzieb za prácu – čiastočné
 
@@ -46,7 +44,7 @@ Vývojár zo spoločnosti Fabrikam India-Robotic účtuje poplatky za $ 100, ke�
 
 ### <a name="set-up-costs-for-outside-resources"></a>Nastavte náklady na externé zdroje
 
-1. Vytvorte cenník nákladov s názvom *Sadzby nákladov spoločnosti Fabrikam US-Robotics* a nastavte rozsah účinných dátumov.
+1. Vytvorte cenník nákladov s názvom,*Sadzby nákladov spoločnosti Fabrikam US-Robotics* a nastavte rozsah účinných dátumov.
 2. V cenníku nákladov nastavte sadzby pomocou informácií z nasledujúcej tabuľky. 
 
 | Rola | Spoločnosť zaisťujúca zdroje | Zdrojová jednotka | Nákladová sadzba |

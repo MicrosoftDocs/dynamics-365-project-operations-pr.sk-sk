@@ -2,12 +2,10 @@
 title: Nastavenie vlastných polí ako cenových dimenzií
 description: Táto téma poskytuje informácie o nastavení vlastných dimenzií cien.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282487"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002350"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Nastavenie vlastných polí ako cenových dimenzií 
 
@@ -43,11 +41,11 @@ Aby sa pole stalo cenovou dimenziou, musí byť:
 - Vytvorená ako pole v entitách **Cena roly** a **Prirážky k cenám rol**. Pre ďalšie informácie o postupuje [Pridanie vlastných polí do cenového nastavenia a transakčných entít](field-references.md).
 - Vytvorená ako riadok v tabuľke **Cenová dimenzia**. Pridajte napríklad riadky dimenzie ocenenia, ako je uvedené v nasledujúcom obrázku. 
 
-![Riadky čiastkovo založenej dimenzie oceňovania](media/Amt-based-PD.png)
+![Riadky cenovej dimenzie na základe sumy.](media/Amt-based-PD.png)
 
 Všimnite si, že pracovné hodiny zdroja (**msdyn_resourceworkhours**) sú pridané ako dimenzie založené na značkách a boli pridané do mriežky na karte **Cenová dimenzia založená na prirážke**.
 
-![Riadky dimenzie ceny na základe zrážky](media/Markup-based-PD.png)
+![Riadky cenovej dimenzie na základe prirážky.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Akákoľvek zmena cien dimenzie údajov v tejto tabuľke, existujúce alebo nové, je prenesená na obchodnú logiku ceny Project Service výhradne po obnovení vyrovnávacej pamäte. Čas obnovenia vyrovnávacej pamäte môže trvať až 10 minút. Nechajte potrebný čas na zobrazenie zmien v predvolenej logike ceny, ktorá musí byť výsledkom zmien v údajoch dimenzie ceny.
@@ -75,7 +73,7 @@ Existujú dva typy cien dimenzií:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|U zákazníka            |                    |Nadčas                 |15     |
 |             | Contoso India|Lokálny             |                    |Nadčas                 |10     |
-|             | Contoso US   |Lokálny             |                    |Nadčas                 |20     |
+|             | Contoso – USA   |Lokálny             |                    |Nadčas                 |20     |
 
 
 Ak zdroj z Contoso India, ktorého základná sadzba je 100 USD, pracuje u zákazníka a vykáže 8 hodín bežnej pracovnej doby a 2 hodiny nadčasov v zadaní času, systém ceny Project Service využije základnú sadzbu 100 pre nasledujúcich 8 hodín, čím sa dosiahne 800 USD. Pre 2 hodiny nadčas, bude prirážka 15 % použitá na základnú sadzbu 100 na získanie jednotkovej ceny 115 USD a zaznamená celkové náklady na 230 USD.

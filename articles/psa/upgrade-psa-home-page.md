@@ -1,10 +1,10 @@
 ---
 title: Inovovať domovskú stránku
 description: Táto téma zobrazuje Dynamics 365 Project Service Automation, kde nájdete dôležité informácie o nových a zmenených funkciách a procese inovácie na najnovšiu verziu.
-manager: kfend
-ms.service: project-operations
+ms.prod: ''
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121777"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006760"
 ---
 # <a name="upgrade-home-page"></a>Inovovať domovskú stránku
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +39,7 @@ Od 17. mája 2019, keď sa Project Service Automation vyberie vybratá počas po
 
 ### <a name="existing-instances"></a>Existujúce inštancie
 
-Predtým zákazníci s inštanciou PSA verzia 2.x a potrebe inovácie na verziu 3.x, čo predstavuje verziu PSA založenú na zjednotenom klientskom rozhraní, museli kontaktovať podporu Microsoft a poskytnúť im podrobnosti o svojej inštancii, na základe ktorých im podpora mohla povoliť inováciu inštancie na verziu 3.x. Od 1. marca 2020 budú zákazníci, ktorí majú inštanciu PSA verzie 2.x a potrebujú aktualizovať na verziu 3.x, schopní inovovať svoje inštancie priamo z administračného portálu bez toho, aby museli kontaktovať technickú podporu spoločnosti Microsoft.  
+Predtým zákazníci, ktorí majú inštanciu PSA verzia 2.x a potrebovali ju inovovať na verziu 3.x, ktorá predstavuje zjednotené klientské používateľské rozhranie (UCI) verzia PSA, museli kontaktovať podporu spoločnosti Microsoft a poskytnúť podrobnosti o ich inštancii, aby mohla pripraviť inštanciu na inováciu na verziu 3.x. Od 1. marca 2020 budú mať zákazníci, ktorí majú inštanciu PSA verzie 2.x a potrebujú aktualizáciu na verziu 3.x, možnosť inovovať svoje inštancie priamo z portálu správy služby bez toho, aby museli kontaktovať podporu spoločnosti Microsoft.  
 
 > [!NOTE]
 > PSA verzia 3.x obsahuje významné zmeny. Bola vytvorená na rámci zjednoteného rozhrania, aby pomáhala poskytovať zlepšenú používateľskú skúsenosť. Pretvorená aplikácia ponúka jednotné používateľské rozhranie (UI), ktoré nasleduje responzívne princípy dizajnu pre optimálne prezeranie na ľubovoľnej veľkosti obrazovky alebo zariadení. Počas celej aplikácie sa vyskytli ďalšie zmeny. Medzi niektoré z oblastí, ktoré boli zmenené, patria ceny, rezervácie a priraďovanie zdrojov, času, výdavkov a schválenia.
@@ -58,7 +60,10 @@ Potom, čo ste preskúmali témy, ktoré boli spomenuté skôr a sú pripravení
 
 Od mája 17, 2019, všetky nové inštancie budú mať UCI ako predvolený klient. Pre vyrovnanie s touto zmenou, PSA verzia 3.x a Field Service verzia 8.x bude poskytnutá v predvolenom nastavení, pretože tieto verzie sú navrhnuté pre prácu s klientom UCI.
 
-Od 1. marca 2020 už zákazníci Dynamics PSA nebudú môcť vytvárať nové prostredia so staršími verziami PSA, napríklad PSA verzie 2.x alebo nižšej. Akékoľvek nové prostredie bude mať získať iba verziu 3.x PSA.
+Od 1. marca 2020 už zákazníci systému Dynamics PSA nebudú môcť vytvárať nové prostredie so staršími verziami PSA, napríklad PSA verzie 2.x alebo nižšou. Akékoľvek nové prostredie bude mať získať iba verziu 3.x PSA.
 
 > [!NOTE]
 > Najlepšie skúsenosti pri používaní starších verzií služieb Field Service a PSA nájdete na stránke **Systémové nastavenia** a pre pole **Používanie výhradne nového Zjednoteného rozhrania (odporúča sa)** zvoľte možnosť **Nie**, pretože tieto verzie nie sú navrhnuté tak, aby sa správne načítavali v UCI. Potom, čo ste vypli UCI, môžete otvoriť a spustiť tieto verzie Field Service a PSA pomocou starého webového klienta. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

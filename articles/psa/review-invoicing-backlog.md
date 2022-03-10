@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008555"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006985"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Skontrolujte fakturačné oneskorenie projektov a projektových zmlúv
 
@@ -40,7 +40,7 @@ Neúčtované predajné skutočné hodnoty predstavujú fakturačný backlog a s
 
 Ak chcete skontrolovať fakturačné oneskorenie pre čas a materiály, prejdite na **Predaj** \> **Fakturácia** \> **Backlog pre fakturáciu času a materiálu**. Vyberte všetky neúčtované predajné skutočné hodnoty, ktoré sú pripravené na fakturáciu, a potom vyberte položku **Pripravené na faktúru**. Stav fakturácie týchto skutočných hodnôt sa zmení na možnosť **Pripravené na faktúru**.
 
-![Backlog pre fakturáciu času a materiálu](media/TMBacklog.png)
+![Backlog pre fakturáciu času a materiálu.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Backlog pre fakturáciu produktov
 
@@ -48,7 +48,7 @@ V prípade, že projektová zmluva má riadky zmluvy založené na produkte, tie
 
 Ak chcete skontrolovať backlog fakturácie pre produkty, prejdite na **Predaj** \> **Fakturácia** \> **Backlog pre fakturáciu produktov**. Zvoľte všetky riadky zmluvy produktovej faktúry, ktoré sú pripravené na fakturáciu a potom stlačte možnosť **Pripravené na faktúru**. Stav fakturácie týchto riadkov sa zmení na možnosť **Pripravené na faktúru**.
 
-![Backlog pre fakturáciu produktov](media/ProductBacklog.png)
+![Backlog pre fakturáciu produktov.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Skontrolujte medzníky fakturácie na zmluvách s pevnou cenou
 
@@ -56,7 +56,7 @@ Každý riadok projektovej zmluvy, ktorý má fakturačnú metódu s pevnou ceno
 
 Ak chcete skontrolovať fakturačné míľniky, prejdite na ponuku **Predaj** \> **Faktúra** \> **Medzníky pevných cien**. Zvoľte si medzníky, ktoré sú pripravené na fakturáciu a následne stlačte možnosť **Pripravené na faktúru**. Stav fakturácie týchto medzných hodnôt sa zmení na možnosť **Pripravené na faktúru**.
 
-![Medzníky pevných cien](media/FPBacklog.png)
+![Medzníky pevných cien.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Projektová tvorba cien
 description: Táto téma poskytuje informácie o tom ako pracuje oceňovanie v Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084561"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000595"
 ---
 # <a name="project-pricing"></a>Projektová tvorba cien 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -58,7 +58,7 @@ Termín *zdrojová rola* odkazuje na množinu zručností, kompetencií a certif
 
 Skupina **Časových** jednotiek je vytvorená pri inštalácii PSA. Má predvolenú jednotku **hodina**. Nie je možné vymazať, premenovať alebo upraviť atribúty **časovej** skupiny jednotiek alebo jednotku **hodina**. Do skupiny **časových** jednotiek však môžete pridať ďalšie jednotky. Ak sa pokúsite odstrániť **časovú** skupinu jednotiek alebo jednotku **hodina**, môže dôjsť k zlyhaniu v obchodnej logike PSA.
 
-> ![Konfigurácia cien podľa roly](media/basic-guide-13.png)
+> ![Konfigurácia cien podľa roly.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategórie transakcií a kategórie nákladov
 
@@ -68,7 +68,7 @@ Cestovné a iné náklady, ktoré vzniknú projektantom, sú zvyčajne účtovan
 - **Percento** značenia – percento oproti skutočným nákladom sa fakturuje zákazníkovi. 
 - **Cena za jednotku** - fakturačná cena je nastavená pre každú jednotku kategórie nákladov. Čiastka, ktorá je fakturovaná zákazníkovi sa vypočíta na základe počtu jednotiek nákladov, ktoré konzultant hlási. Vzdialenosť používa metódu cenotvorby cena za jednotku. Napríklad, kategória nákladov za vzdialenosť môže byť nakonfigurovaná na 30 amerických dolárov (USD) za deň alebo 2 USD za míľu. Keď konzultant hlási vzdialenosť na projekte, suma na fakturáciu sa vypočíta na základe počtu míľ, ktoré konzultant oznámil.
 
-> ![Konfigurovanie cenotvorby pre kategórie nákladov](media/basic-guide-14.png)
+> ![Konfigurovanie cenotvorby pre kategórie výdavkov.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Predajné ceny projektu a ich prepísanie
 
@@ -114,7 +114,7 @@ V cenovej ponuke však môžete použiť hlavný cenník. Alternatívne môžete
 
 Keď vytvoríte vlastný projektový cenník, skopírujú sa iba súčasti projektu z cenníka. Inými slovami, nový cenník vytvorený ako kópia existujúceho zoznamu projektových cien, ktorý je priložený k cenovej ponuke, a tento nový cenník má iba súvisiace ceny rolí a ceny transakcií kategórie.
 
-> ![Zobrazenie a konfigurácia vlastnej cenotvorby pre projektovú zmluvu](media/basic-guide-15.png)
+> ![Zobrazenie a konfigurácia vlastnej cenotvorby pre projektovú zmluvu.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Sledovanie nákladov
 
@@ -129,3 +129,6 @@ Rovnako ako fakturačné sadzby, ceny za ľudské zdroje sú tiež nastavené po
     1. Cenník, ktorý je pripojený k organizačnej jednotke.
     2. Cenník, ktorý je pripojený k project service parametrom. Vzhľadom na to, že cenové zoznamy nákladov v mnohých rôznych menách môžu byť pripojené k project service parametrom projektových služieb, PSA sa robí zhodu medzi menou zmluvnej organizačnej jednotky projektu, zmluvy alebo cenovej ponuky a menou zoznamu nákladových cien.
     3. V prípade výdavkov sa metódy oceňovania nákladov a prirážky za cenu nevzťahujú na zoznamy cenových cien. Aj v prípade, že sa tieto metódy oceňovania používajú v riadkoch cenníka nákladových cien na nastavenie nákladovej kategórie, systém ich ignoruje a nezadá sa žiadna predvolená cena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

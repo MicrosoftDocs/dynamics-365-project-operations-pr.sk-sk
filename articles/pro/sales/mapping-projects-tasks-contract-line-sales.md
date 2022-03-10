@@ -2,22 +2,20 @@
 title: Mapovanie projektov a úloh na riadok zmluvy založenej na projekte – čiastočné
 description: Táto téma poskytuje informácie o pridávaní a odstraňovaní projektov a úloh na riadok zmluvy.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 6ce99e6f770c5eb39e5f2740a861721cf3d210ac9743bbd9d2a1e1a7236f368c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272812"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989750"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Mapovanie projektov a úloh na riadok zmluvy založenej na projekte – čiastočné
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapovanie projektov a úloh na riadok projektovej zmluvy 
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Vzťahuje sa na:** Čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 V riadkoch zmlúv založených na projektoch môžete mapovať konkrétne úlohy v projekte na riadok zmluvy.
 

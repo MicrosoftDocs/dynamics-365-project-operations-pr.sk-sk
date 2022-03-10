@@ -2,11 +2,9 @@
 title: Zaúčtovanie výkazov výdavkov
 description: Táto téma vysvetľuje, ako účtovať výkazy výdavkov.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 866252c1961f359cecdb729ca909d96bcb03b1f4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084328"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007705"
 ---
 # <a name="post-expense-reports"></a>Zaúčtovanie výkazov výdavkov
 
@@ -31,3 +29,6 @@ Ak sú náklady na správu o výdavkoch účtované inej spoločnosti ako spolo�
 Ak chcete zaúčtovať výkaz výdavkov, na stránke **Schválené výkazy výdavkov** vyberte výkaz výdavkov a potom na table akcií vyberte **Príspevok**.
 
 Môžete tiež zaúčtovať všetky výkazy výdavkov v zozname súčasne. Vyberte všetky výkazy výdavkov a potom vyberte **Príspevok**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

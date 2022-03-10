@@ -2,11 +2,9 @@
 title: Nastavenie a použitie platieb typu „zaplatiť po zaplatení“ pre dodávateľov
 description: Táto téma vysvetľuje, ako vytvoriť podmienky PWP (pay-when-paid), aby ste mohli uvoľniť čiastočné platby dodávateľa na základe platieb zákazníka.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288622"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008875"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Nastavenie a použitie platieb typu „zaplatiť po zaplatení“ pre dodávateľov
 

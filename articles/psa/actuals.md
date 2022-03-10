@@ -2,10 +2,9 @@
 title: Prehľad skutočných hodnôt
 description: Táto téma poskytuje informácie o skutočných údajoch projektu.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 63ad6544f0ec0a893aebd8d81f3ee895e51c294e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146142"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992495"
 ---
 # <a name="actuals-overview"></a>Prehľad skutočných hodnôt
 
@@ -33,7 +32,7 @@ ms.locfileid: "5146142"
 
 Skutočné údaje sú množstvo práce, ktorá bola dokončená na projekte. Skutočné údaje projektu možno vystopovať späť do svojich zdrojových dokladov. Tieto zdrojové doklady zahŕňajú čas, výdavky a účtovné záznamy, ako aj faktúry.
 
-![Ako vystopovať skutočné údaje projektov na zdrojové dokumenty](media/basic-guide-18.png)
+![Ako vystopovať skutočné údaje projektov na zdrojové dokumenty.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Odoslanie časovej položky
 
@@ -330,3 +329,6 @@ PSA zaznamenáva finančné transakcie, ktoré nastanú počas projektu. Tieto t
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

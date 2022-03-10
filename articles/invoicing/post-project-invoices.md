@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369035"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003790"
 ---
 # <a name="invoicing-process-overview"></a>Prehľad spracovania fakturácie
 
@@ -20,7 +20,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch ponúkajú komplexné možnosti prispôsobené tak, aby vyhovovali potrebám projektového manažéra aj referenta pohľadávok/účtovníka projektu. Pre proces fakturácie riadi projektový manažér nevybavené účty fakturácie projektu a referent pohľadávok/účtovník projektu vytvára vyhovujúci a presný fakturačný dokument orientovaný na zákazníka.
 
-![Vývojový diagram fakturácie](./media/invoicing-flow.png)
+![Vývojový diagram fakturácie.](./media/invoicing-flow.png)
 
 Riadok zmluvy projektu definuje spôsob účtovania pre súvisiace transakcie projektu. Keď projektový manažér schváli časové a nákladové transakcie, systém zaznamená transakcie do súboru entity **Skutočné hodnoty projektu** a odošle informácie do modulu **Projektové riadenie a účtovníctvo** v aplikácii Dynamics 365 Finance. Účtovník projektu potom skontroluje a zaúčtuje záznamy pomocou [Denník integrácie Project Operations](../project-accounting/project-operations-integration-journal.md). Tento denník obsahuje dôležité účtovné podrobnosti o skutočných hodnotách projektu, ako sú fakturácia, skupina dane z obratu, skupina dane z obratu fakturovanej položky a finančné dimenzie.
 

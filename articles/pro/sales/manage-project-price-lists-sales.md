@@ -1,27 +1,25 @@
 ---
 title: Správa projektových cenníkov v projektových cenových ponukách
-description: Táto téma poskytuje informácie o práci s cenníkmi projektov v cenových ponukách. (Sales)
+description: Táto téma poskytuje informácie o práci s cenníkmi projektov v cenových ponukách.
 author: rumant
-manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 7fcc7feaa9fc8d53046f54576e20989318dc3ec939569ea3844b18097512a24b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084287"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001630"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Správa projektových cenníkov v projektových cenových ponukách (Predaj)
+# <a name="manage-project-price-lists-on-project-quotes"></a>Správa projektových cenníkov v projektových cenových ponukách 
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Cenové ponuky projektu sú navrhnuté tak, aby podporovali cenníky s účinnosťou viacerých dátumov predaja. V Dynamics 365 Project Operations bola pridaná nová pridružená entita **Cenníky projektu**. Táto entita má vzťah 1 k mnohým pre cenovú ponuku projektu.
+Cenové ponuky projektu sú navrhnuté tak, aby podporovali cenníky s účinnosťou viacerých dátumov predaja. S aplikáciou Dynamics 365 Project Operations sa pridá nová pridružená entita s názvom **Projektové cenníky**. Táto entita má vzťah 1 k mnohým pre cenovú ponuku projektu.
 
-Cenníky projektu sa používajú na ocenenie časových a výdavkových transakcií projektu. Ak má cenová ponuka jeden alebo viac cenníkov projektu, tieto cenníky sa používajú na odhad ceny a času a výdavkov a skutočných hodnôt o projektoch, ktoré sú spojené s cenovou ponukou prostredníctvom riadka cenovej ponuky.
+Cenníky projektu sa používajú na ocenenie časových, materiálových a výdavkových transakcií projektu. Ak má cenová ponuka jeden alebo viac projektových cenníkov, tieto cenníky sa používajú na stanovenie ceny za čas, materiál, odhady výdavkov a skutočné hodnoty v projektoch, ktoré sú spojené s cenovou ponukou prostredníctvom riadku cenovej ponuky.
 
 Ak v cenovej ponuke projektu nie sú uvedené žiadne cenníky projektu, zobrazí sa varovné hlásenie. V hlásení sa uvádza, že keďže neexistujú žiadne cenníky projektu, vaše odhadované a skutočné práce a náklady na projekt nebudú ocenené. Namiesto toho budú mať nulovú (0) cenu za predajné hodnoty.
 
@@ -67,3 +65,6 @@ Keď budete mať predvolené organizačné cenníky projektu a cenníky projektu
 
 1. V časti **Cenová ponuka projektu** na karte **Cenník projektu** vo vedľajšej mriežke overte, či nie je vybraný žiadny špecifický záznam cenníka.
 2. Vyberte možnosť **Vytvorenie vlastných cien**. Takto sa vytvoria kópie všetkých štandardných cenníkov, ktoré sú v súčasnosti spojené s cenovou ponukou, a tieto kópie sa priradia k cenovej ponuke. Existujúce priradenia k štandardným cenníkom budú odstránené. Predajca potom môže začať s úpravami cien na týchto kópiách. Tieto zmenené ceny sa budú vzťahovať iba na túto cenovú ponuku projektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

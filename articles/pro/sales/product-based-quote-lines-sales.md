@@ -2,24 +2,23 @@
 title: Prehľad riadkov cenových ponúk založených na produkte – čiastočné
 description: Táto téma poskytuje informácie o práci s riadkami cenovej ponuky založenej na projekte.
 author: rumant
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f6aa428c486f149308ad078f9d7a80a0be0f0f04
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 871597b38d72d2b670c375d2a1711a6022e3446ba3955a3d2a233a6486d85f5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178207"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003340"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Prehľad riadkov cenových ponúk založených na produkte – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Môžete vytvoriť riadky cenových ponúk založených na produkte v Dynamics 365 Project Operations. Riadky cenových ponúk založených na produkte je možné pridávať ručne alebo môžu byť položkami z katalógu produktov.
+Môžete vytvoriť riadky cenových ponúk v Dynamics 365 Project Operations. Riadky cenových ponúk založených na produkte je možné pridávať ručne alebo môžu byť položkami z katalógu produktov.
 
 ## <a name="product-catalog"></a>Katalóg produktov
 
@@ -46,3 +45,6 @@ Ak je riadok cenovej ponuky založený na katalógu produktov, predajnú cenu m�
 Ak vyberiete **Prepísať ceny**, predvolená cena nie je nastavená. Namiesto toho musíte zadať cenu produktu v riadku cenovej ponuky. Ak vyberiete **Použiť predvolené**, použije sa predvolená predajná cena a pole je pre úpravy uzamknuté.
 
 Predvolené predajné ceny sa zapisujú do riadkov na základe produktov v cenovej ponuke. Pole **Ceny** sa potom nastaví na **Prepísanie cien**, aby ste mohli upraviť predvolenú cenu v riadkoch cenovej ponuky. Toto je prepísanie riadkov založených na produktoch špecifické pre aplikáciu Project Operations v Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Zobrazte fakturovateľné využívanie zdrojov
 description: Táto téma poskytuje informácie o zobrazení využitia zdrojov.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,18 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084386"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007165"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Zobrazte fakturovateľné využívanie zdrojov
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Zobrazenie využitia** na stránke **využitie zdrojov Project Service** zobrazuje účtovateľné využitie pre každý rezervovateľný zdroj. Pretože je zobrazenie založené na tabule plánovania, vďaka čomu tu nájdete veľa rovnakých funkcií.
 
-> ![Snímka obrazovky zobrazenia využitia](media/FAQ-utilization-1.png)
+> ![Snímka obrazovky Zobrazenie využitia.](media/FAQ-utilization-1.png)
  
 
 Výpočet spoplatneného využitia funguje nasledovne:
@@ -48,7 +48,7 @@ Cieľové využitie môžete nastaviť na predvolené roly zdroja, alebo samotn�
 2. Kliknite na zdroj na otvorenie záznamu. 
 3. Na karte **Project Service** môžete nastaviť cieľové využitie zdroja.
 
-> ![Snímka obrazovky využitia karty Project Service na nastavenie cieľového využívania](media/FAQ-utilization-2.png)
+> ![Snímka obrazovky využitia karty Project Service na nastavenie cieľového využívania.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Nastavenie cieľového využitia na rolu
 
@@ -56,7 +56,7 @@ Cieľové využitie môžete nastaviť na predvolené roly zdroja, alebo samotn�
 2. Kliknite na rola a otvorte záznam. 
 3. Nastavte cieľové využitie roly.
 
-> ![Snímka obrazovky používania Rol zdroja na stanovenie cieľového využitia](media/FAQ-utilization-3.png)
+> ![Snímka obrazovky používania Rol zdroja na stanovenie cieľového využitia.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Výpočet fakturovateľných využití zdrojov
 
@@ -99,3 +99,6 @@ Ak nevidíte účtovateľné využitie, tu sú niektoré veci môžete skontrolo
   - Úloha na riadku zmluvy projektu podporu projektu bol nastavený non-zdaniteľné.
   - Projekt nemá priradený riadok zmluvy.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

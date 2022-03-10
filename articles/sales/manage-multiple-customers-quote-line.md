@@ -2,18 +2,16 @@
 title: Spravovanie viacerých zákazníkov v riadkoch cenových ponúk založených na projekte
 description: Táto téma poskytuje informácie o tom, ako spravovať viacerých zákazníkov v riadkoch cenovej ponuky založenej na projekte.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4fa0adc877797d782173f29690b33d38ba7f8dcd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277942"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992045"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Spravovanie viacerých zákazníkov v riadkoch cenových ponúk založených na projekte
 

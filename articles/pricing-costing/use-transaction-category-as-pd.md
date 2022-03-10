@@ -2,18 +2,16 @@
 title: Použitie kategórie transakcie ako cenovej dimenzie
 description: Táto téma poskytuje informácie o používaní poľa Kategória transakcie ako cenovej dimenzie.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
-ms.translationtype: HT
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514024"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996140"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Použitie kategórie transakcie ako cenovej dimenzie
 
@@ -50,3 +48,6 @@ V nasledujúcej tabuľke sú uvedené všetky vopred pripravené formuláre a zo
 2. Na stránke **Parametre**, na karte **Cenové dimenzie založené na čiastke**, skontrolujte, či mriežka zobrazuje záznamy v entite **Cenové dimenzie**.
 3. Pridajte **Kategória transakcie** do tohto zoznamu a nastavte polia **Vzťahuje sa na náklady** a **Vzťahuje sa na predaj** na **Áno**.
 4. V poli **Typ dimenzie** zvoľte možnosť **Na základe sumy** a potom zvoľte prioritu pre **Kategóriu transakcie**, ktorá sa týka nákladov a predajov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

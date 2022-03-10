@@ -2,8 +2,6 @@
 title: Cenove ponuky a riadky cenovej ponuky
 description: Táto téma poskytuje informácie o jednotkových skupinách a jednotkách.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145152"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995465"
 ---
 # <a name="quotes-and-quote-lines"></a>Cenove ponuky a riadky cenovej ponuky
 
@@ -86,7 +84,7 @@ Profesionálne servisné organizácie zvyčajne oceňujú a fakturujú svojich z
 
 Jedna alebo viacero klasifikácií transakcie môže byť priradených ku riadkom cenovej ponuky. Po zvíťazení cenovej ponuky sa priradenie medzi klasifikáciou transakcie a riadkom cenovej ponuky prevedie do riadka zmluvy.
  
-> ![Screenshot mapovania typov transakcií do ponukových a zmluvných riadkov](media/basic-guide-5.png)
+> ![Sníma obrazovky mapovania typov transakcií do riadkov cenových ponúk a zmlúv.](media/basic-guide-5.png)
   
 Cenová ponuka môže napríklad obsahovať nasledujúce dva riadky cenovej ponuky: 
 - Konzultačná práca, ktorá používa metódu fakturácie času a materiálu, kde sa uplatňujú klasifikácie transakcií s časom a poplatkami. Napríklad všetky transakcie času a poplatkov pre príklad **Dynamics AX Implementácie** projektu sú fakturované zákazníkovi na základe času a materiálov, ktoré sa používajú. 
@@ -131,3 +129,6 @@ Pre riadok cenovej ponuky s pevnou cenou môžete použiť mriežku **plánu fak
 - Ak chcete vytvoriť rovnako rozdelené fakturačné míľniky, vyberte frekvenciu fakturácie, zadajte dátum začiatku fakturácie v riadku cenovej ponuky a vyberte **požadovaný dátum dokončenia** cenovej ponuky v sekcii **súhrn** v hlavičke cenovej ponuky. Potom vyberte **generovať periodické míľniky** na vytvorenie rovnomerne rozdelených míľnikov na základe vybranej frekvencie faktúr. 
 - Ak chcete vytvoriť míľnik fakturácie paušálnej čiastky, vytvorte míľnik a potom zadajte hodnotu riadka cenovej ponuky ako čiastku míľnika.
 - Ak chcete vytvoriť fakturačné míľniky, ktoré sú založené na konkrétnych úlohách v pláne projektu, vytvorte míľnik a mapujte ho na prvok plánu projektu v používateľskom rozhraní fakturačného míľnika.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

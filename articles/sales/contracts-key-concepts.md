@@ -2,20 +2,18 @@
 title: Projektové zmluvy – Kľúčové koncepty
 description: Táto téma poskytuje informácie o kľúčových konceptoch projektových zmlúv v aplikácii Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642157"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986960"
 ---
-# <a name="project-contracts---key-concepts"></a>Projektové zmluvy – Kľúčové koncepty
+# <a name="concepts-unique-to-project-based-contracts"></a>Koncepty jedinečné pre projektové zmluvy
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
@@ -88,3 +86,6 @@ Plány faktúr sú špecifické pre každý riadok zmluvy a sú potrebné na fun
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Zmeny oproti objednávkam Dynamics 365 Sales
 
 Zmluvy v Project Operations sú postavené na objednávkach v Dynamics 365 Sales. Existujú však dôležité odchýlky a rozdiely vo funkčnosti. Zmluvy majú svoj vlastný formulár a prvky používateľského rozhrania, obchodné pravidlá, obchodnú logiku v doplnkoch a skripty na strane klienta, vďaka ktorým sú oproti objednávkam jedinečné. Z týchto dôvodov nepoužívajte vymeniteľne predajnú objednávku a zmluvu Project Operations.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

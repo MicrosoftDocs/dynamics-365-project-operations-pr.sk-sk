@@ -2,8 +2,6 @@
 title: Viacmenové scenáre (verzia 3.x)
 description: Táto téma poskytuje informácie o viacmenových scenároch.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145692"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005140"
 ---
 # <a name="multiple-currency-scenarios"></a>Viacmenové scenáre
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 má dva koncepty mien:
 - **Mena transakcie** Mena v ktorej sa transakcia vyskytuje. 
 - **Základná mena** - mena inštancie Dynamics 365. Táto mena je nastavená, keď je poskytnutá inštancia Dynamics 365. Nemôže byť zmenená.
 
-Napríklad, Blaho USA predal 100 tričiek zákazníkovi vo Veľkej Británii za 15 ounds sterling (GBP) každé. Nasledujúca tabuľka zobrazuje spôsob, ako sa transakcia zaznamená v entite Objednávky Produktu.
+Contoso USA napríklad predal 100 tričiek zákazníkovi vo Veľkej Británii, každé za 15 pounds sterling (GBP). Nasledujúca tabuľka zobrazuje spôsob, ako sa transakcia zaznamená v entite Objednávky Produktu.
 
 | Produkt | Množstvo | Cena za jednotku | Mena | Čiastka | Výmenný kurz | Cena za jednotku (Základná)| Množstvo (Základné)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSA rozširuje koncept transakcie meny pre náklady a predaje nasledujúcimi sp�
 
 ## <a name="multiple-currency-scenario"></a>Viacmenový scenár
 
-Táto časť opisuje príklad projektu, v ktorom Blaho UK dodáva zákazníkovi, ktorý sa volá Fabrikam, Japonsko. Tu je, ako bol nastavený scenár:
+Táto časť opisuje príklad projektu, v ktorom Contoso UK dodáva zákazníkovi, ktorý sa volá Fabrikam, Japonsko. Tu je, ako bol nastavený scenár:
 
 1. GBP a Japonský jen (JPY) sú nastavené v časti **Nastavenia** \> **Riadenie Podnikania** \> **Meny**. 
 2. Konto zákazníka s názvom **Fabrikam-Japan** je nastavené a JPY je vybraný ako mena na účte.
-3. Je nastavená organizačná jednotka s názvom **Blaho UK** a v mene sa vyberie GBP.
-4. Vytvorí sa zmluva o projekte, kde je **Blaho UK** špecifikované ako zmluvná jednotka a **Fabrikam – Japonsko** je špecifikované ako zákazník.
+3. Je nastavená organizačná jednotka s názvom **Contoso UK** a ako mena sa vyberie GBP.
+4. Vytvorí sa zmluva o projekte, kde je **Contoso UK** špecifikované ako zmluvná jednotka a **Fabrikam – Japonsko** je špecifikované ako zákazník.
 5. Riadky projektových zmlúv sú vytvorené na základe fakturačných dojednaní pre rôzne triedy transakcií na projekte, ako je napríklad fakturácia za čas verzus fakturácia za výdavky.
-6. Projekt sa vytvorí tam, kde je **Blaho UK** špecifikovaný ako zmluvná jednotka. Tento projekt je vytvorený a priradený k riadkom projektových zmlúv.
+6. Projekt sa vytvorí tam, kde je **Contoso UK** špecifikovaný ako zmluvná jednotka. Tento projekt je vytvorený a priradený k riadkom projektových zmlúv.
 
 
 Počas odhadu, ktorý používa detail riadka cenovej ponuky, podrobnosti riadka zmluvy alebo riadok odhadu plánu, sa v entite vždy vytvoria dva záznamy. Jeden riadok je pre náklad, a druhý riadok je pre predaj.
@@ -105,3 +103,6 @@ Dynamics 365 automaticky spracováva súhrn čiastok v rôznych menách. Tu je p
 | Výdavok           | Nefakturovaný predaj   | 17. Jún | Erik  | Požičovňa áut           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 Na výpočet celkovej hodnoty nefakturovaného predaja v projekte, môžete vytvoriť súhrnné pole pre **Amount** pole na všetky súvisiace skutočné hodnoty nefakturovaný predajov. skutočné hodnoty. Pole súhrnu je konštrukcia pre Dynamics 365, ktorý umožňuje rýchle vzorce na súvisiace záznamy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

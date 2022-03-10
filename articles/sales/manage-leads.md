@@ -2,18 +2,16 @@
 title: Správa potenciálnych zákazníkov
 description: Táto téma poskytuje informácie o správe potenciálnych zákazníkov na základe projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 2ac6d03e8e070b62a2ffe689cccfc19bad1ee2bdc88dd65902f663b2d19ba655
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278077"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008200"
 ---
 # <a name="manage-leads"></a>Správa potenciálnych zákazníkov
 
@@ -55,7 +53,7 @@ Potenciálni záujemcovia, ktorí majú hodnotu **Typ** nastavenú na **Založen
 - Záznam kontaktu priradený k účtu na základe hodnôt v poliach **Krstné meno** a **Priezvisko** pre potenciálneho zákazníka.
 - Príležitosť založená na projekte, ktorá má pole **Typ** nastavené na **Založené na práci**.
 
-Podrobnejšie informácie o kvalifikovaných potenciálnych zákazníkoch nájdete v časti [Kvalifikovanie alebo konvertovanie potenciálnych zákazníkov](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Podrobnejšie informácie o kvalifikovaných potenciálnych zákazníkoch nájdete v časti [Kvalifikovanie alebo konvertovanie potenciálnych zákazníkov](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Kvalifikácia potenciálneho zákazníka a informácie o právnickej entite 
 

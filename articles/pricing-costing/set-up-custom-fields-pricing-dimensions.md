@@ -2,11 +2,9 @@
 title: Nastavenie vlastných polí ako cenových dimenzií
 description: Táto téma poskytuje informácie o tom, ako nastaviť cenové dimenzie pomocou vlastných polí.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274882"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003610"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavenie vlastných polí ako cenových dimenzií
 
@@ -44,11 +42,11 @@ Aby sa pole stalo cenovou dimenziou, musí byť:
 
 - Vytvorená ako riadok v tabuľke **Cenová dimenzia**. Pridajte napríklad riadky dimenzie ocenenia, ako je uvedené v nasledujúcom obrázku. 
 
-![Riadky čiastkovo založenej dimenzie oceňovania](media/Amt-based-PD.png)
+![Riadky cenovej dimenzie na základe sumy.](media/Amt-based-PD.png)
 
 Pracovné hodiny zdroja (**msdyn_resourceworkhours**) sú pridané ako dimenzie založené na prirážke a boli pridané do mriežky na karte **Cenová dimenzia založená na prirážke**.
 
-![Riadky dimenzie ceny na základe zrážky](media/Markup-based-PD.png)
+![Riadky cenovej dimenzie na základe prirážky.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -77,10 +75,10 @@ Existujú dva typy cien dimenzií:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|U zákazníka            |                    |Nadčas                 |15     |
 |             | Contoso India|Lokálny             |                    |Nadčas                 |10     |
-|             | Contoso US   |Lokálny             |                    |Nadčas                 |20     |
+|             | Contoso – USA   |Lokálny             |                    |Nadčas                 |20     |
 
 
-Ak zdroj z Contoso India, ktorého základná sadzba je 100 USD, pracuje u zákazníka a vykáže 8 hodín bežnej pracovnej doby a 2 hodiny nadčasov v zadaní času, systém cenotvorby využije základnú sadzbu 100 pre nasledujúcich 8 hodín, čím sa dosiahne 800 USD. Pre 2 hodiny nadčas, bude prirážka 15 % použitá na základnú sadzbu 100 na získanie jednotkovej ceny 115 USD a zaznamená celkové náklady na 230 USD.
+Ak zdroj z Contoso India, ktorého základná sadzba je 100 USD, pracuje u zákazníka a vykáže 8 hodín bežnej pracovnej doby a 2 hodiny nadčasov v zadaní času, systém ceny využije základnú sadzbu 100 pre nasledujúcich 8 hodín, čím sa dosiahne 800 USD. Pre 2 hodiny nadčas, bude prirážka 15 % použitá na základnú sadzbu 100 na získanie jednotkovej ceny 115 USD a zaznamená celkové náklady na 230 USD.
 
 ### <a name="applicable-to-cost"></a>Vzťahuje sa na náklady 
 Ak je nastavená na hodnotu **Áno**, znamená to, že hodnota dimenzie z kontextu vstupu by sa mala použiť na zhodu s poľami **Cena roly** a **Prirážka k cene roly** pri načítavaní sadzieb nákladov a prirážky.

@@ -2,24 +2,23 @@
 title: Prehľad čiastočného nasadenia
 description: Táto téma obsahuje informácie o čiastočnom nasadení Dynamics 365 Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365621"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997400"
 ---
 # <a name="lite-deployment-overview"></a>Prehľad čiastočného nasadenia
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Typ čiastočného nasadenia Dynamics 365 Project Operations má pre projektové spoločnosti nasledujúce schopnosti:
+Typ čiastočného nasadenia v aplikácii Dynamics 365 Project Operations ponúka nasledujúce možnosti pre projektové spoločnosti:
 
 - Plánovanie projektu pomocou programu Microsoft Project for the Web
 - Multidimenzionálne ceny a náklady na pracovné zdroje
@@ -37,3 +36,6 @@ Tento typ nasadenia použite, ak očakávate, že pri Project Operations sa bude
 - Integrovaný systém, ktorý spravuje interné a fakturovateľné projekty pre plány a financie od predaja projektu po fakturáciu.
 - Plánovanie podnikových zdrojov tretej strany (systém ERP/finančného účtovania, ktorý je možné integrovať do Project Operations).
 - Systém tretej strany pre prácu s daňami z predaja, výmennými kurzami, refundáciami výdavkov a mimoprojektovými výdavkami.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

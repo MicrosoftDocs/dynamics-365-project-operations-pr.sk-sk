@@ -1,12 +1,10 @@
 ---
 title: Jednotky a jednotkové skupiny
-description: Táto téma poskytuje informácie o tom, ako vytvoriť jednotky a skupiny jednotiek v Dynamics 365 Project Operations.
+description: Táto téma poskytuje informácie o tom, ako vytvárať jednotky a skupiny jednotiek v rámci Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084487"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999560"
 ---
 # <a name="units-and-unit-groups"></a>Jednotky a jednotkové skupiny
 
@@ -46,3 +44,6 @@ Ak chcete vykonať kroky v tejto téme, uistite sa, že máte priradenú rolu Sp
 3. Do poľa **Množstvo** zadajte množstvo, ktoré bude jednotka obsahovať. Ak napríklad krabica obsahuje dva kusy, zadajte hodnotu „2”. 
 4. V poli **Základná jednotka** vyberte základnú jednotku, aby ste určili najnižšiu jednotku merania pre jednotku. Môžete napríklad zvoliť „Kus“.
 5. Vyberte položku **Uložiť**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

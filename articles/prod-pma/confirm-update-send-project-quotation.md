@@ -2,11 +2,9 @@
 title: Potvrdenie, aktualizácia a odosielanie kótovanej ceny projektu
 description: Táto téma poskytuje informácie o odoslaní cenovej ponuky zákazníkovi na potvrdenie, úpravách založených na odozve a opätovnom odoslaní cenovom ponuky.
 author: ruhercul
-manager: AnnBe
 ms.date: 05/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: df7bfd7c57b7a273a94e49fcf3834072a8eb20b0ed598a144cefaff41e28a431
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084502"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991280"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Potvrdenie, aktualizácia a odosielanie kótovanej ceny projektu
 
@@ -57,3 +55,6 @@ Ak chcete upraviť existujúcu cenovú ponuku projektu, musí byť stav cenovej 
 
 > [!NOTE]
 > Po zmene stavu na **Odoslaná** nemožno upraviť cenovú ponuku projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

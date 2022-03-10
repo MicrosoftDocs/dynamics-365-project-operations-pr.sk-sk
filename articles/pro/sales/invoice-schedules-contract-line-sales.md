@@ -2,18 +2,16 @@
 title: Vytváranie plánov faktúr v riadku zmluvy založenej na projekte – čiastočné
 description: Táto téma poskytuje informácie o vytváraní plánov faktúr a medzníkov.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180346"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006085"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Vytváranie plánov faktúr v riadku zmluvy založenej na projekte – čiastočné
 
@@ -74,3 +72,6 @@ Medzníky pevnej ceny je možné generovať manuálne, ak nie sú pravidelne roz
 | Daň | Rýchle vytvorenie | Suma dane použitá pre medzník. | Toto je súčasťou medzníka riadka projektovej zmluvy a faktúry. |
 
 4. Vyberte položku **Uložiť a zavrieť**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

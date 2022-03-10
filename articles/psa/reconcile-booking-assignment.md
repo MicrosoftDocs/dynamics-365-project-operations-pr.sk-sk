@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008915"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995150"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Zmierenie zdrojov a priradenia
 
@@ -51,11 +51,11 @@ V niektorých prípadoch, keď je pole **Časový rozsah** nastavený na úrove�
 
 Keď zobrazíte čas na vyšších časových úrovniach, bunky na karte **Vyrovnanie** majú indikátor bunky, ktorý vám oznámi, že existujú rozdiely na nižších časových úrovniach. Napríklad na nasledujúcom obrázku sa v bunke zobrazí indikátor bunky pre mesiac október 2018 pre prostriedok s názvom Dana Mrázová. Preto môžete vidieť, že aj keď zdroj rezervácie a priradenia sú rovnaké, keď sú agregované na úrovni **mesiaca**, nezhodujú sa na nižších úrovniach.
 
-![Nesúlad rezervácií a úloh na mesačnej úrovni](media/reconcile-assignments-01.JPG)
+![Nesúlad rezervácií a úloh na mesačnej úrovni.](media/reconcile-assignments-01.JPG)
 
 Dvojitým kliknutím na bunku priblížite ďalšiu nižšiu úroveň a zobrazíte rozdiel. Napríklad, ak dvakrát kliknete na október 2018 rozdiel pre Dana Mrázová si zobrazíte na úroveň **Týždeň**. Potom môžete vidieť, že zdroj má rezerváciu 16 hodín, ale žiadne úlohy v prvých dvoch týždňoch v októbri, a 16 hodín úloh, ale žiadne rezervácie v treťom týždni v októbri.
 
-![Nesúlad rezervácií a úloh na týždennej úrovni](media/reconcile-assignments-02.JPG)
+![Nesúlad rezervácií a úloh na týždennej úrovni.](media/reconcile-assignments-02.JPG)
 
 Môžete kliknúť pravým tlačidlom myši na bunku a zmenšiť tak ďalšiu vyššiu úroveň. Indikátor bunky môžete vypnúť aj tak, že vyberiete tlačidlo **Nastavenia**. 
 
@@ -68,13 +68,13 @@ Na zabezpečenie presných a predvídateľných výsledkov pri používaní roz�
 
 - Používateľ musí nakonfigurovať časové pásmo svojho zariadenia tak, aby sa zhodovalo s časovým pásmom definovaným v nastaveniach prispôsobenia vášho systému.
  
-  ![Nastavenia časového pásma v systéme Windows 10](media/reconcile-assignments-03.png)
+  ![Nastavenia časového pásma v systéme Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Nastavenia časového pásma v nastaveniach prispôsobenia](media/reconcile-assignments-04.png)
+  ![Nastavenia časového pásma v nastaveniach prispôsobenia.](media/reconcile-assignments-04.png)
  
 - Rezervovateľný zdroj musí mať najmenej jednu minútu pracovného času, ktorá sa prekrýva s obrysmi, ktoré sa používajú na definovanie požadovaného rozšírenia. Nasledujúci príklad napríklad zobrazuje zdroje na preskúmanie s pracovnými hodinami, ktoré spadajú medzi 9:00 a 19:00. 
 
-  ![Porovnanie obrysov zdrojov](media/reconcile-assignments-05.png)
+  ![Porovnanie obrysov zdrojov.](media/reconcile-assignments-05.png)
 
 Nasledujúca tabuľka zobrazuje:
 
@@ -83,22 +83,22 @@ Nasledujúca tabuľka zobrazuje:
 - Zdroje B: Tento zdroj sa nachádza v inom časovom pásme, ako je projekt, a preto sa začína v 7.00 v jeho časovom pásme. Rezervácie sa však začnú o 9.00, pretože ide o najskorší čas začiatku obrysu priradenia.
 - Zdroje C a D: Zdroje sa nachádzajú aj v rôznych časových pásmach, ktoré sa odlišujú od seba a od projektu, a ktorých rezervácie sa nezačínajú skôr, ako sú príslušné dostupné časy začiatku.
 
-|Entita  |Kalendár  |
+|Entity  |Kalendár  |
 |-|-|
-|Šablóna kalendára projektu   | ![kalendár projektu](media/reconcile-assignments-06.png) |
-|Zdroj A  | ![Kalendár zdroja A](media/reconcile-assignments-06.png) |
-|Zdroj B  |  ![Kalendár zdroja B](media/reconcile-assignments-07.png) |
-|Zdroj C  |  ![Kalendár zdroja C](media/reconcile-assignments-08.png) |
-|Zdroj D  | ![Kalendár zdroja D](media/reconcile-assignments-09.png)  |
+|Šablóna kalendára projektu   | ![kalendár projektu.](media/reconcile-assignments-06.png) |
+|Zdroj A  | ![Kalendár zdroja A.](media/reconcile-assignments-06.png) |
+|Zdroj B  |  ![Kalendár zdroja B.](media/reconcile-assignments-07.png) |
+|Zdroj C  |  ![Kalendár zdroja C.](media/reconcile-assignments-08.png) |
+|Zdroj D  | ![Kalendár zdroja D.](media/reconcile-assignments-09.png)  |
  
 Keď prejdete na zobrazenie odsúhlasenia, zobrazia sa priradenia zdrojov a súvisiace rezervačné nedostatky.
- ![Zobrazenie odsúhlasenia pred predĺžením](media/reconcile-assignments-10.png)
+ ![Zobrazenie odsúhlasenia pred predĺžením.](media/reconcile-assignments-10.png)
 
 Po vykonaní funkcie rozšírenia rezervácie na každom zdroji sa rezervácie úspešne rozšíria pre každý zdroj. Dôvodom je, že pracovná doba každého zdroja sa prekrývala s obrysmi nedostatku.
- ![Zobrazenie odsúhlasenia po rozšírení rezervácie](media/reconcile-assignments-11.png) 
+ ![Zobrazenie odsúhlasenia po rozšírení rezervácie.](media/reconcile-assignments-11.png) 
 
 Bližší pohľad na podrobnosti rezervácií však ukazuje rozdiely v počiatočnom čase rezervácií. Rezervácie sa nezačnú skôr, ako je čas začiatku obrysu priradenia, a nie skôr, ako je čas začiatku, ktorý je k dispozícii pre zdroj.
- ![Nové rezervácie zdrojov na tabuli plánovania](media/reconcile-assignments-12.png)
+ ![Nové rezervácie zdrojov na tabuli plánovania.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Pridať roly zdrojov
 description: Ako priradiť rolu k zdrojom Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d0e86cd56d75eeda1377dbc30a48e6888a50af0e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: caced5b5acc06d33d7345a73789cf8a768a1f89200eb1c8185909acece47b38f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285457"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005230"
 ---
 # <a name="add-resource-roles-project-service"></a>Pridať roly zdroju (Project Service)
 

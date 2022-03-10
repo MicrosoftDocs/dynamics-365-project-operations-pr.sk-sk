@@ -2,8 +2,6 @@
 title: Príručka manažéra obchodného vzťahu
 description: Príručka správcu obchodného vzťahu pre Project Service, ktorá ponúka prehľad procesov predaja a zmlúv pre projektové obchodné vzťahy
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c6a24247eac912fd076eee8a47787e2f0709dfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 4792d3438216a850b0b4afdb38f26b85adb81960c5984217c76c9954ca36b884
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084534"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985835"
 ---
 # <a name="account-manager-guide-project-service"></a>Príručka správy účtov (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,3 +46,6 @@ Kapacity [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.
  [Príručka projektového manažéra](../psa/project-manager-guide.md)   
  [Príručka správcu zdrojov](../psa/resource-manager-guide.md)   
  [Príručka časom, nákladmi a spoluprácou](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

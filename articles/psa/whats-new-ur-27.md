@@ -2,8 +2,6 @@
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 27, V3
 description: Táto téma obsahuje zoznam funkcií a opráv dostupných v aktualizácii Project Service Automation, vydanie 27, V3
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b9da3ec54ec10408774945d26db9e702c858d05
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: ee7bbe888a982e3554ba524c67442437c9be9183a5ee0940ccc3261b4a4992e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146682"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985070"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a>Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 27, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365. Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte stránku online riešení v centre spravovania služby Dynamics 365 a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365. Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte stránku online riešení v centre spravovania služby Dynamics 365 a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).
 
 Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation V3, vydanie 27. Táto verzia má číslo zostavy V3.10.45.98 a je všeobecne dostupná prostredníctvom samoaktualizácie v januári 2021.
 
@@ -81,3 +79,6 @@ Vyriešili sa tieto problémy:
 - Keď sú nainštalované Dynamics 365 Field Service a Project Service Automation, možnosti **Zablokovať ceny** a **Použiť aktuálne ceny** sa nezobrazujú súčasne na stránke **Faktúra**.
 - Pre japonský jazyk existuje nekonzistentný preklad s inými stránkami založenými na kalendári.
 - Možnosti **Aktivovať** a **Deaktivovať** boli odstránené z entít **Priradenie cenníka** v Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

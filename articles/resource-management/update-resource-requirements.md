@@ -2,18 +2,16 @@
 title: Upravte požiadavku na zdroj
 description: Táto téma poskytuje informácie o aktualizácii informácií o požiadavkách zdrojov.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128797"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999785"
 ---
 # <a name="edit-a-resource-requirement"></a>Upravte požiadavku na zdroj
 
@@ -37,3 +35,5 @@ Ako projektový manažér vykonajte nasledujúce kroky a upravte požiadavku na 
 ## <a name="edit-resource-assignment-contours"></a>Upravte kontúry priradenia zdrojov
 
 Okrem úpravy detailov požiadaviek zdrojov môže projektový manažér aktualizovať jednotlivé obrysy požiadavky zdrojov pomocou funkcie **Zadajte vzor**. Po výbere možnosti **Zadajte vzor** sa otvorí stránka a môžete si pozrieť obrysy v dennej, týždennej alebo mesačnej časovej škále. Pre každý obrys je možné upraviť začiatočný čas, konečný čas a celkové úsilie v danom období.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

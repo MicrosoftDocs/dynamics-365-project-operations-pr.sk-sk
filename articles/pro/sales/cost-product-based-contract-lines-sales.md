@@ -2,19 +2,17 @@
 title: Náklady v riadkoch zmlúv založených na produkte – čiastočné
 description: Táto téma poskytuje informácie o vytváraní
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 001b0b54abcdd5fcd1eca7f3271cc78392f68860
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273712"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997355"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Náklady v riadkoch zmlúv založených na produkte – čiastočné
 

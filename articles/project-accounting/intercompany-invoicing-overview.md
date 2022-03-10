@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369395"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005410"
 ---
 # <a name="intercompany-invoicing-overview"></a>Prehľad medzipodnikovej fakturácie
 
@@ -22,7 +22,7 @@ Vaša organizácia môže mať viac divízií, dcérskych spoločností a ďalš
 
 Nasledujúci obrázok znázorňuje typický scenár, keď dva právne subjekty, Contoso Robotics USA (požičiavajúca si právnická osoba) a Contoso Robotics UK (požičiavajúca právnická osoba) zdieľajú zdroje na realizáciu projektu pre zákazníka, spoločnosť Adventure Works. Pre tento scenár je Contoso Robotics USA zmluvne poverená dodaním diela spoločnosti Adventure Works.
 
-![Medzipodniková fakturácia](./media/IntercompanyScenario.png) 
+![Medzipodniková fakturácia.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations používa na spracovanie medzipodnikových transakcií nasledujúci postup:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations používa na spracovanie medzipodnikových trans
 
 Nasledujúci diagram ilustruje medzipodnikovú fakturáciu, pretože sa týka účtovných udalostí a očakávaných zaúčtovaní do hlavnej účtovnej knihy.
 
-![Medzipodnikový postup](./media/IntercompanyFlow.png)
+![Medzipodnikový postup.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Ďalšie zdroje
 

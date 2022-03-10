@@ -7,12 +7,13 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005000"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001990"
 ---
 # <a name="pricing-dimensions-overview"></a>Prehľad cenových dimenzií
 
@@ -32,7 +33,7 @@ Z tohto dôvodu existujú dva typy hodnôt cenovej dimenzie:
 
 Dynamics 365 Project Operations sa dodáva s predvolenou množinou cenových dimenzií. Tieto cenové dimenzie môžete zobraziť tak, že prejdete do **Project Operations** > **Parametre**. V zázname parametra, karta **cenové dimenzie založené na čiastke**, overuje, že role, **msdyn_resourcecategory** a zdrojová organizačná jednotka, **msdyn_organizationalunit** majú polia **Vzťahujúce sa na predaj** a **vzťahujúce sa na náklad** nastavené na **Áno**. Po povolení týchto polí môžete nastavovať cenu a náklady pre kombináciu každej roly a organizačnej jednotky.
 
-![Screenshot z parametrov Project Service so zvýrazneným "použiteľné pre predaj"](media/PS-OOB-parameters.png)
+![Snímka obrazovky z parametrov Project Service so zvýrazneným „Vzťahuje sa na predaj“.](media/PS-OOB-parameters.png)
 
 Ak potrebujete ceny alebo náklady na svoje zdroje pomocou ďalších atribútov, môžete vytvoriť prispôsobené polia, entity a dimenzie. Ďalšie informácie nájdete v nasledujúcej téme. 
   
@@ -41,8 +42,8 @@ Ak potrebujete ceny alebo náklady na svoje zdroje pomocou ďalších atribútov
 
 1. [Vytvorenie riešenia pre vlastné cenové dimenzie](../sales/create-solution-custompd.md)
 2. [Vytvorenie vlastných polí a entít](create-custom-fields-entities-pricing-dimensions.md)
-3. [Pridanie vlastných polí do entít nastavenia cien a transakcií](add-custom-fields-price-setup-transactional-entities.md)
-4. [Nastavenie vlastných polí ako cenových dimenzií](set-up-custom-fields-pricing-dimensions.md)
+3. [Pridanie vlastných polí do entít nastavenia cien a transakcií ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Nastavenie vlastných polí ako cenových dimenzií ](set-up-custom-fields-pricing-dimensions.md)
 5. [Aktualizácia atribútov doplnkov na zahrnutie nových dimenzií cien](update-plugin-attributes-pd.md)
 
 
