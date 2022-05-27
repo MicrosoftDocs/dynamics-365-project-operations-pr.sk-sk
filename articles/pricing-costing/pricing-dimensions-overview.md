@@ -3,17 +3,16 @@ title: Prehľad cenových dimenzií
 description: Táto téma poskytuje informácie o cenových dimenziách v Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001990"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579279"
 ---
 # <a name="pricing-dimensions-overview"></a>Prehľad cenových dimenzií
 
@@ -58,18 +57,18 @@ Nasledujúci príklad zobrazuje fakturačné sadzby, ktoré sú nastavené na z�
 
 **Vzorka fakturačných sadzieb**
 
-| Rola        | Organizačná jednotka    |Jednotka      |Cena      |Mena  |
+| Rola        | Org jednotka    |Jednotka      |Cena      |Mena  |
 | ------------|-------------|----------|----------:|----------|
-| Vývojár   | Contoso – USA  |Hodina | 200|USD     |
-| Vývojár   | Contoso India |Hodina|   112|USD     |
+| Vývojár   | Contoso US  |Hour | 200|USD     |
+| Vývojár   | Blaho India |Hour|   112|USD     |
 
 
 **Vzorka nákladových sadzieb**
 
-| Platové pásmo     | Organizačná jednotka    |Jednotka      |Cena      |Mena  |
+| Platové pásmo     | Org jednotka    |Jednotka      |Cena      |Mena  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje company_Band1 | Contoso – USA  |Hodina | 145|USD     |
-| Moje company_Band2 | Contoso India |Hodina|   67|USD     |
+| Moje company_Band1 | Contoso US  |Hour | 145|USD     |
+| Moje company_Band2 | Blaho India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

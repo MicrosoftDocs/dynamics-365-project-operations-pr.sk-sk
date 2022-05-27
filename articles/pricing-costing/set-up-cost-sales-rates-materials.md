@@ -2,16 +2,16 @@
 title: Nastavenie nákladových a predajných sadzieb pre materiály
 description: Táto téma poskytuje informácie o tom, ako nastaviť nákladové a predajné sadzby pre materiály použité na projektoch.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999200"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576887"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Nastavenie nákladových a predajných sadzieb pre materiály
 
@@ -25,6 +25,9 @@ Ak chcete nastaviť nákladové a predajné sadzby pre produkty, postupujte takt
 2. V časti **Položky v cenníku** v ponuke vedľajšej mriežky vyberte **Nová položka cenníka**. 
 3. Na stránke **Rýchle vytvorenie** zadajte produkt a jednotku, pre ktorú vytvárate novú cenu.
 
-Ďalšie informácie o tom, ako definovať ceny pre katalógové položky, nájdete v časti [Nastavenie cien produktov](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) a [Desatinná presnosť meny a cien](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Ďalšie informácie o tom, ako definovať ceny pre katalógové položky, nájdete v časti [Definujte cenu produktu pomocou cenníkov a položiek cenníka](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) a [Desatinná presnosť v mene a cene](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations nepodporuje všetky metódy tvorby cien pre produkty ako Dynamics 365 Sales. Jediná podporovaná metóda oceňovania produktov, ktoré sa majú použiť na projektoch, je *Suma meny*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

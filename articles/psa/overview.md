@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000280"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580199"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Čo je Dynamics 365 Project Service Automation?
 
@@ -42,14 +43,6 @@ Aplikácia Project Service Automation (PSA) pomáha organizáciám efektívne sl
 - ...a oveľa viac
 
 Okrem toho vám na pomoc pri sledovaní a riadení nákladov prác spojených s projektom individuálni konzultanti jednoducho zadajú a sledujú čas a náklady s projektom, a to buď na mobilnom zariadení alebo cez webový prehliadač.
-
-## <a name="whats-new-in-psa"></a>Čo je nové v PSA
-Tím je rád, že môže oznámiť naše najnovšie aktualizácie! Od vylepšenia používateľského rozhrania, opravy chýb až po pridanie dôležitých nových funkcií a schopností. Vy ste hovorili, my sme počúvali.
-
-Prečítajte si časť [Poznámky k vydaniu z októbra 2019](/dynamics365-release-plan/2019wave2/index), kde uvidíte najnovšie vylepšenia a prídavky.
-
-### <a name="in-development"></a>Vo vývoji
-Ak si chcete prečítať o plánoch v blízkej budúcnosti, prejdite na časť [Dynamics 365: 2020 vlna vydania 1](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Získajte pomoc s PSA verzie 3.x
 Hľadáte zdroje, ktoré vám pomôžu pri plánovaní implementácie? Prezrite si tieto príručky určené na stiahnutie.
@@ -80,10 +73,6 @@ Hľadáte zdroje, ktoré vám pomôžu pri plánovaní implementácie? Prezrite 
  [Technická dokumentácia (aplikácia verzie 2.x alebo 1.x)](../psa/white-papers.md)
 
  [Poznámky pre vývojárov (aplikácia verzie 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>Pozrite si 2-minútové video s prehľadom
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

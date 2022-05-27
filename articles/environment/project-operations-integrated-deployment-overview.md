@@ -3,16 +3,15 @@ title: Prehľad nasadenia aplikácie Project Operations pre scenáre založené 
 description: Táto téma poskytuje informácie o type nasadenia Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009730"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575140"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Prehľad nasadenia aplikácie Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -32,7 +31,7 @@ Typ nasadenia, Dynamics 365 Project Operations scenáre založené na zdrojoch/c
 - Priznanie výnosov projektu
 - Rozširovateľnosť prostredníctvom Power Platform
 
-Tento typ nasadenia poskytuje rozšírenie funkcií poskytovaných aplikáciami Dynamics 365 Finance a Dynamics 365 Supply Chain Management.
+Tento typ nasadenia poskytuje rozšírenie funkcií poskytovaných Dynamics 365 Finance a Dynamics 365 Supply Chain Management aplikácie.
 
 Toto nasadenie by sa malo zvoliť tak, že sa očakáva, že pri Project Operations sa bude využívať celý životný cyklus projektu, ktorý obsahuje nasledujúce požiadavky:
 

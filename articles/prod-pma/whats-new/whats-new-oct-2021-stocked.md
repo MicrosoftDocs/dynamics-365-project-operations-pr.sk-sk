@@ -5,20 +5,20 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818329"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576059"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Čo je nové alebo zmenené v Project Operations, október 2021 pre scenáre na sklade/výrobe
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/výrobe_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoft Dynamics 365 Project Operations:
+Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
 
 - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.22
  
@@ -30,7 +30,7 @@ Táto téma sa týka nasledujúcich komponentov a verzií Microsoft Dynamics 365
 | Projektový manažment a účtovníctvo | [558232](https://fix.lcs.dynamics.com/Issue/Details/?bugId=558232) | The **Zabráňte uzavretiu projektu, ak existujú otvorené transakcie** funkčnosť nefunguje. |
 | Projektový manažment a účtovníctvo | [559271](https://fix.lcs.dynamics.com/Issue/Details/?bugId=559271) | Klasifikácia fakturácie na faktúre s voľným textom automaticky nevypĺňa dimenzie z projektov, keď je táto funkcia povolená. |
 | Projektový manažment a účtovníctvo | [574013](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574013) | V scenároch, ktoré sa netýkajú medzipodnikov, nie sú sumy WIP a časovo rozlíšené príjmy správne stornované pri zaúčtovaní projektovej faktúry. |
-| Projektový manažment a účtovníctvo | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Debetné a kreditné hodnoty sa prepnú, keď sa doplnok Microsoft Excel použije s denníkom výdavkov projektu a **Typ ofsetového účtu** pole je nastavené na **Projekt**. |
+| Projektový manažment a účtovníctvo | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Debetné a kreditné hodnoty sa prepnú, keď Microsoft Excel doplnok sa používa s denníkom výdavkov projektu a **Typ ofsetového účtu** pole je nastavené na **Projekt**. |
 | Projektový manažment a účtovníctvo | [577972](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577972) | Suma, ktorá je zaúčtovaná v projektových transakciách, je nadhodnotená v objednávke projektu, ktorá zahŕňa skladové položky a ktorá má neodpočítateľné sumy dane, keď **UseTax** je označený. |
 | Projektový manažment a účtovníctvo | [581216](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581216) | Systém rozdelí sumu medzi výkazy ziskov a strát projektu a výkazy WIP projektu. |
 | Projektový manažment a účtovníctvo | [582065](https://fix.lcs.dynamics.com/Issue/Details/?bugId=582065) | Po úprave požiadavky na čiastočne vrátenú položku je inventár na sklade nesprávny. |
@@ -51,20 +51,20 @@ Táto téma sa týka nasledujúcich komponentov a verzií Microsoft Dynamics 365
 | Projektový manažment a účtovníctvo | [597801](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597801) | Typ položky projektu počiatočného zostatku je vylúčený **Súhrny transakcií návrhu faktúry** keď je vypočítaný súčet faktúry návrhu faktúry. |
 | Projektový manažment a účtovníctvo | [597886](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597886) | Ak sú náklady na spotrebu vo výrobnej zákazke projektu 0 (nula), pri pokuse o odhad sa vyskytne nasledujúca chyba: "Pokus o delenie nulou." |
 | Projektový manažment a účtovníctvo | [598706](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598706) | Mobilná aplikácia Project Timesheet pre Android prestane reagovať. Problém súvisí s **TimeEntryDataManager ArgumentNullException**. |
-| Projektový manažment a účtovníctvo | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Denník integrácie Project Operations zlyhá, keď ho zaúčtujete, pretože v účte chýbajú dimenzie. Účet, ktorému chýbajú rozmery, však nie je účtom, do ktorého odosielate. |
+| Projektový manažment a účtovníctvo | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Denník integrácie projektových operácií zlyhá, keď ho zaúčtujete, pretože účtu chýbajú dimenzie. Účet, ktorému chýbajú rozmery, však nie je účtom, do ktorého odosielate. |
 | Projektový manažment a účtovníctvo | [598929](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598929) | The **Randiť** filter vo vyhľadávaniach sa nevymaže, keď je odstránený z **Vyberte** dialógové okno na **Poštovné náklady** stránku. |
 | Projektový manažment a účtovníctvo | [599757](https://fix.lcs.dynamics.com/Issue/Details/?bugId=599757) | **Obnoviť celú distribúciu** zlyhá a zobrazí chybu pre časové výkazy, ktoré sú vytvorené pre projekt **Iba čas** typu. |
 | Projektový manažment a účtovníctvo | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | The **Projekt** kartu nie je možné upravovať na čakajúcej faktúre dodávateľa, keď je k položke priradená kategória obstarávania. |
 | Projektový manažment a účtovníctvo | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Navigačná tabla chýba, ak nie ste prihlásení do Project Operations Dataverse. |
-| Projektový manažment a účtovníctvo | [546467](https://fix.lcs.dynamics.com/Issue/Details/?bugId=546467) | Pri transakciách úpravy medzipodnikových projektov existujú problémy v cieľovej spoločnosti. |
-| Projektový manažment a účtovníctvo | [563579](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563579) | Viazané náklady na projekt vypočítavajú nesprávne množstvo a nákladovú cenu, ak bola objednávka spracovaná spoločnosťou **Proces nákupnej objednávky na konci roka** v hlavnej knihe. |
-| Projektový manažment a účtovníctvo | [581454](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581454) | Keď sa projektová výrobná zákazka, ktorá obsahuje zákazky kvality, vykáže ako dokončená, vyskytne sa nasledujúca chyba: „Žiadna virtuálna transakcia označená transakciou zásob.“ |
+| Projektový manažment a účtovníctvo | [546467](https://fix.lcs.dynamics.com/Issue/Details/?bugId=546467) | V prípade transakcií úpravy medzipodnikových projektov existujú problémy v cieľovej spoločnosti. |
+| Projektový manažment a účtovníctvo | [563579](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563579) | Zaviazané náklady na projekt vypočítavajú nesprávne množstvo a nákladovú cenu, ak bola objednávka spracovaná spoločnosťou **Proces nákupnej objednávky na konci roka** v hlavnej knihe. |
+| Projektový manažment a účtovníctvo | [581454](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581454) | Keď sa výrobná zákazka projektu, ktorá obsahuje zákazky kvality, vykáže ako dokončená, vyskytne sa nasledujúca chyba: „Žiadna virtuálna transakcia označená transakciou zásob.“ |
 | Projektový manažment a účtovníctvo | [596408](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596408) | Keď sa zaúčtuje faktúra týkajúca sa projektu, vyskytne sa nasledujúca chyba: "Vyčíslený text Projekt - náklady - položka neexistuje." |
 | Projektový manažment a účtovníctvo | [597237](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597237) | Pri ručnom nahromadení výnosov sa nepriame náklady zdvojnásobia. |
 | Projektový manažment a účtovníctvo | [601198](https://fix.lcs.dynamics.com/Issue/Details/?bugId=601198) | Akruálne príjmy a účtovanie WIP nevytvára transakcie. |
 | Projektový manažment a účtovníctvo | [602095](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602095) | Aktivácia čakajúcej ceny zlyhá pre štandardnú nákladovú položku, keď existuje prijatá objednávka projektu. |
 | Projektový manažment a účtovníctvo | [602677](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602677) | Prevrátená hodnota WIP z účtovania faktúry sa líši od pôvodne zaúčtovanej hodnoty WIP z časového záznamu. |
-| Projektový manažment a účtovníctvo | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Existuje problém zaúčtovania pre výnosy fakturované za projekt v prípadoch aplikovaných záloh, kde transakcie na poukážke nie sú v rovnováhe. |
+| Projektový manažment a účtovníctvo | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Existuje problém zaúčtovania pre výnosy fakturované za projekt v prípadoch uplatnených záloh, kde transakcie na poukážke nie sú v rovnováhe. |
 | Projektový manažment a účtovníctvo | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Vytvorenie odhadu po zaúčtovaní návrhu faktúry blokuje import opravných riadkov v Projektových operáciách. |
 | Projektový manažment a účtovníctvo | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Úprava plne fakturovaného medzníka by nemala byť možná. |
 | Projektový manažment a účtovníctvo | [611389](https://fix.lcs.dynamics.com/Issue/Details/?bugId=611389) | Keď sa použijú automatické poplatky, medzipodnikovú zákaznícku faktúru za časový výkaz nemožno zaúčtovať a zobrazí sa chybové hlásenie. |
@@ -80,6 +80,6 @@ Táto téma sa týka nasledujúcich komponentov a verzií Microsoft Dynamics 365
 
 ### <a name="regulatory-updates"></a>Regulačné aktualizácie
 
-Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do Microsoft Dynamics Lifecycle Services (LCS) a použiť nástroj na vyhľadávanie problémov na zobrazenie plánovaných regulačných aktualizácií. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny alebo regiónu, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do Microsoft Dynamics Služby životného cyklu (LCS) a použite nástroj na vyhľadávanie problémov na zobrazenie plánovaných regulačných aktualizácií. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny alebo regiónu, typu funkcie a vydania.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

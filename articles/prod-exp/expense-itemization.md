@@ -1,19 +1,19 @@
 ---
-title: Rozpis nákladov
+title: Rozpis výdavkov
 description: Táto téma vysvetľuje, ako rozčleniť výdavky pomocou prepracovaného pracovného priestoru Výdavky.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: b2077b77af036ce64aad203f52b03cacca8c4099
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944160"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574541"
 ---
-# <a name="expense-itemization"></a>Rozpis nákladov
+# <a name="expense-itemization"></a>Rozpis výdavkov
 
 [!include [banner](../includes/banner.md)]
 
@@ -23,7 +23,7 @@ Organizácie často vyžadujú od zamestnancov, aby poskytli podrobný rozpis n�
 
 ## <a name="enable-quick-itemization"></a>Povoliť rýchlu tvorbu položiek 
 
-Môžete použiť **Schopnosť rýchlo rozpísať opakujúce sa výdavky** funkcia na rýchle rozloženie opakujúcich sa výdavkov, pričom nie je potrebné zadávať denné výdavky zakaždým počas trvania pobytu. Ak chcete povoliť rýchlu tvorbu položiek, vykonajte nasledujúce kroky.
+Môžete použiť **Schopnosť rýchlo rozpísať opakujúce sa výdavky** funkcia na rýchle rozloženie opakujúcich sa výdavkov, pričom sa vyhnete potrebe zadávať denné výdavky zakaždým počas trvania pobytu. Ak chcete povoliť rýchlu tvorbu položiek, vykonajte nasledujúce kroky.
 
 1. Choďte na **Správa funkcií** pracovný priestor a v zozname funkcií nájdite a vyberte, **Prepracované výkazy výdavkov**. 
 2. Vyberte položku **Povoliť teraz**. 

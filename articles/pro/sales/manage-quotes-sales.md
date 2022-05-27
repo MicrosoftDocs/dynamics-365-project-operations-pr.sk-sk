@@ -4,14 +4,14 @@ description: Táto téma poskytuje informácie o projektových cenových ponuká
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001540"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579601"
 ---
 # <a name="manage-project-quotes"></a>Správa projektových cenových ponúk
 
@@ -31,6 +31,9 @@ Zoznam všetkých projektových cenových ponúk je uvedený na stránke so zozn
 2. Použite **Prepínač zobrazení** na výber ďalších filtrovaných zobrazení cenových ponúk. Pomocou vlastných kritérií filtra môžete nakonfigurovať svoje vlastné zobrazenia a možnosti navigácie.
 
 Cenové ponuky je možné vytvárať alebo mazať z tejto stránky so zoznamom alebo zo stránok s podrobnosťami.
+
+ > [!NOTE]
+ > Cenové ponuky, ku ktorým sú priradené projekty, úlohy, odhady, denníky a/alebo skutočnosti, nemožno odstrániť. Taktiež, keď je cenová ponuka uzavretá ako Vyhraná alebo Stratená, už ju nemožno vymazať ani upraviť. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

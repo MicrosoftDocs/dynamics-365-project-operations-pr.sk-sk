@@ -2,16 +2,16 @@
 title: Správne účtovanie na základe konceptných návrhov projektových faktúr
 description: Táto téma vysvetľuje, ako upraviť informácie týkajúce sa účtovníctva v návrhu koncepcie faktúry.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999335"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575093"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Správne účtovanie na základe konceptných návrhov projektových faktúr
 
@@ -27,12 +27,21 @@ Predvolené skupiny fakturácie dane z predaja a skupiny dane z predaja položie
 
 ## <a name="adjust-financial-dimensions"></a>Úprava finančných dimenzií
 
+### <a name="header-dimensions"></a>Rozmery hlavičky
+
+Finančné rozmery faktúry sú štandardne odvodené od záznamov nevyfakturovaných transakcií projektu, ktoré sa fakturujú. Systémové nastavenia vám však umožňujú použiť finančné dimenzie v hlavičke návrhov projektovej faktúry na účtovanie zostatkov zákazníkov. Ak chcete povoliť túto funkciu, vyberte **Povoliť aktualizácie dimenzií projektu pre pohľadávky** na **Financie** záložku **Projektový manažment a účtovné parametre** stránku.
+
+Finančné rozmery v hlavičkách faktúr je možné upraviť pred zaúčtovaním faktúry. Na **Návrh projektovej faktúry** prepnite na stránku **Hlavička** zobraziť a potom upraviť hodnoty na **Finančné rozmery** tab.
+
+The **Hlavička** zobrazenie je dostupné až po povolení správcu systému **Použite návrh faktúry projektu a formuláre denníka faktúr so zobrazením Hlavička a riadky** funkcia v **Správa funkcií** pracovnom priestore. Táto funkcia vyžaduje aktualizáciu Finance 10.0.25 alebo novšiu.
+
+### <a name="line-dimensions"></a>Rozmery čiar
+
 Finančné dimenzie nemožno upravovať priamo na riadku ponuky faktúry za projekt. Namiesto toho postupujte podľa týchto krokov a upravte finančné dimenzie v návrhu projektovej faktúry.
 
 1. Na návrhu faktúry projektu stlačte možnosť **Vymazať všetko** a odstráňte riadky konceptu faktúry projektu.
 
-    > [!NOTE]
-    > Tlačidlo **Vymazať všetko** je k dispozícii až po povolení možnosti **Vymazať riadky návrhu faktúry pri používaní Project Operations na scenára na základe zdrojov/nenaskladnenia** v pracovnom priestore **Správa funkcií**.
+    Tlačidlo **Vymazať všetko** je k dispozícii až po povolení možnosti **Vymazať riadky návrhu faktúry pri používaní Project Operations na scenára na základe zdrojov/nenaskladnenia** v pracovnom priestore **Správa funkcií**.
 
 2. Úprava finančných dimenzií:
 

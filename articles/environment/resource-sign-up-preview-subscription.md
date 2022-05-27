@@ -4,20 +4,20 @@ description: Táto téma poskytuje informácie o tom, ako sa prihlásiť na odbe
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323435"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575829"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrácia na odber ukážky Project Operations pre scenáre zdrojov/chýbajúcich zdrojov
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Táto téma vysvetľuje, ako sa prihlásiť na odber skúšobnej ponuky a nasadiť prostredie Project Operations pre scenáre založené na zdrojoch/také, ktoré nie sú na sklade.
 
@@ -40,16 +40,16 @@ Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovný
 
   Uvidíte, že ponuka potvrdenia bola úspešne uplatnená.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Skúšobná verzia ukážky Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance ukážková skúšobná verzia
 
 Prejdite do [Skúšobná verzia Preview Dynamics 365 for Finance](https://aka.ms/trypoche) a zopakujte kroky z predchádzajúcej časti s ponukou, prihláste sa do prostredia hosťovaného v cloude.  
 
 ## <a name="assign-licenses"></a>Priradenie licencií
 
 > [!IMPORTANT]
-> Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k portálu Microsoft 365 vo vašej organizácii.
+> Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k Microsoft 365 vo vašej organizácii .
 
-1. Prejdite do [Centrum pre správu Microsoft 365](https://portal.office.com/) na pridelenie licencií vašim používateľom.
+1. Ísť do [Microsoft 365 centrum spravovania](https://portal.office.com/) na pridelenie licencií vašim používateľom.
 
 2. Na stránke **Aktívni používatelia** vyberte používateľov, ktorým chcete priradiť licenciu.
 
