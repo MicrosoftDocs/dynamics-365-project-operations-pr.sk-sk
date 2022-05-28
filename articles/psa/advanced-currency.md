@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005140"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590181"
 ---
 # <a name="multiple-currency-scenarios"></a>Viacmenové scenáre
 
@@ -34,7 +35,7 @@ Microsoft Dynamics 365 má dva koncepty mien:
 - **Mena transakcie** Mena v ktorej sa transakcia vyskytuje. 
 - **Základná mena** - mena inštancie Dynamics 365. Táto mena je nastavená, keď je poskytnutá inštancia Dynamics 365. Nemôže byť zmenená.
 
-Contoso USA napríklad predal 100 tričiek zákazníkovi vo Veľkej Británii, každé za 15 pounds sterling (GBP). Nasledujúca tabuľka zobrazuje spôsob, ako sa transakcia zaznamená v entite Objednávky Produktu.
+Napríklad, Blaho USA predal 100 tričiek zákazníkovi vo Veľkej Británii za 15 ounds sterling (GBP) každé. Nasledujúca tabuľka zobrazuje spôsob, ako sa transakcia zaznamená v entite Objednávky Produktu.
 
 | Produkt | Množstvo | Cena za jednotku | Mena | Čiastka | Výmenný kurz | Cena za jednotku (Základná)| Množstvo (Základné)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,14 +67,14 @@ PSA rozširuje koncept transakcie meny pre náklady a predaje nasledujúcimi sp�
 
 ## <a name="multiple-currency-scenario"></a>Viacmenový scenár
 
-Táto časť opisuje príklad projektu, v ktorom Contoso UK dodáva zákazníkovi, ktorý sa volá Fabrikam, Japonsko. Tu je, ako bol nastavený scenár:
+Táto časť opisuje príklad projektu, v ktorom Blaho UK dodáva zákazníkovi, ktorý sa volá Fabrikam, Japonsko. Tu je, ako bol nastavený scenár:
 
 1. GBP a Japonský jen (JPY) sú nastavené v časti **Nastavenia** \> **Riadenie Podnikania** \> **Meny**. 
 2. Konto zákazníka s názvom **Fabrikam-Japan** je nastavené a JPY je vybraný ako mena na účte.
-3. Je nastavená organizačná jednotka s názvom **Contoso UK** a ako mena sa vyberie GBP.
-4. Vytvorí sa zmluva o projekte, kde je **Contoso UK** špecifikované ako zmluvná jednotka a **Fabrikam – Japonsko** je špecifikované ako zákazník.
+3. Je nastavená organizačná jednotka s názvom **Blaho UK** a v mene sa vyberie GBP.
+4. Vytvorí sa zmluva o projekte, kde je **Blaho UK** špecifikované ako zmluvná jednotka a **Fabrikam – Japonsko** je špecifikované ako zákazník.
 5. Riadky projektových zmlúv sú vytvorené na základe fakturačných dojednaní pre rôzne triedy transakcií na projekte, ako je napríklad fakturácia za čas verzus fakturácia za výdavky.
-6. Projekt sa vytvorí tam, kde je **Contoso UK** špecifikovaný ako zmluvná jednotka. Tento projekt je vytvorený a priradený k riadkom projektových zmlúv.
+6. Projekt sa vytvorí tam, kde je **Blaho UK** špecifikovaný ako zmluvná jednotka. Tento projekt je vytvorený a priradený k riadkom projektových zmlúv.
 
 
 Počas odhadu, ktorý používa detail riadka cenovej ponuky, podrobnosti riadka zmluvy alebo riadok odhadu plánu, sa v entite vždy vytvoria dva záznamy. Jeden riadok je pre náklad, a druhý riadok je pre predaj.

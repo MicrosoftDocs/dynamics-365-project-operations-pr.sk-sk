@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996815"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587375"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Naplánovať projekt so štruktúrou rozdelenia práce (Project Service)
 
@@ -63,7 +64,7 @@ Plán projektu komunikuje, akú prácu treba vykonať, ktoré zdroje budú vykon
 ## <a name="task-types"></a>Typ úloh  
 Pri vytváraní vašej štruktúry rozdelenia práce budete používať tieto druhy úloh:  
 
-| | | 
+| Úloha | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Koreňový uzol projektu** | Súhrn úloh najvyššej úrovne pre projekt. Všetky ostatné úlohy projektu sú vytvorené pod ním. Názov koreňovej úlohy je názov projektu. Úsilie, dátumy a trvanie koreňového uzla vychádzajú z hodnôt v hierarchii pod ním. Nemôžete upraviť vlastnosti koreňového uzla, ani koreňový uzol odstrániť. | 
 | **Súhrn alebo zásobník úloh** | Súhrnná úloha je úloha, ktorá má priradené čiastkové úlohy. Súhrnná úloha nemá žiadne pracovné úsilie, ani vlastné náklady. Jeho pracovného úsilia a náklady sú súhrnom jeho čiastkových úloh. Môžete zmeniť názov súhrnnej úlohy, ale nie je možné zmeniť úsilie, dátumy alebo čas, pretože tie sa vypočítajú automaticky. Odstránenie súhrnnej úlohy odstráni úlohu a všetkých jej čiastkové úlohy.|  

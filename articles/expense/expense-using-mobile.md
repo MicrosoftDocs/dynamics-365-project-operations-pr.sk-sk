@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818202"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588939"
 ---
 # <a name="mobile-expense-app"></a>Mobilná aplikácia výdavkov
 
@@ -54,7 +54,7 @@ Ak bola pre vašu organizáciu nasadená služba Finance, správca systému mus�
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops
 Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 
-- [Pre Android telefóny](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Pre telefóny Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pre telefóny iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Prihlásenie sa do mobilnej aplikácie
@@ -206,7 +206,7 @@ Stiahnite a nainštalujte si mobilnú aplikáciu Dynamics 365 Unified Ops:
 
 ### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Prečo mobilná aplikácia Expense predvolene nezadáva spôsob platby?
 
-Organizácie si môžu prispôsobiť **Predvolený spôsob platby** nastavenie pre každú kategóriu výdavkov tak, ako je vytvorená. Okrem toho, keď nastavujete spôsoby platby, môžete nastaviť **Predvolený spôsob platby** pole do **Iba import**.
+Organizácie si môžu prispôsobiť **Predvolený spôsob platby** nastavenie pre každú kategóriu výdavkov pri jej vytvorení. Okrem toho, keď nastavujete spôsoby platby, môžete nastaviť **Predvolený spôsob platby** pole do **Iba import**.
 
 Kedy **Iba import** je pre spôsob platby povolený, spôsob platby nie je predvolene zadaný. V kategóriách výdavkov, kde je nastavený tento spôsob platby, bude prázdne. Toto správanie je konzistentné vo webovom aj mobilnom prostredí.
     

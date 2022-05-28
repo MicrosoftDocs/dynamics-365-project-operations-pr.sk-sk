@@ -4,14 +4,14 @@ description: Táto téma poskytuje informácie o nastavovaní kategórií projek
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997130"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591561"
 ---
 # <a name="configure-project-categories"></a>Konfigurácia kategórií projektov
 
@@ -27,7 +27,7 @@ Kategórie transakcií sú základným zoskupením pre projektové transakcie. V
 
 ## <a name="transaction-categories"></a>Kategórie transakcií
 
-Kategórie transakcií predstavujú základné zoskupenie pre projektové transakcie a nie sú špecifické pre spoločnosť alebo typ transakcie. Contoso Robotics napríklad používa na zoskupenie projektových transakcií kategórie Dizajn, Cestovanie, Inštalácia, Transakcia za službu.
+Kategórie transakcií predstavujú základné zoskupenie pre projektové transakcie a nie sú špecifické pre spoločnosť alebo typ transakcie. Spoločnosť Contoso Robotics napríklad používa na zoskupenie transakcií projektu kategórie Dizajn, Cestovanie, Inštalácia a Transakcie služieb.
 
 Kategórie transakcií sú definované v module Project Operations. 
 1. Prejdite do **Nastavenia** \> **Kategórie transakcií** na otvorenie formulára. 
@@ -35,7 +35,7 @@ Kategórie transakcií sú definované v module Project Operations.
 
 ## <a name="shared-categories"></a>Zdieľané kategórie
 
-Dynamics 365 používa koncept zdieľaných kategórií na kategorizáciu výdavkov v rôznych aplikáciách, ako napríklad Dynamics 365 Finance, Dynamics 365 Supply Chain a Dynamics 365 Project Operations. Pre každú vytvorenú kategóriu transakcií Project Operations automaticky vytvorí štyri súvisiace zdieľané kategórie: Hodiny, Výdavok, Poplatky a Položka. Zdieľané kategórie môžete skontrolovať a upraviť v časti **Riadenie projektu a účtovníctvo** \> **Nastaviť** \> **Kategórie** \> **Zdieľané kategórie**.
+Dynamics 365 používa koncept zdieľaných kategórií na kategorizáciu výdavkov v rôznych aplikáciách, ako sú Dynamics 365 Finance, Dynamics 365 Supply Chain a Dynamics 365 Project Operations. Pre každú vytvorenú kategóriu transakcií Project Operations automaticky vytvorí štyri súvisiace zdieľané kategórie: Hodiny, Výdavok, Poplatky a Položka. Zdieľané kategórie môžete skontrolovať a upraviť v časti **Riadenie projektu a účtovníctvo** \> **Nastaviť** \> **Kategórie** \> **Zdieľané kategórie**.
 
 ## <a name="project-categories"></a>Kategórie projektov
 

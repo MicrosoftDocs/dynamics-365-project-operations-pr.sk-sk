@@ -2,76 +2,80 @@
 title: Vytváranie šablóny projektu pomocou funkcie kopírovania projektu
 description: Táto téma poskytuje informácie o tom, ako vytvoriť šablóny projektu pomocou vlastnej akcie kopírovania projektu.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989291"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590919"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Vytváranie šablóny projektu pomocou funkcie kopírovania projektu
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations podporuje schopnosť kopírovať projekt a vrátiť všetky priradenia späť k všeobecným zdrojom, ktoré zastupujú danú rolu. Zákazníci môžu pomocou tejto funkcie zostaviť základné šablóny projektu.
 
 Keď vyberiete **Kopírovať projekt**, aktualizuje sa stav cieľového projektu. Použite **Dôvod stavu** na určenie, kedy je akcia kopírovania dokončená. Výberom možnosti **Kopírovať projekt** sa aktualizuje aj počiatočný dátum projektu na aktuálny počiatočný dátum, ak sa v entite cieľového projektu nezistí žiadny cieľový dátum.
 
-## <a name="copy-project-custom-action"></a>Vlastná akcia kopírovania projektu 
+## <a name="copy-project-custom-action"></a>Vlastná akcia kopírovania projektu
 
-### <a name="name"></a>Meno 
+### <a name="name"></a>Name 
 
-**msdyn_CopyProjectV2**
+msdyn\_ CopyProjectV3
 
 ### <a name="input-parameters"></a>Vstupné parametre
+
 Existujú tri vstupné parametre:
 
-| Parameter          | Zadať   | Hodnoty                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** alebo **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Odkaz na entitu | Zdrojový projekt |
-| Cieľ             | Odkaz na entitu | Cieľový projekt |
+- **ReplaceNamedResources** alebo **ClearTeamsAndAssignments** – Nastavte iba jednu z možností. Nenastavujte oboje.
 
+    - **\{"ReplaceNamedResources": true\}** – Predvolené správanie pre operácie projektu. Všetky pomenované zdroje sú nahradené všeobecnými zdrojmi.
+    - **\{"ClearTeamsAndAssignments": pravda\}** – Predvolené správanie pre Project for the Web. Všetky úlohy a členovia tímu sú odstránené.
 
-- **{"clearTeamsAndAssignments":true}**: Predvolené správanie pre Project for Web, ktoré odstráni všetky priradenia a členov tímu.
-- **{"removeNamedResources": true}** Predvolené správanie pre Project Operations, ktoré vráti priradenia k všeobecným zdrojom.
+- **Zdrojový projekt** – Odkaz na entitu zdrojového projektu, z ktorého sa má kopírovať. Tento parameter nemôže byť nulový.
+- **Cieľ** – Odkaz na entitu cieľového projektu, do ktorého sa má kopírovať. Tento parameter nemôže byť nulový.
 
-Ďalšie predvolené hodnoty akcií nájdete v časti [Použitie akcií Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Nasledujúca tabuľka poskytuje súhrn troch parametrov.
 
-## <a name="specify-fields-to-copy"></a>Zadajte polia, ktoré chcete kopírovať 
+| Parameter                | Type             | Hodnota                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Boolean          | **Pravda** alebo **Nepravdivé** |
+| ClearTeamsAndAssignments | Boolean          | **Pravda** alebo **Nepravdivé** |
+| SourceProject            | Odkaz na entitu | Zdrojový projekt    |
+| Target                   | Odkaz na entitu | Cieľový projekt    |
+
+Ďalšie predvolené hodnoty akcií nájdete v časti [Použite akcie webového rozhrania API](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+
+### <a name="validations"></a>Validácie
+
+Vykonajú sa nasledujúce overenia.
+
+1. Null kontroluje a získava zdrojové a cieľové projekty, aby potvrdil existenciu oboch projektov v organizácii.
+2. Systém overí, či je cieľový projekt platný na kopírovanie, overením nasledujúcich podmienok:
+
+    - Neexistuje žiadna predchádzajúca aktivita na projekte (vrátane výberu **Úlohy** kartu) a projekt sa vytvorí nanovo.
+    - Neexistuje žiadna predchádzajúca kópia, v tomto projekte nebol požadovaný žiadny import a projekt nemá a **Nepodarilo sa** postavenie.
+
+3. Operácia nie je volaná pomocou HTTP.
+
+## <a name="specify-fields-to-copy"></a>Zadajte polia, ktoré chcete kopírovať
+
 Po vyvolaní akcie bude funkcia **Kopírovať projekt** prehľadávať zobrazenie projektu **Kopírovať stĺpce projektu** na určenie, ktoré polia sa majú kopírovať pri kopírovaní projektu.
 
-
 ### <a name="example"></a>Príklad
-Nasledujúci príklad ukazuje, ako vyvolať vlastnú akciu **CopyProject** pomocou súpravy parametrov **removeNamedResources**.
+
+Nasledujúci príklad ukazuje, ako zavolať na **CopyProjectV3** vlastná akcia s **removeNamedResources** súbor parametrov.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Nasledujúci príklad ukazuje, ako vyvolať vlastnú akciu **CopyProject** pomoc
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

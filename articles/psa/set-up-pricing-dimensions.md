@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002350"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591929"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Nastavenie vlastných polí ako cenových dimenzií 
 
@@ -73,7 +74,7 @@ Existujú dva typy cien dimenzií:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|U zákazníka            |                    |Nadčas                 |15     |
 |             | Contoso India|Lokálny             |                    |Nadčas                 |10     |
-|             | Contoso – USA   |Lokálny             |                    |Nadčas                 |20     |
+|             | Contoso US   |Lokálny             |                    |Nadčas                 |20     |
 
 
 Ak zdroj z Contoso India, ktorého základná sadzba je 100 USD, pracuje u zákazníka a vykáže 8 hodín bežnej pracovnej doby a 2 hodiny nadčasov v zadaní času, systém ceny Project Service využije základnú sadzbu 100 pre nasledujúcich 8 hodín, čím sa dosiahne 800 USD. Pre 2 hodiny nadčas, bude prirážka 15 % použitá na základnú sadzbu 100 na získanie jednotkovej ceny 115 USD a zaznamená celkové náklady na 230 USD.

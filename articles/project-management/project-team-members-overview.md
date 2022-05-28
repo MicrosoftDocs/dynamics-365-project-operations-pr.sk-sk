@@ -3,16 +3,15 @@ title: Členovia projektového tímu
 description: Táto téma poskytuje informácie o tom, ako pracovať s informáciami, atribútmi a plánovaním členov projektového tímu.
 author: ruhercul
 ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 75b140a4ea17dbb3093f926367f439544c32d587
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994025"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590825"
 ---
 # <a name="project-team-members"></a>Členovia projektového tímu
 

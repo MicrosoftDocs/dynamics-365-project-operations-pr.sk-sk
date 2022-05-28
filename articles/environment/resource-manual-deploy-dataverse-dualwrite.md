@@ -4,14 +4,14 @@ description: Táto téma vysvetľuje, ako manuálne nasadiť aplikáciu Project 
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986465"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591239"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Manuálne nasadenie aplikácie Project Operations Dataverse s podporou duálneho zápisu
 
@@ -37,7 +37,7 @@ Na dokončenie tohto postupu sa musíte prihlásiť ako správca.
 3. Vyberte typ prostredia. Ak ste sa zaregistrovali na odber skúšobnej ponuky, stlačte možnosť **Skúšobná verzia (na základe predplatného)**.
 4. Potvrďte oblasť nasadenia.
 5. Aktivujte možnosť **Vytvoriť databázu pre toto prostredie**. 
-6. Potvrďte jazyk a potom potvrďte, že mena sa zhoduje s menou vašej aplikácie Finance and Operations.
+6. Potvrďte jazyk a potom potvrďte, že sa mena zhoduje s menou pre vaše aplikácie Finance and Operations.
 7. Aktivujte možnosť **Aplikácie Dynamics 365** a potvrďte, že je pole **Automaticky nasadiť tieto aplikácie** nastavené na **Žiadne**.
 8. Ak je skupina zabezpečenia požadovaná, pridajte ju.
 9. Výberom položky **Uložiť** vytvoríte prostredie.
@@ -62,4 +62,4 @@ Tento postup môžete dokončiť, iba ak ste pred inštaláciou Project Operatio
 
 ## <a name="link-your-environments"></a><a name="link"></a>Prepojte svoje prostredia
 
-Po nasadení prostredia Dataverse môžete vytvoriť prepojenie s aplikáciami Finance and Operations. Postupujte podľa pokynov v časti [Na prepojenie prostredí použite sprievodcu dvojitým zápisom](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Po Dataverse prostredie, môžete nastaviť prepojenie vo svojich aplikáciách Finance and Operations. Postupujte podľa pokynov v časti [Na prepojenie prostredí použite sprievodcu dvojitým zápisom](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

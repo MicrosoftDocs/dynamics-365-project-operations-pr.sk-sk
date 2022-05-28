@@ -1,23 +1,23 @@
 ---
-title: Protokoly plánovania projektu
+title: Denníky plánovania projektov
 description: Táto téma poskytuje informácie a ukážky, ktoré vám pomôžu používať protokoly plánovania projektu na sledovanie zlyhaní, ktoré súvisia so službou plánovania projektu a rozhraniami API plánovania projektu.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1c5632a880fa30d1b863c326b22e3d930c9564dc
-ms.sourcegitcommit: 844ec8eacd0fc10d1659b437cc5cbb4480ec9e1e
+ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7877520"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589537"
 ---
-# <a name="project-scheduling-logs"></a>Protokoly plánovania projektu
+# <a name="project-scheduling-logs"></a>Denníky plánovania projektov
 
 _**Týka sa:** Projektové operácie pre scenáre založené na zdrojoch/nezásobách, nasadenie Lite – odsúhlasenie až proforma fakturácia_, _pre web_
 
-Microsoft Dynamics 365 Project Operations používa [Projekt pre web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) ako jeho primárny motor plánovania. Namiesto používania štandardných Microsoft Dataverse webových aplikačných programovacích rozhraní (API), Project Operations používa nové Project Scheduling API na vytváranie, aktualizáciu a odstraňovanie projektových úloh, priradení zdrojov, závislostí úloh, skupín projektov a členov projektových tímov. Keď sú však operácie vytvorenia, aktualizácie alebo vymazania programovo spustené na entitách štruktúry rozpisu práce (WBS), môžu sa vyskytnúť chyby. Na sledovanie týchto chýb a histórie operácií boli implementované dva nové administratívne protokoly: **Operačná sada** a **Služba plánovania projektov (PSS)**. Ak chcete získať prístup k týmto denníkom, prejdite na **nastavenie** \> **Plán integrácie**.
+Microsoft Dynamics 365 Project Operations používa [Projekt pre web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) ako jeho primárny motor plánovania. Namiesto použitia štandardu Microsoft Dataverse Webové aplikačné programovacie rozhrania (API), Project Operations používa nové Project Scheduling API na vytváranie, aktualizáciu a odstraňovanie projektových úloh, priradení zdrojov, závislostí úloh, projektových segmentov a členov projektových tímov. Keď sú však operácie vytvorenia, aktualizácie alebo vymazania programovo spustené na entitách štruktúry rozpisu práce (WBS), môžu sa vyskytnúť chyby. Na sledovanie týchto chýb a histórie operácií boli implementované dva nové administratívne protokoly: **Operačná sada** a **Služba plánovania projektov (PSS)**. Ak chcete získať prístup k týmto denníkom, prejdite na **nastavenie** \> **Plán integrácie**.
 
 Nasledujúca ilustrácia zobrazuje dátový model pre denníky plánovania projektu.
 
@@ -36,7 +36,7 @@ Nasledujúca tabuľka zobrazuje polia, ktoré súvisia s **Operačná sada** sub
 | msdyn_completedon     | Dátum/čas, kedy bola nastavená operácia dokončená alebo zlyhala.                                                | CompletedOn            |
 | msdyn_correlationid   | The **correlationId** hodnotu požiadavky.                                                                  | CorrelationId          |
 | msdyn_description     | Popis operačného súboru.                                                                        | Description            |
-| msdyn_executedon      | Dátum/čas, kedy bol záznam spustený.                                                                       | Dátum spustenia            |
+| msdyn_executedon      | Dátum/čas, kedy bol záznam spustený.                                                                       | Dátum vykonania            |
 | msdyn_operationsetId  | Jedinečný identifikátor inštancií entity.                                                                   | OperationSet           |
 | msdyn_Project         | Projekt, ktorý súvisí s prevádzkovým súborom.                                                            | Project                |
 | msdyn_projectid       | The **projectId** hodnotu požiadavky.                                                                      | ProjectId (zastarané) |
@@ -45,7 +45,7 @@ Nasledujúca tabuľka zobrazuje polia, ktoré súvisia s **Operačná sada** sub
 | msdyn_PSSErrorLogName | Nevzťahuje sa.                                                                                              | Nevzťahuje sa         |
 | msdyn_status          | Stav sady operácií.                                                                             | Status                 |
 | msdyn_statusName      | Nevzťahuje sa.                                                                                              | Nevzťahuje sa         |
-| msdyn_useraadid       | ID objektu Azure Active Directory (Azure AD) používateľa, ktorému žiadosť patrí.                     | UserAADID              |
+| msdyn_useraadid       | The Azure Active Directory (Azure AD) ID objektu používateľa, ktorému žiadosť patrí.                     | UserAADID              |
 
 ### <a name="operation-set-detail"></a>Podrobnosti nastavenia operácie
 
@@ -53,7 +53,7 @@ Nasledujúca tabuľka zobrazuje polia, ktoré súvisia s **Podrobnosti nastaveni
 
 | SchemaName                 | Description                                                                                 | DisplayName           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | Serializované polia Dataverse pre požiadavku.                                            | CdsPayload            |
+| msdyn_cdspayload           | Serializované Dataverse polia žiadosti.                                            | CdsPayload            |
 | msdyn_entityname           | Názov subjektu pre žiadosť.                                                     | EntityName            |
 | msdyn_httpverb             | Metóda požiadavky.                                                                         | HTTPVerb (zastarané) |
 | msdyn_httpverbName         | Nevzťahuje sa.                                                                             | Nevzťahuje sa        |
@@ -68,7 +68,7 @@ Nasledujúca tabuľka zobrazuje polia, ktoré súvisia s **Podrobnosti nastaveni
 
 ## <a name="project-scheduling-service-error-logs"></a>Protokoly chýb služby plánovania projektu
 
-Protokoly chýb služby Project Scheduling Service zachytávajú zlyhania, ku ktorým dôjde, keď sa služba Project Scheduling Service pokúsi a **Uložiť** alebo **Otvorené** prevádzka. Existujú tri podporované scenáre, v ktorých sa tieto protokoly generujú:
+Protokoly chýb služby Project Scheduling Service zachytávajú zlyhania, ku ktorým dôjde, keď sa služba Project Scheduling Service pokúsi a **Uložiť** alebo **OTVORENÉ** prevádzka. Existujú tri podporované scenáre, v ktorých sa tieto protokoly generujú:
 
 - Akcie spustené používateľom kriticky zlyhajú (napríklad nemožno vytvoriť priradenie z dôvodu chýbajúcich privilégií).
 - Služba plánovania projektu nemôže programovo vytvárať, aktualizovať, odstraňovať ani vykonávať žiadne iné kaskádové operácie na entite.
@@ -82,7 +82,7 @@ Nasledujúca tabuľka zobrazuje polia, ktoré sú zahrnuté v denníku Project S
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | Zásobník volaní výnimky.                                               | Zásobník volaní     |
 | msdyn_correlationid | ID korelácie chyby.                                               | CorrelationId  |
-| msdyn_errorcode     | Pole, ktoré sa používa na uloženie chybového kódu Dataverse alebo kódu chyby HTTP. | Kód chyby     |
+| msdyn_errorcode     | Pole, ktoré sa používa na uloženie Dataverse kód chyby alebo kód chyby HTTP. | Kód chyby     |
 | msdyn_HelpLink      | Odkaz na verejnú dokumentáciu Pomocníka.                                       | Prepojenie na Pomocníka      |
 | msdyn_log           | Denník zo služby plánovania projektu.                                   | Denník            |
 | msdyn_project       | Projekt, ktorý je priradený k denníku chýb.                             | Project        |
@@ -94,9 +94,9 @@ Nasledujúca tabuľka zobrazuje polia, ktoré sú zahrnuté v denníku Project S
 
 V predvolenom nastavení možno denníky chýb služby plánovania projektu aj denník množiny operácií čistiť každých 90 dní. Všetky záznamy, ktoré sú staršie ako 90 dní, budú vymazané. Avšak zmenou hodnoty **msdyn_StateOperationSetAge** pole na **Parametre projektu** správcovia môžu upraviť rozsah čistenia tak, aby bol medzi 1 a 120 dňami. Na zmenu tejto hodnoty je k dispozícii niekoľko spôsobov:
 
-- Prispôsobte si **Parameter projektu** vytvorením vlastnej stránky a pridaním **Stale Operations Set Age** lúka.
+- Prispôsobte si **Parameter projektu** vytvorením vlastnej stránky a pridaním **Zastarané operácie Nastaviť vek** lúka.
 - Použite klientsky kód, ktorý používa [Súprava na vývoj softvéru WebApi (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
-- Použite kód Service SDK, ktorý používa Xrm SDK **updateRecord** metóda (odkaz na klientske rozhranie API) v aplikáciách riadených modelom. Power Apps obsahuje popis a podporované parametre pre **updateRecord** metóda.
+- Použite kód Service SDK, ktorý používa Xrm SDK **updateRecord** metóda (referencia API klienta) v aplikáciách riadených modelom. Power Apps obsahuje popis a podporované parametre pre **updateRecord** metóda.
 
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {

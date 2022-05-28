@@ -3,15 +3,15 @@ title: Správa subdodávateľských zmlúv v aplikácii Project Operations
 description: Táto téma prináša prehľad celého procesu správy subdodávateľských zmlúv, typicky v projektových organizáciách.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323615"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593033"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Správa subdodávateľských zmlúv v aplikácii Project Operations
 
@@ -46,7 +46,7 @@ Riadok subdodávateľskej zmluvy môže byť založený na množstve alebo na pr
 
 Keď je riadok subdodávateľskej zmluvy **založený na množstve**, množstvo nakupované na riadku subdodávateľskej zmluvy za čas, výdavok alebo materiál možno použiť na akýkoľvek projekt.
 
-Keď je riadok subdodávateľskej zmluvy **založený na práci**, riadok subdodávateľskej zmluvy sa mapuje na súbor prác reprezentovaný uzlom v pláne projektu. Hodnota riadka subdodávateľskej zmluvy je súčtom všetkých komponentov, ktoré sú potrebné na dodanie tohto diela. Tieto sú modelované ako podrobnosti riadka subdodávateľskej zmluvy a môžu to byť kolekcie času, nákladov alebo materiálov. V prípade riadka subdodávateľskej zmluvy založenej na práci je riadok subdodávateľskej zmluvy taktiež vyhradený jednému projektu.
+Keď je riadok subdodávateľskej zmluvy **založený na práci**, riadok subdodávateľskej zmluvy sa mapuje na súbor prác reprezentovaný uzlom v pláne projektu. Hodnota riadka subdodávateľskej zmluvy je súčtom všetkých komponentov, ktoré sú potrebné na dodanie tohto diela. Tieto sú modelované ako podrobnosti riadka subdodávateľskej zmluvy a môžu to byť kolekcie času, nákladov alebo materiálov. V prípade riadka subdodávateľskej zmluvy založenej na práci je riadok subdodávateľskej zmluvy taktiež vyhradený jednému projektu. Tieto typy subdodávok nie sú v súčasnosti podporované prevádzkou projektu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

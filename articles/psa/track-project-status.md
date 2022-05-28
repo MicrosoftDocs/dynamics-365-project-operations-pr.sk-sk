@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996725"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593401"
 ---
 # <a name="track-a-projects-status-project-service"></a>Sledovanie stavu projektu (Project Service)
 
@@ -33,14 +34,13 @@ Použite [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-proje
 
 Počas procesu sa fázy projektu aktualizujú vzhľadom na priebeh:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Nové**    | Po vytvorení projektu sa fáza nastaví na **Nové**. Ak ste vytvorili projekt zo šablóny, v tejto fáze projektu môže mať plán, odhady a tím údajov. V opačnom prípade bude náčrt projektu a musíte ručne zadajte zvyšku komponentov projektu. |
-|  **Ponuka**   |      Po spojení projektu a cenovej ponuky alebo jeho vytvorení z cenovej ponuky sa fáza projektu nastaví na **Cenová ponuka** a aktualizujú sa aj odhadovaný dátum začatia a ukončenia. Keď projekt je vo fáze cenová ponuka, podrobnosti cenovej ponuky sa zobrazia na karte **Predaj** stránky **projektu**.      |
-|   **Plánovať**   |                                     Ak sa cenová ponuka priradená k projektu využije a proces sa dostane do fázy kontraktu, stav projektu sa aktualizuje na **Plán**. Podrobnosti zmluvy sa zobrazia na karte **Predaj** stránky **Projekt**.                                      |
-| **Hotovo** |                    Po dokončení prác na projekte môžete jeho fázu prehodiť na **Dokončené**. Fáza dokončenia projektu predpokladá, že je práca hotová na 100 %, no projekt zostáva otvorený až do času, kým sa nezaznamenajú záznamy nákladov.                     |
-|  **Zavrieť**   |           Keď všetky transakcie boli zaznamenané na projekte a už sa nemusí čakať na žiadny záznam, môžete manuálne nastaviť fázu **Zatvorený**. Ak je stav projektu **Zatvorený**, nemôžete doň zadávať žiadne ďalšie transakcie a projekt prechádza do stavu len na čítanie.           |
+| Úloha | Description | 
+|------------|----------|
+| **New** | Po vytvorení projektu sa fáza nastaví na **Nové**. Ak ste vytvorili projekt zo šablóny, v tejto fáze projektu môže mať plán, odhady a tím údajov. V opačnom prípade bude náčrt projektu a musíte ručne zadajte zvyšku komponentov projektu. |
+| **Ponuka** |  Keď priradíte projekt k cenovej ponuke alebo ju vytvoríte z ponuky, fáza projektu sa nastaví na **Citovať** a aktualizujú sa aj odhadované dátumy začiatku a konca. Keď projekt je vo fáze cenová ponuka, podrobnosti cenovej ponuky sa zobrazia na karte **Predaj** stránky **projektu**. |
+| **Plánovať** |  Ak sa cenová ponuka priradená k projektu využije a proces sa dostane do fázy kontraktu, stav projektu sa aktualizuje na **Plán**. Podrobnosti zmluvy sa zobrazia na karte **Predaj** stránky **Projekt**. |
+| **Hotovo** | Po dokončení prác na projekte môžete jeho fázu prehodiť na **Dokončené**. Fáza dokončenia projektu predpokladá, že je práca hotová na 100 %, no projekt zostáva otvorený až do času, kým sa nezaznamenajú záznamy nákladov. |
+| **Zavrieť** | Keď všetky transakcie boli zaznamenané na projekte a už sa nemusí čakať na žiadny záznam, môžete manuálne nastaviť fázu **Zatvorený**. Ak je stav projektu **Zatvorený**, nemôžete doň zadávať žiadne ďalšie transakcie a projekt prechádza do stavu len na čítanie. |
 
 ## <a name="to-track-a-projects-status"></a>Sledovanie stavu projektu  
 

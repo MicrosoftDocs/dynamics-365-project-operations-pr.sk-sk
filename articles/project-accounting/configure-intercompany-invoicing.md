@@ -4,14 +4,14 @@ description: Táto téma poskytuje informácie a príklady konfigurácie medzipo
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994070"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591607"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfigurácia medzipodnikovej fakturácie
 
@@ -21,11 +21,11 @@ Vykonaním nasledujúcich krokov nastavíte medzipodnikovú fakturáciu pre proj
 
 ## <a name="example-configure-intercompany-invoicing"></a>Príklad: Konfigurácia medzipodnikovej fakturácie
 
-V nasledujúcom príklade Contoso Robotics USA (USPM) je požičiavajúca si právnická osoba a Contoso Robotics UK (GBPM) je požičiavajúca právnická osoba. 
+V nasledujúcom príklade je požičiavajúcou si právnickou osobou spoločnosť Contoso Robotics USA (USPM) a požičiavajúcou právnickou osobou je spoločnosť Contoso Robotics UK (GBPM). 
 
 1. **Nakonfigurujte medzipodnikové účtovníctvo medzi právnickými osobami**. Každá dvojica požičiavajúcich si a požičiavajúcich právnických osôb musí byť nakonfigurovaná na stránke hlavnej účtovnej knihy [Medzipodnikové účtovníctvo](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. V Dynamics 365 Finance prejdite do ponuky **Hlavná účtovná kniha** > **Nastavenie zaúčtovania** > **Medzipodnikové účtovníctvo**. Vytvorte záznam s nasledujúcimi informáciami:
+    1. V Dynamics 365 Finance prejdite na **hlavná kniha** > **Nastavenie odosielania** > **Vnútropodnikové účtovníctvo**. Vytvorte záznam s nasledujúcimi informáciami:
 
         - **Pôvodná spoločnosť** = **GBPM**
         - **Cieľová spoločnosť** = **USPM**
@@ -80,23 +80,23 @@ V nasledujúcom príklade Contoso Robotics USA (USPM) je požičiavajúca si pr�
 
 5. **Nastavte prevodové ceny pracovnej sily**. Medzipodnikové prevodové ceny sú konfigurované v časti Project Operations v Dataverse. Nakonfigurujte [nákladové sadzby za prácu](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) a [sadzby fakturácie za prácu](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) pre medzipodnikovú fakturáciu. Prevodové ceny nie sú podporované pri medzipodnikových výdavkových transakciách. Medzipodniková jednotková predajná cena bude vždy nastavená na rovnakú hodnotu ako jednotková cena zdroja.
 
-      Náklady na zdroj vývojára v Contoso Robotics UK je 88 GBP za hodinu. Contoso Robotics UK bude fakturovať Contoso Robotics USA 120 USD za každú hodinu, kedy tento zdroj pracoval na projektoch v USA. Contoso Robotics USA bude fakturovať zákazníkovi Adventure Works 200 USD za prácu vykonanú zdrojom pre vývojára Contoso Robotics UK.
+      Cena vývojárskych zdrojov v spoločnosti Contoso Robotics UK je 88 GBP za hodinu. Spoločnosť Contoso Robotics UK bude spoločnosti Contoso Robotics USA účtovať 120 USD za každú hodinu, kedy tento zdroj pracoval na projektoch v USA. Spoločnosť Contoso Robotics USA bude fakturovať zákazníkovi Adventure Works 200 USD za prácu vykonanú vývojárskym zdrojom Contoso Robotics UK.
 
-      1. V aplikácii Project Operations v Dataverse prejdite na **Predaj** > **Cenníky**. Vytvorte nový cenník nákladov s názvom **Sadzby nákladov Contoso Robotics UK.** 
+      1. V aplikácii Project Operations v Dataverse prejdite na **Predaj** > **Cenníky**. Vytvorte nový cenník obstarávacích cien s názvom **Nákladové sadzby spoločnosti Contoso Robotics UK**. 
       2. V cenníku obstarávacích cien vytvorte záznam s nasledujúcimi informáciami:
          - **Rola** = **Vývojár**
          - **Náklady** = **88 GBP**
-      3. Prejdite do ponuky **Nastavenia** > **Organizačné jednotky** a pripojte tento cenník nákladov k organizačnej jednotke **Contoso Robotics UK**.
-      4. Prejdite do **Predaj** > **Cenníky**. Vytvorte cenník nákladov s názvom **Sadzby nákladov Contoso Robotics USA.** 
+      3. Prejdite do ponuky **Nastavenia** > **Organizačné jednotky** a priložiť tento cenník obstarávacích cien k organizačnej jednotke **Contoso Robotics UK**.
+      4. Prejdite do **Predaj** > **Cenníky**. Vytvorte cenník obstarávacích cien s názvom **Nákladové sadzby spoločnosti Contoso Robotics USA**. 
       5. V cenníku obstarávacích cien vytvorte záznam s nasledujúcimi informáciami:
           - **Rola** = **Vývojár**
-          - **Zdrojová spoločnosť** = **Contoso Robotics UK**
+          - **Spoločnosť zaisťujúca zdroje** = **Contoso Robotics UK**
           - **Náklady** = **120 USD**
-      6. Prejdite do ponuky **Nastavenia** > **Organizačné jednotky** a pripojte tento cenník nákladov **Contoso Robotics USA** k organizačnej jednotke **Contoso Robotics USA**.
+      6. Prejdite do ponuky **Nastavenia** > **Organizačné jednotky** a priložte tento cenník obstarávacích **Nákladové sadzby spoločnosti Contoso Robotics USA** k organizačnej jednotke **Contoso Robotics USA**.
       7. Prejdite do **Predaj** > **Cenníky**. Vytvorte predajný cenník s názvom **Fakturačné sadzby Adventure Works**. 
       8. V cenníku predajných cien vytvorte záznam s nasledujúcimi informáciami:
           - **Rola** = **Vývojár**
-          - **Zdrojová spoločnosť** = **Contoso Robotics UK**
+          - **Spoločnosť zaisťujúca zdroje** = **Contoso Robotics UK**
           - **Sadzba fakturácie** = **200 USD**
       9. Prejdite na **Predaj** > **Zmluvy o projekte** a pripojte cenník **Fakturačné sadzby spoločnosti Adventure Works** do cenníka projektu spoločnosti Adventure Works projektovej zmluvy.
 

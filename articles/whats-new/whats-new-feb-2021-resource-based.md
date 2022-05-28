@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986825"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589031"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové vo februári 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -21,7 +21,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
 - Project Operations v prostredí Dataverse 4.7.0.95
-- Projektový manažment a účtovanie v prostredí Dynamics 365 Finance verzie 10.0.16 
+- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.16 
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
@@ -44,14 +44,14 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 | **Zadanie času** | 2129161 | Uplatňujú sa prísnejšie obmedzenia, aby sa zabezpečilo, že používatelia nebudú môcť meniť a aktualizovať zadaný alebo schválený časový údaj. |
 | **Zadanie času** | 2103572 | Schválenie času pre časové zadania mimo projektu nesmie hľadať rolu schvaľovateľa projektu. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance 
 
-Ďalšie informácie o projektovom manažmente a účtovníctve v aplikácii Dynamics 365 Finance nájdete v časti [Čo je nové v januári 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch](whats-new-jan-2021-resource-based.md).
+Viac informácií o riadení projektov a účtovníctve v Dynamics 365 Finance nájdete na [Čo je nové Január 2021 – Projektové operácie pre scenáre založené na zdrojoch/nezásobách](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Regulačné aktualizácie
 
-Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations sú uvedené v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
