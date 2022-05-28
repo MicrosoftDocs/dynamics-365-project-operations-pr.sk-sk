@@ -5,14 +5,14 @@ author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008830"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594965"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Aké sú novinky alebo zmeny v Project Operations, december 2020 pre scenáre založené na zdrojoch/výrobe
 
@@ -20,7 +20,7 @@ _Vzťahuje sa na: Project Operations pre scenáre založené na zdrojoch/výrobe
 
 Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
-  - Projektový manažment a účtovanie v prostredí Dynamics 365 Finance verzie 10.0.15
+  - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.15
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
@@ -139,7 +139,7 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 
 ## <a name="regulatory-updates"></a>Regulačné aktualizácie
 
-Informácie o regulačných aktualizáciách pre Dynamics 365 Finance sú uvedené v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre Dynamics 365 Finance nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

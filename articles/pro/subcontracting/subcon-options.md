@@ -1,19 +1,19 @@
 ---
-title: Možnosti subdodávok pre členov projektového tímu
+title: Možnosti subdodávateľskej zmluvy pre členov projektového tímu
 description: Táto téma vysvetľuje možnosti subdodávok pre členov projektového tímu v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4db283db728b50ccf76eafabfd643313620bbce2
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: aacd2f97d3120a854c78fe87e512fad1c43b9651
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903781"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600209"
 ---
-# <a name="subcontracting-options-for-project-team-members"></a>Možnosti subdodávok pre členov projektového tímu
+# <a name="subcontracting-options-for-project-team-members"></a>Možnosti subdodávateľskej zmluvy pre členov projektového tímu
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -31,7 +31,7 @@ Nie sú k dispozícii žiadne možnosti subdodávok pre nasledovné:
 - Členovia projektového tímu, ktorí boli obsadení zamestnancom. 
 - Členovia projektového tímu, ktorí sú už priradení k subdodávke a subdodávke. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Subdodávky člena projektového tímu bez personálu
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Subdodávky s nezamestnaným členom projektového tímu
 
 Ak chcete skontrolovať a vybrať si z dostupných možností subdodávok pre bežného člena projektového tímu alebo člena projektového tímu bez personálu, postupujte podľa týchto krokov:
 

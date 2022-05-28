@@ -1,19 +1,19 @@
 ---
-title: Odhad nákladov na subdodávateľské priradenia zdrojov
+title: Odhad nákladov v prípade priradení zdrojov v rámci subdodávateľskej zmluvy
 description: Táto téma vysvetľuje, ako spoločnosť Microsoft Dynamics 365 Project Operations vypočítava odhad nákladov na subdodávateľské priradenia zdrojov.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09a2a86ea0e97376939d5bff6df9177747818ebb
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f276e12713261538d1e7520dac17243e578db433
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903774"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596713"
 ---
-# <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Odhad nákladov na subdodávateľské priradenia zdrojov
+# <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Odhad nákladov v prípade priradení zdrojov v rámci subdodávateľskej zmluvy
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -42,7 +42,7 @@ Ak sa rozhodnete vytvoriť všeobecného člena tímu z **Pridelené zdroje** ro
 Pomocou karty Tím v projekte môžete vytvoriť všeobecného alebo pomenovaného člena tímu. Pri vytváraní člena tímu môžete vybrať subdodávku a riadok subdodávky. Po vytvorení člena tímu budete musieť člena tímu priradiť k úlohe pomocou **Pridelené zdroje** rozbaľovací zoznam úlohy. 
 
 ## <a name="updating-estimates"></a>Aktualizácia odhadov
-Po priradení členov projektového tímu k úlohám budete musieť prejsť na **Odhady** na projekte a vyberte **Aktualizujte ceny** zabezpečiť, aby sa nákladové sadzby prideľovania zdrojov subdodávateľov aktualizovali na základe nákupného cenníka priloženého k subdodávke. Odhady sa negenerujú pre nepriradené úlohy v Microsoft Dynamics 365 Project Operations. V dôsledku toho budete musieť vytvoriť priradenia úloh na oceňovanie a náklady rôznych úloh na vašom projekte. 
+Po priradení členov projektového tímu k úlohám budete musieť prejsť na **Odhady** na projekte a vyberte **Aktualizujte ceny** zabezpečiť, aby sa nákladové sadzby prideľovania zdrojov subdodávateľov aktualizovali na základe nákupného cenníka priloženého k subdodávke. Pre nepriradené úlohy v Microsofte sa negenerujú odhady Dynamics 365 Project Operations. V dôsledku toho budete musieť vytvoriť priradenia úloh na oceňovanie a náklady rôznych úloh na vašom projekte. 
 
 > [POZNÁMKA!] Členovia projektového tímu, ktorí majú **Typ pracovníka** ako **Pracovník na dohodu** ale nemajú referenciu na subdodávku sú označené ako **Neplatné** na **Členovia projektového tímu** mriežka. Ak existujú nejakí členovia projektového tímu s týmto stavom, otvorte záznam člena projektového tímu a manuálne aktualizujte polia subdodávok a riadkov subdodávok tak, aby odhad finančných nákladov presne odrážal náklady subdodávateľa na **Odhady** tab. 
 

@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995645"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600071"
 ---
 # <a name="proforma-invoices"></a>Faktúry pro forma
 
@@ -82,6 +82,9 @@ Pri vytváraní návrhu faktúry projektu, všetky nefakturované predajné tran
 - Editujte a upravte množstvo a typ fakturácie.
 
 Výberom **potvrdiť** potvrďte faktúru. Akcia potvrdiť je jednosmerná akcia. Keď vyberiete možnosť **potvrdiť**, systém urobí faktúru iba na čítanie a vytvorí účtované predajné skutočné hodnoty z každého detailu riadka faktúry pre každý riadok faktúry. Ak podrobnosti riadka faktúry odkazujú na skutočné hodnoty nefakturovaného predaja, systém tiež obnoví skutočné hodntoy nefakturovaného predaja. (Všetky podrobnosti riadka faktúry, ktoré boli vytvorené zo zadania času alebo výdavkov budú odkazovať na skutočné hodnoty nefakturovaného predaja.) Finančné integračné systémy môžu použiť tento zvrat na zvrátenie prebiehajúcej práce projektu (WIP) na účtovné účely.
+
+> [!NOTE]
+> Potvrdené proforma faktúry a súvisiace záznamy, ako sú riadky faktúr a podrobnosti o riadkoch faktúry, nemožno upravovať ani mazať. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Oprava potvrdenej faktúry
 

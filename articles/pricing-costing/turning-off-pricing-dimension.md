@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cba1f9915087f7910a9aa93378cb861983ca36ab
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994520"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600347"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Vypnutie cenovej dimenzie
 
@@ -36,13 +36,13 @@ Keď to však urobíte, môže sa zobraziť chybové hlásenie **Cenovú dimenzi
 
 Toto chybové hlásenie naznačuje, že existujú cenové záznamy, ktoré boli predtým nastavené pre dimenziu, ktorá je vypnutá. Všetky záznamy **Cena roly** a **Prirážka k cene roly**, ktoré odkazujú na dimenziu, musia byť odstránené pred tým, ako môže byť použiteľnosť na **Nie**. Toto pravidlo sa vzťahuje na dimenzie cien, ktoré nie sú predpripravené, a na všetky vlastné dimenzie cien, ktoré ste mohli vytvoriť. Dôvodom tohto overenia je, že každý **Cena roly** musí mať jedinečnú kombináciu dimenzií. Napríklad na cenníku s názvom **US Cost Rates 2018** máte nasledovné riadky **Cena roly**. 
 
-| Štandardný názov         | Organizačná jednotka    |Jednotka   |Cena  |Mena  |
+| Štandardný názov         | Org jednotka    |Jednotka   |Cena  |Mena  |
 | -----------------------|-------------|-------|-------|----------|
-| Systémový inžinier|Contoso – USA|Hodina| 100|USD|
-| Vyšší systémový inžinier|Contoso – USA|Hodina| 150| USD|
+| Systémový inžinier|Contoso US|Hour| 100|USD|
+| Vyšší systémový inžinier|Contoso US|Hour| 150| USD|
 
 
-Keď vypnete **Štandardný názov** ako cenovú dimenziu a nástroj na určovanie cien vyhľadáva cenu, použije sa iba hodnota **Organizačná jednotka** z kontextu vstupu. Ak je **Organizačná jednotka** vstupného kontextu „Contoso US“, výsledok nebude určujúci, pretože sa budú zhodovať obidva riadky. Ak chcete predísť tomuto scenáru, pri záznamoch **Cena roly** systém overuje, či je kombinácia dimenzií jedinečná. Ak je rozmer vypnutý po vytvorení záznamov **Cena roly**, toto obmedzenie môže byť porušené. Preto je potrebné, aby ste pred vypnutím dimenzie vymazali všetky riadky **Ceny roly** a **Prirážka k cene roly**, ktoré majú vyplnenú hodnotu dimenzie.
+Keď vypnete **Štandardný názov** ako cenovú dimenziu a nástroj na určovanie cien vyhľadáva cenu, použije sa iba hodnota **Organizačná jednotka** z kontextu vstupu. Ak je **Organizačná jednotka** vstupného kontextu “Contoso US”, výsledok nebude určujúci, pretože sa budú zhodovať obidva riadky. Ak chcete predísť tomuto scenáru, pri záznamoch **Cena roly** systém overuje, či je kombinácia dimenzií jedinečná. Ak je rozmer vypnutý po vytvorení záznamov **Cena roly**, toto obmedzenie môže byť porušené. Preto je potrebné, aby ste pred vypnutím dimenzie vymazali všetky riadky **Ceny roly** a **Prirážka k cene roly**, ktoré majú vyplnenú hodnotu dimenzie.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

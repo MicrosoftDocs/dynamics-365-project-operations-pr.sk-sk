@@ -4,14 +4,14 @@ description: Táto téma poskytuje informácie o tom, ako pripojiť vaše predpl
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986690"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595931"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Pridanie predplatného služieb Azure do projektu LCS
 
@@ -65,7 +65,7 @@ Autorizácia je teraz hotová.
 8. Vyberte oblasť Azure, do ktorého chcete vykonať nasadenie a vyberte údajové centrum, ktoré je blízko miesta, kde plánujete tento systém používať.
 9.  Vyberte možnosť **Pripojiť**.
 
-Úspešne ste pripojili svoje predplatné služieb Azure. Teraz môžete nasadiť prostredia Dynamics 365 Finance hosťované na cloude.
+Úspešne ste pripojili svoje predplatné služieb Azure. Teraz môžete nasadiť Dynamics 365 Finance prostredia hostené v cloude.
 
 
 

@@ -2,17 +2,16 @@
 title: Sledovanie úsilia na projekte
 description: Táto téma poskytuje informácie o tom, ako sledovať úsilie na projekte a priebeh prác.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993980"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593815"
 ---
 # <a name="project-effort-tracking"></a>Sledovanie úsilia na projekte
 
@@ -46,7 +45,8 @@ Manažér projektu môže preplánovať úsilie na úlohy aktualizáciou predvol
 - Vypočíta sa nový odhad pri dokončení na samostatné úlohy až po listový uzol. 
 - Dotknuté podradené úlohy až po listový uzol majú svoje zostávajúce úsilie a percento progresu prepočítané na základe hodnoty odhadu pri dokončení. To má za následok nové predpoklady pre variáciu úsilia úlohy. 
 - Vypočítajú sa súhrnné úlohy EAC až po koreňový uzol.
-
+- Schválené úsilie na súhrnnú úlohu je súčtom schváleného úsilia na všetkých podriadených úlohách plus schválené úsilie na súhrnnú úlohu.
+- Zostávajúce úsilie na súhrnnú úlohu je súčtom zostávajúceho úsilia na všetkých podriadených úlohách mínus schválené úsilie na súhrnnú úlohu.
 
 ## <a name="project-status-summary"></a>Súhrn stavu projektu
 

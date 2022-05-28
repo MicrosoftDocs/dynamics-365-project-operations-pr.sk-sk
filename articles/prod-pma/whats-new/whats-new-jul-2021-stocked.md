@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992720"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597081"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Čo je nové alebo zmenené v Project Operations z júla 2021 pre scenáre založené na zdrojoch/výrobe
 
@@ -20,7 +20,7 @@ _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/vý
 
 Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
-- Projektový manažment a účtovanie v prostredí Dynamics 365 Finance verzie 10.0.20
+- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.20
  
 ### <a name="quality-updates"></a>Aktualizácie kvality
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 | Cestovanie a výdavky                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Nástroj **Obnoviť stav dokumentu výdavkov** by mal obnoviť stav výkazu výdavkov na **Koncept**, ak nebol nájdený pracovný postup. 
 
 ### <a name="regulatory-updates"></a>Regulačné aktualizácie
-Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations sú uvedené v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou vyhľadávacieho nástroja problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou vyhľadávacieho nástroja problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,14 +4,14 @@ description: Táto téma poskytuje informácie o tom, ako vytvárať medzipodnik
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005500"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600009"
 ---
 # <a name="create-intercompany-transactions"></a>Vytvorenie medzipodnikových transakcií
 
@@ -30,14 +30,14 @@ Po schválení medzipodnikovej transakcie sa vytvoria nasledujúce skutočné tr
 
 Náklady, zdrojové jednotkové ceny a nacenenie predajných transakcií medziorganizačných jednotiek a mena závisia od **organizačnej jednotky**. Toto je dôležité mať na pamäti pri rozhodovaní o tom, ako štrukturalizovať spoločnosti a organizačné jednotky vo vašej implementácii.
 
-Keď vytvoríte príležitosť, cenovú ponuku, projektovú zmluvu a záznamy o projekte, systém overí, či sa mena zmluvnej jednotky zhoduje s účtovnou menou zmluvnej spoločnosti. Ak nie sú rovnaké, tieto záznamy nemožno vytvoriť. Mena organizačnej jednotky je definovaná v Dynamics 365 Project Operations, v ponuke **Dataverse** > **Nastavenia** > **Organizačné jednotky**. Účtovná mena spoločnosti je definovaná v Dynamics 365 Finance v ponuke **Hlavná účtovná kniha** > **Nastavenie účtovnej knihy** > **Účtovná kniha**. Mena sa synchronizuje s vaším prostredím Dataverse pomocou mapovania Ledgers Dual Write.
+Keď vytvoríte príležitosť, cenovú ponuku, projektovú zmluvu a záznamy o projekte, systém overí, či sa mena zmluvnej jednotky zhoduje s účtovnou menou zmluvnej spoločnosti. Ak nie sú rovnaké, tieto záznamy nemožno vytvoriť. Mena organizačnej jednotky je definovaná v Dynamics 365 Project Operations, v ponuke **Dataverse** > **Nastavenia** > **Organizačné jednotky**. Účtovná mena spoločnosti je definovaná v Dynamics 365 Finance prechodom na **Hlavná kniha** > **Nastavenie účtovnej knihy** > **Hlavná kniha**. Mena sa synchronizuje s vaším prostredím Dataverse pomocou mapovania Ledgers Dual Write.
 
 Systém vytvára jednotkové náklady na zdroje a skutočný predaj medziorganizačných jednotiek v nasledujúcich situáciách:
 
   - Keď sa zdrojová jednotka líši od zmluvnej jednotky
   - Keď sa zdrojová spoločnosť líši od zmluvnej spoločnosti
 
-Do prostredia Dynamics 365 Finance však budú pre ďalšie účtovanie prevedené iba transakcie, ktoré majú inú zdrojovú spoločnosť než zmluvnú spoločnosť.
+Do prostredia Dynamics 365 Finance na dodatočné zaúčtovanie sa však prenesú iba transakcie, ktoré majú inú spoločnosť poskytujúcu zdroje ako zmluvná spoločnosť.
 
 Účtovanie skutočných hodnôt projektu sa zaznamenáva v denníku integrácie Project Operations vo Finance. Systém vytvorí nasledujúce záznamy v účtovnom denníku.
 
@@ -60,7 +60,7 @@ Molly Clarková, vývojárka zamestnaná v GBPM, zaznamenáva 10 hodín práce n
     4. Nastavte menu na **USD**.
     5. Uložte záznam.
 3. Prejdite na **Predaj** > **Projektové zmluvy** a vytvorte novú projektovú zmluvu pre Adventure Works.
-    1. Nastavte vlastniacu spoločnosť na **USPM** a zmluvnú jednotku na **Contoso Robotics US**.
+    1. Nastavte vlastniacu spoločnosť na **USPM** a zmluvnú jednotka ma **Contoso Robotics US**.
     2. Vyberte Adventure Works ako zákazníka.
     3. Vyberte cenník produktu a uložte záznam.
     4. Na karte **Riadky zmluvy** vytvorte nový riadok zmluvy. Nastavte ľubovoľný názov a vyberte **Čas a materiály** ako spôsob účtovania.

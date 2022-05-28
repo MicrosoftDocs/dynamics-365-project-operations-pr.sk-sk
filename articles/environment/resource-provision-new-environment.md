@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928680"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594873"
 ---
 # <a name="provision-a-new-environment"></a>Zriadenie nového prostredia
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Táto téma poskytuje informácie o tom, ako nasadiť nové prostredie Dynamics 365 Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
 
@@ -34,7 +34,7 @@ Pomocou nasledujúcich krokov povolíte automatizovaný tok poskytovania prostri
 
 ## <a name="provision-a-project-operations-environment"></a>Zriadenie prostredia Project Operations
 
-1. Otvorte nové nasadenie Dynamics 365 Finance [ukážkové prostredie](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) alebo [testovacie prostredie/produkčné prostredie](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otvorte nový Dynamics 365 Finance [demo prostredie](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) alebo [sandbox/produkčné prostredie](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) nasadenie. 
 2. Prejdite sprievodcom **Poskytovanie prostriedkov prostredia**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Možno budete musieť vo svojom prostredí Finance použiť aktualizácie týkaj
 
     ![Použiť riešenia.](./media/13ApplySolutions.png)
 
-5. Vyberte obe riešenia, **Mapa entity s duálnym zápisom Dynamics 365 Finance and Operations** a **Mapy entít s duálnym zápisom Dynamics 365 Project Operations** a potom vyberte **Použiť**.
+5. Vyberte obe riešenia, **Dynamics 365 Finance and Operations Mapa entít s dvojitým zápisom** a **Dynamics 365 Project Operations Mapy entít s dvojitým zápisom** a potom vyberte **Použiť**.
 
     ![Potvrďte riešenia.](./media/14ConfirmSolutions.png)
 

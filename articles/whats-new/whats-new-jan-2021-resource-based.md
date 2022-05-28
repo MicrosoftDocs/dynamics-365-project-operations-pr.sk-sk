@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008110"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599565"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v januári 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -22,7 +22,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
   - Project Operations v prostredí Dataverse verzie 4.6.0.154
-  - Projektový manažment a účtovanie v prostredí Dynamics 365 Finance verzie 10.0.16
+  - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.16
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
@@ -43,7 +43,7 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 | **Plánovanie a sledovanie projektu** | 2090202 | Označené obchodné pravidlá, ktoré sa už nepoužívajú ako **Zastarané**. |
 | **Čas a výdavky** | 2091249 | Sprísnené ovládacie prvky, aby používatelia nemohli zmeniť úlohu pri zadanom alebo schválenom zadaní času. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
 
 | **Oblasť funkcií** | **Číslo odkazu** | **Aktualizácia kvality** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 
 ## <a name="regulatory-updates"></a>Regulačné aktualizácie
 
-Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations sú uvedené v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

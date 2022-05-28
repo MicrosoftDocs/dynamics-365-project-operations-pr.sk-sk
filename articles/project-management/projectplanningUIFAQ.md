@@ -2,17 +2,17 @@
 title: Riešenie problémov s prácou v mriežke úloh
 description: Táto téma poskytuje informácie o riešení problémov potrebných pri práci v mriežke úloh.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547218"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596437"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Riešenie problémov s prácou v mriežke úloh 
 
@@ -70,6 +70,9 @@ Project Operations vyžaduje, aby parameter projektu odkazoval na koncový bod P
       | Project Operations                   | type=2             |
 
 4. Odstráňte pole zo stránky **Parametre projektu**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Zmiernenie 3: prihláste sa do project.microsoft.com
+V tvojom Microsoft Edge prehliadač, otvorte novú kartu, prejdite na project.microsoft.com a prihláste sa pomocou roly používateľa, ktorú používate na prístup k prevádzke projektu.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problém: Projekt sa nenačíta a používateľské rozhranie je prilepené na číselníku
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006355"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599473"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v marci 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -21,7 +21,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
 - Project Operations v prostredí Dataverse verzie 4.8.0.91 
-- Projektový manažment a účtovanie v prostredí Dynamics 365 Finance verzie 10.0.16 
+- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.16 
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
@@ -42,13 +42,13 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 | Čas a výdavky | 2148910 | Opravil sa problém so stránkou **Upraviť záznam** na mriežke **Zadanie času**. |
 | Čas a výdavky | 2159798 | Sprísnili sa kontroly, aby sa zabezpečilo, že schválené záznamy výdavkov nebude možné upravovať. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v rámci Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektový manažment a účtovníctvo na Dynamics 365 Finance
 
 Ďalšie informácie nájdete v sekcii [Čo je nové v januári 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Regulačné aktualizácie
 
-Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations sú uvedené v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby LCS a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby LCS a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

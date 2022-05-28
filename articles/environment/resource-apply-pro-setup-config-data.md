@@ -4,26 +4,26 @@ description: Táto téma poskytuje informácie o nastavení a použití konfigur
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986645"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594735"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavenie a použitie konfiguračných údajov v Common Data Service 
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Predpoklady
 
 Skôr než začnete konfigurovať údaje v službe Common Data Service (CDS), musia byť splnené nasledujúce požiadavky:
 
-1.  Nasadenie prostredia CDS a prostredia Dynamics 365 Finance pre Project Operations.
+1.  Poskytnutie prostredia CDS a prostredia Dynamics 365 Finance pre operácie projektu.
 2.  Informácie o právnickej osobe z Dynamics 365 Finance sa zdieľajú s prostredím CDS. To znamená, že entita **Spoločnosť** v CDS má tieto firemné záznamy:
   - THPM
   - USPM
@@ -132,7 +132,7 @@ Skôr než začnete konfigurovať údaje v službe Common Data Service (CDS), mu
 12. Aktualizujte nasledujúce polia:
 
  - **Predvolená spoločnosť**: USPM
- - **Predvolená organizačná jednotka**: Contoso Global Robotics
+ - **Predvolená organizačná jednotka**: Contoso Robotics Global
  - **Frekvencia faktúr**: Siedmy a posledný deň
  - **Šablóna pracovného času**: Zmena na šablónu, ktorú ste vytvorili.
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753311"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598507"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové Október 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753311"
 Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
    - Project Operations v prostredí Microsoft Dataverse verzie 4.25.0.91
-   - Projektový manažment a účtovanie v prostredí Dynamics 365 Finance verzie 10.0.21
+   - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 
@@ -49,7 +49,7 @@ Ak narazíte na problém so spustením mapy, postupujte podľa pokynov v časti 
 | Fakturácia a tvorba cien | 2338357 | Keď je projekt vybraný, mena v denníku použitia materiálu musí byť predvolená z meny projektu. |
 | Čas a výdavky | 2414777 | Zrušenie schválenia, ak má záznam o výdavkoch alebo čase viac ako jedno súvisiace schválenie projektu, musí byť možné. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v rámci Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektový manažment a účtovníctvo na Dynamics 365 Finance
 
 | Oblasť funkcií | Číslo odkazu | Aktualizácia kvality |
 | --- | --- | --- |

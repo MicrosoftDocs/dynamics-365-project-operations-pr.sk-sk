@@ -4,14 +4,14 @@ description: Táto téma poskytuje informácie o tom, ako vytvoriť a používa�
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993575"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594229"
 ---
 # <a name="set-up-cost-templates"></a>Nastavenie šablón nákladov
 
@@ -56,7 +56,7 @@ Rozhodnutie, aký prístup zvoliť pri tvorbe šablóny nákladov, môže závis
 ## <a name="create-cost-templates"></a>Vytvorenie šablón nákladov
 Ak chcete vytvoriť šablóny nákladov, postupujte podľa týchto krokov:
 
-1. Ak chcete pristupovať k šablónam nákladov, v prostredí Dynamics 365 Finance prejdite do **Projektový manažment a účtovníctvo** > **Nastavenie** > **Odhady** > **Šablóna nákladov**.
+1. Ak chcete získať prístup k šablónam nákladov, v prostredí Dynamics 365 Finance prejdite na adresu **Projektový manažment a účtovníctvo** > **Nastaviť** > **Odhady** > **Šablóna nákladov**.
 2. Ak chcete vytvoriť novú šablónu nákladov, zvoľte položku **Nová**. Zadajte názov a popis.
 3. Uveďte identifikátor nákladového riadka pre každý typ transakcie.
 4. Vyberte predvolenú metódu dokončenia:
