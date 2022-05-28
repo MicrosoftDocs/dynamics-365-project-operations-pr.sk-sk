@@ -2,16 +2,16 @@
 title: Nastavenia projektovej zmluvy – čiastočné
 description: Táto téma poskytuje informácie o poliach, ktoré majú vplyv na riadky zmluvy, a informácie o zmluve, ktoré sú zhrnuté vo všetkých riadkových položkách.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995960"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586409"
 ---
 # <a name="header-details-for-project-contracts"></a>Podrobnosti hlavičky pre projektové zmluvy
 
@@ -32,12 +32,15 @@ V nasledujúcej tabuľke je uvedený zoznam polí v zmluve projektu, ktoré sú 
 | Limit, ktorý sa nesmie prekročiť | Karta **Súhrn** | Toto pole naznačuje vyjednaný horný limit konečnej hodnoty, s ktorou zákazník v prípade tejto dohody súhlasí. | Horný limit sa hodnotí počas vykonávania a je použiteľný vo všetkých riadkových položkách a projektoch spojených s touto dohodou. |
 | Požadovaný dátum doručenia | Karta **Súhrn** | Po vytvorení zmluvy z cenovej ponuky projektu sa toto pole skopíruje z príslušného poľa v zázname cenovej ponuky projektu. | Tento dátum sa používa ako konečný dátum na generovanie plánov faktúr. |
 
-Nasledujúce KPI sú k dispozícii na karte **Plnenie zmluvy** projektovej zmluvy.
+Nasledujúce KPI sú k dispozícii na karte **Plnenie zmluvy** projektovej zmluvy. 
 
-| Pole | Miesto | Popis |
+>[!NOTE]
+>Všetky sumy na **Plnenie zmluvy** sú vyjadrené v predvolenej mene prostredia.
+
+| Pole | Oblasť | Description |
 | --- | --- | --- |
-| Hodnota zmluvy | Celková zmluva | Celková hodnota projektovej zmluvy. |
-| Fakturovaná suma | Celková zmluva | Súčet súm na všetkých faktúrach oproti tejto zmluve. |
+| Hodnota zmluvy | Celková zmluva | Celková hodnota projektovej zmluvy.|
+| Fakturovaná suma | Celková zmluva | Súčet súm na všetkých faktúrach oproti tejto zmluve.|
 | Vynaložené náklady | Celková zmluva | Súčet všetkých skutočných nákladov zaznamenaných vo všetkých projektoch, ktoré sú priradené k zmluve. |
 | Hrubá marža | Celková zmluva | Fakturovaná suma - náklady vzniknuté do dátumu/fakturovaná suma |
 | Očakávaná marža | Celková zmluva | (Hodnota zmluvy - Odhadované náklady)/Hodnota zákazky Odhadované náklady = Súčet všetkých odhadovaných nákladov na všetky projekty priradené k zmluve.|

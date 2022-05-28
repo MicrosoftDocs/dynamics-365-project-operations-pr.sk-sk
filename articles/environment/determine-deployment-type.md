@@ -4,14 +4,14 @@ description: Táto téma poskytuje informácie, ktoré vám pomôžu určiť spr
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994655"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584155"
 ---
 # <a name="determine-your-deployment-type"></a>Určenie typu nasadenia
 
@@ -25,7 +25,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Existujúci zákazníci systému Dynamics používajú Dynamics 365 Project Service Automation
 Project Operations obsahuje funkcie dodávané s Project Service Automation. Pre týchto zákazníkov bude vydaný aktualizačný postup v 1. vlne vydaní na rok 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Existujúci zákazníci Dynamics 365 Finance používajúci Projektové riadenie a účtovníctvo 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Existujúci zákazníci Dynamics 365 Finance využívajúci riadenie projektov a účtovníctvo 
 
 Existujúci zákazníci aplikácie Financie, ktorí používajú funkciu Projektový manažment a účtovníctvo, ju môžu naďalej používať tak, ako je. Pozrite si [Project Operations pre scenáre využívajúce skladované materiály/výrobné objednávky](#pma).
 
@@ -42,9 +42,9 @@ Náš [Dotazník o nasadení](https://aka.ms/provisionprojectoperations) vám po
 - [Project Operations pre scenáre riešenia zdrojov/neskladovaných položiek](#integrated)
 - [Project Operations pre scenáre využívajúce skladované materiály/výrobné objednávky](#pma)
 
-Project Operations podporuje scenáre využívajúce skladované materiály/výrobné objednávky a neskladové scenáre/scenáre založené na zdrojoch v rovnakom prostredí prostredníctvom konfigurácií na úrovni právnických osôb. Napríklad Contoso môže využívať možnosti skladovaných materiálov/výrobných objednávok vo svojom výrobnom závode v USA (právnická osoba = Contoso USA). Contoso môže vo vo svojom servisnom stredisku Contoso Robotics Arms vo Veľkej Británii (právnická osoba = Contoso Robotics Spojené kráľovstvo) využívať možnosti neskladované/založené na zdrojoch.
+Project Operations podporuje scenáre využívajúce skladované materiály/výrobné objednávky a neskladové scenáre/scenáre založené na zdrojoch v rovnakom prostredí prostredníctvom konfigurácií na úrovni právnických osôb. Spoločnosť Contoso môže napríklad využiť možnosti skladovaných materiálov/výrobných objednávok vo svojom výrobnom závode v USA (právnická entita = Contoso Manufacturing United States). Spoločnosť Contoso môže využívať možnosti neskladovaných položiek/zdrojov vo svojom servisnom stredisku Contoso Robotics Arms vo Veľkej Británii (právnická entita = Contoso Robotics United Kingdom).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Čiastočné nasadenie – dohoda o fakturácii pro forma
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Jednoduché nasadenie – dohoda o fakturácii pro forma
 
 Jednoduché nasadenie zahŕňa nasledujúce možnosti:
 

@@ -2,44 +2,44 @@
 title: Nasadenie aplikácie Project Operations – čiastočné
 description: Táto téma poskytuje informácie o tom, ako nainštalovať jednoduché nasadenie Project Operations – dohoda o fakturácii pro forma.
 author: stsporen
-ms.date: 10/02/2020
+ms.date: 02/28/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991595"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580751"
 ---
 # <a name="deploy-project-operations---lite"></a>Nasadenie aplikácie Project Operations – čiastočné
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Project Operations podporuje viac modelov nasadenia. Najlepší model nasadenia nájdete v časti [Typy nasadenia](determine-deployment-type.md).
 
 
 > [!IMPORTANT]
-> Toto nasadenie, jednoduché nasadenie – dohoda o fakturácii pro forma, má za následok **Common Data Service – iba nasadenie Project Operations**.
+> Toto nasadenie, jednoduché nasadenie – dohoda o fakturácii pro forma, má za následok **Dataverse – iba nasadenie Project Operations**.
 
-- [Inštalácia Project Operations do nového prostredia CDS](#new)
-- [Inštalácia do existujúceho prostredia CDS](#existing)
+- [Nainštalujte Project Operations do nového Dataverse životné prostredie](#new)
+- [Nainštalujte do existujúceho Dataverse životné prostredie](#existing)
 
 
 
-## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Inštalácia Project Operations do nového prostredia CDS
+## <a name="install-project-operations-to-a-new-dataverse-environment"></a><a name="new"></a> Nainštalujte Project Operations do nového Dataverse životné prostredie
 
-1. Ako [Globálny správca alebo správca Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) s licenciou na Project Operations vytvorte nové prostredie CDS v [Centrum spravovania PowerPlatform](https://admin.powerplatform.com). Uistite sa, že sú povolené **Databáza CDS** a **Aplikácie Dynamics 365** . Ďalšie informácie nájdete v časti [Vytváranie a správa prostredí v centre spravovania Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Ako [Globálne resp Power Platform správca](/power-platform/admin/global-service-administrators-can-administer-without-license) s licenciou Project Operations vytvorte novú Dataverse prostredie v [Centrum spravovania PowerPlatform](https://admin.powerplatform.com). Uistite sa, že **Vytvorte databázu pre toto prostredie** a **Aplikácie Dynamics 365** sú povolené. Ďalšie informácie nájdete v časti [Vytváranie a správa prostredí v centre spravovania Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Vyberte **Microsoft Dynamics 365 Project Operations** zo zoznamu nasadenia aplikácií Dynamics 365.
 
 
-## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Inštalácia Project Operations do existujúceho prostredia CDS
-
-1. Ako [Globálny správca alebo správca Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) s licenciou Project Operations vyhľadajte prostredie v [Centre spravovania PowerPlatform](https://admin.powerplatform.com), kde chcete nainštalovať Project Operations.
-2. Nainštalujte **Microsoft Dynamics 365 Project Operations** zo zoznamu nasadenia aplikácií Dynamics 365. Ďalšie informácie nájdete v časti [Správa aplikácií Dynamics 365](/power-platform/admin/manage-apps).
+## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a> Nainštalujte operácie projektu do existujúceho Dataverse životné prostredie
+1. Uistite sa, že prostredie nebolo nakonfigurované s [duálny zápis](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) ako inštalácia potom nainštaluje [Projektové operácie pre scenáre založené na zdrojoch/nezásobe](project-operations-integrated-deployment-overview.md) schopnosti.
+2. Ako [Globálny správca alebo správca Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) s licenciou Project Operations vyhľadajte prostredie v [Centre spravovania PowerPlatform](https://admin.powerplatform.com), kde chcete nainštalovať Project Operations.
+3. Nainštalujte **Microsoft Dynamics 365 Project Operations** zo zoznamu nasadenia aplikácií Dynamics 365. Ďalšie informácie nájdete v časti [Správa aplikácií Dynamics 365](/power-platform/admin/manage-apps).
 
 
 

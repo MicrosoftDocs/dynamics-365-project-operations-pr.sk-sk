@@ -4,26 +4,26 @@ description: Táto téma poskytuje informácie o kľúčových konceptoch projek
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986960"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582959"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Koncepty jedinečné pre projektové zmluvy
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Táto téma poskytuje kľúčové koncepty, ktoré si musíte uvedomiť predtým, ako začnete používať projektové zmluvy v Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Vlastniaca spoločnosť
 
-Vlastniaca spoločnosť je právnická entita z modulu **Projektové riadenie a účtovníctvo** pre Project Operations z Dynamics 365 Finance. Vlastniaca spoločnosť predstavuje právnickú entitu, ktorá bude obchodným vzťahom pre náklady a výnosy, ktoré vzniknú z obchodu.
+Vlastníkom spoločnosti je právnická osoba z **Projektový manažment a účtovníctvo** modul pre projektové operácie od Dynamics 365 Finance. Vlastniaca spoločnosť predstavuje právnickú entitu, ktorá bude obchodným vzťahom pre náklady a výnosy, ktoré vzniknú z obchodu.
 
 ## <a name="contracting-unit"></a>Zmluvná jednotka
 

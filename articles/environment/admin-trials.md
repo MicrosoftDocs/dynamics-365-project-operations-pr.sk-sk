@@ -2,22 +2,22 @@
 title: Registrácia do skúšobných verzií Project Operations
 description: Táto téma poskytuje informácie o tom, ako nasadiť skúšobnú verziu Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
-ms.translationtype: HT
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901636"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584293"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrácia do skúšobných verzií Project Operations 
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/výrobe_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Táto téma vysvetľuje, ako si predplatiť ponuku partnera verzie Preview a nasadiť prostredie Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ Nasledujúca tabuľka uvádza podrobnosti o novej skúšobnej ponuke.
 | Použitie ponuky                    | Jednorazová na nájomníka                          |
 | Trvanie ponuky               | 30 kalendárnych dní                             |
 | Uplatnenia na nájomníka       | 1                                            |
-| Počet používateľov              | 25                                           |
 | Prípona                    | 1 rozšírenie, 30 kalendárnych dní               |
 | Počet skúšobných prostredí | 3                                            |
 
@@ -87,7 +86,7 @@ Predtým ako začnete, prihláste sa do prehliadača pomocou používateľského
  
   Keď je zriaďovanie dokončené, stav vášho prostredia je **Pripravený**. Zabezpečenie prostredia zahŕňa nasadenie demo údajov.
  
-4.  Vyberte príslušnú adresu URL Microsoft Dataverse a adresy URL aplikácií Finance and Operations na overenie nasadenia.
+4.  Vyberte príslušný Microsoft Dataverse URL a adresy URL aplikácií Finance and Operations na overenie nasadenia.
 
 ## <a name="configuring-dual-write"></a>Konfigurácia duálneho zápisu
 - Ak chcete nakonfigurovať roly zabezpečenia pre duálny zápis, pozrite si časť [Aktualizujte nastavenia zabezpečenia v Project Operations v Dataverse](resource-provision-new-environment.md).
@@ -95,9 +94,9 @@ Predtým ako začnete, prihláste sa do prehliadača pomocou používateľského
 
 ## <a name="assign-licenses"></a>Priradenie licencií
 
-Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k portálu Microsoft 365 vo vašej organizácii.
+Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k Microsoft 365 vo vašej organizácii .
 
-1. Choďte do [centra spravovania Microsoft 365](https://portal.office.com/) a priraďte licencie svojim používateľom.
+1. Choďte na [Microsoft 365 centrum spravovania](https://portal.office.com/) na priradenie licencií vašim používateľom.
 
    ![Stránka správcu centra spravovania](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Nasledujúce zdroje poskytujú užitočné rady na začiatku cesty s Project Ope
 
 ## <a name="frequently-asked-questions"></a>Najčastejšie otázky
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Čo keď pre moje prostredie aplikácií Finance and Operations vyžadujem ALM alebo ELM?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Čo ak potrebujem ALM alebo ELM pre svoje prostredie aplikácií pre financie a operácie?
 
 - Partnerov, ktorí vyžadujú úplné možnosti správy životného cyklu prostredia, nájdete v dokumente [Žiadosť o licenciu izolovaného priestoru partner](https://experience.dynamics.com/requestlicense), kde môžete preskúmať novú partnerskú ponuku. 
 - Partnerov, ktorí hľadajú viac informácií o právach na interné použitie, nájdete v dokumente [Práva na interné použitie v cloude a softvérové výhody (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Nasledujúce zdroje poskytujú užitočné rady na začiatku cesty s Project Ope
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Môžem si skúšobnú dobu predĺžiť nad 30 dní?
 Ak si chcete skúšobnú verziu predĺžiť, vykonajte nasledujúce kroky.
 
-1. V **centre spravovania systému Microsoft 365** prejdite na položky **Fakturácia** > **Vaše produkty**.
+1. V **Microsoft 365 Admin Center**, ísť do **Fakturácia** > **Vaše produkty**.
 2. Vyberte **Dynamics 365 Project Operations (CE) – skúšobná verzia Preview**.
 3. Pod položkou **Dátum uplynutia platnosti** vyberte **Predĺžiť dátum**.
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986600"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585811"
 ---
 # <a name="expense-management-integration"></a>Integrácia správy výdavkov
 
@@ -22,9 +22,9 @@ Táto téma poskytuje informácie o integrácii správ výdavkov v Project Opera
 
 ## <a name="expense-categories"></a>Kategórie výdavkov
 
-Pri plnom nasadení výdavkov sa kategórie výdavkov vytvárajú a spravujú v aplikáciách Finance and Operations. Ak chcete vytvoriť novú kategóriu výdavkov, postupujte takto:
+Pri úplnom nasadení nákladov sa kategórie výdavkov vytvárajú a udržiavajú v aplikáciách Finance and Operations. Ak chcete vytvoriť novú kategóriu výdavkov, postupujte takto:
 
-1. V Microsoft Dataverse vytvorte kategóriu **Transakcia**. Integrácia duálneho zápisu synchronizuje túto kategóriu transakcií s aplikáciami Finance and Operations. Viac informácií nájdete v časti [Konfigurácia kategórií projektov](/dynamics365/project-operations/project-accounting/configure-project-categories) a v časti [Integrácia nastavenia a konfiguračných údajov aplikácie Project Operations](resource-dual-write-setup-integration.md). Výsledkom tejto integrácie je, že systém vytvorí v systéme štyri záznamy zdieľaných kategórií v aplikáciách Finance and Operations.
+1. V Microsoft Dataverse vytvorte kategóriu **Transakcia**. Integrácia s duálnym zápisom zosynchronizuje túto kategóriu transakcií s aplikáciami Finance and Operations. Viac informácií nájdete v časti [Konfigurácia kategórií projektov](/dynamics365/project-operations/project-accounting/configure-project-categories) a v časti [Integrácia nastavenia a konfiguračných údajov aplikácie Project Operations](resource-dual-write-setup-integration.md). Výsledkom tejto integrácie je, že systém vytvorí štyri zdieľané záznamy kategórií v aplikáciách Finance and Operations.
 2. V časti Finance choďte na **Správa výdavkov** > **Nastaviť** > **Zdieľané kategórie** a vyberte zdieľanú kategóriu s triedou transakcie **Výdavky**. Nastavte parameter **Môže byť použitý vo výdaji** na **True** a definujte typ výdavkov, ktorý sa má použiť.
 3. Pomocou tohto záznamu zdieľanej kategórie vytvorte novú kategóriu výdavkov prechodom na **Správa výdavkov** > **Nastaviť** > **Kategórie výdavkov** a stlačením možnosti **Nový**. Keď sa záznam uloží, duálny zápis použije mapu tabuľky **Entita exportu kategórií výdavkov integrácie projektu Project Operations (msdyn\_expensecategories)** na synchronizáciu tohto záznamu s Dataverse.
 
@@ -34,7 +34,7 @@ Kategórie výdavkov v aplikáciách Finance and Operations sú špecifické pre
 
 ## <a name="expense-reports"></a>Výkazy výdavkov
 
-Výkazy výdavkov sa vytvárajú a schvaľujú v aplikáciách Finance and Operations. Viac informácií nájdete v časti [Vytváranie a spracovanie výkazov výdavkov v systéme Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Po schválení výkazu výdavkov projektovým manažérom sa zaúčtuje do hlavnej knihy. V Project Operations sa riadky výkazu výdavkov súvisiacich s projektom účtujú pomocou špeciálnych pravidiel účtovania:
+Prehľady výdavkov sa vytvárajú a schvaľujú v aplikáciách Finance and Operations. Viac informácií nájdete v časti [Vytváranie a spracovanie výkazov výdavkov v systéme Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Po schválení výkazu výdavkov projektovým manažérom sa zaúčtuje do hlavnej knihy. V Project Operations sa riadky výkazu výdavkov súvisiacich s projektom účtujú pomocou špeciálnych pravidiel účtovania:
 
   - Náklady súvisiace s projektom (vrátane nevratnej dane) sa okamžite neúčtujú na účet nákladov projektu v hlavnej knihe, ale namiesto toho sa zaúčtujú na účet integrácie výdavkov. Tento účet je konfigurovaný v časti **Projektový manažment a účtovníctvo** > **Nastavenie** > **Parametre projektového manažmentu a účtovníctva** na karte **Project Operations v Dynamics 365 Customer engagement**.
   - Duálny zápis sa synchronizuje s Dataverse použitím mapy tabuľky **Entita exportu výdavkov projektu integrácie Project Operations (msdyn\_expenses)**.

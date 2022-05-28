@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0432e2d4970c352e91cca589987bbdace57c6eaf
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
-ms.translationtype: HT
+ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942996"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585397"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Čo je nové december 2021 – zjednodušené nasadenie Project Operations
 
@@ -20,7 +20,7 @@ _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
 
-- Projektové operácie v a Dataverse verzia prostredia 4.27.0.195, 4.27.0.242
+- Projektové operácie v a Dataverse verzia prostredia 4.27.0.195, 4.27.0.242, 4.27.0.244
 
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní

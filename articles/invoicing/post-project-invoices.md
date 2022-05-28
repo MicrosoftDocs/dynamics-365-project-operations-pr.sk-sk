@@ -3,16 +3,15 @@ title: Prehľad spracovania fakturácie
 description: Táto téma poskytuje prehľad procesov fakturácie v Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003790"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582729"
 ---
 # <a name="invoicing-process-overview"></a>Prehľad spracovania fakturácie
 
@@ -22,7 +21,7 @@ Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch po
 
 ![Vývojový diagram fakturácie.](./media/invoicing-flow.png)
 
-Riadok zmluvy projektu definuje spôsob účtovania pre súvisiace transakcie projektu. Keď projektový manažér schváli časové a nákladové transakcie, systém zaznamená transakcie do súboru entity **Skutočné hodnoty projektu** a odošle informácie do modulu **Projektové riadenie a účtovníctvo** v aplikácii Dynamics 365 Finance. Účtovník projektu potom skontroluje a zaúčtuje záznamy pomocou [Denník integrácie Project Operations](../project-accounting/project-operations-integration-journal.md). Tento denník obsahuje dôležité účtovné podrobnosti o skutočných hodnotách projektu, ako sú fakturácia, skupina dane z obratu, skupina dane z obratu fakturovanej položky a finančné dimenzie.
+Riadok zmluvy projektu definuje spôsob účtovania pre súvisiace transakcie projektu. Keď projektový manažér schváli časové a nákladové transakcie, systém zaznamená transakcie do **Aktuálne informácie o projekte** subjektu a odošle informácie **Projektový manažment a účtovníctvo** modul v Dynamics 365 Finance. Účtovník projektu potom skontroluje a zaúčtuje záznamy pomocou [Denník integrácie Project Operations](../project-accounting/project-operations-integration-journal.md). Tento denník obsahuje dôležité účtovné podrobnosti o skutočných hodnotách projektu, ako sú fakturácia, skupina dane z obratu, skupina dane z obratu fakturovanej položky a finančné dimenzie.
 
 Projektový manažér môže skontrolovať nevyfakturované predajné transakcie pomocou spôsobu fakturácie času a materiálu v dokumente [Backlog pre fakturáciu času a materiálu](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) a fakturácia pevnej ceny v [Míľniky pevnej ceny](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Tieto zobrazenia vám umožňujú filtrovať a vyberať transakcie, ktoré je potrebné zahrnúť do nasledujúceho fakturačného cyklu, a potom ich označiť ako **Pripravené na fakturáciu**.
 

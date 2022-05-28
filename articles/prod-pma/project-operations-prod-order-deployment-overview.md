@@ -3,16 +3,15 @@ title: Prehľad nasadenia aplikácie Project Operations pre scenáre založené 
 description: Táto téma poskytuje informácie o type nasadenia Project Operations pre scenáre založené na zdrojoch/výrobe.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009100"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582499"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Prehľad nasadenia aplikácie Project Operations pre scenáre založené na zdrojoch/výrobe
 
@@ -23,8 +22,8 @@ Tento typ nasadenia ponúka nasledujúce možnosti pre projektové spoločnosti:
 
 - Plánovanie projektov pomocou [štruktúry rozdelenia práce](work-breakdown-structures.md)
 - Obstarávanie a spotreba naskladneného inventára pre projekty
-- Spravovanie predaja na základe projektu pomocou modulu **Predaj a marketing** v aplikáciách Dynamics 365 Finance and Operations
-- Stanovenie cien a nákladov projektu pomocou konfigurácie sadzby nákladov a fakturácie v aplikáciách Finance and Operations
+- Riadenie projektového predaja pomocou **Predaj a marketing** modul v aplikáciách Dynamics 365 Finance and Operations
+- Oceňovanie a kalkulácia projektu pomocou konfigurácií nákladovej sadzby a fakturačnej sadzby v aplikáciách Finance and Operations
 - Správa zdrojov pre projekty v aplikáciách Finance and Operations
 - Priebeh projektu a sledovanie času v aplikáciách Finance and Operations
 - Prostredie správy výdavkov pre projektové aj neprojektové výdavky so zaznamenávaním príjmových dokladov pomocou funkcií OCR
@@ -32,12 +31,12 @@ Tento typ nasadenia ponúka nasledujúce možnosti pre projektové spoločnosti:
 - Konfigurovateľné projektové skupiny pre účtovníctvo WIP a prírastky
 - Priznanie výnosov projektu
 
-Tento typ nasadenia tiež poskytuje rozšírenie funkcií poskytovaných aplikáciami Dynamics 365 Finance a Dynamics 365 Supply Chain Management.
+Tento typ nasadenia tiež poskytuje rozšírenie funkcií poskytovaných Dynamics 365 Finance a Dynamics 365 Supply Chain Management aplikácie.
 
 Vyberte tento typ nasadenia, ak chcete používať Dynamics 365 Project Operations pre celý životný cyklus projektu vrátane nasledujúcich kľúčových požiadaviek:
 
 - Rozsiahly systém riadenia projektov, ktorý spravuje inventarizované položky a náklady objednávku úlohy/výroby pre interné a fakturovateľné projekty pre plány a financie.
-- Organizácia už má aplikácie Dynamics 365 Finance alebo Dynamics 365 Supply Chain and Manufacturing a integrácia projektových transakcií zjednoduší prístup k údajom a potrebám vykazovania.
+- Organizácia už má aplikácie Dynamics 365 Finance alebo Dynamics 365 Supply Chain and Manufacturing a integrácia transakcií založených na projekte zjednoduší prístup k údajom a potreby vykazovania.
 - Plne funkčný systém riadenia výdavkov, ktorý obsahuje vynútenie politiky a náhrady na sledovanie projektových a neprojektových výdavkov.
 - Podniková daň z obratu a mechanizmus výmenných kurzov na generovanie faktúr za projekty pre zákazníkov.
 - Systém projektového účtovníctva a vykazovania výnosov v súlade s Medzinárodnými štandardmi finančného výkazníctva (IFRS).

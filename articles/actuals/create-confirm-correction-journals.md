@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986735"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582822"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Vytvorenie a potvrdenie účtovných denníkov opráv
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Príležitostne môže byť nesprávne zadaný údaj o čase alebo výdavkoch. Napríklad poradca môže zvoliť nesprávny dátum pri vytváraní časového záznamu alebo môže transponovať čísla pri zadávaní výdavkov. Ak konzultant nemôže vykonať aktualizácie predložených záznamov, správca môže priamo opraviť záznam pre projekt.
-
-Na dokončenie postupov v tejto téme budete potrebovať oprávnenia správcu.
+Občas môže byť nesprávne zadaný čas alebo výdavok. Konzultant môže napríklad vybrať nesprávny dátum pri vytváraní časového záznamu alebo môže vybrať nesprávny projekt, keď zadáva výdavok. Ak konzultant nemôže aktualizovať predložené záznamy, správca servera môže priamo opraviť skutočné skutočnosti pre projekt.
 
 ## <a name="correct-approved-time-entries"></a>Opravte schválené časové záznamy     
 
@@ -46,8 +42,8 @@ Ak chcete opraviť jednorazové alebo viacnásobné zadania projektu, vykonajte 
 
 6. Stlačte možnosť **Ukážka**. V dialógovom okne stlačte možnosť **OK**. Na karte **Záznamy v účtovnom denníku** si môžete zobraziť zoznam pôvodných skutočností, ktoré súvisia s vybratými časovými položkami, ktoré boli zmenené, a opravené zodpovedajúce riadky, ktoré boli vytvorené. Ak je potrebné vykonať ďalšie opravy, opakujte kroky 5 a 6. 
 
-> [!NOTE]
-> Všetky opravené skutočnosti budú mať rovnaké hodnoty, aké ste vybrali v sekcii **Nové hodnoty pre zadania času**.
+    > [!NOTE]
+    > Všetky opravené skutočnosti budú mať rovnaké hodnoty, aké ste vybrali v sekcii **Nové hodnoty pre zadania času**.
 
 7. Ak sa opravy zobrazia podľa očakávania, vyberte položku **Potvrdiť**. V dialógovom okne stlačte možnosť **OK**.
 
@@ -55,12 +51,10 @@ Ak chcete opraviť jednorazové alebo viacnásobné zadania projektu, vykonajte 
 
 9. Na stránke **Projekty** na karte **Skutočné údaje** si zobrazte vykonané zmeny. 
 
-> [!NOTE]
-> Ak karta **Skutočné údaje** nie je viditeľná, zvoľte možnosť **Súvisiace** > **Skutočné údaje**.  
+    > [!NOTE]
+    > Ak karta **Skutočné údaje** nie je viditeľná, zvoľte možnosť **Súvisiace** > **Skutočné údaje**.  
 
 10. V zozname **Priradené zobrazenie skutočných hodnôt** môžete vidieť, že pôvodné časové záznamy, ktoré boli zvrátené, sú stále uvedené, ako aj zodpovedajúce opravené časové položky. 
-
-Napríklad na nasledujúcej grafike sú dve riadkové položky s množstvom 8,00, ktorých debety sú uvedené v stĺpci Suma. Ďalej sú v stĺpci Suma dve riadkové položky s množstvom -8,00, ktoré zobrazujú pripísané sumy. Tieto korekcie znižujú množstvo na nulu.
 
  
 ## <a name="correct-approved-expense-entries"></a>Opravte schválené záznamy výdavkov
@@ -79,14 +73,30 @@ Ak chcete opraviť jednu alebo viac položiek výdavkov, vykonajte nasledujúce 
 
 6. Ak sú opravené hodnoty podľa očakávania, vyberte položku **Potvrdiť**. V dialógovom okne stlačte možnosť **OK**. Ak sa hodnoty nezobrazujú podľa očakávania, vyberte položku **Zrušiť**, čím sa vrátite do zoznamu **Schválené výdavky**. Opakujte kroky 2 až 5. 
 
-> [!NOTE]
-> Opravené skutočné hodnoty budú mať rovnaké hodnoty, aké ste vybrali v sekcii **Nové hodnoty pre výdavky**.
+7. Po potvrdení denníka opráv sa vráťte k projektu alebo projektom, ktoré ste aktualizovali, aby ste videli svoje zmeny.
 
-7. Po potvrdení denníka opráv prejdite späť na projekt alebo projekty, ktoré ste aktualizovali, aby ste si prezreli zmeny.  
-
-8. Na stránke projektu na karte **Skutočné hodnoty** skontrolujte **Priradené zobrazenie skutočných hodnôt**. Uvádzajú sa pôvodné záznamy a opravené položky. Nasledujúca grafika zobrazuje pôvodné sumy vstupných nákladov a zodpovedajúce opravené položky vstupných nákladov. 
+8. Na stránke projektu, na **Aktuálne** skontrolujte kartu **Aktuálne pridružené zobrazenie** zoznam. Uvádzajú sa pôvodné záznamy a opravené položky.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Opravte schválené protokoly používania materiálu
+
+Vykonajte nasledujúce kroky na opravu jednej alebo viacerých položiek denníka použitia materiálu.
+
+1. V **Predaj** v ľavom navigačnom paneli pod **Transakcie**, vyberte **Aktuálne**.
+
+2. V **Aktuálne** pomocou stĺpcových filtrov vyberte **Materiál** trieda transakcie, takže sú zobrazené iba skutočné hodnoty pre materiály. Na ďalšie obmedzenie zobrazených skutočností použite iné filtre stĺpcov. Keď nájdete požadovanú množinu skutočných hodnôt, vyberte aktuálne hodnoty a potom vyberte **Správne zadania**. Automaticky sa vytvorí nový denník opráv a **Korekcia materiálu** je priradený typ.
+
+3. Na **Nový denník** stránke, v **Popis** zadajte popis opravy. Potom na **Oprava materiálu** kartu, v **Nové hodnoty pre materiály** vyberte dátové polia, ktoré chcete opraviť pre vybrané materiálové rady. Môžete napríklad priradiť materiál k inému projektu alebo opraviť produkt, dátum materiálu alebo subdodávku.
+
+4. Stlačte možnosť **Ukážka**. Potom v dialógovom okne vyberte **OK**.
+
+5. Na **Riadky denníka** skontrolujte opravy. Môžete zobraziť zoznam pôvodných skutočností, ktoré súvisia s vybratými položkami materiálu, ktoré boli stornované, a opravenými zodpovedajúcimi riadkami, ktoré boli vytvorené.
+
+6. Ak sú opravené hodnoty podľa očakávania, vyberte položku **Potvrdiť**. Potom v dialógovom okne vyberte **OK**. Ak hodnoty nie sú podľa očakávania, vyberte **Zrušiť** vrátiť sa do **Aktuálne** zoznam. Potom zopakujte kroky 2 až 5.
+
+7. Po potvrdení denníka opráv sa vráťte k projektu alebo projektom, ktoré ste aktualizovali, aby ste videli svoje zmeny.
+
+8. Na stránke projektu, na **Aktuálne** skontrolujte kartu **Aktuálne pridružené zobrazenie** zoznam. Uvádzajú sa pôvodné záznamy a opravené položky.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

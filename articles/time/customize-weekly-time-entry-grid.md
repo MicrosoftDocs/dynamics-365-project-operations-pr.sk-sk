@@ -2,16 +2,16 @@
 title: Rozšírenie zadaní času
 description: Táto téma poskytuje informácie o tom, ako môžu vývojári rozšíriť riadenie zadaní času.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993350"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583005"
 ---
 # <a name="extending-time-entries"></a>Rozšírenie zadaní času
 
@@ -43,7 +43,7 @@ Zadania času sú základnou entitou používanou vo viacerých scenároch. V ap
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Zadania času a entita zdroja času
-Každé zadanie času je spojené so záznamom zdroja času. Tento záznam určuje, ako a ktoré aplikácie majú spracovať zadanie času.
+Každé zadanie času je spojené so záznamom zdroja času. Tento záznam určuje, ktoré aplikácie majú spracovať zadanie času a ako.
 
 Zadania času sú vždy jedným súvislým časovým blokom s prepojeným začiatkom, koncom a časom trvania.
 
@@ -55,7 +55,7 @@ Logika automaticky aktualizuje záznam zadania času v nasledujúcich situáciá
     - **msdyn_end**
     - **msdyn_duration**
 
-- Polia **msdyn_start** a **msdyn_end** zohľadňujú časové pásmo.
+- The **msdyn_start** a **msdyn_end** polia poznajú časové pásmo.
 - Zadania času vytvorené iba s uvedenými **msdyn_date** a **msdyn_duration** začnú o polnoci. Polia **msdyn_start** a **msdyn_end** sa príslušným spôsobom aktualizujú.
 
 #### <a name="time-entry-types"></a>Typy zadania času
@@ -72,73 +72,63 @@ Záznamy o zadaní času majú pridružený typ, ktorý definuje správanie v to
 |Dovolenka   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Prispôsobenie riadenia týždenných zadaní času
 Vývojári môžu pridať ďalšie polia a vyhľadávania k ďalším entitám a implementovať vlastné obchodné pravidlá na podporu svojich obchodných scenárov.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Pridanie vlastných polí s hľadaním iných entít
 Existujú tri hlavné kroky na pridanie vlastného poľa do mriežky týždenného vstupného času.
 
-1. Pridajte vlastné pole do dialógového okna rýchleho vytvorenia.
+1. Pridajte vlastné pole do **Rýchla tvorba** dialógové okno.
 2. Nakonfigurujte mriežku na zobrazenie vlastného poľa.
-3. Pridanie vlastného poľa do riadka úpravy toku úloh alebo bunky úpravy toku úloh.
+3. Pridajte vlastné pole do **Úprava riadkov** alebo **Úprava zadania času** podľa potreby.
 
-Uistite sa, že nové pole má požadované overenia v riadku alebo bunke úpravy toku úloh. V rámci tohto kroku zamknite pole na základe stavu zadania času.
+Uistite sa, že nové pole obsahuje požadované overenia **Úprava riadkov** alebo **Úprava zadania času** stránku. V rámci tejto úlohy zamknite pole na základe stavu zadania času.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Pridajte vlastné pole do dialógového okna rýchleho vytvorenia
-Vlastné pole pridajte do dialógového okna **Rýchle vytvorenie zadania času**. Potom, keď sa pridajú zadania času, je možné zadať hodnotu výberom možnosti **Nová**.
+Keď pridáte vlastné pole do **Zadanie času** mriežky a potom vytvorte časové položky priamo v mriežke, vlastné pole pre tieto položky sa automaticky nastaví tak, aby sa zhodovalo s riadkom. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Pridajte vlastné pole do dialógového okna Rýchle vytvorenie
+Pridajte vlastné pole do **Rýchle vytvorenie: Vytvorenie záznamu času** dialógové okno. Používatelia potom môžu zadať hodnotu, keď pridajú zadania času výberom možnosti **Nová**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Nakonfigurujte mriežku na zobrazenie vlastného poľa
-Existujú dva spôsoby na pridanie vlastného poľa do mriežky týždenného zadania času:
+Existujú dva spôsoby pridania vlastného poľa do **Týždenný vstup času** mriežka.
 
-  - Prispôsobenie zobrazenia a pridávanie vlastného poľa
-  - Vytvorenie nového predvoleného vlastného zadania času 
+- Prispôsobte si **Moje týždenné časové záznamy** a pridajte doň vlastné pole. Úpravou vlastností v zobrazení môžete určiť polohu a veľkosť vlastného poľa v mriežke.
+- Vytvorte nové vlastné zobrazenie záznamu času a nastavte ho ako predvolené zobrazenie. Tento pohľad by mal obsahovať **Popis** a **Externé komentáre** polia okrem stĺpcov, ktoré má mriežka zahrnúť. Úpravou vlastností v zobrazení môžete určiť polohu, veľkosť a predvolené poradie zoradenia mriežky. Potom nakonfigurujte vlastný ovládací prvok pre toto zobrazenie, aby bol išlo o ovládací prvok **Mriežka so zadaniami času**. Pridajte ovládací prvok do zobrazenia a vyberte ho **Web**, **a** **Tablet**. Ďalej nakonfigurujte parametre pre **Týždenný vstup času** mriežka. Nastaviť **Dátum začiatku** pole do **msdyn\_ dátum**, nastaviť **Trvanie** pole do **msdyn\_ trvanie** a nastavte **Postavenie** pole do **msdyn\_ vstupný stav**. The **Zoznam stavov len na čítanie** pole je nastavené na **192350002 (Schválené)**, **(Odoslané)**, alebo **192350004 (vyžaduje sa stiahnutie)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Pridajte vlastné pole na príslušnú stránku úprav
+Stránky, ktoré sa používajú na úpravu časových záznamov alebo riadkov časových záznamov, nájdete pod **Formuláre**. The **Upraviť záznam** tlačidlo v mriežke otvorí **Upraviť záznam** stránku a **Upraviť riadok** tlačidlo otvorí **Úprava riadkov** stránku. Tieto stránky môžete upraviť tak, aby obsahovali vlastné polia.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Prispôsobenie zobrazenia a pridávanie vlastného poľa
+Obe možnosti odstraňujú niektoré filtrovanie pred spustením **Projekt** a **Projektová úloha** entity, aby boli viditeľné všetky pohľady na vyhľadávanie entít. Predpripravene sú viditeľné iba relevantné zobrazenia vyhľadávania.
 
-Prispôsobte zobrazenie **Moje týždenné zadania času** a pridajte do neho vlastné pole. Úpravou vlastností v zobrazení môžete vybrať umiestnenie a veľkosť vlastného poľa v mriežke.
+Musíte určiť vhodnú stránku pre vlastné pole. S najväčšou pravdepodobnosťou, ak ste pridali pole do mriežky, malo by ísť na **Úprava riadkov** stránku, ktorá sa používa pre polia, ktoré sa vzťahujú na celý riadok časových záznamov. Ak má vlastné pole v riadku každý deň jedinečnú hodnotu (napríklad, ak ide o vlastné pole pre čas ukončenia), malo by ísť na **Úprava zadania času** stránku.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Vytvorenie nového predvoleného vlastného zadania času
-
-Toto zobrazenie by malo obsahovať polia **Popis** a **Externé komentáre** okrem stĺpcov, ktoré chcete mať v mriežke. 
-
-1. Úpravou týchto vlastností v zobrazení vyberte umiestnenie, veľkosť a predvolené poradie zoradenia vlastného poľa v mriežke. 
-2. Nakonfigurujte vlastný ovládací prvok pre toto zobrazenie, aby bol ovládacím prvkom **Mriežka so zadaniami času**. 
-3. Pridajte tento ovládací prvok do zobrazenia a vyberte ho pre web, telefón a tablet. 
-4. Nakonfigurujte parametre pre týždennú mriežku zadania času. 
-5. Nastavte pole **Dátum začatia** na **msdyn_date**, nastavte pole **Trvanie** na **msdyn_duration** a nastavte pole **Stav** na **msdyn_entrystatus**. 
-6. Pre predvolené zobrazenie je pole **Zoznam stavov iba na čítanie** nastavené na **192350002,192350003,192350004**. Pole **Tok úloh úpravy riadkov** je nastavené na **msdyn_timeentryrowedit**. Pole **Tok úloh úpravy buniek** je nastavené na **msdyn_timeentryedit**. 
-7. Tieto polia môžete prispôsobiť, ak chcete pridať alebo odstrániť stav iba na čítanie, alebo použiť inú pracovnú skúsenosť (TBX) na úpravu riadkov alebo buniek. Tieto polia sú teraz viazané na statickú hodnotu.
-
-
-> [!NOTE] 
-> Obe možnosti odstránia niektoré predpripravené filtrovanie v entitách **Projekt** a **Projektová úloha**, takže všetky zobrazenia vyhľadávania pre entity budú viditeľné. Predpripravene sú viditeľné iba relevantné zobrazenia vyhľadávania.
-
-Určite príslušný tok úloh pre vlastné pole. Ak ste do mriežky pridali pole, mal by ísť v riadku upraviť tok úloh, ktorý sa používa pre polia, ktoré sa vzťahujú na celý riadok časových položiek. Ak vlastné pole má jedinečnú hodnotu každý deň, napríklad vlastné pole pre **Čas ukončenia**, mal by ísť v bunke upraviť tok úloh.
-
-Ak chcete pridať vlastné pole do toku úloh, presuňte prvok **Pole** do príslušnej pozície na strane a potom nastavte vlastnosti poľa. Nastavte vlastnosť **Zdroj** na **Zadanie času** a nastavte vlastnosť poľa **Údajové pole** na vlastné pole. Vlastnosť **Pole** určuje zobrazovaný názov na stránke TBX. Vyberte možnosť **Použiť** na uloženie zmien do poľa a potom vyberte **Aktualizovať** na uloženie zmien na stránku.
-
-Ak chcete namiesto toho použiť novú vlastnú stránku TBX, vytvorte nový proces. Nastavte kategóriu na **Tok obchodného procesu**, nastavte entitu na **Zadanie času** a nastavte typ obchodného procesu na **Spustiť proces ako postup úloh**. V časti **Vlastnosti** sa vlastnosť **Názov stránky** musí nastaviť na zobrazovací názov pre stránku. Pridajte všetky príslušné polia na stránku TBX. Uloženie a aktivovanie procesu. Aktualizujte vlastnosť vlastného ovládacieho prvku pre príslušný tok úloh na hodnotu **Názov** v procese.
+Ak chcete pridať vlastné pole na stránku, potiahnite a **Lúka** prvok na príslušné miesto na stránke a potom nastavte jeho vlastnosti.
 
 ### <a name="add-new-option-set-values"></a>Pridanie nových hodnôt množiny možností
-Ak chcete pridať hodnoty množiny možností do predpripraveného poľa, otvorte stránku úprav pre pole a v časti **Typ** vyberte položku **Upraviť** vedľa množiny možností. Pridajte novú možnosť, ktorá má vlastný štítok a farbu. Ak chcete pridať nový stav položky času, predpripravené pole má názov **Stav zadania**, nie **Stav**.
+Ak chcete pridať hodnoty množina možností do rozbaleného poľa, postupujte podľa týchto krokov.
+
+1. Otvorte stránku úprav pre pole a potom pod **Typ**, vyberte **Upraviť** vedľa množina možností.
+2. Pridajte novú možnosť, ktorá má vlastný štítok a farbu. Ak chcete pridať nový stav zadávania času, pole po rozbalení bude pomenované **Stav vstupu**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Označenie nového stavu položky času ako iba na čítanie
-Ak chcete určiť stav nového zadania času iba na čítanie, pridajte novú hodnotu zadania času do vlastnosti **Zoznam stavov iba na čítanie**. Upraviteľná časť mriežky časového vstupu bude zamknutá pre riadky, ktoré majú nový stav.
-V ďalšom kroku pridajte obchodné pravidlá na uzamknutie všetkých polí na stránkach TBX **Úprava riadka so zadaním času** a **Úprava zadania času**. K obchodným pravidlám pre tieto stránky môžete pristupovať otvorením editora toku obchodného procesu pre stránku a následným výberom položky **Obchodné pravidlá**. Nový stav môžete pridať k podmienke v existujúcich obchodných pravidlách, alebo môžete pridať nové obchodné pravidlo pre nový stav.
+Ak chcete určiť stav nového zadania času iba na čítanie, pridajte novú hodnotu zadania času do vlastnosti **Zoznam stavov iba na čítanie**. Nezabudnite pridať číslo, nie štítok. Upraviteľná časť časovej mriežky bude teraz uzamknutá pre riadky, ktoré majú nový stav. Ak chcete nastaviť **Zoznam stavov len na čítanie** majetok inak pre rôzny **Vstup času** zobrazenia, pridajte **Zadanie času** mriežka v zobrazení **Vlastné ovládacie prvky** a nakonfigurujte parametre podľa potreby.
+
+Ďalej pridajte obchodné pravidlá na uzamknutie všetkých polí na **Úprava riadkov** a **Úprava zadania času** stránky. Ak chcete získať prístup k obchodným pravidlám pre tieto stránky, otvorte editor formulárov pre každú stránku a potom vyberte **Obchodné pravidlá**. Nový stav môžete pridať k podmienke v existujúcich obchodných pravidlách, alebo môžete pridať nové obchodné pravidlo pre nový stav.
 
 ### <a name="add-custom-validation-rules"></a>Pridávanie vlastných overovacích pravidiel
-Existujú dva typy overovacích pravidiel, ktoré môžete pridať pre skúsenosti s týždennou mriežkou zadávania času:
+Môžete pridať dva typy pravidiel overenia pre **Týždenný vstup času** skúsenosti s mriežkou:
 
-- Obchodné pravidlá na strane klienta, ktoré fungujú v rýchlych dialógových oknách na vytváranie a na stránkach TBX.
-- Overenie doplnku na strane servera, ktoré sa vzťahuje na všetky aktualizácie zadávania času.
+- Obchodné pravidlá na strane klienta, ktoré fungujú na stránkach
+- Overenia zásuvných modulov na strane servera, ktoré sa vzťahujú na všetky aktualizácie časových záznamov
 
-#### <a name="business-rules"></a>Podnikové pravidlá
-Použite obchodné pravidlá na uzamykanie a odomykanie polí, zadajte predvolené hodnoty do polí a definujte overenia, ktoré vyžadujú informácie len z aktuálneho záznamu o čase. K obchodným pravidlám pre stránku TBX môžete pristupovať otvorením editora toku obchodného procesu pre stránku a následným výberom položky **Obchodné pravidlá**. Potom môžete upraviť existujúce obchodné pravidlá alebo pridať nové obchodné pravidlo. Pre ešte viac prispôsobené overenia, môžete použiť obchodné pravidlo na spustenie JavaScript.
+#### <a name="client-side-business-rules"></a>Obchodné pravidlá na strane klienta
+Použite obchodné pravidlá na uzamykanie a odomykanie polí, zadajte predvolené hodnoty do polí a definujte overenia, ktoré vyžadujú informácie len z aktuálneho záznamu o čase. Ak chcete získať prístup k obchodným pravidlám pre stránku, otvorte editor formulárov a potom vyberte **Obchodné pravidlá**. Potom môžete upraviť existujúce obchodné pravidlá alebo pridať nové obchodné pravidlo.
 
-#### <a name="plug-in-validations"></a>Overovanie doplnkov
-Overenia doplnku použite pre akékoľvek overenia vyžadujúce si viac kontextu než je dostupný v samostatnom zázname zadania času alebo pri akýchkoľvek overeniach, ktoré chcete spúšťať na riadkových aktualizáciách v mriežke. Ak chcete dokončiť overenie, vytvorte vlastný doplnok v entite **Zadanie času**.
+#### <a name="server-side-plug-in-validations"></a>Overenie zásuvných modulov na strane servera
+Overenia doplnku by ste mali použiť pre všetky overenia, ktoré si vyžadujú viac kontextu, ako je k dispozícii v zázname jedného záznamu. Mali by ste ich použiť aj na akékoľvek overenia, ktoré chcete spustiť pri inline aktualizáciách v mriežke. Na dokončenie overení vytvorte vlastný doplnok na **Vstup času** subjekt.
+
+### <a name="limits"></a>Limity
+V súčasnosti je **Zadanie času** mriežka má limit veľkosti 500 riadkov. Ak existuje viac ako 500 riadkov, prebytočné riadky sa nezobrazia. Neexistuje spôsob, ako tento limit veľkosti zvýšiť.
 
 ### <a name="copying-time-entries"></a>Kopírovanie zadaní času
 Pomocou zobrazenia **Kopírovať stĺpce zadaní času** definujte zoznam polí, ktoré sa majú kopírovať počas zadávania času. **Dátum** a **Trvanie** sú povinné polia a nemali by byť odstránené zo zobrazenia.
