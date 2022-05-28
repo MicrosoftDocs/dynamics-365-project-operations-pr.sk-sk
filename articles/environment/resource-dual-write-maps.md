@@ -4,14 +4,14 @@ description: Táto téma poskytuje zoznam máp duálneho zápisu potrebných pre
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
-ms.translationtype: HT
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547128"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612783"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verzie máp duálneho zápisu v aplikácii Project Operations
 
@@ -25,12 +25,12 @@ Nasledujúce mapy sú povinnými predpokladmi pre riešenie Project Operations. 
 
 | Mapa tabuľky | Počiatočná synchronizácia |
 | --- | --- |
-| Účtovná kniha (msdyn_ledgers) | Vyžaduje sa počiatočná synchronizácia pre mapu tabuľky a všetky predpoklady. Hlavné pre úvodnú synchronizáciu sú aplikácie Finance and Operations. |
+| Účtovná kniha (msdyn_ledgers) | Vyžaduje sa počiatočná synchronizácia pre mapu tabuľky a všetky predpoklady. Master pre úvodnú synchronizáciu sú aplikácie Finance and Operations. |
 | Právnické entity (cdm_companies) | Nevyžaduje sa. Systém vyplní túto entitu automaticky, keď sú prostredia prepojené pomocou duálneho zápisu. |
 | Customers V3 (účty) | Na zabezpečenie nie je potrebné. |
 | Vendors V2 (msdyn_vendors) | Na zabezpečenie nie je potrebné. |
 
-1. V zozname máp vyberte mapu Účtovná kniha **(msdyn\_ledgers)** so všetkými predpokladmi a začiarknite políčko **Počiatočná synchronizácia**. V poli **Predloha pre počiatočnú synchronizáciu** stlačte možnosť **Aplikácie Finance and Operations** pre mapu hlavnej knihy aj všetky mapy nevyhnutných podmienok. Vyberte položku **Spustiť**.
+1. V zozname máp vyberte mapu Účtovná kniha **(msdyn\_ledgers)** so všetkými predpokladmi a začiarknite políčko **Počiatočná synchronizácia**. V **Master pre úvodnú synchronizáciu** pole, vyberte **Financie a prevádzkové aplikácie** pre mapu hlavnej knihy aj pre všetky nevyhnutné mapy. Vyberte položku **Spustiť**.
 
 ![Synchronizácia máp účtovnej knihy.](media/DW6.png)
 
@@ -40,26 +40,26 @@ Nasledujúce mapy sú povinnými predpokladmi pre riešenie Project Operations. 
 
 Nasledujúce mapy sú povinnými pre riešenie Project Operations. Verzie máp duálneho zápisu sú uvedené počnúc aktualizáciou Project Operations z mája 2021, verzia 4.10.0.186.
 
-| **Mapa entity** | **Najnovšia verzia** | **Počiatočná synchronizácia** |
-| --- | --- | --- |
-| Integračná entita pre transakčné vzťahy projektu (msdyn\_transactionconnections) | 1.0.0.0 | Na zabezpečenie nie je potrebné. |
-| Hlavičky kontraktov projektu (zákazky odberateľa) | 1.0.0.1 | Na zabezpečenie nie je potrebné. |
-| Riadky zmlúv projektu (salesorderdetails) | 1.0.0.0 | Na zabezpečenie nie je potrebné. |
-| Zdroj financovania projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Na zabezpečenie nie je potrebné. |
-| Tabuľka integrácie Project Operations pre materiálové odhady (msdyn\_estimatelines) | 1.0.0.0 | Na zabezpečenie nie je potrebné. |
-| Návrhy projektovej faktúry V2 (faktúry) | 1.0.0.3 | Na zabezpečenie nie je potrebné. |
-| Skutočné hodnoty integrácie Project Operations (msdyn_actuals) | 1.0.0.14 | Na zabezpečenie nie je potrebné. |
-| Míľniky riadka zmluvy integrácie Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Na zabezpečenie nie je potrebné. |
-| Integrácia entity Project Operations pre odhady nákladov (msdyn_estimatelines) | 1.0.0.2 | Na zabezpečenie nie je potrebné. |
-| Entita integrácie Project Operations pre odhady hodín (msdyn_resourceassignments) | 1.0.0.5 | Na zabezpečenie nie je potrebné. |
-| Entita exportu kategórií výdavkov integrácie projektu Project Operations (msdyn_expensecategories) | 1.0.0.1 | Na zabezpečenie nie je potrebné. |
-| Entita exportu výdavkov projektu integrácie Project Operations (msdyn_expenses) | 1.0.0.2 | Na zabezpečenie nie je potrebné. |
-| Entita exportu faktúr dodávateľa integrácie Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Na zabezpečenie nie je potrebné. |
-| Riadok entity exportu faktúr projektu dodávateľa projektu Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Na zabezpečenie nie je potrebné. |
-| Roly projektových zdrojov pre všetky spoločnosti (bookableresourcecategories) | 1.0.0.1 | Vyžaduje počiatočnú synchronizáciu pre mapu tabuľky na synchronizáciu rolí prostriedkov projektového manažéra a člena tímu, ktoré sú vyplnené v prostredí Dynamics 365 Dataverse počas vytvárania opravných položiek. Dataverse je hlavným zdrojom počiatočnej synchronizácie. |
-| Projektové úlohy (msdyn_projecttasks) | 1.0.0.4 | Na zabezpečenie nie je potrebné. |
-| Kategórie projektových transakcií (msdyn_transactioncategories) | 1.0.0.0 | Na zabezpečenie nie je potrebné. |
-| Projekty V2 (msdyn_projects) | 1.0.0.2 | Na zabezpečenie nie je potrebné. |
+| Mapa entity | Najnovšia verzia | Počiatočná synchronizácia | Požadovaná Dynamics 365 Finance verzia |
+| --- | --- | --- | --- |
+| Integračná entita pre transakčné vzťahy projektu (msdyn\_transactionconnections) | 1.0.0.0 | Na zabezpečenie nie je potrebné. ||
+| Hlavičky kontraktov projektu (zákazky odberateľa) | 1.0.0.1 | Na zabezpečenie nie je potrebné. ||
+| Riadky zmlúv projektu (salesorderdetails) | 1.0.0.0 | Na zabezpečenie nie je potrebné. ||
+| Zdroj financovania projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Na zabezpečenie nie je potrebné. ||
+| Tabuľka integrácie Project Operations pre materiálové odhady (msdyn\_estimatelines) | 1.0.0.0 | Na zabezpečenie nie je potrebné. ||
+| Návrhy projektovej faktúry V2 (faktúry) | 1.0.0.3 | Na zabezpečenie nie je potrebné. ||
+| Skutočné hodnoty integrácie Project Operations (msdyn_actuals) | 1.0.0.14 | Na zabezpečenie nie je potrebné. ||
+| Míľniky riadka zmluvy integrácie Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Na zabezpečenie nie je potrebné. ||
+| Integrácia entity Project Operations pre odhady nákladov (msdyn_estimatelines) | 1.0.0.2 | Na zabezpečenie nie je potrebné. ||
+| Entita integrácie Project Operations pre odhady hodín (msdyn_resourceassignments) | 1.0.0.5 | Na zabezpečenie nie je potrebné. ||
+| Entita exportu kategórií výdavkov integrácie projektu Project Operations (msdyn_expensecategories) | 1.0.0.1 | Na zabezpečenie nie je potrebné. ||
+| Entita exportu výdavkov projektu integrácie Project Operations (msdyn_expenses) | 1.0.0.3 | Na zabezpečenie nie je potrebné. ||
+| Entita exportu faktúr dodávateľa integrácie Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Na zabezpečenie nie je potrebné. ||
+| Riadok entity exportu faktúr projektu dodávateľa projektu Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Na zabezpečenie nie je potrebné. | 10.0.26 alebo novší |
+| Roly projektových zdrojov pre všetky spoločnosti (bookableresourcecategories) | 1.0.0.1 | Vyžaduje počiatočnú synchronizáciu pre mapu tabuľky na synchronizáciu rolí prostriedkov projektového manažéra a člena tímu, ktoré sú vyplnené v prostredí Dynamics 365 Dataverse počas vytvárania opravných položiek. Dataverse je hlavným zdrojom počiatočnej synchronizácie. ||
+| Projektové úlohy (msdyn_projecttasks) | 1.0.0.4 | Na zabezpečenie nie je potrebné. ||
+| Kategórie projektových transakcií (msdyn_transactioncategories) | 1.0.0.0 | Na zabezpečenie nie je potrebné. ||
+| Projekty V2 (msdyn_projects) | 1.0.0.2 | Na zabezpečenie nie je potrebné. ||
 
 Uvedené mapy spustíte vykonaním nasledujúcich krokov.
 

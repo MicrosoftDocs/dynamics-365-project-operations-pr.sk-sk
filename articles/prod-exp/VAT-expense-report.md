@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76706fd8ced58063b05bc8ebe4b25c1dddbf0890e72e9c7194d17ff2937dc8ca
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7ab390e399e0c709cd72219f0a1d85116b33b84e
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986060"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683005"
 ---
 # <a name="vat-recovery"></a>Vymáhanie DPH 
 
@@ -39,25 +38,25 @@ Po splnení nevyhnutných predpokladov dodržiavajú zamestnanci tieto kroky pri
 4. Zašlite údaje o vrátení DPH dodávateľovi tretej strany na podanie medzinárodnej žiadosti o vrátenie.
 5. Spracujte výdavky na tuzemské vrátenie DPH.
 
-V nasledujúcich sekciách sú uvedené príklady, ktoré ukazujú, ako môžu zamestnanci spoločnosti Contoso dokončiť každý krok.
+Nasledujúce časti poskytujú príklady, ktoré znázorňujú, ako zamestnanci spoločnosti Contoso vykonávajú každý krok.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>V prehľade výdavkov zadajte daňové informácie o transakciách kreditnou kartou, aby ste identifikovali oprávnené vrátenia DPH
 
-Alena, obchodná zástupkyňa spoločnosti Contoso so sídlom v USA, sa nedávno vrátila z obchodnej cesty do Veľkej Británie. Počas jej cesty vznikli nejaké osobné výdavky za jedlo, ktoré uhradila kreditnou kartou. Nancy musí teraz vytvoriť výkaz výdavkov na vyrovnanie výdavkov.
+Nancy, obchodná zástupkyňa spoločnosti Contoso, ktorá má sídlo v USA, sa nedávno vrátila z predajnej cesty do Veľkej Británie. Počas jej cesty vznikli nejaké osobné výdavky za jedlo, ktoré uhradila kreditnou kartou. Nancy musí teraz vytvoriť výkaz výdavkov na vyrovnanie výdavkov.
 
 Keď Nancy zadá informácie do výkazu výdavkov, vyberie **Spojené kráľovstvo** v poli **Krajina/región** na stránke **Upraviť výkaz výdavkov**. Zoznam skupín dane z predaja je potom filtrovaný tak, že zobrazuje iba skupiny, ktoré sa vzťahujú na Spojené kráľovstvo. Nancy vyberie skupinu dane z predaja **Spojené kráľovstvo 001** a potom zo vyberie položku skupiny dane z predaja **Jedlá**. Potom pridá novú transakciu pre ubytovanie. Keďže pre ubytovanie v Spojenom kráľovstve existuje iba jedna skupina dane z predaja a jedna položka zo skupiny dane z predaja, tieto informácie sa automaticky vyplnia so výkazu výdavkov pre Nancy.
 
-V súlade so zásadami spoločnosti Contoso musia mať všetky výdavky zodpovedajúci doklad. Preto keď Nancy uloží výkaz výdavkov, dostane správu s oznámením, že musí priložiť potvrdenie o každej transakcii, ktorú uviedla vo svojom výkaze výdavkov. Nancy overí, že k svojmu výkazu výdavkov pripojila digitálny obrázok každého potvrdenia o transakcii, a potom správu predloží na schválenie. Potom pošle papierové potvrdenky spracovateľskému tímu administratívneho oddelenia. Tento tím zašle údaje o vrátení DPH externému dodávateľovi, ktorý podáva medzinárodné priznania k vráteniu DPH za spoločnosť Contoso.
+Podľa pravidiel spoločnosti Contoso musia mať všetky výdavky zodpovedajúci príjmový doklad. Preto keď Nancy uloží výkaz výdavkov, dostane správu s oznámením, že musí priložiť potvrdenie o každej transakcii, ktorú uviedla vo svojom výkaze výdavkov. Nancy overí, že k svojmu výkazu výdavkov pripojila digitálny obrázok každého potvrdenia o transakcii, a potom správu predloží na schválenie. Potom pošle papierové potvrdenky spracovateľskému tímu administratívneho oddelenia. Tento tím zašle údaje o vrátení DPH dodávateľovi tretej strany, ktorý podáva medzinárodné žiadosti o vrátenie DPH pre spoločnosť Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Presvedčte sa, či sú všetky daňové informácie úplné, a potom odošlite výkaz výdavkov
 
-Andrea, koordinátorka záväzkov v spoločnosti Contoso, musí pred odoslaním výkazu zadať všetky daňové informácie, ktoré chýbajú vo výkaze o výdavkoch. Otvorí stránku **Podrobnosti o výkaze výdavkov** a zobrazí sa schválená správa o výdavkoch Nancy. April potom otvorí výkaz výdavkov s cieľom zobraziť podrobnosti o transakciách. Vidí, že Nancy pre jednu z transakcií nezadala skupinu dane z predaja. Pretože tieto informácie nie sú poskytnuté, April nemôže zaúčtovať výkaz výdavkov. Preto sa April pozrie na stránku **Daňové konfigurácie** v správe výdavkov a nájde príslušnú položku zo skupiny dane z predaja pre krajinu/región a typ transakcie. April teraz môže zaúčtovať výkaz výdavkov do hlavnej účtovnej knihy.
+April, ako koordinátorka záväzkov pre spoločnosť Contoso, musí zadať všetky daňové informácie chýbajúce zo výkaze výdavkov ešte pred zverejnením výkazu. Otvorí stránku **Podrobnosti o výkaze výdavkov** a zobrazí sa schválená správa o výdavkoch Nancy. April potom otvorí výkaz výdavkov s cieľom zobraziť podrobnosti o transakciách. Vidí, že Nancy pre jednu z transakcií nezadala skupinu dane z predaja. Pretože tieto informácie nie sú poskytnuté, April nemôže zaúčtovať výkaz výdavkov. Preto sa April pozrie na stránku **Daňové konfigurácie** v správe výdavkov a nájde príslušnú položku zo skupiny dane z predaja pre krajinu/región a typ transakcie. April teraz môže zaúčtovať výkaz výdavkov do hlavnej účtovnej knihy.
 
 Keď April zaúčtuje výkaz výdavkov, vytvorí sa pracovná položka s možnosťou vrátenia DPH. Táto pracovná položka je priradená členovi spracovateľského tímu administratívneho oddelenia. April dostane správu, ktorá potvrdzuje, že bolo zaúčtovanie úspešné. Táto správa tiež uvádza počet transakcií s DPH, ktoré boli identifikované na vrátenie.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Spracujte výdavky, ktoré sú oprávnené na medzinárodné vrátenie DPH
 
-Andrej, člen tímu obslužného oddelenia spoločnosti Contoso, je zodpovedný za potvrdenie toho, že výkazy o výdavkoch obsahujú všetky požadované informácie pre vrátenie DPH. Otvorí stránku **Vrátenie dane z výdavkov** a vyberie výkaz výdavkov, ktorý odoslala Nancy. Arnie overí, či sú priložené všetky požadované potvrdenky a či bola zadaná správna skupina dane z predaja a kódy dane z predaja.
+Arnie, člen spracovateľskému tímu administratívneho oddelenia spoločnosti Contoso, je zodpovedný za potvrdenie, či sú všetky požadované informácie pre vrátenie DPH obsiahnuté vo výkazoch výdavkov. Otvorí stránku **Vrátenie dane z výdavkov** a vyberie výkaz výdavkov, ktorý odoslala Nancy. Arnie overí, či sú priložené všetky požadované potvrdenky a či bola zadaná správna skupina dane z predaja a kódy dane z predaja.
 
 Keď Arnie dostane papierové potvrdenky od Nancy, porovná papierové bločky s digitálnymi potvrdenkami a potom zmení stav výkazu výdavkov na **Pripravené na vrátenie**.
 

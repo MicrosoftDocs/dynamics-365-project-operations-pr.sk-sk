@@ -4,14 +4,14 @@ description: Táto téma poskytuje informácie o aktualizáciách kvality, ktor�
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007975"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600393"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v novembri 2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -20,7 +20,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
 - Project Operations v prostredí CDS environment verzie 4.4.0.70
-- Projektový manažment a účtovanie v prostredí Dynamics 365 Finance verzie 10.0.14
+- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Aktualizácie aplikácie Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -42,7 +42,7 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 | Položka času a rýchleho výdavku | 2059859          | Pri vytváraní položky výdavkov sa otvorí neočakávané vyskakovacie okno.                                                                                                                         |
 | Ostatné                        | 2044181          | (Odinštalovanie nákupnej objednávky) Pri pokuse o odinštalovanie základných riešení aplikácie Project Service msdyn_ProjectServiceCore_Patch a msdyn sa vyskytne chyba „Záznam nie je k dispozícii“.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
 
 | Oblasť funkcií        | Číslo odkazu | Aktualizácia kvality                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project O
 | Účtovníctvo v rámci projektu  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Po povolení tejto funkcie nie sú možné viaceré riadky zmluvy bez integrácie CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulačné aktualizácie
-Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations sú uvedené v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie Finance and Operations nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

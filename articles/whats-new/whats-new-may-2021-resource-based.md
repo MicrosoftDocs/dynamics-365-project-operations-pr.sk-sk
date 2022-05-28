@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994700"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723787"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v máji 2021 – Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách
 
@@ -21,7 +21,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
 - Project Operations v službe Dynamics 365 Dataverse, verzia prostredia 4.10.0.186
-- Projektový manažment a účtovníctvo v aplikáciách Finance and Operations, verzie prostredia 10.0.18
+- Projektový manažment a účtovníctvo v prostrediach aplikácií Finance and Operations verzie 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 
@@ -41,9 +41,9 @@ Nasledujúci zoznam zobrazuje mapy duálneho zapisovania, ktoré boli upravené 
 | Riadok entity exportu faktúr projektu dodávateľa projektu Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Aktualizácie kvality |
 | Projekty V2 (msdyn\_projects) | 1.0.0.2 | Aktualizácie kvality |
 
-Pri aktualizácií verzie svojho riešenia Project Operations Dataverse a riešenia aplikácií Finance and Operations vždy spustite najnovšiu verziu mapy svojho prostredia a aktivovať všetky súvisiace tabuľkové mapy. Ak nie je aktivovaná najnovšia verzia mapy, niektoré funkcie a možnosti nemusia fungovať správne. Aktívnu verziu mapy môžete vidieť v stĺpci **Verzia** na stránke **Duálny zápis**. Novú verziu mapy aktivujete výberom možnosti **Verzie mapy tabuľky**, zvolením najnovšej verzie a potom uložením vybratej verzie. Ak ste prispôsobili predpripravenú mapu tabuľky, znova použite zmeny. Ďalšie informácie si prečítajte v časti [Správa životného cyklu aplikácie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Vždy spúšťajte najnovšiu verziu mapy vo svojom prostredí a povoľte všetky súvisiace tabuľkové mapy pri aktualizácii operácií projektu Dataverse riešenie a verzia riešenia aplikácií pre financie a prevádzku. Ak nie je aktivovaná najnovšia verzia mapy, niektoré funkcie a možnosti nemusia fungovať správne. Aktívnu verziu mapy môžete vidieť v stĺpci **Verzia** na stránke **Duálny zápis**. Novú verziu mapy aktivujete výberom možnosti **Verzie mapy tabuľky**, zvolením najnovšej verzie a potom uložením vybratej verzie. Ak ste prispôsobili predpripravenú mapu tabuľky, znova použite zmeny. Ďalšie informácie si prečítajte v časti [Správa životného cyklu aplikácie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Ak narazíte na problém so spustením mapy, postupujte podľa pokynov v časti [Problém s chýbajúcimi stĺpcami tabuľky v mapách](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) v časti Sprievodca riešením problémov s duálnym zápisom.
+Ak narazíte na problém so spustením mapy, postupujte podľa pokynov v časti [Problém s chýbajúcimi stĺpcami tabuľky v mapách](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) v časti Sprievodca riešením problémov s duálnym zápisom.
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
@@ -67,7 +67,7 @@ Ak narazíte na problém so spustením mapy, postupujte podľa pokynov v časti 
 | Zadanie času | 2202476 | Stránka **Zadanie času** teraz používa reaktívne ovládanie mriežky a opravuje problémy, ako je nesprávne zarovnanie mriežky. |
 | Zadanie času | 2223377 | Zadanie času je skryté v sekcii **Súvisiace** na stránke **Rezervovateľný zdroj**, aby pri používaní nedošlo k zmätkom. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
 
 | Oblasť funkcií | Číslo odkazu | Aktualizácia kvality |
 | --- | --- | --- |

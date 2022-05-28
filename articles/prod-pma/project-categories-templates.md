@@ -1,32 +1,31 @@
 ---
-title: Synchronizujte kategórie výdavkov projektu medzi Finance and Operations a Project Service Automation
-description: Táto téma popisuje šablóny a základné úlohu, ktoré sa používajú na synchronizáciu projektových kategórií výdavkov medzi Microsoft Dynamics 365 Finance a Dynamics 365 Project Service Automation.
+title: Synchronizujte kategórie výdavkov projektu medzi Financie a prevádzka a Automatizácia projektových služieb
+description: Táto téma popisuje šablóny a základné úlohy, ktoré sa používajú na synchronizáciu kategórií výdavkov projektu medzi nimi Microsoft Dynamics 365 Financie a Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001135"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685489"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronizujte kategórie výdavkov projektu medzi Finance and Operations a Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronizujte kategórie výdavkov projektu medzi Financie a prevádzka a Automatizácia projektových služieb
 
 [!include[banner](../includes/banner.md)]
 
-Táto téma popisuje šablóny a základné úlohu, ktoré sa používajú na synchronizáciu projektových kategórií výdavkov medzi Dynamics 365 Finance a Dynamics 365 Project Service Automation.
+Táto téma popisuje šablóny a základné úlohy, ktoré sa používajú na synchronizáciu kategórií výdavkov projektu medzi Dynamics 365 Finance a Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Integrácia projektovej úlohy, kategórie výdavkov na transakciu, odhady hodín, odhady výdavkov a blokovanie funkcií sú k dispozícii vo verzii 8.0.
@@ -81,10 +80,10 @@ Kategórie projektových výdavkov sa spravujú vo Finance a synchronizujú sa s
 
 ### <a name="power-query"></a>Power Query
 
-Pri synchronizácii s Project Service Automation musíte na nastavenie typu fakturácie v kategórii transakcií použiť Microsoft Power Query for Excel. Šablóna Kategórie výdavkov projektu (Fin and Ops to PSA) poskytuje predvolený stĺpec a mapovanie. Ak vytvárate vlastnú šablónu, musíte pridať podmienený stĺpec v Power Query. Postupujte nasledovne.
+Pri synchronizácii s Project Service Automation musíte použiť Microsoft Power Query pre Excel na nastavenie typu fakturácie pre kategóriu transakcií. Šablóna Kategórie výdavkov projektu (Fin and Ops to PSA) poskytuje predvolený stĺpec a mapovanie. Ak si vytvoríte vlastnú šablónu, musíte pridať podmienený stĺpec v Power Query. Postupujte nasledovne.
 
 1. Kliknutím na šípku otvoríte mapovanie úlohy kategórií výdavkov projektu v šablóne Kategórie transakcií výdavkov projektu (Fin a Ops do PSA).
-2. Kliknite na prepojenie **Pokročilý dotaz a filtrovanie**, čím otvoríte Power Query.
+2. Kliknite na **Pokročilé dopytovanie a filtrovanie** odkaz na otvorenie Power Query.
 2. Stlačte možnosť **Pridať podmienený stĺpec**.
 3. Zadajte názov nového stĺpca, napríklad **BillingType**.
 4. Zadajte nasledujúcu podmienku: **ak CATEGORYID sa nerovná null, potom 19235001, inak null**.

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323930"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723695"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Novinky v rámci skoršieho prístupu v 2. vlne vydaní na rok 2021 – čiastočné nasadenie Project Operations
 
@@ -26,7 +26,7 @@ Vydanie sa použije iba vtedy, ak je prostredie [zaregistrované do skoršieho p
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 
-[Správa subdodávateľských zmlúv](../subcontracting/subcontracting_EA_scope.md) – Táto funkcia poskytuje lepšiu viditeľnosť a kontrolu nad všetkými aspektmi práce na projekte. Ukážka správy subdodávateľských zmlúv obsahuje nasledujúce možnosti:
+[Správa subdodávateľských zmlúv](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) – Táto funkcia poskytuje lepšiu viditeľnosť a kontrolu nad všetkými aspektmi práce na projekte. Ukážka správy subdodávateľských zmlúv obsahuje nasledujúce možnosti:
 
   - Projektový manažér môže vytvoriť subdodávateľskú zmluvu s dodávateľom. Pre subdodávateľskú zmluvu sa štandardne používajú cenníky, ktoré sú pripojené k záznamu dodávateľa. Dodávateľský obchodný vzťah má typ vzťahu **Dodávateľ** alebo **Poskytovateľ**.
   - Projektový manažér môže všetky nákupy podrobne rozpísať ako riadkové položky v subdodávateľskej zmluve. Riadky subdodávateľskej zmluvy môžu byť pre čas, náklady alebo produkty. Trieda transakcie riadka subdodávateľskej zmluvy určuje, na čo je daný riadok určený.

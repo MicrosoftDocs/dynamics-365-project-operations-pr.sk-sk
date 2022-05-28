@@ -3,25 +3,23 @@ title: Prehľad riadenia projektu a účtovníctva
 description: Funkcionalitu riadenia projektu a účtovníctva je možné použiť vo viacerých odvetviach na poskytovanie služieb, výrobu produktu alebo na dosiahnutie výsledku.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007525"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683603"
 ---
 # <a name="project-management-and-accounting-overview"></a>Prehľad riadenia projektu a účtovníctva
 
@@ -248,7 +246,7 @@ Nasledujúca tabuľka popisuje spôsoby výpočtu nákladov na dokončenie proje
 <tbody>
 <tr class="odd">
 <td>Celkové náklady – ročné</td>
-<td>Odhadované náklady musia byť zadané ručne. Po vyplnení stĺpcov <strong>Celkové náklady</strong> alebo <strong>Celkové množstvo</strong> na stránke <strong>Odhad nákladov</strong> sa skutočné náklady odpočítajú od súčtov zadaných používateľom. Výsledkom sú náklady na dokončenie projektu. Vývoj nákladov sa obvykle nesleduje napríklad na základe počtu pobytov v hoteloch a stravovania, ktoré sa zaznamenávajú v jednotlivých obdobiach. Namiesto toho. Sledovanie je zvyčajne založené na porovnaní s celkovým počtom odhadovaných hodín. Tento prístup nevyžaduje predpovedný model a celkové náklady alebo celkové množstvo je možné zmeniť manuálne. Keď je hodnota zadaná v stĺpci <strong>Celkové náklady</strong> alebo <strong>Celkové množstvo</strong>, nástroj Finance porovná túto hodnotu so skutočnými transakciami zaúčtovanými v danom období a potom sa hodnota v stĺpci <strong>Množstvo na dokončenie</strong> alebo <strong>Náklady na dokončenie</strong> zníži.</td>
+<td>Odhadované náklady musia byť zadané ručne. Po vyplnení stĺpcov <strong>Celkové náklady</strong> alebo <strong>Celkové množstvo</strong> na stránke <strong>Odhad nákladov</strong> sa skutočné náklady odpočítajú od súčtov zadaných používateľom. Výsledkom sú náklady na dokončenie projektu. Typicky je vývoj nákladov&#39; t sledované napríklad na základe počtu hotelových pobytov a jedál, ktoré sú zaznamenané v každom období. Namiesto toho. Sledovanie je zvyčajne založené na porovnaní s celkovým počtom odhadovaných hodín. Tento prístup nemá&#39; t vyžaduje model prognózy a celkové náklady alebo celkové množstvo je možné zmeniť manuálne. Keď je hodnota zadaná v stĺpci <strong>Celkové náklady</strong> alebo <strong>Celkové množstvo</strong>, nástroj Finance porovná túto hodnotu so skutočnými transakciami zaúčtovanými v danom období a potom sa hodnota v stĺpci <strong>Množstvo na dokončenie</strong> alebo <strong>Náklady na dokončenie</strong> zníži.</td>
 </tr>
 <tr class="even">
 <td>Celkový rozpočet – skutočný</td>

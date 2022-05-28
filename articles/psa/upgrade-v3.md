@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000100"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601773"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Informácie o inovácii – PSA verzie 2.x alebo 1.x na verziu 3
 
@@ -81,7 +82,7 @@ Pred začatím inovácie, odporúčame, aby ste opätovne vygenerovali tím pre 
 
 Pre úlohy, ktoré sú priradené k všeobecným členom tímu, ktorí boli generovaní prostredníctvom možnosti **Generovať tím** ponechá inovácia všeobecné zdroje v tíme a ponechá priradenie k danému všeobecnému členovi tímu. Odporúčame, aby ste vygenerovali požiadavku na zdroj pre všeobecného člena tímu po inovácii, ale skôr, než si rezervujete alebo odošlete požiadavku na zdroj. Tým sa zachovajú všetky priradenia organizačnej jednotky na všeobecných členov tímu, ktoré sa líšia od zmluvnej organizačnej jednotky projektu.
 
-Napríklad v projekte Project Z je zmluvnou jednotkou Contoso USA. V projektovom pláne boli úlohy testovania v rámci fázy implementácie pridelené technickým konzultantom úlohy a priradenou organizačnou jednotkou Contoso India.
+Napríklad v projekte Project Z je zmluvnou jednotkou Contoso US. V projektovom pláne boli úlohy testovania v rámci fázy implementácie pridelené technickým konzultantom úlohy a priradenou organizačnou jednotkou Contoso India.
 
 ![Priradenie implementačnej fázy organizácie.](media/org-unit-assignment-09.png)
 
@@ -104,7 +105,7 @@ Organizačnú jednotku môžete zobraziť v zobrazení odhadov.
  
 Po dokončení inovácie sa k všeobecnému členovi tímu pridá organizačná jednotka, ktorá zodpovedá všeobecnému členovi tímu a odstráni sa riadok úlohy. Z tohto dôvodu odporúčame pred inováciou generovať alebo znova generovať tím na každý projekt, ktorý obsahuje všeobecné prostriedky.
 
-Pre úlohy, ktoré sú priradené k úlohe s jednotkou organizácie, ktorá sa odlišuje od organizačnej jednotky zmluvného projektu a tím nebol vygenerovaný, inovácia vytvorí generický člen tímu pre rolu, ale použije zmluvnú jednotku projektu pre člena tímu organizačnej jednotky. S odvolaním sa na príklad s projektom Z: zmluvná jednotka organizácie Contoso a úlohy testovania projektových plánov v rámci fázy implementácie boli priradené k úlohe technického poradcu s organizačnou jednotkou Contoso India. Testovacia úloha integrácie dokončená po fáze implementácie bola priradená roly Technický konzultant. Jednotka organizácie je Contoso USA a tím nebol vygenerovaný. Inovácia vytvorí jedného všeobecného člena tímu, technického poradcu, ktorý má pridelené hodiny všetkých troch úloh a organizačnej jednotky Contoso USA, zmluvnej organizačnej jednotky projektu.   
+Pre úlohy, ktoré sú priradené k úlohe s jednotkou organizácie, ktorá sa odlišuje od organizačnej jednotky zmluvného projektu a tím nebol vygenerovaný, inovácia vytvorí generický člen tímu pre rolu, ale použije zmluvnú jednotku projektu pre člena tímu organizačnej jednotky. S odvolaním sa na príklad s projektom Z, zmluvná jednotka organizácie Contoso a úlohy testovania projektových plánov v rámci fázy implementácie boli priradené k úlohe technického poradcu s organizačnou jednotkou Contoso India. Testovacia úloha integrácie dokončená po fáze implementácie bola priradená roly Technický konzultant. Jednotka organizácie je Contoso US a tím nebol vygenerovaný. Inovácia vytvorí jedného všeobecného člena tímu, technického poradcu, ktorý má pridelené hodiny všetkých troch úloh a organizačnej jednotky Contoso US, zmluvnej organizačnej jednotky projektu.   
  
 Zmena predvolené rôznych zdrojov organizačnej jednotky na negenerovaných členov tímu je dôvod, prečo odporúčame generovať alebo opätovne generovať tím na každý projekt, ktorý obsahuje všeobecné prostriedky pred inováciou tak, aby nedošlo k strateniu priradení organizačných jednotiek.
 

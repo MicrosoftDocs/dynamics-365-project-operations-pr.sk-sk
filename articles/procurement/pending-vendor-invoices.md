@@ -1,46 +1,42 @@
 ---
-title: Zakúpenie neskladovaných materiálov použitím čakajúcej faktúry dodávateľa
+title: Nakúpte neskladovaný materiál alebo kategórie obstarávania pomocou čakajúcej faktúry dodávateľa
 description: Táto téma vysvetľuje, ako zaznamenávať čakajúce faktúry dodávateľa.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547308"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612676"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Zakúpenie neskladovaných materiálov použitím čakajúcej faktúry dodávateľa
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nakúpte neskladovaný materiál alebo kategórie obstarávania pomocou čakajúcej faktúry dodávateľa
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Keďže spoločnosť obstaráva pre projekt neskladované materiály, náklady je možné okamžite zaznamenať oproti projektu. 
+Keďže spoločnosť obstaráva neskladový materiál alebo kategórie obstarávania pre projekt, náklady môžu byť okamžite zaúčtované oproti projektu. 
 
-Spoločnosť Contoso Robotics USA napríklad vykonáva projekt obnovy zariadenia a potrebuje softvérové licencie. Tieto licencie sú obstarávané od dodávateľa tretej strany.  Použitím Dynamics 365 Finance, referent pre účty zaúčtuje dokument faktúry čakajúceho dodávateľa a pripíše náklady na licenciu priamo oproti projektu obnovy zariadenia. 
+Spoločnosť Contoso Robotics USA napríklad vykonáva projekt obnovy zariadenia a potrebuje softvérové licencie. Tieto licencie sú obstarávané od dodávateľa tretej strany.  Pomocou Dynamics 365 Finance účtovník zaznamená čakajúci doklad faktúry dodávateľa a pripíše náklady na licenciu priamo k projektu obnovy zariadenia. 
 
 > [!IMPORTANT]
-> Pred použitím funkcií popísaných v tejto téme si prečítajte a vykonajte požadované konfigurácie. Viac informácií nájdete v časti [Povoliť neskladované materiály a čakajúce faktúry dodávateľa](configure-materials-nonstocked.md). 
+> Pred použitím funkcií popísaných v tejto téme si prečítajte a vykonajte požadované konfigurácie. Ďalšie informácie nájdete v časti [Povoliť neskladované materiály a čakajúce faktúry dodávateľa](configure-materials-nonstocked.md) a [Použite kategórie obstarávania s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Zaúčtujte faktúru dodávateľa čakajúcu na projekt 
 
 Faktúry čakajúcich dodávateľov možno zaznamenať na stránke **Čakajúce faktúry dodávateľa** (**Záväzky** > **Faktúry** > **Čakajúce faktúry dodávateľa**). Ak chcete zaúčtovať nespracovanú faktúru dodávateľa súvisiacej s projektom, postupujte takto:
 
-1. Prejdite na **Záväzky** > **Faktúry** a stlačte možnosť **Nový**. 
-2. V poli **Účet faktúry** vyberte dodávateľa a v poli **Číslo** do poľa zadajte identifikáciu faktúry dodávateľa.
-3. Pridajte riadok k faktúre dodávateľa a do poľa **Číslo položky** vyberte skladovú položku zakúpenú od dodávateľa. 
-
-    > [!NOTE]
-    > Riadky faktúr dodávateľa, ktoré sú založené na kategórii obstarávania, sa proti projektu nedajú zaznamenať. 
-    
-5. Pridajte zakúpené množstvo. Systém vyplní jednotkovú cenu na základe konfigurácie ceny tovaru, ktorý nie je na sklade. 
-6. Celkovú sumu a ďalšie požadované podrobnosti overte na riadku.
-7. Na riadku podrobnosti na karte **Projekt** vyberte projekt, do ktorého sa táto položka zaznamená.
-8. Voliteľne vyberte číslo aktivity a aktualizujte kategóriu projektu a vlastnosť riadka.
-9. Zaúčtujte čakajúcu faktúru dodávateľa. Po zaúčtovaní faktúry systém zaznamená:
+1. Ísť do **Splatné účty** > **faktúry** a vyberte **Nový**. 
+1. V **Fakturačný účet** vyberte dodávateľa a potom v poli **číslo** zadajte identifikáciu faktúry dodávateľa.
+1. Pridajte riadok do faktúry dodávateľa a potom do **Číslo položky** vyberte neskladovú položku, ktorá bola zakúpená od dodávateľa. Prípadne v **Kategória obstarávania** vyberte kategóriu obstarávania, ktorá bola zakúpená od dodávateľa.   
+1. Pridajte zakúpené množstvo. Systém vyplní jednotkovú cenu na základe konfigurácie ceny nenaskladnenej položky. 
+1. Celkovú sumu a ďalšie požadované podrobnosti overte na riadku.
+1. V detailoch linky, na **Projekt** vyberte ID projektu, do ktorého bude táto položka zaznamenaná.
+1. Voliteľné: Vyberte číslo aktivity a aktualizujte kategóriu projektu a vlastnosť čiary.
+1. Zaúčtujte čakajúcu faktúru dodávateľa. Pri zaúčtovaní faktúry systém zaznamená nasledujúce informácie:
     
     - Suma zostatku dodávateľa.
     - Suma dane z predaja.

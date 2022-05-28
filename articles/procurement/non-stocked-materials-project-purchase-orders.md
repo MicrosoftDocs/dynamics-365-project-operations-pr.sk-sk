@@ -5,28 +5,29 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6e0307ad6474feef96fc8080877eccbbbc7259db
-ms.sourcegitcommit: 2d96345fb3afc3b174530285f95271b5ccbdea03
+ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7563041"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612722"
 ---
-# <a name="order-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Objednávanie neskladovaných materiálov pre projekt pomocou nákupných objednávok projektu
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Objednajte si kategórie obstarávania alebo neskladové materiály pre projekt pomocou projektových objednávok
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Oddelenie obstarávania vo vašej organizácii môže použiť [nákupné objednávky](/dynamics365/supply-chain/procurement/purchase-order-overview) na sledovanie objednávok tovaru a služieb. Nákupné objednávky pre neskladované materiály možno priradiť k projektu. Fakturácia týchto nákupných objednávok zaúčtuje náklady oproti projektu.
+Oddelenie obstarávania vo vašej organizácii môže použiť [nákupné objednávky](/dynamics365/supply-chain/procurement/purchase-order-overview) na sledovanie objednávok tovaru a služieb. Objednávky pre kategórie obstarávania alebo neskladové materiály možno priradiť k projektu. Fakturácia týchto nákupných objednávok zaúčtuje náklady oproti projektu.
 
 ## <a name="prerequisites"></a>Predpoklady
 Vykonajte nasledujúce kroky, aby ste povolili funkciu projektových objednávok.
 
-1. V Dynamics 365 Finance prejdite na pracovný priestor **Správa funkcií**.
+1. V Dynamics 365 Finance prejdite na **Správa funkcií** pracovnom priestore.
 2. V zozname funkcií vyhľadajte a vyberte funkciu, **Povoliť nákupné objednávky projektov v projektových operáciách pre scenáre založené na zdrojoch/nie na sklade**.
 3. Vyberte položku **Povoliť**.
 4. Nakonfigurujte materiály, ktoré nie sú na sklade, a faktúry čakajúce na dodávateľa, ako je popísané v [Konfigurácia neskladovaných materiálov a čakajúcich faktúr dodávateľov](configure-materials-nonstocked.md).
+5. Nakonfigurujte kategórie obstarávania podľa popisu v [Použite kategórie obstarávania s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa](configure-procurement-categories.md).
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>Vytvorte nákupnú objednávku projektu zo zoznamu objednávok projektu
 
@@ -34,12 +35,12 @@ Vykonajte nasledujúce kroky, aby ste povolili funkciu projektových objednávok
 2. Na table akcií na karte **Spravovať** v skupine **Nový** vyberte **Úloha položky** > **Nákupná objednávka**.
 3. Na stránke **Vytvoriť nákupnú objednávku** vyberte dodávateľa, u ktorého chcete zadať objednávku, zadajte podľa potreby ďalšie informácie a potom vyberte **OK**.
 4. Na stránke **Nákupná objednávka** v mriežke **Riadky nákupných objednávok** vyberte **Pridať riadok**.
-5. Zadajte číslo položky, množstvo, jednotku, jednotkovú cenu a ďalšie informácie podľa potreby.
+5. Zadajte číslo položky alebo kategóriu obstarávania, množstvo, jednotku, jednotkovú cenu a ďalšie informácie podľa potreby.
 
     > [!NOTE]
-    > Pri objednávkach projektu je možné použiť iba položky a služby, ktoré nie sú na sklade. Skladové položky a kategórie obstarávania nie sú podporované.
+    > S objednávkami projektu je možné použiť iba kategórie obstarávania, neskladované položky a služby. Skladové položky nie sú podporované.
 
-6. Pokračujte v pridávaní položiek podľa potreby a potvrďte objednávku.
+6. Pokračujte v pridávaní položiek alebo kategórií obstarávania podľa potreby a potvrďte objednávku.
 
     Príjmy za tovar a služby je možné zaznamenať vytvorením a zaúčtovaním potvrdenia o produkte.
 

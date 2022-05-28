@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005320"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727977"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Použite doplnok Project Service Automation na plánovanie práce v Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005320"
 ## <a name="download-and-install-the-add-in"></a>Stiahnite a nainštalujte si doplnok  
  Pripravte si svoje prihlasovacie informácie [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Tieto informácie budete potrebovať na pripojenie z [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  V stredisku pre prevzatie softvéru si prevezmite doplnok pre vašu podporovanú verziu programu Project Service buď [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) alebo [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  V stredisku pre prevzatie softvéru si prevezmite doplnok pre vašu podporovanú verziu programu Project Service buď [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) alebo [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Kliknite na odkaz na stiahnutie.  
 
@@ -87,9 +88,8 @@ Pri plánovaní projektu je ďalším krokom importovanie a zverejnenie projektu
 
 Projekt sa naimportuje do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Použije sa projekt oceňovania a vytvárania tímov. Otvorte projekt v [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] a zistite, že tím, projektové odhady a štruktúra rozdelenia práce boli vytvorené. Nasledujúca tabuľka ukazuje, kde nájsť výsledky:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ganttov graf**   | Importuje na obrazovku [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Štruktúra rozdelenia práce**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Hárok zdrojov** |   Importuje na obrazovku [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Členovia projektového tímu**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Použiť využitie**    |    Importuje na obrazovku [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Odhady projektu**.     |

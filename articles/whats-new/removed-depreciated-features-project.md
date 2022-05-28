@@ -2,17 +2,17 @@
 title: Odstránené alebo zastarané funkcie v Dynamics 365 Project Operations
 description: Táto téma popisuje funkcie, ktoré boli odstránené alebo ktoré sa plánujú odstrániť z Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 12/09/2021
+ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7aa2888b2752641e99087031a85177cb1171363d
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
-ms.translationtype: HT
+ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903780"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601589"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Odstránené alebo zastarané funkcie v Dynamics 365 Project Operations
 
@@ -26,7 +26,49 @@ Táto téma popisuje funkcie, ktoré boli odstránené alebo ktoré sa plánujú
 Tento zoznam vám pomôže zvážiť tieto odstránenia a ukončenia podpory pre vaše vlastné plánovanie.
 
 > [!NOTE]
-> Podrobné informácie o objektoch v Finance and Operations aplikácie nájdete v [**Správy o technických referenciách**](/dynamics/s-e/global/axtechrefrep_61). Môžete porovnať rôzne verzie týchto prehľadov, aby ste sa dozvedeli o objektoch, ktoré boli zmenené alebo odstránené v jednotlivých verziách Finance and Operations aplikácie.
+> Podrobné informácie o objektoch v aplikáciách Finance and Operations nájdete v [**Správy o technických referenciách**](/dynamics/s-e/global/axtechrefrep_61). Môžete porovnať rôzne verzie týchto prehľadov, aby ste sa dozvedeli o objektoch, ktoré boli zmenené alebo odstránené v jednotlivých verziách aplikácií Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Funkcie odstránené alebo zastarané vo vydaní Project Operations z marca 2022
+
+### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Riadenie projektu a účtovníctvo Parameter "Vždy vytvárať transakciu úpravy".
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Dôvod ukončenia podpory/odstránenia** | Na účely auditu sú potrebné transakcie úprav. Po ukončení podpory bude tento parameter skrytý. Systém vždy vytvorí transakcie úprav, rovnako ako to robí v súčasnosti, keď je parameter nastavený na **Áno**. |
+| **Nahradené inou funkciou?** | No |
+| **Ovplyvnené oblasti výrobkov** | Aplikácia |
+| **Možnosť nasadenia** | Projektové operácie pre scenáre výroby/skladu |
+| **Status** | Zastarané: Do 1. marca 2023 skryjeme parameter a zmeníme správanie systému tak, aby sa vždy vytvárali transakcie úprav. |
+
+### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Riadenie a účtovníctvo projektu Parameter „Použiť dátum úpravy ako nový dátum projektu“.
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Dôvod ukončenia podpory/odstránenia** | Tento parameter bol pôvodne použitý na umožnenie úprav, keď bol fiškálne obdobie zatvorený. Už to však nie je potrebné, pretože účtovný dátum transakcie možno zmeniť na prvý dátum otvoreného obdobia, ak je nakonfigurovaný. Dátum projektu sa nesmie meniť, pretože predstavuje dátum, kedy došlo k transakcii. |
+| **Nahradené inou funkciou?** | No |
+| **Ovplyvnené oblasti výrobkov** | Aplikácia |
+| **Možnosť nasadenia** | Projektové operácie pre scenáre výroby/skladu |
+| **Status** | Zastarané: Do 1. marca 2023 skryjeme parameter a zmeníme správanie systému tak, aby sa dátum projektu pri úpravách nikdy nezmenil. |
+
+### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Pracovný postup požiadaviek na zdroje v projektových operáciách pre scenáre na sklade/výrobe
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Dôvod ukončenia podpory/odstránenia** | Zastarané z dôvodu nízkeho využitia a obmedzení objemu transakcií. |
+| **Nahradené inou funkciou?** | No |
+| **Ovplyvnené oblasti výrobkov** | Aplikácia |
+| **Možnosť nasadenia** | Projektové operácie pre scenáre výroby/skladu |
+| **Status** | Zastarané: Do 1. marca 2023 zakážeme možnosť žiadať zdroje pre projekt pomocou pracovného postupu. |
+
+### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Stránka návrhu faktúry projektu bez zobrazení hlavičky a riadkov
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Dôvod ukončenia podpory/odstránenia** | Zastarané z dôvodu vylepšení stránky, ktorá bola predstavená spolu s **Použite návrh faktúry projektu a formuláre denníka faktúr so zobrazením Hlavička a riadky** funkčný kľúč. |
+| **Nahradené inou funkciou?** | Áno |
+| **Ovplyvnené oblasti výrobkov** | Aplikácia |
+| **Možnosť nasadenia** | Projektové operácie pre scenáre výroby/skladu; Projektové operácie pre scenáre zdrojov/nezásobených zdrojov |
+| **Status** | Zastarané: Do 1. marca 2023 vypneme staršiu (staršiu) stránku a zapneme **Použite návrh faktúry projektu a formuláre denníka faktúr so zobrazením Hlavička a riadky** funkčný kľúč štandardne. |
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Funkcie odstránené alebo zastarané vo vydaní Project Operations z decembra 2021
 
@@ -36,8 +78,8 @@ Tento zoznam vám pomôže zvážiť tieto odstránenia a ukončenia podpory pre
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Dôvod odpisovania/odstránenia** | Zastarané z dôvodu nízkeho používania. Zákazníci, ktorí používajú projektové operácie pre scenáre zdrojov/nezásobených zdrojov, môžu využiť [Spolupráca s Office Groups](../project-management/collaboration-groups.md). |
-| **Nahradené inými funkciami?** | No |
+| **Dôvod ukončenia podpory/odstránenia** | Zastarané z dôvodu nízkeho používania. Zákazníci, ktorí používajú projektové operácie pre scenáre so zdrojmi/nezásobené, môžu využiť [Spolupráca s Office Groups](../project-management/collaboration-groups.md). |
+| **Nahradené inou funkciou?** | No |
 | **Ovplyvnené oblasti výrobkov** | Aplikácia  |
 | **Možnosť nasadenia** | Projektové operácie pre scenáre výroby/skladu |
 | **Status** | Zastarané: Do 1. decembra 2022 plánujeme ukončiť podporu pracovných priestorov Collaboration. |

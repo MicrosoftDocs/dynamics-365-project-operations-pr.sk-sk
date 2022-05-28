@@ -1,24 +1,23 @@
 ---
 title: Spracovanie potvrdenia výdavkov
-description: Táto téma poskytuje informácie o spracovaní účteniek optickým rozpoznávaním znakov (OCR). Táto funkcia je navrhnutá tak, aby zlepšila používateľskú skúsenosť pri vytváraní výkazov výdavkov v Microsoft Dynamics 365 Finance.
+description: Táto téma poskytuje informácie o spracovaní účteniek optickým rozpoznávaním znakov (OCR). Táto funkcia je navrhnutá tak, aby zlepšila používateľskú skúsenosť pri vytváraní výkazov výdavkov v Microsoft Dynamics 365 Financie.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001405"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684339"
 ---
 # <a name="expense-receipt-processing"></a>Spracovanie potvrdenia výdavkov
 
@@ -51,7 +50,7 @@ Ak chcete vytvoriť výdavok alebo spárovať výdavok z účtenky, postupujte n
 
 Táto funkcia funguje v kombinácii s funkciou **Prepracované výkazy výdavkov**, ktorá pomáha zjednodušiť skúsenosti s výdavkami. Táto funkcia je k dispozícii iba pre prostredia Tier 2+, ktorými sú Sandbox a Production.
 
-Ak chcete používať tieto pokročilé možnosti výdavkov, nainštalujte si doplnok Služba riadenia výdavkov pre Microsoft Dynamics 365 Finance a zapnite funkcie vo vašej inštancii. V Microsoft Dynamics Lifecycle Services (LCS) môžete pristupovať k doplnku z vášho projektu.
+Ak chcete použiť tieto pokročilé možnosti výdavkov, nainštalujte si doplnok Expense Management Service pre Microsoft Dynamics 365 Finance a zapnite funkcie vo vašej inštancii. V Microsoft Dynamics Lifecycle Services (LCS) môžete pristupovať k doplnku z vášho projektu.
 
 1. Prihláste sa do LCS a otvorte požadované prostredie.
 2. Prejdite do časti **Všetky podrobnosti**.

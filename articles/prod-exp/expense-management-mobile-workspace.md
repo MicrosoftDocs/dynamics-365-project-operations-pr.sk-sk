@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001495"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682821"
 ---
 # <a name="expense-management-mobile-workspace"></a>Správa výdavkov pomocou mobilného pracovného priestoru
 
@@ -35,7 +34,7 @@ Mnoho organizácií vyžaduje, aby bola k výkazu o cestovných alebo obchodnýc
 
 Mobilný pracovný priestor **Správa výdavkov** konkrétne umožňuje používateľom vykonávať tieto úlohy:
 
-- Odfoťte príjmový doklad a nahrajte ho na Dynamics 365 Finance. Túto fotografiu môžete neskôr priložiť k výkazu výdavkov.
+- Odfoťte účtenku a nahrajte ju na Dynamics 365 Finance. Túto fotografiu môžete neskôr priložiť k výkazu výdavkov.
 - Nahrajte súbor ako zaznamenanú účtenku. Tento súbor potom môžete neskôr priložiť k výkazu výdavkov.
 - Vytvoriť nový riadok výdavkom pomocou priloženej účtenky. Potom môžete riadkovú položku pridať do výkazu výdavkov neskôr a odoslať ju na schválenie a na preplatenie.
 

@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001045"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683511"
 ---
 # <a name="project-contracts"></a>Projektové zmluvy
 
@@ -45,7 +44,7 @@ Niektoré zmluvy o projekte určujú, že zodpovednosť za financovanie náklado
 -   Cestný projekt spolufinancujú dve obce.
 -   Prepojovací projekt je financovaný z vládneho grantu a súkromnej spoločnosti.
 
-V Dynamics 365 Finance, môžete rozdeliť fakturáciu za jednu transakciu alebo za celý projekt medzi viacerých zákazníkov, granty alebo organizácie. 
+V Dynamics 365 Finance môžete rozdeliť fakturáciu jednej transakcie alebo celého projektu medzi viacerých zákazníkov, granty alebo organizácie. 
 
 V prípade projektov, ktoré majú viacerých donorov, sa všetky strany, ktoré prispievajú na financovanie pokročilého projektu financovania, nazývajú zdroje financovania. Keď je zákazník, organizácia alebo grant definovaný ako zdroj financovania, možno ho priradiť k jednému alebo viacerým pravidlám financovania. Pravidlá financovania obsahujú kritériá, ktoré určujú spôsob alokovania poplatkov pre rôzne zdroje financovania projektu. 
 

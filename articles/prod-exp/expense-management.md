@@ -3,25 +3,23 @@ title: Prehľad správy výdavkov
 description: Táto téma poskytuje všeobecné informácie o správe výdavkov a odkazy na ďalšie zdroje. Správu výdavkov môžete použiť na vytvorenie integrovaného pracovného toku, do ktorého môžete ukladať informácie o spôsoboch platby, importovať transakcie kreditnými kartami a sledovať peniaze, ktoré zamestnanci minú, keď im vzniknú výdavky na vaše podnikanie.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001450"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684845"
 ---
 # <a name="expense-management-overview"></a>Prehľad správy výdavkov
 
@@ -45,7 +43,7 @@ Zadanie výkazu výdavkov bolo prepracované tak, aby sa zjednodušilo používa
 
 ### <a name="blogs"></a>Blogy
 
-Názory, správy a ďalšie informácie nájdete na [blogu Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) a [Microsoft Dynamics 365 Finance and Operations – finančný blog](https://community.dynamics.com/365/financeandoperations/b/financials).
+Názory, novinky a ďalšie informácie nájdete na [Microsoft Dynamics blog 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) a [Microsoft Dynamics 365 Finance and Operations – Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Blog komunity prevádzkových partnerov Microsoft Dynamics](https://community.dynamics.com/partner/b/operationspartnercommunityblog) poskytuje partnerom Microsoft Dynamics jediný zdroj, kde sa môžu dozvedieť, čo je nové a informácie o trendoch v MBS Operations.
 
