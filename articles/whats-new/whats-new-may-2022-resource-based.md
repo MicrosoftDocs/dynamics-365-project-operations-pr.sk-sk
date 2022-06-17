@@ -1,24 +1,24 @@
 ---
 title: Čo je nové v máji 2022 – Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní spoločnosti Microsoft z mája 2022 Dynamics 365 Project Operations pre scenáre založené na zdrojoch/nezásobách.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní spoločnosti Microsoft z mája 2022 Dynamics 365 Project Operations pre scenáre založené na zdrojoch/nezásobách.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921413"
 ---
 # <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v máji 2022 – Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsoft Dynamics 365 Project Operations:
 
 - Projektové operácie v a Dataverse verzia prostredia 4.42.0.70
 - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.26

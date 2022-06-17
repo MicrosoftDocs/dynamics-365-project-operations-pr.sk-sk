@@ -1,24 +1,24 @@
 ---
 title: Čo je nové November 2021 – zjednodušené nasadenie Project Operations
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú dostupné vo vydaní zjednodušeného nasadenia Project Operations z novembra 2021.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní zjednodušeného nasadenia Project Operations z novembra 2021.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3f3a19cddd1b91fc76c852153526fb7197a9f92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 947e7f6183ddeef3ab9a88d140331956bbcf23bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913823"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Čo je nové November 2021 – zjednodušené nasadenie Project Operations
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsoft Dynamics 365 Project Operations:
 
 - Projektové operácie v a Dataverse verzia prostredia 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   
@@ -43,6 +43,6 @@ V tomto vydaní sú zahrnuté nasledujúce funkcie:
 | Fakturácia a tvorba cien | 2467386 | Povoliť odstránenie projektu, ktorý má úlohu, aj keď je úloha priradená k vyhranej cenovej ponuke. |
 | Čas a výdavky | 2461744 | The **Moje neúspešné schválenie** pohľad obsahuje iba schválenia projektov v **Predložené** etapa. |
 | Čas a výdavky | 2464082 | Keď sa zhoduje cieľový stav, odstráňte prepojenie zo schvaľovania projektov na množinu schválení. |
-| Čas a výdavky | 2468108 | Úloha Schedule by nemala nastaviť a **Spracovanie** stav pre sadu schvaľovania. |
+| Čas a výdavky | 2468108 | Úloha Schedule by nemala nastaviť a **Spracovanie** stav schvaľovacej sady. |
 | Čas a výdavky | 2471503 | Odstráňte skupiny schválenia staré sedem dní. |
 | Fakturácia a tvorba cien | 2480687 | Odkaz na riadok cenovej ponuky sa nesmie odstrániť, keď sa vytvorí míľnik riadka cenovej ponuky. |

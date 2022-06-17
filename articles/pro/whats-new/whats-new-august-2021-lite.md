@@ -1,24 +1,24 @@
 ---
 title: Čo je nové v auguste 2021 – čiastočné nasadenie Project Operations
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní čiastočného nasadenia Project Operations z augusta 2021.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných v auguste 2021 vo vydaní zjednodušeného nasadenia Project Operations.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922057"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>Čo je nové v auguste 2021 – čiastočné nasadenie Project Operations
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
 
   - Project Operations v prostredí Dataverse verzie 4.13.0.152
 

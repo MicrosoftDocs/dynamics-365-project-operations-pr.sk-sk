@@ -1,6 +1,6 @@
 ---
 title: Organizačné jednotky
-description: Táto téma popisuje koncepciu organizačných jednotiek a vysvetľuje, ako vytvoriť a udržiavať organizačné jednotky v Microsoft Dynamics 365 Project Operations.
+description: Tento článok popisuje koncepciu organizačných jednotiek a vysvetľuje, ako vytvoriť a udržiavať organizačné jednotky v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 1/31/2022
 ms.topic: article
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a8c503dc6286f40c80ed9b7a8a04974ff7e50b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a20a37b61db68d70869a11e10bef5d30c422b1eb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921643"
 ---
 # <a name="organizational-units-overview"></a>Prehľad organizačných jednotiek
 
@@ -110,7 +110,7 @@ Nie. V aktuálnom vydaní Project Operations nie sú organizačné jednotky hier
 
 #### <a name="were-a-big-multinational-firm-that-has-a-complex-multilevel-hierarchy-of-cost-centers-divisions-and-billing-offices-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Sme veľká nadnárodná firma, ktorá má komplexnú, viacúrovňovú hierarchiu nákladových stredísk, divízií a fakturačných kancelárií. Ako najlepšie využiť koncept organizačných jednotiek v aktuálnej verzii Project Operations?
 
-Keď máte zložitú hierarchiu nákladových stredísk, divízií, fakturačných kancelárií atď., nastavte koncové uzly tejto hierarchie ako samostatné organizačné jednotky.
+Keď máte zložitú hierarchiu nákladových stredísk, divízií, fakturačných pracovísk atď., nastavte koncové uzly tejto hierarchie ako samostatné organizačné jednotky.
 
 Nasledujúci príklad ukazuje typickú hierarchiu.
 
@@ -157,7 +157,7 @@ Ak vaša spoločnosť pracuje ako jedna jednotka, ktorá má jeden cenník nákl
 
 Keď je projekt vytvorený samostatne, predvolená zmluvná jednotka projektu je založená na používateľovi, ktorý ho vytvorí. Tento používateľ je tiež predvoleným projektovým manažérom. Ak je projekt priradený k predajnej entite, ako je cenová ponuka alebo projektová zmluva, zmluvná jednotka projektu je namiesto toho založená na predajnej entite. V tomto prípade môžu byť prepočítané odhady projektu, pretože cenník nákladov sa používa na výpočet odhadu nákladov zmeny, ak sa zmení zmluvná jednotka. Predajný cenník sa používa na výpočet odhadov predaja, ktoré sa zmenia tak, aby boli synchronizované s projektovým cenníkom ponuky.
 
-The **zmluvná jednotka** a **mena** polia projektu sú uzamknuté na úpravu, pretože musia byť synchronizované s hodnotami predajnej entity (cenová ponuka alebo projektová zmluva), ku ktorej je projekt namapovaný.
+The **zmluvná jednotka** a **mena** polia projektu sú uzamknuté na úpravu, pretože musia byť synchronizované s hodnotami predajnej entity (cenová ponuka alebo projektová zmluva), na ktorú je projekt namapovaný.
 
 ## <a name="create-and-maintain-organizational-units-in-project-operations"></a>Vytvárajte a udržiavajte organizačné jednotky v Project Operations
 

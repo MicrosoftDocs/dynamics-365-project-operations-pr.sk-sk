@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie zmlúv založených na zálohách pre fakturácie na základe priebehu
-description: Táto téma vysvetľuje, ako vytvoriť projektové zmluvy, aby ste zákazníkom mohli generovať faktúry na základe percenta z dokončenej práce.
+description: Tento článok vysvetľuje, ako vytvoriť zmluvy o projekte, aby ste mohli generovať faktúry pre zákazníkov na základe percenta dokončenej práce.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913685"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Vytvorenie zmlúv založených na zálohách pre fakturácie na základe priebehu
 [!include [banner](../includes/banner.md)]
 
-Táto téma vysvetľuje, ako vytvoriť projektové zmluvy, aby ste zákazníkom mohli generovať faktúry na základe percenta z dokončenej práce. Čiastky faktúry sa automaticky počítajú pre rozpočtové kategórie práce, ktoré ste nastavili pre projekt. Načasovanie faktúry sa nastaví pri rokovaniach so zákazníkom o projektovej zmluve.
+Tento článok vysvetľuje, ako vytvoriť zmluvy o projekte, aby ste mohli vytvárať faktúry pre zákazníkov na základe percenta dokončenej práce. Čiastky faktúry sa automaticky počítajú pre rozpočtové kategórie práce, ktoré ste nastavili pre projekt. Načasovanie faktúry sa nastaví pri rokovaniach so zákazníkom o projektovej zmluve.
 
-Postupy v tejto téme použite na nastavenie zmluvy, súvisiaceho projektu a fakturačných pravidiel, ktoré počítajú sumy faktúr pre rozpočtové kategórie prác, ktoré ste pre projekt nastavili.
+Pomocou postupov v tomto článku nastavte zmluvu, súvisiaci projekt a pravidlá fakturácie, ktoré vypočítavajú sumy faktúr pre rozpočtové kategórie prác, ktoré ste nastavili pre projekt.
 
 Po vytvorení zmluvy a projektu môžete nastaviť podrobnosti projektu. Môžete napríklad definovať činnosti a priradiť pracovníkov k projektu.
 

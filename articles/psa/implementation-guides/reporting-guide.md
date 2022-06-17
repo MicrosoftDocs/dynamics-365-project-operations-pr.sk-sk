@@ -1,6 +1,6 @@
 ---
 title: Príručka vykazovania
-description: Táto téma obsahuje prepojenia na informácie o hlásení.
+description: Tento článok obsahuje odkazy na informácie o nahlasovaní.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919205"
 ---
 # <a name="reporting-guide"></a>Príručka vykazovania
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577577"
 
 Metódy a technológie vykazovania v tejto aplikácii vám môžu pomôcť určiť stav vašich projektov a zistiť, kedy je potrebné prijať nápravné opatrenia. 
 
-Odkaz PDF, ktorý bol predtým v tejto téme odstránený a obsah bol presunutý do nasledujúcich tém:
+Odkaz na PDF, ktorý bol predtým v tomto článku, bol odstránený a obsah bol presunutý do nasledujúcich článkov:
 
 - [Domovská stránka vykazovania](../reports-reporting-dynamics-365-project-service.md)
 - [Tabule](../reports-dashboards.md)
 - [Práca s dátovým modelom Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Táto téma sa odstráni v budúcej aktualizácii dokumentácie. 
+> Tento článok bude odstránený v budúcej aktualizácii dokumentácie. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

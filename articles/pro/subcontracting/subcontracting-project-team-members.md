@@ -1,17 +1,17 @@
 ---
 title: Členovia projektového tímu v rámci subdodávateľskej zmluvy
-description: Táto téma vysvetľuje, ako zadať subdodávateľom členov projektového tímu v Microsofte Dynamics 365 Project Operations.
+description: Tento článok vysvetľuje, ako zadať subdodávateľom členov projektového tímu v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 649687cb9ac66e684069434a353b63155103aefb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916905"
 ---
 # <a name="subcontracting-project-team-members"></a>Členovia projektového tímu v rámci subdodávateľskej zmluvy
 
@@ -39,7 +39,7 @@ The **Podrobnosti o členovi tímu** stránka obsahuje polia subdodávok a subdo
 
 5.  Rola pre záznam člena projektového tímu sa musí zhodovať s rolou na riadku subdodávok. To zaisťuje, že čas pre rolu, ktorá sa odhaduje na projekte, je tá istá rola, ktorá je zakúpená na subdodávateľskej linke. 
 
-Keď je generický člen tímu priradený k subdodávke a subdodávke, **Typ pracovníka** pole v riadku všeobecného člena tímu sa aktualizuje na **Pracovník na dohodu** a **Platnosť subdodávky** bude nastavená na **Platné**.
+Keď je generický člen tímu spojený so subdodávkou a subdodávateľskou líniou, **Typ pracovníka** pole v riadku všeobecného člena tímu sa aktualizuje na **Pracovník na dohodu** a **Platnosť subdodávky** bude nastavená na **Platné**.
 
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Subdodávky s personálne obsadeným členom projektového tímu
 Rovnako ako všeobecní alebo nepersonalizovaní členovia tímu, aj kapacita členov tímu potrebná na projekte môže byť spojená so subdodávkou. Ak chcete zadať subdodávateľovi menovaného člena projektového tímu, postupujte takto:

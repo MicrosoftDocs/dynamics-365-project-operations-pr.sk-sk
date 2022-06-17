@@ -1,17 +1,17 @@
 ---
 title: Správne účtovanie na základe konceptných návrhov projektových faktúr
-description: Táto téma vysvetľuje, ako upraviť informácie týkajúce sa účtovníctva v návrhu koncepcie faktúry.
+description: Tento článok vysvetľuje, ako upraviť informácie súvisiace s účtovníctvom v návrhu faktúry.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921229"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Správne účtovanie na základe konceptných návrhov projektových faktúr
 
@@ -19,7 +19,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 *Prevádzkové podrobnosti* pre projektové faktúry vedie projektový manažér na proforma faktúre. Medzi tieto podrobnosti patrí rozhodnutie o hodinách, výdavkoch, materiáloch alebo míľnikoch, ktoré musia byť fakturované, sadzby a uplatnenie záloh a zadržaných súm. Po potvrdení pôvodnej proforma faktúry môžete upraviť prevádzkové podrobnosti vytvorením a potvrdením [opravnej proforma faktúry](../proforma-invoicing/corrective-invoices.md).
 
-*Účtovné údaje* faktúry za projekt sa uchovávajú v dokumente faktúry orientovanej na zákazníka. Tieto podrobnosti zahŕňajú výpočet dane z obratu a finančné dimenzie, ktoré sa vzťahujú na faktúru. Táto téma poskytuje podrobnosti o tom, ako je možné tieto účtovné podrobnosti upraviť v koncepte návrhu faktúry projektu.
+*Účtovné údaje* faktúry za projekt sa uchovávajú v dokumente faktúry orientovanej na zákazníka. Tieto podrobnosti zahŕňajú výpočet dane z obratu a finančné dimenzie, ktoré sa vzťahujú na faktúru. Tento článok poskytuje podrobnosti o tom, ako možno tieto účtovné podrobnosti upraviť v návrhu projektovej faktúry.
 
 ## <a name="adjust-sales-tax"></a>Úprava dane z predaja
 

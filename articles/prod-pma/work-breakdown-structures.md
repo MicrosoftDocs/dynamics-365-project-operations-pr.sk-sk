@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920677"
 ---
 # <a name="work-breakdown-structures-overview"></a>Prehľad štruktúry rozdelenia práce
 
@@ -35,7 +35,7 @@ Miera podrobnosti WBS závisí od úrovne presnosti požadovanej v odhadoch a ú
 
 Naproti tomu projekty v odvetviach, ako sú médiá a reklama, softvér a IT infraštruktúra, bývajú jedinečné a produktivita závisí od skúseností a kompetencií jednotlivca, ktorý vykonáva danú úlohu. Preto tieto odvetvia používajú štruktúru WBS na získanie približnej veľkosti projektu, nie na podrobné sledovanie jeho priebehu. 
 
-Budovanie štruktúry WBS je intenzívny proces, ktorý sa zvyčajne robí dlho, a ktorý si vyžaduje spoluprácu a informácie od najrôznejších ľudí. Táto téma popisuje, ako môžete použiť vylepšenia štruktúry WBS na splnenie svojich požiadaviek týkajúcich sa odhadov a sledovania.
+Budovanie štruktúry WBS je intenzívny proces, ktorý sa zvyčajne robí dlho, a ktorý si vyžaduje spoluprácu a informácie od najrôznejších ľudí. Tento článok popisuje, ako môžete použiť vylepšenia WBS na splnenie vašich požiadaviek na odhady a sledovanie.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Požiadavky na vytvorenie štruktúry WBS
 Ak chcete vytvoriť štruktúru WBS, musíte byť schopní vytvoriť pracovný plán a odhadnúť cenu práce.
@@ -166,7 +166,7 @@ Služba Finance má tri zobrazenia pre štruktúru WBS projektu: zobrazenie Plá
 
 ### <a name="planning-view"></a>Zobrazenie Plánovanie
 
-Zobrazenie Plánovanie zobrazuje plánovaný alebo základný odhad plánu a informácií o nákladoch. Aj keď neexistujú žiadne funkcie na sledovanie verzie a základnej úrovne pre projekt štruktúry WBS, hodnoty v tomto zobrazení majú predstavovať základnú verziu. Sekcie Odhad plánu a Odhad nákladov v tejto téme popisujú toto zobrazenie a to, ako sa používa na vytvorenie štruktúry WBS.
+Zobrazenie Plánovanie zobrazuje plánovaný alebo základný odhad plánu a informácií o nákladoch. Aj keď neexistujú žiadne funkcie na sledovanie verzie a základnej úrovne pre projekt štruktúry WBS, hodnoty v tomto zobrazení majú predstavovať základnú verziu. Časti Odhad plánu a Odhad nákladov tohto článku popisujú toto zobrazenie a spôsob jeho použitia na vytvorenie WBS.
 
 ### <a name="effort-tracking-view"></a>Zobrazenie sledovania úsilia
 

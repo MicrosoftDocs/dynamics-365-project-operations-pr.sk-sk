@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 18, V3
-description: Táto téma obsahuje zoznam funkcií a opráv dostupných v aktualizácii Project Service Automation, vydanie 18, V3
+description: Tento článok obsahuje zoznam funkcií a opráv, ktoré sú k dispozícii v Project Service Automation Update Release 18, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8c76672e63fc4b01d5c6f8cce2831782b9c22326
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8d423c550d9aa09c9cbb7d4f7c277c43bbe10ae
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918883"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Aktualizácia pre Project Service Automation, vydanie 18, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8598783"
 
 S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365. Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte centrum spravovania pre Dynamics 365 online, prejdite na stránku riešení a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).
 
-Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation V3, vydanie 18. Táto verzia má číslo V3.10.8.12 a v apríli 2020 je všeobecne k dispozícii prostredníctvom automatickej aktualizácie.
+Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre Project Service Automation V3, vydanie aktualizácie 18. Táto verzia má číslo V3.10.8.12 a v apríli 2020 je všeobecne k dispozícii prostredníctvom automatickej aktualizácie.
 
 ## <a name="update-release-18"></a>Aktualizácia vydania 18
 

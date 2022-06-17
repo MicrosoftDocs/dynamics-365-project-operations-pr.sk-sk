@@ -1,24 +1,24 @@
 ---
 title: Čo je nové alebo zmenené v Project Operations z apríla 2021 pre scenáre založené na zdrojoch/výrobe
-description: Táto téma poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z apríla 2021 pre scenáre založené na zdrojoch/výrobe.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z apríla 2021 pre scenáre na sklade/výrobe.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916491"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Čo je nové alebo zmenené v Project Operations z apríla 2021 pre scenáre založené na zdrojoch/výrobe
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/výrobe_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
 
 - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.18
  

@@ -1,23 +1,23 @@
 ---
 title: Konfigurácia integrácie Project Operations pre každú právnickú osobu
-description: Táto téma poskytuje informácie o nastavení a integrácie podľa právnickej osoby v Project Operations.
+description: Tento článok poskytuje informácie o nastavení integrácie právnickou osobou v prevádzke projektu.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914697"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurácia integrácie Project Operations pre každú právnickú osobu 
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Táto téma vás prevedie krokmi potrebnými na konfiguráciu aplikácie Dynamics 365 Project Operations pre právnickú osobu.
+Tento článok vás prevedie krokmi potrebnými na konfiguráciu Dynamics 365 Project Operations na právnickú osobu.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Povoľte funkčné kľúče v Dynamics 365 Finance
 

@@ -1,17 +1,17 @@
 ---
 title: Rozpis výdavkov
-description: Táto téma vysvetľuje, ako rozčleniť výdavky pomocou prepracovaného pracovného priestoru Výdavky.
+description: Tento článok vysvetľuje, ako rozčleniť výdavky pomocou prepracovaného pracovného priestoru Výdavky.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 71bfbe83259804fc0b0355c81d430805da23dd45
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920953"
 ---
 # <a name="expense-itemization"></a>Rozpis výdavkov
 
@@ -23,7 +23,7 @@ Organizácie často vyžadujú od zamestnancov, aby poskytli podrobný rozpis n�
 
 ## <a name="enable-quick-itemization"></a>Povoliť rýchlu tvorbu položiek 
 
-Môžete použiť **Schopnosť rýchlo rozpísať opakujúce sa výdavky** funkcia na rýchle rozloženie opakujúcich sa výdavkov, pričom sa vyhnete potrebe zadávať denné výdavky zakaždým počas trvania pobytu. Ak chcete povoliť rýchlu tvorbu položiek, vykonajte nasledujúce kroky.
+Môžete použiť **Schopnosť rýchlo rozpísať opakujúce sa výdavky** funkcia na rýchle rozloženie opakujúcich sa výdavkov, pričom nie je potrebné zadávať denné výdavky zakaždým počas trvania pobytu. Ak chcete povoliť rýchlu tvorbu položiek, vykonajte nasledujúce kroky.
 
 1. Choďte na **Správa funkcií** pracovný priestor a v zozname funkcií nájdite a vyberte, **Prepracované výkazy výdavkov**. 
 2. Vyberte položku **Povoliť teraz**. 
@@ -36,7 +36,7 @@ Ak má kategória výdavkov podkategórie alebo rôzne zložky, ktoré tvoria ti
 
 |     Pole          |     Description                                                                                  |     Príklad              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
-|     Podkategória    |     Zoznam podkategórií nakonfigurovaných podľa typu kategórie výdavkov, **Hotel**.             |     Cena za dennú izbu      |
+|     Podkategória    |     Zoznam podkategórií nakonfigurovaných pod typom kategórie výdavkov, **Hotel**.             |     Cena za dennú izbu      |
 |     Počiatočný dátum     |     Dátum prvého vzniku nákladovej položky.                                           |     13.09.2021           |
 |     Denná sadzba     |     Suma vynaložená na nákladovú položku.                                                    |     200                  |
 |     Množstvo       |     Počet opakovaní nabíjania počas súvislého obdobia.                       |     3                    |

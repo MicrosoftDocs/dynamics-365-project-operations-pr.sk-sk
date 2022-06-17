@@ -1,17 +1,17 @@
 ---
 title: Režimy plánovania
-description: Táto téma poskytuje informácie o režimoch plánovania.
+description: Tento článok poskytuje informácie o režimoch plánovania.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923667"
 ---
 # <a name="scheduling-modes"></a>Režimy plánovania
 
@@ -38,7 +38,7 @@ Keď definujete režim plánovania projektu, nastavujete jednu z týchto hodnôt
 | Úloha Pevné úsilie    | Prepočíta sa trvanie. | Prepočítajú sa jednotky.    | Prepočíta sa trvanie. |
 | Úloha Pevné trvanie  | Prepočíta sa úsilie.   | Prepočíta sa úsilie.    | Prepočítajú sa jednotky.   |
 
-Ďalšie informácie o vplyvoch daného režimu nájdete v časti [Zmena typu úlohy a spresnenie plánovania](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). V téme sa termín **Práca** používa namiesto termínu **Úsilie**.
+Ďalšie informácie o vplyvoch daného režimu nájdete v časti [Zmena typu úlohy a spresnenie plánovania](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). V článku termín **Práca** sa používa namiesto **Úsilie**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Zmeňte režim plánovania organizácie
 

@@ -1,6 +1,6 @@
 ---
 title: Denné výdavky
-description: Táto téma poskytuje informácie o tom, ako pracovať s výdavkami na diéty.
+description: Tento článok poskytuje informácie o tom, ako pracovať s dennými výdavkami.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596069"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923207"
 ---
 # <a name="per-diem-expenses"></a>Denné výdavky
 
 > [!IMPORTANT] 
-> Funkcia, ktorá je popísaná v tejto téme, je dostupná pre cieľových používateľov ako súčasť predbežnej verzie.
+> Funkcia, ktorá je popísaná v tomto článku, je dostupná pre cieľových používateľov ako súčasť predbežnej verzie.
 
 Diem platba je pevná, vopred určená denná dávka, ktorú spoločnosť vypláca svojim zamestnancom za ubytovanie (hotely), stravu a vedľajšie výdavky, ktoré títo zamestnanci vynaložia počas cesty za prácou. Spoločnosť vypláca tento príspevok zamestnancom namiesto úhrady skutočných cestovných nákladov. Zamestnanci môžu využiť ich **Príležitostné/Iné** denný príspevok na pokrytie sprepitného, izbovej služby, práčovne alebo čistiarne pre dôležité obchodné stretnutia. Denná sadzba sa môže líšiť v závislosti od toho, či sa zamestnávateľ rozhodne preplatiť kombinované náklady na ubytovanie a stravu, alebo len náklady na stravu a vedľajšie výdavky.
 
@@ -44,7 +44,7 @@ Ak chcete nakonfigurovať výdavky na diéty, postupujte podľa týchto krokov.
 
 3. Ísť do **Riadenie výdavkov** \> **Nastaviť** \> **Výpočty a kódy** \> **Miesta na denné**.
 4. Pridajte miesta, kde je možné použiť diéty.
-5. Pre každé miesto, ktoré pridáte, na **Na diéty** vyberte dennú sadzbu a menu, ktoré sú platné medzi konkrétnymi dátumami začiatku a konca pre ubytovanie, stravu a iné výdavky. Ak chcete nakonfigurovať denné sadzby a meny, prejdite na **Riadenie výdavkov** \> **Nastaviť** \> **Výpočty a kódy** \> **Na diéty**.
+5. Pre každé miesto, ktoré pridáte, na **Na diéty** vyberte dennú sadzbu a menu, ktoré sú platné medzi konkrétnymi dátumami začiatku a konca pre ubytovanie, stravu a iné výdavky. Ak chcete nakonfigurovať denné sadzby a meny, prejdite na stránku **Riadenie výdavkov** \> **Nastaviť** \> **Výpočty a kódy** \> **Na diéty**.
 
 ## <a name="per-diems-in-the-reimagined-expense-interface"></a>Denné diéty v prepracovanom rozhraní výdavkov
 

@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka projektových zdrojov
-description: Táto téma poskytuje informácie o zabezpečovaní zdrojov pre projekty.
+description: Tento článok poskytuje informácie o projektových zdrojoch.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924035"
 ---
 # <a name="project-resourcing-home-page"></a>Domovská stránka projektových zdrojov
 
 [!include [banner](../includes/banner.md)]
 
-Táto téma poskytuje informácie o zabezpečovaní zdrojov pre projekty.
+Tento článok poskytuje informácie o projektových zdrojoch.
 
 Jednou z výziev pre projektových manažérov a manažérov zdrojov počas fázy plánovania projektu je alokácia zdrojov, kde musia určiť a vyhradiť správny zdroj pre prácu na projekte. V Dynamics 365 Finance vám možnosti zdrojov pre projekty umožňujú definovať roly, s ktorými sa zaobchádza ako s dočasnými zdrojmi, ktoré možno vyhradiť pre konkrétnu zákazku alebo časť zákazky. Tento typ zabezpečovania zdrojov umožňuje projektovým manažérom a správcom zdrojov splniť nasledujúce úlohy:
 
@@ -41,7 +41,7 @@ Jednou z výziev pre projektových manažérov a manažérov zdrojov počas fáz
 
 Keď bude plánovanie projektu pokračovať, plánované zdroje je možné nahradiť personálnymi zdrojmi. Vedúci projektu sa môže tiež vrátiť späť a aktualizovať rezervácie zdrojov v ktorejkoľvek fáze projektu.
 
-Nasledujúce témy poskytujú informácie o úlohách, ktoré je potrebné splniť, keď pracujete na financovaní projektov.
+Nasledujúce články poskytujú informácie o úlohách, ktoré je potrebné dokončiť, keď pracujete na projektoch so zdrojmi.
 
 - [Nastavenie zdrojov pre projekty](set-up-project-resources.md)
 - [Spravovanie kompetencií v oblasti zdrojov](manage-resource-competencies.md)

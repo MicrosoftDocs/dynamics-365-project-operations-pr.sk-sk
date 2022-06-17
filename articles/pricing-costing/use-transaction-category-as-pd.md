@@ -1,28 +1,28 @@
 ---
 title: Použitie kategórie transakcie ako cenovej dimenzie
-description: Táto téma poskytuje informácie o používaní poľa Kategória transakcie ako cenovej dimenzie.
+description: Tento článok poskytuje informácie o tom, ako použiť pole Kategória transakcie ako cenovú dimenziu.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911721"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Použitie kategórie transakcie ako cenovej dimenzie
 
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 
-Táto téma vysvetľuje, ako používať pole **Kategória transakcie** ako cenovú dimenziu. 
+Tento článok vysvetľuje, ako používať **Kategória transakcie** ako cenová dimenzia. 
 
-## <a name="prerequisites"></a>Predpoklady
-Pred dokončením postupov v tejto téme musíte mať pre svoju organizáciu nové riešenie cenovej dimenzie. Ak ste si ho ešte nevytvorili, pozrite si stránku [Vytvorenie vlastných polí a entít ako cenových dimenzií](create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>Požiadavky
+Pred dokončením postupov v tomto článku musíte mať pre svoju organizáciu nové riešenie cenovej dimenzie. Ak ste si ho ešte nevytvorili, pozrite si stránku [Vytvorenie vlastných polí a entít ako cenových dimenzií](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Pridanie poľa Kategória transakcie do formulárov a zobrazení
 Ak chcete zviditeľniť pole **Kategória transakcie** v riešení cenovej dimenzie, musíte pole pridať do všetkých formulárov a zobrazení ako entitu.

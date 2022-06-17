@@ -1,24 +1,24 @@
 ---
 title: Použitie ukážkových údajov v prostredí na cloudovom hostiteľskom systéme Finance
-description: Táto téma vysvetľuje, ako aplikovať demo dáta z Project Operations na prostredie hostené v cloude Dynamics 365 Finance.
+description: Tento článok vysvetľuje, ako použiť demo údaje z prevádzky projektu na prostredie hostené v cloude Dynamics 365 Finance.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924679"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Použitie ukážkových údajov v prostredí na cloudovom hostiteľskom systéme Finance
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 > [!IMPORTANT]
-> Táto téma je použiteľná len Microsoft Dynamics 365 Finance verzia 10.0.13 a možno ju vykonávať iba v prostredí hostenom v cloude. Kroky v tejto téme vykonajte **PRED** použitím aktualizácií prostredia týkajúcich sa kvality.
+> Tento článok je použiteľný len Microsoft Dynamics 365 Finance verzia 10.0.13 a možno ju vykonávať iba v prostredí hostenom v cloude. Vykonajte kroky v tomto článku **PRED** aplikujete aktualizácie kvality na prostredie.
 
 1. Vo svojom projekte LCS otvorte stránku **Podrobnosti o prostredí**. Pamätajte na to, že obsahuje podrobnosti potrebné na pripojenie k prostrediu pomocou protokolu RDP (Remote Desktop Protocol).
 

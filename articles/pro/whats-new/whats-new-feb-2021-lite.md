@@ -1,22 +1,22 @@
 ---
 title: Čo je nové vo februári 2021 – nasadenie aplikácie Project Operations Lite
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii v nasadení Project Operations Lite, vydanie z februára 2021.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní zjednodušeného nasadenia Project Operations z februára 2021.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 139494962562aaaf005e116f02bcd41db58eea27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 329bc31ad4c0958fe60e73b257e6b4c262bb60f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914053"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Čo je nové vo februári 2021 – nasadenie aplikácie Project Operations Lite
 
-Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
 
   - Project Operations v prostredí Dataverse verzie 4.7.0.95
 

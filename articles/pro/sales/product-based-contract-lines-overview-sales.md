@@ -1,17 +1,17 @@
 ---
 title: Prehľad riadkov zmlúv založených na produkte – čiastočné
-description: Táto téma poskytuje informácie o riadkoch zmluvy založenej na produkte.
+description: Tento článok poskytuje informácie o produktových zmluvných líniách.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8006e90e0d4fdf02042f26b261775a92f87f47ca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ad1fe6d5d56468d887535ddf107eefed3cbd28d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919895"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Prehľad riadkov zmlúv založených na produkte – čiastočné
 

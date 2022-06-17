@@ -1,17 +1,17 @@
 ---
 title: Zdroje v riadku subdodávateľskej zmluvy
-description: Táto téma vysvetľuje, ako špecifikovať vyhradené zdroje, ktoré poskytuje dodávateľ pre konkrétny riadok subdodávateľskej zmluvy pre určitý čas.
+description: Tento článok vysvetľuje, ako určiť vyhradené zdroje, ktoré poskytuje dodávateľ pre konkrétnu subdodávateľskú linku na určitý čas.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96bce2d6797c124331ce0174b16804ff8dfec993
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84fbbd6e1a82db2b2d998b5f41579396df884ec3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924173"
 ---
 # <a name="subcontract-line-resources"></a>Zdroje v riadku subdodávateľskej zmluvy
 

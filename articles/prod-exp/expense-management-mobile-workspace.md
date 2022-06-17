@@ -1,6 +1,6 @@
 ---
 title: Správa výdavkov pomocou mobilného pracovného priestoru
-description: Táto téma poskytuje informácie o mobilnom pracovnom priestore na spravovanie výdavkov. Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov. Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov.
+description: Tento článok poskytuje informácie o mobilnom pracovnom priestore správy výdavkov. Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov. Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920907"
 ---
 # <a name="expense-management-mobile-workspace"></a>Správa výdavkov pomocou mobilného pracovného priestoru
 
-Táto téma poskytuje informácie o mobilnom pracovnom priestore **Spravovanie výdavkov**. Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov. Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov. Schvaľovatelia môžu navyše používať mobilný pracovný priestor **Správa výdavkov** na prezeranie výkazy výdavkov, ktoré sú im priradené, a tieto výkazy výdavkov buď schváliť, alebo odmietnuť.
+Tento článok poskytuje informácie o **Riadenie výdavkov** mobilný pracovný priestor. Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov. Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov. Schvaľovatelia môžu navyše používať mobilný pracovný priestor **Správa výdavkov** na prezeranie výkazy výdavkov, ktoré sú im priradené, a tieto výkazy výdavkov buď schváliť, alebo odmietnuť.
 
 
 Tento mobilný pracovný priestor je určený na použitie s mobilnou aplikáciou Dynamics 365 Unified Ops.

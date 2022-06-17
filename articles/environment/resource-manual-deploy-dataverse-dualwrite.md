@@ -1,25 +1,25 @@
 ---
 title: Manuálne nasadenie aplikácie Project Operations Dataverse s podporou duálneho zápisu
-description: Táto téma vysvetľuje, ako manuálne nasadiť aplikáciu Project Operations Dataverse tak, aby podporovala duálny zápis.
+description: Tento článok vysvetľuje, ako manuálne nasadiť operácie projektu Dataverse tak, aby podporovala duálny zápis.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912029"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Manuálne nasadenie aplikácie Project Operations Dataverse s podporou duálneho zápisu
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Táto téma vysvetľuje, ako manuálne nasadiť aplikáciu Microsoft Dynamics 365 Project Operations v Microsoft Dataverse tak, aby podporovala duálny zápis. Project Operations zistí konfiguráciu prostredia a pridá ďalšiu podporu pre duálny zápis, ak sú splnené predpoklady.
+Tento článok vysvetľuje, ako manuálne nasadiť Microsoft Dynamics 365 Project Operations v Microsoft Dataverse takže podporuje duálny zápis. Project Operations zistí konfiguráciu prostredia a pridá ďalšiu podporu pre duálny zápis, ak sú splnené predpoklady.
 
-Počas nasadenia do Microsoft Dynamics Lifecycle Services (LCS), ak ste postupovali podľa pokynov v tejto téme, môžete preskočiť nasadenie integrácie Microsoft Power Platform (predtým známa ako prostredie Common Data Service).
+Počas nasadenia cez Microsoft Dynamics Služby životného cyklu (LCS), ak ste postupovali podľa pokynov v tomto článku, môžete preskočiť nasadenie Microsoft Power Platform integrácia (predtým známa ako Common Data Service prostredie).
 
 Proces nasadenia Project Operations v Dataverse, aby podporoval duálny zápis, má štyri hlavné kroky:
 

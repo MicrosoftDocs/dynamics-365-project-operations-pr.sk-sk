@@ -1,25 +1,25 @@
 ---
 title: Aktualizujte Project Operations vo svojom prostredí Finance
-description: Táto téma poskytuje informácie o tom, ako aktualizovať operácie projektu vo vašom prostredí Dynamics 365 Finance.
+description: Tento článok poskytuje informácie o tom, ako aktualizovať operácie projektu v prostredí Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912489"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualizujte Project Operations vo svojom prostredí Finance
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 
-Táto téma poskytuje informácie o tom, ako aktualizovať Dynamics 365 Project Operations vo vašom prostredí Dynamics 365 Finance. Existujú tri postupy, ktoré sú potrebné na aktualizáciu Project Operations na verziu 5 (UR5):
+Tento článok poskytuje informácie o tom, ako aktualizovať Dynamics 365 Project Operations vo vašom prostredí Dynamics 365 Finance. Existujú tri postupy, ktoré sú potrebné na aktualizáciu Project Operations na verziu 5 (UR5):
 
 - [Importujte balík do vašej ukážky projektu](#import)
 - [Použite aktualizáciu](#apply)

@@ -1,6 +1,6 @@
 ---
 title: Použiť kategóriu transakcií ako dimenziu cien
-description: Táto téma poskytuje informácie o používaní transakcie kategórie ako dimenzie cien.
+description: Tento článok poskytuje informácie o používaní kategórie transakcií ako cenovej dimenzie.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915755"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Použiť kategóriu transakcií ako dimenziu cien
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Táto téma ukazuje, ako používať kategóriu transakcií ako cenovú dimenziu. Skôr, ako začnete, ak ste ešte nevytvorili riešenie dimenzie cien, budete musieť vytvoriť novú. Ak už máte riešenie dimenzie cien, môžete vykonať zmeny v tomto riešení. Ak ste pre vašu organizáciu nevytvorili nové riešenie dimenzie cien, dokončite postupy v téme [Vytvorte vlastné polia a entity](create-custom-fields-entities.md).
+Tento článok ukazuje, ako použiť kategóriu transakcie ako dimenziu určovania cien. Skôr, ako začnete, ak ste ešte nevytvorili riešenie dimenzie cien, budete musieť vytvoriť novú. Ak už máte riešenie dimenzie cien, môžete vykonať zmeny v tomto riešení. Ak ste pre svoju organizáciu nevytvorili nové riešenie cenovej dimenzie, vykonajte postupy v časti [Vytvorte si vlastné polia a entity](create-custom-fields-entities.md) článok.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Pridanie kategórie transakcie do formulárov a zobrazení
 Ak chcete, aby sa kategória transakcie zobrazovala v používateľskom rozhraní v riešení dimenzie cien, budete musieť prejsť všetkými formulármi a pohľadmi kľúčových entít a pridať tieto polia do formulárov a zobrazení týchto entít.

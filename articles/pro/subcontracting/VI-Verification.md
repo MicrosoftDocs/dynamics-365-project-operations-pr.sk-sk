@@ -1,19 +1,19 @@
 ---
-title: Overenie faktúr dodávateľa so schválenými skutočnosťami
-description: Táto téma vysvetľuje, ako spoločnosť Microsoft Dynamics 365 Project Operations Poďme projektových manažérov overiť faktúry dodávateľov so skutočnosťami, ktoré boli schválené, keď dodávatelia vykonali prácu a zaznamenali čas, a výdavky a materiály, ktoré použili členovia projektového tímu.
+title: Overenie faktúr dodávateľov so schválenými skutočnými hodnotami
+description: Tento článok vysvetľuje, ako spoločnosť Microsoft Dynamics 365 Project Operations Poďme projektových manažérov overiť faktúry dodávateľov so skutočnosťami, ktoré boli schválené, keď dodávatelia vykonali prácu a zaznamenali čas, a výdavky a materiály, ktoré použili členovia projektového tímu.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914237"
 ---
-# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Overenie faktúr dodávateľa so schválenými skutočnosťami
+# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Overenie faktúr dodávateľov so schválenými skutočnými hodnotami
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -70,7 +70,7 @@ Počas procesu párovania je možné vytvoriť prepojenie medzi skutočnými ná
 
 Nezodpovedanie skutočných nákladov môže tiež pomôcť s procesom overovania na faktúre dodávateľa tým, že umožňuje odstrániť predtým vytvorené prepojenia. Skutočné náklady možno zrušiť len z riadkov faktúry dodávateľa, ktoré majú stav overenia **Prebieha**. Ak chcete zrušiť zhodu skutočných nákladov z riadku faktúry dodávateľa, postupujte podľa týchto krokov.
 
-1. Otvorte riadok faktúry dodávateľa a vyberte **Skutočné skutočné náklady** tab. Mriežka zobrazuje zoznam skutočných nákladov, ktoré odkazujú na riadok faktúry dodávateľa.
+1. Otvorte riadok faktúry dodávateľa a vyberte **Prirovnané skutočné náklady** tab. Mriežka zobrazuje zoznam skutočných nákladov, ktoré odkazujú na riadok faktúry dodávateľa.
 2. Vyberte jednu alebo viacero skutočných nákladov a potom vyberte **Neporovnateľné** na paneli nástrojov nad mriežkou.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

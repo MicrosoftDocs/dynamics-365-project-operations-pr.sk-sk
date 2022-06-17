@@ -1,6 +1,6 @@
 ---
 title: Pridanie vlastných polí do cenového nastavenia a transakčných entít
-description: Táto téma poskytuje informácie o pridávaní vlastných polí k nastaveniu ceny a transakčných entít.
+description: Tento článok poskytuje informácie o pridávaní vlastných polí do nastavenia ceny a transakčných entít.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920493"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Pridanie vlastných polí do cenového nastavenia a transakčných entít 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Táto téma predpokladá, že ste dokončili postupy v téme, [vytvoriť vlastné polia a entity.](create-custom-fields-entities.md) Ak ste tieto postupy nedokončili, vráťte sa späť a dokončite ich a potom sa vráťte na túto tému. 
+Tento článok predpokladá, že ste dokončili postupy v článku, [Vytvorte si vlastné polia a entity](create-custom-fields-entities.md). Ak ste tieto postupy nedokončili, vráťte sa a dokončite ich a potom sa vráťte k tomuto článku. 
 
-V tejto téme vám postupy úkážu, ako pridať požadované vlastné pole odkazy na entity a prvky používateľského rozhrania (UI), ako sú formuláre a zobrazenia.
+V tomto článku vám postupy ukážu, ako pridať požadované odkazy na vlastné polia k entitám a prvkom používateľského rozhrania (UI), ako sú formuláre a zobrazenia.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Pridať vlastné polia dimenzie ocenenia 
 Po vytvorení vlastných polí a entít je ďalším krokom, aby sa cenové nastavenie a transakčné entity dozvedeli o všetkých vlastných entitách alebo množínách možností vytvorením referenčných polí. V závislosti od toho, či zoznam dimenzií cien obsahuje množinu možností, dimenzie alebo dimenzie entity alebo oboje, postupujte iba podľa krokov v **dimenziách vlastného oceňovania založeného na množine možností** alebo **Vlastné cenové dimenzie založené na entite**, resp. oboje.

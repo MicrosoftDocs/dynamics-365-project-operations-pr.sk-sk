@@ -1,17 +1,17 @@
 ---
 title: Registrácia na odber ukážky Project Operations pre scenáre zdrojov/chýbajúcich zdrojov
-description: Táto téma poskytuje informácie o tom, ako sa prihlásiť na odber a nasadiť Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch.
+description: Tento článok poskytuje informácie o tom, ako sa prihlásiť na odber a nasadiť operácie projektu pre scenáre založené na zdrojoch/nezásobách.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920125"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrácia na odber ukážky Project Operations pre scenáre zdrojov/chýbajúcich zdrojov
 
@@ -19,7 +19,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 
 
-Táto téma vysvetľuje, ako sa prihlásiť na odber skúšobnej ponuky a nasadiť prostredie Project Operations pre scenáre založené na zdrojoch/také, ktoré nie sú na sklade.
+Tento článok vysvetľuje, ako sa prihlásiť na odber skúšobnej ponuky a nasadiť prostredie Project Operations pre scenáre založené na zdrojoch alebo bez zásob.
 
 ## <a name="prerequisites"></a>Predpoklady
 - Používateľ, ktorý nasadí ukážku, musí mať práva globálneho správcu nájomníka platformy Azure. Nájomníka si môžete vytvoriť počas prvého uplatnenia ponuky. 
@@ -60,19 +60,19 @@ Prejdite do [Skúšobná verzia Preview Dynamics 365 for Finance](https://aka.ms
 
 ## <a name="start-a-new-project-in-lcs"></a>Začatie nového projektu v LCS
 
-Vytvorte nový projekt LCS podľa popisu v téme [Začatie nového projektu v LCS](create-lcs-project.md)
+Vytvorte nový projekt LCS podľa popisu v článku, [Začnite nový projekt v LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Pridanie predplatného služieb Azure do projektu LCS
 
-Pri dokončení tejto úlohy postupujte podľa pokynov v téme [Pridanie predplatného služieb Azure do projektu LCS](resource-add-azure-subscription-lcs-project.md).
+Ak chcete dokončiť túto úlohu, postupujte podľa krokov v článku, [Pridajte predplatné Azure do projektu LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Nasadenie ukážky prostredia Finance s Project Operations pre scenáre zdrojov/chýbajúcich zdrojov
 
-Postupujte podľa pokynov v téme [Zriadenie nového prostredia](resource-provision-new-environment.md) na dokončenie nasadenia. Použite typ nasadenia [ukážkové prostredie](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pre ukážku. 
+Postupujte podľa pokynov v článku, [Poskytnutie nového prostredia](resource-provision-new-environment.md) na dokončenie nasadenia. Použite typ nasadenia [ukážkové prostredie](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pre ukážku. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Inštalácia údajov CDS pre nastavenie a konfiguráciu
 
-Nainštalujte údaje pre nastavenie a konfiguráciu CDS podľa popisu v téme [Nastavenie a použitie konfiguračných údajov v Common Data Service](resource-apply-pro-setup-config-data.md).
+Nainštalujte údaje o nastavení a konfigurácii CDS podľa popisu v článku, [Nastavte a použite konfiguračné údaje v Common Data Service](resource-apply-pro-setup-config-data.md).
 Tento krok dokončite až po nasadení ukážkového prostredia Finance a pripravení ukážkových údajov.
 
 

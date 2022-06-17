@@ -1,6 +1,6 @@
 ---
-title: Obchodné transakcie v projektových operáciách
-description: Táto téma poskytuje prehľad konceptu obchodných transakcií v Microsofte Dynamics 365 Project Operations.
+title: Obchodné transakcie v aplikácii Project Operations
+description: Tento článok poskytuje prehľad konceptu obchodných transakcií v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2022-01-31
-ms.openlocfilehash: 0c6fe583af0dcaa62204b35c1093746b13b6e00e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fab0061af6e615c25d0fbf79d024370285dc6f86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923299"
 ---
-# <a name="business-transactions-in-project-operations"></a>Obchodné transakcie v projektových operáciách
+# <a name="business-transactions-in-project-operations"></a>Obchodné transakcie v aplikácii Project Operations
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -32,7 +32,7 @@ V Microsofte Dynamics 365 Project Operations, *transakcia* je abstraktný pojem,
 - Záznamy v účtovnom denníku
 - Skutočné hodnoty
 
-Z týchto entít sú namapované podrobnosti o riadku cenovej ponuky, podrobnosti o riadku zmluvy a riadky odhadu *fáza odhadu* v životnom cykle projektu. Riadky denníka a entity Skutočnosti sú namapované na *realizačná fáza* v životnom cykle projektu.
+Z týchto entít sú namapované podrobnosti o riadku cenovej ponuky, podrobnosti o riadku zmluvy a riadky odhadu *fáza odhadu* v životnom cykle projektu. Riadky denníka a entity Actuals sú namapované na *realizačná fáza* v životnom cykle projektu.
 
 Project Operations zaobchádza so záznamami vo všetkých piatich týchto subjektoch ako s obchodnými transakciami. Jediný rozdiel je v tom, že sa berú do úvahy záznamy v entitách, ktoré sú namapované do fázy odhadu (podrobnosti riadku cenovej ponuky, podrobnosti zmluvného riadku a riadky odhadu).*finančné prognózy*, pričom sa berú do úvahy záznamy v entitách, ktoré sú namapované do fázy vykonávania (riadky denníka a skutočné údaje).*finančné fakty* ktoré sa už vyskytli.
 
@@ -49,7 +49,7 @@ Tieto pojmy sú jedinečné pre koncept obchodných transakcií:
 
 ### <a name="transaction-type"></a>Typ transakcie
 
-Typ transakcie predstavuje načasovanie a kontext finančného vplyvu na projekt. Je definovaný množina možností, ktorý má nasledujúce podporované hodnoty v Project Operations:
+Typ transakcie predstavuje načasovanie a kontext finančného vplyvu na projekt. Je definovaný množina možností, ktorý má v prevádzke projektu nasledujúce podporované hodnoty:
 
 - Náklady
 - Projektová zmluva
@@ -60,7 +60,7 @@ Typ transakcie predstavuje načasovanie a kontext finančného vplyvu na projekt
 
 ### <a name="transaction-class"></a>Trieda transakcie
 
-Trieda transakcie predstavuje rôzne typy nákladov, ktoré vznikli na projektoch. Je definovaný množina možností, ktorý má nasledujúce podporované hodnoty v Project Operations:
+Trieda transakcie predstavuje rôzne typy nákladov, ktoré vznikli na projektoch. Je definovaný množina možností, ktorý má v prevádzke projektu nasledujúce podporované hodnoty:
 
 - Čas
 - Výdavok

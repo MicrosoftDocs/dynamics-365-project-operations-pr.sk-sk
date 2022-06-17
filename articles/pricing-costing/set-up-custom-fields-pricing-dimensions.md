@@ -1,6 +1,6 @@
 ---
 title: Nastavenie vlastných polí ako cenových dimenzií
-description: Táto téma poskytuje informácie o tom, ako nastaviť cenové dimenzie pomocou vlastných polí.
+description: Tento článok poskytuje informácie o tom, ako nastaviť dimenzie cien pomocou vlastných polí.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917595"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavenie vlastných polí ako cenových dimenzií
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Pred začatím tejto témy sa predpokladá, že ste dokončili postupy v témach, [Vytvorenie vlastných polí a entít](create-custom-fields-entities-pricing-dimensions.md) a [Pridanie požadovaných vlastných polí do cenového nastavenia a transakčných entít](add-custom-fields-price-setup-transactional-entities.md). Ak ste tieto postupy nedokončili, vráťte sa späť a dokončite ich a potom sa vráťte na túto tému. 
+Skôr než začnete, tento článok predpokladá, že ste dokončili postupy v článkoch, [Vytvorte si vlastné polia a entity](create-custom-fields-entities-pricing-dimensions.md) a [Pridajte požadované vlastné polia do nastavenia ceny a transakčných entít](add-custom-fields-price-setup-transactional-entities.md). Ak ste tieto postupy nedokončili, vráťte sa a dokončite ich a potom sa vráťte k tomuto článku. 
 
-Táto téma poskytuje informácie o nastavení vlastných dimenzií cien. Na stránke **Parametre**, sa na karte **Cenové dimenzie založené na čiastke** zobrazujú záznamy v entitách cenovej dimenzie. V predvolenom nastavení sú na tejto karte v mriežke dva riadky:
+Tento článok poskytuje informácie o nastavení vlastných dimenzií určovania cien. Na stránke **Parametre**, sa na karte **Cenové dimenzie založené na čiastke** zobrazujú záznamy v entitách cenovej dimenzie. V predvolenom nastavení sú na tejto karte v mriežke dva riadky:
 
 - **msdyn_resourcecategory** (Rola)
 - **msdyn_OrganizationalUnit** (Organizačná jednotka)

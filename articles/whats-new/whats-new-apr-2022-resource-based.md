@@ -1,31 +1,31 @@
 ---
 title: Čo je nové v apríli 2022 – Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní spoločnosti Microsoft z apríla 2022 Dynamics 365 Project Operations pre scenáre založené na zdrojoch/nezásobách.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní spoločnosti Microsoft z apríla 2022 Dynamics 365 Project Operations pre scenáre založené na zdrojoch/nezásobách.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912397"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v apríli 2022 – Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsoft Dynamics 365 Project Operations:
 
 - Projektové operácie v a Dataverse verzia prostredia 4.41.0.45
 - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.26
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 
-Kategórie obstarávania možno použiť v projektových nákupných objednávkach a čakajúcich faktúrach dodávateľa. Ďalšie informácie nájdete v časti [Použite kategórie obstarávania s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa](configure-procurement-categories.md).
+Kategórie obstarávania možno použiť v projektových nákupných objednávkach a čakajúcich faktúrach dodávateľa. Viac informácií nájdete v časti [Použite kategórie obstarávania s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa](configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aktualizácie máp duálneho zapisovania v aplikácii Project Operations
 

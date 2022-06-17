@@ -1,24 +1,24 @@
 ---
 title: Novinky v auguste 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní nasadenia Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch z augusta 2021.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z augusta 2021 pre scenáre založené na zdrojoch/nezásobách.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd91f7f6b3a6f78161f8900aa06c810a58609b53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912305"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novinky v auguste 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
 *Platí pre: Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch*
 
-Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
 
    - Project Operations v prostredí Microsoft Dataverse verzie 4.13.0.152.
    - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.20.

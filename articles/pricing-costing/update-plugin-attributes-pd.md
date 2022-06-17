@@ -1,33 +1,33 @@
 ---
 title: Aktualizácia atribútov doplnkov o nové cenové dimenzie
-description: Táto téma poskytuje informácie o aktualizácii atribútov doplnkov pre cenové dimenzie.
+description: Tento článok poskytuje informácie o tom, ako aktualizovať atribúty doplnkov pre cenové dimenzie.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920033"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Aktualizácia atribútov doplnkov o nové cenové dimenzie
 
-Táto téma poskytuje informácie o aktualizácii atribútov doplnkov pre cenové dimenzie.
+Tento článok poskytuje informácie o tom, ako aktualizovať atribúty doplnkov pre cenové dimenzie.
 
 > [!NOTE]
-> Táto téma sa týka iba funkcií cenovej ponuky a zmluvy v Dynamics 365 Project Operations.
+> Tento článok sa vzťahuje len na funkcie ponuky a zmluvy v Dynamics 365 Project Operations.
 
-## <a name="prerequisites"></a>Predpoklady
-Pred vykonaním krokov v tejto téme musíte mať dokončené postupy v nasledujúcich témach:
+## <a name="prerequisites"></a>Požiadavky
+Pred dokončením krokov v tomto článku musíte vykonať postupy v nasledujúcich článkoch:
 
   - [Vytvorenie vlastných polí a entít](create-custom-fields-entities-pricing-dimensions.md) 
   - [Pridanie vlastných polí do entít nastavenia cien a transakcií ](add-custom-fields-price-setup-transactional-entities.md)
   - [Nastavenie vlastných polí ako cenových dimenzií](set-up-custom-fields-pricing-dimensions.md). 
   
-Ak ste tieto postupy nedokončili, dokončite ich a potom sa vráťte na túto tému.
+Ak ste tieto postupy nedokončili, dokončite ich a potom sa vráťte k tomuto článku.
 
 ## <a name="register-a-plug-in"></a>Registrácia doplnku
 Keď sa na stránke **Riadok cenovej ponuky** pre riadok ponuky projektu vytvorí detail riadka cenovej ponuky, systém vytvorí dva riadky odhadu. Jeden riadok je pre stranu nákladov odhadu a druhý riadok pre stranu predaja. Toto je rovnaké pre riadky projektových zmlúv.

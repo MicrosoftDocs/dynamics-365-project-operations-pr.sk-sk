@@ -1,6 +1,6 @@
 ---
 title: Dôležité informácie týkajúce sa inovácie – Microsoft Dynamics 365 Project Service Automation z verzie 2.x alebo 1.x na verziu 3
-description: Táto téma poskytuje informácie o úvahách, ktoré musíte vykonať pri inovácii zo systému Project Service Automation verzie 2. x alebo 1. x na verziu 3.
+description: Tento článok poskytuje informácie o úvahách, ktoré musíte vykonať pri inovácii z Project Service Automation verzie 2.x alebo 1.x na verziu 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918929"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Informácie o inovácii – PSA verzie 2.x alebo 1.x na verziu 3
 
@@ -40,7 +40,7 @@ V Project Service Automation verzia 2 a verzia 1, priradenia úloh boli uložen�
 
 Vo verzii 3 Project Service Automation sa zmenila základná schéma priraďovania rezervovateľných zdrojov k úlohám. Riadkové úlohy boli zastarané a existuje priama 1:1 vzťah medzi úlohy v **entite Úloha** a členom tímu v entite priradenia **Priradenie zdroja**. Úlohy, ktoré sú priradené k členovi projektového tímu, sa teraz ukladajú priamo do entity priradenia prostriedkov.  
 
-Tieto zmeny majú vplyv na inováciu všetkých existujúcich projektov, ktoré majú priradenia prostriedkov pre pomenované rezervovateľné zdroje a všeobecné zdroje v projektovom tíme. Táto téma poskytuje úvahy, ktoré budete musieť vziať do úvahy pre vaše projekty pri inovácii na verziu 3. 
+Tieto zmeny majú vplyv na inováciu všetkých existujúcich projektov, ktoré majú priradenia prostriedkov pre pomenované rezervovateľné zdroje a všeobecné zdroje v projektovom tíme. Tento článok poskytuje úvahy, ktoré budete musieť vziať do úvahy pri svojich projektoch pri inovácii na verziu 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Úlohy priradené k pomenovaným zdrojom
 Pomocou podkladovej entity úloh úlohy vo verzii 2 a verzii 1 umožnili členom tímu vykresliť inú rolu, než je predvolená definovaná rola. Napríklad Lucia Kováčová, ktorá je predvolene priradená k roli manažér programu, môže byť priradená k úlohe s rolou Vývojár. Vo verzii 3 je vždy predvolená úloha pomenovaného člena tímu, takže všetky úlohy, ku ktorým je Lucia Kováčová priradená používa Luciinu predvolenú rolu manažéra programu.

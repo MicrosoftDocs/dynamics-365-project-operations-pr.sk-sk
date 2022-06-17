@@ -1,6 +1,6 @@
 ---
-title: Prispôsobenie týždenného vstupného času
-description: Táto téma poskytuje informácie o tom, ako implementovať vlastné obchodné pravidlá, ktoré podporujú postupy organizácie.
+title: Prispôsobenie týždenných zadaní času
+description: Tento článok poskytuje informácie o tom, ako implementovať vlastné obchodné pravidlá, ktoré podporujú postupy organizácie.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581073"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918975"
 ---
 # <a name="customize-weekly-time-entry"></a>Prispôsobenie týždenných zadaní času 
 
@@ -46,9 +46,9 @@ Nová mriežka týždenného časového vstupu je vlastný ovládací prvok, kto
 - Typ
 - Stav zadania
 
-Sekcia **Dimenzia** neumožňuje riadkové úpravy. Táto časť je podporovaná zobrazením, ktoré umožňuje pridať vlastné polia do mriežky týždennej časovej položky. Informácie o pridávaní vlastných polí nájdete v časti „Rozšíriteľnosť” neskôr v tejto téme.
+Sekcia **Dimenzia** neumožňuje riadkové úpravy. Táto časť je podporovaná zobrazením, ktoré umožňuje pridať vlastné polia do mriežky týždennej časovej položky. Informácie o pridávaní vlastných polí nájdete v časti „Rozšíriteľnosť“ ďalej v tomto článku.
 
-### <a name="duration"></a>Trvanie
+### <a name="duration"></a>Duration
 V časti trvanie sa zobrazujú dni v týždni ako hlavičky stĺpcov. Táto časť umožňuje úpravy v riadku. Po vytvorení riadka časového vstupu, ktorý má príslušné dimenzie, môžu používatelia rýchlo zadávať, v riadku, množstvo času, ktoré strávili v týchto dimenziách.
 
 ## <a name="create-a-new-time-entry"></a>Vytvorenie nového časového záznamu

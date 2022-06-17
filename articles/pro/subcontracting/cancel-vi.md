@@ -1,19 +1,19 @@
 ---
-title: Zrušte faktúru dodávateľa projektu
-description: Táto téma vysvetľuje, ako zrušiť faktúru dodávateľa projektu v spoločnosti Microsoft Dynamics 365 Project Operations a finančný dopad zrušenia faktúry dodávateľa projektu.
+title: Zrušenie projektovej faktúry dodávateľa
+description: Tento článok vysvetľuje, ako zrušiť faktúru dodávateľa projektu v spoločnosti Microsoft Dynamics 365 Project Operations a finančný dopad zrušenia faktúry dodávateľa projektu.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87f6bdca30c5779e3d70922e75609ff4cdfca167
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911569"
 ---
-# <a name="cancel-a-project-vendor-invoice"></a>Zrušte faktúru dodávateľa projektu
+# <a name="cancel-a-project-vendor-invoice"></a>Zrušenie projektovej faktúry dodávateľa
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

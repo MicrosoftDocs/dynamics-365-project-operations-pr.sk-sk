@@ -1,17 +1,17 @@
 ---
 title: Denník integrácie v aplikácii Project Operations
-description: Táto téma poskytuje informácie o práci s denníkom integrácie v aplikácii Project Operations.
+description: Tento článok poskytuje informácie o práci s denníkom Integration v Project Operations.
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923897"
 ---
 # <a name="integration-journal-in-project-operations"></a>Denník integrácie v aplikácii Project Operations
 
@@ -40,7 +40,7 @@ Riadky denníka sa vytvárajú na základe skutočných hodnôt projektu. Nasled
   - Pole **Kupón** zobrazuje číslo kupónu pre každú skutočnú transakciu. Poradie čísel kupónov je definované na karte **Číselné sekvencie** na stránke **Parametre projektového manažmentu a účtovníctva**. Každému riadku je priradené nové číslo. Po zapísaní kupónu môžete zobraziť, ako súvisia transakcie nákladov a nefakturovaných predajov výberom možnosti **Súvisiace kupóny** na strane **Transakcia kupónu**.
   - Pole **Kategória** predstavuje transakciu projektu a predvolené hodnoty založené na kategórii transakcií pre skutočnú hodnotu súvisiaceho projektu.
     - Ak je **Kategória transakcie** nastavená v skutočnej hodnote projektu a súvisiaca **Kategória projektu** existuje v danom právnom subjekte, kategória je predvolene nastavená na túto kategóriu projektu.
-    - Ak **Kategória transakcie** nie je nastavená v aktuálnom projekte, systém použije hodnotu v **Predvolené nastavenia kategórie projektu** pole na **Operácie projektu na Dynamics 365 Customer Engagement** kartu na **Projektový manažment a účtovné parametre** stránku.
+    - Ak **Kategória transakcie** nie je nastavený v aktuálnom projekte, systém použije hodnotu v **Predvolené nastavenia kategórie projektu** pole na **Operácie projektu na Dynamics 365 Customer Engagement** kartu na **Projektový manažment a účtovné parametre** stránku.
   - Pole **Zdroj** predstavuje zdroj projektu súvisiaci s touto transakciou. Zdroj sa používa ako referencia v návrhoch projektových faktúr zákazníkom.
   - The **Výmenný kurz** pole predvolené od **Výmenný kurz** nastaviť v Dynamics 365 Finance. Ak nastavenie výmenného kurzu chýba, periodický proces **Import z pracovnej verzie** nepridá záznam do denníka a do protokolu vykonania úlohy sa pridá chybové hlásenie.
   - Pole **Vlastnosť riadka** predstavuje typ fakturácie v skutočných hodnotách projektu. Vlastnosť linky a mapovanie typu fakturácie sú definované na **Operácie projektu na Dynamics 365 Customer Engagement** kartu na **Projektový manažment a účtovné parametre** stránku.

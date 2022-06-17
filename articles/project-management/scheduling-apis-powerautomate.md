@@ -1,25 +1,25 @@
 ---
-title: Použite rozhrania API plánovania projektu s Power Automate
-description: Táto téma poskytuje vzorový tok, ktorý používa rozhrania API na plánovanie aplikácií.
+title: Použitie rozhraní API plánovania projektov so službou Power Automate
+description: Tento článok poskytuje vzorový tok, ktorý používa rozhrania API na plánovanie aplikácií.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916353"
 ---
-# <a name="use-project-schedule-apis-with-power-automate"></a>Použite rozhrania API plánovania projektu s Power Automate
+# <a name="use-project-schedule-apis-with-power-automate"></a>Použitie rozhraní API plánovania projektov so službou Power Automate
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma popisuje vzorový postup, ktorý ukazuje, ako vytvoriť úplný plán projektu pomocou Microsoft Power Automate, ako vytvoriť množinu operácií a ako aktualizovať entitu. Príklad ukazuje, ako vytvoriť projekt, člena projektového tímu, množiny operácií, projektové úlohy a priradenia zdrojov. Táto téma tiež vysvetľuje, ako aktualizovať entitu a spustiť množinu operácií.
+Tento článok popisuje vzorový postup, ktorý ukazuje, ako vytvoriť úplný plán projektu pomocou Microsoft Power Automate, ako vytvoriť množinu operácií a ako aktualizovať entitu. Príklad ukazuje, ako vytvoriť projekt, člena projektového tímu, množiny operácií, projektové úlohy a priradenia zdrojov. Tento článok tiež vysvetľuje, ako aktualizovať entitu a spustiť množinu operácií.
 
-Nasleduje úplný zoznam krokov, ktoré sú zdokumentované v toku vzorky v tejto téme:
+Nasleduje úplný zoznam krokov, ktoré sú zdokumentované v toku vzorky v tomto článku:
 
 1. [Vytvor PowerApps spúšťač](#1)
 2. [Vytvoriť projekt](#2)
@@ -40,7 +40,7 @@ Nasleduje úplný zoznam krokov, ktoré sú zdokumentované v toku vzorky v tejt
 
 ## <a name="assumptions"></a>Predpoklady
 
-Táto téma predpokladá, že máte základné znalosti o Dataverse platforma, cloud toky a Project Schedule Application Programming Interface (API). Viac informácií nájdete na [Referencie](#references) časť ďalej v tejto téme.
+Tento článok predpokladá, že máte základné znalosti o Dataverse platforma, cloud toky a Project Schedule Application Programming Interface (API). Viac informácií nájdete na [Referencie](#references) časť ďalej v tomto článku.
 
 ## <a name="create-a-flow"></a>Vytvorte postup
 
@@ -65,7 +65,7 @@ Podľa týchto krokov vytvorte a [tok uvedomujúci si riešenie](/power-automate
 1. Na **Riešenia** stránke, vyberte riešenie, ktoré ste vytvorili, a potom vyberte **Nový**.
 2. Na ľavej table vyberte **Cloud toky** \> **automatizácia** \> **Cloud flow** \> **Okamžité**.
 3. V **Názov toku** pole, zadajte **Naplánujte tok ukážky rozhrania API**.
-4. V **Vyberte, ako spustiť tento tok** zoznam, vyberte **Power Apps**. Keď vytvoríte a Power Apps spúšť, logika je na tebe ako autorovi. V tejto téme ponechajte vstupné parametre prázdne na účely testovania.
+4. V **Vyberte, ako spustiť tento tok** zoznam, vyberte **Power Apps**. Keď vytvoríte a Power Apps spúšť, logika je na vás ako autorovi. V tomto článku ponechajte vstupné parametre prázdne na účely testovania.
 5. Vyberte položku **Vytvoriť**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Krok 2: Vytvorenie projektu
@@ -95,7 +95,7 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **inicializovať premennú**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
 3. V novom kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
-4. Premenujte krok **Init člen tímu**.
+4. Premenujte krok **Člen init tímu**.
 5. V **názov** pole, zadajte **TeamMemberAction**.
 6. V **Typ** pole, vyberte **Reťazec**.
 7. V **Hodnota** pole, zadajte **msdyn\_ CreateTeamMemberV1**.
@@ -125,7 +125,7 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
     - **\@\@ odata.typ** – Názov entity. Napríklad zadajte **"Microsoft.Dynamics.CRM.msdyn\_ projektová skupina"**.
     - **msdyn\_ projektteamid** – Primárny kľúč ID projektového tímu. Hodnota je výraz globálneho jedinečného identifikátora (GUID).   ID sa generuje na karte výraz.
 
-    - **msdyn\_ projektu\@ odata.viazať** – ID projektu vlastníka projektu. Hodnota bude dynamický obsah, ktorý pochádza z odpovede kroku „Vytvoriť projekt“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projekty (PRIDAŤ DYNAMICKÝ OBSAH)“**.
+    - **msdyn\_ projektu\@ odata.viazať** – ID projektu vlastníka projektu. Hodnotou bude dynamický obsah, ktorý pochádza z odpovede kroku „Vytvoriť projekt“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projekty (PRIDAŤ DYNAMICKÝ OBSAH)“**.
     - **msdyn\_ názov** – Meno člena tímu. Napríklad zadajte **"ScheduleAPIDemoTM1"**.
 
 ## <a name="step-5-create-an-operation-set"></a><a id="5"></a> Krok 5: Vytvorte súpravu operácií
@@ -204,7 +204,7 @@ Podľa týchto krokov vytvorte projektovú úlohu, ktorá má jedinečné ID, kt
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **vykonať neviazanú akciu**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
 3. V kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
-4. Premenujte krok **Vytvorenie projektovej úlohy**.
+4. Premenujte krok **Vytvoriť projektovú úlohu**.
 5. V **Názov akcie** pole, vyberte **msdyn\_ PssCreateV1**.
 6. V **Entita** zadajte nasledujúce informácie o parametroch.
 
@@ -226,7 +226,7 @@ Podľa týchto krokov vytvorte projektovú úlohu, ktorá má jedinečné ID, kt
 
     - **\@\@ odata.typ** – Názov entity. Napríklad zadajte **"Microsoft.Dynamics.CRM.msdyn\_ projektová úloha"**.
     - **msdyn\_ projecttaskid** – Jedinečné ID úlohy. Hodnota by mala byť nastavená na dynamickú premennú z **msdyn\_ projecttaskid**.
-    - **msdyn\_ projektu\@ odata.viazať** – ID projektu vlastníka projektu. Hodnota bude dynamický obsah, ktorý pochádza z odpovede kroku „Vytvoriť projekt“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projekty (PRIDAŤ DYNAMICKÝ OBSAH)“**.
+    - **msdyn\_ projektu\@ odata.viazať** – ID projektu vlastníka projektu. Hodnotou bude dynamický obsah, ktorý pochádza z odpovede kroku „Vytvoriť projekt“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projekty (PRIDAŤ DYNAMICKÝ OBSAH)“**.
     - **msdyn\_ predmet** – Ľubovoľný názov úlohy.
     - **msdyn\_ projectbucket\@ odata.viazať** – Skupina projektu, ktorá obsahuje úlohy. Hodnota bude dynamický obsah, ktorý pochádza z odpovede kroku „Vytvoriť vedro“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projectbuckets (PRIDAŤ DYNAMICKÝ OBSAH)“**.
     - **msdyn\_ začať** – Dynamický obsah pre dátum začiatku. Napríklad zajtrajšok bude reprezentovaný ako **"addDays(utcNow(), 1)"**.

@@ -1,6 +1,6 @@
 ---
 title: Základná Príručka Cenovými ponukami, oceňovaním a fakturáciou
-description: Táto téma poskytuje odkazy na informácie o vytváraní základných cenových ponúk, oceňovania a fakturácie v Project Service Automation.
+description: Tento článok poskytuje prepojenia na informácie o základných cenových ponukách, cenách a fakturácii v Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910833"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Základná Príručka Cenovými ponukami, oceňovaním a fakturáciou
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592251"
 
 Schopnosť nájsť správne zdroje v pravý čas, rezervovať tieto zdroje na projektoch, a udržať zdroje využité pomáha organizáciám splniť ciele príjmov a spokojnosť zákazníkov. 
 
-Odkaz PDF, ktorý bol predtým v tejto téme odstránený a obsah bol presunutý do nasledujúcich tém:
+Odkaz na PDF, ktorý bol predtým v tomto článku, bol odstránený a obsah bol presunutý do nasledujúcich článkov:
 
 - [Vytváranie cenových ponúk, oceňovanie a fakturovanie](../quote-bill-price.md)
 - [predajné procesy](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Odkaz PDF, ktorý bol predtým v tejto téme odstránený a obsah bol presunutý
 - [Nahrávanie skutočných údajov](../advanced-actuals.md)
 
 > [!NOTE]
-> Táto téma sa odstráni v budúcej aktualizácii dokumentácie. 
+> Tento článok bude odstránený v budúcej aktualizácii dokumentácie. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

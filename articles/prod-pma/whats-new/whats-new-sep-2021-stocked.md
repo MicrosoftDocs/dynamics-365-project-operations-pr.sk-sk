@@ -1,24 +1,24 @@
 ---
 title: Čo je nové alebo zmenené v Project Operations, september 2021 pre scenáre na sklade/výrobe
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú dostupné vo vydaní Project Operations zo septembra 2021 pre scenáre na sklade/výrobe.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní Project Operations zo septembra 2021 pre scenáre na sklade/výrobe.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916537"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Čo je nové alebo zmenené v Project Operations, september 2021 pre scenáre na sklade/výrobe
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/výrobe_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsoft Dynamics 365 Project Operations:
 
 - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.21
  
@@ -31,31 +31,31 @@ Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 36
 | Projektový manažment a účtovníctvo | [538002](https://fix.lcs.dynamics.com/Issue/Details/?bugId=538002) | Na overenie rozpočtu použite alternatívny rozpočet projektu. |
 | Projektový manažment a účtovníctvo | [546265](https://fix.lcs.dynamics.com/Issue/Details/?bugId=546265) | The **Predajná cena hodina** cenová skupina nie je vypočítaná podľa štruktúry rozpisu prác pre ponuky projektov. |
 | Projektový manažment a účtovníctvo | [555604](https://fix.lcs.dynamics.com/Issue/Details/?bugId=555604) | Odstránenie odhadu zlyhá, keď **Povoliť menu projektovej zmluvy pre výpočet odhadu** funkcia je povolená. |
-| Projektový manažment a účtovníctvo | [563523](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563523) | Faktorizácia dane z obratu podľa množstva sa pripočíta k sume predajnej ceny, keď sa daň z použitia použije v skupine dane z obratu v denníku výdavkov projektu. |
+| Projektový manažment a účtovníctvo | [563523](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563523) | Faktorizácia dane z obratu podľa množstva sa pripočíta k sume predajnej ceny, keď sa použije daň z použitia v skupine dane z obratu v denníku výdavkov projektu. |
 | Projektový manažment a účtovníctvo | [564701](https://fix.lcs.dynamics.com/Issue/Details/?bugId=564701) | Podmienená daň sa pri poslednej platbe nevypočítava správne, keď sa na faktúry nákupných objednávok vzťahuje zadržanie dodávateľa a platba vopred. |
 | Projektový manažment a účtovníctvo | [565642](https://fix.lcs.dynamics.com/Issue/Details/?bugId=565642) | Sledovanie úprav nefunguje pre denníky počiatočných zostatkov. |
 | Projektový manažment a účtovníctvo | [568814](https://fix.lcs.dynamics.com/Issue/Details/?bugId=568814) | **Pridelenie revízie rozpočtu projektu podľa obdobia** je rozdelená na všetky rozpočtové obdobia. Po odoslaní pridelenia sa záznam nevymaže. |
 | Projektový manažment a účtovníctvo | [569250](https://fix.lcs.dynamics.com/Issue/Details/?bugId=569250) | Zaúčtovania rozpracovanej výroby (WIP) do hlavnej knihy majú nesprávnu sumu. |
 | Projektový manažment a účtovníctvo | [570731](https://fix.lcs.dynamics.com/Issue/Details/?bugId=570371) | Schválenie denníka hodín projektu nefunguje. |
 | Projektový manažment a účtovníctvo | [571391](https://fix.lcs.dynamics.com/Issue/Details/?bugId=571391) | Ak je limit financovania neoznačený, predajná cena úpravy projektu sa neaktualizuje o nepriame náklady. |
-| Projektový manažment a účtovníctvo | [575831](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575831) | Požiadavku na položku nie je možné vytvoriť, keď je hlavička tabuľky Predaj fakturovaná a záložná nákupná objednávka pre existujúce riadky bola dokončená. |
+| Projektový manažment a účtovníctvo | [575831](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575831) | Požiadavku na položku nemožno vytvoriť, keď je hlavička tabuľky Predaj fakturovaná a záložná nákupná objednávka pre existujúce riadky bola dokončená. |
 | Projektový manažment a účtovníctvo | [578036](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578036) | Suma zachovania pre pravidlo fakturácie, ktoré má míľnik pre iný projekt, nie je zaúčtovaná v zodpovedajúcom ID projektu, ktorý bol vybratý pre míľnik. Namiesto toho je uverejnený s prvým projektom. |
-| Projektový manažment a účtovníctvo | [578327](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578327) | Keď vyberiete **Sada finančných rozmerov** na návrhu faktúry sa vyskytne nasledujúca chyba: "Nie je možné odovzdať objekt typu "Dynamic.AX .Application.FormIntControl' napíšte 'Dynamics.AX .Application.FormStringControl'." |
+| Projektový manažment a účtovníctvo | [578327](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578327) | Keď vyberiete **Sada finančných rozmerov** na návrhu faktúry sa vyskytne nasledujúca chyba: „Nie je možné odovzdať objekt typu „Dynamic.AX .Application.FormIntControl' napíšte 'Dynamics.AX .Application.FormStringControl'." |
 | Projektový manažment a účtovníctvo | [581167](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581167) | The **Projektová faktúra** správa preskakuje riadky. |
 | Projektový manažment a účtovníctvo | [581489](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581489) | Pri výpočte nákladovej kontroly pre investičný projekt sa vyskytne chyba. |
 | Projektový manažment a účtovníctvo | [590357](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590357) | The **ProjTable:: InitFromCustTable - canDeletePostalAddress** spôsobí problém s výkonom. |
 | Projektový manažment a účtovníctvo | [592493](https://fix.lcs.dynamics.com/Issue/Details/?bugId=592493) | Chybové hlásenie by malo byť jasnejšie ako „Neočakávaná chyba“. |
 | Projektový manažment a účtovníctvo | [598810](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598810) | Dávková úloha účtovania faktúry projektu spracuje a zaúčtuje návrh faktúry, aj keď riadky faktúry neboli vygenerované. |
-| Projektový manažment a účtovníctvo | [574282](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574282) | Problém so zaokrúhľovaním sa vyskytuje, keď je konfiguračný kľúč verejného sektora vypnutý. Nesprávna cena alebo predajná cena sa generuje v hodinách časového výkazu pre zmluvy, ktoré majú viacero zakladajúcich zdrojov. |
+| Projektový manažment a účtovníctvo | [574282](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574282) | Problém so zaokrúhľovaním nastáva, keď je konfiguračný kľúč pre verejný sektor vypnutý. Nesprávna cena alebo predajná cena sa generuje v hodinách časového výkazu pre zmluvy, ktoré majú viacero zakladajúcich zdrojov. |
 | Projektový manažment a účtovníctvo | [577598](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577598) | Predajná cena projektu vo fakturovanej objednávke projektu je nesprávne vypočítaná, keď je model predajnej ceny **Príspevkový pomer**. |
 | Projektový manažment a účtovníctvo | [580784](https://fix.lcs.dynamics.com/Issue/Details/?bugId=580784) | Systém neberie do úvahy aktívne dni medzi tým, keď vypočítava efektívnu mieru práce pre zamestnanca. |
 | Projektový manažment a účtovníctvo | [584054](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584054) | V medzipodnikovom časovom výkaze sa vyskytne chyba účtovania z dôvodu nasledujúcej chyby overenia: „Žiadny obchodný partner nie je nakonfigurovaný pre právnickú osobu.“ |
 | Projektový manažment a účtovníctvo | [586303](https://fix.lcs.dynamics.com/Issue/Details/?bugId=586303) | Popis z nákupnej objednávky, ktorá má kategóriu výdavkov, sa nenačíta v zozname zaúčtovaných transakcií projektu. |
 | Projektový manažment a účtovníctvo | [590349](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590349) | V denníkoch položiek, ktoré sú zaúčtované do projektu, je nesprávna konverzia. |
-| Projektový manažment a účtovníctvo | [557294](https://fix.lcs.dynamics.com/Issue/Details/?bugId=557294) | Objednávku môžete potvrdiť, aj keď bol prekročený limit financovania. |
-| Projektový manažment a účtovníctvo | [574162](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574162) | The **Oprava/Storno faktúry** Po výbere ID projektu zmizne časť na faktúre s voľným textom. |
+| Projektový manažment a účtovníctvo | [557294](https://fix.lcs.dynamics.com/Issue/Details/?bugId=557294) | Objednávku môžete potvrdiť aj vtedy, ak bol prekročený limit financovania. |
+| Projektový manažment a účtovníctvo | [574162](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574162) | The **Oprava/Zrušenie faktúry** sekcia na faktúre s voľným textom zmizne po výbere ID projektu. |
 | Projektový manažment a účtovníctvo | [575425](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575425) | Pri zaúčtovaní návrhu projektovej faktúry z projektovej zákazky odberateľa, ktorá obsahuje skladovú položku, dochádza k problémom s výkonom. |
-| Projektový manažment a účtovníctvo | [575939](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575939) | Faktúry za nákup projektu nie je možné zaúčtovať, pretože sa vyskytla nasledujúca chyba: "Funkcia AccDistProcessorProjectExtension.createForProjectRevenueLine bola nesprávne volaná." |
+| Projektový manažment a účtovníctvo | [575939](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575939) | Faktúry za nákup projektu nemožno zaúčtovať, pretože sa vyskytla nasledujúca chyba: "Funkcia AccDistProcessorProjectExtension.createForProjectRevenueLine bola nesprávne volaná." |
 | Projektový manažment a účtovníctvo | [578970](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578970) | Aktualizácia vytvárania dávkových úloh odhadu projektu na podporu vykonávania viacerých čiastkových úloh. |
 | Projektový manažment a účtovníctvo | [584519](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584519) | Stav časového rozvrhu nie je možné aktualizovať **Návrh** keď je pracovný postup zaseknutý v a **Zrušené** štát. |
 | Projektový manažment a účtovníctvo | [584757](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584757) | Sumy zadržania nie sú vypočítané v návrhu faktúry dobropisu, ak existuje viacero riadkov. |
@@ -67,14 +67,14 @@ Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 36
 | Projektový manažment a účtovníctvo | [596669](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596669) | Číslo oslobodené od dane pre právnickú osobu nie je uvedené na vytlačenej projektovej faktúre. |
 | Projektový manažment a účtovníctvo | [597563](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597563) | Keď sa projekt upraví vo vzťahu k úverovým linkám, v chybe jednotky zásob sa neaktualizujú žiadne finančné údaje. |
 | Projektový manažment a účtovníctvo | [598109](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598109) | Po použití KB 461935 nemôžete uverejňovať odhady, ak prepnete na súvislé číselné poradie. |
-| Projektový manažment a účtovníctvo | [598688](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598688) | **TimeEntryDataManager** spôsobí mobilnú aplikáciu Project timesheet Android prestať reagovať. |
+| Projektový manažment a účtovníctvo | [598688](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598688) | **TimeEntryDataManager** spôsobí, že mobilná aplikácia časového rozvrhu projektu Android prestať reagovať. |
 | Projektový manažment a účtovníctvo | [602677](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602677) | Prevrátená hodnota WIP zo zaúčtovania faktúry sa líši od pôvodne zaúčtovanej hodnoty WIP z časového záznamu. |
 | Projektový manažment a účtovníctvo | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | V prípadoch aplikovanej zálohy sa transakcie na poukážke nevyrovnajú, keď sa zaúčtuje fakturovaný výnos za projekt. |
 | Projektový manažment a účtovníctvo | [603320](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603320) | Keď **Zlepšenie výkonnosti plánovania zdrojov projektu** je povolená funkcia, desatinné hodnoty sú nesprávne zaokrúhlené vzhľadom na dostupnosť zdrojov a kapacitu. |
 | Projektový manažment a účtovníctvo | [607324](https://fix.lcs.dynamics.com/Issue/Details/?bugId=607324) | Keď **Vytvorte odhady projektu pomocou viacerých dávkových úloh** je povolená funkcia, vytváranie odhadov v dávke, ktorá má viacero čiastkových úloh, funguje len pre aktuálne obdobie. |
 | Cestovanie a výdavky | [551911](https://fix.lcs.dynamics.com/Issue/Details/?bugId=551911) | Politika žiadostí o cestu sa ignoruje a pracovný postup je schválený bez chýb. |
 | Cestovanie a výdavky | [563752](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563752) | <p>Aplikácia Mobile Expense neukladá do výdavkového riadku nasledujúce informácie:</p><ul><li>ID projektu</li><li>Či je výdavok zúčtovateľný</li><li>Číslo aktivity</li></ul> |
-| Cestovanie a výdavky | [569458](https://fix.lcs.dynamics.com/Issue/Details/?bugId=569458) | The **Priložené účtenky** pole je nastavené na **Áno** aj v prípade, že k výdavkovému riadku nie je priložený žiadny doklad. |
+| Cestovanie a výdavky | [569458](https://fix.lcs.dynamics.com/Issue/Details/?bugId=569458) | The **Priložené účtenky** pole je nastavené na **Áno** aj keď k riadku výdavkov nie je priložený žiadny doklad. |
 | Cestovanie a výdavky | [571334](https://fix.lcs.dynamics.com/Issue/Details/?bugId=571334) | Keď zmeníte kategóriu výdavkov na, dôjde k chybe **Osobné**. |
 | Cestovanie a výdavky | [572783](https://fix.lcs.dynamics.com/Issue/Details/?bugId=572783) | Po rozdelení transakcie kreditnou kartou na osobné výdavky nemôžete priložiť potvrdenie a upraviť rodičovský výdavok. |
 | Cestovanie a výdavky | [574252](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574252) | Zásady výdavkov pre medzipodnikové transakcie, ktoré majú ID projektu, nefungujú správne. |

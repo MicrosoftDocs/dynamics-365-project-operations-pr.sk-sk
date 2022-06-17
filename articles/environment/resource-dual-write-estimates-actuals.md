@@ -1,24 +1,24 @@
 ---
 title: Integrácia odhadov a skutočných hodnôt projektu
-description: Táto téma poskytuje informácie o integrácii duálneho zápisu Project Operations pre odhady a skutočné hodnoty projektu.
+description: Tento článok poskytuje informácie o integrácii duálneho zápisu Project Operations pre odhady a skutočnosti projektu.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914605"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integrácia odhadov a skutočných hodnôt projektu
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Táto téma poskytuje informácie o integrácii duálneho zápisu Project Operations pre odhady a skutočné hodnoty projektu.
+Tento článok poskytuje informácie o integrácii duálneho zápisu Project Operations pre odhady a skutočnosti projektu.
 
 ## <a name="project-estimates"></a>Odhady projektu
 
@@ -28,7 +28,7 @@ Vytvorenie odhadov si vyžaduje platnú konfiguráciu účtovníctva pre projekt
 
 ## <a name="labor-estimates"></a>Odhady pracovnej sily
 
-Odhady pracovnej sily vytvára projektový manažér alebo manažér zdrojov, ktorý tiež projektovej úlohe priradí všeobecný alebo pomenovaný zdroj. Záznamy o priradení zdrojov možno skontrolovať na karte **Priradenia zdrojov** na stránke **Podrobnosti o projekte** v Dataverse. Záznamy priradenia zdrojov v Dataverse vytvárať záznamy o predpovedi hodín v aplikáciách Finance and Operations pomocou **Integračná entita Project Operations pre odhady hodín (msdyn\_ priradenia zdrojov)**.
+Odhady pracovnej sily vytvára projektový manažér alebo manažér zdrojov, ktorý tiež projektovej úlohe priradí všeobecný alebo pomenovaný zdroj. Záznamy o priradení zdrojov možno skontrolovať na karte **Priradenia zdrojov** na stránke **Podrobnosti o projekte** v Dataverse. Záznamy priradenia zdrojov v Dataverse vytvárať záznamy predpovedí hodín v aplikáciách Finance and Operations pomocou **Integračná entita Project Operations pre odhady hodín (msdyn\_ priradenia zdrojov)**.
 
    ![Integrácia pracovných odhadov.](./Media/DW4LaborEstimates.png)
 
@@ -44,11 +44,11 @@ Odhady výdavkov vytvára projektový manažér na karte **Odhady výdavkov** na
 
 Funkcia duálneho zápisu synchronizuje záznamy odhadov výdavkov do pracovnej tabuľky (**ProjCDSEstimateExpenseImport**) a potom pomocou obchodnej logiky vytvorí a aktualizuje záznamy o výdavkoch (**ProjForecastCost**). Odhady riadkov ukladajú odhady predaja a odhady nákladov osobitne. Obchodná logika v aplikáciách Finance and Operations vyplní jeden záznam prognózy výdavkov pomocou tohto detailu v tabuľke príprav.
 
-Účtovník projektu môže skontrolovať záznamy prognózy výdavkov v aplikáciách Financie a operácie tak, že prejde na **Projektový manažment a účtovníctvo** > **Všetky projekty** > **Plán** > **Prognózy výdavkov**.
+Účtovník projektu môže skontrolovať záznamy prognóz výdavkov v aplikáciách Financie a operácie tak, že prejde na **Projektový manažment a účtovníctvo** > **Všetky projekty** > **Plán** > **Prognózy výdavkov**.
 
 ## <a name="material-estimates"></a>Odhady materiálov
 
-Odhady materiálov vytvára projektový manažér na karte **Odhady materiálov** na stránke **Podrobnosti o projekte** v Dataverse. Záznamy o odhade materiálov sú uložené v entite **Riadok odhadu** v Dataverse. Tieto záznamy odhadov majú triedu transakcií, **Materiál** a sú synchronizované so záznamami prognózy položiek v aplikáciách Finance and Operations **Tabuľka integrácie projektu pre odhady materiálu (msdyn\_ odhady)**.
+Odhady materiálov vytvára projektový manažér na karte **Odhady materiálov** na stránke **Podrobnosti o projekte** v Dataverse. Záznamy o odhade materiálov sú uložené v entite **Riadok odhadu** v Dataverse. Tieto záznamy odhadov majú triedu transakcií, **Materiál** a sú synchronizované so záznamami prognózy položiek v aplikáciách Finance and Operations, ktoré používajú **Tabuľka integrácie projektu pre odhady materiálu (msdyn\_ odhady)**.
 
    ![Integrácia odhadov materiálov.](./Media/DW4MaterialEstimates.png)
 
@@ -69,7 +69,7 @@ Mapa tabuľky **Integrácia skutočných údajov Project Operations** synchroniz
 
 Mapa tabuľky s dvojitým zápisom synchronizuje záznamy skutočností s postupnou tabuľkou **ProjCDSActualsImport**. Tieto záznamy sú spracovávané periodickým procesom **Import z pracovnej tabuľky** pri vytváraní riadkov denníka integrácie Project Operations a riadkov návrhu faktúry projektu. Viac informácií nájdete v časti [Denník integrácie v Project Operations](../project-accounting/project-operations-integration-journal.md).
 
-Dataverse tiež zachytáva väzby medzi skutočnými transakciami projektu v entite **Kontaktná osoba pre transakciu**. Viac informácií nájdete v časti [Prepojenie skutočných hodnôt s pôvodnými záznamami](../actuals/linkingactuals.md). Prepojenia medzi skutočnými transakciami sú tiež synchronizované s aplikáciami Finance and Operations pomocou mapy s dvojitým zápisom, **Integračná entita pre transakčné vzťahy projektu (msdyn\_ transakčné pripojenia)**. Tieto záznamy sú spracovávané periodickým procesom **Import z pracovnej tabuľky** pri vytváraní riadkov denníka integrácie Project Operations a riadkov návrhu faktúry projektu.
+Dataverse tiež zachytáva väzby medzi skutočnými transakciami projektu v entite **Kontaktná osoba pre transakciu**. Viac informácií nájdete v časti [Prepojenie skutočných hodnôt s pôvodnými záznamami](../actuals/linkingactuals.md). Prepojenia medzi skutočnými transakciami sú tiež synchronizované s aplikáciami Finance and Operations pomocou mapy s dvojitým zápisom, **Integračná entita pre projektové transakčné vzťahy (msdyn\_ transakčné pripojenia)**. Tieto záznamy sú spracovávané periodickým procesom **Import z pracovnej tabuľky** pri vytváraní riadkov denníka integrácie Project Operations a riadkov návrhu faktúry projektu.
 
 Zaúčtovanie denníka integrácie projektových operácií a návrhu faktúry projektu spustí aktualizáciu v príslušných záznamoch v pracovnej tabuľke **ProjCDSActualsImport**. Systém zachytáva a zaznamenáva nasledujúce účtovné atribúty pre transakcie skutočností:
 

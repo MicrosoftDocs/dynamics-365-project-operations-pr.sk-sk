@@ -1,6 +1,6 @@
 ---
 title: Konfigurácia fakturácie medzipodnikových projektov
-description: Táto téma ukazuje, ako nastaviť fakturáciu projektu medzi dvoma spoločnosťami vo vašej organizácii.
+description: Tento článok ukazuje, ako nastaviť projektovú fakturáciu medzi dvoma spoločnosťami vo vašej organizácii.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916629"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfigurácia fakturácie medzipodnikových projektov
 
 [!include [banner](../../includes/banner.md)]
 
-Táto téma ukazuje, ako nastaviť fakturáciu projektu medzi dvoma spoločnosťami vo vašej organizácii. Táto úloha používa množinu údajov USSI.
+Tento článok ukazuje, ako nastaviť projektovú fakturáciu medzi dvoma spoločnosťami vo vašej organizácii. Táto úloha používa množinu údajov USSI.
 
 1. Na navigačnej table prejdite do **Moduly > Záväzky > Nákupné objednávky > Dodávatelia > Všetci dodávatelia**.
 2. V zozname **Všetci dodávatelia** vyhľadajte a vyberte požadovaný záznam.

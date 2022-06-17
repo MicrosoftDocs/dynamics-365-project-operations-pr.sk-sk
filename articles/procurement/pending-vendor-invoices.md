@@ -1,18 +1,18 @@
 ---
 title: Nakúpte neskladovaný materiál alebo kategórie obstarávania pomocou čakajúcej faktúry dodávateľa
-description: Táto téma vysvetľuje, ako zaznamenávať čakajúce faktúry dodávateľa.
+description: Tento článok vysvetľuje, ako zaznamenávať čakajúce faktúry dodávateľa.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922011"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nakúpte neskladovaný materiál alebo kategórie obstarávania pomocou čakajúcej faktúry dodávateľa
 
@@ -23,7 +23,7 @@ Keďže spoločnosť obstaráva neskladový materiál alebo kategórie obstaráv
 Spoločnosť Contoso Robotics USA napríklad vykonáva projekt obnovy zariadenia a potrebuje softvérové licencie. Tieto licencie sú obstarávané od dodávateľa tretej strany.  Pomocou Dynamics 365 Finance účtovník zaznamená čakajúci doklad faktúry dodávateľa a pripíše náklady na licenciu priamo k projektu obnovy zariadenia. 
 
 > [!IMPORTANT]
-> Pred použitím funkcií popísaných v tejto téme si prečítajte a vykonajte požadované konfigurácie. Ďalšie informácie nájdete v časti [Povoliť neskladované materiály a čakajúce faktúry dodávateľa](configure-materials-nonstocked.md) a [Použite kategórie obstarávania s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa](configure-procurement-categories.md)
+> Pred použitím funkcií opísaných v tomto článku si prečítajte a použite požadované konfigurácie. Viac informácií nájdete v časti [Povoliť neskladované materiály a čakajúce faktúry dodávateľa](configure-materials-nonstocked.md) a [Použite kategórie obstarávania s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Zaúčtujte faktúru dodávateľa čakajúcu na projekt 
 

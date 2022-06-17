@@ -1,25 +1,25 @@
 ---
 title: Riešenie problémov s prácou v mriežke úloh
-description: Táto téma poskytuje informácie o riešení problémov potrebných pri práci v mriežke úloh.
+description: Tento článok poskytuje informácie o riešení problémov potrebné pri práci v mriežke úloh.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911063"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Riešenie problémov s prácou v mriežke úloh 
 
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/nenaskladnené, nasadenie Lite – dohoda o proforma fakturácii, Project for the Web_
 
-Mriežka úloh bola využitá pomocou Dynamics 365 Project Operations je hostiteľským rámcom iframe v rámci Microsoft Dataverse. V dôsledku tohto použitia musia byť splnené konkrétne požiadavky na zaistenie správneho fungovania autentifikácie a autorizácie. Táto téma načrtáva bežné problémy, ktoré môžu mať vplyv na schopnosť vykresľovať mriežku alebo spravovať úlohy v štruktúre rozdelenia práce (WBS).
+Mriežka úloh bola využitá pomocou Dynamics 365 Project Operations je hostiteľským rámcom iframe v rámci Microsoft Dataverse. V dôsledku tohto použitia musia byť splnené konkrétne požiadavky na zaistenie správneho fungovania autentifikácie a autorizácie. Tento článok popisuje bežné problémy, ktoré môžu ovplyvniť schopnosť vykresľovať mriežku alebo spravovať úlohy v štruktúre rozpisu práce (WBS).
 
 Bežné problémy zahŕňajú:
 

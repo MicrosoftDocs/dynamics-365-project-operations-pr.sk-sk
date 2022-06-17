@@ -1,24 +1,24 @@
 ---
 title: Odstránené alebo zastarané funkcie v Dynamics 365 Project Operations
-description: Táto téma popisuje funkcie, ktoré boli odstránené alebo ktoré sa plánujú odstrániť z Dynamics 365 Project Operations.
+description: Tento článok popisuje funkcie, ktoré boli odstránené alebo ktoré sa plánujú odstrániť z Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921505"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Odstránené alebo zastarané funkcie v Dynamics 365 Project Operations
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma a Project Operations pre scenáre založené na zdrojoch/výrobe_
 
-Táto téma popisuje funkcie, ktoré boli odstránené alebo ktoré sa plánujú odstrániť z Dynamics 365 Project Operations.
+Tento článok popisuje funkcie, ktoré boli odstránené alebo ktoré sa plánujú odstrániť z Dynamics 365 Project Operations.
 
 - *Odstránená* funkcia už v produkte nie je k dispozícii.
 - *Zastaraná* funkcia nie je v aktívnom vývoji a môže byť odstránená v budúcej aktualizácii.
@@ -44,7 +44,7 @@ Tento zoznam vám pomôže zvážiť tieto odstránenia a ukončenia podpory pre
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Dôvod ukončenia podpory/odstránenia** | Tento parameter bol pôvodne použitý na umožnenie úprav, keď bol fiškálne obdobie zatvorený. Už to však nie je potrebné, pretože účtovný dátum transakcie možno zmeniť na prvý dátum otvoreného obdobia, ak je nakonfigurovaný. Dátum projektu sa nesmie meniť, pretože predstavuje dátum, kedy došlo k transakcii. |
+| **Dôvod ukončenia podpory/odstránenia** | Tento parameter bol pôvodne použitý na umožnenie úprav, keď bol fiškálne obdobie zatvorený. Už to však nie je potrebné, pretože účtovný dátum transakcie je možné zmeniť na prvý dátum otvoreného obdobia, ak je nakonfigurovaný. Dátum projektu sa nesmie meniť, pretože predstavuje dátum, kedy došlo k transakcii. |
 | **Nahradené inou funkciou?** | No |
 | **Ovplyvnené oblasti výrobkov** | Aplikácia |
 | **Možnosť nasadenia** | Projektové operácie pre scenáre výroby/skladu |
@@ -78,7 +78,7 @@ Tento zoznam vám pomôže zvážiť tieto odstránenia a ukončenia podpory pre
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Dôvod ukončenia podpory/odstránenia** | Zastarané z dôvodu nízkeho používania. Zákazníci, ktorí používajú projektové operácie pre scenáre so zdrojmi/nezásobené, môžu využiť [Spolupráca s Office Groups](../project-management/collaboration-groups.md). |
+| **Dôvod ukončenia podpory/odstránenia** | Zastarané pre nízke využitie. Zákazníci, ktorí používajú projektové operácie pre scenáre so zdrojmi/nezásobené, môžu využiť [Spolupráca s Office Groups](../project-management/collaboration-groups.md). |
 | **Nahradené inou funkciou?** | No |
 | **Ovplyvnené oblasti výrobkov** | Aplikácia  |
 | **Možnosť nasadenia** | Projektové operácie pre scenáre výroby/skladu |

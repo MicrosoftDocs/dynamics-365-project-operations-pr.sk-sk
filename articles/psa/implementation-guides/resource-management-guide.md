@@ -1,6 +1,6 @@
 ---
 title: Príručka správy zdrojov
-description: Táto téma obsahuje prepojenia na informácie o riadení zdrojov v Project Service Automation
+description: Tento článok poskytuje prepojenia na informácie o správe zdrojov v Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910817"
 ---
 # <a name="resource-management-guide"></a>Príručka správy zdrojov
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595471"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Odkaz PDF, ktorý bol predtým v tejto téme odstránený a obsah bol presunutý do nasledujúcich tém:
+Odkaz na PDF, ktorý bol predtým v tomto článku, bol odstránený a obsah bol presunutý do nasledujúcich článkov:
 
 - [Domovská stránka Správa zdrojov](../resource-management-home-page.md)
 - [Kľúčové koncepty](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Odkaz PDF, ktorý bol predtým v tejto téme odstránený a obsah bol presunutý
 - [Časté otázky pre správu zdrojov](../resource-management-faq.md)
 
 > [!NOTE]
-> Táto téma sa odstráni v budúcej aktualizácii dokumentácie. 
+> Tento článok bude odstránený v budúcej aktualizácii dokumentácie. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

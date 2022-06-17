@@ -1,17 +1,17 @@
 ---
 title: Konfigurácia tabule plánovania s cieľom zobraziť zmluvných pracovníkov a kapacitu na základe subdodávateľskej zmluvy
-description: Táto téma popisuje, ako nakonfigurovať plánovaciu tabuľu v spoločnosti Microsoft Dynamics 365 Project Operations ukázať kapacitu subdodávateľských zdrojov pri personálnom zabezpečení požiadaviek na zdroje projektu.
+description: Tento článok popisuje, ako nakonfigurovať plánovaciu tabuľu v spoločnosti Microsoft Dynamics 365 Project Operations ukázať kapacitu subdodávateľských zdrojov pri personálnom zabezpečení požiadaviek na zdroje projektu.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919849"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Konfigurácia tabule plánovania s cieľom zobraziť zmluvných pracovníkov a kapacitu na základe subdodávateľskej zmluvy 
 
@@ -40,7 +40,7 @@ Dotaz používaný na vyhľadávanie by sa mal tiež aktualizovať, aby použív
 1. OTVORENÉ **Nastavenia tabule plánovania** pre konkrétnu plánovaciu radu.
 2. Otvor **Všeobecné nastavenia** kartu a prejdite na **Iné nastavenia**.
 3. V zozname nastavení v tejto časti aktualizujte **Rozloženie filtra** do **Predvolené rozloženie filtra pre Project Operations Lite**.
-4. Aktualizovať **Dopyt na získanie zdrojov** do **Predvolený dotaz na zdroje na získanie pre Project Operations Lite**.
+4. Aktualizovať **Dotaz na získanie zdrojov** do **Predvolený dotaz na zdroje na získanie pre Project Operations Lite**.
 
 ![Aktualizujte nastavenia tabule plánovania pre všeobecné vyhľadávanie zdrojov](../media/BoardSettings.png)  
 
@@ -57,7 +57,7 @@ Dotaz používaný na vyhľadávanie by sa mal tiež aktualizovať, aby použív
 1. OTVORENÉ **Nastavenia tabule plánovania** pre konkrétnu plánovaciu tabuľu a potom vyberte **Otvorte Predvolené nastavenia** otvorte nastavenia pre vyhľadávanie podľa požiadaviek.
 2. Otvor **Všeobecné nastavenia** kartu a prejdite na **Iné nastavenia**.
 3. V zozname nastavení v tejto časti aktualizujte **Rozloženie filtra** do **Predvolené rozloženie filtra pre Project Operations Lite**.
-4. Aktualizovať **Dopyt na získanie zdrojov** do **Predvolený dotaz na zdroje na získanie pre Project Operations Lite**.
+4. Aktualizovať **Dotaz na získanie zdrojov** do **Predvolený dotaz na zdroje na získanie pre Project Operations Lite**.
 5. Otvor **Typy rozvrhu** kartu a prejdite na **Projekt**.
 6. V nastaveniach pre **Projekt**, aktualizovať **Dotaz na získanie zdrojov Asistenta plánovania** do **Predvolený dotaz na zdroje na získanie pre Project Operations Lite** a aktualizovať **Dotaz na získanie obmedzení asistenta plánovania** do **Predvolený dotaz na obmedzenia načítania pre Project Operations Lite**.
 

@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919251"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfigurácia dodatočných nastavení parametrov (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592351"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Akonáhle ste nastavili položky v predchádzajúcich témach, musíte nastaviť ďalšie parametre projektu na použitie pri projektoch. Pri prvej inštalácii [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], ste vytvorili nastavenia parametrov, aby najprv vytvorili všetky záznamy potrebné pre prevádzku [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Teraz je čas sa vrátiť a nastaviť ďalšie polia pre tieto nastavenia.  
+Po konfigurácii položiek v predchádzajúcich článkoch je potrebné nastaviť ďalšie parametre projektu, ktoré chcete použiť pre svoje projekty. Pri prvej inštalácii [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], ste vytvorili nastavenia parametrov, aby najprv vytvorili všetky záznamy potrebné pre prevádzku [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Teraz je čas sa vrátiť a nastaviť ďalšie polia pre tieto nastavenia.  
   
  Budete musieť nakonfigurovať nasledujúce nastavenia:  
   

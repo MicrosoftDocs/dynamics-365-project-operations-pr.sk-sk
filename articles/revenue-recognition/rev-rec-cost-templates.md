@@ -1,24 +1,24 @@
 ---
 title: Nastavenie šablón nákladov
-description: Táto téma poskytuje informácie o tom, ako vytvoriť a používať šablóny nákladov v Project Operations.
+description: Tento článok poskytuje informácie o vytváraní a používaní šablón nákladov v prevádzke projektu.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918423"
 ---
 # <a name="set-up-cost-templates"></a>Nastavenie šablón nákladov
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 
-Táto téma poskytuje informácie o tom, ako vytvoriť a používať šablóny nákladov v Project Operations. Šablóna nákladov určuje:
+Tento článok poskytuje informácie o vytváraní a používaní šablón nákladov v prevádzke projektu. Šablóna nákladov určuje:
 
 - Kategórie projektu pre prognózy a skutočné transakcie, ktoré sa majú zahrnúť do percenta výpočtu dokončenia projektu. Hodnota percenta dokončenia sa potom použije na výpočet výšky vykázaného výnosu.
 - Či je možné percento dokončenia zmeniť, ak sa počíta automaticky.

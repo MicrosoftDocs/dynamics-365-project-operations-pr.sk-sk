@@ -1,19 +1,19 @@
 ---
-title: Fakturácia dodávateľa – koncept a tvorba
-description: Táto téma popisuje koncepciu dodávateľských faktúr, scenáre použitia a spôsob vytvárania dodávateľských faktúr v Microsoft Dynamics 365 Project Operations.
+title: Fakturácia dodávateľov – koncept a tvorba
+description: Tento článok popisuje koncepciu dodávateľských faktúr, scenáre použitia a spôsob vytvárania dodávateľských faktúr v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911477"
 ---
-# <a name="vendor-invoicing---concept-and-creation"></a>Fakturácia dodávateľa – koncept a tvorba
+# <a name="vendor-invoicing---concept-and-creation"></a>Fakturácia dodávateľov – koncept a tvorba
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -21,13 +21,13 @@ _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Fakturácia dodávateľa v spoločnosti Microsoft Dynamics 365 Project Operations možno použiť na evidenciu nákladov na dodávky služieb a/alebo materiálov na projekte dodávateľmi.
 
-Keď sú služby a/alebo materiály zadané dodávateľovi ako subdodávka, subdodávka predstavuje zmluvnú dohodu s týmto dodávateľom. Keď dodávateľ dodáva služby alebo materiály sú prijímané a používané na projektové úlohy, náklady sa zaznamenávajú do projektu. Dodávateľ pravidelne posiela faktúry, ktoré sú overené a spárované s nákladmi, ktoré sú zaznamenané v projekte. Po dokončení procesu overovania je faktúra dodávateľa potvrdená a uvoľnená na platbu.
+Keď sú služby a/alebo materiály zadané dodávateľovi ako subdodávka, subdodávka predstavuje zmluvnú dohodu s týmto dodávateľom. Keď dodávateľ dodáva služby alebo sa materiály prijímajú a používajú na projektové úlohy, náklady sa zaznamenávajú do projektu. Dodávateľ pravidelne posiela faktúry, ktoré sú overené a spárované s nákladmi, ktoré sú zaznamenané v projekte. Po dokončení procesu overovania je faktúra dodávateľa potvrdená a uvoľnená na platbu.
 
 ## <a name="scenarios-for-use"></a>Scenáre na použitie
 
 Faktúry dodávateľa v projektových operáciách možno použiť na podporu dvoch odlišných scenárov.
 
-### <a name="customers-use-the-full-subcontracting-experiences"></a>Zákazníci využívajú všetky možnosti subdodávok
+### <a name="customers-use-the-full-subcontracting-experiences"></a>Zákazníci využívajú všetky subdodávateľské skúsenosti
 
 Skúsenosti s faktúrami dodávateľa poskytujú spôsob, ako overiť a spárovať záznamy času, spotreby materiálu a nákladových záznamov, ktoré odkazujú na subdodávateľské komponenty s riadkami faktúr dodávateľa. Tento proces možno použiť na overenie presnosti riadkov faktúry dodávateľa. Po dokončení procesu overovania a potvrdení faktúry dodávateľa aplikácia stornuje skutočnosti, ktoré boli zaznamenané v schválených protokoloch času, nákladov a spotreby materiálu, a vytvorí nové skutočné náklady pomocou riadkov faktúry dodávateľa.
 

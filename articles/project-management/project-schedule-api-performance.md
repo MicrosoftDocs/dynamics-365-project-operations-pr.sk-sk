@@ -1,28 +1,28 @@
 ---
 title: Výkon rozhrania API plánovania projektov
-description: Táto téma poskytuje informácie o výkonnostných testoch API plánovania projektu a identifikuje najlepšie postupy pre optimálne použitie.
+description: Tento článok poskytuje informácie o výkonnostných testoch API plánovania projektu a identifikuje najlepšie postupy na optimálne použitie.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911201"
 ---
 # <a name="project-schedule-api-performance"></a>Výkon rozhrania API plánovania projektov
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/nenaskladnené, nasadenie Lite – dohoda o proforma fakturácii, Project for the Web_
 
-Táto téma poskytuje informácie o výkonnostných testoch API plánovania projektu a identifikuje najlepšie postupy pre optimálne použitie.
+Tento článok poskytuje informácie o výkonnostných benchmarkoch rozhraní API (Project schedule application programming interfaces) a identifikuje najlepšie postupy na optimalizáciu používania.
 
 ## <a name="project-scheduling-service"></a>Služba Project Scheduling
 Služba Project Scheduling je služba pre viacerých nájomníkov, ktorá beží v Microsoft Azure. Je navrhnutý tak, aby zlepšil interakciu poskytovaním rýchleho a plynulého zážitku, keď používatelia pracujú na projektoch. Toto zlepšenie sa dosiahne prijatím požiadaviek na zmenu, ich spracovaním a následným okamžitým vrátením výsledku. Služba asynchrónne pretrváva na Dataverse a neblokuje používateľov vo vykonávaní iných operácií.
 
-Rozhrania API služby Project Scheduling sa pri spúšťaní požiadaviek, ktoré sú podrobnejšie opísané v neskorších častiach tejto témy, spoliehajú na službu Project Scheduling.
+Rozhrania API plánovania projektu sa pri spúšťaní požiadaviek, ktoré sú podrobnejšie opísané v neskorších častiach tohto článku, spoliehajú na službu plánovania projektu.
 
 Rozhrania API harmonogramu projektu sú navrhnuté tak, aby spolupracovali s nasledujúcimi entitami štruktúry rozdelenia práce (WBS):
 

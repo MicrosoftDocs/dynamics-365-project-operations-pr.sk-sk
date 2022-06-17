@@ -1,6 +1,6 @@
 ---
 title: Cenové ponuky – Kľúčové koncepty
-description: Táto téma poskytuje informácie o cenových ponukách projektov a cenových ponukách predaja dostupných v Project Operations.
+description: Tento článok poskytuje informácie o projektových ponukách a predajných ponukách dostupných v Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912535"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Koncepty jedinečné pre projektové cenové ponuky
 
@@ -35,7 +35,7 @@ V Dynamics 365 Project Operations existujú dva typy cenových ponúk, projektov
 - **Polia a koncepty**: Predajná cenová ponuka nezahŕňa niektoré polia a koncepty, ktoré sú súčasťou projektovej cenovej ponuky. Polia zahŕňajú **zmluvnú jednotku**, **Account Manager** a **faktúra na kontaktné meno**.  
 - **Typ**: Predajné cenové ponuky a projektové cenové ponuky sú tiež identifikované poľom založeným na množine možností – **Typ**. Pre predajnú ponuku má toto pole hodnotu **Založené na položke**. Pre projektovú cenovú ponuku, má hodnotu **založené na práci**.
 
-Táto téma sa zameriava na detaily projektových ponúk.
+Tento článok sa zameriava na detaily projektových ponúk.
 
 Projektová cenová ponuka v Project Operations môže mať viac riadkov položiek alebo riadkov cenovej ponuky. V skutočnosti, projektová cenová ponuka má dve mriežky pre riadkové položky. Jedna mriežka je pre riadky založené na projekte, ktoré umožňujú podrobné odhady. Druhá mriežka je pre riadky založené na produkte, ktoré používajú jednoduchú jednotkovú cenu a prístup založený na množstve.
 

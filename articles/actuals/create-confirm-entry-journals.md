@@ -1,6 +1,6 @@
 ---
-title: Vytvorte a potvrďte vstupné denníky
-description: Táto téma poskytuje informácie o tom, ako vytvoriť a potvrdiť Entry journals v Microsoft Dynamics 365 Project Operations.
+title: Vytvorenie a potvrdenie účtovných denníkov zadaní
+description: Tento článok poskytuje informácie o tom, ako vytvoriť a potvrdiť vstupné denníky v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,14 +13,14 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912351"
 ---
-# <a name="create-and-confirm-entry-journals"></a>Vytvorte a potvrďte vstupné denníky
+# <a name="create-and-confirm-entry-journals"></a>Vytvorenie a potvrdenie účtovných denníkov zadaní
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -64,7 +64,7 @@ Ak chcete vytvoriť žurnál vstupov v prevádzke projektu, postupujte podľa t�
     | Metóda výpočtu sumy | Štandardne je toto pole nastavené na **Vynásobte množstvo cenou**. Pri použití tejto metódy sa suma vypočíta ako *množstvo* ×*cena*. Ďalšou podporovanou metódou je **Pevná cena**. Pri použití tohto spôsobu sa cena nastaví na sumu a množstvo sa pri výpočte nepoužije. | |
     | Plán jednotiek a jednotka | Plán jednotiek a jednotka spolu identifikujú jednotku množstva. | Kombinácia jednotky a kategórie transakcie sa používa na zadanie štandardných cien pre výdavky. V predvolenej konfigurácii Project Operations sa kombinácia jednotky, role a jednotky zdrojov používa na zadanie predvolených cien za čas. Ak máte vlastnú konfiguráciu na zadávanie predvolených cien, použije sa spolu s jednotkou. Kombinácia produktu a jednotky sa používa na zadanie predvolených cien materiálov. |
     | Množstvo | Zadajte množstvo. | |
-    | Cena | Ak pri vytváraní riadku denníka ponecháte cenu prázdnu, príslušné hodnoty sa použijú na zadanie predvolených cien v závislosti od triedy transakcie. Ak je pri vytváraní riadku denníka zadaná cena, použije sa táto cena. | |
+    | Cena | Ak pri vytváraní riadku denníka ponecháte cenu prázdnu, na zadanie predvolených cien sa použijú príslušné hodnoty v závislosti od triedy transakcie. Ak je pri vytváraní riadku denníka zadaná cena, použije sa táto cena. | |
     | Daň | Zadajte ľubovoľnú sumu dane. | V závislosti od zadanej sumy dane sa rozšírená suma vypočíta ako *Suma* + *daň*. |
 
 ## <a name="confirm-an-entry-journal"></a>Potvrďte vstupný denník
@@ -80,7 +80,7 @@ Existuje niekoľko kľúčových rozdielov medzi skutočnými hodnotami, ktoré 
 - Vstupné denníky nepoužívajú transakčné spojenia na prepojenie skutočných nákladov so skutočnými nevyfakturovanými predajmi. Skutočné údaje, ktoré sa vytvoria pri schválení protokolov spotreby času, nákladov a materiálu, vždy používajú transakčné pripojenia na prepojenie skutočných nákladov a nevyúčtovaných predajov.
 - Vstupné denníky nepoužívajú počiatky transakcií na prepojenie skutočných nákladov a skutočných nevyfakturovaných tržieb s akýmkoľvek pôvodným záznamom. Skutočné hodnoty, ktoré sa vytvoria pri schvaľovaní denníkov spotreby času, nákladov a materiálu, vždy používajú pôvod transakcií na prepojenie skutočných nákladov a nevyfakturovaných predajov s pôvodným záznamom času.
 - Keď sa fakturujú skutočné nevyfakturované tržby, ktoré sú vytvorené potvrdením Vstupného denníka, skutočné vyúčtované tržby, ktoré sa vytvoria počas potvrdenia faktúry, sú prepojené so skutočnými nevyfakturovanými predajmi, podobným spôsobom ako skutočné nevyfakturované tržby, ktoré sa vytvoria, keď čas, Výdavok a Záznamy o použití materiálu sú schválené.
-- Riadky vstupného denníka, ktoré sú vytvorené pre čas, ktorý je zadaný medziorganizačnými zdrojmi, nespôsobujú skutočné hodnoty **Jednotkové náklady na zdroje** a **Predaj Interorg** typy, ktoré sa majú vytvárať automaticky. Tieto skutočné hodnoty musia byť vytvorené ručne. Toto správanie sa líši od správania pre časové položky, ktoré sú zaznamenané medziorganizačnými zdrojmi. V takom prípade, keď je čas schválený, aplikácia automaticky vytvorí aktuálne informácie **náklady** typ na projekte a skutočnostiach **Jednotkové náklady na zdroje** a **Predaj Interorg** typy na oddelení, ktoré vlastní zamestnanec. Potom použije transakčné spojenia na prepojenie týchto skutočností a počiatkov transakcií na ich prepojenie s pôvodným časovým záznamom.
+- Riadky vstupného denníka, ktoré sú vytvorené pre čas, ktorý je zadaný medziorganizačnými zdrojmi, nespôsobujú skutočné hodnoty **Jednotkové náklady na zdroje** a **Predaj Interorg** typy, ktoré sa majú vytvárať automaticky. Tieto skutočné hodnoty musia byť vytvorené ručne. Toto správanie sa líši od správania pre časové položky, ktoré sú zaznamenané medziorganizačnými zdrojmi. V takom prípade, keď je čas schválený, aplikácia automaticky vytvorí aktuálne informácie **náklady** typ na projekte a skutočných **Jednotkové náklady na zdroje** a **Predaj Interorg** typy na oddelení, ktoré vlastní zamestnanec. Potom použije transakčné spojenia na prepojenie týchto skutočností a počiatkov transakcií na ich prepojenie s pôvodným časovým záznamom.
 - Keď sú vstupné denníky potvrdené, vytvárajú aktuálne údaje. Opravné denníky však nemožno použiť na opravu týchto skutočností. Toto správanie sa líši od správania pre skutočné údaje, ktoré sa vytvárajú pri schvaľovaní protokolov o použití času, nákladov a materiálu. V takom prípade vám aplikácia umožňuje použiť denníky opráv na opravu skutočností, aby sa opravili prípadné chyby, za predpokladu, že tieto skutočnosti ešte neboli vyfakturované. Ak už boli vyfakturované, stále môžete opraviť skutočnú skutočnosť, ak spracujete celý kredit tejto skutočnosti zákazníkovi.
 
 > [!NOTE]

@@ -1,17 +1,17 @@
 ---
 title: Migrujte plne fakturované míľniky fakturácie pri prerušení
-description: Táto téma vysvetľuje, ako migrovať míľniky fakturácie s pevnou cenou, ktoré boli zákazníkovi fakturované za otvorené projektové zmluvy pred dátumom uvedenia do prevádzky.
+description: Tento článok vysvetľuje, ako migrovať míľniky fakturácie s pevnou cenou, ktoré boli zákazníkovi fakturované za otvorené projektové zmluvy pred dátumom uvedenia do prevádzky.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576289"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912259"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Migrujte plne fakturované míľniky fakturácie pri prerušení
 
@@ -33,7 +33,7 @@ Contoso sa spúšťa s Microsoftom Dynamics 365 Project Operations pre scenáre 
 
 1. Uistite sa, že cieľové mapovanie pre **Míľniky zmluvy o integrácii projektových operácií** subjekt je aktuálny. 
 
-    1. V časti Financie prejdite na **Správa údajov** \> **Dátové entity** a vyberte položku **Míľniky zmluvy o integrácii projektových operácií** subjekt. 
+    1. V časti Financie prejdite na **Správa údajov** \> **Dátové entity** a vyberte možnosť **Míľniky zmluvy o integrácii projektových operácií** subjekt. 
     2. Vyberte **Upravte cieľové mapovania**. 
     3. Na **Zloženie mapy do cieľa** stránku, vyberte **Vytvorte mapovanie** a potom potvrďte, že chcete vygenerovať mapovanie.
 

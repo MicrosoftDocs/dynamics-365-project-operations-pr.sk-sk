@@ -1,6 +1,6 @@
 ---
 title: Analýza projektových cenových ponúk
-description: Táto téma poskytuje informácie o analýze projektových cenových ponúk.
+description: Tento článok poskytuje informácie o analýze projektových ponúk.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f3bff90f91e1df8bda495912a4aad0fa69342396
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9db924c16c5eca17e7962ff1d88b09e581347fa5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919297"
 ---
 # <a name="analysis-of-project-quotes"></a>Analýza projektových cenových ponúk
 

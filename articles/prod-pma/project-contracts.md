@@ -1,6 +1,6 @@
 ---
 title: Projektové zmluvy
-description: Táto téma poskytuje príklady projektových zmlúv, ktoré môžete vytvoriť pre rôzne typy projektov a zdrojov financovania, a ako môžete spravovať zmluvy a fakturovať zákazníkom projektu.
+description: Tento článok poskytuje príklady projektových zmlúv, ktoré môžete vytvoriť pre rôzne typy projektov a zdrojov financovania, a ako môžete spravovať zmluvy a fakturovať zákazníkom projektu.
 author: Yowelle
 ms.date: 11/03/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 14ff17bb070a44d8f3962e08f67d4c95bd8a26f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683511"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919665"
 ---
 # <a name="project-contracts"></a>Projektové zmluvy
 

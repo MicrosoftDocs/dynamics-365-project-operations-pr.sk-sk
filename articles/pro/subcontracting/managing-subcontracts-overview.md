@@ -1,17 +1,17 @@
 ---
 title: Správa subdodávateľských zmlúv v aplikácii Project Operations
-description: Táto téma prináša prehľad celého procesu správy subdodávateľských zmlúv, typicky v projektových organizáciách.
+description: Tento článok poskytuje prehľad o komplexnom procese riadenia subdodávok zvyčajne v projektových organizáciách.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911524"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Správa subdodávateľských zmlúv v aplikácii Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593033"
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma prináša prehľad celého procesu správy subdodávateľských zmlúv v projektových organizáciách. Subdodávky služieb sa spravidla riadia tokom obchodného procesu, ktorý je znázornený na nasledujúcom diagrame.
+Tento článok poskytuje prehľad o komplexnom procese riadenia subdodávok v projektových organizáciách. Subdodávky služieb sa spravidla riadia tokom obchodného procesu, ktorý je znázornený na nasledujúcom diagrame.
 
 ![Postup procesu subdodávateľských zmlúv](../media/SubcontractingProcessFlow.png)
 

@@ -1,24 +1,24 @@
 ---
 title: Čo je nové v marci 2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú dostupné vo vydaní Project Operations z marca 2022 pre scenáre založené na zdrojoch/nezásobách.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú dostupné vo vydaní Project Operations z marca 2022 pre scenáre založené na zdrojoch/nezásobách.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910925"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v marci 2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
 *Platí pre: Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch*
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsoft Dynamics 365 Project Operations:
 
 - Projektové operácie v a Dataverse verzia prostredia 4.30.0.99
 - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.25
@@ -60,7 +60,7 @@ Ak narazíte na problém pri spustení mapy, postupujte podľa pokynov v časti 
 | Fakturácia a tvorba cien | 2589619 | Daň zo zapísaného materiálu sa prenáša do skutočných nevyfakturovaných predajov a faktúry. |
 | Správa príležitostí | 2594015 | Cenovú ponuku nemožno uzavrieť ako vyhratú pre zákazníkov, ktorí tak urobili **Net60** platobné podmienky. |
 | Plánovanie a sledovanie projektu | 2595841 | V Project for the Web sa používateľom zobrazí chybové hlásenie o chýbajúcom **msdyn\_ skutočný štart** keď vytvoria novú požiadavku na zdroj. |
-| Čas a výdavky | 2602511 | The **Odmietnuté používateľom** pole pre časové záznamy zobrazuje **systém** namiesto menovaného používateľa ako odmietajúceho. |
+| Čas a výdavky | 2602511 | The **Odmietnuté používateľom** zobrazuje pole pre časové záznamy **systém** namiesto menovaného používateľa ako odmietajúceho. |
 | Čas a výdavky | 2602528 | Schvaľovateľ projektu môže schváliť čas na projektoch, kde nie je uvedený ako schvaľovateľ. |
 | Fakturácia a tvorba cien | 2608550 | Opravnú faktúru je možné potvrdiť aj vtedy, ak nedošlo k žiadnym zmenám oproti originálu. |
 
@@ -86,16 +86,16 @@ Ak narazíte na problém pri spustení mapy, postupujte podľa pokynov v časti 
 | Cestovanie a výdavky | [641272](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641272) | Hľadanie pre **Projekt** pole na riadku cestovnej požiadavky nevracia správny zoznam projektov. |
 | Cestovanie a výdavky | [645905](https://fix.lcs.dynamics.com/Issue/Details/?bugId=645905) | **Prehľad najazdených kilometrov** zobrazuje varovanie vo výkazoch výdavkov. |
 | Cestovanie a výdavky | [647819](https://fix.lcs.dynamics.com/Issue/Details/?bugId=647819) | Služba optického rozpoznávania znakov (OCR) potvrdenia nefunguje pre problém s adresou URL výdavkovej služby OCR. |
-| Cestovanie a výdavky | [648684](https://fix.lcs.dynamics.com/Issue/Details/?bugId=648684) | Keď **Schopnosť rýchlo rozpísať opakujúce sa výdavky** Ak je aktivovaná funkcia, sumy v riadkoch položiek vo výkazoch výdavkov sa menia sumy zakaždým, keď **Itemize** stránka sa otvorí. |
+| Cestovanie a výdavky | [648684](https://fix.lcs.dynamics.com/Issue/Details/?bugId=648684) | Keď **Schopnosť rýchlo rozpísať opakujúce sa výdavky** Ak je funkcia povolená, sumy v riadkoch položiek vo výkazoch výdavkov sa menia sumy vždy, keď **Itemize** stránka sa otvorí. |
 | Cestovanie a výdavky | [651899](https://fix.lcs.dynamics.com/Issue/Details/?bugId=651899) | Výkaz výdavkov nemôžete odstrániť, ak má priebežný zoznam viac ako jedného schvaľovateľa. |
 
 ## <a name="removed-and-deprecated-features"></a>Odstránené a zastarané funkcie
 
-The [Odstránené alebo zastarané funkcie v Project Operations](removed-depreciated-features-project.md) téma popisuje funkcie, ktoré boli odstránené alebo zastarané Dynamics 365 Project Operations.
+The [Odstránené alebo zastarané funkcie v Project Operations](removed-depreciated-features-project.md) článok popisuje funkcie, ktoré boli odstránené alebo ktorých podpora bola ukončená Dynamics 365 Project Operations.
 
 - Odstránená funkcia už v produkte nie je k dispozícii.
 - Zastaraná funkcia nie je v aktívnom vývoji a môže byť odstránená v budúcej aktualizácii.
 
-Oznámenie o ukončení podpory sa zobrazí v [Odstránené alebo zastarané funkcie v Project Operations](removed-depreciated-features-project.md) tému 12 mesiacov pred odstránením akejkoľvek funkcie z produktu.
+Oznámenie o ukončení podpory sa zobrazí v [Odstránené alebo zastarané funkcie v Project Operations](removed-depreciated-features-project.md) článku 12 mesiacov pred odstránením akejkoľvek funkcie z produktu.
 
 Pre prerušenie zmien, ktoré ovplyvňujú iba čas kompilácie, ale sú binárne kompatibilné so sandboxom a produkčným prostredím, bude čas ukončenia podpory kratší ako 12 mesiacov. Tieto zmeny sú zvyčajne funkčné aktualizácie, ktoré je potrebné vykonať v kompilátore.

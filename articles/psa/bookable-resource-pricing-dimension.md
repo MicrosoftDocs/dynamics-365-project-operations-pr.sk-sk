@@ -1,6 +1,6 @@
 ---
 title: Použiť rezervovateľný zdroj ako cenovú dimenziu
-description: Táto téma poskytuje informácie o používaní rezervovateľného prostriedku ako dimenzie cien.
+description: Tento článok poskytuje informácie o používaní rezervovateľného zdroja ako cenovej dimenzie.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916123"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Použiť rezervovateľný zdroj ako cenovú dimenziu
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Táto téma poskytuje informácie o používaní rezervovateľného prostriedku ako dimenzie cien. Skôr, ako začnete, ak ste ešte nevytvorili riešenie dimenzie cien, budete musieť vytvoriť novú. Ak už máte riešenie dimenzie cien, môžete vykonať zmeny v tomto riešení. Ak ste pre vašu organizáciu nevytvorili nové riešenie dimenzie cien, dokončite postupy v téme [Vytvorte vlastné polia a entity](create-custom-fields-entities.md).
+Tento článok poskytuje informácie o používaní rezervovateľného zdroja ako cenovej dimenzie. Skôr, ako začnete, ak ste ešte nevytvorili riešenie dimenzie cien, budete musieť vytvoriť novú. Ak už máte riešenie dimenzie cien, môžete vykonať zmeny v tomto riešení. Ak ste pre svoju organizáciu nevytvorili nové riešenie cenovej dimenzie, vykonajte postupy v časti [Vytvorte si vlastné polia a entity](create-custom-fields-entities.md) článok.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Pridanie rezervovateľného prostriedku do formulárov a zobrazení
 Ak chcete, aby sa polia zobrazovali v používateľskom rozhraní v riešení dimenzie cien, budete musieť prejsť všetkými formulármi a pohľadmi kľúčových entít služby Project Service a pridať tieto polia do formulárov a zobrazení týchto entít.

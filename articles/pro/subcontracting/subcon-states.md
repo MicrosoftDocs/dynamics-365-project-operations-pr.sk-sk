@@ -1,17 +1,17 @@
 ---
 title: Prechody stavov v rámci subdodávateľskej zmluvy
-description: Táto téma vysvetľuje prechody stavov na subdodávku v spoločnosti Microsoft Dynamics 365 Project Operations ako je subdodávka vytvorená, vykonaná a uzavretá.
+description: Tento článok vysvetľuje prechody stavu na subdodávku v spoločnosti Microsoft Dynamics 365 Project Operations ako je subdodávka vytvorená, vykonaná a uzavretá.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919757"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Prechody stavov v rámci subdodávateľskej zmluvy 
 
@@ -19,7 +19,7 @@ ms.locfileid: "8579187"
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma vysvetľuje prechody stavu na subdodávke v Microsofte Dynamics 365 Project Operations. Každý štát je reprezentovaný ako koncept, potvrdený, uzavretý alebo zrušený. Nasledujúci obrázok znázorňuje prechody stavov.
+Tento článok vysvetľuje prechody stavu na subdodávku v Microsoft Dynamics 365 Project Operations. Každý štát je reprezentovaný ako koncept, potvrdený, uzavretý alebo zrušený. Nasledujúci obrázok znázorňuje prechody stavov.
 
 ![Model subdodávateľského štátu](../media/SubconStates.png)  
 

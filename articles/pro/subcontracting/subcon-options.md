@@ -1,17 +1,17 @@
 ---
 title: Možnosti subdodávateľskej zmluvy pre členov projektového tímu
-description: Táto téma vysvetľuje možnosti subdodávok pre členov projektového tímu v Microsoft Dynamics 365 Project Operations.
+description: Tento článok vysvetľuje možnosti subdodávok pre členov projektového tímu v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: aacd2f97d3120a854c78fe87e512fad1c43b9651
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88a76ccf73a4b6cfa13a67b50130b007f244d831
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919803"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Možnosti subdodávateľskej zmluvy pre členov projektového tímu
 
@@ -66,6 +66,6 @@ Rovnako ako všeobecní členovia tímu alebo členovia tímu bez personálu, m�
 
 ## <a name="re-costing-subcontractor-assignments"></a>Preúčtovanie úloh subdodávateľov
 
-Keď je člen projektového tímu (všeobecný alebo pomenovaný) prepojený so subdodávateľskými linkami pomocou **Možnosti subdodávok** dialóg, všetky priradenia úloh, ktoré má člen tímu, budú prepočítané na základe nákupného cenníka priloženého k subdodávke. Na **Odhady** kartu na **Podrobnosti projektu** vyberte stránku **Aktualizujte ceny** zobrazíte aktualizované ceny a/alebo kalkulácie vyplývajúce z rozhodnutia uzavrieť subdodávku.
+Keď je člen projektového tímu (všeobecný alebo pomenovaný) prepojený so subdodávateľskými linkami pomocou **Možnosti subdodávok** dialógu, budú všetky priradenia k úlohám, ktoré má člen tímu, prepočítané na základe nákupného cenníka priloženého k subdodávke. Na **Odhady** kartu na **Podrobnosti projektu** vyberte stránku **Aktualizujte ceny** zobrazíte aktualizované ceny a/alebo kalkulácie vyplývajúce z rozhodnutia uzavrieť subdodávku.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

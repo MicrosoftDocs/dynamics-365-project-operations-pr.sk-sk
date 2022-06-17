@@ -1,25 +1,25 @@
 ---
 title: Čo je nové v marci 2021 – nasadenie aplikácie Project Operations Lite
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii v nasadení Project Operations Lite, vydanie z marca 2021.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní zjednodušeného nasadenia Project Operations z marca 2021.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913915"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Čo je nové v marci 2021 – nasadenie aplikácie Project Operations Lite
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 
-Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
 
 - Project Operations v prostredí Dataverse verzie 4.8.0.91 
 

@@ -1,6 +1,6 @@
 ---
 title: Nastavenie vlastných polí ako cenových dimenzií
-description: Táto téma poskytuje informácie o nastavení vlastných dimenzií cien.
+description: Tento článok poskytuje informácie o nastavení vlastných dimenzií určovania cien.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922616"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Nastavenie vlastných polí ako cenových dimenzií 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Pred začatím tejto témy sa predpokladá, že ste dokončili postupy v témach, [Vytvorte vlastné polia a entity](create-custom-fields-entities.md) a [Pridanie vlastných polí do cenového nastavenia a transakčných entít](field-references.md). Ak ste tieto postupy nedokončili, vráťte sa späť a dokončite ich a potom sa vráťte na túto tému. 
+Skôr než začnete, tento článok predpokladá, že ste dokončili postupy v článkoch, [Vytvorte si vlastné polia a entity](create-custom-fields-entities.md) a [Pridajte vlastné polia do nastavenia ceny a transakčných entít](field-references.md). Ak ste tieto postupy nedokončili, vráťte sa a dokončite ich a potom sa vráťte k tomuto článku. 
 
-Táto téma poskytuje informácie o nastavení vlastných dimenzií cien. Vo webovom rozhraní Project Service na stránke **Parametre** karta **Cenové dimenzie založené na čiastke** zobrazí záznamy v entitách dimenzií cien. V predvolenom nastavení Project Service inštalácia vytvorí 2 riadky v mriežke na tejto karte:
+Tento článok poskytuje informácie o nastavení vlastných dimenzií určovania cien. Vo webovom rozhraní Project Service na stránke **Parametre** karta **Cenové dimenzie založené na čiastke** zobrazí záznamy v entitách dimenzií cien. V predvolenom nastavení Project Service inštalácia vytvorí 2 riadky v mriežke na tejto karte:
 
 - **msdyn_resourcecategory** (Rola)
 - **msdyn_OrganizationalUnit** (Organizačná jednotka)

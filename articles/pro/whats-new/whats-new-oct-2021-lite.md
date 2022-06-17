@@ -1,24 +1,24 @@
 ---
 title: Čo je nové október 2021 – Nasadenie Project Operations lite
-description: Táto téma poskytuje informácie o aktualizáciách kvality dostupných vo vydaní nasadenia Project Operations lite v októbri 2021.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní zjednodušeného nasadenia Project Operations z októbra 2021.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7199853bea7e8e99a2a1ce19d6ce88736edb38f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921965"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Čo je nové október 2021 – Nasadenie Project Operations lite
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
 
   - Project Operations v prostredí Microsoft Dataverse verzie 4.25.0.91
 

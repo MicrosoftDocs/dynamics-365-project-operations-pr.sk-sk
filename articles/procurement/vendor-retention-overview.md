@@ -1,18 +1,18 @@
 ---
 title: Prehľad udržania dodávateľov
-description: Táto téma poskytuje prehľad možností zachovania dodávateľov.
+description: Tento článok poskytuje prehľad možností uchovávania dodávateľov.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f9e4a1e63e47524bb622771f645c04e61c279496
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 680786f239125905f3b8746cb8318732aa74d9e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916859"
 ---
 # <a name="vendor-retention-overview"></a>Prehľad udržania dodávateľov
 

@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie modelov prognóz pre rozpočty projektov
-description: Táto téma popisuje, ako vytvoriť model prognózy pre zostávajúce rozpočty.
+description: Tento článok popisuje, ako vytvoriť model prognózy pre zostávajúce rozpočty.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916721"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Vytvorenie modelov prognóz pre rozpočty projektov 
 
 [!include [banner](../includes/banner.md)]
 
-Táto téma popisuje, ako vytvoriť model prognózy pre zostávajúce rozpočty. Projekt, ktorý podlieha kontrole rozpočtu, používa dva typy rozpočtov: pôvodný a zvyšný. Pri vytváraní rozpočtu projektu musíte určiť pôvodný a zostávajúci model prognózy rozpočtu, ktoré boli vytvorené na stránke **Modely prognóz**. Rozpočty projektu založené na zadaných modeloch sa vytvárajú pri potvrdení projektového rozpočtu.
+Tento článok popisuje, ako vytvoriť model prognózy pre zostávajúce rozpočty. Projekt, ktorý podlieha kontrole rozpočtu, používa dva typy rozpočtov: pôvodný a zvyšný. Pri vytváraní rozpočtu projektu musíte určiť pôvodný a zostávajúci model prognózy rozpočtu, ktoré boli vytvorené na stránke **Modely prognóz**. Rozpočty projektu založené na zadaných modeloch sa vytvárajú pri potvrdení projektového rozpočtu.
 
 > [!NOTE]
 > Model prognózy, ktorý sa používa na kontrolu rozpočtu, nemôže mať podmodel alebo ho nemožno použiť ako podmodel.

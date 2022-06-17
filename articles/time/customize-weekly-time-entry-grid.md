@@ -1,17 +1,17 @@
 ---
 title: Rozšírenie zadaní času
-description: Táto téma poskytuje informácie o tom, ako môžu vývojári rozšíriť riadenie zadaní času.
+description: Tento článok poskytuje informácie o tom, ako môžu vývojári rozšíriť kontrolu zadávania času.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914789"
 ---
 # <a name="extending-time-entries"></a>Rozšírenie zadaní času
 
@@ -116,7 +116,7 @@ Ak chcete určiť stav nového zadania času iba na čítanie, pridajte novú ho
 Ďalej pridajte obchodné pravidlá na uzamknutie všetkých polí na **Úprava riadkov** a **Úprava zadania času** stránky. Ak chcete získať prístup k obchodným pravidlám pre tieto stránky, otvorte editor formulárov pre každú stránku a potom vyberte **Obchodné pravidlá**. Nový stav môžete pridať k podmienke v existujúcich obchodných pravidlách, alebo môžete pridať nové obchodné pravidlo pre nový stav.
 
 ### <a name="add-custom-validation-rules"></a>Pridávanie vlastných overovacích pravidiel
-Môžete pridať dva typy pravidiel overenia pre **Týždenný vstup času** skúsenosti s mriežkou:
+Môžete pridať dva typy pravidiel overenia pre **Týždenný vstup času** skúsenosti s gridom:
 
 - Obchodné pravidlá na strane klienta, ktoré fungujú na stránkach
 - Overenia zásuvných modulov na strane servera, ktoré sa vzťahujú na všetky aktualizácie časových záznamov
@@ -125,7 +125,7 @@ Môžete pridať dva typy pravidiel overenia pre **Týždenný vstup času** sk�
 Použite obchodné pravidlá na uzamykanie a odomykanie polí, zadajte predvolené hodnoty do polí a definujte overenia, ktoré vyžadujú informácie len z aktuálneho záznamu o čase. Ak chcete získať prístup k obchodným pravidlám pre stránku, otvorte editor formulárov a potom vyberte **Obchodné pravidlá**. Potom môžete upraviť existujúce obchodné pravidlá alebo pridať nové obchodné pravidlo.
 
 #### <a name="server-side-plug-in-validations"></a>Overenie zásuvných modulov na strane servera
-Overenia doplnku by ste mali použiť pre všetky overenia, ktoré si vyžadujú viac kontextu, ako je k dispozícii v zázname jedného záznamu. Mali by ste ich použiť aj na akékoľvek overenia, ktoré chcete spustiť pri inline aktualizáciách v mriežke. Na dokončenie overení vytvorte vlastný doplnok na **Vstup času** subjekt.
+Overenia doplnku by ste mali použiť pre všetky overenia, ktoré vyžadujú viac kontextu, ako je k dispozícii v zázname s jedným záznamom. Mali by ste ich použiť aj na akékoľvek overenia, ktoré chcete spustiť pri inline aktualizáciách v mriežke. Na dokončenie overení vytvorte vlastný doplnok na **Vstup času** subjekt.
 
 ### <a name="limits"></a>Limity
 V súčasnosti je **Zadanie času** mriežka má limit veľkosti 500 riadkov. Ak existuje viac ako 500 riadkov, prebytočné riadky sa nezobrazia. Neexistuje spôsob, ako tento limit veľkosti zvýšiť.

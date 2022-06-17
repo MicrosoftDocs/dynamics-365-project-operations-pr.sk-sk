@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 15, V3
-description: Táto téma poskytuje informácie o tom, čo je nové v aktualizácii Project Service Automation, vydanie 15, V3.
+description: Tento článok poskytuje informácie o tom, čo je nové v Project Service Automation Update Release 15, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 26b9ee0a6ff1ad81d6c77a6a7091733667c493ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b87cae2cd8913457c2931d1661a57509d1398d29
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915663"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Aktualizácia pre Project Service Automation, vydanie 15, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585167"
 
 S potešením vám oznamujeme najnovšiu aktualizáciu pre aplikáciu Dynamics 365 Project Service Automation (PSA). Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte centrum spravovania pre Dynamics 365 online, prejdite na stránku riešení a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).
 
-Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu PSA V3, vydanie 15. Táto verzia má číslo zostavy V3.10.5.28 a je všeobecne dostupná prostredníctvom samoaktualizácie v januári 2020.
+Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre PSA V3, vydanie aktualizácie 15. Táto verzia má číslo zostavy V3.10.5.28 a je všeobecne dostupná prostredníctvom samoaktualizácie v januári 2020.
 
 ## <a name="update-release-15"></a>Aktualizácia vydania 15 
 

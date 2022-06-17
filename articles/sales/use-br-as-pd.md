@@ -1,26 +1,26 @@
 ---
 title: Použitie rezervovateľného zdroja ako cenovej dimenzie
-description: Táto téma poskytuje informácie o používaní rezervovateľného zdroja ako cenovej dimenzie.
+description: Tento článok poskytuje informácie o tom, ako používať rezervovateľný zdroj ako cenovú dimenziu.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914835"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Použitie rezervovateľného zdroja ako cenovej dimenzie
 
- _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_ 
+ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_ 
 
-Táto téma poskytuje informácie o používaní rezervovateľného zdroja ako cenovej dimenzie. Ak je vaša cenová stratégia nastavená tak, že každý rezervovateľný zdroj musí mať konkrétnu cenu alebo nákladovú sadzbu, použite rezervovateľný zdroj ako cenovú dimenziu.
+Tento článok poskytuje informácie o tom, ako používať rezervovateľný zdroj ako cenovú dimenziu. Ak je vaša cenová stratégia nastavená tak, že každý rezervovateľný zdroj musí mať konkrétnu cenu alebo nákladovú sadzbu, použite rezervovateľný zdroj ako cenovú dimenziu.
 
-## <a name="prerequisites"></a>Predpoklady
-Pred dokončením postupov v tejto téme musíte mať pre svoju organizáciu nové riešenie cenovej dimenzie. Ak ste si ho ešte nevytvorili, pozrite si stránku [Vytvorenie vlastných polí a entít](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>Požiadavky
+Pred dokončením postupov v tomto článku musíte mať pre svoju organizáciu nové riešenie cenovej dimenzie. Ak ste si ho ešte nevytvorili, pozrite si stránku [Vytvorenie vlastných polí a entít](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Pridanie poľa Rezervovateľný zdroj do formulárov a zobrazení
 Ak chcete zviditeľniť pole **Rezervovateľný zdroj** v riešení cenovej dimenzie, musíte pole pridať do všetkých formulárov a zobrazení ako entitu.
