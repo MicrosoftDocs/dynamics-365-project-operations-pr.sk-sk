@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v Project Service Automation verzia 3
-description: Táto téma poskytuje informácie o tom, čo je nové a zmenené v Project Service Automation verzia 3.
+description: Tento článok poskytuje informácie o tom, čo je nové a čo sa zmenilo v Project Service Automation verzie 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926611"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Čo je nové alebo zmenené v Project Service Automation verzia 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581671"
 
 
 
-Táto téma poskytuje informácie o zmenách používateľského rozhrania (UI), funkčnosti a terminológii v Project Service Automation medzi verziou 2 alebo verziou 1 a verziou 3.
+Tento článok poskytuje informácie o zmenách používateľského rozhrania (UI), funkčnosti a terminológie v Project Service Automation medzi verziou 2 alebo verziou 1 a verziou 3.
 
 ## <a name="project-scheduling"></a>Plánovanie projektov
 Plán projektu, ktorý bol známy ako štruktúra rozdelenia práce (WBS) v predchádzajúcich verziách, bol premenovaný na program a je prístupný kliknutím na kartu **Plán**. 
@@ -150,7 +150,7 @@ Ak máte priradenia úloh pre prostriedok bez rezervácií (nedostatok rezervác
 Táto časť obsahuje informácie o zmenách času, výdavkov a schvaľovania vo verzii 3 Project Service Automation. Ako súčasť Dynamics 365 Project Service Automation riešenia sa obnovila funkcia **Zadanie času** na využívanie rámci zjednoteného rozhrania. To umožňuje doručenie konzistentného, jednotného používateľského rozhrania, ktoré nasleduje responzívny dizajn pre optimálne prezeranie na ľubovoľnej veľkosti obrazovky alebo zariadení. 
 
 ### <a name="landing-page"></a>Vstupná stránka
-Nerozšíriteľné vlastné časy boli vo verzii 3 zastarané. Namiesto toho je teraz rozšíriteľná a prístupná natívna mriežka skúsenosti. Môžete pristupovať k funkcii časového vstupu pomocou mapy lokality na ľavej strane. S touto zmenou už nebudete môcť zadávať čas na jeden týždeň súčasne. Namiesto toho budete musieť vytvoriť časový záznam pre každý deň v mriežke. Po niekoľkých vytvorených časových položkách, používatelia môžu hromadne vytvárať časové položky s funkciou **Kopírovanie**, ktorá je vysvetlená ďalej v tejto téme. 
+Nerozšíriteľné vlastné časy boli vo verzii 3 zastarané. Namiesto toho je teraz rozšíriteľná a prístupná natívna mriežka skúsenosti. Môžete pristupovať k funkcii časového vstupu pomocou mapy lokality na ľavej strane. S touto zmenou už nebudete môcť zadávať čas na jeden týždeň súčasne. Namiesto toho budete musieť vytvoriť časový záznam pre každý deň v mriežke. Po niekoľkých časových záznamoch môžu používatelia hromadne vytvárať časové záznamy **Kopírovať** funkcia vysvetlená neskôr v tomto článku. 
 
 ![Vstupná stránka zadávania času.](media/time-entry-landing-page-07.png)
  

@@ -1,24 +1,24 @@
 ---
 title: Nastavenie udržania dodávateľov
-description: Táto téma vysvetľuje, ako nastaviť udržanie dodávateľa.
+description: Tento článok vysvetľuje, ako nastaviť uchovávanie dodávateľov.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929785"
 ---
 # <a name="set-up-vendor-retention"></a>Nastavenie udržania dodávateľov
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Táto téma poskytuje informácie, ako nastaviť udržanie dodávateľa.
+Tento článok poskytuje informácie o tom, ako nastaviť uchovávanie dodávateľov.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Nastavte si účet udržania dodávateľa v hlavnej knihe
 

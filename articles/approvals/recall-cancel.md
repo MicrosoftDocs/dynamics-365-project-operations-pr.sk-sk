@@ -1,19 +1,19 @@
 ---
-title: Vyvolajte predtým schválené záznamy
-description: Táto téma vysvetľuje, ako môže člen projektového tímu požiadať o stiahnutie predtým predložených a schválených záznamov o čase, výdavkoch a použití materiálu a ako môže projektový manažér schváliť alebo zamietnuť žiadosti o stiahnutie.
+title: Odvolanie predtým schválených zadaní
+description: Tento článok vysvetľuje, ako môže člen projektového tímu požiadať o stiahnutie predtým predložených a schválených záznamov o čase, výdavkoch a použití materiálu a ako môže projektový manažér schváliť alebo zamietnuť žiadosti o stiahnutie.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930383"
 ---
-# <a name="recall-previously-approved-entries"></a>Vyvolajte predtým schválené záznamy
+# <a name="recall-previously-approved-entries"></a>Odvolanie predtým schválených zadaní
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 

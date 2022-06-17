@@ -1,23 +1,23 @@
 ---
-title: Požiadavky na položky pre projektové zmluvy s viacerými zdrojmi financovania
-description: Táto téma poskytuje informácie o tom, ako nakonfigurovať a používať požiadavky na položky s viacerými zdrojmi financovania.
+title: Požiadavky na položky pre projektové zmluvy s viacerými zdrojmi financovania
+description: Tento článok poskytuje informácie o tom, ako nakonfigurovať a používať požiadavky na položky s viacerými zdrojmi financovania.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728095"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931211"
 ---
-# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Požiadavky na položky pre projektové zmluvy s viacerými zdrojmi financovania
+# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Požiadavky na položky pre projektové zmluvy s viacerými zdrojmi financovania
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/výrobe_
 
-Niektoré zmluvné dohody o projektoch môžu vyžadovať viaceré zdroje financovania. Táto téma vysvetľuje, ako vybrať a nakonfigurovať požadované zdroje financovania, keď je pre projekt alebo projektovú zmluvu potrebných viacero zdrojov.
+Niektoré zmluvné dohody o projektoch môžu vyžadovať viaceré zdroje financovania. Tento článok vysvetľuje, ako vybrať a nakonfigurovať požadované zdroje financovania, keď sa pre projekt alebo projektovú zmluvu vyžaduje viacero zdrojov.
 
 ## <a name="terminology"></a>Terminológia
 
@@ -83,4 +83,4 @@ Ak chcete vytvoriť požiadavku na položku zo záznamu prognózy položky, post
 
 ### <a name="default-invoice-account-when-the-system-automatically-creates-an-item-requirement-from-a-purchase-order-line"></a>Predvolený účet faktúry, keď systém automaticky vytvorí požiadavku na materiál z riadku nákupnej objednávky
 
-Ak **Vytvorte požiadavku na položku** možnosť je nastavená na **Áno** na **Projektový manažment a účtovné parametre** systém automaticky vytvorí požiadavku na materiál, keď sa uloží nový riadok projektovej objednávky. V predvolenom nastavení je **Fakturačný účet** a **Požiadavka na položku** polia sú nastavené na hodnotu **Predvolený fakturačný účet** pole v zázname projektu. Systém momentálne nepodporuje aktualizáciu alebo zmenu fakturačného účtu pre záznamy tohto typu.
+Ak **Vytvorte požiadavku na položku** možnosť je nastavená na **Áno** na **Projektový manažment a účtovné parametre** Keď sa uloží nový riadok projektovej objednávky, systém automaticky vytvorí požiadavku na materiál. V predvolenom nastavení je **Fakturačný účet** a **Požiadavka na položku** polia sú nastavené na hodnotu **Predvolený fakturačný účet** pole v zázname projektu. Systém momentálne nepodporuje aktualizáciu alebo zmenu fakturačného účtu pre záznamy tohto typu.

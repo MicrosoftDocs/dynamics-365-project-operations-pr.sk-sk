@@ -1,6 +1,6 @@
 ---
 title: Fakturácia v Project Service Automation
-description: Táto téma poskytuje informácie o fakturácii.
+description: Tento článok poskytuje informácie o fakturácii.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926841"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturácia v Project Service Automation
 
@@ -94,7 +94,7 @@ Po dokončení **procesrunnera**, sa volá **processruncaller**, ktorý poskytuj
 Dávková úloha pre vytváranie faktúr je opakujúca sa úloha. Ak je táto dávková úloha spustená mnohokrát, sú vytvorené viaceré inštancie úlohy a spôsobujú chyby. Preto by ste mali spustiť dávkový proces len raz, a mali by ste ho reštartovať iba v prípade, že prestane fungovať.
 
 > [!NOTE]
-> Hromadná fakturácia v rámci Project Service Automation platí iba pre riadky zmlúv projektu, ktoré sú nakonfigurované podľa plánov fakturácie. Riadok zmluvy s metódou fakturácie podľa fixnej ceny musí mať nakonfigurované medzníky. V riadku zmluvy projektu s metódou fakturácie podľa času a materiálu bude potrebné zostaviť plán fakturácie založený na dátume. Informácie o nastavení frekvencie fakturácie v kontexte projektu, ktorý je založený na riadku cenovej ponuky, sú uvedené v téme [Cenové ponuky a riadky cenových ponúk](basic-quote-lines.md#invoice-schedule). To isté platí pre riadok zmluvy založený na projekte.      
+> Hromadná fakturácia v rámci Project Service Automation platí iba pre riadky zmlúv projektu, ktoré sú nakonfigurované podľa plánov fakturácie. Riadok zmluvy s metódou fakturácie podľa fixnej ceny musí mať nakonfigurované medzníky. V riadku zmluvy projektu s metódou fakturácie podľa času a materiálu bude potrebné zostaviť plán fakturácie založený na dátume. Informácie o nastavení fakturačných frekvencií v rámci projektu, ktorý je založený na riadku cenovej ponuky, sú uvedené v článku, [Citáty a citáty](basic-quote-lines.md#invoice-schedule). To isté platí pre riadok zmluvy založený na projekte.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Úprava konceptu faktúry PSA
 

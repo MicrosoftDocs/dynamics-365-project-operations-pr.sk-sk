@@ -1,23 +1,23 @@
 ---
 title: Prehľad priznania výnosov
-description: Táto téma poskytuje informácie o priznaní výnosov v aplikácii Project Operations.
+description: Tento článok poskytuje informácie o vykazovaní výnosov v projektových operáciách.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926289"
 ---
 # <a name="revenue-recognition-overview"></a>Prehľad priznania výnosov
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-V Dynamics 365 Project Operations sa princípy priznania výnosov líšia v závislosti od zvolenej metódy fakturácie pre projekt alebo časť projektu. Táto téma poskytuje informácie o priznaní výnosov v aplikácii Project Operations.
+V Dynamics 365 Project Operations sa princípy priznania výnosov líšia v závislosti od zvolenej metódy fakturácie pre projekt alebo časť projektu. Tento článok poskytuje informácie o vykazovaní výnosov v projektových operáciách.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transakcie účtované použitím spôsobu fakturácie času a materiálu
 

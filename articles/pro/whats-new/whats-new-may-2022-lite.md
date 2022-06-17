@@ -1,24 +1,24 @@
 ---
 title: Čo je nové v máji 2022 – Project Operations, čiastočné nasadenie
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní spoločnosti Microsoft z mája 2022 Dynamics 365 Project Operations lite nasadenie.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní spoločnosti Microsoft z mája 2022 Dynamics 365 Project Operations lite nasadenie.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a2684d51e643d37c90d2c03ee7a0c2a6ead18682
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: dd7f03068473ee09608945876047710fa44e914a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934155"
 ---
 # <a name="whats-new-may-2022---project-operations-lite-deployment"></a>Čo je nové v máji 2022 – Project Operations, čiastočné nasadenie
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsoft Dynamics 365 Project Operations:
 
 - Projektové operácie v a Dataverse verzia prostredia 4.42.0.70
 

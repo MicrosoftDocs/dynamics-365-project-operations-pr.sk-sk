@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 31, V3
-description: Táto téma obsahuje zoznam funkcií a opráv dostupných v aktualizácii Project Service Automation, vydanie 31, V3
+description: Tento článok obsahuje zoznam funkcií a opráv, ktoré sú k dispozícii v Project Service Automation Update Release 31, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/26/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 70a8bd381c27c9a3dd3b33c582e5616fad280e95
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d62b12a5363637e46b29c2e9edf4e1f17da729f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925047"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-31-v3"></a>Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 31, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586777"
 
 S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365. Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte stránku online riešení v centre spravovania služby Dynamics 365 a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).
 
-Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation V3, vydanie 31. Táto verzia má číslo V3.10.52.77 a v máji 2021 je všeobecne k dispozícii prostredníctvom automatickej aktualizácie.
+Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre Project Service Automation V3, vydanie aktualizácie 31. Táto verzia má číslo V3.10.52.77 a v máji 2021 je všeobecne k dispozícii prostredníctvom automatickej aktualizácie.
 
 ## <a name="update-release-31"></a>Aktualizácia vydania 31
 

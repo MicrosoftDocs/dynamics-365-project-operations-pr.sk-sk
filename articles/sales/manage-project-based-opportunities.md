@@ -1,17 +1,17 @@
 ---
 title: Správa príležitostí založených na projekte
-description: Táto téma poskytuje informácie o tom, ako pracovať s príležitosťami súvisiacimi s projektmi.
+description: Tento článok poskytuje informácie o tom, ako pracovať s príležitosťami, ktoré súvisia s projektmi.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933235"
 ---
 # <a name="manage-project-based-opportunities"></a>Správa príležitostí založených na projekte
 
@@ -19,7 +19,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 Spoločnosti založené na projekte majú svoje operácie doručovania zvyčajne rozmiestnené vo viacerých krajinách a geografických oblastiach. Náklady na realizáciu a dodávku projektu sa môžu líšiť v závislosti od toho, ktorá geografická oblasť alebo divízia spravuje dodávku. To môže mať naopak vplyv na marže dohody. Na poskytovanie služieb založených na projekte sa zvyčajne vyžaduje veľké množstvo času na ľudské zdroje, značné cestovné náklady, náklady na materiál a ďalšie výdavky.
 
-Príležitosti založené na projekte v Dynamics 365 Project Operations sú navrhnuté s rozšíreniami pre Dynamics 365 Sales. Táto téma poskytuje podrobnosti o rôznych poliach a obchodnej logike zahrnutej do ďalších funkcií, ktoré sa vyžadujú od spoločností založených na projekte na správu príležitostí založených na projekte.
+Príležitosti založené na projekte v Dynamics 365 Project Operations sú navrhnuté s rozšíreniami pre Dynamics 365 Sales. Tento článok poskytuje podrobnosti o rôznych oblastiach a obchodnej logike zahrnutých v dodatočných funkciách, ktoré vyžadujú spoločnosti založené na projekte na správu príležitostí založených na projekte.
 
 ## <a name="view-all-project-based-opportunities"></a>Zobrazenie všetkých príležitostí založených na projekte
 

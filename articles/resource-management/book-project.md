@@ -1,17 +1,17 @@
 ---
 title: Rezervovanie projektu
-description: Táto téma poskytuje informácie o rezervácii zdrojov pre projekt.
+description: Tento článok poskytuje informácie o rezervácii zdroja pre projekt.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dca9d722eae595af7a81c2b4684729d7658ed012
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928543"
 ---
 # <a name="book-to-a-project"></a>Rezervovanie projektu
 

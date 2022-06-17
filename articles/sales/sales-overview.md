@@ -1,17 +1,17 @@
 ---
 title: Prehľad procesu predaja
-description: Táto téma poskytuje informácie o základných predajných procesoch.
+description: Tento článok poskytuje informácie o základných procesoch predaja.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e99035798f775de5cd59724a9fe0d7ea6de40034
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 27b6b1e6f4d33ae1f8cfafba306b533e12c0cd2b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933189"
 ---
 # <a name="sales-process-overview"></a>Prehľad procesu predaja
 

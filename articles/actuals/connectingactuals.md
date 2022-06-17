@@ -1,19 +1,19 @@
 ---
-title: Transakčné spojenia - Prepojte aktuálne informácie o rôznych typoch transakcií
-description: Táto téma vysvetľuje, ako sa transakčné pripojenie používa na prepojenie skutočných údajov rôznych typov, aby sa pomohlo sledovať ziskovosť, nevybavené fakturácie a výpočty účtovaných a nevyfakturovaných príjmov.
+title: Kontaktné osoby pre transakcie – prepojenie skutočných hodnôt rôznych typov transakcií
+description: Tento článok vysvetľuje, ako sa transakčné pripojenie používa na prepojenie skutočných údajov rôznych typov, čo pomáha sledovať ziskovosť, nevybavené fakturácie a výpočty účtovaných a nevyfakturovaných príjmov.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926105"
 ---
-# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Transakčné spojenia - Prepojte aktuálne informácie o rôznych typoch transakcií
+# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Kontaktné osoby pre transakcie – prepojenie skutočných hodnôt rôznych typov transakcií
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 

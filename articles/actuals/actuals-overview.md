@@ -1,6 +1,6 @@
 ---
-title: Skutočné hodnoty
-description: Táto téma poskytuje informácie o tom, ako pracovať so skutočnými údajmi v aplikácii Microsoft Dynamics 365 Project Operations.
+title: Skutočné údaje
+description: Tento článok poskytuje informácie o tom, ako pracovať s aktuálnymi informáciami v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924817"
 ---
 # <a name="actuals"></a>Skutočné hodnoty
 
@@ -33,7 +33,7 @@ Skutočné hodnoty predstavujú skontrolované a schválené finančné údaje a
 
 Operácie projektu zaznamenávajú finančné transakcie, ktoré sa vyskytnú počas životného cyklu projektovej zákazky, ako skutočné. Vytváranie skutočných udalostí pri rôznych udalostiach v životnom cykle sa líši v závislosti od toho, či projektové zapojenie používa model fakturácie času a materiálu alebo model fakturácie s pevnou cenou a či je vo fáze predpredaja alebo ide o interný projekt.
 
-Nasledujúce témy vysvetľujú vplyv na tabuľku Skutočnosti pri rôznych udalostiach pre rôzne variácie:
+Nasledujúce články vysvetľujú vplyv na tabuľku Skutočné hodnoty pri rôznych udalostiach pre rôzne variácie:
 
 - [Skutočný vplyv na čas a materiál](ActualsonTM.md)
 - [Skutočný vplyv na interakciu s pevnou cenou](ActualonFP.md)

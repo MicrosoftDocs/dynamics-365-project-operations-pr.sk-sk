@@ -1,17 +1,17 @@
 ---
 title: Nasadenie aplikácie Project Operations – čiastočné
-description: Táto téma poskytuje informácie o tom, ako nainštalovať jednoduché nasadenie Project Operations – dohoda o fakturácii pro forma.
+description: Tento článok poskytuje informácie o tom, ako nainštalovať nasadenie Project Operations lite – dohoda o proforma fakturácii.
 author: stsporen
 ms.date: 02/28/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930337"
 ---
 # <a name="deploy-project-operations---lite"></a>Nasadenie aplikácie Project Operations – čiastočné
 
@@ -37,7 +37,7 @@ Project Operations podporuje viac modelov nasadenia. Najlepší model nasadenia 
 
 
 ## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a> Nainštalujte operácie projektu do existujúceho Dataverse životné prostredie
-1. Uistite sa, že prostredie nebolo nakonfigurované s [duálny zápis](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) ako inštalácia potom nainštaluje [Projektové operácie pre scenáre založené na zdrojoch/nezásobe](project-operations-integrated-deployment-overview.md) schopnosti.
+1. Uistite sa, že prostredie nebolo nakonfigurované s [duálny zápis](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) ako inštalácia potom nainštaluje [Projektové operácie pre scenáre založené na zdrojoch/nezásobách](project-operations-integrated-deployment-overview.md) schopnosti.
 2. Ako [Globálny správca alebo správca Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) s licenciou Project Operations vyhľadajte prostredie v [Centre spravovania PowerPlatform](https://admin.powerplatform.com), kde chcete nainštalovať Project Operations.
 3. Nainštalujte **Microsoft Dynamics 365 Project Operations** zo zoznamu nasadenia aplikácií Dynamics 365. Ďalšie informácie nájdete v časti [Správa aplikácií Dynamics 365](/power-platform/admin/manage-apps).
 

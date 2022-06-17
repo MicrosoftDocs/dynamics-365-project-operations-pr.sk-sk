@@ -1,6 +1,6 @@
 ---
 title: Vytvorte vlastné polia a entity
-description: Táto téma vysvetľuje, ako vytvoriť množiny možností a entity vo vlastnom riešení v platforme Power Apps.
+description: Tento článok vysvetľuje, ako vytvoriť sady možností a entity vo vašom vlastnom riešení v Power Apps plošina.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926933"
 ---
 # <a name="create-custom-fields-and-entities"></a>Vytvorte vlastné polia a entity 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Dokončite nasledujúce kroky kedykoľvek, kedy chcete vytvoriť vlastnú množinu možností alebo entitu na Power Apps platforme.  
-Postupy v tejto téme by mali byť dokončené pomocou webového rozhrania Project Service Automation (PSA).
+Postupy v tomto článku by sa mali vykonávať pomocou webového rozhrania Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Odporúčame, aby ste robili všetky zmeny cenových dimenzií v samostatnom riešení. Táto dôležitá najlepšia prax poskytuje flexibilitu v budúcnosti na aktualizáciu alebo odstránenie zmien podľa potreby, pomôže pri opätovnom použití vašej práce a uľahčuje port týchto zmien na inú inštanciu. Potom, čo ste vykonali všetky požadované zmeny, exportujte toto riešenie ako **spravované riešenie** a importujte ho do iných inštancií na opätovné použitie nastavení cien.

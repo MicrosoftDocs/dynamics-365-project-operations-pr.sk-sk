@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie a potvrdenie účtovných denníkov opráv
-description: Táto téma poskytuje informácie o tom, ako vytvoriť a potvrdiť účtovný denník opravy.
+description: Tento článok poskytuje informácie o tom, ako vytvoriť a potvrdiť denník opráv.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 70886aa5a3060fa58461ce215e4de3b7286093e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928083"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Vytvorenie a potvrdenie účtovných denníkov opráv
 
@@ -84,7 +84,7 @@ Vykonajte nasledujúce kroky na opravu jednej alebo viacerých položiek denník
 
 1. V **Predaj** v ľavom navigačnom paneli pod **Transakcie**, vyberte **Aktuálne**.
 
-2. V **Aktuálne** pomocou stĺpcových filtrov vyberte **Materiál** trieda transakcie, takže sú zobrazené iba skutočné hodnoty pre materiály. Na ďalšie obmedzenie zobrazených skutočností použite iné filtre stĺpcov. Keď nájdete požadovanú množinu skutočných hodnôt, vyberte aktuálne hodnoty a potom vyberte **Správne zadania**. Automaticky sa vytvorí nový denník opráv a **Korekcia materiálu** je priradený typ.
+2. V **Aktuálne** pomocou stĺpcových filtrov vyberte **Materiál** trieda transakcií, takže sú zobrazené iba skutočné hodnoty pre materiály. Na ďalšie obmedzenie zobrazených skutočností použite iné filtre stĺpcov. Keď nájdete požadovanú množinu skutočných hodnôt, vyberte aktuálne hodnoty a potom vyberte **Správne zadania**. Automaticky sa vytvorí nový denník opráv a **Korekcia materiálu** je priradený typ.
 
 3. Na **Nový denník** stránke, v **Popis** zadajte popis opravy. Potom na **Oprava materiálu** kartu, v **Nové hodnoty pre materiály** vyberte dátové polia, ktoré chcete opraviť pre vybrané materiálové rady. Môžete napríklad priradiť materiál k inému projektu alebo opraviť produkt, dátum materiálu alebo subdodávku.
 

@@ -1,17 +1,17 @@
 ---
 title: Verzie máp duálneho zápisu v aplikácii Project Operations
-description: Táto téma poskytuje zoznam máp duálneho zápisu potrebných pre Dynamics 365 Project Operations.
+description: Tento článok poskytuje zoznam máp s dvojitým zápisom požadovaných pre Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612783"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959658"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verzie máp duálneho zápisu v aplikácii Project Operations
 
@@ -54,7 +54,7 @@ Nasledujúce mapy sú povinnými pre riešenie Project Operations. Verzie máp d
 | Entita integrácie Project Operations pre odhady hodín (msdyn_resourceassignments) | 1.0.0.5 | Na zabezpečenie nie je potrebné. ||
 | Entita exportu kategórií výdavkov integrácie projektu Project Operations (msdyn_expensecategories) | 1.0.0.1 | Na zabezpečenie nie je potrebné. ||
 | Entita exportu výdavkov projektu integrácie Project Operations (msdyn_expenses) | 1.0.0.3 | Na zabezpečenie nie je potrebné. ||
-| Entita exportu faktúr dodávateľa integrácie Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Na zabezpečenie nie je potrebné. ||
+| Entita exportu faktúr dodávateľa integrácie Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Na zabezpečenie nie je potrebné. |10.0.26 alebo novší|
 | Riadok entity exportu faktúr projektu dodávateľa projektu Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Na zabezpečenie nie je potrebné. | 10.0.26 alebo novší |
 | Roly projektových zdrojov pre všetky spoločnosti (bookableresourcecategories) | 1.0.0.1 | Vyžaduje počiatočnú synchronizáciu pre mapu tabuľky na synchronizáciu rolí prostriedkov projektového manažéra a člena tímu, ktoré sú vyplnené v prostredí Dynamics 365 Dataverse počas vytvárania opravných položiek. Dataverse je hlavným zdrojom počiatočnej synchronizácie. ||
 | Projektové úlohy (msdyn_projecttasks) | 1.0.0.4 | Na zabezpečenie nie je potrebné. ||

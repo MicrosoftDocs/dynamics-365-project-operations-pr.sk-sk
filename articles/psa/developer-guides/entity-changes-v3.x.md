@@ -1,6 +1,6 @@
 ---
 title: Entita, ovládací prvok a zmeny používateľského rozhrania (Project Service Automation 3.x)
-description: Táto téma popisuje zmeny riešení pre Microsoft Dynamics Project Service Automation 3.x.
+description: Tento článok popisuje zmeny riešenia pre Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926887"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Entita, ovládací prvok a zmeny používateľského rozhrania (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Pri vydaní Microsoft Dynamics Project Service Automation (PSA) 3.x sa vykonali mnohé zmeny entít, ovládacích prvkov, zobrazení a používateľského rozhrania. Táto téma poskytuje informácie o týchto verziách dôležitých zmenách:
+Pri vydaní Microsoft Dynamics Project Service Automation (PSA) 3.x sa vykonali mnohé zmeny entít, ovládacích prvkov, zobrazení a používateľského rozhrania. Tento článok poskytuje informácie o týchto dôležitých zmenách.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Vzťahy nadradený-podradený pre predajný doklad, riadok predajného dokladu, podrobné entity riadkov predajného dokladu
 Vo verziách Dynamics 365 Project Service Automation (PSA) vydaného pred verziou 3,0, niektoré vzťahy medzi predajnými dokladmi, riadkami predajného dokladu a podrobnými entitami riadkov predajného dokladu boli už implementované prostredníctvom reťazca polia, ktoré by malo držať reťazové zastúpenie GUID súvisiacej entity. To bolo kvôli platforme obmedzení, ktoré vyžadujú významný vlastný kód na serveri a klientské strany riešenia, aby tieto vzťahy fungovali podobne ako typické Dynamics CRM vzťahy entity a aby sa reťazec polí správal ako vyhľadávacie polia.

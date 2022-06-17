@@ -1,6 +1,6 @@
 ---
 title: Prepracované prehľady výdavkov (obsahuje video)
-description: Táto téma vysvetľuje prepracované a zmenené prostredie na zadávanie výkazov výdavkov.
+description: Tento článok vysvetľuje prepracované a prepracované prostredie pre zadávanie výkazu výdavkov.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b4b70722af72bc66dba0662813c29d3d1df04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930291"
 ---
 # <a name="expense-reports-reimagined"></a>Prepracované výkazy výdavkov
 

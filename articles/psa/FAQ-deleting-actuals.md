@@ -1,6 +1,6 @@
 ---
 title: Prečo nemôžem odstrániť záznamy z entity skutočných hodnôt?
-description: Táto téma poskytuje informácie o tom, prečo nie je možné odstrániť záznamy z entity skutočných hodnôt.
+description: Tento článok poskytuje informácie o tom, prečo nemôžete odstrániť záznamy zo skutočnej entity.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ff2c951905324d5d05722f399057c03d22f1a1c9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd446961432a8f18895db45699d7a731d55235b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925599"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Prečo nemôžem odstrániť záznamy z entity Skutočných hodnôt?
 

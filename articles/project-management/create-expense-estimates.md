@@ -1,17 +1,17 @@
 ---
 title: Finančné odhady pre výdavky na projekty
-description: Táto téma poskytuje informácie o definovaní alebo odhade výdavkov na základe projektu.
+description: Tento článok poskytuje informácie o definovaní alebo odhade nákladov na projekt.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5a29244a65dd88d3ba0f8333a63627bb0c068273
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925724"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Finančné odhady pre výdavky na projekty
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_

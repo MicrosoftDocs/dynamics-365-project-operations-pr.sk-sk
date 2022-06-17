@@ -1,23 +1,23 @@
 ---
 title: Sledovanie úsilia na projekte
-description: Táto téma poskytuje informácie o tom, ako sledovať úsilie na projekte a priebeh prác.
+description: Tento článok poskytuje informácie o tom, ako sledovať projektové úsilie a postup prác.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929279"
 ---
 # <a name="project-effort-tracking"></a>Sledovanie úsilia na projekte
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Potreba sledovať pokrok v rozvrhu sa líši v závislosti od odvetvia. Niektoré odvetvia sledujú na komplexnej úrovni, pričom iné odvetvia sledujú na vyššej úrovni. Táto téma ukazuje, ako naplánovať, aby spĺňali požiadavky vašej organizácie.
+Potreba sledovať pokrok v rozvrhu sa líši v závislosti od odvetvia. Niektoré odvetvia sledujú na komplexnej úrovni, pričom iné odvetvia sledujú na vyššej úrovni. Tento článok ukazuje, ako plánovať, aby ste splnili požiadavky vašej organizácie.
 
 ## <a name="effort-tracking-view"></a>Zobrazenie sledovania úsilia
 

@@ -1,6 +1,6 @@
 ---
 title: Synchronizujte projektové úlohy priamo z Project Service Automation do financií a prevádzky
-description: Táto téma popisuje šablónu a základnú úlohu, ktoré sa používajú na synchronizáciu úloh projektu priamo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+description: Tento článok popisuje šablónu a základnú úlohu, ktoré sa používajú na synchronizáciu úloh projektu priamo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931165"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizujte projektové úlohy priamo z Project Service Automation do financií a prevádzky
 
 [!include[banner](../includes/banner.md)]
 
-Táto téma popisuje šablónu a základnú úlohu, ktoré sa používajú na synchronizáciu úloh projektu priamo z Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+Tento článok popisuje šablónu a základnú úlohu, ktoré sa používajú na synchronizáciu úloh projektu priamo z Dynamics 365 Project Service Automation na Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrácia projektovej úlohy, kategórie výdavkov na transakciu, odhady hodín, odhady výdavkov a blokovanie funkcií sú k dispozícii vo verzii 8.0.

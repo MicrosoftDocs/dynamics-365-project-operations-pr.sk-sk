@@ -1,6 +1,6 @@
 ---
 title: Plánovanie a sledovanie projektu
-description: Táto téma poskytuje prepojenia na informácie o plánovaní a sledovaní v Project Service Automation.
+description: Tento článok poskytuje prepojenie na informácie o plánovaní a sledovaní v Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933281"
 ---
 # <a name="project-planning-and-tracking"></a>Plánovanie a sledovanie projektu
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589905"
 
 Aplikácia Project Service pomáha servisným organizáciám identifikovať príležitosti, predkladať cenové ponuky, uzatvárať zmluvné dohody, spravovať zdroje, sledovať čas a náklady, fakturovať zákazníkom a dodávať projekty včas a v rámci rozpočtu. 
 
-Odkaz PDF, ktorý bol predtým v tejto téme odstránený a obsah bol presunutý do nasledujúcich tém:
+Odkaz na PDF, ktorý bol predtým v tomto článku, bol odstránený a obsah bol presunutý do nasledujúcich článkov:
 
 - [Plány projektov](../project-creating.md)
 - [Výnosy a náklady projektu](../project-estimating.md)
@@ -43,7 +43,7 @@ Odkaz PDF, ktorý bol predtým v tejto téme odstránený a obsah bol presunutý
 - [Projektové nastavenia](../project-settings.md)
 
 > [!NOTE]
-> Táto téma sa odstráni v budúcej aktualizácii dokumentácie. 
+> Tento článok bude odstránený v budúcej aktualizácii dokumentácie. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

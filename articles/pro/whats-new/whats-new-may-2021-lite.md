@@ -1,24 +1,24 @@
 ---
 title: Čo je nové v máji 2021 – Project Operations, čiastočné nasadenie
-description: Táto téma poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations, čiastočné nasadenie, z mája 2021.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní zjednodušeného nasadenia Project Operations z mája 2021.
 author: sigitac
 ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 854a8c2290281b4d11a045321a334d8866806041
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a5d67159b732e0309e03c64fb6dadcc7b8cbff51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934201"
 ---
 # <a name="whats-new-may-2021---project-operations-lite-deployment"></a>Čo je nové v máji 2021 – Project Operations, čiastočné nasadenie
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
 
    - Project Operations v prostredí Dataverse verzie 4.10.0.186.
 

@@ -1,6 +1,6 @@
 ---
 title: Pridanie požadovaných vlastných polí do entít nastavenia cien a transakcií
-description: Táto téma poskytuje informácie o tom, ako pridať požadované odkazy na vlastné pole do entít a do formulárov a zobrazení.
+description: Tento článok poskytuje informácie o tom, ako pridať požadované odkazy na vlastné pole do entít a do formulárov a zobrazení.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926059"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Pridanie požadovaných vlastných polí do entít nastavenia cien a transakcií
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma predpokladá, že ste dokončili postupy v téme [Vytvorenie vlastných polí a entít, ktoré sa budú používať ako cenové dimenzie](create-custom-fields-entities-pricing-dimensions.md). Ak ste tieto postupy nedokončili, vráťte sa späť a dokončite ich a potom sa vráťte na túto tému. 
+Tento článok predpokladá, že ste dokončili postupy v článku, [Vytvorte vlastné polia a entity, ktoré sa majú použiť ako cenové dimenzie](create-custom-fields-entities-pricing-dimensions.md). Ak ste tieto postupy nedokončili, vráťte sa a dokončite ich a potom sa vráťte k tomuto článku. 
 
-V tejto téme vám postupy úkážu, ako pridať požadované vlastné pole odkazy na entity a prvky používateľského rozhrania (UI), ako sú formuláre a zobrazenia.
+V tomto článku vám postupy ukážu, ako pridať požadované odkazy na vlastné polia k entitám a prvkom používateľského rozhrania (UI), ako sú formuláre a zobrazenia.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Pridať vlastné polia dimenzie ocenenia 
 Po vytvorení vlastných polí a entít je ďalším krokom, aby sa cenové nastavenie a transakčné entity dozvedeli o všetkých vlastných entitách alebo množínách možností vytvorením referenčných polí. V závislosti od toho, či zoznam dimenzií cien obsahuje množinu možností, dimenzie alebo dimenzie entity alebo oboje, postupujte iba podľa krokov v **dimenziách vlastného oceňovania založeného na množine možností** alebo **Vlastné cenové dimenzie založené na entite**, resp. oboje.

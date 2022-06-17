@@ -1,18 +1,18 @@
 ---
 title: Aktualizácie aplikácie Project Operations
-description: Táto téma obsahuje informácie o vydaných verziách Dynamics 365 Project Operations.
+description: Tento článok poskytuje informácie o vydaných verziách Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
-ms.translationtype: HT
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732950"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959711"
 ---
 # <a name="project-operations-updates"></a>Aktualizácie aplikácie Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations sa skladá z dvoch zložiek:
 
 | Project Operations v prostredí Dataverse | Projektový manažment a účtovníctvo v prostrediach aplikácií Finance and Operations | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Pre scenár prevádzkových zdrojov projektu/bez zásob odporúčame použiť verziu Orchestration s duálnym zápisom 2.3.1.15 alebo vyššiu.
 
@@ -47,24 +47,24 @@ Aktualizácie aplikácie Project Operations v prostredí Dataverse sú k dispoz�
 | Stanica | Oblasť | Číslo aktuálnej verzie | Automatické aktualizácie pre čiastočné nasadenie | Automatické aktualizácie pre nasadenie so zdrojmi/chýbajúcimi zdrojmi | Číslo ďalšej verzie | Ďalšia verzia je všeobecne dostupná |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stanica 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvé vydanie         |  4.42.0.70      | Hotovo           | Hotovo            | Spracuje sa                 | 27. mája 2022        |
+|   &nbsp;  | Prvé vydanie         |  4.43.0.77      | Hotovo           | Hotovo            | Spracuje sa                 | 01. júl 2022       |
 | Stanica 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južná Amerika         |  4.42.0.70      | Hotovo           | Hotovo            | Spracuje sa                 | 27. mája 2022        |
-|   &nbsp;  | Kanada                |  4.42.0.70      | Hotovo           | Hotovo            | Spracuje sa                 | 27. mája 2022        |
-|   &nbsp;  | India                 |  4.42.0.70      | Hotovo           | Hotovo            | Spracuje sa                 | 27. mája 2022        |
-|   &nbsp;  | Francúzsko                |  4.42.0.70      | Hotovo           | Hotovo            | Spracuje sa                 | 27. mája 2022        |
-|   &nbsp;  | Južná Afrika          |  4.42.0.70      | Hotovo           | Hotovo            | Spracuje sa                 | 27. mája 2022        |
-|   &nbsp;  | Švajčiarsko           |  4.42.0.70      | Hotovo           | Hotovo            | Spracuje sa                 | 27. mája 2022        |
+|   &nbsp;  | Južná Amerika         |  4.43.0.77      | Hotovo           | Hotovo            | Spracuje sa                 | 01. júl 2022       |
+|   &nbsp;  | Kanada                |  4.43.0.77      | Hotovo           | Hotovo            | Spracuje sa                 | 01. júl 2022       |
+|   &nbsp;  | India                 |  4.43.0.77      | Hotovo           | Hotovo            | Spracuje sa                 | 01. júl 2022       |
+|   &nbsp;  | Francúzsko                |  4.43.0.77      | Hotovo           | Hotovo            | Spracuje sa                 | 01. júl 2022       |
+|   &nbsp;  | Južná Afrika          |  4.43.0.77      | Hotovo           | Hotovo            | Spracuje sa                 | 01. júl 2022       |
+|   &nbsp;  | Švajčiarsko           |  4.43.0.77      | Hotovo           | Hotovo            | Spracuje sa                 | 01. júl 2022       |
 | Stanica 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonsko                 |  4.42.0.70      | 13. mája 2022       | 13. mája 2022        | Spracuje sa                 | 03. júna 2022       |
-|   &nbsp;  | Ázia a Tichomorie          |  4.42.0.70      | 13. mája 2022       | 13. mája 2022        | Spracuje sa                 | 03. júna 2022       |
-|   &nbsp;  | Spojené kráľovstvo         |  4.42.0.70      | 13. mája 2022       | 13. mája 2022        | Spracuje sa                 | 03. júna 2022       |
-|   &nbsp;  | Oceánia               |  4.42.0.70      | 13. mája 2022       | 13. mája 2022        | Spracuje sa                 | 03. júna 2022       |
-|   &nbsp;  | Spojené Arabské Emiráty  |  4.42.0.70      | 13. mája 2022       | 13. mája 2022        | Spracuje sa                 | 03. júna 2022       |
+|   &nbsp;  | Japonsko                 |  4.43.0.77      | 03. júna 2022      | 03. júna 2022       | Spracuje sa                 | 08. júl 2022       |
+|   &nbsp;  | Ázia a Tichomorie          |  4.43.0.77      | 03. júna 2022      | 03. júna 2022       | Spracuje sa                 | 08. júl 2022       |
+|   &nbsp;  | Spojené kráľovstvo         |  4.43.0.77      | 03. júna 2022      | 03. júna 2022       | Spracuje sa                 | 08. júl 2022       |
+|   &nbsp;  | Oceánia               |  4.43.0.77      | 03. júna 2022      | 03. júna 2022       | Spracuje sa                 | 08. júl 2022       |
+|   &nbsp;  | Spojené Arabské Emiráty  |  4.43.0.77      | 03. júna 2022      | 03. júna 2022       | Spracuje sa                 | 08. júl 2022       |
 | Stanica 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.41.0.45      | Hotovo           | Hotovo            | 4.42.0.70           | 13. mája 2022        |
+|   &nbsp;  | Európa                |  4.42.0.70      | Hotovo           | Hotovo            | 4.43.0.77           | 10. júna 2022       |
 | Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severná Amerika         |  4.41.0.45      | Hotovo           | Hotovo            | 4.42.0.70           | 20. mája 2022        |
+|   &nbsp;  | Severná Amerika         |  4.42.0.70      | Hotovo           | Hotovo            | 4.43.0.77           | 17. júna 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Plán vydania pre riadenie projektov a účtovníctvo v prostredí aplikácií Finance and Operations
 

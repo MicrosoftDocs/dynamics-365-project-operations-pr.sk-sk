@@ -1,24 +1,24 @@
 ---
 title: Čo je nové alebo zmenené v Project Operations, október 2021 pre scenáre na sklade/výrobe
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú dostupné vo vydaní Project Operations z októbra 2021 pre scenáre na sklade/výrobe.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní Project Operations z októbra 2021 pre scenáre na sklade/výrobe.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933695"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Čo je nové alebo zmenené v Project Operations, október 2021 pre scenáre na sklade/výrobe
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/výrobe_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsoft Dynamics 365 Project Operations:
 
 - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.22
  
@@ -29,7 +29,7 @@ Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 36
 | Projektový manažment a účtovníctvo | [557017](https://fix.lcs.dynamics.com/Issue/Details/?bugId=557017) | Rozpracovaná práca na projekte (WIP) a sumy časovo rozlíšených výnosov nie sú správne stornované, keď sa zaúčtuje medzipodniková zákaznícka faktúra. |
 | Projektový manažment a účtovníctvo | [558232](https://fix.lcs.dynamics.com/Issue/Details/?bugId=558232) | The **Zabráňte uzavretiu projektu, ak existujú otvorené transakcie** funkčnosť nefunguje. |
 | Projektový manažment a účtovníctvo | [559271](https://fix.lcs.dynamics.com/Issue/Details/?bugId=559271) | Klasifikácia fakturácie na faktúre s voľným textom automaticky nevypĺňa dimenzie z projektov, keď je táto funkcia povolená. |
-| Projektový manažment a účtovníctvo | [574013](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574013) | V scenároch, ktoré sa netýkajú medzipodnikov, nie sú sumy WIP a časovo rozlíšené príjmy správne stornované pri zaúčtovaní projektovej faktúry. |
+| Projektový manažment a účtovníctvo | [574013](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574013) | V scenároch, ktoré nie sú medzi spoločnosťami, nie sú rozpracované sumy a sumy časovo rozlíšených príjmov správne stornované pri zaúčtovaní projektovej faktúry. |
 | Projektový manažment a účtovníctvo | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Debetné a kreditné hodnoty sa prepnú, keď Microsoft Excel doplnok sa používa s denníkom výdavkov projektu a **Typ ofsetového účtu** pole je nastavené na **Projekt**. |
 | Projektový manažment a účtovníctvo | [577972](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577972) | Suma, ktorá je zaúčtovaná v projektových transakciách, je nadhodnotená v objednávke projektu, ktorá zahŕňa skladové položky a ktorá má neodpočítateľné sumy dane, keď **UseTax** je označený. |
 | Projektový manažment a účtovníctvo | [581216](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581216) | Systém rozdelí sumu medzi výkazy ziskov a strát projektu a výkazy WIP projektu. |
@@ -56,8 +56,8 @@ Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 36
 | Projektový manažment a účtovníctvo | [599757](https://fix.lcs.dynamics.com/Issue/Details/?bugId=599757) | **Obnoviť celú distribúciu** zlyhá a zobrazí chybu pre časové výkazy, ktoré sú vytvorené pre projekt **Iba čas** typu. |
 | Projektový manažment a účtovníctvo | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | The **Projekt** kartu nie je možné upravovať na čakajúcej faktúre dodávateľa, keď je k položke priradená kategória obstarávania. |
 | Projektový manažment a účtovníctvo | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Navigačná tabla chýba, ak nie ste prihlásení do Project Operations Dataverse. |
-| Projektový manažment a účtovníctvo | [546467](https://fix.lcs.dynamics.com/Issue/Details/?bugId=546467) | V prípade transakcií úpravy medzipodnikových projektov existujú problémy v cieľovej spoločnosti. |
-| Projektový manažment a účtovníctvo | [563579](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563579) | Zaviazané náklady na projekt vypočítavajú nesprávne množstvo a nákladovú cenu, ak bola objednávka spracovaná spoločnosťou **Proces nákupnej objednávky na konci roka** v hlavnej knihe. |
+| Projektový manažment a účtovníctvo | [546467](https://fix.lcs.dynamics.com/Issue/Details/?bugId=546467) | Pri transakciách úpravy medzipodnikových projektov existujú problémy v cieľovej spoločnosti. |
+| Projektový manažment a účtovníctvo | [563579](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563579) | Viazané náklady na projekt vypočítavajú nesprávne množstvo a nákladovú cenu, ak bola objednávka spracovaná spoločnosťou **Proces nákupnej objednávky na konci roka** v hlavnej knihe. |
 | Projektový manažment a účtovníctvo | [581454](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581454) | Keď sa výrobná zákazka projektu, ktorá obsahuje zákazky kvality, vykáže ako dokončená, vyskytne sa nasledujúca chyba: „Žiadna virtuálna transakcia označená transakciou zásob.“ |
 | Projektový manažment a účtovníctvo | [596408](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596408) | Keď sa zaúčtuje faktúra týkajúca sa projektu, vyskytne sa nasledujúca chyba: "Vyčíslený text Projekt - náklady - položka neexistuje." |
 | Projektový manažment a účtovníctvo | [597237](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597237) | Pri ručnom nahromadení výnosov sa nepriame náklady zdvojnásobia. |

@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka cenovej ponuky, oceňovania a fakturovania
-description: Táto téma poskytuje informácie o cenovej ponuke, oceňovaní a fakturácii.
+description: Tento článok poskytuje informácie o cenových ponukách, cenách a fakturácii.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926749"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Domovská stránka cenovej ponuky, oceňovania a fakturovania
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581119"
 
 Cenová ponuka, oceňovanie a fakturácia sú funkcie, ktoré sa využívajú vo veľkých aj malých organizáciách. Pochopením, ako tieto funkcie fungujú v aplikácii, môžu organizácie ľahšie prispôsobiť konfigurácie.
 
-Nasledujúce témy poskytujú viac informácií o funkciách cenovej ponuky, oceňovania a fakturácie v PSA:
+Nasledujúce články poskytujú ďalšie informácie o funkciách cenových ponúk, cien a fakturácie v PSA:
 
 - [Proces predaja](basic-sales-process.md)
 - [Riadky cenovej ponuky](basic-quote-lines.md)

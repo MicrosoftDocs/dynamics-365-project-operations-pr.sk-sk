@@ -1,6 +1,6 @@
 ---
 title: Príjem položiek z nákupnej objednávky z požiadaviek na položku
-description: Táto téma vysvetľuje, ako prijímať položky na nákupnej objednávke z požiadavky na položku.
+description: Tento článok vysvetľuje, ako získať položky na nákupnú objednávku z požiadavky na položku.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682548"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929555"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Príjem položiek z nákupnej objednávky z požiadaviek na položku
 
 [!include [banner](../../includes/banner.md)]
 
-Táto téma vysvetľuje, ako prijímať položky na nákupnej objednávke z požiadavky na položku.
+Tento článok vysvetľuje, ako získať položky na nákupnú objednávku z požiadavky na položku.
 
 Použitím požiadavky na položku namiesto transakcie s položkou môžete naplánovať dodanie tesne pred skutočným použitím položky, vytvoriť objednávku, zahrnúť položku do rámca obchodnej zmluvy a zahrnúť požiadavku na položku do plánovania výroby. 
 

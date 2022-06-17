@@ -1,21 +1,21 @@
 ---
 title: Správa viacerých zákazníkov v projektových zmluvách
-description: Táto téma poskytuje informácie o spravovaní viacerých zákazníkov v projektovej zmluve.
+description: Tento článok poskytuje informácie o tom, ako spravovať viacerých zákazníkov v rámci projektovej zmluvy.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928359"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Správa viacerých zákazníkov v projektových zmluvách
 
-Táto téma poskytuje informácie o spravovaní viacerých zákazníkov v projektovej zmluve. Projektovú zmluvu môžete použiť, keď je na financovanie obchodu potrebná zmluva pre viacerých zákazníkov. Na stránke **Projektová zmluva** obsahuje karte **Súhrn** informácie o primárnom zákazníkovi obchodu. Ďalší zákazníci, ktorí sa zúčastňujú na obchode, sa môžu pridať na karte **Zákazníci**.
+Tento článok poskytuje informácie o tom, ako spravovať viacerých zákazníkov v rámci projektovej zmluvy. Projektovú zmluvu môžete použiť, keď je na financovanie obchodu potrebná zmluva pre viacerých zákazníkov. Na stránke **Projektová zmluva** obsahuje karte **Súhrn** informácie o primárnom zákazníkovi obchodu. Ďalší zákazníci, ktorí sa zúčastňujú na obchode, sa môžu pridať na karte **Zákazníci**.
 
 Všetci zmluvní zákazníci na karte **Zákazníci** v projektovej zmluve predvolene vystupujú ako zákazníci riadku zmluvy v akýchkoľvek nových riadkoch zmlúv založených na projekte, ktoré sú vytvorené pre projektovú zmluvu. Akékoľvek existujúce riadky zmlúv založené na projekte nededia nových zmluvných zákazníkov, ktorí sa vytvárajú neskôr.
 

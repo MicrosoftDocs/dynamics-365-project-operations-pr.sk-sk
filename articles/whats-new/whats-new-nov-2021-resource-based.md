@@ -1,24 +1,24 @@
 ---
 title: Čo je nové v novembri 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú dostupné vo vydaní Project Operations z novembra 2021 pre scenáre založené na zdrojoch/nezásobách.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú dostupné vo vydaní Project Operations z novembra 2021 pre scenáre založené na zdrojoch/nezásobách.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b58965f728321cc30d4e476b0dacf621fdec71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932913"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v novembri 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
 *Platí pre: Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch*
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsoft Dynamics 365 Project Operations:
 
 - Projektové operácie v a Dataverse verzia prostredia 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.22
@@ -53,7 +53,7 @@ Ak narazíte na problém pri spustení mapy, postupujte podľa pokynov v časti 
 | Fakturácia a tvorba cien | 2467386 | Povoliť odstránenie projektu, ktorý má úlohu, aj keď je úloha priradená k vyhranej cenovej ponuke. |
 | Čas a výdavky | 2461744 | The **Moje neúspešné schválenie** pohľad obsahuje iba schválenia projektov v **Predložené** etapa. |
 | Čas a výdavky | 2464082 | Keď sa zhoduje cieľový stav, odstráňte prepojenie zo schvaľovania projektov na množinu schválení. |
-| Čas a výdavky | 2468108 | Úloha Schedule by nemala nastaviť a **Spracovanie** stav pre sadu schvaľovania. |
+| Čas a výdavky | 2468108 | Úloha Schedule by nemala nastaviť a **Spracovanie** stav schvaľovacej sady. |
 | Čas a výdavky | 2471503 | Odstráňte skupiny schválenia staré sedem dní. |
 | Fakturácia a tvorba cien | 2480687 | Odkaz na riadok cenovej ponuky sa nesmie odstrániť, keď sa vytvorí míľnik riadka cenovej ponuky. |
 
@@ -73,6 +73,6 @@ Ak narazíte na problém pri spustení mapy, postupujte podľa pokynov v časti 
 | Projektový manažment a účtovníctvo | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Úprava plne fakturovaného medzníka by nemala byť možná. |
 | Cestovanie a výdavky | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Všetky prehľady výdavkov sú viditeľné pri hľadaní kategórie v mobilnej aplikácii Výdavky. |
 | Cestovanie a výdavky | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Nesprávne sumy transakcií predajcu a transakcií dane z obratu sa účtujú z nákladu, ktorý je vytvorený z transakcie kreditnou kartou. |
-| Cestovanie a výdavky | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Keď obnovíte súbor, zobrazí sa irelevantné varovanie **Správa o výdajoch** stránku. |
+| Cestovanie a výdavky | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Irelevantné varovanie sa zobrazí, keď obnovíte súbor **Správa o výdajoch** stránku. |
 | Cestovanie a výdavky | [598656](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598656) | Nesprávny dočasný schvaľovateľ sa použije, keď odstránite dočasného schvaľovateľa a potom znova odošlete výkaz výdavkov prostredníctvom pracovného toku. |
 | Cestovanie a výdavky | [612742](https://fix.lcs.dynamics.com/Issue/Details/?bugId=612742) | Vyskytla sa chyba účtovania, ktorá súvisí s nastavením najazdených kilometrov. |

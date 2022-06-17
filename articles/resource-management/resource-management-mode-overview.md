@@ -1,17 +1,17 @@
 ---
 title: Prehľad režimov správy zdrojov
-description: Táto téma poskytuje informácie o funkcii Správa zdrojov v aplikácii Dynamics 365 Project Operations.
+description: Tento článok poskytuje informácie o funkciách správy zdrojov v Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928451"
 ---
 # <a name="resource-management-modes-overview"></a>Prehľad režimov správy zdrojov
 
@@ -38,7 +38,7 @@ Pre organizácie, ktoré požadujú flexibilitu pri prideľovaní zdrojov, umož
 
 ![Hybridný režim.](./media/resource-management-hybrid.png)
 
-Okrem podporovaného procesu v centrálnom režime nájdete v nasledujúcich témach správu všetkých ostatných podporovaných tokov rezervácie v hybridnom režime:
+Okrem podporovaného procesu centrálneho režimu si pozrite nasledujúce články, ktoré vám pomôžu spravovať všetky ostatné podporované toky rezervácie v hybridnom režime:
 
 Priama rezervácia zdroja pre projekt:
 - [Rezervácia pomenovaných rezervovateľných zdrojov pre projektový tímu a priradenie úloh](/dynamics365/project-service/assign-named-bookable-resource)

@@ -1,6 +1,6 @@
 ---
 title: Projektové predajné objednávky pre projekty typu „čas a materiál“
-description: Táto téma vysvetľuje, ako vytvoriť projektové predajné objednávky pre projekty typu „čas a materiál“.
+description: Tento článok vysvetľuje, ako vytvoriť projektové zákazky odberateľa pre časové a materiálové projekty.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3e88235b08ca2b8a5ccaab3dfdd7bcff4ab64f5f
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 3a040de6d22b626b9e3d462272f43c5763b5b90f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933833"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projektové predajné objednávky pre projekty typu „čas a materiál“
 
 [!include[banner](../includes/banner.md)]
 
-Táto téma popisuje, ako vytvoriť predajnú objednávku pre projekt. Predajné objednávky je možné vytvoriť iba pre projekty typu **čas a materiál**.
+Tento článok popisuje, ako vytvoriť zákazku odberateľa pre projekt. Predajné objednávky je možné vytvoriť iba pre projekty typu **čas a materiál**.
 
 Ak má projekt typu „čas a materiál“ na projektovej zmluve viac zdrojov financovania, musíte povoliť parameter **Povoliť predajné objednávky pre projekty s viacerými zdrojmi financovania** na stránke **Parametre projektového riadenia a účtovníctva**. 
 

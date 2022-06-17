@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 17.5, oprava V3
-description: Táto téma obsahuje zoznam funkcií a opráv dostupných v aktualizácii Project Service Automation, vydanie 17.5, V3
+description: Tento článok obsahuje zoznam funkcií a opráv, ktoré sú k dispozícii v Project Service Automation Update Release 17.5, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 6d4dc77263b7ce8cb2bfa0a7e61d1b55a849b624
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f008d8da11b7fecb308a00350a78298b83991d87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926473"
 ---
 # <a name="project-service-automation-update-release-175-v3"></a>Aktualizácia pre Project Service Automation, vydanie 17.5, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577347"
 
 S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365. Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti.  Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte centrum spravovania pre Dynamics 365 online, prejdite na stránku riešení a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).
 
-Táto téma obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu V3, vydanie 17.5. Táto verzia má číslo zostavy V3.10.7.32 a je všeobecne dostupná prostredníctvom samoaktualizácie v marci 2020.
+Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre V3, vydanie aktualizácie 17.5. Táto verzia má číslo zostavy V3.10.7.32 a je všeobecne dostupná prostredníctvom samoaktualizácie v marci 2020.
 
 
 ## <a name="update-release-175"></a>Aktualizácia vydania 17.5

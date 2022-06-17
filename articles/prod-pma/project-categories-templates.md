@@ -1,6 +1,6 @@
 ---
 title: Synchronizujte kategórie výdavkov projektu medzi Financie a prevádzka a Automatizácia projektových služieb
-description: Táto téma popisuje šablóny a základné úlohy, ktoré sa používajú na synchronizáciu kategórií výdavkov projektu medzi nimi Microsoft Dynamics 365 Financie a Dynamics 365 Project Service Automation.
+description: Tento článok popisuje šablóny a základné úlohy, ktoré sa používajú na synchronizáciu kategórií výdavkov projektu medzi nimi Microsoft Dynamics 365 Financie a Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927255"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronizujte kategórie výdavkov projektu medzi Financie a prevádzka a Automatizácia projektových služieb
 
 [!include[banner](../includes/banner.md)]
 
-Táto téma popisuje šablóny a základné úlohy, ktoré sa používajú na synchronizáciu kategórií výdavkov projektu medzi Dynamics 365 Finance a Dynamics 365 Project Service Automation.
+Tento článok popisuje šablóny a základné úlohy, ktoré sa používajú na synchronizáciu kategórií výdavkov projektu medzi Dynamics 365 Finance a Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Integrácia projektovej úlohy, kategórie výdavkov na transakciu, odhady hodín, odhady výdavkov a blokovanie funkcií sú k dispozícii vo verzii 8.0.

@@ -1,6 +1,6 @@
 ---
 title: Mobilná aplikácia výdavkov
-description: Táto téma poskytuje informácie o mobilnom pracovnom priestore na spravovanie výdavkov.
+description: Tento článok poskytuje informácie o mobilnom pracovnom priestore správy výdavkov.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930245"
 ---
 # <a name="mobile-expense-app"></a>Mobilná aplikácia výdavkov
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma poskytuje informácie o mobilnom pracovnom priestore **Spravovanie výdavkov**. Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov. Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov. Schvaľovatelia môžu navyše používať mobilný pracovný priestor **Správa výdavkov** na prezeranie výkazy výdavkov, ktoré sú im priradené, a tieto výkazy výdavkov buď schváliť, alebo odmietnuť.
+Tento článok poskytuje informácie o **Riadenie výdavkov** mobilný pracovný priestor. Tento pracovný priestor umožňuje používateľom zaznamenať a nahrať účtenku, aby ju mohli neskôr pripojiť k výkazu výdavkov. Používatelia môžu tiež rýchlo vytvoriť riadok výdavkov pomocou priloženej účtenky a vytvárať a spravovať svoje výkazy výdavkov. Schvaľovatelia môžu navyše používať mobilný pracovný priestor **Správa výdavkov** na prezeranie výkazy výdavkov, ktoré sú im priradené, a tieto výkazy výdavkov buď schváliť, alebo odmietnuť.
 
 Tento mobilný pracovný priestor je určený na použitie s mobilnou aplikáciou Dynamics 365 Unified Ops.
 

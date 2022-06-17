@@ -1,18 +1,18 @@
 ---
 title: Použite kategórie obstarávania s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa
-description: Táto téma popisuje, ako nakonfigurovať kategórie obstarávania, ktoré možno použiť s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa.
+description: Tento článok popisuje, ako nakonfigurovať kategórie obstarávania, ktoré možno použiť s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: HT
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613366"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927439"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Použite kategórie obstarávania s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa
 
@@ -47,7 +47,7 @@ Podľa týchto krokov mapujte kategórie projektov na kategórie obstarávania v
 
 1. Ísť do **Obstarávanie a získavanie zdrojov \> Kategórie obstarávania**.
 1. Vyberte **Upraviť hierarchiu kategórií**.
-1. Vyberte požadovaný uzol hierarchie kategórií a potom na **Priraďte kategórie projektu** priraďte uzol ku kategórii projektu z **čas**, Výdavok**, príp **,Projekt položky** kategória (t.j **Predvolený čas** alebo **Predvolené náklady** kategória).
+1. Vyberte požadovaný uzol hierarchie kategórií a potom na **Priraďte kategórie projektu** priraďte uzol ku kategórii projektu z **čas**, **alebo**, **Projekt položky** kategória (t.j **Predvolený čas** alebo **Predvolené náklady** kategória).
 1. Vyberte **Uložiť**.
 1. Zatvorí stránku.
 

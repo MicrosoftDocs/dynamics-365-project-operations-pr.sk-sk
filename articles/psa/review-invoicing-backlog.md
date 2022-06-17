@@ -1,6 +1,6 @@
 ---
 title: Skontrolujte fakturačné oneskorenie projektov a projektových zmlúv
-description: Táto téma poskytuje informácie o tom, ako skontrolovať čas, výdavky a backlogy produktu a ako ich označiť ako pripravené na fakturáciu.
+description: Tento článok poskytuje informácie o tom, ako skontrolovať nevybavené položky času, výdavkov a produktov a ako ich označiť ako pripravené na fakturáciu.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928911"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Skontrolujte fakturačné oneskorenie projektov a projektových zmlúv
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600577"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ak je transakcia pripravená na vytvorenie a spracovanie faktúry, transakcia by mala byť označená ako **Pripravené na faktúru**. Táto téma popisuje typy transakcií, ktoré je možné vytvoriť.
+Ak je transakcia pripravená na vytvorenie a spracovanie faktúry, transakcia by mala byť označená ako **Pripravené na faktúru**. Tento článok popisuje typy transakcií, ktoré je možné vytvoriť.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Prezrite si backlog fakturácie času a materiálu
 

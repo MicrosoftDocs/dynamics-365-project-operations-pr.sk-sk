@@ -1,24 +1,24 @@
 ---
 title: Čo je nové v marci 2022 – nasadenie aplikácie Project Operations Lite
-description: Táto téma poskytuje informácie o aktualizáciách kvality, ktoré sú dostupné vo vydaní zjednodušeného nasadenia Project Operations z marca 2022.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní zjednodušeného nasadenia Project Operations z marca 2022.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934247"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Čo je nové v marci 2022 – nasadenie aplikácie Project Operations Lite
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 365 Project Operations:
+Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsoft Dynamics 365 Project Operations:
 
 - Projektové operácie v a Dataverse verzia prostredia 4.30.0.99
 
@@ -45,15 +45,15 @@ Táto téma sa týka nasledujúcich komponentov a verzií Microsoftu Dynamics 36
 | Fakturácia a tvorba cien | 2589619 | Daň zo zapísaného materiálu sa prenáša do skutočných nevyfakturovaných predajov a faktúry. |
 | Správa príležitostí | 2594015 | Cenovú ponuku nemožno uzavrieť ako vyhratú pre zákazníkov, ktorí tak urobili **Net60** platobné podmienky. |
 | Plánovanie a sledovanie projektu | 2595841 | V Project for the Web sa používateľom zobrazí chybové hlásenie o chýbajúcom **msdyn\_ skutočný štart** keď vytvoria novú požiadavku na zdroj. |
-| Čas a výdavky | 2602511 | The **Odmietnuté používateľom** pole pre časové záznamy zobrazuje **systém** namiesto menovaného používateľa ako odmietajúceho. |
+| Čas a výdavky | 2602511 | The **Odmietnuté používateľom** zobrazuje pole pre časové záznamy **systém** namiesto menovaného používateľa ako odmietajúceho. |
 | Čas a výdavky | 2602528 | Schvaľovateľ projektu môže schváliť čas na projektoch, kde nie je uvedený ako schvaľovateľ. |
 | Fakturácia a tvorba cien | 2608550 | Opravnú faktúru je možné potvrdiť aj vtedy, ak nedošlo k žiadnym zmenám oproti originálu. |
 
 ## <a name="removed-and-deprecated-features"></a>Odstránené a zastarané funkcie
 
-The [Odstránené alebo zastarané funkcie v Project Operations](../../whats-new/removed-depreciated-features-project.md) téma popisuje funkcie, ktoré boli odstránené alebo zastarané Dynamics 365 Project Operations.
+The [Odstránené alebo zastarané funkcie v Project Operations](../../whats-new/removed-depreciated-features-project.md) článok popisuje funkcie, ktoré boli odstránené alebo zastarané pre Dynamics 365 Project Operations.
 
 - Odstránená funkcia už v produkte nie je k dispozícii.
 - Zastaraná funkcia nie je v aktívnom vývoji a môže byť odstránená v budúcej aktualizácii.
 
-Oznámenie o ukončení podpory sa zobrazí v [Odstránené alebo zastarané funkcie v Project Operations](../../whats-new/removed-depreciated-features-project.md) tému 12 mesiacov pred odstránením akejkoľvek funkcie z produktu.
+Oznámenie o ukončení podpory sa zobrazí v [Odstránené alebo zastarané funkcie v Project Operations](../../whats-new/removed-depreciated-features-project.md) článku 12 mesiacov pred odstránením akejkoľvek funkcie z produktu.

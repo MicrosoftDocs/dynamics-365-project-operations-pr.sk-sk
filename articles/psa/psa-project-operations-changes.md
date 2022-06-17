@@ -1,6 +1,6 @@
 ---
-title: Zmeny funkcií z Project Service Automation na Project Operations
-description: Táto téma poskytuje prehľad zmien funkcií z Project Service Automation na Dynamics 365 Project Operations.
+title: Zmeny funkcií medzi aplikáciami Project Service Automation a Project Operations
+description: Tento článok poskytuje prehľad zmien funkcií z Project Service Automation na Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925369"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Zmeny funkcií z Project Service Automation na Project Operations
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Zmeny funkcií medzi aplikáciami Project Service Automation a Project Operations
 
-Aktualizácia z Dynamics 365 Project Service Automation do Dynamics 365 Project Operations Lite bude dodaný v troch fázach. Táto téma poskytuje informácie o hlavných zmenách, ktoré môžete očakávať po dokončení inovácie.
+Aktualizácia z Dynamics 365 Project Service Automation do Dynamics 365 Project Operations Lite bude dodaný v troch fázach. Tento článok poskytuje informácie o hlavných zmenách, ktoré môžete očakávať po dokončení inovácie.
 
 | Inovovať doručenie | Fáza 1 <br>(január 2022) | 2. fáza <br>(Vlna apríla 2022) | 3. fáza  |
 |------------------|------------------------|---------------------------|---------------------------|
@@ -62,7 +62,7 @@ Nasledujúca tabuľka sumarizuje rozdiely v plánovaní medzi Project Service Au
 | Zobrazenie tabúľ pre dodanie projektu bez vodopádu  | :heavy_check_mark:   | &nbsp; |
 | Zobrazenie časovej osi – Interaktívny Ganttov diagram používaný na vizualizáciu a úpravu WBS   | :heavy_check_mark:  | &nbsp; |
 | Klávesové skratky – použite klávesové skratky na bežné operácie, ako je odsadenie alebo vloženie  | :heavy_check_mark:  |  &nbsp; |
-| Viacúrovňové vrátenie – Vykonajte analýzu typu „čo keby“, aby ste plne porozumeli dopadu zmien, a to zvrátením a opätovným použitím celého súboru operácií | :heavy_check_mark: | &nbsp; |
+| Viacúrovňové vrátenie – vykonajte analýzu typu „čo keby“, aby ste plne porozumeli dopadu zmien, a to zvrátením a opätovným použitím celej skupiny operácií | :heavy_check_mark: | &nbsp; |
 | Vystrihnúť/Kopírovať/Vložiť – Spolupracujte na vývoji plánu kopírovaním a vkladaním podrobností plánu medzi aplikáciami  | :heavy_check_mark: | &nbsp; |
 | Kontrolné zoznamy úloh – Pridajte k úlohe až 20 položiek kontrolného zoznamu   | :heavy_check_mark: | &nbsp; |
 
@@ -158,7 +158,7 @@ Boli pridané nasledujúce polia.
 | msdyn_project     | msdyn_actualmaterialsales                    | Zobrazuje súhrn skutočného predaja materiálu na projekte. Len na použitie v Project Service Automation. |
 | msdyn_project     | msdyn_businesscase                           |                |
 | msdyn_project     | msdyn_contractlineproject                    | Zmluvná linka spojená s týmto projektom. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | Toto je interné systémové pole, ktoré sa používa **Kopírovať projekt** súvisiaci s identifikátorom korelácie. Len na použitie v Project Service Automation. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | Toto je interné systémové pole, ktoré sa používa **Kopírovať projekt** súvisiace s identifikátorom korelácie. Len na použitie v Project Service Automation. |
 | msdyn_project     | msdyn_copyprojectsessionid                   | Toto je interné systémové pole, ktoré sa používa na **Kopírovať projekt** súvisiace s Identifikátorom relácie. Len na použitie v Project Service Automation. |
 | msdyn_project     | msdyn_globalrevisiontoken                    | Posledná synchronizácia xRM Global Revision Token zo služby plánovania projektu. |
 | msdyn_project     | msdyn_msprojectdocument                      | Dokument Microsoft Project, ktorý patrí k projektu. |
@@ -195,7 +195,7 @@ Možnosť upravovať obrysy priradenia zdrojov bude k dispozícii, keď bude k d
 
 V prevádzke projektu boli pridané nasledujúce nové funkcie. Tieto funkcie majú aditívny charakter a nemajú vplyv na dátový model Project Service Automation.
 
-- [Evidencia spotreby materiálu na projektoch a projektových úlohách](../material/material-usage-log.md)
+- [Evidovanie spotreby materiálu na projektoch a projektových úlohách](../material/material-usage-log.md)
 - [Manažment subdodávok](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Zálohy a zmluvy založené na preddavkoch](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Stav neprekročenia zmluvy a overenia](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)

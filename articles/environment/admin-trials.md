@@ -1,17 +1,17 @@
 ---
 title: Registrácia do skúšobných verzií Project Operations
-description: Táto téma poskytuje informácie o tom, ako nasadiť skúšobnú verziu Dynamics 365 Project Operations.
+description: Tento článok poskytuje informácie o tom, ako nasadiť skúšobnú verziu Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584293"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959694"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrácia do skúšobných verzií Project Operations 
 
@@ -19,9 +19,9 @@ _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/ch�
 
 
 
-Táto téma vysvetľuje, ako si predplatiť ponuku partnera verzie Preview a nasadiť prostredie Dynamics 365 Project Operations.
+Tento článok vysvetľuje, ako sa prihlásiť na odber ukážkovej ponuky partnera a nasadiť a Dynamics 365 Project Operations životné prostredie.
 
-Vďaka novej skúšobnej verzii Project Operations môžete automaticky nasadiť ktorýkoľvek z troch podporovaných scenárov nasadenia vyplnením dotazníka, ktorý odporúča najlepší prístup k nasadeniu. Táto téma poskytuje informácie o nasledujúcich témach:
+Vďaka novej skúšobnej verzii Project Operations môžete automaticky nasadiť ktorýkoľvek z troch podporovaných scenárov nasadenia vyplnením dotazníka, ktorý odporúča najlepší prístup k nasadeniu. Tento článok poskytuje informácie o tom, ako:
 
 - Uplatnenie skúšobnej ponuky.
 - Inicializácia poskytovania prostriedkov.
@@ -89,14 +89,15 @@ Predtým ako začnete, prihláste sa do prehliadača pomocou používateľského
 4.  Vyberte príslušný Microsoft Dataverse URL a adresy URL aplikácií Finance and Operations na overenie nasadenia.
 
 ## <a name="configuring-dual-write"></a>Konfigurácia duálneho zápisu
-- Ak chcete nakonfigurovať roly zabezpečenia pre duálny zápis, pozrite si časť [Aktualizujte nastavenia zabezpečenia v Project Operations v Dataverse](resource-provision-new-environment.md).
+- Ak chcete nakonfigurovať roly zabezpečenia pre duálny zápis, pozrite si časť [Aktualizujte nastavenia zabezpečenia v Project Operations v Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Ak chcete získať prístup ku konfigurácii duálneho zápisu, prejdite na inštanciu financií a operácií a potom prejdite na **Správa údajov** > **Dvojité písanie**.
 - Ak chcete nakonfigurovať mapy s dvojitým zápisom, pozrite si časť [Spustite Project Operations mapy s dvojitým zápisom](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Priradenie licencií
 
 Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k Microsoft 365 vo vašej organizácii .
 
-1. Choďte na [Microsoft 365 centrum spravovania](https://portal.office.com/) na priradenie licencií vašim používateľom.
+1. Choďte na [Microsoft 365 centrum spravovania](https://portal.office.com/) na pridelenie licencií vašim používateľom.
 
    ![Stránka správcu centra spravovania](./media/14AdminPortal.png)
 

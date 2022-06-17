@@ -1,17 +1,17 @@
 ---
 title: Nastavenie a použitie konfiguračných údajov v Common Data Service
-description: Táto téma poskytuje informácie o nastavení a použití konfiguračných údajov v Project Operations.
+description: Tento článok poskytuje informácie o nastavení a použití konfiguračných údajov v Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928037"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavenie a použitie konfiguračných údajov v Common Data Service 
 
@@ -23,7 +23,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 Skôr než začnete konfigurovať údaje v službe Common Data Service (CDS), musia byť splnené nasledujúce požiadavky:
 
-1.  Poskytnutie prostredia CDS a prostredia Dynamics 365 Finance pre operácie projektu.
+1.  Poskytnutie prostredia CDS a prostredia Dynamics 365 Finance pre projektové operácie.
 2.  Informácie o právnickej osobe z Dynamics 365 Finance sa zdieľajú s prostredím CDS. To znamená, že entita **Spoločnosť** v CDS má tieto firemné záznamy:
   - THPM
   - USPM

@@ -1,6 +1,6 @@
 ---
 title: Cenove ponuky a riadky cenovej ponuky
-description: Táto téma poskytuje informácie o jednotkových skupinách a jednotkách.
+description: Tento článok poskytuje informácie o cenových ponukách a riadkoch cenových ponúk.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933373"
 ---
 # <a name="quotes-and-quote-lines"></a>Cenove ponuky a riadky cenovej ponuky
 
@@ -39,7 +39,7 @@ V Dynamics 365 Project Service Automation, existujú dva typy cenových ponúk: 
 - Predajná cenová ponuka nezahŕňa niektoré polia a koncepty, ktoré sú súčasťou projektovej cenovej ponuky. Polia zahŕňajú **zmluvnú jednotku**, **Account Manager** a **faktúra na kontaktné meno**.  
 - Predajné cenové ponuky a projektové cenové ponuky sú tiež identifikované ako pole založené na množine možností, ktoré je pomenovaná **typ**. Pre predajnú ponuku má toto pole hodnotu **Založené na položke**. Pre projektovú cenovú ponuku, má hodnotu **založené na práci**.
 
-Táto téma sa zameria na detaily projektových ponúk.
+Tento článok sa zameria na detaily projektových ponúk.
 
 Projektová cenová ponuka v PSA môže mať viac riadkov položiek alebo riadkov cenovej ponuky. V skutočnosti, projektová cenová ponuka má dve mriežky pre riadkové položky. Jedna mriežka je pre riadky založené na projekte, ktoré umožňujú podrobné odhady. Druhá mriežka je pre riadky založené na produkte, ktoré používajú jednoduchú jednotkovú cenu a prístup založený na množstve.
 

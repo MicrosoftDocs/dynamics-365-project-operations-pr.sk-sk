@@ -1,6 +1,6 @@
 ---
 title: Konfigurácia správy výdavkov
-description: Tento článok popisuje úvahy a rozhodnutia, ktoré musíte urobiť počas procesu plánovania pred konfiguráciou správy výdavkov Microsoft Dynamics 365 Financie.
+description: Tento článok popisuje úvahy a rozhodnutia, ktoré musíte urobiť počas procesu plánovania predtým, ako nakonfigurujete správu výdavkov Microsoft Dynamics 365 Financie.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934017"
 ---
 # <a name="configure-expense-management"></a>Konfigurácia správy výdavkov
 
-Táto téma popisuje úvahy a rozhodnutia, ktoré musíte urobiť počas procesu plánovania pred konfiguráciou správy výdavkov. V správe výdavkov môžete ukladať informácie o spôsoboch platby, cestovných požiadavkách, správach o výdavkoch, pravidlách atď.
+Tento článok popisuje úvahy a rozhodnutia, ktoré musíte urobiť počas procesu plánovania pred konfiguráciou riadenia výdavkov. V správe výdavkov môžete ukladať informácie o spôsoboch platby, cestovných požiadavkách, správach o výdavkoch, pravidlách atď.
 
 Pretože veľa rozhodnutí, ktoré urobíte pri plánovaní svojej konfigurácie pre správu výdavkov, je založených na hierarchii a finančnej štruktúre vašej organizácie, musíte si prečítať plánovacie dokumenty pre tieto oblasti.
 

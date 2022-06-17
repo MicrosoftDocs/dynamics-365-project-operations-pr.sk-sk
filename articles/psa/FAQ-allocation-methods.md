@@ -1,6 +1,6 @@
 ---
 title: Metódy prideľovania rezervácií v aplikácii Project Service Automation
-description: Táto téma poskytuje informácie o rôznych spôsoboch, akými môžete prideliť rezerváciu .
+description: Tento článok poskytuje informácie o rôznych spôsoboch, ako si môžete rezervovať alokácie.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929187"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metódy prideľovania rezervácií v aplikácii Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Či už pridáte člena tímu priamo k projektu na karte **tím** alebo zarezervujete zdroj k projektu alebo požiadavke na tabule plánu, existuje niekoľko rôznych spôsobov priradenia rezervácie, ktoré možno využiť. Tento nadpis vysvetľuje, ako každá metóda funguje, a aké metódy by mohli viesť k nadmernej rezervácii zdrojov.
+Či už pridáte člena tímu priamo k projektu na karte **tím** alebo zarezervujete zdroj k projektu alebo požiadavke na tabule plánu, existuje niekoľko rôznych spôsobov priradenia rezervácie, ktoré možno využiť. Tento článok vysvetľuje, ako jednotlivé metódy fungujú a ktoré metódy môžu viesť k nadmernej rezervácii zdrojov.
 
 ## <a name="full-capacity"></a>Plná kapacita 
 Metóda plnej kapacity zarezervuje úplnú kapacitu zdrojov pre stanovené dátumy od a do. Napríklad, ak má zdroj kalendár nastavte pracovať 8 hodín denne, 5 dní týždenne, nastavte dátum začatia a ukončenia, ktorý pokrýva 5 pracovných dní zarezervuje zdroj na 40 hodín. Rezervácia prebieha bez ohľadu na zdroje a zostávajúcu kapacitu. Ak je zdroj počas daného obdobia už zarezervovaný pre iné projekty, 40 hodín sa zarezervuje ako hodiny naviac, čo môže viesť k nadmerným rezerváciám.
