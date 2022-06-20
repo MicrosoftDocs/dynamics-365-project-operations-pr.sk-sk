@@ -9,7 +9,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: sk-SK
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927439"

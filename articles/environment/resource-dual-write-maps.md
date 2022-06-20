@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
 ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: sk-SK
 ms.lasthandoff: 06/14/2022
 ms.locfileid: "8959658"

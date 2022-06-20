@@ -9,7 +9,7 @@ ms.reviewer: johnmichalak
 ms.author: andchoi
 ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: sk-SK
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927163"

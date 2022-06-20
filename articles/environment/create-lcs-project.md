@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: stsporen
 ms.openlocfilehash: 6f5bd20b9d0e8ca1ace1dd6a5a66ae1810bb5b3b
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: sk-SK
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8923253"
