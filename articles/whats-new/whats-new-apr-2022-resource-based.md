@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912397"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110903"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v apríli 2022 – Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách
 
@@ -25,7 +25,7 @@ Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsof
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 
-Kategórie obstarávania možno použiť v projektových nákupných objednávkach a čakajúcich faktúrach dodávateľa. Viac informácií nájdete v časti [Použite kategórie obstarávania s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa](configure-procurement-categories.md).
+Kategórie obstarávania možno použiť v projektových nákupných objednávkach a čakajúcich faktúrach dodávateľa. Viac informácií nájdete v časti [Použite kategórie obstarávania s objednávkami projektu a čakajúcimi faktúrami dodávateľa](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aktualizácie máp duálneho zapisovania v aplikácii Project Operations
 
@@ -35,9 +35,9 @@ Nasledujúca tabuľka zobrazuje mapy s duálnym zápisom, ktoré boli upravené 
 | -------------- | ------------------- | ------------|
 | Projektové operácie integrácia projekt dodávateľ faktúra riadok export entity msdyn\_ projectvendorinvoicelines | 1.0.0.4 | Táto mapa podporuje použitie kategórií obstarávania s nákupnými objednávkami a čakajúcimi faktúrami dodávateľa. |
 
-Vždy spúšťajte najnovšiu verziu mapy vo svojom prostredí a povoľte všetky súvisiace tabuľkové mapy pri aktualizácii operácií projektu Dataverse riešenie a verzia finančného riešenia. Niektoré funkcie a možnosti nemusia fungovať správne, ak nie je aktivovaná najnovšia verzia mapy. Aktívnu verziu mapy môžete vidieť v stĺpci **Verzia** na stránke **Duálny zápis**. Novú verziu mapy aktivujete výberom možnosti **Verzie mapy tabuľky**, zvolením najnovšej verzie a potom uložením vybratej verzie. Ak ste si prispôsobili predpripravenú mapu tabuľky, znova použite zmeny. Ďalšie informácie si prečítajte v časti [Správa životného cyklu aplikácie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vždy spúšťajte najnovšiu verziu mapy vo svojom prostredí a povoľte všetky súvisiace tabuľkové mapy pri aktualizácii operácií projektu Dataverse riešenie a verzia finančného riešenia. Niektoré funkcie a možnosti nemusia fungovať správne, ak nie je aktivovaná najnovšia verzia mapy. Aktívnu verziu mapy môžete vidieť v stĺpci **Verzia** na stránke **Duálny zápis**. Novú verziu mapy aktivujete výberom možnosti **Verzie mapy tabuľky**, zvolením najnovšej verzie a potom uložením vybratej verzie. Ak ste prispôsobili mapu predpripravenej tabuľky, znova použite zmeny. Ďalšie informácie si prečítajte v časti [Správa životného cyklu aplikácie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Ak narazíte na problém pri spustení mapy, postupujte podľa pokynov v časti [Problém s chýbajúcimi stĺpcami tabuľky na mapách](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) časti príručky na riešenie problémov s duálnym zápisom.
+Ak pri spustení mapy narazíte na problém, postupujte podľa pokynov v časti [Problém chýbajúcich stĺpcov tabuľky na mapách](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) časti príručky na riešenie problémov s duálnym zápisom.
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
@@ -46,7 +46,7 @@ Ak narazíte na problém pri spustení mapy, postupujte podľa pokynov v časti 
 | Oblasť funkcií | Číslo odkazu | Aktualizácia kvality |
 | ------------ | ---------------- | -------------- |
 | Čas a výdavky | 2573900 | The **Moderné schválenie** funkcia musí byť predvolene povolená. |
-| Fakturácia a tvorba cien | 2603313 | Opravená chyba duplicitného záznamu, ktorá znemožňovala pridanie cenových ponúk a riadkov zmlúv s produktom. |
+| Fakturácia a tvorba cien | 2603313 | Opravená chyba duplicitného záznamu, ktorá zabránila pridaniu riadkov cenových ponúk a zmlúv s produktom. |
 | Nasadenie a konfigurácia | 2611368 | Zákazníci musia mať možnosť pridať do riešenia až päť vlastných entít pomocou moderného návrhára aplikácií. |
 | Čas a výdavky | 2628285 | Opravený problém, ktorý ovplyvňoval možnosť nastaviť správnu kategóriu zdrojov počas importu časového záznamu. |
 | Správa príležitostí| 2628815 | Aktualizujte limit počtu znakov v popise podrobností riadka citácie tak, aby zodpovedal limitu počtu znakov predmetu úlohy, aby bol import úspešný pre úlohy, ktorých predmet je dlhší ako 100 znakov. |
@@ -58,4 +58,4 @@ Ak narazíte na problém pri spustení mapy, postupujte podľa pokynov v časti 
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
 
-Ak chcete získať informácie o opravách chýb, ktoré sú súčasťou tejto aktualizácie, prihláste sa na Microsoft Dynamics Lifecycle Services (LCS) a pozrite si [článok KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).
+Ak chcete získať informácie o opravách chýb, ktoré sú súčasťou tejto aktualizácie, prihláste sa na Microsoft Dynamics Služby životného cyklu (LCS) a pozrite si [článok KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).

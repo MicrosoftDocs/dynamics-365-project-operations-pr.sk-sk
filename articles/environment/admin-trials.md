@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
-ms.translationtype: HT
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959694"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029319"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrácia do skúšobných verzií Project Operations 
 
@@ -86,18 +86,18 @@ Predtým ako začnete, prihláste sa do prehliadača pomocou používateľského
  
   Keď je zriaďovanie dokončené, stav vášho prostredia je **Pripravený**. Zabezpečenie prostredia zahŕňa nasadenie demo údajov.
  
-4.  Vyberte príslušný Microsoft Dataverse URL a adresy URL aplikácií Finance and Operations na overenie nasadenia.
+4.  Vyberte príslušný Microsoft Dataverse URL a adresy URL aplikácií pre financie a operácie na overenie nasadenia.
 
 ## <a name="configuring-dual-write"></a>Konfigurácia duálneho zápisu
 - Ak chcete nakonfigurovať roly zabezpečenia pre duálny zápis, pozrite si časť [Aktualizujte nastavenia zabezpečenia v Project Operations v Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Ak chcete získať prístup ku konfigurácii duálneho zápisu, prejdite na inštanciu financií a operácií a potom prejdite na **Správa údajov** > **Dvojité písanie**.
+- Ak chcete získať prístup ku konfigurácii duálneho zápisu, prejdite na inštanciu financií a operácií a potom prejdite na **Správa údajov** > **Duálny zápis**.
 - Ak chcete nakonfigurovať mapy s dvojitým zápisom, pozrite si časť [Spustite Project Operations mapy s dvojitým zápisom](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Priradenie licencií
 
 Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k Microsoft 365 vo vašej organizácii .
 
-1. Choďte na [Microsoft 365 centrum spravovania](https://portal.office.com/) na pridelenie licencií vašim používateľom.
+1. Choďte na [Microsoft 365 centrum spravovania](https://portal.office.com/) na priradenie licencií vašim používateľom.
 
    ![Stránka správcu centra spravovania](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Nasledujúce zdroje poskytujú užitočné rady na začiatku cesty s Project Ope
 
 ## <a name="frequently-asked-questions"></a>Najčastejšie otázky
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Čo ak potrebujem ALM alebo ELM pre svoje prostredie aplikácií pre financie a operácie?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Čo ak potrebujem ALM alebo ELM pre svoje prostredie finančných a prevádzkových aplikácií?
 
 - Partnerov, ktorí vyžadujú úplné možnosti správy životného cyklu prostredia, nájdete v dokumente [Žiadosť o licenciu izolovaného priestoru partner](https://experience.dynamics.com/requestlicense), kde môžete preskúmať novú partnerskú ponuku. 
 - Partnerov, ktorí hľadajú viac informácií o právach na interné použitie, nájdete v dokumente [Práva na interné použitie v cloude a softvérové výhody (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

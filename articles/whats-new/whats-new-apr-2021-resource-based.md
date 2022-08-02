@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912443"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029273"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové v apríli 2021 – Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách
 
@@ -42,13 +42,13 @@ Nasledujúci zoznam zobrazuje mapy duálneho zapisovania, ktoré boli upravené 
 | **Mapa entity** | **Aktualizovaná verzia** | **Vytvoril** |
 | --- | --- | --- |
 | Skutočné hodnoty integrácie Project Operations (msdyn\_actuals) | 1.0.0.14 | Mapa bola upravená na synchronizáciu skutočných hodnôt projektu. |
-| Entita integrácie Project Operations pre odhady výdavkov (msdyn\_estimateslines) | 1.0.0.2 | Pridaná synchronizácia riadku projektovej zmluvy do aplikácií Finance and Operations pre podporu fakturácie na základe úloh. |
-| Entita integrácie Project Operations pre odhady hodín (msdyn\_resourceassignments) | 1.0.0.5 | Pridaná synchronizácia riadku projektovej zmluvy do aplikácií Finance and Operations pre podporu fakturácie na základe úloh. |
-| Tabuľka integrácie Project Operations pre materiálové odhady (msdyn\_estimatelines) | 1.0.0.0 | Nová tabuľková mapa na synchronizáciu odhadov materiálu Dataverse do aplikácií pre financie a prevádzku. |
-| Entita exportu faktúr projektu dodávateľa projektu Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nová tabuľková mapa na synchronizáciu hlavičiek faktúr dodávateľov z aplikácií Finance and Operations do Dataverse. |
-| Riadok entity exportu faktúr projektu dodávateľa projektu Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nová tabuľková mapa na synchronizáciu riadkov faktúr dodávateľa z aplikácií Finance and Operations do Dataverse. |
+| Entita integrácie Project Operations pre odhady výdavkov (msdyn\_estimateslines) | 1.0.0.2 | Pridaná synchronizácia riadku projektovej zmluvy do finančných a prevádzkových aplikácií pre podporu fakturácie na základe úloh. |
+| Entita integrácie Project Operations pre odhady hodín (msdyn\_resourceassignments) | 1.0.0.5 | Pridaná synchronizácia riadku projektovej zmluvy do finančných a prevádzkových aplikácií pre podporu fakturácie na základe úloh. |
+| Tabuľka integrácie Project Operations pre materiálové odhady (msdyn\_estimatelines) | 1.0.0.0 | Nová tabuľková mapa na synchronizáciu odhadov materiálu Dataverse na finančné a prevádzkové aplikácie. |
+| Entita exportu faktúr projektu dodávateľa projektu Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nová tabuľková mapa na synchronizáciu hlavičiek faktúr dodávateľov z finančných a prevádzkových aplikácií do Dataverse. |
+| Riadok entity exportu faktúr projektu dodávateľa projektu Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nová tabuľková mapa na synchronizáciu riadkov faktúr dodávateľa z finančných a prevádzkových aplikácií do Dataverse. |
 
-Pri aktualizácii operácií projektu by ste mali vždy spustiť najnovšiu verziu mapy vo svojom prostredí a povoliť všetky súvisiace tabuľkové mapy Dataverse riešenie a verzia riešenia Finance and Operations. Ak nie je aktivovaná najnovšia verzia mapy, niektoré funkcie a možnosti nemusia fungovať správne. Aktívnu verziu mapy môžete vidieť v stĺpci **Verzia** na stránke **Duálny zápis**. Novú verziu mapy môžete aktivovať výberom možnosti **Verzie mapy tabuľky**, zvolením najnovšej verzie a potom uložením vybratej verzie. Ak ste prispôsobili predpripravenú mapu tabuľky, znova použite zmeny. Ďalšie informácie si prečítajte v časti [Správa životného cyklu aplikácie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Pri aktualizácii operácií projektu by ste mali vždy spustiť najnovšiu verziu mapy vo svojom prostredí a povoliť všetky súvisiace mapy tabuliek Dataverse verzia riešenia a financií a prevádzky. Ak nie je aktivovaná najnovšia verzia mapy, niektoré funkcie a možnosti nemusia fungovať správne. Aktívnu verziu mapy môžete vidieť v stĺpci **Verzia** na stránke **Duálny zápis**. Novú verziu mapy môžete aktivovať výberom možnosti **Verzie mapy tabuľky**, zvolením najnovšej verzie a potom uložením vybratej verzie. Ak ste prispôsobili predpripravenú mapu tabuľky, znova použite zmeny. Ďalšie informácie si prečítajte v časti [Správa životného cyklu aplikácie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ak narazíte na problém so spustením mapy, postupujte podľa pokynov v časti [Problém s chýbajúcimi stĺpcami tabuľky v mapách](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) v časti Sprievodca riešením problémov s duálnym zápisom.
 

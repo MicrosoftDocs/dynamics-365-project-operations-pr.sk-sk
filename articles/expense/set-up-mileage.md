@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930153"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064297"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Nastavenie najazdených kilometrov pomocou úrovní najazdených kilometrov
 
@@ -50,5 +50,15 @@ Funkcia **Výpočet najazdených kilometrov pre viac úrovní najazdených kilom
 
 Po povolení tejto funkcie obnovte úrovne najazdených kilometrov tak, aby správne odzrkadľovali hodnotu v poli **Množstvo**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Povoľte výpočet celkového počtu najazdených kilometrov pomocou funkcie fiškálny rok
+
+The **Výpočet celkových kilometrov od fiškálny rok** funkcia umožňuje nové nastavenie v parametroch riadenia výdavkov, ktoré vykonáva výpočty celkových najazdených kilometrov podľa fiškálny rok namiesto kalendárneho roka. Ak chcete povoliť túto funkciu, vykonajte nasledujúce kroky.
+
+1. Prejdite do časti **Pracovné priestory** > **Správa funkcií**.
+1. V zozname vyhľadajte a vyberte **Výpočet celkových kilometrov od fiškálny rok** a potom vyberte **Povoliť teraz**.
+1. Ísť do **Riadenie nákladov** > **Nastaviť** > **generál** > **Parametre riadenia výdavkov**.
+1. Na **Parametre riadenia výdavkov** stránku, vyhľadajte a povoľte **Pre celkové najazdené kilometre použite fiškálny rok**.
+
+Po povolení **Pre celkové najazdené kilometre použite fiškálny rok**, celkové najazdené kilometre vypočítava fiškálny rok.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

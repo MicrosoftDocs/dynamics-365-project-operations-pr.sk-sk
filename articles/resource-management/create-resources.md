@@ -6,18 +6,25 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: bcd460c489d428238d27f87968e9afb62fde0cb1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e5df0bad9d2bcab54ad0fc1c917cfdb5aeaff927
+ms.sourcegitcommit: 422d8839c7ea4648d5adb20c40640ac8eb02ecdf
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912673"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125219"
 ---
 # <a name="create-resources"></a>Vytvorenie zdrojov
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Môžete využiť Dynamics 365 Field Service na vytvorenie rezervovateľných zdrojov na použitie vo vašom prostredí Dynamics 365 Project Operations. Ak chcete vytvoriť tieto zdroje, pozrite si stránku [Nastavenie rezervovateľných zdrojov](/dynamics365/field-service/set-up-bookable-resources).
+
+Project Operations podporuje nasledujúce typy zdrojov:
+- Account
+- Kontakt
+- User
+- Vybavenie
+- Generické
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

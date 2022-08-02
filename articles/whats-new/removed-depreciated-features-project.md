@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921505"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028348"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Odstránené alebo zastarané funkcie v Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ Tento článok popisuje funkcie, ktoré boli odstránené alebo ktoré sa plánu
 Tento zoznam vám pomôže zvážiť tieto odstránenia a ukončenia podpory pre vaše vlastné plánovanie.
 
 > [!NOTE]
-> Podrobné informácie o objektoch v aplikáciách Finance and Operations nájdete v [**Správy o technických referenciách**](/dynamics/s-e/global/axtechrefrep_61). Môžete porovnať rôzne verzie týchto prehľadov, aby ste sa dozvedeli o objektoch, ktoré boli zmenené alebo odstránené v jednotlivých verziách aplikácií Finance and Operations.
+> Podrobné informácie o objektoch vo finančných a prevádzkových aplikáciách nájdete v [**Správy o technických referenciách**](/dynamics/s-e/global/axtechrefrep_61). Môžete porovnať rôzne verzie týchto prehľadov, aby ste sa dozvedeli o objektoch, ktoré boli zmenené alebo odstránené v jednotlivých verziách aplikácií pre financie a operácie.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Funkcie odstránené alebo zastarané vo vydaní Project Operations z marca 2022
 
@@ -44,13 +44,13 @@ Tento zoznam vám pomôže zvážiť tieto odstránenia a ukončenia podpory pre
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Dôvod ukončenia podpory/odstránenia** | Tento parameter bol pôvodne použitý na umožnenie úprav, keď bol fiškálne obdobie zatvorený. Už to však nie je potrebné, pretože účtovný dátum transakcie je možné zmeniť na prvý dátum otvoreného obdobia, ak je nakonfigurovaný. Dátum projektu sa nesmie meniť, pretože predstavuje dátum, kedy došlo k transakcii. |
+| **Dôvod ukončenia podpory/odstránenia** | Tento parameter bol pôvodne použitý na umožnenie úprav pri zatvorení fiškálne obdobie. Už to však nie je potrebné, pretože účtovný dátum transakcie je možné zmeniť na prvý dátum otvoreného obdobia, ak je nakonfigurovaný. Dátum projektu sa nesmie meniť, pretože predstavuje dátum, kedy došlo k transakcii. |
 | **Nahradené inou funkciou?** | No |
 | **Ovplyvnené oblasti výrobkov** | Aplikácia |
 | **Možnosť nasadenia** | Projektové operácie pre scenáre výroby/skladu |
 | **Status** | Zastarané: Do 1. marca 2023 skryjeme parameter a zmeníme správanie systému tak, aby sa dátum projektu pri úpravách nikdy nezmenil. |
 
-### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Pracovný postup požiadaviek na zdroje v projektových operáciách pre scenáre na sklade/výrobe
+### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Pracovný tok požiadaviek na zdroje v projektových operáciách pre scenáre na sklade/výrobe
 
 | &nbsp; | &nbsp; |
 |--------|--------|
@@ -67,14 +67,14 @@ Tento zoznam vám pomôže zvážiť tieto odstránenia a ukončenia podpory pre
 | **Dôvod ukončenia podpory/odstránenia** | Zastarané z dôvodu vylepšení stránky, ktorá bola predstavená spolu s **Použite návrh faktúry projektu a formuláre denníka faktúr so zobrazením Hlavička a riadky** funkčný kľúč. |
 | **Nahradené inou funkciou?** | Áno |
 | **Ovplyvnené oblasti výrobkov** | Aplikácia |
-| **Možnosť nasadenia** | Projektové operácie pre scenáre výroby/skladu; Projektové operácie pre scenáre zdrojov/nezásobených zdrojov |
+| **Možnosť nasadenia** | Projektové operácie pre scenáre výroby/skladu; Projektové operácie pre scenáre so zdrojmi/nezásobené |
 | **Status** | Zastarané: Do 1. marca 2023 vypneme staršiu (staršiu) stránku a zapneme **Použite návrh faktúry projektu a formuláre denníka faktúr so zobrazením Hlavička a riadky** funkčný kľúč štandardne. |
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Funkcie odstránené alebo zastarané vo vydaní Project Operations z decembra 2021
 
 ### <a name="collaboration-workspaces"></a>Pracovné priestory pre spoluprácu
 
-[Vytvorenie pracovného priestoru spolupráce (projekt) alebo prepojenie naň](/dynamicsax-2012/appuser-itpro/create-or-link-to-a-collaboration-workspace-project)
+[Vytvorenie alebo prepojenie na pracovný priestor spolupráce (projekt)](/dynamicsax-2012/appuser-itpro/create-or-link-to-a-collaboration-workspace-project)
 
 | &nbsp; | &nbsp; |
 |--------|--------|

@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912259"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028721"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Migrujte plne fakturované míľniky fakturácie pri prerušení
 
@@ -19,7 +19,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 ## <a name="scenario"></a>Scenár
 
-Contoso sa spúšťa s Microsoftom Dynamics 365 Project Operations pre scenáre so zdrojmi/nezásobenými zásobami. V rámci cutover aktivít musí realizačný tím migrovať otvorené projektové zmluvy zo starého systému. Niektoré z projektových zmlúv obsahujú zmluvné linky, ktoré využívajú metódu účtovania s pevnou cenou a už boli čiastočne fakturované koncovému zákazníkovi. Realizačný tím musí migrovať tieto fakturačné míľniky ako **Zákaznícka faktúra zaúčtovaná**, pretože musia byť zahrnuté do celkovej hodnoty zákazky na účely vykazovania výnosov. Zostatky zákazníkov v pohľadávkach a hlavnej knihe však nesmú byť ovplyvnené.
+Contoso sa spúšťa so spoločnosťou Microsoft Dynamics 365 Project Operations pre scenáre so zdrojmi/nezásobenými zásobami. V rámci cutover aktivít musí realizačný tím migrovať otvorené projektové zmluvy zo starého systému. Niektoré z projektových zmlúv obsahujú zmluvné linky, ktoré využívajú metódu účtovania s pevnou cenou a už boli čiastočne fakturované koncovému zákazníkovi. Realizačný tím musí migrovať tieto fakturačné míľniky ako **Zákaznícka faktúra zaúčtovaná**, pretože musia byť zahrnuté do celkovej hodnoty zmluvy na účely vykazovania výnosov. Zostatky zákazníkov v pohľadávkach a hlavnej knihe však nesmú byť ovplyvnené.
 
 ## <a name="solution"></a>Riešenie
 
@@ -33,7 +33,7 @@ Contoso sa spúšťa s Microsoftom Dynamics 365 Project Operations pre scenáre 
 
 1. Uistite sa, že cieľové mapovanie pre **Míľniky zmluvy o integrácii projektových operácií** subjekt je aktuálny. 
 
-    1. V časti Financie prejdite na **Správa údajov** \> **Dátové entity** a vyberte možnosť **Míľniky zmluvy o integrácii projektových operácií** subjekt. 
+    1. V časti Financie prejdite na **Správa údajov** \> **Dátové entity** a vyberte položku **Míľniky zmluvy o integrácii projektových operácií** subjekt. 
     2. Vyberte **Upravte cieľové mapovania**. 
     3. Na **Zloženie mapy do cieľa** stránku, vyberte **Vytvorte mapovanie** a potom potvrďte, že chcete vygenerovať mapovanie.
 
@@ -46,13 +46,13 @@ Contoso sa spúšťa s Microsoftom Dynamics 365 Project Operations pre scenáre 
 3. Pridajte mapovanie stavu transakcie.
 
     1. Vyberte **Pridať mapovanie**.
-    2. Na novom riadku, v **Financie a prevádzkové aplikácie** vyberte stĺpec **TRANSSTATUS\[ TRANSSTATUS\]** lúka.
+    2. Na novom riadku, v **Finančné a prevádzkové aplikácie** vyberte stĺpec **TRANSSTATUS\[ TRANSSTATUS\]** lúka.
     3. V **Microsoft Dataverse** stĺpec, vyberte **msdyn\_ stav faktúry\[ Stav faktúry\]**.
-    4. V **Typ mapy** vyberte šípku vpravo (**\>**).
+    4. V **Typ mapy** v stĺpci vyberte šípku doprava (**\>**).
     5. V dialógovom okne, ktoré sa zobrazí, v **Smer synchronizácie** pole, vyberte **Dataverse do aplikácií pre financie a prevádzku**.
     6. Vyberte **Pridať transformáciu**.
     7. V **Typ transformácie** pole, vyberte **ValueMap**.
-    8. Vyberte **Mapovanie pridanej hodnoty**.
+    8. Vyberte **Pridajte mapovanie hodnoty**.
     9. Do ľavého poľa zadajte **4**. V pravom poli zadajte **192350001**. 
     10. Vyberte **Uložiť** a potom zatvorte dialógové okno.
 

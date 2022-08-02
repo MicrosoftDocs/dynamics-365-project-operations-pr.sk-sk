@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924863"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183994"
 ---
 # <a name="review-proposed-resources"></a>Kontrola navrhovaných zdrojov
 
@@ -40,8 +40,8 @@ Ak chcete skontrolovať navrhnuté zdroje, postupujte takto:
     Nasledujúce aktualizácie stavu sa vyskytujú:
 
     - Na stránke **Asistent plánovania** sa aktualizujú indikátory stavu, ktoré naznačujú, že rezervácia je navrhnutá a nie je pevne rezervovaná.
-    - Na žiadosť o prostriedok, stav sa zmení na **Vyžaduje kontrolu**.
-    - Na karte **Tím** projektu sa hodnota všeobecných členov tímu **Stav žiadosti** zmenila na **Vyžaduje kontrolu**.
+    - Pri žiadosti o zdroj by kontrolór žiadosti mal zmeniť stav na **Vyžaduje preskúmanie**.
+    - Na **Tím** kartu projektu, generický člen tímu **Stav žiadosti** hodnota sa automaticky zmení na **Vyžaduje preskúmanie**.
 
 Projektový manažér môže prijať alebo zamietnuť návrh.
 

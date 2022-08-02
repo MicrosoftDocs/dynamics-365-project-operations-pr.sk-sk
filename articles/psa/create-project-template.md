@@ -4,7 +4,7 @@ description: Ako vytvoriť projektovú šablónu v Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599013"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177445"
 ---
 # <a name="create-a-project-template-project-service"></a>Vytvorenie projektovej šablóny (Project Service)
 
@@ -35,14 +35,21 @@ ms.locfileid: "8599013"
 ## <a name="components-of-project-template"></a>Súčasti šablóny projektu
  Šablóna projektu pozostáva z troch zložiek:  
   
-- **Štruktúra rozdelenia práce**: Štruktúra rozdelenia práce je šablóna projektu s rovnakými prvkami, ktoré sú aj v projekte. Môžete si vytvoriť hierarchiu úloh, priradiť role k úlohám, zadefinovať atribúty plánov, nastaviť závislosti a pozrieť si všetky údaje v Gantt. Štruktúra rozdelenia práce predstavuje šablónu projektu, ktorá podporuje aj režime úloh pre jednotlivé úlohy. Pri vytváraní pracovného harmonogramu neexistuje žiadny rozdiel medzi šablónou projektu a projektom.  
+- **Štruktúra rozdelenia práce**: Štruktúra rozdelenia práce je šablóna projektu s rovnakými prvkami, ktoré sú aj v projekte. Môžete vytvoriť hierarchiu úloh, priradiť roly k úlohe, definovať atribúty plánu, nastaviť závislosti a zobraziť všetky údaje v Ganttovom grafe. Štruktúra rozpisu práce v šablónach projektov tiež podporuje režimy úloh pre každú úlohu. Pri vytváraní harmonogramu prác nie je rozdiel medzi šablónou projektu a projektom.  
   
 - **Projektové odhady**: projektové odhady v šablónach fungujú rovnako, ako v projektoch. Jediným rozdielom je cenník pre predvolené určenie nákladov a predajných cien, ktorý predstavuje predvolené cenníky nákladov a predajných cien zadefinovaných v parametre [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Zvyšok funkcií je rovnaký ako v projekte.  
   
 - **Vytvorenie tímu projektu**: Pri vytváraní projektového tímu šablóny projektu si v nej nemôžete zarezervovať pomenovaný zdroj. V štruktúre rozdelenia prác môžete použiť funkciu **Generovať projektový tím**, čím vytvoríte súbor všeobecných zdrojov. Môžete tiež zadať požadovaných schopnosti a zručností všeobecných zdrojov. Všeobecný zdroj nemôžete nahradiť rezervovateľným zdrojom v šablónach projektu.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Vytvorte šablónu projektu z existujúceho projektu
+Šablónu projektu môžete vytvoriť z projektu nasledujúcimi spôsobmi:
+
+- **Štruktúra rozpisu práce** : Štruktúra rozpisu práce v šablóne, ktorá je odvodená z projektu, skopíruje všetky úlohy a závislosti. Vytvorené priradenia budú založené na všeobecných členoch tímu, ktorí sa pridajú do projektového tímu pri vytváraní šablóny projektu.
+- **Projektové odhady** : Keď sa vytvorí šablóna projektu z existujúceho projektu, odhady zo zdrojového projektu sa skopírujú do šablóny projektu.
+- **Členovia projektového tímu** : Keď sa vytvorí šablóna z existujúceho projektu, všetci pomenovaní členovia tímu sa nahradia všeobecným zdrojom organizácie. Všetky názvy pozícií a roly sú zachované.
+
 ## <a name="create-a-project-from-a-template"></a>Vytvorenie projektu zo šablóny  
- Projekt zo šablóny môžete vytvoriť nasledovne:  
+ Projekt môžete vytvoriť zo šablóny nasledujúcimi spôsobmi:  
   
 -   Pri vytváraní projektu z cenovej ponuky si môžete vybrať šablónu projektu vo formulári rýchleho vytvárania projektu.  
   

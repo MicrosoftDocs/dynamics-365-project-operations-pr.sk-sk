@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931625"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028537"
 ---
 # <a name="provision-a-new-environment"></a>Zriadenie nového prostredia
 
@@ -20,7 +20,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 
 
-Tento článok poskytuje informácie o tom, ako vytvoriť nový Dynamics 365 Project Operations prostredie pre scenáre založené na zdrojoch/nezásobách.
+Tento článok poskytuje informácie o tom, ako vytvoriť nový Dynamics 365 Project Operations prostredie pre scenáre založené na zdrojoch/nezásobe.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Povolenie automatického poskytovania prostriedkov v projekte LCS
 
@@ -117,7 +117,7 @@ Možno budete musieť vo svojom prostredí Finance použiť aktualizácie týkaj
 
     ![Použiť riešenia.](./media/13ApplySolutions.png)
 
-5. Vyberte obe riešenia, **Dynamics 365 Finance and Operations Mapa entít s dvojitým zápisom** a **Dynamics 365 Project Operations Mapy entít s dvojitým zápisom** a potom vyberte **Použiť**.
+5. Vyberte obe riešenia, **Dynamics 365 Finance Mapa entít s dvojitým zápisom** a **Dynamics 365 Project Operations Mapy entít s dvojitým zápisom** a potom vyberte **Použiť**.
 
     ![Potvrďte riešenia.](./media/14ConfirmSolutions.png)
 

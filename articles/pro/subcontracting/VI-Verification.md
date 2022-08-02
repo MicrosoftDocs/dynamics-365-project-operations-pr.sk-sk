@@ -6,18 +6,18 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
+ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914237"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9204194"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Overenie faktúr dodávateľov so schválenými skutočnými hodnotami
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_ **Týka sa:** Lite nasadenie – dohoda o proforma fakturácii
+_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Microsoft Dynamics 365 Project Operations Poďme projektových manažérov overiť riadky faktúry dodávateľa nasledujúcimi spôsobmi:
 
@@ -33,13 +33,13 @@ The **Stav overenia** pole na riadku faktúry dodávateľa označuje tento stav 
 
 1. Nespustené
 2. Prebieha
-3. Hotovo
+3. Dokončené
 
 Riadky faktúry dodávateľa, ktoré majú stav overenia **Nezačal** je možné upraviť.
 
 Riadky faktúry dodávateľa, ktoré majú stav overenia **Prebieha** už nie je možné upravovať. Pre riadok faktúry dodávateľa, ktorý odkazuje na subdodávku, je stav overenia automaticky nastavený na **Prebieha** hneď ako sa prvá skutočná cena priradí k riadku faktúry dodávateľa.
 
-Riadky faktúry dodávateľa, ktoré majú stav overenia **Dokončiť** už nie je možné upravovať. Keď všetky riadky na faktúre dodávateľa majú tento stav overenia, faktúru dodávateľa možno potvrdiť.
+Riadky faktúry dodávateľa, ktoré majú stav overenia **Dokončiť** už nie je možné upravovať. Keď všetky riadky na faktúre dodávateľa majú tento stav overenia, faktúra dodávateľa môže byť potvrdená.
 
 ## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Priraďte skutočné náklady k riadkom faktúry dodávateľa
 
@@ -52,7 +52,7 @@ Párovanie skutočných nákladov pomáha pri procese overovania na riadku fakt�
 
 Počas procesu párovania je možné vytvoriť prepojenie medzi skutočnými nákladmi a riadkom faktúry dodávateľa, iba ak sú splnené obe nasledujúce podmienky:
 
-- The **Stav úpravy** pole pre každú vybratú skutočnú cenu musí byť prázdne. Inými slovami, skutočné náklady nesmú byť nahradené inými skutočnými nákladmi počas procesu odvolania, zrušenia schválenia alebo denníka opráv.
+- The **Stav úpravy** pole pre každú vybratú skutočnú cenu musí byť prázdne. Inými slovami, skutočné náklady nesmú byť nahradené inými skutočnými nákladmi počas procesu stiahnutia, zrušenia schválenia alebo denníka opráv.
 - Hodnoty nasledujúcich polí sú spárované medzi riadkom faktúry dodávateľa a vybratými skutočnými nákladmi. Ak v riadku faktúry dodávateľa nie je nastavené žiadne pole, nebude sa brať do úvahy pri párovaní.
 
     - Projektová zmluva

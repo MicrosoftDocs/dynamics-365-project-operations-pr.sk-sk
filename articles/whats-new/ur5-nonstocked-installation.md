@@ -1,18 +1,18 @@
 ---
 title: Aktualizujte Project Operations vo svojom prostredí Finance
-description: Tento článok poskytuje informácie o tom, ako aktualizovať operácie projektu v prostredí Dynamics 365 Finance.
+description: Tento článok poskytuje informácie o tom, ako aktualizovať operácie projektu vo vašom prostredí Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912489"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030054"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualizujte Project Operations vo svojom prostredí Finance
 
@@ -119,7 +119,7 @@ Nasledujúce aktualizácie bezpečnostných oprávnení pre entity sú vyžadova
 4. Na stránke **Verzia mapy tabuľky** použite novú verziu mapy na každú z troch entít.
 5. Na stránke **Duálny zápis** výberom spustenia reštartujte mapy.
 6. V zozname máp vyberte mapu **Ledger (msdyn_ledgers)** so všetkými predpokladmi a začiarknite políčko **Počiatočná synchronizácia**. 
-7. V **Master pre úvodnú synchronizáciu** pole, vyberte **Financie a prevádzkové aplikácie** a potom vyberte **Bežať**.
+7. V **Master pre úvodnú synchronizáciu** pole, vyberte **Finančné a prevádzkové aplikácie** a potom vyberte **Bežať**.
  
  ![Synchronizácia máp účtovnej knihy.](media/DW6.png)
  

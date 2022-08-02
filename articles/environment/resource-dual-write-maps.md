@@ -2,16 +2,16 @@
 title: Verzie máp duálneho zápisu v aplikácii Project Operations
 description: Tento článok poskytuje zoznam máp s dvojitým zápisom požadovaných pre Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
-ms.translationtype: HT
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959658"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112448"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verzie máp duálneho zápisu v aplikácii Project Operations
 
@@ -25,12 +25,12 @@ Nasledujúce mapy sú povinnými predpokladmi pre riešenie Project Operations. 
 
 | Mapa tabuľky | Počiatočná synchronizácia |
 | --- | --- |
-| Účtovná kniha (msdyn_ledgers) | Vyžaduje sa počiatočná synchronizácia pre mapu tabuľky a všetky predpoklady. Master pre úvodnú synchronizáciu sú aplikácie Finance and Operations. |
+| Účtovná kniha (msdyn_ledgers) | Vyžaduje sa počiatočná synchronizácia pre mapu tabuľky a všetky predpoklady. Master pre počiatočnú synchronizáciu sú finančné a prevádzkové aplikácie. |
 | Právnické entity (cdm_companies) | Nevyžaduje sa. Systém vyplní túto entitu automaticky, keď sú prostredia prepojené pomocou duálneho zápisu. |
 | Customers V3 (účty) | Na zabezpečenie nie je potrebné. |
 | Vendors V2 (msdyn_vendors) | Na zabezpečenie nie je potrebné. |
 
-1. V zozname máp vyberte mapu Účtovná kniha **(msdyn\_ledgers)** so všetkými predpokladmi a začiarknite políčko **Počiatočná synchronizácia**. V **Master pre úvodnú synchronizáciu** pole, vyberte **Financie a prevádzkové aplikácie** pre mapu hlavnej knihy aj pre všetky nevyhnutné mapy. Vyberte položku **Spustiť**.
+1. V zozname máp vyberte mapu Účtovná kniha **(msdyn\_ledgers)** so všetkými predpokladmi a začiarknite políčko **Počiatočná synchronizácia**. V **Master pre úvodnú synchronizáciu** pole, vyberte **Finančné a prevádzkové aplikácie** pre mapu hlavnej knihy aj pre všetky nevyhnutné mapy. Vyberte položku **Spustiť**.
 
 ![Synchronizácia máp účtovnej knihy.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Nasledujúce mapy sú povinnými pre riešenie Project Operations. Verzie máp d
 | Hlavičky kontraktov projektu (zákazky odberateľa) | 1.0.0.1 | Na zabezpečenie nie je potrebné. ||
 | Riadky zmlúv projektu (salesorderdetails) | 1.0.0.0 | Na zabezpečenie nie je potrebné. ||
 | Zdroj financovania projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Na zabezpečenie nie je potrebné. ||
-| Tabuľka integrácie Project Operations pre materiálové odhady (msdyn\_estimatelines) | 1.0.0.0 | Na zabezpečenie nie je potrebné. ||
+| Tabuľka integrácie projektu pre odhady materiálu (msdyn\_ odhady) | 1.0.0.0 | Na zabezpečenie nie je potrebné. ||
 | Návrhy projektovej faktúry V2 (faktúry) | 1.0.0.3 | Na zabezpečenie nie je potrebné. ||
 | Skutočné hodnoty integrácie Project Operations (msdyn_actuals) | 1.0.0.14 | Na zabezpečenie nie je potrebné. ||
 | Míľniky riadka zmluvy integrácie Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Na zabezpečenie nie je potrebné. ||

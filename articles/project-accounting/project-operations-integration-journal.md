@@ -2,22 +2,22 @@
 title: Denník integrácie v aplikácii Project Operations
 description: Tento článok poskytuje informácie o práci s denníkom Integration v Project Operations.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923897"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106294"
 ---
 # <a name="integration-journal-in-project-operations"></a>Denník integrácie v aplikácii Project Operations
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Časové a výdavkové položky vytvoria transakcie **Skutočná hodnota**, ktoré predstavujú operatívny pohľad na prácu dokončenú na projekte. Dynamics 365 Project Operations poskytuje účtovníkom nástroj na kontrolu transakcií a úpravu účtovných atribútov podľa potreby. Po dokončení kontroly a úprav sa transakcie zapíšu do vedľajšej účtovnej knihy projektu a hlavnej účtovnej knihy. Účtovník môže tieto činnosti vykonávať pomocou **Integrácia projektových operácií** denník(**Dynamics 365 Finance** > **Projektový manažment a účtovníctvo** > **Denníky** > **Integrácia projektových operácií** denník.
+Čas, výdavky, poplatky a materiálové položky vytvárajú **Skutočné** transakcie, ktoré predstavujú operačný pohľad na prácu dokončenú na projekte. Dynamics 365 Project Operations poskytuje účtovníkom nástroj na kontrolu transakcií a úpravu účtovných atribútov podľa potreby. Po dokončení kontroly a úprav sa transakcie zapíšu do vedľajšej účtovnej knihy projektu a hlavnej účtovnej knihy. Účtovník môže tieto činnosti vykonávať pomocou **Integrácia projektových operácií** denník (**Dynamics 365 Finance** > **Projektový manažment a účtovníctvo** > **Denníky** > **Integrácia projektových operácií** denník.
 
 ![Postup integračného denníka.](./media/IntegrationJournal.png)
 
@@ -40,9 +40,9 @@ Riadky denníka sa vytvárajú na základe skutočných hodnôt projektu. Nasled
   - Pole **Kupón** zobrazuje číslo kupónu pre každú skutočnú transakciu. Poradie čísel kupónov je definované na karte **Číselné sekvencie** na stránke **Parametre projektového manažmentu a účtovníctva**. Každému riadku je priradené nové číslo. Po zapísaní kupónu môžete zobraziť, ako súvisia transakcie nákladov a nefakturovaných predajov výberom možnosti **Súvisiace kupóny** na strane **Transakcia kupónu**.
   - Pole **Kategória** predstavuje transakciu projektu a predvolené hodnoty založené na kategórii transakcií pre skutočnú hodnotu súvisiaceho projektu.
     - Ak je **Kategória transakcie** nastavená v skutočnej hodnote projektu a súvisiaca **Kategória projektu** existuje v danom právnom subjekte, kategória je predvolene nastavená na túto kategóriu projektu.
-    - Ak **Kategória transakcie** nie je nastavený v aktuálnom projekte, systém použije hodnotu v **Predvolené nastavenia kategórie projektu** pole na **Operácie projektu na Dynamics 365 Customer Engagement** kartu na **Projektový manažment a účtovné parametre** stránku.
+    - Ak **Kategória transakcie** nie je nastavený v Project fact, systém použije hodnotu v **Predvolené nastavenia kategórie projektu** pole na **Operácie projektu na Dynamics 365 Customer Engagement** kartu na **Projektový manažment a účtovné parametre** stránku.
   - Pole **Zdroj** predstavuje zdroj projektu súvisiaci s touto transakciou. Zdroj sa používa ako referencia v návrhoch projektových faktúr zákazníkom.
-  - The **Výmenný kurz** pole predvolené od **Výmenný kurz** nastaviť v Dynamics 365 Finance. Ak nastavenie výmenného kurzu chýba, periodický proces **Import z pracovnej verzie** nepridá záznam do denníka a do protokolu vykonania úlohy sa pridá chybové hlásenie.
+  - The **Výmenný kurz** pole predvolené od **Výmenný kurz meny** nastaviť v Dynamics 365 Finance. Ak nastavenie výmenného kurzu chýba, periodický proces **Import z pracovnej verzie** nepridá záznam do denníka a do protokolu vykonania úlohy sa pridá chybové hlásenie.
   - Pole **Vlastnosť riadka** predstavuje typ fakturácie v skutočných hodnotách projektu. Vlastnosť linky a mapovanie typu fakturácie sú definované na **Operácie projektu na Dynamics 365 Customer Engagement** kartu na **Projektový manažment a účtovné parametre** stránku.
 
 V záznamoch účtovného denníka integrácie Project Operations je možné aktualizovať iba tieto účtovné atribúty:
@@ -50,9 +50,21 @@ V záznamoch účtovného denníka integrácie Project Operations je možné akt
 - **Skupina dane z fakturovaného predaja** a **Skupina dane z fakturovaného predaja položky**
 - **Finančné dimenzie** (pomocou akcie **Rozdelenie súm**)
 
-Integračné záznamy v účtovnom denníku je možné odstrániť, avšak všetky nezverejnené riadky sa do denníka vložia znova po opätovnom spustení periodického procesu **Import z pracovnej verzie**.
+Riadky žurnálu integrácie možno vymazať. Všetky nezaúčtované riadky sa však po opätovnom spustení do denníka znova vložia **Import zo stagingu** periodický proces.
+
+### <a name="post-the-project-operations-integration-journal"></a>Uverejnite denník integrácie projektových operácií
 
 Keď aktualizuje denník integrácie, vytvoria sa transakcie vedľajšej účtovnej knihy a hlavnej účtovnej knihy projektu. Používajú sa pri následnej fakturácii zákazníka, rozpoznávaní výnosov a finančnom vykazovaní.
 
+Vybraný denník integrácie projektových operácií možno zaúčtovať pomocou **Príspevok** na stránke denníka integrácie Project Operations. Všetky denníky je možné automaticky zaúčtovať spustením procesu na adrese **Periodiky** > **Integrácia projektových operácií** > **Post Project Operations integračný denník**.
+
+Zaúčtovanie je možné vykonávať interaktívne alebo hromadne. Upozorňujeme, že všetky časopisy, ktoré majú viac ako 100 riadkov, budú automaticky zaúčtované v dávke. Ak chcete dosiahnuť lepší výkon, keď sa žurnály, ktoré majú veľa riadkov, uverejňujú v dávke, povoľte **Post Project Operations integračný denník pomocou viacerých dávkových úloh** funkcia v **Správa funkcií** pracovnom priestore. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Preneste všetky riadky s chybami účtovania do nového denníka
+
+> [!NOTE]
+> Ak chcete použiť túto funkciu, povoľte **Preneste všetky riadky s chybami účtovania do nového denníka integrácie projektových operácií** funkcia v **Správa funkcií** pracovnom priestore.
+
+Počas účtovania do denníka integrácie projektových operácií systém overí každý riadok v denníku. Systém zaúčtuje všetky riadky, ktoré nemajú chyby a vytvorí nový denník pre všetky riadky, ktoré majú chyby účtovania. Ak chcete skontrolovať žurnály, ktoré majú riadky s chybami účtovania, prejdite na **Projektový manažment a účtovníctvo** > **Denníky** > **Denník integrácie projektových operácií** a filtrujte žurnály pomocou **Pôvodný denník** lúka.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

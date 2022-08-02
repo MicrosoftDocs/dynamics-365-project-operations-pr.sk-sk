@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922793"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028814"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Prehľad nasadenia aplikácie Project Operations pre scenáre založené na zdrojoch/výrobe
 
@@ -22,10 +22,10 @@ Tento typ nasadenia ponúka nasledujúce možnosti pre projektové spoločnosti:
 
 - Plánovanie projektov pomocou [štruktúry rozdelenia práce](work-breakdown-structures.md)
 - Obstarávanie a spotreba naskladneného inventára pre projekty
-- Riadenie projektového predaja pomocou **Predaj a marketing** modul v aplikáciách Dynamics 365 Finance and Operations
-- Oceňovanie a kalkulácia projektu pomocou konfigurácií nákladovej sadzby a fakturačnej sadzby v aplikáciách Finance and Operations
-- Správa zdrojov pre projekty v aplikáciách Finance and Operations
-- Priebeh projektu a sledovanie času v aplikáciách Finance and Operations
+- Riadenie projektového predaja pomocou **Predaj a marketing** modul v aplikáciách pre financie a prevádzku Dynamics 365
+- Oceňovanie a kalkulácia projektov pomocou konfigurácií nákladovej sadzby a fakturačnej sadzby vo finančných a prevádzkových aplikáciách
+- Správa zdrojov pre projekty v aplikáciách pre financie a prevádzku
+- Priebeh projektu a sledovanie času vo finančných a prevádzkových aplikáciách
 - Prostredie správy výdavkov pre projektové aj neprojektové výdavky so zaznamenávaním príjmových dokladov pomocou funkcií OCR
 - Fakturácia pomocou dane z obratu na úrovni podniku a systému výmenných kurzov účinného k dátumu
 - Konfigurovateľné projektové skupiny pre účtovníctvo WIP a prírastky

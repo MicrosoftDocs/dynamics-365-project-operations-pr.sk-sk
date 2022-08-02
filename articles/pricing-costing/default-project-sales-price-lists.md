@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917733"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036430"
 ---
 # <a name="default-price-lists"></a>Predvolené cenníky
 
@@ -25,7 +25,7 @@ Každá cenová ponuka a zmluva projektu v aplikácii Dynamics 365 Project Opera
 Systém dokončí nasledujúci proces, aby určil, ktorý cenník je predvolený pre cenovú ponuku projektu:
 
 1. Systém sleduje cenníky, ktoré sú pripojené k cenníkom projektov projektu pre obchodný vzťah. 
-2. Ak sú k záznamu obchodného vzťahu pripojené cenníky projektu, systém prehľadá predajné cenníky pripojené k parametrom projektu, ktoré sa zhodujú s menou cenovej ponuky projektu.
+2. Ak k záznamu účtu nie sú pripojené žiadne projektové cenníky, systém sa pozrie na predajné cenníky pripojené k parametrom projektu, ktoré zodpovedajú mene projektovej ponuky.
 3. Potom systém skontroluje účinnosť cenníkov podľa dátumu, ktorý zodpovedá rozsahu dátumov cenovej ponuky projektu. Konkrétne dátum vytvorenia cenovej ponuky.
 4. Ak existuje viac cenníkov s účinnosťou cenovej ponuky projektu k dátumu, všetky cenníky sú predvolene nastavené pre cenovú ponuku projektu.
 5. Ak k dátumu cenovej ponuky projektu nie sú v platnosti žiadne cenníky, v ponuke projektu nie je nastavený žiadny predvolený cenník projektu. V cenovej ponuke projektu sa zobrazí varovné hlásenie. V hlásení sa uvádza, že skutočné údaje a odhady týkajúce sa projektu nebudú ocenené, pretože k nim nie sú priložené žiadne cenníky projektu.
