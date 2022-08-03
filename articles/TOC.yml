@@ -62,42 +62,48 @@
           href: environment/uninstall-project-operations.md
     - name: Novinky
       items:
-        - name: "Máj\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: "Apríl\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: "Marec\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: "Február\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: "December\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: "November\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: "Október\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: "September\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: "August\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: "Júl\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: "Jún\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: "Máj\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: "Apríl\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: "Marec\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: "Február\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: "Január\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: "December\_2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: "November\_2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: "Júl\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Archív
+          items:
+            - name: "Jún\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: "Máj\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: "Apríl\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: "Marec\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: "Február\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: "December\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: "November\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: "Október\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: "September\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: "August\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: "Júl\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: "Jún\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: "Máj\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: "Apríl\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: "Marec\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: "Február\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: "Január\_2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: "December\_2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: "November\_2020 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: "Proces predaja v\_rámci projektu"
       items:
         - name: "Prehľad procesu predaja v\_rámci projektu"
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: Prehľad skutočných hodnôt
           href: actuals/actuals-overview.md
+        - name: "Vplyv skutočných hodnôt v\_rámci interakcie s\_časom a\_materiálmi"
+          href: actuals/ActualsonTM.md
+        - name: "Vplyv skutočných hodnôt v\_rámci interakcie s\_pevnou cenou"
+          href: actuals/ActualonFP.md
+        - name: "Vplyv skutočných hodnôt počas štádia predpredaja v\_rámci interakcie"
+          href: actuals/ActualonPreSales.md
+        - name: Vplyv skutočných hodnôt pre interný projekt
+          href: actuals/ActualonInternal.md
         - name: Počiatky transakcií – prepojenie skutočných hodnôt so zdrojom
           href: actuals/linkingactuals.md
         - name: Kontaktné osoby pre transakcie – prepojenie skutočných hodnôt rôznych typov transakcií
@@ -513,9 +527,11 @@
             - name: Potvrdenie faktúry pro forma založenej na projekte
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Vytváranie opravných faktúr založených na projektoch
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: Konfigurácia automatizácie faktúr založených na projektoch
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: Opravné faktúry založené na projektoch
+              href: proforma-invoicing/corrective-invoices.md
         - name: Fakturácia zákazníkom
           items:
             - name: Správa návrhov projektových faktúr
@@ -594,44 +610,50 @@
           href: environment/security-model.md
     - name: Novinky
       items:
-        - name: "Novinky v\_rámci skoršieho prístupu k\_2.\_vlne vydaní na rok\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: "Novinky v\_máji\_2022 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: "Novinky v\_apríli\_2022 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: "Novinky v\_marci\_2022 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: "Novinky vo februári\_2022 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: "Novinky v\_decembri\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: "Novinky v\_novembri\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: "Novinky v\_októbri\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: "Novinky v\_septembri\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: "Novinky v\_auguste\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: "Novinky v\_júli\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: "Novinky v\_júni\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: "Novinky v\_máji\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: "Novinky v\_apríli\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: "Novinky v\_marci\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: "Novinky vo februári\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: "Novinky v\_januári\_2021 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: "Novinky v\_decembri\_2020 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: "Novinky v\_novembri\_2020 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: "Novinky v\_júli\_2022 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Archív
+          items:
+            - name: "Novinky v\_júni\_2022 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: "Novinky v\_rámci skoršieho prístupu k\_2.\_vlne vydaní na rok\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: "Novinky v\_máji\_2022 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: "Novinky v\_apríli\_2022 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: "Novinky v\_marci\_2022 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: "Novinky vo februári\_2022 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: "Novinky v\_decembri\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: "Novinky v\_novembri\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: "Novinky v\_októbri\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: "Novinky v\_septembri\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: "Novinky v\_auguste\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: "Novinky v\_júli\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: "Novinky v\_júni\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: "Novinky v\_máji\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: "Novinky v\_apríli\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: "Novinky v\_marci\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: "Novinky vo februári\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: "Novinky v\_januári\_2021 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: "Novinky v\_decembri\_2020 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: "Novinky v\_novembri\_2020 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: "Proces predaja v\_rámci projektu"
       items:
         - name: "Prehľad procesu predaja v\_rámci projektu"
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: Project Operations pre scenáre založené na zdrojoch/výrobe
   items:
+    - name: Začíname
+      items:
+        - name: Konfigurácia integrácie údajov
+          items:
+            - name: Prehľad aplikácie Project Service Automation
+              href: prod-pma/PSA-integration.md
+            - name: Parametre integrácie aplikácie Project Service Automation
+              href: prod-pma/PSA-parameters.md
+            - name: "Synchronizácia projektových zmlúv a\_projektov priamo z\_aplikácie Project Service Automation do aplikácie Finance"
+              href: prod-pma/project-contracts-templates.md
+            - name: "Synchronizácia skutočných hodnôt projektu priamo z\_aplikácie Project Service Automation do denníka integrácie projektu na zaúčtovanie v\_rámci aplikácií na riadenie financií a\_prevádzok"
+              href: prod-pma/project-actuals-templates.md
+            - name: "Synchronizácia odhadov projektov priamo z\_aplikácie Project Service Automation do aplikácií na riadenie financií a\_prevádzok"
+              href: prod-pma/project-estimates-templates.md
+            - name: "Synchronizácia kategórií projektových výdavkov medzi aplikáciami na riadenie financií a\_prevádzok a\_aplikáciou Project Service Automation"
+              href: prod-pma/project-categories-templates.md
+            - name: "Synchronizácia projektových úloh priamo z\_aplikácie Project Service Automation do aplikácií na riadenie financií a\_prevádzok"
+              href: prod-pma/project-tasks-template.md
+        - name: Nasadzovanie prostredí
+          items:
+            - name: "Aktualizácia aplikácie Project Operations v\_prostredí Finance"
+              href: whats-new/ur5-nonstocked-installation.md
     - name: Novinky
       items:
-        - name: "Novinky v\_októbri\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: "Novinky v\_septembri\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: "Novinky v\_júli\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: "Novinky v\_máji\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: "Novinky v\_apríli\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: "Novinky v\_marci\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: "Novinky v\_januári\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: "Novinky v\_decembri\_2020 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: "Novinky v\_novembri\_2020 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: "Novinky v\_júli\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Archív
+          items:
+            - name: "Novinky v\_júni\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: "Novinky v\_októbri\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: "Novinky v\_septembri\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: "Novinky v\_júli\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: "Novinky v\_máji\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: "Novinky v\_apríli\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: "Novinky v\_marci\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: "Novinky v\_januári\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: "Novinky v\_decembri\_2020 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: "Novinky v\_novembri\_2020 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Prehľad nasadenia aplikácie Project Operations pre scenáre založené na zdrojoch/výrobe
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: "Prehľad projektového manažmentu a\_účtovníctva"
@@ -1118,10 +1168,12 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: "Pracovný priestor zadaní času v\_aplikácii Project"
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Mobilná aplikácia časového výkazu Project
+        - name: Mobilná aplikácia Project Timesheet
           href: prod-pma/project-timesheet.md
         - name: "Časové výkazy Project v\_mobilnom zariadení"
           href: prod-pma/mobile-timesheets.md
+        - name: Premenovanie alebo úprava etapy projektu
+          href: prod-pma/tasks/rename-project.md
         - name: Implementácia vlastných polí pre mobilnú aplikáciu Project Timesheet
           href: prod-pma/custom-fields-mobile.md
     - name: Správa zdrojov
@@ -1150,6 +1202,8 @@
       items:
         - name: "Prognózy a\_rozpočty projektu"
           href: prod-pma/project-forecasts-budgets.md
+        - name: "Pridelenie rozpočtu projektu alebo revízia rozpočtu v\_jednotlivých obdobiach"
+          href: prod-pma/tasks/allocate-project.md
         - name: Vytvorenie modelov prognózy pre rozpočty projektu
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: Prenos rozpočtov projektu na konci fiškálneho roka
@@ -1246,6 +1300,10 @@
       items:
         - name: Eliminácia odhadu projektu
           href: prod-pma/eliminate-project-estimate.md
+    - name: Verejný sektor
+      items:
+        - name: "Plán výdavkov v\_rámci žiadosti o\_federálne ocenenia"
+          href: prod-pma/project-sefa-inquiry.md
 - name: Správa výdavkov
   items:
     - name: Prehľad správy výdavkov
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: Správa delegovania
           href: expense/manage-delegation.md
+        - name: Konfigurácia správy výdavkov
+          href: prod-exp/plan-expense-management.md
         - name: Konfigurácia parametrov správy výdavkov
           href: expense/configure-expense-management-parameters.md
         - name: Nastavenie integrácie kreditnej karty
@@ -1278,10 +1338,14 @@
       items:
         - name: Rozdelenia vo výkaze výdavkov
           href: expense/distributions-expense-report.md
+        - name: "Import a\_údržba transakcií použitím kreditnej karty"
+          href: prod-exp/import-credit-card.md
     - name: Schvaľovanie výkazov výdavkov
       items:
         - name: "Výkazy výdavkov a\_viacerí schvaľovatelia"
           href: expense/expense-reports-multiple-approvers.md
+        - name: Delegovanie správy výdavkov
+          href: prod-exp/manage-expense-delegation.md
     - name: Zaúčtovanie výkazov výdavkov
       href: expense/posting-expense-reports.md
     - name: Cestovná žiadanka
@@ -1296,6 +1360,8 @@
       items:
         - name: Vymáhanie DPH
           href: expense/vat-recovery.md
+        - name: "Zobrazenie výkazu výdavkov z\_hlavnej účtovnej knihy alebo obstarávanie a\_získavanie zdrojov"
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -1304,6 +1370,8 @@
       items:
         - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 44, V3'
+          href: psa/whats-new-ur-44.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 43, V3'
           href: psa/whats-new-ur43.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 42, V3'
@@ -1361,6 +1429,8 @@
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 23, V3'
           href: psa/whats-new-ur-23.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 22, V3'
+          href: psa/whats-new-ur-22.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 21, V3'
           href: psa/whats-new-ur-21.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 20, V3'
           href: psa/whats-new-ur-20.md
