@@ -1,17 +1,17 @@
 ---
-title: Nastavenie a použitie konfiguračných údajov v Common Data Service
+title: Nastavenie a použitie konfiguračných údajov v Microsoft Dataverse
 description: Tento článok poskytuje informácie o nastavení a použití konfiguračných údajov v Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928037"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230271"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavenie a použitie konfiguračných údajov v Common Data Service 
 
@@ -19,12 +19,12 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 
 
-## <a name="prerequisites"></a>Predpoklady
+## <a name="prerequisites"></a>Požiadavky
 
-Skôr než začnete konfigurovať údaje v službe Common Data Service (CDS), musia byť splnené nasledujúce požiadavky:
+Skôr ako začnete konfigurovať údaje v Microsoft Dataverse, musia byť splnené tieto predpoklady:
 
-1.  Poskytnutie prostredia CDS a prostredia Dynamics 365 Finance pre projektové operácie.
-2.  Informácie o právnickej osobe z Dynamics 365 Finance sa zdieľajú s prostredím CDS. To znamená, že entita **Spoločnosť** v CDS má tieto firemné záznamy:
+1.  Ustanovenie a Dataverse prostredie a Dynamics 365 Finance prostredie pre projektové operácie.
+2.  Informácie o právnickej osobe z Dynamics 365 Finance sa zdieľajú s Dataverse životné prostredie. To znamená, že **Spoločnosť** subjekt v Dataverse má nasledujúce firemné záznamy:
   - THPM
   - USPM
   - GBPM

@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929233"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230335"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Na vykonávanie operácií s entitami plánovania použite rozhrania API pre plánovanie projektu
 
@@ -45,9 +45,9 @@ Nasleduje zoznam aktuálnych rozhraní API plánovania projektu.
 - **msdyn_CreateProjectV1**: Toto rozhranie API možno použiť na vytvorenie projektu. Projekt a predvolený sektor projektu sa vytvoria okamžite.
 - **msdyn_CreateTeamMemberV1**: Toto rozhranie API možno použiť na vytvorenie člena projektového tímu. Záznam o členovi tímu sa vytvorí okamžite.
 - **msdyn_CreateOperationSetV1**: Toto API možno použiť na naplánovanie niekoľkých požiadaviek, ktoré sa musia vykonať v rámci transakcie.
-- **msdyn_PSSCreateV1**: Toto API možno použiť na vytvorenie entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu vytvorenia.
-- **msdyn_PSSUpdateV1**: Toto API možno použiť na aktualizáciu entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu aktualizácie.
-- **msdyn_PSSDeleteV1**: Toto API možno použiť na odstránenie entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu vymazania.
+- **msdyn_PssCreateV1** : Toto API možno použiť na vytvorenie entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu vytvorenia.
+- **msdyn_PssUpdateV1** : Toto API možno použiť na aktualizáciu entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu aktualizácie.
+- **msdyn_PssDeleteV1** : Toto rozhranie API možno použiť na odstránenie entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu vymazania.
 - **msdyn_ExecuteOperationSetV1**: Toto API sa používa na vykonávanie všetkých operácií v rámci danej množiny operácií.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Používanie rozhraní API pre plánovanie projektu s OperationSet
@@ -58,7 +58,7 @@ Pretože záznamy s **CreateProjectV1** a **CreateTeamMemberV1** sú vytvorené 
 
 | Entita na plánovanie | Vytvoriť | Update | Delete | Dôležité aspekty |
 | --- | --- | --- | --- | --- |
-Projektová úloha | Áno | Áno | Áno | The **Pokrok**, **dokončené** a **Zostávajúce úsilie** polia je možné upravovať v Project for the Web, ale nie je možné ich upravovať v Project Operations.  |
+Projektová úloha | Áno | Áno | Áno | The **Pokrok**, **dokončené**, a **Zostávajúce úsilie** polia je možné upravovať v Project for the Web, ale nie je možné ich upravovať v Project Operations.  |
 | Závislosť projektovej úlohy | Áno |  | Áno | Záznamy o závislosti od projektových úloh sa neaktualizujú. Namiesto toho je možné starý záznam vymazať a vytvoriť nový. |
 | Priradenie zdroja | Áno | Áno | | Operácie s nasledujúcimi poľami nie sú podporované: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** a **PlannedWork**. Záznamy o priradení zdrojov sa neaktualizujú. Namiesto toho je možné starý záznam vymazať a vytvoriť nový. |
 | Projektový kontajner | Áno | Áno | Áno | Predvolený segment sa vytvorí pomocou **CreateProjectV1** API. V aktualizácii Release 16 bola pridaná podpora na vytváranie a odstraňovanie sektorov projektov. |

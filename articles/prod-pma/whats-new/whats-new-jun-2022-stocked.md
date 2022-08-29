@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959693"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316961"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Čo je nové alebo zmenené v Project Operations, jún 2022 pre scenáre na sklade/výrobe
 
@@ -24,8 +24,8 @@ Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsof
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 
-Požiadavky na položky možno použiť pre projektové zmluvy, ktoré majú viacero zdrojov financovania. Ďalšie informácie nájdete v časti [Požiadavky na položky pre projektové zmluvy s viacerými zdrojmi financovania](/multiple-funding-sources-item-req.md).
+Požiadavky na položky možno použiť pre projektové zmluvy, ktoré majú viacero zdrojov financovania. Ďalšie informácie nájdete v časti [Požiadavky na položky pre projektové zmluvy s viacerými zdrojmi financovania](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
-Ak chcete získať informácie o opravách chýb, ktoré sú súčasťou tejto aktualizácie, prihláste sa na Microsoft Dynamics Lifecycle Services (LCS) a pozrite si [článok KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=673271).
+Ak chcete získať informácie o opravách chýb, ktoré sú súčasťou tejto aktualizácie, prihláste sa na Microsoft Dynamics Služby životného cyklu (LCS) a pozrite si [článok KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=673271).

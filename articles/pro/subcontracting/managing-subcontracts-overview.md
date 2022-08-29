@@ -1,21 +1,20 @@
 ---
 title: Správa subdodávateľských zmlúv v aplikácii Project Operations
-description: Tento článok poskytuje prehľad o komplexnom procese riadenia subdodávok zvyčajne v projektových organizáciách.
+description: Tento článok poskytuje prehľad o komplexnom procese riadenia subdodávok zvyčajne v organizáciách založených na projekte.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 783ab1b642bb8cfe2fb3b977a95c8064f33a7994
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911524"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261227"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Správa subdodávateľských zmlúv v aplikácii Project Operations
 
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 

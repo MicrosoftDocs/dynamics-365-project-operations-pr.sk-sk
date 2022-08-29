@@ -6,36 +6,34 @@ ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 212d68c32e712ac2349d1670f9e799bcc5144148
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f066c2ac7377a989a92a9ae2e9a732d3c979a0db
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931349"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261048"
 ---
 # <a name="vendor-invoice-lines-for-milestones"></a>Riadky faktúr dodávateľov pre medzníky
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Faktúra dodávateľa v spoločnosti Microsoft Dynamics 365 Project Operations môže mať riadky faktúry dodávateľa pre míľniky, ktoré sú definované na riadku subdodávok. Projektoví manažéri môžu použiť riadky faktúry dodávateľa pre míľniky na zaznamenanie nákladov na služby, ktoré sú obstarané ako náklady založené na míľnikoch, ktoré vznikajú v súvislosti so službami alebo produktmi, ktoré sú obstarané pre projekt.
+Faktúra dodávateľa v spoločnosti Microsoft Dynamics 365 Project Operations môže mať riadky faktúry dodávateľa pre míľniky, ktoré sú definované na riadku subdodávok. Projektoví manažéri môžu použiť riadky faktúry dodávateľa pre míľniky na zaznamenanie nákladov na služby, ktoré sú obstarané ako náklady založené na míľnikoch, ktoré sú vynaložené na služby alebo produkty, ktoré sú obstarané pre projekt.
 
 Riadky faktúry dodávateľa pre míľniky musia vždy odkazovať na riadok subdodávky, ktorý má spôsob fakturácie s pevnou cenou. Keď riadok faktúry dodávateľa pre míľniky odkazuje na riadok subdodávok, projektoví manažéri budú môcť porovnať a overiť základné náklady na čas, výdavky alebo materiály, ktoré odkazujú na daný riadok subdodávky, s míľnikom, ktorý fakturuje dodávateľ.
 
-Nasledujúca tabuľka poskytuje informácie o poliach v riadkoch faktúry dodávateľa pre míľniky.
+Nasledujúca tabuľka poskytuje informácie o poliach na riadkoch faktúry dodávateľa pre míľniky.
 
 | Pole | Description | Funkčný vplyv |
 | --- | --- | --- |
 | Name | Názov riadku faktúry dodávateľa na uľahčenie identifikácie. | Tento názov sa zobrazí ako prvý stĺpec vo všetkých vyhľadávaniach, ktoré sú založené na riadkoch faktúry dodávateľa. |
 | Description | Stručný popis služieb, ktoré sú fakturované dodávateľom v riadku faktúry dodávateľa. | None |
-| Subdodávateľská zmluva | Subdodávateľská zmluva, na základe ktorej boli služby pôvodne objednané. | Keď je pre faktúru dodávateľa vybratá subdodávka, všetky riadky na faktúre dodávateľa zdedia tento výber. Faktúra dodávateľa nemôže obsahovať riadky faktúry dodávateľa, ktoré odkazujú na rôzne subdodávky. |
-| Subdodávateľská linka | Subdodávateľská linka, na ktorej boli služby objednané. Zoznam riadkov subdodávok, ktoré je možné vybrať, je obmedzený na riadky vo vybranej subdodávke. | Keď sa v riadku faktúry dodávateľa pre míľniky vyberie riadok subdodávok, **Role** a **Kategória transakcie** polia a polia súvisiace s produktom sú irelevantné a nie sú dostupné. The **množstvo**, **a** **Skupina jednotiek** polia tiež nie sú relevantné pre riadky faktúry dodávateľa založené na míľnikoch. |
+| Subdodávateľská zmluva | Subdodávka, na základe ktorej boli služby pôvodne objednané. | Keď je pre faktúru dodávateľa vybratá subdodávka, všetky riadky na faktúre dodávateľa zdedia tento výber. Faktúra dodávateľa nemôže obsahovať riadky faktúry dodávateľa, ktoré odkazujú na rôzne subdodávky. |
+| Subdodávateľská linka | Subdodávateľská linka, na ktorej boli služby objednané. Zoznam riadkov subdodávok, ktoré je možné vybrať, je obmedzený na riadky vo vybranej subdodávke. | Keď sa v riadku faktúry dodávateľa pre míľniky vyberie riadok subdodávok, **Role** a **Kategória transakcie** polia a polia súvisiace s produktom sú irelevantné a nie sú dostupné. The **Množstvo**, **·**, a **Skupina jednotiek** polia tiež nie sú relevantné pre riadky faktúry dodávateľa založené na míľnikoch. |
 | Dátum transakcie | Dátum, kedy budú skutočné náklady riadku faktúry dodávateľa zaznamenané v projekte. | None |
 | Trieda transakcie | Vyberte **Míľnik** na zaznamenanie faktúry dodávateľa za dokončený míľnik, ktorý bol definovaný na riadku subdodávok. | None |
-| Medzník | Vyberte míľnik, ktorý je definovaný v súvisiacom riadku subdodávky, ktorý je označený ako **Pripravené na fakturáciu**. | Míľniky subdodávateľskej linky, ktoré majú stav **Pripravené na fakturáciu** možno vybrať na riadku faktúry dodávateľa. |
-| Project | Názov projektu, na ktorý sa použili fakturované služby. | Toto pole je povinné a nemôže zostať prázdne. |
-| Úloha | Názov projektovej úlohy, na ktorú boli použité služby, ktoré sú fakturované. Toto pole je dostupné len vtedy, ak je vybratý projekt. Výber projektovej úlohy je voliteľný. | Ak toto pole ponecháte prázdne, projektový manažér môže priradiť riadok faktúry dodávateľa k triede transakcií v príslušnom riadku subdodávok, ktorý je zaznamenaný v ktorejkoľvek úlohe projektu. Ak riadok faktúry dodávateľa neodkazuje na riadok subdodávky a toto pole zostane prázdne, skutočné náklady vytvorené riadkom faktúry dodávateľa nebudú prepojené so žiadnymi skutočnými nevyfakturovanými predajmi. V tomto prípade, ak je nastavená fakturácia na základe úloh, nemusí byť možné náklady fakturovať koncovému zákazníkovi. |
+| Medzník | Vyberte míľnik, ktorý je definovaný v príslušnom riadku subdodávky, ktorý je označený ako **Pripravené na fakturáciu**. | Míľniky subdodávateľskej linky, ktoré majú stav **Pripravené na fakturáciu** možno vybrať na riadku faktúry dodávateľa. |
+| Project | Názov projektu, na ktorý boli použité služby, ktoré sú fakturované. | Toto pole je povinné a nemôže zostať prázdne. |
+| Úloha | Názov projektovej úlohy, na ktorú sa použili fakturované služby. Toto pole je dostupné len vtedy, ak je vybratý projekt. Výber projektovej úlohy je voliteľný. | Ak toto pole ponecháte prázdne, projektový manažér môže priradiť riadok faktúry dodávateľa k triede transakcií v príslušnom riadku subdodávky, ktorý je zaznamenaný v ktorejkoľvek úlohe projektu. Ak riadok faktúry dodávateľa neodkazuje na riadok subdodávky a toto pole zostane prázdne, skutočné náklady vytvorené riadkom faktúry dodávateľa nebudú prepojené so žiadnymi skutočnými nevyfakturovanými predajmi. V tomto prípade, ak je nastavená fakturácia podľa úloh, nemusí byť možné náklady fakturovať koncovému zákazníkovi. |
 | Suma medzníka | Zadajte hodnotu míľnika, ktorý je definovaný na riadku subdodávky, ktorý je pripravený na fakturáciu. | None |
 | Daň z predaja | Zadajte sumu dane z predaja. | None |
 | Celková suma | Celková suma riadku faktúry dodávateľa vrátane daní. Toto pole sa vypočíta ako *Míľniková čiastka* + *Daň z predaja*. | None |

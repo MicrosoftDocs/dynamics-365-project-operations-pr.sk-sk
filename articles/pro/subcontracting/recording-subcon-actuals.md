@@ -6,16 +6,14 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927669"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261160"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Evidencia času, nákladov a spotreby materiálu na projektoch pre subdodávateľské komponenty
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
@@ -31,7 +29,7 @@ Pri zadávaní výdavkov vynaložených na projekty môžete vybrať subdodávku
 
 Keď sa tento záznam o výdavkoch odošle a schváli, výdavkové náklady sa zaznamenajú v projekte na základe jednotkových nákladov, ktoré sú nastavené pre danú kategóriu transakcií v **Ceny kategórií** časti kúpnej cenníka na subdodávke.
 
-## <a name="costing-for-subcontracted-materials-on-projects"></a>Kalkulácia subdodávateľských materiálov na projektoch
+## <a name="costing-for-subcontracted-materials-on-projects"></a>Kalkulácia za subdodávateľské materiály na projektoch
 Pri zadávaní spotreby materiálu na projektoch si môžete vybrať subdodávku a riadok subdodávok v protokole spotreby materiálu. Keď sa odošle a schváli protokol spotreby materiálu, materiálové náklady sa zaznamenajú v projekte na základe jednotkových nákladov, ktoré sú nastavené pre daný produkt v **Položky cenníka** časti cenníka subdodávok.
 
 Spotrebu materiálu je možné zaznamenať aj pri zapísaných produktoch na projektoch. Tento typ použitia materiálu môže byť tiež spojený so subdodávkou a subdodávateľskou linkou. Pri zaznamenávaní spotreby materiálu pre produkty na zápis musíte zadať jednotkovú cenu produktu na zápis. 

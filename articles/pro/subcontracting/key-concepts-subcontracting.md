@@ -6,20 +6,19 @@ ms.date: 08/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ac84d132a2d62528d97ed3776a78062a589a380
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927715"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262189"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Kľúčové pojmy v subdodávkach
 
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok vysvetľuje niektoré kľúčové pojmy, o ktorých by ste mali vedieť skôr, ako začnete používať funkciu subdodávok v Microsofte Dynamics 365 Project Operations.
+Tento článok vysvetľuje niektoré kľúčové pojmy, o ktorých by ste mali vedieť skôr, ako začnete používať funkciu subdodávania v Microsofte Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Zmluvná jednotka v subdodávke
 
