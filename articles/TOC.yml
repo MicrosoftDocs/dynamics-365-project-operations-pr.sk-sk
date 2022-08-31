@@ -60,12 +60,14 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Odinštalovanie aplikácie Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
-    - name: Novinky
+    - name: Čo je nové
       items:
-        - name: "Júl\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: "August\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Archív
           items:
+            - name: "Júl\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: "Jún\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: "Máj\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
@@ -384,6 +386,42 @@
           items:
             - name: Prehľad využitia zdroja
               href: resource-management/resource-utilization-overview.md
+    - name: Správa subdodávateľských zmlúv
+      items:
+        - name: "Správa subdodávateľských zmlúv v\_aplikácii Project Operations"
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: "Kľúčové koncepty v\_subdodávateľských zmluvách"
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: "Spravovanie dodávateľov a\_projektových cenníkov"
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subdodávatelia ako rezervovateľné zdroje
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Podrobnosti hlavičky pre subdodávateľské zmluvy
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Riadky subdodávateľskej zmluvy pre čas
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Riadky subdodávateľskej zmluvy pre kategórie výdavkov
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Riadky subdodávateľskej zmluvy pre produkty
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: "Zdroje v\_riadku subdodávateľskej zmluvy"
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: "Medzníky v\_riadku subdodávateľskej zmluvy"
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: "Členovia projektového tímu v\_rámci subdodávateľskej zmluvy"
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Možnosti subdodávateľskej zmluvy pre členov projektového tímu
+          href: pro/subcontracting/subcon-options.md
+        - name: "Odhad nákladov v\_prípade priradení zdrojov v\_rámci subdodávateľskej zmluvy"
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: "Konfigurácia tabule plánovania s\_cieľom zobraziť zmluvných pracovníkov a\_kapacitu na základe subdodávateľskej zmluvy"
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: "Personálne zabezpečenie projektu zmluvnými pracovníkmi a\_kapacitou na základe subdodávateľskej zmluvy"
+          href: pro/subcontracting/staffing-cw.md
+        - name: "Evidencia času, výdavkov a\_použitia materiálu pre súčasti v\_rámci subdodávateľskej zmluvy"
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: "Prechody stavov v\_rámci subdodávateľskej zmluvy"
+          href: pro/subcontracting/subcon-states.md
     - name: Čas
       items:
         - name: Prehľad času
@@ -580,6 +618,8 @@
       items:
         - name: Migrácia plne fakturovaných medzníkov fakturácie počas overovacieho výpočtu
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: 'Synchronizujte stav projektu, aby ste zabránili vstupu do uzavretých projektov'
+          href: advanced-configuration/sync-project-status.md
     - name: Inovácia
       items:
         - name: Dôležité informácie týkajúce sa inovácie pre moderné schválenia
@@ -608,12 +648,14 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model zabezpečenia
           href: environment/security-model.md
-    - name: Novinky
+    - name: Čo je nové
       items:
-        - name: "Novinky v\_júli\_2022 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: "Novinky v\_auguste\_2022 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Archív
           items:
+            - name: "Novinky v\_júli\_2022 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: "Novinky v\_júni\_2022 – čiastočné nasadenie"
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: "Novinky v\_rámci skoršieho prístupu k\_2.\_vlne vydaní na rok\_2021 – čiastočné nasadenie"
@@ -1112,7 +1154,7 @@
           items:
             - name: "Aktualizácia aplikácie Project Operations v\_prostredí Finance"
               href: whats-new/ur5-nonstocked-installation.md
-    - name: Novinky
+    - name: Čo je nové
       items:
         - name: "Novinky v\_júli\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
           href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
@@ -1366,7 +1408,7 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Novinky
+    - name: Čo je nové
       items:
         - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
