@@ -6,12 +6,12 @@ ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: afec082c680596e8dcb8ec0b350b4bb7853c49ff
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916353"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404465"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Použitie rozhraní API plánovania projektov so službou Power Automate
 
@@ -31,7 +31,7 @@ Nasleduje úplný zoznam krokov, ktoré sú zdokumentované v toku vzorky v tomt
 8. [Inicializujte premennú pre počet úloh](#8)
 9. [Inicializujte premennú pre ID projektovej úlohy](#9)
 10. [Urobte do](#10)
-11. [Stanovte si projektovú úlohu](#11)
+11. [Nastavte projektovú úlohu](#11)
 12. [Vytvorte projektovú úlohu](#12)
 13. [Vytvorte priradenie zdroja](#13)
 14. [Znížte premennú](#14)
@@ -62,10 +62,10 @@ Podľa týchto krokov vytvorte a [tok uvedomujúci si riešenie](/power-automate
 
 ## <a name="step-1-create-a-powerapps-trigger"></a><a id="1"></a> Krok 1: Vytvorte a PowerApps spúšťač
 
-1. Na **Riešenia** stránke, vyberte riešenie, ktoré ste vytvorili, a potom vyberte **Nový**.
+1. Na **Riešenia** stránku, vyberte riešenie, ktoré ste vytvorili, a potom vyberte **Nový**.
 2. Na ľavej table vyberte **Cloud toky** \> **automatizácia** \> **Cloud flow** \> **Okamžité**.
 3. V **Názov toku** pole, zadajte **Naplánujte tok ukážky rozhrania API**.
-4. V **Vyberte, ako spustiť tento tok** zoznam, vyberte **Power Apps**. Keď vytvoríte a Power Apps spúšť, logika je na vás ako autorovi. V tomto článku ponechajte vstupné parametre prázdne na účely testovania.
+4. V **Vyberte spôsob spustenia tohto toku** zoznam, vyberte **Power Apps**. Keď vytvoríte a Power Apps spúšť, logika je na vás ako autorovi. V tomto článku ponechajte vstupné parametre prázdne na účely testovania.
 5. Vyberte položku **Vytvoriť**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Krok 2: Vytvorenie projektu
@@ -80,7 +80,7 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
 
     ![Výber operácie.](media/chooseactiontab.png)
 
-3. V novom kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V novom kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 
 ![Premenovanie kroku.](media/renamestep.png)
 
@@ -94,7 +94,7 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **inicializovať premennú**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V novom kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V novom kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Člen init tímu**.
 5. V **názov** pole, zadajte **TeamMemberAction**.
 6. V **Typ** pole, vyberte **Reťazec**.
@@ -104,7 +104,7 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **vykonať neviazanú akciu**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V novom kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V novom kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Vytvoriť člena tímu**.
 5. Pre **Názov akcie** pole, vyberte **TeamMemberAction** v **Dynamický obsah** dialógové okno.
 6. V **Akčné parametre** zadajte nasledujúce informácie o parametroch.
@@ -123,20 +123,20 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
     Tu je vysvetlenie parametrov:
 
     - **\@\@ odata.typ** – Názov entity. Napríklad zadajte **"Microsoft.Dynamics.CRM.msdyn\_ projektová skupina"**.
-    - **msdyn\_ projektteamid** – Primárny kľúč ID projektového tímu. Hodnota je výraz globálneho jedinečného identifikátora (GUID).   ID sa generuje na karte výraz.
+    - **msdyn\_ projektteamid** – Primárny kľúč ID projektového tímu. Hodnota je výraz globálneho jedinečného identifikátora (GUID).   ID sa generuje z karty výraz.
 
-    - **msdyn\_ projektu\@ odata.viazať** – ID projektu vlastníka projektu. Hodnotou bude dynamický obsah, ktorý pochádza z odpovede kroku „Vytvoriť projekt“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projekty (PRIDAŤ DYNAMICKÝ OBSAH)“**.
+    - **msdyn\_ projektu\@ odata.viazať** – ID projektu vlastníka projektu. Hodnota bude dynamický obsah, ktorý pochádza z odpovede kroku „Vytvoriť projekt“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projekty (PRIDAŤ DYNAMICKÝ OBSAH)“**.
     - **msdyn\_ názov** – Meno člena tímu. Napríklad zadajte **"ScheduleAPIDemoTM1"**.
 
 ## <a name="step-5-create-an-operation-set"></a><a id="5"></a> Krok 5: Vytvorte súpravu operácií
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **vykonať neviazanú akciu**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V novom kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V novom kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Vytvorte súpravu operácií**.
 5. V **Názov akcie** vyberte pole **msdyn\_ CreateOperationSetV1** Dataverse vlastná akcia.
 6. V **Popis** pole, zadajte **ScheduleAPIDemoOperationSet**.
-7. V **Projekt** pole, zadajte **/msdyn\_ projekty (**.
+7. V **Projekt** pole, zadajte **/msdyn\_ projekty(**.
 8. V **Dynamický obsah** dialógovom okne vyberte **msdyn\_ CreateProjectV1Response ProjectId**.
 9. V **Projekt** pole, zadajte **)**.
 
@@ -144,7 +144,7 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **pridať nový riadok**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V novom kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V novom kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Vytvoriť vedierko**.
 5. V **Názov tabuľky** pole, vyberte **Project Buckets**.
 6. V **názov** pole, zadajte **ScheduleAPIDemoBucket1**.
@@ -154,7 +154,7 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **inicializovať premennú**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V novom kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V novom kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Stav prepojenia**.
 5. V **názov** pole, zadajte **stav prepojenia**.
 6. V **Typ** pole, vyberte **Celé číslo**.
@@ -164,7 +164,7 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **inicializovať premennú**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V novom kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V novom kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Init Počet úloh**.
 5. V **názov** pole, zadajte **počet úloh**.
 6. V **Typ** pole, vyberte **Celé číslo**.
@@ -174,11 +174,11 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **inicializovať premennú**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V novom kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V novom kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Spustite ProjectTaskID**.
 5. V **názov** pole, zadajte **počet úloh**.
 6. V **Typ** pole, vyberte **Reťazec**.
-7. Pre **Hodnota** pole, zadajte **guid()** v tvorca výrazov.
+7. Pre **Hodnota** pole, zadajte **guid()** v nástroji na tvorbu výrazov.
 
 ## <a name="step-10-do-until"></a><a id="10"></a> Krok 10: Urobte do
 
@@ -192,10 +192,10 @@ Ak chcete vytvoriť vzorový projekt, postupujte podľa týchto krokov.
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **nastaviť premennú**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V novom kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V novom kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Nastaviť úlohu projektu**.
 5. V **názov** pole, vyberte **msdyn\_ projecttaskid**.
-6. Pre **Hodnota** pole, zadajte **guid()** v tvorca výrazov.
+6. Pre **Hodnota** pole, zadajte **guid()** v nástroji na tvorbu výrazov.
 
 ## <a name="step-12-create-a-project-task"></a><a id="12"></a> Krok 12: Vytvorte projektovú úlohu
 
@@ -203,8 +203,8 @@ Podľa týchto krokov vytvorte projektovú úlohu, ktorá má jedinečné ID, kt
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **vykonať neviazanú akciu**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
-4. Premenujte krok **Vytvoriť projektovú úlohu**.
+3. V kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
+4. Premenujte krok **Vytvorenie projektovej úlohy**.
 5. V **Názov akcie** pole, vyberte **msdyn\_ PssCreateV1**.
 6. V **Entita** zadajte nasledujúce informácie o parametroch.
 
@@ -226,9 +226,9 @@ Podľa týchto krokov vytvorte projektovú úlohu, ktorá má jedinečné ID, kt
 
     - **\@\@ odata.typ** – Názov entity. Napríklad zadajte **"Microsoft.Dynamics.CRM.msdyn\_ projektová úloha"**.
     - **msdyn\_ projecttaskid** – Jedinečné ID úlohy. Hodnota by mala byť nastavená na dynamickú premennú z **msdyn\_ projecttaskid**.
-    - **msdyn\_ projektu\@ odata.viazať** – ID projektu vlastníka projektu. Hodnotou bude dynamický obsah, ktorý pochádza z odpovede kroku „Vytvoriť projekt“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projekty (PRIDAŤ DYNAMICKÝ OBSAH)“**.
+    - **msdyn\_ projektu\@ odata.viazať** – ID projektu vlastníka projektu. Hodnota bude dynamický obsah, ktorý pochádza z odpovede kroku „Vytvoriť projekt“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projekty (PRIDAŤ DYNAMICKÝ OBSAH)“**.
     - **msdyn\_ predmet** – Ľubovoľný názov úlohy.
-    - **msdyn\_ projectbucket\@ odata.viazať** – Skupina projektu, ktorá obsahuje úlohy. Hodnota bude dynamický obsah, ktorý pochádza z odpovede kroku „Vytvoriť vedro“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projectbuckets (PRIDAŤ DYNAMICKÝ OBSAH)“**.
+    - **msdyn\_ projectbucket\@ odata.viazať** – Skupina projektu, ktorá obsahuje úlohy. Hodnota bude dynamický obsah, ktorý pochádza z odozvy kroku „Vytvoriť vedro“. Uistite sa, že ste zadali celú cestu a pridali dynamický obsah do zátvoriek. Úvodzovky sú povinné. Napríklad zadajte **"/msdyn\_ projectbuckets (PRIDAŤ DYNAMICKÝ OBSAH)"**.
     - **msdyn\_ začať** – Dynamický obsah pre dátum začiatku. Napríklad zajtrajšok bude reprezentovaný ako **"addDays(utcNow(), 1)"**.
     - **msdyn\_ plánovaný štart** – Plánovaný dátum začiatku. Napríklad zajtrajšok bude reprezentovaný ako **"addDays(utcNow(), 1)"**.
     - **msdyn\_ harmonogram** – Plánovaný dátum ukončenia. Vyberte dátum v budúcnosti. Napríklad špecifikujte **"addDays(utcNow(), 5)"**.
@@ -240,14 +240,14 @@ Podľa týchto krokov vytvorte projektovú úlohu, ktorá má jedinečné ID, kt
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **vykonať neviazanú akciu**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Vytvoriť zadanie**.
 5. V **Názov akcie** pole, vyberte **msdyn\_ PssCreateV1**.
 6. V **Entita** zadajte nasledujúce informácie o parametroch.
 
     ```
     {
-        "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
+        "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
         "msdyn_resourceassignmentid": "@{guid()}",
         "msdyn_name": "ScheduleAPIDemoAssign1",
         "msdyn_taskid@odata.bind": "/msdyn_projecttasks(@{variables('msdyn_projecttaskid')})",
@@ -265,11 +265,11 @@ Podľa týchto krokov vytvorte projektovú úlohu, ktorá má jedinečné ID, kt
 3. V **názov** pole, vyberte **počet úloh**.
 4. V **Hodnota** pole, zadajte **1**.
 
-## <a name="step-15-rename-a-project-task"></a><a id="15"></a> Krok 15: Premenujte projektovú úlohu
+## <a name="step-15-rename-a-project-task"></a><a id="15"></a> Krok 15: Premenujte úlohu projektu
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **vykonať neviazanú akciu**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Premenovať úlohu projektu**.
 5. V **Názov akcie** pole, vyberte **msdyn\_ PssUpdateV1**.
 6. V **Entita** zadajte nasledujúce informácie o parametroch.
@@ -288,7 +288,7 @@ Podľa týchto krokov vytvorte projektovú úlohu, ktorá má jedinečné ID, kt
 
 1. V toku vyberte **Nový krok**.
 2. V **Vyberte operáciu** v dialógovom okne zadajte do vyhľadávacieho poľa **vykonať neviazanú akciu**. Potom na **Akcie** vyberte operáciu v zozname výsledkov.
-3. V kroku vyberte tri bodky (**...**) a potom vyberte **Premenovať**.
+3. V kroku vyberte elipsu (**...**) a potom vyberte **Premenovať**.
 4. Premenujte krok **Vykonajte sadu operácií**.
 5. V **Názov akcie** pole, vyberte **msdyn\_ ExecuteOperationSetV1**.
 6. Pre **OperationSetId** pole, vyberte **msdyn\_ CreateOperationSetV1Response OperationSetId** v **Obsah dynamiky** dialógové okno.

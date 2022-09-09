@@ -1,45 +1,85 @@
 ---
-title: Riešenie obstarávacích cien v odhadoch a skutočných hodnotách projektov
-description: Tento článok poskytuje informácie o tom, ako sa riešia nákladové ceny na projektových odhadoch a skutočných hodnotách.
+title: Určite nákladové sadzby pre odhady projektu a skutočné skutočnosti
+description: Tento článok poskytuje informácie o tom, ako sa určujú nákladové sadzby pre odhady a skutočné hodnoty projektu.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917549"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410178"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Riešenie obstarávacích cien v odhadoch a skutočných hodnotách projektov 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Určite nákladové sadzby pre odhady projektu a skutočné skutočnosti
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Na riešenie obstarávacích cien a cenníka obstarávacích cien pre odhady a skutočné hodnoty systém používa informácie v poliach **Dátum**, **Mena** a **Zmluvná jednotka** súvisiaceho projektu. Po vyriešení cenníka obstarávacích cien aplikácia vyrieši nákladovú sadzbu.
+Na určenie cenníka nákladov a sadzieb nákladov v odhadovanom a skutočnom kontexte systém používa informácie v **Dátum**, **·**, a **zmluvná jednotka** oblasti súvisiaceho projektu.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Riešenie nákladových sadzieb v riadkoch so skutočnými hodnotami a odhadmi pre čas
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Stanovenie nákladových sadzieb v odhadovaných a skutočných kontextoch pre čas
 
-Riadky s odhadmi pre čas sa týkajú riadkov s podrobnosťami o cenovej ponuke a zmluve pre pridelenie času a zdroja pre projekt.
+Odhadnúť kontext pre **Čas** odkazuje na:
 
-Po vyriešení cenníka obstarávacích cien sa polia **Rola** a **Zdrojová jednotka** v riadku odhadu pre Čas zhodujú s riadkami cenových rolí v cenníku. Táto zhoda predpokladá, že používate štandardné cenové dimenzie pre náklady na prácu. Ak ste nakonfigurovali systém tak, aby zodpovedal poliam namiesto, alebo okrem položiek **Rola** a **Zdrojová jednotka**, tak sa na získanie zodpovedajúceho riadka s cenou roly použije iná kombinácia. Ak aplikácia nájde riadok s cenou roly s nákladovou sadzbou pre kombináciu **Rola** a **Zdrojová jednotka**, bude to predvolená nákladová sadzba. Ak sa aplikácia nemôže zhodovať s hodnotami **Rola** a **Zdrojová jednotka**, tak načíta riadky s cenami rolí so zodpovedajúcou rolou, ale s nulovými hodnotami parametra **Zdrojová jednotka**. Keď obsahuje zodpovedajúci záznam o cene roly, bude predvolená nákladová sadzba z tohto záznamu. 
+- Podrobnosti o riadku cenovej ponuky pre **Čas**.
+- Podrobnosti zmluvnej linky pre **Čas**.
+- Priradenia zdrojov k projektu.
+
+Skutočný kontext pre **Čas** odkazuje na:
+
+- Riadky denníka zápisov a opráv pre **Čas**.
+- Riadky denníka, ktoré sa vytvoria pri odoslaní časového záznamu.
+
+Po určení cenníka nákladov systém vykoná nasledujúce kroky na zadanie predvolenej nákladovej sadzby.
+
+1. Systém zodpovedá kombinácii **Role** a **Jednotka zdrojov** polia v odhadovanom alebo skutočnom kontexte pre **Čas** oproti cenovým líniám rol v cenníku. Toto párovanie predpokladá, že pre cenu práce používate štandardné cenové dimenzie. Ak ste systém nakonfigurovali tak, aby zodpovedal iným poliam alebo iným poliam **Role** a **Jednotka zdrojov**, na získanie zodpovedajúcej cenovej línie roly sa používa iná kombinácia.
+1. Ak systém nájde cenovú líniu role, ktorá má nákladovú sadzbu pre **Role** a **Jednotka zdrojov** kombinácia, táto nákladová sadzba sa použije ako predvolená nákladová sadzba.
+1. Ak sa systém nezhoduje s **Role** a **Jednotka zdrojov** hodnoty, načíta cenové línie rolí, ktoré majú zhodné hodnoty pre **Role** pole, ale hodnoty null pre **Jednotka zdrojov** lúka. Keď má systém zodpovedajúci cenový záznam roly, ako predvolená nákladová sadzba sa použije nákladová sadzba z tohto záznamu.
 
 > [!NOTE]
-> Ak nakonfigurujete inú prioritu pre položky **Rola** a **Zdrojová jednotka**, alebo ak máte iné dimenzie, ktoré majú vyššiu prioritu, toto správanie sa zodpovedajúcim spôsobom zmení. Systém načítava záznamy cien rolí s hodnotami, ktoré sa zhodujú s každou z hodnôt dimenzií ceny, v poradí podľa priority s riadkami, ktoré majú nulové hodnoty pre tieto dimenzie prichádzajúce ako posledné.
+> Ak nakonfigurujete inú prioritu **Role** a **Jednotka zdrojov** polia, alebo ak máte iné dimenzie, ktoré majú vyššiu prioritu, predchádzajúce správanie sa zodpovedajúcim spôsobom zmení. Systém načítava cenové záznamy rolí, ktoré majú hodnoty, ktoré zodpovedajú každej hodnote cenovej dimenzie v poradí podľa priority. Riadky, ktoré majú pre tieto dimenzie nulové hodnoty, sú posledné.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Riešenie nákladových sadzieb v riadkoch so skutočnými hodnotami a odhadmi pre náklad
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Stanovenie nákladových sadzieb na skutočných a odhadovaných riadkoch pre Výdavky
 
-Riadky s odhadmi pre náklad sa týkajú riadkov s podrobnosťami o cenovej ponuke a zmluve pre náklady a riadky odhadov výdavkov pre projekt.
+Odhadnúť kontext pre **Výdavok** odkazuje na:
 
-Po vyriešení cenníka obstarávacích cien systém použije kombináciu polí **Kategória** a **Jednotka** v riadku odhadu výdavkov, aby sa zhodovali s riadkami **Cena kategórie** na vyriešenom cenníku. Ak systém nájde riadok s cenou kategórie, ktorá má nákladovú sadzbu pre kombináciu polí **Kategória** a **Jednotka**, nákladová sadzba bude predvolená. Ak systém nedokáže zosúladiť hodnoty **Kategória** a **Jednotka**, alebo ak dokáže nájsť cenovú linku zodpovedajúcej kategórie, ale metóda určovania cien nie je **Cena za jednotku**, sadzba nákladov je predvolene nastavená na nulu (0).
+- Podrobnosti o riadku cenovej ponuky pre **Výdavok**.
+- Podrobnosti zmluvnej linky pre **Výdavok**.
+- Odhady nákladov na projekt.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Riešenie nákladových sadzieb v riadkoch skutočných a odhadovaných hodnôt pre materiál
+Skutočný kontext pre **Výdavok** odkazuje na:
 
-Odhadované riadky pre materiál sa týkajú detailov cenovej ponuky a riadka zmluvy pre materiály a odhadované riadky materiálu v projekte.
+- Riadky denníka zápisov a opráv pre **Výdavok**.
+- Riadky denníka, ktoré sa vytvoria pri odoslaní nákladového záznamu.
 
-Po vyriešení cenníka nákladových cien systém použije kombináciu polí **Produkt** a **Jednotka** na riadku odhadu pre odhad materiálu, na spárovanie odhadu materiálu s riadkami **Položky v cenníku** vo vyriešenom cenníku. Ak systém nájde riadok ceny produktu, ktorý má nákladovú sadzbu pre kombináciu polí **Produkt** a **Jednotka**, nákladová sadzba sa nastaví na predvolenú hodnotu. Ak sa systém nedokáže spárovať hodnoty **Produkt** a **Jednotka**, alebo ak dokáže nájsť zodpovedajúci riadok položky v cenníku, ale metóda určovania cien je založená na štandardných cenách alebo aktuálnych cenách a ani jedna z nich nie je na produkte definovaná, jednotkové náklady sa predvolene nastavia na nulu.
+Po určení cenníka nákladov systém vykoná nasledujúce kroky na zadanie predvolenej nákladovej sadzby.
 
+1. Systém zodpovedá kombinácii **Kategória** a **Jednotka** polia v odhadovanom alebo skutočnom kontexte pre **Výdavok** oproti cenovým radom kategórie v cenníku.
+1. Ak systém nájde cenovú líniu kategórie, ktorá má nákladovú sadzbu pre **Kategória** a **Jednotka** kombinácia, táto nákladová sadzba sa použije ako predvolená nákladová sadzba.
+1. Ak sa systém nezhoduje s **Kategória** a **Jednotka** hodnoty, cena je nastavená na **0** štandardne (nula).
+1. V kontexte odhadu, ak systém dokáže nájsť cenovú líniu zodpovedajúcej kategórie, ale metóda oceňovania je niečo iné ako **Cena za jednotku**, sadzba nákladov je nastavená na **0** štandardne (nula).
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Stanovenie nákladových sadzieb na skutočných a odhadovaných riadkoch pre materiál
+
+Odhadnúť kontext pre **Materiál** odkazuje na:
+
+- Podrobnosti o riadku cenovej ponuky pre **Materiál**.
+- Podrobnosti zmluvnej linky pre **Materiál**.
+- Materiálové odhady na projekte.
+
+Skutočný kontext pre **Materiál** odkazuje na:
+
+- Riadky denníka zápisov a opráv pre **Materiál**.
+- Riadky denníka, ktoré sa vytvoria pri odoslaní denníka použitia materiálu.
+
+Po určení cenníka nákladov systém vykoná nasledujúce kroky na zadanie predvolenej nákladovej sadzby.
+
+1. Systém využíva kombináciu **Produkt** a **Jednotka** polia v odhadovanom alebo skutočnom kontexte pre **Materiál** oproti riadkom cenníkovej položky na cenníku.
+1. Ak systém nájde riadok položky cenníka, ktorý má nákladovú sadzbu pre **Produkt** a **Jednotka** kombinácia, táto nákladová sadzba sa použije ako predvolená nákladová sadzba.
+1. Ak sa systém nezhoduje s **Produkt** a **Jednotka** hodnoty sa nastavia jednotkové náklady **0** štandardne (nula).
+1. V odhadovanom alebo skutočnom kontexte, ak systém dokáže nájsť zodpovedajúci riadok cenníka, ale metóda oceňovania je iná ako **Suma meny**, jednotkové náklady sú nastavené na **0** predvolene. Toto správanie sa vyskytuje, pretože Project Operations podporuje iba **Suma meny** spôsob oceňovania materiálov, ktoré sa používajú na projekte.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

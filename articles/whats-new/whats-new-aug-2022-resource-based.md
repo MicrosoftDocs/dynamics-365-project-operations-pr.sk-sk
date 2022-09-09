@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348119"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403876"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novinky v auguste 2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -38,6 +38,11 @@ Ak pri spustení mapy narazíte na problém, postupujte podľa pokynov v časti 
 | Oblasť funkcií | Číslo odkazu | Aktualizácia kvality |
 | --- | --- | --- |
 | Správa príležitostí | 2762089 | Ošetrenie chýb pri uzatváraní zmluvy ako stratenej, ak je v organizácii vypnuté automatické ukladanie.|
+|Plánovanie a sledovanie projektu | 2767841 | Aktualizácie telemetrie Entita projektu Vytvorenie alebo aktualizácia scenárov.|
+|Fakturácia a tvorba cien | 2771072 | Spracovanie výnimiek z nulovej referencie pri vyhrávaní cenovej ponuky.|
+|Fakturácia a tvorba cien | 2844181 |Nepodarilo sa získať ID korelácie a zablokovať vytvorenie faktúry.|
+|Fakturácia a tvorba cien | 2852836 | Medzipodnikové skutočné údaje chýbajú pre medzipodnikové výdavky vytvorené a schválené v CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektový manažment a účtovníctvo vo financiách
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183936"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403971"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novinky v júli 2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -45,8 +45,14 @@ Ak pri spustení mapy narazíte na problém, postupujte podľa pokynov v časti 
 | Fakturácia a tvorba cien | 2675880 | Zabráňte prepojeniu projektu so zmluvnou líniou, ktorá nie je založená na práci. |
 | Fakturácia a tvorba cien | 2664396 | Ak je cenník uložený bez ponuky, musí sa vyskytnúť chyba, ktorá uvádza, že ponuka nemôže byť prázdna. |
 | Fakturácia a tvorba cien | 2184019 | The **Fakturácia podľa úloh** karta by sa nemala zobrazovať pre projekty, ktoré nemajú žiadnu podpornú zmluvu alebo cenovú ponuku. |
+| Čas a výdavky | 2754459 | Keď je cloudový tok opakovaného plánovania neaktívny, zobraziť banner a vynechať asynchrónne spracovanie. |
+| Fakturácia a tvorba cien | 2724391 | Chybná výnimka sa vyvolá, keď v pravidle fakturácie rozdelenej projektovej zmluvy chýba zákaznícka hodnota. |
+| Fakturácia a tvorba cien | 2708638 | Záznam sa nenašiel pri vyhľadávaní pomocou mriežkového vyhľadávania v časti Využitie materiálu a schválenie použitia materiálu.|
+| Fakturácia a tvorba cien | 2686977 | Zabráňte overeniu riadku faktúry počas vytvárania faktúry. |
+| Fakturácia a tvorba cien | 2683032 | Kopírovanie spoplatnených rolí a kategórií nepresahuje 5 000 záznamov.|
+| Fakturácia a tvorba cien | 2673363 | Percento spotreby nákladov na projekte je poškodené, keď pre projekt existujú odhady a skutočné hodnoty úsilia aj výdavkov. |
 
-### <a name="project-management-and-accounting-in-finance"></a>Projektový manažment a účtovníctvo v oblasti financií
+### <a name="project-management-and-accounting-in-finance"></a>Projektový manažment a účtovníctvo vo financiách
 
 Ak chcete získať informácie o opravách chýb, ktoré sú súčasťou tejto aktualizácie, prihláste sa na Microsoft Dynamics Služby životného cyklu (LCS) a pozrite si [článok KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
 
