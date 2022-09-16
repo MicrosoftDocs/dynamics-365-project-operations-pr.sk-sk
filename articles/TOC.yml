@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Prepísanie projektových predajných cenníkov
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: "Nastavenie prepísaní s\_dátumom účinnosti pre konkrétne ceny v\_cenníku"
+              href: pricing-costing/dateffective_price_overrides.md
             - name: "Určenie obstarávacích cien pre odhady a\_skutočné hodnoty"
               href: pricing-costing/cost-price-resolution.md
             - name: "Určenie predajných cien pre odhady a\_skutočné hodnoty"
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: "Objednávanie tovarov a\_služieb pre projekty pomocou nákupných objednávok projektu"
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: "Faktúry dodávateľov pre subdodávateľské zmluvy v\_službe Dataverse"
+          items:
+            - name: Vytvorenie faktúr dodávateľov
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Overenie faktúr dodávateľov so schválenými skutočnými hodnotami
+              href: pro/subcontracting/VI-Verification.md
+            - name: Potvrdenie projektových faktúr dodávateľov
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Udržanie dodávateľov
           items:
             - name: Prehľad udržania dodávateľov
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Prepísanie projektových predajných cenníkov
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: "Nastavenie prepísaní s\_dátumom účinnosti pre konkrétne ceny v\_cenníku"
+              href: pricing-costing/dateffective_price_overrides.md
             - name: "Určenie obstarávacích cien v\_odhadoch a\_skutočných hodnotách projektu"
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: "Určenie predajných cien pre odhady a\_skutočné hodnoty projektu"
