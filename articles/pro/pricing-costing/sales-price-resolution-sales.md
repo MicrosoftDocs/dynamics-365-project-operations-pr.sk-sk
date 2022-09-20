@@ -1,23 +1,23 @@
 ---
-title: Stanovte predajné ceny pre odhady projektu a skutočné skutočnosti
+title: Určenie predajných cien pre odhady a skutočné hodnoty projektu
 description: Tento článok poskytuje informácie o tom, ako sa určujú predajné ceny pre odhady a skutočné hodnoty projektu.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410138"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475204"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Stanovte predajné ceny pre odhady projektu a skutočné skutočnosti
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Určenie predajných cien pre odhady a skutočné hodnoty projektu
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Určenie predajných cien na základe odhadov a skutočností v spoločnosti Microsoft Dynamics 365 Project Operations, systém najprv použije dátum a menu v prichádzajúcom odhade alebo skutočnom kontexte na určenie predajného cenníka. V skutočnom kontexte konkrétne systém používa **Dátum transakcie** na určenie, ktorý cenník je platný. Po určení predajného cenníka systém určí predajnú alebo fakturačnú sadzbu.
+Určenie predajných cien na základe odhadov a skutočností v spoločnosti Microsoft Dynamics 365 Project Operations, systém najprv použije dátum a menu v prichádzajúcom odhade alebo skutočnom kontexte na určenie predajného cenníka. V skutočnom kontexte konkrétne systém používa **Dátum transakcie** na určenie, ktorý cenník je platný. The **Dátum transakcie** hodnota vstupného odhadu alebo skutočnej hodnoty sa porovnáva s **Efektívny štart (nezávislý od časového pásma)** a **Efektívny koniec (nezávislý od časového pásma)** hodnoty v cenníku. Po určení predajného cenníka systém určí predajnú alebo fakturačnú sadzbu.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Určenie predajných sadzieb na skutočných a odhadovaných riadkoch pre čas
 
@@ -90,7 +90,7 @@ Skutočný kontext pre **Materiál** odkazuje na:
 Po určení cenníka predaja systém vykoná nasledujúce kroky na zadanie predvolenej jednotkovej predajnej ceny.
 
 1. Systém zodpovedá kombinácii **Produkt** a **Jednotka** polia na riadku odhadu pre **Materiál** oproti riadkom cenníkovej položky na cenníku.
-1. Ak systém nájde riadok položky cenníka, ktorý má predajnú sadzbu pre **Produkt** a **Jednotka** kombinácia, a ak je to spôsob oceňovania **Suma meny**, použije sa predajná cena, ktorá je uvedená na riadku cenníka. 
+1. Ak systém nájde riadok položky cenníka, ktorý má predajnú sadzbu pre **Produkt** a **Jednotka** kombinácia a ak je to spôsob oceňovania **Suma meny**, použije sa predajná cena, ktorá je uvedená na riadku cenníka. 
 1. Ak **Produkt** a **Jednotka** hodnoty polí sa nezhodujú, alebo ak je metóda určovania cien iná ako **Suma meny**, predajná sadzba je nastavená na **0** štandardne (nula). Toto správanie sa vyskytuje, pretože Project Operations podporuje iba **Suma meny** spôsob oceňovania materiálov, ktoré sa používajú na projekte.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

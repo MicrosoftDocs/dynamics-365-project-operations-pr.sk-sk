@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410178"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475255"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Určite nákladové sadzby pre odhady projektu a skutočné skutočnosti
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Na určenie cenníka nákladov a sadzieb nákladov v odhadovanom a skutočnom kontexte systém používa informácie v **Dátum**, **·**, a **zmluvná jednotka** oblasti súvisiaceho projektu.
+Určenie nákladových sadzieb podľa odhadov a skutočností v spoločnosti Microsoft Dynamics 365 Project Operations, systém najprv použije dátum a menu v prichádzajúcom odhade alebo skutočnom kontexte na určenie cenníka nákladov. V skutočnom kontexte konkrétne systém používa **Dátum transakcie** na určenie, ktorý cenník je platný. The **Dátum transakcie** hodnota vstupného odhadu alebo skutočnej hodnoty sa porovnáva s **Efektívny štart (nezávislý od časového pásma)** a **Efektívny koniec (nezávislý od časového pásma)** hodnoty v cenníku. Po určení cenníka nákladov systém určí nákladovú sadzbu. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Stanovenie nákladových sadzieb v odhadovaných a skutočných kontextoch pre čas
 

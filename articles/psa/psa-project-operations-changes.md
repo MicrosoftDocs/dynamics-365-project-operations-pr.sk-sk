@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925369"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459946"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Zmeny funkcií medzi aplikáciami Project Service Automation a Project Operations
 
 Aktualizácia z Dynamics 365 Project Service Automation do Dynamics 365 Project Operations Lite bude dodaný v troch fázach. Tento článok poskytuje informácie o hlavných zmenách, ktoré môžete očakávať po dokončení inovácie.
 
-| Inovovať doručenie | Fáza 1 <br>(január 2022) | 2. fáza <br>(Vlna apríla 2022) | 3. fáza  |
+| Inovovať doručenie | Fáza 1 <br>(január 2022) | 2. fáza <br>(november 2022) | 3. fáza  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Žiadna závislosť od štruktúry rozpisu prác (WBS) pre projekty. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS je súčasťou aktuálne podporovaných limitov projektových operácií. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
@@ -44,25 +44,25 @@ Nasledujúca tabuľka sumarizuje rozdiely v plánovaní medzi Project Service Au
 |  Plánuje sa     |   Project Operations   |   PSA   |
 |-----------------|------------------------|---------|
 | Projektové šablóny – Schopnosť definovať a aplikovať projektové šablóny pri vytváraní projektu  |  &nbsp;    | :heavy_check_mark: |
-| Integrácia štruktúry rozdelenia práce na projekte (WBS) s klientom na pracovnej ploche   |    &nbsp;  | :heavy_check_mark: |
+| Integrácia štruktúry rozpisu práce na projekte (WBS) s klientom na pracovnej ploche   |    &nbsp;  | :heavy_check_mark: |
 | Obmedzenia – Začať najskôr, skončiť najneskôr  | :heavy_check_mark: |   &nbsp;  |
 | Míľniky – Úlohy s nulovým trvaním   | :heavy_check_mark:  |  &nbsp;  |
 | Úlohy riadené zdrojmi budú rešpektovať dostupnosť pridelených zdrojov   | :heavy_check_mark: |  &nbsp;    |
 | Úpravy v časovom rozvrhu – Upravujte plány a pracujte každý deň   |   &nbsp;  | :heavy_check_mark: |
 | Automatické/manuálne plánovanie – použite nástroj na plánovanie projektu na automatické alebo manuálne plánovanie úloh |  &nbsp; | :heavy_check_mark:  |
-| Upravujte veľké projekty priamo v používateľskom rozhraní: Veľkosť plánov, ktoré je možné upravovať, nie je obmedzená  | Limit 500 úloh  | :heavy_check_mark:       |
+| Úprava veľkých projektov priamo v používateľskom rozhraní: Veľkosť plánov, ktoré je možné upravovať, nie je obmedzená  | Limit 500 úloh  | :heavy_check_mark:       |
 | Percento dokončenia – Označte priebeh úlohy   | :heavy_check_mark:  |  &nbsp;  |
 | [Režimy plánovania projektu](../project-management/scheduling-modes.md) - Definujte projekt ako fixné jednotky, fixné úsilie alebo fixné trvanie | :heavy_check_mark: | &nbsp; |
 | Časová os – vytvorte a prispôsobte zobrazenie časovej osi na vizualizáciu podrobností plánu a komunikáciu so zainteresovanými stranami. | :heavy_check_mark:  | &nbsp; |
 | Úlohy riadené úsilím – Podpora nástroja na plánovanie pre plánovanie úlohy podľa úsilia  | :heavy_check_mark:  | &nbsp; |
-| **Informácie o úlohe** dialógové okno – uložte podrobnosti o úlohe pomocou dialógového okna | :heavy_check_mark:  |  &nbsp;  |
-| Drag and drop – Úlohy vyberte viackrát a upravte ich pozíciu na WBS | :heavy_check_mark: | &nbsp;  |
+| **Informácie o úlohe** dialógové okno – Uložte podrobnosti o úlohe pomocou dialógového okna | :heavy_check_mark:  |  &nbsp;  |
+| Drag and drop – Vyberte úlohy a upravte ich pozíciu na WBS | :heavy_check_mark: | &nbsp;  |
 | Flexibilné trvalé zobrazenia – Definujte podrobnejšie zobrazenia atribútov úloh   | :heavy_check_mark:  | &nbsp; |
 | Triediť a filtrovať WBS  | :heavy_check_mark:  | &nbsp; |
 | Zobrazenie tabúľ pre dodanie projektu bez vodopádu  | :heavy_check_mark:   | &nbsp; |
 | Zobrazenie časovej osi – Interaktívny Ganttov diagram používaný na vizualizáciu a úpravu WBS   | :heavy_check_mark:  | &nbsp; |
 | Klávesové skratky – použite klávesové skratky na bežné operácie, ako je odsadenie alebo vloženie  | :heavy_check_mark:  |  &nbsp; |
-| Viacúrovňové vrátenie – vykonajte analýzu typu „čo keby“, aby ste plne porozumeli dopadu zmien, a to zvrátením a opätovným použitím celej skupiny operácií | :heavy_check_mark: | &nbsp; |
+| Viacúrovňové vrátenie – Vykonajte analýzu typu „čo keby“, aby ste plne porozumeli dopadu zmien, a to zvrátením a opätovným použitím celej sady operácií | :heavy_check_mark: | &nbsp; |
 | Vystrihnúť/Kopírovať/Vložiť – Spolupracujte na vývoji plánu kopírovaním a vkladaním podrobností plánu medzi aplikáciami  | :heavy_check_mark: | &nbsp; |
 | Kontrolné zoznamy úloh – Pridajte k úlohe až 20 položiek kontrolného zoznamu   | :heavy_check_mark: | &nbsp; |
 
@@ -131,10 +131,10 @@ Ak v súčasnosti máte prispôsobenia, ktoré zahŕňajú tieto entity, pozrite
 
 ## <a name="data-model-changes"></a>Zmeny dátového modelu
 
-V rámci fázy inovácie 1 dochádza k zmenám dátového modelu. Tieto zmeny sú primárne terénne zmeny existujúcich subjektov. Vo fáze 1 entity, **msydn_project** a **msdyn_projectteam** sú refaktoring prispôsobení. 
+V rámci fázy inovácie 1 dochádza k zmenám dátového modelu. Tieto zmeny sú primárne terénne zmeny existujúcich subjektov. Vo fáze 1 entity, **msydn_project** a **msdyn_projectteam** sú refaktoringom prispôsobení. 
 
 > [!IMPORTANT]
-> Po dokončení budúcich fáz inovácie sa táto časť aktualizuje o ďalšie entity.
+> Po dokončení budúcich fáz inovácie sa táto sekcia aktualizuje o ďalšie entity.
 
 Nasledujúce polia boli nahradené novými poliami.
 
@@ -199,13 +199,13 @@ V prevádzke projektu boli pridané nasledujúce nové funkcie. Tieto funkcie ma
 - [Manažment subdodávok](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Zálohy a zmluvy založené na preddavkoch](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Stav neprekročenia zmluvy a overenia](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
-- [Účtovanie podľa úloh](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
+- [Účtovanie založené na úlohe](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
 ## <a name="deprecated-components"></a>Zastarané komponenty
 
 Nasledujúce tabuľky dokumentujú všetky zastarané polia, ktoré sa po inovácii presunú do riešenia zastaraných komponentov. Viac informácií a odkaz na riešenie nájdete na [Dynamics 365 Project Service Automation 3x do Project Operations 4x zastarané komponenty](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
 
-### <a name="invoicedetail"></a>Fakturačný údaj
+### <a name="invoicedetail"></a>Fakturačný detail
 
 | Polia                                                    |
 |-----------------------------------------------------------------------------------------------|

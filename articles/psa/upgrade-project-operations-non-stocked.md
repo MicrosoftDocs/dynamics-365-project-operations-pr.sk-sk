@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230288"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446055"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Inovujte z Automatizácie projektových služieb na Projektové operácie
 
@@ -29,7 +29,7 @@ S potešením oznamujeme prvú z troch fáz inovácie Microsoft Dynamics 365 Pro
 
 Program poskytovania aktualizácie bude rozdelený do troch fáz.
 
-| Inovovať doručenie | 1. fáza (január 2022) | 2. fáza (aprílová vlna 2022) | 3. fáza  |
+| Inovovať doručenie | 1. fáza (január 2022) | 2. fáza (november 2022) | 3. fáza (aprílová vlna 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Žiadna závislosť od štruktúry rozpisu prác (WBS) pre projekty | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS v rámci aktuálne podporovaných limitov projektových operácií | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,14 +39,14 @@ Program poskytovania aktualizácie bude rozdelený do troch fáz.
 
 V rámci procesu inovácie sme do mapy lokality pridali denníky inovácie, aby správcovia mohli jednoduchšie diagnostikovať zlyhania. Okrem nového rozhrania budú pridané nové overovacie pravidlá na zabezpečenie integrity údajov po inovácii. Do procesu inovácie budú pridané nasledujúce overenia.
 
-| Validácie | 1. fáza (január 2022) | 2. fáza (aprílová vlna 2022) | 3. fáza  |
+| Validácie | 1. fáza (január 2022) | 2. fáza (november 2022) | 3. fáza  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS bude overený proti bežným porušeniam integrity údajov (napríklad priradenia zdrojov, ktoré sú spojené s rovnakou nadradenou úlohou, ale majú rôzne nadradené projekty). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS bude overený voči [známe limity Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS bude overený voči známym limitom desktopového klienta Project. | |  | :heavy_check_mark: |
 | Rezervovateľné zdroje a projektové kalendáre budú hodnotené podľa bežných nekompatibilných výnimiek z pravidiel kalendára. | | :heavy_check_mark: | :heavy_check_mark: |
 
-Vo fáze 2 budú zákazníci, ktorí inovujú na Project Operations, upgradované svoje existujúce projekty na prostredie určené len na čítanie pre plánovanie projektov. V tomto prostredí len na čítanie bude v sledovacej mriežke viditeľný úplný WBS. Ak chcete upraviť WBS, projektoví manažéri môžu vybrať **Konvertovať** na hlavnej **projekty** stránku. Proces na pozadí potom aktualizuje projekt tak, aby podporoval novú skúsenosť s plánovaním projektu z Project for the Web. Táto fáza je vhodná pre zákazníkov, ktorí majú projekty, ktoré do nej zapadajú [známe limity Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+Vo fáze 2 budú zákazníci, ktorí inovujú na Project Operations, upgradované svoje existujúce projekty na prostredie určené len na čítanie pre plánovanie projektov. V tomto prostredí len na čítanie bude v sledovacej mriežke viditeľný úplný WBS. Ak chcete upraviť WBS, projektoví manažéri môžu vybrať **Konvertovať** na hlavnej **Projekty** stránku. Proces na pozadí potom aktualizuje projekt tak, aby podporoval novú skúsenosť s plánovaním projektu z Project for the Web. Táto fáza je vhodná pre zákazníkov, ktorí majú projekty, ktoré do nej zapadajú [známe limity Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 Vo fáze 3 bude pridaná podpora pre desktopového klienta Project v prospech zákazníkov, ktorí chcú naďalej upravovať svoje projekty z tejto aplikácie. Ak sa však existujúce projekty skonvertujú na nové prostredie Project for the Web, prístup k doplnku bude zakázaný pre každý skonvertovaný projekt.
 
@@ -73,7 +73,7 @@ Tu je niekoľko vecí, na ktoré si treba dať pozor:
 
 - Import môže zlyhať z dôvodu chýbajúcich závislostí. Inými slovami, referenčné polia prispôsobení alebo iné komponenty, ktoré boli odstránené v Project Operations. V takom prípade odstráňte tieto závislosti z vývojového prostredia.
 - Ak vaše nespravované a spravované riešenia obsahujú komponenty, ktoré nie sú prispôsobené, odstráňte tieto komponenty z riešenia. Napríklad, keď prispôsobíte **Projekt** entity, pridajte do svojho riešenia iba hlavičku entity. Nepridávajte všetky polia. Ak ste už predtým pridali všetky podkomponenty, možno budete musieť manuálne vytvoriť nové riešenie a pridať doň relevantné komponenty.
-- Formuláre a zobrazenia sa nemusia zobrazovať podľa očakávania. Za určitých okolností, ak ste prispôsobili niektorý z vopred pripravených formulárov alebo zobrazení, prispôsobenia môžu zabrániť tomu, aby sa nové aktualizácie v prevádzke projektu prejavili. Ak chcete identifikovať tieto problémy, odporúčame vám vykonať súbežnú kontrolu čistej inštalácie Project Operations a inštalácie Project Operations, ktorá zahŕňa vaše prispôsobenia. Porovnajte najčastejšie používané formuláre vo vašej firme, aby ste sa uistili, že vaša verzia formulára má stále zmysel a nechýba jej niečo z čistej verzie formulára. Vykonajte rovnaký typ kontroly vedľa seba pre všetky zobrazenia, ktoré ste si prispôsobili.
+- Formuláre a zobrazenia sa nemusia zobrazovať podľa očakávania. Za určitých okolností, ak ste prispôsobili niektorý z vopred pripravených formulárov alebo zobrazení, prispôsobenia môžu brániť novým aktualizáciám v prevádzke projektu, aby nadobudli účinnosť. Ak chcete identifikovať tieto problémy, odporúčame vám vykonať súbežnú kontrolu čistej inštalácie Project Operations a inštalácie Project Operations, ktorá zahŕňa vaše prispôsobenia. Porovnajte najčastejšie používané formuláre vo vašej firme, aby ste sa uistili, že vaša verzia formulára má stále zmysel a nechýba jej niečo z čistej verzie formulára. Vykonajte rovnaký typ kontroly vedľa seba pre všetky zobrazenia, ktoré ste si prispôsobili.
 - Obchodná logika môže zlyhať pri spustení. Pretože odkazy na polia vo vašich zásuvných moduloch nie sú v čase importu overené, obchodná logika môže zlyhať z dôvodu odkazov na polia, ktoré už neexistujú, a môže sa zobraziť chybové hlásenie podobné nasledujúcemu príkladu: "'Project' entita neobsahuje atribút s Name = 'msdyn_plannedhours' a NameMapping = 'Logické'." V tomto prípade upravte svoje prispôsobenia tak, aby používali nové polia. Ak v logike doplnku používate automaticky generované triedy proxy a odkazy na silné typy, zvážte regeneráciu týchto proxy z čistej inštalácie. Týmto spôsobom môžete ľahko identifikovať všetky miesta, kde vaše doplnky závisia od zastaraných polí.
 
 Po aktualizácii prispôsobení, aby ste mohli čisto importovať operácie projektu, prejdite na ďalšie kroky.
@@ -111,7 +111,7 @@ Možnosti plánovania projektu v Project Operations sa už nespoliehajú na komb
 
 V rámci pokračujúcich investícií do prevádzky projektu je k dispozícii niekoľko nových možností v oblasti fakturácie a tvorby cien. Tu sú niektoré príklady:
 
-- [Evidencia spotreby materiálu na projektoch a projektových úlohách](../material/material-usage-log.md)
+- [Evidovanie spotreby materiálu na projektoch a projektových úlohách](../material/material-usage-log.md)
 - [Manažment subdodávok](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Zálohy a zmluvy založené na preddavkoch](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Stav neprekročenia zmluvy a overenia](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
@@ -137,4 +137,4 @@ Existujú dve možnosti inštalácie Project Operations predtým, ako bude k dis
 - Operácie projektu nasaďte samostatne v akejkoľvek predajnej organizácii, kde nie je prítomná automatizácia projektových služieb.
 
 > [!NOTE]
-> Ak je Project Service Automation nainštalovaný v organizácii, ale nebol používaný, možno ho odinštalovať. Po úplnom odstránení Project Service Automation sa Project Operations môže nainštalovať v tej istej organizácii.
+> Ak je Project Service Automation nainštalovaný v organizácii, ale nebol používaný, je možné ho odinštalovať. Po úplnom odstránení Project Service Automation sa Project Operations môže nainštalovať v tej istej organizácii.
