@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Odvolanie predtým schválených zadaní
           href: approvals/recall-cancel.md
+        - name: "Zabezpečenie a\_schválenia"
+          href: approvals/approvals-security.md
         - name: Poznámky vývojárov
           items:
             - name: Poznámky vývojárov týkajúce sa schválení
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Nastavenie udržania dodávateľov
               href: procurement/set-up-vendor-retention.md
+            - name: Zaplatiť po zaplatení
+              href: procurement/Pay-when-paid.md
     - name: Fakturácia
       items:
         - name: Prehľad procesu fakturácie
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Odvolanie predtým schválených zadaní
           href: approvals/recall-cancel.md
+        - name: "Zabezpečenie a\_schválenia"
+          href: approvals/approvals-security.md
         - name: Poznámky vývojárov
           items:
             - name: Poznámky vývojárov týkajúce sa schválení
