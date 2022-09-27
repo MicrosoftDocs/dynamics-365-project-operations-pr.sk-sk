@@ -1,8 +1,8 @@
 ---
 title: Zaúčtovanie výkazov výdavkov
 description: Tento článok vysvetľuje, ako zaúčtovať výkazy výdavkov.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934523"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524889"
 ---
 # <a name="post-expense-reports"></a>Zaúčtovanie výkazov výdavkov
 
@@ -30,5 +30,15 @@ Ak chcete zaúčtovať výkaz výdavkov, na stránke **Schválené výkazy výda
 
 Môžete tiež zaúčtovať všetky výkazy výdavkov v zozname súčasne. Vyberte všetky výkazy výdavkov a potom vyberte **Príspevok**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Povoľte funkciu Schopnosť účtovať záväzky v mene dodávateľa pre spôsob platby v hotovosti
+
+The **Schopnosť zaúčtovať výdavkový záväzok v mene dodávateľa pre spôsob platby v hotovosti** funkcia umožňuje zaúčtovať výkazy výdavkov v mene dodávateľa pre spôsob platby v hotovosti.
+
+V súčasnosti, keď predkladáte hotovostné výdavky, výkazy výdavkov sa účtujú v účtovnej mene. Z dôvodu prevodu sumy medzi menou transakcie, účtovnou menou a menou dodávateľa sa dodávateľom zaplatí nesprávna suma, ak dátum transakcie výdavku a skutočný dátum platby majú rozdielne výmenné kurzy.
+
+Táto funkcia zabezpečí, že zostatok dodávateľa bude zaznamenaný v mene dodávateľa pri zaúčtovaní výkazu výdavkov.
+
+1. Prejdite do časti **Pracovné priestory** \> **Správa funkcií**.
+2. V zozname vyhľadajte a vyberte **Schopnosť zaúčtovať výdavkový záväzok v mene dodávateľa pre spôsob platby v hotovosti** a potom vyberte **Povoliť teraz**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

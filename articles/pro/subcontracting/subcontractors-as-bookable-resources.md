@@ -2,20 +2,20 @@
 title: Nastavenie subdodávateľov ako rezervovateľné zdroje
 description: Tento článok vysvetľuje, ako nastaviť a udržiavať zdroje subdodávateľov, ktoré sú vytvorené od používateľov a kontaktov v systéme, aby ich bolo možné priradiť k subdodávateľským zmluvám v Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261343"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522721"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Nastavenie subdodávateľov ako rezervovateľné zdroje
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Ak chcete nastaviť subdodávateľov ako rezervovateľné zdroje v Microsoft Dynamics 365 Project Operations, postupujte podľa týchto krokov.
 

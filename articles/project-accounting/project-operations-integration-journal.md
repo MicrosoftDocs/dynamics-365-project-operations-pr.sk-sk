@@ -2,16 +2,16 @@
 title: Denník integrácie v aplikácii Project Operations
 description: Tento článok poskytuje informácie o práci s denníkom Integration v Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106294"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541097"
 ---
 # <a name="integration-journal-in-project-operations"></a>Denník integrácie v aplikácii Project Operations
 
@@ -65,6 +65,12 @@ Zaúčtovanie je možné vykonávať interaktívne alebo hromadne. Upozorňujeme
 > [!NOTE]
 > Ak chcete použiť túto funkciu, povoľte **Preneste všetky riadky s chybami účtovania do nového denníka integrácie projektových operácií** funkcia v **Správa funkcií** pracovnom priestore.
 
-Počas účtovania do denníka integrácie projektových operácií systém overí každý riadok v denníku. Systém zaúčtuje všetky riadky, ktoré nemajú chyby a vytvorí nový denník pre všetky riadky, ktoré majú chyby účtovania. Ak chcete skontrolovať žurnály, ktoré majú riadky s chybami účtovania, prejdite na **Projektový manažment a účtovníctvo** > **Denníky** > **Denník integrácie projektových operácií** a filtrujte žurnály pomocou **Pôvodný denník** lúka.
+Táto funkcia pomáha zlepšiť skúsenosti s denníkom integrácie Project Operations. Keď je povolená, problémy s časovaním duálneho zápisu a problémy s nastavením už nebránia uverejňovaniu platných žurnálov. Počas účtovania do denníka integrácie projektových operácií systém overí každý riadok v denníku. Zaúčtuje všetky riadky, ktoré nemajú chyby a vytvorí nový denník pre všetky riadky, ktoré majú chyby účtovania.
+
+Ak chcete skontrolovať žurnály, ktoré majú riadky s chybami účtovania, prejdite na **Projektový manažment a účtovníctvo** \> **Denníky** \> **Denník integrácie projektových operácií** a filtrujte zoznam časopisov pomocou **Pôvodný denník** lúka. Nasledujúci obrázok ukazuje príklad, kde sú žurnály na **Denník integrácie projektových operácií** stránka bola filtrovaná týmto spôsobom.
+
+![Pôvodný žurnál zobrazený na stránke žurnálu integrácie Project Operations.](./media/transferLines-originalJournal.png)
+
+Ak je periodická dávková úloha nakonfigurovaná na zaúčtovanie denníka integrácie, pokus o zaúčtovanie sa zopakuje a denníky sa zaúčtujú, ak bol problém s načasovaním vyriešený. Všetky zostávajúce žurnály by sa mali manuálne preskúmať tak, že si prezriete denníky a vykonáte všetky požadované kroky.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

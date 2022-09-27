@@ -2,20 +2,20 @@
 title: Riadky subdodávateľskej zmluvy pre kategórie výdavkov
 description: Tento článok vysvetľuje, ako zaznamenať riadky subdodávok pre náklady a použiť polia na zaznamenanie nákupu času od dodávateľov.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261860"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522627"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Riadky subdodávateľskej zmluvy pre kategórie výdavkov
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Subdodávateľská zmluva v Dynamics 365 Project Operations môže mať riadok pre kategórie výdavkov. Riadky subdodávateľských zmlúv pre kategórie výdavkov umožňujú projektovému manažérovi nakupovať kategórie služieb alebo produktov od dodávateľov, ktoré môžu účtovať projektu.
 

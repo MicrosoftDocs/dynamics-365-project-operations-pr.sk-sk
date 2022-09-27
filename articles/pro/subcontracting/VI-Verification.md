@@ -6,16 +6,16 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 67e0a0143fa354ca9a87bfac5fbbd6306a97811c
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261766"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522961"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Overenie faktúr dodávateľov so schválenými skutočnými hodnotami
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Microsoft Dynamics 365 Project Operations Poďme projektových manažérov overiť riadky faktúry dodávateľa nasledujúcimi spôsobmi:
 
@@ -50,7 +50,7 @@ Párovanie skutočných nákladov pomáha pri procese overovania na riadku fakt�
 
 Počas procesu párovania je možné vytvoriť prepojenie medzi skutočnými nákladmi a riadkom faktúry dodávateľa, iba ak sú splnené obe nasledujúce podmienky:
 
-- The **Stav úpravy** pole pre každú vybratú skutočnú cenu musí byť prázdne. Inými slovami, skutočné náklady nesmú byť nahradené inými skutočnými nákladmi počas procesu stiahnutia, zrušenia schválenia alebo denníka opráv.
+- The **Stav úpravy** pole pre každú vybratú skutočnú cenu musí byť prázdne. Inými slovami, skutočné náklady nesmú byť nahradené inými skutočnými nákladmi počas procesu odvolania, zrušenia schválenia alebo denníka opráv.
 - Hodnoty nasledujúcich polí sú spárované medzi riadkom faktúry dodávateľa a vybratými skutočnými nákladmi. Ak v riadku faktúry dodávateľa nie je nastavené žiadne pole, nebude sa brať do úvahy pri párovaní.
 
     - Projektová zmluva

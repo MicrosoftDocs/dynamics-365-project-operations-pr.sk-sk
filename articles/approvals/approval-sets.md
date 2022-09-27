@@ -1,17 +1,17 @@
 ---
 title: Množiny schválení
-description: Tento článok vysvetľuje, ako pracovať so skupinami schválenia, žiadosťami a podmnožinami týchto operácií.
+description: Tento článok vysvetľuje, ako pracovať so skupinami schvaľovania, žiadosťami a podmnožinami týchto operácií.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918101"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524936"
 ---
 # <a name="approval-sets"></a>Množiny schválení
 
@@ -28,14 +28,14 @@ Pole **Životnosť množiny schválení** zaznamenáva počet pokusov, ktoré zo
 
 Sady schvaľovania sa spracúvajú prostredníctvom periodickej aktivácie na základe a **Cloud Flow** pomenovaný **Projektová služba – Opakovane plánujte sady schvaľovania projektov**. Toto sa nachádza v **Riešenie** pomenovaný **Projektové operácie**. 
 
-Uistite sa, že je prietok aktivovaný vykonaním nasledujúcich krokov.
+Uistite sa, že prietok je aktivovaný vykonaním nasledujúcich krokov.
 
 1. Ako správca sa prihláste do [flow.microsoft.com](https://powerautomate.microsoft.com).
 2. V pravom hornom rohu prepnite na prostredie, ktoré používate Dynamics 365 Project Operations.
 3. Vyberte **Riešenia** na zoznam riešení, ktoré sú nainštalované v prostredí.
 4. V zozname riešení vyberte **Projektové operácie**.
 5. Vymeňte filter z **Všetky** do **Cloud Flows**.
-6. Overte si, že **Projektová služba – Opakovane plánujte sady schvaľovania projektov** prietok je nastavený na **zapnuté**. Ak nie je, vyberte tok a potom vyberte **Zapnúť**.
+6. Overte si, že **Projektová služba – Opakovane plánujte sady schvaľovania projektov** prietok je nastavený na **Zapnuté**. Ak nie je, vyberte tok a potom vyberte **Zapnúť**.
 7. Skontrolujte, či sa spracovanie vykonáva každých päť minút **Systémové úlohy** zoznam v **nastavenie** oblasť v rámci vašich projektových operácií Dataverse životné prostredie.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Neúspešné schválenia a množiny schválení
@@ -45,14 +45,9 @@ Výberom možnosti **Skúsiť znova** zvýšite životnosť množiny schválení
 ## <a name="configure-approval-sets"></a>Konfigurácia množín schválení
 
 ### <a name="enable-the-approval-sets-feature"></a>Povolenie funkcie Množiny schválení
-Skôr než povolíte funkciu Množiny schválení, skontrolujte, či sa v súčasnosti nespracovávajú žiadne schválenia.
+Skôr než povolíte funkciu Množiny schválení, skontrolujte, či sa v súčasnosti nespracovávajú žiadne schválenia. Keď je táto funkcia povolená, nie je možné ju deaktivovať.
 
 - Prejdite na stránku **Parametre projektu** a vyberte možnosť **Ovládací prvok funkcie** > **Povoliť moderné schválenia**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Vypnutie funkcie Množiny schválení
-Skôr než vypnete funkciu Množiny schválení, skontrolujte, či sa v súčasnosti nespracovávajú žiadne schválenia.
-
-- Prejdite na stránku **Parametre projektu** a vyberte možnosť **Ovládací prvok funkcie** > **Zakázať moderné schválenia**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Konfigurácia asynchrónnej hranice 
 Keď sa vytvoria množiny schválení, spracovanie sa presunie do pozadia, keď zvolený počet záznamov na schválenie prekročí stanovenú hranicu. Pomocou poľa **Asynchrónna hranica** nakonfigurujte, kedy sa má spracovanie schválenia spustiť synchrónne alebo asynchrónne. Vyberte jednu z nasledujúcich hodnôt:

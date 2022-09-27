@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029228"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528024"
 ---
 # <a name="expense-management-integration"></a>Integrácia správy výdavkov
 
@@ -34,7 +34,7 @@ Kategórie výdavkov vo finančných a prevádzkových aplikáciách sú špecif
 
 ## <a name="expense-reports"></a>Výkazy výdavkov
 
-Výkazy výdavkov sa vytvárajú a schvaľujú vo finančných a prevádzkových aplikáciách. Viac informácií nájdete v časti [Vytváranie a spracovanie výkazov výdavkov v systéme Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Po schválení výkazu výdavkov projektovým manažérom sa zaúčtuje do hlavnej knihy. V Project Operations sa riadky výkazu výdavkov súvisiacich s projektom účtujú pomocou špeciálnych pravidiel účtovania:
+Výkazy výdavkov sa vytvárajú a schvaľujú vo finančných a prevádzkových aplikáciách. Viac informácií nájdete v časti [Vytváranie a spracovanie výkazov výdavkov v systéme Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Po schválení výkazu výdavkov projektovým manažérom sa zaúčtuje do hlavnej knihy. V Project Operations sa riadky výkazu výdavkov súvisiacich s projektom účtujú pomocou špeciálnych pravidiel účtovania:
 
   - Náklady súvisiace s projektom (vrátane nevratnej dane) sa okamžite neúčtujú na účet nákladov projektu v hlavnej knihe, ale namiesto toho sa zaúčtujú na účet integrácie výdavkov. Tento účet je konfigurovaný v časti **Projektový manažment a účtovníctvo** > **Nastavenie** > **Parametre projektového manažmentu a účtovníctva** na karte **Project Operations v Dynamics 365 Customer engagement**.
   - Duálny zápis sa synchronizuje s Dataverse použitím mapy tabuľky **Entita exportu výdavkov projektu integrácie Project Operations (msdyn\_expenses)**.

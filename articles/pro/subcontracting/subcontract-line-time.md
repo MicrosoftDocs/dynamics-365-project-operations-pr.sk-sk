@@ -2,20 +2,20 @@
 title: Riadky subdodávateľskej zmluvy pre čas
 description: Tento článok vysvetľuje, ako zaznamenávať riadky subdodávok pre čas a zaznamenávať nákup času od dodávateľov.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262113"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522252"
 ---
 # <a name="subcontract-lines-for-time"></a>Riadky subdodávateľskej zmluvy pre čas
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Subdodávateľská zmluva v Dynamics 365 Project Operations môže mať pre čas riadok subdodávateľskej zmluvy. Riadky subdodávateľských zmlúv pre čas umožňujú projektovému manažérovi kúpiť čas zdrojov od dodávateľa na plnenie úloh projektu a požiadaviek na zdroje.
 

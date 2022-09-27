@@ -2,20 +2,20 @@
 title: Riadky subdodávateľskej zmluvy pre produkty
 description: Tento článok vysvetľuje, ako zaznamenávať riadky subdodávok pre produkty a ako používať rôzne polia na zaznamenávanie nákupov produktov od dodávateľov.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262142"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522862"
 ---
 # <a name="subcontract-lines-for-products"></a>Riadky subdodávateľskej zmluvy pre produkty
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Subdodávateľská zmluva v Dynamics 365 Project Operations môže mať pre produkty riadok subdodávateľskej zmluvy. Tieto riadky umožňujú projektovému manažérovi nakupovať produkty od dodávateľov, ktoré potom môžu použiť pri projektových úlohách.
 

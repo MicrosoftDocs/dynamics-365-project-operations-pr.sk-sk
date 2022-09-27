@@ -2,24 +2,24 @@
 title: Odhad nákladov v prípade priradení zdrojov v rámci subdodávateľskej zmluvy
 description: Tento článok vysvetľuje, ako Microsoft Dynamics 365 Project Operations vypočítava odhad nákladov na subdodávateľské priradenia zdrojov.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262079"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522675"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Odhad nákladov v prípade priradení zdrojov v rámci subdodávateľskej zmluvy
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Zadania úloh subdodávateľských členov projektového tímu sú kalkulované pomocou **Nákup** cenník priložený k subdodávke na príslušnom zázname člena tímu. Toto sa líši od toho, ako sa kalkulujú priradenia zdrojov zamestnancov, kde sa priradenia úloh zamestnancov počítajú pomocou **náklady** cenník, ktorý je priložený k zmluvnej jednotke projektu. 
 
-Pre členov generického projektového tímu, ktorí sú zadávaní subdodávateľom, sú úlohy ocenené pomocou nastavenia ceny na základe roly v nákupnom cenníku priloženom k subdodávke. Nákupné ceny môžu byť tiež nastavené špeciálne pre každý zdroj. Tieto ceny špecifické pre zdroj budú uprednostňované pri zadaní nákladových úloh menovaných členov projektového tímu, ktorí sú zmluvnými pracovníkmi. 
+Pre členov generického projektového tímu, ktorí sú zadávaní subdodávateľom, sú zadania kalkulované pomocou nastavenia ceny na základe roly v nákupnom cenníku priloženom k subdodávke. Nákupné ceny môžu byť tiež nastavené špeciálne pre každý zdroj. Tieto ceny špecifické pre zdroj budú uprednostňované pri zadaní nákladových úloh menovaných členov projektového tímu, ktorí sú zmluvnými pracovníkmi. 
 
 Priorita použitia nákupnej ceny špecifickej pre rolu oproti špecifickej pre zdroj je riadená nastavením priority cenovej dimenzie v **Parametre > Dimenzie určovania cien na základe sumy**.
 
@@ -32,7 +32,7 @@ Zadania úloh pre subdodávateľov možno vytvoriť dvoma spôsobmi:
 - Pomocou **Tím** tab.
 
 ### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Vytváranie priradení zdrojov pomocou karty Úlohy
-Pomocou **Zdroje** zoznam v **Úlohy** pre konkrétnu úlohu, môžete vytvoriť priradenie úlohy pre pomenovaný zdroj alebo všeobecný zdroj. Ak vyberiete pomenovaný zdroj z **Pridelené zdroje** v rozbaľovacej ponuke úlohy a tento zdroj je zmluvným pracovníkom, k úlohe sa priradí pomenovaný zdroj a vytvorí sa zodpovedajúci záznam člena projektového tímu s typom pracovníka nastaveným na **Pracovník na dohodu** a **Platnosť** nastavený na **Neplatné**. Ako ďalší krok budete musieť otvoriť záznam člena projektového tímu a vybrať subdodávku a subdodávku. Týmto sa aktualizuje zadanie úlohy tak, aby obsahovalo odkaz na subdodávku a subdodávateľskú líniu, a tiež sa aktualizuje stav člena tímu na **Platné**.
+Pomocou **Zdroje** zoznam v **Úlohy** pre konkrétnu úlohu, môžete vytvoriť priradenie úlohy pre pomenovaný zdroj alebo všeobecný zdroj. Ak vyberiete pomenovaný zdroj z **Pridelené zdroje** rozbaľovacej ponuky úlohy a tento zdroj je zmluvným pracovníkom, k úlohe sa priradí pomenovaný zdroj a vytvorí sa zodpovedajúci záznam člena projektového tímu s typom pracovníka nastaveným na **Pracovník na dohodu** a **Platnosť** nastavený na **Neplatné**. Ako ďalší krok budete musieť otvoriť záznam člena projektového tímu a vybrať subdodávku a subdodávku. Týmto sa aktualizuje priradenie úlohy tak, aby obsahovalo odkaz na subdodávku a subdodávateľskú líniu, a tiež sa aktualizuje stav člena tímu na **Platné**.
 
 Ak sa rozhodnete vytvoriť všeobecného člena tímu z **Pridelené zdroje** rozbaľovacia ponuka na úlohu, **Generické vytváranie členov tímu** dialógové okno vám umožní vybrať subdodávku a linku subdodávky. Keď sa k úlohe priradí všeobecný zdroj a vytvorí sa zodpovedajúci záznam člena projektového tímu, všimnete si, že záznam člena projektového tímu sa vytvorí s typom pracovníka nastaveným na **Pracovník na dohodu** a **Platnosť** nastavený na **Platné**.
 

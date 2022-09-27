@@ -2,20 +2,20 @@
 title: Možnosti subdodávateľskej zmluvy pre členov projektového tímu
 description: Tento článok vysvetľuje možnosti subdodávok pre členov projektového tímu v Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261626"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522298"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Možnosti subdodávateľskej zmluvy pre členov projektového tímu
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 V Microsofte Dynamics 365 Project Operations, môžete vyhodnotiť možnosti subdodávok dostupné pre jedného alebo viacerých členov projektového tímu. Dostupné možnosti subdodávok vám umožňujú:
 
@@ -40,12 +40,12 @@ Ak chcete skontrolovať a vybrať si z dostupných možností subdodávok pre be
     - Vytvorte nové subdodávateľské linky. 
     - Rezervovať na existujúcu subdodávku Ak ste v kroku 1 vybrali viacero záznamov členov projektového tímu, jedinou dostupnou možnosťou je vytvorenie nových riadkov subdodávok.
 5. Možnosť rezervácie voči existujúcej subdodávke vám umožňuje vybrať subdodávku a subdodávku, voči ktorej chcete rezervovať. Pri výbere subdodávateľskej linky na rezervovanie kapacity by ste sa mali uistiť, že vybraná subdodávateľská linka je časovo obmedzená a že rola požadovaná na členovi projektového tímu sa zhoduje s rolou, ktorá bola zakúpená na subdodávateľskej linke.
-6. Keď vyberiete vytvorenie nových riadkov subdodávok pre členov projektového tímu, systém vám umožní vybrať subdodávku, pre ktorú chcete vytvoriť tieto riadky. Subdodávka, ktorú vyberiete na vytvorenie nových riadkov, by mala byť v **Návrh** postavenie. S touto voľbou na vytvorenie nových riadkov subdodávok pre vybraných členov projektového tímu systém vytvorí jeden riadok subdodávok na čas pre každého člena projektového tímu. Rola, hodiny a dátumy sa skopírujú od člena projektového tímu do každého riadku subdodávky, ktorý sa vytvorí. 
+6. Keď vyberiete vytvorenie nových riadkov subdodávok pre členov projektového tímu, systém vám umožní vybrať subdodávku, pre ktorú chcete vytvoriť tieto riadky. Subdodávka, ktorú vyberiete na vytvorenie nových riadkov, by mala byť v **Návrh** postavenie. S touto možnosťou vytvorenia nových riadkov subdodávok pre vybraných členov projektového tímu systém vytvorí jeden riadok subdodávok na čas pre každého člena projektového tímu. Rola, hodiny a dátumy sa skopírujú od člena projektového tímu do každého riadku subdodávky, ktorý sa vytvorí. 
 7. Keď je generický člen tímu spojený so subdodávkou a subdodávateľskou líniou, **Typ pracovníka** pole v riadku všeobecného člena tímu sa aktualizuje na **Pracovník na dohodu** a **Platnosť subdodávky** hodnota bude nastavená na **Platné**.
 
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Subdodávky s personálne obsadeným členom projektového tímu
 
-Rovnako ako všeobecní členovia tímu alebo členovia tímu bez personálu, môžete si tiež zobraziť možnosti subdodávok pre člena projektového tímu s personálom, pokiaľ je člen tímu s pracovníkmi zmluvný pracovník. Ak chcete skontrolovať a vybrať si z dostupných možností subdodávok pre zamestnanca alebo menovaného člena projektového tímu, postupujte takto:
+Rovnako ako všeobecní členovia tímu alebo členovia tímu bez personálu, môžete si tiež zobraziť možnosti subdodávok pre člena projektového tímu s personálom, pokiaľ je člen tímu s personálom zmluvným pracovníkom. Ak chcete skontrolovať a vybrať si z dostupných možností subdodávok pre zamestnanca alebo menovaného člena projektového tímu, postupujte takto:
 
 1. Vyberte jeden alebo viacero záznamov členov projektového tímu, kde je zdrojom pomenovaný zmluvný pracovník.
 2. Uistite sa, že žiadny z vybratých záznamov členov projektového tímu už nie je zadaný subdodávateľom. 
@@ -59,7 +59,7 @@ Rovnako ako všeobecní členovia tímu alebo členovia tímu bez personálu, m�
       - Požadovaná rola člena projektového tímu sa zhoduje s rolou, ktorá bola zakúpená na linke subdodávok. 
       - Dodávateľ, ku ktorému je priradený zmluvný pracovník, je rovnaký ako dodávateľ v subdodávke.
 6. Keď vyberiete vytvorenie nových riadkov subdodávok pre členov projektového tímu, systém vám umožní vybrať subdodávku, pre ktorú chcete vytvoriť tieto riadky. Pri tejto možnosti by ste sa mali uistiť, že dodávateľ, ku ktorému patrí zmluvný pracovník, je rovnaký ako dodávateľ v subdodávke. 
-7. Subdodávka, ktorú vyberiete na vytvorenie nových riadkov, by mala byť v **Návrh** postavenie. S touto voľbou na vytvorenie nových riadkov subdodávok pre vybraných členov projektového tímu systém vytvorí jeden riadok subdodávok na čas pre každého člena projektového tímu. Rola, hodiny a dátumy sa skopírujú od člena projektového tímu do každého riadku subdodávky, ktorý sa vytvorí.  
+7. Subdodávka, ktorú vyberiete na vytvorenie nových riadkov, by mala byť v **Návrh** postavenie. S touto možnosťou vytvorenia nových riadkov subdodávok pre vybraných členov projektového tímu systém vytvorí jeden riadok subdodávok na čas pre každého člena projektového tímu. Rola, hodiny a dátumy sa skopírujú od člena projektového tímu do každého riadku subdodávky, ktorý sa vytvorí.  
 8. Keď je pomenovaný člen tímu priradený k subdodávke a subdodávateľskej linke, **Typ pracovníka** pole v riadku s názvom člena tímu sa aktualizuje na **Pracovník na dohodu** a **Platnosť subdodávky** hodnota bude nastavená na **Platné**.
 
 ## <a name="re-costing-subcontractor-assignments"></a>Preúčtovanie úloh subdodávateľov
