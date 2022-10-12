@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409958"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622046"
 ---
 # <a name="project-operations-updates"></a>Aktualizácie aplikácie Project Operations
 
@@ -47,24 +47,24 @@ Aktualizácie aplikácie Project Operations v prostredí Dataverse sú k dispoz�
 | Stanica | Oblasť | Číslo aktuálnej verzie | Automatické aktualizácie pre čiastočné nasadenie | Automatické aktualizácie pre nasadenie so zdrojmi/chýbajúcimi zdrojmi | Číslo ďalšej verzie | Ďalšia verzia je všeobecne dostupná |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stanica 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvé vydanie         |  4.45.0.53      | Dokončené           | Dokončené            | Spracuje sa                 | 09. september 2022      |
+|   &nbsp;  | Prvé vydanie         |  4.46.0.60      | Dokončené           | Dokončené            | Spracuje sa                 | 07. októbra 2022      |
 | Stanica 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južná Amerika         |  4.45.0.53      | Dokončené           | Dokončené            | Spracuje sa                 | 09. september 2022       |
-|   &nbsp;  | Kanada                |  4.45.0.53      | Dokončené           | Dokončené            | Spracuje sa                 | 09. september 2022       |
-|   &nbsp;  | India                 |  4.45.0.53      | Dokončené           | Dokončené            | Spracuje sa                 | 09. september 2022       |
-|   &nbsp;  | Francúzsko                |  4.45.0.53      | Dokončené           | Dokončené            | Spracuje sa                 | 09. september 2022       |
-|   &nbsp;  | Južná Afrika          |  4.45.0.53      | Dokončené           | Dokončené            | Spracuje sa                 | 09. september 2022       |
-|   &nbsp;  | Švajčiarsko           |  4.45.0.53      | Dokončené           | Dokončené            | Spracuje sa                 | 09. september 2022       |
+|   &nbsp;  | Južná Amerika         |  4.46.0.60      | Dokončené           | Dokončené            | Spracuje sa                 | 14. októbra 2022       |
+|   &nbsp;  | Kanada                |  4.46.0.60      | Dokončené           | Dokončené            | Spracuje sa                 | 14. októbra 2022       |
+|   &nbsp;  | India                 |  4.46.0.60      | Dokončené           | Dokončené            | Spracuje sa                 | 14. októbra 2022       |
+|   &nbsp;  | Francúzsko                |  4.46.0.60      | Dokončené           | Dokončené            | Spracuje sa                 | 14. októbra 2022       |
+|   &nbsp;  | Južná Afrika          |  4.46.0.60      | Dokončené           | Dokončené            | Spracuje sa                 | 14. októbra 2022       |
+|   &nbsp;  | Švajčiarsko           |  4.46.0.60      | Dokončené           | Dokončené            | Spracuje sa                 | 14. októbra 2022       |
 | Stanica 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonsko                 |  4.45.0.53      | Dokončené      | Dokončené       | Spracuje sa                 | 09. september 2022       |
-|   &nbsp;  | Ázia a Tichomorie          |  4.45.0.53      | Dokončené      | Dokončené       | Spracuje sa                 | 09. september 2022       |
-|   &nbsp;  | Spojené kráľovstvo         |  4.45.0.53      | Dokončené      | Dokončené       | Spracuje sa                 | 09. september 2022       |
-|   &nbsp;  | Oceánia               |  4.45.0.53      | Dokončené      | Dokončené       | Spracuje sa                 | 09. september 2022       |
-|   &nbsp;  | Spojené Arabské Emiráty  |  4.45.0.53      | Dokončené      | Dokončené       | Spracuje sa                 | 09. september 2022       |
+|   &nbsp;  | Japonsko                 |  4.46.0.60      | Dokončené      | Dokončené       | Spracuje sa                 | 21. októbra 2022       |
+|   &nbsp;  | Ázia a Tichomorie          |  4.46.0.60      | Dokončené      | Dokončené       | Spracuje sa                 | 21. októbra 2022       |
+|   &nbsp;  | Spojené kráľovstvo         |  4.46.0.60      | Dokončené      | Dokončené       | Spracuje sa                 | 21. októbra 2022       |
+|   &nbsp;  | Oceánia               |  4.46.0.60      | Dokončené      | Dokončené       | Spracuje sa                 | 21. októbra 2022       |
+|   &nbsp;  | Spojené Arabské Emiráty  |  4.46.0.60      | Dokončené      | Dokončené       | Spracuje sa                 | 21. októbra 2022       |
 | Stanica 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.45.0.53      | Dokončené           | Dokončené            | Spracuje sa           | 16. september 2022       |
+|   &nbsp;  | Európa                |  4.46.0.60      | Dokončené           | Dokončené            | Spracuje sa           | 28. októbra 2022       |
 | Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severná Amerika         |  4.45.0.53      | Dokončené           | Dokončené            | Spracuje sa           | 16. september 2022       |
+|   &nbsp;  | Severná Amerika         |  4.46.0.60      | Dokončené           | Dokončené            | Spracuje sa           | 04. novembra, 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Plán vydania pre riadenie projektov a účtovníctvo v prostredí finančných a prevádzkových aplikácií
 

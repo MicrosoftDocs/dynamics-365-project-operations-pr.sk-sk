@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Čo je nové
       items:
-        - name: "August\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: "September\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Archív
           items:
+            - name: "August\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: "Júl\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: "Jún\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Čo je nové
       items:
-        - name: "Novinky v\_auguste\_2022 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: "Novinky v\_septembri\_2022 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Archív
           items:
+            - name: "Novinky v\_auguste\_2022 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: "Novinky v\_júli\_2022 – čiastočné nasadenie"
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: "Novinky v\_júni\_2022 – čiastočné nasadenie"
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Čo je nové
       items:
-        - name: "Novinky v\_júli\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: "Novinky v\_septembri\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Archív
           items:
+            - name: "Novinky v\_júli\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: "Novinky v\_júni\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: "Novinky v\_októbri\_2021 – Project Operations pre scenáre založené na zdrojoch/výrobe"
@@ -1436,6 +1442,10 @@
       items:
         - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Novinky alebo zmeny vo vydaní aktualizácie 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Novinky alebo zmeny vo vydaní aktualizácie 43, V3'

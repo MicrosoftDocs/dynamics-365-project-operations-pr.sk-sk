@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: 359fcc2d31d4d90339870b93560685d77cb03fc8
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295851"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621961"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Aktualizácia plánu vydania pre Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "9295851"
 
 | Riešenie  | Najnovšia verzia |
 |-------|----|
-| Project Service Automation    | 3.10.76.168 |
+| Project Service Automation    | 3.10.78.8 |
 | Doplnok Project Service Automation pre stolné zariadenia                | 3.60          |
 
 Informácie o aktualizáciách pre Project Service nájdete v [plánoch vydania služby Dynamics 365](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Informácie o aktualizáciách pre Project Service nájdete v [plánoch vydania 
 | Stanica  | Oblasť | Aktuálna verzia | Ďalšia verzia |  Plánovaný dátum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stanica 1</strong> | |  |  | |
-| | <i>Prvé vydanie</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 26. august 2022
+| | <i>Prvé vydanie</i> | [3.10.78.8](whats-new-ur-47.md)| Spracuje sa | 07. októbra 2022
 |<strong>Stanica 2</strong> | |  |  | |
-| | <i>Južná Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 02. september 2022
-| | <i>Kanada</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 02. september 2022
-| | <i>India</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 02. september 2022
-| | <i>Francúzsko</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 02. september 2022
-| | <i>Južná Afrika</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 02. september 2022
-| | <i>Nemecko</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 02. september 2022
-| | <i>Švajčiarsko</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 02. september 2022
-| | <i>Kórejská republika</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 02. september 2022
-| | <i>Nórsko</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 02. september 2022
+| | <i>Južná Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 14. októbra 2022
+| | <i>Kanada</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 14. októbra 2022
+| | <i>India</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 14. októbra 2022
+| | <i>Francúzsko</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 14. októbra 2022
+| | <i>Južná Afrika</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 14. októbra 2022
+| | <i>Nemecko</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 14. októbra 2022
+| | <i>Švajčiarsko</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 14. októbra 2022
+| | <i>Kórejská republika</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 14. októbra 2022
+| | <i>Nórsko</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 14. októbra 2022
 |<strong>Stanica 3</strong> | |  |  | |
-| | <i>Japonsko</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 09. september 2022
-| | <i>Ázia a Tichomorie</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 09. september 2022
-| | <i>Spojené kráľovstvo</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 09. september 2022
-| | <i>Oceánia</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 09. september 2022
-| | <i>Spojené Arabské Emiráty</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 09. september 2022
+| | <i>Japonsko</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 21. októbra 2022
+| | <i>Ázia a Tichomorie</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 21. októbra 2022
+| | <i>Spojené kráľovstvo</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 21. októbra 2022
+| | <i>Oceánia</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 21. októbra 2022
+| | <i>Spojené Arabské Emiráty</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 21. októbra 2022
 |<strong>Stanica 4</strong> | |  |  | |
-| | <i>Európa</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 16. september 2022
+| | <i>Európa</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 21. októbra 2022
 |<strong>Stanica 5</strong> | |  |  | |
-| | <i>Severná Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 23. september 2022
+| | <i>Severná Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 4. novembra 2022
 |<strong>Stanica 6</strong> | |  |  | |
-| | <i>Cloud vládneho spoločenstva</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 21. september 2022
-| | <i>Skupiny s vyhradeným rozsahom</i> | [3.10.76.168](whats-new-ur-45.md) | Spracuje sa | 30. september 2022
+| | <i>Cloud vládneho spoločenstva</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 02. novembra, 2022
+| | <i>Skupiny s vyhradeným rozsahom</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 11. novembra, 2022
 
 
 
