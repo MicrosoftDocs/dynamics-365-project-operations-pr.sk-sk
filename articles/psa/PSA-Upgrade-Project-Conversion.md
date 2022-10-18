@@ -1,9 +1,9 @@
 ---
-title: Zmeny funkcií pre Project Service Automation na Project Operations
+title: Proces plánovania konverzie projektu z automatizácie projektových služieb na projektové operácie
 description: Tento článok poskytuje prehľad zmien funkcií pre Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621367"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642588"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Zmeny funkcií pre Project Service Automation na Project Operations
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Proces plánovania konverzie projektu z automatizácie projektových služieb na projektové operácie
 
 Po úspešnej inovácii projektu z Microsoft Dynamics 365 Project Service Automation 3.X až Dynamics 365 Project Operations Lite, úprava projektových úloh v štruktúre rozpisu úloh siete (WBS) nie je možná. Zákazníci si budú môcť prezrieť WBS v sledovacej mriežke, kde boli pridané nové polia, aby poskytli všetky podrobnosti, ktoré súvisia s úlohou. Pre projekty, kde sa vyžadujú úpravy WBS, môžete selektívne previesť vhodné projekty do nového projektu pre webové plánovanie.
 
@@ -50,7 +50,7 @@ Ak chcete konvertovať projekt, postupujte podľa týchto krokov.
 
 ## <a name="manual-tasks-vs-automatic-tasks"></a>Manuálne úlohy vs. automatické úlohy
 
-Keď je prostredie inovované z Project Service Automation na Project Operations, všetky úlohy vo WBS sa považujú za automaticky naplánované. Koncept manuálne naplánovaných úloh nie je v Projecte pre web dostupný. Môžete však definovať preferované správanie plánovania pre svoje projekty pomocou [režim plánovania](/project-management/scheduling-modes.md) pri vytváraní nových projektov.
+Keď je prostredie inovované z Project Service Automation na Project Operations, všetky úlohy vo WBS sa považujú za automaticky naplánované. Koncept manuálne naplánovaných úloh nie je dostupný v Projecte pre web. Môžete však definovať preferované správanie plánovania pre svoje projekty pomocou [režim plánovania](/project-management/scheduling-modes.md) pri vytváraní nových projektov.
 
 ## <a name="restricted-operations-for-pre-conversion-projects"></a>Obmedzené operácie pre projekty pred konverziou
 
@@ -84,4 +84,4 @@ Pozri [Vytvorte štruktúru rozpisu práce: Obmedzenia projektu](/project-manage
 
 ### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Môžem očakávať zmeny v mojich odhadoch nákladov a predaja?
 
-V zriedkavých prípadoch, keď sú obrysy priradenia zdrojov prepočítané alebo keď spadajú do inej hranice dátumu ako zdrojový projekt, môžete vidieť rozdiely v predaji a odhadoch nákladov. V rámci procesu inovácie sa od zákazníkov očakáva, že otestujú reprezentatívnu vzorovú sadu projektov, aby pochopili prípadné zmeny harmonogramu.
+V zriedkavých prípadoch, keď sa obrysy priradenia zdrojov prepočítavajú alebo keď spadajú do inej hranice dátumu ako zdrojový projekt, môžete vidieť rozdiely v predaji a odhadoch nákladov. V rámci procesu inovácie sa od zákazníkov očakáva, že otestujú reprezentatívnu vzorovú sadu projektov, aby pochopili prípadné zmeny harmonogramu.

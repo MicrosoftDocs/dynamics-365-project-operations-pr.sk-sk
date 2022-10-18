@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621370"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634825"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Čo je nové September 2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
 
@@ -33,8 +33,9 @@ Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsof
 | Subdodávky | **Odsúhlasenie subdodávok a faktúr dodávateľa**<br>Táto funkcia umožňuje zákazníkom vytvárať subdodávky na nákup času zdrojov, kategórií výdavkov a materiálov, ktoré sa používajú na prácu na projekte. Zákazníkom tiež umožňuje zaznamenávať vo finančných a prevádzkových aplikáciách faktúry dodávateľov, ktoré budú k dispozícii projektovým manažérom Dataverse na overenie. | <p>[Manažment subdodávok](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview)</p><p>[Vytvorenie faktúr dodávateľov](/dynamics365/project-operations/procurement/vendor-invoicing-concept-and-creation)</p> |
 | Čas a výdavky | **Globálny schvaľovateľ**<br>Táto funkcia umožňuje nezávislého dodávateľa softvéru (ISV) a centralizované schvaľovanie bez ohľadu na stav projektu alebo člena tímu v projekte. | [Zabezpečenie a schválenia](/dynamics365/project-operations/approvals/approvals-security) |
 | Správa výdavkov | **Schopnosť účtovať záväzky v mene dodávateľa**<br>Táto funkcia umožňuje zaúčtovať výkazy výdavkov v mene dodávateľa pre spôsob platby v hotovosti. | [Schopnosť účtovať záväzky v mene dodávateľa](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
-| Projektové obstarávanie | **Zaplaťte pri platbách dodávateľa**<br>Táto funkcia umožňuje použiť funkciu Pay when paid (PWP) v neskladových prostrediach Project Operations. Umožňuje zablokovať/zadržať platby dodávateľa na základe podmienok uchovávania až do prijatia platby od zákazníka. | [Zaplaťte pri platbách dodávateľa](/dynamics365/project-operations/procurement/pay-when-paid) |
+| Projektové obstarávanie | **Zaplatiť pri platbe dodávateľa**<br>Táto funkcia umožňuje použiť funkciu Pay when paid (PWP) v neskladových prostrediach Project Operations. Umožňuje zablokovať/zadržať platby dodávateľa na základe podmienok uchovávania až do prijatia platby od zákazníka. | [Zaplatiť pri platbe dodávateľa](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Projektové obstarávanie | **Požiadavky na kúpu projektu**<br>Táto funkcia umožňuje používateľom vytvárať objednávky súvisiace s projektom v právnických osobách, kde je povolená integrácia projektu Dynamics 365 Customer Engagement. Objednávky na nákup projektu je možné použiť na evidenciu obstarávania neskladového materiálu oproti projektu personálom oddelenia obstarávania. Objednávky na nákup projektu sa nebudú synchronizovať s Dataverse. Môžete však použiť virtuálnu entitu na zobrazenie riadkov nákupnej objednávky projektu Dataverse pre informácie projektového manažéra. Náklady na faktúru dodávateľa súvisiace s projektom sú integrované s entitou Skutočnosti projektu v Dataverse. Náklady na projekt sa zaznamenávajú v čiastkovej knihe projektu pomocou denníka Integrácia operácií projektu. | |
+|Plánovanie a sledovanie projektu|**Na vykonávanie operácií s entitami plánovania použite rozhrania API pre plánovanie projektu** </br> </br>Rozhranie API na úpravu obrysu priradenia zdrojov umožňuje vývojárom programovo špecifikovať úsilie zadávateľa úlohy v rámci akéhokoľvek podporovaného rozsahu dátumov, aby bolo možné podrobnejšie plánovať časovo rozložené úsilie.|[Na vykonávanie operácií s entitami plánovania použite rozhrania API pre plánovanie projektu](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aktualizácie máp duálneho zapisovania v aplikácii Project Operations
 
@@ -64,17 +65,17 @@ Ak pri spustení mapy narazíte na problém, postupujte podľa pokynov v časti 
 | Fakturácia a tvorba cien | 2876628 | QLD, CLD – Rozlíšenie odhadovaného cenníka by malo používať staršie polia rozsahu dátumov v cenníku. |
 | Subdodávky | 2893222 | Ak nie je špecifikovaná žiadna rola pre subdodávateľskú líniu, malo by byť možné vybrať túto líniu u člena tímu pre akúkoľvek rolu. |
 
-### <a name="project-management-and-accounting-in-finance"></a>Projektový manažment a účtovníctvo v oblasti financií
+### <a name="project-management-and-accounting-in-finance"></a>Projektový manažment a účtovníctvo vo financiách
 
 Ak chcete získať informácie o opravách chýb, ktoré sú súčasťou tejto aktualizácie, prihláste sa na Microsoft Dynamics Služby životného cyklu a prezrite si [článok KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
 
 ## <a name="features-turned-on-by-default-in-upcoming-release"></a>Funkcie sú v nadchádzajúcom vydaní predvolene zapnuté
 
-V nasledujúcej tabuľke sú uvedené funkcie, ktoré sú predvolene zapnuté vo verzii 10.0.30. Väčšinu funkcií, ktoré boli automaticky zapnuté, je možné vypnúť [Správa funkcií](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). V budúcnosti môžu byť niektoré funkcie, ktoré boli automaticky zapnuté, odstránené zo správy funkcií a stať sa povinnými. Táto zmena zaisťuje, že zákazníci používajú aktuálnu funkčnosť, takže vylepšenia môžu stavať na aktuálnej funkcii, keď budú pridané. Funkcie nebudú nikdy automaticky aktivované skôr ako za jeden rok, pokiaľ nie sú určené ako nevyhnutné.
+V nasledujúcej tabuľke sú uvedené funkcie, ktoré sú predvolene zapnuté vo verzii 10.0.30. Väčšinu funkcií, ktoré boli automaticky zapnuté, možno vypnúť v [Správa funkcií](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). V budúcnosti môžu byť niektoré funkcie, ktoré boli automaticky zapnuté, odstránené zo správy funkcií a stať sa povinnými. Táto zmena zaisťuje, že zákazníci používajú aktuálnu funkčnosť, takže vylepšenia môžu stavať na aktuálnej funkcii, keď budú pridané. Funkcie nebudú nikdy automaticky aktivované skôr ako za jeden rok, pokiaľ nie sú určené ako nevyhnutné.
 
 | Názov funkcie | Povoliť dátum | Funkcia bola pridaná | Stav funkcie | Modul |
 | --- | --- | --- |--- |--- |
-| Povoľte asynchrónne operácie, keď používateľ potrebuje prepínať medzi synchronizáciou a asynchronizáciou | 21. októbra 2022 | 9. apríla 2021 | Predvolene zapnuté | Správa výdavkov |
+| Povoľte asynchrónnu prevádzku, keď používateľ potrebuje prepínať medzi synchronizáciou a asynchronizáciou | 21. októbra 2022 | 9. apríla 2021 | Predvolene zapnuté | Správa výdavkov |
 | Vyžaduje sa vyhodnotenie výdavkovej politiky pre príjmy | 21. októbra 2022 | 20. december 2021 | Predvolene zapnuté | Správa výdavkov |
 | Zoznam prehľadov výdavkov vytvorených delegovanými pracovníkmi | 21. októbra 2022 | 19. február 2020 | Predvolene zapnuté | Správa výdavkov |
 | Výpočet celkových kilometrov od fiškálny rok | 21. októbra 2022 | 10. mája 2022 | Predvolene zapnuté | Správa výdavkov |

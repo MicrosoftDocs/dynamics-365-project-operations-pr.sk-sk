@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932085"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655208"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Vytvorenie štruktúry rozdelenia práce (WBS)
 
@@ -63,7 +63,7 @@ Ak chcete znížiť alebo zvýšiť úlohu, postupujte podľa nasledujúcich kro
 
 ### <a name="move-tasks-up-and-down"></a>Posun úloh nahor a nadol
 
-Úlohy je možné presunúť na ľubovoľnú úroveň v štruktúre rozdelenia práce jedným z dvoch spôsobov:
+Úlohy možno presunúť na ľubovoľnú úroveň v štruktúre rozpisu prác jedným z dvoch spôsobov:
 
 - Vyberte ešte jednu úlohu a presuňte ich na požadované miesto.
 - Vyberte jednu alebo viac úloh, kliknite pravým tlačidlom myši a vyberte **Vystrihnúť**, vyberte cieľovú bunku v pláne, potom kliknite pravým tlačidlom myši a vyberte **Vložiť**.
@@ -112,6 +112,18 @@ Pole **Kategória** obsahuje hodnoty, ktoré označujú širší typ práce, do 
 Môžete použiť plán v Project Operations na vytvorenie predchodcu vzťahov medzi úlohami. Pole **Predchodca** používa jednu alebo viacero hodnôt na označenie úloh, na ktorých je úloha závislá. Keď sú hodnoty predchodcu priradené k úlohe, úloha môže začať, iba ak sa dokončili všetky predchádzajúce úlohy. Z dôvodu závislosti, plánovaný počiatočný dátum úlohy sa obnoví na dátum po dokončení predchádzajúcich úloh.
 
 Režim úlohy nemá žiadny vplyv na aktualizácie, ktoré sú vykonané na počiatočných a koncových dátumoch predchádzajúcich/závislých úloh.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Pochopenie vplyvu trvania, kalendárov zdrojov a projektových kalendárov na úlohy
+Trvanie úlohy je definované ako počet pracovných hodín medzi časom začiatku dátumu začiatku a časom ukončenia dátumu ukončenia úlohy.   Projekt pre web definuje merné jednotky trvania takto:
+
+| **Miera trvania** | **Počet**|
+|----------------------------------------------------|----------------------|
+| Hodiny za deň | 8 |
+| Hodiny za týždeň |  40 |
+| Dni v mesiaci |  20 |
+
+Nepriradené úlohy sa plánujú pomocou kalendára projektu. Po počiatočnom priradení zdroja sa však plánovanie úlohy aktualizuje tak, aby rešpektovalo kalendár zdroja. Následné zmeny úlohy, ktorá má priradenie, sa budú riadiť podľa [režim plánovania](scheduling-modes.md) projektu. Ak sa chcete dozvedieť viac o vplyve kalendárov na úlohy, pozrite si časť [Kalendáre zdrojov v Projecte pre web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) a [Časy začiatku úloh a vaše projekty!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Klávesové skratky a zjednodušenie ovládania
 
