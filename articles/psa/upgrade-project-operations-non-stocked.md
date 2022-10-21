@@ -1,9 +1,9 @@
 ---
-title: Inovujte z Automatizácie projektových služieb na Projektové operácie
+title: Inovácia z aplikácie Project Service Automation na Project Operations
 description: Tento článok poskytuje prehľad procesu inovácie Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
-ms.translationtype: MT
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.translationtype: HT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446055"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686995"
 ---
-# <a name="upgrade-from-project-service-automation-to-project-operations"></a>Inovujte z Automatizácie projektových služieb na Projektové operácie
+# <a name="upgrade-from-project-service-automation-to-project-operations"></a>Inovácia z aplikácie Project Service Automation na Project Operations
 
-S potešením oznamujeme prvú z troch fáz inovácie Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations. Tento článok poskytuje prehľad pre zákazníkov, ktorí sa vydávajú na túto vzrušujúcu cestu. Budúce články budú obsahovať úvahy vývojárov a podrobnosti o vylepšeniach funkcií. Poskytnú vám nielen pokyny, ktoré vám pomôžu pripraviť sa na inováciu na Project Operations, ale tiež vysvetlia, čo môžete očakávať po inovácii.
+S potešením oznamujeme druhú z troch fáz inovácie Microsoft Dynamics 365 Project Service Automation spoločnosti Microsoft Dynamics 365 Project Operations. Tento článok poskytuje prehľad pre zákazníkov, ktorí sa vydávajú na túto vzrušujúcu cestu. 
 
 Program poskytovania aktualizácie bude rozdelený do troch fáz.
 
@@ -37,7 +37,7 @@ Program poskytovania aktualizácie bude rozdelený do troch fáz.
 
 ## <a name="upgrade-process-features"></a>Aktualizujte funkcie procesu 
 
-V rámci procesu inovácie sme do mapy lokality pridali denníky inovácie, aby správcovia mohli jednoduchšie diagnostikovať zlyhania. Okrem nového rozhrania budú pridané nové overovacie pravidlá na zabezpečenie integrity údajov po inovácii. Do procesu inovácie budú pridané nasledujúce overenia.
+V rámci procesu inovácie sme do mapy lokality pridali denníky inovácie, aby mohli správcovia jednoduchšie diagnostikovať zlyhania. Okrem nového rozhrania budú pridané nové overovacie pravidlá na zabezpečenie integrity údajov po inovácii. Do procesu inovácie budú pridané nasledujúce overenia.
 
 | Validácie | 1. fáza (január 2022) | 2. fáza (november 2022) | 3. fáza  |
 |-------------|------------------------|---------------------------|---------------------------|
@@ -46,24 +46,31 @@ V rámci procesu inovácie sme do mapy lokality pridali denníky inovácie, aby 
 | WBS bude overený voči známym limitom desktopového klienta Project. | |  | :heavy_check_mark: |
 | Rezervovateľné zdroje a projektové kalendáre budú hodnotené podľa bežných nekompatibilných výnimiek z pravidiel kalendára. | | :heavy_check_mark: | :heavy_check_mark: |
 
-Vo fáze 2 budú zákazníci, ktorí inovujú na Project Operations, upgradované svoje existujúce projekty na prostredie určené len na čítanie pre plánovanie projektov. V tomto prostredí len na čítanie bude v sledovacej mriežke viditeľný úplný WBS. Ak chcete upraviť WBS, projektoví manažéri môžu vybrať **Konvertovať** na hlavnej **Projekty** stránku. Proces na pozadí potom aktualizuje projekt tak, aby podporoval novú skúsenosť s plánovaním projektu z Project for the Web. Táto fáza je vhodná pre zákazníkov, ktorí majú projekty, ktoré do nej zapadajú [známe limity Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+Vo fáze 2 budú zákazníci, ktorí inovujú na Project Operations, upgradované svoje existujúce projekty na prostredie určené len na čítanie pre plánovanie projektov. V tomto prostredí len na čítanie bude v sledovacej mriežke viditeľný úplný WBS. Ak chcete upraviť WBS, projektoví manažéri môžu vybrať [**Konvertovať**](/PSA-Upgrade-Project-Conversion.md) na hlavnej stránke projektu. Proces na pozadí potom aktualizuje projekt tak, aby podporoval novú skúsenosť s plánovaním projektu z Project for the Web. Táto fáza je vhodná pre zákazníkov, ktorí majú projekty, ktoré do nej zapadajú [známe limity Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 Vo fáze 3 bude pridaná podpora pre desktopového klienta Project v prospech zákazníkov, ktorí chcú naďalej upravovať svoje projekty z tejto aplikácie. Ak sa však existujúce projekty skonvertujú na nové prostredie Project for the Web, prístup k doplnku bude zakázaný pre každý skonvertovaný projekt.
 
 ## <a name="prerequisites"></a>Požiadavky
 
-Aby bol zákazník oprávnený na inováciu fázy 1, musí spĺňať nasledujúce kritériá:
+Ak chcete získať nárok na inováciu fázy 1, musíte spĺňať nasledujúce kritériá:
 
 - Cieľové prostredie nesmie obsahovať žiadne záznamy v **msdyn_projecttask** subjekt.
-- Platné licencie Project Operations musia byť priradené všetkým aktívnym používateľom zákazníka. 
-- Zákazník musí overiť proces inovácie aspoň v jednom neprodukčnom prostredí, ktoré má reprezentatívny súbor údajov, ktorý je zosúladený s produkčnými údajmi.
-- Cieľové prostredie musí byť aktualizované na Project Service Automation Update Release 41 (3.10.62.162) alebo novšie.
+- Platné licencie Project Operations musia byť priradené všetkým aktívnym používateľom. 
+- Proces aktualizácie musíte overiť aspoň v jednom neprodukčnom prostredí, ktoré obsahuje reprezentatívnu množinu údajov, ktorá je v súlade s vaším produkčným prostredím.
+- Cieľové prostredie musí byť aktualizované na Project Service Automation Update Release 37 (V3.10.58.120) alebo novší.
 
-Predpoklady pre fázu 2 a fázu 3 budú aktualizované, keď sa budú blížiť všeobecné dátumy dostupnosti.
+Ak chcete získať nárok na inováciu fázy 2, musíte spĺňať nasledujúce kritériá:
+
+- Platné licencie Project Operations musia byť priradené všetkým aktívnym používateľom. 
+- Proces aktualizácie musíte overiť aspoň v jednom neprodukčnom prostredí, ktoré obsahuje reprezentatívnu množinu údajov, ktorá je v súlade s vaším produkčným prostredím.
+- Cieľové prostredie musí byť aktualizované na Project Service Automation Update Release 37 (V3.10.58.120) alebo novší.
+- Prostredia obsahujúce úlohy (msdyn_projecttask) sú podporované iba vtedy, ak je celkový počet úloh na projekt 500 alebo menej.
+
+Predpoklady pre fázu 3 budú aktualizované, keď sa bude blížiť dátum všeobecnej dostupnosti.
 
 ## <a name="licensing"></a>Licencovanie
 
-Ak máte aktívne licencie pre Project Service Automation, môžete nainštalovať a používať Project Operations, ktorý zahŕňa všetky možnosti Project Service Automation a ďalšie. Týmto spôsobom môžete otestovať schopnosti projektových operácií, zatiaľ čo budete pokračovať v používaní Project Service Automation vo výrobe. Po vypršaní platnosti licencií Project Service Automation budete musieť prejsť na Project Operations. Keď plánujete tento prechod, musíte počítať so skutočnosťou, že licencia Project Operations nezahŕňa licenciu Project Service Automation.
+Ak máte aktívne licencie pre Project Service Automation, môžete nainštalovať a používať Project Operations, ktorý zahŕňa všetky možnosti Project Service Automation a ďalšie. Potom môžete otestovať schopnosti Project Operations v samostatnom prostredí, zatiaľ čo budete pokračovať v používaní Project Service Automation vo výrobe. Po vypršaní platnosti licencií Project Service Automation budete musieť prejsť na Project Operations. Keď plánujete tento prechod, musíte počítať so skutočnosťou, že licencia Project Operations nezahŕňa licenciu Project Service Automation.
 
 ## <a name="testing-and-refactoring-customizations"></a>Testovanie a refaktorovanie prispôsobení
 
@@ -87,14 +94,23 @@ Po aktualizácii prispôsobení, aby ste mohli čisto importovať operácie proj
 
     Po dokončení inovácie by prostredie malo ukázať, že Project Operations je nainštalovaný a že Project Service Automation nie je nainštalovaný.
 
-    > [!NOTE]
-    > V závislosti od množstva údajov v prostredí môže aktualizácia trvať niekoľko hodín. Hlavný tím, ktorý spravuje inováciu, by mal podľa toho naplánovať a spustiť inováciu počas mimopracovných hodín. V niektorých prípadoch, ak je objem dát veľký, upgrade by mal byť spustený cez víkend. Rozhodnutie o plánovaní by malo byť založené na výsledkoch testovania v nižších prostrediach.
+    V závislosti od množstva údajov v prostredí môže aktualizácia trvať niekoľko hodín. Hlavný tím, ktorý spravuje inováciu, by mal podľa toho naplánovať a spustiť inováciu počas mimopracovných hodín. V niektorých prípadoch, ak je objem dát veľký, upgrade by mal byť spustený cez víkend. Rozhodnutie o plánovaní by malo byť založené na výsledkoch testovania v nižších prostrediach.
 
 3. Podľa potreby inovujte vlastné riešenia. V tomto bode nasaďte všetky zmeny, ktoré ste vykonali vo svojich prispôsobeniach v [Testovanie a refaktorovanie prispôsobení](#testing-and-refactoring-customizations) časti tohto článku.
 4. Ísť do **nastavenie** \> **Riešenia** a vyberte možnosť odinštalovať **Zastarané komponenty projektových operácií** Riešenie.
 
     Toto riešenie je dočasné riešenie, ktoré uchováva existujúci dátový model a komponenty, ktoré sú prítomné počas inovácie. Odstránením tohto riešenia odstránite všetky polia a komponenty, ktoré sa už nepoužívajú. Týmto spôsobom pomáhate zjednodušiť rozhranie a zjednodušiť integráciu a rozšírenie.
     
+### <a name="upgrade-to-project-operations-lite"></a>Inovujte na Project Operations Lite
+
+Nasledujúce kroky popisujú proces inovácie a súvisiace protokolovanie chýb:
+
+1. **Kontrola verzie PSA:** Ak chcete nainštalovať Project Operations, musíte mať V3.10.58.120 alebo vyšší.
+1. **Predvalidácia:** Keď správca iniciuje inováciu, systém spustí predbežnú validačnú operáciu na každej entite, ktorá je jadrom riešenia Project Operations. Tento krok overí, či sú všetky odkazy na entity platné, a zabezpečí, že údaje súvisiace s WBS sú v rámci publikovaných limitov Project for the Web.
+1. **Aktualizácia metadát:** Po úspešnej predbežnej validácii systém iniciuje zmeny schémy a vytvorí zastarané riešenie komponentov. Toto zastarané riešenie môžete odstrániť po dokončení všetkých požadovaných úprav prispôsobení. Tento krok je najdlhšou časťou procesu inovácie a môže trvať až štyri hodiny.
+1. **Upgrade dát:** Po dokončení všetkých požadovaných zmien schémy v kroku inovácie metadát sa vaše údaje migrujú do novej schémy a vykonajú sa všetky požadované predvolené nastavenia a prepočítanie.
+1. **Aktualizácia nástroja harmonogramu projektu:** Po úspešnej aktualizácii údajov sa **Rozvrh** karta na hlavnej stránke je premenovaná **Úlohy**. Keď používateľ po inovácii vyberie túto kartu, bude presmerovaný na navigáciu do sledovacej mriežky, aby si mohol pozrieť verziu WBS len na čítanie. Ak chcete upraviť WBS, musia spustiť plán [proces konverzie](/PSA-Upgrade-Project-Conversion.md). Všetky projekty bez už existujúceho WBS môžu využívať nové možnosti plánovania priamo, bez konverzie.
+ 
 ### <a name="validate-common-scenarios"></a>Overte bežné scenáre
 
 Pri overovaní vašich konkrétnych prispôsobení vám odporúčame, aby ste si prezreli aj obchodné procesy, ktoré sú podporované v rámci aplikácií. Tieto obchodné procesy zahŕňajú, ale nie sú obmedzené na, vytváranie predajných entít, ako sú cenové ponuky a zmluvy, a vytváranie projektov, ktoré zahŕňajú WBS a schvaľovanie skutočností.
@@ -105,17 +121,21 @@ Táto časť poskytuje súhrn hlavných zmien, ktoré môžete očakávať medzi
 
 ### <a name="project-planning"></a>Plánovanie projektu
 
-Možnosti plánovania projektu v Project Operations sa už nespoliehajú na kombináciu logiky na strane klienta a logiky na strane servera. Namiesto toho Project Operations používa Project for the Web ako nástroj plánovania. Táto zmena v možnostiach plánovania umožňuje niekoľko nových funkcií, ako sú Board a Ganttov pohľad, plánovanie založené na zdrojoch, [položky kontrolného zoznamu úloh](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) a režimy plánovania projektu. Nové možnosti plánovania podporuje aj bohatá sada nových [aplikačné programové rozhrania (API)](../project-management/schedule-api-preview.md). Tieto rozhrania API majú pomôcť zabezpečiť, aby žiadna programová operácia na vytváranie, aktualizáciu alebo odstraňovanie entity vo WBS nepoškodila vypočítané polia v pláne.
+Možnosti plánovania projektu v Project Operations sa už nespoliehajú na kombináciu logiky na strane klienta a logiky na strane servera. Namiesto toho Project Operations používa Project for the Web ako nástroj plánovania. Táto zmena v možnostiach plánovania umožňuje niekoľko nových funkcií, ako sú Board a Ganttov pohľad, plánovanie založené na zdrojoch, [položky kontrolného zoznamu úloh](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) a režimy plánovania projektu. Nové možnosti plánovania podporuje aj bohatá sada nových [aplikačné programové rozhrania (API)](../project-management/schedule-api-preview.md). Účelom týchto rozhraní API je zabezpečiť, aby žiadna programová operácia na vytváranie, aktualizáciu alebo odstraňovanie entity vo WBS nepoškodila vypočítané polia v pláne.
 
-## <a name="billing-and-pricing"></a>Fakturácia a tvorba cien
+### <a name="billing-and-pricing"></a>Fakturácia a tvorba cien
 
 V rámci pokračujúcich investícií do prevádzky projektu je k dispozícii niekoľko nových možností v oblasti fakturácie a tvorby cien. Tu sú niektoré príklady:
 
-- [Evidovanie spotreby materiálu na projektoch a projektových úlohách](../material/material-usage-log.md)
+- [Evidencia spotreby materiálu na projektoch a projektových úlohách](../material/material-usage-log.md)
 - [Manažment subdodávok](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Zálohy a zmluvy založené na preddavkoch](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Stav neprekročenia zmluvy a overenia](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Účtovanie podľa úloh
+
+### <a name="resource-management"></a>Správa zdrojov
+
+Project Operations poskytuje voliteľnú podporu pre Universal Resource Scheduling (URS) asistent rady a plánovania. Táto nová skúsenosť bude povinná vo vlne apríla 2023.
 
 ## <a name="frequently-asked-questions"></a>Najčastejšie otázky
 
@@ -136,5 +156,4 @@ Existujú dve možnosti inštalácie Project Operations predtým, ako bude k dis
 - Poskytnutie nového prostredia.
 - Operácie projektu nasaďte samostatne v akejkoľvek predajnej organizácii, kde nie je prítomná automatizácia projektových služieb.
 
-> [!NOTE]
-> Ak je Project Service Automation nainštalovaný v organizácii, ale nebol používaný, je možné ho odinštalovať. Po úplnom odstránení Project Service Automation sa Project Operations môže nainštalovať v tej istej organizácii.
+Ak je Project Service Automation nainštalovaný v organizácii, ale nebol používaný, je možné ho odinštalovať. Po úplnom odstránení Project Service Automation sa Project Operations môže nainštalovať v tej istej organizácii.
