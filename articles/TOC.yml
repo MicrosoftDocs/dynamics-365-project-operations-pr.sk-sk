@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: "Ako môžem prispôsobiť tok obchodného procesu v\_rámci etáp projektu?"
               href: psa/FAQ-customize-bpf.md
-            - name: Dôležité informácie týkajúce sa inovácie pre štruktúru rozdelenia práce
-              href: psa/upgrade-considerations-tasks.md
         - name: Technická dokumentácia
           href: psa/white-papers.md
         - name: Príručka správcu
