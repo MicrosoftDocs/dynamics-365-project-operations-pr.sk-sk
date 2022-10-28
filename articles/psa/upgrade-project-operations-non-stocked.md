@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686995"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709464"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Inovácia z aplikácie Project Service Automation na Project Operations
 
@@ -48,7 +48,7 @@ V rámci procesu inovácie sme do mapy lokality pridali denníky inovácie, aby 
 
 Vo fáze 2 budú zákazníci, ktorí inovujú na Project Operations, upgradované svoje existujúce projekty na prostredie určené len na čítanie pre plánovanie projektov. V tomto prostredí len na čítanie bude v sledovacej mriežke viditeľný úplný WBS. Ak chcete upraviť WBS, projektoví manažéri môžu vybrať [**Konvertovať**](/PSA-Upgrade-Project-Conversion.md) na hlavnej stránke projektu. Proces na pozadí potom aktualizuje projekt tak, aby podporoval novú skúsenosť s plánovaním projektu z Project for the Web. Táto fáza je vhodná pre zákazníkov, ktorí majú projekty, ktoré do nej zapadajú [známe limity Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
-Vo fáze 3 bude pridaná podpora pre desktopového klienta Project v prospech zákazníkov, ktorí chcú naďalej upravovať svoje projekty z tejto aplikácie. Ak sa však existujúce projekty skonvertujú na nové prostredie Project for the Web, prístup k doplnku bude zakázaný pre každý skonvertovaný projekt.
+Vo fáze 3 bude pridaná podpora pre desktopového klienta Project, čo bude prínosom pre zákazníkov, ktorí chcú pokračovať v úprave svojich projektov z danej aplikácie. Ak sa však existujúce projekty skonvertujú na nové prostredie Project for the Web, prístup k doplnku bude zakázaný pre každý skonvertovaný projekt.
 
 ## <a name="prerequisites"></a>Požiadavky
 
@@ -70,7 +70,7 @@ Predpoklady pre fázu 3 budú aktualizované, keď sa bude blížiť dátum vše
 
 ## <a name="licensing"></a>Licencovanie
 
-Ak máte aktívne licencie pre Project Service Automation, môžete nainštalovať a používať Project Operations, ktorý zahŕňa všetky možnosti Project Service Automation a ďalšie. Potom môžete otestovať schopnosti Project Operations v samostatnom prostredí, zatiaľ čo budete pokračovať v používaní Project Service Automation vo výrobe. Po vypršaní platnosti licencií Project Service Automation budete musieť prejsť na Project Operations. Keď plánujete tento prechod, musíte počítať so skutočnosťou, že licencia Project Operations nezahŕňa licenciu Project Service Automation.
+Ak máte aktívne licencie pre Project Service Automation, môžete nainštalovať a používať Project Operations, ktorý zahŕňa všetky možnosti Project Service Automation a ďalšie. Týmto spôsobom môžete otestovať schopnosti projektových operácií, zatiaľ čo budete pokračovať v používaní Project Service Automation vo výrobe. Po vypršaní platnosti licencií Project Service Automation budete musieť prejsť na Project Operations. Keď plánujete tento prechod, musíte počítať so skutočnosťou, že licencia Project Operations nezahŕňa licenciu Project Service Automation. Zákazníci, ktorí majú scenáre, v ktorých nasadili Project Service Automation a potrebujú naďalej používať alebo zvyšovať svoje licencie pre PSA, kým plánujú prejsť na Project Operations, môžu požiadať o dočasné licencie PSA na základe zakúpených licencií Project Operations. Jedna licencia Project Service Automation bude vydaná pre jednu licenciu Project Operations. O dočasné licencie PSA môžete požiadať pomocou tohto odkazu: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Testovanie a refaktorovanie prispôsobení
 
