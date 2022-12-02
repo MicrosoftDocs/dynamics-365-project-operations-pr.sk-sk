@@ -1,6 +1,6 @@
 ---
 title: Zručnosti a certifikácie
-description: Tento článok poskytuje informácie o pridávaní charakteristík zručností a certifikácie do zdrojov.
+description: Tento článok poskytuje informácie o pridávaní zručností a certifikačných charakteristík k zdrojom.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

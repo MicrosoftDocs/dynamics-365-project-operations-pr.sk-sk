@@ -1,6 +1,6 @@
 ---
 title: Definovanie odborností a spôsobilostí
-description: Tento článok poskytuje informácie o tom, ako nastaviť modely odbornosti na hodnotenie zdrojov.
+description: Tento článok poskytuje informácie o nastavovaní modulov spôsobilosti na hodnotenie zdrojov.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

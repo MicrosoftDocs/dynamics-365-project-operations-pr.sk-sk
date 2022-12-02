@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka zdrojových projektov
-description: Tento článok poskytuje informácie o možnostiach správy zdrojov v Project Service Automation (PSA) pre Dynamics 365.
+description: Tento článok obsahuje prepojenia na informácie pre riadenie možností v Project Service Automation (PSA) pre Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

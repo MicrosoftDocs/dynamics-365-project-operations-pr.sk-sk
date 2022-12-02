@@ -1,6 +1,6 @@
 ---
 title: Odoslanie žiadosti o zdroj
-description: Požiadavku vygenerovaného prostriedku môžete odoslať ako požiadavku na zdroj. Požiadavka sa potom odošle na splnenie Správcovi zdrojov.
+description: Požiadavku vygenerovaného prostriedku môžete odoslať ako požiadavku na zdroj. Žiadosť sa potom odošle do Resource Manager na plnenie.
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9137200"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Požiadavku vygenerovaného prostriedku môžete odoslať ako požiadavku na zdroj. Požiadavka sa potom odošle na splnenie Správcovi zdrojov.
+Požiadavku vygenerovaného prostriedku môžete odoslať ako požiadavku na zdroj. Žiadosť sa potom odošle do Resource Manager na plnenie.
 
 1. V Dynamics 365 Project Operations na stránke **Projekty** vyberte kartu **Tím** a zobrazte zoznam rezervovateľných zdrojov. 
 2. Zo zoznamu vyberte všeobecný zdroj, ktorý má požiadavku na zdroj a potom kliknite na položku **Odoslať žiadosť**.
@@ -26,9 +26,9 @@ Požiadavku vygenerovaného prostriedku môžete odoslať ako požiadavku na zdr
 
 Príjemca požiadavky na zdroj má možnosť buď čiastočne splniť požiadavku pomocou jedného alebo viacerých zdrojov, alebo úplne splniť požiadavku na zdroj.
 
-Po splnení požiadavky sa do projektu pridá jeden alebo viac pomenovaných zdrojov ako členovia projektového tímu. Ak požiadavku na zdroj spĺňa jeden zdroj, všeobecný člen tímu spojený s požiadavkou na zdroj sa vymaže. 
+Po splnení požiadavky sa do projektu pridá jeden alebo viac menovaných zdrojov ako členovia projektového tímu. Ak požiadavku na zdroj spĺňa jeden zdroj, všeobecný člen tímu spojený s požiadavkou na zdroj sa vymaže. 
 
-Keď príjemca žiadosti o zdroj navrhne zdroje a je pripravený na to, aby projektový manažér skontroloval zdroje, ktoré boli navrhnuté, mal by aktualizovať stav žiadosti o zdroj na **Vyžaduje preskúmanie**.
+Keď príjemca žiadosti o zdroj navrhne zdroje a je pripravený na to, aby projektový manažér skontroloval zdroje, ktoré boli navrhnuté, mal by aktualizovať stav žiadosti o zdroj na **Vyžaduje kontrolu**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

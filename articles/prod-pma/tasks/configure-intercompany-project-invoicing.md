@@ -1,6 +1,6 @@
 ---
 title: Konfigurácia fakturácie medzipodnikových projektov
-description: Tento článok ukazuje, ako nastaviť projektovú fakturáciu medzi dvoma spoločnosťami vo vašej organizácii.
+description: Tento článok ukazuje, ako nastaviť fakturáciu projektu medzi dvoma spoločnosťami vo vašej organizácii.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916629"
 
 [!include [banner](../../includes/banner.md)]
 
-Tento článok ukazuje, ako nastaviť projektovú fakturáciu medzi dvoma spoločnosťami vo vašej organizácii. Táto úloha používa množinu údajov USSI.
+Tento článok ukazuje, ako nastaviť fakturáciu projektu medzi dvoma spoločnosťami vo vašej organizácii. Táto úloha používa množinu údajov USSI.
 
 1. Na navigačnej table prejdite do **Moduly > Záväzky > Nákupné objednávky > Dodávatelia > Všetci dodávatelia**.
 2. V zozname **Všetci dodávatelia** vyhľadajte a vyberte požadovaný záznam.

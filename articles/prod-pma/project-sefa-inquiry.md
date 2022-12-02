@@ -1,6 +1,6 @@
 ---
 title: Časový plán výdavkov na vyšetrovanie federálnych ocenení
-description: Tento článok poskytuje informácie o prieskume Plánu výdavkov federálnych ocenení.
+description: Tento článok poskytuje informácie o dotazníku Plán výdavkov federálnych ocenení.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

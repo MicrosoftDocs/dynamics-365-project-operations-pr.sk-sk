@@ -1,6 +1,6 @@
 ---
 title: Čo je nové v novembri 2020 – Project Operations pre scenáre založené na zdrojoch/výrobe
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z novembra 2020 pre scenáre založené na skladovej produkcii.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní Project Operations z novembra 2020, pre scenáre založené na zdrojoch/výrobe.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ Informácie o opravách zahrnutých v tejto aktualizácii nájdete po prihlásen
 
 ## <a name="regulatory-updates"></a>Regulačné aktualizácie
 
-Informácie o regulačných aktualizáciách pre finančné a prevádzkové aplikácie Dynamics 365 nájdete v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie na riadenie financií a prevádzok Dynamics 365 nájdete v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

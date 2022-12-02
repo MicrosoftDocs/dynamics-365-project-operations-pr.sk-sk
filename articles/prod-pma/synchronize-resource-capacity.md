@@ -1,6 +1,6 @@
 ---
 title: Synchronizácia kapacity zdroja
-description: Tento článok poskytuje informácie o tom, ako synchronizovať kapacitu zdroja medzi kalendármi a projektmi.
+description: Tento článok poskytuje informácie o tom, ako synchronizovať kapacitu zdroja v rámci kalendárov a projektov.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Vytvorte rezerváciu projektu z tabule plánovania
-description: Tento článok poskytuje informácie o tom, ako vytvoriť rezerváciu projektu z tabule plánovania.
+description: Tento článok poskytuje informácie o tom, ako vytvoriť projektovú rezerváciu z tabule plánovania.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

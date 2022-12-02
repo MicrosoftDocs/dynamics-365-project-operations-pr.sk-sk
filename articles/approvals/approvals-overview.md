@@ -1,6 +1,6 @@
 ---
 title: Prehľad schválení
-description: Tento článok poskytuje informácie o práci so schválením v prevádzke projektu.
+description: Tento článok poskytuje informácie o práci so schválením v Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

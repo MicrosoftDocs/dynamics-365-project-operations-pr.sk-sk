@@ -1,6 +1,6 @@
 ---
 title: Prepracované prehľady výdavkov (obsahuje video)
-description: Tento článok vysvetľuje prepracované a prepracované prostredie pre zadávanie výkazu výdavkov.
+description: Tento článok vysvetľuje prepracované a zmenené prostredie na zadávanie výkazov výdavkov.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Nové prostredie zapnete pomocou pracovného priestoru **Správa funkcií**, č�
 | Ukladanie a pridávanie nových riadkov výdavkov | Tlačidlá **Uložiť** a **Nový** sú k dispozícii pri zadávaní nových výdavkov, aby vám pomohli rýchlo zadať riadky výdavkov. |
 | Lepšia viditeľnosť rozdelených a rozpísaných riadkov | Rozpísané položky a rozdelené riadky sa pridávajú priamo do zoznamu výdavkov, aby sa zvýšila viditeľnosť a aby ste mohli ľahko určiť, či nedošlo k chybám. |
 | Zobraziť podrobnosti podkategórie v riadkoch s položkami | Rozpísané riadky nadradeného výdavku zobrazujú štítky podkategórií v správe o výdavkoch. Rozpísanie vám umožní pozrieť si podrobné informácie na prvý pohľad.|
-|Rýchlo rozpisujte opakujúce sa výdavky | Prepracovaný pracovný priestor nákladov poskytuje možnosť rýchleho rozpisu opakujúcich sa výdavkov pridaním podkategórie, dátumu začiatku a množstva. Množstvo sa vzťahuje na počet opakovaní nabíjania počas nepretržitého obdobia. |
+|Rýchlo rozpisujte opakujúce sa výdavky | Prepracovaný pracovný priestor výdavkov poskytuje možnosť rýchleho rozpisu opakujúcich sa výdavkov pridaním podkategórie, dátumu začiatku a množstva. Množstvo označuje počet opakovaní poplatku počas súvislého obdobia. |
 | Zobrazenie potvrdení počas rozpisu | Počas rozpisu je možné zobraziť potvrdenia. |
 | Výber zálohy v hotovosti | Vyberte jednu alebo viac záloh v hotovosti na uskutočnenie transakcie s jedným výdavkom. |
 | Zostatok zálohy v hotovosti | Skontrolujte zostatok zálohy v hotovosti v reálnom čase, keď vytvoríte záznam výdavkov v porovnaní so schválenými a vyplatenými zálohami v hotovosti. |

@@ -1,6 +1,6 @@
 ---
 title: Etapy projektu
-description: Tento článok poskytuje informácie o fázach projektu, ktoré sú k dispozícii v Microsoft Dynamics Projektové operácie.
+description: Tento článok poskytuje informácie o etapách projektu, ktoré sú dostupné v Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Po spojení projektu a cenovej ponuky alebo jeho vytvorení z cenovej ponuky sa 
 
 ## <a name="plan"></a>Plánovať
 
-Ak vyhráte cenovú ponuku, ktorá je priradená k projektu a project je posunutý do fázy **zmluvy**, stav projektu sa aktualizuje na **plán**. Kým je projekt v **Plán** štádium, **Predaj** kartu na **Projektová entita** stránka zobrazuje podrobnosti zmluvy.
+Ak vyhráte cenovú ponuku, ktorá je priradená k projektu a project je posunutý do fázy **zmluvy**, stav projektu sa aktualizuje na **plán**. Keď je projekt v etape **Plán**, podrobnosti zmluvy sa zobrazia na karte **Predaje** na stránke **Entita projektu**.
 
 ## <a name="deliver"></a>Doručiť
 

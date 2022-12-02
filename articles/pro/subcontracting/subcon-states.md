@@ -1,6 +1,6 @@
 ---
 title: Prechody stavov v rámci subdodávateľskej zmluvy
-description: Tento článok vysvetľuje prechody stavu na subdodávku v spoločnosti Microsoft Dynamics 365 Project Operations ako je subdodávka vytvorená, vykonaná a uzavretá.
+description: Tento článok vysvetľuje prechody stavu v subdodávateľskej zmluve v Microsoft Dynamics 365 Project Operations pri vytvorení, vykonaní a zatvorení subdodávateľskej zmluvy.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9522954"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok vysvetľuje prechody stavu na subdodávateľskej zmluve v Microsoft Dynamics 365 Project Operations. Každý štát je reprezentovaný ako koncept, potvrdený, uzavretý alebo zrušený. Nasledujúci obrázok znázorňuje prechody stavov.
+Tento článok vysvetľuje prechody stavu v subdodávateľskej zmluve v Microsoft Dynamics 365 Project Operations. Každý sta je reprezentovaný ako koncept, potvrdený, uzavretý alebo zrušený. Nasledujúci obrázok zobrazuje prechody stavov.
 
-![Model subdodávateľského štátu](../media/SubconStates.png)  
+![Model stavu subdodávateľskej zmluvy](../media/SubconStates.png)  
 
-Nasledujúca tabuľka poskytuje popis toho, čo jednotlivé štáty predstavujú v životnom cykle subdodávky v prevádzke projektu.
+Nasledujúca tabuľka poskytuje opis, čo každý stav predstavuje v životnom cykle subdodávateľskej zmluvy v Project Operations.
 
 | State | Description | Povolené prechody |
 | --- | --- | --- |
-| Koncept | Predstavuje počiatočný stav subdodávky. Prebiehajú rokovania s dodávateľom. Línie a ceny podliehajú zmenám. Subdodávka v tomto stave môže byť použitá na odhad a personálne požiadavky projektu na zdroje a materiály. Môže sa tiež vzťahovať na čas, náklady a spotrebu materiálu v projekte. Subdodávku v tomto stave je možné upravovať a mazať. | Potvrdené |
-| Potvrdené | Toto predstavuje štádium subdodávky po dokončení rokovaní s dodávateľom o cenách a nakupovaných riadkových položkách. Samotné dodávanie materiálov a/alebo prác subdodávateľskými zdrojmi však stále prebieha. Subdodávka v tomto stave môže byť použitá na odhad a personálne požiadavky projektu na zdroje a materiály. Môže sa tiež vzťahovať na čas, náklady a spotrebu materiálu v projekte. Subdodávateľskú zmluvu v tomto stave nie je možné upravovať ani mazať. The **Zrušiť** umožňuje zrušiť potvrdenú subdodávku. The **Znovu otvorte** vám umožní znovu otvoriť subdodávku a vrátiť ju späť **Návrh** postavenie. Použi **Zavrieť** tlačidlo na zatvorenie potvrdenej subdodávky. | Zatvorené <br> Zrušená <br> Koncept |
-| Zatvorené | Toto predstavuje štádium subdodávky, keď je dokončená skutočná dodávka materiálov a/alebo práce prostredníctvom subdodávateľských zdrojov. Subdodávka v tomto stave sa už nedá použiť na odhad a personálne projektové požiadavky na zdroje a materiály. Tiež sa už nemôže odvolávať na čas, náklady a spotrebu materiálu v projekte. Subdodávateľskú zmluvu v tomto stave nie je možné upravovať ani mazať. | None |
-| Zrušená | Toto predstavuje štádium subdodávky, keď už nie je potrebná skutočná dodávka materiálov a/alebo práca zo subdodávateľských zdrojov. Subdodávateľská zmluva v tomto stave nemôže byť použitá na odhad a personálne požiadavky projektu na zdroje a materiály, ani sa nemôže odvolávať na čas, náklady a spotrebu materiálu v projekte. Subdodávateľskú zmluvu v tomto stave nie je možné upravovať ani mazať. | None |
+| Koncept | Predstavuje počiatočný stav subdodávateľskej zmluvy. Prebiehajú rokovania s dodávateľom. Riadky a ceny podliehajú zmenám. Subdodávateľská zmluva v tomto stave môže byť použitá na odhad a personálne požiadavky projektu na zdroje a materiály. Môže sa tiež vzťahovať na čas, výdavky a spotrebu materiálu v projekte. Subdodávateľská zmluva v tomto stave sa nedá upravovať a odstrániť. | Potvrdené |
+| Potvrdené | Toto predstavuje etapu subdodávateľskej zmluvy po dokončení rokovaní s dodávateľom o cenách a nakupovaných riadkových položkách. Samotné dodávanie materiálov a/alebo prác subdodávateľskými zdrojmi však stále prebieha. Subdodávateľská zmluva v tomto stave môže byť použitá na odhad a personálne požiadavky projektu na zdroje a materiály. Môže sa tiež vzťahovať na čas, výdavky a spotrebu materiálu v projekte. Subdodávateľská zmluva v tomto stave sa nedá upravovať ani odstrániť. Tlačidlo **Zrušiť** umožňuje zrušiť potvrdenú subdodávateľskú zmluvu. Tlačidlo **Znova otvoriť** vám umožní znova otvoriť subdodávateľskú zmluvu a vrátiť ju späť do stavu **Koncept**. Použite tlačidlo **Zavrieť** na zatvorenie potvrdenej subdodávateľskej zmluvy. | Zatvorené <br> Zrušená <br> Koncept |
+| Zatvorené | Tento stav predstavuje etapu subdodávateľskej zmluvy, kedy už je dokončená dodávka materiálu a/alebo práce zo subdodávateľských zdrojov. Subdodávateľská zmluva v tomto stave už nemôže byť použitá na odhad a personálne požiadavky projektu na zdroje a materiály. Už sa tiež nemôže vzťahovať na čas, výdavky a spotrebu materiálu v projekte. Subdodávateľská zmluva v tomto stave sa nedá upravovať ani odstrániť. | None |
+| Zrušená | Tento stav predstavuje etapu subdodávateľskej zmluvy, kedy už nie je viac potrebná dodávka materiálu a/alebo práce zo subdodávateľských zdrojov. Subdodávateľská zmluva v tomto stave sa nedá použiť na odhad a personálne projektové požiadavky na zdroje a materiály, ani sa na ňu nedá odkazovať na čas, náklady a spotrebu materiálu v projekte. Subdodávateľská zmluva v tomto stave sa nedá upravovať ani odstrániť. | None |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

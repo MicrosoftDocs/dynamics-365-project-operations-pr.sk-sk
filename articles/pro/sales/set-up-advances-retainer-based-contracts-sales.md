@@ -1,6 +1,6 @@
 ---
 title: Zálohy a zmluvy založené na preddavkoch
-description: Tento článok poskytuje informácie o zmluvných modeloch založených na zálohách a pokrokoch v prevádzke projektu.
+description: Tento článok poskytuje informácie o preddavkových zmluvných modeloch a zálohách v Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

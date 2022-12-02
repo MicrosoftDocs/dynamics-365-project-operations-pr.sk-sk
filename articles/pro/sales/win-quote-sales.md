@@ -1,6 +1,6 @@
 ---
 title: Uzavretie cenovej ponuky – čiastočné
-description: Tento článok poskytuje informácie o uzatvorení cenovej ponuky v Project Operations.
+description: Tento článok poskytuje informácie o uzatváraní cenovej ponuky v Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

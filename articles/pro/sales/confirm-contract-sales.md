@@ -1,6 +1,6 @@
 ---
 title: Potvrdenie projektovej zmluvy
-description: Tento článok poskytuje informácie o tom, ako potvrdiť zmluvu v prevádzke projektu.
+description: Tento článok poskytuje informácie o spôsobe potvrdenia zmluvy v aplikácii Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

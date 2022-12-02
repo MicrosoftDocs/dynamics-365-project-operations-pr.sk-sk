@@ -1,6 +1,6 @@
 ---
 title: Splnenie požiadaviek na zdroje
-description: Tento článok poskytuje informácie o tom, ako splniť požiadavky na zdroje.
+description: Tento článok poskytuje informácie o plnení požiadaviek na zdroje.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

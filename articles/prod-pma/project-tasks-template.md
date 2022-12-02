@@ -1,6 +1,6 @@
 ---
-title: Synchronizujte projektové úlohy priamo z Project Service Automation s financiami a prevádzkou
-description: Tento článok popisuje šablónu a základnú úlohu, ktoré sa používajú na synchronizáciu úloh projektu priamo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+title: Synchronizácia projektových úloh priamo z aplikácie Project Service Automation do aplikácií na riadenie financií a prevádzok
+description: Tento článok popisuje šablónu a základnú úlohu, ktoré sa používajú na synchronizáciu projektových úloh z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: sk-SK
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028380"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizujte projektové úlohy priamo z Project Service Automation s financiami a prevádzkou
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizácia projektových úloh priamo z aplikácie Project Service Automation do aplikácií na riadenie financií a prevádzok
 
 [!include[banner](../includes/banner.md)]
 
-Tento článok popisuje šablónu a základnú úlohu, ktoré sa používajú na synchronizáciu úloh projektu priamo z Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+Tento článok popisuje šablónu a základnú úlohu, ktoré sa používajú na synchronizáciu projektových úloh z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrácia projektovej úlohy, kategórie výdavkov na transakciu, odhady hodín, odhady výdavkov a blokovanie funkcií sú k dispozícii vo verzii 8.0.
@@ -67,11 +67,11 @@ Predtým, ako môže dôjsť k synchronizácii projektových úloh, musíte sync
 
 ## <a name="power-query"></a>Power Query
 
-Musíte použiť Microsoft Power Query aby Excel filtroval údaje, ak je splnená táto podmienka:
+Ak je táto podmienka splnená, na filtrovanie údajov musíte použiť Microsoft Power Query for Excel:
 
 - V projektovej úlohe máte záznamy týkajúce sa konkrétnych zdrojov.
 
-Ak musíte použiť Power Query, postupujte podľa tohto usmernenia:
+Ak musíte použiť Power Query, postupujte podľa tohto pokynu:
 
 - Šablóna Projektové úlohy (PSA do Fin a Ops) má predvolený filter, ktorý vylučuje záznamy špecifické pre daný zdroj z projektovej úlohy nastavením filtra na **IsLineTask** na **False**. Ak vytvárate vlastnú šablónu, musíte pridať tento filter.
 

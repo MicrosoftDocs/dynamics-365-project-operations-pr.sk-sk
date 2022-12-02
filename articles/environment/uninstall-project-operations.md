@@ -35,8 +35,8 @@ Ak chcete odinštalovať Dynamics 365 Project Operations, musíte mať pridelen�
     | 6 | ProjectServiceCore_Patch                           | Žiadne ďalšie poznámky.                                                                         |
     | 7 | ProjectServiceCore                                 | Žiadne ďalšie poznámky.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Ak sa nenájde, toto riešenie preskočte.                                                            |
-    | 9 | FieldServiceCommon                                 | Vyžaduje sa pre duálny zápis pomocou Dynamics 365 Finance alebo Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Vyžaduje sa pre duálny zápis pomocou Dynamics 365 Finance alebo Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Vyžaduje sa pre duálny zápis s Dynamics 365 Finance alebo Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Vyžaduje sa pre duálny zápis s Dynamics 365 Finance alebo Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Vyžadované pre Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Vyžadované pre Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Vyžadované pre Dynamics 365 Field Service.                                                     |

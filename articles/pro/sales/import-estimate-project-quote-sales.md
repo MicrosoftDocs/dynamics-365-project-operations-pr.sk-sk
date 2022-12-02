@@ -1,6 +1,6 @@
 ---
 title: Import odhadov pre projekt do riadka cenovej ponuky založenej na projekte – čiastočné
-description: Tento článok poskytuje informácie o tom, ako importovať odhady z projektu do riadku cenovej ponuky.
+description: Tento článok poskytuje informácie o tom, ako importovať odhady z projektu do riadka cenovej ponuky.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

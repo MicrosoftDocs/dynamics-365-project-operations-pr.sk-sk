@@ -1,6 +1,6 @@
 ---
 title: Výkon rozhrania API plánovania projektov
-description: Tento článok poskytuje informácie o výkonnostných testoch API plánovania projektu a identifikuje najlepšie postupy na optimálne použitie.
+description: Tento článok poskytuje informácie o výkonnostných testoch API plánovania projektu a identifikuje najlepšie postupy pre optimálne použitie.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8911201"
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/nenaskladnené, nasadenie Lite – dohoda o proforma fakturácii, Project for the Web_
 
-Tento článok poskytuje informácie o výkonnostných benchmarkoch rozhraní API (Project schedule application programming interfaces) a identifikuje najlepšie postupy na optimalizáciu používania.
+Tento článok poskytuje informácie o výkonnostných testoch API plánovania projektu a identifikuje najlepšie postupy pre optimálne použitie.
 
 ## <a name="project-scheduling-service"></a>Služba Project Scheduling
 Služba Project Scheduling je služba pre viacerých nájomníkov, ktorá beží v Microsoft Azure. Je navrhnutý tak, aby zlepšil interakciu poskytovaním rýchleho a plynulého zážitku, keď používatelia pracujú na projektoch. Toto zlepšenie sa dosiahne prijatím požiadaviek na zmenu, ich spracovaním a následným okamžitým vrátením výsledku. Služba asynchrónne pretrváva na Dataverse a neblokuje používateľov vo vykonávaní iných operácií.
 
-Rozhrania API plánovania projektu sa pri spúšťaní požiadaviek, ktoré sú podrobnejšie opísané v neskorších častiach tohto článku, spoliehajú na službu plánovania projektu.
+Rozhrania API služby plánovania projektu sa pri spúšťaní požiadaviek, ktoré sú podrobnejšie opísané v neskorších častiach tohto článku, spoliehajú na službu Project Scheduling.
 
 Rozhrania API harmonogramu projektu sú navrhnuté tak, aby spolupracovali s nasledujúcimi entitami štruktúry rozdelenia práce (WBS):
 

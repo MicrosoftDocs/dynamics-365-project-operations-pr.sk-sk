@@ -1,6 +1,6 @@
 ---
 title: Import odhadu do riadka zmluvy na základe projektu
-description: Tento článok poskytuje informácie o tom, ako importovať odhady z projektu do riadku zmluvy.
+description: Tento článok poskytuje informácie o tom, ako importovať odhady z projektu do riadka zmluvy.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

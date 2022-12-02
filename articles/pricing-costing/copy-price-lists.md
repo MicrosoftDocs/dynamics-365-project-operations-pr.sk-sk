@@ -1,6 +1,6 @@
 ---
 title: Kopírovanie cenníkov
-description: Tento článok poskytuje informácie o tom, ako kopírovať cenníky v Project Operations.
+description: Tento článok poskytuje informácie o spôsobe kopírovania cenníkov v Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

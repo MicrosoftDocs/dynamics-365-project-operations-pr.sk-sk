@@ -1,6 +1,6 @@
 ---
 title: Nastavenie sadzieb fakturácie za prácu
-description: Tento článok poskytuje informácie o tom, ako nastaviť sadzby fakturácie práce v Project Operations.
+description: Tento článok poskytuje informácie o spôsobe nastavení sadzieb fakturácie práce v Project Operations.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

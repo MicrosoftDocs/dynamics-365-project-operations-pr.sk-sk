@@ -1,6 +1,6 @@
 ---
 title: Potvrdenie projektovej faktúry pro forma
-description: Tento článok poskytuje informácie o potvrdení proforma projektových faktúr v Project Operations.
+description: Tento článok poskytuje informácie o potvrdení projektových faktúr pro forma v Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

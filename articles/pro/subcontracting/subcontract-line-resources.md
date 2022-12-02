@@ -1,6 +1,6 @@
 ---
 title: Zdroje v riadku subdodávateľskej zmluvy
-description: Tento článok vysvetľuje, ako určiť vyhradené zdroje, ktoré poskytuje dodávateľ pre konkrétnu subdodávateľskú linku na určitý čas.
+description: Tento článok vysvetľuje, ako špecifikovať vyhradené zdroje, ktoré poskytuje dodávateľ pre konkrétny riadok subdodávateľskej zmluvy pre určitý čas.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Integrácia faktúry dodávateľa
-description: Tento článok poskytuje informácie o integrácii faktúry dodávateľa v Project Operations.
+description: Tento článok poskytuje informácie o integrácií faktúr dodávateľa v Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 Obstarávanie súvisiace s projektom v Dynamics 365 Project Operations možno zaznamenať prechodom na **Záväzky** > **Faktúry** > **Čakajúce faktúry dodávateľa** a pomocou dokumentu faktúry čakajúceho dodávateľa. Viac informácií nájdete v časti [Nákup neskladových materiálov pomocou nespracovanej faktúry dodávateľa](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Pred použitím funkcií opísaných v tomto článku si prečítajte a použite požadované konfigurácie. Viac informácií nájdete v časti [Povoliť neskladované materiály a čakajúce faktúry dodávateľa](../procurement/configure-materials-nonstocked.md).
+> Pred použitím funkcií popísaných v tomto článku si prečítajte a vykonajte požadované konfigurácie. Viac informácií nájdete v časti [Povoliť neskladované materiály a čakajúce faktúry dodávateľa](../procurement/configure-materials-nonstocked.md).
 
 V Project Operations sa faktúry dodávateľov súvisiace s projektom účtujú pomocou špeciálnych pravidiel účtovania:
 
@@ -34,7 +34,7 @@ V Project Operations sa faktúry dodávateľov súvisiace s projektom účtujú 
      > [!NOTE]
      > Fakturačné údaje dodávateľa v Dataverse nie sú editovateľné.
 
-Vedľajšia kniha daní, vedľajšia kniha dodávateľa a iné finančné účtovania sa zaznamenávajú podľa potreby v Dynamics 365 Finance pri účtovaní faktúry dodávateľa.
+Vedľajšia účtovná kniha dane, vedľajšia účtovná kniha dodávateľa a ďalšie finančné účtovania sa zaznamenávajú tak, ako je to využívané v Dynamics 365 Finance, keď sa zaúčtuje faktúra dodávateľa.
 
 ![Integrácia faktúr dodávateľov.](media/DW7VendorInvoice.png)
 

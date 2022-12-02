@@ -1,6 +1,6 @@
 ---
 title: Nastavenia projektovej zmluvy – čiastočné
-description: Tento článok poskytuje informácie o poliach, ktoré ovplyvňujú riadky zmluvy, a informácie o zmluve, ktoré sú zhrnuté vo všetkých riadkových položkách.
+description: Tento článok poskytuje informácie o poliach, ktoré majú vplyv na riadky zmluvy, a informácie o zmluve, ktoré sú zhrnuté vo všetkých riadkových položkách.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917089"
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok poskytuje informácie o poliach, ktoré sa vzťahujú na celú projektovú zmluvu, vrátane nastavení, ktoré ovplyvňujú všetky riadky zmluvy. Zahrnuté sú aj informácie o zmluve, ktoré sú zhrnuté vo všetkých riadkových položkách a slúžia na zvýšenie KPI projektovej zmluvy.
+Tento článok poskytuje informácie o poliach, ktoré sa vzťahujú na celú zmluvu o projekte vrátane nastavení, ktoré majú vplyv na všetky riadky zmluvy. Zahrnuté sú aj informácie o zmluve, ktoré sú zhrnuté vo všetkých riadkových položkách a slúžia na zvýšenie KPI projektovej zmluvy.
 
 V nasledujúcej tabuľke je uvedený zoznam polí v zmluve projektu, ktoré sú jedinečné pre Dynamics 365 Project Operations alebo majú niektoré dôležité zmeny správania v porovnaní s predajnými objednávkami z Dynamics 365 Sales.
 
@@ -35,7 +35,7 @@ V nasledujúcej tabuľke je uvedený zoznam polí v zmluve projektu, ktoré sú 
 Nasledujúce KPI sú k dispozícii na karte **Plnenie zmluvy** projektovej zmluvy. 
 
 >[!NOTE]
->Všetky sumy na **Plnenie zmluvy** sú vyjadrené v predvolenej mene prostredia.
+>Všetky sumy na karte **Plnenie zmluvy** sú vyjadrené v predvolenej mene prostredia.
 
 | Pole | Oblasť | Description |
 | --- | --- | --- |

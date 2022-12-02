@@ -1,6 +1,6 @@
 ---
 title: Pokročilé vytváranie cenových ponúk, oceňovanie a fakturovanie
-description: Tento článok poskytuje informácie o cenových ponukách, fakturácii a stanovovaní cien v Project Service Automation.
+description: Tento článok poskytuje informácie o vytváraní cenových ponúk, fakturácie a oceňovania v Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8921827"
 
 Schopnosť nájsť správne zdroje v pravý čas, rezervovať tieto zdroje na projektoch, a udržať zdroje využité pomáha organizáciám splniť ciele príjmov a spokojnosť zákazníkov. 
 
-Odkaz na PDF, ktorý bol predtým v tomto článku, bol odstránený a obsah bol presunutý do nasledujúcich článkov:
+Odkaz PDF, ktorý bol predtým v tomto článku odstránený a obsah bol presunutý do nasledujúcich článkov:
 
 - [Vytváranie cenových ponúk, oceňovanie a fakturovanie](../quote-bill-price.md)
 - [predajné procesy](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Odkaz na PDF, ktorý bol predtým v tomto článku, bol odstránený a obsah bol
 - [Nahrávanie skutočných údajov](../advanced-actuals.md)
 
 > [!NOTE]
-> Tento článok bude odstránený v budúcej aktualizácii dokumentácie. 
+> Tento článok sa odstráni v budúcej aktualizácii dokumentácie. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

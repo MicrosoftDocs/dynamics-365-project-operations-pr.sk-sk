@@ -1,6 +1,6 @@
 ---
 title: Digitalizácia potvrdenia pomocou optického rozpoznávania znakov (OCR)
-description: Tento článok poskytuje informácie o spracovaní potvrdení pomocou optického rozpoznávania znakov (OCR).
+description: Tento článok poskytuje informácie o spracovaní účteniek optickým rozpoznávaním znakov (OCR).
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Ak chcete vytvoriť výdavok alebo spárovať výdavok z účtenky, postupujte t
 
 ## <a name="installation"></a>Inštalácia
 
-Ak chcete použiť tieto pokročilé možnosti výdavkov, nainštalujte si doplnok Expense Management Service pre Microsoft Dynamics 365 Finance a zapnite funkcie vo vašej inštancii. V Microsoft Dynamics Lifecycle Services (LCS) môžete pristupovať k doplnku z vášho projektu.
+Ak chcete používať tieto pokročilé možnosti výdavkov, nainštalujte si doplnok Služba riadenia výdavkov pre Microsoft Dynamics 365 Finance a zapnite funkcie vo vašej inštancii. V Microsoft Dynamics Lifecycle Services (LCS) môžete pristupovať k doplnku z vášho projektu.
 
 1. Prihláste sa do LCS a otvorte požadované prostredie.
 2. Prejdite do časti **Všetky podrobnosti**.
@@ -93,10 +93,10 @@ Dostupnosť tejto funkcie v rôznych regiónoch je uvedená v nasledujúcej tabu
 | CAN    | Áno                               |
 | Spojené kráľovstvo     | Áno                               |
 | AUS    | Áno                               |
-| EÚ     | Čiastočne. Účtenky iba v angličtine. |
+| EU     | Čiastočne. Účtenky iba v angličtine. |
 | Ázia   | No                                |
 | Japonsko  | No                                |
-| Afriky | No                                |
+| Afrika | No                                |
 
 **Kam smerujú moje účtenky?**
 

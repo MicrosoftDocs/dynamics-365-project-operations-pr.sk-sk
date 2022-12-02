@@ -1,6 +1,6 @@
 ---
 title: Použiť rezervovateľný zdroj ako cenovú dimenziu
-description: Tento článok poskytuje informácie o používaní rezervovateľného zdroja ako cenovej dimenzie.
+description: Tento článok poskytuje informácie o používaní rezervovateľného prostriedku ako dimenzie cien.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8916123"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Tento článok poskytuje informácie o používaní rezervovateľného zdroja ako cenovej dimenzie. Skôr, ako začnete, ak ste ešte nevytvorili riešenie dimenzie cien, budete musieť vytvoriť novú. Ak už máte riešenie dimenzie cien, môžete vykonať zmeny v tomto riešení. Ak ste pre svoju organizáciu nevytvorili nové riešenie cenovej dimenzie, vykonajte postupy v časti [Vytvorte si vlastné polia a entity](create-custom-fields-entities.md) článok.
+Tento článok poskytuje informácie o používaní rezervovateľného prostriedku ako dimenzie cien. Skôr, ako začnete, ak ste ešte nevytvorili riešenie dimenzie cien, budete musieť vytvoriť novú. Ak už máte riešenie dimenzie cien, môžete vykonať zmeny v tomto riešení. Ak ste pre vašu organizáciu nevytvorili nové riešenie cenovej dimenzie, dokončite postupy v článku [Vytvorte vlastné polia a entity](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Pridanie rezervovateľného prostriedku do formulárov a zobrazení
 Ak chcete, aby sa polia zobrazovali v používateľskom rozhraní v riešení dimenzie cien, budete musieť prejsť všetkými formulármi a pohľadmi kľúčových entít služby Project Service a pridať tieto polia do formulárov a zobrazení týchto entít.

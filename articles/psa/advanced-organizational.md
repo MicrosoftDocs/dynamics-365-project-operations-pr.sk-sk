@@ -1,5 +1,5 @@
 ---
-title: Pokročilé organizačné jednotky
+title: Rozšírené organizačné jednotky
 description: Tento článok poskytuje informácie o organizačných jednotkách v Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:

@@ -1,6 +1,6 @@
 ---
 title: Nakonfigurujte štandardné náklady na prácu a výdavky
-description: Tento článok vysvetľuje, ako nastaviť štandardné náklady na prácu a výdavky na projekt.
+description: Tento článok vysvetľuje, ako nastaviť štandardné náklady na prácu a náklady na projekt.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919557"
 
 [!include [banner](../../includes/banner.md)]
 
-Tento článok vysvetľuje, ako nastaviť štandardné náklady na prácu a výdavky na projekt. Táto úloha používa množinu údajov USSI.
+Tento článok vysvetľuje, ako nastaviť štandardné náklady na prácu a náklady na projekt. Táto úloha používa množinu údajov USSI.
 
 1. Na navigačnej table prejdite do **Moduly > Projektové riadenie a účtovníctvo > Nastavenie > Ceny > Obstarávacia cena (hodina)**.
 2. Vyberte **Nové**.

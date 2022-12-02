@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v Project Operations z júla 2021 pre scenáre založené na zdrojoch/výrobe
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z júla 2021 pre scenáre na sklade/výrobe.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní nasadenia Project Operations pre scenáre založené na zdrojoch/výrobe z júla 2021.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "9028859"
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/výrobe_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
-- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.20
+- Projektový manažment a účtovníctvo v prostrední Dynamics 365 Finance, verzia 10.0.20
  
 ### <a name="quality-updates"></a>Aktualizácie kvality
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komp
 | Cestovanie a výdavky                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Nástroj **Obnoviť stav dokumentu výdavkov** by mal obnoviť stav výkazu výdavkov na **Koncept**, ak nebol nájdený pracovný postup. 
 
 ### <a name="regulatory-updates"></a>Regulačné aktualizácie
-Informácie o regulačných aktualizáciách pre finančné a prevádzkové aplikácie nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou vyhľadávacieho nástroja problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie na riadenie financií a prevádzok nájdete v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou vyhľadávacieho nástroja problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

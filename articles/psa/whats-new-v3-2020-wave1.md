@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v Project Service Automation verzia 3.x, vlna 1 2020
-description: Tento článok poskytuje informácie o tom, čo je nové a čo sa zmenilo vo verzii Project Service Automation 3, vlna 1 2020.
+description: Tento článok poskytuje informácie o tom, čo je nové a zmenené v Project Service Automation verzia 3, vlna 1 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928635"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Tento článok zdôrazňuje kľúčové aspekty inovácie pri prechode na najnovšiu verziu Project Service Automation (PSA) verzie 3.x vlna 1 2020.
+Tento článok zdôrazňuje kľúčové aspekty inovácie pri prechode na najnovšie vydanie Project Service Automation (PSA), verzia 3.x, vlna 1 2020.
 
 ## <a name="time-entry"></a>Zadanie času
 Rozhranie zadávania času bolo rozšírené, aby poskytovalo možnosti na vloženie časového vstupu do viacerých scenárov zákazníkov. Zahŕňa to možnosť pridávať typy položiek, ktoré teraz riadia špecifické správanie na základe názvu schémy poľa **Nastavenia zadania času**, zobrazené ako **Zdroj času**. Na podporu tejto funkcie bolo pridané nové riešenie s názvom Čas, výdavky, štatúty a schválenia (TESA).

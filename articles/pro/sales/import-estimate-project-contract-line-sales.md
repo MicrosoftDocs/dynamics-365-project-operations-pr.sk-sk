@@ -1,6 +1,6 @@
 ---
 title: Import odhadu do riadka zmluvy založenej na projekte – čiastočné
-description: Tento článok poskytuje informácie o importovaní finančných odhadov z projektu do riadku zmluvy.
+description: Tento článok poskytuje informácie o importovaní finančných odhadov z projektu do riadka zmluvy.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo čo sa zmenilo v aplikácii Project Service Automation Early Access Wave 1 2021, V3
-description: V tomto článku sú uvedené funkcie a opravy, ktoré sú k dispozícii v Project Service Automation Early Access Wave 1 2021, V3.
+description: Tento článok obsahuje zoznam funkcií a opráv, ktoré sú dostupné v aktualizácii Project Service Automation Early Access Wave 1 2021, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021

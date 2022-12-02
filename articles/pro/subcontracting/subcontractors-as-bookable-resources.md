@@ -1,6 +1,6 @@
 ---
 title: Nastavenie subdodávateľov ako rezervovateľné zdroje
-description: Tento článok vysvetľuje, ako nastaviť a udržiavať zdroje subdodávateľov, ktoré sú vytvorené od používateľov a kontaktov v systéme, aby ich bolo možné priradiť k subdodávateľským zmluvám v Microsoft Dynamics 365 Project Operations.
+description: Tento článok vysvetľuje, ako nastaviť a udržiavať zdroje subdodávateľov, ktoré sú vytvorené z používateľov a kontaktov v systéme, aby ich bolo možné priradiť k subdodávateľským zmluvám v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

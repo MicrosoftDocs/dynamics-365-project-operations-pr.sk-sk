@@ -1,6 +1,6 @@
 ---
 title: Plány faktúr v riadkoch cenovej ponuky založenej na projekte
-description: Tento článok poskytuje informácie o vytváraní rozvrhov faktúr a míľnikov pre riadky cenovej ponuky.
+description: Tento článok poskytuje informácie o vytváraní harmonogramov faktúr a medzníkov pre riadky cenových ponúk.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Definovanie kalendárov zdrojov
-description: Tento článok poskytuje informácie o tom, ako definovať kalendáre pracovných hodín pre zdroje v Project Operations.
+description: Tento článok poskytuje informácie o tom, ako definovať kalendáre pracovnej doby pre zdroje v Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

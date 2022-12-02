@@ -1,6 +1,6 @@
 ---
 title: Záznam o výdavku (čiastočný)
-description: Tento článok poskytuje informácie o tom, ako pracovať so zadávaním výdavkov v zjednodušenom nasadení.
+description: Tento článok poskytuje informácie o tom, ako pracovať so záznamom o výdavku pri čiastočnom nasadení.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Metódy nákladov na dokončenie
-description: Tento článok poskytuje informácie o metódach používaných na výpočet nákladov na dokončenie projektu.
+description: Tento článok poskytuje informácie o metódach použitých na výpočet nákladov na dokončenie projektu.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8920309"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Tento článok poskytuje informácie o metódach používaných na výpočet nákladov na dokončenie projektu. Existuje niekoľko metód, ktoré môžete použiť na výpočet nákladov na dokončenie projektu. 
+Tento článok poskytuje informácie o metódach použitých na výpočet nákladov na dokončenie projektu. Existuje niekoľko metód, ktoré môžete použiť na výpočet nákladov na dokončenie projektu. 
 
 Keď vytvárate odhad projektu, na stránke **Vytvoriť odhad** v poli **Metóda nákladov na dokončenie** môžete vybrať jednu z nasledujúcich metód nákladov na dokončenie.
 

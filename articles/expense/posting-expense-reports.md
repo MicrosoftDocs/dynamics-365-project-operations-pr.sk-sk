@@ -1,6 +1,6 @@
 ---
 title: Zaúčtovanie výkazov výdavkov
-description: Tento článok vysvetľuje, ako zaúčtovať výkazy výdavkov.
+description: Tento článok vysvetľuje, ako účtovať výkazy výdavkov.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ Ak chcete zaúčtovať výkaz výdavkov, na stránke **Schválené výkazy výda
 
 Môžete tiež zaúčtovať všetky výkazy výdavkov v zozname súčasne. Vyberte všetky výkazy výdavkov a potom vyberte **Príspevok**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Povoľte funkciu Schopnosť účtovať záväzky v mene dodávateľa pre spôsob platby v hotovosti
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Povoľte funkciu Schopnosť účtovať výdavkový záväzok v mene dodávateľa pre spôsob úhrady v hotovosti
 
-The **Schopnosť zaúčtovať výdavkový záväzok v mene dodávateľa pre spôsob platby v hotovosti** funkcia umožňuje zaúčtovať výkazy výdavkov v mene dodávateľa pre spôsob platby v hotovosti.
+Funkcia **Schopnosť účtovať výdavkový záväzok v mene dodávateľa pre spôsob úhrady v hotovosti** umožňuje zaúčtovať výkazy výdavkov v mene dodávateľa pre spôsob úhrady v hotovosti.
 
 V súčasnosti, keď predkladáte hotovostné výdavky, výkazy výdavkov sa účtujú v účtovnej mene. Z dôvodu prevodu sumy medzi menou transakcie, účtovnou menou a menou dodávateľa sa dodávateľom zaplatí nesprávna suma, ak dátum transakcie výdavku a skutočný dátum platby majú rozdielne výmenné kurzy.
 
 Táto funkcia zabezpečí, že zostatok dodávateľa bude zaznamenaný v mene dodávateľa pri zaúčtovaní výkazu výdavkov.
 
 1. Prejdite do časti **Pracovné priestory** \> **Správa funkcií**.
-2. V zozname vyhľadajte a vyberte **Schopnosť zaúčtovať výdavkový záväzok v mene dodávateľa pre spôsob platby v hotovosti** a potom vyberte **Povoliť teraz**.
+2. V zozname vyhľadajte a vyberte **Schopnosť zaúčtovať výdavkový záväzok v mene dodávateľa pre spôsob úhrady v hotovosti** a potom vyberte **Povoliť teraz**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

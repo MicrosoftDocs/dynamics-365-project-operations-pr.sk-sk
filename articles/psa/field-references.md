@@ -1,6 +1,6 @@
 ---
 title: Pridanie vlastných polí do cenového nastavenia a transakčných entít
-description: Tento článok poskytuje informácie o pridávaní vlastných polí do nastavenia ceny a transakčných entít.
+description: Tento článok poskytuje informácie o pridávaní vlastných polí k nastaveniu ceny a transakčných entít.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8920493"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Tento článok predpokladá, že ste dokončili postupy v článku, [Vytvorte si vlastné polia a entity](create-custom-fields-entities.md). Ak ste tieto postupy nedokončili, vráťte sa a dokončite ich a potom sa vráťte k tomuto článku. 
+Tento článok predpokladá, že ste dokončili postupy v článku [Vytvorenie vlastných polí a entít](create-custom-fields-entities.md). Ak ste tieto postupy nedokončili, vráťte sa späť a dokončite ich a potom sa vráťte k tomuto článku. 
 
-V tomto článku vám postupy ukážu, ako pridať požadované odkazy na vlastné polia k entitám a prvkom používateľského rozhrania (UI), ako sú formuláre a zobrazenia.
+V tomto článku vám postupy ukážu, ako pridať požadované vlastné pole odkazy na entity a prvky používateľského rozhrania (UI), ako sú formuláre a zobrazenia.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Pridať vlastné polia dimenzie ocenenia 
 Po vytvorení vlastných polí a entít je ďalším krokom, aby sa cenové nastavenie a transakčné entity dozvedeli o všetkých vlastných entitách alebo množínách možností vytvorením referenčných polí. V závislosti od toho, či zoznam dimenzií cien obsahuje množinu možností, dimenzie alebo dimenzie entity alebo oboje, postupujte iba podľa krokov v **dimenziách vlastného oceňovania založeného na množine možností** alebo **Vlastné cenové dimenzie založené na entite**, resp. oboje.

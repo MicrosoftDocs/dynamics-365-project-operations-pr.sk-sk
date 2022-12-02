@@ -1,6 +1,6 @@
 ---
 title: Správa komplexných jednotiek, napríklad podľa používateľa alebo podľa mesiaca, pre riadky cenových ponúk založených na produkte – čiastočné
-description: Tento článok poskytuje informácie o správe zložitých jednotiek pre cenové ponuky založené na produktoch.
+description: Tento článok poskytuje informácie o správe komplexných jednotiek pre riadky cenových ponúk založených na projekte.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

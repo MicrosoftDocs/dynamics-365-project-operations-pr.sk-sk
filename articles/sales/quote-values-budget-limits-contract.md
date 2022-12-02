@@ -1,6 +1,6 @@
 ---
 title: Nastavenia projektovej cenovej ponuky
-description: Tento článok poskytuje informácie o informáciách a nastaveniach, ktoré sa vzťahujú na cenové ponuky projektov a ovplyvňujú ich.
+description: Tento článok poskytuje popis informácií a nastavení, ktoré sa vzťahujú cenové ponuky projektu, a ktoré ich ovplyvňujú.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

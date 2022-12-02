@@ -1,6 +1,6 @@
 ---
 title: Vytváranie medzipodnikových faktúr zákazníkov a dodávateľov
-description: Tento článok poskytuje informácie o tom, ako vytvoriť medzipodnikové odberateľské a dodávateľské faktúry.
+description: Tento článok poskytuje informácie o tom, ako vytvárať medzipodnikové faktúry zákazníkov a dodávateľov.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Tento postup použite na ručné vytvorenie medzipodnikovej faktúry zákazníka
 
 Nasledujúce kroky musia byť vykonané v požičiavajúcej právnickej osobe. 
 
-1. V Dynamics 365 Finance prejdite na **Projektový manažment a účtovníctvo** > **Projektové faktúry** > **Medzipodnikové odberateľské faktúry**. Na stránke so zoznamom **Medzipodnikové faktúry zákazníka** na table akcií vyberte **Nový**.
+1. V Dynamics 365 Finance prejdite do **Projektový manažment a účtovníctvo** > **Faktúry projektu** > **Medzipodnikové faktúry zákazníka**. Na stránke so zoznamom **Medzipodnikové faktúry zákazníka** na table akcií vyberte **Nový**.
 2. Na stránke **Vytvoriť medzipodnikovú faktúru** v poli **Právnická osoba** si vyberte požičiavajúcu si právnickú osobu.
 3. Voliteľné: Zadajte konkrétnu zmluvu o projekte a číslo projektu.
 4. Zúžte vyhľadávanie výberom rozsahu dátumov. Zadajte konkrétne dátumy do polí **Dátum začiatku** a **Dátum ukončenia**. Vo výsledkoch vyhľadávania sa zobrazia iba medzipodnikové transakcie, ktoré sa zaúčtujú v tomto rozsahu dátumov.

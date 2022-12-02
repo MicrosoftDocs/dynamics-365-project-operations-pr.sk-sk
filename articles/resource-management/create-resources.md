@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie zdrojov
-description: Tento článok poskytuje odkaz na informácie o vytváraní rezervovateľných zdrojov.
+description: Tento článok poskytuje odkaz na informácie o spôsobe vytvorenia rezervovateľných zdrojov.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

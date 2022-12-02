@@ -1,6 +1,6 @@
 ---
 title: Prehľad riadkov zmlúv založených na produkte – čiastočné
-description: Tento článok poskytuje informácie o produktových zmluvných líniách.
+description: Tento článok poskytuje informácie o riadkoch zmluvy založenej na produkte.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

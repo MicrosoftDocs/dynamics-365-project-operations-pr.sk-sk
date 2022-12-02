@@ -1,6 +1,6 @@
 ---
 title: Nastavenie a použitie platieb typu „zaplatiť po zaplatení“ pre dodávateľov
-description: Tento článok vysvetľuje, ako vytvoriť podmienky platby pri platení (PWP), aby ste mohli uvoľniť čiastočné platby dodávateľa na základe platieb zákazníkov.
+description: Tento článok vysvetľuje, ako vytvoriť podmienky PWP (pay-when-paid), aby ste mohli uvoľniť čiastočné platby dodávateľa na základe platieb zákazníka.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

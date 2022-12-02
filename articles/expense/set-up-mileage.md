@@ -1,6 +1,6 @@
 ---
 title: Nastavenie najazdených kilometrov pomocou úrovní najazdených kilometrov
-description: Tento článok poskytuje informácie o sadzbách najazdených kilometrov a úrovniach počtu najazdených kilometrov.
+description: Tento článok poskytuje informácie o najazdených kilometroch a úrovniach najazdených kilometrov.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -52,13 +52,13 @@ Po povolení tejto funkcie obnovte úrovne najazdených kilometrov tak, aby spr�
 
 ## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Povoľte výpočet celkového počtu najazdených kilometrov pomocou funkcie fiškálny rok
 
-The **Výpočet celkových kilometrov od fiškálny rok** funkcia umožňuje nové nastavenie v parametroch riadenia výdavkov, ktoré vykonáva výpočty celkových najazdených kilometrov podľa fiškálny rok namiesto kalendárneho roka. Ak chcete povoliť túto funkciu, vykonajte nasledujúce kroky.
+Funkcia **Výpočet celkového počtu najazdených kilometrov podľa fiškálneho roku** umožňuje nové nastavenie v parametroch správy výdavkov, ktoré vykonáva výpočty celkových najazdených kilometrov podľa fiškálneho roka namiesto kalendárneho roka. Ak chcete povoliť túto funkciu, vykonajte nasledujúce kroky.
 
 1. Prejdite do časti **Pracovné priestory** > **Správa funkcií**.
-1. V zozname vyhľadajte a vyberte **Výpočet celkových kilometrov od fiškálny rok** a potom vyberte **Povoliť teraz**.
-1. Ísť do **Riadenie nákladov** > **Nastaviť** > **generál** > **Parametre riadenia výdavkov**.
-1. Na **Parametre riadenia výdavkov** stránku, vyhľadajte a povoľte **Pre celkové najazdené kilometre použite fiškálny rok**.
+1. V zozname nájdite a vyberte **Výpočet celkového počtu najazdených kilometrov podľa fiškálneho roku** a potom vyberte **Povoliť teraz**.
+1. Prejdite do **Správa výdavkov** > **Nastaviť** > **Všeobecné** > **Parametre správy výdavkov**.
+1. Na stránke **Parametre správy výdavkov** vyhľadajte a povoľte **Pre celkové najazdené kilometre použiť fiškálny rok**.
 
-Po povolení **Pre celkové najazdené kilometre použite fiškálny rok**, celkové najazdené kilometre vypočítava fiškálny rok.
+Po povolení možnosti **Pre celkové najazdené kilometre použiť fiškálny rok** sa celkové najazdené kilometre počítajú podľa fiškálneho roku.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

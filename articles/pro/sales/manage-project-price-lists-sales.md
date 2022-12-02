@@ -1,6 +1,6 @@
 ---
 title: Správa projektových cenníkov v projektových cenových ponukách
-description: Tento článok poskytuje informácie o práci s projektovými cenníkmi na ponukách.
+description: Tento článok poskytuje informácie o práci s cenníkmi projektov v cenových ponukách.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

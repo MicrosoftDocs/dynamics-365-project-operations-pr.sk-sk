@@ -1,6 +1,6 @@
 ---
 title: Prehľad riadkov cenových ponúk založených na produkte – čiastočné
-description: Tento článok poskytuje informácie o práci s riadkami cenových ponúk podľa produktov.
+description: Tento článok poskytuje informácie o práci s riadkami cenovej ponuky založenej na projekte.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

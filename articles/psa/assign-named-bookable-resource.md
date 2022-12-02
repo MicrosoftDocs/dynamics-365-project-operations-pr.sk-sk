@@ -1,6 +1,6 @@
 ---
 title: Rezervácia pomenovaných rezervovateľných zdrojov pre projektový tímu a priradenie úloh
-description: Tento článok poskytuje informácie o tom, ako rezervovať pomenované zdroje pre projektové tímy a ako ich priraďovať k úlohám.
+description: Tento článok poskytuje informácie o spôsobe rezervovania pomenovaných zdrojov pre projektové tímy a ich priradenia k úlohám.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

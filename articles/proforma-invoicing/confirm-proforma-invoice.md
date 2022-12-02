@@ -1,6 +1,6 @@
 ---
 title: Potvrdenie projektovej faktúry pro forma
-description: Tento článok poskytuje informácie o potvrdení proforma faktúry založenej na projekte.
+description: Tento článok poskytuje informácie o tom, ako potvrdiť projektovú faktúru pro forma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

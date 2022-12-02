@@ -1,6 +1,6 @@
 ---
 title: Pridávanie členov tímu z mriežky Člen tímu
-description: Tento článok poskytuje informácie o tom, ako môžete spravovať zdroje členov tímu.
+description: Tento článok poskytuje informácie o tom, ako spravovať zdroje členov tímu.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

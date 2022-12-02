@@ -1,6 +1,6 @@
 ---
 title: Udržiavanie členov tímu
-description: Tento článok poskytuje informácie o rezervovaní pomenovaných zdrojov projektovým tímom a ich priradení k úlohám.
+description: Tento článok poskytuje informácie o rezervovaní pomenovaných zdrojov pre projektové tímy a ich priradení k úlohám.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Čo je nové júni 2021 – nasadenie Project Operations Lite
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní zjednodušeného nasadenia Project Operations z júna 2021.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní nasadenia Project Operations Lite z júna 2021.
 author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8913961"
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
   - Project Operations v prostredí Dataverse verzie 4.11.0.156 alebo 4.11.0.164.
 

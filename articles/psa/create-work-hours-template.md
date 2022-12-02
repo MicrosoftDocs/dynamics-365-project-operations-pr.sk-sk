@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie šablóny pracovnej doby
-description: Tento článok popisuje, ako vytvoriť šablónu pracovného času v Project Service.
+description: Tento článok opisuje postup vytvorenia šablóny pracovných hodín v Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

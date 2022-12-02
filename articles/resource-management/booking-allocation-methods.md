@@ -1,6 +1,6 @@
 ---
 title: Metódy prideľovania rezervácií
-description: Tento článok poskytuje informácie o tom, ako fungujú metódy prideľovania rezervácií v projektových operáciách.
+description: Tento článok poskytuje informácie o tom, ako metódy prideľovania rezervácií fungujú v Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8912765"
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Či už pridáte člena tímu priamo k projektu na karte **tím** alebo zarezervujete zdroj k projektu alebo požiadavke na tabule plánu, existuje niekoľko rôznych spôsobov priradenia rezervácie, ktoré možno využiť. Tento článok vysvetľuje, ako jednotlivé metódy fungujú a ktoré metódy môžu viesť k nadmernej rezervácii zdrojov.
+Či už pridáte člena tímu priamo k projektu na karte **tím** alebo zarezervujete zdroj k projektu alebo požiadavke na tabule plánu, existuje niekoľko rôznych spôsobov priradenia rezervácie, ktoré možno využiť. Tento článok vysvetľuje, ako každá metóda funguje, a aké metódy by mohli viesť k nadmernej rezervácii zdrojov.
 
 ## <a name="booking-allocation-methods"></a>Metódy prideľovania rezervácií
 

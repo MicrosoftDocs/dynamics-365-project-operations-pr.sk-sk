@@ -1,6 +1,6 @@
 ---
 title: Prečo nemôžem odstrániť záznamy z entity skutočných hodnôt?
-description: Tento článok poskytuje informácie o tom, prečo nemôžete odstrániť záznamy zo skutočnej entity.
+description: Tento článok poskytuje informácie o tom, prečo nie je možné odstrániť záznamy z entity skutočných hodnôt.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Nastavenie nákladových a predajných sadzieb pre výdavky
-description: Tento článok poskytuje informácie o tom, ako nastaviť náklady a sadzby predaja pre kategórie transakcií a výdavkov.
+description: Tento článok poskytuje informácie o tom, ako nastaviť sadzby nákladov a predaja pre kategórie transakcie a výdavkov.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

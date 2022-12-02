@@ -1,6 +1,6 @@
 ---
 title: Splnenie všeobecných požiadaviek zdrojov
-description: Tento článok poskytuje informácie o tom, ako rezervovať pomenované zdroje pre všeobecnú požiadavku na zdroj.
+description: Tento článok poskytuje informácie o tom, ako rezervovať pomenované zdroje pre požiadavku na všeobecné zdroje.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

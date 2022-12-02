@@ -1,6 +1,6 @@
 ---
 title: Jednotkové skupiny a jednotky
-description: Tento článok poskytuje informácie o skupinách a jednotkách jednotiek.
+description: Tento článok poskytuje informácie o jednotkových skupinách a jednotkách.
 author: rumant
 ms.custom:
 - dyn365-projectservice

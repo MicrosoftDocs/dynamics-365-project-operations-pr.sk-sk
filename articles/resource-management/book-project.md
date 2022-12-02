@@ -1,6 +1,6 @@
 ---
 title: Rezervovanie projektu
-description: Tento článok poskytuje informácie o rezervácii zdroja pre projekt.
+description: Tento článok poskytuje informácie o rezervácii zdrojov pre projekt.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article

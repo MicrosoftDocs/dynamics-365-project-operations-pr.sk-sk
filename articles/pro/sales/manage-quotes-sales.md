@@ -1,6 +1,6 @@
 ---
 title: Správa projektových cenových ponúk
-description: Tento článok poskytuje informácie o ponukách projektov.
+description: Tento článok poskytuje informácie o projektových cenových ponukách.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Zoznam všetkých projektových cenových ponúk je uvedený na stránke so zozn
 Cenové ponuky je možné vytvárať alebo mazať z tejto stránky so zoznamom alebo zo stránok s podrobnosťami.
 
  > [!NOTE]
- > Cenové ponuky, ku ktorým sú priradené projekty, úlohy, odhady, denníky a/alebo skutočnosti, nemožno odstrániť. Taktiež, keď je cenová ponuka uzavretá ako Vyhraná alebo Stratená, už ju nemožno vymazať ani upraviť. 
+ > Cenové ponuky, ku ktorým sú priradené projekty, úlohy, odhady, denníky a/alebo skutočné hodnoty, nemožno odstrániť. Taktiež, keď je cenová ponuka uzavretá ako využitá alebo nevyužitá, už ju nemožno odstrániť ani upraviť. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

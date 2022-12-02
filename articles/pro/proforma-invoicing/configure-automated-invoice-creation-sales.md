@@ -1,6 +1,6 @@
 ---
 title: Nastavenie automatického vytvárania faktúr
-description: Tento článok poskytuje informácie o nastavení a konfigurácii automatického vytvárania proforma faktúr.
+description: Tento článok poskytuje informácie o nastavení a konfigurácii automatického vytvárania faktúr pro forma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

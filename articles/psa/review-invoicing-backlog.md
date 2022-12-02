@@ -1,6 +1,6 @@
 ---
 title: Skontrolujte fakturačné oneskorenie projektov a projektových zmlúv
-description: Tento článok poskytuje informácie o tom, ako skontrolovať nevybavené položky času, výdavkov a produktov a ako ich označiť ako pripravené na fakturáciu.
+description: Tento článok poskytuje informácie o tom, ako skontrolovať čas, výdavky a backlogy produktu a ako ich označiť ako pripravené na fakturáciu.
 author: rumant
 ms.custom: ''
 ms.author: rumant

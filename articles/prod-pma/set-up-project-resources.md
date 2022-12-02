@@ -1,6 +1,6 @@
 ---
 title: Nastavenie zdrojov pre projekty
-description: Tento článok poskytuje informácie o nastavení alebo vyžiadaní zdrojov projektu.
+description: Tento článok poskytuje informácie o nastavení alebo požadovaní zdrojov projektu.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

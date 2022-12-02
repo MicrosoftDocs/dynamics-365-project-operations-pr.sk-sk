@@ -35,21 +35,21 @@ ms.locfileid: "9177445"
 ## <a name="components-of-project-template"></a>Súčasti šablóny projektu
  Šablóna projektu pozostáva z troch zložiek:  
   
-- **Štruktúra rozdelenia práce**: Štruktúra rozdelenia práce je šablóna projektu s rovnakými prvkami, ktoré sú aj v projekte. Môžete vytvoriť hierarchiu úloh, priradiť roly k úlohe, definovať atribúty plánu, nastaviť závislosti a zobraziť všetky údaje v Ganttovom grafe. Štruktúra rozpisu práce v šablónach projektov tiež podporuje režimy úloh pre každú úlohu. Pri vytváraní harmonogramu prác nie je rozdiel medzi šablónou projektu a projektom.  
+- **Štruktúra rozdelenia práce**: Štruktúra rozdelenia práce je šablóna projektu s rovnakými prvkami, ktoré sú aj v projekte. Môžete si vytvoriť hierarchiu úloh, priradiť roly k úlohám, zadefinovať atribúty plánov, nastaviť závislosti a pozrieť si všetky údaje v Ganttovom grafe. Štruktúra rozdelenia práce predstavuje šablónu projektu, ktorá podporuje aj režimy úloh pre jednotlivé úlohy. Pri vytváraní pracovného harmonogramu neexistuje žiadny rozdiel medzi šablónou projektu a projektom.  
   
 - **Projektové odhady**: projektové odhady v šablónach fungujú rovnako, ako v projektoch. Jediným rozdielom je cenník pre predvolené určenie nákladov a predajných cien, ktorý predstavuje predvolené cenníky nákladov a predajných cien zadefinovaných v parametre [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Zvyšok funkcií je rovnaký ako v projekte.  
   
 - **Vytvorenie tímu projektu**: Pri vytváraní projektového tímu šablóny projektu si v nej nemôžete zarezervovať pomenovaný zdroj. V štruktúre rozdelenia prác môžete použiť funkciu **Generovať projektový tím**, čím vytvoríte súbor všeobecných zdrojov. Môžete tiež zadať požadovaných schopnosti a zručností všeobecných zdrojov. Všeobecný zdroj nemôžete nahradiť rezervovateľným zdrojom v šablónach projektu.  
 
-## <a name="create-a-project-template-from-an-existing-project"></a>Vytvorte šablónu projektu z existujúceho projektu
-Šablónu projektu môžete vytvoriť z projektu nasledujúcimi spôsobmi:
+## <a name="create-a-project-template-from-an-existing-project"></a>Vytvorenie projektovej šablóny z existujúceho projektu
+Šablónu projektu môžete vytvoriť z projektu nasledovne:
 
-- **Štruktúra rozpisu práce** : Štruktúra rozpisu práce v šablóne, ktorá je odvodená z projektu, skopíruje všetky úlohy a závislosti. Vytvorené priradenia budú založené na všeobecných členoch tímu, ktorí sa pridajú do projektového tímu pri vytváraní šablóny projektu.
-- **Projektové odhady** : Keď sa vytvorí šablóna projektu z existujúceho projektu, odhady zo zdrojového projektu sa skopírujú do šablóny projektu.
-- **Členovia projektového tímu** : Keď sa vytvorí šablóna z existujúceho projektu, všetci pomenovaní členovia tímu sa nahradia všeobecným zdrojom organizácie. Všetky názvy pozícií a roly sú zachované.
+- **Štruktúra rozdelenia práce**: Štruktúra rozdelenia práce v šablóne, ktorá je odvodená z projektu, skopíruje všetky úlohy a závislosti. Vytvorené priradenia budú založené na všeobecných členoch tímu, ktorí sa pridajú do projektového tímu pri vytváraní šablóny projektu.
+- **Odhady projektu**: Keď sa vytvorí šablóna projektu z existujúceho projektu, odhady zo zdrojového projektu sa skopírujú do šablóny projektu.
+- **Členovia projektového tímu**: Keď sa vytvorí šablóna z existujúceho projektu, všetci pomenovaní členovia tímu sa nahradia všeobecným zdrojom organizácie. Všetky názvy pozícií a roly sú zachované.
 
 ## <a name="create-a-project-from-a-template"></a>Vytvorenie projektu zo šablóny  
- Projekt môžete vytvoriť zo šablóny nasledujúcimi spôsobmi:  
+ Projekt zo šablóny môžete vytvoriť nasledovne:  
   
 -   Pri vytváraní projektu z cenovej ponuky si môžete vybrať šablónu projektu vo formulári rýchleho vytvárania projektu.  
   

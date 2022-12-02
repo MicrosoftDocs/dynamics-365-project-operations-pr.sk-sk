@@ -1,6 +1,6 @@
 ---
 title: Prezrite si správu o výdavkoch z hlavnej knihy alebo obstarávania a získavania zdrojov
-description: Tento článok vysvetľuje, ako zobraziť pôvodnú správu o výdavkoch, v ktorej sa transakcia objavila.
+description: Tento článok vysvetľuje, ako zobraziť pôvodný výkaz výdavkov, v ktorom sa transakcia objavila.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

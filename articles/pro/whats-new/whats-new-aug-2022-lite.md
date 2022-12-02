@@ -1,6 +1,6 @@
 ---
 title: Čo je nové v auguste 2022 – čiastočné nasadenie Project Operations
-description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní spoločnosti Microsoft z augusta 2022 Dynamics 365 Project Operations lite nasadenie.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní nasadenia Microsoft Dynamics 365 Project Operations lite z augusta 2022.
 author: ramagadu
 ms.date: 08/19/2022
 ms.topic: article
@@ -18,16 +18,16 @@ ms.locfileid: "9403923"
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok sa vzťahuje na nasledujúce súčasti a verzie systému Microsoft Dynamics 365 Project Operations:
+Tento článok sa týka nasledujúcich komponentov a verzií Microsoft Dynamics 365 Project Operations:
 
-- Projektové operácie v a Dataverse verzia prostredia 4.45.0.53
+- Project Operations v prostredí Dataverse verzie 4.45.0.53
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
 | Oblasť funkcií | Číslo odkazu | Aktualizácia kvality |
 | --- | --- | --- |
 | Správa príležitostí | 2762089 | Ošetrenie chýb pri uzatváraní zmluvy ako stratenej, ak je v organizácii vypnuté automatické ukladanie.|
-|Plánovanie a sledovanie projektu | 2767841 | Aktualizácie telemetrie Entita projektu Vytvorenie alebo aktualizácia scenárov.|
-|Fakturácia a tvorba cien | 2771072 | Spracovanie výnimiek z nulovej referencie pri vyhrávaní cenovej ponuky.|
+|Plánovanie a sledovanie projektu | 2767841 | Aktualizácie telemetrie projektovej entity v scenároch vytvorenia alebo aktualizácie.|
+|Fakturácia a tvorba cien | 2771072 | Spracovanie výnimiek odkazu na hodnotu null pri získanej cenovej ponuke.|
 |Fakturácia a tvorba cien | 2844181 |Nepodarilo sa získať ID korelácie a zablokovať vytvorenie faktúry.|
-|Fakturácia a tvorba cien | 2852836 | Medzipodnikové skutočné údaje chýbajú pre medzipodnikové výdavky vytvorené a schválené v CE.|
+|Fakturácia a tvorba cien | 2852836 | Medzipodnikové skutočné hodnoty chýbajú pre medzipodnikové výdavky vytvorené a schválené v CE.|

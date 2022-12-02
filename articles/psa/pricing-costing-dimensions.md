@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka dimenzíí ceny a ocenenia
-description: Tento článok poskytuje prehľad cenových dimenzií.
+description: Tento článok poskytuje prehľad dimenzií cien.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ PSA lode s predvolenou sadou cenových dimenzií. Tieto môžete zobraziť tak, 
 > [!IMPORTANT]
 > Ak ste boli používateľom polí role out-of-box a organizačnej jednotky ako cenové dimenzie pred verziou 3 PSA, nebudú žiadne pozorovateľné zmeny. Môžete naďalej používať Project Service ako zvyčajne. 
 
-Ak potrebujete ceny alebo náklady na svoje zdroje pomocou ďalších atribútov, môžete vytvoriť prispôsobené polia, entity a dimenzie. Ďalšie informácie nájdete v nasledujúcich článkoch, avšak nezabudnite, že postupy musíte vykonať v poradí uvedenom nižšie:
+Ak potrebujete ceny alebo náklady na svoje zdroje pomocou ďalších atribútov, môžete vytvoriť prispôsobené polia, entity a dimenzie. Ďalšie informácie nájdete v nasledujúcich článkoch, avšak uvedomte si, že musíte vykonať postupy v uvedenom poradí:
 
 - [Vytvorte vlastné polia a entity](create-custom-fields-entities.md)
 - [Pridanie vlastných polí do cenového nastavenia a transakčných entít](field-references.md)

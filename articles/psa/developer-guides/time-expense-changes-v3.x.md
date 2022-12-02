@@ -1,6 +1,6 @@
 ---
 title: Zmeny času a výdavku (Project Service Automation 3.x)
-description: Tento článok poskytuje informácie o zmenách riešenia pre čas a výdavky.
+description: Tento článok poskytuje informácie o zmenách riešenia času a nákladov.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Prehľad času
-description: Tento článok poskytuje informácie o funkcii Čas v Dynamics 365 Project Operations.
+description: Tento článok poskytuje informácie o funkcii Čas v aplikácii Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

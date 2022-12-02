@@ -1,6 +1,6 @@
 ---
 title: Definovanie požiadaviek zdrojov
-description: Tento článok poskytuje informácie o definovaní informácií o požiadavkách na zdroje.
+description: Tento článok poskytuje informácie o definovaní informácií o požiadavkách zdrojov.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

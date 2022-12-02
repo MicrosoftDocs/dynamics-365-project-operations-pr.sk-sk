@@ -1,6 +1,6 @@
 ---
 title: Nastavenie udržania dodávateľov
-description: Tento článok vysvetľuje, ako nastaviť uchovávanie dodávateľov.
+description: Tento článok vysvetľuje, ako nastaviť udržanie dodávateľa.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929785"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Tento článok poskytuje informácie o tom, ako nastaviť uchovávanie dodávateľov.
+Tento článok poskytuje informácie, ako nastaviť udržanie dodávateľa.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Nastavte si účet udržania dodávateľa v hlavnej knihe
 
-1. V Dynamics 365 Finance prejdite na **Hlavná kniha** > **Nastavenie odosielania** > **Účty pre automatické transakcie**.
+1. V Dynamics 365 Finance prejdite na **Hlavná kniha** > **Nastavenie účtovania** > **Účty pre automatické transakcie**.
 2. Pridajte nový riadok.
 3. V poli **Typ účtovania** vyberte **Udržanie dodávateľa**.
 4. Vyberte hlavný účet pre účtovanie udržania dodávateľa.

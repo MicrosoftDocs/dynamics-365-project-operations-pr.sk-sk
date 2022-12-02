@@ -1,6 +1,6 @@
 ---
 title: Viacmenové scenáre (verzia 3.x)
-description: Tento článok poskytuje informácie o scenároch s viacerými menami.
+description: Tento článok poskytuje informácie o viacmenových scenároch.
 author: rumant
 ms.custom:
 - dyn365-projectservice

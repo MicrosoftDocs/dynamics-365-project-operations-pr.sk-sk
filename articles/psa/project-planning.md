@@ -43,7 +43,7 @@ Nástroje na správu projektov v zariadení PSA vám pomôžu jednoducho spúš�
 - Predpovedzte zdrojové požiadavky pri projektoch, ktoré sú v kanáli
 - Úspešne dodajte projekty sledovaním pokroku a spotreby nákladov.
 
-Nasledujúce články poskytujú informácie, ktoré pomôžu projektovým manažérom odhadnúť prácu, odhadnúť náklady projektu a predpovedať požiadavky na zdroje pomocou nástrojov, ktoré sú podporované v PSA:
+Nasledujúce články poskytujú informácie, ktoré pomôžu projektovým manažérom odhadnúť prácu, odhadnúť náklady na projekt a predpovedať zdrojové požiadavky pomocou nástrojov, ktoré sú podporované v PSA:
 
 - [Vytvorenie plánu](project-creating.md)
 - [Odhadovanie a sledovanie projektových nákladov a výnosov](project-estimating.md)

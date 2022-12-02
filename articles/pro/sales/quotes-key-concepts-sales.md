@@ -1,6 +1,6 @@
 ---
 title: Cenové ponuky – Kľúčové koncepty – čiastočné
-description: Tento článok poskytuje informácie o používaní projektových ponúk v Project Operations.
+description: Tento článok poskytuje informácie o používaní projektových cenových ponúk v Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Správa projektových zmlúv
-description: Tento článok poskytuje informácie o prezeraní zmlúv založených na projekte.
+description: Tento článok poskytuje informácie o prezeraní projektových zmlúv.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Zoznam všetkých projektových zmlúv je uvedený na stránke so zoznamom **Zml
 Zmluvy je možné vytvárať alebo mazať z tejto stránky so zoznamom alebo zo stránok s podrobnosťami.
 
 > [!NOTE]
-> Zmluvy, ku ktorým sú priradené projekty, úlohy, odhady, denníky a/alebo skutočnosti, nemožno odstrániť. 
+> Zmluvy, ku ktorým sú priradené projekty, úlohy, odhady, denníky a/alebo skutočné hodnoty, nemožno odstrániť. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

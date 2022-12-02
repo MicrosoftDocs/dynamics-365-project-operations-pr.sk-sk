@@ -1,6 +1,6 @@
 ---
 title: Príručka správy zdrojov
-description: Tento článok poskytuje prepojenia na informácie o správe zdrojov v Project Service Automation
+description: Tento článok obsahuje prepojenia na informácie o riadení zdrojov v Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910817"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Odkaz na PDF, ktorý bol predtým v tomto článku, bol odstránený a obsah bol presunutý do nasledujúcich článkov:
+Odkaz PDF, ktorý bol predtým v tomto článku odstránený a obsah bol presunutý do nasledujúcich článkov:
 
 - [Domovská stránka Správa zdrojov](../resource-management-home-page.md)
 - [Kľúčové koncepty](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Odkaz na PDF, ktorý bol predtým v tomto článku, bol odstránený a obsah bol
 - [Časté otázky pre správu zdrojov](../resource-management-faq.md)
 
 > [!NOTE]
-> Tento článok bude odstránený v budúcej aktualizácii dokumentácie. 
+> Tento článok sa odstráni v budúcej aktualizácii dokumentácie. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

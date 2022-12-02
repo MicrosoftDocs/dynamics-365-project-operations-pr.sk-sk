@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Spustite mapy duálneho zápisu pre skladové materiály a integráciu faktúr dodávateľa
 
-Táto časť poskytuje informácie o konkrétnych mapách požadovaných pre neskladované materiály a faktúry dodávateľov. Skontrolujte, či sú požadované mapy uvedené v [Poskytnutie nového prostredia](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) článok beží vo vašom prostredí.
+Táto časť poskytuje informácie o konkrétnych mapách požadovaných pre neskladované materiály a faktúry dodávateľov. Overte, či sú nevyhnutné mapy uvedené v článku [Zriadenie nového prostredia](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) spustené vo vašom prostredí.
 
 1. Prejdite na stránku Lifecycle Services (LCS), prejdite na svoj projekt LCS a prejdite na stránku **Podrobnosti o prostredí**.
 2. V časti **Informácie o prostredí Common Data Service** stlačte možnosť **Odkaz na CDS for Apps**. Po výbere odkazu budete presmerovaní na zoznam entít v mapovaní.

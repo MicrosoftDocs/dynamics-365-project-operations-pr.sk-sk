@@ -1,6 +1,6 @@
 ---
 title: Projektové faktúry pro forma
-description: Tento článok poskytuje informácie o proforma projektových faktúrach v Project Operations.
+description: Tento článok poskytuje informácie o projektových faktúrach pro forma v Project Operations.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

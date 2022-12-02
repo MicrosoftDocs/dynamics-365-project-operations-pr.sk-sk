@@ -1,6 +1,6 @@
 ---
 title: Nastavenie nákladových sadzieb za prácu – čiastočné
-description: Tento článok poskytuje informácie o tom, ako nastaviť sadzby nákladov na prácu v projektových operáciách.
+description: Tento článok poskytuje informácie o tom, ako nastaviť sadzby nákladov pre prácu v Project Operations.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

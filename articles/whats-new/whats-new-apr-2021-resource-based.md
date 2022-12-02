@@ -1,6 +1,6 @@
 ---
 title: Čo je nové v apríli 2021 – Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z apríla 2021 pre scenáre založené na zdrojoch alebo bez zásob.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z apríla 2021 pre scenáre založené na zdrojoch/neskladovaných položkách.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029273"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
 - Project Operations v prostredí Dataverse verzie 4.9.0.221
-- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.17
+- Projektový manažment a účtovníctvo v prostrední Dynamics 365 Finance, verzia 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 
@@ -42,13 +42,13 @@ Nasledujúci zoznam zobrazuje mapy duálneho zapisovania, ktoré boli upravené 
 | **Mapa entity** | **Aktualizovaná verzia** | **Vytvoril** |
 | --- | --- | --- |
 | Skutočné hodnoty integrácie Project Operations (msdyn\_actuals) | 1.0.0.14 | Mapa bola upravená na synchronizáciu skutočných hodnôt projektu. |
-| Entita integrácie Project Operations pre odhady výdavkov (msdyn\_estimateslines) | 1.0.0.2 | Pridaná synchronizácia riadku projektovej zmluvy do finančných a prevádzkových aplikácií pre podporu fakturácie na základe úloh. |
-| Entita integrácie Project Operations pre odhady hodín (msdyn\_resourceassignments) | 1.0.0.5 | Pridaná synchronizácia riadku projektovej zmluvy do finančných a prevádzkových aplikácií pre podporu fakturácie na základe úloh. |
-| Tabuľka integrácie Project Operations pre materiálové odhady (msdyn\_estimatelines) | 1.0.0.0 | Nová tabuľková mapa na synchronizáciu odhadov materiálu Dataverse na finančné a prevádzkové aplikácie. |
-| Entita exportu faktúr projektu dodávateľa projektu Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nová tabuľková mapa na synchronizáciu hlavičiek faktúr dodávateľov z finančných a prevádzkových aplikácií do Dataverse. |
-| Riadok entity exportu faktúr projektu dodávateľa projektu Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nová tabuľková mapa na synchronizáciu riadkov faktúr dodávateľa z finančných a prevádzkových aplikácií do Dataverse. |
+| Entita integrácie Project Operations pre odhady výdavkov (msdyn\_estimateslines) | 1.0.0.2 | Pridaná synchronizácia riadkov projektovej zmluvy do aplikácií na riadenie financií a prevádzok na podporu fakturácie podľa úloh. |
+| Entita integrácie Project Operations pre odhady hodín (msdyn\_resourceassignments) | 1.0.0.5 | Pridaná synchronizácia riadkov projektovej zmluvy do aplikácií na riadenie financií a prevádzok na podporu fakturácie podľa úloh. |
+| Tabuľka integrácie Project Operations pre materiálové odhady (msdyn\_estimatelines) | 1.0.0.0 | Nová mapa tabuľky na synchronizáciu odhadov materiálu z Dataverse do aplikácií na riadenie financií a prevádzok. |
+| Entita exportu faktúr projektu dodávateľa projektu Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nová mapa tabuľky na synchronizáciu hlavičiek faktúry dodávateľa z aplikácií na riadenie financií a prevádzok do Dataverse. |
+| Riadok entity exportu faktúr projektu dodávateľa projektu Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nová mapa tabuľky na synchronizáciu riadkov faktúry dodávateľa z aplikácií na riadenie financií a prevádzok do Dataverse. |
 
-Pri aktualizácii operácií projektu by ste mali vždy spustiť najnovšiu verziu mapy vo svojom prostredí a povoliť všetky súvisiace mapy tabuliek Dataverse verzia riešenia a financií a prevádzky. Ak nie je aktivovaná najnovšia verzia mapy, niektoré funkcie a možnosti nemusia fungovať správne. Aktívnu verziu mapy môžete vidieť v stĺpci **Verzia** na stránke **Duálny zápis**. Novú verziu mapy môžete aktivovať výberom možnosti **Verzie mapy tabuľky**, zvolením najnovšej verzie a potom uložením vybratej verzie. Ak ste prispôsobili predpripravenú mapu tabuľky, znova použite zmeny. Ďalšie informácie si prečítajte v časti [Správa životného cyklu aplikácie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Pri aktualizácií verzie svojho riešenia Project Operations Dataverse a riešenia financií a operácií musíte vždy spúšťať najnovšiu verziu mapy svojho prostredia a aktivovať všetky súvisiace mapy tabuliek. Ak nie je aktivovaná najnovšia verzia mapy, niektoré funkcie a možnosti nemusia fungovať správne. Aktívnu verziu mapy môžete vidieť v stĺpci **Verzia** na stránke **Duálny zápis**. Novú verziu mapy môžete aktivovať výberom možnosti **Verzie mapy tabuľky**, zvolením najnovšej verzie a potom uložením vybratej verzie. Ak ste prispôsobili predpripravenú mapu tabuľky, znova použite zmeny. Ďalšie informácie si prečítajte v časti [Správa životného cyklu aplikácie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ak narazíte na problém so spustením mapy, postupujte podľa pokynov v časti [Problém s chýbajúcimi stĺpcami tabuľky v mapách](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) v časti Sprievodca riešením problémov s duálnym zápisom.
 
@@ -79,7 +79,7 @@ Ak narazíte na problém so spustením mapy, postupujte podľa pokynov v časti 
 | Čas a výdavky | 2204377 | Po výbere **Kopírovať týždeň** počas zadávania času sa musia skopírované časové rozvrhy zobraziť automaticky. |
 | Čas a výdavky | 2209059 | Pole **Stav** je možné upraviť pre časové rozvrhy Dynamics 365 Field Service. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
 
 | **Oblasť funkcií** | **Číslo odkazu** | **Aktualizácia kvality** |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie riešenia pre vlastné cenové dimenzie
-description: Tento článok poskytuje informácie o tom, ako vytvoriť riešenia pre vlastné cenové dimenzie.
+description: Tento článok poskytuje informácie o vytváraní riešení pre vlastné cenové dimenzie.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

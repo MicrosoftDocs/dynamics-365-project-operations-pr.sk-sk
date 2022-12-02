@@ -1,6 +1,6 @@
 ---
 title: Vytvoriť zadanie času
-description: Tento článok poskytuje informácie o vytváraní časových záznamov.
+description: Tento článok poskytuje informácie o tom, ako vytvoriť zadania času.
 author: rumant
 ms.custom:
 - dyn365-projectservice

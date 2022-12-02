@@ -1,6 +1,6 @@
 ---
 title: Konfigurácia medzipodnikovej fakturácie
-description: Tento článok poskytuje informácie a príklady konfigurácie vnútropodnikovej fakturácie pre projekty.
+description: Tento článok poskytuje informácie a príklady konfigurácie medzipodnikovej fakturácie pre projekty.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ V nasledujúcom príklade je požičiavajúcou si právnickou osobou spoločnos�
 
 1. **Nakonfigurujte medzipodnikové účtovníctvo medzi právnickými osobami**. Každá dvojica požičiavajúcich si a požičiavajúcich právnických osôb musí byť nakonfigurovaná na stránke hlavnej účtovnej knihy [Medzipodnikové účtovníctvo](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. V Dynamics 365 Finance prejdite na **hlavná kniha** > **Nastavenie odosielania** > **Vnútropodnikové účtovníctvo**. Vytvorte záznam s nasledujúcimi informáciami:
+    1. V Dynamics 365 Finance prejdite do **Hlavná účtovná kniha** > **Nastavenie účtovania** > **Účtovanie medzi spoločnosťami**. Vytvorte záznam s nasledujúcimi informáciami:
 
         - **Pôvodná spoločnosť** = **GBPM**
         - **Cieľová spoločnosť** = **USPM**

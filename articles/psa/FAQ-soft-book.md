@@ -1,6 +1,6 @@
 ---
 title: Predbežná rezervácia zdroja
-description: Tento článok poskytuje informácie o tom, ako predbežne naplánovať alebo rezervovať členov projektového tímu.
+description: Tento článok poskytuje informácie o tom, ako predbežne naplánovať alebo predbežne rezervovať členov projektového tímu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

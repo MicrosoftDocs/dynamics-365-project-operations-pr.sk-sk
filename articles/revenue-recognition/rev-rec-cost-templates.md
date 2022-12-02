@@ -1,6 +1,6 @@
 ---
 title: Nastavenie šablón nákladov
-description: Tento článok poskytuje informácie o vytváraní a používaní šablón nákladov v prevádzke projektu.
+description: Tento článok poskytuje informácie o tom, ako vytvoriť a používať šablóny nákladov v Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918423"
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 
-Tento článok poskytuje informácie o vytváraní a používaní šablón nákladov v prevádzke projektu. Šablóna nákladov určuje:
+Tento článok poskytuje informácie o tom, ako vytvoriť a používať šablóny nákladov v Project Operations. Šablóna nákladov určuje:
 
 - Kategórie projektu pre prognózy a skutočné transakcie, ktoré sa majú zahrnúť do percenta výpočtu dokončenia projektu. Hodnota percenta dokončenia sa potom použije na výpočet výšky vykázaného výnosu.
 - Či je možné percento dokončenia zmeniť, ak sa počíta automaticky.
@@ -56,7 +56,7 @@ Rozhodnutie, aký prístup zvoliť pri tvorbe šablóny nákladov, môže závis
 ## <a name="create-cost-templates"></a>Vytvorenie šablón nákladov
 Ak chcete vytvoriť šablóny nákladov, postupujte podľa týchto krokov:
 
-1. Ak chcete získať prístup k šablónam nákladov, v prostredí Dynamics 365 Finance prejdite na adresu **Projektový manažment a účtovníctvo** > **Nastaviť** > **Odhady** > **Šablóna nákladov**.
+1. Ak chcete pristupovať k šablónam nákladov, v prostredí Dynamics 365 Finance prejdite do **Projektový manažment a účtovníctvo** > **Nastavenie** > **Odhady** > **Šablóna nákladov**.
 2. Ak chcete vytvoriť novú šablónu nákladov, zvoľte položku **Nová**. Zadajte názov a popis.
 3. Uveďte identifikátor nákladového riadka pre každý typ transakcie.
 4. Vyberte predvolenú metódu dokončenia:

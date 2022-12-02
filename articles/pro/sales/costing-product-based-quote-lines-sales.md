@@ -1,6 +1,6 @@
 ---
 title: Náklady v riadkoch cenových ponúk založených na produkte
-description: Tento článok poskytuje informácie o použití nákladovej ceny na cenovú ponuku založenú na produkte.
+description: Tento článok téma poskytuje informácie o uplatnení obstarávacej ceny na riadok cenovej ponuky založený na produkte.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

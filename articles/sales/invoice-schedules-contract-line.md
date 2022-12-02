@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie plánu faktúr v riadku zmluvy na základe projektu
-description: Tento článok poskytuje informácie o tom, ako vytvoriť rozvrhy faktúr a míľniky v riadkoch zmluvy.
+description: Tento článok poskytuje informácie o vytváraní harmonogramov faktúr a medzníkov pre riadky zmluvy.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

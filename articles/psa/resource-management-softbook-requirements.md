@@ -1,6 +1,6 @@
 ---
 title: Samostatná rezervácia zdrojov
-description: Tento článok poskytuje informácie o požiadavkách na soft-book.
+description: Tento článok poskytuje informácie o požiadavkách na predbežnú rezerváciu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

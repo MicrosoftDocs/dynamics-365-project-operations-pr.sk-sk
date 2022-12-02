@@ -1,6 +1,6 @@
 ---
 title: Mena
-description: Tento článok poskytuje informácie o tom, ako pridať a odstrániť typy mien v prevádzke projektu.
+description: Tento článok poskytuje informácie o tom, ako pridávať a odstraňovať typy mien v Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

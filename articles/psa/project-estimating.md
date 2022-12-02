@@ -1,6 +1,6 @@
 ---
 title: Výnosy a náklady projektu
-description: Tento článok poskytuje informácie o odhadovaní nákladov a výnosov projektu.
+description: Tento článok poskytuje informácie o odhadovaní projektových nákladov a výnosov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

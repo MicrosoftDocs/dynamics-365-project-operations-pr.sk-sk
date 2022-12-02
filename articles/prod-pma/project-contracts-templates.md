@@ -1,6 +1,6 @@
 ---
 title: Synchronizácia projektových zmlúv a projektov priamo z Project Service Automation do Finance
-description: Tento článok popisuje šablónu a základné úlohy, ktoré sa používajú na synchronizáciu projektových zmlúv a projektov priamo z nich Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+description: Tento článok popisuje šablónu a základné úlohy, ktoré sa používajú na synchronizáciu projektových zmlúv a projektov priamo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933879"
 
 
 
-Tento článok popisuje šablónu a základné úlohy, ktoré sa používajú na synchronizáciu projektových zmlúv a projektov priamo z nich Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+Tento článok popisuje šablónu a základné úlohy, ktoré sa používajú na synchronizáciu projektových zmlúv a projektov priamo z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
 > [!NOTE] 
 > Ak používate Enterprise edition 7.3.0, musíte nainštalovať KB 4074835.
@@ -120,7 +120,7 @@ Keď sa použije integračné riešenie Project Service Automation to Finance, i
 
 ## <a name="power-query"></a>Power Query
 
-Použite Microsoft Power Query aby Excel filtroval údaje, ak sú splnené nasledujúce podmienky:
+Na filtrovanie údajov použite program Microsoft Power Query for Excel, ak sú splnené nasledujúce podmienky:
 
 - Predajné objednávky nájdete v Dynamics 365 Sales.
 - V službe Project Service Automation máte viac organizačných jednotiek a tieto organizačné jednotky budú namapované na viaceré právnické osoby v službe Finance.
@@ -128,7 +128,7 @@ Použite Microsoft Power Query aby Excel filtroval údaje, ak sú splnené nasle
 Ak musíte použiť Power Query, postupujte podľa týchto pokynov:
 
 - Šablóna Projekty a zmluvy (PSA pre Fin a Ops) má predvolený filter, ktorý obsahuje iba predajné objednávky **Pracovná položka typu (msdyn\_ordertype = 192350001)**. Tento filter pomáha zaručiť, že sa pre zákazky odberateľa v službe Finance nevytvoria projektové zmluvy. Ak vytvárate vlastnú šablónu, musíte pridať tento filter.
-- Vytvor Power Query filter, ktorý zahŕňa iba zmluvné organizácie, ktoré by mali byť synchronizované s právnickou osobou sady integračných pripojení. Napríklad projektové zmluvy, ktoré máte so zmluvnou organizačnou jednotkou spoločnosti Contoso USA, by sa mali synchronizovať s právnickou osobou USSI, ale projektové zmluvy, ktoré máte so zmluvnou organizačnou jednotkou spoločnosti Contoso Global, by sa mali synchronizovať s právnickou osobou USMF. Ak tento filter nepridáte do svojho mapovania úloh, všetky kontrakty projektu sa synchronizujú s právnickou osobou, ktorá je definovaná pre množinu pripojení, bez ohľadu na organizačnú jednotku kontraktu.
+- Vytvorte filter Power Query, ktorý obsahuje iba zmluvné organizácie, ktoré by sa mali synchronizovať s právnickou osobou množiny integračného pripojenia. Napríklad projektové zmluvy, ktoré máte so zmluvnou organizačnou jednotkou spoločnosti Contoso USA, by sa mali synchronizovať s právnickou osobou USSI, ale projektové zmluvy, ktoré máte so zmluvnou organizačnou jednotkou spoločnosti Contoso Global, by sa mali synchronizovať s právnickou osobou USMF. Ak tento filter nepridáte do svojho mapovania úloh, všetky kontrakty projektu sa synchronizujú s právnickou osobou, ktorá je definovaná pre množinu pripojení, bez ohľadu na organizačnú jednotku kontraktu.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapovanie šablón v integrácii údajov
 

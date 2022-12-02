@@ -1,6 +1,6 @@
 ---
 title: Metódy prideľovania rezervácií v aplikácii Project Service Automation
-description: Tento článok poskytuje informácie o rôznych spôsoboch, ako si môžete rezervovať alokácie.
+description: Tento článok poskytuje informácie o rôznych spôsoboch, akými môžete prideliť rezerváciu .
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929187"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Či už pridáte člena tímu priamo k projektu na karte **tím** alebo zarezervujete zdroj k projektu alebo požiadavke na tabule plánu, existuje niekoľko rôznych spôsobov priradenia rezervácie, ktoré možno využiť. Tento článok vysvetľuje, ako jednotlivé metódy fungujú a ktoré metódy môžu viesť k nadmernej rezervácii zdrojov.
+Či už pridáte člena tímu priamo k projektu na karte **tím** alebo zarezervujete zdroj k projektu alebo požiadavke na tabule plánu, existuje niekoľko rôznych spôsobov priradenia rezervácie, ktoré možno využiť. Tento článok vysvetľuje, ako každá metóda funguje, a aké metódy by mohli viesť k nadmernej rezervácii zdrojov.
 
 ## <a name="full-capacity"></a>Plná kapacita 
 Metóda plnej kapacity zarezervuje úplnú kapacitu zdrojov pre stanovené dátumy od a do. Napríklad, ak má zdroj kalendár nastavte pracovať 8 hodín denne, 5 dní týždenne, nastavte dátum začatia a ukončenia, ktorý pokrýva 5 pracovných dní zarezervuje zdroj na 40 hodín. Rezervácia prebieha bez ohľadu na zdroje a zostávajúcu kapacitu. Ak je zdroj počas daného obdobia už zarezervovaný pre iné projekty, 40 hodín sa zarezervuje ako hodiny naviac, čo môže viesť k nadmerným rezerváciám.

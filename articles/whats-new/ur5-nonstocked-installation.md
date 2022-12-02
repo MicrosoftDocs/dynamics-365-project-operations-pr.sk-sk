@@ -1,6 +1,6 @@
 ---
 title: Aktualizujte Project Operations vo svojom prostredí Finance
-description: Tento článok poskytuje informácie o tom, ako aktualizovať operácie projektu vo vašom prostredí Dynamics 365 Finance.
+description: Tento článok obsahuje informácie o tom, ako aktualizovať Project Operations vo vašom prostredí Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030054"
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 
-Tento článok poskytuje informácie o tom, ako aktualizovať Dynamics 365 Project Operations vo vašom prostredí Dynamics 365 Finance. Existujú tri postupy, ktoré sú potrebné na aktualizáciu Project Operations na verziu 5 (UR5):
+Tento článok obsahuje informácie o tom, ako aktualizovať Dynamics 365 Project Operations vo vašom prostredí Dynamics 365 Finance. Existujú tri postupy, ktoré sú potrebné na aktualizáciu Project Operations na verziu 5 (UR5):
 
 - [Importujte balík do vašej ukážky projektu](#import)
 - [Použite aktualizáciu](#apply)
@@ -119,7 +119,7 @@ Nasledujúce aktualizácie bezpečnostných oprávnení pre entity sú vyžadova
 4. Na stránke **Verzia mapy tabuľky** použite novú verziu mapy na každú z troch entít.
 5. Na stránke **Duálny zápis** výberom spustenia reštartujte mapy.
 6. V zozname máp vyberte mapu **Ledger (msdyn_ledgers)** so všetkými predpokladmi a začiarknite políčko **Počiatočná synchronizácia**. 
-7. V **Master pre úvodnú synchronizáciu** pole, vyberte **Finančné a prevádzkové aplikácie** a potom vyberte **Bežať**.
+7. V poli **Predloha pre počiatočnú synchronizáciu** vyberte **Aplikácie na riadenie financií a prevádzok** a potom vyberte **Spustiť**.
  
  ![Synchronizácia máp účtovnej knihy.](media/DW6.png)
  

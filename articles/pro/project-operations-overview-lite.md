@@ -1,6 +1,6 @@
 ---
 title: Prehľad čiastočného nasadenia
-description: Tento článok poskytuje informácie o nasadení Lite Dynamics 365 Project Operations.
+description: Tento článok obsahuje informácie o čiastočnom nasadení Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

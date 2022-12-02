@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 22, V3
-description: Tento článok obsahuje zoznam funkcií a opráv, ktoré sú k dispozícii v Project Service Automation Update Release 22, V3.
+description: Tento článok obsahuje zoznam funkcií a opráv dostupných v aktualizácii Project Service Automation, vydanie 22, V3
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8930659"
 
 S potešením vám oznamujeme najnovšiu aktualizáciu aplikácie Project Service Automation pre Dynamics 365. Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte stránku online riešení v centre spravovania služby Dynamics 365 a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).
 
-Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre Project Service Automation V3, vydanie aktualizácie 22. Táto verzia má číslo V 3.10.33.48 a v júni 2020 je všeobecne k dispozícii prostredníctvom automatickej aktualizácie.
+Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation V3, vydanie 22. Táto verzia má číslo V 3.10.33.48 a v júni 2020 je všeobecne k dispozícii prostredníctvom automatickej aktualizácie.
 
 ## <a name="update-release-22"></a>Aktualizácia vydania 22
 

@@ -1,6 +1,6 @@
 ---
-title: Pôvod transakcie – prepojte aktuálne informácie s ich zdrojom
-description: Tento článok vysvetľuje, ako sa koncept pôvodu transakcií používa na prepojenie skutočných údajov s pôvodnými zdrojovými záznamami, ako je napríklad záznam času, záznam výdavkov alebo denníky použitia materiálu.
+title: Počiatky transakcií – prepojenie skutočných hodnôt s ich zdrojom
+description: Tento článok vysvetľuje, ako sa koncept pôvodu transakcií používa na prepojenie skutočných hodnôt s pôvodnými zdrojovými záznamami, ako je napríklad záznam času, záznam výdavkov alebo denníky použitia materiálu.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: sk-SK
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921321"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Pôvod transakcie – prepojte aktuálne informácie s ich zdrojom
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Počiatky transakcií – prepojenie skutočných hodnôt s ich zdrojom
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Záznamy o pôvode transakcie sa vytvárajú na prepojenie skutočností s ich zdrojom, ako sú časové záznamy, výdavkové záznamy, protokoly spotreby materiálu a projektové faktúry.
+Záznamy o pôvode transakcie sa vytvárajú na prepojenie skutočných hodnôt s ich zdrojom, ako sú zadania času, zadania výdavkov, denníky o použití materiálu a projektové faktúry.
 
 Nasledujúci príklad znázorňuje typické spracovanie časových záznamov v životnom cykle projektu Project Operations.
 
-> ![Spracovanie celkov v projektových operáciách.](media/basic-guide-17.png)
+> ![Spracovanie zadaní času v Project Operations.](media/basic-guide-17.png)
  
-1. Odoslanie časového záznamu spôsobí, že sa vytvoria dva riadky denníka: jeden pre náklady a jeden pre nevyfakturovaný predaj.
-2. Prípadné schválenie časového záznamu spôsobí, že sa vytvoria dva skutočné údaje: jeden pre náklady a jeden pre nevyfakturovaný predaj.
+1. Odoslanie zadania času spôsobí vytvorenie dvoch záznamov v účtovnom denníku: jeden pre náklad a jeden pre nevyfakturované predaje.
+2. Prípadné schválenie zadania času spôsobuje vytvorenie dvoch skutočných hodnôt: jedna pre náklad a jedna pre nevyfakturované predaje.
 3. Keď používateľ vytvorí fakturačný projekt, vytvorí sa fakturačný riadok transakcie zo skutočného nefakturovaného predaja.
 4. Po potvrdení faktúry sa vytvoria dve nové skutočné hodnoty: nefakturovaný obrat predaja a skutočný fakturovaný predaj.
 
-Každá udalosť v tomto pracovnom postupe spracovania spúšťa vytváranie záznamov v entite pôvodu transakcie, čo pomáha vytvoriť stopu vzťahov medzi týmito záznamami, ktoré sa vytvárajú cez časový záznam, riadok denníka, skutočné údaje a podrobnosti riadku faktúry.
+Každá udalosť v tomto pracovnom postupe spracovania spúšťa vytváranie záznamov v entite pôvodu transakcie, aby pomohli vytvoriť stopy vzťahov medzi týmito záznamami, ktoré sú vytvorené naprieč zadaním času, záznamu v účtovnom denníku, skutočnej hodnote a detailom fakturačných riadkov.
 
 Nasledujúca tabuľka zobrazuje záznamy v pôvode transakcie entity pre predchádzajúci pracovný postup.
 
@@ -70,8 +70,8 @@ Nasledujúca tabuľka zobrazuje záznamy v pôvode transakcie entity pre predch�
 | Oprava faktúry GUID      | Faktúra                  | Nové nefakturované skutočné predaje GUID    | Skutočnosť                            |                          |
 
 
-Nasledujúca ilustrácia zobrazuje prepojenia, ktoré sa vytvárajú medzi skutočnými hodnotami a ich zdrojmi pri rôznych udalostiach, na príklade časových záznamov v Project Operations.
+Nasledujúca ilustrácia zobrazuje prepojenia, ktoré sa vytvárajú medzi skutočnými hodnotami a ich zdrojmi pri rôznych udalostiach, na príklade zadaní času v Project Operations.
 
-> ![Ako sú skutočné údaje prepojené so zdrojovými záznamami v projektových operáciách.](media/TransactionOrigins.png)
+> ![Ako sú skutočné hodnoty prepojené so zdrojovými záznamami v Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

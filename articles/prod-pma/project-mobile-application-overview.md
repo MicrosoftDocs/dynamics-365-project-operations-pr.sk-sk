@@ -1,6 +1,6 @@
 ---
 title: Prehľad mobilných aplikácií projektu
-description: Tento článok poskytuje všeobecné informácie o aplikáciách súvisiacich s časom projektu Microsoft Dynamics 365 Project Timesheet, Project Time Entry a My timesheets/Timesheets, ktoré sú dostupné na mobilnom zariadení.
+description: Tento článok poskytuje všeobecné informácie o časových aplikáciách projektu pre Microsoft Dynamics 365 Project Timesheet, Zadanie času projektu a Moje časové rozvrhy/Časové rozvrhy, ktoré sú k dispozícii na mobilnom zariadení.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,15 +29,15 @@ K dispozícii sú tri mobilné aplikácie, ktoré súvisia s časom projektu, pr
 
 ## <a name="project-timesheet-mobile-app"></a>Mobilná aplikácia Project Timesheet
 
-Mobilná aplikácia Dynamics 365 Project Timesheet umožňuje používateľom zadávať a schvaľovať časové rozvrhy projektov na svojom mobilnom zariadení. Táto mobilná aplikácia sprístupňuje funkcie časového rozvrhu v oblasti projektového manažmentu a účtovníctva Dynamics 365 Finance. Pomáha zvyšovať produktivitu a efektivitu používateľov a tiež pomáha pri včasnom zadávaní a schvaľovaní časových rozvrhov projektu.
+Mobilná aplikácia Dynamics 365 Project Timesheet umožňuje používateľom zadávať a schvaľovať časové rozvrhy projektov na svojom mobilnom zariadení. Táto mobilná aplikácia zobrazuje funkcie časového rozvrhu v oblasti Projektové riadenie a účtovníctvo v Dynamics 365 Finance. Pomáha zvyšovať produktivitu a efektivitu používateľov a tiež pomáha pri včasnom zadávaní a schvaľovaní časových rozvrhov projektu.
 
 ## <a name="project-time-entry-workspace"></a>Pracovný priestor Zadanie času projektu
 
-Pracovný priestor Zadanie času projektu umožňuje používateľom zadať a uložiť čas oproti projektu. Nedovolí však používateľom predkladať ani schvaľovať časové rozvrhy projektu. Môže sa použiť iba na zadanie času. Tento mobilný pracovný priestor je určený na používanie spolu s mobilnou aplikáciou pre financie a prevádzku.
+Pracovný priestor Zadanie času projektu umožňuje používateľom zadať a uložiť čas oproti projektu. Nedovolí však používateľom predkladať ani schvaľovať časové rozvrhy projektu. Môže sa použiť iba na zadanie času. Tento mobilný pracovný priestor je určený na spoločné použitie s mobilnou aplikáciou financie a operácie.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Moje časové rozvrhy/Časové rozvrhy pre moju kontrolu
 
-Moje časové rozvrhy (Optimalizované pre mobilné zariadenia) a Časové výkazy pre moju kontrolu (Optimalizované pre mobilné zariadenia) tvoria riešenie, ktoré umožňuje zamestnancom vytvárať, odosielať a schvaľovať časové rozvrhy projektu na mobilnom zariadení. Pracovníci majú prístup funkciám služby Finance prostredníctvom adresy URL aplikácie. Toto riešenie nevyžaduje mobilnú aplikáciu pre financie a prevádzku.
+Moje časové rozvrhy (Optimalizované pre mobilné zariadenia) a Časové výkazy pre moju kontrolu (Optimalizované pre mobilné zariadenia) tvoria riešenie, ktoré umožňuje zamestnancom vytvárať, odosielať a schvaľovať časové rozvrhy projektu na mobilnom zariadení. Pracovníci majú prístup funkciám služby Finance prostredníctvom adresy URL aplikácie. Toto riešenie nevyžaduje mobilnú aplikáciu financie a operácie.
 
 ## <a name="for-more-information"></a>Ďalšie informácie
 

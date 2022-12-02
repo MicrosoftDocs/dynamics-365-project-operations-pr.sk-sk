@@ -1,6 +1,6 @@
 ---
 title: Prehľad odsúhlasenia zdrojov
-description: Tento článok poskytuje informácie, ktoré vám pomôžu zabezpečiť, aby boli rezervácie zdrojov a priradenia pre projekty zarovnané.
+description: Tento článok poskytuje informácie, ktoré vám pomôžu zaistiť zosúladenie rezervácií a priradení zdrojov k projektom.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

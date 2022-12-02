@@ -1,6 +1,6 @@
 ---
 title: Definovanie rol
-description: Tento článok poskytuje odkaz na informácie o nastavení kategórií rezervovateľných zdrojov.
+description: Tento článok poskytuje odkaz na informácie o nastavovaní rezervovateľných kategórií zdrojov.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

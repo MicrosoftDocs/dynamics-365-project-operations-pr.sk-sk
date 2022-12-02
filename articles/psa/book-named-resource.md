@@ -1,6 +1,6 @@
 ---
 title: Rezervujte pomenované zdroje zo zdrojových požiadaviek.
-description: Tento článok poskytuje informácie o rezervácii pomenovaných zdrojov pre všeobecnú požiadavku na zdroj.
+description: Tento článok poskytuje informácie o rezervácii pomenovaných zdrojov pre požiadavku na všeobecné zdroje.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

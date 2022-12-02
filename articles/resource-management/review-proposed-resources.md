@@ -1,6 +1,6 @@
 ---
 title: Kontrola navrhovaných zdrojov
-description: Tento článok poskytuje informácie o tom, ako navrhnúť zdroje projektu.
+description: Tento článok poskytuje informácie o tom, ako navrhovať projektové zdroje.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -40,8 +40,8 @@ Ak chcete skontrolovať navrhnuté zdroje, postupujte takto:
     Nasledujúce aktualizácie stavu sa vyskytujú:
 
     - Na stránke **Asistent plánovania** sa aktualizujú indikátory stavu, ktoré naznačujú, že rezervácia je navrhnutá a nie je pevne rezervovaná.
-    - Pri žiadosti o zdroj by kontrolór žiadosti mal zmeniť stav na **Vyžaduje preskúmanie**.
-    - Na **Tím** kartu projektu, generický člen tímu **Stav žiadosti** hodnota sa automaticky zmení na **Vyžaduje preskúmanie**.
+    - Pri žiadosti o zdroj by kontrolór žiadosti mal zmeniť stav na **Vyžaduje kontrolu**.
+    - Na karte **Tím** projektu sa hodnota všeobecných členov tímu **Stav žiadosti** automaticky zmenila na **Vyžaduje kontrolu**.
 
 Projektový manažér môže prijať alebo zamietnuť návrh.
 

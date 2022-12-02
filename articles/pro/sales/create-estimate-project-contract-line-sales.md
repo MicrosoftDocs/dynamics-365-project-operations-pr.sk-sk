@@ -1,6 +1,6 @@
 ---
 title: Odhad riadka zmluvy založenej na projekte – čiastočné
-description: Tento článok poskytuje informácie o odhade zmluvnej línie založenej na projekte.
+description: Tento článok poskytuje informácie o odhadoch v riadku zmluvy založenej na projekte.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

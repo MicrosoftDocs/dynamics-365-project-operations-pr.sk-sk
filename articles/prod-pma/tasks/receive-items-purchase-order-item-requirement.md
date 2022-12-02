@@ -1,6 +1,6 @@
 ---
 title: Príjem položiek z nákupnej objednávky z požiadaviek na položku
-description: Tento článok vysvetľuje, ako získať položky na nákupnú objednávku z požiadavky na položku.
+description: Tento článok vysvetľuje, ako prijímať položky na nákupnej objednávke z požiadavky na položku.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929555"
 
 [!include [banner](../../includes/banner.md)]
 
-Tento článok vysvetľuje, ako získať položky na nákupnú objednávku z požiadavky na položku.
+Tento článok vysvetľuje, ako prijímať položky na nákupnej objednávke z požiadavky na položku.
 
 Použitím požiadavky na položku namiesto transakcie s položkou môžete naplánovať dodanie tesne pred skutočným použitím položky, vytvoriť objednávku, zahrnúť položku do rámca obchodnej zmluvy a zahrnúť požiadavku na položku do plánovania výroby. 
 

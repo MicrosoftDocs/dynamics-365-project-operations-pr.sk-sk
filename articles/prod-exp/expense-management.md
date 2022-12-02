@@ -43,7 +43,7 @@ Zadanie výkazu výdavkov bolo prepracované tak, aby sa zjednodušilo používa
 
 ### <a name="blogs"></a>Blogy
 
-Názory, novinky a ďalšie informácie nájdete na [Microsoft Dynamics blog 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) a [Microsoft Dynamics 365 Finance - Finančný blog](https://community.dynamics.com/365/financeandoperations/b/financials).
+Názory, správy a ďalšie informácie nájdete na [blogu Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) a [Microsoft Dynamics 365 Finance – finančný blog](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Blog komunity prevádzkových partnerov Microsoft Dynamics](https://community.dynamics.com/partner/b/operationspartnercommunityblog) poskytuje partnerom Microsoft Dynamics jediný zdroj, kde sa môžu dozvedieť, čo je nové a informácie o trendoch v MBS Operations.
 

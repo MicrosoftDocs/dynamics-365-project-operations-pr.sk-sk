@@ -1,6 +1,6 @@
 ---
 title: Priradenie všeobecných rezervovateľných zdrojov k úlohe a projektovému tímu
-description: Tento článok poskytuje informácie o rezervovaní všeobecných zdrojov úlohám a projektovým tímom.
+description: Tento článok poskytuje informácie o rezervovaní všeobecných zdrojoch pre úlohy a projektové tímy.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

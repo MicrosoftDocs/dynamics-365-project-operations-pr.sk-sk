@@ -17,7 +17,7 @@ ms.locfileid: "8931487"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Tento článok popisuje parametre, ktoré riadia všeobecné správanie v správe výdavkov.
+Tento článok popisuje parametre riadiace všeobecné správanie v správe výdavkov.
 
 ## <a name="general"></a>Všeobecné
 

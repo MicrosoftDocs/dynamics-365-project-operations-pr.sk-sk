@@ -1,6 +1,6 @@
 ---
 title: Odvolanie schváleného času a položiek výdavkov
-description: Tento článok poskytuje informácie o tom, ako vyvolať predtým schválenú časovú alebo nákladovú transakciu.
+description: Tento článok poskytuje informácie o zrušení predtým schváleného času projektu alebo nákladov transakcie.
 author: rumant
 ms.custom: ''
 ms.author: rumant

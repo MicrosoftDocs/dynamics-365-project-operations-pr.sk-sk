@@ -26,9 +26,9 @@ ms.locfileid: "8926059"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok predpokladá, že ste dokončili postupy v článku, [Vytvorte vlastné polia a entity, ktoré sa majú použiť ako cenové dimenzie](create-custom-fields-entities-pricing-dimensions.md). Ak ste tieto postupy nedokončili, vráťte sa a dokončite ich a potom sa vráťte k tomuto článku. 
+Tento článok predpokladá, že ste dokončili postupy v článku [Vytvorenie vlastných polí a entít, ktoré sa budú používať ako cenové dimenzie](create-custom-fields-entities-pricing-dimensions.md). Ak ste tieto postupy nedokončili, vráťte sa späť a dokončite ich a potom sa vráťte k tomuto článku. 
 
-V tomto článku vám postupy ukážu, ako pridať požadované odkazy na vlastné polia k entitám a prvkom používateľského rozhrania (UI), ako sú formuláre a zobrazenia.
+V tomto článku vám postupy ukážu, ako pridať požadované vlastné pole odkazy na entity a prvky používateľského rozhrania (UI), ako sú formuláre a zobrazenia.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Pridať vlastné polia dimenzie ocenenia 
 Po vytvorení vlastných polí a entít je ďalším krokom, aby sa cenové nastavenie a transakčné entity dozvedeli o všetkých vlastných entitách alebo množínách možností vytvorením referenčných polí. V závislosti od toho, či zoznam dimenzií cien obsahuje množinu možností, dimenzie alebo dimenzie entity alebo oboje, postupujte iba podľa krokov v **dimenziách vlastného oceňovania založeného na množine možností** alebo **Vlastné cenové dimenzie založené na entite**, resp. oboje.

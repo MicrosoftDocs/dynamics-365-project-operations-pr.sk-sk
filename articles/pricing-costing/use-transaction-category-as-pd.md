@@ -1,6 +1,6 @@
 ---
 title: Použitie kategórie transakcie ako cenovej dimenzie
-description: Tento článok poskytuje informácie o tom, ako použiť pole Kategória transakcie ako cenovú dimenziu.
+description: Tento článok poskytuje informácie o používaní poľa Kategória transakcie ako cenovej dimenzie.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "8911721"
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 
-Tento článok vysvetľuje, ako používať **Kategória transakcie** ako cenová dimenzia. 
+Tento článok vysvetľuje, ako používať pole **Kategória transakcie** ako cenovú dimenziu. 
 
 ## <a name="prerequisites"></a>Požiadavky
 Pred dokončením postupov v tomto článku musíte mať pre svoju organizáciu nové riešenie cenovej dimenzie. Ak ste si ho ešte nevytvorili, pozrite si stránku [Vytvorenie vlastných polí a entít ako cenových dimenzií](create-custom-fields-entities-pricing-dimensions.md).

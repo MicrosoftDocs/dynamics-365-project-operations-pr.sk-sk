@@ -1,6 +1,6 @@
 ---
 title: Sledovanie predajov v rámci projektu
-description: Tento článok poskytuje informácie o tom, ako projektové operácie sledujú pokrok oproti príjmom práce na projekte.
+description: Tento článok poskytuje informácie o tom, ako Project Operations sleduje pokrok oproti výnosom z práce na projekte.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

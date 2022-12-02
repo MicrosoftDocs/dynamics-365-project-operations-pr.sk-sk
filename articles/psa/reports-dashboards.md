@@ -1,6 +1,6 @@
 ---
 title: Tabule
-description: Tento článok poskytuje informácie o informačných paneloch prehľadov, ktoré sú súčasťou Dynamics 365 Project Service Automation.
+description: Tento článok poskytuje informácie o tabuliach výkazov, ktoré sú zahrnuté Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

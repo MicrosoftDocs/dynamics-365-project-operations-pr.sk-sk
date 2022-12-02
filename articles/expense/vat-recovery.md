@@ -1,6 +1,6 @@
 ---
 title: Vrátenie DPH v správe výdavkov
-description: V tomto článku sa dozviete, ako získať vrátené platby za transakcie s daňou z pridanej hodnoty (DPH).
+description: Tento článok vysvetľuje, ako prijímať vrátené platby za oprávnené transakcie s daňou z pridanej hodnoty (DPH).
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

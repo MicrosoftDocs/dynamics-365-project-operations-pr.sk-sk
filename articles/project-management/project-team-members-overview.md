@@ -1,6 +1,6 @@
 ---
 title: Členovia projektového tímu
-description: Tento článok poskytuje informácie o tom, ako pracovať s informáciami o členoch projektového tímu, atribútmi a plánovaním.
+description: Tento článok poskytuje informácie o tom, ako pracovať s informáciami, atribútmi a plánovaním členov projektového tímu.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

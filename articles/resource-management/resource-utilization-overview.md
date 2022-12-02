@@ -1,6 +1,6 @@
 ---
 title: Prehľad využitia zdroja
-description: Tento článok poskytuje informácie o využívaní zdrojov v Project Operations.
+description: Tento článok poskytuje informácie o zobrazení využitia zdrojov v aplikácii Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

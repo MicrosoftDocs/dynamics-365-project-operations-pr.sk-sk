@@ -1,6 +1,6 @@
 ---
 title: Odhadnite tržby a náklady projektu, keď rezervovateľný zdroj plní pre projekt viac rolí
-description: Tento článok poskytuje informácie o tom, ako možno cenové dimenzie použiť na podporu tvorby cien a kalkulácie pre zdroj, ktorý plní viacero rolí v projekte.
+description: Tento článok poskytuje informácie o spôsobe používania dimenzie cien na podporu cien a nákladov pre zdroj, ktorý v projekte plní viac rolí.
 author: rumant
 ms.custom:
 - dyn365-projectservice

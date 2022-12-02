@@ -1,6 +1,6 @@
 ---
 title: Prehľad skutočných hodnôt
-description: Tento článok poskytuje informácie o skutočných projektoch.
+description: Tento článok poskytuje informácie o skutočných údajoch projektu.
 author: rumant
 ms.custom:
 - dyn365-projectservice

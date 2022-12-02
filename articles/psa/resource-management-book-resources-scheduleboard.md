@@ -1,6 +1,6 @@
 ---
 title: Použitie tabule plánovania na zarezervovanie zdrojov projektu
-description: Tento článok poskytuje informácie o tom, ako rezervovať zdroje.
+description: Tento článok poskytuje informácie o požiadavkách na rezerváciu zdrojov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

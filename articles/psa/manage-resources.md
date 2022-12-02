@@ -1,6 +1,6 @@
 ---
 title: Spravujte zdroje
-description: Tento článok poskytuje informácie o tom, ako môžete spravovať zdroje.
+description: Tento článok poskytuje informácie o tom, ako spravovať zdroje.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

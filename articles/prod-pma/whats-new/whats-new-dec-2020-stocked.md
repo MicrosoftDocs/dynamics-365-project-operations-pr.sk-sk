@@ -1,6 +1,6 @@
 ---
 title: Čo je nové v decembri 2020 – Project Operations pre scenáre založené na zdrojoch/výrobe
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z decembra 2020 pre scenáre na sklade/výrobe.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní Project Operations z decembra 2020, pre scenáre založené na zdrojoch/výrobe.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "8911385"
 
 _Vzťahuje sa na: Project Operations pre scenáre založené na zdrojoch/výrobe_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
-  - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.15
+  - Projektový manažment a účtovníctvo v prostrední Dynamics 365 Finance, verzia 10.0.15
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
@@ -139,7 +139,7 @@ Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komp
 
 ## <a name="regulatory-updates"></a>Regulačné aktualizácie
 
-Informácie o regulačných aktualizáciách pre Dynamics 365 Finance nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre Dynamics 365 Finance sú uvedené v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby Lifecycle Services (LCS) a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

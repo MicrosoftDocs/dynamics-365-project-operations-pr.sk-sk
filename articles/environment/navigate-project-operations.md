@@ -1,6 +1,6 @@
 ---
 title: Navigácia v aplikácii Project Operations
-description: Tento článok poskytuje informácie o tom, ako získať prístup k projektovým operáciám zo služieb životného cyklu.
+description: Tento článok poskytuje informácie o tom, ako pristupovať k Project Operations z Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 Dynamics 365 Project Operations pre scenáre zdrojov/chýbajúcich zdrojov, sa skladá z dvoch komponentov: 
 
  - **Project Operations v prostredí Common Data Service (CDS)**: Tento komponent pokrýva možnosti a procesy od príležitosti po fakturáciu pro forma. 
- - **Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance** : Tento komponent zahŕňa možnosti riadenia výdavkov, projektové účtovníctvo a vykazovanie výnosov. 
+ - **Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance**: Tento komponent pokrýva možnosti riadenia výdavkov, účtovníctvo v rámci projektu a priznanie výnosov. 
 
-Po poskytnutí projektových operácií podľa popisu v tomto článku budú služby životného cyklu (LCS) **Podrobnosti o prostredí** poskytuje jednoduchý prístup k obom komponentom projektových operácií.  
+Po nasadení aplikácie Project Operations, ako je popísané v tomto článku, stránka Lifecycle Services (LCS) **Podrobnosti o prostredí** poskytuje ľahký prístup k obom komponentom Project Operations.  
 
 Použite názov prostredia v sekcii **Názov prostredia Common Data Service** na prechod na Project Operations v prostredí CDS. 
 

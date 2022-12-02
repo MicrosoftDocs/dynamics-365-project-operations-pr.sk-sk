@@ -1,6 +1,6 @@
 ---
 title: Finančné odhady pre výdavky na projekty
-description: Tento článok poskytuje informácie o definovaní alebo odhade nákladov na projekt.
+description: Tento článok poskytuje informácie o definovaní alebo odhade výdavkov na základe projektu.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Správa cenníka dodávateľa a nákupu v Project Operations
-description: Tento článok poskytuje informácie, ktoré vám pomôžu vytvárať a udržiavať údaje o dodávateľoch a nákupné cenníky pre subdodávky.
+description: Tento článok poskytuje informácie, ktoré vám pomôžu vytvoriť a udržiavať údaje o dodávateľoch a cenníky nákupov pre subdodávateľov.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

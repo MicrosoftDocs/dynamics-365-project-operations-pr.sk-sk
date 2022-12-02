@@ -1,6 +1,6 @@
 ---
 title: Správa viacerých zákazníkov v projektových zmluvách
-description: Tento článok poskytuje informácie o tom, ako spravovať viacerých zákazníkov v rámci projektovej zmluvy.
+description: Tento článok poskytuje informácie o spravovaní viacerých zákazníkov v projektovej zmluve.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "8928359"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Správa viacerých zákazníkov v projektových zmluvách
 
-Tento článok poskytuje informácie o tom, ako spravovať viacerých zákazníkov v rámci projektovej zmluvy. Projektovú zmluvu môžete použiť, keď je na financovanie obchodu potrebná zmluva pre viacerých zákazníkov. Na stránke **Projektová zmluva** obsahuje karte **Súhrn** informácie o primárnom zákazníkovi obchodu. Ďalší zákazníci, ktorí sa zúčastňujú na obchode, sa môžu pridať na karte **Zákazníci**.
+Tento článok poskytuje informácie o spravovaní viacerých zákazníkov v projektovej zmluve. Projektovú zmluvu môžete použiť, keď je na financovanie obchodu potrebná zmluva pre viacerých zákazníkov. Na stránke **Projektová zmluva** obsahuje karte **Súhrn** informácie o primárnom zákazníkovi obchodu. Ďalší zákazníci, ktorí sa zúčastňujú na obchode, sa môžu pridať na karte **Zákazníci**.
 
 Všetci zmluvní zákazníci na karte **Zákazníci** v projektovej zmluve predvolene vystupujú ako zákazníci riadku zmluvy v akýchkoľvek nových riadkoch zmlúv založených na projekte, ktoré sú vytvorené pre projektovú zmluvu. Akékoľvek existujúce riadky zmlúv založené na projekte nededia nových zmluvných zákazníkov, ktorí sa vytvárajú neskôr.
 

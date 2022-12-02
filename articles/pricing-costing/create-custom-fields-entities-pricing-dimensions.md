@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie vlastných polí a entít ako cenových dimenzií
-description: Tento článok poskytuje informácie o tom, ako vytvoriť vlastné sady možností alebo entity.
+description: Tento článok poskytuje informácie o tom, ako vytvoriť vlastné množiny možností alebo entity.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

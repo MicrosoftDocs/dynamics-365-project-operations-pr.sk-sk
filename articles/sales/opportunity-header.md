@@ -1,6 +1,6 @@
 ---
 title: Hlavička/súhrn príležitostí
-description: Tento článok poskytuje informácie o projektových ponukách a projektových líniách príležitostí.
+description: Tento článok poskytuje informácie o dohodách na základe projektu a riadkoch príležitostí založených na projekte.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

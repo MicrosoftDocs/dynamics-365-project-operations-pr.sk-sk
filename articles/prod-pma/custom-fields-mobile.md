@@ -26,7 +26,7 @@ ms.locfileid: "8913731"
 
 [!include [banner](../includes/banner.md)]
 
-Tento článok poskytuje bežné vzory používania rozšírení na implementáciu vlastných polí. Zahrnuté sú nasledujúce články:
+Tento článok poskytuje bežné vzory používania rozšírení na implementáciu vlastných polí. Pokrývajú sa tieto články:
 
 - Rôzne typy údajov, ktoré podporuje rámec vlastného poľa
 - Ako zobraziť polia iba na čítanie alebo upraviteľné polia v záznamoch časových výkazov a ukladať hodnoty poskytnuté používateľom späť do databázy
@@ -35,7 +35,7 @@ Tento článok poskytuje bežné vzory používania rozšírení na implementác
 
 ## <a name="audience"></a>Publikum
 
-Tento článok je určený pre vývojárov, ktorí integrujú svoje vlastné polia do Microsoft Dynamics 365 Project Timesheet mobilná aplikácia, ktorá je dostupná pre Apple iOS a Google Android. Predpokladom je, že čitatelia sú oboznámení s vývojom X++ a funkciou časových výkazov projektu.
+Tento článok je určený pre vývojárov, ktorí integrujú svoje vlastné polia do mobilnej aplikácie Microsoft Dynamics 365 Project Timesheet, ktorá je k dispozícii pre Apple iOS a Google Android. Predpokladom je, že čitatelia sú oboznámení s vývojom X++ a funkciou časových výkazov projektu.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Zmluva o údajoch - trieda TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ Vlastnosť **FieldBaseType** na objekt **TsTimesheetCustom** určuje typ poľa, 
 
 - Ak vlastnosť **stringOptions** sa poskytuje v objekte **TSTimesheetCustomField**, tieto prvky zoznamu sú jediné hodnoty, ktoré môžu používatelia vybrať pomocou prepínačov (prepínačov).
 
-    V takom prípade môže pole reťazca slúžiť ako hodnota vymenovania na účely zadania používateľom. Ak chcete uložiť hodnotu do databázy ako enum, pred uložením do databázy manuálne namapujte hodnotu reťazca späť na hodnotu enum pomocou reťazca príkazov (pozrite si časť „Použitie reťazca príkazov v triede TSTimesheetEntryService na uloženie záznamu časového rozvrhu z aplikáciu späť do databázy" v časti ďalej v tomto článku, kde nájdete príklad).
+    V takom prípade môže pole reťazca slúžiť ako hodnota vymenovania na účely zadania používateľom. Ak chcete uložiť hodnotu do databázy ako vymenovanie, ručne namapujte hodnotu reťazca späť na hodnotu vymenovania pred uložením do databázy pomocou reťazca príkazov (pozrite si časť „Použiť reťazec príkazov v triede TSTimesheetEntryService na uloženie záznamu časového výkazu z aplikácie späť do databázy“ ďalej v tomto článku).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Táto vlastnosť určuje označenie, ktoré sa zobrazuje vedľa poľa v aplikác
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Zoznam reťazcov)
 
-Táto vlastnosť je použiteľná iba ak je **fieldBaseType** nastavené na **Reťazec**. Ak je možnosť **stringOptions** nastavená, hodnoty reťazcov, ktoré sú k dispozícii na výber pomocou prepínačov, sú určené reťazcami v zozname. Ak nie sú zadané žiadne reťazce, je povolený voľný text v poli reťazca (príklad nájdete v časti „Použitie reťazca príkazov v triede TSTimesheetEntryService na uloženie záznamu časového rozvrhu z aplikácie späť do databázy“ ďalej v tomto článku) .
+Táto vlastnosť je použiteľná iba ak je **fieldBaseType** nastavené na **Reťazec**. Ak je možnosť **stringOptions** nastavená, hodnoty reťazcov, ktoré sú k dispozícii na výber pomocou prepínačov, sú určené reťazcami v zozname. Ak nie sú zadané žiadne reťazce, je povolené zadávanie voľného textu do poľa reťazca (príklad nájdete ďalej v tomto článku „Použite reťazec príkazov v triede TSTimesheetEntryService na uloženie záznamu časového výkazu z aplikácie späť do databázy“.)
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

@@ -1,6 +1,6 @@
 ---
 title: Čo je nové v marci 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z marca 2021 pre scenáre založené na zdrojoch alebo bez zásob.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní Project Operations z marca 2021, pre scenáre založené na zdrojoch/neskladovaných položkách.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9028291"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
 - Project Operations v prostredí Dataverse verzie 4.8.0.91 
-- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.16 
+- Projektový manažment a účtovníctvo v prostrední Dynamics 365 Finance, verzia 10.0.16 
 
 ## <a name="quality-updates"></a>Aktualizácie kvality
 
@@ -42,13 +42,13 @@ Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komp
 | Čas a výdavky | 2148910 | Opravil sa problém so stránkou **Upraviť záznam** na mriežke **Zadanie času**. |
 | Čas a výdavky | 2159798 | Sprísnili sa kontroly, aby sa zabezpečilo, že schválené záznamy výdavkov nebude možné upravovať. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektový manažment a účtovníctvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
 
 Ďalšie informácie nájdete v sekcii [Čo je nové v januári 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Regulačné aktualizácie
 
-Informácie o regulačných aktualizáciách pre finančné a prevádzkové aplikácie nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby LCS a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie na riadenie financií a prevádzok nájdete v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Ďalším spôsobom, ako sa dozvedieť o regulačných aktualizáciách, je prihlásiť sa do služby LCS a pozrieť si plánované aktualizácie právnych predpisov pomocou nástroja na vyhľadávanie problémov. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

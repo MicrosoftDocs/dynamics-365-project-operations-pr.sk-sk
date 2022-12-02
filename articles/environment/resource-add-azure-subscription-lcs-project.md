@@ -1,6 +1,6 @@
 ---
 title: Pridanie predplatného služieb Azure do projektu LCS
-description: Tento článok poskytuje informácie o tom, ako pripojiť predplatné Azure k projektu LCS.
+description: Tento článok poskytuje informácie o tom, ako pripojiť vaše predplatné služieb Azure k projektu LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8912167"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Prostredia hosťované v cloude musia byť nasadené pomocou existujúceho predplatného služieb Azure. Tento článok vysvetľuje, ako pripojiť svoje existujúce predplatné Azure k projektu LCS. 
+Prostredia hosťované v cloude musia byť nasadené pomocou existujúceho predplatného služieb Azure. Tento článok vysvetľuje, ako pripojiť vaše existujúce predplatné služieb Azure k projektu LCS. 
 
 ## <a name="grant-admin-consent"></a>Udelenie súhlasu správcu
 
@@ -59,13 +59,13 @@ Autorizácia je teraz hotová.
 2. Zadajte svoje ID predplatného Azure. Svoje ID predplatného Azure nájdete na [portáli Azure](https://ms.portal.azure.com/) v časti **Nastavenia** v ľavom dolnom rohu obrazovky.
 3. V poli **Nakonfigurovať použitie Azure Resource Manager** vyberte **Áno**.
 4. Uistite sa, že sa predplatné Azure AAD Tenant Domain zhoduje s predplatným Azure s vlastníctvom domény, ktoré používate, a vyberte **Ďalej**.
-5. Na obrazovke **Nastaviť Microsoft Azure** zvoľte **Ďalej** na potvrdenie. Ak sa na tejto obrazovke zobrazí chyba, vráťte sa do sekcie [Poskytnite Dynamics Deployment Services prístup k predplatnému Azure](#provide) v tomto článku a uistite sa, že ste vykonali všetky kroky.
+5. Na obrazovke **Nastaviť Microsoft Azure** zvoľte **Ďalej** na potvrdenie. Ak sa vám na tejto obrazovke zobrazí chyba, vráťte sa do sekcie [Poskytnúť službe Dynamics Deployment Services prístup k predplatnému Azure](#provide) v tomto článku a uistite sa, že ste dokončili všetky kroky.
 6. Stiahnite si certifikát Azure Management do lokálneho priečinka v počítači. Požiadajte svojho správcu predplatného Azure o nahranie certifikátu na portál Azure Management Portal výberom predplatného a prechodom na stránku **Nastavenie** > **Certifikáty riadenia**. Tento certifikát umožňuje spoločnosti LCS komunikovať s Azure vo vašom mene. Tento krok môžete preskočiť, ak má váš používateľ prístup k predplatnému.
 7. Vyberte **Ďalej**.
 8. Vyberte oblasť Azure, do ktorého chcete vykonať nasadenie a vyberte údajové centrum, ktoré je blízko miesta, kde plánujete tento systém používať.
 9.  Vyberte možnosť **Pripojiť**.
 
-Úspešne ste pripojili svoje predplatné služieb Azure. Teraz môžete nasadiť Dynamics 365 Finance prostredia hostené v cloude.
+Úspešne ste pripojili svoje predplatné služieb Azure. Teraz môžete nasadiť prostredia hosťované v cloude Dynamics 365 Finance.
 
 
 

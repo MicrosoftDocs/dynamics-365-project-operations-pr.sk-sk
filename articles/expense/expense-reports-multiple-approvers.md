@@ -1,6 +1,6 @@
 ---
 title: Výkazy výdavkov a viacerí schvaľovatelia
-description: Tento článok poskytuje informácie o výkazoch výdavkov, ktoré vyžadujú schválenie viacerými osobami.
+description: Tento článok poskytuje informácie o výkazoch výdavkov, ktoré si vyžadujú schválenie viac ako jednou osobou.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

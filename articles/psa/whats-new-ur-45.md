@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 45, V3
-description: Tento článok obsahuje zoznam funkcií a opráv, ktoré sú k dispozícii v Microsoft Dynamics 365 Project Service Automation Aktualizácia vydanie 45, V3.
+description: Tento článok obsahuje zoznam funkcií a opráv, ktoré sú k dispozícii v aktualizácii Microsoft Dynamics 365 Project Service Automation, vydanie 45, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 07/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9169188"
 
 S potešením oznamujeme najnovšiu aktualizáciu pre aplikáciu Microsoft Dynamics 365 Project Service Automation. Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Je kompatibilná s verziou Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte stránku Centra spravovania pre online riešenia služby Dynamics 365 a nainštalujte si aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).
 
-Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre Project Service Automation Update Release 45, V3. Táto verzia má číslo zostavenia V3.10.76.168 a je všeobecne dostupná prostredníctvom vlastnej aktualizácie z júla 2022.
+Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation, vydanie 45, V3. Táto verzia má číslo zostavenia V3.10.76.168 a je všeobecne dostupná prostredníctvom vlastnej aktualizácie z júla 2022.
 
 ## <a name="update-release-45"></a>Aktualizácia vydania 45
 
@@ -43,5 +43,5 @@ Vyriešili sa tieto problémy.
 
 **Čas a výdavky**
 
-- Keď sú povolené moderné schvaľovania a schválenie odvolaného schválenia projektu, fáza záznamu sa nesprávne aktualizuje na **Žiadosť o stiahnutie bola schválená**.
-- Keď sú povolené moderné schvaľovania a cloudové toky sú neaktívne, proces schvaľovania nie je úspešný a odosielajúci alebo schvaľujúci používatelia nie sú upozornení.
+- Keď sú povolené moderné schválenia a je schválené schválenie odvolaného projektu, etapa záznamu sa nesprávne aktualizuje na **Žiadosť o odvolanie bola schválená**.
+- Keď sú povolené moderné schválenia a postupy v cloude sú neaktívne, proces schvaľovania nie je úspešný a odosielajúci alebo schvaľujúci používatelia nie sú upozornení.

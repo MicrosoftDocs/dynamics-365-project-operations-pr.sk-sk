@@ -1,6 +1,6 @@
 ---
 title: Projektová tvorba cien
-description: Tento článok poskytuje informácie o tom, ako funguje tvorba cien v Dynamics 365 Project Service Automation.
+description: Tento článok poskytuje informácie o tom ako pracuje oceňovanie v Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

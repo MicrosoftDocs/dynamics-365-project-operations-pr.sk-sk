@@ -1,6 +1,6 @@
 ---
 title: Faktúry pro forma
-description: Tento článok poskytuje informácie o proforma faktúrach v Project Operations.
+description: Tento článok poskytuje informácie o faktúrach pro forma v Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Pri vytváraní návrhu faktúry projektu, všetky nefakturované predajné tran
 Výberom **potvrdiť** potvrďte faktúru. Akcia potvrdiť je jednosmerná akcia. Keď vyberiete možnosť **potvrdiť**, systém urobí faktúru iba na čítanie a vytvorí účtované predajné skutočné hodnoty z každého detailu riadka faktúry pre každý riadok faktúry. Ak podrobnosti riadka faktúry odkazujú na skutočné hodnoty nefakturovaného predaja, systém tiež obnoví skutočné hodntoy nefakturovaného predaja. (Všetky podrobnosti riadka faktúry, ktoré boli vytvorené zo zadania času alebo výdavkov budú odkazovať na skutočné hodnoty nefakturovaného predaja.) Finančné integračné systémy môžu použiť tento zvrat na zvrátenie prebiehajúcej práce projektu (WIP) na účtovné účely.
 
 > [!NOTE]
-> Potvrdené proforma faktúry a súvisiace záznamy, ako sú riadky faktúr a podrobnosti o riadkoch faktúry, nemožno upravovať ani mazať. 
+> Potvrdené faktúry pro forma a súvisiace záznamy, ako sú riadky faktúr a podrobnosti riadkov faktúr, nemožno upravovať ani mazať. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Oprava potvrdenej faktúry
 

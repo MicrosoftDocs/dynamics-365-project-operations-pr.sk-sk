@@ -1,6 +1,6 @@
 ---
 title: Procesy predaja
-description: Tento článok poskytuje informácie o základných procesoch predaja.
+description: Tento článok poskytuje informácie o základných predajných procesoch.
 author: rumant
 ms.custom:
 - dyn365-projectservice

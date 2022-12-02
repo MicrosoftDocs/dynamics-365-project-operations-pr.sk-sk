@@ -1,6 +1,6 @@
 ---
 title: Opravné projektové faktúry
-description: Tento článok poskytuje informácie o tom, ako vytvoriť a potvrdiť opravné faktúry založené na projekte v prevádzke projektu.
+description: Tento článok poskytuje informácie o tom, ako vytvárať a potvrdzovať opravné projektové faktúry v Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

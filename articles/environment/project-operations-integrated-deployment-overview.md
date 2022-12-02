@@ -1,6 +1,6 @@
 ---
 title: Prehľad nasadenia aplikácie Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
-description: Tento článok poskytuje informácie o type nasadenia, projektových operáciách pre scenáre založené na zdrojoch/nezásobách.
+description: Tento článok poskytuje informácie o type nasadenia Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ Typ nasadenia, Dynamics 365 Project Operations scenáre založené na zdrojoch/c
 - Priznanie výnosov projektu
 - Rozširovateľnosť prostredníctvom Power Platform
 
-Tento typ nasadenia poskytuje rozšírenie funkcií poskytovaných Dynamics 365 Finance a Dynamics 365 Supply Chain Management aplikácie.
+Tento typ nasadenia tiež poskytuje rozšírenie funkcií poskytovaných aplikáciami Dynamics 365 Finance a Dynamics 365 Supply Chain Management.
 
 Toto nasadenie by sa malo zvoliť tak, že sa očakáva, že pri Project Operations sa bude využívať celý životný cyklus projektu, ktorý obsahuje nasledujúce požiadavky:
 

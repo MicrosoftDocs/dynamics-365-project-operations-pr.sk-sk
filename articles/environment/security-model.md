@@ -70,7 +70,7 @@ S vývojom modelu skupinovej spolupráce Office bude pridaná funkčnosť, ktor�
 
 Ďalšie informácie nájdete v sekcii [Zabezpečenie v Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Projektové operácie a Microsoft Dynamics 365 Zabezpečenie financií
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Zabezpečenie Project Operations a Microsoft Dynamics 365 Finance
 Project Operations zahŕňa tieto roly:
 
 - Projektový manažér

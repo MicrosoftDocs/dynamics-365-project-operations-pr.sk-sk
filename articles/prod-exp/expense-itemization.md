@@ -1,6 +1,6 @@
 ---
 title: Rozpis výdavkov
-description: Tento článok vysvetľuje, ako rozčleniť výdavky pomocou prepracovaného pracovného priestoru Výdavky.
+description: Tento článok vysvetľuje, ako rozpísať výdavky pomocou prepracovaného pracovného priestoru Výdavky.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -19,31 +19,31 @@ ms.locfileid: "8920953"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Organizácie často vyžadujú od zamestnancov, aby poskytli podrobný rozpis nákladov vynaložených počas cestovania. Napríklad hotelové folio môže obsahovať niekoľko riadkov s jednotlivými položkami pre cenu za izbu, daň, parkovanie a iné rôzne výdavky, ktoré vzniknú každý deň počas trvania pobytu. Alebo výdavky na jedlo môžu vyžadovať, aby ste poskytli podrobnejšie rozpis na raňajky, obed alebo večeru. Bez ohľadu na potreby organizácie je možné každú kategóriu výdavkov nastaviť tak, aby odrážala podkategórie alebo riadkové položky, ktoré tvoria výdavky. Kým položka bola vždy podporovaná v **Riadenie výdavkov**, **náklady** pracovný priestor umožňuje efektívnejšiu tvorbu položiek, keď funkcia, **Schopnosť rýchlo rozpísať opakujúce sa výdavky** je umožnené.  
+Organizácie často vyžadujú od zamestnancov, aby poskytli podrobný rozpis výdavkov vynaložených počas cestovania. Napríklad hotelové zoznam môže obsahovať niekoľko riadkov s jednotlivými položkami pre cenu za izbu, daň, parkovanie a iné rôzne výdavky, ktoré vzniknú každý deň počas trvania pobytu. Alebo výdavky na jedlo môžu vyžadovať, aby ste poskytli podrobnejšie rozpis pre raňajky, obed alebo večeru. Bez ohľadu na potreby organizácie je možné každú kategóriu výdavkov nastaviť tak, aby odrážala podkategórie alebo riadkové položky, ktoré tvoria výdavky. Kým rozpis bol vždy podporovaný vo funkcii **Správa výdavkov**, pracovný priestor **Prepracované výdavky** umožňuje efektívnejší rozpis, keď je povolená funkcia **Schopnosť rýchlo rozpísať opakujúce sa výdavky**.  
 
-## <a name="enable-quick-itemization"></a>Povoliť rýchlu tvorbu položiek 
+## <a name="enable-quick-itemization"></a>Povolenie rýchleho rozpisu 
 
-Môžete použiť **Schopnosť rýchlo rozpísať opakujúce sa výdavky** funkcia na rýchle rozloženie opakujúcich sa výdavkov, pričom nie je potrebné zadávať denné výdavky zakaždým počas trvania pobytu. Ak chcete povoliť rýchlu tvorbu položiek, vykonajte nasledujúce kroky.
+Môžete použiť funkciu **Schopnosť rýchlo rozpísať opakujúce sa výdavky** na rýchly rozpis opakujúcich sa výdavkov, pričom sa vyhnete potrebe zadávať denné výdavky zakaždým počas trvania pobytu. Vykonaním nasledujúcich krokov povolíte rýchly rozpis.
 
-1. Choďte na **Správa funkcií** pracovný priestor a v zozname funkcií nájdite a vyberte, **Prepracované výkazy výdavkov**. 
+1. Prejdite do pracovného priestoru **Správa funkcií** a v zozname funkcií vyhľadajte a vyberte položku **Prepracované výkazy výdavkov**. 
 2. Vyberte položku **Povoliť teraz**. 
 3. V zozname funkcií vyhľadajte a vyberte **Schopnosť rýchlo rozpísať opakujúce sa výdavky**.
 4. Vyberte položku **Povoliť teraz**. 
 
-## <a name="itemization-grid"></a>Mriežka položiek 
+## <a name="itemization-grid"></a>Mriežka rozpisu 
 
-Ak má kategória výdavkov podkategórie alebo rôzne zložky, ktoré tvoria tieto výdavky, možno ju rozčleniť na jednotlivé položky. Ak chcete rozpísať výdavok, vyberte riadok výdavkov vo výkaze výdavkov a v **Podrobnosti o výdavkoch** panel, vyberte **Akcie** > **Itemize**. The **Rozpis položiek** posúvač odhaľuje mriežku s poľami. Nasledujúca tabuľka poskytuje príklad každého poľa v mriežke a spôsob vykreslenia poľa vo výkaze výdavkov. 
+Ak má kategória výdavkov podkategórie alebo rôzne súčasti, ktoré tvoria tieto výdavky, možno ju rozčleniť na jednotlivé položky. Ak chcete rozpísať výdavok, vyberte riadok výdavkov vo výkaze výdavkov a na table **Podrobnosti o výdavkoch** vyberte **Akcie** > **Rozpísať**. Jazdec **Rozpis** odhaľuje mriežku s poľami. Nasledujúca tabuľka poskytuje príklad každého poľa v mriežke a spôsob vykreslenia poľa vo výkaze výdavkov. 
 
 |     Pole          |     Description                                                                                  |     Príklad              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
-|     Podkategória    |     Zoznam podkategórií nakonfigurovaných pod typom kategórie výdavkov, **Hotel**.             |     Cena za dennú izbu      |
-|     Počiatočný dátum     |     Dátum prvého vzniku nákladovej položky.                                           |     13.09.2021           |
-|     Denná sadzba     |     Suma vynaložená na nákladovú položku.                                                    |     200                  |
-|     Množstvo       |     Počet opakovaní nabíjania počas súvislého obdobia.                       |     3                    |
+|     Podkategória    |     Zoznam podkategórií nakonfigurovaných pod typom kategórie výdavkov **Hotel**.             |     Dennú sadzba za izbu      |
+|     Počiatočný dátum     |     Dátum prvého vzniku položky výdavku.                                           |     13. 9. 2021           |
+|     Denná sadzba     |     Suma vynaložená na položku výdavku.                                                    |     200                  |
+|     Množstvo       |     Počet opakovaní poplatku počas súvislého obdobia.                       |     3                    |
 
-![Rozpísať výdavky.](media/Itemization%20screen%201.png)
+![Rozpíšte výdavok.](media/Itemization%20screen%201.png)
 
-Keď uložíte rozpis položiek, uvidíte samostatný riadok s položkami pre množstvo zadané v tabuľke Rozpis položiek. Každý riadok začína dátumom, ktorý je uvedený v mriežke.
+Keď uložíte rozpis, uvidíte samostatný riadok s rozpísanými položkami pre množstvo zadané v tabuľke Rozpis. Každý riadok začína dátumom, ktorý je uvedený v mriežke.
 
-![Rozpísaný prehľad.](media/Itemization%20screen%202.png)
+![Rozpísaná zostava.](media/Itemization%20screen%202.png)
 

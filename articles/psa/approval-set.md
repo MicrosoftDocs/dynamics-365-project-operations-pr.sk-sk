@@ -1,6 +1,6 @@
 ---
 title: Množiny schválení v aplikácii Project Service Automation
-description: Tento článok poskytuje informácie o sade schvaľovania, žiadostiach a podskupinách týchto operácií.
+description: Tento článok poskytuje informácie o množine schválení, žiadostiach a podmnožinách týchto operácií.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

@@ -1,6 +1,6 @@
 ---
 title: Poznámky vývojára týkajúce sa schválení
-description: Tento článok poskytuje ďalšie informácie pre vývojárov o práci so schváleniami.
+description: Tento článok poskytuje ďalšie informácie vývojárov o práci so schváleniami.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

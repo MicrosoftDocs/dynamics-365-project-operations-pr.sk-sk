@@ -1,6 +1,6 @@
 ---
 title: Zrušenie predtým schváleného času a položiek výdavkov
-description: Tento článok poskytuje informácie o tom, ako zrušiť schválenú transakciu času a výdavkov projektu.
+description: Tento článok poskytuje informácie o zrušení schváleného času projektu a transakcie výdavkov.
 author: rumant
 ms.custom:
 - dyn365-projectservice

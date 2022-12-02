@@ -1,6 +1,6 @@
 ---
 title: Čo je nové v novembri 2020 – čiastočné nasadenie Project Operations – dohoda o fakturácii pro forma
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations Lite z novembra 2020 – dohoda o proforma fakturácii.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii v čiastočnom nasadení Project Operations – dohoda o fakturácii pro forma z novembra 2020.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

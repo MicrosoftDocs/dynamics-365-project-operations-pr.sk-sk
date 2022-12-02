@@ -1,6 +1,6 @@
 ---
 title: Použitie rezervovateľného zdroja ako cenovej dimenzie
-description: Tento článok poskytuje informácie o tom, ako používať rezervovateľný zdroj ako cenovú dimenziu.
+description: Tento článok poskytuje informácie o používaní rezervovateľného zdroja ako cenovej dimenzie.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8914835"
 
  _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_ 
 
-Tento článok poskytuje informácie o tom, ako používať rezervovateľný zdroj ako cenovú dimenziu. Ak je vaša cenová stratégia nastavená tak, že každý rezervovateľný zdroj musí mať konkrétnu cenu alebo nákladovú sadzbu, použite rezervovateľný zdroj ako cenovú dimenziu.
+Tento článok poskytuje informácie o používaní rezervovateľného zdroja ako cenovej dimenzie. Ak je vaša cenová stratégia nastavená tak, že každý rezervovateľný zdroj musí mať konkrétnu cenu alebo nákladovú sadzbu, použite rezervovateľný zdroj ako cenovú dimenziu.
 
 ## <a name="prerequisites"></a>Požiadavky
 Pred dokončením postupov v tomto článku musíte mať pre svoju organizáciu nové riešenie cenovej dimenzie. Ak ste si ho ešte nevytvorili, pozrite si stránku [Vytvorenie vlastných polí a entít](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).

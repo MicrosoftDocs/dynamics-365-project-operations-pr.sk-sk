@@ -1,6 +1,6 @@
 ---
 title: Prehľad projektového manažmentu
-description: Tento článok poskytuje informácie o riadení projektu v Dynamics 365 Project Operations.
+description: Tento článok poskytuje informácie o správe projektov v aplikácii Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

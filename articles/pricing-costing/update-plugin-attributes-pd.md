@@ -1,6 +1,6 @@
 ---
 title: Aktualizácia atribútov doplnkov o nové cenové dimenzie
-description: Tento článok poskytuje informácie o tom, ako aktualizovať atribúty doplnkov pre cenové dimenzie.
+description: Tento článok poskytuje informácie o aktualizácii atribútov doplnkov pre cenové dimenzie.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.locfileid: "8920033"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Aktualizácia atribútov doplnkov o nové cenové dimenzie
 
-Tento článok poskytuje informácie o tom, ako aktualizovať atribúty doplnkov pre cenové dimenzie.
+Tento článok poskytuje informácie o aktualizácii atribútov doplnkov pre cenové dimenzie.
 
 > [!NOTE]
-> Tento článok sa vzťahuje len na funkcie ponuky a zmluvy v Dynamics 365 Project Operations.
+> Tento článok sa týka iba funkcií cenovej ponuky a zmluvy v Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Požiadavky
-Pred dokončením krokov v tomto článku musíte vykonať postupy v nasledujúcich článkoch:
+Pred vykonaním krokov v tomto článku musíte mať dokončené postupy v nasledujúcich článkoch:
 
   - [Vytvorenie vlastných polí a entít](create-custom-fields-entities-pricing-dimensions.md) 
   - [Pridanie vlastných polí do entít nastavenia cien a transakcií ](add-custom-fields-price-setup-transactional-entities.md)
   - [Nastavenie vlastných polí ako cenových dimenzií](set-up-custom-fields-pricing-dimensions.md). 
   
-Ak ste tieto postupy nedokončili, dokončite ich a potom sa vráťte k tomuto článku.
+Ak ste tieto postupy nedokončili, dokončite ich a potom sa vráťte do tohto článku.
 
 ## <a name="register-a-plug-in"></a>Registrácia doplnku
 Keď sa na stránke **Riadok cenovej ponuky** pre riadok ponuky projektu vytvorí detail riadka cenovej ponuky, systém vytvorí dva riadky odhadu. Jeden riadok je pre stranu nákladov odhadu a druhý riadok pre stranu predaja. Toto je rovnaké pre riadky projektových zmlúv.

@@ -21,10 +21,10 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 ## <a name="prerequisites"></a>Požiadavky
 
-Skôr ako začnete konfigurovať údaje v Microsoft Dataverse, musia byť splnené tieto predpoklady:
+Skôr než začnete konfigurovať údaje v službe Microsoft Dataverse, musia byť splnené nasledujúce požiadavky:
 
-1.  Ustanovenie a Dataverse prostredie a Dynamics 365 Finance prostredie pre projektové operácie.
-2.  Informácie o právnickej osobe z Dynamics 365 Finance sa zdieľajú s Dataverse životné prostredie. To znamená, že **Spoločnosť** subjekt v Dataverse má nasledujúce firemné záznamy:
+1.  Zriadenie prostredia Dataverse a prostredia Dynamics 365 Finance pre Project Operations.
+2.  Informácie o právnickej osobe z Dynamics 365 Finance sa zdieľajú s prostredím Dataverse. To znamená, že entita **Spoločnosť** v Dataverse má tieto firemné záznamy:
   - THPM
   - USPM
   - GBPM

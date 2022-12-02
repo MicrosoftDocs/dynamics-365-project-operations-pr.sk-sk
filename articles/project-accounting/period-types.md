@@ -1,6 +1,6 @@
 ---
 title: Typy období
-description: Tento článok poskytuje informácie o tom, ako nastaviť typy období pre odhad výnosov.
+description: Tento článok obsahuje informácie o tom, ako nastaviť typy období pre odhad výnosov.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930981"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Typ obdobia definuje, ako často sa odhadujú výnosy v projekte. Tento článok poskytuje informácie o tom, ako nastaviť typy období pre odhad výnosov. 
+Typ obdobia definuje, ako často sa odhadujú výnosy v projekte. Tento článok obsahuje informácie o tom, ako nastaviť typy období pre odhad výnosov. 
 
 ## <a name="create-and-work-with-period-types"></a>Vytvorenie a práca s typmi období
 Ak chcete vytvárať a pracovať s typmi období, postupujte takto:
 
-1. Vo svojom Dynamics 365 Finance prostredí prejdite na **Projektový manažment a účtovníctvo** > **Nastaviť** > **Odhady** > **Typy období**.
+1. Vo vašom prostredí Dynamics 365 Finance prejdite do **Projektový manažment a účtovníctvo** > **Nastavenie** > **Odhady** > **Typy období**.
 2. Ak chcete vytvoriť nový typ obdobia, vyberte **Nové**. Zadajte názov a popis.
 3. V poli **Frekvencia** vyberte hodnotu:
 

@@ -1,6 +1,6 @@
 ---
 title: Oceňovanie katalógu produktov
-description: Tento článok poskytuje informácie o tom, ako funguje cena v katalógu produktov Dynamics 365 Project Service Automation (PSA).
+description: Tento článok poskytuje informácie o tom, ako funguje oceňovanie produktov v katalógu Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

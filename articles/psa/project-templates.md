@@ -1,6 +1,6 @@
 ---
 title: Projektové šablóny
-description: Tento článok poskytuje informácie o tom, ako používať šablóny projektu na rýchle nastavenie projektu.
+description: Tento článok poskytuje informácie o používaní šablón projektov na rýchle nastavenie projektu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

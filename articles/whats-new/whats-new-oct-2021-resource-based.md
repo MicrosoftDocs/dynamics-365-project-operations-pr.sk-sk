@@ -1,6 +1,6 @@
 ---
 title: Čo je nové Október 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z októbra 2021 pre scenáre založené na zdrojoch alebo bez zásob.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z októbra 2021 pre scenáre založené na zdrojoch/neskladovaných položkách.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914656"
 
 *Platí pre: Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch*
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
    - Project Operations v prostredí Microsoft Dataverse verzie 4.25.0.91
-   - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.21
+   - Projektový manažment a účtovníctvo v prostrední Dynamics 365 Finance, verzia 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 
@@ -49,7 +49,7 @@ Ak narazíte na problém so spustením mapy, postupujte podľa pokynov v časti 
 | Fakturácia a tvorba cien | 2338357 | Keď je projekt vybraný, mena v denníku použitia materiálu musí byť predvolená z meny projektu. |
 | Čas a výdavky | 2414777 | Zrušenie schválenia, ak má záznam o výdavkoch alebo čase viac ako jedno súvisiace schválenie projektu, musí byť možné. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektový manažment a účtovníctvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
 
 | Oblasť funkcií | Číslo odkazu | Aktualizácia kvality |
 | --- | --- | --- |

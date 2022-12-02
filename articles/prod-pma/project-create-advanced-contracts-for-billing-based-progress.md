@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie zmlúv založených na zálohách pre fakturácie na základe priebehu
-description: Tento článok vysvetľuje, ako vytvoriť zmluvy o projekte, aby ste mohli generovať faktúry pre zákazníkov na základe percenta dokončenej práce.
+description: Tento článok vysvetľuje, ako vytvoriť projektové zmluvy, aby ste zákazníkom mohli generovať faktúry na základe percenta z dokončenej práce.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913685"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Vytvorenie zmlúv založených na zálohách pre fakturácie na základe priebehu
 [!include [banner](../includes/banner.md)]
 
-Tento článok vysvetľuje, ako vytvoriť zmluvy o projekte, aby ste mohli vytvárať faktúry pre zákazníkov na základe percenta dokončenej práce. Čiastky faktúry sa automaticky počítajú pre rozpočtové kategórie práce, ktoré ste nastavili pre projekt. Načasovanie faktúry sa nastaví pri rokovaniach so zákazníkom o projektovej zmluve.
+Tento článok vysvetľuje, ako vytvoriť projektové zmluvy, aby ste zákazníkom mohli generovať faktúry na základe percenta z dokončenej práce. Čiastky faktúry sa automaticky počítajú pre rozpočtové kategórie práce, ktoré ste nastavili pre projekt. Načasovanie faktúry sa nastaví pri rokovaniach so zákazníkom o projektovej zmluve.
 
-Pomocou postupov v tomto článku nastavte zmluvu, súvisiaci projekt a pravidlá fakturácie, ktoré vypočítavajú sumy faktúr pre rozpočtové kategórie prác, ktoré ste nastavili pre projekt.
+Postupy v tomto článku použite na nastavenie zmluvy, súvisiaceho projektu a fakturačných pravidiel, ktoré počítajú sumy faktúr pre rozpočtové kategórie prác, ktoré ste pre projekt nastavili.
 
 Po vytvorení zmluvy a projektu môžete nastaviť podrobnosti projektu. Môžete napríklad definovať činnosti a priradiť pracovníkov k projektu.
 

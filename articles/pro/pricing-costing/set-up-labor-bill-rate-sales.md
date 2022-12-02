@@ -1,6 +1,6 @@
 ---
 title: Nastavenie sadzieb fakturácie za prácu – čiastočné
-description: Tento článok poskytuje informácie o nastavení sadzieb fakturácie práce v Project Operations.
+description: Tento článok poskytuje informácie o nastavení a sadzieb fakturácie práce v Project Operations.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Prognózy a rozpočty projektov
-description: Microsoft Dynamics 365 Finance poskytuje prognózy projektov a rozpočty projektov na riadenie a kontrolu vašich projektov.
+description: Microsoft Dynamics 365 Finance poskytuje predpovede projektu a rozpočty projektu na spravovanie a riadenie vašich projektov.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

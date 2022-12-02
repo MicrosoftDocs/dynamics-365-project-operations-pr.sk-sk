@@ -1,6 +1,6 @@
 ---
 title: Stavy rezervácií
-description: Tento článok poskytuje odkaz na informácie o tom, ako nastaviť stavy rezervácie pre operácie projektu.
+description: Tento článok poskytuje odkaz na informácie o tom, ako nastaviť stavy rezervácie pre Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

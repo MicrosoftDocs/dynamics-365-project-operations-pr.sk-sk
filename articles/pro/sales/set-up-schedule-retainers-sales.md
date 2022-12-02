@@ -1,6 +1,6 @@
 ---
 title: 'Nastavenie plánu preddavkov '
-description: Tento článok poskytuje informácie o tom, ako nastaviť plán záloh v Project Operations.
+description: Tento článok poskytuje informácie o tom, ako nastaviť plán preddavkov v Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

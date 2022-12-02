@@ -1,6 +1,6 @@
 ---
 title: Riešenie problémov s prácou v mriežke úloh
-description: Tento článok poskytuje informácie o riešení problémov potrebné pri práci v mriežke úloh.
+description: Tento článok poskytuje informácie o riešení problémov potrebných pri práci v mriežke úloh.
 author: ruhercul
 ms.date: 07/22/2022
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9188251"
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/nenaskladnené, nasadenie Lite – dohoda o proforma fakturácii, Project for the Web_
 
-Mriežka úloh, ktorú používa Dynamics 365 Project Operations je hostený prvok iframe v rámci Microsoft Dataverse. V dôsledku tohto použitia musia byť splnené špecifické požiadavky na zabezpečenie správneho fungovania autentifikácie a autorizácie. Tento článok popisuje bežné problémy, ktoré môžu ovplyvniť schopnosť vykresľovať mriežku alebo spravovať úlohy v štruktúre rozpisu práce (WBS).
+Mriežka úloh použitá v Dynamics 365 Project Operations je hostiteľským rámcom iframe v Microsoft Dataverse. V dôsledku tohto použitia musia byť splnené konkrétne požiadavky na zaistenie správneho fungovania autentifikácie a autorizácie. Tento článok načrtáva bežné problémy, ktoré môžu mať vplyv na schopnosť vykresľovať mriežku alebo spravovať úlohy v štruktúre rozdelenia práce (WBS).
 
 Bežné problémy zahŕňajú:
 
@@ -32,7 +32,7 @@ Bežné problémy zahŕňajú:
 
 ### <a name="mitigation-1-enable-cookies"></a>Zmiernenie 1: Povoliť súbory cookie
 
-Project Operations vyžadujú, aby boli súbory cookie tretích strán povolené na vykreslenie štruktúry rozdelenia práce. Ak nie sú povolené súbory cookie tretích strán, namiesto zobrazenia úloh sa po výbere možnosti zobrazí prázdna stránka **Úlohy** kartu na **Projekt** stránku.
+Project Operations vyžadujú, aby boli súbory cookie tretích strán povolené na vykreslenie štruktúry rozdelenia práce. Ak súbory cookie tretích strán nie sú povolené, namiesto zobrazenia úloh sa po výbere karty **Úlohy** na stránke **Projekt** zobrazí prázdna stránka.
 
 V prípade prehliadačov Microsoft Edge alebo Google Chrome nasledujúce postupy naznačujú, ako aktualizovať nastavenie prehliadača tak, aby boli povolené súbory cookie tretích strán.
 
@@ -71,15 +71,15 @@ Project Operations vyžaduje, aby parameter projektu odkazoval na koncový bod P
 
 4. Odstráňte pole zo stránky **Parametre projektu**.
 
-### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Zmiernenie 3: prihláste sa do project.microsoft.com
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Zmiernenie 3: Prihláste sa do project.microsoft.com.
 
-V prehliadači otvorte novú kartu, prejdite na project.microsoft.com a prihláste sa s rolou používateľa, ktorú používate na prístup k prevádzke projektu. Je dôležité, aby bol do produktu spoločnosti Microsoft v prehliadači prihlásený iba jeden používateľ. Chybové hlásenie „login.microsoftonline.com sa odmietol pripojiť“ sa najčastejšie vyskytuje, keď je prihlásených viac používateľov, ako je znázornené na nasledujúcom obrázku.
+V prehliadači otvorte novú kartu, prejdite na project.microsoft.com a prihláste sa pomocou roly používateľa, ktorú používate na prístup k Project Operations. Je dôležité, aby bol do produktu spoločnosti Microsoft v prehliadači prihlásený iba jeden používateľ. Chybové hlásenie „login.microsoftonline.com sa odmietol pripojiť“ sa najčastejšie vyskytuje, keď je prihlásených viac používateľov, ako je znázornené na nasledujúcom obrázku.
 
 ![Vyberte prihlasovaciu stránku účtu, na ktorej sú prihlásení dvaja používatelia.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problém: Projekt sa nenačíta a používateľské rozhranie je prilepené na číselníku
 
-Na účely autentifikácie musia byť pre načítanie mriežky úloh povolené kontextové okná. Ak vyskakovacie okná nie sú povolené, obrazovka sa prilepí na číselník načítania. Nasledujúci obrázok zobrazuje adresu URL so zablokovaným kontextovým štítkom v paneli s adresou, čo vedie k zaseknutiu rotujúceho pri pokuse o načítanie stránky. 
+Na účely autentifikácie musia byť pre načítanie mriežky úloh povolené kontextové okná. Ak vyskakovacie okná nie sú povolené, obrazovka sa prilepí na číselník načítania. Nasledujúci obrázok zobrazuje adresu URL so zablokovaným vyskakovacím štítkom v paneli s adresou, čo má za následok uviaznutie číselníka pri pokuse o načítanie stránky. 
 
    ![Zaseknutý číselník a vyskakovací blok.](media/popupsblocked.png)
 
@@ -115,7 +115,7 @@ Prípadne môžete tiež urobiť jeden z týchto úkonov.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problém 3: Správa oprávnení pre Project for the Web.
 
-Project Operations sa spolieha na externú plánovaciu službu. Služba vyžaduje, aby mal používateľ priradených niekoľko rolí, ktoré mu umožňujú čítať a zapisovať do entít súvisiacich s WBS. Medzi tieto entity patria projektové úlohy, priradenia zdrojov a závislosti úloh. Ak používateľ nemôže vykresliť WBS, keď prejde na **Úlohy** kartu, je to pravdepodobne preto **Projekt** pre **Projektové operácie** nebolo povolené. Používateľ môže dostať buď chybu roly zabezpečenia, alebo chybu súvisiacu s odmietnutím prístupu.
+Project Operations sa spolieha na externú plánovaciu službu. Služba vyžaduje, aby mal používateľ priradených niekoľko rolí, ktoré mu umožňujú čítať a zapisovať entity súvisiace s WBS. Medzi tieto entity patria projektové úlohy, priradenia zdrojov a závislosti úloh. Ak používateľ nemôže vykresliť WBS, keď prejde na kartu **Úlohy**, je to pravdepodobne preto, že **Projekt** pre **Project Operations** nebol povolený. Používateľ môže dostať buď chybu roly zabezpečenia, alebo chybu súvisiacu s odmietnutím prístupu.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Zmiernenie 1: Overte roly zabezpečenia používateľa aplikácie a koncového používateľa
 

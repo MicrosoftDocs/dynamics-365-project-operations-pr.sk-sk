@@ -1,6 +1,6 @@
 ---
 title: Prehľad procesu predaja
-description: Tento článok poskytuje informácie o základných procesoch predaja.
+description: Tento článok poskytuje informácie o základných predajných procesoch.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Zobrazuje riadky cenovej ponuky založené na produkte.
-description: Tento článok poskytuje informácie o radoch cenových ponúk podľa produktov.
+description: Tento článok poskytuje informácie o riadkoch cenovej ponuky založenej na produkte.
 author: rumant
 ms.custom:
 - dyn365-projectservice

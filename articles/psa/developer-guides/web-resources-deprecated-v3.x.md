@@ -1,6 +1,6 @@
 ---
 title: Zastarané webové prostriedky v Project Service Automation 3.x
-description: Tento článok popisuje webové zdroje, ktoré sa už nepoužívajú Dynamics 365 Project Service Automation 3.0.
+description: Tento článok popisuje webové zdroje, ktoré sa už nepoužívajú v Dynamics 365 Project Service Automation 3.0.
 author: makk
 ms.custom:
 - dyn365-projectservice

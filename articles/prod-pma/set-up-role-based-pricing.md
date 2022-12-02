@@ -1,6 +1,6 @@
 ---
 title: Nastavte ceny na základe rolí
-description: Tento článok poskytuje informácie o tom, ako nastaviť ceny pre konkrétne roly.
+description: Tento článok poskytuje informácie o tom, ako nastaviť oceňovanie pre špecifické roly.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Konfigurácia kategórií projektov
-description: Tento článok poskytuje informácie o nastavení kategórií projektov.
+description: Tento článok poskytuje informácie o nastavovaní kategórií projektov.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Kategórie transakcií sú definované v module Project Operations.
 
 ## <a name="shared-categories"></a>Zdieľané kategórie
 
-Dynamics 365 používa koncept zdieľaných kategórií na kategorizáciu výdavkov v rôznych aplikáciách, ako sú Dynamics 365 Finance, Dynamics 365 Supply Chain a Dynamics 365 Project Operations. Pre každú vytvorenú kategóriu transakcií Project Operations automaticky vytvorí štyri súvisiace zdieľané kategórie: Hodiny, Výdavok, Poplatky a Položka. Zdieľané kategórie môžete skontrolovať a upraviť v časti **Riadenie projektu a účtovníctvo** \> **Nastaviť** \> **Kategórie** \> **Zdieľané kategórie**.
+Dynamics 365 používa koncept zdieľaných kategórií na kategorizáciu výdavkov v rôznych aplikáciách, ako napr.Dynamics 365 Finance, Dynamics 365 Supply Chain a Dynamics 365 Project Operations. Pre každú vytvorenú kategóriu transakcií Project Operations automaticky vytvorí štyri súvisiace zdieľané kategórie: Hodiny, Výdavok, Poplatky a Položka. Zdieľané kategórie môžete skontrolovať a upraviť v časti **Riadenie projektu a účtovníctvo** \> **Nastaviť** \> **Kategórie** \> **Zdieľané kategórie**.
 
 ## <a name="project-categories"></a>Kategórie projektov
 

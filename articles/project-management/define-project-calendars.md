@@ -1,6 +1,6 @@
 ---
 title: Definovanie kalendárov projektu
-description: Tento článok poskytuje informácie o tom, ako použiť šablónu kalendára na projekt na sledovanie plánu projektu.
+description: Tento článok poskytuje informácie o tom, ako použiť šablónu kalendára pre projekt na sledovanie plánu projektu.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

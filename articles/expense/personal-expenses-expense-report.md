@@ -1,6 +1,6 @@
 ---
 title: Práca s osobnými výdavkami vo výkaze výdavkov
-description: Tento článok poskytuje informácie o tom, ako pracovať s osobnými výdavkami zamestnancov počas služobných ciest.
+description: Tento článok poskytuje informácie o tom, ako pracovať s osobnými výdavkami, ktoré vzniknú zamestnancom pri cestovaní na služobné účely.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

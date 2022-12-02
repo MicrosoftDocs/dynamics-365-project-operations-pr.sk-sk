@@ -1,6 +1,6 @@
 ---
 title: Potvrdenie, aktualizácia a odosielanie kótovanej ceny projektu
-description: Tento článok poskytuje informácie o odoslaní cenovej ponuky zákazníkovi na potvrdenie, úprave na základe spätnej väzby a následnom opätovnom odoslaní cenovej ponuky.
+description: Tento článok poskytuje informácie o odoslaní cenovej ponuky zákazníkovi na potvrdenie, úpravách založených na odozve a opätovnom odoslaní cenovej ponuky.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

@@ -34,7 +34,7 @@ Dynamics 365 Project Operations sa dodáva s predvolenou množinou cenových dim
 
 ![Snímka obrazovky z parametrov Project Service so zvýrazneným „Vzťahuje sa na predaj“.](media/PS-OOB-parameters.png)
 
-Ak potrebujete ceny alebo náklady na svoje zdroje pomocou ďalších atribútov, môžete vytvoriť prispôsobené polia, entity a dimenzie. Viac informácií nájdete v nasledujúcich článkoch. 
+Ak potrebujete ceny alebo náklady na svoje zdroje pomocou ďalších atribútov, môžete vytvoriť prispôsobené polia, entity a dimenzie. Ďalšie informácie nájdete v nasledujúcich článkoch. 
   
   > [!NOTE]
   > Postupy musia byť ukončené v poradí, v akom sú uvedené.

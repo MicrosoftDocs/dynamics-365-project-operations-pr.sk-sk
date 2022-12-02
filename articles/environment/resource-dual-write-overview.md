@@ -1,6 +1,6 @@
 ---
 title: Integrácia duálneho zápisu Project Operations
-description: Tento článok poskytuje prehľad o integrácii s duálnym zápisom Project Operations.
+description: Tento článok poskytuje prehľad integrácie duálneho zápisu Project Operations.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "8927991"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Použitie Project Operations [možnosti duálneho zápisu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) na synchronizáciu údajov Microsoft Dataverse a Dynamics 365 Finance.
+Project Operations využíva [možnosti duálneho zápisu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) na synchronizáciu údajov naprieč Microsoft Dataverse a Dynamics 365 Finance.
 
 Nasledujúca ilustrácia ukazuje, ako sa synchronizujú údaje ako súčasť tejto integrácie medzi Dataverse a Finance.
 

@@ -1,6 +1,6 @@
 ---
 title: Príručka vykazovania
-description: Tento článok obsahuje odkazy na informácie o nahlasovaní.
+description: Tento článok obsahuje prepojenia na informácie o hlásení.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,14 +32,14 @@ ms.locfileid: "8919205"
 
 Metódy a technológie vykazovania v tejto aplikácii vám môžu pomôcť určiť stav vašich projektov a zistiť, kedy je potrebné prijať nápravné opatrenia. 
 
-Odkaz na PDF, ktorý bol predtým v tomto článku, bol odstránený a obsah bol presunutý do nasledujúcich článkov:
+Odkaz PDF, ktorý bol predtým v tomto článku odstránený a obsah bol presunutý do nasledujúcich článkov:
 
 - [Domovská stránka vykazovania](../reports-reporting-dynamics-365-project-service.md)
 - [Tabule](../reports-dashboards.md)
 - [Práca s dátovým modelom Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Tento článok bude odstránený v budúcej aktualizácii dokumentácie. 
+> Tento článok sa odstráni v budúcej aktualizácii dokumentácie. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

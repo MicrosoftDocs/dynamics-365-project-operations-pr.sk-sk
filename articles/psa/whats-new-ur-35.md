@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 35, V3
-description: Tento článok obsahuje zoznam funkcií a opráv, ktoré sú k dispozícii v Microsoft Dynamics 365 Project Service Automation Aktualizácia vydanie 35, V3.
+description: Tento článok obsahuje zoznam funkcií a opráv, ktoré sú k dispozícii v aktualizácii Microsoft Dynamics 365 Project Service Automation, vydanie 35, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/03/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8912857"
 
 S potešením oznamujeme najnovšiu aktualizáciu pre aplikáciu Microsoft Dynamics 365 Project Service Automation. Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Je kompatibilná s verziou Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte stránku Centra spravovania pre online riešenia služby Dynamics 365 a nainštalujte si aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).
 
-Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre Project Service Automation Update Release 35, V3. Táto verzia má číslo zostavenia V3.10.56.110 a je všeobecne dostupná prostredníctvom vlastnej aktualizácie zo septembra 2021.
+Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu Project Service Automation, vydanie 35, V3. Táto verzia má číslo zostavenia V3.10.56.110 a je všeobecne dostupná prostredníctvom vlastnej aktualizácie zo septembra 2021.
 
 ## <a name="update-release-35"></a>Aktualizácia vydania 35
 

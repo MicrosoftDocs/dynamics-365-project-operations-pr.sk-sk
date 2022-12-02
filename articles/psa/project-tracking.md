@@ -1,6 +1,6 @@
 ---
 title: Priebeh projektu a využitie nákladov
-description: Tento článok poskytuje informácie o sledovaní priebehu projektu a spotreby nákladov.
+description: Tento článok poskytuje informácie o tom, ako sledovať priebeh projektu a spotrebu nákladov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921781"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Potreba sledovať pokrok v rozvrhu sa líši v závislosti od odvetvia. Niektoré odvetvia sledujú na komplexnej úrovni, zatiaľ čo iné odvetvia sledujú na vyššej úrovni. Tento článok ukazuje, ako plánovať, aby ste splnili požiadavky vašej organizácie.
+Potreba sledovať pokrok v rozvrhu sa líši v závislosti od odvetvia. Niektoré odvetvia sledujú na komplexnej úrovni, zatiaľ čo iné odvetvia sledujú na vyššej úrovni. Tento článok ukazuje, ako naplánovať, aby spĺňali požiadavky vašej organizácie.
 
 ## <a name="effort-tracking-view"></a>Zobrazenie sledovania úsilia
 

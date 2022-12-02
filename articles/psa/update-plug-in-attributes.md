@@ -1,6 +1,6 @@
 ---
 title: Aktualizácia atribútov doplnkov na zahrnutie nových dimenzií cien
-description: Tento článok poskytuje informácie o aktualizácii atribútov doplnkov pre cenové dimenzie.
+description: Tento článok poskytuje informácie o aktualizácii atribútov doplnkov pre dimenzie cien.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913225"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Ak nepoužívate funkcie Project Service Automation (PSA) Citovanie a uzatváranie zmlúv, môžete tento článok preskočiť.
+> Ak nepoužívate program Project Service Automation (PSA) a funkcie uzatvárania zmlúv, môžete tento článok vynechať.
 
-Tento článok predpokladá, že ste dokončili postupy v článkoch, [Vytvorte si vlastné polia a entity](create-custom-fields-entities.md),[Pridajte vlastné polia do nastavenia ceny a transakčných entít](field-references.md) a [Nastavte vlastné polia ako cenové dimenzie](set-up-pricing-dimensions.md). Ak ste tieto postupy nedokončili, vráťte sa a dokončite ich a potom sa vráťte k tomuto článku.
+Tento článok nadväzuje na dokončenie postupov v článkoch [Vytvorte vlastné polia a entity](create-custom-fields-entities.md), [Pridanie vlastných polí do cenového nastavenia a transakčných entít](field-references.md) a [Nastavenie vlastných polí ako dimenzií cien](set-up-pricing-dimensions.md). Ak ste tieto postupy nedokončili, vráťte sa späť a dokončite ich a potom sa vráťte k tomuto článku.
 
 Keď sa vytvorí podrobnosti riadka cenovej ponuky na stránke **Riadok cenovej ponuky** pre riadok projektovej ponuky vytvorí detail riadka cenovej ponuky, systém vytvorí dva riadky odhadu v pozadí – jeden riadok pre stranu nákladov odhadu a jeden pre predajnú stranu. Toto je rovnaké pre riadky projektových zmlúv.
 

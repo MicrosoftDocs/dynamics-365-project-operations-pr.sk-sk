@@ -19,9 +19,9 @@ _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/ch�
 
 
 
-Tento článok vysvetľuje, ako sa prihlásiť na odber ukážkovej ponuky partnera a nasadiť a Dynamics 365 Project Operations životné prostredie.
+Tento článok vysvetľuje, ako si predplatiť ponuku partnera verzie Preview a nasadiť prostredie Dynamics 365 Project Operations.
 
-Vďaka novej skúšobnej verzii Project Operations môžete automaticky nasadiť ktorýkoľvek z troch podporovaných scenárov nasadenia vyplnením dotazníka, ktorý odporúča najlepší prístup k nasadeniu. Tento článok poskytuje informácie o tom, ako:
+Vďaka novej skúšobnej verzii Project Operations môžete automaticky nasadiť ktorýkoľvek z troch podporovaných scenárov nasadenia vyplnením dotazníka, ktorý odporúča najlepší prístup k nasadeniu. Tento článok poskytuje informácie o nasledujúcich témach:
 
 - Uplatnenie skúšobnej ponuky.
 - Inicializácia poskytovania prostriedkov.
@@ -86,18 +86,18 @@ Predtým ako začnete, prihláste sa do prehliadača pomocou používateľského
  
   Keď je zriaďovanie dokončené, stav vášho prostredia je **Pripravený**. Zabezpečenie prostredia zahŕňa nasadenie demo údajov.
  
-4.  Vyberte príslušný Microsoft Dataverse URL a adresy URL aplikácií pre financie a operácie na overenie nasadenia.
+4.  Vyberte príslušnú adresu URL Microsoft Dataverse a adresy URL aplikácií na riadenie financií a prevádzok na overenie nasadenia.
 
 ## <a name="configuring-dual-write"></a>Konfigurácia duálneho zápisu
-- Ak chcete nakonfigurovať roly zabezpečenia pre duálny zápis, pozrite si časť [Aktualizujte nastavenia zabezpečenia v Project Operations v Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Ak chcete nakonfigurovať roly zabezpečenia pre duálny zápis, pozrite si časť [Aktualizácia nastavení zabezpečenia v aplikácii Project Operations v Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
 - Ak chcete získať prístup ku konfigurácii duálneho zápisu, prejdite na inštanciu financií a operácií a potom prejdite na **Správa údajov** > **Duálny zápis**.
-- Ak chcete nakonfigurovať mapy s dvojitým zápisom, pozrite si časť [Spustite Project Operations mapy s dvojitým zápisom](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Ak chcete nakonfigurovať mapy s duálnym zápisom, pozrite si časť [Spúšťanie máp s duálnym zápisom v Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Priradenie licencií
 
 Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k Microsoft 365 vo vašej organizácii .
 
-1. Choďte na [Microsoft 365 centrum spravovania](https://portal.office.com/) na pridelenie licencií vašim používateľom.
+1. Choďte do [centra spravovania Microsoft 365](https://portal.office.com/) a priraďte licencie svojim používateľom.
 
    ![Stránka správcu centra spravovania](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Nasledujúce zdroje poskytujú užitočné rady na začiatku cesty s Project Ope
 
 ## <a name="frequently-asked-questions"></a>Najčastejšie otázky
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Čo ak potrebujem ALM alebo ELM pre svoje prostredie finančných a prevádzkových aplikácií?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Čo ak potrebujem ALM alebo ELM pre svoje prostredie aplikácií na riadenie financií a prevádzok?
 
 - Partnerov, ktorí vyžadujú úplné možnosti správy životného cyklu prostredia, nájdete v dokumente [Žiadosť o licenciu izolovaného priestoru partner](https://experience.dynamics.com/requestlicense), kde môžete preskúmať novú partnerskú ponuku. 
 - Partnerov, ktorí hľadajú viac informácií o právach na interné použitie, nájdete v dokumente [Práva na interné použitie v cloude a softvérové výhody (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Nasledujúce zdroje poskytujú užitočné rady na začiatku cesty s Project Ope
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Môžem si skúšobnú dobu predĺžiť nad 30 dní?
 Ak si chcete skúšobnú verziu predĺžiť, vykonajte nasledujúce kroky.
 
-1. V **Microsoft 365 Admin Center**, ísť do **Fakturácia** > **Vaše produkty**.
+1. V **centre spravovania Microsoft 365** prejdite na položky **Fakturácia** > **Vaše produkty**.
 2. Vyberte **Dynamics 365 Project Operations (CE) – skúšobná verzia Preview**.
 3. Pod položkou **Dátum uplynutia platnosti** vyberte **Predĺžiť dátum**.
 

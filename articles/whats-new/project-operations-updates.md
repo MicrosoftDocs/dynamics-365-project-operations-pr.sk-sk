@@ -1,6 +1,6 @@
 ---
 title: Aktualizácie aplikácie Project Operations
-description: Tento článok poskytuje informácie o vydaných verziách Dynamics 365 Project Operations.
+description: Tento článok obsahuje informácie o vydaných verziách Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
@@ -25,7 +25,7 @@ _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/ch�
 Dynamics 365 Project Operations sa skladá z dvoch zložiek:
 
 - Project Operations v prostredí Dataverse pokrýva možnosti od príležitosti po fakturáciu pro forma. Dataverse sa používa pri čiastočnom nasadení a nasadení scenárov založených na zdrojoch/chýbajúcich zdrojoch položiek v rámci Project Operations.
-- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance pokrýva možnosti riadenia výdavkov, projektové účtovníctvo a vykazovanie výnosov. Prostredie aplikácie pre financie a operácie sa používa v projektových operáciách pre scenáre založené na zdrojoch/nezásobách a v projektových operáciách pre scenáre na sklade/výrobe.
+- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance pokrýva možnosti riadenia výdavkov, účtovníctvo v rámci projektu a priznanie výnosov. Prostredie aplikácie na riadenie financií a prevádzok sa používa v Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách a v aplikácii Project Operations pre scenáre založené na zdrojoch/výrobe.
 
 ## <a name="project-operations-release-notes"></a>Poznámky k vydaniu aplikácie Project Operations
 - Najnovšie poznámky k vydaniu aplikácie Project Operations pre scenár [Zdroje/chýbajúce zdroje](whats-new-july-2022-resource-based.md).
@@ -34,11 +34,11 @@ Dynamics 365 Project Operations sa skladá z dvoch zložiek:
 
 ## <a name="project-operations-latest-version"></a>Najnovšia verzia Project Operations
 
-| Project Operations v prostredí Dataverse | Projektový manažment a účtovníctvo v prostrediach finančných a prevádzkových aplikácií | 
+| Project Operations v prostredí Dataverse | Projektový manažment a účtovníctvo v prostrediach aplikácií na riadenie financií a prevádzok | 
 | --- | --- |
 | 4.45.0.53 | 10.0.29 |
 
-Pre scenár prevádzkového zdroja projektu/bez zásob odporúčame použiť verziu Orchestration s duálnym zápisom 2.3.1.15 alebo vyššiu.
+V prípade scenára Project Operations so zdrojmi/neskladovými položkami odporúčame použiť verziu orchestrácie 2.3.1.15 alebo vyššiu s duálnym zápisom.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Časový plán vydania pre Project Operations v prostredí Dataverse
 
@@ -66,7 +66,7 @@ Aktualizácie aplikácie Project Operations v prostredí Dataverse sú k dispoz�
 | Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Severná Amerika         |  4.46.0.60      | Dokončené           | Dokončené            | Spracuje sa           | 04. novembra, 2022       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Plán vydania pre riadenie projektov a účtovníctvo v prostredí finančných a prevádzkových aplikácií
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Časový plán vydania pre Manažment projektov a účtovníctvo v prostrední aplikácií na riadenie financií a prevádzok
 
 Aktualizácie pre Projektový manažment a účtovníctvo sú vydávané osemkrát ročne.
 

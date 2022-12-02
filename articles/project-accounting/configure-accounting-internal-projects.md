@@ -1,6 +1,6 @@
 ---
 title: Konfigurácia účtovníctva pre interné projekty
-description: Tento článok poskytuje informácie o tom, ako nastaviť účtovné postupy pre interné projekty v Project Operations.
+description: Tento článok poskytuje informácie o tom, ako nastaviť účtovné postupy pre interné projekty v aplikácii Project Operations.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

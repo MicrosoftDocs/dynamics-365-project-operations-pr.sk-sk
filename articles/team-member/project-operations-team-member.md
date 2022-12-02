@@ -1,6 +1,6 @@
 ---
-title: Aplikácia Project Operations Team Member
-description: Tento článok poskytuje informácie o aplikácii Project Operations Team Member v Microsoft Dynamics 365 Project Operations.
+title: Aplikácia Člen tímu pre Project Operations
+description: Tento článok poskytuje informácie o aplikácii Člen tímu pre Project Operations v Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -22,20 +22,20 @@ ms.contentlocale: sk-SK
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8918239"
 ---
-# <a name="project-operations-team-member-app"></a>Aplikácia Project Operations Team Member
+# <a name="project-operations-team-member-app"></a>Aplikácia Člen tímu pre Project Operations
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Aplikácia Project Operations Team Member (predtým známa ako Project Resource Hub) obsahuje všetky funkcie, ktoré ponúka Microsoft Dynamics 365 Project Operations ponúka užívateľskú licenciu pre členov tímu.
+Aplikácia Člen tímu v Project Operations (predtým známa ako Centrum projektových zdrojov) obsahuje všetky funkcie, ktoré Microsoft Dynamics 365 Project Operations ponúka používateľskú licenciu pre Členov tímu.
 
-Tu sú niektoré z možností aplikácie Project Operations Team Member:
+Tu sú niektoré z možností aplikácie Člen tímu pre Project Operations:
 
 - Zadanie času
-- Vstup do nákladov (nasadenie Lite)
+- Záznam o výdavku (čiastočné nasadenie)
 - Použitie materiálu
 - Approvals
 - Rozšíriteľnosť (až 15 entít)
 
-Ak chcete používať aplikáciu Project Operations Team Member, musíte mať buď úplnú licenciu Project Operations alebo užívateľskú licenciu Dynamics Team Members. Viac informácií o licenciách nájdete na [Licenčná príručka Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Aplikácia Project Operations Team Member vyžaduje nasadenie Project Operations.
+Ak chcete používať aplikáciu Člen tímu v Project Operations, musíte mať buď úplnú licenciu Project Operations alebo používateľskú licenciu Dynamics Team Members. Ďalšie informácie o licenciách nájdete v časti [Príručka k licencovaniu systému Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Aplikácia Člen tímu pre Project Operations vyžaduje nasadenie Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

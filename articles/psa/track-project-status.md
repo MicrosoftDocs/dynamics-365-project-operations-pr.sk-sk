@@ -37,7 +37,7 @@ Počas procesu sa fázy projektu aktualizujú vzhľadom na priebeh:
 | Úloha | Description | 
 |------------|----------|
 | **New** | Po vytvorení projektu sa fáza nastaví na **Nové**. Ak ste vytvorili projekt zo šablóny, v tejto fáze projektu môže mať plán, odhady a tím údajov. V opačnom prípade bude náčrt projektu a musíte ručne zadajte zvyšku komponentov projektu. |
-| **Ponuka** |  Keď priradíte projekt k cenovej ponuke alebo ju vytvoríte z ponuky, fáza projektu sa nastaví na **Citovať** a aktualizujú sa aj odhadované dátumy začiatku a konca. Keď projekt je vo fáze cenová ponuka, podrobnosti cenovej ponuky sa zobrazia na karte **Predaj** stránky **projektu**. |
+| **Ponuka** |  Po spojení projektu a cenovej ponuky alebo jeho vytvorení z cenovej ponuky sa etapa projektu nastaví na **Cenová ponuka** a aktualizujú sa aj odhadovaný dátum začatia a ukončenia. Keď projekt je vo fáze cenová ponuka, podrobnosti cenovej ponuky sa zobrazia na karte **Predaj** stránky **projektu**. |
 | **Plánovať** |  Ak sa cenová ponuka priradená k projektu využije a proces sa dostane do fázy kontraktu, stav projektu sa aktualizuje na **Plán**. Podrobnosti zmluvy sa zobrazia na karte **Predaj** stránky **Projekt**. |
 | **Hotovo** | Po dokončení prác na projekte môžete jeho fázu prehodiť na **Dokončené**. Fáza dokončenia projektu predpokladá, že je práca hotová na 100 %, no projekt zostáva otvorený až do času, kým sa nezaznamenajú záznamy nákladov. |
 | **Zavrieť** | Keď všetky transakcie boli zaznamenané na projekte a už sa nemusí čakať na žiadny záznam, môžete manuálne nastaviť fázu **Zatvorený**. Ak je stav projektu **Zatvorený**, nemôžete doň zadávať žiadne ďalšie transakcie a projekt prechádza do stavu len na čítanie. |

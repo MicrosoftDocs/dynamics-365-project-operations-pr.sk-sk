@@ -1,6 +1,6 @@
 ---
 title: Konfigurácia fakturovateľných súčastí riadka cenovej ponuky
-description: Tento článok poskytuje informácie o nastavení spoplatnených a nespoplatnených komponentov v riadku cenovej ponuky založenej na projekte.
+description: Tento článok poskytuje informácie o nastavení účtovateľných a neúčtovateľných zložiek v riadku cenovej ponuky založenej na projekte.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Cestovné žiadanky
-description: Tento článok poskytuje informácie o cestovných požiadavkách.
+description: Tento článok poskytuje informácie o cestovných žiadankách.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

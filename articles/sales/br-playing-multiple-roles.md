@@ -1,6 +1,6 @@
 ---
 title: Odhadnite tržby a náklady projektu, keď rezervovateľný zdroj plní v projekte viac rolí
-description: Tento článok vysvetľuje, ako používať cenové dimenzie na podporu odhadov cien a nákladov pre zdroj, ktorý plní viacero rolí v projekte.
+description: Tento článok vysvetľuje, ako používať dimenzie cien na podporu odhadov cien a nákladov pre zdroj, ktorý v projekte plní viac rolí.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article

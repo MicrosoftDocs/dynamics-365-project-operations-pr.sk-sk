@@ -1,6 +1,6 @@
 ---
 title: Správa príležitostí založených na projekte
-description: Tento článok poskytuje informácie o tom, ako pracovať s príležitosťami, ktoré súvisia s projektmi.
+description: Tento článok poskytuje informácie o tom, ako pracovať s príležitosťami súvisiacimi s projektmi.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 Spoločnosti založené na projekte majú svoje operácie doručovania zvyčajne rozmiestnené vo viacerých krajinách a geografických oblastiach. Náklady na realizáciu a dodávku projektu sa môžu líšiť v závislosti od toho, ktorá geografická oblasť alebo divízia spravuje dodávku. To môže mať naopak vplyv na marže dohody. Na poskytovanie služieb založených na projekte sa zvyčajne vyžaduje veľké množstvo času na ľudské zdroje, značné cestovné náklady, náklady na materiál a ďalšie výdavky.
 
-Príležitosti založené na projekte v Dynamics 365 Project Operations sú navrhnuté s rozšíreniami pre Dynamics 365 Sales. Tento článok poskytuje podrobnosti o rôznych oblastiach a obchodnej logike zahrnutých v dodatočných funkciách, ktoré vyžadujú spoločnosti založené na projekte na správu príležitostí založených na projekte.
+Príležitosti založené na projekte v Dynamics 365 Project Operations sú navrhnuté s rozšíreniami pre Dynamics 365 Sales. Tento článok poskytuje podrobnosti o rôznych poliach a obchodnej logike zahrnutej do ďalších funkcií, ktoré sa vyžadujú od spoločností založených na projekte na správu príležitostí založených na projekte.
 
 ## <a name="view-all-project-based-opportunities"></a>Zobrazenie všetkých príležitostí založených na projekte
 

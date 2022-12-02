@@ -1,6 +1,6 @@
 ---
 title: Použite doplnok Project Service na plánovanie práce v Microsoft Project | MicrosoftDocs
-description: Tento článok poskytuje informácie o tom, ako pridať, nakonfigurovať a používať doplnok Microsoft Project pre službu Microsoft Project Service.
+description: Tento článok poskytuje informácie o tom, ako pridávať, konfigurovať a používať doplnok Microsoft Project pre službu Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

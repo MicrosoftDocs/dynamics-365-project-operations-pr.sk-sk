@@ -1,6 +1,6 @@
 ---
 title: Novinky v júli 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z júla 2021 pre scenáre založené na zdrojoch/nezásobách.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní nasadenia Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách z júla 2021.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8931717"
 
 *Platí pre: Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch*
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
    - Project Operations v prostredí Microsoft Dataverse verzie 4.12.0.148 alebo 4.12.0.152.
-   - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.20.
+   - Projektový manažment a účtovníctvo v prostrední Dynamics 365 Finance, verzia 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 
@@ -80,7 +80,7 @@ Ak narazíte na problém pri spustení mapy, postupujte podľa pokynov v časti 
 | Všeobecné                       | 2253682              | Riešenie duálneho zápisu Project Operations by sa nemalo inštalovať, keď je základ duálneho zápisu nainštalovaný v prostredí bez riešenia orchestrácie s duálnym zápisom.                                                |
 | Všeobecné                       | 2316420              | Poskytovanie Project Service Core zlyhá, ak sa zmení obchodná jednotka používateľa aplikácie.                                                                                                                     |
 | Všeobecné                       | 2376405              | Opravený problém s aktualizáciou riadenou vydavateľom (Aktualizácia kvality je k dispozícii vo verzii 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektový manažment a účtovníctvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
 
 | Oblasť funkcií                      | Číslo odkazu | Aktualizácia kvality                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

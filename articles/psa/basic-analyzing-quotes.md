@@ -1,6 +1,6 @@
 ---
 title: Analýza projektových cenových ponúk
-description: Tento článok poskytuje informácie o analýze projektových ponúk.
+description: Tento článok poskytuje informácie o analýze projektových cenových ponúk.
 author: rumant
 ms.custom:
 - dyn365-projectservice

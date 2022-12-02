@@ -1,6 +1,6 @@
 ---
 title: Nastavenie nákladových sadzieb za prácu
-description: Tento článok poskytuje informácie o tom, ako nastaviť sadzby pre náklady práce na projektové operácie
+description: Tento článok poskytuje informácie o tom, ako nastaviť sadzby nákladov za prácu v Project Operations
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

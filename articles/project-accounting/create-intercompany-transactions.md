@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie medzipodnikových transakcií
-description: Tento článok poskytuje informácie o tom, ako vytvoriť medzipodnikové transakcie.
+description: Tento článok poskytuje informácie o tom, ako vytvárať medzipodnikové transakcie.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Po schválení medzipodnikovej transakcie sa vytvoria nasledujúce skutočné tr
 
 Náklady, zdrojové jednotkové ceny a nacenenie predajných transakcií medziorganizačných jednotiek a mena závisia od **organizačnej jednotky**. Toto je dôležité mať na pamäti pri rozhodovaní o tom, ako štrukturalizovať spoločnosti a organizačné jednotky vo vašej implementácii.
 
-Keď vytvoríte príležitosť, cenovú ponuku, projektovú zmluvu a záznamy o projekte, systém overí, či sa mena zmluvnej jednotky zhoduje s účtovnou menou zmluvnej spoločnosti. Ak nie sú rovnaké, tieto záznamy nemožno vytvoriť. Mena organizačnej jednotky je definovaná v Dynamics 365 Project Operations, v ponuke **Dataverse** > **Nastavenia** > **Organizačné jednotky**. Účtovná mena spoločnosti je definovaná v Dynamics 365 Finance prechodom na **Hlavná kniha** > **Nastavenie účtovnej knihy** > **Hlavná kniha**. Mena sa synchronizuje s vaším prostredím Dataverse pomocou mapovania Ledgers Dual Write.
+Keď vytvoríte príležitosť, cenovú ponuku, projektovú zmluvu a záznamy o projekte, systém overí, či sa mena zmluvnej jednotky zhoduje s účtovnou menou zmluvnej spoločnosti. Ak nie sú rovnaké, tieto záznamy nemožno vytvoriť. Mena organizačnej jednotky je definovaná v Dynamics 365 Project Operations, v ponuke **Dataverse** > **Nastavenia** > **Organizačné jednotky**. Účtovná mena spoločnosti je definovaná v Dynamics 365 Finance v ponuke **Hlavná účtovná kniha** > **Nastavenie účtovnej knihy** > **Účtovná kniha**. Mena sa synchronizuje s vaším prostredím Dataverse pomocou mapovania Ledgers Dual Write.
 
 Systém vytvára jednotkové náklady na zdroje a skutočný predaj medziorganizačných jednotiek v nasledujúcich situáciách:
 
   - Keď sa zdrojová jednotka líši od zmluvnej jednotky
   - Keď sa zdrojová spoločnosť líši od zmluvnej spoločnosti
 
-Do prostredia Dynamics 365 Finance na dodatočné zaúčtovanie sa však prenesú iba transakcie, ktoré majú inú spoločnosť poskytujúcu zdroje ako zmluvná spoločnosť.
+Do prostredia Dynamics 365 Finance však budú pre ďalšie účtovanie prevedené iba transakcie, ktoré majú inú zdrojovú spoločnosť než zmluvnú spoločnosť.
 
 Účtovanie skutočných hodnôt projektu sa zaznamenáva v denníku integrácie Project Operations vo Finance. Systém vytvorí nasledujúce záznamy v účtovnom denníku.
 

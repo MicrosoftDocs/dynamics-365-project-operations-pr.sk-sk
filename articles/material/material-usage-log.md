@@ -1,6 +1,6 @@
 ---
 title: Zaznamenanie využitia materiálu na projektoch a projektových úlohách
-description: Tento článok poskytuje informácie o tom, ako zaznamenávať využitie materiálu v projektoch a projektových úlohách.
+description: Tento článok obsahuje informácie o tom, ako zaznamenať použitie materiálu v projektoch a projektových úlohách.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

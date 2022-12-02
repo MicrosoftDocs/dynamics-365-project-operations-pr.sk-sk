@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie a potvrdenie účtovných denníkov opráv
-description: Tento článok poskytuje informácie o tom, ako vytvoriť a potvrdiť denník opráv.
+description: Tento článok poskytuje informácie o tom, ako vytvoriť a potvrdiť účtovný denník opráv.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928083"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Občas môže byť nesprávne zadaný čas alebo výdavok. Konzultant môže napríklad vybrať nesprávny dátum pri vytváraní časového záznamu alebo môže vybrať nesprávny projekt, keď zadáva výdavok. Ak konzultant nemôže aktualizovať predložené záznamy, správca servera môže priamo opraviť skutočné skutočnosti pre projekt.
+Príležitostne môže byť nesprávne zadaný údaj o čase alebo výdavkoch. Napríklad poradca môže zvoliť nesprávny dátum pri vytváraní časového záznamu alebo môže vybrať nesprávny projekt pri zadávaní výdavkov. Ak konzultant nemôže vykonať aktualizácie predložených záznamov, back-end správca môže priamo opraviť skutočné hodnoty pre projekt.
 
 ## <a name="correct-approved-time-entries"></a>Opravte schválené časové záznamy     
 
@@ -73,30 +73,30 @@ Ak chcete opraviť jednu alebo viac položiek výdavkov, vykonajte nasledujúce 
 
 6. Ak sú opravené hodnoty podľa očakávania, vyberte položku **Potvrdiť**. V dialógovom okne stlačte možnosť **OK**. Ak sa hodnoty nezobrazujú podľa očakávania, vyberte položku **Zrušiť**, čím sa vrátite do zoznamu **Schválené výdavky**. Opakujte kroky 2 až 5. 
 
-7. Po potvrdení denníka opráv sa vráťte k projektu alebo projektom, ktoré ste aktualizovali, aby ste videli svoje zmeny.
+7. Po potvrdení účtovného denníka opráv prejdite späť na projekt alebo projekty, ktoré ste aktualizovali, aby ste si prezreli zmeny.
 
-8. Na stránke projektu, na **Aktuálne** skontrolujte kartu **Aktuálne pridružené zobrazenie** zoznam. Uvádzajú sa pôvodné záznamy a opravené položky.
+8. Na stránke projektu na karte **Skutočné hodnoty** skontrolujte zoznam **Priradené zobrazenie skutočných hodnôt**. Uvádzajú sa pôvodné záznamy a opravené položky.
 
 
-## <a name="correct-approved-material-usage-logs"></a>Opravte schválené protokoly používania materiálu
+## <a name="correct-approved-material-usage-logs"></a>Opravte schválené denníky používania materiálu
 
-Vykonajte nasledujúce kroky na opravu jednej alebo viacerých položiek denníka použitia materiálu.
+Ak chcete opraviť jednu alebo viac položiek denníka použitia materiálu, vykonajte nasledujúce kroky.
 
-1. V **Predaj** v ľavom navigačnom paneli pod **Transakcie**, vyberte **Aktuálne**.
+1. V oblasti **Predaj** v ľavej navigačnej table v časti **Transakcie** zvoľte možnosť **Skutočné hodnoty**.
 
-2. V **Aktuálne** pomocou stĺpcových filtrov vyberte **Materiál** trieda transakcií, takže sú zobrazené iba skutočné hodnoty pre materiály. Na ďalšie obmedzenie zobrazených skutočností použite iné filtre stĺpcov. Keď nájdete požadovanú množinu skutočných hodnôt, vyberte aktuálne hodnoty a potom vyberte **Správne zadania**. Automaticky sa vytvorí nový denník opráv a **Korekcia materiálu** je priradený typ.
+2. V zozname **Skutočné hodnoty** použite stĺpcové filtre na výber triedy transakcie **Materiál**,aby sa zobrazili len skutočné hodnoty pre materiály. Na ďalšie obmedzenie zobrazených skutočných hodnôt použite iné filtre stĺpcov. Keď nájdete požadovanú množinu skutočných hodnôt, vyberte skutočné hodnoty a potom vyberte **Opraviť záznamy**. Automaticky sa vytvorí nový denník opráv s priradeným typom **Oprava materiálu**.
 
-3. Na **Nový denník** stránke, v **Popis** zadajte popis opravy. Potom na **Oprava materiálu** kartu, v **Nové hodnoty pre materiály** vyberte dátové polia, ktoré chcete opraviť pre vybrané materiálové rady. Môžete napríklad priradiť materiál k inému projektu alebo opraviť produkt, dátum materiálu alebo subdodávku.
+3. Na stránke **Nový denník** v poli **Popis** zadajte popis denníka opráv. Potom na karte **Oprava materiálu** v sekcii **Nové hodnoty pre materiály** vyberte údajové polia, ktoré chcete opraviť pre vybrané riadky materiálov. Môžete napríklad priradiť materiál k inému projektu alebo opraviť produkt, dátum materiálu alebo subdodávateľskú zmluvu.
 
-4. Stlačte možnosť **Ukážka**. Potom v dialógovom okne vyberte **OK**.
+4. Stlačte možnosť **Ukážka**. V dialógovom okne potom kliknite na **OK**.
 
-5. Na **Riadky denníka** skontrolujte opravy. Môžete zobraziť zoznam pôvodných skutočností, ktoré súvisia s vybratými položkami materiálu, ktoré boli stornované, a opravenými zodpovedajúcimi riadkami, ktoré boli vytvorené.
+5. Na karte **Záznamy v účtovnom denníku** skontrolujte opravy. Môžete zobraziť zoznam pôvodných skutočných hodnôt, ktoré súvisia s vybratými položkami materiálov, ktoré boli zmenené, a opravené zodpovedajúce riadky, ktoré boli vytvorené.
 
-6. Ak sú opravené hodnoty podľa očakávania, vyberte položku **Potvrdiť**. Potom v dialógovom okne vyberte **OK**. Ak hodnoty nie sú podľa očakávania, vyberte **Zrušiť** vrátiť sa do **Aktuálne** zoznam. Potom zopakujte kroky 2 až 5.
+6. Ak sú opravené hodnoty podľa očakávania, vyberte položku **Potvrdiť**. V dialógovom okne potom kliknite na **OK**. Ak hodnoty nie sú podľa očakávania, vyberte položku **Zrušiť**, čím sa vrátite do zoznamu **Skutočné hodnoty**. Potom opakujte kroky 2 až 5.
 
-7. Po potvrdení denníka opráv sa vráťte k projektu alebo projektom, ktoré ste aktualizovali, aby ste videli svoje zmeny.
+7. Po potvrdení účtovného denníka opráv prejdite späť na projekt alebo projekty, ktoré ste aktualizovali, aby ste si prezreli zmeny.
 
-8. Na stránke projektu, na **Aktuálne** skontrolujte kartu **Aktuálne pridružené zobrazenie** zoznam. Uvádzajú sa pôvodné záznamy a opravené položky.
+8. Na stránke projektu na karte **Skutočné hodnoty** skontrolujte zoznam **Priradené zobrazenie skutočných hodnôt**. Uvádzajú sa pôvodné záznamy a opravené položky.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

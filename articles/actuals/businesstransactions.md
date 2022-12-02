@@ -24,7 +24,7 @@ ms.locfileid: "8923299"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-V Microsofte Dynamics 365 Project Operations, *transakcia* je abstraktný pojem, ktorý nie je reprezentovaný žiadnou entitou. Avšak, niektoré bežné polia a procesy na entitách sú navrhnuté tak, aby používali koncept obchodných transakcií. Nasledujúce entity používajú túto abstrakciu:
+V Microsoft Dynamics 365 Project Operations je *obchodná transakcia* abstraktný koncept, ktorý nie je zastúpený žiadnou entitou. Avšak, niektoré bežné polia a procesy na entitách sú navrhnuté tak, aby používali koncept obchodných transakcií. Nasledujúce entity používajú túto abstrakciu:
 
 - Podrobnosti o riadku cenovej ponuky
 - Podrobnosti o riadku zmluvy
@@ -32,9 +32,9 @@ V Microsofte Dynamics 365 Project Operations, *transakcia* je abstraktný pojem,
 - Záznamy v účtovnom denníku
 - Skutočné hodnoty
 
-Z týchto entít sú namapované podrobnosti o riadku cenovej ponuky, podrobnosti o riadku zmluvy a riadky odhadu *fáza odhadu* v životnom cykle projektu. Riadky denníka a entity Actuals sú namapované na *realizačná fáza* v životnom cykle projektu.
+Z týchto entít sú Podrobnosti o riadku cenovej ponuky, Podrobnosti o riadku zmluvy a Riadky odhadov mapovanú na *fázu odhadu* v životnom cykle projektu. Záznamy v účtovnom denníku a Entity skutočných hodnôt sú priradené k *fáze vykonania* v životnom cykle projektu.
 
-Project Operations zaobchádza so záznamami vo všetkých piatich týchto subjektoch ako s obchodnými transakciami. Jediný rozdiel je v tom, že sa berú do úvahy záznamy v entitách, ktoré sú namapované do fázy odhadu (podrobnosti riadku cenovej ponuky, podrobnosti zmluvného riadku a riadky odhadu).*finančné prognózy*, pričom sa berú do úvahy záznamy v entitách, ktoré sú namapované do fázy vykonávania (riadky denníka a skutočné údaje).*finančné fakty* ktoré sa už vyskytli.
+Project Operations zaobchádza so záznamami vo všetkých týchto piatich entitách ako s obchodnými transakciami. Jediným rozdielom je, že záznamy v entitách, ktoré sú mapované do fázy odhadu (Podrobnosti o riadku cenovej ponuky, Podrobnosti o riadku zmluvy a Riadky odhadov) , sa považujú za *finančné prognózy*, zatiaľ čo záznamy v entitách, ktoré sú mapovanú do fázy vykonania, sa považujú za *finančné skutočnosti*, ktoré sa už vyskytli.
 
 Ďalšie informácie nájdete v časti [Estimates](../project-management/estimating-projects-overview.md) a [Actuals](actuals-overview.md).
 
@@ -49,7 +49,7 @@ Tieto pojmy sú jedinečné pre koncept obchodných transakcií:
 
 ### <a name="transaction-type"></a>Typ transakcie
 
-Typ transakcie predstavuje načasovanie a kontext finančného vplyvu na projekt. Je definovaný množina možností, ktorý má v prevádzke projektu nasledujúce podporované hodnoty:
+Typ transakcie predstavuje načasovanie a kontext finančného vplyvu na projekt. Je to definované množinou možností, ktorá má nasledujúce podporované hodnoty v Project Operations:
 
 - Náklady
 - Projektová zmluva
@@ -60,7 +60,7 @@ Typ transakcie predstavuje načasovanie a kontext finančného vplyvu na projekt
 
 ### <a name="transaction-class"></a>Trieda transakcie
 
-Trieda transakcie predstavuje rôzne typy nákladov, ktoré vznikli na projektoch. Je definovaný množina možností, ktorý má v prevádzke projektu nasledujúce podporované hodnoty:
+Trieda transakcie predstavuje rôzne typy nákladov, ktoré vznikli na projektoch. Je to definované množinou možností, ktorá má nasledujúce podporované hodnoty v Project Operations:
 
 - Čas
 - Výdavok
@@ -70,16 +70,16 @@ Trieda transakcie predstavuje rôzne typy nákladov, ktoré vznikli na projektoc
 - Daň
 
 > [!NOTE]
-> The **Míľnik** hodnota sa zvyčajne používa v obchodnej logike na fakturáciu s pevnou cenou v prevádzke projektu.
+> Hodnota **Medzník** sa zvyčajne používa v obchodnej logike pre fakturáciu s pevnou cenou v Project Operations.
 
 ### <a name="transaction-origin"></a>Počiatok transakcie
 
-Pôvod transakcie je entita, ktorá uchováva pôvod každej obchodnej transakcie, aby pomohla s vykazovaním a sledovateľnosťou. Keď sa začne realizácia projektu, každá obchodná transakcia vytvorí ďalšiu obchodnú transakciu, ktorá následne vytvorí ďalšiu obchodnú transakciu atď.
+Pôvod transakcie je entita, ktorá ukladá pôvod každej obchodnej transakcie, aby pomohla s vykazovaním a sledovateľnosťou. Keď sa začne s realizáciou projektu, každá obchodná transakcia vytvorí ďalšiu obchodnú transakciu, ktorá bude následne vytvárať ďalšiu obchodnú transakciu a tak ďalej.
 
 ### <a name="transaction-connection"></a>Kontaktná osoba transakcie
 
-Transakčné spojenie je entita, ktorá uchováva vzťah medzi dvoma podobnými obchodnými transakciami, ako sú skutočné náklady a súvisiace predaje alebo stornovania transakcií, ktoré sa spúšťajú fakturačnými činnosťami, ako je potvrdenie faktúry alebo opravy faktúr.
+Transakčné pripojenie je entita, ktorá uchováva vzťah medzi dvoma podobnými obchodnými transakciami, ako sú náklady a súvisiace skutočné hodnoty predaja alebo transakcie zrušenia, ktoré sú spustené fakturačnými činnosťami, ako je potvrdenie faktúry alebo opravy faktúry.
 
-Spoločne entity pôvodu transakcie a pripojenia transakcie vám pomôžu sledovať vzťahy medzi obchodnými transakciami a akciami, ktoré spôsobili vytvorenie konkrétnej obchodnej transakcie.
+Počiatok transakcie a transakčné pripojenie vám spolu pomáhajú sledovať vzťahy medzi obchodnými transakciami a akciami, ktoré spôsobili vytvorenie konkrétnej obchodnej transakcie.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

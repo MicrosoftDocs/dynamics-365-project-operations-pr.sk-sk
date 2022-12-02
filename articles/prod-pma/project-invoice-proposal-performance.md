@@ -1,6 +1,6 @@
 ---
 title: Výkon návrhov projektových faktúr
-description: Tento článok poskytuje informácie o vylepšeniach výkonu návrhov projektových faktúr.
+description: Tento článok poskytuje informácie o vylepšeniach výkonnosti návrhov projektových faktúr.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

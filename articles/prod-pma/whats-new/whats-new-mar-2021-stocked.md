@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v Project Operations z marca 2021 pre scenáre založené na zdrojoch/výrobe
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z marca 2021 pre scenáre na sklade/výrobe.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations z marca 2021 pre scenáre založené na zdrojoch/výrobe.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "9028767"
 
 _**Vzťahuje sa na:** Project Operations pre scenáre založené na zdrojoch/výrobe_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
-- Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.17
+- Projektový manažment a účtovníctvo v prostrední Dynamics 365 Finance, verzia 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funkcie dostupné v tomto vydaní
 V tomto vydaní sú zahrnuté nasledujúce funkcie:
@@ -121,7 +121,7 @@ V tomto vydaní sú zahrnuté nasledujúce funkcie:
 | Projektový manažment a účtovníctvo | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Metóda triedy staršej štruktúry rozdelenia práce (WBS), **ProjWBSUpdateController:: updateOutlineNumbersAndPublishInPreOrder** je zastaraná.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulačné aktualizácie
-Informácie o regulačných aktualizáciách pre finančné a prevádzkové aplikácie nájdete na [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
+Informácie o regulačných aktualizáciách pre aplikácie na riadenie financií a prevádzok nájdete v časti [Regulačné aktualizácie](/dynamics365/finance/localizations/regulatory-updates). Môžete sa tiež prihlásiť do LCS a pozrieť si plánované regulačné aktualizácie pomocou nástroja na vyhľadanie problému. Vyhľadávanie problémov vám umožňuje vyhľadávať podľa krajiny, typu funkcie a vydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

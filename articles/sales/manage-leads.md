@@ -1,6 +1,6 @@
 ---
 title: Správa potenciálnych zákazníkov
-description: Tento článok poskytuje informácie o správe potenciálnych zákazníkov založených na projekte.
+description: Tento článok poskytuje informácie o správe potenciálnych zákazníkov na základe projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

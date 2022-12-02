@@ -1,6 +1,6 @@
 ---
 title: Prenos ponuky do projektu
-description: Tento článok poskytuje informácie o tom, ako preniesť cenovú ponuku do nového alebo existujúceho projektu.
+description: Tento článok poskytuje informácie o tom, ako previesť ponuku do nového alebo existujúceho projektu.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

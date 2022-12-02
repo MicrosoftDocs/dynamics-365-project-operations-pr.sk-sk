@@ -1,6 +1,6 @@
 ---
 title: Projektové zmluvy – Kľúčové koncepty
-description: Tento článok poskytuje informácie o kľúčových konceptoch projektových zmlúv v Project Operations.
+description: Tento článok poskytuje informácie o kľúčových konceptoch projektových zmlúv v aplikácii Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 
 
-Tento článok poskytuje kľúčové pojmy, o ktorých by ste mali vedieť skôr, ako začnete používať projektové zmluvy Dynamics 365 Project Operations:
+Tento článok poskytuje kľúčové koncepty, ktoré si musíte uvedomiť predtým, ako začnete používať projektové zmluvy v Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Vlastniaca spoločnosť
 
-Vlastníkom spoločnosti je právnická osoba z **Projektový manažment a účtovníctvo** modul pre projektové operácie od Dynamics 365 Finance. Vlastniaca spoločnosť predstavuje právnickú entitu, ktorá bude obchodným vzťahom pre náklady a výnosy, ktoré vzniknú z obchodu.
+Vlastniaca spoločnosť je právnická osoba z modulu **Projektové riadenie a účtovníctvo** pre Project Operations z Dynamics 365 Finance. Vlastniaca spoločnosť predstavuje právnickú entitu, ktorá bude obchodným vzťahom pre náklady a výnosy, ktoré vzniknú z obchodu.
 
 ## <a name="contracting-unit"></a>Zmluvná jednotka
 

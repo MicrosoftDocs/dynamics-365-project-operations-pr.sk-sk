@@ -1,6 +1,6 @@
 ---
 title: Inovovať domovskú stránku
-description: Tento článok ukazuje, kde nájdete dôležité informácie o nových a zmenených funkciách v Dynamics 365 Project Service Automation a proces inovácie na najnovšiu verziu.
+description: Tento článok zobrazuje, kde nájdete dôležité informácie o nových a zmenených funkciách v Dynamics 365 Project Service Automation, a proces inovácie na najnovšiu verziu.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -48,14 +48,14 @@ Predtým zákazníci, ktorí majú inštanciu PSA verzia 2.x a potrebovali ju in
 Pred začatím procesu inovácie, odporúčame, aby ste dokončili nasledujúce úlohy:
 
 - Overte, či Dynamics 365 Field Service a Project Service Automation sú nainštalované na identifikovanej inštancii. Ak sú nainštalované obidva riešenia, mali by ste plánovať inováciu skôr, ako obnovíte pravidelné používanie inštancie.
-- Pozorne si prečítajte nasledujúce články. Povedomie a pochopenie zmien medzi verziami vám pomôže s procesom inovácie. Tieto články poskytujú informácie o hlavných zmenách v PSA spolu s úvahami a odporúčaniami pre plánovanie aktualizácie na verziu 3.x.
+- Pozorne si prečítajte nasledujúce články. Povedomie a pochopenie zmien medzi verziami vám pomôže s procesom inovácie. Tieto články poskytujú informácie o hlavných zmenách v PSA, spolu s úvahami a odporúčaniami pre plánovanie inovácie na verziu 3.x.
 
     - [Čo je nové alebo zmenené v Project Service Automation verzia 3](whats-new-changed-v3.md)
     - [Informácie o inovácii – Project Service Automation verzia 2.x alebo 1.x na verziu 3](upgrade-v3.md)
 
 - Inovujte inštancia izolovaného priestoru na vyhodnotenie zmien vo vykonávaní pred inováciou výrobnej inštancie.
 
-Po prečítaní článkov, ktoré boli spomenuté vyššie a ste pripravení inovovať na verziu PSA 3.x alebo verziu založenú na UCI, odošlite požiadavku na podporu spoločnosti Microsoft, aby bola inovácia dostupná z centra spravovania. V žiadosti uveďte podrobnosti o vašej inštancii.
+Potom, čo ste preskúmali články, ktoré boli spomenuté skôr a sú pripravené na inováciu na PSA verzia 3.x alebo verzia UCI, odošlite požiadavku na podporu spoločnosti Microsoft, aby inovácia bola k dispozícii z centra správcu. V žiadosti uveďte podrobnosti o vašej inštancii.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Staršie verzie PSA (PSA verzia 2.x) v novo vytvorenej inštancie
 

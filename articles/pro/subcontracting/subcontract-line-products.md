@@ -1,6 +1,6 @@
 ---
 title: Riadky subdodávateľskej zmluvy pre produkty
-description: Tento článok vysvetľuje, ako zaznamenávať riadky subdodávok pre produkty a ako používať rôzne polia na zaznamenávanie nákupov produktov od dodávateľov.
+description: Tento článok vysvetľuje, ako zaznamenávať riadky subdodávateľskej zmluvy pre produkty a používať rôzne polia na zaznamenávanie nákupov produktov od dodávateľov.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

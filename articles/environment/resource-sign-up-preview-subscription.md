@@ -1,6 +1,6 @@
 ---
 title: Registrácia na odber ukážky Project Operations pre scenáre zdrojov/chýbajúcich zdrojov
-description: Tento článok poskytuje informácie o tom, ako sa prihlásiť na odber a nasadiť operácie projektu pre scenáre založené na zdrojoch/nezásobách.
+description: Tento článok poskytuje informácie o tom, ako sa prihlásiť na odber a nasadiť Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 
 
-Tento článok vysvetľuje, ako sa prihlásiť na odber skúšobnej ponuky a nasadiť prostredie Project Operations pre scenáre založené na zdrojoch alebo bez zásob.
+Tento článok vysvetľuje, ako sa prihlásiť na odber skúšobnej ponuky a nasadiť prostredie Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách.
 
 ## <a name="prerequisites"></a>Predpoklady
 - Používateľ, ktorý nasadí ukážku, musí mať práva globálneho správcu nájomníka platformy Azure. Nájomníka si môžete vytvoriť počas prvého uplatnenia ponuky. 
@@ -40,7 +40,7 @@ Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovný
 
   Uvidíte, že ponuka potvrdenia bola úspešne uplatnená.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance ukážková skúšobná verzia
+### <a name="dynamics-365-finance-preview-trial"></a>Ukážková skúšobná verzia Dynamics 365 Finance
 
 Prejdite do [Skúšobná verzia Preview Dynamics 365 for Finance](https://aka.ms/trypoche) a zopakujte kroky z predchádzajúcej časti s ponukou, prihláste sa do prostredia hosťovaného v cloude.  
 
@@ -49,7 +49,7 @@ Prejdite do [Skúšobná verzia Preview Dynamics 365 for Finance](https://aka.ms
 > [!IMPORTANT]
 > Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k Microsoft 365 vo vašej organizácii .
 
-1. Ísť do [Microsoft 365 centrum spravovania](https://portal.office.com/) na pridelenie licencií vašim používateľom.
+1. Choďte do [centra spravovania Microsoft 365](https://portal.office.com/) a priraďte licencie svojim používateľom.
 
 2. Na stránke **Aktívni používatelia** vyberte používateľov, ktorým chcete priradiť licenciu.
 
@@ -60,19 +60,19 @@ Prejdite do [Skúšobná verzia Preview Dynamics 365 for Finance](https://aka.ms
 
 ## <a name="start-a-new-project-in-lcs"></a>Začatie nového projektu v LCS
 
-Vytvorte nový projekt LCS podľa popisu v článku, [Začnite nový projekt v LCS](create-lcs-project.md)
+Vytvorte nový projekt LCS podľa popisu v článku [Začatie nového projektu v LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Pridanie predplatného služieb Azure do projektu LCS
 
-Ak chcete dokončiť túto úlohu, postupujte podľa krokov v článku, [Pridajte predplatné Azure do projektu LCS](resource-add-azure-subscription-lcs-project.md).
+Pri dokončení tejto úlohy postupujte podľa pokynov v článku [Pridanie predplatného služieb Azure do projektu LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Nasadenie ukážky prostredia Finance s Project Operations pre scenáre zdrojov/chýbajúcich zdrojov
 
-Postupujte podľa pokynov v článku, [Poskytnutie nového prostredia](resource-provision-new-environment.md) na dokončenie nasadenia. Použite typ nasadenia [ukážkové prostredie](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pre ukážku. 
+Postupujte podľa pokynov v článku [Zriadenie nového prostredia](resource-provision-new-environment.md) na dokončenie nasadenia. Použite typ nasadenia [ukážkové prostredie](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pre ukážku. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Inštalácia údajov CDS pre nastavenie a konfiguráciu
 
-Nainštalujte údaje o nastavení a konfigurácii CDS podľa popisu v článku, [Nastavte a použite konfiguračné údaje v Common Data Service](resource-apply-pro-setup-config-data.md).
+Nainštalujte údaje pre nastavenie a konfiguráciu CDS podľa popisu v článku [Nastavenie a použitie konfiguračných údajov v Common Data Service](resource-apply-pro-setup-config-data.md).
 Tento krok dokončite až po nasadení ukážkového prostredia Finance a pripravení ukážkových údajov.
 
 

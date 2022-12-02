@@ -1,6 +1,6 @@
 ---
 title: Modely zručností a odbornosti
-description: Tento článok poskytuje informácie o tom, ako používať modely zručností a odbornosti.
+description: Tento článok poskytuje informácie o používaní zručností a modulov spôsobilosti.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

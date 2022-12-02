@@ -1,6 +1,6 @@
 ---
 title: Kopírovanie príležitostí založených na projekte
-description: Tento článok poskytuje informácie o kopírovaní príležitostí založených na projekte v Project Operations.
+description: Tento článok poskytuje informácie o tom, ako kopírovať príležitosti založené na projekte v Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

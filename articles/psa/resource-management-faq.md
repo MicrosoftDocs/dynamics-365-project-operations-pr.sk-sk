@@ -1,6 +1,6 @@
 ---
 title: Časté otázky pre správu zdrojov
-description: Tento článok poskytuje odpovede na často kladené otázky o správe zdrojov.
+description: Tento článok obsahuje odpovede na často kladené otázky týkajúce sa správy zdrojov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Nastavenia príležitosti – čiastočné
-description: Tento článok poskytuje informácie o projektových ponukách a projektových líniách príležitostí.
+description: Tento článok poskytuje informácie o riadkoch projektových dohôd a projektových príležitostí.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

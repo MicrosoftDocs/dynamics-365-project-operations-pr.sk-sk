@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie a aplikovanie podmienok uchovania platieb dodávateľa
-description: Tento článok poskytuje informácie o tom, ako nastaviť a udržiavať podmienky uchovávania pre platby dodávateľa.
+description: Tento článok poskytuje informácie o tom, ako nastaviť a udržiavať podmienky uchovania platieb dodávateľa.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

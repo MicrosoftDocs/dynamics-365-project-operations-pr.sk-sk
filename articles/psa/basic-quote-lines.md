@@ -39,7 +39,7 @@ V Dynamics 365 Project Service Automation, existujú dva typy cenových ponúk: 
 - Predajná cenová ponuka nezahŕňa niektoré polia a koncepty, ktoré sú súčasťou projektovej cenovej ponuky. Polia zahŕňajú **zmluvnú jednotku**, **Account Manager** a **faktúra na kontaktné meno**.  
 - Predajné cenové ponuky a projektové cenové ponuky sú tiež identifikované ako pole založené na množine možností, ktoré je pomenovaná **typ**. Pre predajnú ponuku má toto pole hodnotu **Založené na položke**. Pre projektovú cenovú ponuku, má hodnotu **založené na práci**.
 
-Tento článok sa zameria na detaily projektových ponúk.
+Tento článok sa zameria na detaily projektových cenových ponúk.
 
 Projektová cenová ponuka v PSA môže mať viac riadkov položiek alebo riadkov cenovej ponuky. V skutočnosti, projektová cenová ponuka má dve mriežky pre riadkové položky. Jedna mriežka je pre riadky založené na projekte, ktoré umožňujú podrobné odhady. Druhá mriežka je pre riadky založené na produkte, ktoré používajú jednoduchú jednotkovú cenu a prístup založený na množstve.
 

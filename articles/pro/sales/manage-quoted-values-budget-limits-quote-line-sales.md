@@ -1,6 +1,6 @@
 ---
 title: Prehľad riadkov cenových ponúk založených na projekte
-description: Tento článok poskytuje informácie o používaní riadkov cenových ponúk založených na projekte na prácu na projekte.
+description: Tento článok poskytuje informácie o používaní riadkov cenových ponúk založených na projekte pre projektovú úlohu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

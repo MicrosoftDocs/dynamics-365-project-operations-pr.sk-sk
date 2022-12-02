@@ -1,6 +1,6 @@
 ---
 title: Správa backlogu pre fakturáciu projektu
-description: Tento článok poskytuje informácie o rôznych zobrazeniach, ktoré je možné použiť pri správe nevybavených fakturácií na projektoch.
+description: Tento článok poskytuje informácie o rôznych zobrazeniach, ktoré je možné použiť pri správe backlogu pre fakturáciu na projektoch.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

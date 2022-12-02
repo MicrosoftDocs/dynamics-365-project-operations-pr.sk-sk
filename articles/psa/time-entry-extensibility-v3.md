@@ -46,7 +46,7 @@ Nová mriežka týždenného časového vstupu je vlastný ovládací prvok, kto
 - Typ
 - Stav zadania
 
-Sekcia **Dimenzia** neumožňuje riadkové úpravy. Táto časť je podporovaná zobrazením, ktoré umožňuje pridať vlastné polia do mriežky týždennej časovej položky. Informácie o pridávaní vlastných polí nájdete v časti „Rozšíriteľnosť“ ďalej v tomto článku.
+Sekcia **Dimenzia** neumožňuje riadkové úpravy. Táto časť je podporovaná zobrazením, ktoré umožňuje pridať vlastné polia do mriežky týždennej časovej položky. Informácie o pridávaní vlastných polí nájdete v časti „Rozšíriteľnosť” ďalej v tomto článku.
 
 ### <a name="duration"></a>Duration
 V časti trvanie sa zobrazujú dni v týždni ako hlavičky stĺpcov. Táto časť umožňuje úpravy v riadku. Po vytvorení riadka časového vstupu, ktorý má príslušné dimenzie, môžu používatelia rýchlo zadávať, v riadku, množstvo času, ktoré strávili v týchto dimenziách.

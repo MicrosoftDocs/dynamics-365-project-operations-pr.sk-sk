@@ -1,6 +1,6 @@
 ---
 title: Odhad riadka projektovej zmluvy
-description: Tento článok poskytuje informácie o odhadoch na riadku projektovej zmluvy.
+description: Tento článok poskytuje informácie o odhadoch riadka projektovej zmluvy.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

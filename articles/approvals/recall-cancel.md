@@ -17,26 +17,26 @@ ms.locfileid: "8930383"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Člen projektového tímu, ktorý odošle záznam o čase, výdavkoch alebo spotrebe materiálu, môže tento záznam po schválení odvolať. Proces stiahnutia má dva hlavné kroky:
+Člen projektového tímu, ktorý odošle záznam o čase, výdavkoch alebo použití materiálu, môže stiahnuť tento záznam po jeho schválení. Proces stiahnutia zahŕňa dva hlavné kroky:
 
 1. Odosielateľ požaduje stiahnutie.
-2. Schvaľovateľ schváli žiadosť o stiahnutie.
+2. Schvaľovateľ schvaľuje žiadosť o stiahnutie.
 
 ## <a name="request-a-recall"></a>Požiadať o stiahnutie
 
-Ak chcete požiadať o stiahnutie schválených záznamov o čase, výdavkoch alebo spotrebe materiálu, postupujte podľa týchto krokov.
+Tieto kroky použite na vyžiadanie stiahnutia schváleného zadania času, výdavkov alebo použitia materiálu.
 
-1. Postupujte podľa jedného z týchto krokov v závislosti od typu záznamu, ktorý chcete vyvolať:
+1. Postupujte podľa jedného z týchto krokov v závislosti od typu záznamu, ktorý chcete stiahnuť:
 
-    - Časové záznamy nájdete na **projekty** \> **Moja práca** \> **Vstup času** a vyberte všetky časové záznamy pre konkrétnu kombináciu projektu a úlohy. Prípadne v mriežke vyberte jednotlivé bunky pre čas v určitom dátume konkrétneho projektu.
-    - Pre položky výdavkov prejdite na **projekty** \> **Moja práca** \> **Výdavky** a vyberte riadok pre položku výdavkov, ktorú chcete vyvolať.
-    - Pre položky spotreby materiálu prejdite na **projekty** \> **Moja práca** \> **Denník spotreby materiálu** a vyberte riadok pre záznam spotreby materiálu, ktorý chcete vyvolať.
+    - V prípade položiek času prejdite do **Projekty** \> **Moja práca** \> **Zadanie času** a vyberte všetky položky času pre konkrétnu kombináciu projektu a úlohy. Prípadne v mriežke vyberte jednotlivé bunky pre čas v určitom dátume konkrétneho projektu.
+    - Pre položky výdavkov Prejdite do **Projekty** \> **Moja práca** \> **Výdavky** a vyberte riadok pre položku výdavku na vyvolanie.
+    - Pre položky použitia materiálu prejdite do **Projekty** \> **Moja práca** \> **Denník použitia materiálu** a vyberte riadok pre zadanie použitia materiálu, ktorý chcete stiahnuť.
 
-2. Vyberte položku **Odvolať**. Zobrazí sa dialógové okno s potvrdením. Ak už boli vybraté položky času, nákladov alebo spotreby materiálu schválené, zobrazí sa výzva na zadanie dôvodu stiahnutia.
+2. Vyberte položku **Odvolať**. Zobrazí sa dialógové okno s potvrdením. Ak boli vybraté položky času, výdavkov alebo použitia materiálu už schválené, zobrazí sa výzva na zadanie dôvodu stiahnutia.
 3. Zadajte dôvod stiahnutia a potom vyberte **OK**, čím potvrdíte operáciu. Systém odošle osobe, ktorá schválila položky, žiadosť o schválenie odvolania.
 
 > [!IMPORTANT]
-> Nemôžete vytvoriť požiadavku na stiahnutie pre schválený záznam o čase, výdavkoch alebo spotrebe materiálu, ktorý už bol fakturovaný zákazníkovi. Ak to skúsite, dostanete správu, že záznam o čase, výdavkoch alebo spotrebe materiálu nie je možné vyvolať, pretože už bol vyfakturovaný. V takom prípade môžete požiadať o zrušenie zápisu len vtedy, ak sa opravná faktúra použije na vystavenie celého dobropisu alebo vrátenie peňazí zákazníkovi na pôvodnej faktúre.
+> Nemôžete vytvoriť požiadavku na stiahnutie pre schválený záznam o čase, výdavkoch alebo použitia materiálu, ktorý už bol fakturovaný zákazníkovi. Ak sa o to pokúsite, zobrazí sa správa, ktorá uvádza, že zadanie času, výdavku alebo použitia materiálu nemožno stiahnuť, pretože už boli fakturované. V takom prípade môžete požiadať o zrušenie zadania iba vtedy, ak sa opravná faktúra použije na vystavenie plného dobropisu alebo vrátenie peňazí zákazníkovi na pôvodnej faktúre.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Schválenie alebo odmietnutie žiadosti o stiahnutie
 
@@ -52,7 +52,7 @@ Ak chcete schváliť alebo zamietnuť žiadosť o stiahnutie, postupujte podľa 
     Ak ste vybrali **Odmietnuť**, žiadosť o odvolanie sa zamietne.
 
 > [!IMPORTANT]
-> Keď je stiahnutie schválené, rovnako ako keď je vyžiadané, systém skontroluje akúkoľvek fakturačnú aktivitu v položkách času, nákladov alebo spotreby materiálu. Ak už bol záznam vyfakturovaný alebo ak je na návrhu faktúry, schvaľovateľ dostane chybové hlásenie, že čas alebo výdavok nemožno schváliť na stiahnutie, pretože už boli vyfakturované. Schvaľovateľ môže v tomto prípade odvolanie schváliť len v prípade, ak sa opravná faktúra použije na vystavenie celého dobropisu alebo vrátenie peňazí zákazníkovi na pôvodnej faktúre.
+> Po schválení stiahnutia, rovnako ako pri jeho vyžiadaní, systém skontroluje, či sa v záznamoch o čase, výdavkoch alebo použití materiálu nenachádza nejaká fakturačná aktivita. Ak bola položka už fakturovaná, alebo ak je v návrhu faktúry, schvaľovateľovi sa zobrazí chybové hlásenie, ktoré uvádza, že čas alebo výdavky nemôžu byť schválené na stiahnutie, pretože to bolo už fakturované. V takom prípade môžete schvaľovateľ schváliť stiahnutie iba vtedy, ak sa opravná faktúra použije na vystavenie plného dobropisu alebo vrátenie peňazí zákazníkovi na pôvodnej faktúre.
 
 ## <a name="impact-of-a-recall-request"></a>Vplyv žiadosti o stiahnutie
 
@@ -60,9 +60,9 @@ Ak sa schválenie odmietne, existuje prevádzkový dopad aj finančný dopad.
 
 ### <a name="operational-impact"></a>Prevádzkový vplyv
 
-Ak je žiadosť o odvolanie schválená, záznam o schválení je označený ako **Zamietnutý**. Stav záznamu sa zmení na buď **Vrátený** alebo **Odmietnuté**, v závislosti od toho, či ide o časový záznam alebo o výdavok či spotrebu materiálu.
+Ak je žiadosť o odvolanie schválená, záznam o schválení je označený ako **Zamietnutý**. Stav položky sa zmení na **Vrátený** alebo **Zamietnutý** v závislosti od toho, či ide o časovú položku alebo položku výdavkov alebo použitia materiálu.
 
-Člen projektového tímu môže prezerať položky, upravovať a potom znova odosielať položky alebo úplne vymazávať položky.
+Člen projektového tímu môže zobraziť položky, upraviť ich a potom znova odoslať alebo položky úplne odstrániť.
 
 Ak sa žiadosť o odvolanie zamietne, stav položky zostane **Schválený** a položku nie je možné upraviť členom projektového tímu alebo schvaľovateľa projektu.
 
@@ -79,14 +79,14 @@ Ak sa žiadosť o odvolanie zamietne, neexistuje žiadny finančný vplyv na pro
 
 ## <a name="changes-to-time-entry-records"></a>Zmeny záznamov zadania času
 
-Nasledujúca ilustrácia zobrazuje zmeny, ktoré sa vyskytnú pri schválených časových záznamoch a zodpovedajúce záznamy o schválení, keď sú odvolané.
+Nasledujúci obrázok zobrazuje zmeny, ktoré sa vyskytnú pri schválených časových položkách a zodpovedajúcich záznamoch schválenia, keď sú stiahnuté.
 
-![Prechody stavu vstupu času.](media/TimeEntryStateTransitions.png)
+![Prechody stavu zadania času.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Zmeny v evidencii nákladov a spotreby materiálu
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Zmeny záznamov zadania výdavkov a použitia materiálu
 
-Nasledujúca ilustrácia zobrazuje zmeny, ktoré sa vyskytnú pri schválených záznamoch o výdavkoch a spotrebe materiálu a zodpovedajúcich záznamoch o schválení pri ich stiahnutí.
+Nasledujúci obrázok zobrazuje zmeny, ktoré sa vyskytnú pri schválených položkách výdavkov a použitia materiálu a zodpovedajúcich záznamoch schválenia, keď sú stiahnuté.
 
-![Prechody stavu zadania nákladov.](media/ExpenseEntryStateTransitions.png)
+![Prechody stavu zadania výdavku.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

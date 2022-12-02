@@ -1,6 +1,6 @@
 ---
 title: Riadky príležitostí založených na projekte – čiastočné
-description: Tento článok poskytuje informácie o líniách príležitostí založených na projekte. (Pro)
+description: Tento článok poskytuje informácie o riadkoch príležitostí založených na projekte. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

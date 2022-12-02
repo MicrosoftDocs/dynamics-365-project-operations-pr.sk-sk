@@ -1,6 +1,6 @@
 ---
 title: Správa viacerých zákazníkov v projektových zmluvách – čiastočné
-description: Tento článok poskytuje informácie o správe viacerých zákazníkov na projektových zmluvách.
+description: Tento článok poskytuje informácie o správe viacerých zákazníkov v projektových zmluvách.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

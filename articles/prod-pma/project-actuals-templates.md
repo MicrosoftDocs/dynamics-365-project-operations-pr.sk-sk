@@ -1,6 +1,6 @@
 ---
-title: Synchronizujte aktuálne informácie o projekte priamo z Project Service Automation do denníka integrácie projektu na zaúčtovanie do financií a operácií
-description: Tento článok popisuje šablóny a základné úlohy, ktoré sa používajú na synchronizáciu skutočných hodnôt projektu priamo z Microsoft Dynamics 365 Project Service Automation na financie a prevádzku.
+title: Synchronizácia skutočných hodnôt projektu priamo z aplikácie Project Service Automation do denníka integrácie projektu na zaúčtovanie v rámci aplikácií na riadenie financií a prevádzok
+description: Tento článok popisuje šablóny a základné úlohy, ktoré sa používajú na synchronizáciu projektových skutočných hodnôt priamo Microsoft Dynamics 365 Project Service Automation do financií a operácií.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: sk-SK
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028997"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizujte aktuálne informácie o projekte priamo z Project Service Automation do denníka integrácie projektu na zaúčtovanie do financií a operácií
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizácia skutočných hodnôt projektu priamo z aplikácie Project Service Automation do denníka integrácie projektu na zaúčtovanie v rámci aplikácií na riadenie financií a prevádzok
 
 [!include[banner](../includes/banner.md)]
 
-Tento článok popisuje šablóny a základné úlohy, ktoré sa používajú na synchronizáciu skutočných hodnôt projektu priamo z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+Tento článok popisuje šablóny a základné úlohy, ktoré sa používajú na synchronizáciu projektových skutočných hodnôt z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
 Šablóna synchronizuje transakcie z Project Service Automation do postupnej tabuľky v službe Finance. Po dokončení synchronizácie **musíte** importovať údaje z pracovnej tabuľky do integračného denníka.
 
@@ -41,7 +41,7 @@ Integračné riešenie Project Service Automation do služby Finance využíva f
 
 Nasledujúca ilustrácia ukazuje, ako sa synchronizujú údaje medzi Project Service Automation a Finance.
 
-[![Dátový tok pre integráciu Project Service Automation s financiami a prevádzkou.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Tok údajov pre integráciu Project Service Automation s financiami a operáciami.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Skutočné hodnoty projektu z Project Service Automation
 
@@ -74,7 +74,7 @@ Predtým, ako môže dôjsť k synchronizácii skutočností, musíte nakonfigur
 
 ### <a name="power-query"></a>Power Query
 
-V šablóne skutočných projektov musíte použiť Microsoft Power Query aby Excel dokončil tieto úlohy:
+V šablóne skutočných hodnôt projektu musíte na dokončenie týchto úloh použiť Microsoft Power Query for Excel:
 
 - Transformujte typ transakcie v Project Service Automation na správny typ transakcie v službe Finance. Táto transformácia je už definovaná v šablóne skutočné hodnoty projektu (PSA pre Fin a Ops).
 - Transformujte typ fakturácie v Project Service Automation na správny typ fakturácie v službe Finance. Táto transformácia je už definovaná v šablóne skutočné hodnoty projektu (PSA pre Fin a Ops). Typ fakturácie sa potom namapuje na vlastnosť riadku na základe konfigurácie na strane **Integračné parametre Project Service Automation**.
@@ -83,9 +83,9 @@ V šablóne skutočných projektov musíte použiť Microsoft Power Query aby Ex
 - Ak sa medzipodnikový čas alebo skutočné údaje medzipodnikových výdavkov nebudú synchronizovať s Finance, musíte zo šablóny odstrániť posledný vložený podmienený stĺpec. V opačnom prípade môže dôjsť k chybe integrácie alebo k importovaniu nesprávnych skutočných transakcií do služby Finance.
 
 #### <a name="contract-organizational-unit"></a>Zmluvná organizačná jednotka
-Ak chcete aktualizovať vložený podmienený stĺpec v šablóne, kliknite na šípku **Mapovať** na otvorenie mapovania. Vyberte **Rozšírené dopytovanie a filtrovanie** odkaz na otvorenie Power Query.
+Ak chcete aktualizovať vložený podmienený stĺpec v šablóne, kliknite na šípku **Mapovať** na otvorenie mapovania. Stlačte odkaz **Pokročilý dotaz a filtrovanie** na otvorenie Power Query.
 
-- Ak používate predvolenú šablónu Project facts (PSA to Fin and Ops), v Power Query, vyberte poslednú **Vložená podmienka** z **Aplikované kroky** oddiele. V zázname **Funkcia** nahraďte **USSI** za názov právnej entity, ktorá sa musí použiť pri integrácii. Pridajte ďalšie podmienky k záznamu **Funkcie** podľa potreby a aktualizujte podmienku **inak** z **USMF** na správnu právnu entitu.
+- Ak používate predvolenú šablónu skutočných hodnôt projektu (PSA do Fin a Ops) v Power Query ako posledné stlačte **Vložený stav** v časti **Uplatnené kroky**. V zázname **Funkcia** nahraďte **USSI** za názov právnej entity, ktorá sa musí použiť pri integrácii. Pridajte ďalšie podmienky k záznamu **Funkcie** podľa potreby a aktualizujte podmienku **inak** z **USMF** na správnu právnu entitu.
 - Ak vytvárate novú šablónu, musíte pridať stĺpec, ktorý podporuje medzipodnikový čas a výdavky. Zvoľte možnosť **Pridať podmienený stĺpec** a zadajte názov stĺpca, napríklad **LegalEntity**. Zadajte podmienku pre stĺpec, kde ak **msdyn\_contractorganizationalunitid.msdyn\_name** je \<organizational unit\>, potom \<enter the legal entity\>; inak ide o príznak null.
 
 ### <a name="template-mapping-in-data-integration"></a>Mapovanie šablón v integrácii údajov
@@ -125,7 +125,7 @@ Projektové skutočné hodnoty sa spravujú v Project Service Automation a synch
 
 ### <a name="power-query"></a>Power Query
 
-V šablóne aktualizácie skutočných projektov musíte použiť Power Query na splnenie týchto úloh:
+V šablóne aktualizácie skutočných hodnôt projektu musíte na dokončenie týchto úloh použiť Power Query:
 
 - Transformujte typ transakcie v Finance na správny typ transakcie v službe Project Service Automation. Táto transformácia je už definovaná v šablóne aktualizácie skutočných hodnôt projektu (PSA pre Fin a Ops).
 - Transformujte typ fakturácie vo Finance na správny typ fakturácie v službe Project Service Automation. Táto transformácia je už definovaná v šablóne aktualizácie skutočných hodnôt projektu (PSA pre Fin a Ops).

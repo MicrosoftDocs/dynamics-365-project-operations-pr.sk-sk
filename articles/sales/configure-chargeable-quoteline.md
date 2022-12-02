@@ -1,6 +1,6 @@
 ---
 title: Konfigurácia fakturovateľných súčastí riadka projektovej cenovej ponuky
-description: Tento článok poskytuje informácie o zahrnutých, spoplatnených a nespoplatnených komponentoch v riadkoch projektovej ponuky.
+description: Tento článok poskytuje informácie o zahrnutých, fakturovateľných a nefakturovateľných komponentoch v riadkoch projektovej cenovej ponuky.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

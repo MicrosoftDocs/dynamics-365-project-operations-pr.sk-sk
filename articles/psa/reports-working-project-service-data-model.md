@@ -31,7 +31,7 @@ ms.locfileid: "8926703"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation rozširuje ostatné entity aplikácií a zavádza svoje vlastné entity v Common Data Service dátovom modeli. Tento článok popisuje niektoré entity, s ktorými sa stretnete v typických scenároch vykazovania PSA.
+Dynamics 365 Project Service Automation rozširuje ostatné entity aplikácií a zavádza svoje vlastné entity v Common Data Service dátovom modeli. Tento článok opisuje niektoré entity, s ktorými sa stretnete v typických scenároch hlásenia PSA.
 
 ## <a name="reporting-on-opportunities"></a>Vytváranie zostáv o príležitostiach
 

@@ -19,7 +19,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 
 
-Dynamics 365 Project Operations používa [Finančné rozmery](/dynamics365/finance/general-ledger/financial-dimensions) rámec v Dynamics 365 Finance, ktorý poskytuje ďalšie informácie o transakciách podknihy projektu a hlavnej knihy.
+Dynamics 365 Project Operations používa rámec [Finančné dimenzie](/dynamics365/finance/general-ledger/financial-dimensions) v Dynamics 365 Finance na poskytnutie ďalších prehľadov o transakciách v hlavnej a vedľajšej účtovnej knihe projektu.
 
 Predvolené finančné dimenzie je možné nastaviť na zákazníka, zdroj financovania projektu, medzník, riadok projektovej zmluvy alebo projekt.
 

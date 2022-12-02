@@ -1,6 +1,6 @@
 ---
 title: Hromadné opravy skutočností vytvorených schválenými záznamami času a výdavkov
-description: Tento článok vysvetľuje, ako môže správca vykonať jednorazové alebo hromadné opravy predtým schválených záznamov času alebo výdavkov, ak fakturácia nie je dokončená.
+description: Tento článok vysvetľuje, ako môže správca vykonať jednoduché alebo hromadné opravy predtým schválených položiek času alebo výdavkov, ak fakturácia nie je dokončená.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916308"
 
 Príležitostne môže byť nesprávne zadaný údaj o čase alebo výdavkoch. Napríklad poradca môže zvoliť nesprávny dátum pri vytváraní časového záznamu alebo môže transponovať čísla pri zadávaní výdavkov. Ak konzultant nemôže vykonať aktualizácie predložených záznamov, správca môže priamo opraviť záznam pre projekt.
 
-Na dokončenie postupov v tomto článku budete potrebovať povolenia správcu.
+Na dokončenie postupov v tomto článku budete potrebovať oprávnenia správcu.
 
 ## <a name="correct-approved-time-entries"></a>Opravte schválené časové záznamy     
 

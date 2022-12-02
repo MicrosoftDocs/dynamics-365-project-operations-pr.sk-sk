@@ -17,20 +17,20 @@ ms.locfileid: "9261063"
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok vysvetľuje prechody stavu na faktúre dodávateľa v Microsoft Dynamics 365 Project Operations. Používajú sa tieto stavy: **Návrh**, **recenzii**, **·**, **·**, a **Zrušené**.
+Tento článok vysvetľuje prechody stavu na faktúre dodávateľa v Microsoft Dynamics 365 Project Operations. Používajú sa tieto stavy: **Koncept**, **Prebieha kontrola**, **Potvrdené**, **Podržané** a **Zrušené**.
 
 Nasledujúce obrázky zobrazujú prechody stavov.
 
-![Model prechodu stavu subdodávok.](../media/VI_State_Model.jpg)
+![Model prechodu stavu subdodávateľskej zmluvy.](../media/VI_State_Model.jpg)
 
 Nasledujúca tabuľka vysvetľuje, čo každý stav predstavuje v životnom cykle faktúry dodávateľa v Project Operations.
 
 | State | Description | Povolené prechody |
 | --- | --- | --- |
-| Koncept | Tento stav je počiatočným stavom faktúry dodávateľa. Linky a ceny podliehajú zmenám. Faktúru dodávateľa v tomto stave je možné upravovať a mazať. | V procese |
-| Prebieha kontrola | Tento stav predstavuje stav spracovania faktúry dodávateľa. Aspoň jeden riadok faktúry dodávateľa má stav overenia **Prebieha**. | Potvrdené, Podržané |
-| Potvrdené | Tento stav predstavuje štádium faktúry dodávateľa, kde aplikácia vytvorila skutočné náklady pre každý riadok faktúry dodávateľa. Všetky prepojené skutočné náklady, ktoré boli priradené k riadkom faktúry dodávateľa, boli stornované a nahradené skutočnými nákladmi z týchto riadkov faktúry dodávateľa. Faktúru dodávateľa v tomto stave nie je možné upraviť ani odstrániť. Môžete použiť **Zrušiť** tlačidlo na zrušenie potvrdenej faktúry dodávateľa. Akcia Zrušiť zruší účinok akcie Potvrdiť. | Zrušená |
-| Pozastavené | <p>Tento stav predstavuje štádium faktúry dodávateľa, kde sa faktúra dodávateľa nemôže posunúť z dôvodu problému s faktúrou alebo stavu dodávateľa. Faktúru dodávateľa v tomto stave nie je možné potvrdiť, zrušiť, upraviť ani odstrániť.</p><p>Akciu Opätovné otvorenie môžete použiť na presun faktúry dodávateľa do **Návrh** alebo **V recenzii** štát. Ak má aspoň jeden riadok na faktúre dodávateľa stav overenia **Prebieha** alebo **Dokončiť**, faktúra dodávateľa bude znovu otvorená v **V recenzii** štát. Ak majú všetky riadky na faktúre dodávateľa stav overenia **Nezačal**, faktúra dodávateľa bude znovu otvorená v **Návrh** štát.</p> | Koncept, Prebieha kontrola |
-| Zrušená | Tento stav predstavuje štádium subdodávky, kde už nie je potrebná skutočná dodávka materiálu a/alebo práce zo subdodávateľských zdrojov. Subdodávateľská zmluva v tomto stave sa nedá použiť na odhad a personálne projektové požiadavky na zdroje a materiály a tiež sa na ňu nedá odkázať čas, náklady a spotreba materiálu v projekte. Subdodávateľskú zmluvu v tomto stave nie je možné upraviť ani odstrániť. | None |
+| Koncept | Tento stav je počiatočným stavom faktúry dodávateľa. Riadky a ceny podliehajú zmenám. Faktúra dodávateľa v tomto stave sa dá upravovať a odstrániť. | Prebiehajúce |
+| Prebieha kontrola | Tento stav predstavuje stav spracovania faktúry dodávateľa. Aspoň jeden riadok faktúry dodávateľa má stav overenia **Prebieha**. | Potvrdené, pozastavené |
+| Potvrdené | Tento stav predstavuje etapu faktúry dodávateľa, kde aplikácia vytvorila skutočné náklady pre každý riadok faktúry dodávateľa. Všetky prepojené skutočné náklady, ktoré boli priradené k riadkom faktúry dodávateľa, boli stornované a nahradené skutočnými nákladmi z týchto riadkov faktúry dodávateľa. Faktúra dodávateľa v tomto stave sa nedá upravovať ani odstrániť. Môžete použiť tlačidlo **Zrušiť** na zrušenie potvrdenej faktúry dodávateľa. Akcia Zrušiť zruší účinok akcie Potvrdiť. | Zrušená |
+| Pozastavené | <p>Tento stav predstavuje etapu faktúry dodávateľa, kde sa faktúra dodávateľa nemôže posunúť z dôvodu problému s faktúrou alebo stavom dodávateľa. Faktúru dodávateľa v tomto stave nemožno potvrdiť, zrušiť, upraviť ani vymazať.</p><p>Akciu Opätovné otvorenie môžete použiť na presun faktúry dodávateľa do stavu **Koncept** alebo **Prebieha kontrola**. Ak má aspoň jeden riadok na faktúre dodávateľa stav overenia **Prebieha** alebo **Dokončené**, faktúra dodávateľa bude znovu otvorená v stave **Prebieha kontrola**. Ak majú všetky riadky na faktúre dodávateľa stav overenia **Nespustené**, faktúra dodávateľa bude znovu otvorená v stave **Koncept**.</p> | Koncept, Prebieha kontrola |
+| Zrušená | Tento stav predstavuje etapu subdodávateľskej zmluvy, kde už nie je potrebná skutočná dodávka materiálu a/alebo práce zo subdodávateľských zdrojov. Subdodávateľská zmluva v tomto stave sa nedá použiť na odhad a personálne projektové požiadavky na zdroje a materiály a tiež sa na ňu nedá odkazovať na čas, náklady a spotrebu materiálu v projekte. Subdodávateľská zmluva v tomto stave sa nedá upravovať ani odstrániť. | None |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

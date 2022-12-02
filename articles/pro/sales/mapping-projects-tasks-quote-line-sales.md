@@ -1,6 +1,6 @@
 ---
 title: Mapovanie projektov a úloh na riadok cenovej ponuky založenej na projekte
-description: Tento článok poskytuje informácie o tom, ako mapovať projekty a úlohy na riadok úloh založených na projekte.
+description: Tento článok poskytuje informácie o tom, ako mapovať projekty a úlohy na riadok úlohy založenej na projekte.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

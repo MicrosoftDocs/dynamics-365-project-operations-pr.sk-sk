@@ -1,6 +1,6 @@
 ---
 title: Správa viacerých zákazníkov v projektovej cenovej ponuke
-description: Tento článok poskytuje informácie o práci na cenových ponukách, ktoré zahŕňajú viacerých zákazníkov, ktorí budú financovať projekt.
+description: Tento článok poskytuje informácie o práci na cenových ponukách, ktoré sa týkajú viacerých zákazníkov, ktorí budú financovať projekt.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

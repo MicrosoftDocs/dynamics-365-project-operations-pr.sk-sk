@@ -1,6 +1,6 @@
 ---
 title: Správanie používateľského rozhrania pri zadávaní času
-description: Tento článok poskytuje informácie o správaní používateľského rozhrania pre zadávanie času.
+description: Tento článok poskytuje informácie o správaní používateľského rozhrania pri zadávaní času.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

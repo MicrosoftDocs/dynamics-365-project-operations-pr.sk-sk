@@ -1,6 +1,6 @@
 ---
 title: Aktualizácia plánu vydania pre Project Service 3.x
-description: Tento článok poskytuje informácie o dostupných a pripravovaných vydaniach Dynamics 365 Project Service Automation.
+description: Tento článok poskytuje informácie o dostupných a pripravovaných vydaniach aplikácie Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -65,7 +65,7 @@ Informácie o aktualizáciách pre Project Service nájdete v [plánoch vydania 
 |<strong>Stanica 4</strong> | |  |  | |
 | | <i>Európa</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 21. októbra 2022
 |<strong>Stanica 5</strong> | |  |  | |
-| | <i>Severná Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 4. novembra 2022
+| | <i>Severná Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 04. novembra 2022
 |<strong>Stanica 6</strong> | |  |  | |
 | | <i>Cloud vládneho spoločenstva</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 02. novembra, 2022
 | | <i>Skupiny s vyhradeným rozsahom</i> | [3.10.78.8](whats-new-ur-47.md) | Spracuje sa | 11. novembra, 2022

@@ -1,6 +1,6 @@
 ---
 title: Objednávanie neskladovaných materiálov pre projekt pomocou nákupných objednávok projektu
-description: Tento článok vysvetľuje, ako si môžete objednať neskladové materiály pre projekt pomocou projektových objednávok.
+description: Tento článok ozrejmuje objednávanie neskladovaných materiálov pre projekt pomocou nákupných objednávok projektu.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -14,20 +14,20 @@ ms.contentlocale: sk-SK
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8929831"
 ---
-# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Objednajte si kategórie obstarávania alebo neskladové materiály pre projekt pomocou projektových objednávok
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Objednávanie kategórií obstarávania alebo neskladových materiálov pre projekt pomocou nákupných objednávok projektu
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Oddelenie obstarávania vo vašej organizácii môže použiť [nákupné objednávky](/dynamics365/supply-chain/procurement/purchase-order-overview) na sledovanie objednávok tovaru a služieb. Objednávky pre kategórie obstarávania alebo neskladové materiály možno priradiť k projektu. Fakturácia týchto nákupných objednávok zaúčtuje náklady oproti projektu.
+Oddelenie obstarávania vo vašej organizácii môže použiť [nákupné objednávky](/dynamics365/supply-chain/procurement/purchase-order-overview) na sledovanie objednávok tovaru a služieb. Nákupné objednávky kategórií obstarávania alebo neskladové materiály možno priradiť k projektu. Fakturácia týchto nákupných objednávok zaúčtuje náklady oproti projektu.
 
 ## <a name="prerequisites"></a>Predpoklady
 Vykonajte nasledujúce kroky, aby ste povolili funkciu projektových objednávok.
 
-1. V Dynamics 365 Finance prejdite na **Správa funkcií** pracovnom priestore.
+1. V nástroji Dynamics 365 Finance prejdite na pracovný priestor **Správa funkcie**.
 2. V zozname funkcií vyhľadajte a vyberte funkciu, **Povoliť nákupné objednávky projektov v projektových operáciách pre scenáre založené na zdrojoch/nie na sklade**.
 3. Vyberte položku **Povoliť**.
 4. Nakonfigurujte materiály, ktoré nie sú na sklade, a faktúry čakajúce na dodávateľa, ako je popísané v [Konfigurácia neskladovaných materiálov a čakajúcich faktúr dodávateľov](configure-materials-nonstocked.md).
-5. Nakonfigurujte kategórie obstarávania podľa popisu v [Použite kategórie obstarávania s projektovými nákupnými objednávkami a čakajúcimi faktúrami dodávateľa](configure-procurement-categories.md).
+5. Nakonfigurujte kategórie obstarávania podľa popisu v časti [Použite kategórií obstarávania s nákupnými objednávkami projektu a čakajúcimi faktúrami dodávateľa](configure-procurement-categories.md).
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>Vytvorte nákupnú objednávku projektu zo zoznamu objednávok projektu
 
@@ -38,9 +38,9 @@ Vykonajte nasledujúce kroky, aby ste povolili funkciu projektových objednávok
 5. Zadajte číslo položky alebo kategóriu obstarávania, množstvo, jednotku, jednotkovú cenu a ďalšie informácie podľa potreby.
 
     > [!NOTE]
-    > S objednávkami projektu je možné použiť iba kategórie obstarávania, neskladované položky a služby. Skladové položky nie sú podporované.
+    > Pri nákupných objednávkach projektu je možné použiť iba kategórie obstarávania, položky, ktoré nie sú na sklade a služby. Skladové položky nie sú podporované.
 
-6. Pokračujte v pridávaní položiek alebo kategórií obstarávania podľa potreby a potvrďte nákupnú objednávku.
+6. Pokračujte v pridávaní položiek alebo kategórií obstarávania podľa potreby a potvrďte objednávku.
 
     Príjmy za tovar a služby je možné zaznamenať vytvorením a zaúčtovaním potvrdenia o produkte.
 

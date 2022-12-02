@@ -1,6 +1,6 @@
 ---
 title: Riadky príležitostí založených na produkte – čiastočné
-description: Tento článok poskytuje informácie o riadkových položkách príležitostí založených na produkte v Project Operations.
+description: Tento článok poskytuje informácie o riadkových položkách príležitostí založených na produktoch v Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

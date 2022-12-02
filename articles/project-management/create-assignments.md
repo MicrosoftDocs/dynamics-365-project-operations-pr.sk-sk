@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie priradení zdrojov
-description: Tento článok poskytuje informácie o vytváraní všeobecných a pomenovaných priradení zdrojov.
+description: Tento článok poskytuje informácie o vytváraní priradení všeobecných a pomenovaných zdrojov.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: sk-SK
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933511"
@@ -18,7 +18,7 @@ ms.locfileid: "8933511"
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 
-Priradenie zdroja je priame priradenie člena projektového tímu k úlohe listového uzla. Tento článok poskytuje informácie o rôznych spôsoboch priraďovania zdrojov.
+Priradenie zdroja je priame priradenie člena projektového tímu k úlohe listového uzla. Tento článok poskytuje informácie o rôznych spôsoboch priradenia zdrojov.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Vytvorte všeobecného člena tímu prostredníctvom priradenia úlohy
 

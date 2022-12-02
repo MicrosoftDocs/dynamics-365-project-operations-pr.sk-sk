@@ -1,6 +1,6 @@
 ---
 title: Cenníky produktov
-description: Tento článok poskytuje informácie o cenníkoch v katalógových cenách používaných pre ponuky projektov a zmluvy.
+description: Tento článok poskytuje informácie o cenníkoch v katalógových cenách používaných pre projektové cenové ponuky a zmluvy.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

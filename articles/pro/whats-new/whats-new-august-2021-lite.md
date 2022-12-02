@@ -1,6 +1,6 @@
 ---
 title: Čo je nové v auguste 2021 – čiastočné nasadenie Project Operations
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných v auguste 2021 vo vydaní zjednodušeného nasadenia Project Operations.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii vo vydaní nasadenia Project Operations lite z augusta 2021.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8922057"
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
   - Project Operations v prostredí Dataverse verzie 4.13.0.152
 

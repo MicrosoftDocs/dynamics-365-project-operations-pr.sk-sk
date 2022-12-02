@@ -1,6 +1,6 @@
 ---
 title: Čo je nové alebo zmenené v aktualizácii Project Service Automation, vydanie 14, V3
-description: Tento článok poskytuje informácie o tom, čo je nové v Project Service Automation Update Release 14 V3.
+description: Tento článok poskytuje informácie o tom, čo je nové v aktualizácii Project Service Automation, vydanie 14 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8926565"
 
 S potešením vám oznamujeme najnovšiu aktualizáciu pre aplikáciu Dynamics 365 Project Service Automation (PSA). Toto vydanie obsahuje niekoľko dôležitých zlepšení kvality, výkonu a použiteľnosti. Toto vydanie je kompatibilné s Dynamics 365 9.x. Ak chcete aktualizovať toto vydanie, navštívte centrum spravovania pre Dynamics 365 online, prejdite na stránku riešení a nainštalujte aktualizáciu. Ďalšie informácie sa dozviete v časti [Inštalácia, aktualizácia alebo odstránenie preferovaného riešenia](/power-platform/admin/install-remove-preferred-solution).
 
-Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre PSA V3, vydanie aktualizácie 14. Táto verzia má číslo zostavenia V3.10.4.21 a je k dispozícii v nasledujúcom harmonograme:
+Tento článok obsahuje zoznam funkcií a opráv, ktoré sú nové alebo zmenené pre aktualizáciu PSA V3, vydanie 14. Táto verzia má číslo zostavenia V3.10.4.21 a je k dispozícii v nasledujúcom harmonograme:
 
 - **Všeobecná dostupnosť (samoaktualizácia):** Január 2020
 - **Automatická aktualizácia:** Február 2020

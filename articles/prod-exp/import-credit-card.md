@@ -1,6 +1,6 @@
 ---
 title: Import a udržiavanie transakcií kreditnou kartou
-description: Tento článok vysvetľuje, ako importovať a udržiavať transakcie kreditnou kartou súvisiace s výdavkami. Tieto transakcie je možné nastaviť tak, aby sa automaticky importovali podľa opakujúceho sa plánu, alebo podľa potreby je možné ich manuálne importovať.
+description: Tento článok vysvetľuje, ako importovať a udržiavať transakcie kreditnými kartami súvisiace s výdavkami. Tieto transakcie je možné nastaviť tak, aby sa automaticky importovali podľa opakujúceho sa plánu, alebo podľa potreby je možné ich manuálne importovať.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

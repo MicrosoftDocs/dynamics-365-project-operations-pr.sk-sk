@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie odhadov v riadku cenovej ponuky
-description: Tento článok poskytuje informácie o tom, ako vytvoriť odhad na riadku cenovej ponuky pre projekt.
+description: Tento článok poskytuje informácie o tom, ako vytvoriť odhad riadku cenovej ponuky pre projekt.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

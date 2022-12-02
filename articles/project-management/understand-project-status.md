@@ -1,6 +1,6 @@
 ---
 title: Oboznámenie sa so stavom projektu
-description: Tento článok poskytuje informácie o stave priradenom projektom v Dynamics 365 Project Operations.
+description: Tento článok poskytuje informácie o stave pridelenom projektom v aplikácii Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

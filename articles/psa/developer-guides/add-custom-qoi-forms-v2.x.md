@@ -1,6 +1,6 @@
 ---
 title: Pridanie nových vlastných formulárov entít (Project Service Automation 2.x)
-description: Tento článok poskytuje informácie o tom, ako pridať vlastné formuláre entity pre príležitosti, cenové ponuky, objednávky alebo faktúry Dynamics 365 Project Service Automation 2.x.
+description: Tento článok poskytuje informácie o pridávaní vlastných formulárov entít pre príležitosti, cenové ponuky, objednávky alebo faktúry v Dynamics 365 Project Service Automation 2.x.
 author: makk
 ms.custom:
 - dyn365-projectservice

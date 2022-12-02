@@ -1,6 +1,6 @@
 ---
 title: Prepísanie projektových predajných cenníkov
-description: Tento článok poskytuje informácie o vytváraní vlastných predajných cenníkov.
+description: Tento článok poskytuje informácie o vytváraní prispôsobených predajných cenníkov.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Polia aplikácie Project Operations ako cenové dimenzie
-description: Tento článok poskytuje informácie o použití polí ako cenových dimenzií v Dynamics 365 Project Operations.
+description: Tento článok poskytuje informácie s využitím polí, ako sú cenové dimenzie v aplikácii Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

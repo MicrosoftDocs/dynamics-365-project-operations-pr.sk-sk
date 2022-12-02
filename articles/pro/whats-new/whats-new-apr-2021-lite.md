@@ -1,6 +1,6 @@
 ---
 title: Čo je nové v apríli 2021 – Project Operations, čiastočné nasadenie
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní zjednodušeného nasadenia Project Operations z apríla 2021.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations Lite z apríla 2021.
 author: sigitac
 ms.date: 04/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8931258"
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
   - Project Operations v prostredí Dataverse verzie 4.9.0.221 
 

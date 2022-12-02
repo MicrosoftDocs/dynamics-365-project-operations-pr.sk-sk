@@ -1,6 +1,6 @@
 ---
 title: Upravte požiadavku na zdroj
-description: Tento článok poskytuje informácie o aktualizácii informácií o požiadavkách na zdroje.
+description: Tento článok poskytuje informácie o aktualizácii informácií o požiadavkách zdrojov.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

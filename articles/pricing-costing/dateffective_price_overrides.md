@@ -1,6 +1,6 @@
 ---
-title: Prepisy cien platné od dátumu
-description: Tento článok vysvetľuje, ako nastaviť prepísanie cien pre konkrétne ceny v cenníku.
+title: Prepísania cien s dátumom účinnosti
+description: Tento článok vysvetľuje, ako nastaviť prepísania cien pre konkrétne ceny v cenníku.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -14,99 +14,99 @@ ms.contentlocale: sk-SK
 ms.lasthandoff: 09/08/2022
 ms.locfileid: "9446011"
 ---
-# <a name="date-effective-price-overrides"></a>Prepisy cien platné od dátumu 
+# <a name="date-effective-price-overrides"></a>Prepísania cien s dátumom účinnosti 
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-*Prepisy cien platné od dátumu* poskytnúť spôsob, ako prepísať alebo zmeniť konkrétne ceny v cenníku. Napríklad máte štandardný cenník platný od 1. januára 2022 do 31. decembra 2022. Tento cenník obsahuje ceny pre mnoho rolí. Cena, ktorá je nastavená pre **Sieťový technik** role je 100 amerických dolárov (USD) za hodinu. Keď sieťový technik zaznamená čas medzi 1. januárom 2022 a 31. decembrom 2022, cena za čas je 100 USD. 1. októbra 2022 musíte upraviť cenu *iba* pre **Sieťový technik** rolu, od 100 USD za hodinu do 110 USD za hodinu. The **Dátum platnosti prepísania cien** funkcia vám umožňuje nastaviť túto zmenu ako prepísanie riadka pre konkrétnu cenu role. Nemusíte teda kopírovať celý cenník a meniť cenu len toho jedného riadku.
+*Prepísania cien s dátumom účinnosti* poskytuje spôsob, ako prepísať alebo zmeniť konkrétne ceny v cenníku. Napríklad máte štandardný cenník platný, ktorý platí od 1. januára 2022 do 31. decembra 2022. Tento cenník obsahuje ceny pre mnoho rolí. Cena, ktorá je nastavená pre rolu **Sieťový technik**, je 100 amerických dolárov (USD) za hodinu. Keď sieťový technik zaznamená čas medzi 1. januárom 2022 a 31. decembrom 2022, cena za čas je 100 USD. 1. októbra 2022 musíte upraviť cenu *iba* pre rolu **Sieťový technik**, zo 100 USD za hodinu na 110 USD za hodinu. Funkcia **Prepísania cien s dátumom účinnosti** vám umožňuje nastaviť túto zmenu ako prepísanie riadka pre cenu konkrétnej roly. Nemusíte teda kopírovať celý cenník a meniť cenu len toho jedného riadka.
 
-## <a name="date-effective-price-overrides-for-labor-pricing"></a>Prepisy cien práce platné od dátumu
+## <a name="date-effective-price-overrides-for-labor-pricing"></a>Prepísanie cien s dátumom účinnosti pre cenu práce
 
-Proces nastavenia dátumovo efektívnych prepisov cien pre pracovný čas na projekte pozostáva z dvoch základných krokov.
+Proces nastavenia prepísania cien s dátumom účinnosti pre čas práce na projekte pozostáva z dvoch základných krokov.
 
-1. Povoliť **Dátum platnosti prepísania cien** vlastnosť.
-1. Nastavte prepísanie ceny platné od dátumu.
+1. Povoľte funkciu **Prepísania cien s dátumom účinnosti**.
+1. Nastavte prepísanie cien s dátumom účinnosti.
 
-### <a name="enable-the-date-effective-price-overrides-feature"></a>Povoľte funkciu prepísania cien podľa dátumu platnosti
+### <a name="enable-the-date-effective-price-overrides-feature"></a>Povolenie funkcie Prepísania cien s dátumom účinnosti
 
 > [!NOTE]
-> Po **Dátum platnosti prepísania cien** funkcia je povolená, nemožno ju vypnúť.
+> Po povolení funkcie **Prepísania cien s dátumom účinnosti** ju už nemožno vypnúť.
 
-Ak chcete povoliť **Prepisy cien platné od dátumu** funkciu, postupujte podľa týchto krokov.
+Ak chcete povoliť funkciu **Prepísania cien s dátumom účinnosti**, postupujte podľa týchto krokov.
 
-1. Ísť do **nastavenie** \> **Parametre**.
-1. Otvor **Parametre** záznam.
-1. Na paneli akcií na **Ovládanie funkcií** kartu, vyberte **Povoliť prepisy cien platné od dátumu**.
+1. Prejdite do časti **Nastavenia** \> **Parametre**.
+1. Otvorte záznam **Parametre**.
+1. Na table akcií na karte **Ovládací prvok funkcie** vyberte **Povoliť prepísania cien s dátumom účinnosti**.
 1. V dialógovom okne potvrdenia kliknite na tlačidlo **OK**.
-1. Po chvíli obnovte prehliadač. Teraz by mali byť k dispozícii možnosti prepisovania cien v závislosti od dátumu. Budete vedieť, že tieto možnosti boli povolené, ak **Povoliť prepisy cien platné od dátumu** sa už nezobrazuje na paneli akcií.
+1. Po chvíli obnovte prehliadač. Teraz by mali byť k dispozícii možnosti prepísania cien s dátumom účinnosti. Budete vedieť, že tieto možnosti boli povolené, ak sa na table Akcia viac nebude zobrazovať možnosť **Povoliť prepísania cien s dátumom účinnosti**.
 
-### <a name="set-up-a-date-effective-price-override"></a>Nastavte prepísanie ceny platné od dátumu
+### <a name="set-up-a-date-effective-price-override"></a>Nastavenie prepísania cien s dátumom účinnosti
 
-Dátumovo platné prepisy cien je možné nastaviť **náklady**, **·**, alebo **Nákup** cenníky.
+Prepísania cien s dátumom účinnosti je možné nastaviť v cenníkoch **Náklady**, **Predaj** alebo **Nákup**.
 
 > [!NOTE]
->Správanie sa **Dátum platnosti prepísania cien** má v súčasnosti nasledujúce obmedzenia:
+>Správanie sa funkcie **Prepísania cien s dátumom účinnosti** má v súčasnosti nasledujúce obmedzenia:
 >
-> - Podporujú iba ceny rolí a prirážky cien rolí **Dátum platnosti prepísania cien** funkcie v Project Operations.
-> - Pri kopírovaní cenníka pomocou **Kopírovať** akcia na **Podrobnosti cenníka** a keď vytvoríte projektový cenník zo štandardného alebo vlastného cenníka počas vytvárania zmluvy, dátumovo účinné prepísania cien sú **nie** skopírované zo zdrojového cenníka.
+> - Funkciu **Prepísania cien s dátumom účinnosti** v Project Operations podporujú iba ceny rolí a prirážky k cenám rolí.
+> - Pri kopírovaní cenníka pomocou akcie **Kopírovať** na stránke **Podrobnosti cenníka**, a keď vytvoríte projektový cenník zo štandardného alebo vlastného cenníka počas vytvárania zmluvy, prepísania cien s dátumom účinnosti sa **neskopírujú** zo zdrojového cenníka.
 
-Ak chcete nastaviť prepísanie ceny s platnou dátumom pre cenu role alebo prirážku ceny role, postupujte podľa týchto krokov.
+Ak chcete nastaviť prepísania cien s dátumom účinnosti pre cenu roly alebo prirážky k cene roly, postupujte podľa týchto krokov.
 
-1. Otvorte stránku pre cenník, pre ktorý chcete nastaviť prepísanie ceny platné od dátumu.
-1. Vyberte **Ceny rolí** tab. Táto karta obsahuje zoznam všetkých **Cena role** záznamy v cenníku.
-1. Vyberte **Cena role** zaznamenajte, pre ktoré chcete nastaviť novú prepisovaciu cenu platnú pre dátum, a potom dvakrát ťuknite (alebo dvakrát kliknite) **Cena role** otvoriť **Podrobnosti o cene role** stránku.
-1. Vyberte **Dátum účinnosti prepíše** tab. V mriežke na tejto karte sú uvedené všetky dátumy platné prepísania cien pre vybraté položky **Cena role** záznam.
-1. Na paneli s nástrojmi nad mriežkou vyberte **Nová rola prepíše cenu**. The **Nová rola prepíše cenu** posúvač sa otvorí.
-1. Zadajte dátum účinnosti, jednotku a novú cenu pre prepísanie ceny. Potom vyberte **Uložiť** a zatvorte formulár.
+1. Otvorte stránku pre cenník, pre ktorý chcete nastaviť prepísania cien s dátumom účinnosti.
+1. Vyberte kartu **Ceny rolí**. Táto karta obsahuje zoznam všetkých záznamov **Cena roly** v cenníku.
+1. Vyberte záznam **Cena roly**, pre ktorý chcete nastaviť novú prepísanú cenu s dátumom účinnosti, a potom dvakrát ťuknite (alebo dvakrát kliknite) na položku **Cena roly**, čím otvoríte stránku **Podrobnosti o cene roly**.
+1. Vyberte kartu **Prepísania s dátumom účinnosti**. V mriežke na tejto karte sú uvedené všetky prepísania cien s dátumom účinnosti pre vybratý záznam **Cena roly**.
+1. Na paneli s nástrojmi nad mriežkou vyberte **Nové prepísanie ceny roly**. Otvorí sa jazdec **Nové prepísanie ceny roly**.
+1. Zadajte dátum účinnosti, jednotku a novú cenu pre prepísanie ceny. Následne vyberte položku **Uložiť** a zatvorte formulár.
 
 > [!NOTE]
-> - Prepísanie ceny roly alebo prirážky ceny roly platné od dátumu je použiteľné pre rovnakú kombináciu hodnôt cenovej dimenzie, ktorá existuje na nadradenom **Cena role** alebo **Prirážka ceny role** riadok.
-> - Dátum, ktorý je vybraný v **Účinné od** pole by malo byť v rámci dátumov účinnosti nadradeného cenníka. Prepísanie ceny nadobudne účinnosť v deň, ktorý je vybraný v **Účinné od** pole a bude platiť do konca dátumu ukončenia nadradeného cenníka. Ak nastavíte iné prepísanie ceny platného dátumu pre rovnakú cenu role, prvé prepísanie ceny nadobudne účinnosť v dátum, ktorý je vybratý v **Účinné od** a bude platiť až do začiatku druhého prepísania.
+> - Prepísanie ceny s dátumom účinnosti pre cenu roly alebo prirážku k cene roly je použiteľné pre rovnakú kombináciu hodnôt cenovej dimenzie, ktorá existuje v nadradenom riadku **Cena roly** alebo **Prirážka k cene roly**.
+> - Dátum, ktorý je vybraný v poli **Platnosť od** by mal byť v rámci dátumov platnosti nadradeného cenníka. Prepísanie ceny nadobudne účinnosť v deň, ktorý je vybraný v poli **Platnosť od** a bude platiť do konca dátumu ukončenia nadradeného cenníka. Ak nastavíte iné prepísanie ceny s dátumom účinnosti pre rovnakú cenu roly, prvé prepísanie ceny nadobudne účinnosť v dátum, ktorý je vybratý v poli **Platnosť od** a bude platiť až do začiatku druhého prepísania.
 
 ## <a name="examples"></a>Príklady
 
-### <a name="example-1-determining-date-effectivity-for-a-role-price-that-has-role-price-overrides"></a>Príklad 1: Určenie účinnosti dátumu pre cenu roly, ktorá má prednosť pred cenou roly
+### <a name="example-1-determining-date-effectivity-for-a-role-price-that-has-role-price-overrides"></a>Príklad 1: Určenie dátumu účinnosti pre cenu roly, ktorý má prednosť pred cenou roly
 
-Nasledujúci príklad ukazuje, ako sa určuje účinnosť dátumu pre konkrétnu cenu roly, pre ktorú sú nastavené prepisy cien roly.
-
-**Cenník A: od 1. januára do 30. júna**
-
-*Cena role*
-
-| Cena role | Jednotka | Cena | Vplyv na ceny prichádzajúcich transakcií |
-|---|---|---|---|
-| Sieťový technik | Hodina | 100 | Táto cena sa použije pri všetkých transakciách, ktorých dátum transakcie je medzi 1. januárom a 14. marcom. |
-
-*Prepísanie ceny role*
-
-| Účinné od | Jednotka | Cena | Vplyv na ceny prichádzajúcich transakcií |
-|---|---|---|---|
-| Marec 15 | Hodina | 110 | Táto cena sa použije pri všetkých transakciách, ktorých dátum transakcie je medzi 15. marcom a 30. marcom. |
-| Apríl 1 | Hodina | 120 | Táto cena sa použije pri všetkých transakciách, ktorých dátum transakcie je medzi 1. aprílom a 30. júnom. |
-
-### <a name="example-2-determining-date-effectivity-for-a-role-price-markup-that-has-role-price-markup-overrides"></a>Príklad 2: Určenie účinnosti dátumu pre cenovú prirážku role, ktorá má prepísanie prirážky ceny roly
-
-Nasledujúci príklad ukazuje, ako sa určuje účinnosť dátumu pre konkrétnu prirážku ceny role, pre ktorú sú nastavené prepísania prirážky ceny role.
+Nasledujúci príklad ukazuje, ako sa určuje dátumu účinnosti pre konkrétnu cenu roly, pre ktorú sú nastavené prepísania cien roly.
 
 **Cenník A: od 1. januára do 30. júna**
 
-*Cena role*
+*Cena roly*
 
-| Cena role | Pracovný čas | Jednotka | Cena | Vplyv na ceny prichádzajúcich transakcií |
+| Cena roly | Jednotka | Cena | Vplyv na ceny prichádzajúcich transakcií |
+|---|---|---|---|
+| Sieťový technik | Hodina | 100 | Táto cena sa použije pri všetkých transakciách, pri ktorých je dátum transakcie medzi 1. januárom a 14. marcom. |
+
+*Prepísanie ceny roly*
+
+| Účinnosť od | Jednotka | Cena | Vplyv na ceny prichádzajúcich transakcií |
+|---|---|---|---|
+| Marec 15 | Hodina | 110 | Táto cena sa použije pri všetkých transakciách, pri ktorých je dátum transakcie medzi 15. marcom a 30. marcom. |
+| Apríl 1 | Hodina | 120 | Táto cena sa použije pri všetkých transakciách, pri ktorých je dátum transakcie medzi 1. aprílom a 30. júnom. |
+
+### <a name="example-2-determining-date-effectivity-for-a-role-price-markup-that-has-role-price-markup-overrides"></a>Príklad 2: Určenie dátumu účinnosti pre prirážku k cene roly, ktorý má prednosť pred prirážkou k cene roly
+
+Nasledujúci príklad ukazuje, ako sa určuje dátumu účinnosti pre konkrétnu prirážku k cene roly, pre ktorú sú nastavené prepísania prirážky k cene roly.
+
+**Cenník A: od 1. januára do 30. júna**
+
+*Cena roly*
+
+| Cena roly | Pracovný čas | Jednotka | Cena | Vplyv na ceny prichádzajúcich transakcií |
 |---|---|---|---|---|
-| Sieťový technik | Pravidelné | Hodina | 100 | Táto cena sa použije pri všetkých transakciách, ktorých dátum transakcie je medzi 1. januárom a 14. marcom. |
+| Sieťový technik | Normálny | Hodina | 100 | Táto cena sa použije pri všetkých transakciách, pri ktorých je dátum transakcie medzi 1. januárom a 14. marcom. |
 
-*Prirážka ceny role*
+*Prirážka k cene roly*
 
-| Organizačná jednotka | Pracovný čas | Priznať % |
+| Organizačná jednotka | Pracovný čas | Prirážka % |
 |---|---|---|
 | Contoso US | Nadčas | 10 % |
 
-*Prepísanie prirážky ceny role*
+*Prepísanie prirážky k cene roly*
 
-| Účinné od | Cena | Vplyv na ceny prichádzajúcich transakcií |
+| Účinnosť od | Cena | Vplyv na ceny prichádzajúcich transakcií |
 |---|---|---|
-| Marec 15 | 20 % | Toto percento prirážky sa použije pri všetkých transakciách, ktorých dátum transakcie je medzi 15. marcom a 30. marcom. |
-| Apríl 1 | 25 % | Táto prirážka sa použije pri všetkých transakciách, ktorých dátum transakcie je medzi 1. aprílom a 30. júnom. |
+| Marec 15 | 20 % | Táto percentuálna prirážka sa použije pri všetkých transakciách, pri ktorých je dátum transakcie medzi 15. marcom a 30. marcom. |
+| Apríl 1 | 25 % | Táto prirážka sa použije pri všetkých transakciách, pri ktorých je dátum transakcie medzi 1. aprílom a 30. júnom. |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

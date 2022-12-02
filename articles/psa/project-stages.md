@@ -1,6 +1,6 @@
 ---
 title: Typy etapy projektu
-description: Tento článok poskytuje informácie o fázach projektu.
+description: Tento článok poskytuje informácie o etapách projektu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

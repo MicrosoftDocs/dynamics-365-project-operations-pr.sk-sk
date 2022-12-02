@@ -1,6 +1,6 @@
 ---
 title: Sledovanie úsilia na projekte
-description: Tento článok poskytuje informácie o tom, ako sledovať projektové úsilie a postup prác.
+description: Tento článok poskytuje informácie o tom, ako sledovať úsilie na projekte a priebeh prác.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929279"
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Potreba sledovať pokrok v rozvrhu sa líši v závislosti od odvetvia. Niektoré odvetvia sledujú na komplexnej úrovni, pričom iné odvetvia sledujú na vyššej úrovni. Tento článok ukazuje, ako plánovať, aby ste splnili požiadavky vašej organizácie.
+Potreba sledovať pokrok v rozvrhu sa líši v závislosti od odvetvia. Niektoré odvetvia sledujú na komplexnej úrovni, pričom iné odvetvia sledujú na vyššej úrovni. Tento článok ukazuje, ako naplánovať, aby spĺňali požiadavky vašej organizácie.
 
 ## <a name="effort-tracking-view"></a>Zobrazenie sledovania úsilia
 
@@ -45,8 +45,8 @@ Manažér projektu môže preplánovať úsilie na úlohy aktualizáciou predvol
 - Vypočíta sa nový odhad pri dokončení na samostatné úlohy až po listový uzol. 
 - Dotknuté podradené úlohy až po listový uzol majú svoje zostávajúce úsilie a percento progresu prepočítané na základe hodnoty odhadu pri dokončení. To má za následok nové predpoklady pre variáciu úsilia úlohy. 
 - Vypočítajú sa súhrnné úlohy EAC až po koreňový uzol.
-- Schválené úsilie na súhrnnú úlohu je súčtom schváleného úsilia na všetkých podriadených úlohách plus schválené úsilie na súhrnnú úlohu.
-- Zostávajúce úsilie na súhrnnú úlohu je súčtom zostávajúceho úsilia na všetkých podriadených úlohách mínus schválené úsilie na súhrnnú úlohu.
+- Schválené úsilie v súhrnnej úlohe je súčtom schváleného úsilia na všetkých podriadených úlohách plus schváleného úsilie v súhrnnej úlohe.
+- Zostávajúce úsilie v súhrnnej úlohe je súčtom zostávajúceho úsilia na všetkých podriadených úlohách mínus schváleného úsilie v súhrnnej úlohe.
 
 ## <a name="project-status-summary"></a>Súhrn stavu projektu
 

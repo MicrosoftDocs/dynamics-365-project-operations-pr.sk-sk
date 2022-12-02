@@ -1,6 +1,6 @@
 ---
 title: Rezervácie zdrojov a ako súvisia s priradením úloh
-description: Tento článok poskytuje informácie o tom, ako spravovať pomenované zdroje, rezervácie zdrojov a priradenia úloh a ako spolu súvisia.
+description: Tento článok poskytuje informácie o tom, ako spravovať pomenované zdroje, rezervácie zdrojov a priradenia úloh a ako navzájom súvisia.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

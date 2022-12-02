@@ -1,6 +1,6 @@
 ---
 title: Konfigurácia účtovníctva pre fakturovateľné projekty
-description: Tento článok poskytuje informácie o možnostiach účtovania pre fakturovateľné projekty.
+description: Tento článok poskytuje informácie o možnostiach účtovníctva pre fakturovateľné projekty.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

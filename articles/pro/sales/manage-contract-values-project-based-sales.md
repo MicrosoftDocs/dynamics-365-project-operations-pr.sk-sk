@@ -1,6 +1,6 @@
 ---
 title: Prehľad riadkov zmlúv založených na projekte
-description: Tento článok poskytuje informácie o práci so zmluvnými líniami založenými na projekte.
+description: Tento článok poskytuje informácie o práci s riadkami zmluvy založenými na projekte.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

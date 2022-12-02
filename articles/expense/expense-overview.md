@@ -1,6 +1,6 @@
 ---
 title: Prehľad výdavkov
-description: Tento článok poskytuje informácie o funkcii výdavkov v prevádzke projektu.
+description: Tento článok poskytuje informácie o funkcii Výdavok v Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

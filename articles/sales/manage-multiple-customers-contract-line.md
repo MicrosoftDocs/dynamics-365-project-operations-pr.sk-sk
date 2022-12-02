@@ -1,6 +1,6 @@
 ---
 title: Správa viacerých zákazníkov v riadkoch zmlúv založených na projekte
-description: Tento článok poskytuje informácie o práci so zmluvnými líniami a zmluvami, ktoré obsahujú viacerých zákazníkov.
+description: Tento článok poskytuje informácie o práci s riadkami zmlúv a zmluvami, ktoré obsahujú viacerých zákazníkov.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

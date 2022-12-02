@@ -1,6 +1,6 @@
 ---
 title: Potvrdenie projektovej faktúry dodávateľa
-description: Tento článok vysvetľuje, ako potvrdiť faktúru dodávateľa projektu v spoločnosti Microsoft Dynamics 365 Project Operations a finančný dosah potvrdenia faktúry dodávateľa projektu.
+description: Tento článok vysvetľuje, ako potvrdiť faktúru dodávateľa projektu v Microsoft Dynamics 365 Project Operations a finančný dopad potvrdenia faktúry dodávateľa projektu.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,15 +17,15 @@ ms.locfileid: "9261532"
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Po overení všetkých riadkov na faktúre dodávateľa v Microsofte Dynamics 365 Project Operations, môžete použiť akciu Potvrdiť na potvrdenie faktúry dodávateľa.
+Po overení všetkých riadkov na faktúre dodávateľa v Microsoft Dynamics 365 Project Operations môžete použiť akciu Potvrdiť na potvrdenie faktúry dodávateľa.
 
-Keď vyberiete **Potvrďte** na faktúre dodávateľa dochádza k nasledujúcemu správaniu:
+Keď vyberiete **Potvrdiť** na faktúre dodávateľa, dochádza k nasledujúcemu správaniu:
 
 1. Stav faktúry dodávateľa sa aktualizuje na **Potvrdené**.
-2. Potvrdená faktúra dodávateľa a súvisiace záznamy sa stanú iba na čítanie a nie je možné ich upravovať ani mazať.
+2. Potvrdená faktúra dodávateľa a súvisiace záznamy sa zmenia iba na čítanie a nie je možné ich upravovať ani mazať.
 3. Ak niektoré skutočné náklady odkazujú na riadok faktúry dodávateľa ako súčasť procesu párovania, všetky skutočné náklady, ktoré sú priradené k riadku faktúry dodávateľa s odkazom, sa stornujú.
 4. Nové skutočné náklady sa vytvárajú pomocou informácií v riadku faktúry dodávateľa.
-5. Po potvrdení faktúry dodávateľa už nemôžete vytvárať denníky opráv, spracovávať odvolania záznamu času alebo zrušiť schválenie pôvodných skutočných časov, nákladov alebo materiálu, ktoré boli stornované.
+5. Po potvrdení stornovaní faktúry dodávateľa už nemôžete vytvárať denníky opráv, spracovávať odvolania časových vstupov alebo zrušiť schválenie pôvodných skutočných časov, výdavkov alebo materiálu, ktoré boli stornované.
 
 > [!NOTE]
 > Ak má niektorý riadok na faktúre dodávateľa stav overenia iný ako **Dokončiť**, faktúru dodávateľa nie je možné potvrdiť.

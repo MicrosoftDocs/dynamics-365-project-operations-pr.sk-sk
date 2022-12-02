@@ -1,6 +1,6 @@
 ---
 title: Sledovanie nákladov projektu
-description: Tento článok poskytuje informácie o tom, ako prevádzka projektu sleduje pokrok v porovnaní s mzdovými nákladmi a výdavkami na projekt.
+description: Tento článok poskytuje informácie o tom, ako Project Operations sleduje pokrok oproti mzdovým nákladom a výdavkom na projekt.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

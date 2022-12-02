@@ -1,6 +1,6 @@
 ---
 title: Použiť kategóriu transakcií ako dimenziu cien
-description: Tento článok poskytuje informácie o používaní kategórie transakcií ako cenovej dimenzie.
+description: Tento článok poskytuje informácie o používaní kategórie transakcie ako cenovej dimenzie.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915755"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Tento článok ukazuje, ako použiť kategóriu transakcie ako dimenziu určovania cien. Skôr, ako začnete, ak ste ešte nevytvorili riešenie dimenzie cien, budete musieť vytvoriť novú. Ak už máte riešenie dimenzie cien, môžete vykonať zmeny v tomto riešení. Ak ste pre svoju organizáciu nevytvorili nové riešenie cenovej dimenzie, vykonajte postupy v časti [Vytvorte si vlastné polia a entity](create-custom-fields-entities.md) článok.
+Tento článok ukazuje, ako používať kategóriu transakcie ako cenovú dimenziu. Skôr, ako začnete, ak ste ešte nevytvorili riešenie dimenzie cien, budete musieť vytvoriť novú. Ak už máte riešenie dimenzie cien, môžete vykonať zmeny v tomto riešení. Ak ste pre vašu organizáciu nevytvorili nové riešenie cenovej dimenzie, dokončite postupy v článku [Vytvorte vlastné polia a entity](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Pridanie kategórie transakcie do formulárov a zobrazení
 Ak chcete, aby sa kategória transakcie zobrazovala v používateľskom rozhraní v riešení dimenzie cien, budete musieť prejsť všetkými formulármi a pohľadmi kľúčových entít a pridať tieto polia do formulárov a zobrazení týchto entít.

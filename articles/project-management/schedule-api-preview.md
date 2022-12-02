@@ -1,6 +1,6 @@
 ---
 title: Na vykonávanie operácií s entitami plánovania použite rozhrania API pre plánovanie projektu
-description: Tento článok poskytuje informácie a ukážky používania rozhraní API plánovania projektu.
+description: Tento článok poskytuje informácie a ukážky použitia rozhraní API plánovania projektu.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -34,7 +34,7 @@ Nasledujúca tabuľka poskytuje úplný zoznam entít plánovania projektu.
 | Člen projektového tímu     | msdyn_projectteam           |
 | Kontrolné zoznamy projektu      | msdyn_projectchecklist      |
 | Označenie projektu           | msdyn_projectlabel          |
-| Projektová úloha na označenie   | msdyn_projecttasktolabel    |
+| Projektová úloha s označením   | msdyn_projecttasktolabel    |
 | Šprint projektu          | msdyn_projectsprint         |
 
 **OperationSet**
@@ -47,14 +47,14 @@ Nasleduje zoznam aktuálnych rozhraní API plánovania projektu.
 
 | **API**                                 | Description                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | Toto API sa používa na vytvorenie projektu. Projekt a predvolený sektor projektu sa vytvoria okamžite.                         |
-| **msdyn_CreateTeamMemberV1**            | Toto API sa používa na vytvorenie člena projektového tímu. Záznam o členovi tímu sa vytvorí okamžite.                                  |
-| **msdyn_CreateOperationSetV1**          | Toto API sa používa na plánovanie niekoľkých požiadaviek, ktoré sa musia vykonať v rámci transakcie.                                        |
+| **msdyn_CreateProjectV1**               | Toto API sa používa na vytvorenie projektu. Projekt a predvolený kontajner projektu sa vytvoria okamžite.                         |
+| **msdyn_CreateTeamMemberV1**            | Toto API sa používa na vytvorenie člena tímu. Záznam o členovi tímu sa vytvorí okamžite.                                  |
+| **msdyn_CreateOperationSetV1**          | Toto API sa používa na naplánovanie niekoľkých požiadaviek, ktoré sa musia vykonať v rámci transakcie.                                        |
 | **msdyn_PssCreateV1**                   | Toto API sa používa na vytvorenie entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu vytvorenia. |
 | **msdyn_PssUpdateV1**                   | Toto API sa používa na aktualizáciu entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu aktualizácie  |
 | **msdyn_PssDeleteV1**                   | Toto API sa používa na odstránenie entity. Entitou môže byť ktorákoľvek z entít plánovania projektu, ktoré podporujú operáciu vymazania. |
-| **msdyn_ExecuteOperationSetV1**         | Toto API sa používa na vykonávanie všetkých operácií v rámci danej sady operácií.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | Toto API sa používa na aktualizáciu plánovaného pracovného obrysu priradenia prostriedkov.                                                        |
+| **msdyn_ExecuteOperationSetV1**         | Toto API sa používa na vykonávanie všetkých operácií v rámci danej množiny operácií.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Toto API sa používa na aktualizáciu kontúry plánovanej práce priradenia zdroja.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Pretože záznamy s **CreateProjectV1** a **CreateTeamMemberV1** sú vytvorené 
 
 | **Entita na plánovanie**   | **Vytvoriť** | **Aktualizácia** | **Delete** | **Dôležité aspekty**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Projektová úloha            | Áno        | Áno        | Áno        | The **Pokrok**, **dokončené**, a **Zostávajúce úsilie** polia je možné upravovať v Project for the Web, ale nie je možné ich upravovať v Project Operations.                                                                                                                                                                                             |
-| Závislosť projektovej úlohy | Áno        | No         | Áno        | Záznamy o závislosti od projektových úloh sa neaktualizujú. Namiesto toho je možné starý záznam vymazať a vytvoriť nový.                                                                                                                                                                                                                                 |
-| Priradenie zdroja     | Áno        | Áno\*      | Áno        | Operácie s nasledujúcimi poľami nie sú podporované: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** a **PlannedWork**. Záznamy o priradení zdrojov sa neaktualizujú. Namiesto toho je možné starý záznam vymazať a vytvoriť nový. Na aktualizáciu obrysov priradenia zdrojov bolo poskytnuté samostatné rozhranie API. |
-| Projektový kontajner          | Áno        | Áno        | Áno        | Predvolený segment sa vytvorí pomocou **CreateProjectV1** API. V aktualizácii Release 16 bola pridaná podpora na vytváranie a odstraňovanie sektorov projektov.                                                                                                                                                                                                   |
+| Projektová úloha            | Áno        | Áno        | Áno        | Polia **Progress**, **EffortCompleted** a **EffortRemaining** je možné upravovať v Project for the Web, ale nie je možné ich upravovať v Project Operations.                                                                                                                                                                                             |
+| Závislosť projektovej úlohy | Áno        | No         | Áno        | Záznamy o závislosti od projektových úloh sa neaktualizujú. Namiesto toho je možné odstrániť starý záznam a vytvoriť nový záznam.                                                                                                                                                                                                                                 |
+| Priradenie zdroja     | Áno        | Áno\*      | Áno        | Operácie s nasledujúcimi poľami nie sú podporované: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** a **PlannedWork**. Záznamy o priradení zdrojov sa neaktualizujú. Namiesto toho je možné odstrániť starý záznam a vytvoriť nový záznam. Na aktualizáciu kontúr priradenia zdrojov bolo poskytnuté samostatné rozhranie API. |
+| Projektový kontajner          | Áno        | Áno        | Áno        | Predvolený kontajner sa vytvára pomocou API **CreateProjectV1**. V aktualizácii vydania 16 bola pridaná podpora na vytváranie a odstraňovanie kontajnerov projektov.                                                                                                                                                                                                   |
 | Člen projektového tímu     | Áno        | Áno        | Áno        | Na operáciu vytvorenia použite API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
 | Project                 | Áno        | Áno        |            | Operácie s nasledujúcimi poľami nie sú podporované: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** a **Duration**.                                                                                       |
 | Kontrolné zoznamy projektu      | Áno        | Áno        | Áno        |                                                                                                                                                                                                                                                                                                                                                         |
-| Označenie projektu           | No         | Áno        | No         | Názvy štítkov je možné zmeniť. Táto funkcia je dostupná len pre Project for the Web                                                                                                                                                                                                                                                                      |
-| Projektová úloha na označenie   | Áno        | No         | Áno        | Táto funkcia je dostupná len pre Project for the Web                                                                                                                                                                                                                                                                                                  |
-| Šprint projektu          | Áno        | Áno        | Áno        | The **Štart** pole musí mať dátum skorší ako **Skončiť** lúka. Šprinty toho istého projektu sa nemôžu navzájom prekrývať. Táto funkcia je dostupná len pre Project for the Web                                                                                                                                                                    |
+| Označenie projektu           | No         | Áno        | No         | Názvy označení je možné zmeniť. Táto funkcia je dostupná iba pre Project for the Web                                                                                                                                                                                                                                                                      |
+| Projektová úloha s označením   | Áno        | No         | Áno        | Táto funkcia je dostupná iba pre Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Šprint projektu          | Áno        | Áno        | Áno        | Pole **Začiatok** musí mať dátum skorší ako pole **Koniec**. Šprinty toho istého projektu sa nemôžu navzájom prekrývať. Táto funkcia je dostupná iba pre Project for the Web                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ Toto ID vlastnosti je voliteľné. Ak je uvedené, systém sa ho pokúsi použi�
 
 Nasleduje zoznam obmedzení a známych problémov:
 
--   Rozhrania Project Schedule API môžu používať iba používatelia **Používatelia s licenciou Microsoft Project**. Nemôžu ich používať:
+-   Rozhrania API plánovania projektu môžu používať iba **Používatelia s licenciou Microsoft Project**. Nemôžu ich používať:
     -   Používatelia aplikácie
     -   Systémoví používatelia
     -   Používatelia integrácie
@@ -94,37 +94,37 @@ Nasleduje zoznam obmedzení a známych problémov:
 -   Každá množina **OperationSet** môže mať maximálne 100 operácií.
 -   Každý používateľ môže mať maximálne 10 otvorených množín **OperationSets**.
 -   Project Operations v súčasnosti podporuje v projekte celkovo maximálne 500 úloh.
--   Každá operácia Update Resource Assignment Contour sa počíta ako jedna operácia.
--   Každý zoznam aktualizovaných obrysov môže obsahovať maximálne 100 časových rezov.
+-   Každá operácia aktualizácie kontúr priradenia zdrojov sa počíta ako jedna operácia.
+-   Každý zoznam aktualizovaných kontúr môže obsahovať maximálne 100 časových rezov.
 -   Stav zlyhania množiny **OperationSet** a protokoly zlyhaní nie sú momentálne k dispozícii.
 -   Na jeden projekt je maximálne 400 šprintov.
--   [Limity a hranice projektov a úloh](/project-for-the-web/project-for-the-web-limits-and-boundaries).
--   Menovky sú momentálne dostupné len pre Project for the Web.
+-   [Hranice projektov a úloh](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Označenia sú momentálne dostupné iba pre Project for the Web.
 
 **Spracovanie chýb**
 
 -   Ak chcete skontrolovať chyby generované z množín operácií, prejdite na **Nastavenie**\> **Integrácia plánu** \> **Množiny operácií**.
 -   Ak chcete skontrolovať chyby generované službou plánovania projektu, prejdite na **Nastavenia** \> **Integrácia plánu** \> **Denník chýb PSS**.
 
-**Úprava obrysov priradenia zdrojov**
+**Upravovanie kontúr priradenia zdrojov**
 
-Na rozdiel od všetkých ostatných API plánovania projektov, ktoré aktualizujú entitu, API obrysu priradenia prostriedkov je výhradne zodpovedné za aktualizácie jedného poľa msdyn_plannedwork v jednej entite msydn_resourceassignment.
+Na rozdiel od všetkých ostatných API plánovania projektov, ktoré aktualizujú entitu, API kontúry priradenia zdrojov je výhradne zodpovedné za aktualizácie jedného poľa – msdyn_plannedwork – v jednej entite – msydn_resourceassignment.
 
 Daný režim plánovania je:
 
 -   **pevné jednotky**
--   Projektový kalendár je 9-17 hodín je 9-5 pst, pondelok, utorok, štvrtok, piatok (BEZ PRACOVNEJ STREDY)
--   A kalendár zdrojov je 9-1p PST od pondelka do piatka
+-   projektový kalendár je 9-5p je 9-5pst, pondelok, utorok, štvrtok, piatok (BEZ PRACOVNEJ STREDY)
+-   a kalendár zdrojov je 9-1p PST od pondelka do piatka
 
-Táto úloha je na jeden týždeň, štyri hodiny denne. Je to preto, že kalendár zdrojov je od 9 do 1 PST alebo štyri hodiny denne.
+Táto úloha je na jeden týždeň, štyri hodiny denne. Je to preto, že kalendár zdrojov je 9-1 PST alebo štyri hodiny denne.
 
-| &nbsp;     | Úloha | Počiatočný dátum | Konečný dátum  | Množstvo | 6. 2022 | 6. 2022 | 6. 2022 | 6. 2022 | 6. 2022 |
+| &nbsp;     | Úloha | Počiatočný dátum | Konečný dátum  | Množstvo | 13. 6. 2022 | 14. 6. 2022 | 15. 6. 2022 | 16. 6. 2022 | 17. 6. 2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 pracovník |  T1  | 6. 2022  | 6. 2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| 9-1 pracovník |  T1  | 13. 6. 2022  | 17. 6. 2022 | 20       | 4         | 4         | 4         | 4         | 4         |
 
 Napríklad, ak chcete, aby pracovník tento týždeň pracoval iba tri hodiny denne a jednu hodinu si nechal na iné úlohy.
 
-#### <a name="updatedcontours-sample-payload"></a>Aktualizované užitočné zaťaženie vzorky Contours:
+#### <a name="updatedcontours-sample-payload"></a>Vzorová údajová časť UpdatedContours:
 
 ```json
 [{
@@ -138,11 +138,11 @@ Napríklad, ak chcete, aby pracovník tento týždeň pracoval iba tri hodiny de
 }]
 ```
 
-Toto je priradenie po spustení rozhrania Update Contour Schedule API.
+Toto je priradenie po spustení rozhrania API Update Contour Schedule.
 
-| &nbsp;     | Úloha | Počiatočný dátum | Konečný dátum  | Množstvo | 6. 2022 | 6. 2022 | 6. 2022 | 6. 2022 | 6. 2022 |
+| &nbsp;     | Úloha | Počiatočný dátum | Konečný dátum  | Množstvo | 13. 6. 2022 | 14. 6. 2022 | 15. 6. 2022 | 16. 6. 2022 | 17. 6. 2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 pracovník | T1   | 6. 2022  | 6. 2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| 9-1 pracovník | T1   | 13. 6. 2022  | 17. 6. 2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Vzorový scenár**
@@ -195,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-** Ďalšie vzorky
+** Ďalšie ukážky
 
 ```csharp
 #region Call actions --- Sample code ----

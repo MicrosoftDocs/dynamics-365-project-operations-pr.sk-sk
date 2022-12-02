@@ -1,6 +1,6 @@
 ---
 title: Odhadovanie riadka cenovej ponuky založenej na projekte
-description: Tento článok poskytuje informácie o tom, ako vytvoriť odhad na riadku cenovej ponuky založenom na projekte.
+description: Tento článok poskytuje informácie o tom, ako vytvoriť odhad riadka cenovej ponuky založenej na projekte.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

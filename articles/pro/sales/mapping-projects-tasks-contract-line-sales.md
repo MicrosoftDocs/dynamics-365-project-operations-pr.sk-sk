@@ -1,6 +1,6 @@
 ---
 title: Mapovanie projektov a úloh na riadok zmluvy založenej na projekte – čiastočné
-description: Tento článok poskytuje informácie o pridávaní a odstraňovaní projektov a úloh do riadku zmluvy.
+description: Tento článok poskytuje informácie o pridávaní a odstraňovaní projektov a úloh na riadok zmluvy.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

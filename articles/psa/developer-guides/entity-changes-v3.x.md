@@ -1,6 +1,6 @@
 ---
 title: Entita, ovládací prvok a zmeny používateľského rozhrania (Project Service Automation 3.x)
-description: Tento článok popisuje zmeny riešenia pre Microsoft Dynamics Project Service Automation 3.x.
+description: Tento článok popisuje zmeny riešení pre Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8926887"
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Pri vydaní Microsoft Dynamics Project Service Automation (PSA) 3.x sa vykonali mnohé zmeny entít, ovládacích prvkov, zobrazení a používateľského rozhrania. Tento článok poskytuje informácie o týchto dôležitých zmenách.
+Pri vydaní Microsoft Dynamics Project Service Automation (PSA) 3.x sa vykonali mnohé zmeny entít, ovládacích prvkov, zobrazení a používateľského rozhrania. Tento článok poskytuje informácie o týchto verziách dôležitých zmenách:
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Vzťahy nadradený-podradený pre predajný doklad, riadok predajného dokladu, podrobné entity riadkov predajného dokladu
 Vo verziách Dynamics 365 Project Service Automation (PSA) vydaného pred verziou 3,0, niektoré vzťahy medzi predajnými dokladmi, riadkami predajného dokladu a podrobnými entitami riadkov predajného dokladu boli už implementované prostredníctvom reťazca polia, ktoré by malo držať reťazové zastúpenie GUID súvisiacej entity. To bolo kvôli platforme obmedzení, ktoré vyžadujú významný vlastný kód na serveri a klientské strany riešenia, aby tieto vzťahy fungovali podobne ako typické Dynamics CRM vzťahy entity a aby sa reťazec polí správal ako vyhľadávacie polia.

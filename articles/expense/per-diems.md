@@ -1,6 +1,6 @@
 ---
 title: Za každý deň
-description: Tento článok poskytuje informácie o pravidlách denného príjmu, ktoré sa používajú pri správe výdavkov.
+description: Tento článok poskytuje informácie o pravidlách diét, ktoré sa používajú v správe výdavkov.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Správa potenciálnych zákazníkov – čiastočné
-description: Tento článok poskytuje informácie o správe potenciálnych zákazníkov založených na projekte (odborník).
+description: Tento článok poskytuje informácie o správe potenciálnych zákazníkov na základe projektu (pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

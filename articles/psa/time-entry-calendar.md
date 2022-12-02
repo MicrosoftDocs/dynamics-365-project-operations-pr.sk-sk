@@ -1,6 +1,6 @@
 ---
 title: Kalendár zadávania času
-description: Tento článok poskytuje informácie o tom, ako používať kalendár záznamu času.
+description: Tento článok poskytuje informácie o používaní kalendára časovej položky.
 author: rumant
 ms.custom:
 - dyn365-projectservice

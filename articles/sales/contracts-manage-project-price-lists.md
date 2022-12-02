@@ -1,6 +1,6 @@
 ---
 title: Správa projektových cenníkov v projektových zmluvách
-description: Tento článok poskytuje informácie o správe projektových cenníkov na projektových zmluvách.
+description: Tento článok poskytuje informácie o správe projektových cenníkov v projektových zmluvách.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

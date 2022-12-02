@@ -1,6 +1,6 @@
 ---
 title: Určenie typu nasadenia
-description: Tento článok poskytuje informácie, ktoré vám pomôžu určiť správny typ nasadenia operácií projektu pre vašu spoločnosť.
+description: Tento článok poskytuje informácie, ktoré vám pomôžu určiť správny typ nasadenia Project Operations pre vašu spoločnosť.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Existujúci zákazníci systému Dynamics používajú Dynamics 365 Project Service Automation
 Project Operations obsahuje funkcie dodávané s Project Service Automation. Pre týchto zákazníkov bude vydaný aktualizačný postup v 1. vlne vydaní na rok 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Existujúci zákazníci Dynamics 365 Finance využívajúci riadenie projektov a účtovníctvo 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Existujúci zákazníci Dynamics 365 Finance používajúci Projektové riadenie a účtovníctvo 
 
 Existujúci zákazníci aplikácie Financie, ktorí používajú funkciu Projektový manažment a účtovníctvo, ju môžu naďalej používať tak, ako je. Pozrite si [Project Operations pre scenáre využívajúce skladované materiály/výrobné objednávky](#pma).
 

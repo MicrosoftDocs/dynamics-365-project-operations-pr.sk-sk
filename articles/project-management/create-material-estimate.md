@@ -1,6 +1,6 @@
 ---
 title: Finančné odhady pre materiály na projektoch
-description: Tento článok poskytuje informácie o definovaní alebo odhade materiálov založených na projekte.
+description: Tento článok poskytuje informácie o definovaní alebo odhadovaní materiálov na základe projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925731"
 
 _**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Dynamics 365 Project Operations umožňuje projektovým manažérom definovať projektové náklady na materiál pre každý projekt alebo úlohu. Každý odhad materiálu môže byť spojený s konkrétnou projektovou úlohou. Materiály, ktoré sa používajú na projektoch, môžu byť zapísané produkty alebo produkty z katalógu produktov. Pre každú kombináciu produktu a jednotky možno definovať cenu v projektových cenníkoch pre predaj a projektových cenníkoch pre náklady.  
+Dynamics 365 Project Operations umožňuje projektovým manažérom definovať projektové náklady na materiál pre každý projekt alebo úlohu. Každý odhad materiálu môže byť spojený s konkrétnou projektovou úlohou. Materiály, ktoré sa používajú na projektoch, môžu byť produkty nezahrnuté do katalógu alebo produkty z katalógu produktov. Pre každú kombináciu produktu a jednotky možno definovať cenu v projektových cenníkoch pre predaj a projektových cenníkoch pre náklady.  
 
 Vykonaním nasledujúcich krokov zobrazíte, pridáte alebo odstránite odhad materiálu projektu.
 

@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka cenovej ponuky, oceňovania a fakturovania
-description: Tento článok poskytuje informácie o cenových ponukách, cenách a fakturácii.
+description: Tento článok poskytuje informácie o cenovej ponuke, oceňovaní a fakturácii.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926749"
 
 Cenová ponuka, oceňovanie a fakturácia sú funkcie, ktoré sa využívajú vo veľkých aj malých organizáciách. Pochopením, ako tieto funkcie fungujú v aplikácii, môžu organizácie ľahšie prispôsobiť konfigurácie.
 
-Nasledujúce články poskytujú ďalšie informácie o funkciách cenových ponúk, cien a fakturácie v PSA:
+Nasledujúce články poskytujú viac informácií o funkciách cenovej ponuky, oceňovania a fakturácie v PSA:
 
 - [Proces predaja](basic-sales-process.md)
 - [Riadky cenovej ponuky](basic-quote-lines.md)

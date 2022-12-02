@@ -1,6 +1,6 @@
 ---
 title: Správa backlogu pre fakturáciu
-description: Tento článok poskytuje informácie o tom, ako zobraziť a pracovať s nevybavenými fakturáciami v Project Operations.
+description: Tento článok poskytuje informácie o tom, ako zobraziť a pracovať s backlogom pre fakturáciu v Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

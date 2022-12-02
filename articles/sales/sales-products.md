@@ -1,6 +1,6 @@
 ---
 title: Produkty
-description: Tento článok poskytuje informácie o katalógu produktov, ktorý môžete použiť na poskytovanie informácií zákazníkom o produktoch a cenách, ktoré vaša organizácia ponúka.
+description: Tento článok obsahuje informácie o katalógu produktov, ktorý môžete použiť na poskytovanie informácií zákazníkom o produktoch a cenách, ktoré ponúka vaša organizácia.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Nastavenie vlastných polí ako cenových dimenzií
-description: Tento článok poskytuje informácie o nastavení vlastných dimenzií určovania cien.
+description: Tento článok poskytuje informácie o nastavení vlastných dimenzií cien.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8922616"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Skôr než začnete, tento článok predpokladá, že ste dokončili postupy v článkoch, [Vytvorte si vlastné polia a entity](create-custom-fields-entities.md) a [Pridajte vlastné polia do nastavenia ceny a transakčných entít](field-references.md). Ak ste tieto postupy nedokončili, vráťte sa a dokončite ich a potom sa vráťte k tomuto článku. 
+Tento článok predpokladá, že ste dokončili postupy v článkoch [Vytvorte vlastné polia a entity](create-custom-fields-entities.md) a [Pridanie vlastných polí do entít nastavenia cien a transakcií](field-references.md). Ak ste tieto postupy nedokončili, vráťte sa späť a dokončite ich a potom sa vráťte k tomuto článku. 
 
-Tento článok poskytuje informácie o nastavení vlastných dimenzií určovania cien. Vo webovom rozhraní Project Service na stránke **Parametre** karta **Cenové dimenzie založené na čiastke** zobrazí záznamy v entitách dimenzií cien. V predvolenom nastavení Project Service inštalácia vytvorí 2 riadky v mriežke na tejto karte:
+Tento článok poskytuje informácie o nastavení vlastných dimenzií cien. Vo webovom rozhraní Project Service na stránke **Parametre** karta **Cenové dimenzie založené na čiastke** zobrazí záznamy v entitách dimenzií cien. V predvolenom nastavení Project Service inštalácia vytvorí 2 riadky v mriežke na tejto karte:
 
 - **msdyn_resourcecategory** (Rola)
 - **msdyn_OrganizationalUnit** (Organizačná jednotka)

@@ -1,6 +1,6 @@
 ---
 title: Prehľad udržania dodávateľov
-description: Tento článok poskytuje prehľad možností uchovávania dodávateľov.
+description: Tento článok poskytuje prehľad možností zachovania dodávateľov.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

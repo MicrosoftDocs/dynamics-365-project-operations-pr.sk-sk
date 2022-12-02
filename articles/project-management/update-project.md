@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie a aktualizácia projektu
-description: Tento článok poskytuje informácie o aktualizácii projektov Projektové operácie.
+description: Tento článok poskytuje informácie o aktualizácii projektov Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

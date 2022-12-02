@@ -1,6 +1,6 @@
 ---
 title: Navrhnite projektové zdroje
-description: Tento článok poskytuje informácie o navrhovaní zdrojov projektu.
+description: Tento článok poskytuje informácie o tom, ako navrhovať projektové zdroje.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

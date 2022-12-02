@@ -1,6 +1,6 @@
 ---
 title: Projektové zmluvy – Kľúčové koncepty – čiastočné
-description: Tento článok poskytuje informácie o kľúčových pojmoch projektových zmlúv.
+description: Tento článok poskytuje informácie o kľúčových konceptoch projektových zmlúv.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 
 
-Tento článok poskytuje kľúčové pojmy, o ktorých by ste mali vedieť skôr, ako začnete používať projektové zmluvy Dynamics 365 Project Operations:
+Tento článok poskytuje kľúčové koncepty, ktoré si musíte uvedomiť predtým, ako začnete používať projektové zmluvy v Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Zmluvná jednotka
 

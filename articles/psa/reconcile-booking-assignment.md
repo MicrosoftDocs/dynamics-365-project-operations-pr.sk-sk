@@ -1,6 +1,6 @@
 ---
 title: Zmierenie zdrojov a priradenia
-description: Tento článok poskytuje informácie o skutočných udalostiach.
+description: Tento článok poskytuje informácie o skutočných údajoch.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

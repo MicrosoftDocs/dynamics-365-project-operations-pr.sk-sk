@@ -1,6 +1,6 @@
 ---
 title: Vytváranie plánov faktúr v riadku zmluvy založenej na projekte – čiastočné
-description: Tento článok poskytuje informácie o vytváraní rozvrhov faktúr a míľnikov.
+description: Tento článok poskytuje informácie o vytváraní plánov faktúr a medzníkov.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

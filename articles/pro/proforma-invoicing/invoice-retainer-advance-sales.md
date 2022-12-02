@@ -1,6 +1,6 @@
 ---
 title: Fakturácia preddavkovej alebo zálohovej platby
-description: Tento článok poskytuje informácie o tom, ako fakturovať zálohu alebo zálohu v projektových operáciách.
+description: Tento článok poskytuje informácie o tom, ako fakturovať preddavky a zálohy v Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

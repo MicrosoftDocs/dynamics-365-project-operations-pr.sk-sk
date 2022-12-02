@@ -38,7 +38,7 @@ Keď definujete režim plánovania projektu, nastavujete jednu z týchto hodnôt
 | Úloha Pevné úsilie    | Prepočíta sa trvanie. | Prepočítajú sa jednotky.    | Prepočíta sa trvanie. |
 | Úloha Pevné trvanie  | Prepočíta sa úsilie.   | Prepočíta sa úsilie.    | Prepočítajú sa jednotky.   |
 
-Ďalšie informácie o vplyvoch daného režimu nájdete v časti [Zmena typu úlohy a spresnenie plánovania](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). V článku termín **Práca** sa používa namiesto **Úsilie**.
+Ďalšie informácie o vplyvoch daného režimu nájdete v časti [Zmena typu úlohy a spresnenie plánovania](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). V článku sa termín **Práca** používa namiesto termínu **Úsilie**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Zmeňte režim plánovania organizácie
 

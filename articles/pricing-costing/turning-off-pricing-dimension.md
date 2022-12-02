@@ -1,6 +1,6 @@
 ---
 title: Vypnutie cenovej dimenzie
-description: Tento článok poskytuje informácie o tom, ako vypnúť cenové dimenzie.
+description: Tento článok poskytuje informácie o vypnutí cenových dimenzií.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

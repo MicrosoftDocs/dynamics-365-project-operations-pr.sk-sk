@@ -44,7 +44,7 @@ Niektoré zmluvy o projekte určujú, že zodpovednosť za financovanie náklado
 -   Cestný projekt spolufinancujú dve obce.
 -   Prepojovací projekt je financovaný z vládneho grantu a súkromnej spoločnosti.
 
-V Dynamics 365 Finance môžete rozdeliť fakturáciu jednej transakcie alebo celého projektu medzi viacerých zákazníkov, granty alebo organizácie. 
+V Dynamics 365 Finance môžete rozdeliť fakturáciu za jednu transakciu alebo za celý projekt medzi viacerých zákazníkov, granty alebo organizácie. 
 
 V prípade projektov, ktoré majú viacerých donorov, sa všetky strany, ktoré prispievajú na financovanie pokročilého projektu financovania, nazývajú zdroje financovania. Keď je zákazník, organizácia alebo grant definovaný ako zdroj financovania, možno ho priradiť k jednému alebo viacerým pravidlám financovania. Pravidlá financovania obsahujú kritériá, ktoré určujú spôsob alokovania poplatkov pre rôzne zdroje financovania projektu. 
 

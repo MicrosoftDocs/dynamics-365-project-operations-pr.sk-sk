@@ -1,6 +1,6 @@
 ---
 title: Prijatie alebo odmietnutie navrhovaného projektového zdroja
-description: Tento článok poskytuje informácie o tom, ako schváliť alebo zamietnuť navrhovaný zdroj projektu.
+description: Tento článok poskytuje informácie o tom, ako schváliť alebo zamietnuť navrhovaný projektový zdroj.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916215"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Tento článok poskytuje informácie o tom, ako schváliť alebo zamietnuť navrhovaný zdroj projektu.
+Tento článok poskytuje informácie o tom, ako schváliť alebo zamietnuť navrhovaný projektový zdroj.
 
 Ak správca zdrojov navrhne pomenovaný zdroj na vyplnenie všeobecnej žiadosti o zdroj projektu **Request Status** požiadavky pre generický člen tímu sa aktualizujú podľa **Needs Review**. Žiadosť sa odošle manažérovi projektu na schválenie alebo odmietnutie.
 

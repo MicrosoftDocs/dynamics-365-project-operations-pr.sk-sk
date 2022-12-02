@@ -1,6 +1,6 @@
 ---
 title: Registrácia na odber ukážky – čiastočná
-description: Tento článok poskytuje informácie o tom, ako sa prihlásiť na odber a nasadiť zjednodušené nasadenie Project Operations – dohoda o proforma fakturácii.
+description: Tento článok poskytuje informácie o tom, ako odoberať a nasadiť nasadenie Project Operations lite – dohoda o fakturácii pro forma.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9410095"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrácia na odber ukážky – čiastočná 
 
-Tento článok vysvetľuje, ako sa prihlásiť na odber skúšobnej ponuky a ako ju nasadiť Dynamics 365 Project Operations lite deployment – dohoda o proforma fakturácii.
+Tento článok vysvetľuje, ako sa prihlásiť na odber skúšobnej ponuky a nasadenia Dynamics 365 Project Operations Lite – dohoda o proforma fakturácii.
 
 > [!NOTE]
 > Tento proces sa zmení v nadchádzajúcich vydaniach Project Operations.
@@ -43,14 +43,14 @@ Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovný
 > Na dokončenie nasledujúcich krokov budete potrebovať prístup správcu k Microsoft 365 vo vašej organizácii .
 
 
-1. Ísť do [Microsoft 365 centrum spravovania](https://portal.office.com/) na pridelenie licencií vašim používateľom.
+1. Choďte do [centra spravovania Microsoft 365](https://portal.office.com/) a priraďte licencie svojim používateľom.
 2. Na stránke **Aktívni používatelia** vyberte používateľov, ktorým chcete priradiť licenciu.
 3. Overte, či je vybratá licencia **Dynamics 365 Project Operations**. 
 4. Vyberte **Uložiť zmeny**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Vytvorenie nového prostredia Dataverse
 
-1. Zabezpečiť prevádzku nového projektu Dataverse prostredie nasadenia podľa pokynov v článku, [Dataverse model nasadenia](lite-deployment.md). Keď vyberiete typ prostredia, nezabudnite použiť **Skúšobnú verziu (na základe predplatného)**.
+1. Poskytnite nové prostredie nasadenia Project Operations Dataverse podľa pokynov v článku [Model nasadenia Dataverse](lite-deployment.md). Keď vyberiete typ prostredia, nezabudnite použiť **Skúšobnú verziu (na základe predplatného)**.
 
   ![Nové prostredie.](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ Skôr ako začnete, uistite sa, že ste prihlásený do prehliadača s pracovný
 
 ![Nainštalujte riešenie.](./media/21InstallSolution.png)
 
-## <a name="set-up-demo-data"></a>Nastavte demo údaje
+## <a name="set-up-demo-data"></a>Nastavenie ukážkových údajov
 
-Nastavte demo údaje podľa pokynov v článku, [Použite demo nastavenia a konfiguračné údaje](lite-apply-demo-setup-config-data.md).
+Nastavte ukážkové údaje podľa pokynov v článku [Použitie ukážkových údajov nastavenia a konfigurácie](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

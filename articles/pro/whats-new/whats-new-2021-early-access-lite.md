@@ -1,6 +1,6 @@
 ---
 title: Novinky v rámci skoršieho prístupu v 2. vlne vydaní na rok 2021 – čiastočné nasadenie Project Operations
-description: Tento článok poskytuje informácie o funkciách dostupných vo verzii 2021 s predčasným prístupom zjednodušeného nasadenia Project Operations.
+description: Tento článok poskytuje informácie o funkciách, ktoré sú k dispozícii v rámci skoršieho prístupu k 2. vlne vydaní na rok 2021 Project Operations s čiastočným nasadením.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924127"
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
   - Project Operations v prostredí Dataverse verzie 4.23.0.4
 
