@@ -1,6 +1,6 @@
 ---
 title: Odoslanie žiadosti o zdroj
-description: Tento článok poskytuje informácie o odoslaní žiadosti o zdroj projektu.
+description: Tento článok poskytuje informácie o odoslaní žiadosti o projektový prostriedok.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

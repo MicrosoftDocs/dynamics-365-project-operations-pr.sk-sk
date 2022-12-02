@@ -1,6 +1,6 @@
 ---
 title: Medzipodnikové výdavky
-description: Tento článok poskytuje informácie o tom, ako použiť medzipodnikové výdavky na priradenie výdavkov pracovníka právnickej osobe, pre ktorú bola práca vykonaná.
+description: Tento článok poskytuje informácie o spôsobe použitia medzipodnikových výdavkov na priradenie výdavkov pracovníka k právnickej osobe, pre ktorú bola práca vykonaná.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

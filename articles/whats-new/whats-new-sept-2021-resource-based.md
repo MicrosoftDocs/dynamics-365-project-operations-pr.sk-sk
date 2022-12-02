@@ -1,6 +1,6 @@
 ---
 title: Čo je nové September 2021 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations zo septembra 2021 pre scenáre založené na zdrojoch/nezásobách.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations zo septembra 2021 pre scenáre založené na zdrojoch/neskladovaných položkách.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8923391"
 
 *Platí pre: Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch*
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
    - Project Operations v prostredí Microsoft Dataverse verzie 4.14.0.99.
-   - Projektový manažment a účtovníctvo v prostredí Dynamics 365 Finance verzia 10.0.20.
+   - Projektový manažment a účtovníctvo v prostrední Dynamics 365 Finance, verzia 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aktualizácie máp duálneho zapisovania v aplikácii Project Operations
 
@@ -45,7 +45,7 @@ Ak narazíte na problém so spustením mapy, postupujte podľa pokynov v časti 
 | Fakturácia a tvorba cien | 2385802 | Opravená chyba, ktorá sa vyskytuje pri záporných skutočných hodinách pri obnove súčtov projektov. |
 | Fakturácia a tvorba cien | 2389675 | Vylepšené správanie pri potvrdzovaní faktúry proforma. Entita pre dlhodobé úlohy musí vziať do úvahy činnosť potrebnú na zapísanie výsledkov potvrdenia pre účtovníctvo. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektový manažment a účtovníctvo v Dynamics 365 Finance
 
 | Oblasť funkcií | Číslo odkazu | Aktualizácia kvality |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Denné výdavky
-description: Tento článok poskytuje informácie o tom, ako pracovať s dennými výdavkami.
+description: Tento článok poskytuje informácie o tom, ako pracovať s výdavkami na diéty.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -23,104 +23,104 @@ ms.locfileid: "8923207"
 # <a name="per-diem-expenses"></a>Denné výdavky
 
 > [!IMPORTANT] 
-> Funkcia, ktorá je popísaná v tomto článku, je dostupná pre cieľových používateľov ako súčasť predbežnej verzie.
+> Funkcie opísané v tomto článku sú k dispozícii cieľovým používateľom ako súčasť verzie Preview.
 
-Diem platba je pevná, vopred určená denná dávka, ktorú spoločnosť vypláca svojim zamestnancom za ubytovanie (hotely), stravu a vedľajšie výdavky, ktoré títo zamestnanci vynaložia počas cesty za prácou. Spoločnosť vypláca tento príspevok zamestnancom namiesto úhrady skutočných cestovných nákladov. Zamestnanci môžu využiť ich **Príležitostné/Iné** denný príspevok na pokrytie sprepitného, izbovej služby, práčovne alebo čistiarne pre dôležité obchodné stretnutia. Denná sadzba sa môže líšiť v závislosti od toho, či sa zamestnávateľ rozhodne preplatiť kombinované náklady na ubytovanie a stravu, alebo len náklady na stravu a vedľajšie výdavky.
+Platba diét je pevná, vopred stanovená denná dávka, ktorú spoločnosť vypláca svojim zamestnancom za ubytovanie (hotely), stravu a vedľajšie výdavky, ktoré títo zamestnanci vynaložia počas cesty za prácou. Spoločnosť vypláca tento príspevok zamestnancom namiesto úhrady skutočných cestovných nákladov. Zamestnanci môžu využiť svoj limit na diéty **Príležitostné/Iné** na pokrytie sprepitného, izbovej služby, práčovne alebo čistiarne pre dôležité obchodné stretnutia. Úroveň diét sa môže líšiť v závislosti od toho, či sa zamestnávateľ rozhodne preplatiť náklady spojené s ubytovaním a stravou alebo len náklady na stravu a vedľajšie výdavky.
 
-Sadzby za diéty môžu byť založené na ročnom období, mieste cesty alebo oboch. Keď vytvoríte pravidlo pre denné diéty, môžete určiť, že určité percento dennej sadzby bude zadržané, ak zamestnanec dostane bezplatné jedlá alebo služby. Môžete tiež nastaviť minimálny počet hodín a maximálny počet hodín, počas ktorých je možné uplatniť diétnu sadzbu na cestu zamestnanca.
+Sadzby za diéty môžu byť založené na ročnom období, mieste cesty alebo oboch. Keď vytvoríte pravidlo týkajúce sa diéty, môžete určiť, že bude zadržané percento z diéty, ak zamestnanec dostane bezplatné stravovanie alebo služby. Môžete tiež nastaviť minimálny a maximálny počet hodín, pre ktoré môže platiť diéta pre cestu zamestnanca.
 
-Denné diéty sa vypočítajú ako celková dávka, ktorá sa ponúka za deň, znížená o zníženie stravy (náklady na bezplatné stravovanie), ktoré sa poskytuje zamestnancovi.
+Diéty sa vypočítajú ako celková dávka, ktorá sa ponúka za deň, znížená o cenu stravy (náklady na bezplatné stravovanie), ktoré sa poskytuje zamestnancovi.
 
-## <a name="configure-per-diems"></a>Konfigurovať podľa diét
+## <a name="configure-per-diems"></a>Konfigurácia diét
 
 Ak chcete nakonfigurovať výdavky na diéty, postupujte podľa týchto krokov.
 
-1. Ísť do **Riadenie výdavkov** \> **Nastaviť** \> **generál** \> **Parametre riadenia výdavkov**.
-2. Na **Denne** kartu, v **Vypočítajte zníženie jedla o** vyberte spôsob výpočtu diét:
+1. Prejdite do **Správa výdavkov** \> **Nastaviť** \> **Všeobecné** \> **Parametre správy výdavkov**.
+2. Na karte **Diéty** v poli **Vypočítať zníženie stravného o** vyberte spôsob výpočtu diét:
 
-    - **Druh jedla na cestu** – Vypočítajte diéty na základe zadaného druhu jedla (raňajky, obed alebo večera) a krátenia stravy, ktoré je uvedené pre každý druh stravy pre diétu počas trvania cesty.
-    - **Druh jedla za deň** – Vypočítajte diétu na základe typu zadaného jedla a zníženia stravy, ktoré je špecifikované pre každý druh stravy pre diétu na deň.
-    - **Počet jedál za deň** – Vypočítajte diéty na základe počtu zadaných jedál za deň a zníženia stravy za počet jedál, ktoré sa poskytujú každý deň.
+    - **Druh stravovania na ceste** – Vypočítajte diéty na základe zadaného druhu stravovania (raňajky, obed alebo večera) a zníženia stravného, ktoré je uvedené pre každý druh stravy pre diétu počas trvania cesty.
+    - **Druh stravovania na deň** – Vypočítajte diéty na základe zadaného druhu stravovania a zníženia stravného, ktoré je uvedené pre každý druh stravy pre diétu na deň.
+    - **Počet jedál za deň** – Vypočítajte diéty na základe počtu zadaných jedál za deň a zníženia stravného za počet jedál, ktoré sa poskytujú každý deň.
 
-3. Ísť do **Riadenie výdavkov** \> **Nastaviť** \> **Výpočty a kódy** \> **Miesta na denné**.
+3. Prejdite do **Správa výdavkov** \> **Nastavenie** \> **Výpočty a kódy** \> **Miesta diét**.
 4. Pridajte miesta, kde je možné použiť diéty.
-5. Pre každé miesto, ktoré pridáte, na **Na diéty** vyberte dennú sadzbu a menu, ktoré sú platné medzi konkrétnymi dátumami začiatku a konca pre ubytovanie, stravu a iné výdavky. Ak chcete nakonfigurovať denné sadzby a meny, prejdite na stránku **Riadenie výdavkov** \> **Nastaviť** \> **Výpočty a kódy** \> **Na diéty**.
+5. Pre každé miesto, ktoré pridáte, vyberte na karte **Diéty** sadzbu diét a menu, ktorá je platná medzi konkrétnym dátumom začatia a ukončenia ubytovania, stravovania a ďalších výdavkov. Ak chcete nakonfigurovať sadzby diét a meny, prejdite do **Správa výdavkov** \> **Nastavenie** \> **Výpočty a kódy** \> **Diéty**.
 
-## <a name="per-diems-in-the-reimagined-expense-interface"></a>Denné diéty v prepracovanom rozhraní výdavkov
+## <a name="per-diems-in-the-reimagined-expense-interface"></a>Diéty v prepracovanom rozhraní výdavkov
 
-Funkcia denného príjmu je podporovaná v reimagined **Riadenie nákladov** pracovný priestor v Microsoft Dynamics 365 Finance verzia 10.0.25 a novšia.
+Funkcia diét je podporovaná v prepracovanom pracovnom priestore **Správa výdavkov** v Microsoft Dynamics 365 Finance verzia 10.0.25 a novšia.
 
-Ak chcete povoliť diéty, postupujte podľa týchto krokov.
+Ak chcete povoliť diéty, postupujte takto.
 
-1. V **Správa funkcií** pracovný priestor, nájdite a vyberte **Prepracované výkazy výdavkov** v zozname a potom vyberte **Povoliť teraz**.
-2. Nájdite a vyberte **Prepracované rozhranie pre denné pre výkaz výdavkov** v zozname a potom vyberte **Povoliť teraz**.
+1. V pracovnom priestore **Správa funkcií** nájdite a vyberte v zozname funkciu **Prepracované výkazy výdavkov** a potom vyberte **Povoliť teraz**.
+2. V zozname nájdite a vyberte funkciu **Prepracované rozhranie diét pre výkaz výdavkov** a potom vyberte **Povoliť teraz**.
 
-## <a name="how-the-feature-works"></a>Ako funkcia funguje
+## <a name="how-the-feature-works"></a>Ako funguje funkcia
 
-Táto časť obsahuje príklady troch scenárov konfigurácie. Pre každý príklad, **Vypočítajte zníženie jedla o** pole je nastavené na inú hodnotu. Pre všetky tri príklady je celková suma, ktorá je splatná, rovnaká, kým sa neuplatní zníženie stravného. Po tomto bode sa celková splatná suma pre každý príklad líši.
+Táto časť obsahuje príklady troch scenárov konfigurácie. Pre každý príklad je pole **Vypočítať zníženie stravného o** nastavené na inú hodnotu. Pre všetky tri príklady je celková suma, ktorá je splatná, rovnaká, kým sa neuplatní zníženie stravného. Po tomto bode sa celková splatná suma pre každý príklad líši.
 
 Ak chcete vytvoriť výdavky na diéty, ktoré sa používajú pre všetky tri príklady, postupujte podľa týchto krokov.
 
-1. Ísť do **Pracovné priestory** \> **Riadenie nákladov**.
-2. Vyberte **Nová správa o výdavkoch** alebo vyberte existujúci výkaz výdavkov.
-3. Pridajte nový výdavok. V **Kategória** pole, vyberte **Denne**. Vyberte miesto a dátum začiatku a konca vašej cesty. Diéty za ubytovanie, stravu a vedľajšie (iné výdavky) sa vypočítavajú na základe dennej dávky, ktorá je stanovená pre vybrané miesto.
+1. Prejdite do časti **Pracovné priestory** \> **Správa výdavkov**.
+2. Vyberte **Nový výkaz výdavkov** alebo vyberte existujúci výkaz výdavkov.
+3. Pridať nový výdavok. V poli **Kategória** vyberte **Diéty**. Vyberte miesto a dátumy začiatku a konca vašej cesty. Diéty na ubytovanie, stravu a vedľajšie (iné výdavky) sa vypočítavajú na základe dennej dávky, ktorá je nastavená pre vybrané miesto.
 
-    Napríklad si vyberiete **Redmond (USA)** ako umiestnenie. Denný príspevok pre túto lokalitu je 150 amerických dolárov (150 USD) na ubytovanie, USD 75 na jedlo a USD 5 na vedľajšie výdavky. Počiatočný dátum je 10. januára a dátum ukončenia je 14. januára. Preto je vybraté trvanie päť dní, keď je zvolená konfigurácia kalendárnych dní s časom a vybratý čas začína a končí o 00:00 v dátumoch začiatku a konca. Tu sú výpočty:
+    Napríklad si vyberiete ako miesto **Redmond (USA)**. Denný príspevok pre túto lokalitu je 150 amerických dolárov (150 USD) na ubytovanie, 75 USD na jedlo a 5 USD na vedľajšie výdavky. Dátum začiatku je 10. januára a dátum ukončenia je 14. januára. Preto je vybraté trvanie päť dní, keď je zvolená konfigurácia kalendárnych dní s časom a vybratý čas začína a končí o 00:00 v dátumoch začiatku a konca. Tu sú výpočty:
 
-    - Celková splatná suma = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
+    - Celková splatná suma = 5 × (150 + 75 + 5) = 5 × 230 = USD 1150
     - Strava a vedľajšia časť z celkovej sumy = 5 × (75 + 5) = USD 400
 
-Ak boli počas cesty poskytnuté raňajky, obedy a večere, tieto jedlá je potrebné zaúčtovať ako krátenie stravy.
+Ak boli počas cesty poskytnuté raňajky, obedy a večere, tieto jedlá sa musia zaúčtovať ako krátenie stravného.
 
-### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>Príklad 1: Diéty, kde sú zníženia stravy založené na druhu jedla na cestu
+### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>Príklad 1: Denné diéty, kde je krátenie stravného založené na druhu jedla na cestu
 
-V tomto príklade je zníženie jedla o 30 percent na raňajky, 30 percent na obed a 40 percent na večeru. Na **Parametre riadenia výdavkov** stránka, **Vypočítajte zníženie jedla o** pole je nastavené na **Druh jedla na cestu**. Tu sú výpočty, ak boli zamestnancovi poskytnuté tri raňajky, dva obedy a nula večerí:
+V tomto príklade je zníženie stravného o 30 percent pre raňajky, 30 percent pre obed a 40 percent pre večeru. Na stránke **Parametre správy výdavkov** je pole **Vypočítať zníženie stravného o** nastavené na **Druh stravovania na ceste**. Tu sú výpočty, ak boli zamestnancovi poskytnuté troje raňajky, dva obedy a nula večerí:
 
-- Zníženie jedla = (3 ×\[ 75 × 30 %\]) + (2 ×\[ 75 × 30 %\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = USD 112.50
-- Jedlá a vedľajšie jedlá = 400 – 112,50 = USD 287.50
-- Celková splatná suma = celkový príspevok – zníženie stravy = 1 150 – 112,50 = USD 1,037.50
+- Zníženie stravného = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = USD 112,50
+- Jedlá a vedľajšie výdavky = 400 – 112,50 = USD 287,50
+- Celková splatná suma = Celkový príspevok – Zníženie stravného = 1150 – 112,50 = USD 1037,50
 
-![Výdavky na diéty, kde je zníženie stravy založené na druhu jedla na cestu.](media/1-meal-type-per-trip.png)
+![Diéty, kde je zníženie stravného založené na druhu jedla na cestu.](media/1-meal-type-per-trip.png)
 
-### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Príklad 2: Denné diéty, kde redukcia jedla je založená na druhu jedla za deň
+### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Príklad 2: Diéty, kde je zníženie stravného založené na druhu jedla na deň
 
-V tomto príklade je zníženie jedla o 30 percent na raňajky, 30 percent na obed a 40 percent na večeru. Na **Parametre riadenia výdavkov** stránka, **Vypočítajte zníženie jedla o** pole je nastavené na **Druh jedla za deň**. V tomto prípade v **Jedlá** mriežka v **Upraviť výdavok** dialógovom okne zrušíte začiarknutie políčok, aby ste označili, ktoré jedlá vám boli poskytnuté počas vašej cesty.
+V tomto príklade je zníženie stravného o 30 percent pre raňajky, 30 percent pre obed a 40 percent pre večeru. Na stránke **Parametre správy výdavkov** je pole **Vypočítať zníženie stravného o** nastavené na **Druh stravovania na deň**. V tomto prípade v mriežke **Jedlá** v dialógovom okne **Upraviť výdavok** zrušíte začiarknutie políčok, aby ste označili, ktoré jedlá vám boli poskytnuté počas vašej cesty.
 
 Tu sú napríklad výpočty, ak boli raňajky poskytnuté počas prvých troch dní cesty:
 
-- Denné zníženie jedla za každý z prvých troch dní = 75 × 30 % = USD 22.50
-- Celkové zníženie jedla = 3 × 22,50 = USD 67.50
-- Jedlá a vedľajšie jedlá za 1. až 3. deň = 75 – 22,50 = USD 57.50
-- Celkové jedlá a vedľajšie jedlá = súčet jedál a vedľajších výdavkov za päť dní = 400 – 67,50 = USD 332.50
-- Celková splatná suma = Celková suma – Zníženie stravy = 1 150 – 67,50 = USD 1,082.50
+- Denné zníženie stravného za každý z prvých troch dní = 75 × 30 % = USD 22,50
+- Celkové zníženie stravného = 3 × 22,50 = USD 67,50
+- Jedlá a vedľajšie výdavky za 1. až 3. deň = 75 – 22,50 = USD 57,50
+- Celkové jedlá a vedľajšie výdavky = Súčet jedál a vedľajších výdavkov za päť dní = 400 – 67,50 = USD 332,50
+- Celková splatná suma = Celková suma – Zníženie stravného = 1150 – 67,50 = USD 1082,50
 
-![Výdavky na diéty, kde zníženie jedla je založené na druhu jedla za deň.](media/2-meal-type-per-day.png)
+![Diéty, kde je zníženie stravného založené na druhu jedla na deň.](media/2-meal-type-per-day.png)
 
-### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>Príklad 3: Denné diéty, kde zníženie stravy je založené na počte jedál za deň
+### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>Príklad 3: Diéty, kde je zníženie stravného založené na počte jedál na deň
 
-V tomto príklade sa krátenie jedla vypočíta na základe počtu jedál, ktoré boli poskytnuté za deň (t.j **Vypočítajte zníženie jedla o** pole na **Parametre riadenia výdavkov** stránka je nastavená na **Počet jedál za deň**). V **Jedlá** mriežka v **Upraviť výdavok** dialógovom okne zrušíte začiarknutie políčok, aby ste označili, ktoré jedlá boli poskytnuté.
-V tomto prípade je krátenie stravy založené len na počte poskytnutých jedál a nie na druhu poskytnutej stravy (Raňajky/obed/večera).
+V tomto príklade sa zníženie stravného vypočíta na základe počtu jedál, ktoré boli poskytnuté za deň (t. j. pole **Vypočítajte zníženie stravného o** na stránke **Parametre správy výdavkov** je nastavené na **Počet jedál za deň**). V mriežke **Jedlá** v dialógovom okne **Upraviť výdavok** zrušíte začiarknutie políčok, aby ste označili, ktoré jedlá vám boli poskytnuté.
+V tomto prípade je zníženie stravného založené len na počte poskytnutých jedál a nie na druhu poskytnutej stravy (raňajky/obed/večera).
 
-Tu sú výpočty denných diét, keď je denná dávka USD 150 na ubytovanie, USD 75 na jedlo a USD 5 na vedľajšie výdavky:
+Tu sú výpočty diét, keď je denná dávka USD 150 na ubytovanie, USD 75 na jedlo a USD 5 na vedľajšie výdavky:
 
-- **Celková splatná suma** = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-- **Jedno jedlo:** Zníženie jedla = 20 % = USD 15
-- **Dve jedlá:** Zníženie jedla = 50 % = USD 37.50
-- **Tri jedlá:** Zníženie jedla = 100 % = USD 75
+- **Celková splatná suma** = 5 × (150 + 75 + 5) = 5 × 230 = USD 1150
+- **Jedno jedlo:** Zníženie stravného = 20 % = USD 15
+- **Dve jedlá:** Zníženie stravného = 50 % = USD 37,50
+- **Tri jedlá:** Zníženie stravného = 100 % = USD 75
 
-Tu sú výpočty pre **príspevok na stravovanie a vedľajšie výdavky**, ktorý obsahuje USD 5 pre vedľajšie:
+Tu sú výpočty pre **príspevok na stravovanie a vedľajšie výdavky**, ktorý obsahuje USD 5 pre vedľajšie výdavky:
 
-- Deň 1 – dve jedlá zabezpečené = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
-- Deň 2 – dve jedlá zabezpečené = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
-- Deň 3 – jedno jedlo poskytnuté = (75 – 15) + 5 = 60 + 5 = USD 65
-- Deň 4 – nula poskytnutých jedál = (75-0) + 5 = 75 + 5 = USD 80
-- 5. deň – poskytnuté tri jedlá = (75 – 75) + 5 = 0 + 5 = USD 5
+- Deň 1 – Dve jedlá zabezpečené = (75 – 37,50) + 5 = 37,50 + 5 = USD 42,50
+- Deň 2 – Dve jedlá zabezpečené = (75 – 37,50) + 5 = 37,50 + 5 = USD 42,50
+- Deň 3 – Jedno jedlo zabezpečené = (75 – 15) + 5 = 60 + 5 = USD 65
+- Deň 4 – Nula jedál zabezpečených = (75 – 0) + 5 = 75 + 5 = USD 80
+- Deň 5 – Tri jedlá zabezpečené = (75 – 75) + 5 = 0 + 5 = USD 5
 
-- Celkový počet jedál a vedľajších jedál = jedlá a vedľajšie jedlá za deň 1+ deň 2 + deň 3 + deň 4+ deň 5 = USD 235
-- Celkové zníženie jedla = Zníženie jedla za deň 1+ deň 2 +deň 3+deň 4+ deň 5= 37,5+ 37,5+ 15 + 0+ 75 = USD 165
-- Celková splatná suma = Celkový príspevok – Celkové zníženie stravy = USD 1,150 - USD 165 = USD 985
+- Celkový počet jedál a vedľajších výdavkov = Jedlá a vedľajšie výdavky za deň 1+ deň 2 + deň 3 + deň 4+ deň 5 = USD 235
+- Celkové zníženie stravného = Zníženie stravného za deň 1+ deň 2 +deň 3+deň 4+ deň 5= 37,5+ 37,5+ 15 + 0+ 75 = USD 165
+- Celková splatná suma = Celkový príspevok – Celkové zníženie stravného = USD 1150 – USD 165 = USD 985
 
-![Výdavky na diéty, kde zníženie stravy je založené na počte jedál za deň.](media/3-number-of-meals-per-day.png)
+![Diéty, kde je zníženie stravného založené na počte jedál na deň.](media/3-number-of-meals-per-day.png)
 
 > [!NOTE]
-> Od verzie Financie 10.0.23, ak používate prepracované rozhranie výdavkov, nemôžete vytvárať výdavky na diéty, ktoré majú prekrývajúce sa dátumy. Ak sa pokúsite, dostanete chybové hlásenie.
+> Od verzie Financie 10.0.23, ak používate prepracované rozhranie výdavkov, nemôžete vytvárať výdavky na diéty, ktoré majú prekrývajúce sa dátumy. Ak to skúsite, zobrazí sa chybové hlásenie.

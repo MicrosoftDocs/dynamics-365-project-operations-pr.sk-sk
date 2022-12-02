@@ -1,6 +1,6 @@
 ---
 title: Konfigurácia fakturovateľných súčastí riadka zmluvy založenej na projekte
-description: Tento článok poskytuje informácie o tom, ako pridať spoplatnené komponenty do zmluvných liniek v Project Operations.
+description: Tento článok poskytuje informácie o tom, ako pridávať účtovateľné súčasti do riadkov zmluvy v Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

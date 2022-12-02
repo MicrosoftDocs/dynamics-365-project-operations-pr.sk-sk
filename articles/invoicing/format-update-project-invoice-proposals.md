@@ -1,6 +1,6 @@
 ---
 title: Správa návrhov projektových faktúr
-description: Tento článok poskytuje podrobnosti o spracovaní faktúr vystavených zákazníkom pomocou projektových operácií pre scenáre založené na zdrojoch/nezásobách.
+description: Tento článok poskytuje podrobnosti o spracovaní faktúr orientovaných na zákazníka v Project Operations pre scenáre založené na zdrojoch/neskladovaných položkách.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ Vaše fakturačné oddelenie môže spracovať návrhy projektových faktúr, ak
   - Projektový manažér potvrdí pro forma faktúru v Microsoft Dataverse.
   - Všetky časovo a vecne nevyfakturované predajné transakcie, ktoré sú zahrnuté v pro forma faktúre, sa účtujú pomocou účtovného denníka **integrácie Project Operations** Dynamics 365.
 
-Pomocou nasledujúcich krokov dokončite návrh projektovej faktúry v Dynamics 365 Finance.
+Podľa týchto pokynov môžete dokončiť návrh faktúry projektu v Dynamics 365 Finance.
 
 1. Skontrolujte fakturačné údaje týkajúce sa časových a vecných transakcií a zaúčtujte účtovný denník **Integrácia Project Operations**.
 2. Skontrolujte fakturačné informácie a nájdite medzníky fakturácie s pevnou cenou.

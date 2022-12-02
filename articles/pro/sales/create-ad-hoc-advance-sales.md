@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie zálohy ad hoc v zmluve
-description: Tento článok poskytuje informácie o vytváraní preddavku na zmluvu podľa potreby.
+description: Tento článok poskytuje informácie o vytvorení zálohy v zmluve podľa potreby.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

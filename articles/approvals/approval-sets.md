@@ -1,6 +1,6 @@
 ---
 title: Množiny schválení
-description: Tento článok vysvetľuje, ako pracovať so skupinami schvaľovania, žiadosťami a podmnožinami týchto operácií.
+description: Tento článok vysvetľuje, ako pracovať s množinami schválení, požiadavkami a podmnožinami týchto operácií.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
@@ -26,17 +26,17 @@ Schválenia, ktoré sú zaradené do frontu na spracovanie, možno vidieť v zob
 
 Pole **Životnosť množiny schválení** zaznamenáva počet pokusov, ktoré zostávajú na spracovanie množiny, kým bude označená ako neúspešná.
 
-Sady schvaľovania sa spracúvajú prostredníctvom periodickej aktivácie na základe a **Cloud Flow** pomenovaný **Projektová služba – Opakovane plánujte sady schvaľovania projektov**. Toto sa nachádza v **Riešenie** pomenovaný **Projektové operácie**. 
+Množiny schválení sa spracúvajú prostredníctvom periodickej aktivácie na základe **Postupu v cloude** s názvom **Project Service – Opakovane naplánovať množiny schválení projektu**. Toto sa nachádza v **Riešení** s názvom **Project Operations**. 
 
-Uistite sa, že prietok je aktivovaný vykonaním nasledujúcich krokov.
+Vykonaním nasledujúcich krokov sa uistite, že postup je aktivovaný.
 
 1. Ako správca sa prihláste do [flow.microsoft.com](https://powerautomate.microsoft.com).
-2. V pravom hornom rohu prepnite na prostredie, ktoré používate Dynamics 365 Project Operations.
-3. Vyberte **Riešenia** na zoznam riešení, ktoré sú nainštalované v prostredí.
-4. V zozname riešení vyberte **Projektové operácie**.
-5. Vymeňte filter z **Všetky** do **Cloud Flows**.
-6. Overte si, že **Projektová služba – Opakovane plánujte sady schvaľovania projektov** prietok je nastavený na **Zapnuté**. Ak nie je, vyberte tok a potom vyberte **Zapnúť**.
-7. Skontrolujte, či sa spracovanie vykonáva každých päť minút **Systémové úlohy** zoznam v **nastavenie** oblasť v rámci vašich projektových operácií Dataverse životné prostredie.
+2. V pravom hornom rohu prepnite na prostredie, ktoré používate pre Dynamics 365 Project Operations.
+3. Vyberte **Riešenia** na zobrazenie riešení, ktoré sú nainštalované v prostredí.
+4. V zozname riešení vyberte **Project Operations**.
+5. Vymeňte filter zo **Všetky** na **Postupy v cloude**.
+6. Overte si, že postup **Project Service – Opakovane naplánovať množiny schválení projekt** je nastavená na **Zapnuté**. Ak nie je, vyberte postup a potom vyberte položku **Zapnúť**.
+7. Overte, či sa spracovanie vykonáva každých päť minút, kontrolou zoznamu **Systémové úlohy** v oblasti **Nastavenie** v rámci vášho prostredia Project Operations Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Neúspešné schválenia a množiny schválení
 Zobrazenie **Neúspešné schválenia** uvádza všetky schválenia, ktoré vyžadujú zásah používateľa. Otvorte príslušné protokoly o množinách schválení, aby ste určili príčinu zlyhania.

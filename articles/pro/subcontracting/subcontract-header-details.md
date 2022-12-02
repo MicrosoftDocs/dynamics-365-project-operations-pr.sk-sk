@@ -1,6 +1,6 @@
 ---
 title: Podrobnosti hlavičky pre subdodávateľské zmluvy
-description: Tento článok vysvetľuje funkcie poskytované v hlavičke subdodávky v Project Operations.
+description: Tento článok vysvetľuje funkcie uvedené v hlavičke subdodávateľskej zmluvy v Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9522580"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok vysvetľuje funkcie poskytované v hlavičke subdodávky v Dynamics 365 Project Operations.
+Tento článok vysvetľuje funkcie uvedené v hlavičke subdodávateľskej zmluvy v Dynamics 365 Project Operations.
 
 Keďže projektový manažér plánuje a realizuje projekty, môže zamestnávať subdodávateľov a nakupovať výrobky a služby od predajcov. Keď projektový manažér potrebuje kúpiť produkty alebo služby, môže vytvoriť subdodávateľskú zmluvu v Project Operations.
 

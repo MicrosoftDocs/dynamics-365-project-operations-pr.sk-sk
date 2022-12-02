@@ -1,6 +1,6 @@
 ---
 title: Navigácia v používateľskom rozhraní
-description: Tento článok poskytuje informácie o správe projektov v operáciách projektu Dynamics 365.
+description: Tento článok poskytuje informácie o spravovaní projektu v Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

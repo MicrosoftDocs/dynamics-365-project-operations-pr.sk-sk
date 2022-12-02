@@ -1,6 +1,6 @@
 ---
 title: Vytvorenie štruktúry rozdelenia práce
-description: Tento článok vysvetľuje, ako vytvoriť štruktúru rozpisu práce (WBS) vrátane základných ovládacích prvkov v novom rozhraní plánovania.
+description: Tento článok vysvetľuje, ako vytvoriť štruktúru rozdelenia práce (WBS) vrátane základných ovládacích prvkov v novom plánovacom rozhraní.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Ak chcete znížiť alebo zvýšiť úlohu, postupujte podľa nasledujúcich kro
 
 ### <a name="move-tasks-up-and-down"></a>Posun úloh nahor a nadol
 
-Úlohy možno presunúť na ľubovoľnú úroveň v štruktúre rozpisu prác jedným z dvoch spôsobov:
+Úlohy je možné presunúť na ľubovoľnú úroveň v štruktúre rozdelenia práce jedným z dvoch spôsobov:
 
 - Vyberte ešte jednu úlohu a presuňte ich na požadované miesto.
 - Vyberte jednu alebo viac úloh, kliknite pravým tlačidlom myši a vyberte **Vystrihnúť**, vyberte cieľovú bunku v pláne, potom kliknite pravým tlačidlom myši a vyberte **Vložiť**.
@@ -95,11 +95,11 @@ Ako správca môžete definovať vlastné polia pre entitu úlohy. Polia sa vša
 
 ## <a name="staffing-attributes"></a>Personálne atribúty
 
-Personálne atribúty sú prístupné prostredníctvom poľa **zdroje** v pláne. Môžete vyhľadať existujúci zdroj alebo vybrať **Vytvoriť** a na paneli **Rýchle vytvorenie** pridať člena projektového tímu ako nový zdroj.  Keď hľadáte zdroj pomocou nástroja na výber zdrojov v mriežke úloh, zobrazení dosky alebo Gantt, vyhľadávanie vráti buď existujúcich členov projektového tímu alebo aktívne rezervovateľné zdroje.
+Personálne atribúty sú prístupné prostredníctvom poľa **zdroje** v pláne. Môžete vyhľadať existujúci zdroj alebo vybrať **Vytvoriť** a na paneli **Rýchle vytvorenie** pridať člena projektového tímu ako nový zdroj.  Keď hľadáte zdroj pomocou nástroja na výber zdrojov v mriežke úloh, zobrazení tabule alebo Ganttovho diagramu, vyhľadávanie vráti buď existujúcich členov projektového tímu alebo aktívne rezervovateľné zdroje.
 
 Polia **rola**, **zdrojová jednotka** a **názov pozície** sa používajú na popis personálnych požiadaviek na úlohu. Tieto personálne atribúty spolu s plánom úloh sa používajú na vyhľadanie dostupných zdrojov na vykonanie tejto úlohy.
 
-   - **Role** : Zadajte typ zdroja, ktorý je potrebný na vykonanie úlohy.,
+   - **Rola**: Zadajte typ zdroja, ktorý je potrebný na vykonanie úlohy.
    - **Zdrojová jednotka**: zadajte jednotku, z ktorej by mali byť pridelené zdroje pre úlohu. Tento atribút ovplyvňuje odhady nákladov a predaja na úlohy, ak sú náklady a fakturačná sadzba zdroja nastavené na zdrojové jednotky.
    - **Názov pozície**: zadajte popisný názov pre všeobecný zdroj, ktorý slúži ako zástupný symbol pre zdroj, ktorý bude v konečnom dôsledku vykonávať prácu.
 
@@ -114,18 +114,18 @@ Môžete použiť plán v Project Operations na vytvorenie predchodcu vzťahov m
 Režim úlohy nemá žiadny vplyv na aktualizácie, ktoré sú vykonané na počiatočných a koncových dátumoch predchádzajúcich/závislých úloh.
 
 ## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Pochopenie vplyvu trvania, kalendárov zdrojov a projektových kalendárov na úlohy
-Trvanie úlohy je definované ako počet pracovných hodín medzi časom začiatku dátumu začiatku a časom ukončenia dátumu ukončenia úlohy.   Projekt pre web definuje merné jednotky trvania takto:
+Trvanie úlohy je definované ako počet pracovných hodín medzi časom začiatku dátumu začiatku a časom ukončenia dátumu ukončenia úlohy.   Project for the Web definuje merné jednotky trvania takto:
 
-| **Miera trvania** | **Počet**|
+| **Meranie trvania** | **Počet**|
 |----------------------------------------------------|----------------------|
 | Hodiny za deň | 8 |
 | Hodiny za týždeň |  40 |
-| Dni v mesiaci |  20 |
+| Dni za mesiac |  20 |
 
-Nepriradené úlohy sa plánujú pomocou kalendára projektu. Po počiatočnom priradení zdroja sa však plánovanie úlohy aktualizuje tak, aby rešpektovalo kalendár zdroja. Následné zmeny úlohy, ktorá má priradenie, sa budú riadiť podľa [režim plánovania](scheduling-modes.md) projektu. Ak sa chcete dozvedieť viac o vplyve kalendárov na úlohy, pozrite si časť [Kalendáre zdrojov v Projecte pre web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) a [Časy začiatku úloh a vaše projekty!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+Nepriradené úlohy sa plánujú pomocou kalendára projektu. Po počiatočnom priradení zdroja sa však plánovanie úlohy aktualizuje tak, aby rešpektovalo kalendár zdroja. Následné zmeny úlohy, ktorá má priradenie, sa budú riadiť podľa [režimu plánovania](scheduling-modes.md) projektu. Ak sa chcete dozvedieť viac o vplyve kalendárov na úlohy, pozrite si časť [Kalendáre zdrojov v Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) a [Časy začiatku úloh a vaše projekty!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
-## <a name="accessibility-and-keyboard-shortcuts"></a>Klávesové skratky a zjednodušenie ovládania
+## <a name="accessibility-and-keyboard-shortcuts"></a>Zjednodušenie ovládania a klávesové skratky
 
 Mriežka **plánu** je plne prístupná a môže sa používať s čítačkami obrazovky, ako sú napríklad Narrator, JAWS alebo NVDA. Môžete prechádzať oblasti mriežky pomocou šípok (ako v Microsoft Excel), môžete použiť klávesu Tab na postúp cez interaktívne prvky používateľského rozhrania, a môžete použiť šípku nadol, klávesu Enter, alebo medzerník pre výber a otvorenie rozbaľovacích ponúk.
 

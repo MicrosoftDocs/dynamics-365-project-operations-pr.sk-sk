@@ -1,6 +1,6 @@
 ---
 title: Správne účtovanie na základe konceptných návrhov projektových faktúr
-description: Tento článok vysvetľuje, ako upraviť informácie súvisiace s účtovníctvom v návrhu faktúry.
+description: Tento článokvysvetľuje, ako upraviť informácie týkajúce sa účtovníctva v návrhu konceptu faktúry.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbaj�
 
 *Prevádzkové podrobnosti* pre projektové faktúry vedie projektový manažér na proforma faktúre. Medzi tieto podrobnosti patrí rozhodnutie o hodinách, výdavkoch, materiáloch alebo míľnikoch, ktoré musia byť fakturované, sadzby a uplatnenie záloh a zadržaných súm. Po potvrdení pôvodnej proforma faktúry môžete upraviť prevádzkové podrobnosti vytvorením a potvrdením [opravnej proforma faktúry](../proforma-invoicing/corrective-invoices.md).
 
-*Účtovné údaje* faktúry za projekt sa uchovávajú v dokumente faktúry orientovanej na zákazníka. Tieto podrobnosti zahŕňajú výpočet dane z obratu a finančné dimenzie, ktoré sa vzťahujú na faktúru. Tento článok poskytuje podrobnosti o tom, ako možno tieto účtovné podrobnosti upraviť v návrhu projektovej faktúry.
+*Účtovné údaje* faktúry za projekt sa uchovávajú v dokumente faktúry orientovanej na zákazníka. Tieto podrobnosti zahŕňajú výpočet dane z obratu a finančné dimenzie, ktoré sa vzťahujú na faktúru. Tento článok poskytuje podrobnosti o tom, ako je možné tieto účtovné podrobnosti upraviť v návrhu konceptu faktúry projektu.
 
 ## <a name="adjust-sales-tax"></a>Úprava dane z predaja
 
@@ -29,13 +29,13 @@ Predvolené skupiny fakturácie dane z predaja a skupiny dane z predaja položie
 
 ### <a name="header-dimensions"></a>Rozmery hlavičky
 
-Finančné rozmery faktúry sú štandardne odvodené od záznamov nevyfakturovaných transakcií projektu, ktoré sa fakturujú. Systémové nastavenia vám však umožňujú použiť finančné dimenzie v hlavičke návrhov projektovej faktúry na účtovanie zostatkov zákazníkov. Ak chcete povoliť túto funkciu, vyberte **Povoliť aktualizácie dimenzií projektu pre pohľadávky** na **Financie** záložku **Projektový manažment a účtovné parametre** stránku.
+Finančné dimenzie faktúry sú štandardne odvodené od záznamov nefakturovaných transakcií projektu, ktoré sa fakturujú. Systémové nastavenia vám však umožňujú použiť finančné dimenzie v hlavičke návrhov projektovej faktúry na účtovanie zostatkov zákazníkov. Ak chcete povoliť túto funkciu, vyberte **Povoliť aktualizácie dimenzií projektu pre pohľadávky** na karte **Finančné údaj** stránky **Parametre riadenia projektu a účtovníctva**.
 
-Finančné rozmery v hlavičkách faktúr je možné upraviť pred zaúčtovaním faktúry. Na **Návrh projektovej faktúry** prepnite na stránku **Hlavička** zobraziť a potom upraviť hodnoty na **Finančné rozmery** tab.
+Finančné dimenzie v hlavičkách faktúr je možné upraviť pred zaúčtovaním faktúry. Na stránke **Návrh projektovej faktúry** prepnite na zobrazenie **Hlavička** a potom upravte hodnoty na karte **Finančné dimenzie**.
 
-The **Hlavička** zobrazenie je dostupné až po povolení správcu systému **Použite návrh faktúry projektu a formuláre denníka faktúr so zobrazením Hlavička a riadky** funkcia v **Správa funkcií** pracovnom priestore. Táto funkcia vyžaduje aktualizáciu Finance 10.0.25 alebo novšiu.
+Zobrazenie **Hlavička** je dostupné až vtedy, keď správca systému povolí funkciu **Použitie návrhu faktúry projektu a formulárov denníka faktúr so zobrazením hlavičky a riadkov** v pracovnom priestore **Správa funkcií**. Táto funkcia vyžaduje aktualizáciu Finance 10.0.25 alebo novšiu.
 
-### <a name="line-dimensions"></a>Rozmery čiar
+### <a name="line-dimensions"></a>Dimenzie riadka
 
 Finančné dimenzie nemožno upravovať priamo na riadku ponuky faktúry za projekt. Namiesto toho postupujte podľa týchto krokov a upravte finančné dimenzie v návrhu projektovej faktúry.
 

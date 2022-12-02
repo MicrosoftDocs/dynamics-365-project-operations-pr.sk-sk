@@ -1,6 +1,6 @@
 ---
 title: Čo je nové október 2021 – Nasadenie Project Operations lite
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní zjednodušeného nasadenia Project Operations z októbra 2021.
+description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní nasadenia Project Operations lite v októbri 2021.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8921965"
 
 _Platí pre: Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
   - Project Operations v prostredí Microsoft Dataverse verzie 4.25.0.91
 

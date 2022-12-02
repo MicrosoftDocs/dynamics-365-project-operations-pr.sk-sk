@@ -1,6 +1,6 @@
 ---
 title: Riadky subdodávateľskej zmluvy pre čas
-description: Tento článok vysvetľuje, ako zaznamenávať riadky subdodávok pre čas a zaznamenávať nákup času od dodávateľov.
+description: Tento článok vysvetľuje, ako zaznamenávať riadky subdodávateľskej zmluvy pre čas a zaznamenávať nákup času od dodávateľov.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

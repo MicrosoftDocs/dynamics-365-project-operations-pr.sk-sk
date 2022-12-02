@@ -1,6 +1,6 @@
 ---
 title: Zmeny správy zdrojov (Project Service Automation 3. x)
-description: Tento článok poskytuje informácie o zmenách v oblasti správy prostriedkov.
+description: Tento článok poskytuje informácie o zmenách v oblasti správy zdrojov.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -26,7 +26,7 @@ ms.locfileid: "8916031"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Časti tohto článku poskytujú informácie o zmenách, ktoré boli vykonané v oblasti Správa zdrojov Dynamics 365 Project Service Automation verzia 3.x.
+Časti tohto článku poskytujú informácie o zmenách, ktoré boli vykonané v oblasti správy zdrojov Dynamics 365 Project Service Automation verzie 3. x.
 
 ## <a name="project-estimates"></a>Odhady projektu
 

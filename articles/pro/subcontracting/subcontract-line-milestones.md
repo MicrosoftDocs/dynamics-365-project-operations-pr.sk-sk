@@ -1,6 +1,6 @@
 ---
 title: Medzníky v riadku subdodávateľskej zmluvy
-description: Tento článok vysvetľuje, ako vytvoriť a udržiavať plán fakturácie na základe míľnikov pre subdodávku s dodávateľom.
+description: Tento článok vysvetľuje, ako vytvoriť a udržiavať plán fakturácie založený na medzníkoch pre subdodávateľskú zmluvu s dodávateľom.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -94,7 +94,7 @@ Po dokončení **procesrunnera**, sa volá **processruncaller**, ktorý poskytuj
 Dávková úloha pre vytváranie faktúr je opakujúca sa úloha. Ak je táto dávková úloha spustená mnohokrát, sú vytvorené viaceré inštancie úlohy a spôsobujú chyby. Preto by ste mali spustiť dávkový proces len raz, a mali by ste ho reštartovať iba v prípade, že prestane fungovať.
 
 > [!NOTE]
-> Hromadná fakturácia v rámci Project Service Automation platí iba pre riadky zmlúv projektu, ktoré sú nakonfigurované podľa plánov fakturácie. Riadok zmluvy s metódou fakturácie podľa fixnej ceny musí mať nakonfigurované medzníky. V riadku zmluvy projektu s metódou fakturácie podľa času a materiálu bude potrebné zostaviť plán fakturácie založený na dátume. Informácie o nastavení fakturačných frekvencií v rámci projektu, ktorý je založený na riadku cenovej ponuky, sú uvedené v článku, [Citáty a citáty](basic-quote-lines.md#invoice-schedule). To isté platí pre riadok zmluvy založený na projekte.      
+> Hromadná fakturácia v rámci Project Service Automation platí iba pre riadky zmlúv projektu, ktoré sú nakonfigurované podľa plánov fakturácie. Riadok zmluvy s metódou fakturácie podľa fixnej ceny musí mať nakonfigurované medzníky. V riadku zmluvy projektu s metódou fakturácie podľa času a materiálu bude potrebné zostaviť plán fakturácie založený na dátume. Informácie o nastavení frekvencie fakturácie v kontexte projektu, ktorý je založený na riadku cenovej ponuky, sú uvedené v článku [Cenové ponuky a riadky cenových ponúk](basic-quote-lines.md#invoice-schedule). To isté platí pre riadok zmluvy založený na projekte.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Úprava konceptu faktúry PSA
 

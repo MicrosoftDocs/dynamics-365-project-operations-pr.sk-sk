@@ -1,6 +1,6 @@
 ---
 title: Evidencia času, výdavkov a použitia materiálu pre súčasti v rámci subdodávateľskej zmluvy
-description: Tento článok vysvetľuje, ako spoločnosť Microsoft sleduje čas, výdavky a spotrebu materiálu zaznamenanú v projektoch zo subdodávateľských komponentov Dynamics 365 Project Operations.
+description: Tento článok vysvetľuje, ako Microsoft Dynamics 365 Project Operations sleduje čas, výdavky a spotrebu materiálu zaznamenanú v projektoch zo subdodávateľských súčastí.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -13,26 +13,26 @@ ms.contentlocale: sk-SK
 ms.lasthandoff: 09/15/2022
 ms.locfileid: "9522533"
 ---
-# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Evidencia času, nákladov a spotreby materiálu na projektoch pre subdodávateľské komponenty
+# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Evidencia času, výdavkov a použitia materiálu v projektoch pre súčasti v rámci subdodávateľskej zmluvy
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok vysvetľuje, ako spoločnosť Microsoft sleduje čas, výdavky a spotrebu materiálu zaznamenanú v projektoch zo subdodávateľských komponentov Dynamics 365 Project Operations.
+Tento článok vysvetľuje, ako Microsoft Dynamics 365 Project Operations sleduje čas, výdavky a spotrebu materiálu zaznamenanú v projektoch zo subdodávateľských súčastí.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Náklady na čas subdodávateľa na projektoch
-V projektových operáciách môžu zmluvní pracovníci zaznamenávať čas na projektoch podobným spôsobom ako zamestnanci. Pri zadávaní času na projektoch a/alebo projektových úlohách si zmluvný pracovník môže vybrať konkrétnu subdodávku a subdodávku.
+V Project Operations môžu zmluvní pracovníci zaznamenávať čas na projektoch podobným spôsobom ako zamestnanci. Pri zaznamenávaní času v projektoch a/alebo projektových úlohách môže zmluvný pracovník vybrať konkrétnu subdodávateľskú zmluvu alebo riadok subdodávateľskej zmluvy.
 
-Keď sa schváli čas predložený zmluvnými pracovníkmi, náklady na projekt sa zaznamenajú pomocou sadzby jednotkových nákladov, ktorá je nastavená pre zdroj zmluvného pracovníka v **Ceny rolí** časti kúpnej cenníka na subdodávke.
+Keď sa schváli čas predložený zmluvnými pracovníkmi, náklady na projekt sa zaznamenajú pomocou sadzby jednotkových nákladov, ktorá je nastavená pre zdroj zmluvného pracovníka v sekcii **Ceny rolí** cenníka nákupu v subdodávateľskej zmluve.
 
-## <a name="costing-for-subcontracted-expenses-on-projects"></a>Kalkulácia nákladov na subdodávky na projekty
-Pri zadávaní výdavkov vynaložených na projekty môžete vybrať subdodávku a riadok subdodávok na zázname výdavkov. 
+## <a name="costing-for-subcontracted-expenses-on-projects"></a>Náklady na subdodávateľské výdavky na projekty
+Pri zadávaní výdavkov vynaložených na projekty môžete vybrať subdodávateľskú zmluvu a riadok subdodávok v zázname výdavkov. 
 
-Keď sa tento záznam o výdavkoch odošle a schváli, výdavkové náklady sa zaznamenajú v projekte na základe jednotkových nákladov, ktoré sú nastavené pre danú kategóriu transakcií v **Ceny kategórií** časti kúpnej cenníka na subdodávke.
+Po predložení a schválení tohto záznamu výdavkov sa náklad na výdavok zaznamená v projekte na základe jednotkovej ceny, ktorá je nastavená pre danú kategóriu transakcie v sekcii **Ceny kategórií** nákupného cenníka v subdodávateľskej zmluve.
 
-## <a name="costing-for-subcontracted-materials-on-projects"></a>Kalkulácia subdodávateľských materiálov na projektoch
-Pri zadávaní spotreby materiálu na projektoch si môžete vybrať subdodávku a riadok subdodávok v protokole spotreby materiálu. Keď sa odošle a schváli protokol spotreby materiálu, materiálové náklady sa zaznamenajú v projekte na základe jednotkových nákladov, ktoré sú nastavené pre daný produkt v **Položky cenníka** časti cenníka subdodávok.
+## <a name="costing-for-subcontracted-materials-on-projects"></a>Náklady na subdodávateľské materiály na projekty
+Pri zadávaní použitia materiálov na projekty môžete vybrať subdodávateľskú zmluvu a riadok subdodávok v denníku použitia materiálu. Po predložení a schválení denníka použitia materiálu sa náklady na materiál zaznamenajú do projektu na základe jednotkovej ceny, ktorá je pre tento produkt nastavená v časti **Položky cenníka** cenníka subdodávateľskej zmluvy.
 
-Spotrebu materiálu je možné zaznamenať aj pri zapísaných produktoch na projektoch. Tento typ použitia materiálu môže byť tiež spojený so subdodávkou a subdodávateľskou linkou. Pri zaznamenávaní spotreby materiálu pre produkty na zápis musíte zadať jednotkovú cenu produktu na zápis. 
+Použitie materiálu je možné zaznamenať aj pri zapísaných produktoch na projektoch. Tento typ použitia materiálu môže byť tiež spojený so subdodávateľskou zmluvou a riadkom subdodávateľskej zmluvy. Pri zaznamenávaní použitia materiálu pre produkty nezahrnuté do katalógu musíte zadať jednotkovú cenu produktu nezahrnutého do katalógu. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

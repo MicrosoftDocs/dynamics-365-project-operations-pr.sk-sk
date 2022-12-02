@@ -1,6 +1,6 @@
 ---
 title: Správa projektovej faktúry pro forma
-description: Tento článok poskytuje informácie o tom, ako spravovať a pracovať s proforma faktúrami založenými na projekte.
+description: Tento článok poskytuje informácie o tom, ako spravovať a pracovať s projektovými faktúrami pro forma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

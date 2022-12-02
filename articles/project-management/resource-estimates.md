@@ -1,6 +1,6 @@
 ---
 title: Finančné odhady pre čas zdrojov na projektoch
-description: Tento článok poskytuje informácie o tom, ako sa vypočítavajú finančné odhady na čas.
+description: Tento článok poskytuje informácie o spôsobe výpočtu finančných odhadov pre čas.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

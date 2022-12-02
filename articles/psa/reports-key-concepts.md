@@ -1,6 +1,6 @@
 ---
 title: Kľúčové koncepty
-description: Tento článok poskytuje informácie o kľúčových konceptoch správy zdrojov v Project Service Automation.
+description: Tento článok obsahuje prepojenia na kľúčové koncepty pre riadenie zdrojov v Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

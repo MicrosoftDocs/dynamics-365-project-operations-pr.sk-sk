@@ -1,6 +1,6 @@
 ---
 title: Cenové ponuky – Kľúčové koncepty
-description: Tento článok poskytuje informácie o projektových ponukách a predajných ponukách dostupných v Project Operations.
+description: Tento článok poskytuje informácie o cenových ponukách projektov a cenových ponukách predaja dostupných v Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

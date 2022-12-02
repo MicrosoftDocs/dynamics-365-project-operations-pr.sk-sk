@@ -1,6 +1,6 @@
 ---
 title: Čo je nové v decembri 2020 – nasadenie Project Operations Lite – dohoda o fakturácii pro forma
-description: Tento článok poskytuje informácie o aktualizáciách kvality dostupných vo vydaní Project Operations Lite z decembra 2020 – dohoda o proforma fakturácii.
+description: Tento článok poskytuje informácie o aktualizáciách kvality, ktoré sú k dispozícii v nasadení Project Operations Lite – dohoda o fakturácii pro forma z decembra 2020.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924081"
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok sa vzťahuje na nasledujúce Dynamics 365 Project Operations komponenty a verzie:
+Tento článok sa týka nasledujúcich komponentov a verzií Dynamics 365 Project Operations:
 
   - Project Operations v prostredí Dataverse verzie 4.5.0.134 
 

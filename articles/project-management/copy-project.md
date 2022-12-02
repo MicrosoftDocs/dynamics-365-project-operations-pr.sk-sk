@@ -25,14 +25,14 @@ S aplikáciou Dynamics 365 Project Operations môžete rýchlo vytvárať nové 
 - Odhady projektu
 - Odhady projektových výdavkov
 - Odhady materiálov projektu
-- Kontrolné zoznamy projektov
-- Projektové vedrá
+- Kontrolné zoznamy projektu
+- Projektové kontajnery
 
 ## <a name="project-properties"></a>Vlastnosti projektu
 
 Pri kopírovaní projektu sa skopírujú hodnoty v nasledujúcich poliach.
 
-| Pole | Projektové operácie Neskladové materiály | Project Operations Lite | Projekt pre web |
+| Pole | Project Operations neskladované materiály | Project Operations Lite | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Name | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Description | :heavy_check_mark: | :heavy_check_mark: | |
@@ -47,7 +47,7 @@ Pri kopírovaní projektu sa skopírujú hodnoty v nasledujúcich poliach.
 | Vytvoril | :heavy_check_mark: | :heavy_check_mark: | |
 | Odhady | :heavy_check_mark: | :heavy_check_mark: | |
 | <p>Odhadovaný dátum začatia</p><p><strong>Poznámka:</strong> Toto pole určuje dátum vytvorenia projektu z kópie. | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Odhadovaný dátum dokončenia</p><p><strong>Poznámka:</strong> Dátum v tomto poli je upravený na základe dátumu začiatku nového projektu, ktorý bol vytvorený z kópie.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Odhadovaný dátum dokončenia</p><p><strong>Poznámka:</strong> Dátum v tomto poli je prispôsobený na základe dátumu začiatku nového projektu, ktorý bol vytvorený z kópie.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Úsilie (hodiny) | :heavy_check_mark: | :heavy_check_mark: | |
 | Odhadované mzdové náklady | :heavy_check_mark: | :heavy_check_mark: | |
 | Odhadované výdavkové náklady | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,14 +58,14 @@ Pri kopírovaní projektu sa skopírujú hodnoty v nasledujúcich poliach.
 
 ## <a name="work-breakdown-structure"></a>Štruktúra rozdelenia práce
 
-Pri kopírovaní projektu sa skopíruje celá štruktúra rozdelenia práce načítaná zdrojom. Pomenované zdroje sa nahradia všeobecnými zdrojmi. Ak pomenované zdroje nemajú rovnaký pracovný čas ako všeobecný zdroj, plán sa prepočíta a trvanie úloh sa môže zmeniť.
+Pri kopírovaní projektu sa skopíruje celá štruktúra rozdelenia práce načítaná zdrojom. Pomenované zdroje sa nahradia všeobecnými zdrojmi. Ak menované zdroje nemajú rovnaký pracovný čas ako všeobecný zdroj, plán sa prepočíta a trvanie úlohy sa môže zmeniť.
 
 ## <a name="project-team-members"></a>Členovia projektového tímu
 
 Keď sa projektový tím skopíruje zo zdrojového projektu, skopírujú sa všeobecné zdroje. Priradenie všeobecných zdrojov sa zachová rovnaké ako bolo pri zdrojovom projekte. Pomenované zdroje sa prevedú na všeobecných členov tímu.
 
 > [!NOTE]
-> Členovia tímu a úlohy sa v Projecte pre web neskopírujú.
+> Členovia tímu a priradenia sa v Project for the Web neskopírujú.
 
 ## <a name="estimates"></a>Odhady
 

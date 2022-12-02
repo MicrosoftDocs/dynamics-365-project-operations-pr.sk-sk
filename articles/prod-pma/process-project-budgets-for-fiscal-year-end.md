@@ -1,6 +1,6 @@
 ---
 title: Prenos rozpočtov projektu na konci fiškálneho roka
-description: Tento článok poskytuje informácie o tom, ako preniesť zostávajúce sumy rozpočtu do budúcich rokov a ako vytvoriť podrobnosti registra rozpočtu.
+description: Tento článok poskytuje informácie o tom, ako previesť zostávajúce sumy rozpočtu do budúcich rokov a ako vytvoriť podrobnosti rozpočtového registra.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

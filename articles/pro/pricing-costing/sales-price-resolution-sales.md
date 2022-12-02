@@ -1,6 +1,6 @@
 ---
 title: Určenie predajných cien pre odhady a skutočné hodnoty projektu
-description: Tento článok poskytuje informácie o tom, ako sa určujú predajné ceny pre odhady a skutočné hodnoty projektu.
+description: Tento článok poskytuje informácie o tom, ako sa určujú predajné ceny pre odhady a aktuálne hodnoty na základe projektu.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -17,80 +17,80 @@ ms.locfileid: "9475204"
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Určenie predajných cien na základe odhadov a skutočností v spoločnosti Microsoft Dynamics 365 Project Operations, systém najprv použije dátum a menu v prichádzajúcom odhade alebo skutočnom kontexte na určenie predajného cenníka. V skutočnom kontexte konkrétne systém používa **Dátum transakcie** na určenie, ktorý cenník je platný. The **Dátum transakcie** hodnota vstupného odhadu alebo skutočnej hodnoty sa porovnáva s **Efektívny štart (nezávislý od časového pásma)** a **Efektívny koniec (nezávislý od časového pásma)** hodnoty v cenníku. Po určení predajného cenníka systém určí predajnú alebo fakturačnú sadzbu.
+Na určenie predajných cien na základe odhadov a skutočných hodnôt v Microsoft Dynamics 365 Project Operations systém najprv použije dátum a menu v kontexte prichádzajúceho odhadu alebo skutočnej hodnoty na určenie predajného cenníka. V kontexte skutočnej hodnoty systém používa pole **Dátum transakcie** na určenie, ktorý cenník je platný. Hodnota **Dátum transakcie** vstupného odhadu alebo skutočnej hodnoty sa porovnáva s hodnotami **Začiatok účinnosti (nezávislý od časového pásma)** a **Koniec účinnosti (nezávislý od časového pásma)** v cenníku. Po určení predajného cenníka systém určí predajnú alebo fakturačnú sadzbu.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Určenie predajných sadzieb na skutočných a odhadovaných riadkoch pre čas
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Určenie predajných sadzieb v riadkoch so skutočnými hodnotami a odhadmi pre čas
 
-Odhadnúť kontext pre **Čas** odkazuje na:
+Kontext odhadu pre **Čas** odkazuje na:
 
-- Podrobnosti o riadku cenovej ponuky pre **Čas**.
-- Podrobnosti zmluvnej linky pre **Čas**.
-- Priradenia zdrojov k projektu.
+- Podrobnosti riadka cenovej ponuky pre **Čas**.
+- Podrobnosti riadka zmluvy pre **Čas**.
+- Priradenie strojov v projekte.
 
-Skutočný kontext pre **Čas** odkazuje na:
+Kontext skutočnej hodnoty pre **Čas** odkazuje na:
 
-- Riadky denníka zápisov a opráv pre **Čas**.
-- Riadky denníka, ktoré sa vytvoria pri odoslaní časového záznamu.
-- Podrobnosti o riadku faktúry za **Čas**. 
+- Záznamy v účtovnom denníku Zadanie a Oprava pre **Čas**.
+- Záznamy v účtovnom denníku, ktoré sa vytvoria pri odoslaní zadania času.
+- Podrobnosti o riadku faktúry pre **Čas**. 
 
-Po určení cenníka predaja systém vykoná nasledujúce kroky na zadanie predvolenej fakturačnej sadzby.
+Po určení cenníka predaja systém dokončí nasledujúce kroky a zadá predvolenú fakturačnú sadzbu.
 
-1. Systém zodpovedá kombinácii **Role** a **Jednotka zdrojov** polia v odhadovanom alebo skutočnom kontexte pre **Čas** oproti cenovým líniám rol v cenníku. Táto zhoda predpokladá, že pre fakturačné sadzby používate preddefinované cenové dimenzie. Ak ste ceny nakonfigurovali tak, aby boli založené na iných poliach ako alebo naviac **Role** a **Jednotka zdrojov**, táto kombinácia polí sa používa na získanie zodpovedajúcej cenovej línie role.
-1. Ak systém nájde cenovú líniu role, ktorá má účtovanú sadzbu pre **Role** a **Jednotka zdrojov** táto účtovná sadzba sa použije ako predvolená účtovná sadzba.
-1. Ak sa systém nezhoduje s **Role** a **Jednotka zdrojov** hodnoty, načíta cenové línie rolí, ktoré majú zhodné hodnoty pre **Role** pole, ale hodnoty null pre **Jednotka zdrojov** lúka. Keď systém nájde zodpovedajúci cenový záznam roly, fakturovaná sadzba z tohto záznamu sa použije ako predvolená fakturačná sadzba. Toto párovanie predpokladá predpripravenú konfiguráciu pre relatívnu prioritu **Role** proti **Jednotka zdrojov** ako rozmer predajnej ceny.
+1. Systém spáruje kombináciu polí **Rola** a **Zdrojová jednotka** v kontexte odhadu alebo skutočnej hodnoty pre **Čas** oproti riadkom s cenami rolí v cenníku. Toto zosúladenie predpokladá, že používate predvolené cenové dimenzie pre sadzby fakturácie. Ak ste konfigurovali cenu na základe iných polí ako **Rola** a **Zdrojová jednotka** alebo nad ich rámec, tak sa na získanie zodpovedajúceho riadka s cenou roly použije táto kombinácia polí.
+1. Ak systém nájde riadok s cenou roly s fakturačnou sadzbou pre kombináciu **Rola** a **Zdrojová jednotka**, bude daná fakturačná sadzba použitá ako predvolená.
+1. Ak systém nemôže spárovať hodnoty **Rola** a **Zdrojová jednotka**, vyhľadá riadky s cenami rolí, ktoré majú spárované hodnoty pre pole **Rola**, ale nulové hodnoty pre pole **Zdrojová jednotka**. Keď systém nájde spárovaný záznam o cene roly, fakturačná sadzba z tohto záznamu sa použije ako predvolená fakturačná sadzba. Toto priradenie predpokladá predpripravenú konfiguráciu relatívnej priority **Rola** vs **Zdrojová jednotka** ako dimenzia predajných cien.
 
 > [!NOTE]
-> Ak nakonfigurujete inú prioritu **Role** a **Jednotka zdrojov** polia, alebo ak máte iné dimenzie, ktoré majú vyššiu prioritu, predchádzajúce správanie sa zodpovedajúcim spôsobom zmení. Systém načítava cenové záznamy rolí, ktoré majú hodnoty, ktoré zodpovedajú každej hodnote cenovej dimenzie v poradí podľa priority. Riadky, ktoré majú pre tieto dimenzie nulové hodnoty, sú posledné.
+> Ak nakonfigurujete inú prioritu pre polia **Rola** a **Zdrojová jednotka**, alebo ak máte iné dimenzie, ktoré majú vyššiu prioritu, predchádzajúce správanie sa zodpovedajúcim spôsobom zmení. Systém načítava cenové záznamy rolí, ktoré majú hodnoty, ktoré zodpovedajú každej hodnote cenovej dimenzie v poradí podľa priority. Riadky, ktoré majú pre tieto dimenzie nulové hodnoty, sú posledné.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Určenie predajných sadzieb na skutočných a odhadovaných riadkoch pre náklady
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Určenie predajných sadzieb v riadkoch so skutočnými hodnotami a odhadmi pre Výdavok
 
-Odhadnúť kontext pre **Výdavok** odkazuje na:
+Kontext odhadu pre **Výdavok** odkazuje na:
 
-- Podrobnosti o riadku cenovej ponuky pre **Výdavok**.
-- Podrobnosti zmluvnej linky pre **Výdavok**.
-- Riadky odhadu výdavkov na projekte.
+- Podrobnosti riadka cenovej ponuky pre **Výdavok**.
+- Podrobnosti riadka zmluvy pre **Výdavok**.
+- Riadky odhadu výdavkov pre projekt.
 
-Skutočný kontext pre **Výdavok** odkazuje na:
+Kontext skutočnej hodnoty pre **Výdavok** odkazuje na:
 
-- Riadky denníka zápisov a opráv pre **Výdavok**.
-- Riadky denníka, ktoré sa vytvoria pri odoslaní nákladového záznamu.
-- Podrobnosti o riadku faktúry za **Výdavok**. 
+- Záznamy v účtovnom denníku Zadanie a Oprava pre **Výdavok**.
+- Záznamy v účtovnom denníku, ktoré sa vytvoria pri odoslaní zadania výdavku.
+- Podrobnosti riadka faktúry pre **Výdavok**. 
 
-Po určení cenníka predaja systém vykoná nasledujúce kroky na zadanie predvolenej jednotkovej predajnej ceny.
+Po určení cenníka predaja systém dokončí nasledujúce kroky na zadanie predvolenej predajnej jednotkovej ceny.
 
-1. Systém zodpovedá kombinácii **Kategória** a **Jednotka** polia na riadku odhadu pre **Výdavok** oproti cenovým radom kategórie v cenníku.
-1. Ak systém nájde cenovú líniu kategórie, ktorá má predajnú sadzbu pre **Kategória** a **Jednotka** že predajná sadzba sa použije ako predvolená predajná sadzba.
-1. Ak systém nájde zodpovedajúcu cenovú líniu kategórie, na zadanie predvolenej predajnej ceny sa môže použiť metóda tvorby cien. Nasledujúca tabuľka zobrazuje predvolené správanie nákladových cien v projektových operáciách.
+1. Systém spáruje kombináciu polí **Kategória** a **Jednotka** na riadku odhadu pre **Výdavok** s cenovými riadkami kategórie v cenníku.
+1. Ak systém nájde riadok s cenou kategórie, ktorá má predajnú sadzbu pre kombináciu polí **Kategória** a **Jednotka**, predajná sadzba sa použije ako predvolená.
+1. Ak systém nájde cenový riadok zodpovedajúcej kategórie, môže sa na metóda nacenenia použiť na zadanie predvolenej predajnej ceny. Nasledujúca tabuľka nižšie zobrazuje predvolené správanie pre ceny výdavkov v Project Operations.
 
     | Kontext | Spôsob oceňovania | Predvolená cena |
     | --- | --- | --- |
-    | Odhadované | Jednotková cena | Na základe cenovej línie kategórie. |
+    | Odhadované | Jednotková cena | Na základe riadka kategórie ceny. |
     |        | V rámci nákladov | 0.00 |
     |        | Prirážka nad rámec nákladov | 0.00 |
-    | Skutočnosť | Jednotková cena | Na základe cenovej línie kategórie. |
-    |        | V rámci nákladov | Na základe súvisiacich skutočných nákladov. |
-    |        | Prirážka nad rámec nákladov | Prirážka sa aplikuje, ako je definovaná líniou ceny kategórie, na sadzbu jednotkových nákladov súvisiacich skutočných nákladov. |
+    | Skutočnosť | Jednotková cena | Na základe riadka kategórie ceny. |
+    |        | V rámci nákladov | Na základe súvisiacej skutočnej ceny. |
+    |        | Prirážka nad rámec nákladov | Je uplatnená prirážka, ako je definované v riadku kategórie ceny na sadzbu jednotkových nákladov súvisiacej skutočnej ceny. |
 
-1. Ak sa systém nezhoduje s **Kategória** a **Jednotka** hodnoty, je nastavený predajný kurz **0** štandardne (nula).
+1. Ak systém nedokáže spárovať hodnoty polí **Kategória** a **Jednotka**, sadzba predaja je predvolene nastavená na **0** (nulu).
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Stanovenie predajných sadzieb na skutočných a odhadovaných riadkoch pre materiál
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Určenie predajných sadzieb v riadkoch skutočných a odhadovaných hodnôt pre materiál
 
-Odhadnúť kontext pre **Materiál** odkazuje na:
+Kontext odhadu pre **Materiál** odkazuje na:
 
-- Podrobnosti o riadku cenovej ponuky pre **Materiál**.
-- Podrobnosti zmluvnej linky pre **Materiál**.
-- Riadky odhadu materiálu na projekte.
+- Podrobnosti riadka cenovej ponuky pre **Materiál**.
+- Podrobnosti riadka zmluvy pre **Materiál**.
+- Riadky odhadu materiálu pre projekt.
 
-Skutočný kontext pre **Materiál** odkazuje na:
+Kontext skutočnej hodnoty pre **Materiál** odkazuje na:
 
-- Riadky denníka zápisov a opráv pre **Materiál**.
-- Riadky denníka, ktoré sa vytvoria pri odoslaní denníka použitia materiálu.
-- Podrobnosti o riadku faktúry za **Materiál**. 
+- Záznamy v účtovnom denníku Zadanie a Oprava pre **Materiál**.
+- Záznamy v účtovnom denníku, ktoré sa vytvoria pri odoslaní denníka použitia materiálu.
+- Podrobnosti riadka faktúry pre **Materiál**. 
 
-Po určení cenníka predaja systém vykoná nasledujúce kroky na zadanie predvolenej jednotkovej predajnej ceny.
+Po určení cenníka predaja systém dokončí nasledujúce kroky na zadanie predvolenej predajnej jednotkovej ceny.
 
-1. Systém zodpovedá kombinácii **Produkt** a **Jednotka** polia na riadku odhadu pre **Materiál** oproti riadkom cenníkovej položky na cenníku.
-1. Ak systém nájde riadok položky cenníka, ktorý má predajnú sadzbu pre **Produkt** a **Jednotka** kombinácia a ak je to spôsob oceňovania **Suma meny**, použije sa predajná cena, ktorá je uvedená na riadku cenníka. 
-1. Ak **Produkt** a **Jednotka** hodnoty polí sa nezhodujú, alebo ak je metóda určovania cien iná ako **Suma meny**, predajná sadzba je nastavená na **0** štandardne (nula). Toto správanie sa vyskytuje, pretože Project Operations podporuje iba **Suma meny** spôsob oceňovania materiálov, ktoré sa používajú na projekte.
+1. Systém spáruje kombináciu polí **Produkt** a **Jednotka** na riadku odhadu pre **Materiál** s riadkami položiek v cenníku.
+1. Ak systém nájde riadok položky v cenníku, ktorý má predajnú sadzbu pre kombináciu **Produkt** a **Jednotka** a metóda určovania cien je **Čiastka v mene**, použije sa predajná cena uvedená v riadku cenníka. 
+1. Ak sa hodnoty polí **Produkt** a **Jednotka** nezhodujú, alebo ak je metóda určovania cien iná ako **Čiastka v mene**, predajná sadzba je nastavená štandardne na **0** (nula). Toto správanie sa vyskytuje, pretože Project Operations podporuje iba spôsob oceňovania **Čiastka v mene** materiálov, ktoré sa používajú na projekte.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

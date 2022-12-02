@@ -1,6 +1,6 @@
 ---
 title: Riadky subdodávateľskej zmluvy pre kategórie výdavkov
-description: Tento článok vysvetľuje, ako zaznamenať riadky subdodávok pre náklady a použiť polia na zaznamenanie nákupu času od dodávateľov.
+description: Tento článok vysvetľuje, ako evidovať riadky subdodávateľskej zmluvy pre výdavok a používať polia na evidenciu nákupu času od dodávateľov.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

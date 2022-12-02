@@ -1,6 +1,6 @@
 ---
 title: Správa stavu, ktorý sa nesmie prekročiť, a overení
-description: Tento článok poskytuje informácie o kontrolách neprekračujúcich limit vykonávaných v rámci projektových operácií.
+description: Tento článok poskytuje informácie o kontrolách neprekročenia limitu vykonávaných v aplikácii Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

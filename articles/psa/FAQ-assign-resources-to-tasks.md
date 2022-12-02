@@ -1,6 +1,6 @@
 ---
 title: Priradenie zdroja k úlohe
-description: Tento článok poskytuje informácie o priraďovaní zdrojov k úlohám.
+description: Tento článok poskytuje informácie o tom, ako priradiť zdroje k úlohám.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

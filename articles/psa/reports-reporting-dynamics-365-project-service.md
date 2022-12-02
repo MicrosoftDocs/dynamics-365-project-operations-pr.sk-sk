@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka vykazovania
-description: Tento článok poskytuje informácie o vytváraní prehľadov v jazyku Dynamics 365 Project Service Automation.
+description: Tento článok poskytuje informácie o vykazovaní v Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ Microsoft Power BI a Dynamics 365 spolu poskytujú účinný spôsob práce s va
 
 
 ## <a name="additional-resources"></a>Ďalšie zdroje
-Ďalšie informácie o vytváraní prehľadov v PSA nájdete v nasledujúcich článkoch:
+Ďalšie informácie o vykazovaní v PSA nájdete v nasledujúcich článkoch:
 
 - [Práca s dátovým modelom Project Service](reports-working-project-service-data-model.md)
 - [Tabule](reports-dashboards.md)

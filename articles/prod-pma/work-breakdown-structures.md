@@ -35,7 +35,7 @@ Miera podrobnosti WBS závisí od úrovne presnosti požadovanej v odhadoch a ú
 
 Naproti tomu projekty v odvetviach, ako sú médiá a reklama, softvér a IT infraštruktúra, bývajú jedinečné a produktivita závisí od skúseností a kompetencií jednotlivca, ktorý vykonáva danú úlohu. Preto tieto odvetvia používajú štruktúru WBS na získanie približnej veľkosti projektu, nie na podrobné sledovanie jeho priebehu. 
 
-Budovanie štruktúry WBS je intenzívny proces, ktorý sa zvyčajne robí dlho, a ktorý si vyžaduje spoluprácu a informácie od najrôznejších ľudí. Tento článok popisuje, ako môžete použiť vylepšenia WBS na splnenie vašich požiadaviek na odhady a sledovanie.
+Budovanie štruktúry WBS je intenzívny proces, ktorý sa zvyčajne robí dlho, a ktorý si vyžaduje spoluprácu a informácie od najrôznejších ľudí. Tento článok popisuje, ako môžete použiť vylepšenia štruktúry WBS na splnenie svojich požiadaviek týkajúcich sa odhadov a sledovania.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Požiadavky na vytvorenie štruktúry WBS
 Ak chcete vytvoriť štruktúru WBS, musíte byť schopní vytvoriť pracovný plán a odhadnúť cenu práce.
@@ -166,7 +166,7 @@ Služba Finance má tri zobrazenia pre štruktúru WBS projektu: zobrazenie Plá
 
 ### <a name="planning-view"></a>Zobrazenie Plánovanie
 
-Zobrazenie Plánovanie zobrazuje plánovaný alebo základný odhad plánu a informácií o nákladoch. Aj keď neexistujú žiadne funkcie na sledovanie verzie a základnej úrovne pre projekt štruktúry WBS, hodnoty v tomto zobrazení majú predstavovať základnú verziu. Časti Odhad plánu a Odhad nákladov tohto článku popisujú toto zobrazenie a spôsob jeho použitia na vytvorenie WBS.
+Zobrazenie Plánovanie zobrazuje plánovaný alebo základný odhad plánu a informácií o nákladoch. Aj keď neexistujú žiadne funkcie na sledovanie verzie a základnej úrovne pre projekt štruktúry WBS, hodnoty v tomto zobrazení majú predstavovať základnú verziu. Sekcie Odhad plánu a Odhad nákladov v tomto článku popisujú toto zobrazenie a to, ako sa používa na vytvorenie štruktúry WBS.
 
 ### <a name="effort-tracking-view"></a>Zobrazenie sledovania úsilia
 

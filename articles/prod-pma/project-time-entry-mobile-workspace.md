@@ -1,6 +1,6 @@
 ---
 title: Mobilný pracovný priestor Zadanie času projektu
-description: Tento článok poskytuje informácie o mobilnom pracovnom priestore Project time entry. Tento pracovný priestor umožňuje používateľom zadať a uložiť čas oproti projektu pomocou mobilného zariadenia.
+description: Tento článok poskytuje informácie o mobilnom pracovnom priestore Zadanie času projektu. Tento pracovný priestor umožňuje používateľom zadať a uložiť čas oproti projektu pomocou mobilného zariadenia.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029687"
 
 [!include [banner](../includes/banner.md)]
 
-Tento článok poskytuje informácie o **Zadanie času projektu** mobilný pracovný priestor. Tento pracovný priestor umožňuje používateľom zadať a uložiť čas oproti projektu pomocou mobilného zariadenia.
+Tento článok poskytuje informácie o mobilnom pracovnom priestore **Zadanie času projektu**. Tento pracovný priestor umožňuje používateľom zadať a uložiť čas oproti projektu pomocou mobilného zariadenia.
 
 Tento mobilný pracovný priestor je určený na použitie s mobilnou aplikáciou Dynamics 365 Unified Ops. 
 

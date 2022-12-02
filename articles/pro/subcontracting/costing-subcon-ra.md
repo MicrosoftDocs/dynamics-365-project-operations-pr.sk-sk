@@ -1,6 +1,6 @@
 ---
 title: Odhad nákladov v prípade priradení zdrojov v rámci subdodávateľskej zmluvy
-description: Tento článok vysvetľuje, ako Microsoft Dynamics 365 Project Operations vypočítava odhad nákladov na subdodávateľské priradenia zdrojov.
+description: Tento článok vysvetľuje, ako Microsoft Dynamics 365 Project Operations vypočítava odhad nákladov na priradenia zdrojov v rámci subdodávateľskej zmluvy.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,32 +17,32 @@ ms.locfileid: "9522675"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Zadania úloh subdodávateľských členov projektového tímu sú kalkulované pomocou **Nákup** cenník priložený k subdodávke na príslušnom zázname člena tímu. Toto sa líši od toho, ako sa kalkulujú priradenia zdrojov zamestnancov, kde sa priradenia úloh zamestnancov počítajú pomocou **náklady** cenník, ktorý je priložený k zmluvnej jednotke projektu. 
+Priradenia úloh členom projektového tímu v rámci subdodávateľskej zmluvy sú kalkulované pomocou cenníka **Nákup** priloženého k subdodávke na príslušnom zázname člena tímu. Toto sa líši od toho, ako sa kalkulujú priradenia zdrojov zamestnancov, kde sa priradenia úloh zamestnancov počítajú pomocou cenníka **Náklady**, ktorý je priložený k zmluvnej jednotke projektu. 
 
-Pre členov generického projektového tímu, ktorí sú zadávaní subdodávateľom, sú zadania kalkulované pomocou nastavenia ceny na základe roly v nákupnom cenníku priloženom k subdodávke. Nákupné ceny môžu byť tiež nastavené špeciálne pre každý zdroj. Tieto ceny špecifické pre zdroj budú uprednostňované pri zadaní nákladových úloh menovaných členov projektového tímu, ktorí sú zmluvnými pracovníkmi. 
+V prípade všeobecných členov projektového tímu, ktorí sú subdodávateľmi, sa priradenia naceňujú pomocou nastavenia cien na základe rolí v nákupnom cenníku pripojenom k subdodávateľskej zmluve. Nákupné ceny môžu byť tiež nastavené špeciálne pre každý zdroj. Tieto ceny špecifické pre zdroj budú uprednostňované pri oceňovaní priradenia úloh menovaných členov projektového tímu, ktorí sú zmluvnými pracovníkmi. 
 
-Priorita použitia nákupnej ceny špecifickej pre rolu oproti špecifickej pre zdroj je riadená nastavením priority cenovej dimenzie v **Parametre > Dimenzie určovania cien na základe sumy**.
+Priorita použitia nákupnej ceny špecifickej pre rolu oproti špecifickej pre zdroj je riadená nastavením priority cenovej dimenzie v ponuke **Parametre > Dimenzie určovania cien na základe sumy**.
 
-Táto funkcionalita dynamického odvodzovania cien na základe nastavenia rozmerov pre nákupné ceny subdodávateľov je podobná tomu, ako sa odvodzujú nákladové a fakturačné sadzby pre zamestnancov na plný úväzok. 
+Táto funkcia dynamického odvodzovania cien na základe nastavenia dimenzie pre nákupné ceny subdodávateľov je podobná tomu, ako sa odvodzujú nákladové a fakturačné sadzby pre zamestnancov na plný úväzok. 
 
-## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Vytváranie zadaní úloh na získanie odhadov nákladov na zdroje subdodávateľov
+## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Vytváranie priradení úloh na získanie odhadov nákladov na zdroje subdodávateľov
 
-Zadania úloh pre subdodávateľov možno vytvoriť dvoma spôsobmi: 
-- Pomocou **Úlohy** tab.
-- Pomocou **Tím** tab.
+Priradenia úloh pre subdodávateľov možno vytvoriť dvoma spôsobmi: 
+- Pomocou karty **Úlohy**.
+- Pomocou karty **Tím**.
 
 ### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Vytváranie priradení zdrojov pomocou karty Úlohy
-Pomocou **Zdroje** zoznam v **Úlohy** pre konkrétnu úlohu, môžete vytvoriť priradenie úlohy pre pomenovaný zdroj alebo všeobecný zdroj. Ak vyberiete pomenovaný zdroj z **Pridelené zdroje** rozbaľovacej ponuky úlohy a tento zdroj je zmluvným pracovníkom, k úlohe sa priradí pomenovaný zdroj a vytvorí sa zodpovedajúci záznam člena projektového tímu s typom pracovníka nastaveným na **Pracovník na dohodu** a **Platnosť** nastavený na **Neplatné**. Ako ďalší krok budete musieť otvoriť záznam člena projektového tímu a vybrať subdodávku a subdodávku. Týmto sa aktualizuje priradenie úlohy tak, aby obsahovalo odkaz na subdodávku a subdodávateľskú líniu, a tiež sa aktualizuje stav člena tímu na **Platné**.
+Pomocou zoznamu **Zdroje** na karte **Úlohy** pre konkrétnu úlohu môžete vytvoriť priradenie úlohy pre menovaný zdroj alebo všeobecný zdroj. Ak vyberiete menovaný zdroj z rozbaľovacej ponuky **Priradené zdroje** v úlohe a tento zdroj je zmluvným pracovníkom, k úlohe sa priradí menovaný zdroj a vytvorí sa zodpovedajúci záznam člena projektového tímu s typom pracovníka nastaveným na **Zmluvný pracovník** a položkou **Platnosť** nastavenou na **Neplatné**. Ako ďalší krok budete musieť otvoriť záznam člena projektového tímu a vybrať subdodávateľskú zmluvu a riadok subdodávateľskej zmluvy. Týmto sa aktualizuje priradenie úlohy tak, aby obsahovalo odkaz na subdodávateľskú zmluvu a riadok subdodávateľskej zmluvy, a tiež sa aktualizuje stav člena tímu na **Platný**.
 
-Ak sa rozhodnete vytvoriť všeobecného člena tímu z **Pridelené zdroje** rozbaľovacia ponuka na úlohu, **Generické vytváranie členov tímu** dialógové okno vám umožní vybrať subdodávku a linku subdodávky. Keď sa k úlohe priradí všeobecný zdroj a vytvorí sa zodpovedajúci záznam člena projektového tímu, všimnete si, že záznam člena projektového tímu sa vytvorí s typom pracovníka nastaveným na **Pracovník na dohodu** a **Platnosť** nastavený na **Platné**.
+Ak sa rozhodnete vytvoriť všeobecného člena tímu z rozbaľovacej ponuky **Priradené zdroje** v úlohe, dialógové okno **Vytvorenie všeobecného člena tímu** vám umožní vybrať subdodávateľskú zmluvu a riadok subdodávateľskej zmluvy. Keď sa k úlohe priradí všeobecný zdroj a vytvorí sa zodpovedajúci záznam člena projektového tímu, všimnete si, že záznam člena projektového tímu sa vytvorí s typom pracovníka nastaveným na **Zmluvný pracovník** a poľom **Platnosť** nastaveným na **Platné**.
 
 ### <a name="creating-project-team-members-using-the-team-tab"></a>Vytváranie členov projektového tímu pomocou karty Tím
-Pomocou karty Tím v projekte môžete vytvoriť všeobecného alebo pomenovaného člena tímu. Pri vytváraní člena tímu môžete vybrať subdodávku a riadok subdodávky. Po vytvorení člena tímu budete musieť člena tímu priradiť k úlohe pomocou **Pridelené zdroje** rozbaľovací zoznam úlohy. 
+Pomocou karty Tím v projekte môžete vytvoriť všeobecného alebo menovaného člena tímu. Pri vytváraní člena tímu môžete vybrať subdodávateľskú zmluvu a riadok subdodávateľskej zmluvy. Po vytvorení člena tímu budete musieť člena tímu priradiť k úlohe pomocou rozbaľovacej ponuky úlohy **Priradené zdroje**. 
 
 ## <a name="updating-estimates"></a>Aktualizácia odhadov
-Po priradení členov projektového tímu k úlohám budete musieť prejsť na **Odhady** na projekte a vyberte **Aktualizujte ceny** zabezpečiť, aby sa nákladové sadzby prideľovania zdrojov subdodávateľov aktualizovali na základe nákupného cenníka priloženého k subdodávke. Pre nepriradené úlohy v Microsofte sa negenerujú odhady Dynamics 365 Project Operations. V dôsledku toho budete musieť vytvoriť priradenia úloh na stanovenie ceny a nákladov rôznych úloh na vašom projekte. 
+Po priradení členov projektového tímu k úlohám budete musieť prejsť na kartu **Odhady** na projekte a vybrať **Aktualizovať ceny**, čo zabezpečí, aby sa nákladové sadzby prideľovania zdrojov subdodávateľov aktualizovali na základe nákupného cenníka priloženého k subdodávateľskej zmluve. Pre nepriradené úlohy v Microsoft Dynamics 365 Project Operations sa negenerujú odhady. V dôsledku toho budete musieť vytvoriť priradenia úloh na stanovenie ceny a nákladov rôznych úloh na vašom projekte. 
 
-> [POZNÁMKA!] Členovia projektového tímu, ktorí majú **Typ pracovníka** ako **Pracovník na dohodu** ale nemajú referenciu na subdodávku sú označené ako **Neplatné** na **Členovia projektového tímu** mriežka. Ak existujú členovia projektového tímu s týmto stavom, otvorte záznam člena projektového tímu a manuálne aktualizujte polia subdodávok a riadkov subdodávok tak, aby odhad finančných nákladov presne odrážal náklady subdodávateľa na **Odhady** tab. 
+> [POZNÁMKA!] Členovia projektového tímu, ktorí majú **Typ pracovníka** nastavený ako **Zmluvný pracovník**, ale nemajú referenciu na subdodávateľskú zmluvu označenú ako **Neplatné** na mriežke **Členovia projektového tímu**. Ak existujú členovia projektového tímu s týmto stavom, otvorte záznam člena projektového tímu a ručne aktualizujte polia subdodávateľská zmluva a riadok subdodávateľskej zmluvy tak, aby finančný odhad nákladov presne odrážal náklady subdodávateľa na karte **Odhady**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

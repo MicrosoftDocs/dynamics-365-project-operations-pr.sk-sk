@@ -26,7 +26,7 @@ ms.locfileid: "8685004"
 
 [!include [banner](../includes/banner.md)]
 
-Plánovanie a údržba plánu projektu môžu byť zložité, takže projektoví manažéri musia používať nástroje, ktoré im pomáhajú zvládnuť túto úlohu. Integrácia so službou Microsoft Project Client poskytuje podporu pre otvorenie a správu štruktúry rozdelenia práce na projekte. Projektový manažér môže zverejniť akékoľvek zmeny späť v štruktúre Dynamics 365 Finance projektu.
+Plánovanie a údržba plánu projektu môžu byť zložité, takže projektoví manažéri musia používať nástroje, ktoré im pomáhajú zvládnuť túto úlohu. Integrácia so službou Microsoft Project Client poskytuje podporu pre otvorenie a správu štruktúry rozdelenia práce na projekte. Manažér projektu môže akékoľvek zmeny zverejniť späť do štruktúry rozdelenia práce na projekte v Dynamics 365 Finance.
 
 > [!NOTE]
 > Ak používate júlovú aktualizáciu (verzia 10.0.4), musíte si nainštalovať KB 4054797 a 4055884.
@@ -39,7 +39,7 @@ Pre umožnenie integrácie s Microsoft Project Client musí byť nainštalovaný
 •   Kliknite na **Otvoriť** a po výzve na **Spustiť**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Otvorte a upravte existujúci koncept štruktúry rozdelenia práce Microsoft Project Client
-Ak má projekt v Dynamics 365 Finance už vytvorenú štruktúru rozpisu prác, štruktúru rozpisu prác možno otvoriť v aplikácii Microsoft Project Client, ak je štruktúra rozpisu prác v stave konceptu. Ak ju chcete otvoriť zo stránky **Projekt**, kliknite na odkaz **Otvoriť v Microsoft Project** na karte **Plán**. Túto stránku je tiež možné otvoriť v rámci aplikácie Microsoft Project Client kliknutím na **Otvoriť** v **Microsoft Dynamics 365**. Zo zoznamu vyberte **Právnická osoba** a **Projekt**.
+Ak má projekt v Dynamics 365 Finance už vytvorenú štruktúru rozdelenia práce, štruktúru rozdelenia práce je možné otvoriť v aplikácii Microsoft Project Client, ak je štruktúra rozdelenia práce v stave konceptu. Ak ju chcete otvoriť zo stránky **Projekt**, kliknite na odkaz **Otvoriť v Microsoft Project** na karte **Plán**. Túto stránku je tiež možné otvoriť v rámci aplikácie Microsoft Project Client kliknutím na **Otvoriť** v **Microsoft Dynamics 365**. Zo zoznamu vyberte **Právnická osoba** a **Projekt**.
 
 > [!NOTE]
 > Ak používate ako prehliadač Internet Explorer, budete musieť kliknúť na **Uložiť** a manuálne otvoriť z umiestnenia, do ktorého sa súbor stiahne. Alebo kliknite na **Uložiť a otvoriť**, čím sa súbor otvorí v Microsoft Project Client. Pri ukladaní nepremenujte názov súboru.

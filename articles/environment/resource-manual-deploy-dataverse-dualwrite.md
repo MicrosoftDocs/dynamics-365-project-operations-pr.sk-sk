@@ -1,6 +1,6 @@
 ---
 title: Manuálne nasadenie aplikácie Project Operations Dataverse s podporou duálneho zápisu
-description: Tento článok vysvetľuje, ako manuálne nasadiť operácie projektu Dataverse aplikáciu tak, aby podporovala duálny zápis.
+description: Tento článok vysvetľuje, ako manuálne nasadiť aplikáciu Project Operations Dataverse tak, aby podporovala duálny zápis.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028583"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Tento článok vysvetľuje, ako manuálne nasadiť Microsoft Dynamics 365 Project Operations v Microsoft Dataverse takže podporuje duálny zápis. Project Operations zistí konfiguráciu prostredia a pridá ďalšiu podporu pre duálny zápis, ak sú splnené predpoklady.
+Tento článok vysvetľuje, ako manuálne nasadiť aplikáciu Microsoft Dynamics 365 Project Operations v Microsoft Dataverse tak, aby podporovala duálny zápis. Project Operations zistí konfiguráciu prostredia a pridá ďalšiu podporu pre duálny zápis, ak sú splnené predpoklady.
 
-Počas nasadenia cez Microsoft Dynamics Služby životného cyklu (LCS), ak ste postupovali podľa pokynov v tomto článku, môžete preskočiť nasadenie Microsoft Power Platform integrácia (predtým známa ako Common Data Service prostredie).
+Počas nasadenia do Microsoft Dynamics Lifecycle Services (LCS), ak ste postupovali podľa pokynov v tomto článku, môžete preskočiť nasadenie integrácie Microsoft Power Platform (predtým známa ako prostredie Common Data Service).
 
 Proces nasadenia Project Operations v Dataverse, aby podporoval duálny zápis, má štyri hlavné kroky:
 
@@ -37,7 +37,7 @@ Na dokončenie tohto postupu sa musíte prihlásiť ako správca.
 3. Vyberte typ prostredia. Ak ste sa zaregistrovali na odber skúšobnej ponuky, stlačte možnosť **Skúšobná verzia (na základe predplatného)**.
 4. Potvrďte oblasť nasadenia.
 5. Aktivujte možnosť **Vytvoriť databázu pre toto prostredie**. 
-6. Potvrďte jazyk a potom potvrďte, že mena sa zhoduje s menou pre vaše finančné a prevádzkové aplikácie.
+6. Potvrďte jazyk a potom potvrďte, že sa mena zhoduje s menou vašich aplikácií na riadenie financií a prevádzok.
 7. Aktivujte možnosť **Aplikácie Dynamics 365** a potvrďte, že je pole **Automaticky nasadiť tieto aplikácie** nastavené na **Žiadne**.
 8. Ak je skupina zabezpečenia požadovaná, pridajte ju.
 9. Výberom položky **Uložiť** vytvoríte prostredie.
@@ -62,4 +62,4 @@ Tento postup môžete dokončiť, iba ak ste pred inštaláciou Project Operatio
 
 ## <a name="link-your-environments"></a><a name="link"></a>Prepojte svoje prostredia
 
-Po Dataverse prostredie, môžete nastaviť prepojenie vo svojich aplikáciách pre financie a prevádzku. Postupujte podľa pokynov v časti [Na prepojenie prostredí použite sprievodcu dvojitým zápisom](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Po nasadení prostredia Dataverse môžete nastaviť prepojenie v aplikáciách na riadenie financií a prevádzok. Postupujte podľa pokynov v časti [Na prepojenie prostredí použite sprievodcu dvojitým zápisom](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

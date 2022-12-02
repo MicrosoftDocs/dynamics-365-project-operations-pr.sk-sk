@@ -1,6 +1,6 @@
 ---
 title: Vytváranie šablóny projektu pomocou funkcie kopírovania projektu
-description: Tento článok poskytuje informácie o tom, ako vytvoriť šablóny projektu pomocou vlastnej akcie Kopírovať projekt.
+description: Tento článok poskytuje informácie o tom, ako vytvoriť šablóny projektu pomocou vlastnej akcie kopírovania projektu.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,40 +25,40 @@ Keď vyberiete **Kopírovať projekt**, aktualizuje sa stav cieľového projektu
 
 ### <a name="name"></a>Name 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Vstupné parametre
 
 Existujú tri vstupné parametre:
 
-- **ReplaceNamedResources** alebo **ClearTeamsAndAssignments** – Nastavte iba jednu z možností. Nenastavujte oboje.
+- **ReplaceNamedResources** alebo **ClearTeamsAndAssignments** – Nastavte iba jednu z možností. Nenastavujte obe.
 
-    - **\{"ReplaceNamedResources": true\}** – Predvolené správanie pre operácie projektu. Všetky pomenované zdroje sú nahradené všeobecnými zdrojmi.
-    - **\{"ClearTeamsAndAssignments": pravda\}** – Predvolené správanie pre Project for the Web. Všetky úlohy a členovia tímu sú odstránené.
+    - **\{"ReplaceNamedResources":true\}** – Predvolené správanie pre Project Operations. Akékoľvek pomenované zdroje sa nahradia všeobecnými zdrojmi.
+    - **\{"ClearTeamsAndAssignments":true\}** – Predvolené správanie pre Project for the Web. Všetky priradenia a členovia tímu sú odstránené.
 
-- **Zdrojový projekt** – Odkaz na entitu zdrojového projektu, z ktorého sa má kopírovať. Tento parameter nemôže byť nulový.
-- **Cieľ** – Odkaz na entitu cieľového projektu, do ktorého sa má kopírovať. Tento parameter nemôže byť nulový.
+- **SourceProject** – Odkaz na entitu zdrojového projektu, z ktorého sa má kopírovať. Tento parameter nemôže mať hodnotu null.
+- **Target** – Odkaz na entitu zdrojového projektu, do ktorého sa má kopírovať. Tento parameter nemôže mať hodnotu null.
 
-Nasledujúca tabuľka poskytuje súhrn troch parametrov.
+Nasledujúca tabuľka uvádza súhrn troch parametrov.
 
 | Parameter                | Type             | Hodnota                 |
 |--------------------------|------------------|-----------------------|
-| ReplaceNamedResources    | Boolean          | **Pravda** alebo **Nepravdivé** |
-| ClearTeamsAndAssignments | Boolean          | **Pravda** alebo **Nepravdivé** |
+| ReplaceNamedResources    | Boolean          | **Pravda** alebo **Nepravda** |
+| ClearTeamsAndAssignments | Boolean          | **Pravda** alebo **Nepravda** |
 | SourceProject            | Odkaz na entitu | Zdrojový projekt    |
 | Target                   | Odkaz na entitu | Cieľový projekt    |
 
-Ďalšie predvolené hodnoty akcií nájdete v časti [Použite akcie webového rozhrania API](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Ďalšie predvolené hodnoty akcií nájdete v časti [Použitie akcií webového rozhrania API](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
-### <a name="validations"></a>Validácie
+### <a name="validations"></a>Overenia
 
-Vykonajú sa nasledujúce overenia.
+Vykonávajú sa tieto overenia.
 
 1. Null kontroluje a získava zdrojové a cieľové projekty, aby potvrdil existenciu oboch projektov v organizácii.
 2. Systém overí, či je cieľový projekt platný na kopírovanie, overením nasledujúcich podmienok:
 
-    - Neexistuje žiadna predchádzajúca aktivita na projekte (vrátane výberu **Úlohy** kartu) a projekt sa vytvorí nanovo.
-    - Neexistuje žiadna predchádzajúca kópia, v tomto projekte nebol požadovaný žiadny import a projekt nemá a **Nepodarilo sa** postavenie.
+    - Neexistuje žiadna predchádzajúca aktivita na projekte (vrátane výberu karty **Úlohy**) a projekt je vytvorený nanovo.
+    - Neexistuje žiadna predchádzajúca kópia, v tomto projekte nebol požadovaný žiadny import a projekt nemá status **Zlyhané**.
 
 3. Operácia nie je volaná pomocou HTTP.
 
@@ -68,7 +68,7 @@ Po vyvolaní akcie bude funkcia **Kopírovať projekt** prehľadávať zobrazeni
 
 ### <a name="example"></a>Príklad
 
-Nasledujúci príklad ukazuje, ako zavolať na **CopyProjectV3** vlastná akcia s **removeNamedResources** súbor parametrov.
+Nasledujúci príklad ukazuje, ako vyvolať vlastnú akciu **CopyProjectV3** pomocou množiny parametrov **removeNamedResources**.
 
 ```C#
 {

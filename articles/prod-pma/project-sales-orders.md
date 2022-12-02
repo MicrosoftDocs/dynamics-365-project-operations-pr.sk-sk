@@ -1,6 +1,6 @@
 ---
 title: Projektové predajné objednávky pre projekty typu „čas a materiál“
-description: Tento článok vysvetľuje, ako vytvoriť projektové zákazky odberateľa pre časové a materiálové projekty.
+description: Tento článok vysvetľuje, ako vytvoriť projektové predajné objednávky pre projekty typu „čas a materiál“.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8933833"
 
 [!include[banner](../includes/banner.md)]
 
-Tento článok popisuje, ako vytvoriť zákazku odberateľa pre projekt. Predajné objednávky je možné vytvoriť iba pre projekty typu **čas a materiál**.
+Tento článok popisuje, ako vytvoriť predajnú objednávku pre projekt. Predajné objednávky je možné vytvoriť iba pre projekty typu **čas a materiál**.
 
 Ak má projekt typu „čas a materiál“ na projektovej zmluve viac zdrojov financovania, musíte povoliť parameter **Povoliť predajné objednávky pre projekty s viacerými zdrojmi financovania** na stránke **Parametre projektového riadenia a účtovníctva**. 
 

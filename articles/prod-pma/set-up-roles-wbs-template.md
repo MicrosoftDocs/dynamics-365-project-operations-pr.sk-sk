@@ -1,6 +1,6 @@
 ---
 title: Nastavenie rol v šablónach štruktúry rozdelenia práce
-description: Tento článok poskytuje informácie o nastavení informácií o rolách v šablónach štruktúry rozpisu práce.
+description: Tento článok poskytuje informácie o nastavení informácií o rolách v šablónach štruktúry rozdelenia práce.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Prehľad priznania výnosov
-description: Tento článok poskytuje informácie o vykazovaní výnosov v projektových operáciách.
+description: Tento článok poskytuje informácie o priznaní výnosov v aplikácii Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8926289"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-V Dynamics 365 Project Operations sa princípy priznania výnosov líšia v závislosti od zvolenej metódy fakturácie pre projekt alebo časť projektu. Tento článok poskytuje informácie o vykazovaní výnosov v projektových operáciách.
+V Dynamics 365 Project Operations sa princípy priznania výnosov líšia v závislosti od zvolenej metódy fakturácie pre projekt alebo časť projektu. Tento článok poskytuje informácie o priznaní výnosov v aplikácii Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transakcie účtované použitím spôsobu fakturácie času a materiálu
 

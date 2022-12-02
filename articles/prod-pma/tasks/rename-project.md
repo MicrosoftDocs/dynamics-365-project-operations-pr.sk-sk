@@ -24,7 +24,7 @@ ms.locfileid: "8683879"
 
 [!include [banner](../../includes/banner.md)]
 
-Etapy projektu môžu slúžiť ako sprievodca životným cyklom projektu. Etapy projektu, ktoré chcete zahrnúť do svojich projektov, môžete definovať v oblasti Etapa projektu na stránke parametrov Projektové riadenie a účtovníctvo. Dynamics 365 Finance poskytuje päť preddefinovaných fáz projektu a tri používateľsky definované fázy. Môžete aktualizovať názov fázy projektu, ktorú používate na sledovanie priebehu projektov. Môžete tiež zadať názvy pre používateľom definované názvy stavov. Táto úloha ukazuje, ako premenovať alebo upraviť etapu projektu a používa množinu údajov USSI.
+Etapy projektu môžu slúžiť ako sprievodca životným cyklom projektu. Etapy projektu, ktoré chcete zahrnúť do svojich projektov, môžete definovať v oblasti Etapa projektu na stránke parametrov Projektové riadenie a účtovníctvo. Dynamics 365 Finance poskytuje päť preddefinovaných etáp projektu a tri etapy definované používateľom. Môžete aktualizovať názov fázy projektu, ktorú používate na sledovanie priebehu projektov. Môžete tiež zadať názvy pre používateľom definované názvy stavov. Táto úloha ukazuje, ako premenovať alebo upraviť etapu projektu a používa množinu údajov USSI.
 
 1. Prejdite na Projektové riadenie a účtovníctvo > Nastaviť > Parametre projektového riadenia a účtovníctva.
 2. Kliknite na kartu Etapa projektu.

@@ -1,6 +1,6 @@
 ---
 title: Kľúčové pojmy v subdodávkach
-description: Tento článok vysvetľuje niektoré kľúčové koncepty, ktoré sa vzťahujú na subdodávky v Microsoft Dynamics 365 Project Operations.
+description: Tento článok vysvetľuje niektoré kľúčové pojmy, ktoré sa vzťahujú na subdodávateľské zmluvy v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9522768"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-V tomto článku sú vysvetlené niektoré kľúčové pojmy, ktoré by ste si mali byť vedomí predtým, ako začnete používať funkciu subdodávok v Microsofte Dynamics 365 Project Operations.
+Tento článok vysvetľuje niektoré kľúčové pojmy, ktoré by ste mali poznať, než začnete používať funkciu subdodávateľských zmlúv v Microsoft Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Zmluvná jednotka v subdodávke
 

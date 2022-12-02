@@ -1,6 +1,6 @@
 ---
 title: Výkon plánovania projektového zdroja
-description: Tento článok poskytuje informácie o tom, ako zlepšiť výkon plánovania zdrojov pre veľký počet projektov.
+description: Tento článok poskytuje informácie o tom, ako zlepšiť výkon plánovania prostriedkov pre veľký počet projektov.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Platba vopred v hotovosti
-description: Tento článok poskytuje informácie o peňažných zálohách.
+description: Tento článok poskytuje informácie o platbách vopred v hotovosti.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Pred odoslaním výkazu výdavkov môžete vybrať hotovostnú zálohu, ktorá s
  
  Keď sú povolené tieto funkcie:
  
-  - Pre každý riadok výdavkov môžete pridať jednu alebo viac peňažných záloh.
+  - Pre každý riadok výdavkov môžete pridať jeden alebo viac hotovostných záloh.
   - Disponibilný zostatok peňažnej zálohy je viditeľný v reálnom čase po uložení výkazu výdavkov. To vám umožňuje súčasne spracovávať výdavkové transakcie a vracať hotovostné transakcie.
   - Pre jednu transakciu výdavkov môžete vybrať viac hotovostných záloh.
   - Údaje o vyrovnaní hotovostných záloh sú k dispozícii pomocou dotazu. 

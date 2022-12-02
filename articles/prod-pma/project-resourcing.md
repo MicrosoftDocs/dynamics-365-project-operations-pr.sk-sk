@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka projektových zdrojov
-description: Tento článok poskytuje informácie o projektových zdrojoch.
+description: Tento článok poskytuje informácie o zabezpečovaní zdrojov pre projekty.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8924035"
 
 [!include [banner](../includes/banner.md)]
 
-Tento článok poskytuje informácie o projektových zdrojoch.
+Tento článok poskytuje informácie o zabezpečovaní zdrojov pre projekty.
 
-Jednou z výziev pre projektových manažérov a manažérov zdrojov počas fázy plánovania projektu je alokácia zdrojov, kde musia určiť a vyhradiť správny zdroj pre prácu na projekte. V Dynamics 365 Finance vám možnosti zdrojov pre projekty umožňujú definovať roly, s ktorými sa zaobchádza ako s dočasnými zdrojmi, ktoré možno vyhradiť pre konkrétnu zákazku alebo časť zákazky. Tento typ zabezpečovania zdrojov umožňuje projektovým manažérom a správcom zdrojov splniť nasledujúce úlohy:
+Jednou z výziev pre projektových manažérov a manažérov zdrojov počas fázy plánovania projektu je alokácia zdrojov, kde musia určiť a vyhradiť správny zdroj pre prácu na projekte. V Dynamics 365 Finance vám možnosti zdrojov pre projekty umožňujú definovať roly, ktoré sa považujú za dočasné zdroje, ktoré je možné rezervovať pre konkrétnu zákazku alebo časť zákazky. Tento typ zabezpečovania zdrojov umožňuje projektovým manažérom a správcom zdrojov splniť nasledujúce úlohy:
 
 - Definovať rolu, ktorá má požadované kompetencie, aby bolo ľahké spárovať zdroje.
 - Pomocou rolí definovať počiatočný plán interakcie, ktorý je založený na rezervovaných zdrojoch.
@@ -41,7 +41,7 @@ Jednou z výziev pre projektových manažérov a manažérov zdrojov počas fáz
 
 Keď bude plánovanie projektu pokračovať, plánované zdroje je možné nahradiť personálnymi zdrojmi. Vedúci projektu sa môže tiež vrátiť späť a aktualizovať rezervácie zdrojov v ktorejkoľvek fáze projektu.
 
-Nasledujúce články poskytujú informácie o úlohách, ktoré je potrebné dokončiť, keď pracujete na projektoch so zdrojmi.
+Nasledujúce články poskytujú informácie o úlohách, ktoré je potrebné splniť, keď pracujete na financovaní projektov.
 
 - [Nastavenie zdrojov pre projekty](set-up-project-resources.md)
 - [Spravovanie kompetencií v oblasti zdrojov](manage-resource-competencies.md)

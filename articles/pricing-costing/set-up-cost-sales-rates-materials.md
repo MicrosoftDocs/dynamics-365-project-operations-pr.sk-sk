@@ -1,6 +1,6 @@
 ---
 title: Nastavenie nákladových a predajných sadzieb pre materiály
-description: Tento článok poskytuje informácie o tom, ako nastaviť náklady a predajné sadzby pre materiály používané v projektoch.
+description: Tento článok poskytuje informácie o tom, ako nastaviť nákladové a predajné sadzby pre materiály použité na projektoch.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ Ak chcete nastaviť nákladové a predajné sadzby pre produkty, postupujte takt
 2. V časti **Položky v cenníku** v ponuke vedľajšej mriežky vyberte **Nová položka cenníka**. 
 3. Na stránke **Rýchle vytvorenie** zadajte produkt a jednotku, pre ktorú vytvárate novú cenu.
 
-Ďalšie informácie o tom, ako definovať ceny pre katalógové položky, nájdete v časti [Definujte ceny produktov pomocou cenníkov a cenníkových položiek](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) a [Desatinná presnosť v mene a cene](/dynamics365/sales/decimal-precision-currency-pricing).
+Ďalšie informácie o definovaní cien pre položky katalógu nájdete v časti [Definovanie cien produktov pomocou cenníkov a položiek v cenníkoch](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) a [Desatinná presnosť v mene a cenách](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations nepodporuje všetky metódy tvorby cien pre produkty ako Dynamics 365 Sales. Jediná podporovaná metóda oceňovania produktov, ktoré sa majú použiť na projektoch, je *Suma meny*.
+> Dynamics 365 Project Operations nepodporuje všetky metódy tvorby cien pre produkty ako Dynamics 365 Sales. Jediná podporovaná metóda oceňovania produktov, ktoré sa majú použiť v projektoch, je *Čiastka v mene*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

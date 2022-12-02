@@ -1,6 +1,6 @@
 ---
 title: Predvolené nastavenie finančných dimenzií pre zadania času súvisiace s projektom
-description: Tento článok poskytuje informácie o tom, ako sa predvolené finančné dimenzie aplikujú na časové položky.
+description: Tento článok poskytuje informácie o tom, ako sa predvolené finančné dimenzie aplikujú na zadania času.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8916583"
 
 [!include [banner](../includes/banner.md)]
 
-Keď použijete finančné dimenzie pre časové položky projektu, predvolená hodnota dimenzie sa posúdi v nasledujúcom poradí:
+Keď použijete finančné dimenzie pre zadania času v projekte, predvolená hodnota dimenzie sa vyhodnotí v nasledujúcom poradí:
 
 1. Prostriedok
 2. Project
 3. Zdroj financovania
 
-Ak je napríklad na zdroji špecifikovaná predvolená dimenzia, predvolená hodnota sa použije nad predvolenú hodnotu zadanú pre projekt. Podobne, ak je v projekte špecifikovaná predvolená dimenzia, predvolená hodnota sa použije nad predvolenú hodnotu, ktorá je zadaná pre zdroj financovania.
+Ak je napríklad na zdroji zadaná predvolená dimenzia, predvolená hodnota sa použije nad predvolenú hodnotu zadanú pre projekt. Podobne, ak je v projekte zadaná predvolená dimenzia, predvolená hodnota sa použije nad predvolenou hodnotou, ktorá je zadaná pre zdroj financovania.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

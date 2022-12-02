@@ -1,6 +1,6 @@
 ---
 title: Správa subdodávateľských zmlúv v aplikácii Project Operations
-description: Tento článok poskytuje prehľad o komplexnom procese riadenia subdodávok zvyčajne v organizáciách založených na projekte.
+description: Tento článok prináša prehľad celého procesu správy subdodávateľských zmlúv, typicky v projektových organizáciách.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522345"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Tento článok poskytuje prehľad o komplexnom procese riadenia subdodávok v projektových organizáciách. Subdodávky služieb sa spravidla riadia tokom obchodného procesu, ktorý je znázornený na nasledujúcom diagrame.
+Tento článok prináša prehľad celého procesu správy subdodávateľských zmlúv v projektových organizáciách. Subdodávky služieb sa spravidla riadia tokom obchodného procesu, ktorý je znázornený na nasledujúcom diagrame.
 
 ![Postup procesu subdodávateľských zmlúv](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Riadok subdodávateľskej zmluvy môže byť založený na množstve alebo na pr
 
 Keď je riadok subdodávateľskej zmluvy **založený na množstve**, množstvo nakupované na riadku subdodávateľskej zmluvy za čas, výdavok alebo materiál možno použiť na akýkoľvek projekt.
 
-Keď je riadok subdodávateľskej zmluvy **založený na práci**, riadok subdodávateľskej zmluvy sa mapuje na súbor prác reprezentovaný uzlom v pláne projektu. Hodnota riadka subdodávateľskej zmluvy je súčtom všetkých komponentov, ktoré sú potrebné na dodanie tohto diela. Tieto sú modelované ako podrobnosti riadka subdodávateľskej zmluvy a môžu to byť kolekcie času, nákladov alebo materiálov. V prípade riadka subdodávateľskej zmluvy založenej na práci je riadok subdodávateľskej zmluvy taktiež vyhradený jednému projektu. Tieto typy subdodávok nie sú v súčasnosti podporované prevádzkou projektu.
+Keď je riadok subdodávateľskej zmluvy **založený na práci**, riadok subdodávateľskej zmluvy sa mapuje na súbor prác reprezentovaný uzlom v pláne projektu. Hodnota riadka subdodávateľskej zmluvy je súčtom všetkých komponentov, ktoré sú potrebné na dodanie tohto diela. Tieto sú modelované ako podrobnosti riadka subdodávateľskej zmluvy a môžu to byť kolekcie času, nákladov alebo materiálov. V prípade riadka subdodávateľskej zmluvy založenej na práci je riadok subdodávateľskej zmluvy taktiež vyhradený jednému projektu. Tieto typy subdodávateľských zmlúv nie sú v súčasnosti podporované v Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

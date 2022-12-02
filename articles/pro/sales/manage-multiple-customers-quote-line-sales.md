@@ -1,6 +1,6 @@
 ---
 title: Správa viacerých zákazníkov v riadkoch cenových ponúk založených na projekte – čiastočné
-description: Tento článok popisuje, ako spravovať viacerých zákazníkov na projektových riadkoch cenovej ponuky.
+description: Tento článok popisuje, ako spravovať viacerých zákazníkov v riadkoch cenovej ponuky založenej na projekte.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

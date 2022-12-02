@@ -17,22 +17,22 @@ ms.locfileid: "9709417"
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Microsoft Dynamics 365 Project Operations používa dve roly zabezpečenia, ktoré umožňujú schvaľovanie záznamov času, nákladov a materiálu:
+Microsoft Dynamics 365 Project Operations používa dve roly zabezpečenia, ktoré umožňujú schvaľovanie záznamov času, výdavkov a materiálu:
 
 - Schvaľovateľ projektu
-- Administrátor schvaľovateľa projektu
+- Správca schvaľovateľa projektu
 
 ## <a name="project-approver"></a>Schvaľovateľ projektu
 
-Musíte mať **Schvaľovateľ projektu** rola zabezpečenia na schválenie projektového času, výdavkov a materiálových vstupov. Musíte mať prístup aj k príslušným spriazneným subjektom, ako napr **Projekt**. Tento prístup môže prideliť niekto, kto má **Projektový manažér** úlohu. Okrem toho musíte byť členom tímu projektu a označený ako schvaľovateľ.
+Musíte mať rolu zabezpečenia **Schvaľovateľ projektu** na schválenie zadaní času, výdavkov a materiálov pre projekt. Musíte mať aj prístup aj k príslušným súvisiacim entitám, ako je napr **Projekt**. Tento prístup môže prideliť niekto, kto má rolu **Projektový manažér**. Okrem toho musíte byť členom tímu projektu a označený ako schvaľovateľ.
 
-Ak chcete schvaľovať neprojektové príspevky, musíte byť manažérom zadávateľa.
+Ak chcete schvaľovať neprojektové zadania, musíte byť manažérom odosielateľa.
 
-## <a name="project-approver-admin"></a>Administrátor schvaľovateľa projektu
+## <a name="project-approver-admin"></a>Správca schvaľovateľa projektu
 
 > [!NOTE]
-> The [Sady schvaľovania](approval-sets.md) Funkcia správcu projektu musí byť povolená.
+> Pred použitím funkcie Správca schvaľovateľa projektu musí byť povolená funkcia [Množiny schválení](approval-sets.md).
 
-The **Administrátor schvaľovateľa projektu** rola zabezpečenia umožňuje používateľom obísť pravidlá a umožňuje schvaľovanie záznamov vo všetkých projektoch. Priradenie tejto roly obíde logiku overovania, ktorá vyžaduje členstvo v tíme a označenie ako schvaľovateľa. Musíte mať prístup k príslušným súvisiacim tabuľkám, ako napr **Projekt**, prostredníctvom rolí zabezpečenia, ktoré vám boli pridelené.
+Rola zabezpečenia **Správca schvaľovateľa projektu** umožňuje používateľom obísť pravidlá a umožňuje schvaľovanie zadaní vo všetkých projektoch. Priradenie tejto roly obíde logiku overovania, ktorá vyžaduje členstvo v tíme a označenie ako schvaľovateľa. Musíte mať prístup k príslušným súvisiacim tabuľkám, ako napr. **Projekt**, prostredníctvom rolí zabezpečenia, ktoré vám boli pridelené.
 
-Používateľský kontext SYSTEM obchádza overenia rovnakým spôsobom ako správca schvaľovateľa projektu rola zabezpečenia.
+Používateľský kontext SYSTEM obchádza overenia rovnakým spôsobom ako rola zabezpečenia Správca schvaľovateľa projektu.
