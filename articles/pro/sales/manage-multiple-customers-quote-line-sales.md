@@ -1,23 +1,23 @@
 ---
-title: Správa viacerých zákazníkov v riadkoch cenových ponúk založených na projekte – čiastočné
-description: Tento článok popisuje, ako spravovať viacerých zákazníkov v riadkoch cenovej ponuky založenej na projekte.
+title: Spravujte viacerých zákazníkov na riadkoch projektovej ponuky
+description: Tento článok popisuje, ako spravovať viacerých zákazníkov na riadkoch projektovej ponuky.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927807"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824458"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Správa viacerých zákazníkov v riadkoch cenových ponúk založených na projekte – čiastočné
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Spravujte viacerých zákazníkov na riadkoch projektovej ponuky
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Riadky cenových ponúk založených na projekte podporujú scenáre, kde každý riadok cenovej ponuky obsahuje zoznam zákazníkov, ktorí zaň platia. Tento zoznam zákazníkov v riadku cenovej ponuky založenej na projekte môže byť rovnaký ako zoznam zákazníkov v cenovej ponuke. Môžete tiež zmeniť zoznam zákazníkov, aby sa líšili. Po získaní ponuku cenovej ponuky na projekt sa zoznam zákazníkov v riadku cenovej ponuky založenej na projekte skopíruje do zodpovedajúceho riadku zmluvy založenej na projekte, aby sa vytvorila prípadná zmluva o projekte. Zákazníci projektovej ponuky založenej na projekte sa skopírujú do projektovej zmluvy.
+Riadky ponuky projektu podporujú scenáre, kde každý riadok ponuky obsahuje zoznam zákazníkov, ktorí za ňu platia. Tento zoznam zákazníkov v riadku cenovej ponuky založenej na projekte môže byť rovnaký ako zoznam zákazníkov v cenovej ponuke. Môžete tiež zmeniť zoznam zákazníkov, aby sa líšili. Po získaní ponuku cenovej ponuky na projekt sa zoznam zákazníkov v riadku cenovej ponuky založenej na projekte skopíruje do zodpovedajúceho riadku zmluvy založenej na projekte, aby sa vytvorila prípadná zmluva o projekte. Zákazníci projektovej ponuky založenej na projekte sa skopírujú do projektovej zmluvy.
 
 Keď fakturujete prípadnú projektovú zmluvu, zoznam zákazníkov v riadku zmluvy na základe projektu má prednosť pred zoznamom na projektovej zmluve. Zoznam zákazníkov na zmluve o projekte sa používa na predvolenie nových riadkov zmlúv o projekte.
 

@@ -1,31 +1,29 @@
 ---
-title: Správa potenciálnych zákazníkov
+title: Spravujte potenciálnych zákazníkov na základe projektu
 description: Tento článok poskytuje informácie o správe potenciálnych zákazníkov na základe projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920217"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825819"
 ---
-# <a name="manage-leads"></a>Správa potenciálnych zákazníkov
+# <a name="manage-project-based-leads"></a>Spravujte potenciálnych zákazníkov na základe projektu
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 Potenciálni zákazníci na základe projektu môžu byť spravovaní a kvalifikovaní v Project Operations. Proces riadenia potenciálnych zákazníkov zahŕňa vytváranie potenciálnych zákazníkov na základe práce a kvalifikáciu týchto potenciálnych zákazníkov. 
 
-## <a name="project-sales-leads"></a>Potenciálni zákazníci projektu
-
 V časti **Predaj** na ľavej navigačnej table otvorte stránku so zoznamom **Potenciálni zákazníci** na zobrazenie zoznamu všetkých záznamov potenciálnych zákazníkov v systéme. Zoznam uvedených potenciálnych zákazníkov je založený na práci a iných typoch potenciálnych zákazníkov, ktorých je možné vytvoriť, ak máte aj aplikácie Dynamics 365 Sales alebo Dynamics 365 Field Service.
 
 Môžete vytvoriť filtrované zobrazenie na zobrazenie iba potenciálnych zákazníkov na základe projektu vytvorením filtra pre hodnotu **Typ**. Môžete napríklad vybrať, aby sa zobrazovali iba potenciálni zákazníci na základe práce.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Vytvorte nového potenciálneho zákazníka pre dohodu na základe projektu
+## <a name="create-a-new-project-based-lead"></a>Vytvorte nového potenciálneho zákazníka založeného na projekte 
 
 Keď je potenciálny zákazník na základe projektu kvalifikovaný, vytvorí sa príležitosť a obchodný vzťah. Príležitosť na základe projektu je východiskovým bodom pre aktivity zamerané na predaj vo fáze Príležitosť. Príležitosti založené na projekte majú jedinečné možnosti, ktoré sú potrebné na predaj projektovej úlohy. Medzi tieto možnosti patria:
 

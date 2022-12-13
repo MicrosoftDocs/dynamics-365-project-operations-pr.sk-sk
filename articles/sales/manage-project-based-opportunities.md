@@ -1,19 +1,19 @@
 ---
-title: Správa príležitostí založených na projekte
+title: Správa projektových príležitostí
 description: Tento článok poskytuje informácie o tom, ako pracovať s príležitosťami súvisiacimi s projektmi.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 56eba38476dd5b49f0043eee5d411d51f9bf56b8
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933235"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825351"
 ---
-# <a name="manage-project-based-opportunities"></a>Správa príležitostí založených na projekte
+# <a name="manage-project-opportunities"></a>Správa projektových príležitostí
 
 _**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 

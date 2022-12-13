@@ -1,27 +1,27 @@
 ---
-title: Plány faktúr v riadkoch cenovej ponuky založenej na projekte
+title: Rozvrhy faktúr na riadkoch projektovej ponuky
 description: Tento článok poskytuje informácie o vytváraní harmonogramov faktúr a medzníkov pre riadky cenových ponúk.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918331"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825773"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Plány faktúr v riadkoch cenovej ponuky založenej na projekte
+# <a name="invoice-schedules-on-project-quote-lines"></a>Rozvrhy faktúr na riadkoch projektovej ponuky
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Riadok ponuky založenej na projekte umožňuje vyjadriť plán faktúr. Táto možnosť je voliteľná počas fázy cenovej ponuky, pretože aplikácia nepodporuje fakturáciu projektu, keď je naviazaná na riadok cenovej ponuky. Fakturácia je povolená až po získaní cenovej ponuky. Jediným následným dopadom vytvorenia harmonogramu faktúr počas fázy cenovej ponuky je, že sa tento harmonogram faktúr skopíruje do riadku kontraktu založeného na projekte. Ak počas fázy cenovej ponuky nevytvoríte harmonogram faktúr, budete tak môcť urobiť na riadku zmluvy na základe projektu.
+Riadok projektovej ponuky umožňuje vyjadriť harmonogram faktúr. Táto možnosť je voliteľná počas fázy cenovej ponuky, pretože aplikácia nepodporuje fakturáciu projektu, keď je naviazaná na riadok cenovej ponuky. Fakturácia je povolená až po získaní cenovej ponuky. Jediným následným dopadom vytvorenia harmonogramu faktúr počas fázy cenovej ponuky je, že sa tento harmonogram faktúr skopíruje do riadku kontraktu založeného na projekte. Ak počas fázy cenovej ponuky nevytvoríte harmonogram faktúr, budete tak môcť urobiť na riadku zmluvy na základe projektu.
 
 Celkovo je cieľom plánov faktúr umožniť automatické vytváranie konceptov faktúr pre riadok zmluvy na základe projektu. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Vytvorte harmonogram časových a materiálových faktúr pre cenovú ponuku založenú na projekte
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Vytvorte časový a materiálový rozvrh faktúr pre riadok projektovej ponuky
 
 Keď je metóda fakturácie pre riadok cenovej ponuky založenej na projekte Čas a materiál, systém vygeneruje časový plán faktúr. Ak chcete automaticky generovať harmonogram faktúr na základe dátumu, postupujte nasledovne.
 
@@ -36,7 +36,7 @@ Keď je metóda fakturácie pre riadok cenovej ponuky založenej na projekte Ča
     - **Dátum uzávierky transakcie** je nastavený deň pred **Dátumom spustenia faktúry**.
     - **Stav spustenia** je automaticky nastavený **Nie je spustený**. Keď sa úloha automatického vytvárania faktúr spustí pre určitý dátum spustenia faktúry, aktualizuje sa toto pole buď na **Spustenie bolo úspešné** alebo **Spustenie zlyhalo**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Vytvorenie plánu faktúr s pevnou cenou pre cenovú ponuku založenú na projekte
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Vytvorte plán faktúry s pevnou cenou pre riadok cenovej ponuky projektu
 
 Keď má riadok cenovej ponuky založenej na projekte spôsob fakturácie **Opravené**, systém vytvorí plán fakturácie na základe medzníka. Vykonajte nasledujúce kroky a automaticky vygenerujte tento plán pre pevne nastavenú skupinu medzníkov, ktoré sú rovnomerne rozložené pre kalendárne obdobie.
 

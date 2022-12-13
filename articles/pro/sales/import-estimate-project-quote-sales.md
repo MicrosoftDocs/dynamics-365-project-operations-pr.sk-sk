@@ -1,19 +1,19 @@
 ---
-title: Import odhadov pre projekt do riadka cenovej ponuky založenej na projekte – čiastočné
-description: Tento článok poskytuje informácie o tom, ako importovať odhady z projektu do riadka cenovej ponuky.
+title: Importujte odhady z projektu do riadku cenovej ponuky projektu
+description: Tento článok poskytuje informácie o tom, ako importovať odhady z projektu do riadku cenovej ponuky projektu.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61c9660f18882d12a7da8965c23b65e408256219
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917319"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824506"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Import odhadov pre projekt do riadka cenovej ponuky založenej na projekte 
+# <a name="import-estimates-from-a-project-to-a-project-quote-line"></a>Importujte odhady z projektu do riadku cenovej ponuky projektu 
 
 _**Vzťahuje sa na:** Čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 

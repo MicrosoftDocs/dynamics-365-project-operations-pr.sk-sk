@@ -1,19 +1,19 @@
 ---
-title: Vytváranie plánov faktúr v riadku zmluvy založenej na projekte – čiastočné
+title: Vytvorte rozvrhy faktúr na riadku projektovej zmluvy
 description: Tento článok poskytuje informácie o vytváraní plánov faktúr a medzníkov.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 403b993c3f61ca5f0fb1bac45331aa0613d16439
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1a6d0647ee012212a74a674cfa4e995d0e375b77
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921137"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824740"
 ---
-# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Vytváranie plánov faktúr v riadku zmluvy založenej na projekte – čiastočné
+# <a name="create-invoice-schedules-on-a-project-contract-line"></a>Vytvorte rozvrhy faktúr na riadku projektovej zmluvy
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 

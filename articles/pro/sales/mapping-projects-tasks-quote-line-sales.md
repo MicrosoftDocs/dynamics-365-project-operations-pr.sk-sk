@@ -1,23 +1,23 @@
 ---
-title: Mapovanie projektov a úloh na riadok cenovej ponuky založenej na projekte
-description: Tento článok poskytuje informácie o tom, ako mapovať projekty a úlohy na riadok úlohy založenej na projekte.
+title: Mapujte projekty a úlohy na riadky projektovej ponuky
+description: Tento článok poskytuje informácie o tom, ako mapovať projekty a úlohy na riadky ponuky projektu.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917181"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824366"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapovanie projektov a úloh na riadok cenovej ponuky založenej na projekte
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mapujte projekty a úlohy na riadky projektovej ponuky
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Na riadkoch cenových ponúk založených na projektoch môžete mapovať konkrétne úlohy projektu, ktorý je už priradený k riadku cenovej ponuky.
+Na riadkoch ponuky projektu môžete mapovať konkrétne úlohy projektu, ktorý je už priradený k riadku ponuky.
 
 Keď mapujete úlohy na riadok cenovej ponuky, nasledujúce položky definované v riadku cenovej ponuky sa budú vzťahovať iba na tieto úlohy:
 

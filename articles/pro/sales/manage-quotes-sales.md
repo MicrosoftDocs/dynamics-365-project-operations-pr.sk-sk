@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911661"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826101"
 ---
 # <a name="manage-project-quotes"></a>Správa projektových cenových ponúk
 
@@ -23,7 +23,7 @@ V Dynamics 365 Project Operations sú projektové cenové ponuky navrhnuté tak,
   - Podrobnosti riadka cenovej ponuky, ktoré identifikujú a odhadujú prácu pre každý komponent alebo riadok cenovej ponuky na vysokej úrovni. Odhady plánu alebo dátumu a finančné aspekty práce sú zviazané s riadkom cenovej ponuky.
   - Pre každý riadok cenovej ponuky sú nastavené zmluvné modely a fakturovateľné komponenty. Toto nastavenie pomáha odhadnúť rozloženie výnosov, výdavkov a ziskovosti pre každý riadok cenovej ponuky a celkovú cenovú ponuku.
 
-## <a name="view-all-project-based-quotes"></a>Zobrazenie všetkých projektových cenových ponúk
+## <a name="view-all-project-quotes"></a>Pozrite si všetky ponuky projektov
 
 Zoznam všetkých projektových cenových ponúk je uvedený na stránke so zoznamom **Cenové ponuky**. 
 

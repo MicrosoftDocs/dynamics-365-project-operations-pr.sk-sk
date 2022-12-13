@@ -1,21 +1,21 @@
 ---
-title: Kopírovanie cenových ponúk založených na projekte
-description: Tento článok poskytuje informácie o tom, ako kopírovať cenové ponuky založené na projekte v Project Operations.
+title: Kopírovanie projektových cenových ponúk
+description: Tento článok poskytuje informácie o tom, ako kopírovať cenové ponuky projektu v časti Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6c3b964d89d6d24ae5d32dd9e5e79fcd1e90c19d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4f865a4c8a541d6a9c92c5f58a4ed2ed32891eb0
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914927"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825326"
 ---
-# <a name="copy-project-based-quotes"></a>Kopírovanie cenových ponúk založených na projekte
+# <a name="copy-project-quotes"></a>Kopírovanie projektových cenových ponúk
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Novú cenovú ponuku projektu môžete ľahko vytvoriť skopírovaním existujúcej ponuky. 
 

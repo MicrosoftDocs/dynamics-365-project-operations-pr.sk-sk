@@ -1,25 +1,25 @@
 ---
-title: Odhad riadka zmluvy založenej na projekte – čiastočné
+title: Odhadnite líniu projektovej zmluvy
 description: Tento článok poskytuje informácie o odhadoch v riadku zmluvy založenej na projekte.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914421"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824787"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Odhad riadka zmluvy založenej na projekte – čiastočné
+# <a name="estimate-a-project-contract-line"></a>Odhad riadka projektovej zmluvy
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-V rámci Dynamics 365 Project Operations má riadok zmluvy založenej na projekte podrobnosti, ktoré pomáhajú odhadnúť náklady a potenciálne príjmy z práce súvisiacej s dodaním riadka zmluvy.
+V Dynamics 365 Project Operations obsahuje riadok projektovej zmluvy podrobnosti, ktoré pomáhajú odhadnúť náklady a potenciálne výnosy z práce spojenej s dodaním zmluvného radu.
 
-Ak chcete odhadnúť riadok zmluvy založenej na projekte, prejdite na kartu **Podrobnosti o riadku zmluvy** na **Riadku zmluvy** založenej na projekte.  Existujú dva spôsoby, ako vytvoriť odhad na riadku zmluvy založenej na projekte:
+Ak chcete odhadnúť riadok projektovej zmluvy, prejdite na kartu **Podrobnosti riadku zmluvy** na projektovom **riadku zmluvy**.  Existujú dva spôsoby, ako vytvoriť odhad na riadku zmluvy založenej na projekte:
 
    - Vytvorte odhad priamo na riadku zmluvy manuálnym pridaním podrobností riadka zmluvy.
    - Vytvorte projekt a plán projektu a potom projekt a úlohy priraďte k riadku zmluvy projektu. To umožňuje proces, pomocou ktorého môžete importovať odhad plánu projektu do riadka zmluvy na základe komponentov zahrnutých v riadku zmluvy.

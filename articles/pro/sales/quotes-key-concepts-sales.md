@@ -1,17 +1,17 @@
 ---
-title: Cenové ponuky – Kľúčové koncepty – čiastočné
+title: Koncepty jedinečné pre projektové cenové ponuky
 description: Tento článok poskytuje informácie o používaní projektových cenových ponúk v Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916997"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825913"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Koncepty jedinečné pre projektové cenové ponuky
 
@@ -82,9 +82,13 @@ Plány faktúr sú špecifické pre každý riadok cenovej ponuky a tiež sú vo
 
 Cenové ponuky Project Operations sú postavené na cenových ponukách Dynamics 365 Sales. Mali by ste si však uvedomiť niekoľko dôležitých rozdielov vo funkčnosti:
 
-- Akcie **Revidovať** a **Aktivovať** nie sú podporované.
+
 - Cenové ponuky v Project Operations majú dva rôzne typy riadkov. Jeden je pre projekty a druhý pre produkty.
 - Cenové ponuky v Project Operations majú svoj vlastný formulár a prvky používateľského rozhrania, obchodné pravidlá, obchodnú logiku v doplnkoch a skripty na strane klienta, vďaka ktorým sú oproti cenovým ponukám v Sales jedinečné.
+- Predajné ponuky vám umožňujú pripojiť k cenovej ponuke viacero objednávok. V Projektových operáciách môže byť k cenovej ponuke projektu pripojená iba jedna projektová zmluva.
+- Keď vyhráte cenovú ponuku, súvisiaca príležitosť môže zostať otvorená. Po víťaznej projektovej cenovej ponuke sa uzavrie súvisiaca príležitosť.
+- Predajná ponuka nezahŕňa niektoré polia a koncepty, ktoré sú zahrnuté v ponuke projektu. Polia zahŕňajú **zmluvnú jednotku**, **Account Manager** a **faktúra na kontaktné meno**.  
+- **Typ**: Predajné cenové ponuky a projektové cenové ponuky sú tiež identifikované poľom založeným na množine možností – **Typ**. Pre predajnú ponuku má toto pole hodnotu **Založené na položke**. Pre projektovú cenovú ponuku, má hodnotu **založené na práci**.
 
 Z týchto dôvodov sa neodporúča používať striedavo cenové ponuky v Sales a cenové ponuky v Project Operations.
 

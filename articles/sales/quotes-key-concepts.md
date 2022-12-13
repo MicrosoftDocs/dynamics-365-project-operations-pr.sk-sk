@@ -1,8 +1,8 @@
 ---
-title: Cenové ponuky – Kľúčové koncepty
-description: Tento článok poskytuje informácie o cenových ponukách projektov a cenových ponukách predaja dostupných v Project Operations.
+title: Koncepty jedinečné pre cenové ponuky založené na projekte
+description: Tento článok poskytuje informácie o ponukách projektov v spoločnosti Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912535"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824347"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Koncepty jedinečné pre projektové cenové ponuky
+# <a name="concepts-unique-to-project-based-quotes"></a>Koncepty jedinečné pre cenové ponuky založené na projekte
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-V Dynamics 365 Project Operations existujú dva typy cenových ponúk, projektové a predajné. Tieto dva typy cenových ponúk sa líšia nasledujúcimi spôsobmi:
+Skôr ako začnete používať ponuky projektov v Microsoft Dynamics 365 Project Operations, mali by ste poznať nasledujúce kľúčové pojmy.
 
-- **Mriežky pre riadkové položky**: V predajnej cenovej ponuke existuje len jedna mriežka pre položky v riadku. Projektová cenová ponuka má dve mriežky pre riadkové položky. Jedna mriežka je pre projektové riadky a druhá pre produktové riadky.
-- **Aktivácia a revízie**: Predajné cenové ponuky podporujú aktiváciu a revízie. Tieto procesy nie sú v prípade projektovej cenovej ponuky podporované.
-- **Pripojené objednávky**: K predajnej cenovej ponuke môžete priložiť viacero objednávok. K projektovej cenovej ponuke je možné priložiť iba jednu zmluvu projektu.
-- **Víťazná cenová ponuka**: Keď vyhráte predajnú cenovú ponuku, príslušná príležitosť môže zostať otvorená. Po víťaznej projektovej cenovej ponuke sa uzavrie súvisiaca príležitosť.
-- **Polia a koncepty**: Predajná cenová ponuka nezahŕňa niektoré polia a koncepty, ktoré sú súčasťou projektovej cenovej ponuky. Polia zahŕňajú **zmluvnú jednotku**, **Account Manager** a **faktúra na kontaktné meno**.  
-- **Typ**: Predajné cenové ponuky a projektové cenové ponuky sú tiež identifikované poľom založeným na množine možností – **Typ**. Pre predajnú ponuku má toto pole hodnotu **Založené na položke**. Pre projektovú cenovú ponuku, má hodnotu **založené na práci**.
+## <a name="owning-company"></a>Vlastniaca spoločnosť
 
-Tento článok sa zameriava na detaily projektových ponúk.
+Vlastník zastupuje právnickú osobu, ktorá vlastní dodávku projektu. Zákazník na cenovej ponuke by mal byť platným zákazníkom v danej právnickej osobe vo finančných a prevádzkových aplikáciách. Mena vlastníckej spoločnosti a mena zmluvnej jednotky, ktorá je vybraná na základe projektovej ponuky, sa musia zhodovať.
 
-Projektová cenová ponuka v Project Operations môže mať viac riadkov položiek alebo riadkov cenovej ponuky. V skutočnosti, projektová cenová ponuka má dve mriežky pre riadkové položky. Jedna mriežka je pre riadky založené na projekte, ktoré umožňujú podrobné odhady. Druhá mriežka je pre riadky založené na produkte, ktoré používajú jednoduchú jednotkovú cenu a prístup založený na množstve.
+## <a name="contracting-unit"></a>Zmluvná jednotka
 
-- **Založené na projekte**: Hodnota uvedené v cenovej ponuke je určená po odhadnutí, koľko práce je potrebnej. Prácu môžete odhadnúť na vysokej úrovni, priamo ako podrobnosti o riadku pod každým riadkom cenovej ponuky, alebo na základe prízemných odhadov pomocou projektu a plánu projektu. Riadky cenovej ponuky založené na projekte sa nachádzajú iba v cenových ponukách založených na projekte, ktoré sú vytvorené pomocou Project Operations. Tento typ riadka cenovej ponuky je prispôsobeným formulárom v riadkoch cenovej ponuky, ktoré sú k dispozícii v Microsoft Dynamics 365 Sales.
+Zmluvná jednotka predstavuje divíziu alebo prax, ktorá vlastní dodávku projektu. Pre každú zmluvnú jednotku môžete nastaviť náklady na zdroj. Keď zadáte náklady na zdroje pre zdroj v zmluvnej jednotke, môžete nastaviť rôzne nákladové sadzby pre zdroje, od ktorých si zmluvná jednotka požičiava, alebo pre iné divízie alebo postupy v podniku. Tieto nákladové sadzby sa označujú ako transferové ceny, požičiavanie zdrojov alebo výmenné ceny. Keď nastavujete náklady na požičiavanie zdrojov z iných divízií, môžete nastaviť nákladové sadzby v mene divízie požičiavania.
 
-- **Založené na produkte**: Hodnota uvedená v cenovej ponuke je určená na základe množstva predaných jednotiek a jednotkovej predajnej ceny. Produkt na riadku cenovej ponuky založenej na produkte môže pochádzať z katalógu produktov v predaji alebo môže byť produktom, ktorý definujete. Tento typ riadka cenovej ponuky je k dispozícii aj v cenových ponukách založených na projektoch, ktoré sú vytvorené pomocou Project Operations.
+## <a name="cost-currency"></a>Mena nákladov
 
-Čiastka v cenovej ponuke je súčtom riadkov založených na produkte a riadkov založených na projekte.
+Nákladová mena v projektových operáciách je mena, v ktorej sa náklady vykazujú. Táto mena je odvodená od meny, ktorá je pripojená k poľu **Zmluvná jednotka** v ponuke, zmluve a projekte. Náklady na projekt môžu byť zaznamenané v akejkoľvek mene. Existuje však prevod meny z meny, v ktorej boli náklady zaznamenané, do meny nákladov projektu.
 
-> [!NOTE]
-> Cenové ponuky a riadky cenových ponúk sa v Project Operations nevyžadujú. Proces projektu môžete spustiť pomocou projektovej zmluvy (predaného projektu). Vždy je však potrebná príležitosť bez ohľadu na to, či začnete s ponukou alebo projektovou zmluvou.
+Keďže výmenné kurzy na platforme Dataverse  nemôžu byť platné podľa dátumu, celkové sumy nákladov na obrazovke sa môžu časom zmeniť, ak aktualizujete výmenné kurzy. Náklady, ktoré sú zaznamenané v databáze, však zostávajú nezmenené, pretože sumy sú uložené v mene, v ktorej boli vynaložené.
 
-## <a name="project-based-quote-lines"></a>Riadky cenových ponúk založené na projekte
+## <a name="sales-currency"></a>Mena predaja
 
-Riadok cenovej ponuky založenej na projekte v Project Operations má nasledujúce metódy fakturácie:
+Mena predaja v projektových operáciách je mena, v ktorej sa zaznamenávajú a zobrazujú odhadované a skutočné sumy predaja. Je to tiež mena, v ktorej je zákazníkovi fakturovaná transakcia. Pre cenovú ponuku projektu je predvolená predajná mena nastavená zo záznamu zákazníka alebo účtu a možno ju zmeniť pri vytvorení ponuky. Mena predaja sa však po uložení cenovej ponuky nedá zmeniť. Predvolené cenníky produktov a projektov sú nastavené na základe predajnej meny ponuky.
 
-- Čas a materiál
-- Pevná cena
+Na rozdiel od nákladov sa hodnoty predaja môžu zaznamenávať **iba** v mene predaja.
 
-### <a name="time-and-material"></a>Čas a materiál
+## <a name="billing-method"></a>Spôsob fakturácie
 
-Metóda fakturácie času a materiálu je založená na spotrebe. Keď vyberiete túto fakturačnú metódu, zákazník sa fakturuje, pretože v projekte vzniknú náklady. Faktúry sú vytvorené na základe dátumu periodickej frekvencie. Počas predajného procesu poskytuje ponuková hodnota časovej a materiálnej zložky iba odhad konečných nákladov pre zákazníka. Dodávateľ sa zaväzuje dokončiť projekt presne na ponukovú hodnotu. Komponenty času a materiálu zvyšujú riziko zákazníka. Zákazníci by mohli chcieť rokovať o dodatočnom neprekračovaní doložiek, aby sa minimalizovalo ich riziko. Project Operations nepodporuje nastavenie neprekračovať doložky.
+Projekty majú zvyčajne modely zmlúv s pevným poplatkom a na základe spotreby. V projektových operáciách je zmluvný model projektu reprezentovaný metódou fakturácie. Spôsob účtovania má dve hodnoty: čas a materiál a pevnú cenu.
 
-### <a name="fixed-price"></a>Pevná cena
+- **Čas a materiál** – Model kontraktov založený na spotrebe, kde sú všetky vynaložené náklady podložené príslušnými výnosmi. Keď odhadnete alebo vzniknú ďalšie náklady, zvýši sa aj zodpovedajúci odhadovaný a skutočný predaj. Môžete určiť nepresahujúce limity riadkov cenových ponúk, ktoré majú tento spôsob fakturácie. Týmto spôsobom môžete obmedziť skutočné príjmy. Neprekročenie limitov neovplyvňuje odhadovaný výnos.
+- **Pevná cena** – model kontraktu s pevným poplatkom, kde hodnoty predaja sú nezávislé od vynaložených nákladov. Hodnota predaja je nemenná a nemení sa podľa vašich odhadov ani nespôsobuje vyššie náklady.
 
-V metóde fakturovania pevnej ceny sa dodávateľ zaväzuje dodávať projekt za pevnú cenu zákazníkovi. Zákazníkovi sa fakturuje ponuková hodnota riadka s pevnou cenou, bez ohľadu na náklady, ktoré dodávateľ vyrobil na doručenie daného riadka cenovej ponuky. Hodnota riadka s pevnou cenou sa fakturuje jedným z nasledujúcich spôsobov: 
+## <a name="project-price-lists"></a>Projektové cenníky
 
-- Ako paušálna suma na začiatku alebo na konci projektu, alebo keď je dosiahnutý míľnik projektu. 
-- Na základe frekvencie založenej na dátume rovnakých splátok pevnej hodnoty v riadku cenovej ponuky. Tieto splátky sú známe ako periodické míľniky.
-- V splátkach, ktoré majú peňažnú hodnotu, ktorá je v súlade s pokrokom práce alebo konkrétne míľniky, ktoré sú dosiahnuté na projekte. V tomto prípade sa hodnota každej splátky môže líšiť, ale všetky sa musia pridať do pevnej hodnoty v riadku cenovej ponuky.
+Projektové cenníky sú cenníky, ktoré sa používajú na zadanie predvolených cien, nie nákladových sadzieb, pre čas, náklady a iné komponenty súvisiace s projektom. Cenníkov môže byť viac a každý zoznam môže mať svoju vlastnú dátumovú účinnosť pre každú cenovú ponuku projektu. Projektové operácie nepodporujú účinnosť prekrývajúcich sa dátumov pre cenníky projektov.
 
-Project Operations podporuje všetky tri typy fakturačných rozvrhov pre riadky cenovej ponuky s pevnou cenou.
+## <a name="product-price-lists"></a>Cenníky produktov
 
-## <a name="transaction-classification"></a>Klasifikácia transakcie
+Cenníky produktov sú cenníky, ktoré sa používajú na zadanie predvolených cien, nie nákladových sadzieb, pre produktové rady v cenovej ponuke. Pre jednu cenovú ponuku existuje iba jeden cenník produktov.
 
-Profesionálne servisné organizácie zvyčajne oceňujú a fakturujú svojich zákazníkov podľa klasifikácie nákladov. Náklady reprezentované nasledujúcimi klasifikáciami transakcií:
+## <a name="transaction-classes"></a>Triedy transakcií
 
-- **Čas**: Táto klasifikácia predstavuje náklady na prácu alebo čas ľudských zdrojov na projekte.
-- **Výdavok**: Táto klasifikácia predstavuje všetky ostatné druhy výdavkov na projekt. Pretože výdavky môžu byť široko klasifikované, väčšina organizácií vytvára podkategórie, ako je cestovanie, požičovňa áut, hotel, alebo kancelárske potreby.
-- **Poplatok**: Táto klasifikácia predstavuje rôzne režijné náklady, penále a iné položky, ktoré sú účtované zákazníkovi. 
-- **Daň**: Táto klasifikácia predstavuje čiastky dane, ktoré používatelia pridajú pri zadávaní výdavkov.
-- **Materiálová transakcia**: Táto klasifikácia predstavuje skutočné hodnoty z produktových radov na potvrdenej faktúre projektu.
-- **Míľnik**: Táto klasifikácia je používaná logikou fakturácie fixnej ceny.
+Project Operations podporuje štyri typy tried transakcií:
 
-Jedna alebo viacero klasifikácií transakcie môže byť priradených ku riadkom cenovej ponuky. Po zvíťazení cenovej ponuky sa priradenie medzi klasifikáciou transakcie a riadkom cenovej ponuky prevedie do riadka zmluvy.
-  
-Cenová ponuka môže napríklad obsahovať nasledujúce dva riadky cenovej ponuky: 
+- Čas
+- Výdavok
+- Materiál
+- Poplatok
 
-- Konzultačná práca, ktorá používa metódu fakturácie času a materiálu, kde sa uplatňujú klasifikácie transakcií s časom a poplatkami. Napríklad všetky transakcie času a poplatkov pre príklad **Dynamics AX Implementácie** projektu sú fakturované zákazníkovi na základe času a materiálov, ktoré sa používajú. 
-- Súvisiace cestovné výdavky, ktoré používajú metódu účtovania pevnej ceny. Napríklad, všetky cestovné výdavky na **Dynamics AX implementáciu** príkladný projekt sú fakturované pevnou peňažnou hodnotou.
+Hodnoty nákladov a predaja možno odhadnúť a vynaložiť na **Čas**, **Výdavky** a **Materiál** triedy transakcií. **Poplatok** je trieda transakcií iba s výnosmi.
 
-> [!NOTE]
-> Kombinácia projektu a klasifikácie transakcií **času**, **nákladov** a **poplatkov**, ktoré súvisia s riadkom cenovej ponuky alebo riadkom zmluvy, musia byť jedinečná. Ak je rovnaká kombinácia projektovej a transakčnej triedy priradená k viac ako jednému riadku zmluvy alebo riadku cenovej ponuky, Project Operations nebude pracovať správne.
+## <a name="work-entities-and-billing-entities"></a>Pracovné entity a fakturačné entity
 
-## <a name="billing-types"></a>Typy fakturácie
+Projekty a úlohy sú entity, ktoré predstavujú prácu. Riadky cenovej ponuky a Riadky zmluvy sú entity, ktoré predstavujú fakturáciu. Rôzne pracovné entity môžete prepojiť s možnosťami fakturácie tak, že ich priradíte k riadkom ponuky alebo k riadkom zmluvy.
 
-Pole **Typy fakturácie** definuje koncept účtovateľnosti. Je to množina možností, ktorá má nasledujúce možné hodnoty:
+## <a name="multi-customer-deals"></a>Dohody s viacerými zákazníkmi
 
-- **Účtovateľné**: Náklady, ktoré vznikli touto rolou/kategóriou, sú priame náklady, ktoré riadia realizáciu projektu a zákazník bude za túto prácu platiť. Platba môže byť podaná ako časovo-materiálová alebo fixná-cena dojednania. Zamestnanec, ktorý tento čas trávi, však získa zodpovedajúci kredit za jeho fakturovateľné využitie.
-- **Neúčtovateľné**: Náklady, ktoré vznikli touto rolou/kategóriou, sú považované za priame náklady, ktoré riadia realizáciu projektu, no napriek tomu zákazník nerozpozná tento fakt a nebude za túto prácu platiť. Zamestnanec, ktorý trávi tento čas, nebude pripísaný na fakturovateľné využitie.
-- **Bezplatné**: Náklady, ktoré vznikli touto rolou/kategóriou, sú považované za priame náklady, ktoré riadia realizáciu projektu a zákazník rozozná tento fakt. Zamestnanec, ktorý trávi tento čas, bude pripísaný na fakturovateľné využitie. Táto cena však nie je účtovaná zákazníkovi.
-- **Nie je k dispozícii**: Náklady vynaložené na interné projekty, ktoré nevyžadujú sledovanie výnosov, sa sledujú pomocou tejto možnosti.
+K dohodám s viacerými zákazníkmi dochádza vtedy, keď na faktúru pripadá viac ako jeden zákazník. Tu je niekoľko typických príkladov:
 
-## <a name="invoice-schedule"></a>Plán faktúry
+- **Spoločnosti výrobcov originálneho vybavenia (OEM) a ich partneri** – Partneri a predajcovia predávajú produkt, ktorý zahŕňa služby s pridanou hodnotou. Počas obchodu so zákazníkom OEM zvyčajne ponúka financovanie časti projektu.
+- **Projekty verejného sektora** – Viaceré oddelenia miestnej samosprávy súhlasia s financovaním projektu a sú fakturované podľa vopred dohodnutého rozdelenia. Napríklad školský obvod a úrad mesta alebo vládnej organizácie súhlasia s financovaním stavby kúpaliska.
 
-Plán faktúry je séria dátumov, ktoré sa pri fakturácii projektu vyskytnú. Môžete voliteľne vytvoriť plán fakturácie v riadku cenovej ponuky. Každý riadok cenovej ponuky môže mať vlastný plán fakturácie. Ak chcete vytvoriť plán fakturácie, musíte poskytnúť nasledovné hodnoty atribútov:
+## <a name="invoice-schedules"></a>Plány faktúry
 
-- Dátum začatia fakturácie 
-- Dátum dodania, ktorý predstavuje koncový dátum fakturácie projektu
-- Frekvencia faktúr
+Plány faktúr sú špecifické pre každý riadok cenovej ponuky a sú voliteľné. Plány faktúr sa vytvárajú na základe konkrétnych dátumov začiatku a konca a frekvencie faktúr. Používajú sa vo fáze zmluvy, keď je nakonfigurovaný proces automatického vytvárania faktúr. Počas fázy cenovej ponuky sú rozvrhy faktúr voliteľné. Ak sa vytvoria počas fázy cenovej ponuky, skopírujú sa do projektovej zmluvy, ktorá sa vytvorí po získaní ponuky na projekt.
 
-Tieto tri hodnoty atribútov sa používajú na generovanie predbežného súboru dátumov na zriadenie fakturácie.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Rozdiely od cenových ponúk Dynamics 365 Sales
 
-## <a name="invoice-frequency"></a>Frekvencia faktúr
+Cenové ponuky Project Operations sú postavené na ponukách Dynamics 365 Sales. Mali by ste si však uvedomiť niekoľko dôležitých rozdielov vo funkčnosti:
 
-Faktúra frekvencia je entita, ktorá uchováva hodnoty atribútov, ktoré pomáhajú vyjadriť frekvenciu vytvárania faktúr. Nasledujúce atribúty vyjadrujú alebo definujú entitu frekvencia faktúr:
+- Cenové ponuky Project Operations majú dva rôzne typy riadkov: jeden pre projekty a jeden pre produkty.
+- Cenové ponuky Project Operations majú svoju vlastnú stránku a prvky používateľského rozhrania (UI), obchodné pravidlá, obchodnú logiku v zásuvných moduloch a skripty na strane klienta, ktoré ich odlišujú od predajných ponúk.
+- V Predaji môžete k jednej predajnej ponuke pripojiť viacero objednávok. V prevádzke projektu môžete k cenovej ponuke projektu pripojiť iba jednu projektovú zmluvu.
+- Keď vyhráte cenovú ponuku, súvisiaca príležitosť môže zostať otvorená. Po víťaznej projektovej cenovej ponuke sa uzavrie súvisiaca príležitosť.
+- Predajná ponuka nezahŕňa niektoré polia a koncepty, ktoré zahŕňa ponuka projektu. Polia zahŕňajú **zmluvnú jednotku**, **Account Manager** a **faktúra na kontaktné meno**.
+- Predajné ponuky a ponuky projektov sú identifikované podľa poľa množina možností–based **Typ** . Pre cenovú ponuku predaja je hodnota tohto poľa **Na základe položky**. Pre cenovú ponuku projektu je hodnota **Na základe práce**.
 
-- **Obdobie**: Obdobia mesačne, dvojtýždenne, a týždenne sú podporované. 
-- **Spustenia za obdobie**: Pre týždenné a dvojtýždňové obdobie môžete definovať iba jedno spustenie za obdobie. V mesačných obdobiach môžete definovať medzi jedným a štyrmi spusteniami za obdobie. 
-- **Dni spustenia**: Dni, kedy sa má fakturácia spustiť. Tento atribút môžete nastaviť dvoma rôznymi spôsobmi:
-  - **Pracovné dni**: Môžete napríklad určiť, že fakturácia sa spustí každý pondelok alebo každý druhý pondelok. Zákazníci, ktorí musia nastaviť fakturáciu na spustenie v pracovnom dni, môžu preferovať tento typ konfigurácie. 
-  - **Kalendárne dni**: Môžete napríklad určiť, že fakturácia sa spustí v siedmom a dvadsiatom prvom dni každého mesiaca. Niektoré organizácie môžu preferovať tento typ konfigurácie, pretože to pomáha zaručiť, že fakturácia je spustená na pevný harmonogram každý mesiac.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Plán fakturácie pre riadok cenovej ponuky s pevnou cenou
-
-Pre riadok cenovej ponuky s pevnou cenou môžete použiť mriežku **plánu fakturácie** na vytvorenie míľnikov fakturácie, ktoré sa rovnajú hodnote riadka cenovej ponuky.
-
-- Ak chcete vytvoriť rovnako rozdelené fakturačné míľniky, vyberte frekvenciu fakturácie, zadajte dátum začiatku fakturácie v riadku cenovej ponuky a vyberte **požadovaný dátum dokončenia** cenovej ponuky v sekcii **súhrn** v hlavičke cenovej ponuky. Potom vyberte **generovať periodické míľniky** na vytvorenie rovnomerne rozdelených míľnikov na základe vybranej frekvencie faktúr. 
-- Ak chcete vytvoriť míľnik fakturácie paušálnej čiastky, vytvorte míľnik a potom zadajte hodnotu riadka cenovej ponuky ako čiastku míľnika.
-- Ak chcete vytvoriť fakturačné míľniky, ktoré sú založené na konkrétnych úlohách v pláne projektu, vytvorte míľnik a mapujte ho na prvok plánu projektu v používateľskom rozhraní fakturačného míľnika.
-
+Kvôli týmto rozdielom neodporúčame, aby ste zamieňali ponuky Predajné a Projektové operácie.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

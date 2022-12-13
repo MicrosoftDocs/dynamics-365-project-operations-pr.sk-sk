@@ -1,29 +1,29 @@
 ---
-title: Riadky príležitostí založených na projekte – čiastočné
+title: Linky projektových príležitostí
 description: Tento článok poskytuje informácie o riadkoch príležitostí založených na projekte. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914283"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824975"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Riadky príležitostí založených na projekte – čiastočné
+# <a name="project-opportunity-lines"></a>Linky projektových príležitostí 
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 
-Riadky príležitostí založené na projekte sú k dispozícii iba v prípade príležitostí založených na projekte. Záznamy príležitostí založených na projekte majú hodnoty poľa **Typ** nastavenú na **Založené na práci**.
+Riadky projektových príležitostí sú dostupné len v projektových príležitostiach. Záznamy príležitostí založených na projekte majú hodnoty poľa **Typ** nastavenú na **Založené na práci**.
 
-Riadky príležitostí založené na projekte sú riadkové položky, ktoré sa zákazníkovi doručia pomocou projektu. Projekt však nemožno spojiť s riadkom príležitosti založenej na projekte. Projekty je možné naviazať na riadkové položky v etape **Cenová ponuka** a ďalej, pretože príležitosť sa zvyčajne vyskytuje v počiatočnom štádiu životného cyklu obchodu. Rozhodnutie, koľko projektov sa použije na dodanie diela pre zákazníka, je rozhodnutím, ktoré sa urobí neskôr vo fáze predaja. Fázu príležitosti môžete použiť na identifikáciu jednotlivých komponentov dodávky pre zákazníka. Rozhodnutia týkajúce sa skutočného počtu projektov použitých na dodanie týchto komponentov je možné vytlačiť, kým nebudú známe ďalšie informácie o samotnej práci.
+Riadky projektových príležitostí sú riadkové položky, ktoré budú doručené zákazníkovi pomocou projektu. Projekt však nemožno spojiť s riadkom príležitosti založenej na projekte. Projekty je možné naviazať na riadkové položky v etape **Cenová ponuka** a ďalej, pretože príležitosť sa zvyčajne vyskytuje v počiatočnom štádiu životného cyklu obchodu. Rozhodnutie, koľko projektov sa použije na dodanie diela pre zákazníka, je rozhodnutím, ktoré sa urobí neskôr vo fáze predaja. Fázu príležitosti môžete použiť na identifikáciu jednotlivých komponentov dodávky pre zákazníka. Rozhodnutia týkajúce sa skutočného počtu projektov použitých na dodanie týchto komponentov je možné vytlačiť, kým nebudú známe ďalšie informácie o samotnej práci.
 
-Nižšie sú uvedené polia na riadku príležitostí založených na projekte:
+Nižšie sú polia v riadku projektových príležitostí:
 
-| **Pole** | **Miesto** | **Opis** | **Nadväzujúci vplyv** |
+| **Pole** | **Location** | **Opis** | **Nadväzujúci vplyv** |
 | --- | --- | --- | --- |
 | Typ produktu | Karta Všeobecné (skrytá) | Môžete vybrať jednu z nasledujúcich možností:</br>- Služba založená na projekte (k dispozícii iba vtedy, keď je nainštalovaná služba Dynamics 365 Project Operations)</br>- Produkt (k dispozícii iba vtedy, keď sú nainštalované Project Operations a Dynamics 365 Sales) | Hodnota tohto poľa sa nastaví na **Služba založená na projekte**, keď vytvoríte riadok príležitosti založenej na projekte z mriežky riadkov na základe projektu v príležitosti. <br> Ak túto hodnotu zmeníte alebo prepíšete, vo vašich riadkových položkách založených na projekte nebude povolená funkčnosť projektu. |
 | Príležitosť | Karta Všeobecné | Toto pole je iba na čítanie a odkazuje na nadradený záznam príležitosti, ku ktorému patrí táto riadková položka. | Toto pole nemá žiadny následný dopad. |

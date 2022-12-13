@@ -1,23 +1,23 @@
 ---
-title: Správa viacerých zákazníkov v projektovej cenovej ponuke
+title: Spravujte viacerých zákazníkov na základe projektovej cenovej ponuky
 description: Tento článok poskytuje informácie o práci na cenových ponukách, ktoré sa týkajú viacerých zákazníkov, ktorí budú financovať projekt.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928221"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825168"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Správa viacerých zákazníkov v projektovej cenovej ponuke
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Spravujte viacerých zákazníkov na základe projektovej cenovej ponuky
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Cenové ponuky projektu podporujú scenár, keď návrh zahŕňa viacerých zákazníkov, ktorí budú financovať obchod. Karta **Súhrn** cenovej ponuky obsahuje pole **Potenciálny zákazník**, ktoré identifikuje primárneho zákazníka obchodu. Ďalší zákazníci pre obchod môžu byť nastavení na karte **Zákazníci** cenovej ponuky projektu.
+Cenové ponuky založené na projekte podporujú scenár, v ktorom návrh zahŕňa viacerých zákazníkov, ktorí budú obchod financovať. Karta **Súhrn** cenovej ponuky obsahuje pole **Potenciálny zákazník**, ktoré identifikuje primárneho zákazníka obchodu. Ďalší zákazníci pre obchod môžu byť nastavení na karte **Zákazníci** cenovej ponuky projektu.
 
 Všetky cenové ponuky zákazníkov na karte **Zákazníci** cenovej ponuky projektu budú predvolené ako riadok cenovej ponuky zákazníkov na všetkých **nových** riadkoch cenovej ponuky založenej na projekte vytvorených pre cenovú ponuku. Žiadne existujúce riadky cenových ponúk založené na projekte nebudú dediť nové zákaznícke záznamy cenových ponúk vytvorené po nich.
 

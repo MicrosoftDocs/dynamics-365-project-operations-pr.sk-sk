@@ -1,21 +1,21 @@
 ---
-title: Vytvorenie zálohy ad hoc v zmluve
+title: Vytvorte ad hoc zálohu na zmluvu o projekte
 description: Tento článok poskytuje informácie o vytvorení zálohy v zmluve podľa potreby.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 62e41e5faeb5e40143e26e2cdf48c1279941a6b4
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922195"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824881"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Vytvorenie zálohy ad hoc v zmluve
+# <a name="create-an-ad-hoc-advance-on-a-project-contract"></a>Vytvorte ad hoc zálohu na zmluvu o projekte
 
-_**Platí pre:** Projektové operácie pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Platí pre:** Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch, čiastočné nasadenie – dohoda o fakturácii pro forma_
 
 Microsoft Dynamics 365 Project Operations podporuje fakturačné scenáre, ktoré zahŕňajú preddavky a zálohy. Proces používania **Záloh** v **Project Operations** je podobný zmluvám založeným na **Preddavkoch**. 
 

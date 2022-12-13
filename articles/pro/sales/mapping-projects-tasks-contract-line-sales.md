@@ -1,23 +1,23 @@
 ---
-title: Mapovanie projektov a úloh na riadok zmluvy založenej na projekte – čiastočné
+title: Mapovanie projektov a úloh na riadok projektovej zmluvy
 description: Tento článok poskytuje informácie o pridávaní a odstraňovaní projektov a úloh na riadok zmluvy.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932545"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825078"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapovanie projektov a úloh na riadok projektovej zmluvy 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Mapovanie projektov a úloh na riadok projektovej zmluvy 
 
 _**Vzťahuje sa na:** Čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-V riadkoch zmlúv založených na projektoch môžete mapovať konkrétne úlohy v projekte na riadok zmluvy.
+Na riadkoch projektovej zmluvy môžete priradiť konkrétne úlohy v projekte k riadku zmluvy.
 
 Keď mapujete konkrétne úlohy na riadok zmluvy, metóda fakturácie, možnosti účtovania, limity neprekročenia a zákazníci definovaní na riadku zmluvy sa budú vzťahovať iba na tieto konkrétne úlohy.
 
@@ -25,7 +25,7 @@ Ak máte scenár, v ktorom jedna fáza projektu, napríklad fáza prototypov, m�
 
 Všetky ďalšie fázy vo vašej štruktúre rozdelenia práce na projekte (WBS) môžu byť spojené s riadkom zmluvy závislým od času a materiálu.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Priradenie úloh k riadkom zmluvy založeným na projekte
+## <a name="associate-tasks-to-project-contract-lines"></a>Priraďte úlohy k projektovým zmluvným líniám
 
 Úlohy môžu byť spojené s riadkami zmluvy z karty **Fakturovateľné úlohy** na stránke **Riadok zmluvy** alebo z karty **Fakturácia úloh** na stránke **Projekt**.
 

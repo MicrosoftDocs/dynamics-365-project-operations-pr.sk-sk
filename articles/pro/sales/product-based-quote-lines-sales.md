@@ -1,19 +1,19 @@
 ---
-title: Prehľad riadkov cenových ponúk založených na produkte – čiastočné
+title: Prehľad riadkov cenových ponúk založených na produkte
 description: Tento článok poskytuje informácie o práci s riadkami cenovej ponuky založenej na projekte.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a260c0f51cc2d958281dbc6f0f711347cab85a9a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914329"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826242"
 ---
-# <a name="product-based-quote-lines-overview---lite"></a>Prehľad riadkov cenových ponúk založených na produkte – čiastočné
+# <a name="product-based-quote-lines-overview"></a>Prehľad riadkov cenových ponúk založených na produkte
 
 _**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
 

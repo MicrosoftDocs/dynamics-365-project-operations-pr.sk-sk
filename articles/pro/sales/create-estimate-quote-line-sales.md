@@ -1,21 +1,21 @@
 ---
-title: Odhadovanie riadka cenovej ponuky založenej na projekte
-description: Tento článok poskytuje informácie o tom, ako vytvoriť odhad riadka cenovej ponuky založenej na projekte.
+title: Odhad riadka projektovej cenovej ponuky
+description: Tento článok poskytuje informácie o tom, ako vytvoriť odhad na riadku cenovej ponuky projektu.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914375"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826007"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Odhadovanie riadka cenovej ponuky založenej na projekte
+# <a name="estimate-a-project-quote-line"></a>Odhad riadka projektovej cenovej ponuky
 
-_**Platí pre:** Čiastočné nasadenie – dohoda o fakturácii pro forma_
+_**Vzťahuje sa na:** Čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
 Riadok cenovej ponuky založenej na projekte obsahuje podrobnosti, ktoré pomáhajú pri odhadovaní nákladov a potenciálnych výnosov z práce potrebnej na dodanie riadka cenovej ponuky.
 
@@ -24,7 +24,7 @@ Ak chcete odhadnúť riadok cenovej ponuky založenej na projekte, v riadku ceno
 - Ručne vytvorte odhad priamo na riadku cenovej ponuky pomocou podrobností o riadku cenovej ponuky. 
 - Vytvorte projekt a plán projektu a potom projekt a úlohy v projekte priraďte k riadku cenovej ponuky. Bude povolený proces importu odhadov plánu projektu do riadku cenovej ponuky na základe vami poskytnutých informácií.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Vytvorenie priamych odhadov riadka cenovej ponuky založenej na projekte
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Vytvorte odhady priamo na riadku projektovej ponuky
 
 Ak chcete vytvoriť odhad riadka cenovej ponuky založenej na projekte, vyberte kartu **Podrobnosti o riadku cenovej ponuky**. Riadková položka, ktorú vytvoríte na tejto karte, zhrnie hodnotu cenovej ponuky pre tento riadok cenovej ponuky. 
 
@@ -68,8 +68,7 @@ Mena v podrobnostiach o riadku cenovej ponuky pre predvolené náklady z cenník
 
 Výpočty ziskovosti prevádzajú čiastku v podrobnostiach o riadku cenovej ponuky na náklady a predaj do základnej meny prostredia na vykazovanie celkovej odhadovanej marže v cenovej ponuke.
 
-> [!POZNÁMKA
-> > Mohli by sa vyskytnúť chyby zaokrúhľovania mien a zmenené marže z dôvodu chýbajúcich výmenných kurzov platných k dátumu. Tieto výpočty používajte iba na projektové zmluvy, pretože ide o aproximácie a nejde o skutočné zákonné ani iné zostavy, ktoré si pri výmenných kurzoch vyžadujú vyššiu presnosť zaokrúhľovania a zohľadnenie účinnosti dátumu.
+> [!POZNÁMKA Chyby pri zaokrúhľovaní meny a zmenené marže sa môžu vyskytnúť z dôvodu chýbajúcich dátumov platných výmenných kurzov. Tieto výpočty používajte iba na projektové zmluvy, pretože ide o aproximácie a nejde o skutočné zákonné ani iné zostavy, ktoré si pri výmenných kurzoch vyžadujú vyššiu presnosť zaokrúhľovania a zohľadnenie účinnosti dátumu.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

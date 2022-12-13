@@ -1,23 +1,23 @@
 ---
-title: Konfigurácia fakturovateľných súčastí riadka zmluvy založenej na projekte
+title: Konfigurácia fakturovateľných súčastí v riadku projektovej zmluvy
 description: Tento článok poskytuje informácie o tom, ako pridávať účtovateľné súčasti do riadkov zmluvy v Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0e4118e8e56d45ef75f53d828e267a8a9c1c903a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 33296c93964cc88499e7a98d499b99463e59d62a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sk-SK
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922977"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825584"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurácia fakturovateľných súčastí riadka zmluvy založenej na projekte
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Konfigurácia fakturovateľných súčastí v riadku projektovej zmluvy
 
 _**Vzťahuje sa na:** Čiastočné nasadenie – dohoda o fakturácii pro forma, Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch_
 
-Riadok zmluvy na základe projektu obsahuje *zahrnuté* zložky a *účtovateľné* zložky.
+Riadok projektovej zmluvy obsahuje *zahŕňa* komponenty a *spoplatnené* komponenty.
 
 Zahrnuté zložky sú zložky, ktoré sa vzťahujú na:
 
