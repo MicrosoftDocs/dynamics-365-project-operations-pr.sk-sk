@@ -60,12 +60,16 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Odinštalovanie aplikácie Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
-    - name: Čo je nové
+    - name: Novinky
       items:
-        - name: "September\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: "November\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Archív
           items:
+            - name: "Október\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: "September\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: "August\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: "Júl\_2022 – Project Operations pre scenáre založené na zdrojoch/chýbajúcich zdrojoch"
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Organizačné jednotky
               href: sales/OrgUnits.md
-        - name: Správa projektových potenciálnych zákazníkov
+        - name: Správa potenciálnych zákazníkov založených na projekte
           href: sales/manage-leads.md
-        - name: Správa projektových príležitostí
+        - name: Správa príležitostí založených na projekte
           items:
             - name: Prehľad správy projektových príležitostí
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Riadky príležitostí založených na projekte
               href: sales/project-based-lines.md
-            - name: "Vytvorenie projektových cenových ponúk z\_príležitostí"
+            - name: "Vytvorenie cenových ponúk z\_projektových príležitostí"
               href: sales/link-quotes-opportunities.md
-            - name: Kopírovanie príležitostí založených na projekte
+            - name: Kopírovanie projektových príležitostí
               href: sales/copy-project-based-opportunity.md
             - name: Uzavretie projektovej príležitosti
               href: sales/close-opportunity.md
-        - name: Správa projektových cenových ponúk
+        - name: Správa cenových ponúk založených na projekte
           items:
             - name: Prehľad správy projektových cenových ponúk
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Podrobnosti hlavičky pre cenové ponuky založené na projekte
               href: sales/quote-values-budget-limits-contract.md
-            - name: "Správa viacerých zákazníkov v\_projektovej cenovej ponuke"
+            - name: "Správa viacerých zákazníkov v\_cenovej ponuke založenej na projekte"
               href: sales/manage-multiple-customers-quote.md
-            - name: "Správa projektových cenníkov v\_cenovej ponuke"
+            - name: "Projektové cenníky v\_projektových cenových ponukách"
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Riadky cenových ponúk založených na projekte
               items:
-                - name: Prehľad riadkov cenových ponúk založených na projekte
+                - name: Prehľad riadkov projektových cenových ponúk
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: "Správa viacerých zákazníkov v\_riadkoch cenových ponúk založených na projekte"
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: "Mapovanie projektov a\_úloh na riadky cenových ponúk založených na projekte"
+                - name: "Mapovanie projektov a\_úloh na riadky projektových cenových ponúk"
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfigurácia fakturovateľných súčastí pre riadky cenových ponúk založených na projekte
+                - name: "Konfigurácia fakturovateľných súčastí v\_riadkoch projektových cenových ponúk"
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Konfigurácia fakturovateľných súčastí riadka projektovej cenovej ponuky
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Odhad riadka projektovej cenovej ponuky
-                  href: sales/create-estimate-quote-line.md
-                - name: "Import odhadov z\_projektu do riadka cenovej ponuky založenej na projekte"
-                  href: sales/import-estimate-quote-line.md
-                - name: "Plány faktúr v\_riadkoch cenových ponúk založených na projekte"
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: "Import odhadov z\_projektu do riadka projektovej cenovej ponuky"
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: "Plány faktúr v\_riadkoch projektových cenových ponúk"
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopírovanie projektových cenových ponúk
               href: sales/lose-quote.md
             - name: "Aktivácia a\_revízia projektovej cenovej ponuky"
               href: sales/activation-and-revision.md
-            - name: Uzavretie projektových cenových ponúk
+            - name: Uzavretie cenových ponúk založených na projekte
               href: sales/win-quote.md
-        - name: Správa projektových zmlúv
+        - name: Správa zmlúv založených na projekte
           items:
-            - name: Prehľad správy projektových zmlúv
+            - name: Správa projektových zmlúv
               href: pro/sales/manage-contracts-sales.md
             - name: Koncepty jedinečné pre zmluvy založené na projekte
               href: sales/contracts-key-concepts.md
             - name: Podrobnosti hlavičky pre zmluvy založené na projekte
               href: sales/project-contract-settings.md
-            - name: "Správa projektových cenníkov v\_projektových zmluvách"
+            - name: "Správa projektových cenníkov v\_zmluvách založených na projekte"
               href: sales/contracts-manage-project-price-lists.md
-            - name: "Správa viacerých zákazníkov v\_projektových zmluvách"
+            - name: "Správa viacerých zákazníkov v\_zmluvách založených na projekte"
               href: sales/manage-multiple-customers-contract.md
             - name: Riadky zmlúv založených na projekte
               items:
-                - name: Prehľad riadkov zmlúv založených na projekte
+                - name: Prehľad riadkov projektových zmlúv
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: "Správa viacerých zákazníkov v\_riadkoch zmlúv založených na projekte"
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: "Mapovanie projektov a\_úloh v\_riadku projektovej zmluvy"
+                - name: "Mapovanie projektov a\_úloh na riadok projektovej zmluvy"
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Konfigurácia fakturovateľných súčastí pre riadok projektovej zmluvy
+                - name: Konfigurácia fakturovateľných súčastí riadka projektovej zmluvy
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Odhad riadka projektovej zmluvy
+                - name: Odhad riadka zmluvy založenej na projekte
                   href: sales/create-estimate-contract-line.md
-                - name: "Import odhadov z\_projektu do riadka zmluvy založenej na projekte"
-                  href: sales/import-estimate-project-contract-line.md
-                - name: "Vytvorenie plánov faktúr v\_riadkoch zmlúv založených na projekte"
+                - name: "Import odhadov z\_projektu do riadka projektovej zmluvy"
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: "Vytvorenie plánov faktúr v\_riadku zmluvy založenej na projekte"
                   href: sales/invoice-schedules-contract-line.md
             - name: Kopírovanie zmlúv založených na projekte
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: "Zálohy a\_preddavky"
               items:
-                - name: "Zálohy a\_zmluvy založené na preddavkoch"
+                - name: "Zálohy a\_projektové zmluvy založené na preddavkoch"
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Nastavenie plánu preddavkov
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: "Vytvorenie zálohy ad hoc v\_zmluve"
+                - name: "Vytvorenie zálohy ad hoc v\_projektovej zmluve"
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: "Ceny a\_náklady"
       items:
@@ -640,8 +642,10 @@
       items:
         - name: Migrácia plne fakturovaných medzníkov fakturácie počas overovacieho výpočtu
           href: advanced-configuration/migrating-invoiced-milestones.md
-        - name: 'Synchronizujte stav projektu, aby ste zabránili vstupu do uzavretých projektov'
+        - name: "Synchronizácia stavu projektu s\_cieľom zabrániť vstupu do uzavretých projektov"
           href: advanced-configuration/sync-project-status.md
+        - name: "Nastavenie konverzie meny na výpočet predajných cien z\_nákladových sadzieb"
+          href: advanced-configuration/currencyconversion.md
     - name: Inovácia
       items:
         - name: Dôležité informácie týkajúce sa inovácie pre moderné schválenia
@@ -670,12 +674,16 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model zabezpečenia
           href: environment/security-model.md
-    - name: Čo je nové
+    - name: Novinky
       items:
-        - name: "Novinky v\_septembri\_2022 – čiastočné nasadenie"
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: "Novinky v\_novembri\_2022 – čiastočné nasadenie"
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Archív
           items:
+            - name: "Novinky v\_októbri\_2022 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: "Novinky v\_septembri\_2022 – čiastočné nasadenie"
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: "Novinky v\_auguste\_2022 – čiastočné nasadenie"
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: "Novinky v\_júli\_2022 – čiastočné nasadenie"
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: "Vytvorenie cenových ponúk z\_projektových príležitostí"
               href: sales/link-quotes-opportunities.md
-            - name: Kopírovanie príležitostí založených na projekte
+            - name: Kopírovanie projektových príležitostí
               href: sales/copy-project-based-opportunity.md
             - name: Uzavretie projektovej príležitosti
               href: sales/close-opportunity.md
-        - name: Správa cenových ponúk založených na projekte
+        - name: Správa projektových cenových ponúk
           items:
-            - name: Prehľad cenových ponúk založených na projekte
+            - name: Prehľad projektových cenových ponúk
               href: pro/sales/manage-quotes-sales.md
             - name: Koncepty jedinečné pre projektové cenové ponuky
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Podrobnosti hlavičky pre projektové cenové ponuky
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: "Viacerí zákazníci v\_projektových cenových ponukách"
+            - name: "Správa viacerých zákazníkov v\_projektových cenových ponukách"
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: "Projektové cenníky v\_projektových cenových ponukách"
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Správa komplexných jednotiek pre riadky cenových ponúk založených na produkte
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Riadky cenových ponúk založených na projekte
+            - name: Riadky projektových cenových ponúk
               items:
-                - name: Prehľad riadkov cenových ponúk založených na projekte
+                - name: Prehľad riadkov projektových cenových ponúk
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Správa viacerých zákazníkov
+                - name: "Správa viacerých zákazníkov v\_riadkoch projektových cenových ponúk"
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: "Mapovanie projektov a\_úloh"
+                - name: "Mapovanie projektov a\_úloh na riadky projektových cenových ponúk"
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfigurácia fakturovateľných súčastí
+                - name: "Konfigurácia fakturovateľných súčastí v\_riadkoch projektových cenových ponúk"
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Odhad riadka cenovej ponuky založenej na projekte
+                - name: Odhad riadka projektovej cenovej ponuky
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: "Import odhadu z\_projektu"
+                - name: "Import odhadov z\_projektu do riadka projektovej cenovej ponuky"
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Správa plánov faktúr
+                - name: "Plány faktúr v\_riadkoch projektových cenových ponúk"
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopírovanie cenových ponúk založených na projekte
+            - name: Kopírovanie projektových cenových ponúk
               href: sales/lose-quote.md
             - name: "Aktivácia a\_revízia projektovej cenovej ponuky"
               href: sales/activation-and-revision.md
-            - name: Uzavretie cenových ponúk založených na projekte
+            - name: Uzavretie projektových cenových ponúk
               href: pro/sales/win-quote-sales.md
-        - name: Správa zmlúv založených na projekte
+        - name: Správa projektových zmlúv
           items:
-            - name: Prehľad zmlúv založených na projekte
+            - name: Prehľad projektových zmlúv
               href: pro/sales/manage-contracts-sales.md
             - name: Koncepty jedinečné pre projektové zmluvy
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Podrobnosti hlavičky pre projektové zmluvy
               href: pro/sales/project-contract-settings-sales.md
-            - name: "Viacerí zákazníci v\_projektových zmluvách"
+            - name: "Správa viacerých zákazníkov v\_projektových zmluvách"
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: "Projektové cenníky v\_projektových zmluvách"
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Správa komplexných jednotiek pre riadky zmlúv založených na produkte
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Riadky zmlúv založených na projekte
+            - name: Riadky projektových zmlúv
               items:
-                - name: Prehľad riadkov zmlúv založených na projekte
+                - name: Prehľad riadkov projektových zmlúv
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Správa viacerých zákazníkov zmluvy
+                - name: "Správa viacerých zákazníkov v\_projektových zmluvách"
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: "Mapovanie projektov a\_úloh na riadok projektovej zmluvy"
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: "Konfigurácia fakturovateľných súčastí v\_riadku projektovej zmluvy"
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Odhad riadka zmluvy založenej na projekte
+                - name: Odhad riadka projektovej zmluvy
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: "Import odhadov z\_projektu do riadka projektovej zmluvy"
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: "Správa plánov faktúr v\_riadku projektovej zmluvy"
+                - name: "Vytvorenie plánov faktúr v\_riadku projektovej zmluvy"
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Kopírovanie projektových zmlúv
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: "Zálohy a\_preddavky"
               items:
-                - name: "Zálohy a\_zmluvy založené na preddavkoch – čiastočné"
+                - name: "Zálohy a\_zmluvy založené na preddavkoch"
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Nastavenie plánu preddavkov – čiastočné
+                - name: Nastavenie plánu preddavkovNastavenie plánu preddavkov
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: "Vytvorenie zálohy ad hoc v\_zmluve – čiastočné"
+                - name: "Vytvorenie zálohy ad hoc v\_projektovej zmluve"
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: "Ceny a\_náklady"
       items:
@@ -1186,12 +1194,14 @@
           items:
             - name: "Aktualizácia aplikácie Project Operations v\_prostredí Finance"
               href: whats-new/ur5-nonstocked-installation.md
-    - name: Čo je nové
+    - name: Novinky
       items:
-        - name: "Novinky v\_septembri\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: "Novinky v\_októbri\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Archív
           items:
+            - name: "Novinky v\_septembri\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: "Novinky v\_júli\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: "Novinky v\_júni\_2022 – Project Operations pre scenáre založené na zdrojoch/výrobe"
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Prehľad nasadenia aplikácie Project Operations pre scenáre založené na zdrojoch/výrobe
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: "Prehľad projektového manažmentu a\_účtovníctva"
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Projektové účtovníctvo
+      items:
+        - name: "Prehľad projektového manažmentu a\_účtovníctva"
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Projektové úpravy
+          href: project-accounting/project-adjustments.md
     - name: "Proces predaja v\_rámci projektu"
       items:
         - name: Projektové ponuky
@@ -1442,7 +1456,7 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Čo je nové
+    - name: Novinky
       items:
         - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
