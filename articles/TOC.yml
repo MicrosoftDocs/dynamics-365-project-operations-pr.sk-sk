@@ -846,7 +846,7 @@
               items:
                 - name: "Zálohy a\_zmluvy založené na preddavkoch"
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Nastavenie plánu preddavkovNastavenie plánu preddavkov
+                - name: Nastavenie plánu preddavkov
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: "Vytvorenie zálohy ad hoc v\_projektovej zmluve"
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1456,7 +1456,7 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Novinky
+    - name: Čo je nové
       items:
         - name: "Plán vydania aktualizácií pre Project Service\_3.x"
           href: psa/version-history-ps.md
